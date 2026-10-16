@@ -7,6 +7,13 @@ for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.g
   for r in json.load(open(f)):
     p=f"{d}/previews/{r['ID']}.webp"
     if r['ID'] not in rows and os.path.exists(p) and 'id=' in r['Download URL']: r['_p']=p; rows[r['ID']]=r
+import ast
+_st=json.load(open('/workspace/freepsdking/state.json'))
+for x in _st.values():
+  if x.get('drive_id') and x.get('stage')=='uploaded' and x['id'] not in rows and os.path.exists(f"/workspace/freepsdking/previews/{x['id']}.webp"):
+    try: ps=ast.literal_eval(x.get('psd') or '{}')
+    except Exception: ps={}
+    rows[x['id']]=dict(ID=x['id'],**{'Download URL':x['link'],'Title':x.get('title') or 'Studio Background PSD','Category':x['cat'],'Tags':'','Description':'','Dimensions':f"{ps.get('W','?')}x{ps.get('H','?')} pixels",'DPI':f"{ps.get('dpi',300)} DPI",'File Size':f"{int(x.get('main_bytes',0))/1048576:.2f} MB",'Color Mode':ps.get('mode','RGB')},_p=f"/workspace/freepsdking/previews/{x['id']}.webp")
 CATMAP={'photo-album-12x36':('wedding-album-12x36','Wedding Album 12x36 PSD'),'photo-album-18x24':('album-18x24','Photo Album 18x24 PSD'),
 'photo-album-12x30':('album-12x30','Photo Album 12x30 PSD'),'photo-album-12x18':('album-12x18','Photo Album 12x18 PSD'),
 'album-cover':('album-cover','Album Cover PSD'),'album-background':('album-background','Album Background PSD'),
@@ -37,6 +44,7 @@ def cv(a):
 for d in out:
   im=Image.open(d['src']); d['q']=im.size[0]*im.size[1]//1000+os.path.getsize(d['src'])//1000
   m=re.search(r'([\d.]+)\s*MB',d['sz']); d['mb']=float(m.group(1)) if m else 0
+json.dump({d['id']:d['src'] for d in out},open('srcmap.json','w'))
 todo=[(d['src'],S+d['img']) for d in out if not os.path.exists(S+d['img'])]
 best=sorted([d for d in out if d['c']=='wedding-album-12x36'],key=lambda d:('karizma-album-psd' in d['g'],d['q']),reverse=True)[:60]
 os.makedirs(S+'/img/zoom',exist_ok=True)
