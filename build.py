@@ -197,7 +197,7 @@ open(f'{S}/favicon.svg','w').write('<svg xmlns="http://www.w3.org/2000/svg" view
 from PIL import ImageDraw,ImageFont
 og=Image.new('RGB',(1200,630),'#3b1a8f');dr=ImageDraw.Draw(og)
 for i,d in enumerate(trend[:6]):
-  t=Image.open(S+d['img']).convert('RGB');t.thumbnail((380,250));og.paste(t,(20+(i%3)*395,330+(i//3)*0) if i<3 else (20+(i%3)*395,330))
+  t=Image.open('media'+d['img']).convert('RGB');t.thumbnail((380,250));og.paste(t,(20+(i%3)*395,330+(i//3)*0) if i<3 else (20+(i%3)*395,330))
 try: F=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',64);F2=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',32)
 except: F=F2=ImageFont.load_default()
 dr.text((60,90),'FreeStudioPSD',font=F,fill='#fff');dr.text((60,180),f'{len(out):,}+ free wedding & Karizma album PSDs',font=F2,fill='#ddd6fe');dr.text((60,230),'No login. Free download.',font=F2,fill='#fde68a')
@@ -213,6 +213,6 @@ if not os.path.exists('indexnow.key'): open('indexnow.key','w').write(secrets.to
 IK=open('indexnow.key').read().strip(); open(f'{S}/{IK}.txt','w').write(IK)
 open(f'{S}/ads.txt','w').write('# ads.txt placeholder – replace with your real lines, e.g.\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n')
 open(f'{S}/ads.json','w').write(json.dumps({"enabled":False,"_help":"Set enabled true, add AdSense loader URL to head_scripts and paste each ad unit's HTML into slots. Empty slots keep the placeholder.","head_scripts":["https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"],"slots":{k:"" for k in ["leaderboard","infeed","sidebar","inarticle","responsive","countdown_top","countdown_mid","countdown_bottom"]}},indent=2))
-open(f'{S}/robots.txt','w').write(f'User-agent: *\nDisallow: /download/\nDisallow: /search/\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
+open(f'{S}/robots.txt','w').write(f'User-agent: *\nDisallow: /download/\nDisallow: /search/\nDisallow: /_tpl/\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
 open(f'{S}/_headers','w').write('/img/*\n  Cache-Control: public, max-age=31536000, immutable\n/data/*\n  Cache-Control: public, max-age=3600\n/download/*\n  X-Robots-Tag: noindex\n')
 print('designs',len(out),'tags',len(TOK),'cats',len(CATS),'urls',len(urls),'files',sum(len(f) for _,_,f in os.walk(S)))

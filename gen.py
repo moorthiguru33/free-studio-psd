@@ -1,8 +1,8 @@
-import json,glob,random,os,shutil,re,html,hashlib
+import json,subprocess,glob,random,os,shutil,re,html,hashlib
 random.seed(2026)
 SITE="https://freestudiopsd.pages.dev"
 rows={}
-for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_batch*.json')):
+for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_fsp_b*.json')):
   d=os.path.dirname(f)
   for r in json.load(open(f)):
     p=f"{d}/previews/{r['ID']}.webp"
@@ -24,6 +24,11 @@ quota={k:99999 for k in CATMAP}
 pick=[]
 for c,q in quota.items():
   L=[r for r in rows.values() if r['Category']==c]; random.shuffle(L); pick+=L[:q]
+MAXD=int(os.environ.get('FSP_MAXD','999999'))
+if len(pick)>MAXD:
+  extra=sorted([r for r in pick if r.get('_fsp')],key=lambda r:r['_fsp'])[MAXD-len(pick):] if False else None
+  keepn=MAXD; base=[r for r in pick if not r.get('_fsp')]; fs=sorted([r for r in pick if r.get('_fsp')],key=lambda r:(r['_fsp'],r['ID']))
+  pick=base+fs[:max(0,keepn-len(base))]; print('CAP: designs limited to',len(pick),'(dropped',len(fs)-max(0,keepn-len(base)),'new items)')
 random.shuffle(pick)
 ADJ=['Elegant','Royal','Classic','Modern','Premium','Graceful','Vibrant','Golden','Floral','Timeless','Stylish','Luxury','Soft','Bright','Charming']
 THEME={'wedding':'Wedding','muslim':'Muslim Wedding','christian':'Christian Wedding','hindu':'Hindu Wedding','karizma':'Karizma','birthday':'Birthday','baby':'Baby','engagement':'Engagement','reception':'Reception','pre wedding':'Pre-Wedding','kids':'Kids','haldi':'Haldi','mehndi':'Mehndi'}
@@ -45,16 +50,28 @@ for d in out:
   im=Image.open(d['src']); d['q']=im.size[0]*im.size[1]//1000+os.path.getsize(d['src'])//1000
   m=re.search(r'([\d.]+)\s*MB',d['sz']); d['mb']=float(m.group(1)) if m else 0
 json.dump({d['id']:d['src'] for d in out},open('srcmap.json','w'))
-todo=[(d['src'],S+d['img']) for d in out if not os.path.exists(S+d['img'])]
+M='media'
+todo=[(d['src'],M+d['img']) for d in out if not os.path.exists(M+d['img'])]
 best=sorted([d for d in out if d['c']=='wedding-album-12x36'],key=lambda d:('karizma-album-psd' in d['g'],d['q']),reverse=True)[:60]
-os.makedirs(S+'/img/zoom',exist_ok=True)
+os.makedirs(M+'/img/zoom',exist_ok=True)
 def zm(a):
   src,dst=a; im=Image.open(src); im.thumbnail((1800,1800)); im.convert('RGB').save(dst,'WEBP',quality=70,method=4)
 for d in best: d['zm']=f"/img/zoom/{d['slug']}.webp"
-with Pool(8) as pl: pl.map(zm,[(d['src'],S+d['zm']) for d in best if not os.path.exists(S+d['zm'])])
+with Pool(8) as pl: pl.map(zm,[(d['src'],M+d['zm']) for d in best if not os.path.exists(M+d['zm'])])
 for d in out: d.pop('src')
 with Pool(8) as pl: pl.map(cv,todo)
-for d in out: d['w'],d['h']=Image.open(S+d['img']).size
-for k in range(0,len(out),200): json.dump(out[k:k+200],open(f'{S}/data/shard-{k//200}.json','w'))
-json.dump({'shards':(len(out)+199)//200,'count':len(out)},open(f'{S}/data/index.json','w'))
+for d in out: d['w'],d['h']=Image.open(M+d['img']).size
+SH={}
+for d in out: SH.setdefault((d['id']-1)//200,[]).append(d)
+NSH=max(SH)+1
+for k in range(NSH): json.dump(SH.get(k,[]),open(f'{S}/data/shard-{k}.json','w'),separators=(',',':'))
+json.dump({'shards':NSH,'count':len(out)},open(f'{S}/data/index.json','w'))
 exec(open('build.py').read())
+_keep={d['img'] for d in out}|{d['zm'] for d in out if 'zm' in d}
+for f in glob.glob(M+'/img/*.webp')+glob.glob(M+'/img/zoom/*.webp'):
+  if f[len(M):] not in _keep: os.remove(f)
+shutil.rmtree(S+'/img',ignore_errors=True)
+# sync new images to R2
+if not os.environ.get('FSP_NOUPLOAD'): subprocess.run(['python3','r2sync.py'])
+shutil.copy('site_routes.json',S+'/_routes.json')
+print('FILES',sum(len(f) for _,_,f in os.walk(S)),'MEDIA MB',sum(os.path.getsize(os.path.join(a,f)) for a,_,fs in os.walk(M) for f in fs)//2**20)
