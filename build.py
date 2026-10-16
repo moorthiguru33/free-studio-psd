@@ -1,6 +1,9 @@
 e=html.escape
+def crumbs(items):
+  return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":SITE+u} for i,(n,u) in enumerate(items)]}
+LANDMAP={'karizma-album-psd':'karizma-album-psd','wedding-album-12x36-psd-free-download':'12x36-wedding-album-psd-free-download','tamil-wedding-album-psd':'tamil-wedding-album-psd','birthday-album-psd-free-download':'birthday-album-psd','baby-album-psd':'baby-album-psd','muslim-wedding-album-psd':'muslim-wedding-album-psd','pre-wedding-album-psd':'pre-wedding-album-psd','engagement-album-psd':'engagement-album-psd','album-cover-psd-free-download':'album-cover-psd','wedding-album-background-psd':'album-background-psd','12x30-album-psd':'12x30-album-psd','12x18-album-psd':'12x18-album-psd','18x24-album-psd':'18x24-album-psd','wedding-invitation-psd':'wedding-invitation-psd','studio-backdrop-psd':'studio-background-psd'}
 from urllib.parse import quote
-exec(open('blog.py').read())
+exec(open('blog.py').read());exec(open('blog2.py').read());exec(open('landing.py').read())
 CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#55627a;--bg:#f8fafc;--line:#e2e8f0}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}a{color:inherit;text-decoration:none}img{display:block}
 .hd{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 1px 8px #0f172a0d}
@@ -29,16 +32,16 @@ CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#55627a;--bg:#f8fafc;-
 .card .im{position:relative;background:#f1f5f9}.card img{width:100%;height:auto}.row{align-items:start}.row .card .im{height:200px;display:flex;align-items:center;justify-content:center}.row .card img{height:100%;width:auto;max-width:100%}.row .card img{max-height:100%;object-fit:contain}.badge{position:absolute;left:10px;top:10px;background:#16a34aee;color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px}.badge.t{background:#f59e0bee}
 .card .tx{padding:10px 12px 12px}.card h3{font-size:14px;margin:0 0 6px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.meta{font-size:12px;color:var(--mut);display:flex;justify-content:space-between}
 .chips{display:flex;flex-wrap:wrap;gap:8px}.chips a,.chips button{background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:999px;font-size:13.5px;cursor:pointer;color:#334155}.chips .on{background:var(--p2);color:#fff;border-color:var(--p2)}
-.ad{background:#f1f5f9;border:1px dashed #cbd5e1;color:#64748b;min-height:110px;text-align:center;padding:26px 10px;margin:26px 0;font-size:12px;border-radius:10px}.ad:before{content:"Advertisement";display:block;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#16a34a;color:#fff;padding:15px 28px;border-radius:12px;font-weight:800;font-size:17px;border:0;cursor:pointer;box-shadow:0 6px 18px #16a34a44}.btn:hover{background:#15803d}.btn.full{width:100%}.btn2{background:var(--p2);color:#fff;border:0;padding:12px 22px;border-radius:10px;font-weight:700;cursor:pointer;font-size:15px}
-.ph{padding:30px 0 10px}.ph h1{margin:0 0 6px;font-size:clamp(24px,3vw,34px);letter-spacing:-.6px}.ph p{color:var(--mut);margin:0;max-width:760px}.crumb{font-size:13px;color:var(--mut);margin-bottom:8px}.crumb a{color:var(--p2)}
+.ad{background:#f1f5f9;border:1px dashed #cbd5e1;color:#475569;min-height:110px;text-align:center;padding:26px 10px;margin:26px 0;font-size:12px;border-radius:10px}.ad:before{content:"Advertisement";display:block;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#15803d;color:#fff;padding:15px 28px;border-radius:12px;font-weight:800;font-size:17px;border:0;cursor:pointer;box-shadow:0 6px 18px #16a34a44}.btn:hover{background:#166534}.btn.full{width:100%}.btn2{background:var(--p2);color:#fff;border:0;padding:12px 22px;border-radius:10px;font-weight:700;cursor:pointer;font-size:15px}
+.ph{padding:30px 0 10px}.ph h1{margin:0 0 6px;font-size:clamp(24px,3vw,34px);letter-spacing:-.6px}.ph p{color:var(--mut);margin:0;max-width:760px}.crumb{font-size:13px;color:var(--mut);margin-bottom:8px}.crumb a{color:var(--p2);text-decoration:underline}article a,.lp a{color:var(--p2);text-decoration:underline}.lp h2{font-size:22px;margin-top:28px}.lead{font-size:18px;color:#334155}
 .bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin:18px 0}.bar select{padding:9px 12px;border-radius:10px;border:1px solid var(--line);font-size:14px;background:#fff}
 .dt{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(300px,1fr);gap:28px;margin-top:10px}.dt .pv{background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px}.dt .pv img{width:100%;height:auto;border-radius:10px}
 .panel{position:sticky;top:120px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;align-self:start}.panel h1{font-size:22px;margin:0 0 10px;line-height:1.25}.spec{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}.spec td{padding:8px 0;border-bottom:1px solid var(--line)}.spec td:last-child{text-align:right;font-weight:600}
 .free{display:inline-block;background:#dcfce7;color:#166534;font-weight:700;font-size:12px;padding:3px 9px;border-radius:6px}.note{font-size:12.5px;color:var(--mut);margin-top:10px;text-align:center}
 article{background:#fff;border:1px solid var(--line);padding:30px;border-radius:16px;line-height:1.8;max-width:820px;margin:20px 0}article h1{line-height:1.25}
 .bcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}.bcards a{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;font-weight:600}.bcards a span{display:block;color:var(--mut);font-weight:400;font-size:13px;margin-top:6px}
-footer{background:#0f172a;color:#94a3b8;padding:36px 18px;margin-top:50px;font-size:14px}footer .fc{max-width:1280px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}footer h4{color:#fff;margin:0 0 8px}footer a{display:block;color:#cbd5e1;padding:2px 0}
+footer{background:#0f172a;color:#94a3b8;padding:36px 18px;margin-top:50px;font-size:14px}footer .fc{max-width:1280px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}footer .fh{color:#fff;margin:0 0 8px;font-weight:700}footer a{display:block;color:#cbd5e1;padding:2px 0}
 .pg{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:30px 0}.pg a,.pg span{min-width:42px;text-align:center;padding:9px 13px;border-radius:10px;background:#fff;border:1px solid var(--line);font-weight:600;font-size:14px}.pg a:hover{border-color:var(--p2);color:var(--p2)}.pg .on{background:var(--p2);color:#fff;border-color:var(--p2)}.pg .gap{border:0;background:none}
 @media(max-width:860px){.dt{grid-template-columns:1fr}.panel{position:static}.hd .lk{display:none}.hero{padding:40px 16px 46px}.stats{gap:16px}}
 @media(max-width:560px){.hs{display:none}.grid{column-count:2;column-width:auto;column-gap:10px}.grid>*{margin-bottom:10px}.card h3{font-size:12.5px}.card .tx{padding:8px}.meta{font-size:11px}.row{grid-auto-columns:78%}.sh h2{font-size:19px}}"""
@@ -48,9 +51,9 @@ TN={k:h for k,(h,f) in TAGS.items()}
 TCOUNT={k:sum(k in d['g'] for d in out) for k in TN}
 TOK=[k for k in TN if TCOUNT[k]>=6]
 nav=''.join(f'<a href="/category/{c}/">{e(n.replace(" PSD",""))}</a>' for c,n in CATS)+'<a href="/tag/karizma-album-psd/">Karizma</a><a href="/blog/">Guides</a>'
-def page(path,title,desc,body,ld=None,img=None,noindex=False,head=''):
-  url=SITE+path
-  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{head}{'<meta name="robots" content="noindex">' if noindex else ''}<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}{img or '/og.png'}"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#4c1d95"><style>{CSS}</style>
+def page(path,title,desc,body,ld=None,img=None,noindex=False,head='',canon=None):
+  url=SITE+path; cu=canon or url
+  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{cu}"><link rel="alternate" hreflang="en-IN" href="{url}"><link rel="alternate" hreflang="x-default" href="{url}">{head}{'<meta name="robots" content="noindex">' if noindex else ''}<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}{img or '/og.png'}"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#4c1d95"><style>{CSS}</style>
 <!-- Google Search Console: <meta name="google-site-verification" content="REPLACE_ME"> -->
 <!-- Bing Webmaster: <meta name="msvalidate.01" content="REPLACE_ME"> -->
 <!-- AdSense placeholder: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
@@ -58,11 +61,13 @@ def page(path,title,desc,body,ld=None,img=None,noindex=False,head=''):
 <header class="hd"><div class="r1"><a class="logo" href="/">Free<b>Studio</b>PSD</a><form class="hs" action="/search/" style="position:relative"><input name="q" autocomplete="off" class="iq" placeholder="Search wedding album, karizma, 12x36…" aria-label="Search"><button>Search</button></form><nav class="lk"><a href="/browse/">Browse</a><a href="/blog/">Guides</a><a href="/favourites/">♡ Favourites</a></nav></div><nav class="nav">{nav}</nav></header>
 <div class="pro">⭐ Want 10,000+ premium designs? Explore <a href="https://tamilpsd.in" rel="noopener">TamilPSD Pro</a></div>
 {body}
-<footer><div class="fc"><div><h4>FreeStudioPSD</h4>Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</div><div><h4>Categories</h4>{''.join(f'<a href="/category/{c}/">{e(n)}</a>' for c,n in CATS[:6])}</div><div><h4>Popular</h4>{''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in TOK[:6])}</div><div><h4>Site</h4><a href="/browse/">Browse all</a><a href="/favourites/">Favourites</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div></div><p style="text-align:center;margin-top:24px">&copy; 2026 FreeStudioPSD. All templates free to download.</p></footer>
+<footer><div class="fc"><div><p class="fh">FreeStudioPSD</p>Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</div><div><p class="fh">Categories</p>{''.join(f'<a href="/category/{c}/">{e(n)}</a>' for c,n in CATS[:6])}</div><div><p class="fh">Popular</p>{''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in TOK[:6])}</div><div><p class="fh">Site</p><a href="/browse/">Browse all</a><a href="/favourites/">Favourites</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div></div><p style="text-align:center;margin-top:24px">&copy; 2026 FreeStudioPSD. All templates free to download.</p></footer>
 <script src="/app.js" defer></script></body></html>"""
   os.makedirs(S+path,exist_ok=True); open(S+path+'index.html','w').write(h)
 urls=[]
-def P(path,*a,**k): urls.append(path); page(path,*a,**k)
+def P(path,*a,**k):
+  if not k.get('noindex') and not k.get('canon'): urls.append(path)
+  page(path,*a,**k)
 def card(d,badge=''):
   b=f'<span class="badge{" t" if badge=="Trending" else ""}">{badge}</span>' if badge else ''
   return f'<a class="card" href="/psd/{d["slug"]}/"><div class="im">{b}<img loading="lazy" decoding="async" src="{d["img"]}" alt="{e(d["t"])}" width="{d["w"]}" height="{d["h"]}"></div><div class="tx"><h3>{e(d["t"])}</h3><div class="meta"><span>{e(d["cn"].replace(" PSD",""))}</span><span>{e(d["sz"])}</span></div></div></a>'
@@ -125,7 +130,7 @@ f'''<section class="hero"><h1>Free Studio PSD Templates<br>for Wedding &amp; Kar
 <form action="/search/" style="position:relative"><input name="q" autocomplete="off" class="iq" placeholder="Try “karizma 12x36” or “birthday album”" aria-label="Search designs"><button>Search</button></form>
 <div class="stats"><span><b>{len(out):,}+</b>Free PSDs</span><span><b>{len(CATS)}</b>Categories</span><span><b>12x36</b>Album ready</span><span><b>0</b>Login needed</span></div></section>
 <div class="wrap">{AD("AdSense leaderboard placeholder (728×90 / responsive)")}<section class="sec" id="rv" hidden><div class="sh"><h2>Continue where you left off</h2><a class="va" href="/favourites/">My favourites →</a></div><div class="row" id="rvl"></div></section><section class="sec"><div class="sh"><div><h2>🔥 Best &amp; Trending PSDs</h2><p>Top-quality 12x36 wedding and Karizma album sheets</p></div><a class="va" href="/tag/karizma-album-psd/">View all →</a></div><div class="row" data-shuffle>{"".join(card(d,"Trending") for d in trend)}</div></section>
-<section class="sec"><div class="sh"><h2>Popular searches</h2></div><div class="chips">{"".join(f'<a href="/tag/{k}/">{e(TN[k])} <small style="color:#94a3b8">{TCOUNT[k]}</small></a>' for k in TOK)}</div></section>
+<section class="sec"><div class="sh"><h2>Top collections</h2><a class="va" href="/browse/">Browse all →</a></div><div class="chips">{''.join(f'<a href="/{x[0]}/">{e(x[1])}</a>' for x in LAND)}</div></section><section class="sec"><div class="sh"><h2>Popular searches</h2></div><div class="chips">{"".join(f'<a href="/tag/{k}/">{e(TN[k])} <small style="color:#55627a">{TCOUNT[k]}</small></a>' for k in TOK)}</div></section>
 <section class="sec"><div class="sh"><div><h2>✨ New this week</h2><p>Freshly added studio PSDs</p></div><a class="va" href="/search/?q=psd">Browse all →</a></div><div class="row">{''.join(card(d,'New') for d in sorted(out,key=lambda x:-x['id'])[:16])}</div></section>{secs}{AD('Adsterra / Monetag banner placeholder')}
 <section class="sec"><div class="sh"><h2>Album design guides</h2><a class="va" href="/blog/">All guides →</a></div><div class="bcards">{"".join(f'<a href="/blog/{s}/">{e(t)}<span>{e(ps[0][:90])}…</span></a>' for s,t,ps in BLOG[:6])}</div></section></div>''',ld=web)
 PER=30
@@ -151,7 +156,7 @@ def faqhtml(h,n):
   q=faq(h,n)['mainEntity']
   return '<section class="sec faq"><h2>Frequently asked questions</h2>'+''.join(f'<details><summary>{e(x["name"])}</summary><p>{e(x["acceptedAnswer"]["text"])}</p></details>' for x in q)+'</section>'
 HUBLINK='<p style="text-align:center"><a class="va" href="/browse/">Browse all categories, sizes and styles →</a></p>'
-def paged(base,title,desc,h1,intro,items,crumb,ldname):
+def paged(base,title,desc,h1,intro,items,crumb,ldname,canon=None):
   items=sorted(items,key=lambda x:(-x['q'],x['id'])); tot=(len(items)+PER-1)//PER
   fk=[k for k in TOK if 4<=sum(k in d['g'] for d in items)<len(items) and f'/tag/{k}/'!=base]
   chips=('<div class="chips" style="margin:14px 0">'+''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in fk[:12])+'</div>') if fk else ''
@@ -161,24 +166,25 @@ def paged(base,title,desc,h1,intro,items,crumb,ldname):
     sfx='' if p==1 else f' – Page {p}'
     P(path,title+sfx,desc+('' if p==1 else f' Page {p} of {tot}.'),
      f'<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › {crumb}</div><h1>{e(h1)}{sfx}</h1><p>{intro}</p></div>{chips}{AD("AdSense leaderboard placeholder")}<p style="color:var(--mut);font-size:14px">Showing {(p-1)*PER+1}–{min(p*PER,len(items))} of {len(items)} designs</p><div class="grid">{"".join(card(d) for d in items[(p-1)*PER:(p-1)*PER+12])}<div class="ad adg">In-feed native ad placeholder</div>{"".join(card(d) for d in items[(p-1)*PER+12:p*PER])}</div>{AD("AdSense responsive placeholder")}{pager(base,p,tot)}{faqhtml(h1,len(items)) if p==1 else ""}{HUBLINK}</div>',
-     ld=[{"@context":"https://schema.org","@type":"CollectionPage","name":h1+sfx,"url":SITE+path}]+([faq(h1,len(items))] if p==1 else []),head=hd)
+     ld=[{"@context":"https://schema.org","@type":"CollectionPage","name":h1+sfx,"url":SITE+path},crumbs([('Home','/'),(ldname,base)])]+([faq(h1,len(items))] if p==1 else []),head=hd,canon=(canon if p==1 else None),noindex=len(items)<12)
     if p==1: pass
 for c,n in CATS:
   items=[d for d in out if d['c']==c]
   paged(f'/category/{c}/',f'{n} Free Download – {len(items)} Editable Templates',f'Browse {len(items)} free {n} files for photo studios. Layered, print-ready Photoshop templates, free to download with no login.',f'Free {n} Designs',f'{len(items)} editable {e(n)} files, sorted by preview quality. Download any design free.',items,e(n),n)
 for k in TOK:
   h=TN[k]; items=[d for d in out if k in d['g']]
-  paged(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',h,TINTRO.get(k) or f'Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.',items,e(h),h)
+  paged(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',h,TINTRO.get(k) or f'Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.',items,e(h),h,canon=(f'{SITE}/{LANDMAP[k]}/' if k in LANDMAP else None))
 lite(out,'/data/search.json')
 page('/search/','Search Free Studio PSDs – FreeStudioPSD','Search free studio PSD templates.',f'<div class="wrap"><div class="ph"><h1>Results for “<span id="qv"></span>”</h1></div><p id="cnt" style="color:var(--mut)"></p><div class="grid" id="list" data-src="/data/search.json"></div><nav class="pg" id="spg"></nav><div id="se" class="empty" hidden><b>No designs match your search</b><p>Try fewer words or one of these popular searches:</p><div class="chips" style="justify-content:center">'+''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in TOK[:8])+'</div></div></div>',noindex=True)
 exec(open('dpage.py').read())
-exec(open('blog.py').read())
+landing_pages()
+exec(open('blog.py').read());exec(open('blog2.py').read())
 bl=''
 for s,t,ps in BLOG:
   others=[x for x in BLOG if x[0]!=s]; rg=random.sample(others,3); tk=random.sample(TOK,3)
   P(f'/blog/{s}/',t+' – FreeStudioPSD',ps[0][:155],f'<div class="wrap"><article><div class="crumb"><a href="/blog/">Guides</a></div><h1>{e(t)}</h1>'+''.join(f'<p>{e(p)}</p>' for p in ps)+
    f'{AD("AdSense in-article placeholder")}<h3>Free templates to practise with</h3><p>'+' · '.join(f'<a style="color:var(--p2)" href="/tag/{k}/">{e(TN[k])}</a>' for k in tk)+'</p><h3>Related guides</h3><ul>'+''.join(f'<li><a style="color:var(--p2)" href="/blog/{x[0]}/">{e(x[1])}</a></li>' for x in rg)+'</ul></article></div>',
-   ld={"@context":"https://schema.org","@type":"Article","headline":t,"author":{"@type":"Person","name":"Guru Moorthi"},"datePublished":"2026-10-16"})
+   ld=[{"@context":"https://schema.org","@type":"Article","headline":t,"author":{"@type":"Person","name":"Guru Moorthi"},"datePublished":"2026-10-16","dateModified":"2026-10-16","publisher":{"@type":"Organization","name":"FreeStudioPSD"}},crumbs([('Home','/'),('Guides','/blog/'),(t,f'/blog/{s}/')])])
 P('/blog/','Album Design Guides & Photoshop Tutorials – FreeStudioPSD','Free guides on editing wedding album PSDs, album sizes, Karizma design tips and print settings.',f'<div class="wrap"><div class="ph"><h1>Album Design Guides</h1><p>{len(BLOG)} practical guides for photographers and album designers.</p></div><div class="bcards">'+''.join(f'<a href="/blog/{s}/">{e(t)}<span>{e(ps[0][:100])}…</span></a>' for s,t,ps in BLOG)+'</div></div>')
 ST={'about':('About FreeStudioPSD','<p>FreeStudioPSD is run by Guru Moorthi to help photographers and studios find free, editable Photoshop templates for wedding albums, Karizma albums, birthday albums, covers and backgrounds.</p><p>All files are free to download without login.</p>'),
 'privacy':('Privacy Policy','<p>We do not require accounts and do not collect personal data directly. Third-party advertising partners (such as Google AdSense) may use cookies to show relevant ads. You can manage cookies in your browser settings.</p><p>Downloads are served from Google Drive, which is subject to Google\'s privacy policy.</p>'),
@@ -200,7 +206,8 @@ H='<?xml version="1.0" encoding="UTF-8"?>'
 for f in glob.glob(f'{S}/sitemap*.xml'): os.remove(f)
 ch=[urls[i:i+5000] for i in range(0,len(urls),5000)]
 for n,c in enumerate(ch): open(f'{S}/sitemap-{n+1}.xml','w').write(H+'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{SITE}{u}</loc><lastmod>2026-10-16</lastmod></url>' for u in c)+'</urlset>')
-open(f'{S}/sitemap.xml','w').write(H+'<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<sitemap><loc>{SITE}/sitemap-{n+1}.xml</loc></sitemap>' for n in range(len(ch)))+'</sitemapindex>')
+open(f'{S}/sitemap-images.xml','w').write(H+'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'+''.join(f'<url><loc>{SITE}/psd/{d["slug"]}/</loc><image:image><image:loc>{SITE}{d.get("zm",d["img"])}</image:loc></image:image></url>' for d in out)+'</urlset>')
+open(f'{S}/sitemap.xml','w').write(H+'<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<sitemap><loc>{SITE}/sitemap-{n+1}.xml</loc><lastmod>2026-10-16</lastmod></sitemap>' for n in range(len(ch)))+f'<sitemap><loc>{SITE}/sitemap-images.xml</loc><lastmod>2026-10-16</lastmod></sitemap></sitemapindex>')
 import secrets
 if not os.path.exists('indexnow.key'): open('indexnow.key','w').write(secrets.token_hex(16))
 IK=open('indexnow.key').read().strip(); open(f'{S}/{IK}.txt','w').write(IK)
