@@ -1,4 +1,5 @@
 e=html.escape
+from urllib.parse import quote
 exec(open('blog.py').read())
 CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#64748b;--bg:#f8fafc;--line:#e2e8f0}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}a{color:inherit;text-decoration:none}img{display:block}
@@ -6,6 +7,8 @@ CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#64748b;--bg:#f8fafc;-
 .hd .r1{max-width:1280px;margin:auto;display:flex;align-items:center;gap:16px;padding:10px 18px}.logo{font-weight:800;font-size:21px;letter-spacing:-.5px;white-space:nowrap}.logo b{color:var(--p2)}
 .hs{flex:1;display:flex;max-width:520px}.hs input{flex:1;border:1px solid var(--line);border-radius:10px 0 0 10px;padding:10px 14px;font-size:15px;outline:0;min-width:0}.hs button{border:0;background:var(--p2);color:#fff;padding:0 16px;border-radius:0 10px 10px 0;font-weight:600;cursor:pointer}
 .hd .lk{display:flex;gap:16px;font-size:14px;color:var(--mut);font-weight:500}.nav{max-width:1280px;margin:auto;display:flex;gap:6px;overflow-x:auto;padding:0 18px 10px;scrollbar-width:none}.nav a{white-space:nowrap;font-size:13.5px;padding:6px 12px;border-radius:999px;background:#f1f5f9;color:#334155;font-weight:500}.nav a:hover,.nav a.on{background:var(--p2);color:#fff}
+.sug{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 40px #0f172a33;z-index:60;text-align:left;overflow:hidden;color:var(--ink)}.sug a{display:flex;gap:10px;align-items:center;padding:8px 10px;font-size:13.5px;border-bottom:1px solid #f1f5f9}.sug a:hover{background:#f5f3ff}.sug img{width:64px;height:42px;object-fit:cover;border-radius:6px;flex:none}.sug .all{justify-content:center;color:var(--p2);font-weight:700}
+.share{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.share a,.share button{flex:1;text-align:center;padding:9px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:13px;font-weight:600;cursor:pointer;color:#334155}.adg{grid-column:1/-1;margin:4px 0}
 .pro{background:linear-gradient(90deg,#fde68a,#fbbf24);text-align:center;padding:8px 12px;font-size:14px;font-weight:600}.pro a{text-decoration:underline;color:#4c1d95}
 .wrap{max-width:1280px;margin:auto;padding:0 18px}
 .hero{background:radial-gradient(1200px 400px at 20% -10%,#a78bfa55,transparent),linear-gradient(135deg,#1e1b4b,#4c1d95 60%,#7c3aed);color:#fff;padding:56px 18px 64px;text-align:center}
@@ -39,10 +42,10 @@ TOK=[k for k in TN if TCOUNT[k]>=6]
 nav=''.join(f'<a href="/category/{c}/">{e(n.replace(" PSD",""))}</a>' for c,n in CATS)+'<a href="/tag/karizma-album-psd/">Karizma</a><a href="/blog/">Guides</a>'
 def page(path,title,desc,body,ld=None,img=None,noindex=False,head=''):
   url=SITE+path
-  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{head}{'<meta name="robots" content="noindex">' if noindex else ''}<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}">{f'<meta property="og:image" content="{SITE}{img}"><meta name="twitter:card" content="summary_large_image">' if img else ''}<meta name="theme-color" content="#4c1d95"><link rel="stylesheet" href="/style.css">
+  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{head}{'<meta name="robots" content="noindex">' if noindex else ''}<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}{img or '/og.png'}"><meta name="twitter:card" content="summary_large_image"><link rel="preload" href="/style.css" as="style"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#4c1d95"><link rel="stylesheet" href="/style.css">
 <!-- AdSense placeholder: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
 {f'<script type="application/ld+json">{json.dumps(ld)}</script>' if ld else ''}</head><body>
-<header class="hd"><div class="r1"><a class="logo" href="/">Free<b>Studio</b>PSD</a><form class="hs" action="/search/"><input name="q" placeholder="Search wedding album, karizma, 12x36…" aria-label="Search"><button>Search</button></form><nav class="lk"><a href="/blog/">Guides</a><a href="/about/">About</a></nav></div><nav class="nav">{nav}</nav></header>
+<header class="hd"><div class="r1"><a class="logo" href="/">Free<b>Studio</b>PSD</a><form class="hs" action="/search/" style="position:relative"><input name="q" autocomplete="off" class="iq" placeholder="Search wedding album, karizma, 12x36…" aria-label="Search"><button>Search</button></form><nav class="lk"><a href="/blog/">Guides</a><a href="/about/">About</a></nav></div><nav class="nav">{nav}</nav></header>
 <div class="pro">⭐ Want 10,000+ premium designs? Explore <a href="https://tamilpsd.in" rel="noopener">TamilPSD Pro</a></div>
 {body}
 <footer><div class="fc"><div><h4>FreeStudioPSD</h4>Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</div><div><h4>Categories</h4>{''.join(f'<a href="/category/{c}/">{e(n)}</a>' for c,n in CATS[:6])}</div><div><h4>Popular</h4>{''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in TOK[:6])}</div><div><h4>Site</h4><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div></div><p style="text-align:center;margin-top:24px">&copy; 2026 FreeStudioPSD. All templates free to download.</p></footer>
@@ -64,6 +67,10 @@ if(L){(async()=>{let all=await (await fetch(L.dataset.src)).json();const sp=new 
  all=all.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+(d.g||[]).join(' ')).toLowerCase().includes(x))).sort((a,b)=>b.q-a.q||a.id-b.id);
  const tot=Math.ceil(all.length/30);$('#cnt').textContent=all.length+' designs found';L.innerHTML=all.slice((pg-1)*30,pg*30).map(C).join('');
  const u=p=>'?q='+encodeURIComponent(q)+'&p='+p;let h='';if(pg>1)h+=`<a href="${u(pg-1)}">‹ Prev</a>`;for(let p=Math.max(1,pg-3);p<=Math.min(tot,pg+3);p++)h+=p==pg?`<span class="on">${p}</span>`:`<a href="${u(p)}">${p}</a>`;if(pg<tot)h+=`<a href="${u(pg+1)}">Next ›</a>`;$('#spg').innerHTML=tot>1?h:''})()}
+let SI=null;document.querySelectorAll('.iq').forEach(inp=>{const f=inp.form;let box;inp.addEventListener('input',async()=>{if(!SI)SI=await (await fetch('/data/search.json')).json();const w=inp.value.toLowerCase().split(/\s+/).filter(Boolean);if(!box){box=document.createElement('div');box.className='sug';f.appendChild(box)}if(!w.length){box.remove();box=null;return}
+ const r=SI.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+d.g.join(' ')).toLowerCase().includes(x)));box.innerHTML=r.slice(0,6).map(d=>`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" loading="lazy">${esc(d.t)}</a>`).join('')+`<a class="all" href="/search/?q=${encodeURIComponent(inp.value)}">See all ${r.length} results →</a>`});
+ document.addEventListener('click',e=>{if(box&&!f.contains(e.target)){box.remove();box=null}})});
+const cp=$('#cpy');cp&&(cp.onclick=()=>{navigator.clipboard.writeText(location.href);cp.textContent='Copied!'});
 const D=$('#dlbox');
 if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const s=Math.floor((id-1)/200);let d;try{d=(await (await fetch('/data/shard-'+s+'.json')).json()).find(x=>x.id===id)}catch(e){}
  if(!d){$('#t').textContent='Design not found.';return}$('#nm').innerHTML=`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" style="max-width:360px;width:100%;border-radius:12px;margin:auto"></a><p><b>${esc(d.t)}</b><br>${esc(d.dim)} · ${esc(d.sz)}</p>`;
@@ -94,11 +101,11 @@ for c,n in CATS:
 web={"@context":"https://schema.org","@type":"WebSite","name":"FreeStudioPSD","url":SITE,"potentialAction":{"@type":"SearchAction","target":SITE+"/search/?q={q}","query-input":"required name=q"}}
 P('/','Free Studio PSD Download – Wedding Album 12x36, Karizma & Birthday PSD',f'Download {len(out):,}+ free studio PSD templates: wedding album 12x36, Karizma album, album covers, backgrounds, birthday and baby albums. Layered, print-ready, no login.',
 f'''<section class="hero"><h1>Free Studio PSD Templates<br>for Wedding &amp; Karizma Albums</h1><p>{len(out):,}+ layered, print-ready Photoshop designs for photographers and album designers. Free download — no login, no signup.</p>
-<form action="/search/"><input name="q" placeholder="Try “karizma 12x36” or “birthday album”" aria-label="Search designs"><button>Search</button></form>
+<form action="/search/" style="position:relative"><input name="q" autocomplete="off" class="iq" placeholder="Try “karizma 12x36” or “birthday album”" aria-label="Search designs"><button>Search</button></form>
 <div class="stats"><span><b>{len(out):,}+</b>Free PSDs</span><span><b>{len(CATS)}</b>Categories</span><span><b>12x36</b>Album ready</span><span><b>0</b>Login needed</span></div></section>
-<div class="wrap"><section class="sec"><div class="sh"><div><h2>🔥 Best &amp; Trending PSDs</h2><p>Top-quality 12x36 wedding and Karizma album sheets</p></div><a class="va" href="/tag/karizma-album-psd/">View all →</a></div><div class="row" data-shuffle>{"".join(card(d,"Trending") for d in trend)}</div></section>
+<div class="wrap">{AD("AdSense leaderboard placeholder (728×90 / responsive)")}<section class="sec"><div class="sh"><div><h2>🔥 Best &amp; Trending PSDs</h2><p>Top-quality 12x36 wedding and Karizma album sheets</p></div><a class="va" href="/tag/karizma-album-psd/">View all →</a></div><div class="row" data-shuffle>{"".join(card(d,"Trending") for d in trend)}</div></section>
 <section class="sec"><div class="sh"><h2>Popular searches</h2></div><div class="chips">{"".join(f'<a href="/tag/{k}/">{e(TN[k])} <small style="color:#94a3b8">{TCOUNT[k]}</small></a>' for k in TOK)}</div></section>
-{secs}{AD('Adsterra / Monetag banner placeholder')}
+<section class="sec"><div class="sh"><div><h2>✨ New this week</h2><p>Freshly added studio PSDs</p></div><a class="va" href="/search/?q=psd">Browse all →</a></div><div class="row">{''.join(card(d,'New') for d in sorted(out,key=lambda x:-x['id'])[:16])}</div></section>{secs}{AD('Adsterra / Monetag banner placeholder')}
 <section class="sec"><div class="sh"><h2>Album design guides</h2><a class="va" href="/blog/">All guides →</a></div><div class="bcards">{"".join(f'<a href="/blog/{s}/">{e(t)}<span>{e(ps[0][:90])}…</span></a>' for s,t,ps in BLOG[:6])}</div></section></div>''',ld=web)
 PER=30
 def pager(base,cur,tot):
@@ -120,7 +127,7 @@ def paged(base,title,desc,h1,intro,items,crumb,ldname):
     hd=(f'<link rel="prev" href="{SITE}{base if p==2 else f"{base}page/{p-1}/"}">' if p>1 else '')+(f'<link rel="next" href="{SITE}{base}page/{p+1}/">' if p<tot else '')
     sfx='' if p==1 else f' – Page {p}'
     P(path,title+sfx,desc+('' if p==1 else f' Page {p} of {tot}.'),
-     f'<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › {crumb}</div><h1>{e(h1)}{sfx}</h1><p>{intro}</p></div>{chips}{AD("AdSense leaderboard placeholder")}<p style="color:var(--mut);font-size:14px">Showing {(p-1)*PER+1}–{min(p*PER,len(items))} of {len(items)} designs</p><div class="grid">{"".join(card(d) for d in items[(p-1)*PER:p*PER])}</div>{AD("AdSense responsive placeholder")}{pager(base,p,tot)}</div>',
+     f'<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › {crumb}</div><h1>{e(h1)}{sfx}</h1><p>{intro}</p></div>{chips}{AD("AdSense leaderboard placeholder")}<p style="color:var(--mut);font-size:14px">Showing {(p-1)*PER+1}–{min(p*PER,len(items))} of {len(items)} designs</p><div class="grid">{"".join(card(d) for d in items[(p-1)*PER:(p-1)*PER+12])}<div class="ad adg">In-feed native ad placeholder</div>{"".join(card(d) for d in items[(p-1)*PER+12:p*PER])}</div>{AD("AdSense responsive placeholder")}{pager(base,p,tot)}</div>',
      ld={"@context":"https://schema.org","@type":"CollectionPage","name":h1+sfx,"url":SITE+path},head=hd)
 for c,n in CATS:
   items=[d for d in out if d['c']==c]
@@ -142,7 +149,7 @@ for d in out:
 <div class="dt"><div><div class="pv"><img src="{d['img']}" alt="{e(d['t'])}" width="720" height="480" fetchpriority="high"></div>
 <h2 style="margin-top:24px">About this design</h2><p>{e(d['d'])}</p><div class="chips">{tg}</div></div>
 <aside class="panel"><span class="free">FREE PSD</span><h1>{e(d['t'])}</h1><table class="spec"><tr><td>Dimensions</td><td>{d['dim']}</td></tr><tr><td>Resolution</td><td>{d['dpi']}</td></tr><tr><td>File size</td><td>{d['sz']}</td></tr><tr><td>Format</td><td>Layered PSD (ZIP)</td></tr><tr><td>Category</td><td><a href="/category/{d['c']}/" style="color:var(--p2)">{e(d['cn'])}</a></td></tr></table>
-<a class="btn full" href="/download/?id={d['id']}" rel="nofollow">⬇ Free Download</a><p class="note">No login required · Opens in Adobe Photoshop CC</p>{AD("AdSense 300×250 placeholder")}</aside></div>
+<a class="btn full" href="/download/?id={d['id']}" rel="nofollow">⬇ Free Download</a><p class="note">No login required · Opens in Adobe Photoshop CC</p><div class="share"><a target="_blank" rel="noopener" href="https://wa.me/?text={quote(d['t']+' '+SITE+'/psd/'+d['slug']+'/')}">WhatsApp</a><a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u={quote(SITE+'/psd/'+d['slug']+'/')}">Facebook</a><a target="_blank" rel="noopener" href="https://pinterest.com/pin/create/button/?url={quote(SITE+'/psd/'+d['slug']+'/')}&media={quote(SITE+d['img'])}&description={quote(d['t'])}">Pinterest</a><button id="cpy" type="button">Copy link</button></div>{AD("AdSense 300×250 placeholder")}</aside></div>
 <section class="sec"><div class="sh"><h2>More {e(d['cn'])} designs</h2><a class="va" href="/category/{d['c']}/">View all →</a></div><div class="grid">{''.join(card(x) for x in rel)}</div></section></div>''',ld=[ld,bc],img=d['img'])
 page('/download/','Preparing your download – FreeStudioPSD','Your free PSD download is being prepared.',
 f'''<div class="wrap" id="dlbox" style="text-align:center;max-width:760px"><div class="ph"><h1>Your free download is almost ready</h1></div>{AD("AdSense placeholder (top)")}<div id="nm"></div><p id="t" style="font-size:20px">Preparing your file… <b id="c">15</b>s</p>
@@ -160,6 +167,17 @@ ST={'about':('About FreeStudioPSD','<p>FreeStudioPSD is run by Guru Moorthi to h
 'terms':('Terms of Use','<p>Templates are provided free for personal and studio client work. Do not resell or redistribute the files as your own template packs. Files are provided as-is without warranty.</p>'),
 'contact':('Contact Us','<p>Email: <b>contact@example.com</b> (placeholder)</p><form onsubmit="alert(\'Contact form coming soon.\');return false"><p><input placeholder="Your name" required style="width:100%;padding:12px;border:1px solid #e2e8f0;border-radius:10px"></p><p><input type="email" placeholder="Your email" required style="width:100%;padding:12px;border:1px solid #e2e8f0;border-radius:10px"></p><p><textarea placeholder="Message" rows="5" style="width:100%;padding:12px;border:1px solid #e2e8f0;border-radius:10px"></textarea></p><button class="btn2">Send message</button></form>')}
 for k,(t,b) in ST.items(): P(f'/{k}/',t+' – FreeStudioPSD',t+' for FreeStudioPSD, free studio PSD downloads.',f'<div class="wrap"><article><h1>{t}</h1>{b}</article></div>')
+page('/404-tmp/','Page not found – FreeStudioPSD','Page not found.','<div class="wrap" style="text-align:center;padding:60px 0"><h1 style="font-size:64px;margin:0;color:var(--p2)">404</h1><h2>Sorry, this page could not be found</h2><p>Try searching or browse our most popular categories.</p><form action="/search/" style="max-width:480px;margin:20px auto;display:flex;gap:8px"><input name="q" placeholder="Search PSDs" style="flex:1;padding:12px;border:1px solid #e2e8f0;border-radius:10px"><button class="btn2">Search</button></form><div class="chips" style="justify-content:center">'+''.join(f'<a href="/category/{c}/">{e(n)}</a>' for c,n in CATS)+'</div></div>',noindex=True)
+shutil.move(f'{S}/404-tmp/index.html',f'{S}/404.html'); shutil.rmtree(f'{S}/404-tmp')
+open(f'{S}/favicon.svg','w').write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#6d28d9"/><text x="32" y="42" font-family="Arial" font-weight="700" font-size="26" fill="#fff" text-anchor="middle">PSD</text></svg>')
+from PIL import ImageDraw,ImageFont
+og=Image.new('RGB',(1200,630),'#3b1a8f');dr=ImageDraw.Draw(og)
+for i,d in enumerate(trend[:6]):
+  t=Image.open(S+d['img']).convert('RGB');t.thumbnail((380,250));og.paste(t,(20+(i%3)*395,330+(i//3)*0) if i<3 else (20+(i%3)*395,330))
+try: F=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',64);F2=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',32)
+except: F=F2=ImageFont.load_default()
+dr.text((60,90),'FreeStudioPSD',font=F,fill='#fff');dr.text((60,180),f'{len(out):,}+ free wedding & Karizma album PSDs',font=F2,fill='#ddd6fe');dr.text((60,230),'No login. Free download.',font=F2,fill='#fde68a')
+og.save(f'{S}/og.png',optimize=True)
 H='<?xml version="1.0" encoding="UTF-8"?>'
 for f in glob.glob(f'{S}/sitemap*.xml'): os.remove(f)
 ch=[urls[i:i+5000] for i in range(0,len(urls),5000)]
