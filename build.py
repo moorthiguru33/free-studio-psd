@@ -28,7 +28,7 @@ CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#64748b;--bg:#f8fafc;-
 article{background:#fff;border:1px solid var(--line);padding:30px;border-radius:16px;line-height:1.8;max-width:820px;margin:20px 0}article h1{line-height:1.25}
 .bcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}.bcards a{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;font-weight:600}.bcards a span{display:block;color:var(--mut);font-weight:400;font-size:13px;margin-top:6px}
 footer{background:#0f172a;color:#94a3b8;padding:36px 18px;margin-top:50px;font-size:14px}footer .fc{max-width:1280px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}footer h4{color:#fff;margin:0 0 8px}footer a{display:block;color:#cbd5e1;padding:2px 0}
-#more{display:block;margin:26px auto}
+.pg{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:30px 0}.pg a,.pg span{min-width:42px;text-align:center;padding:9px 13px;border-radius:10px;background:#fff;border:1px solid var(--line);font-weight:600;font-size:14px}.pg a:hover{border-color:var(--p2);color:var(--p2)}.pg .on{background:var(--p2);color:#fff;border-color:var(--p2)}.pg .gap{border:0;background:none}
 @media(max-width:860px){.dt{grid-template-columns:1fr}.panel{position:static}.hd .lk{display:none}.hero{padding:40px 16px 46px}.stats{gap:16px}}
 @media(max-width:560px){.hs{display:none}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.card h3{font-size:12.5px}.card .tx{padding:8px}.meta{font-size:11px}.row{grid-auto-columns:78%}.sh h2{font-size:19px}}"""
 open(f'{S}/style.css','w').write(CSS)
@@ -37,9 +37,9 @@ TN={k:h for k,(h,f) in TAGS.items()}
 TCOUNT={k:sum(k in d['g'] for d in out) for k in TN}
 TOK=[k for k in TN if TCOUNT[k]>=6]
 nav=''.join(f'<a href="/category/{c}/">{e(n.replace(" PSD",""))}</a>' for c,n in CATS)+'<a href="/tag/karizma-album-psd/">Karizma</a><a href="/blog/">Guides</a>'
-def page(path,title,desc,body,ld=None,img=None,noindex=False):
+def page(path,title,desc,body,ld=None,img=None,noindex=False,head=''):
   url=SITE+path
-  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{'<meta name="robots" content="noindex">' if noindex else ''}<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}">{f'<meta property="og:image" content="{SITE}{img}"><meta name="twitter:card" content="summary_large_image">' if img else ''}<meta name="theme-color" content="#4c1d95"><link rel="stylesheet" href="/style.css">
+  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{head}{'<meta name="robots" content="noindex">' if noindex else ''}<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}">{f'<meta property="og:image" content="{SITE}{img}"><meta name="twitter:card" content="summary_large_image">' if img else ''}<meta name="theme-color" content="#4c1d95"><link rel="stylesheet" href="/style.css">
 <!-- AdSense placeholder: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
 {f'<script type="application/ld+json">{json.dumps(ld)}</script>' if ld else ''}</head><body>
 <header class="hd"><div class="r1"><a class="logo" href="/">Free<b>Studio</b>PSD</a><form class="hs" action="/search/"><input name="q" placeholder="Search wedding album, karizma, 12x36…" aria-label="Search"><button>Search</button></form><nav class="lk"><a href="/blog/">Guides</a><a href="/about/">About</a></nav></div><nav class="nav">{nav}</nav></header>
@@ -59,15 +59,11 @@ const C=d=>`<a class="card" href="/psd/${d.slug}/"><div class="im"><img loading=
 const shuf=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 document.querySelectorAll('[data-shuffle]').forEach(el=>shuf([...el.children]).forEach(c=>el.appendChild(c)));
 const L=$('#list');
-if(L){(async()=>{let all=await (await fetch(L.dataset.src)).json();const q=new URLSearchParams(location.search).get('q');
- if(q!==null){const w=q.toLowerCase().split(/\s+/).filter(Boolean);$('#qv')&&($('#qv').textContent=q);document.querySelectorAll('input[name=q]').forEach(i=>i.value=q);all=all.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+(d.g||[]).join(' ')).toLowerCase().includes(x)))}
- let f='',sort=$('#sort')?$('#sort').value:'r',n=0,cur=[];shuf(all);
- function apply(){cur=all.filter(d=>!f||(d.g||[]).includes(f));if(sort=='n')cur.sort((a,b)=>b.id-a.id);else if(sort=='a')cur.sort((a,b)=>a.t.localeCompare(b.t));else if(sort=='s')cur.sort((a,b)=>b.mb-a.mb);else if(sort=='q')cur.sort((a,b)=>b.q-a.q);
-  n=0;L.innerHTML='';more();$('#cnt')&&($('#cnt').textContent=cur.length+' designs')}
- function more(){L.insertAdjacentHTML('beforeend',cur.slice(n,n+36).map(C).join(''));n+=36;$('#more').style.display=n<cur.length?'block':'none'}
- $('#more').onclick=more;$('#sort')&&($('#sort').onchange=e=>{sort=e.target.value;apply()});
- document.querySelectorAll('#flt button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#flt button').forEach(x=>x.classList.remove('on'));b.classList.add('on');f=b.dataset.f;apply()});
- apply()})()}
+if(L){(async()=>{let all=await (await fetch(L.dataset.src)).json();const sp=new URLSearchParams(location.search),q=sp.get('q')||'',pg=+sp.get('p')||1;
+ const w=q.toLowerCase().split(/\s+/).filter(Boolean);$('#qv').textContent=q;document.querySelectorAll('input[name=q]').forEach(i=>i.value=q);
+ all=all.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+(d.g||[]).join(' ')).toLowerCase().includes(x))).sort((a,b)=>b.q-a.q||a.id-b.id);
+ const tot=Math.ceil(all.length/30);$('#cnt').textContent=all.length+' designs found';L.innerHTML=all.slice((pg-1)*30,pg*30).map(C).join('');
+ const u=p=>'?q='+encodeURIComponent(q)+'&p='+p;let h='';if(pg>1)h+=`<a href="${u(pg-1)}">‹ Prev</a>`;for(let p=Math.max(1,pg-3);p<=Math.min(tot,pg+3);p++)h+=p==pg?`<span class="on">${p}</span>`:`<a href="${u(p)}">${p}</a>`;if(pg<tot)h+=`<a href="${u(pg+1)}">Next ›</a>`;$('#spg').innerHTML=tot>1?h:''})()}
 const D=$('#dlbox');
 if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const s=Math.floor((id-1)/200);let d;try{d=(await (await fetch('/data/shard-'+s+'.json')).json()).find(x=>x.id===id)}catch(e){}
  if(!d){$('#t').textContent='Design not found.';return}$('#nm').innerHTML=`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" style="max-width:360px;width:100%;border-radius:12px;margin:auto"></a><p><b>${esc(d.t)}</b><br>${esc(d.dim)} · ${esc(d.sz)}</p>`;
@@ -104,18 +100,36 @@ f'''<section class="hero"><h1>Free Studio PSD Templates<br>for Wedding &amp; Kar
 <section class="sec"><div class="sh"><h2>Popular searches</h2></div><div class="chips">{"".join(f'<a href="/tag/{k}/">{e(TN[k])} <small style="color:#94a3b8">{TCOUNT[k]}</small></a>' for k in TOK)}</div></section>
 {secs}{AD('Adsterra / Monetag banner placeholder')}
 <section class="sec"><div class="sh"><h2>Album design guides</h2><a class="va" href="/blog/">All guides →</a></div><div class="bcards">{"".join(f'<a href="/blog/{s}/">{e(t)}<span>{e(ps[0][:90])}…</span></a>' for s,t,ps in BLOG[:6])}</div></section></div>''',ld=web)
+PER=30
+def pager(base,cur,tot):
+  if tot<2: return ''
+  u=lambda p:base if p==1 else f'{base}page/{p}/'
+  nums=sorted({1,tot,*range(max(1,cur-2),min(tot,cur+2)+1)}); h=[];last=0
+  for p in nums:
+    if p-last>1: h.append('<span class="gap">…</span>')
+    h.append(f'<span class="on">{p}</span>' if p==cur else f'<a href="{u(p)}">{p}</a>'); last=p
+  pv=f'<a rel="prev" href="{u(cur-1)}">‹ Prev</a>' if cur>1 else ''
+  nx=f'<a rel="next" href="{u(cur+1)}">Next ›</a>' if cur<tot else ''
+  return f'<nav class="pg" aria-label="Pagination">{pv}{"".join(h)}{nx}</nav>'
+def paged(base,title,desc,h1,intro,items,crumb,ldname):
+  items=sorted(items,key=lambda x:(-x['q'],x['id'])); tot=(len(items)+PER-1)//PER
+  fk=[k for k in TOK if 4<=sum(k in d['g'] for d in items)<len(items) and f'/tag/{k}/'!=base]
+  chips=('<div class="chips" style="margin:14px 0">'+''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in fk[:12])+'</div>') if fk else ''
+  for p in range(1,tot+1):
+    path=base if p==1 else f'{base}page/{p}/'
+    hd=(f'<link rel="prev" href="{SITE}{base if p==2 else f"{base}page/{p-1}/"}">' if p>1 else '')+(f'<link rel="next" href="{SITE}{base}page/{p+1}/">' if p<tot else '')
+    sfx='' if p==1 else f' – Page {p}'
+    P(path,title+sfx,desc+('' if p==1 else f' Page {p} of {tot}.'),
+     f'<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › {crumb}</div><h1>{e(h1)}{sfx}</h1><p>{intro}</p></div>{chips}{AD("AdSense leaderboard placeholder")}<p style="color:var(--mut);font-size:14px">Showing {(p-1)*PER+1}–{min(p*PER,len(items))} of {len(items)} designs</p><div class="grid">{"".join(card(d) for d in items[(p-1)*PER:p*PER])}</div>{AD("AdSense responsive placeholder")}{pager(base,p,tot)}</div>',
+     ld={"@context":"https://schema.org","@type":"CollectionPage","name":h1+sfx,"url":SITE+path},head=hd)
 for c,n in CATS:
   items=[d for d in out if d['c']==c]
-  P(f'/category/{c}/',f'{n} Free Download – {len(items)} Editable Templates',f'Browse {len(items)} free {n} files for photo studios. Layered, print-ready Photoshop templates, free to download with no login.',
-   f'<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › {e(n)}</div><h1>Free {e(n)} Designs</h1><p>{len(items)} editable {e(n)} files. Filter by style or size, sort by quality, and download any design free.</p></div>{AD("AdSense leaderboard placeholder")}{listing(items,f"/data/c-{c}.json")}</div>',
-   ld={"@context":"https://schema.org","@type":"CollectionPage","name":n,"url":f"{SITE}/category/{c}/"})
+  paged(f'/category/{c}/',f'{n} Free Download – {len(items)} Editable Templates',f'Browse {len(items)} free {n} files for photo studios. Layered, print-ready Photoshop templates, free to download with no login.',f'Free {n} Designs',f'{len(items)} editable {e(n)} files, sorted by preview quality. Download any design free.',items,e(n),n)
 for k in TOK:
   h=TN[k]; items=[d for d in out if k in d['g']]
-  P(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',
-   f'<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › {e(h)}</div><h1>{e(h)}</h1><p>Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.</p></div>{AD("AdSense leaderboard placeholder")}{listing(items,f"/data/t-{k}.json")}</div>',
-   ld={"@context":"https://schema.org","@type":"CollectionPage","name":h,"url":f"{SITE}/tag/{k}/"})
+  paged(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',h,f'Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.',items,e(h),h)
 lite(out,'/data/search.json')
-page('/search/','Search Free Studio PSDs – FreeStudioPSD','Search free studio PSD templates.',f'<div class="wrap"><div class="ph"><h1>Results for “<span id="qv"></span>”</h1></div><div class="bar"><div><span id="cnt"></span> <select id="sort"><option value="r">Shuffle</option><option value="q">Best quality</option><option value="n">Newest</option></select></div></div><div class="grid" id="list" data-src="/data/search.json"></div><button class="btn2" id="more">Load more</button></div>',noindex=True)
+page('/search/','Search Free Studio PSDs – FreeStudioPSD','Search free studio PSD templates.',f'<div class="wrap"><div class="ph"><h1>Results for “<span id="qv"></span>”</h1></div><p id="cnt" style="color:var(--mut)"></p><div class="grid" id="list" data-src="/data/search.json"></div><nav class="pg" id="spg"></nav></div>',noindex=True)
 bycat={}
 for d in out: bycat.setdefault(d['c'],[]).append(d)
 for d in out:

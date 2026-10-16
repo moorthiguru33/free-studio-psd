@@ -4,15 +4,11 @@ const C=d=>`<a class="card" href="/psd/${d.slug}/"><div class="im"><img loading=
 const shuf=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 document.querySelectorAll('[data-shuffle]').forEach(el=>shuf([...el.children]).forEach(c=>el.appendChild(c)));
 const L=$('#list');
-if(L){(async()=>{let all=await (await fetch(L.dataset.src)).json();const q=new URLSearchParams(location.search).get('q');
- if(q!==null){const w=q.toLowerCase().split(/\s+/).filter(Boolean);$('#qv')&&($('#qv').textContent=q);document.querySelectorAll('input[name=q]').forEach(i=>i.value=q);all=all.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+(d.g||[]).join(' ')).toLowerCase().includes(x)))}
- let f='',sort=$('#sort')?$('#sort').value:'r',n=0,cur=[];shuf(all);
- function apply(){cur=all.filter(d=>!f||(d.g||[]).includes(f));if(sort=='n')cur.sort((a,b)=>b.id-a.id);else if(sort=='a')cur.sort((a,b)=>a.t.localeCompare(b.t));else if(sort=='s')cur.sort((a,b)=>b.mb-a.mb);else if(sort=='q')cur.sort((a,b)=>b.q-a.q);
-  n=0;L.innerHTML='';more();$('#cnt')&&($('#cnt').textContent=cur.length+' designs')}
- function more(){L.insertAdjacentHTML('beforeend',cur.slice(n,n+36).map(C).join(''));n+=36;$('#more').style.display=n<cur.length?'block':'none'}
- $('#more').onclick=more;$('#sort')&&($('#sort').onchange=e=>{sort=e.target.value;apply()});
- document.querySelectorAll('#flt button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#flt button').forEach(x=>x.classList.remove('on'));b.classList.add('on');f=b.dataset.f;apply()});
- apply()})()}
+if(L){(async()=>{let all=await (await fetch(L.dataset.src)).json();const sp=new URLSearchParams(location.search),q=sp.get('q')||'',pg=+sp.get('p')||1;
+ const w=q.toLowerCase().split(/\s+/).filter(Boolean);$('#qv').textContent=q;document.querySelectorAll('input[name=q]').forEach(i=>i.value=q);
+ all=all.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+(d.g||[]).join(' ')).toLowerCase().includes(x))).sort((a,b)=>b.q-a.q||a.id-b.id);
+ const tot=Math.ceil(all.length/30);$('#cnt').textContent=all.length+' designs found';L.innerHTML=all.slice((pg-1)*30,pg*30).map(C).join('');
+ const u=p=>'?q='+encodeURIComponent(q)+'&p='+p;let h='';if(pg>1)h+=`<a href="${u(pg-1)}">‹ Prev</a>`;for(let p=Math.max(1,pg-3);p<=Math.min(tot,pg+3);p++)h+=p==pg?`<span class="on">${p}</span>`:`<a href="${u(p)}">${p}</a>`;if(pg<tot)h+=`<a href="${u(pg+1)}">Next ›</a>`;$('#spg').innerHTML=tot>1?h:''})()}
 const D=$('#dlbox');
 if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const s=Math.floor((id-1)/200);let d;try{d=(await (await fetch('/data/shard-'+s+'.json')).json()).find(x=>x.id===id)}catch(e){}
  if(!d){$('#t').textContent='Design not found.';return}$('#nm').innerHTML=`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" style="max-width:360px;width:100%;border-radius:12px;margin:auto"></a><p><b>${esc(d.t)}</b><br>${esc(d.dim)} · ${esc(d.sz)}</p>`;
