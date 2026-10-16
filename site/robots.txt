@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /download/
+Disallow: /search/
 Allow: /
 Sitemap: https://freestudiopsd.pages.dev/sitemap.xml
