@@ -36,13 +36,15 @@ def theme(r):
   return 'Studio'
 out=[];seen=set()
 for i,r in enumerate(pick):
-  cslug,cname=CATMAP[r['Category']]; th=theme(r); sz=size(r); kind=cname.replace(' PSD','').replace(sz,'').strip()
+  cslug,cname=CATMAP[r['Category']]; th=theme(r); sz=size(r); kind=re.sub(r'\s*\d+x\d+','',cname.replace(' PSD','')).strip()
   if th in kind or (th=='Wedding' and 'Wedding' in kind): th=th if th not in kind else ''
   for n in range(30):
     t=random.choice(FMT).format(a=random.choice(ADJ),th=th,k=kind,sz=sz)
     t=re.sub(r'\s+',' ',re.sub(r'\b(\w+) \1\b',r'\1',t)).replace(' –',' –').strip()
     if t not in seen: break
-  else: t=f"{t} No. {i+1}"
+  else:
+    t=f"{random.choice(ADJ)} & {random.choice(ADJ)} {th} {kind} {sz} PSD".replace('  ',' ')
+    if t in seen: t=f"{t} – Layout {i+1}"
   seen.add(t)
   slug=re.sub(r'[^a-z0-9]+','-',t.lower()).strip('-')[:70].strip('-')+'-'+str(i+1)
   desc=f"{random.choice(INTRO)} {t.split(' – ')[0].lower()} Photoshop file. {random.choice(USE)} {random.choice(AUD)} Size: {r['Dimensions']} at {r['DPI']}, {r['Color Mode']} colour, about {r['File Size']}. Free download, no login needed. {random.choice(TIP)}".strip()
