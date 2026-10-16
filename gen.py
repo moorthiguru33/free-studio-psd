@@ -10,7 +10,9 @@ for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.g
 CATMAP={'photo-album-12x36':('wedding-album-12x36','Wedding Album 12x36 PSD'),'photo-album-18x24':('album-18x24','Photo Album 18x24 PSD'),
 'photo-album-12x30':('album-12x30','Photo Album 12x30 PSD'),'photo-album-12x18':('album-12x18','Photo Album 12x18 PSD'),
 'album-cover':('album-cover','Album Cover PSD'),'album-background':('album-background','Album Background PSD'),
-'studio-background':('studio-background','Studio Background PSD'),'birthday-baby-album':('birthday-baby-album','Birthday & Baby Album PSD')}
+'studio-background':('studio-background','Studio Background PSD'),'birthday-baby-album':('birthday-baby-album','Birthday & Baby Album PSD'),'invitation':('wedding-invitation','Wedding Invitation PSD')}
+for r in rows.values():
+  if r['Category'].startswith('photo-album') and re.search(r'invitation|save the date|invite',(r['Title']+' '+r['Tags']).lower()): r['Category']='invitation'
 quota={k:99999 for k in CATMAP}
 pick=[]
 for c,q in quota.items():
@@ -36,6 +38,12 @@ for d in out:
   im=Image.open(d['src']); d['q']=im.size[0]*im.size[1]//1000+os.path.getsize(d['src'])//1000
   m=re.search(r'([\d.]+)\s*MB',d['sz']); d['mb']=float(m.group(1)) if m else 0
 todo=[(d['src'],S+d['img']) for d in out if not os.path.exists(S+d['img'])]
+best=sorted([d for d in out if d['c']=='wedding-album-12x36'],key=lambda d:('karizma-album-psd' in d['g'],d['q']),reverse=True)[:60]
+os.makedirs(S+'/img/zoom',exist_ok=True)
+def zm(a):
+  src,dst=a; im=Image.open(src); im.thumbnail((1800,1800)); im.convert('RGB').save(dst,'WEBP',quality=70,method=4)
+for d in best: d['zm']=f"/img/zoom/{d['slug']}.webp"
+with Pool(8) as pl: pl.map(zm,[(d['src'],S+d['zm']) for d in best if not os.path.exists(S+d['zm'])])
 for d in out: d.pop('src')
 with Pool(8) as pl: pl.map(cv,todo)
 for d in out: d['w'],d['h']=Image.open(S+d['img']).size

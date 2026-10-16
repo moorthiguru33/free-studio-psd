@@ -1,0 +1,17 @@
+{
+  "enabled": false,
+  "_help": "Set enabled true, add AdSense loader URL to head_scripts and paste each ad unit's HTML into slots. Empty slots keep the placeholder.",
+  "head_scripts": [
+    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+  ],
+  "slots": {
+    "leaderboard": "",
+    "infeed": "",
+    "sidebar": "",
+    "inarticle": "",
+    "responsive": "",
+    "countdown_top": "",
+    "countdown_mid": "",
+    "countdown_bottom": ""
+  }
+}

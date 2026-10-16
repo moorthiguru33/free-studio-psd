@@ -27,6 +27,11 @@ TAGS={ # slug: (heading, predicate)
  '6x18-album-psd':('6x18 Album PSD',lambda d,t:'6x18' in t),
  '300-dpi-album-psd':('300 DPI Album PSD',lambda d,t:'300 dpi' in t),
  'floral-album-psd':('Floral Album PSD',lambda d,t:'floral' in t or 'flower' in t),
+ 'tamil-wedding-album-psd':('Tamil Wedding Album PSD',lambda d,t:d['c'] in('wedding-album-12x36','album-cover','album-background') and any(w in t for w in('tamil','hindu','indian','temple','traditional'))),
+ 'south-indian-wedding-album-psd':('South Indian Wedding Album PSD',lambda d,t:any(w in t for w in('tamil','kerala','south indian','hindu')) and 'wedding' in t),
+ 'karizma-album-12x36-psd-free-download':('Karizma Album 12x36 PSD Free Download',lambda d,t:'karizma' in t and '12x36' in t),
+ 'wedding-invitation-psd':('Wedding Invitation PSD',lambda d,t:d['c']=='wedding-invitation'),
+ 'photo-album-psd-free-download':('Photo Album PSD Free Download',lambda d,t:d['c'].startswith(('wedding-album','album-1'))),
  'golden-album-psd':('Golden Album PSD',lambda d,t:'gold' in t),
 }
 def theme(r):
@@ -34,22 +39,30 @@ def theme(r):
   for k,v in THEME.items():
     if k in t: return v
   return 'Studio'
-out=[];seen=set()
+out=[];seen=set();BUCK={}
+MOTIF=['Floral Border','Gold Frame','Mandala Art','Bokeh Lights','Watercolour Splash','Paisley Pattern','Lace Ornaments','Damask Texture','Vintage Frame','Rose Petals','Glitter Accents','Geometric Lines','Royal Arch','Temple Motif','Peacock Art','Pastel Clouds','Kolam Pattern','Lotus Design','Brush Strokes','Silk Texture']
+FMT2=["{a} {th} {k} {sz} PSD with {m}","{th} {k} {sz} PSD – {a} {m} Design","{a} {k} {sz} PSD for {th} – {m}","{sz} {th} {k} PSD in {a} {m} Style","Free {a} {th} {k} {sz} PSD – {m}","{a} {m} {th} {k} {sz} PSD"]
 for i,r in enumerate(pick):
   cslug,cname=CATMAP[r['Category']]; th=theme(r); sz=size(r); kind=re.sub(r'\s*\d+x\d+','',cname.replace(' PSD','')).strip()
-  if th in kind or (th=='Wedding' and 'Wedding' in kind): th=th if th not in kind else ''
-  for n in range(30):
-    t=random.choice(FMT).format(a=random.choice(ADJ),th=th,k=kind,sz=sz)
-    t=re.sub(r'\s+',' ',re.sub(r'\b(\w+) \1\b',r'\1',t)).replace(' –',' –').strip()
+  if th=='Studio' or th in kind or ('Wedding' in th and 'Wedding' in kind and th=='Wedding'): th=''
+  if 'Wedding' in th and 'Wedding' in kind: kind=kind.replace('Wedding ','')
+  key=(th,kind,sz); combos=BUCK.setdefault(key,None)
+  if combos is None:
+    combos=[(f,a,m) for f in FMT2 for a in ADJ for m in MOTIF if a[:4].lower() not in m.lower()]; random.shuffle(combos); BUCK[key]=combos
+  while True:
+    f,a,m=combos.pop()
+    t=re.sub(r'\s+',' ',re.sub(r'\b(\w+) \1\b',r'\1',f.format(a=a,th=th,k=kind,sz=sz,m=m))).strip()
+    t=t.replace(' for –',' –').replace(' for  ',' ')
     if t not in seen: break
-  else:
-    t=f"{random.choice(ADJ)} & {random.choice(ADJ)} {th} {kind} {sz} PSD".replace('  ',' ')
-    if t in seen: t=f"{t} – Layout {i+1}"
   seen.add(t)
   slug=re.sub(r'[^a-z0-9]+','-',t.lower()).strip('-')[:70].strip('-')+'-'+str(i+1)
-  desc=f"{random.choice(INTRO)} {t.split(' – ')[0].lower()} Photoshop file. {random.choice(USE)} {random.choice(AUD)} Size: {r['Dimensions']} at {r['DPI']}, {r['Color Mode']} colour, about {r['File Size']}. Free download, no login needed. {random.choice(TIP)}".strip()
+  desc=f"{random.choice(INTRO)} {re.sub(r' – .*','',t).lower()} Photoshop file. {random.choice(USE)} {random.choice(AUD)} Size: {r['Dimensions']} at {r['DPI']}, {r['Color Mode']} colour, about {r['File Size']}. Free download, no login needed. {random.choice(TIP)}".strip()
   fid=re.search(r'id=([\w-]+)',r['Download URL']).group(1)
-  d=dict(id=i+1,slug=slug,t=t,d=desc,c=cslug,cn=cname,dim=r['Dimensions'],dpi=r['DPI'],sz=r['File Size'],img=f"/img/{i+1}.webp",fid=fid,src=r['_p'])
+  d=dict(id=i+1,slug=slug,t=t,d=desc,c=cslug,cn=cname,dim=r['Dimensions'],dpi=r['DPI'],sz=r['File Size'],img=f"/img/{slug}.webp",fid=fid,src=r['_p'])
   txt=(r['Title']+' '+r['Tags']+' '+t+' '+r['DPI']).lower()
   d['g']=[k for k,(h,f) in TAGS.items() if f(d,txt)]
   out.append(d)
+
+TINTRO={'tamil-wedding-album-psd':'Free Tamil wedding album PSD designs with traditional temple motifs, rich maroon and gold themes, ready for 12x36 album printing. Popular with studios in Tamil Nadu for Kalyanam, Muhurtham and reception albums.',
+'south-indian-wedding-album-psd':'South Indian wedding album PSD templates inspired by Tamil, Kerala and Hindu wedding traditions. Layered files with editable frames for ceremony and family photos.',
+'karizma-album-12x36-psd-free-download':'Karizma album 12x36 PSD sheets for free download. These wide panoramic spreads are the most requested format for premium wedding albums.'}

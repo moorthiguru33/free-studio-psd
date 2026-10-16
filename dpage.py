@@ -1,0 +1,31 @@
+bycat={}
+for d in sorted(out,key=lambda x:(-x['q'],x['id'])): bycat.setdefault(d['c'],[]).append(d)
+PRO='<div class="procard"><b>Need more premium designs?</b><span>TamilPSD Pro has a much larger studio PSD library for professional albums.</span><a href="https://tamilpsd.in" rel="noopener" target="_blank">Explore TamilPSD Pro →</a></div>'
+for c,L in bycat.items():
+  tot=(len(L)+PER-1)//PER
+  for i,d in enumerate(L):
+    pv=L[i-1] if i>0 else None; nx=L[i+1] if i+1<len(L) else None; pg=i//PER+1
+    tg=''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in d['g'] if k in TOK)
+    rel=(L[i+1:i+13]+L[:max(0,12-len(L[i+1:i+13]))])[:12]
+    rel=[x for x in rel if x is not d]
+    more=' '.join(f'<a href="/category/{c}/{"" if p==1 else f"page/{p}/"}">Page {p}</a>' for p in range(pg,min(tot,pg+5)+1))
+    alt=f"{d['t']} – free {d['cn']} download"
+    ld={"@context":"https://schema.org","@type":"ImageObject","name":d['t'],"description":d['d'],"contentUrl":SITE+d.get('zm',d['img']),"thumbnailUrl":SITE+d['img'],"encodingFormat":"image/webp","creator":{"@type":"Person","name":"Guru Moorthi"},"isAccessibleForFree":True}
+    bc={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":SITE+"/"},{"@type":"ListItem","position":2,"name":d['cn'],"item":f"{SITE}/category/{c}/"},{"@type":"ListItem","position":3,"name":d['t']}]}
+    nav2=f'<div class="pn">{f"<a rel=prev href=/psd/{pv[chr(115)+chr(108)+chr(117)+chr(103)]}/>‹ Previous design</a>" if pv else "<span></span>"}{f"<a rel=next href=/psd/{nx[chr(115)+chr(108)+chr(117)+chr(103)]}/>Next design ›</a>" if nx else ""}</div>'
+    url=SITE+'/psd/'+d['slug']+'/'
+    P(f"/psd/{d['slug']}/",f"{d['t']} | Free Download",d['d'][:155],
+f'''<div class="wrap" id="dp" data-id="{d['id']}"><div class="crumb" style="margin-top:18px"><a href="/">Home</a> › <a href="/category/{c}/">{e(d['cn'])}</a> › <span>{e(d['t'][:60])}</span></div>
+<div class="dt"><div><div class="pv"><a href="{d.get('zm',d['img'])}" class="zoom" id="zm"><img src="{d['img']}" alt="{e(alt)}" width="{d['w']}" height="{d['h']}" fetchpriority="high"></a><p class="note">Click the preview to zoom{' (high resolution)' if 'zm' in d else ''} · Full uncropped preview</p></div>{nav2}
+<h2 style="margin-top:24px">About this design</h2><p>{e(d['d'])}</p><div class="chips">{tg}</div></div>
+<aside class="panel"><div style="display:flex;justify-content:space-between;align-items:center"><span class="free">FREE PSD</span><button class="fav" id="fav" type="button" aria-label="Save to favourites">♡ Save</button></div><h1>{e(d['t'])}</h1><table class="spec"><tr><td>Dimensions</td><td>{d['dim']}</td></tr><tr><td>Resolution</td><td>{d['dpi']}</td></tr><tr><td>File size</td><td>{d['sz']}</td></tr><tr><td>Format</td><td>Layered PSD (ZIP)</td></tr><tr><td>Category</td><td><a href="/category/{c}/" style="color:var(--p2)">{e(d['cn'])}</a></td></tr></table>
+<a class="btn full" href="/download/?id={d['id']}" rel="nofollow">⬇ Free Download</a><p class="note">No login required · Opens in Adobe Photoshop CC</p><div class="share"><a target="_blank" rel="noopener" href="https://wa.me/?text={quote(d['t']+' '+url)}">WhatsApp</a><a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u={quote(url)}">Facebook</a><a target="_blank" rel="noopener" href="https://pinterest.com/pin/create/button/?url={quote(url)}&media={quote(SITE+d['img'])}&description={quote(d['t'])}">Pinterest</a><button id="cpy" type="button">Copy link</button></div>{AD("AdSense 300×250 placeholder")}{PRO}</aside></div>
+<section class="sec"><div class="sh"><h2>More like this</h2><a class="va" href="/category/{c}/">View all →</a></div><div class="grid">{''.join(card(x) for x in rel)}</div><nav class="pg" aria-label="More like this">{more}</nav></section>
+<section class="sec" id="rv" hidden><div class="sh"><h2>Recently viewed</h2><a class="va" href="/favourites/">My favourites →</a></div><div class="row" id="rvl"></div></section></div>''',ld=[ld,bc],img=d['img'])
+page('/download/','Preparing your download – FreeStudioPSD','Your free PSD download is being prepared.',
+f'''<div class="wrap" id="dlbox" style="max-width:980px"><div class="ph" style="text-align:center"><h1>Your free download is almost ready</h1></div>{AD("AdSense placeholder (top)")}<div class="dlg"><div id="nm" style="text-align:center"></div><div style="text-align:center"><p id="t" style="font-size:20px">Preparing your file… <b id="c">15</b>s</p>
+<p><a class="btn" id="dl" style="display:none" rel="nofollow noopener" target="_blank">⬇ Download from Google Drive</a></p><p class="note">The file opens on Google Drive. If Drive shows a virus-scan notice for large files, choose “Download anyway”.</p>{PRO}</div></div>{AD("Adsterra / Monetag placeholder")}
+<section class="sec"><div class="sh"><h2>While you wait: similar free designs</h2></div><div class="grid" id="dlrel"></div></section>{AD("AdSense placeholder (bottom)")}</div>''',noindex=True)
+page('/favourites/','My Favourite PSDs – FreeStudioPSD','Your saved designs.','<div class="wrap"><div class="ph"><h1>My favourites</h1><p>Designs you saved on this device. Tap “♡ Save” on any design page to add it here.</p></div><div class="grid" id="favl"></div><div id="fave" class="empty" hidden><b>No favourites yet</b><p>Browse the <a href="/">latest studio PSDs</a> and save the ones you like.</p></div><section class="sec" id="rv" hidden><div class="sh"><h2>Recently viewed</h2></div><div class="row" id="rvl"></div></section></div>',noindex=True)
+hub=f'<div class="wrap"><div class="ph"><h1>Browse all free studio PSDs</h1><p>Every category, size and style on FreeStudioPSD in one place.</p></div><section class="sec"><h2>Categories</h2><div class="chips">'+''.join(f'<a href="/category/{c}/">{e(n)} ({len(bycat[c])})</a>' for c,n in CATS)+'</div></section><section class="sec"><h2>Styles, sizes and popular searches</h2><div class="chips">'+''.join(f'<a href="/tag/{k}/">{e(TN[k])} ({TCOUNT[k]})</a>' for k in TOK)+'</div></section><section class="sec"><h2>Guides</h2><div class="chips">'+''.join(f'<a href="/blog/{s}/">{e(t)}</a>' for s,t,_ in BLOG)+'</div></section></div>'
+P('/browse/','Browse All Free Studio PSD Categories, Sizes & Styles','Index of all free studio PSD categories, album sizes, styles and guides on FreeStudioPSD.',hub)
