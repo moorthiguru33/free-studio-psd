@@ -38,6 +38,7 @@ for d in out:
 todo=[(d['src'],S+d['img']) for d in out if not os.path.exists(S+d['img'])]
 for d in out: d.pop('src')
 with Pool(8) as pl: pl.map(cv,todo)
+for d in out: d['w'],d['h']=Image.open(S+d['img']).size
 for k in range(0,len(out),200): json.dump(out[k:k+200],open(f'{S}/data/shard-{k//200}.json','w'))
 json.dump({'shards':(len(out)+199)//200,'count':len(out)},open(f'{S}/data/index.json','w'))
 exec(open('build.py').read())

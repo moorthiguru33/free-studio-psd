@@ -8,7 +8,7 @@ CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#64748b;--bg:#f8fafc;-
 .hs{flex:1;display:flex;max-width:520px}.hs input{flex:1;border:1px solid var(--line);border-radius:10px 0 0 10px;padding:10px 14px;font-size:15px;outline:0;min-width:0}.hs button{border:0;background:var(--p2);color:#fff;padding:0 16px;border-radius:0 10px 10px 0;font-weight:600;cursor:pointer}
 .hd .lk{display:flex;gap:16px;font-size:14px;color:var(--mut);font-weight:500}.nav{max-width:1280px;margin:auto;display:flex;gap:6px;overflow-x:auto;padding:0 18px 10px;scrollbar-width:none}.nav a{white-space:nowrap;font-size:13.5px;padding:6px 12px;border-radius:999px;background:#f1f5f9;color:#334155;font-weight:500}.nav a:hover,.nav a.on{background:var(--p2);color:#fff}
 .sug{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 40px #0f172a33;z-index:60;text-align:left;overflow:hidden;color:var(--ink)}.sug a{display:flex;gap:10px;align-items:center;padding:8px 10px;font-size:13.5px;border-bottom:1px solid #f1f5f9}.sug a:hover{background:#f5f3ff}.sug img{width:64px;height:42px;object-fit:cover;border-radius:6px;flex:none}.sug .all{justify-content:center;color:var(--p2);font-weight:700}
-.share{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.share a,.share button{flex:1;text-align:center;padding:9px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:13px;font-weight:600;cursor:pointer;color:#334155}.adg{grid-column:1/-1;margin:4px 0}
+.share{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.share a,.share button{flex:1;text-align:center;padding:9px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:13px;font-weight:600;cursor:pointer;color:#334155}.adg{margin:0 0 16px}.lb{position:fixed;inset:0;background:#000e;z-index:99;display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:16px}.lb img{max-width:100%;max-height:100%;object-fit:contain}.zoom{cursor:zoom-in}
 .pro{background:linear-gradient(90deg,#fde68a,#fbbf24);text-align:center;padding:8px 12px;font-size:14px;font-weight:600}.pro a{text-decoration:underline;color:#4c1d95}
 .wrap{max-width:1280px;margin:auto;padding:0 18px}
 .hero{background:radial-gradient(1200px 400px at 20% -10%,#a78bfa55,transparent),linear-gradient(135deg,#1e1b4b,#4c1d95 60%,#7c3aed);color:#fff;padding:56px 18px 64px;text-align:center}
@@ -16,9 +16,9 @@ CSS=""":root{--p:#5b21b6;--p2:#7c3aed;--ink:#0f172a;--mut:#64748b;--bg:#f8fafc;-
 .hero form{display:flex;max-width:640px;margin:auto;background:#fff;border-radius:14px;padding:6px;box-shadow:0 10px 40px #0005}.hero input{flex:1;border:0;padding:14px;font-size:16px;outline:0;border-radius:10px;min-width:0}.hero button{border:0;background:var(--p2);color:#fff;font-weight:700;padding:0 22px;border-radius:10px;font-size:15px;cursor:pointer}
 .stats{display:flex;justify-content:center;gap:28px;margin-top:22px;color:#c4b5fd;font-size:14px;flex-wrap:wrap}.stats b{color:#fff;font-size:18px;display:block}
 .sec{margin:40px 0}.sh{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:14px}.sh h2{margin:0;font-size:24px;letter-spacing:-.4px}.sh p{margin:2px 0 0;color:var(--mut);font-size:14px}.va{color:var(--p2);font-weight:700;font-size:14px;white-space:nowrap}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}.row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,1fr);gap:18px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}.row .card{scroll-snap-align:start}
+.grid{column-width:250px;column-gap:16px}.grid>*{break-inside:avoid;margin-bottom:16px;display:block}.row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,1fr);gap:18px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}.row .card{scroll-snap-align:start}
 .card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--line);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column}.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #4c1d9522}
-.card .im{position:relative;aspect-ratio:3/2;background:#e2e8f0;overflow:hidden}.card img{width:100%;height:100%;object-fit:cover}.badge{position:absolute;left:10px;top:10px;background:#16a34aee;color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px}.badge.t{background:#f59e0bee}
+.card .im{position:relative;background:#f1f5f9}.card img{width:100%;height:auto}.row .card .im{aspect-ratio:3/2;display:flex;align-items:center}.row .card img{max-height:100%;object-fit:contain}.badge{position:absolute;left:10px;top:10px;background:#16a34aee;color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px}.badge.t{background:#f59e0bee}
 .card .tx{padding:10px 12px 12px}.card h3{font-size:14px;margin:0 0 6px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.meta{font-size:12px;color:var(--mut);display:flex;justify-content:space-between}
 .chips{display:flex;flex-wrap:wrap;gap:8px}.chips a,.chips button{background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:999px;font-size:13.5px;cursor:pointer;color:#334155}.chips .on{background:var(--p2);color:#fff;border-color:var(--p2)}
 .ad{background:#f1f5f9;border:1px dashed #cbd5e1;color:#94a3b8;text-align:center;padding:26px 10px;margin:26px 0;font-size:12px;border-radius:10px}.ad:before{content:"Advertisement";display:block;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
@@ -33,7 +33,7 @@ article{background:#fff;border:1px solid var(--line);padding:30px;border-radius:
 footer{background:#0f172a;color:#94a3b8;padding:36px 18px;margin-top:50px;font-size:14px}footer .fc{max-width:1280px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}footer h4{color:#fff;margin:0 0 8px}footer a{display:block;color:#cbd5e1;padding:2px 0}
 .pg{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:30px 0}.pg a,.pg span{min-width:42px;text-align:center;padding:9px 13px;border-radius:10px;background:#fff;border:1px solid var(--line);font-weight:600;font-size:14px}.pg a:hover{border-color:var(--p2);color:var(--p2)}.pg .on{background:var(--p2);color:#fff;border-color:var(--p2)}.pg .gap{border:0;background:none}
 @media(max-width:860px){.dt{grid-template-columns:1fr}.panel{position:static}.hd .lk{display:none}.hero{padding:40px 16px 46px}.stats{gap:16px}}
-@media(max-width:560px){.hs{display:none}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.card h3{font-size:12.5px}.card .tx{padding:8px}.meta{font-size:11px}.row{grid-auto-columns:78%}.sh h2{font-size:19px}}"""
+@media(max-width:560px){.hs{display:none}.grid{column-count:2;column-width:auto;column-gap:10px}.grid>*{margin-bottom:10px}.card h3{font-size:12.5px}.card .tx{padding:8px}.meta{font-size:11px}.row{grid-auto-columns:78%}.sh h2{font-size:19px}}"""
 open(f'{S}/style.css','w').write(CSS)
 CATS=sorted({(d['c'],d['cn']) for d in out},key=lambda x:-sum(d['c']==x[0] for d in out))
 TN={k:h for k,(h,f) in TAGS.items()}
@@ -55,10 +55,10 @@ urls=[]
 def P(path,*a,**k): urls.append(path); page(path,*a,**k)
 def card(d,badge=''):
   b=f'<span class="badge{" t" if badge=="Trending" else ""}">{badge}</span>' if badge else ''
-  return f'<a class="card" href="/psd/{d["slug"]}/"><div class="im">{b}<img loading="lazy" decoding="async" src="{d["img"]}" alt="{e(d["t"])}" width="480" height="320"></div><div class="tx"><h3>{e(d["t"])}</h3><div class="meta"><span>{e(d["cn"].replace(" PSD",""))}</span><span>{e(d["sz"])}</span></div></div></a>'
+  return f'<a class="card" href="/psd/{d["slug"]}/"><div class="im">{b}<img loading="lazy" decoding="async" src="{d["img"]}" alt="{e(d["t"])}" width="{d["w"]}" height="{d["h"]}"></div><div class="tx"><h3>{e(d["t"])}</h3><div class="meta"><span>{e(d["cn"].replace(" PSD",""))}</span><span>{e(d["sz"])}</span></div></div></a>'
 APP=r"""
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const C=d=>`<a class="card" href="/psd/${d.slug}/"><div class="im"><img loading="lazy" decoding="async" src="${d.img}" alt="${esc(d.t)}" width="480" height="320"></div><div class="tx"><h3>${esc(d.t)}</h3><div class="meta"><span>${esc(d.cn||'')}</span><span>${esc(d.sz||'')}</span></div></div></a>`;
+const C=d=>`<a class="card" href="/psd/${d.slug}/"><div class="im"><img loading="lazy" decoding="async" src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></div><div class="tx"><h3>${esc(d.t)}</h3><div class="meta"><span>${esc(d.cn||'')}</span><span>${esc(d.sz||'')}</span></div></div></a>`;
 const shuf=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 document.querySelectorAll('[data-shuffle]').forEach(el=>shuf([...el.children]).forEach(c=>el.appendChild(c)));
 const L=$('#list');
@@ -71,6 +71,7 @@ let SI=null;document.querySelectorAll('.iq').forEach(inp=>{const f=inp.form;let 
  const r=SI.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+d.g.join(' ')).toLowerCase().includes(x)));box.innerHTML=r.slice(0,6).map(d=>`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" loading="lazy">${esc(d.t)}</a>`).join('')+`<a class="all" href="/search/?q=${encodeURIComponent(inp.value)}">See all ${r.length} results →</a>`});
  document.addEventListener('click',e=>{if(box&&!f.contains(e.target)){box.remove();box=null}})});
 const cp=$('#cpy');cp&&(cp.onclick=()=>{navigator.clipboard.writeText(location.href);cp.textContent='Copied!'});
+const z=$('#zm');z&&(z.onclick=e=>{e.preventDefault();const o=document.createElement('div');o.className='lb';o.innerHTML=`<img src="${z.getAttribute('href')}" alt="">`;o.onclick=()=>o.remove();document.body.appendChild(o)});
 const D=$('#dlbox');
 if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const s=Math.floor((id-1)/200);let d;try{d=(await (await fetch('/data/shard-'+s+'.json')).json()).find(x=>x.id===id)}catch(e){}
  if(!d){$('#t').textContent='Design not found.';return}$('#nm').innerHTML=`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" style="max-width:360px;width:100%;border-radius:12px;margin:auto"></a><p><b>${esc(d.t)}</b><br>${esc(d.dim)} · ${esc(d.sz)}</p>`;
@@ -78,7 +79,7 @@ if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const 
 """
 open(f'{S}/app.js','w').write(APP)
 def lite(items,path):
-  json.dump([{k:x[k] for k in ('id','slug','t','img','cn','sz','mb','q','g')} for x in items],open(S+path,'w'),separators=(',',':'))
+  json.dump([{k:x[k] for k in ('id','slug','t','img','cn','sz','mb','q','g','w','h')} for x in items],open(S+path,'w'),separators=(',',':'))
 def listing(items,src,filters=True):
   lite(items,src)
   fl=''
@@ -146,7 +147,7 @@ for d in out:
   bc={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":SITE+"/"},{"@type":"ListItem","position":2,"name":d['cn'],"item":f"{SITE}/category/{d['c']}/"},{"@type":"ListItem","position":3,"name":d['t']}]}
   P(f"/psd/{d['slug']}/",f"{d['t']} | FreeStudioPSD",d['d'][:155],
    f'''<div class="wrap"><div class="crumb" style="margin-top:18px"><a href="/">Home</a> › <a href="/category/{d['c']}/">{e(d['cn'])}</a></div>
-<div class="dt"><div><div class="pv"><img src="{d['img']}" alt="{e(d['t'])}" width="720" height="480" fetchpriority="high"></div>
+<div class="dt"><div><div class="pv"><a href="{d['img']}" class="zoom" id="zm"><img src="{d['img']}" alt="{e(d['t'])}" width="{d['w']}" height="{d['h']}" fetchpriority="high"></a><p class="note">Click the preview to zoom · Full uncropped preview</p></div>
 <h2 style="margin-top:24px">About this design</h2><p>{e(d['d'])}</p><div class="chips">{tg}</div></div>
 <aside class="panel"><span class="free">FREE PSD</span><h1>{e(d['t'])}</h1><table class="spec"><tr><td>Dimensions</td><td>{d['dim']}</td></tr><tr><td>Resolution</td><td>{d['dpi']}</td></tr><tr><td>File size</td><td>{d['sz']}</td></tr><tr><td>Format</td><td>Layered PSD (ZIP)</td></tr><tr><td>Category</td><td><a href="/category/{d['c']}/" style="color:var(--p2)">{e(d['cn'])}</a></td></tr></table>
 <a class="btn full" href="/download/?id={d['id']}" rel="nofollow">⬇ Free Download</a><p class="note">No login required · Opens in Adobe Photoshop CC</p><div class="share"><a target="_blank" rel="noopener" href="https://wa.me/?text={quote(d['t']+' '+SITE+'/psd/'+d['slug']+'/')}">WhatsApp</a><a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u={quote(SITE+'/psd/'+d['slug']+'/')}">Facebook</a><a target="_blank" rel="noopener" href="https://pinterest.com/pin/create/button/?url={quote(SITE+'/psd/'+d['slug']+'/')}&media={quote(SITE+d['img'])}&description={quote(d['t'])}">Pinterest</a><button id="cpy" type="button">Copy link</button></div>{AD("AdSense 300×250 placeholder")}</aside></div>
