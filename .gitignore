@@ -3,3 +3,5 @@ node_modules/
 deploy.sh
 indexnow.key
 media/
+srcmap.json
+ac.py
