@@ -13,7 +13,13 @@ TOK=[k for k in TN if TCOUNT[k]>=6]
 nav=''
 LBL={'wedding-album-12x36':'12x36 Album','album-12x30':'12x30 Album','album-18x24':'18x24 Album','album-12x18':'12x18 Album','album-cover':'Album Cover','album-background':'Background','studio-background':'Studio BG','birthday-baby-album':'Birthday','wedding-invitation':'Invitation'}
 FONTS='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,600&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700&family=Outfit:wght@400;500;600&display=swap" media="print" onload="this.media=\'all\'">'
-THEMEJS='<script>(function(){try{var t=localStorage.getItem("fsp-theme");if(t!=="dark"&&t!=="light")t="light";document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script><style>html{background:#FAF7F2}html[data-theme="dark"]{background:#0c0a08}</style>'
+THEMEJS='<script>(function(){try{var t=localStorage.getItem("fsp-theme");if(t!=="dark"&&t!=="light")t="light";document.documentElement.setAttribute("data-theme",t);if(+localStorage.getItem("fsp-promo-x")>Date.now())document.documentElement.classList.add("nopromo");}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script><style>html{background:#FAF7F2}html[data-theme="dark"]{background:#0c0a08}</style>'
+# ---- TamilPSD Pro promotion (figures checked on tamilpsd.in public pages 2026-10-17: 14,037 designs; Pro 50 PSD/day, Rs189/28 days, Rs900/6 months, Rs1,499/year) ----
+TPN='14,000+'
+def PROURL(slot): return f'https://tamilpsd.in/?utm_source=freestudiopsd&utm_medium={slot}&utm_campaign=pro'
+def PROCARD(slot,head=f'Want {TPN} premium PSDs? Get TamilPSD Pro',sub='50 PSD downloads a day · from ₹189 for 28 days · UPI, cards &amp; netbanking',go='See Pro plans →'):
+  return f'<a class="pm-upsell fsp-procard" href="{PROURL(slot)}" target="_blank" rel="noopener" data-pro="{slot}"><span class="ic fsp-pro-ic" aria-hidden="true">PRO</span><span><b>{head}</b><small>{sub}</small></span><span class="go">{go}</span></a>'
+PROMOBAR=f'<div class="fsp-promo" id="fsp-promo" role="region" aria-label="TamilPSD Pro offer"><a href="{PROURL("topbar")}" target="_blank" rel="noopener" data-pro="topbar"><b>⚡ TamilPSD Pro</b><span class="fsp-promo-t"> · {TPN} premium PSDs · 50 downloads a day from ₹189</span><span class="fsp-promo-go">See plans →</span></a><button type="button" class="fsp-promo-x" aria-label="Dismiss offer">×</button></div>'
 MAG='<svg class="nav-search-ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4-4"/></svg>'
 NSTOG='<button type="button" class="nav-search-toggle" aria-label="Open search" aria-controls="nav-search" aria-expanded="false"><svg class="ns-mag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4-4"/></svg><svg class="ns-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>'
 THTOG='<button type="button" class="theme-toggle" aria-label="Switch to dark theme" title="Dark theme"><svg class="theme-ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg><svg class="theme-ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"/></svg></button>'
@@ -29,14 +35,14 @@ def mbn(path):
 def footer():
   cats=''.join(f'<li><a href="/category/{c}/">{e(n.replace(" PSD",""))}</a></li>' for c,n in CATS[:6])
   gd=''.join(f'<li><a href="/blog/{s}/">{e(t)}</a></li>' for s,t,_ in BLOG[:4])
-  return f'''<footer><div class="footer-grid"><div><div class="footer-brand">FreeStudio<span>PSD</span></div><p class="footer-tagline">Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</p></div><div class="footer-col"><div class="fh4">Categories</div><ul>{cats}<li><a href="/browse/">All categories →</a></li></ul></div><div class="footer-col"><div class="fh4">Guides</div><ul>{gd}<li><a href="/blog/">All guides →</a></li></ul></div><div class="footer-col"><div class="fh4">Company</div><ul><li><a href="/about/">About Us</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/designs/">All designs</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 FreeStudioPSD · All templates free · No login required</p></div></footer><button id="back-top" type="button" aria-label="Back to top">↑</button>'''
+  return f'''<footer><div class="footer-grid"><div><div class="footer-brand">FreeStudio<span>PSD</span></div><p class="footer-tagline">Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</p>{PROCARD("footer",head="Need more? "+TPN+" premium PSDs on TamilPSD Pro",sub="50 downloads a day · from ₹189",go="See plans →")}</div><div class="footer-col"><div class="fh4">Categories</div><ul>{cats}<li><a href="/browse/">All categories →</a></li></ul></div><div class="footer-col"><div class="fh4">Guides</div><ul>{gd}<li><a href="/blog/">All guides →</a></li></ul></div><div class="footer-col"><div class="fh4">Company</div><ul><li><a href="/about/">About Us</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/designs/">All designs</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 FreeStudioPSD · All templates free · No login required</p></div></footer><button id="back-top" type="button" aria-label="Back to top">↑</button>'''
 def page(path,title,desc,body,ld=None,img=None,noindex=False,head='',canon=None,lb=True):
   url=SITE+path; cu=canon or url
   h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{THEMEJS}<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{cu}"><link rel="alternate" hreflang="en" href="{cu}"><meta name="theme-color" content="#FAF7F2">{'<meta name="robots" content="noindex,follow">' if noindex else '<meta name="robots" content="index,follow,max-image-preview:large">'}<meta property="og:type" content="website"><meta property="og:site_name" content="FreeStudioPSD"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{cu}"><meta property="og:image" content="{SITE+(img or '/og.png')}"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">{FONTS}<link rel="stylesheet" href="/css/site.css?v={CSSV}">{head}
 <!-- Google Search Console: <meta name="google-site-verification" content="REPLACE_ME"> -->
 <!-- Ads: all ad code is configured in /ads.json and lazy-loaded by /app.js -->
 {f'<script type="application/ld+json">{json.dumps(ld)}</script>' if ld else ''}</head><body>
-{header(path)}
+{PROMOBAR}{header(path)}
 {('<div class="fsp-lb">'+AD('leaderboard')+'</div>') if lb else ''}
 {body}
 {footer()}
@@ -90,6 +96,13 @@ GROUPS=[('albums','bc-gold',ICO_PS,'Wedding Album PSD','12x36, Karizma and album
         ('studio','bc-purple',ICO_CAM,'Covers & Invitations','Album covers, invitations and birthday albums',['album-cover','wedding-invitation','birthday-baby-album'],'album-cover'),
         ('backgrounds','bc-green',ICO_BG,'Backgrounds PSD','Album and studio backdrops',['album-background','studio-background'],'album-background')]
 CN=dict(CATS)
+BCPRE=[]
+def bcthumb(d):
+  """small 360px thumbnail for the category cards (they render at <=320px); keeps mobile LCP light"""
+  u=f"/img/bc/{d['slug']}.webp"; dst='media'+u
+  if not os.path.exists(dst):
+    os.makedirs('media/img/bc',exist_ok=True); im=Image.open('media'+d['img']).convert('RGB'); im.thumbnail((360,360)); im.save(dst,'WEBP',quality=60,method=5)
+  return u
 def bccards():
   h=''
   for gi,(gid,cls,ico,ti,tg,cs,main) in enumerate(GROUPS):
@@ -97,7 +110,8 @@ def bccards():
     pool=sorted([d for d in out if d['c'] in cs],key=lambda x:-x['q'])
     land=[d for d in pool if d['w']>=d['h']*1.2][:24] or pool[:24]
     pick=random.Random(gid).sample(land,min(4,len(land)))
-    th=''.join(f'<span class="bc-th"><img {"" if gi==0 else "loading=lazy "}{"fetchpriority=high " if gi==0 and ti_==0 else ""}decoding="async" src="{d["img"]}" alt="" width="320" height="220"></span>' for ti_,d in enumerate(pick))
+    th=''.join(f'<span class="bc-th"><img {"" if gi==0 else "loading=lazy "}{"fetchpriority=high " if gi==0 and ti_==0 else ""}decoding="async" src="{bcthumb(d)}" alt="" width="320" height="220"></span>' for ti_,d in enumerate(pick))
+    if gi==0: BCPRE.append(bcthumb(pick[0]))
     links=''.join(f'<li><a class="bc-link" href="/category/{c}/">{e(CN[c].replace(" PSD",""))}</a></li>' for c in cs)
     links+=''.join(f'<li><a class="bc-link" href="/tag/{k}/">{e(TN[k].replace(" Free Download","").replace(" PSD",""))}</a></li>' for k in TOK if any(k in d['g'] for d in pool[:400]))[:0] if False else ''
     extra=[k for k in TOK if sum(k in d['g'] for d in pool)>=6][:8]
@@ -108,10 +122,11 @@ _rs=random.Random(7); feed=_rs.sample(sorted(out,key=lambda x:-x['q'])[:900],PER
 web={"@context":"https://schema.org","@type":"WebSite","name":"FreeStudioPSD","url":SITE,"potentialAction":{"@type":"SearchAction","target":SITE+"/search/?q={q}","query-input":"required name=q"}}
 TOTP=(len(out)+PER-1)//PER
 ABOUT=f'''<section class="pm-sec pm-wrap pm-reveal pm-about visible" aria-label="About FreeStudioPSD"><div class="pm-about-grid"><div><h1 class="fsp-about-h">Free studio PSD templates for wedding &amp; Karizma albums</h1><p>FreeStudioPSD is run by Guru Moorthi for photographers, album designers and photo studios. We publish {len(out):,}+ layered, print-ready Photoshop designs: 12x36 wedding album sheets, Karizma albums, album covers, studio backgrounds, birthday and baby albums. Each design page lists the canvas size, DPI and file size so you can pick the right template before downloading.</p><p>Every design is free to download with no login and no signup. Questions or a broken link? <a href="/contact/">Contact us</a>. New to album editing? Start with our <a href="/blog/">album design guides</a>.</p></div><div><h2 class="fsp-about-h3">Guides for editing and printing</h2><ul class="pm-guide-list">{"".join(f'<li><a href="/blog/{s}/">{e(t)}</a></li>' for s,t,_ in BLOG[:5])}<li><a href="/blog/">All guides →</a></li></ul></div></div></section>'''
+_BC=bccards()
 P('/','Free Studio PSD Download – Wedding Album 12x36, Karizma & Birthday PSD',f'Download {len(out):,}+ free studio PSD templates: wedding album 12x36, Karizma album, album covers, backgrounds, birthday and baby albums. Layered, print-ready, no login.',
-bccards()+f'''<div class="main-wrap"><main>{LAY(f"""<div class="sec-head"><span class="results-count">{len(out):,} designs</span></div><div class="sort-row"><select id="sort-select" aria-label="Sort designs"><option value="s">🎲 Daily Shuffle</option><option value="n">🆕 Newest</option><option value="q">⭐ Best quality</option></select><button type="button" id="reset-filters-btn">Reset Filters</button><button type="button" id="fav-filter-btn">❤️ Favourites</button></div>{GRID(feed,title=False,gid="designs-grid")}{pager("/designs/",1,TOTP,len(out))}""")}</main></div>
+_BC+f'''<div class="main-wrap"><main>{LAY(f"""<div class="sec-head"><span class="results-count">{len(out):,} designs</span></div><div class="sort-row"><select id="sort-select" aria-label="Sort designs"><option value="s">🎲 Daily Shuffle</option><option value="n">🆕 Newest</option><option value="q">⭐ Best quality</option></select><button type="button" id="reset-filters-btn">Reset Filters</button><button type="button" id="fav-filter-btn">❤️ Favourites</button></div>{GRID(feed,title=False,gid="designs-grid")}{pager("/designs/",1,TOTP,len(out))}""")}</main></div>
 <section class="pm-sec pm-wrap fsp-rv" id="rv" hidden><div class="pm-sec-h"><h2><small>History</small>Recently viewed</h2><a href="/favourites/">My favourites →</a></div><div class="designs-grid fsp-row" id="rvl"></div></section>
-{ABOUT}''',ld=web)
+{ABOUT}''',ld=web,head=f'<link rel="preload" as="image" href="{BCPRE[0]}" fetchpriority="high">')
 def faq(h,n):
   qa=[(f'Are these {h} files really free?',f'Yes. All {n} {h} designs on FreeStudioPSD are free to download with no login or signup.'),
       (f'Which software opens {h} files?','The files are layered PSDs. Open them in Adobe Photoshop CC or any editor that supports PSD layers.'),

@@ -51,3 +51,15 @@ body.hasanc .mobile-bottom-nav{bottom:76px!important}body.hasanc #back-top{botto
 .ad-countdown_top .adc{min-height:90px!important}
 .tp-pager .tp-pg-off{color:#6f6b64!important;opacity:1!important}
 .pm-about h2.fsp-about-h3{font-size:15px;color:var(--t0);margin:0 0 10px}
+/* TamilPSD Pro promotion */
+.fsp-promo{position:relative;background:linear-gradient(90deg,#2a1d06,#4a3410);color:#fdf3dc;font:500 13px/1.3 Manrope,sans-serif;text-align:center}
+.fsp-promo a{display:flex;justify-content:center;align-items:center;gap:6px;padding:8px 44px;color:#fdf3dc;min-height:34px;flex-wrap:wrap}
+.fsp-promo b{color:#f4cf6a;font-weight:800}.fsp-promo-go{font-weight:800;color:#fff;text-decoration:underline;text-underline-offset:2px;margin-left:6px}
+.fsp-promo-x{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;color:#fdf3dc;font-size:18px;line-height:28px;background:rgba(255,255,255,.08)}
+html.nopromo .fsp-promo{display:none}
+@media(max-width:720px){.fsp-promo-t{display:none}.fsp-promo a{padding:7px 40px;font-size:12.5px}}
+.fsp-procard{margin:16px 0}.spg-col-info .fsp-procard{margin:14px 0 4px}
+.footer-grid .fsp-procard{margin-top:14px;max-width:360px;padding:11px 13px}.footer-grid .fsp-procard .ic{width:34px;height:34px}
+.fsp-art .fsp-procard{text-decoration:none;margin:22px 0}.fsp-art .fsp-procard b{font-family:Manrope,sans-serif}
+@media(max-width:560px){.fsp-procard{flex-wrap:nowrap;align-items:flex-start}.fsp-procard .go{display:none}.fsp-procard b::after{content:" →";color:var(--gold)}}
+.fsp-pro-ic{font:900 11px Manrope,sans-serif!important;letter-spacing:.04em}
