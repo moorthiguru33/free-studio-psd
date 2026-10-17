@@ -66,3 +66,6 @@ html.nopromo .fsp-promo{display:none}
 
 .fsp-byline{color:var(--t3);font-size:13px;margin:-4px 0 14px}.fsp-contact{margin:14px 0 22px}.fsp-art h2{margin-top:22px}.fsp-art ul,.fsp-art ol{padding-left:22px;margin:8px 0 14px}.fsp-art li{margin:4px 0}
 @media(min-width:1200px){.fsp-lay.fsp-noads{display:block}}
+/* perf: skip style/layout of off-screen sections until they near the viewport */
+footer,.pm-about,.fsp-rv,.fsp-faq,.spg-related,.fsp-hubsec{content-visibility:auto;contain-intrinsic-size:auto 700px}
+#designs-grid{content-visibility:auto;contain-intrinsic-size:auto 2400px}
