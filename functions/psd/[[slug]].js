@@ -9,7 +9,7 @@ export async function onRequestGet({ request, env, params }) {
   const cache = caches.default;
     if (!TPL) TPL = await (await asset(env, origin, '/_tpl/design/')).text();
   // cache key follows the template, so a redeploy with a new design template never serves stale pages
-  const ck = new Request(origin + url.pathname + '?tpl=' + TPL.length);
+  const ck = new Request(origin + url.pathname + '?tpl=' + TPL.length + '&v=th1');
   let hit = await cache.match(ck); if (hit) return hit;
   const parts = [].concat(params.slug || []);
   const slug = parts[0] || '';
