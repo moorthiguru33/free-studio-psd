@@ -1,6 +1,6 @@
 exec(open('gen.py').read().split('# sync new images to R2')[0].split('S=\'site\'')[0]) if False else None
 import json,os,subprocess,glob,time
-M='media'; keep={f[len(M):] for f in glob.glob(M+'/img/*.webp')+glob.glob(M+'/img/zoom/*.webp')}
+M='media'; keep={f[len(M):] for f in glob.glob(M+'/img/*.webp')+glob.glob(M+'/img/zoom/*.webp')+glob.glob(M+'/img/bc/*.webp')}
 UP=set(open(M+'/.uploaded').read().split()) if os.path.exists(M+'/.uploaded') else set()
 new=sorted(keep-UP); print('to upload',len(new),flush=True)
 for i in range(0,len(new),500):
