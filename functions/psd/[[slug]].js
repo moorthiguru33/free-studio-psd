@@ -1,7 +1,7 @@
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 let TPL = null, CFG = null;
 const LBL = { 'wedding-album-12x36': '12x36 Album', 'album-12x30': '12x30 Album', 'album-18x24': '18x24 Album', 'album-12x18': '12x18 Album', 'album-cover': 'Album Cover', 'album-background': 'Background', 'studio-background': 'Studio BG', 'birthday-baby-album': 'Birthday', 'wedding-invitation': 'Invitation' };
-const card = d => `<div class="card"><a class="im" href="/psd/${d.slug}/"><span class="lb">${esc(LBL[d.c] || d.cn.replace(' PSD', ''))}</span><img loading="lazy" decoding="async" src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></a><button class="hb" type="button" data-id="${d.id}" aria-label="Save to favourites">♥</button><a class="tx" href="/psd/${d.slug}/"><h3>${esc(d.t)}</h3><span class="meta"><span>${esc(d.cn.replace(' PSD', ''))}</span><span>${esc(d.sz)}</span></span></a></div>`;
+const card = d => `<a class="design-card" href="/psd/${d.slug}/"><div class="card-thumb"><div class="wm-container"><img loading="lazy" decoding="async" src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></div><div class="card-overlay" aria-hidden="true"><span class="fsp-pill">⬇ Free PSD</span></div><div class="card-cat">${esc(LBL[d.c] || d.cn.replace(' PSD', ''))}</div><button class="card-fav" type="button" data-id="${d.id}" aria-label="Save to favourites">♥</button></div><div class="pm-rel-t">${esc(d.t)}</div></a>`;
 async function asset(env, origin, p) { const r = await env.ASSETS.fetch(new Request(origin + p)); if (!r.ok) throw new Error('asset ' + p + ' ' + r.status); return r; }
 export async function onRequestGet({ request, env, params }) {
   const url = new URL(request.url), origin = url.origin;
@@ -26,7 +26,7 @@ export async function onRequestGet({ request, env, params }) {
   const S = CFG.SITE;
   const rel = shard.filter(x => x.id !== id && x.c === d.c).sort((a, b) => Math.abs(a.id - id) - Math.abs(b.id - id)).slice(0, 12);
   if (rel.length < 12) rel.push(...shard.filter(x => x.id !== id && x.c !== d.c).slice(0, 12 - rel.length));
-  const nav = `<div class="pn">${d.pv ? `<a rel=prev href=/psd/${d.pv}/>‹ Previous design</a>` : '<span></span>'}${d.nx ? `<a rel=next href=/psd/${d.nx}/>Next design ›</a>` : ''}</div>`;
+  const nav = `<div class="fsp-pn">${d.pv ? `<a rel=prev href=/psd/${d.pv}/>‹ Previous design</a>` : '<span></span>'}${d.nx ? `<a rel=next href=/psd/${d.nx}/>Next design ›</a>` : ''}</div>`;
   const tags = (d.g || []).filter(k => CFG.TN[k]).map(k => `<a href="/tag/${k}/">${esc(CFG.TN[k].replace(' Free Download', ''))}</a>`).join(', ') || 'studio psd, editable psd';
   const tot = CFG.CATTOT[d.c] || 1, pg = d.pg || 1; let more = [];
   for (let p = pg; p <= Math.min(tot, pg + 5); p++) more.push(`<a href="/category/${d.c}/${p === 1 ? '' : 'page/' + p + '/'}">Page ${p}</a>`);
