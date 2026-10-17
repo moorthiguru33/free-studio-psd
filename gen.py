@@ -1,6 +1,6 @@
 import json,subprocess,glob,random,os,shutil,re,html,hashlib
 random.seed(2026)
-SITE="https://freestudiopsd.pages.dev"
+SITE="https://psdalbum.in"
 rows={}
 for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_fsp_b*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_reuse*.json')):
   d=os.path.dirname(f)
