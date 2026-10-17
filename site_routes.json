@@ -1,1 +1,1 @@
-{"version":1,"include":["/psd/*","/img/*"],"exclude":[]}
+{"version":1,"include":["/*"],"exclude":["/css/*","/data/*","/_tpl/*","/app.js","/favicon.svg","/og.png","/ads.json","/ads.txt"]}
