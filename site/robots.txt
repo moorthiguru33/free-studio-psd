@@ -3,4 +3,4 @@ Disallow: /download/
 Disallow: /search/
 Disallow: /_tpl/
 Allow: /
-Sitemap: https://freestudiopsd.pages.dev/sitemap.xml
+Sitemap: https://psdalbum.in/sitemap.xml
