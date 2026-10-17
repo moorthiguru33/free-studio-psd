@@ -6,7 +6,9 @@ async function asset(env, origin, p) { const r = await env.ASSETS.fetch(new Requ
 export async function onRequestGet({ request, env, params }) {
   const url = new URL(request.url), origin = url.origin;
   const cache = caches.default;
-  const ck = new Request(origin + url.pathname + '?tplv=5');
+    if (!TPL) TPL = await (await asset(env, origin, '/_tpl/design/')).text();
+  // cache key follows the template, so a redeploy with a new design template never serves stale pages
+  const ck = new Request(origin + url.pathname + '?tpl=' + TPL.length);
   let hit = await cache.match(ck); if (hit) return hit;
   const parts = [].concat(params.slug || []);
   const slug = parts[0] || '';
@@ -15,7 +17,6 @@ export async function onRequestGet({ request, env, params }) {
   if (!m || parts.length > 1) return notFound();
   if (!url.pathname.endsWith('/')) return Response.redirect(origin + '/psd/' + slug + '/', 301);
   const id = +m[1];
-  if (!TPL) TPL = await (await asset(env, origin, '/_tpl/design/')).text();
   if (!CFG) CFG = await (await asset(env, origin, '/_tpl/cfg.json')).json();
   let shard;
   try { shard = await (await asset(env, origin, `/data/shard-${Math.floor((id - 1) / 200)}.json`)).json(); } catch (e) { return notFound(); }
