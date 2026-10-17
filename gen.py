@@ -1,6 +1,7 @@
 import json,subprocess,glob,random,os,shutil,re,html,hashlib
 random.seed(2026)
 SITE="https://psdalbum.in"
+IMG="https://img.psdalbum.in"  # R2 custom domain for media (bypasses Pages Function quota); /img/* Function stays as fallback
 rows={}
 for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_fsp_b*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_reuse*.json')):
   d=os.path.dirname(f)
@@ -73,5 +74,15 @@ for f in glob.glob(M+'/img/*.webp')+glob.glob(M+'/img/zoom/*.webp'):
 shutil.rmtree(S+'/img',ignore_errors=True)
 # sync new images to R2
 if not os.environ.get('FSP_NOUPLOAD'): subprocess.run(['python3','r2sync.py'])
+# point image URLs at the R2 custom domain + preconnect hint
+if IMG:
+  _pc=f'<link rel="preconnect" href="{IMG}">'
+  for _a,_,_fs in os.walk(S):
+    for _f in _fs:
+      if not _f.endswith(('.html','.xml','.json')): continue
+      _p=os.path.join(_a,_f); _s=open(_p,encoding='utf-8').read(); _o=_s
+      _s=_s.replace(SITE+'/img/',IMG+'/img/').replace(SITE+'ZZIMGZZ','ZZIMGZZ').replace(SITE+'ZZZMZZ','ZZZMZZ').replace('="/img/','="'+IMG+'/img/').replace('"img":"/img/','"img":"'+IMG+'/img/').replace('"zm":"/img/','"zm":"'+IMG+'/img/')
+      if _f.endswith('.html') and _pc not in _s: _s=_s.replace('<meta charset="utf-8">','<meta charset="utf-8">'+_pc,1)
+      if _s!=_o: open(_p,'w',encoding='utf-8').write(_s)
 shutil.copy('site_routes.json',S+'/_routes.json')
 print('FILES',sum(len(f) for _,_,f in os.walk(S)),'MEDIA MB',sum(os.path.getsize(os.path.join(a,f)) for a,_,fs in os.walk(M) for f in fs)//2**20)

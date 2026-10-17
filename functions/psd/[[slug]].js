@@ -24,13 +24,14 @@ export async function onRequestGet({ request, env, params }) {
   if (!d) return notFound();
   if (d.slug !== slug) return Response.redirect(origin + '/psd/' + d.slug + '/', 301);
   const S = CFG.SITE;
+  const A = u => /^https?:/.test(u) ? u : S + u;
   const rel = shard.filter(x => x.id !== id && x.c === d.c).sort((a, b) => Math.abs(a.id - id) - Math.abs(b.id - id)).slice(0, 12);
   if (rel.length < 12) rel.push(...shard.filter(x => x.id !== id && x.c !== d.c).slice(0, 12 - rel.length));
   const nav = `<div class="fsp-pn">${d.pv ? `<a rel=prev href=/psd/${d.pv}/>‹ Previous design</a>` : '<span></span>'}${d.nx ? `<a rel=next href=/psd/${d.nx}/>Next design ›</a>` : ''}</div>`;
   const tags = (d.g || []).filter(k => CFG.TN[k]).map(k => `<a href="/tag/${k}/">${esc(CFG.TN[k].replace(' Free Download', ''))}</a>`).join(', ') || 'studio psd, editable psd';
   const tot = CFG.CATTOT[d.c] || 1, pg = d.pg || 1; let more = [];
   for (let p = pg; p <= Math.min(tot, pg + 5); p++) more.push(`<a href="/category/${d.c}/${p === 1 ? '' : 'page/' + p + '/'}">Page ${p}</a>`);
-  const ld = [{ "@context": "https://schema.org", "@type": "ImageObject", name: d.t, description: d.d, contentUrl: S + (d.zm || d.img), thumbnailUrl: S + d.img, encodingFormat: "image/webp", creator: { "@type": "Person", name: "Guru Moorthi" }, isAccessibleForFree: true },
+  const ld = [{ "@context": "https://schema.org", "@type": "ImageObject", name: d.t, description: d.d, contentUrl: A(d.zm || d.img), thumbnailUrl: A(d.img), encodingFormat: "image/webp", creator: { "@type": "Person", name: "Guru Moorthi" }, isAccessibleForFree: true },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: S + "/" }, { "@type": "ListItem", position: 2, name: d.cn, item: `${S}/category/${d.c}/` }, { "@type": "ListItem", position: 3, name: d.t }] }];
   const R = {
     ZZLDZZ: JSON.stringify(ld).replace(/</g, '\\u003c'), ZZTQZZ: encodeURIComponent(d.t), ZZHRZZ: d.zm ? ' (high resolution)' : '',
