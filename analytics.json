@@ -1,0 +1,1 @@
+{"cf_web_analytics_token": "", "_help": "Paste the Cloudflare Web Analytics site token here (Account > Analytics & Logs > Web Analytics > Add a site > psdalbum.in, choose the manual JS snippet), then rebuild. Leave empty if you enable automatic injection on the Pages project instead."}

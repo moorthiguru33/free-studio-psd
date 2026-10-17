@@ -3,26 +3,30 @@ def crumbs(items):
   return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":SITE+u} for i,(n,u) in enumerate(items)]}
 LANDMAP={'karizma-album-psd':'karizma-album-psd','wedding-album-12x36-psd-free-download':'12x36-wedding-album-psd-free-download','tamil-wedding-album-psd':'tamil-wedding-album-psd','birthday-album-psd-free-download':'birthday-album-psd','baby-album-psd':'baby-album-psd','muslim-wedding-album-psd':'muslim-wedding-album-psd','pre-wedding-album-psd':'pre-wedding-album-psd','engagement-album-psd':'engagement-album-psd','album-cover-psd-free-download':'album-cover-psd','wedding-album-background-psd':'album-background-psd','12x30-album-psd':'12x30-album-psd','12x18-album-psd':'12x18-album-psd','18x24-album-psd':'18x24-album-psd','wedding-invitation-psd':'wedding-invitation-psd','studio-backdrop-psd':'studio-background-psd'}
 from urllib.parse import quote
-exec(open('blog.py').read());exec(open('blog2.py').read());exec(open('landing.py').read())
+exec(open('blog.py').read());exec(open('blog2.py').read());exec(open('content.py').read());exec(open('guides_long.py').read());BLOG=apply_long(BLOG);exec(open('landing.py').read())
 exec(open('ui6/pres.py').read())
 exec(open('dpage.py').read())
 landing_pages()
-exec(open('blog.py').read());exec(open('blog2.py').read())
+exec(open('blog.py').read());exec(open('blog2.py').read());BLOG=apply_long(BLOG)
 bl=''
 for s,t,ps in BLOG:
   others=[x for x in BLOG if x[0]!=s]; rg=random.sample(others,3); tk=random.sample(TOK,3)
-  _ps=[f'<p>{e(p)}</p>' for p in ps]
-  if len(_ps)>3: _ps.insert(2,AD('inarticle'))
-  P(f'/blog/{s}/',t+' – FreeStudioPSD',ps[0][:155],crumbbar([('Guides','/blog/'),(e(t[:60]),None)])+'<div class="main-wrap"><main>'+LAY(f'<article class="fsp-art"><h1>{e(t)}</h1>'+''.join(_ps)+
-   f'{AD("inarticle")}{PROCARD("blog",head=f"Want {TPN} premium PSDs? Get TamilPSD Pro",sub="Print-ready layered PSDs · 50 downloads a day · from ₹189 for 28 days")}<h3>Free templates to practise with</h3><p>'+' · '.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in tk)+'</p><h3>Related guides</h3><ul>'+''.join(f'<li><a href="/blog/{x[0]}/">{e(x[1])}</a></li>' for x in rg)+'</ul></article>')+'</main></div>',
-   ld=[{"@context":"https://schema.org","@type":"Article","headline":t,"author":{"@type":"Person","name":"Guru Moorthi"},"datePublished":"2026-10-16","dateModified":"2026-10-16","publisher":{"@type":"Organization","name":"FreeStudioPSD"}},crumbs([('Home','/'),('Guides','/blog/'),(t,f'/blog/{s}/')])])
-P('/blog/','Album Design Guides & Photoshop Tutorials – FreeStudioPSD','Free guides on editing wedding album PSDs, album sizes, Karizma design tips and print settings.',crumbbar([('Guides',None)])+f'<div class="main-wrap"><main><div class="sec-head"><h1 class="sec-title">Album Design Guides</h1><span class="results-count">{len(BLOG)} guides</span></div><div class="pm-cat-intro"><p>{len(BLOG)} practical guides for photographers and album designers.</p></div><ul class="pm-guide-list fsp-guides">'+''.join(f'<li><a href="/blog/{s}/"><b>{e(t)}</b><span>{e(ps[0][:110])}…</span></a></li>' for s,t,ps in BLOG)+'</ul></main></div>')
-ST={'about':('About FreeStudioPSD','<p>FreeStudioPSD is run by Guru Moorthi to help photographers and studios find free, editable Photoshop templates for wedding albums, Karizma albums, birthday albums, covers and backgrounds.</p><p>All files are free to download without login.</p>'),
-'privacy':('Privacy Policy','<p>We do not require accounts and do not collect personal data directly. Third-party advertising partners (such as Google AdSense) may use cookies to show relevant ads. You can manage cookies in your browser settings.</p><p>Downloads are served from Google Drive, which is subject to Google\'s privacy policy.</p>'),
-'terms':('Terms of Use','<p>Templates are provided free for personal and studio client work. Do not resell or redistribute the files as your own template packs. Files are provided as-is without warranty.</p>'),
-'contact':('Contact Us','<p>Email: <b>contact@example.com</b> (placeholder)</p><form onsubmit="alert(\'Contact form coming soon.\');return false"><p><input placeholder="Your name" required class="fsp-in"></p><p><input type="email" placeholder="Your email" required class="fsp-in"></p><p><textarea placeholder="Message" rows="5" class="fsp-in"></textarea></p><button class="fsp-btn">Send message</button></form>')}
-for k,(t,b) in ST.items(): P(f'/{k}/',t+' – FreeStudioPSD',t+' for FreeStudioPSD, free studio PSD downloads.',crumbbar([(t,None)])+f'<div class="main-wrap"><main><article class="fsp-art"><h1>{t}</h1>{b}</article></main></div>')
-page('/404-tmp/','Page not found – FreeStudioPSD','Page not found.','<div class="main-wrap"><main class="empty-state"><div class="es-icon">🔍</div><h1 class="fsp-404">404</h1><h2>Sorry, this page could not be found</h2><p>Try searching or browse our most popular categories.</p><form action="/search/" style="max-width:480px;margin:20px auto;display:flex;gap:8px"><input name="q" placeholder="Search PSDs" class="fsp-in" style="flex:1"><button class="fsp-btn">Search</button></form><div class="fsp-chips" style="justify-content:center">'+''.join(f'<a href="/category/{c}/">{e(n)}</a>' for c,n in CATS)+'</div></main></div>',noindex=True)
+  _ps=[];_ul=[]
+  for p in ps+['']:
+    if p.startswith('- '): _ul.append(f'<li>{e(p[2:])}</li>'); continue
+    if _ul: _ps.append('<ul>'+''.join(_ul)+'</ul>'); _ul=[]
+    if not p: continue
+    _ps.append(f'<h2>{e(p[3:])}</h2>' if p.startswith('## ') else f'<p>{e(p)}</p>')
+  _wc=len(' '.join(ps).split()); _thin=_wc<250
+  _ps.insert(1,f'<p class="fsp-byline">By Guru Moorthi · Updated {BUILD_DATE} · {max(1,round(_wc/200))} min read</p>')
+  if len(_ps)>4: _ps.insert(3,AD('inarticle'))
+  P(f'/blog/{s}/',t+' – PSD Album',ps[0][:155],crumbbar([('Guides','/blog/'),(e(t[:60]),None)])+'<div class="main-wrap"><main>'+LAY(f'<article class="fsp-art"><h1>{e(t)}</h1>'+''.join(_ps)+
+   f'{AD("inarticle")}{PROCARD("blog",head=f"Want {TPN} premium PSDs? Get TamilPSD Pro",sub="Print-ready layered PSDs · 50 downloads a day · from ₹189 for 28 days")}<h3>Free templates to practise with</h3><p>'+' · '.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in tk)+'</p><h3>Related guides</h3><ul>'+''.join(f'<li><a href="/blog/{x[0]}/">{e(x[1])}</a></li>' for x in rg)+'</ul></article>')+'</main></div>',noindex=_thin,
+   ld=[{"@context":"https://schema.org","@type":"Article","headline":t,"author":{"@type":"Person","name":"Guru Moorthi"},"datePublished":"2026-10-16","dateModified":BUILD_DATE,"mainEntityOfPage":SITE+f"/blog/{s}/","publisher":{"@type":"Organization","name":"PSD Album","url":SITE}},crumbs([('Home','/'),('Guides','/blog/'),(t,f'/blog/{s}/')])])
+P('/blog/','Album Design Guides & Photoshop Tutorials – PSD Album','Free guides on editing wedding album PSDs, album sizes, Karizma design tips and print settings.',crumbbar([('Guides',None)])+f'<div class="main-wrap"><main><div class="sec-head"><h1 class="sec-title">Album Design Guides</h1><span class="results-count">{len(BLOG)} guides</span></div><div class="pm-cat-intro"><p>{len(BLOG)} practical guides for photographers and album designers.</p></div><ul class="pm-guide-list fsp-guides">'+''.join(f'<li><a href="/blog/{s}/"><b>{e(t)}</b><span>{e(ps[0][:110])}…</span></a></li>' for s,t,ps in BLOG)+'</ul></main></div>')
+ST=LEGAL
+for k,(t,b) in ST.items(): P(f'/{k}/',t+' – PSD Album',{'about':'About PSD Album: free layered wedding album, Karizma and studio PSD templates for Indian photographers, run by Guru Moorthi.','privacy':'PSD Album privacy policy: cookies, Google AdSense and third-party advertising, analytics, Google Drive downloads and how to opt out of personalised ads.','terms':'Terms of use for PSD Album templates: free for personal and studio client work, no resale or redistribution of PSD files.','disclaimer':'PSD Album disclaimer and DMCA copyright removal process for designers and rights holders.','contact':'Contact PSD Album by email for broken downloads, copyright requests and suggestions.'}.get(k,t),crumbbar([(e(t),None)])+f'<div class="main-wrap"><main><article class="fsp-art"><h1>{e(t)}</h1>{b}</article></main></div>')
+page('/404-tmp/','Page not found – PSD Album','Page not found.','<div class="main-wrap"><main class="empty-state"><div class="es-icon">🔍</div><h1 class="fsp-404">404</h1><h2>Sorry, this page could not be found</h2><p>Try searching or browse our most popular categories.</p><form action="/search/" style="max-width:480px;margin:20px auto;display:flex;gap:8px"><input name="q" placeholder="Search PSDs" class="fsp-in" style="flex:1"><button class="fsp-btn">Search</button></form><div class="fsp-chips" style="justify-content:center">'+''.join(f'<a href="/category/{c}/">{e(n)}</a>' for c,n in CATS)+'</div></main></div>',noindex=True)
 shutil.move(f'{S}/404-tmp/index.html',f'{S}/404.html'); shutil.rmtree(f'{S}/404-tmp')
 open(f'{S}/favicon.svg','w').write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#C9A227"/><text x="32" y="42" font-family="Arial" font-weight="700" font-size="26" fill="#fff" text-anchor="middle">PSD</text></svg>')
 from PIL import ImageDraw,ImageFont
@@ -31,14 +35,27 @@ for i,d in enumerate(trend[:6]):
   t=Image.open('media'+d['img']).convert('RGB');t.thumbnail((380,250));og.paste(t,(20+(i%3)*395,330+(i//3)*0) if i<3 else (20+(i%3)*395,330))
 try: F=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',64);F2=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',32)
 except: F=F2=ImageFont.load_default()
-dr.text((60,90),'FreeStudioPSD',font=F,fill='#fff');dr.text((60,180),f'{len(out):,}+ free wedding & Karizma album PSDs',font=F2,fill='#ddd6fe');dr.text((60,230),'No login. Free download.',font=F2,fill='#fde68a')
+dr.text((60,90),'PSD Album',font=F,fill='#fff');dr.text((60,180),f'{len(out):,}+ free wedding & Karizma album PSDs',font=F2,fill='#ddd6fe');dr.text((60,230),'No login. Free download.',font=F2,fill='#fde68a')
 og.save(f'{S}/og.png',optimize=True)
 H='<?xml version="1.0" encoding="UTF-8"?>'
 for f in glob.glob(f'{S}/sitemap*.xml'): os.remove(f)
+LMF='lastmod.json'; LM=json.load(open(LMF)) if os.path.exists(LMF) else {}
+_DREC={f"/psd/{d['slug']}/":d for d in out}
+def _sig(u):
+  if u in _DREC:
+    d=_DREC[u]; return hashlib.md5(json.dumps([d[k] for k in ('t','d','img','fid','dim','dpi','sz','c')]).encode()).hexdigest()
+  f=S+u+'index.html'
+  if not os.path.exists(f): return ''
+  return hashlib.md5(re.sub(r'\?v=\d+','',open(f,encoding='utf-8').read()).encode()).hexdigest()
+for u in urls:
+  g=_sig(u)
+  if u not in LM or LM[u][0]!=g: LM[u]=[g,BUILD_DATE]
+json.dump(LM,open(LMF,'w'),separators=(',',':'))
+LMD=lambda u:LM.get(u,['',BUILD_DATE])[1]
 ch=[urls[i:i+5000] for i in range(0,len(urls),5000)]
-for n,c in enumerate(ch): open(f'{S}/sitemap-{n+1}.xml','w').write(H+'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{SITE}{u}</loc><lastmod>2026-10-16</lastmod></url>' for u in c)+'</urlset>')
+for n,c in enumerate(ch): open(f'{S}/sitemap-{n+1}.xml','w').write(H+'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{SITE}{u}</loc><lastmod>{LMD(u)}</lastmod></url>' for u in c)+'</urlset>')
 open(f'{S}/sitemap-images.xml','w').write(H+'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'+''.join(f'<url><loc>{SITE}/psd/{d["slug"]}/</loc><image:image><image:loc>{SITE}{d.get("zm",d["img"])}</image:loc></image:image></url>' for d in out)+'</urlset>')
-open(f'{S}/sitemap.xml','w').write(H+'<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<sitemap><loc>{SITE}/sitemap-{n+1}.xml</loc><lastmod>2026-10-16</lastmod></sitemap>' for n in range(len(ch)))+f'<sitemap><loc>{SITE}/sitemap-images.xml</loc><lastmod>2026-10-16</lastmod></sitemap></sitemapindex>')
+open(f'{S}/sitemap.xml','w').write(H+'<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<sitemap><loc>{SITE}/sitemap-{n+1}.xml</loc><lastmod>{max(LMD(u) for u in ch[n])}</lastmod></sitemap>' for n in range(len(ch)))+f'<sitemap><loc>{SITE}/sitemap-images.xml</loc><lastmod>{BUILD_DATE}</lastmod></sitemap></sitemapindex>')
 import secrets
 if not os.path.exists('indexnow.key'): open('indexnow.key','w').write(secrets.token_hex(16))
 IK=open('indexnow.key').read().strip(); open(f'{S}/{IK}.txt','w').write(IK)

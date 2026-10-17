@@ -1,4 +1,4 @@
-/* FreeStudioPSD additions on top of the tamilpsd UI: ads, sidebar, small helpers */
+/* PSD Album additions on top of the tamilpsd UI: ads, sidebar, small helpers */
 .ad{display:block;text-align:center;margin:14px auto;max-width:100%;contain:layout}
 .ad .adl{display:block;font:600 10px/1.2 Manrope,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);margin-bottom:5px}
 .ad .adc{min-height:90px;display:flex;align-items:center;justify-content:center}
@@ -63,3 +63,6 @@ html.nopromo .fsp-promo{display:none}
 .fsp-art .fsp-procard{text-decoration:none;margin:22px 0}.fsp-art .fsp-procard b{font-family:Manrope,sans-serif}
 @media(max-width:560px){.fsp-procard{flex-wrap:nowrap;align-items:flex-start}.fsp-procard .go{display:none}.fsp-procard b::after{content:" →";color:var(--gold)}}
 .fsp-pro-ic{font:900 11px Manrope,sans-serif!important;letter-spacing:.04em}
+
+.fsp-byline{color:var(--t3);font-size:13px;margin:-4px 0 14px}.fsp-contact{margin:14px 0 22px}.fsp-art h2{margin-top:22px}.fsp-art ul,.fsp-art ol{padding-left:22px;margin:8px 0 14px}.fsp-art li{margin:4px 0}
+@media(min-width:1200px){.fsp-lay.fsp-noads{display:block}}

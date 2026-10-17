@@ -29,7 +29,7 @@ SECS=[
 ('Printing and file preparation',['Ask your lab for its preferred format before export. Most labs accept high-quality JPG in sRGB; some prefer TIFF or a specific colour profile. Leave the bleed your lab recommends (usually 0.125 to 0.25 inch), flatten a copy for print and archive the layered PSD so reprints and client changes are easy.']),
 ('Who these designs are for',['These designs are made for wedding photographers, album designers, photo studios, digital labs and freelancers who design albums for clients. Beginners can learn layout from them, and experienced designers can use them as a quick base and customise the details.']),
 ]
-FAQS=[('Are these {kw} files really free?','Yes. Every {kw} design on FreeStudioPSD is free to download. There is no login, no signup and no ZIP password.'),
+FAQS=[('Are these {kw} files really free?','Yes. Every {kw} design on PSD Album is free to download. There is no login, no signup and no ZIP password.'),
 ('What size are the {kw} designs?','They are prepared for {size} printing. The exact pixel dimensions, DPI and file size are listed on each design page.'),
 ('Which software do I need?','Adobe Photoshop CC is recommended. Any editor that supports layered PSD files can open them, but clipping masks work best in Photoshop.'),
 ('How do I replace the photos?','Place your photo above the frame layer and press Alt+Ctrl+G (Option+Cmd+G on Mac) to clip it into the mask, then resize it with Ctrl+T.'),

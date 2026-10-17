@@ -1,5 +1,13 @@
-# v6 presentation layer: tamilpsd.in DOM/classes, FreeStudioPSD brand. exec'd from build.py
+# v6 presentation layer: tamilpsd.in DOM/classes, PSD Album brand. exec'd from build.py
 os.makedirs(f'{S}/css',exist_ok=True)
+import time
+ADCFG=json.load(open('ads.json')) if os.path.exists('ads.json') else {}
+ADON=bool(ADCFG.get('enabled'))  # ads off -> no ad markup at all (no empty boxes for reviewers/users)
+ANCFG=json.load(open('analytics.json')) if os.path.exists('analytics.json') else {}
+CFWA=(ANCFG.get('cf_web_analytics_token') or '').strip()
+BEACON=(f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{CFWA}"}}\'></script>' if CFWA else '')
+BUILD_DATE=time.strftime('%Y-%m-%d')
+CONTACT='contact@psdalbum.in'
 exec(open('ui6/purge.py').read())
 _SRC=[open(f).read() for f in ['ui6/pres.py','dpage.py','landing.py','build.py','blog.py','blog2.py','ui6/app.js','functions/psd/[[slug]].js']]
 TPCSS=purge(open('ui6/tp.css').read().replace('.footer-col h4','.footer-col .fh4'),used_tokens([],_SRC)); FSPCSS=open('ui6/fsp.css').read()
@@ -16,7 +24,7 @@ FONTS='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="pre
 THEMEJS='<script>(function(){try{var t=localStorage.getItem("fsp-theme");if(t!=="dark"&&t!=="light")t="light";document.documentElement.setAttribute("data-theme",t);if(+localStorage.getItem("fsp-promo-x")>Date.now())document.documentElement.classList.add("nopromo");}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script><style>html{background:#FAF7F2}html[data-theme="dark"]{background:#0c0a08}</style>'
 # ---- TamilPSD Pro promotion (figures checked on tamilpsd.in public pages 2026-10-17: 14,037 designs; Pro 50 PSD/day, Rs189/28 days, Rs900/6 months, Rs1,499/year) ----
 TPN='14,000+'
-def PROURL(slot): return f'https://tamilpsd.in/?utm_source=freestudiopsd&utm_medium={slot}&utm_campaign=pro'
+def PROURL(slot): return f'https://tamilpsd.in/?utm_source=psdalbum&utm_medium={slot}&utm_campaign=pro'
 def PROCARD(slot,head=f'Want {TPN} premium PSDs? Get TamilPSD Pro',sub='50 PSD downloads a day · from ₹189 for 28 days · UPI, cards &amp; netbanking',go='See Pro plans →'):
   return f'<a class="pm-upsell fsp-procard" href="{PROURL(slot)}" target="_blank" rel="noopener" data-pro="{slot}"><span class="ic fsp-pro-ic" aria-hidden="true">PRO</span><span><b>{head}</b><small>{sub}</small></span><span class="go">{go}</span></a>'
 PROMOBAR=f'<div class="fsp-promo" id="fsp-promo" role="region" aria-label="TamilPSD Pro offer"><a href="{PROURL("topbar")}" target="_blank" rel="noopener" data-pro="topbar"><b>⚡ TamilPSD Pro</b><span class="fsp-promo-t"> · {TPN} premium PSDs · 50 downloads a day from ₹189</span><span class="fsp-promo-go">See plans →</span></a><button type="button" class="fsp-promo-x" aria-label="Dismiss offer">×</button></div>'
@@ -28,25 +36,25 @@ def _act(u,path): return (u=='/' and path=='/') or (u!='/' and path.startswith(u
 def header(path):
   nv=''.join(f'<a href="{u}"'+(f' class="{" ".join(x for x in (c,"active" if _act(u,path) else "") if x)}"' if (c or _act(u,path)) else '')+f'>{t}</a>' for u,t,c in NAVL)
   mm=''.join(f'<a href="{u}">{t}</a>' for u,t,c in NAVL)+'<a href="/favourites/">♥ Favourites</a>'
-  return f'''<header><div class="header-inner"><a href="/" class="logo"><div class="logo-icon">F</div><div class="logo-text"><span class="logo-name">FreeStudio<span>PSD</span></span><span class="logo-sub">Free studio PSD library</span></div></a><div class="hdr-divider"></div><nav aria-label="Primary">{nv}</nav><form class="nav-search" id="nav-search" action="/search/" method="get" role="search">{MAG}<input type="search" name="q" id="search-input" class="nav-search-input" placeholder="Search designs, e.g. karizma album, 12x36" aria-label="Search designs" autocomplete="off" enterkeyhint="search" maxlength="80"></form>{NSTOG}{THTOG}<button class="hamburger" id="hamburger-btn" aria-label="Menu" type="button"><span></span><span></span><span></span></button></div></header><div class="mobile-menu" id="mobile-menu">{mm}</div>'''
+  return f'''<header><div class="header-inner"><a href="/" class="logo"><div class="logo-icon">P</div><div class="logo-text"><span class="logo-name">PSD<span>Album</span></span><span class="logo-sub">Free album PSD library</span></div></a><div class="hdr-divider"></div><nav aria-label="Primary">{nv}</nav><form class="nav-search" id="nav-search" action="/search/" method="get" role="search">{MAG}<input type="search" name="q" id="search-input" class="nav-search-input" placeholder="Search designs, e.g. karizma album, 12x36" aria-label="Search designs" autocomplete="off" enterkeyhint="search" maxlength="80"></form>{NSTOG}{THTOG}<button class="hamburger" id="hamburger-btn" aria-label="Menu" type="button"><span></span><span></span><span></span></button></div></header><div class="mobile-menu" id="mobile-menu">{mm}</div>'''
 MBN=[('/','🏠','Home',''),('/search/','🔍','Search',''),('/designs/','FREE','All PSDs','mbn-pro'),('/browse/','📂','Categories',''),('/favourites/','❤️','Saved','')]
 def mbn(path):
   return '<nav class="mobile-bottom-nav" aria-label="Mobile navigation">'+''.join(f'<a href="{u}" class="mbn-item{" "+c if c else ""}{" active" if _act(u,path) else ""}"><span class="mbn-icon">{i}</span><span class="mbn-label">{t}</span></a>' for u,i,t,c in MBN)+'</nav>'
 def footer():
   cats=''.join(f'<li><a href="/category/{c}/">{e(n.replace(" PSD",""))}</a></li>' for c,n in CATS[:6])
   gd=''.join(f'<li><a href="/blog/{s}/">{e(t)}</a></li>' for s,t,_ in BLOG[:4])
-  return f'''<footer><div class="footer-grid"><div><div class="footer-brand">FreeStudio<span>PSD</span></div><p class="footer-tagline">Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</p>{PROCARD("footer",head="Need more? "+TPN+" premium PSDs on TamilPSD Pro",sub="50 downloads a day · from ₹189",go="See plans →")}</div><div class="footer-col"><div class="fh4">Categories</div><ul>{cats}<li><a href="/browse/">All categories →</a></li></ul></div><div class="footer-col"><div class="fh4">Guides</div><ul>{gd}<li><a href="/blog/">All guides →</a></li></ul></div><div class="footer-col"><div class="fh4">Company</div><ul><li><a href="/about/">About Us</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/designs/">All designs</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 FreeStudioPSD · All templates free · No login required</p></div></footer><button id="back-top" type="button" aria-label="Back to top">↑</button>'''
+  return f'''<footer><div class="footer-grid"><div><div class="footer-brand">PSD<span>Album</span></div><p class="footer-tagline">Free layered Photoshop templates for photo studios, album designers and photographers. By Guru Moorthi.</p>{PROCARD("footer",head="Need more? "+TPN+" premium PSDs on TamilPSD Pro",sub="50 downloads a day · from ₹189",go="See plans →")}</div><div class="footer-col"><div class="fh4">Categories</div><ul>{cats}<li><a href="/browse/">All categories →</a></li></ul></div><div class="footer-col"><div class="fh4">Guides</div><ul>{gd}<li><a href="/blog/">All guides →</a></li></ul></div><div class="footer-col"><div class="fh4">Company</div><ul><li><a href="/about/">About Us</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/disclaimer/">Disclaimer &amp; DMCA</a></li><li><a href="/designs/">All designs</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 PSD Album (psdalbum.in) · All templates free · No login required · <a href="mailto:{CONTACT}">{CONTACT}</a></p></div></footer><button id="back-top" type="button" aria-label="Back to top">↑</button>'''
 def page(path,title,desc,body,ld=None,img=None,noindex=False,head='',canon=None,lb=True):
   url=SITE+path; cu=canon or url
-  h=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{THEMEJS}<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{cu}"><link rel="alternate" hreflang="en" href="{cu}"><meta name="theme-color" content="#FAF7F2">{'<meta name="robots" content="noindex,follow">' if noindex else '<meta name="robots" content="index,follow,max-image-preview:large">'}<meta property="og:type" content="website"><meta property="og:site_name" content="FreeStudioPSD"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{cu}"><meta property="og:image" content="{SITE+(img or '/og.png')}"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">{FONTS}<link rel="stylesheet" href="/css/site.css?v={CSSV}">{head}
+  h=f"""<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{THEMEJS}<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{cu}"><link rel="alternate" hreflang="en-IN" href="{cu}"><link rel="alternate" hreflang="x-default" href="{cu}"><meta name="theme-color" content="#FAF7F2">{'<meta name="robots" content="noindex,follow">' if noindex else '<meta name="robots" content="index,follow,max-image-preview:large">'}<meta property="og:type" content="website"><meta property="og:locale" content="en_IN"><meta property="og:site_name" content="PSD Album"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{cu}"><meta property="og:image" content="{SITE+(img or '/og.png')}"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">{FONTS}<link rel="stylesheet" href="/css/site.css?v={CSSV}">{head}
 <!-- Google Search Console: <meta name="google-site-verification" content="REPLACE_ME"> -->
 <!-- Ads: all ad code is configured in /ads.json and lazy-loaded by /app.js -->
 {f'<script type="application/ld+json">{json.dumps(ld)}</script>' if ld else ''}</head><body>
 {PROMOBAR}{header(path)}
-{('<div class="fsp-lb">'+AD('leaderboard')+'</div>') if lb else ''}
+{('<div class="fsp-lb">'+AD('leaderboard')+'</div>') if (lb and ADON) else ''}
 {body}
 {footer()}
-{mbn(path)}<script src="/app.js?v={APPV}" defer></script></body></html>"""
+{mbn(path)}<script src="/app.js?v={APPV}" defer></script>{BEACON}</body></html>"""
   os.makedirs(S+path,exist_ok=True); open(S+path+'index.html','w').write(h)
 urls=[]
 def P(path,*a,**k):
@@ -61,9 +69,11 @@ def lite(items,path):
   json.dump([{k:x[k] for k in ('id','slug','t','img','c','cn','sz','mb','q','g','w','h')} for x in items],open(S+path,'w'),separators=(',',':'))
 SLOTS=['leaderboard','infeed','sidebar','anchor','incontent','countdown_top','countdown_mid','countdown_bottom','inarticle']
 def AD(n):
+  if not ADON: return ''
   s=n if n in SLOTS else 'incontent'
   return f'<div class="ad ad-{s}" data-slot="{s}"><span class="adl">Advertisement</span><div class="adc"></div></div>'
 def LAY(main):
+  if not ADON: return f'<div class="fsp-lay fsp-noads"><div class="fsp-lmain">{main}</div></div>'
   return f'<div class="fsp-lay"><div class="fsp-lmain">{main}</div><aside class="fsp-sb" aria-label="Advertisement">{AD("sidebar")}</aside></div>'
 def GRID(items,every=12,title=True,gid=''):
   h=''
@@ -119,16 +129,16 @@ def bccards():
     h+=f'<article class="bc-card {cls}" data-group="{gid}"><button type="button" class="bc-head" id="bc-head-{gid}" aria-expanded="false" aria-controls="bc-panel-{gid}"><span class="bc-top"><span class="bc-icon">{ico}</span><span class="bc-titles"><span class="bc-title">{ti}</span><span class="bc-tag">{tg}</span></span>{CHEV}</span><span class="bc-grid">{th}</span></button><div class="bc-panel" id="bc-panel-{gid}" role="region" aria-labelledby="bc-head-{gid}"><div class="bc-panel-in"><ul class="bc-links">{links}</ul></div></div><button type="button" class="bc-all" aria-expanded="false" aria-controls="bc-panel-{gid}" data-href="/category/{main}/">View All <span aria-hidden="true">→</span></button></article>'
   return f'<section class="pm-sec pm-wrap" id="browse-cats"><div class="pm-sec-h"><h2><small>Categories</small>Browse by category</h2><a href="/browse/">All categories →</a></div><div class="bc-root bc-ready"><div class="bc-cards">{h}</div></div></section>'
 _rs=random.Random(7); feed=_rs.sample(sorted(out,key=lambda x:-x['q'])[:900],PER)
-web={"@context":"https://schema.org","@type":"WebSite","name":"FreeStudioPSD","url":SITE,"potentialAction":{"@type":"SearchAction","target":SITE+"/search/?q={q}","query-input":"required name=q"}}
+web={"@context":"https://schema.org","@type":"WebSite","name":"PSD Album","url":SITE,"potentialAction":{"@type":"SearchAction","target":SITE+"/search/?q={q}","query-input":"required name=q"}}
 TOTP=(len(out)+PER-1)//PER
-ABOUT=f'''<section class="pm-sec pm-wrap pm-reveal pm-about visible" aria-label="About FreeStudioPSD"><div class="pm-about-grid"><div><h1 class="fsp-about-h">Free studio PSD templates for wedding &amp; Karizma albums</h1><p>FreeStudioPSD is run by Guru Moorthi for photographers, album designers and photo studios. We publish {len(out):,}+ layered, print-ready Photoshop designs: 12x36 wedding album sheets, Karizma albums, album covers, studio backgrounds, birthday and baby albums. Each design page lists the canvas size, DPI and file size so you can pick the right template before downloading.</p><p>Every design is free to download with no login and no signup. Questions or a broken link? <a href="/contact/">Contact us</a>. New to album editing? Start with our <a href="/blog/">album design guides</a>.</p></div><div><h2 class="fsp-about-h3">Guides for editing and printing</h2><ul class="pm-guide-list">{"".join(f'<li><a href="/blog/{s}/">{e(t)}</a></li>' for s,t,_ in BLOG[:5])}<li><a href="/blog/">All guides →</a></li></ul></div></div></section>'''
+ABOUT=f'''<section class="pm-sec pm-wrap pm-reveal pm-about visible" aria-label="About PSD Album"><div class="pm-about-grid"><div><h1 class="fsp-about-h">Free studio PSD templates for wedding &amp; Karizma albums</h1><p>PSD Album is run by Guru Moorthi for photographers, album designers and photo studios. We publish {len(out):,}+ layered, print-ready Photoshop designs: 12x36 wedding album sheets, Karizma albums, album covers, studio backgrounds, birthday and baby albums. Each design page lists the canvas size, DPI and file size so you can pick the right template before downloading.</p><p>Every design is free to download with no login and no signup. Questions or a broken link? <a href="/contact/">Contact us</a>. New to album editing? Start with our <a href="/blog/">album design guides</a>.</p></div><div><h2 class="fsp-about-h3">Guides for editing and printing</h2><ul class="pm-guide-list">{"".join(f'<li><a href="/blog/{s}/">{e(t)}</a></li>' for s,t,_ in BLOG[:5])}<li><a href="/blog/">All guides →</a></li></ul></div></div></section>'''
 _BC=bccards()
 P('/','Free Studio PSD Download – Wedding Album 12x36, Karizma & Birthday PSD',f'Download {len(out):,}+ free studio PSD templates: wedding album 12x36, Karizma album, album covers, backgrounds, birthday and baby albums. Layered, print-ready, no login.',
 _BC+f'''<div class="main-wrap"><main>{LAY(f"""<div class="sec-head"><span class="results-count">{len(out):,} designs</span></div><div class="sort-row"><select id="sort-select" aria-label="Sort designs"><option value="s">🎲 Daily Shuffle</option><option value="n">🆕 Newest</option><option value="q">⭐ Best quality</option></select><button type="button" id="reset-filters-btn">Reset Filters</button><button type="button" id="fav-filter-btn">❤️ Favourites</button></div>{GRID(feed,title=False,gid="designs-grid")}{pager("/designs/",1,TOTP,len(out))}""")}</main></div>
 <section class="pm-sec pm-wrap fsp-rv" id="rv" hidden><div class="pm-sec-h"><h2><small>History</small>Recently viewed</h2><a href="/favourites/">My favourites →</a></div><div class="designs-grid fsp-row" id="rvl"></div></section>
 {ABOUT}''',ld=web,head=f'<link rel="preload" as="image" href="{BCPRE[0]}" fetchpriority="high">')
 def faq(h,n):
-  qa=[(f'Are these {h} files really free?',f'Yes. All {n} {h} designs on FreeStudioPSD are free to download with no login or signup.'),
+  qa=[(f'Are these {h} files really free?',f'Yes. All {n} {h} designs on PSD Album are free to download with no login or signup.'),
       (f'Which software opens {h} files?','The files are layered PSDs. Open them in Adobe Photoshop CC or any editor that supports PSD layers.'),
       ('How do I replace the photos?','Place your photo above the frame layer and press Alt+Ctrl+G (Option+Cmd+G on Mac) to clip it into the mask, then resize with Ctrl+T.'),
       ('Can I use these designs for client albums?','Yes, you can use them for personal and studio client work. Reselling the files as template packs is not allowed.')]
@@ -156,10 +166,10 @@ def paged(base,title,desc,h1,intro,items,crumb,ldname,canon=None):
 HUBLINK='<p class="fsp-hub"><a href="/browse/">Browse all categories, sizes and styles →</a></p>'
 for c,n in CATS:
   items=[d for d in out if d['c']==c]
-  paged(f'/category/{c}/',f'{n} Free Download – {len(items)} Editable Templates',f'Browse {len(items)} free {n} files for photo studios. Layered, print-ready Photoshop templates, free to download with no login.',f'Free {n} Designs',f'{len(items)} editable {e(n)} files, sorted by preview quality. Download any design free.',items,e(n),n)
+  paged(f'/category/{c}/',f'{n} Free Download – {len(items)} Editable Templates',f'Browse {len(items)} free {n} files for photo studios. Layered, print-ready Photoshop templates, free to download with no login.',f'Free {n} Designs',e(CATINTRO.get(c,''))+f' <b>{len(items)} editable {e(n)} files</b>, sorted by preview quality; download any design free.',items,e(n),n)
 for k in TOK:
   h=TN[k]; items=[d for d in out if k in d['g']]
   paged(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',h,TINTRO.get(k) or f'Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.',items,e(h),h,canon=(f'{SITE}/{LANDMAP[k]}/' if k in LANDMAP else None))
-paged('/designs/',f'All Free Studio PSD Designs – {len(out):,} Editable Templates',f'Browse all {len(out):,} free studio PSD templates page by page: wedding albums, Karizma, covers, backgrounds and birthday albums. Free download, no login.','All Free Studio PSD Designs',f'Every free design on FreeStudioPSD, {len(out):,} layered PSDs, sorted by preview quality. 30 designs per page.',out,'All designs','All designs')
+paged('/designs/',f'All Free Studio PSD Designs – {len(out):,} Editable Templates',f'Browse all {len(out):,} free studio PSD templates page by page: wedding albums, Karizma, covers, backgrounds and birthday albums. Free download, no login.','All Free Studio PSD Designs',f'Every free design on PSD Album, {len(out):,} layered PSDs, sorted by preview quality. 30 designs per page.',out,'All designs','All designs')
 lite(out,'/data/search.json')
-page('/search/','Search Free Studio PSDs – FreeStudioPSD','Search free studio PSD templates.',crumbbar([('Search',None)])+'<div class="main-wrap"><main>'+LAY('<div class="sec-head"><h1 class="sec-title">Results for “<span id="qv"></span>”</h1><span class="results-count" id="cnt"></span></div><div class="designs-grid" id="sres"></div><div id="spg"></div>')+'</main></div>',noindex=True)
+page('/search/','Search Free Studio PSDs – PSD Album','Search free studio PSD templates.',crumbbar([('Search',None)])+'<div class="main-wrap"><main>'+LAY('<div class="sec-head"><h1 class="sec-title">Results for “<span id="qv"></span>”</h1><span class="results-count" id="cnt"></span></div><div class="designs-grid" id="sres"></div><div id="spg"></div>')+'</main></div>',noindex=True)

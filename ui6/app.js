@@ -22,13 +22,13 @@ const ads=(()=>{let cfg=null,io=null,loaded=false;const mob=()=>matchMedia('(max
  const head=()=>{if(loaded)return;loaded=true;(cfg.head_scripts||[]).forEach(src=>{if(!src||/X{6,}/.test(src))return;const s=document.createElement('script');s.async=true;s.src=src;s.crossOrigin='anonymous';document.head.appendChild(s)})};
  const fill=el=>{if(el.dataset.done)return;el.dataset.done=1;const k=el.dataset.slot,h=(cfg.slots||{})[k]||'';const c=el.querySelector('.adc');
   if(cfg.enabled&&h){head();el.classList.remove('ph');c.innerHTML=h;c.querySelectorAll('script').forEach(o=>{const s=document.createElement('script');[...o.attributes].forEach(a=>s.setAttribute(a.name,a.value));s.text=o.text;o.replaceWith(s)});if(c.querySelector('ins.adsbygoogle'))try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}}
-  else if(cfg.show_placeholders){el.classList.add('ph');c.textContent=(cfg.labels||{})[k]||'Ad space'}else{el.classList.add('off')}};
+  else if(cfg.enabled&&cfg.show_placeholders){el.classList.add('ph');c.textContent=(cfg.labels||{})[k]||'Ad space'}else{el.classList.add('off')}};
  const scan=()=>{if(!cfg)return;$$('.ad[data-slot]:not([data-obs])').forEach(el=>{el.dataset.obs=1;if(io)io.observe(el);else fill(el)})};
- const anchor=()=>{if(!mob()||sessionStorage.getItem('fsp_anc_x')||$('#dlbox'))return;const k='anchor',h=(cfg.slots||{})[k];if(!(cfg.enabled&&h)&&!cfg.show_placeholders)return;
+ const anchor=()=>{if(!mob()||sessionStorage.getItem('fsp_anc_x')||$('#dlbox'))return;const k='anchor',h=(cfg.slots||{})[k];if(!cfg.enabled||(!h&&!cfg.show_placeholders))return;
   const a=document.createElement('div');a.className='anc ad';a.dataset.slot=k;a.setAttribute('role','complementary');a.setAttribute('aria-label','Advertisement');a.innerHTML='<span class="adl">Advertisement</span><div class="adc"></div><button class="x" type="button" aria-label="Close ad">×</button>';document.body.appendChild(a);document.body.classList.add('hasanc');a.querySelector('.x').onclick=()=>{a.remove();document.body.classList.remove('hasanc');sessionStorage.setItem('fsp_anc_x',1)};fill(a);
   /* never let the anchor overlap a download button: hide it while any download button is near the screen */
   const vis=new Set();if('IntersectionObserver'in window){const bo=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?vis.add(e.target):vis.delete(e.target));a.style.visibility=vis.size?'hidden':''},{rootMargin:'0px 0px 160px 0px'});$$('.dlb,.spg-dl-btn').forEach(b=>bo.observe(b))}};
- const start=()=>fetch('/ads.json').then(r=>r.json()).then(c=>{cfg=c;if('IntersectionObserver'in window)io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){io.unobserve(e.target);fill(e.target)}}),{rootMargin:'300px 0px'});scan();
+ const start=()=>!document.querySelector('.ad[data-slot]')?0:fetch('/ads.json').then(r=>r.json()).then(c=>{cfg=c;if('IntersectionObserver'in window)io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){io.unobserve(e.target);fill(e.target)}}),{rootMargin:'300px 0px'});scan();
   let fired=false;const go=()=>{if(fired)return;fired=true;anchor()};addEventListener('scroll',go,{once:true,passive:true});setTimeout(go,6000)}).catch(()=>{});
  if(document.readyState==='complete')setTimeout(start,300);else addEventListener('load',()=>setTimeout(start,300));
  return{scan}})();
@@ -75,8 +75,8 @@ paintH();
 const D=$('#dlbox');
 if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const s=Math.floor((id-1)/200);let sh=[],d;try{sh=await (await fetch('/data/shard-'+s+'.json')).json();d=sh.find(x=>x.id===id)}catch(e){}
  if(!d){$('#t').textContent='Design not found.';$('#ring').style.display='none';return}
- $('#nmimg').innerHTML=`<a class="dp-wm-container" href="/psd/${d.slug}/"><img src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></a>`;$('#nm').textContent=d.t;$('#nmspec').textContent=`Design #${d.id} · ${d.dim} · ${d.dpi} · ${d.sz}`;$('#nmcat').textContent=lab(d);$('#nmid').textContent='#fsp-'+d.id;
+ $('#nmimg').innerHTML=`<a class="dp-wm-container" href="/psd/${d.slug}/"><img src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></a>`;$('#nm').textContent=d.t;$('#nmspec').textContent=`Design #${d.id} · ${d.dim} · ${d.dpi} · ${d.sz}`;$('#nmcat').textContent=lab(d);$('#nmid').textContent='#psd-'+d.id;
  const rel=$('#dlrel');if(rel){rel.innerHTML=sh.filter(x=>x.c===d.c&&x.id!==d.id).slice(0,12).map(x=>C(x)).join('');paintH()}
- let c=15;const iv=setInterval(()=>{c--;$('#c').textContent=c;if(c<=0){clearInterval(iv);$('#t').textContent='Your download link is ready';const a=$('#dl');a.href='https://drive.google.com/uc?export=download&id='+d.fid;a.style.visibility='visible';$('#ring').style.display='none'}},1000)})()}
+ let c=10;const iv=setInterval(()=>{c--;$('#c').textContent=c;if(c<=0){clearInterval(iv);$('#t').textContent='Your download link is ready';const a=$('#dl');a.href='https://drive.google.com/uc?export=download&id='+d.fid;a.style.visibility='visible';$('#ring').style.display='none'}},1000)})()}
 /* Pro promo bar: dismiss for 14 days */
 (()=>{const x=$('.fsp-promo-x');x&&(x.onclick=()=>{document.documentElement.classList.add('nopromo');try{localStorage.setItem('fsp-promo-x',Date.now()+14*864e5)}catch(e){}})})();
