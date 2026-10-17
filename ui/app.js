@@ -34,12 +34,11 @@ let IDX=null;const idx=async()=>IDX||(IDX=await (await fetch('/data/search.json'
 const F=$('#feed');
 if(F){const init=JSON.parse($('#feedinit').textContent);let shown=0,all=null,mode='s';
  const render=list=>{mas(F,withAds(list,0),12);shown=list.length};render(init);
- const more=$('#more'),sel=$('#fsort');
+ const sel=$('#fsort');
  const getAll=async()=>{if(!all){const a=await idx();all={s:seeded(a,day()),n:a.slice().sort((x,y)=>y.id-x.id),q:a.slice().sort((x,y)=>y.q-x.q),m:a.slice().sort((x,y)=>y.mb-x.mb)}}return all[mode]};
- more&&(more.onclick=async()=>{more.disabled=true;more.textContent='Loading…';const L=await getAll();const seen=new Set($$('#feed .hb').map(b=>+b.dataset.id));const nx=L.filter(d=>!seen.has(d.id)).slice(0,24);F._add(withAds(nx,shown));shown+=nx.length;$('#fcnt')&&($('#fcnt').textContent=shown.toLocaleString()+' of '+L.length.toLocaleString()+' shown');more.disabled=false;more.textContent='Load more designs'});
- sel&&(sel.onchange=async()=>{mode=sel.value;const L=await getAll();render(L.slice(0,24))});
+ sel&&(sel.onchange=async()=>{mode=sel.value;const L=await getAll();render(L.slice(0,30))});
  let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{const w=F.clientWidth,n=w<560?2:w<900?3:w<1240?4:5;if(n!==F._n){const ids=$$('#feed .hb').map(b=>+b.dataset.id);(async()=>{const m=new Map((await idx()).map(d=>[d.id,d]));mas(F,withAds(ids.map(i=>m.get(i)).filter(Boolean),0),12)})()}},250)});
- const ho=$('#hshuf');ho&&(ho.onclick=async()=>{const a=await idx();sel&&(sel.value='s');mode='s';all&&(all.s=seeded(a,Date.now()%99991));render(all?all.s.slice(0,24):seeded(a,Date.now()%99991).slice(0,24))});}
+ const ho=$('#hshuf');ho&&(ho.onclick=async()=>{const a=await idx();sel&&(sel.value='s');mode='s';all&&(all.s=seeded(a,Date.now()%99991));render(all?all.s.slice(0,30):seeded(a,Date.now()%99991).slice(0,30))});}
 /* search page */
 const L=$('#list');
 if(L){(async()=>{let a=await idx();const sp=new URLSearchParams(location.search),q=sp.get('q')||'',pg=+sp.get('p')||1;

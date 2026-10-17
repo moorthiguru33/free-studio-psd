@@ -11,9 +11,9 @@ import ast
 _st=json.load(open('/workspace/freepsdking/state.json'))
 for x in _st.values():
   if x.get('drive_id') and x.get('stage')=='uploaded' and x['id'] not in rows and os.path.exists(f"/workspace/freepsdking/previews/{x['id']}.webp"):
-    try: ps=ast.literal_eval(x.get('psd') or '{}')
+    try: ps=x['psd'] if isinstance(x.get('psd'),dict) else ast.literal_eval(x.get('psd') or '{}')
     except Exception: ps={}
-    rows[x['id']]=dict(ID=x['id'],**{'Download URL':x['link'],'Title':x.get('title') or 'Studio Background PSD','Category':x['cat'],'Tags':'','Description':'','Dimensions':f"{ps.get('W','?')}x{ps.get('H','?')} pixels",'DPI':f"{ps.get('dpi',300)} DPI",'File Size':f"{int(x.get('main_bytes',0))/1048576:.2f} MB",'Color Mode':ps.get('mode','RGB')},_p=f"/workspace/freepsdking/previews/{x['id']}.webp")
+    rows[x['id']]=dict(ID=x['id'],**{'Download URL':x['link'],'Title':x.get('title') or 'Studio Background PSD','Category':x['cat'],'Tags':'','Description':'','Dimensions':f"{ps.get('W','?')}x{ps.get('H','?')} pixels",'DPI':f"{ps.get('dpi',300)} DPI",'File Size':f"{int(x.get('zip_bytes') or x.get('main_bytes') or 0)/1048576:.2f} MB",'Color Mode':ps.get('mode','RGB')},_p=f"/workspace/freepsdking/previews/{x['id']}.webp")
 CATMAP={'photo-album-12x36':('wedding-album-12x36','Wedding Album 12x36 PSD'),'photo-album-18x24':('album-18x24','Photo Album 18x24 PSD'),
 'photo-album-12x30':('album-12x30','Photo Album 12x30 PSD'),'photo-album-12x18':('album-12x18','Photo Album 12x18 PSD'),
 'album-cover':('album-cover','Album Cover PSD'),'album-background':('album-background','Album Background PSD'),

@@ -51,7 +51,7 @@ def listing(items,src,filters=True):
     if fk: fl='<div class="chips" id="flt"><button class="on" data-f="">All</button>'+''.join(f'<button data-f="{k}">{e(TN[k].replace(" PSD Free Download","").replace(" PSD",""))}</button>' for k in fk[:12])+'</div>'
   first=''.join(card(d) for d in sorted(items,key=lambda x:-x['q'])[:24])
   return f'''<div class="bar">{fl}<div><span id="cnt" style="color:var(--mut);font-size:14px;margin-right:10px">{len(items)} designs</span><select id="sort" aria-label="Sort"><option value="r">Shuffle</option><option value="q">Best quality</option><option value="n">Newest</option><option value="s">Largest file</option><option value="a">A–Z</option></select></div></div>
-<div class="grid" id="list" data-src="{src}">{first}</div><button class="btn2" id="more">Load more designs</button>'''
+<div class="grid" data-src="{src}">{first}</div>'''
 SLOTS=['leaderboard','infeed','sidebar','anchor','incontent','countdown_top','countdown_mid','countdown_bottom','inarticle']
 def AD(n):
   s=n if n in SLOTS else ('leaderboard' if 'leaderboard' in n.lower() else 'sidebar' if '300' in n else 'infeed' if 'native' in n.lower() else 'inarticle' if 'article' in n.lower() else 'incontent')
@@ -64,6 +64,7 @@ def GRID(items,every=12):
     h+=card(d)
     if (i+1)%every==0 and i+1<len(items): h+=AD('infeed')
   return f'<div class="grid">{h}</div>'
+PER=30
 # trending: 12x36 wedding/karizma, highest quality
 best=sorted([d for d in out if d['c']=='wedding-album-12x36'],key=lambda d:('karizma-album-psd' in d['g'],d['q']),reverse=True)[:60]
 trend=random.sample(best,16)
@@ -75,8 +76,16 @@ for n_,(c,n) in enumerate(CATS):
   _l=[d for d in items if d['w']>=d['h']*1.25]; _p=(_l if len(_l)>=4 else items)[:12]; _p=random.Random(c).sample(_p,min(4,len(_p)))
   q4=''.join(f'<img {"loading=lazy " if n_>2 else ""}decoding="async" src="{d["img"]}" alt="{e(d["t"])}" width="360" height="240">' for d in _p)
   ccs+=f'<div class="cc t{n_%9+1}"><a class="ct" href="/category/{c}/"><span class="ic">{CIC.get(c,"PSD")}</span><span><h3>{e(n.replace(" PSD",""))}</h3><p>{len(items):,} free designs · {e(CSUB.get(c,""))}</p></span></a><a class="q4" href="/category/{c}/" tabindex="-1" aria-hidden="true">{q4}</a><a class="vb" href="/category/{c}/">View All →</a></div>'
-_rs=random.Random(7); feed=_rs.sample(sorted(out,key=lambda x:-x['q'])[:900],24)
+_rs=random.Random(7); feed=_rs.sample(sorted(out,key=lambda x:-x['q'])[:900],30)
 feedinit=json.dumps([{k:x[k] for k in ('id','slug','t','img','c','cn','sz','w','h')} for x in feed],separators=(',',':')).replace('</','<\\/')
+def homepager():
+  tot=(len(out)+PER-1)//PER; u=lambda p:'/designs/' if p==1 else f'/designs/page/{p}/'
+  nums=sorted({1,2,3,4,5,tot}); h=[];last=0
+  for p in nums:
+    if p>tot: continue
+    if p-last>1: h.append('<span class="gap">…</span>')
+    h.append(f'<a href="{u(p)}">{p}</a>'); last=p
+  return f'<p style="text-align:center;margin:22px 0 0;font-weight:700">Browse all {len(out):,} designs page by page</p><nav class="pg" aria-label="All designs pages">{"".join(h)}<a href="{u(2)}">Next ›</a></nav>'
 web={"@context":"https://schema.org","@type":"WebSite","name":"FreeStudioPSD","url":SITE,"potentialAction":{"@type":"SearchAction","target":SITE+"/search/?q={q}","query-input":"required name=q"}}
 P('/','Free Studio PSD Download – Wedding Album 12x36, Karizma & Birthday PSD',f'Download {len(out):,}+ free studio PSD templates: wedding album 12x36, Karizma album, album covers, backgrounds, birthday and baby albums. Layered, print-ready, no login.',
 f'''<div class="wrap"><section class="intro"><p class="eyb">Free studio PSD library</p><h1>Free Studio PSD Templates for Wedding &amp; Karizma Albums</h1><p>{len(out):,}+ layered, print-ready Photoshop designs for photographers and album designers. Free download, no login, no signup.</p></section>
@@ -84,11 +93,10 @@ f'''<div class="wrap"><section class="intro"><p class="eyb">Free studio PSD libr
 <section class="sec" id="rv" hidden><div class="sh"><h2>Continue where you left off</h2><a class="va" href="/favourites/">My favourites →</a></div><div class="row" id="rvl"></div></section>
 <section class="sec"><div class="sh"><div><p class="eyb">Hand-picked</p><h2>Best &amp; trending PSDs</h2></div><a class="va" href="/tag/karizma-album-psd/">View all →</a></div><div class="row">{"".join(card(d,"Trending") for d in trend)}</div></section>
 <section class="sec"><div class="bar"><span class="pill">{len(out):,} designs</span><select class="pill" id="fsort" aria-label="Sort designs"><option value="s">🎲 Daily shuffle</option><option value="n">Newest</option><option value="q">Best quality</option><option value="m">Largest file</option></select><button class="pill" id="hshuf" type="button">Shuffle again</button><a class="pill" href="/favourites/">❤ Favourites</a></div>
-{LAY(f'<div class="grid" id="feed">{"".join(card(d) for d in feed[:12])}{AD("infeed")}{"".join(card(d) for d in feed[12:])}</div><script type="application/json" id="feedinit">{feedinit}</script><div class="more"><button class="btn2" id="more" type="button">Load more designs</button></div><p class="note" id="fcnt"></p>')}</section>
+{LAY(f'<div class="grid" id="feed">{"".join(card(d) for d in feed[:12])}{AD("infeed")}{"".join(card(d) for d in feed[12:24])}{AD("infeed")}{"".join(card(d) for d in feed[24:])}</div><script type="application/json" id="feedinit">{feedinit}</script>{homepager()}')}</section>
 <section class="sec"><div class="sh"><h2>Popular searches</h2></div><div class="chips">{"".join(f'<a href="/tag/{k}/">{e(TN[k])} <small>{TCOUNT[k]}</small></a>' for k in TOK)}</div></section>
 <section class="sec"><div class="sh"><h2>Top collections</h2><a class="va" href="/browse/">Browse all →</a></div><div class="chips">{''.join(f'<a href="/{x[0]}/">{e(x[1])}</a>' for x in LAND)}</div></section>
 <section class="sec"><div class="sh"><h2>Album design guides</h2><a class="va" href="/blog/">All guides →</a></div><div class="bcards">{"".join(f'<a href="/blog/{s}/">{e(t)}<span>{e(ps[0][:90])}…</span></a>' for s,t,ps in BLOG[:6])}</div></section></div>''',ld=web)
-PER=30
 def pager(base,cur,tot):
   if tot<2: return ''
   u=lambda p:base if p==1 else f'{base}page/{p}/'
@@ -128,6 +136,7 @@ for c,n in CATS:
 for k in TOK:
   h=TN[k]; items=[d for d in out if k in d['g']]
   paged(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',h,TINTRO.get(k) or f'Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.',items,e(h),h,canon=(f'{SITE}/{LANDMAP[k]}/' if k in LANDMAP else None))
+paged('/designs/',f'All Free Studio PSD Designs – {len(out):,} Editable Templates',f'Browse all {len(out):,} free studio PSD templates page by page: wedding albums, Karizma, covers, backgrounds and birthday albums. Free download, no login.','All Free Studio PSD Designs',f'Every free design on FreeStudioPSD, {len(out):,} layered PSDs, sorted by preview quality. 30 designs per page.',out,'All designs','All designs')
 lite(out,'/data/search.json')
 page('/search/','Search Free Studio PSDs – FreeStudioPSD','Search free studio PSD templates.',f'<div class="wrap"><div class="ph"><p class="eyb">Search</p><h1>Results for “<span id="qv"></span>”</h1></div><p id="cnt" class="pill" style="display:inline-flex"></p>'+LAY('<div class="grid" id="list" data-src="/data/search.json" style="margin-top:14px"></div><nav class="pg" id="spg"></nav>')+f'<div id="se" class="empty" hidden><b>No designs match your search</b><p>Try fewer words or one of these popular searches:</p><div class="chips" style="justify-content:center">'+''.join(f'<a href="/tag/{k}/">{e(TN[k])}</a>' for k in TOK[:8])+'</div></div></div>',noindex=True)
 exec(open('dpage.py').read())
