@@ -20,7 +20,9 @@ TCOUNT={k:sum(k in d['g'] for d in out) for k in TN}
 TOK=[k for k in TN if TCOUNT[k]>=6]
 nav=''
 LBL={'wedding-album-12x36':'12x36 Album','album-12x30':'12x30 Album','album-18x24':'18x24 Album','album-12x18':'12x18 Album','album-cover':'Album Cover','album-background':'Background','studio-background':'Studio BG','birthday-baby-album':'Birthday','wedding-invitation':'Invitation'}
-FONTS='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,600&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700&family=Outfit:wght@400;500;600&display=swap" media="print" onload="this.media=\'all\'">'
+FONTS='<style>'+open('ui6/fonts/fonts.css').read().replace('.woff2)','.woff2?v=1)')+'</style>'  # self-hosted subset fonts (OFL) – no Google Fonts round trips
+os.makedirs(f'{S}/fonts',exist_ok=True)
+for _ff in glob.glob('ui6/fonts/*.woff2'): shutil.copy(_ff,f'{S}/fonts/')
 THEMEJS='<script>(function(){try{var t=localStorage.getItem("fsp-theme");if(t!=="dark"&&t!=="light")t="light";document.documentElement.setAttribute("data-theme",t);if(+localStorage.getItem("fsp-promo-x")>Date.now())document.documentElement.classList.add("nopromo");}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script><style>html{background:#FAF7F2}html[data-theme="dark"]{background:#0c0a08}</style>'
 # ---- TamilPSD Pro promotion (figures checked on tamilpsd.in public pages 2026-10-17: 14,037 designs; Pro 50 PSD/day, Rs189/28 days, Rs900/6 months, Rs1,499/year) ----
 TPN='14,000+'
