@@ -32,7 +32,7 @@ for c,L in bycat.items():
     urls.append(f"/psd/{d['slug']}/")
 TK=dict(id='ZZIDZZ',slug='ZZSLUGZZ',t='ZZTZZ',d='ZZDZZ',c='ZZCZZ',cn='ZZCNZZ',dim='ZZDIMZZ',dpi='ZZDPIZZ',sz='ZZSZZ',img='ZZIMGZZ',zm='ZZZMZZ',w='ZZWZZ',h='ZZHZZ')
 _b=dhtml(TK,'ZZCZZ','ZZNAVZZ','ZZTAGSZZ','ZZRELZZ','ZZMOREZZ').replace('{\'\' if 0 else \'\'}','')
-page('/_tpl/design/','ZZTZZ | Free Download','ZZDESCZZ',_b,ld='ZZLDZZ',img='ZZIMGZZ',noindex=False)
+page('/_tpl/design/','ZZTZZ | Free Download','ZZDESCZZ',_b,ld='ZZLDZZ',img='ZZIMGZZ',noindex=False,canon=SITE+'/psd/ZZSLUGZZ/')
 _tp=open(S+'/_tpl/design/index.html').read().replace('"ZZLDZZ"','ZZLDZZ').replace(' (high resolution)','ZZHRZZ').replace('text=ZZTZZ%20','text=ZZTQZZ%20').replace('description=ZZTZZ','description=ZZTQZZ')
 open(S+'/_tpl/design/index.html','w').write(_tp)
 json.dump({'TN':{k:TN[k] for k in TOK},'CATTOT':CATTOT,'SITE':SITE},open(S+'/_tpl/cfg.json','w'))
