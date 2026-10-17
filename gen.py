@@ -2,7 +2,7 @@ import json,subprocess,glob,random,os,shutil,re,html,hashlib
 random.seed(2026)
 SITE="https://freestudiopsd.pages.dev"
 rows={}
-for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_fsp_b*.json')):
+for f in sorted(glob.glob('/workspace/studiopk/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_batch*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_fsp_b*.json'))+sorted(glob.glob('/workspace/freepsdking/rows_reuse*.json')):
   d=os.path.dirname(f)
   for r in json.load(open(f)):
     p=f"{d}/previews/{r['ID']}.webp"
