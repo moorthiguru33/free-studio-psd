@@ -37,7 +37,7 @@ _b=dhtml(TK,'ZZCZZ','ZZNAVZZ','ZZTAGSZZ','ZZRELZZ','ZZMOREZZ').replace('{\'\' if
 page('/_tpl/design/','ZZTZZ – Free PSD | PSD Album','ZZDESCZZ',_b,ld='ZZLDZZ',img='ZZIMGZZ',noindex=False,canon=SITE+'/psd/ZZSLUGZZ/')
 _tp=open(S+'/_tpl/design/index.html').read().replace('"ZZLDZZ"','ZZLDZZ').replace(' (high resolution)','ZZHRZZ').replace('text=ZZTZZ%20','text=ZZTQZZ%20').replace('description=ZZTZZ','description=ZZTQZZ')
 open(S+'/_tpl/design/index.html','w').write(_tp)
-json.dump({'TN':{k:TN[k] for k in TOK},'CATTOT':CATTOT,'SITE':SITE,'CATTIP':CATTIP},open(S+'/_tpl/cfg.json','w'))
+json.dump({'TN':{k:TN[k] for k in TOK},'CATTOT':CATTOT,'SITE':SITE,'CATTIP':CATTIP,'CSIZES':CSIZES},open(S+'/_tpl/cfg.json','w'))
 for k in range(NSH): json.dump(SH.get(k,[]),open(f'{S}/data/shard-{k}.json','w'),separators=(',',':'))
 page('/download/','Preparing your download – PSD Album','Your free PSD download is being prepared.',
 f'''<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span>Download</span></nav><div class="fsp-cd-ad">{AD("countdown_top")}</div>

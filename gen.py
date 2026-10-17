@@ -59,6 +59,21 @@ def zm(a):
   src,dst=a; im=Image.open(src); im.thumbnail((1800,1800)); im.convert('RGB').save(dst,'WEBP',quality=70,method=4)
 for d in best: d['zm']=f"/img/zoom/{d['slug']}.webp"
 with Pool(8) as pl: pl.map(zm,[(d['src'],M+d['zm']) for d in best if not os.path.exists(M+d['zm'])])
+# responsive card thumbnails (360w + 600w) from the preview images (never the PSDs); used in srcset once uploaded to R2
+for _w in (360,600): os.makedirs(f'{M}/img/w{_w}',exist_ok=True)
+def th(a):
+  src,slug=a
+  try:
+    im=Image.open(src).convert('RGB')
+    for w,q in ((360,62),(600,64)):
+      dst=f'{M}/img/w{w}/{slug}.webp'
+      if not os.path.exists(dst): t=im.copy(); t.thumbnail((w,10*w)); t.save(dst,'WEBP',quality=q,method=5)
+  except Exception as ex: print('thumb fail',slug,ex)
+with Pool(8) as pl: pl.map(th,[(d['src'],d['slug']) for d in out if not (os.path.exists(f"{M}/img/w360/{d['slug']}.webp") and os.path.exists(f"{M}/img/w600/{d['slug']}.webp"))])
+_UPD=set(open(M+'/.uploaded').read().split()) if os.path.exists(M+'/.uploaded') else set()
+for d in out:
+  if f"/img/w360/{d['slug']}.webp" in _UPD and f"/img/w600/{d['slug']}.webp" in _UPD: d['th']=1
+print('thumbs live',sum(1 for d in out if d.get('th')),'of',len(out))
 for d in out: d.pop('src')
 with Pool(8) as pl: pl.map(cv,todo)
 for d in out: d['w'],d['h']=Image.open(M+d['img']).size

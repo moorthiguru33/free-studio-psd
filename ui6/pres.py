@@ -60,13 +60,17 @@ urls=[]
 def P(path,*a,**k):
   if not k.get('noindex') and not k.get('canon'): urls.append(path)
   page(path,*a,**k)
+CSIZES='(max-width:720px) 46vw, 320px'
+def ISRC(d):
+  if not d.get('th'): return f'src="{d["img"]}"'
+  return f'src="{IMG}/img/w360/{d["slug"]}.webp" srcset="{IMG}/img/w360/{d["slug"]}.webp 360w, {IMG}/img/w600/{d["slug"]}.webp 600w" sizes="{CSIZES}"'
 def card(d,badge='',title=True):
   lb=badge or LBL.get(d["c"],d["cn"].replace(" PSD",""))
-  return f'<a class="design-card" href="/psd/{d["slug"]}/"><div class="card-thumb"><div class="wm-container"><img loading="lazy" decoding="async" src="{d["img"]}" alt="{e(d["t"])}" width="{d["w"]}" height="{d["h"]}"></div><div class="card-overlay" aria-hidden="true"><span class="fsp-pill">⬇ Free PSD</span></div><div class="card-cat">{e(lb)}</div><button class="card-fav" type="button" data-id="{d["id"]}" aria-label="Save to favourites">♥</button></div>'+(f'<div class="pm-rel-t">{e(d["t"])}</div>' if title else '')+'</a>'
+  return f'<a class="design-card" href="/psd/{d["slug"]}/"><div class="card-thumb"><div class="wm-container"><img loading="lazy" decoding="async" {ISRC(d)} alt="{e(d["t"])}" width="{d["w"]}" height="{d["h"]}"></div><div class="card-overlay" aria-hidden="true"><span class="fsp-pill">⬇ Free PSD</span></div><div class="card-cat">{e(lb)}</div><button class="card-fav" type="button" data-id="{d["id"]}" aria-label="Save to favourites">♥</button></div>'+(f'<div class="pm-rel-t">{e(d["t"])}</div>' if title else '')+'</a>'
 APP=open('ui6/app.js').read(); APPV=str(abs(hash(APP))%10**8)
 open(f'{S}/app.js','w').write(APP)
 def lite(items,path):
-  json.dump([{k:x[k] for k in ('id','slug','t','img','c','cn','sz','mb','q','g','w','h')} for x in items],open(S+path,'w'),separators=(',',':'))
+  json.dump([{k:x[k] for k in ('id','slug','t','img','c','cn','sz','mb','q','g','w','h','th') if k in x} for x in items],open(S+path,'w'),separators=(',',':'))
 SLOTS=['leaderboard','infeed','sidebar','anchor','incontent','countdown_top','countdown_mid','countdown_bottom','inarticle']
 def AD(n):
   if not ADON: return ''
