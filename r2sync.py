@@ -6,7 +6,7 @@ new=sorted(keep-UP); print('to upload',len(new),flush=True)
 for i in range(0,len(new),500):
   ch=new[i:i+500]; json.dump([{'key':k.lstrip('/'),'file':os.path.abspath(M+k)} for k in ch],open('/tmp/r2bulk.json','w'))
   for a in range(4):
-    r=subprocess.run(['bash','-c','export PATH=/tmp/node-v22.11.0-linux-x64/bin:$PATH WRANGLER_CACHE_DIR=/tmp/wcache; wrangler r2 bulk put freestudiopsd-media --remote -f /tmp/r2bulk.json --ct image/webp --cc "public, max-age=31536000, immutable" --concurrency 3 -y'],capture_output=True,text=True)
+    r=subprocess.run(['bash','-c','export PATH=/workspace/node22/bin:/home/box/.local/bin:$PATH WRANGLER_CACHE_DIR=/tmp/wcache CLOUDFLARE_ACCOUNT_ID=f111f0309c0fd852152da1211830b227; wrangler r2 bulk put freestudiopsd-media --remote -f /tmp/r2bulk.json --ct image/webp --cc "public, max-age=31536000, immutable" --concurrency 3 -y'],capture_output=True,text=True)
     if r.returncode==0: break
     print('retry',(r.stdout+r.stderr)[-200:],flush=True); time.sleep(150)
   else: print('FAILED chunk',i); break

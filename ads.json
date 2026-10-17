@@ -1,0 +1,41 @@
+{
+  "enabled": false,
+  "show_placeholders": true,
+  "_help": "1) Paste your AdSense loader (or other network loader) into head_scripts. 2) Paste each ad unit's HTML into its slot. 3) Set enabled to true and redeploy (copy this file to site/ads.json or run gen.py). Slots with no code collapse when enabled; set show_placeholders false to hide the labelled boxes before codes exist. Every slot is lazy-loaded when it nears the viewport and always shows an 'Advertisement' label.",
+  "head_scripts": [
+    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+  ],
+  "slots": {
+    "leaderboard": "",
+    "infeed": "",
+    "sidebar": "",
+    "anchor": "",
+    "incontent": "",
+    "countdown_top": "",
+    "countdown_mid": "",
+    "countdown_bottom": "",
+    "inarticle": ""
+  },
+  "labels": {
+    "leaderboard": "Header leaderboard · 728×90 / responsive",
+    "infeed": "In-grid native ad",
+    "sidebar": "Sticky sidebar · 300×600",
+    "anchor": "Mobile anchor · 320×50",
+    "incontent": "In-content · responsive",
+    "countdown_top": "Download page · top",
+    "countdown_mid": "Download page · middle",
+    "countdown_bottom": "Download page · bottom",
+    "inarticle": "In-article · responsive"
+  },
+  "_slot_map": {
+    "leaderboard": "below the header on every page except /download/",
+    "infeed": "inside design grids, every 12 cards (home feed, categories, tags, collections, search)",
+    "sidebar": "sticky right column on desktop >=1180px (listings, search, blog)",
+    "anchor": "fixed bottom bar on mobile <=720px, closable, shown after first scroll, not on /download/",
+    "incontent": "design pages, after the About section and above the related grid",
+    "countdown_top": "/download/ below the title, above the countdown card",
+    "countdown_mid": "/download/ below the countdown card (separated from the Drive button)",
+    "countdown_bottom": "/download/ below the similar-designs grid",
+    "inarticle": "blog posts, after paragraph 2 and at the end of the article"
+  }
+}

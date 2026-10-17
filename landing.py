@@ -55,8 +55,6 @@ def landing_pages():
         crumbs([('Home','/'),(kw,f'/{slug}/')]),
         {"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":i+1,"url":f"{SITE}/psd/{d['slug']}/"} for i,d in enumerate(items[:24])]}]
     P(f'/{slug}/',title,f'Download {len(items)} free {kw.lower()} files: layered, print-ready Photoshop designs for {size} albums. No password, no login. Full previews and specs for every design.',
-f'''<div class="wrap"><div class="ph"><div class="crumb"><a href="/">Home</a> › <span>{e(kw)}</span></div><h1>{e(kw)} Free Download</h1><p>{len(items)} free, layered {e(kw.lower())} designs · No password · No login</p></div>{AD("AdSense leaderboard placeholder")}
-<h2 style="font-size:22px">Best {e(kw)} designs</h2><div class="grid">{''.join(card(d) for d in items[:12])}<div class="ad adg" data-slot="infeed">In-feed native ad placeholder</div>{''.join(card(d) for d in items[12:24])}</div>
-<p style="text-align:center"><a class="btn2" href="/search/?q={quote(kw.lower().replace(' psd',''))}">See all {len(items)} {e(kw)} designs →</a></p>
+f'''<div class="wrap"><div class="crumb"><a href="/">Home</a> › <span>{e(kw)}</span></div><div class="ph"><h1>{e(kw)} Free Download</h1><p>{len(items)} free, layered {e(kw.lower())} designs · No password · No login</p></div>{LAY(f'<h2 style="font-size:24px;margin:8px 0 14px">Best {e(kw)} designs</h2>{GRID(items[:24])}<p style="text-align:center"><a class="btn2" href="/search/?q={quote(kw.lower().replace(' psd',''))}">See all {len(items)} {e(kw)} designs →</a></p>')}
 <article class="lp">{body}<h2>Frequently asked questions</h2><div class="faq">{''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in fq)}</div>
 <h2>Related collections</h2><div class="chips">{links}</div><h2>Helpful guides</h2><ul>{blog}</ul></article></div>''',ld=ld,img=items[0]['img'])

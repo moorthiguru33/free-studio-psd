@@ -1,11 +1,12 @@
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 let TPL = null, CFG = null;
-const card = d => `<a class="card" href="/psd/${d.slug}/"><div class="im"><img loading="lazy" decoding="async" src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></div><div class="tx"><h3>${esc(d.t)}</h3><div class="meta"><span>${esc(d.cn.replace(' PSD', ''))}</span><span>${esc(d.sz)}</span></div></div></a>`;
+const LBL = { 'wedding-album-12x36': '12x36 Album', 'album-12x30': '12x30 Album', 'album-18x24': '18x24 Album', 'album-12x18': '12x18 Album', 'album-cover': 'Album Cover', 'album-background': 'Background', 'studio-background': 'Studio BG', 'birthday-baby-album': 'Birthday', 'wedding-invitation': 'Invitation' };
+const card = d => `<div class="card"><a class="im" href="/psd/${d.slug}/"><span class="lb">${esc(LBL[d.c] || d.cn.replace(' PSD', ''))}</span><img loading="lazy" decoding="async" src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></a><button class="hb" type="button" data-id="${d.id}" aria-label="Save to favourites">♥</button><a class="tx" href="/psd/${d.slug}/"><h3>${esc(d.t)}</h3><span class="meta"><span>${esc(d.cn.replace(' PSD', ''))}</span><span>${esc(d.sz)}</span></span></a></div>`;
 async function asset(env, origin, p) { const r = await env.ASSETS.fetch(new Request(origin + p)); if (!r.ok) throw new Error('asset ' + p + ' ' + r.status); return r; }
 export async function onRequestGet({ request, env, params }) {
   const url = new URL(request.url), origin = url.origin;
   const cache = caches.default;
-  const ck = new Request(origin + url.pathname);
+  const ck = new Request(origin + url.pathname + '?tplv=5');
   let hit = await cache.match(ck); if (hit) return hit;
   const parts = [].concat(params.slug || []);
   const slug = parts[0] || '';
@@ -25,14 +26,14 @@ export async function onRequestGet({ request, env, params }) {
   const rel = shard.filter(x => x.id !== id && x.c === d.c).sort((a, b) => Math.abs(a.id - id) - Math.abs(b.id - id)).slice(0, 12);
   if (rel.length < 12) rel.push(...shard.filter(x => x.id !== id && x.c !== d.c).slice(0, 12 - rel.length));
   const nav = `<div class="pn">${d.pv ? `<a rel=prev href=/psd/${d.pv}/>‹ Previous design</a>` : '<span></span>'}${d.nx ? `<a rel=next href=/psd/${d.nx}/>Next design ›</a>` : ''}</div>`;
-  const tags = (d.g || []).filter(k => CFG.TN[k]).map(k => `<a href="/tag/${k}/">${esc(CFG.TN[k])}</a>`).join('');
+  const tags = (d.g || []).filter(k => CFG.TN[k]).map(k => `<a href="/tag/${k}/">${esc(CFG.TN[k].replace(' Free Download', ''))}</a>`).join(', ') || 'studio psd, editable psd';
   const tot = CFG.CATTOT[d.c] || 1, pg = d.pg || 1; let more = [];
   for (let p = pg; p <= Math.min(tot, pg + 5); p++) more.push(`<a href="/category/${d.c}/${p === 1 ? '' : 'page/' + p + '/'}">Page ${p}</a>`);
   const ld = [{ "@context": "https://schema.org", "@type": "ImageObject", name: d.t, description: d.d, contentUrl: S + (d.zm || d.img), thumbnailUrl: S + d.img, encodingFormat: "image/webp", creator: { "@type": "Person", name: "Guru Moorthi" }, isAccessibleForFree: true },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: S + "/" }, { "@type": "ListItem", position: 2, name: d.cn, item: `${S}/category/${d.c}/` }, { "@type": "ListItem", position: 3, name: d.t }] }];
   const R = {
     ZZLDZZ: JSON.stringify(ld).replace(/</g, '\\u003c'), ZZTQZZ: encodeURIComponent(d.t), ZZHRZZ: d.zm ? ' (high resolution)' : '',
-    ZZDESCZZ: esc(d.d.slice(0, 155)), ZZNAVZZ: nav, ZZTAGSZZ: tags, ZZRELZZ: rel.map(card).join(''), ZZMOREZZ: more.join(' '),
+    ZZDESCZZ: esc(d.d.slice(0, 155)), ZZNAVZZ: nav, ZZTAGSZZ: tags, ZZRELZZ: rel.map((x, i) => card(x) + (i === 5 ? '' : '')).join(''), ZZMOREZZ: more.join(' '),
     ZZIDZZ: d.id, ZZSLUGZZ: d.slug, ZZTZZ: esc(d.t), ZZDZZ: esc(d.d), ZZCZZ: d.c, ZZCNZZ: esc(d.cn), ZZDIMZZ: esc(d.dim), ZZDPIZZ: esc(d.dpi),
     ZZSZZ: esc(d.sz), ZZIMGZZ: d.img, ZZZMZZ: d.zm || d.img, ZZWZZ: d.w, ZZHZZ: d.h };
   const html = TPL.replace(/ZZ[A-Z0-9]+ZZ/g, k => (k in R ? R[k] : k));
