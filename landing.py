@@ -36,6 +36,8 @@ FAQS=[('Are these {kw} files really free?','Yes. Every {kw} design on PSD Album 
 ('Can I use these designs for client albums?','Yes, you can use them for personal projects and studio client work. Reselling or re-uploading the PSD files as template packs is not allowed.'),
 ('Why does Google Drive show a warning?','Large ZIP files cannot be virus-scanned by Google Drive, so it shows a notice. Choose "Download anyway" to continue.')]
 LANDSLUGS=set()
+exec(open('landing_x.py').read())
+_REVTAG={v:k for k,v in LANDMAP.items()}
 def landing_pages():
   for slug,kw,title,size,flt,intro in LAND:
     items=sorted([d for d in out if flt(d)],key=lambda x:(-x['q'],x['id']))
@@ -45,7 +47,9 @@ def landing_pages():
     body=f'<p class="lead">{e(intro)}</p><p>This page brings together <b>{len(items)} free {e(kw.lower())} designs</b>, sorted with the highest-quality previews first. Each design opens on its own page with a full preview, specifications and a direct free download.</p>'
     for h,vs in SECS:
       body+=f'<h2>{e(h.format(kw=kw.lower()))}</h2><p>{e(rnd.choice(vs).format(kw=kw.lower(),size=size))}</p>'
-    fq=[(q.format(kw=kw.lower(),size=size),a.format(kw=kw.lower(),size=size)) for q,a in FAQS]
+    _x=LANDX.get(slug,{})
+    body=body.replace('<h2>',''.join(f'<h2>{e(h)}</h2><p>{t}</p>' for h,t in _x.get('sec',[]))+'<h2>',1) if _x.get('sec') else body
+    fq=list(LANDX.get(slug,{}).get('faq',[]))+[(q.format(kw=kw.lower(),size=size),a.format(kw=kw.lower(),size=size)) for q,a in FAQS][:6-min(3,len(LANDX.get(slug,{}).get('faq',[])))]
     rel=[x for x in LAND if x[0]!=slug]; rnd.shuffle(rel)
     links=''.join(f'<a href="/{x[0]}/">{e(x[1])}</a>' for x in rel[:10])
     blog=''.join(f'<li><a href="/blog/{s}/">{e(t)}</a></li>' for s,t,_ in rnd.sample(BLOG,5))
@@ -55,4 +59,4 @@ def landing_pages():
         crumbs([('Home','/'),(kw,f'/{slug}/')]),
         {"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":i+1,"url":f"{SITE}/psd/{d['slug']}/"} for i,d in enumerate(items[:24])]}]
     P(f'/{slug}/',title,f'Download {len(items)} free {kw.lower()} files: layered, print-ready Photoshop designs for {size} albums. No password, no login. Full previews and specs for every design.',
-crumbbar([(e(kw),None)])+f'''<div class="main-wrap"><main>{LAY(f'<div class="sec-head"><h1 class="sec-title">{e(kw)} Free Download</h1><span class="results-count">{len(items)} designs</span></div><div class="pm-cat-intro"><p>{len(items)} free, layered {e(kw.lower())} designs · No password · No login</p></div><h2 class="fsp-h2">Best {e(kw)} designs</h2>{GRID(items[:24])}<p class="fsp-hub"><a href="/search/?q={quote(kw.lower().replace(' psd',''))}">See all {len(items)} {e(kw)} designs →</a></p><article class="fsp-art lp">'+body+'<h2>Frequently asked questions</h2><div class="fsp-faq">'+''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in fq)+f'</div><h2>Related collections</h2><div class="fsp-chips">{links}</div><h2>Helpful guides</h2><ul>{blog}</ul></article>')}</main></div>''',ld=ld,img=items[0]['img'])
+crumbbar([(e(kw),None)])+f'''<div class="main-wrap"><main>{LAY(f'<div class="sec-head"><h1 class="sec-title">{e(kw)} Free Download</h1><span class="results-count">{len(items)} designs</span></div><div class="pm-cat-intro"><p>{len(items)} free, layered {e(kw.lower())} designs · No password · No login</p></div><h2 class="fsp-h2">Best {e(kw)} designs</h2>{GRID(items[:24])}<p class="fsp-hub">{f'<a href="/tag/{_REVTAG[slug]}/page/2/">More {e(kw)} designs →</a> · ' if slug in _REVTAG and os.path.exists(f'{S}/tag/{_REVTAG[slug]}/page/2/index.html') else ''}<a href="/search/?q={quote(kw.lower().replace(' psd',''))}">Search all {len(items)} {e(kw)} designs →</a></p><article class="fsp-art lp">'+body+'<h2>Frequently asked questions</h2><div class="fsp-faq">'+''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in fq)+f'</div><h2>Related collections</h2><div class="fsp-chips">{links}</div><h2>Helpful guides</h2><ul>{blog}</ul></article>')}</main></div>''',ld=ld,img=items[0]['img'])
