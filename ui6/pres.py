@@ -178,4 +178,20 @@ for k in TOK:
   paged(f'/tag/{k}/',f'{h} – {len(items)} Free Editable Templates',f'Download {len(items)} free {h.lower()} files. Layered Photoshop templates for photo studios, free with no login.',h,TINTRO.get(k) or f'Browse {len(items)} free {e(h.lower())} designs. Every file is a layered PSD you can edit in Photoshop and send straight to print.',items,e(h),h,canon=(f'{SITE}/{LANDMAP[k]}/' if k in LANDMAP else None))
 paged('/designs/',f'All Free Studio PSD Designs – {len(out):,} Editable Templates',f'Browse all {len(out):,} free studio PSD templates page by page: wedding albums, Karizma, covers, backgrounds and birthday albums. Free download, no login.','All Free Studio PSD Designs',f'Every free design on PSD Album, {len(out):,} layered PSDs, sorted by preview quality. 30 designs per page.',out,'All designs','All designs')
 lite(out,'/data/search.json')
+# compact search index for /search.js: meta + ~4k-design shards, lazy-loaded on first focus/keystroke
+def _sxbuild():
+  import hashlib as _h
+  os.makedirs(S+'/data/sx',exist_ok=True)
+  for f in glob.glob(S+'/data/sx/*.json'): os.remove(f)
+  _sl=lambda t:re.sub(r'[^a-z0-9]+','-',t.lower()).strip('-')
+  cl=[c for c,_ in CATS]; tl=list(TN)
+  ds=sorted(out,key=lambda d:d['id']); N=4000; nsh=max(1,-(-len(ds)//N)); ver=[]
+  for k in range(nsh):
+    rows=[[d['id'],0 if d['slug']==_sl(d['t'])+'-'+str(d['id']) else d['slug'],d['t'],cl.index(d['c']) if d['c'] in cl else -1,[tl.index(g) for g in d.get('g',[]) if g in tl],1 if d.get('th') else 0,d['w'],d['h'],d.get('q',0)] for d in ds[k*N:(k+1)*N]]
+    js=json.dumps(rows,separators=(',',':'),ensure_ascii=False); ver.append(_h.md5(js.encode()).hexdigest()[:8])
+    open(f'{S}/data/sx/s{k}.json','w').write(js)
+  meta=dict(n=nsh,v=ver,count=len(ds),img=IMG+'/img/',cats=[[c,CN[c],sum(1 for d in out if d['c']==c)] for c in cl],tags=[[k,TN[k]] for k in tl])
+  open(S+'/data/sx/meta.json','w').write(json.dumps(meta,separators=(',',':'),ensure_ascii=False))
+_sxbuild()
+SXJS=open('ui6/search.js').read(); SXV=str(abs(hash(SXJS))%10**8); open(f'{S}/search.js','w').write(SXJS)
 page('/search/','Search Free Studio PSDs – PSD Album','Search free studio PSD templates.',crumbbar([('Search',None)])+'<div class="main-wrap"><main>'+LAY('<div class="sec-head"><h1 class="sec-title">Results for “<span id="qv"></span>”</h1><span class="results-count" id="cnt"></span></div><div class="designs-grid" id="sres"></div><div id="spg"></div>')+'</main></div>',noindex=True)

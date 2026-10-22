@@ -50,21 +50,11 @@ if(F){const init=F.innerHTML,sel=$('#sort-select'),fb=$('#fav-filter-btn'),rc=$(
   if(!l.length){F.innerHTML='<div class="empty-state"><div class="es-icon">♥</div><h3>No favourites yet</h3><p>Tap ♥ on any design to save it here.</p></div>';if(rc)rc.textContent='0 favourites';return}show(l,l.length+' favourites')})}
 /* pager "Go to page" */
 document.addEventListener('submit',e=>{const f=e.target.closest('.tp-pager-jump');if(!f)return;e.preventDefault();const n=Math.max(1,Math.min(+f.dataset.tot,parseInt(f.querySelector('input').value)||1));location.href=n===1?f.dataset.first:f.dataset.base+'page/'+n+'/'});
-/* search page */
-const SR=$('#sres');
-if(SR){(async()=>{let a=await idx();const sp=new URLSearchParams(location.search),q=sp.get('q')||'',pg=+sp.get('p')||1;
- const w=q.toLowerCase().split(/\s+/).filter(Boolean);$('#qv').textContent=q;$$('input[name=q]').forEach(i=>i.value=q);
- a=a.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+(d.g||[]).join(' ')).toLowerCase().includes(x))).sort((x,y)=>y.q-x.q||x.id-y.id);
- const tot=Math.ceil(a.length/30);$('#cnt').textContent=a.length.toLocaleString()+' designs found';
- SR.innerHTML=a.length?G(a.slice((pg-1)*30,pg*30)):'<div class="empty-state"><div class="es-icon">🔍</div><h3>No designs found</h3><p>Try a shorter search such as “karizma” or “12x36”.</p></div>';paintH();ads.scan();
- if(tot>1){const u=p=>'?q='+encodeURIComponent(q)+'&p='+p;let h=pg>1?`<li><a class="tp-pg tp-pg-step" href="${u(pg-1)}">« Prev</a></li>`:'<li><span class="tp-pg tp-pg-off tp-pg-step">« Prev</span></li>';
-  for(let p=Math.max(1,pg-2);p<=Math.min(tot,pg+2);p++)h+=p==pg?`<li><span class="tp-pg tp-pg-cur">${p}</span></li>`:`<li><a class="tp-pg" href="${u(p)}">${p}</a></li>`;
-  h+=pg<tot?`<li><a class="tp-pg tp-pg-step" href="${u(pg+1)}">Next »</a></li>`:'<li><span class="tp-pg tp-pg-off tp-pg-step">Next »</span></li>';
-  $('#spg').innerHTML=`<div class="tp-pager"><p class="tp-pager-info">Showing <strong>${(pg-1)*30+1}–${Math.min(pg*30,a.length)}</strong> of <strong>${a.length.toLocaleString()}</strong> designs</p><nav class="tp-pager-nav" aria-label="Pagination"><ul class="tp-pager-list">${h}</ul></nav></div>`}})()}
-/* live suggestions under the header search */
-$$('#search-input').forEach(inp=>{const f=inp.form;let box;inp.addEventListener('input',async()=>{const S=await idx();const w=inp.value.toLowerCase().split(/\s+/).filter(Boolean);if(!box){box=document.createElement('div');box.className='sug';f.appendChild(box)}if(!w.length){box.remove();box=null;return}
- const r=S.filter(d=>w.every(x=>(d.t+' '+d.cn+' '+d.g.join(' ')).toLowerCase().includes(x)));box.innerHTML=r.slice(0,6).map(d=>`<a href="/psd/${d.slug}/"><img src="${d.img}" alt="" loading="lazy">${esc(d.t)}</a>`).join('')+`<a class="all" href="/search/?q=${encodeURIComponent(inp.value)}">See all ${r.length} results →</a>`});
- document.addEventListener('click',e=>{if(box&&!f.contains(e.target)){box.remove();box=null}})});
+/* search: engine + UI live in /search.js, loaded only on the search page or on first focus/keystroke in a search box (keeps it off the LCP path) */
+(()=>{let p=null;const v=(document.querySelector('script[src*="/app.js"]')||{}).src||'',sv=(v.match(/v=(\w+)/)||[])[1]||'1';
+ const get=()=>p||(p=new Promise(r=>{const s=document.createElement('script');s.src='/search.js?v='+sv;s.async=true;s.onload=r;document.head.appendChild(s)}));
+ if($('#sres'))get();
+ $$('#search-input').forEach(i=>{const k=()=>get().then(()=>{if(document.activeElement===i&&i.value)i.dispatchEvent(new Event('input'))});i.addEventListener('focus',k,{once:true});i.addEventListener('input',k,{once:true})})})();
 /* design page */
 const cp=$('#share-cp');cp&&(cp.onclick=()=>{navigator.clipboard.writeText(location.href);cp.lastChild.textContent=' Copied!'});
 const z=$('#zm');z&&(z.onclick=e=>{e.preventDefault();const o=document.createElement('div');o.className='lbx';o.innerHTML=`<img src="${z.getAttribute('href')}" alt="">`;o.onclick=()=>o.remove();document.body.appendChild(o)});
