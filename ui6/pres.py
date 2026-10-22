@@ -126,8 +126,8 @@ def bccards():
     pool=sorted([d for d in out if d['c'] in cs],key=lambda x:-x['q'])
     land=[d for d in pool if d['w']>=d['h']*1.2][:24] or pool[:24]
     pick=random.Random(gid).sample(land,min(4,len(land)))
-    th=''.join(f'<span class="bc-th"><img {"" if gi==0 else "loading=lazy "}{"fetchpriority=high " if gi==0 and ti_==0 else ""}decoding="async" src="{bcthumb(d)}" alt="" width="320" height="220"></span>' for ti_,d in enumerate(pick))
-    if gi==0: BCPRE.append(bcthumb(pick[0]))
+    th=''.join(f'<span class="bc-th"><img {"loading=eager fetchpriority=high " if gi==0 else "loading=lazy fetchpriority=low "}decoding="{"sync" if gi==0 else "async"}" src="{bcthumb(d)}" alt="" width="320" height="220"></span>' for ti_,d in enumerate(pick))
+    if gi==0: BCPRE.extend(bcthumb(x) for x in pick)  # LCP: whole first row is above the fold, any of the 4 can be the LCP element
     links=''.join(f'<li><a class="bc-link" href="/category/{c}/">{e(CN[c].replace(" PSD",""))}</a></li>' for c in cs)
     links+=''.join(f'<li><a class="bc-link" href="/tag/{k}/">{e(TN[k].replace(" Free Download","").replace(" PSD",""))}</a></li>' for k in TOK if any(k in d['g'] for d in pool[:400]))[:0] if False else ''
     extra=[k for k in TOK if sum(k in d['g'] for d in pool)>=6][:8]
@@ -142,7 +142,7 @@ _BC=bccards()
 P('/','Free Studio PSD Download – Wedding Album 12x36, Karizma & Birthday PSD',f'Download {len(out):,}+ free studio PSD templates: wedding album 12x36, Karizma album, album covers, backgrounds, birthday and baby albums. Layered, print-ready, no login.',
 _BC+f'''<div class="main-wrap"><main>{LAY(f"""<div class="sec-head"><span class="results-count">{len(out):,} designs</span></div><div class="sort-row"><select id="sort-select" aria-label="Sort designs"><option value="s">🎲 Daily Shuffle</option><option value="n">🆕 Newest</option><option value="q">⭐ Best quality</option></select><button type="button" id="reset-filters-btn">Reset Filters</button><button type="button" id="fav-filter-btn">❤️ Favourites</button></div>{GRID(feed,title=False,gid="designs-grid")}{pager("/designs/",1,TOTP,len(out))}""")}</main></div>
 <section class="pm-sec pm-wrap fsp-rv" id="rv" hidden><div class="pm-sec-h"><h2><small>History</small>Recently viewed</h2><a href="/favourites/">My favourites →</a></div><div class="designs-grid fsp-row" id="rvl"></div></section>
-{ABOUT}''',ld=web,head=f'<link rel="preload" as="image" href="{BCPRE[0]}" fetchpriority="high">')
+{ABOUT}''',ld=web,head=''.join(f'<link rel="preload" as="image" href="{u}" fetchpriority="high">' for u in BCPRE))
 def faq(h,n):
   qa=[(f'Are these {h} files really free?',f'Yes. All {n} {h} designs on PSD Album are free to download with no login or signup.'),
       (f'Which software opens {h} files?','The files are layered PSDs. Open them in Adobe Photoshop CC or any editor that supports PSD layers.'),

@@ -78,6 +78,8 @@ if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const 
  if(!d){$('#t').textContent='Design not found.';$('#ring').style.display='none';return}
  $('#nmimg').innerHTML=`<a class="dp-wm-container" href="/psd/${d.slug}/"><img src="${d.img}" alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></a>`;$('#nm').textContent=d.t;$('#nmspec').textContent=`Design #${d.id} · ${d.dim} · ${d.dpi} · ${d.sz}`;$('#nmcat').textContent=lab(d);$('#nmid').textContent='#psd-'+d.id;
  const rel=$('#dlrel');if(rel){rel.innerHTML=sh.filter(x=>x.c===d.c&&x.id!==d.id).slice(0,12).map(x=>C(x)).join('');paintH()}
- let c=10;const iv=setInterval(()=>{c--;$('#c').textContent=c;if(c<=0){clearInterval(iv);$('#t').textContent='Your download link is ready';const a=$('#dl');a.href='https://drive.google.com/uc?export=download&id='+d.fid;a.style.visibility='visible';$('#ring').style.display='none'}},1000)})()}
+ let tk=null,lim=null;try{const r=await fetch('/api/dl?s=1&id='+id,{credentials:'same-origin'});const j=await r.json();if(j.limit)lim=j.msg;else tk=j.t}catch(e){}
+ if(lim){$('#t').textContent=lim;$('#ring').style.display='none';$('#c').textContent='';return}
+ let c=10;const iv=setInterval(()=>{c--;$('#c').textContent=c;if(c<=0){clearInterval(iv);$('#t').textContent='Your download link is ready';const a=$('#dl');a.href='/api/dl?id='+id+'&t='+encodeURIComponent(tk||'');a.rel='nofollow';a.style.visibility='visible';$('#ring').style.display='none'}},1000)})()}
 /* Pro promo bar: dismiss for 14 days */
 (()=>{const x=$('.fsp-promo-x');x&&(x.onclick=()=>{document.documentElement.classList.add('nopromo');try{localStorage.setItem('fsp-promo-x',Date.now()+14*864e5)}catch(e){}})})();

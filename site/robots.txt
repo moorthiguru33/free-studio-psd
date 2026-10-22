@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /download/
+Disallow: /api/
 Disallow: /search/
 Disallow: /_tpl/
 Allow: /

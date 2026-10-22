@@ -63,6 +63,6 @@ if not os.path.exists('indexnow.key'): open('indexnow.key','w').write(secrets.to
 IK=open('indexnow.key').read().strip(); open(f'{S}/{IK}.txt','w').write(IK)
 shutil.copy('ads.txt',f'{S}/ads.txt') if os.path.exists('ads.txt') else open(f'{S}/ads.txt','w').write('# ads.txt placeholder – replace with your real lines, e.g.\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n')
 shutil.copy('ads.json',f'{S}/ads.json')
-open(f'{S}/robots.txt','w').write(f'User-agent: *\nDisallow: /download/\nDisallow: /search/\nDisallow: /_tpl/\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
+open(f'{S}/robots.txt','w').write(f'User-agent: *\nDisallow: /download/\nDisallow: /api/\nDisallow: /search/\nDisallow: /_tpl/\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
 open(f'{S}/_headers','w').write('/img/*\n  Cache-Control: public, max-age=31536000, immutable\n/fonts/*\n  Cache-Control: public, max-age=31536000, immutable\n/css/*\n  Cache-Control: public, max-age=31536000, immutable\n/data/*\n  Cache-Control: public, max-age=3600\n/download/*\n  X-Robots-Tag: noindex\nhttps://freestudiopsd.pages.dev/*\n  X-Robots-Tag: noindex\nhttps://:hash.freestudiopsd.pages.dev/*\n  X-Robots-Tag: noindex\n')
 print('designs',len(out),'tags',len(TOK),'cats',len(CATS),'urls',len(urls),'files',sum(len(f) for _,_,f in os.walk(S)))

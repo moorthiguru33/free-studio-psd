@@ -92,12 +92,31 @@ if not os.environ.get('FSP_NOUPLOAD'): subprocess.run(['python3','r2sync.py'])
 # point image URLs at the R2 custom domain + preconnect hint
 if IMG:
   _pc=f'<link rel="preconnect" href="{IMG}">'
+  # Google AdSense (Auto ads) loader, async at the end of <head> so it never competes with the LCP preloads
+  _ADS='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9817687198003924" crossorigin="anonymous"></script>'
   for _a,_,_fs in os.walk(S):
     for _f in _fs:
       if not _f.endswith(('.html','.xml','.json')): continue
       _p=os.path.join(_a,_f); _s=open(_p,encoding='utf-8').read(); _o=_s
       _s=_s.replace(SITE+'/img/',IMG+'/img/').replace(SITE+'ZZIMGZZ','ZZIMGZZ').replace(SITE+'ZZZMZZ','ZZZMZZ').replace('="/img/','="'+IMG+'/img/').replace('"img":"/img/','"img":"'+IMG+'/img/').replace('"zm":"/img/','"zm":"'+IMG+'/img/')
       if _f.endswith('.html') and _pc not in _s: _s=_s.replace('<meta charset="utf-8">','<meta charset="utf-8">'+_pc,1)
+      if _f.endswith('.html') and _ADS not in _s and '</head>' in _s: _s=_s.replace('</head>',_ADS+'</head>',1)
       if _s!=_o: open(_p,'w',encoding='utf-8').write(_s)
 shutil.copy('site_routes.json',S+'/_routes.json')
+# downloads: never publish raw Drive file ids; shards carry 'k' (fid XOR HMAC-SHA512 keystream), decoded only by functions/api/dl.js
+import hmac as _hm,base64 as _b64
+_DK=open('/home/box/.secrets/fsp_dl_key').read().strip().encode()
+def _enc(i,f):
+  ks=_hm.new(_DK,f'fid:{i}'.encode(),'sha512').digest(); b=f.encode(); assert len(b)<=64
+  return _b64.urlsafe_b64encode(bytes(x^y for x,y in zip(b,ks))).decode().rstrip('=')
+for _f in glob.glob(S+'/data/shard-*.json'):
+  _L=json.load(open(_f))
+  for _d in _L:
+    if 'fid' in _d: _d['k']=_enc(_d['id'],_d.pop('fid'))
+  json.dump(_L,open(_f,'w'),separators=(',',':'))
+
+# LCP: inline the stylesheet on the home page (removes one render-blocking round trip before the hero thumbnails paint)
+_hp=S+'/index.html'; _h=open(_hp,encoding='utf-8').read(); _m=re.search(r'<link rel="stylesheet" href="/css/site\.css\?v=[^"]*">',_h)
+if _m: open(_hp,'w',encoding='utf-8').write(_h.replace(_m.group(0),'<style>'+open(S+'/css/site.css',encoding='utf-8').read().replace('</style','<\\/style')+'</style>',1))
+
 print('FILES',sum(len(f) for _,_,f in os.walk(S)),'MEDIA MB',sum(os.path.getsize(os.path.join(a,f)) for a,_,fs in os.walk(M) for f in fs)//2**20)
