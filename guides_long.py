@@ -240,7 +240,7 @@ LONG={
 "Templates handle the layout; your selection, story and attention to detail are what clients pay for."]),
 }
 import glob as _g
-for _f in sorted(_g.glob('guides_x*.py')): exec(open(_f).read())
+for _f in sorted(_g.glob('guides_[xy]*.py')): exec(open(_f).read())
 def apply_long(BLOG):
   have={s for s,_,_ in BLOG}
   lo=[(s,)+LONG[s] for s in LONG]  # long-form guides first (index, footer, about box)
