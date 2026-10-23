@@ -4,7 +4,7 @@ const IS=d=>d.th?`src="${d.img.replace('/img/','/img/w360/')}" srcset="${d.img.r
 const LS=k=>{try{return JSON.parse(localStorage.getItem(k))||[]}catch(e){return[]}},SS=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
 const lab=d=>LBL[d.c]||(d.cn||'').replace(/ PSD$/,'');
 const C=(d,t=true)=>`<a class="design-card" href="/psd/${d.slug}/"><div class="card-thumb"><div class="wm-container"><img loading="lazy" decoding="async" ${IS(d)} alt="${esc(d.t)}" width="${d.w}" height="${d.h}"></div><div class="card-overlay" aria-hidden="true"><span class="fsp-pill">⬇ Free PSD</span></div><div class="card-cat">${esc(lab(d))}</div><button class="card-fav" type="button" data-id="${d.id}" aria-label="Save to favourites">♥</button></div>${t?`<div class="pm-rel-t">${esc(d.t)}</div>`:''}</a>`;
-const ADH=s=>`<div class="ad ad-${s}" data-slot="${s}"><span class="adl">Advertisement</span><div class="adc"></div></div>`;
+const ADH=s=>window.FSP_INFEED?`<div class="ad ad-${s}" data-slot="${s}"><span class="adl">Advertisement</span><div class="adc"></div></div>`:'';
 const G=(list,t=true)=>list.map((d,i)=>C(d,t)+((i+1)%12===0&&i+1<list.length?ADH('infeed'):'')).join('');
 /* theme (light default / dark), same behaviour as the reference UI */
 (()=>{const K='fsp-theme',r=document.documentElement;const ap=t=>{if(t!=='dark'&&t!=='light')t='light';r.setAttribute('data-theme',t);try{localStorage.setItem(K,t)}catch(e){}$$('.theme-toggle').forEach(b=>{b.setAttribute('aria-label',t==='dark'?'Switch to light theme':'Switch to dark theme');b.title=t==='dark'?'Light theme':'Dark theme'})};
@@ -21,7 +21,7 @@ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest
 /* ads: config from /ads.json, lazy via IntersectionObserver; nothing loads until a slot nears the viewport */
 const ads=(()=>{let cfg=null,io=null,loaded=false;const mob=()=>matchMedia('(max-width:720px)').matches;
  const head=()=>{if(loaded)return;loaded=true;(cfg.head_scripts||[]).forEach(src=>{if(!src||/X{6,}/.test(src))return;const s=document.createElement('script');s.async=true;s.src=src;s.crossOrigin='anonymous';document.head.appendChild(s)})};
- const fill=el=>{if(el.dataset.done)return;el.dataset.done=1;const k=el.dataset.slot,h=(cfg.slots||{})[k]||'';const c=el.querySelector('.adc');
+ const fill=el=>{if(el.dataset.done)return;el.dataset.done=1;const k=el.dataset.slot;let h=(cfg.slots||{})[k]||'';if(typeof h==='object')h=(matchMedia('(min-width:768px)').matches?h.d:h.m)||'';const c=el.querySelector('.adc');
   if(cfg.enabled&&h){head();el.classList.remove('ph');c.innerHTML=h;c.querySelectorAll('script').forEach(o=>{const s=document.createElement('script');[...o.attributes].forEach(a=>s.setAttribute(a.name,a.value));s.text=o.text;o.replaceWith(s)});if(c.querySelector('ins.adsbygoogle'))try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}}
   else if(cfg.enabled&&cfg.show_placeholders){el.classList.add('ph');c.textContent=(cfg.labels||{})[k]||'Ad space'}else{el.classList.add('off')}};
  const scan=()=>{if(!cfg)return;$$('.ad[data-slot]:not([data-obs])').forEach(el=>{el.dataset.obs=1;if(io)io.observe(el);else fill(el)})};

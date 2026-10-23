@@ -1,17 +1,20 @@
 {
-  "enabled": false,
+  "enabled": true,
   "show_placeholders": false,
-  "_help": "1) Paste your AdSense loader (or other network loader) into head_scripts. 2) Paste each ad unit's HTML into its slot. 3) Set enabled to true and redeploy (copy this file to site/ads.json or run gen.py). Slots with no code collapse when enabled; set show_placeholders false to hide the labelled boxes before codes exist. Every slot is lazy-loaded when it nears the viewport and always shows an 'Advertisement' label. AdSense loader (ca-pub-9817687198003924, Auto ads) is injected into every page <head> by gen.py, so head_scripts stays empty to avoid loading it twice. Paste unit HTML into a slot once data-ad-slot IDs exist. Keep enabled=false until a slot has real unit HTML (empty enabled slots collapse after load and cause layout shift); Auto ads run from the head loader regardless.",
+  "_help": "1) Paste your AdSense loader (or other network loader) into head_scripts. 2) Paste each ad unit's HTML into its slot. 3) Set enabled to true and redeploy (copy this file to site/ads.json or run gen.py). Slots with no code collapse when enabled; set show_placeholders false to hide the labelled boxes before codes exist. Every slot is lazy-loaded when it nears the viewport and always shows an 'Advertisement' label. AdSense loader (ca-pub-9817687198003924, Auto ads) is injected into every page <head> by gen.py, so head_scripts stays empty to avoid loading it twice. Paste unit HTML into a slot once data-ad-slot IDs exist. Keep enabled=false until a slot has real unit HTML (empty enabled slots collapse after load and cause layout shift); Auto ads run from the head loader regardless. Adsterra: slot value may be a string or {\"d\":desktop>=768px,\"m\":mobile}. Iframe banners are wrapped in their own srcdoc iframe so the global atOptions never conflicts. Empty slots render no markup.",
   "head_scripts": [],
   "slots": {
-    "leaderboard": "",
+    "leaderboard": {
+      "d": "<iframe class=\"adx\" title=\"Advertisement\" width=\"728\" height=\"90\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;d6b9c9a64e2fc5850cb61a945e292d8a&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:90,&quot;width&quot;:728,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/d6b9c9a64e2fc5850cb61a945e292d8a/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
+      "m": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>"
+    },
     "infeed": "",
     "sidebar": "",
     "anchor": "",
-    "incontent": "",
-    "countdown_top": "",
-    "countdown_mid": "",
-    "countdown_bottom": "",
+    "incontent": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl31982045.profitableratecpmnetwork.com/99cd769fe9400df45c7ec5aef8f68204/invoke.js\"></script><div id=\"container-99cd769fe9400df45c7ec5aef8f68204\"></div><div style=\"height:12px\"></div><iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
+    "countdown_top": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
+    "countdown_mid": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl31982045.profitableratecpmnetwork.com/99cd769fe9400df45c7ec5aef8f68204/invoke.js\"></script><div id=\"container-99cd769fe9400df45c7ec5aef8f68204\"></div>",
+    "countdown_bottom": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
     "inarticle": ""
   },
   "labels": {
@@ -36,5 +39,7 @@
     "countdown_bottom": "/download/ below the similar-designs grid",
     "inarticle": "blog posts, after paragraph 2 and at the end of the article"
   },
-  "client": "ca-pub-9817687198003924"
+  "client": "ca-pub-9817687198003924",
+  "social_bar": "https://pl31982046.profitableratecpmnetwork.com/98/cd/f4/98cdf4749f307e5c376f4fbfde164332.js",
+  "network": "adsterra site 6144458"
 }

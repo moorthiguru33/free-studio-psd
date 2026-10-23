@@ -56,7 +56,7 @@ def page(path,title,desc,body,ld=None,img=None,noindex=False,head='',canon=None,
 {('<div class="fsp-lb">'+AD('leaderboard')+'</div>') if (lb and ADON) else ''}
 {body}
 {footer()}
-{mbn(path)}<script src="/app.js?v={APPV}" defer></script>{BEACON}</body></html>"""
+{mbn(path)}<script src="/app.js?v={APPV}" defer></script>{BEACON}{SOCIALBAR}</body></html>"""
   os.makedirs(S+path,exist_ok=True); open(S+path+'index.html','w').write(h)
 urls=[]
 def P(path,*a,**k):
@@ -74,9 +74,11 @@ open(f'{S}/app.js','w').write(APP)
 def lite(items,path):
   json.dump([{k:x[k] for k in ('id','slug','t','img','c','cn','sz','mb','q','g','w','h','th') if k in x} for x in items],open(S+path,'w'),separators=(',',':'))
 SLOTS=['leaderboard','infeed','sidebar','anchor','incontent','countdown_top','countdown_mid','countdown_bottom','inarticle']
+SOCIALBAR=('<script>(function(){var d=0;function g(){if(d)return;d=1;var s=document.createElement("script");s.src="'+ADCFG['social_bar']+'";document.body.appendChild(s)}["scroll","pointerdown","keydown","touchstart"].forEach(function(e){addEventListener(e,g,{once:true,passive:true})});setTimeout(g,3000)})();</script>') if (ADON and ADCFG.get('social_bar')) else ''
 def AD(n):
   if not ADON: return ''
   s=n if n in SLOTS else 'incontent'
+  if not (ADCFG.get('slots') or {}).get(s): return ''  # no code -> no empty box (avoids CLS)
   return f'<div class="ad ad-{s}" data-slot="{s}"><span class="adl">Advertisement</span><div class="adc"></div></div>'
 def LAY(main):
   if not ADON: return f'<div class="fsp-lay fsp-noads"><div class="fsp-lmain">{main}</div></div>'
