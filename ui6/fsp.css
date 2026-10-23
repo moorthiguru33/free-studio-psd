@@ -78,3 +78,5 @@ footer,.pm-about,.fsp-rv,.fsp-faq,.spg-related,.fsp-hubsec{content-visibility:au
 #thf .th-dlbtn:hover{background:#15803d}
 #thf .th-dlnote{display:block;font-size:.85rem;opacity:.8;margin-top:6px}
 @media(max-width:640px){#thf .th-dlbtn{display:flex;width:100%;box-sizing:border-box}}
+
+.ad-sidebar .adc{min-height:250px!important;flex-direction:column;border:0;background:none}.fsp-sb{border:0;background:none;box-shadow:none;outline:0}.fsp-sb:empty,.fsp-sb:not(:has(.ad:not(.off))){display:none}.fsp-lay:has(.fsp-sb:empty){display:block}@media(max-height:719px){.fsp-sb .sb2{display:none}}
