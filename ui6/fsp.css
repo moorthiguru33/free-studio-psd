@@ -71,3 +71,4 @@ footer,.pm-about,.fsp-rv,.fsp-faq,.spg-related,.fsp-hubsec{content-visibility:au
 #designs-grid{content-visibility:auto;contain-intrinsic-size:auto 2400px}
 
 .fsp-lb .adc{min-height:250px}@media(min-width:768px){.fsp-lb .adc{min-height:90px}}.ad-countdown_top .adc{min-height:250px!important}.ad-incontent .adc{min-height:512px;flex-direction:column}.ad .adc iframe{max-width:100%}
+.fsp-th-top .adc{min-height:250px!important}@media(min-width:768px){.fsp-th-top .adc{min-height:90px!important}}

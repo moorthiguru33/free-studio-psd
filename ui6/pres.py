@@ -73,7 +73,7 @@ APP=open('ui6/app.js').read(); APPV=str(abs(hash(APP))%10**8)
 open(f'{S}/app.js','w').write(APP)
 def lite(items,path):
   json.dump([{k:x[k] for k in ('id','slug','t','img','c','cn','sz','mb','q','g','w','h','th') if k in x} for x in items],open(S+path,'w'),separators=(',',':'))
-SLOTS=['leaderboard','infeed','sidebar','anchor','incontent','countdown_top','countdown_mid','countdown_bottom','inarticle']
+SLOTS=['leaderboard','infeed','sidebar','anchor','incontent','countdown_top','countdown_mid','countdown_bottom','inarticle','thanks_top','thanks_mid','thanks_bottom']
 SOCIALBAR=('<script>(function(){var d=0;function g(){if(d)return;d=1;var s=document.createElement("script");s.src="'+ADCFG['social_bar']+'";document.body.appendChild(s)}["scroll","pointerdown","keydown","touchstart"].forEach(function(e){addEventListener(e,g,{once:true,passive:true})});setTimeout(g,3000)})();</script>') if (ADON and ADCFG.get('social_bar')) else ''
 def AD(n):
   if not ADON: return ''

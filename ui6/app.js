@@ -25,7 +25,7 @@ const ads=(()=>{let cfg=null,io=null,loaded=false;const mob=()=>matchMedia('(max
   if(cfg.enabled&&h){head();el.classList.remove('ph');c.innerHTML=h;c.querySelectorAll('script').forEach(o=>{const s=document.createElement('script');[...o.attributes].forEach(a=>s.setAttribute(a.name,a.value));s.text=o.text;o.replaceWith(s)});if(c.querySelector('ins.adsbygoogle'))try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}}
   else if(cfg.enabled&&cfg.show_placeholders){el.classList.add('ph');c.textContent=(cfg.labels||{})[k]||'Ad space'}else{el.classList.add('off')}};
  const scan=()=>{if(!cfg)return;$$('.ad[data-slot]:not([data-obs])').forEach(el=>{el.dataset.obs=1;if(io)io.observe(el);else fill(el)})};
- const anchor=()=>{if(!mob()||sessionStorage.getItem('fsp_anc_x')||$('#dlbox'))return;const k='anchor',h=(cfg.slots||{})[k];if(!cfg.enabled||(!h&&!cfg.show_placeholders))return;
+ const anchor=()=>{if(!mob()||sessionStorage.getItem('fsp_anc_x')||$('#dlbox')||$('#thbox'))return;const k='anchor',h=(cfg.slots||{})[k];if(!cfg.enabled||(!h&&!cfg.show_placeholders))return;
   const a=document.createElement('div');a.className='anc ad';a.dataset.slot=k;a.setAttribute('role','complementary');a.setAttribute('aria-label','Advertisement');a.innerHTML='<span class="adl">Advertisement</span><div class="adc"></div><button class="x" type="button" aria-label="Close ad">×</button>';document.body.appendChild(a);document.body.classList.add('hasanc');a.querySelector('.x').onclick=()=>{a.remove();document.body.classList.remove('hasanc');sessionStorage.setItem('fsp_anc_x',1)};fill(a);
   /* never let the anchor overlap a download button: hide it while any download button is near the screen */
   const vis=new Set();if('IntersectionObserver'in window){const bo=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?vis.add(e.target):vis.delete(e.target));a.style.visibility=vis.size?'hidden':''},{rootMargin:'0px 0px 160px 0px'});$$('.dlb,.spg-dl-btn').forEach(b=>bo.observe(b))}};
@@ -70,6 +70,11 @@ if(D){(async()=>{const id=+new URLSearchParams(location.search).get('id');const 
  const rel=$('#dlrel');if(rel){rel.innerHTML=sh.filter(x=>x.c===d.c&&x.id!==d.id).slice(0,12).map(x=>C(x)).join('');paintH()}
  let tk=null,lim=null;try{const r=await fetch('/api/dl?s=1&id='+id,{credentials:'same-origin'});const j=await r.json();if(j.limit)lim=j.msg;else tk=j.t}catch(e){}
  if(lim){$('#t').textContent=lim;$('#ring').style.display='none';$('#c').textContent='';return}
- let c=10;const iv=setInterval(()=>{c--;$('#c').textContent=c;if(c<=0){clearInterval(iv);$('#t').textContent='Your download link is ready';const a=$('#dl');a.href='/api/dl?id='+id+'&t='+encodeURIComponent(tk||'');a.rel='nofollow';a.style.visibility='visible';$('#ring').style.display='none'}},1000)})()}
+ let c=10;const iv=setInterval(()=>{c--;$('#c').textContent=c;if(c<=0){clearInterval(iv);$('#t').textContent='Your download link is ready';const a=$('#dl');a.href='/thanks/?id='+id+'&t='+encodeURIComponent(tk||'');a.rel='nofollow';a.removeAttribute('target');a.style.visibility='visible';$('#ring').style.display='none'}},1000)})()}
+const TH=$('#thbox');
+if(TH){(async()=>{const q=new URLSearchParams(location.search),id=+q.get('id'),tk=q.get('t')||'';const u='/api/dl?id='+id+'&t='+encodeURIComponent(tk);
+ if(!id||!tk){$('#tht').textContent='Download link expired';$('#thm').innerHTML='Please <a href="/">start again from the design page</a>.';return}
+ $('#thl').href=u;setTimeout(()=>{$('#thif').src=u},2000);setTimeout(()=>{$('#thf').hidden=false},6000);
+ const s=Math.floor((id-1)/200);try{const sh=await (await fetch('/data/shard-'+s+'.json')).json(),d=sh.find(x=>x.id===id);if(d){$('#thback').href='/psd/'+d.slug+'/';$('#thback').textContent='← Back to '+d.t;$('#threl').innerHTML=sh.filter(x=>x.c===d.c&&x.id!==d.id).slice(0,12).map(x=>C(x)).join('');paintH()}}catch(e){}})()}
 /* Pro promo bar: dismiss for 14 days */
 (()=>{const x=$('.fsp-promo-x');x&&(x.onclick=()=>{document.documentElement.classList.add('nopromo');try{localStorage.setItem('fsp-promo-x',Date.now()+14*864e5)}catch(e){}})})();

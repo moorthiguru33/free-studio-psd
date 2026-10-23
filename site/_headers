@@ -8,6 +8,8 @@
   Cache-Control: public, max-age=3600
 /download/*
   X-Robots-Tag: noindex
+/thanks/*
+  X-Robots-Tag: noindex
 https://freestudiopsd.pages.dev/*
   X-Robots-Tag: noindex
 https://:hash.freestudiopsd.pages.dev/*

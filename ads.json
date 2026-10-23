@@ -15,7 +15,13 @@
     "countdown_top": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
     "countdown_mid": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl31982045.profitableratecpmnetwork.com/99cd769fe9400df45c7ec5aef8f68204/invoke.js\"></script><div id=\"container-99cd769fe9400df45c7ec5aef8f68204\"></div>",
     "countdown_bottom": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
-    "inarticle": ""
+    "inarticle": "",
+    "thanks_top": {
+      "d": "<iframe class=\"adx\" title=\"Advertisement\" width=\"728\" height=\"90\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;d6b9c9a64e2fc5850cb61a945e292d8a&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:90,&quot;width&quot;:728,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/d6b9c9a64e2fc5850cb61a945e292d8a/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>",
+      "m": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>"
+    },
+    "thanks_mid": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl31982045.profitableratecpmnetwork.com/99cd769fe9400df45c7ec5aef8f68204/invoke.js\"></script><div id=\"container-99cd769fe9400df45c7ec5aef8f68204\"></div>",
+    "thanks_bottom": "<iframe class=\"adx\" title=\"Advertisement\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" loading=\"lazy\" style=\"border:0;max-width:100%;display:block;margin:0 auto\" srcdoc=\"&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;html,body{margin:0;padding:0;overflow:hidden;background:transparent}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;script&gt;atOptions={&quot;key&quot;:&quot;bb2626013fba6ebe327d0ef66dc0ca94&quot;,&quot;format&quot;:&quot;iframe&quot;,&quot;height&quot;:250,&quot;width&quot;:300,&quot;params&quot;:{}};&lt;/script&gt;&lt;script src=&quot;https://www.highrevenueformat.com/bb2626013fba6ebe327d0ef66dc0ca94/invoke.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;\"></iframe>"
   },
   "labels": {
     "leaderboard": "Header leaderboard · 728×90 / responsive",
@@ -26,7 +32,10 @@
     "countdown_top": "Download page · top",
     "countdown_mid": "Download page · middle",
     "countdown_bottom": "Download page · bottom",
-    "inarticle": "In-article · responsive"
+    "inarticle": "In-article · responsive",
+    "thanks_top": "Thanks page · top 728x90 desktop / 300x250 mobile",
+    "thanks_mid": "Thanks page · native",
+    "thanks_bottom": "Thanks page · 300x250"
   },
   "_slot_map": {
     "leaderboard": "below the header on every page except /download/",
@@ -37,7 +46,10 @@
     "countdown_top": "/download/ below the title, above the countdown card",
     "countdown_mid": "/download/ below the countdown card (separated from the Drive button)",
     "countdown_bottom": "/download/ below the similar-designs grid",
-    "inarticle": "blog posts, after paragraph 2 and at the end of the article"
+    "inarticle": "blog posts, after paragraph 2 and at the end of the article",
+    "thanks_top": "/thanks/ below the title",
+    "thanks_mid": "/thanks/ below the download status card",
+    "thanks_bottom": "/thanks/ below the related grid"
   },
   "client": "ca-pub-9817687198003924",
   "social_bar": "https://pl31982046.profitableratecpmnetwork.com/98/cd/f4/98cdf4749f307e5c376f4fbfde164332.js",
