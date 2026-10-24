@@ -26,7 +26,7 @@ function payload(t){switch(t){case 'url':{const u=g('qurl');return u&&!/^[a-z][\
  case 'event':return g('qsum')?['BEGIN:VEVENT','SUMMARY:'+ve(g('qsum')),g('qstart')&&'DTSTART:'+dt(g('qstart')),g('qend')&&'DTEND:'+dt(g('qend')),g('qloc')&&'LOCATION:'+ve(g('qloc')),g('qbody')&&'DESCRIPTION:'+ve(v('qbody')),'END:VEVENT'].filter(Boolean).join('\n'):'';
  case 'bitcoin':{if(!g('qbtc'))return '';const q=[g('qamt')&&'amount='+g('qamt'),g('qlbl')&&'label='+encodeURIComponent(g('qlbl'))].filter(Boolean).join('&');return `bitcoin:${g('qbtc')}${q?'?'+q:''}`;}
  case 'social':return g('quser')?SOC[v('qsoc')].replace('{u}',encodeURIComponent(g('quser').replace(/^@/,''))):'';}}
-TOOLS.qr={goLabel:()=>T.o_qcreate,
+TOOLS.qr={live:true,goLabel:()=>T.o_qcreate,
  opts(){const t=this.vars.type||'url';return `${this.vars.type?'':sel('qtype',T.o_qtype,QT.map(k=>[k,T['qt_'+k]||k]))}<div id="qf" style="display:contents">${fields(t)}</div>`+
   `<label>${esc(T.o_qfg)}<input id="qfg" type="color" value="#000000"></label><label>${esc(T.o_bg)}<input id="qbg" type="color" value="#ffffff"></label>`+
   sel('qstyle',T.o_qstyle,[['square',T.o_qsquare],['rounded',T.o_qrounded],['dots',T.o_qdots]])+sel('qecc',T.o_qecc,[['M','M (15%)'],['Q','Q (25%)'],['H','H (30%)'],['L','L (7%)']])+
@@ -62,6 +62,6 @@ TOOLS.qr={goLabel:()=>T.o_qcreate,
   return new Blob([await d.save()],{type:'application/pdf'});},
  preview(el){const t=payload(this.type());const pc=$('#qprev',el);const x=pc.getContext('2d');if(!t){x.fillStyle='#f3f4f6';x.fillRect(0,0,300,300);$('#qinfo',el).textContent=T.o_qempty;return;}
   try{const {c,m}=this.drawCanvas(t,300);x.drawImage(c,0,0);$('#qinfo',el).textContent=`${m.n}×${m.n} · ${new TextEncoder().encode(t).length} bytes`;}catch(e){$('#qinfo',el).textContent=T.o_qtoolong;}},
- async run(){const t=payload(this.type());if(!t)throw new Error(T.o_qempty);
+ async run(){const t=payload(this.type());if(!t)throw Object.assign(new Error(T.o_qempty),{soft:true});
   let r;try{r=this.drawCanvas(t,Math.max(128,Math.min(4000,+v('qsize')||1000)));}catch(e){throw new Error(T.o_qtoolong);}
   const base='qr-'+this.type();return {name:base+'.png',blob:await toBlob(r.c,'image/png'),extra:[{name:base+'.svg',label:'SVG',blob:new Blob([this.svg(t)],{type:'image/svg+xml'})},{name:base+'.pdf',label:'PDF',blob:await this.pdf(t)}],view:`<details><summary>${esc(T.o_qcontent)}</summary><pre style="white-space:pre-wrap;word-break:break-all">${esc(t)}</pre></details>`};}};

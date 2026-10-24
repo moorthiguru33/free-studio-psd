@@ -26,6 +26,7 @@
     "jsbarcode": "^3.12.3",
     "jsqr": "^1.4.0",
     "jszip": "^3.10.1",
+    "lamejs": "^1.2.1",
     "mammoth": "^1.13.0",
     "marked": "^18.1.1",
     "mediabunny": "^1.62.1",

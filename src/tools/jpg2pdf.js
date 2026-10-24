@@ -1,7 +1,14 @@
-TOOLS.jpg2pdf={opts:()=>sel('psize',T.o_pagesize,[['fit',T.o_fit],['a4','A4'],['letter','US Letter']])+sel('margin',T.o_margin,[['0','0'],['20','20 pt'],['40','40 pt']]),
-  async run(files){const {PDFDocument}=await L.pdflib();const d=await PDFDocument.create();const ps=v('psize'),mg=+v('margin');
-   for(const f of files){let bytes=new Uint8Array(await buf(f)),img;const isPng=bytes[0]===0x89&&bytes[1]===0x50,isJpg=bytes[0]===0xFF&&bytes[1]===0xD8;
-    if(isJpg)img=await d.embedJpg(bytes);else if(isPng)img=await d.embedPng(bytes);else{const bm=await createImageBitmap(f);const c=document.createElement('canvas');c.width=bm.width;c.height=bm.height;const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(bm,0,0);img=await d.embedJpg(new Uint8Array(await (await toBlob(c,'image/jpeg',.92)).arrayBuffer()));}
-    let W,H;if(ps==='fit'){W=img.width+2*mg;H=img.height+2*mg;}else{[W,H]=ps==='a4'?[595.28,841.89]:[612,792];if(img.width>img.height)[W,H]=[H,W];}
-    const s=Math.min((W-2*mg)/img.width,(H-2*mg)/img.height);const w=img.width*s,h=img.height*s;const p=d.addPage([W,H]);p.drawImage(img,{x:(W-w)/2,y:(H-h)/2,width:w,height:h});}
-   return {blob:pdfBlob(await d.save()),name:(files.length===1?base(files[0].name):'images')+'.pdf'};}};
+// Images -> PDF. Page size A0–A6/Letter/Legal/fit/custom, orientation, margin presets, per-image rotate (f._rot), sort + drag (core)
+const PS={a0:[2383.94,3370.39],a1:[1683.78,2383.94],a2:[1190.55,1683.78],a3:[841.89,1190.55],a4:[595.28,841.89],a5:[419.53,595.28],a6:[297.64,419.53],letter:[612,792],legal:[612,1008]};
+TOOLS.jpg2pdf={rotatable:true,noAdv:true,opts:()=>sel('psize',T.o_pagesize,[['a4','A4'],['fit',T.o_fit],['letter','US Letter'],['legal','US Legal'],['a3','A3'],['a5','A5'],['a6','A6'],['a2','A2'],['a1','A1'],['a0','A0'],['custom',T.o_customSize||'Custom (mm)']])
+  +`<div class="row2" id="pcust" hidden>${inp('pcw',(T.o_width||'Width')+' (mm)','number','210','min="20" max="2000"')}${inp('pch',(T.o_height||'Height')+' (mm)','number','297','min="20" max="2000"')}</div>`
+  +sel('porient',T.o_orient||'Orientation',[['auto',T.o_auto||'Auto'],['portrait',T.o_portrait||'Portrait'],['landscape',T.o_landscape||'Landscape']])
+  +sel('margin',T.o_margin,[['20',(T.o_mSmall||'Small')+' (20 pt)'],['0',T.o_mNone||'No margin'],['40',(T.o_mBig||'Big')+' (40 pt)']]),
+  setup(){const s=$('#psize',work),c=$('#pcust',work);const f=()=>{c.hidden=s.value!=='custom';$('#porient',work).closest('label').hidden=s.value==='fit';};s.addEventListener('change',f);f();},
+  async run(files,status){const {PDFDocument,degrees}=await L.pdflib();const d=await PDFDocument.create();const ps=v('psize'),mg=+v('margin'),or=v('porient');let k=0;
+   for(const f of files){status(`${T.working} ${++k}/${files.length}`);const rot=(f._rot||0)%360;let bytes=new Uint8Array(await buf(f)),img;const isPng=bytes[0]===0x89&&bytes[1]===0x50,isJpg=bytes[0]===0xFF&&bytes[1]===0xD8;
+    if(isJpg&&!rot)img=await d.embedJpg(bytes);else if(isPng&&!rot)img=await d.embedPng(bytes);else{const bm=await createImageBitmap(f);const sw=rot%180?bm.height:bm.width,sh=rot%180?bm.width:bm.height;const c=document.createElement('canvas');c.width=sw;c.height=sh;const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,sw,sh);x.translate(sw/2,sh/2);x.rotate(rot*Math.PI/180);x.drawImage(bm,-bm.width/2,-bm.height/2);
+     img=isPng?await d.embedPng(new Uint8Array(await (await toBlob(c,'image/png')).arrayBuffer())):await d.embedJpg(new Uint8Array(await (await toBlob(c,'image/jpeg',.92)).arrayBuffer()));c.width=c.height=0;}
+    let W,H;if(ps==='fit'){W=img.width+2*mg;H=img.height+2*mg;}else{[W,H]=ps==='custom'?[(+v('pcw')||210)*72/25.4,(+v('pch')||297)*72/25.4]:PS[ps]||PS.a4;const land=or==='landscape'||(or==='auto'&&img.width>img.height);if(land!==(W>H))[W,H]=[H,W];}
+    const s=Math.min((W-2*mg)/img.width,(H-2*mg)/img.height,ps==='fit'?1:Infinity);const w=img.width*s,h=img.height*s;const p=d.addPage([W,H]);p.drawImage(img,{x:(W-w)/2,y:(H-h)/2,width:w,height:h});}
+   return {blob:pdfBlob(await d.save()),name:(files.length===1?base(files[0].name):'images')+'.pdf',info:files.length+' '+(T.pagesN||'pages')};}};

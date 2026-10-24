@@ -1,7 +1,7 @@
 // Password generator (crypto.getRandomValues, unbiased) – nothing leaves the device
 const CS={lower:'abcdefghijklmnopqrstuvwxyz',upper:'ABCDEFGHIJKLMNOPQRSTUVWXYZ',digits:'0123456789',symbols:'!@#$%^&*()-_=+[]{};:,.?/~'};
 const rnd=n=>{const lim=Math.floor(4294967296/n)*n;const a=new Uint32Array(1);do crypto.getRandomValues(a);while(a[0]>=lim);return a[0]%n;};
-TOOLS.passgen={goLabel:()=>T.o_pgDownload,
+TOOLS.passgen={live:true,goLabel:()=>T.o_pgDownload,
  opts:()=>inp('pglen',T.o_pgLength,'number','16','min="4" max="128"')+inp('pgcount',T.o_pgCount,'number','5','min="1" max="100"')+chk('pglower','a-z',true)+chk('pgupper','A-Z',true)+chk('pgdigits','0-9',true)+chk('pgsym','!@#$…',true)+chk('pgsim',T.o_pgSimilar,true),
  gen(){let pools=[['pglower','lower'],['pgupper','upper'],['pgdigits','digits'],['pgsym','symbols']].filter(([id])=>vb(id)).map(([,k])=>CS[k]);if(vb('pgsim'))pools=pools.map(p=>p.replace(/[Il1O0o|]/g,''));if(!pools.length)throw new Error(T.o_pgNone);
   const len=Math.max(4,Math.min(128,+v('pglen')||16));const all=pools.join('');const one=()=>{const c=pools.map(p=>p[rnd(p.length)]);while(c.length<len)c.push(all[rnd(all.length)]);for(let i=c.length-1;i>0;i--){const j=rnd(i+1);[c[i],c[j]]=[c[j],c[i]];}return c.slice(0,len).join('');};

@@ -1,7 +1,7 @@
 // Barcode generator (JsBarcode, MIT): CODE128, EAN-13/8, UPC, CODE39, ITF-14, Codabar, MSI, Pharmacode -> PNG + SVG
 const BF=[['CODE128','Code 128'],['EAN13','EAN-13'],['EAN8','EAN-8'],['UPC','UPC-A'],['CODE39','Code 39'],['ITF14','ITF-14'],['codabar','Codabar'],['MSI','MSI'],['pharmacode','Pharmacode']];
 const BX={CODE128:'FreePDF-12345',EAN13:'590123412345',EAN8:'9638507',UPC:'03600029145',CODE39:'ABC-123',ITF14:'1540014128876',codabar:'A12345B',MSI:'1234567',pharmacode:'1234'};
-TOOLS.barcode={goLabel:()=>T.o_bcreate,
+TOOLS.barcode={live:true,goLabel:()=>T.o_bcreate,
  opts(){const f=this.vars.format||'CODE128';return sel('bfmt',T.o_bformat,BF.slice().sort((a,b)=>(b[0]===f)-(a[0]===f)))+inp('bval',T.o_bvalue,'text',BX[f])+inp('bw',T.o_bbar,'number','2','min="1" max="6"')+inp('bh',T.o_bheight,'number','100','min="20" max="400"')+
   `<label>${esc(T.o_qfg)}<input id="bfg" type="color" value="#000000"></label><label>${esc(T.o_bg)}<input id="bbg" type="color" value="#ffffff"></label>`+chk('btxt',T.o_btext,true);},
  async setup(){await load('JsBarcode.all.min.js');const el=document.createElement('div');el.innerHTML=`<div style="text-align:center;overflow:auto"><svg id="bprev"></svg><p class="hint" id="binfo"></p></div>`;

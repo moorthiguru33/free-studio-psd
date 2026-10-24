@@ -21,7 +21,7 @@ const abs=u=>site.baseUrl+u;
 const ver=Date.now().toString(36);
 const write=(u,html)=>{const f=path.join(OUT,u,'index.html');fs.mkdirSync(path.dirname(f),{recursive:true});fs.writeFileSync(f,html);};
 const ad=(id,t)=>`<aside class="ad-slot" data-ad-slot="${id}" aria-label="${esc(t.ui.ad)}"><span>${esc(t.ui.ad)}</span></aside>`;
-function layout({t,lang,slug,title,desc,body,jsonld}){
+function layout({t,lang,slug,title,desc,body,jsonld,cat}){
   const L=langs.find(l=>l.code===lang);
   const alts=enabled.map(l=>`<link rel="alternate" hreflang="${l.code}" href="${abs(url(l.code,slug))}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${abs(url(site.defaultLang,slug))}">`;
   const langSel=enabled.map(l=>`<a href="${url(l.code,slug)}" hreflang="${l.code}" lang="${l.code}"${l.code===lang?' aria-current="true"':''}>${esc(l.name)}</a>`).join('');
@@ -32,21 +32,26 @@ function layout({t,lang,slug,title,desc,body,jsonld}){
 <meta name="theme-color" content="#e5322d"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" href="/assets/style.css?v=${ver}">
 ${jsonld.map(j=>`<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('')}
-</head><body class="${site.adsEnabled?'ads-on':''}">
+</head><body class="${site.adsEnabled?'ads-on':''} ${cat?'cat-'+cat:''}">
 <header class="top"><div class="wrap"><a class="logo" href="${prefix(lang)}">${esc(site.brand)}</a>
 <details class="menu"><summary aria-label="${esc(t.ui.allTools)}">☰ <span class="mt">${esc(t.ui.allTools)}</span></summary><nav class="toolnav">${nav}</nav></details>
 <details class="langs"><summary aria-label="${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details></div></header>
+<nav class="toptools"><div class="wrap">${TOP.map(id=>tools.find(x=>x.id===id)).filter(Boolean).map(x=>`<a class="c-${x.cat}" href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('')}</div></nav>
 <main class="wrap">${body}</main>
 <footer class="foot"><div class="wrap"><nav class="toolnav">${nav}</nav><p>${esc(t.ui.footer)}</p><p>© ${new Date().getFullYear()} ${esc(site.brand)}</p></div></footer>
 </body></html>`;
 }
+const fmtList=a=>{if(!a)return '';const m=a.split(',').map(z=>z.trim()).map(z=>z==='image/*'?'JPG, PNG, WEBP, GIF':z.startsWith('.')?z.slice(1).toUpperCase():z.includes('/')?z.split('/')[1].replace(/^\*$/,'').toUpperCase():z).filter(Boolean);return [...new Set(m.join(', ').split(', '))].join(', ');};
+const FOLLOW={pdf:['compress','merge','split','protect','pagenumbers','pdf2word'],image:['imgcompress','imgresize','jpg2pdf','imgconvert']};
+const nextOf=x=>{const out=x.accept&&/pdf/.test(x.accept)||['jpg2pdf','word2pdf','txt2pdf','invoice','camera2pdf'].includes(x.id)?FOLLOW.pdf:x.cat==='image'?FOLLOW.image:[];return [...out.map(id=>tools.find(y=>y.id===id)).filter(Boolean),...tools.filter(y=>y.cat===x.cat)].filter((y,i,a)=>y.id!==x.id&&a.indexOf(y)===i).slice(0,6);};
+const TOP=['merge','compress','split','pdf2word','jpg2pdf','edit','ocr','qr'];
 const pages=[];
 for(const L of enabled){
   const t=merge(EN,load(L.code));for(const x of tools)t.tools[x.id]=toolText(t,x);const lang=L.code;const V={brand:site.brand};
   // Home
-  const card=x=>`<a class="card" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`;
-  const cats=['organize','edit','convert','optimize','security','image','qr','ai','media','data'];
-  const cards=cats.map(c=>`<h2 class="cat">${esc(t.ui['cat_'+c]||c)}</h2><div class="grid">${tools.filter(x=>x.cat===c).map(card).join('')}</div>`).join('');
+  const card=x=>`<a class="card c-${x.cat}" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`;
+  const cats=['organize','edit','convert','optimize','security','image','qr','ai','media','data','units','more'];
+  const cards=cats.filter(c=>tools.some(x=>x.cat===c)).map(c=>`<h2 class="cat">${esc(t.ui['cat_'+c]||c)}</h2><div class="grid">${tools.filter(x=>x.cat===c).map(card).join('')}</div>`).join('');
   const homeBody=`<section class="hero"><h1>${esc(t.home.h1)}</h1><p class="lead">${esc(t.ui.heroSub)}</p></section>
 <section aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
 <section class="feats"><div><h2>${esc(t.ui.f1t)}</h2><p>${esc(t.ui.f1d)}</p></div><div><h2>${esc(t.ui.f2t)}</h2><p>${esc(t.ui.f2d)}</p></div><div><h2>${esc(t.ui.f3t)}</h2><p>${esc(t.ui.f3d)}</p></div></section>`;
@@ -59,12 +64,14 @@ for(const L of enabled){
     const steps=tt.steps.map(s=>fill(s,v));
     const rel=[...tools.filter(y=>y.id!==x.id&&y.cat===x.cat),...tools.filter(y=>y.cat!==x.cat)].slice(0,14).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
     const body=`<section class="hero small"><h1>${esc(tt.h1)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</h1><p class="lead">${esc(fill(tt.desc,v))}</p></section>
-<section class="tool" id="tool" data-tool="${x.impl||x.id}" data-preset="${x.preset||''}" data-vars="${esc(JSON.stringify(x.vars||{}))}" data-accept="${x.accept||''}" data-multiple="${!!x.multiple}" data-nofile="${!!x.nofile}" data-maxmb="${x.maxmb||''}">
-${x.nofile?'':`<label class="drop"><input type="file" accept="${x.accept}" ${x.multiple?'multiple':''} hidden><span class="btn big">${esc(t.ui.select)}</span><span class="hint">${esc(t.ui.drop)}${x.maxmb?` · max ${x.maxmb} MB`:''}</span></label>`}
-<div class="work" hidden></div><p class="priv">🔒 ${esc(t.ui.privacy)}</p></section>
-${ad('tool-below',t)}
+<section class="tool" id="tool" data-tool="${x.impl||x.id}" data-step="1" data-next="${esc(JSON.stringify(nextOf(x).map(y=>({n:t.tools[y.id].name,u:url(lang,y.slug)}))))}" data-preset="${x.preset||''}" data-vars="${esc(JSON.stringify(x.vars||{}))}" data-accept="${x.accept||''}" data-multiple="${!!x.multiple}" data-nofile="${!!x.nofile}" data-maxmb="${x.maxmb||''}">
+<ol class="stepper"><li class="s1">${esc(t.ui.stepUpload)}</li><li class="s2">${esc(t.ui.stepOptions)}</li><li class="s3">${esc(t.ui.stepDownload)}</li></ol>
+${x.nofile?'':`<label class="drop"><input type="file" accept="${x.accept}" ${x.multiple?'multiple':''} hidden><span class="btn huge">⬆ ${esc(x.multiple?t.ui.selectMany:t.ui.select)}</span><span class="or">${esc(t.ui.orDrop)}</span><span class="fmts">${esc(fmtList(x.accept))}${x.maxmb?` · max ${x.maxmb} MB`:''}</span></label>`}
+<ul class="trust"><li>✓ ${esc(t.ui.tFree)}</li><li>✓ ${esc(t.ui.tNoSign)}</li><li>✓ ${esc(t.ui.tNoLimit)}</li><li>🔒 ${esc(t.ui.tLocal)}</li></ul>
+<div class="work" hidden></div></section>
 <section class="howto"><h2>${esc(t.ui.howTo)}: ${esc(tt.name)}</h2><ol>${steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></section>
 <section class="faq"><h2>${esc(t.ui.faq)}</h2>${faq.map(f=>`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>
+${ad('tool-below',t)}
 <section class="rel"><h2>${esc(t.ui.related)}</h2>${rel}</section>
 <script>window.I18N=${JSON.stringify(t.ui)};</script><script src="/assets/core.js?v=${ver}" defer></script><script src="/assets/t/${x.impl||x.id}.js?v=${ver}" defer></script>`;
     const jsonld=[
@@ -73,7 +80,7 @@ ${ad('tool-below',t)}
       {"@context":"https://schema.org","@type":"FAQPage",inLanguage:lang,mainEntity:faq.map(f=>({"@type":"Question",name:f.q,acceptedAnswer:{"@type":"Answer",text:f.a}}))},
       {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:site.brand,item:abs(prefix(lang))},{"@type":"ListItem",position:2,name:tt.name,item:abs(url(lang,x.slug))}]}
     ];
-    write(url(lang,x.slug),layout({t,lang,slug:x.slug,title:fill(tt.title,v),desc:fill(tt.desc,v),body,jsonld}));
+    write(url(lang,x.slug),layout({t,lang,slug:x.slug,title:fill(tt.title,v),desc:fill(tt.desc,v),body,jsonld,cat:x.cat}));
     if(lang===site.defaultLang)pages.push(x.slug);
   }
 }
@@ -96,9 +103,10 @@ for(const f of fs.readdirSync(R('src/public')))cp('src/public/'+f,f);
 const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js','fontkit.umd.min.js':'node_modules/@cantoo/fontkit/dist/fontkit.umd.min.js',
  'qrcode.js':'node_modules/qrcode-generator/dist/qrcode.js','jsQR.js':'node_modules/jsqr/dist/jsQR.js','JsBarcode.all.min.js':'node_modules/jsbarcode/dist/JsBarcode.all.min.js',
  'marked.umd.js':'node_modules/marked/lib/marked.umd.js','tesseract/tesseract.min.js':'node_modules/tesseract.js/dist/tesseract.min.js','tesseract/worker.min.js':'node_modules/tesseract.js/dist/worker.min.js',
- 'pako.min.js':'node_modules/pako/dist/pako.min.js','UPNG.js':'node_modules/upng-js/UPNG.js','UTIF.js':'node_modules/utif/UTIF.js','heic2any.min.js':'node_modules/heic2any/dist/heic2any.min.js','imagetracer.js':'node_modules/imagetracerjs/imagetracer_v1.2.6.js','face-api.min.js':'node_modules/@vladmandic/face-api/dist/face-api.js','avif_enc.wasm':'node_modules/@jsquash/avif/codec/enc/avif_enc.wasm'};
+ 'pako.min.js':'node_modules/pako/dist/pako.min.js','UPNG.js':'node_modules/upng-js/UPNG.js','UTIF.js':'node_modules/utif/UTIF.js','heic2any.min.js':'node_modules/heic2any/dist/heic2any.min.js','imagetracer.js':'node_modules/imagetracerjs/imagetracer_v1.2.6.js','face-api.min.js':'node_modules/@vladmandic/face-api/dist/face-api.js','lame.min.js':'node_modules/lamejs/lame.min.js','avif_enc.wasm':'node_modules/@jsquash/avif/codec/enc/avif_enc.wasm'};
 const MODELS={'face/tiny_face_detector_model-weights_manifest.json':'node_modules/@vladmandic/face-api/model/tiny_face_detector_model-weights_manifest.json','face/tiny_face_detector_model.bin':'node_modules/@vladmandic/face-api/model/tiny_face_detector_model.bin'};
 for(const k in MODELS)cp(MODELS[k],'models/'+k);
+for(const f of ['ort.wasm.min.js','ort-wasm-simd-threaded.mjs','ort-wasm-simd-threaded.wasm'])cp('node_modules/onnxruntime-web/dist/'+f,'vendor/ort/'+f);
 for(const f of fs.readdirSync(R('node_modules/tesseract.js-core')))if(/lstm\.wasm\.js$/.test(f))cp('node_modules/tesseract.js-core/'+f,'vendor/tesseract/'+f);
 // large model files are fetched by scripts/fetch-models.sh (not in git)
 if(fs.existsSync(R('models')))for(const f of fs.readdirSync(R('models'),{recursive:true}))if(fs.statSync(R('models/'+f)).isFile())cp('models/'+f,'models/'+f);

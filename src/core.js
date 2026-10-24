@@ -56,26 +56,54 @@ function start(){tool=TOOLS[toolId];if(!tool){console.error('tool missing',toolI
    ['dragleave','drop'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.remove('over');}));
    drop.addEventListener('drop',ev=>addFiles(ev.dataTransfer.files));}
   if(nofile)render();}
+const NEXT=(()=>{try{return JSON.parse(root.dataset.next||'[]');}catch(e){return [];}})();
+const setStep=n=>{root.dataset.step=n;};
+const isImg=f=>/^image\/(png|jpe?g|gif|webp|bmp|svg|avif)/.test(f.type);
+async function thumb(f){if(f._thumb!==undefined)return f._thumb;f._thumb=null;try{const dpr=Math.min(2,window.devicePixelRatio||1);
+  if(isImg(f))f._thumb=URL.createObjectURL(f);
+  else if(/pdf$/i.test(f.type)||/\.pdf$/i.test(f.name)){const doc=await openPdfjs(await buf(f));const p=await doc.getPage(1);const vp0=p.getViewport({scale:1});const c=await renderPage(doc,1,(120*dpr)/vp0.width);f._thumb=c.toDataURL('image/jpeg',.85);f._pages=doc.numPages;doc.destroy();}}catch(e){}return f._thumb;}
+const fileIcon=f=>/pdf/i.test(f.name)?'📄':isImg(f)?'🖼':/\.(mp3|wav|m4a|ogg)$/i.test(f.name)?'🎵':/\.(mp4|mov|webm)$/i.test(f.name)?'🎬':'📎';
+function cards(){const many=multiple&&files.length>1;return `<div class="fbar">${many?`<span>${files.length} ${esc(T.filesN||'files')}</span><button type="button" class="mini" data-sort="az">A→Z</button><button type="button" class="mini" data-sort="za">Z→A</button>`:''}</div><ul class="files">${files.map((f,i)=>`<li draggable="${many}" data-i="${i}"><div class="th" style="--rot:${f._rot||0}deg"><span class="fi">${fileIcon(f)}</span></div><span class="nm" title="${esc(f.name)}">${esc(f.name)}</span><small>${fmtSize(f.size)}${f._pages?' · '+f._pages+' '+esc(T.pagesN||'pages'):''}</small><div class="fa">${tool.rotatable?`<button type="button" data-a="rot" data-i="${i}" aria-label="${esc(T.rotate||'Rotate')}">⟳</button>`:''}${many?`<button type="button" data-a="up" data-i="${i}" aria-label="${esc(T.moveUp)}">←</button><button type="button" data-a="down" data-i="${i}" aria-label="${esc(T.moveDown)}">→</button>`:''}<button type="button" data-a="rm" data-i="${i}" aria-label="${esc(T.remove)}">✕</button></div></li>`).join('')}${multiple?`<li class="addtile"><button type="button" id="addmore" aria-label="${esc(T.addMore||T.select)}"><b>+</b><span>${esc(T.addMore||T.select)}</span></button></li>`:''}</ul>`;}
+function fillThumbs(){work.querySelectorAll('.files li[data-i]').forEach(async li=>{const f=files[+li.dataset.i];const u=await thumb(f);if(u&&li.isConnected){const th=$('.th',li);th.innerHTML=`<img src="${u}" alt="">`;}const s=$('small',li);if(f._pages&&s&&!/·/.test(s.textContent))s.textContent+=` · ${f._pages} ${T.pagesN||'pages'}`;});}
+function advWrap(){const o=$('.opts',work);if(!o||tool.noAdv)return;const ls=[...o.children].filter(e=>e.tagName==='LABEL');if(ls.length<=3)return;const d=document.createElement('details');d.className='adv';d.innerHTML=`<summary>${esc(T.advanced||'Advanced (optional)')}</summary><div class="advb"></div>`;ls.slice(2).forEach(l=>$('.advb',d).appendChild(l));o.appendChild(d);}
 async function render(){
-  if(!files.length&&!nofile){work.hidden=true;drop.hidden=false;return;}
-  if(drop)drop.hidden=true;work.hidden=false;
-  work.innerHTML=`${nofile?'':`<ul class="files">${files.map((f,i)=>`<li><span class="nm">📄 ${esc(f.name)}</span><small>${fmtSize(f.size)}</small>${multiple&&files.length>1?`<button type="button" data-a="up" data-i="${i}" aria-label="${esc(T.moveUp)}">↑</button><button type="button" data-a="down" data-i="${i}" aria-label="${esc(T.moveDown)}">↓</button>`:''}<button type="button" data-a="rm" data-i="${i}" aria-label="${esc(T.remove)}">✕</button></li>`).join('')}</ul>`}
-  ${multiple?`<p style="text-align:center;margin:0 0 12px"><button type="button" class="btn ghost" id="addmore">+ ${esc(T.select)}</button></p>`:''}
-  <div class="opts">${tool.opts?tool.opts.call(tool):''}</div><div class="custom"></div>
-  <div class="actions"><button type="button" class="btn big" id="go">${esc(tool.goLabel?tool.goLabel():T.process)}</button></div><p class="status" role="status" aria-live="polite"></p>`;
-  work.querySelectorAll('.files [data-a]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i,a=b.dataset.a;if(a==='rm')files.splice(i,1);else{const j=a==='up'?i-1:i+1;if(j<0||j>=files.length)return;[files[i],files[j]]=[files[j],files[i]];}render();});
+  const keep={};work.querySelectorAll('.opts [id]').forEach(e=>{if(e.type==='file')return;keep[e.id]=e.type==='checkbox'||e.type==='radio'?e.checked:e.value;});
+  if(!files.length&&!nofile){work.hidden=true;drop.hidden=false;setStep(1);return;}
+  if(drop)drop.hidden=true;work.hidden=false;setStep(2);root.classList.toggle('isnofile',nofile);
+  work.innerHTML=`<div class="wk"><div class="fcol">${nofile?'':cards()}<div class="custom"></div></div><aside class="side"><h2 class="sideh">${esc(T.stepOptions||'Options')}</h2><div class="opts">${tool.opts?tool.opts.call(tool):''}</div>
+  <div class="actions"><button type="button" class="btn big" id="go"${tool.live?' hidden':''}>${esc(tool.goLabel?tool.goLabel():T.process)} →</button></div><div class="prog" hidden><div class="bar"><i></i></div><span class="pct"></span></div><p class="status" role="status" aria-live="polite"></p></aside></div>`;
+  advWrap();
+  for(const [k,val] of Object.entries(keep)){const e=$('#'+k,work);if(!e)continue;if(typeof val==='boolean')e.checked=val;else e.value=val;}
+  work.querySelectorAll('.files [data-a]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i,a=b.dataset.a;if(a==='rm')files.splice(i,1);else if(a==='rot'){files[i]._rot=((files[i]._rot||0)+90)%360;$('.th',b.closest('li')).style.setProperty('--rot',files[i]._rot+'deg');return;}else{const j=a==='up'?i-1:i+1;if(j<0||j>=files.length)return;[files[i],files[j]]=[files[j],files[i]];}render();});
+  work.querySelectorAll('[data-sort]').forEach(b=>b.onclick=()=>{const k=b.dataset.sort==='az'?1:-1;files.sort((a,c)=>k*a.name.localeCompare(c.name,undefined,{numeric:true}));render();});
+  let dragI=null;work.querySelectorAll('.files li[draggable=true]').forEach(li=>{li.ondragstart=e=>{dragI=+li.dataset.i;li.classList.add('drag');e.dataTransfer.effectAllowed='move';};li.ondragend=()=>li.classList.remove('drag');li.ondragover=e=>{if(dragI!==null){e.preventDefault();li.classList.add('dov');}};li.ondragleave=()=>li.classList.remove('dov');li.ondrop=e=>{e.preventDefault();e.stopPropagation();const j=+li.dataset.i;if(dragI===null||dragI===j)return;const [m]=files.splice(dragI,1);files.splice(j,0,m);dragI=null;render();};});
   $('#addmore',work)?.addEventListener('click',()=>input.click());
-  $('#go',work).onclick=go;if(tool.minFiles&&files.length<tool.minFiles){$('#go',work).disabled=true;$('.status',work).textContent=tool.minMsg||'';}
+  fillThumbs();
+  $('#go',work).onclick=()=>go();if(tool.minFiles&&files.length<tool.minFiles){$('#go',work).disabled=true;$('.status',work).textContent=tool.minMsg||'';}
   if(tool.setup){try{const el=await tool.setup(files);if(el)$('.custom',work).appendChild(el);}catch(e){showErr(e);}}
+  if(tool.live){let tm;const kick=e=>{if(e&&e.target&&e.target.id==='rename')return;clearTimeout(tm);tm=setTimeout(()=>go(true),350);};if(work._kick){work.removeEventListener('input',work._kick);work.removeEventListener('change',work._kick);}work._kick=kick;work.addEventListener('input',kick);work.addEventListener('change',kick);kick();}
 }
-function showErr(e){console.error(e);const s=$('.status',work)||(()=>{work.hidden=false;const p=document.createElement('p');p.className='status';work.appendChild(p);return p;})();s.className='status err';let m=e&&e.message||String(e);if(/encrypt|password/i.test(m)&&toolId!=='unlock'&&/pdf/.test(toolId))m+=' — try the Unlock PDF tool first.';s.textContent=`${T.error} ${m}`;}
-async function go(){const btn=$('#go',work),st=$('.status',work);btn.disabled=true;st.className='status';st.textContent=T.working;
-  try{const r=await tool.run.call(tool,files,m=>st.textContent=m);window.__lastResult=r;const urls=[];const mk=b=>{const u=URL.createObjectURL(b);urls.push(u);return u;};
-   $('.actions',work).innerHTML=`${r.blob?`<a class="btn big" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${(r.extra||[]).map((x,k)=>`<a class="btn ghost dlx" id="dl${k+2}" href="${mk(x.blob)}" download="${esc(x.name)}">⬇ ${esc(x.label||x.name)}</a>`).join('')}<button type="button" class="btn ghost" id="again">${esc(T.another)}</button>`;
-   st.textContent=`${T.done} ${r.blob?r.name+' · '+fmtSize(r.blob.size):''}${r.info?' · '+r.info:''}`;
-   if(r.view||r.links){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=(r.view||'')+(r.links?`<ul class="links">${r.links.map(x=>`<li><a href="${mk(x.blob)}" download="${esc(x.name.split('/').pop())}">${esc(x.name)}</a> <small>${fmtSize(x.blob.size)}</small></li>`).join('')}</ul>`:'');work.appendChild(vw);if(r.mount)r.mount(vw);}
-   $('#again',work).onclick=()=>{urls.forEach(u=>URL.revokeObjectURL(u));files=[];render();};
-  }catch(e){btn.disabled=false;showErr(e);}}
-window.FP={T,$,esc,load,L,buf,base,pdfBlob,fmtSize,openPdfjs,renderPage,toBlob,parseRanges,zipBlobs,zipOrOne,sel,inp,v,setupPreview,mkSafe,chk,vb,TOOLS,work,root,toolId};
+function showErr(e,retry){console.error(e);const s=$('.status',work)||(()=>{work.hidden=false;const p=document.createElement('p');p.className='status';work.appendChild(p);return p;})();s.className='status err';let m=e&&e.message||String(e);if(/encrypt|password/i.test(m)&&toolId!=='unlock'&&/pdf/.test(toolId))m+=' — try the Unlock PDF tool first.';s.innerHTML=`<b>⚠ ${esc(T.errFriendly||'Something went wrong.')}</b> ${esc(T.error)} ${esc(m)} ${retry?`<button type="button" class="btn ghost mini" id="retry">↻ ${esc(T.retry||'Try again')}</button>`:''}`;$('#retry',s)?.addEventListener('click',retry);const pg=$('.prog',work);if(pg)pg.hidden=true;}
+function progress(m){const pg=$('.prog',work);if(!pg)return;pg.hidden=false;let f=null;if(typeof m==='number')f=m;else{const a=String(m).match(/(\d+)\s*%/),b=String(m).match(/(\d+)\s*\/\s*(\d+)/);if(a)f=+a[1]/100;else if(b&&+b[2])f=+b[1]/+b[2];}
+  pg.classList.toggle('ind',f===null);if(f!==null){f=Math.max(0,Math.min(1,f));$('.bar i',pg).style.width=(f*100).toFixed(0)+'%';$('.pct',pg).textContent=(f*100).toFixed(0)+'%';}else $('.pct',pg).textContent='';}
+let liveUrls=[];
+async function go(live){const btn=$('#go',work),st=$('.status',work);if(!live){btn.disabled=true;st.className='status';st.textContent=T.working;progress(0.02);}
+  const inSize=files.reduce((a,f)=>a+f.size,0);
+  try{const r=await tool.run.call(tool,files,m=>{st.textContent=m;if(!live)progress(m);});window.__lastResult=r;const urls=[];const mk=b=>{const u=URL.createObjectURL(b);urls.push(u);return u;};
+   const extra=(r.extra||[]).map((x,k)=>`<a class="btn ghost dlx" id="dl${k+2}" href="${mk(x.blob)}" download="${esc(x.name)}">⬇ ${esc(x.label||x.name)}</a>`).join('');
+   if(live){liveUrls.forEach(u=>URL.revokeObjectURL(u));liveUrls=urls;$('.actions',work).innerHTML=`<button type="button" class="btn big" id="go" hidden></button>${r.blob?`<a class="btn big" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}`;st.className='status';st.textContent=r.info||'';setStep(3);return;}
+   setStep(3);const ext=(r.name||'').match(/\.[^.]+$/)?.[0]||'';const out=r.blob?r.blob.size:0;const saved=inSize&&out&&out<inSize?Math.round((1-out/inSize)*100):0;
+   const nx=NEXT.map(n=>`<a class="chip" href="${n.u}">${esc(n.n)}</a>`).join('');
+   const res=document.createElement('div');res.className='result';
+   res.innerHTML=`<div class="rtop">${saved?`<div class="ring" style="--p:${saved}"><b>${saved}%</b><small>${esc(T.saved||'saved')}</small></div>`:'<div class="ok">✓</div>'}<div class="rinfo"><h2>${esc(T.done)}</h2>${r.blob?`<label class="rn">${esc(T.rename||'File name')}<span><input id="rename" value="${esc(base(r.name))}"><em>${esc(ext)}</em></span></label><p class="sz">${inSize&&!nofile?`${fmtSize(inSize)} → `:''}<b>${fmtSize(out)}</b></p>`:''}${r.info?`<p class="ri">${esc(r.info)}</p>`:''}</div></div>
+   <div class="actions">${r.blob?`<a class="btn huge" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}</div>
+   <p class="again"><button type="button" class="btn ghost" id="again">↺ ${esc(T.startOver||T.another)}</button></p>${nx?`<div class="next"><h3>${esc(T.tryAnother||'Continue with another tool')}</h3>${nx}</div>`:''}`;
+   const wk=$('.wk',work);wk.hidden=true;work.appendChild(res);
+   $('#rename',res)?.addEventListener('input',e=>{$('#dl',res).download=(e.target.value.trim()||base(r.name))+ext;});
+   if(r.view||r.links){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=(r.view||'')+(r.links?`<ul class="links">${r.links.map(x=>`<li><a href="${mk(x.blob)}" download="${esc(x.name.split('/').pop())}">${esc(x.name)}</a> <small>${fmtSize(x.blob.size)}</small></li>`).join('')}</ul>`:'');res.appendChild(vw);if(r.mount)r.mount(vw);}
+   $('#again',res).onclick=()=>{urls.forEach(u=>URL.revokeObjectURL(u));files=[];render();};
+   res.scrollIntoView({block:'start',behavior:'smooth'});
+  }catch(e){if(btn)btn.disabled=false;if(live)work.querySelectorAll('#dl,.dlx').forEach(a=>a.remove());if(live&&e&&e.soft){st.className='status';st.textContent=e.message;return;}showErr(e,live?null:()=>go());}}
+window.FP={progress,T,$,esc,load,L,buf,base,pdfBlob,fmtSize,openPdfjs,renderPage,toBlob,parseRanges,zipBlobs,zipOrOne,sel,inp,v,setupPreview,mkSafe,chk,vb,TOOLS,work,root,toolId};
 document.readyState==='complete'?start():document.addEventListener('DOMContentLoaded',start);
 })();
