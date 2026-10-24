@@ -1,0 +1,279 @@
+{
+ "ui": {
+  "o_qtext": "Text",
+  "o_qemail": "Email address",
+  "o_qsubject": "Subject",
+  "o_qmessage": "Message",
+  "o_qphone": "Phone number",
+  "o_qssid": "Network name (SSID)",
+  "o_qpassword": "Password",
+  "o_qenc": "Encryption",
+  "o_qnone": "None",
+  "o_qhidden": "Hidden network",
+  "o_qfirst": "First name",
+  "o_qlast": "Last name",
+  "o_qorg": "Company",
+  "o_qjob": "Job title",
+  "o_qwebsite": "Website",
+  "o_qaddress": "Address",
+  "o_qlat": "Latitude",
+  "o_qlng": "Longitude",
+  "o_qevtitle": "Event title",
+  "o_qstart": "Start",
+  "o_qend": "End",
+  "o_qlocation": "Location",
+  "o_qdesc": "Description",
+  "o_qbtc": "Bitcoin address",
+  "o_qamount": "Amount (BTC)",
+  "o_qlabel": "Label",
+  "o_qplatform": "Platform",
+  "o_qusername": "Username or number",
+  "o_qcreate": "Create QR code",
+  "o_qtype": "QR code type",
+  "o_qfg": "Foreground colour",
+  "o_qstyle": "Dot style",
+  "o_qsquare": "Square",
+  "o_qrounded": "Rounded",
+  "o_qdots": "Dots",
+  "o_qecc": "Error correction",
+  "o_qsize": "Size (px)",
+  "o_qmargin": "Quiet zone (modules)",
+  "o_qlogo": "Logo (optional)",
+  "o_qempty": "Fill in the fields to see your QR code.",
+  "o_qtoolong": "Too much data for one QR code – shorten it.",
+  "o_qcontent": "Encoded content",
+  "o_sdownload": "Download results",
+  "o_sfile": "Scan image",
+  "o_scamera": "Use camera",
+  "o_shint": "Pick an image with a QR code or barcode, or scan with your camera.",
+  "o_sfound": "code(s) found",
+  "o_scopy": "Copy",
+  "o_snone": "No code found – try a sharper, closer image.",
+  "o_snocam": "Camera not available or permission denied.",
+  "o_bcreate": "Create barcode",
+  "o_bformat": "Barcode type",
+  "o_bvalue": "Value",
+  "o_bbar": "Bar width",
+  "o_bheight": "Height",
+  "o_btext": "Show text below",
+  "o_binvalid": "Invalid value for this barcode type.",
+  "cat_qr": "QR & Barcode",
+  "qt_url": "Website URL",
+  "qt_text": "Text",
+  "qt_email": "Email",
+  "qt_phone": "Phone",
+  "qt_sms": "SMS",
+  "qt_wifi": "WiFi",
+  "qt_vcard": "vCard contact",
+  "qt_mecard": "MeCard contact",
+  "qt_location": "Location",
+  "qt_event": "Calendar event",
+  "qt_bitcoin": "Bitcoin",
+  "qt_social": "Social media"
+ },
+ "templates": {
+  "qrtype": {
+   "steps": [
+    "Fill in the details – the preview updates live.",
+    "Pick colours, dot style and optionally add your logo.",
+    "Click Create and download PNG, SVG (vector) or PDF."
+   ],
+   "faq": [
+    {
+     "q": "Do these QR codes expire?",
+     "a": "No. They are static QR codes: the content is stored in the code itself, so they work forever with no account, tracking or subscription."
+    },
+    {
+     "q": "Can I print the QR code?",
+     "a": "Yes. Download the SVG or PDF for sharp printing at any size, or a PNG up to 4000 px."
+    }
+   ]
+  },
+  "bctype": {
+   "steps": [
+    "Enter the number – the preview checks it live.",
+    "Adjust bar width, height and colours.",
+    "Download as PNG or SVG."
+   ],
+   "faq": [
+    {
+     "q": "Is the check digit calculated?",
+     "a": "Yes. For EAN and UPC you can leave out the last check digit and it is added automatically."
+    }
+   ]
+  }
+ },
+ "tools": {
+  "qr": {
+   "name": "QR Code Generator",
+   "short": "Free QR codes for links, WiFi, contacts and more.",
+   "title": "Free QR Code Generator – Logo, Colours, SVG & PDF, No Sign-up | {brand}",
+   "desc": "Create free static QR codes for URLs, WiFi, vCard, email, SMS, location, events and more. Add a logo and colours, download PNG, SVG or PDF. Never expires.",
+   "h1": "QR Code Generator",
+   "steps": [
+    "Choose a type (URL, WiFi, vCard…) and fill in the details.",
+    "Customise colours, dot style and add a logo.",
+    "Download PNG, SVG or PDF."
+   ],
+   "faq": [
+    {
+     "q": "Are the QR codes free forever?",
+     "a": "Yes. They are static codes that never expire and need no account. Nothing is tracked."
+    },
+    {
+     "q": "Will a logo break my QR code?",
+     "a": "A logo automatically switches error correction to high (30%), so the code still scans. Always test before printing."
+    },
+    {
+     "q": "Is my data uploaded?",
+     "a": "No. The QR code is generated in your browser."
+    }
+   ]
+  },
+  "qr_wifi": {
+   "name": "WiFi QR Code",
+   "short": "Let guests join your WiFi with one scan.",
+   "title": "WiFi QR Code Generator – Share WiFi Password via QR | {brand}",
+   "desc": "Create a QR code that connects phones to your WiFi network instantly. Supports WPA/WPA2/WPA3, WEP and hidden networks. Free, private, printable.",
+   "h1": "WiFi QR Code Generator"
+  },
+  "qr_vcard": {
+   "name": "vCard QR Code",
+   "short": "Business card QR that saves your contact.",
+   "title": "vCard QR Code Generator – Free Business Card QR | {brand}",
+   "desc": "Make a vCard QR code for your business card: name, phone, email, company and website saved to contacts with one scan. Free, with logo and SVG/PDF.",
+   "h1": "vCard QR Code Generator"
+  },
+  "qr_mecard": {
+   "name": "MeCard QR Code",
+   "short": "Compact contact QR code.",
+   "title": "MeCard QR Code Generator – Compact Contact QR | {brand}",
+   "desc": "Create a MeCard QR code – a compact contact format that produces smaller, easier-to-scan codes than vCard. Free and private.",
+   "h1": "MeCard QR Code Generator"
+  },
+  "qr_email": {
+   "name": "Email QR Code",
+   "short": "Open a pre-filled email with one scan.",
+   "title": "Email QR Code Generator – Pre-filled Email QR | {brand}",
+   "desc": "Create a QR code that opens a new email with address, subject and message already filled in. Free, no sign-up.",
+   "h1": "Email QR Code Generator"
+  },
+  "qr_sms": {
+   "name": "SMS QR Code",
+   "short": "Start a text message with one scan.",
+   "title": "SMS QR Code Generator – Pre-filled Text Message | {brand}",
+   "desc": "Make a QR code that opens a text message with number and message pre-filled. Great for opt-ins and feedback. Free.",
+   "h1": "SMS QR Code Generator"
+  },
+  "qr_phone": {
+   "name": "Phone QR Code",
+   "short": "Call a number with one scan.",
+   "title": "Phone Number QR Code Generator – Click to Call | {brand}",
+   "desc": "Create a QR code that dials your phone number when scanned. Free, printable PNG, SVG and PDF.",
+   "h1": "Phone Number QR Code Generator"
+  },
+  "qr_text": {
+   "name": "Text to QR Code",
+   "short": "Turn any text into a QR code.",
+   "title": "Text to QR Code Generator – Free & Unicode | {brand}",
+   "desc": "Convert any plain text, in any language, into a QR code. Free, private, with SVG and PDF download.",
+   "h1": "Text to QR Code"
+  },
+  "qr_url": {
+   "name": "URL to QR Code",
+   "short": "Turn a link into a QR code.",
+   "title": "URL to QR Code – Link QR Code Generator Free | {brand}",
+   "desc": "Turn any website link into a QR code in one second. Add a logo and colours. Free, no expiry, no tracking.",
+   "h1": "URL to QR Code"
+  },
+  "qr_location": {
+   "name": "Location QR Code",
+   "short": "Open a map location with one scan.",
+   "title": "Location QR Code Generator – Google Maps / GPS QR | {brand}",
+   "desc": "Create a QR code for GPS coordinates that opens in the phone's maps app. Free and private.",
+   "h1": "Location QR Code Generator"
+  },
+  "qr_event": {
+   "name": "Event QR Code",
+   "short": "Add an event to the calendar with one scan.",
+   "title": "Event QR Code Generator – Calendar Invite QR | {brand}",
+   "desc": "Make a QR code that adds your event – title, time, place – to the scanner's calendar. Free iCalendar QR codes.",
+   "h1": "Event QR Code Generator"
+  },
+  "qr_bitcoin": {
+   "name": "Bitcoin QR Code",
+   "short": "Receive Bitcoin with a payment QR.",
+   "title": "Bitcoin QR Code Generator – BTC Payment QR | {brand}",
+   "desc": "Create a Bitcoin payment QR code with address, amount and label (BIP21). Generated offline in your browser.",
+   "h1": "Bitcoin QR Code Generator"
+  },
+  "qr_social": {
+   "name": "Social Media QR Code",
+   "short": "QR for Instagram, X, WhatsApp, LinkedIn…",
+   "title": "Social Media QR Code Generator – Instagram, WhatsApp, X | {brand}",
+   "desc": "Create QR codes for your Instagram, X, Facebook, LinkedIn, YouTube, TikTok, WhatsApp, Telegram or GitHub profile. Free.",
+   "h1": "Social Media QR Code Generator"
+  },
+  "qrscan": {
+   "name": "QR Code Scanner",
+   "short": "Read QR codes and barcodes from images or camera.",
+   "title": "QR Code Scanner Online – Scan from Image or Camera | {brand}",
+   "desc": "Scan QR codes and barcodes from a photo, screenshot or your camera, right in the browser. Nothing is uploaded.",
+   "h1": "QR Code Scanner",
+   "steps": [
+    "Pick an image or press Use camera.",
+    "Decoded codes appear instantly – links are clickable.",
+    "Copy them or download all results as text."
+   ],
+   "faq": [
+    {
+     "q": "Which codes can it read?",
+     "a": "QR codes everywhere. In Chrome, Edge and Android, 1D barcodes (EAN, UPC, Code 128…) and Data Matrix are also read via the browser's barcode detector."
+    },
+    {
+     "q": "Is it safe?",
+     "a": "Images and camera frames never leave your device. Check a link before opening it."
+    }
+   ]
+  },
+  "barcode": {
+   "name": "Barcode Generator",
+   "short": "EAN, UPC, Code 128 barcodes as PNG/SVG.",
+   "title": "Free Barcode Generator – EAN-13, UPC, Code 128, Code 39 | {brand}",
+   "desc": "Generate barcodes online: Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, Codabar, MSI. Download PNG or vector SVG. Free.",
+   "h1": "Barcode Generator",
+   "steps": [
+    "Choose the barcode type and enter the value.",
+    "Adjust size, colours and text.",
+    "Download PNG or SVG."
+   ],
+   "faq": [
+    {
+     "q": "Can I use these barcodes on products?",
+     "a": "Yes, technically. For retail you need officially assigned GS1 numbers – the generator only draws the barcode."
+    }
+   ]
+  },
+  "bc_ean13": {
+   "name": "EAN-13 Barcode",
+   "short": "Retail EAN-13 barcodes.",
+   "title": "EAN-13 Barcode Generator – Free PNG & SVG | {brand}",
+   "desc": "Create EAN-13 barcodes with automatic check digit. Download PNG or vector SVG for printing.",
+   "h1": "EAN-13 Barcode Generator"
+  },
+  "bc_upc": {
+   "name": "UPC Barcode",
+   "short": "UPC-A barcodes for products.",
+   "title": "UPC Barcode Generator – Free UPC-A PNG & SVG | {brand}",
+   "desc": "Generate UPC-A barcodes with automatic check digit, ready for labels. Free PNG and SVG.",
+   "h1": "UPC Barcode Generator"
+  },
+  "bc_code39": {
+   "name": "Code 39 Barcode",
+   "short": "Code 39 barcodes for labels.",
+   "title": "Code 39 Barcode Generator – Free PNG & SVG | {brand}",
+   "desc": "Make Code 39 barcodes for inventory, badges and labels. Free download as PNG or SVG.",
+   "h1": "Code 39 Barcode Generator"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+// Static QR code generator: content types, colours, logo, dot style; PNG / SVG / PDF. Landing pages preset vars.type
+const QT=['url','text','email','phone','sms','wifi','vcard','mecard','location','event','bitcoin','social'];
+const SOC={x:'https://x.com/{u}',instagram:'https://instagram.com/{u}',facebook:'https://facebook.com/{u}',linkedin:'https://www.linkedin.com/in/{u}',youtube:'https://youtube.com/@{u}',tiktok:'https://www.tiktok.com/@{u}',whatsapp:'https://wa.me/{u}',telegram:'https://t.me/{u}',github:'https://github.com/{u}'};
+const qe=s=>String(s||'').replace(/([\\;,:"])/g,'\\$1');// WiFi/MeCard escaping
+const ve=s=>String(s||'').replace(/([\\;,])/g,'\\$1').replace(/\n/g,'\\n');// vCard/iCal escaping
+const dt=s=>s?s.replace(/[-:]/g,'').slice(0,13)+'00':'';
+const F=(id,label,type='text',ph='',extra='')=>`<label>${esc(label)}${type==='textarea'?`<textarea id="${id}" rows="3" placeholder="${esc(ph)}"></textarea>`:`<input id="${id}" type="${type}" placeholder="${esc(ph)}" ${extra}>`}</label>`;
+const fields=t=>({url:()=>F('qurl','URL','url','https://example.com'),text:()=>F('qtext',T.o_qtext,'textarea'),
+ email:()=>F('qto',T.o_qemail,'email','name@example.com')+F('qsub',T.o_qsubject)+F('qbody',T.o_qmessage,'textarea'),
+ phone:()=>F('qtel',T.o_qphone,'tel','+1 555 123 4567'),sms:()=>F('qtel',T.o_qphone,'tel','+1 555 123 4567')+F('qbody',T.o_qmessage,'textarea'),
+ wifi:()=>F('qssid',T.o_qssid)+F('qpw',T.o_qpassword)+sel('qenc',T.o_qenc,[['WPA','WPA/WPA2/WPA3'],['WEP','WEP'],['nopass',T.o_qnone]])+chk('qhid',T.o_qhidden),
+ vcard:()=>F('qfn',T.o_qfirst)+F('qln',T.o_qlast)+F('qorg',T.o_qorg)+F('qtitle',T.o_qjob)+F('qtel',T.o_qphone,'tel')+F('qto',T.o_qemail,'email')+F('qweb',T.o_qwebsite,'url')+F('qadr',T.o_qaddress),
+ mecard:()=>F('qfn',T.o_qfirst)+F('qln',T.o_qlast)+F('qtel',T.o_qphone,'tel')+F('qto',T.o_qemail,'email')+F('qweb',T.o_qwebsite,'url')+F('qadr',T.o_qaddress),
+ location:()=>F('qlat',T.o_qlat,'number','40.7128','step="any"')+F('qlng',T.o_qlng,'number','-74.0060','step="any"'),
+ event:()=>F('qsum',T.o_qevtitle)+F('qstart',T.o_qstart,'datetime-local')+F('qend',T.o_qend,'datetime-local')+F('qloc',T.o_qlocation)+F('qbody',T.o_qdesc,'textarea'),
+ bitcoin:()=>F('qbtc',T.o_qbtc)+F('qamt',T.o_qamount,'number','','step="any" min="0"')+F('qlbl',T.o_qlabel),
+ social:()=>sel('qsoc',T.o_qplatform,Object.keys(SOC).map(k=>[k,k==='x'?'X (Twitter)':k[0].toUpperCase()+k.slice(1)]))+F('quser',T.o_qusername,'text','yourname')})[t]();
+const g=id=>(v(id)||'').trim();
+function payload(t){switch(t){case 'url':{const u=g('qurl');return u&&!/^[a-z][\w+.-]*:/i.test(u)?'https://'+u:u;}case 'text':return v('qtext')||'';
+ case 'email':{const q=[g('qsub')&&'subject='+encodeURIComponent(g('qsub')),g('qbody')&&'body='+encodeURIComponent(v('qbody'))].filter(Boolean).join('&');return g('qto')?`mailto:${g('qto')}${q?'?'+q:''}`:'';}
+ case 'phone':return g('qtel')?'tel:'+g('qtel').replace(/[^\d+]/g,''):'';case 'sms':return g('qtel')?`SMSTO:${g('qtel').replace(/[^\d+]/g,'')}:${v('qbody')||''}`:'';
+ case 'wifi':return g('qssid')?`WIFI:T:${v('qenc')};S:${qe(g('qssid'))};${v('qenc')==='nopass'?'':`P:${qe(v('qpw'))};`}${$('#qhid',work).checked?'H:true;':''};`:'';
+ case 'vcard':return g('qfn')||g('qln')||g('qorg')?['BEGIN:VCARD','VERSION:3.0',`N:${ve(g('qln'))};${ve(g('qfn'))};;;`,`FN:${ve([g('qfn'),g('qln')].filter(Boolean).join(' ')||g('qorg'))}`,g('qorg')&&'ORG:'+ve(g('qorg')),g('qtitle')&&'TITLE:'+ve(g('qtitle')),g('qtel')&&'TEL;TYPE=CELL:'+g('qtel'),g('qto')&&'EMAIL:'+g('qto'),g('qweb')&&'URL:'+g('qweb'),g('qadr')&&'ADR:;;'+ve(g('qadr'))+';;;;','END:VCARD'].filter(Boolean).join('\n'):'';
+ case 'mecard':return g('qfn')||g('qln')?`MECARD:N:${qe(g('qln'))},${qe(g('qfn'))};${g('qtel')?'TEL:'+qe(g('qtel'))+';':''}${g('qto')?'EMAIL:'+qe(g('qto'))+';':''}${g('qweb')?'URL:'+qe(g('qweb'))+';':''}${g('qadr')?'ADR:'+qe(g('qadr'))+';':''};`:'';
+ case 'location':return g('qlat')&&g('qlng')?`geo:${+g('qlat')},${+g('qlng')}`:'';
+ case 'event':return g('qsum')?['BEGIN:VEVENT','SUMMARY:'+ve(g('qsum')),g('qstart')&&'DTSTART:'+dt(g('qstart')),g('qend')&&'DTEND:'+dt(g('qend')),g('qloc')&&'LOCATION:'+ve(g('qloc')),g('qbody')&&'DESCRIPTION:'+ve(v('qbody')),'END:VEVENT'].filter(Boolean).join('\n'):'';
+ case 'bitcoin':{if(!g('qbtc'))return '';const q=[g('qamt')&&'amount='+g('qamt'),g('qlbl')&&'label='+encodeURIComponent(g('qlbl'))].filter(Boolean).join('&');return `bitcoin:${g('qbtc')}${q?'?'+q:''}`;}
+ case 'social':return g('quser')?SOC[v('qsoc')].replace('{u}',encodeURIComponent(g('quser').replace(/^@/,''))):'';}}
+TOOLS.qr={goLabel:()=>T.o_qcreate,
+ opts(){const t=this.vars.type||'url';return `${this.vars.type?'':sel('qtype',T.o_qtype,QT.map(k=>[k,T['qt_'+k]||k]))}<div id="qf" style="display:contents">${fields(t)}</div>`+
+  `<label>${esc(T.o_qfg)}<input id="qfg" type="color" value="#000000"></label><label>${esc(T.o_bg)}<input id="qbg" type="color" value="#ffffff"></label>`+
+  sel('qstyle',T.o_qstyle,[['square',T.o_qsquare],['rounded',T.o_qrounded],['dots',T.o_qdots]])+sel('qecc',T.o_qecc,[['M','M (15%)'],['Q','Q (25%)'],['H','H (30%)'],['L','L (7%)']])+
+  inp('qsize',T.o_qsize,'number','1000','min="128" max="4000" step="8"')+inp('qmargin',T.o_qmargin,'number','4','min="0" max="20"')+
+  `<label>${esc(T.o_qlogo)}<input id="qlogo" type="file" accept="image/*"></label>`;},
+ type(){return this.vars.type||v('qtype')||'url';},
+ async setup(){await load('qrcode.js');window.qrcode.stringToBytes=s=>Array.from(new TextEncoder().encode(s));
+  const el=document.createElement('div');el.innerHTML=`<div style="text-align:center"><canvas id="qprev" width="300" height="300" style="width:240px;height:240px;border:1px solid #ddd;border-radius:8px;image-rendering:pixelated"></canvas><p class="hint" id="qinfo"></p></div>`;
+  let tm;const upd=()=>{clearTimeout(tm);tm=setTimeout(()=>this.preview(work),120);};this.logo=null;
+  if(!this.bound)this.bound=1,work.addEventListener('input',upd);work.addEventListener('change',e=>{if(e.target.id==='qtype'){$('#qf',work).innerHTML=fields(v('qtype'));}if(e.target.id==='qlogo')this.readLogo().then(upd);upd();});
+  setTimeout(()=>this.preview(el),0);return el;},
+ async readLogo(){const f=$('#qlogo',work).files[0];this.logo=null;if(!f)return;const bm=await createImageBitmap(f);const s=Math.min(1,512/Math.max(bm.width,bm.height));const c=document.createElement('canvas');c.width=Math.round(bm.width*s);c.height=Math.round(bm.height*s);c.getContext('2d').drawImage(bm,0,0,c.width,c.height);this.logo=c;if(v('qecc')!=='H')$('#qecc',work).value='H';},
+ matrix(text){const q=window.qrcode(0,this.logo?'H':v('qecc')||'M');q.addData(text,'Byte');q.make();const n=q.getModuleCount();return {n,dark:(r,c)=>q.isDark(r,c)};},
+ // geometry shared by canvas, SVG and PDF renderers
+ shapes(m){const st=v('qstyle');const out=[];const fin=(r,c)=>(r<7&&c<7)||(r<7&&c>=m.n-7)||(r>=m.n-7&&c<7);
+  let hole=null;if(this.logo){const k=Math.floor(m.n*.22/2)*2+1;const o=(m.n-k)/2;hole={o,k};}
+  for(let r=0;r<m.n;r++)for(let c=0;c<m.n;c++){if(!m.dark(r,c))continue;if(hole&&r>=hole.o-.5&&r<hole.o+hole.k&&c>=hole.o-.5&&c<hole.o+hole.k)continue;out.push({r,c,t:fin(r,c)?'square':st});}
+  return {out,hole};},
+ drawCanvas(text,size){const m=this.matrix(text);const mg=+v('qmargin')||0;const tot=m.n+2*mg;const px=size/tot;const c=document.createElement('canvas');c.width=c.height=size;const x=c.getContext('2d');
+  x.fillStyle=v('qbg');x.fillRect(0,0,size,size);x.fillStyle=v('qfg');const {out,hole}=this.shapes(m);
+  for(const s of out){const X=(s.c+mg)*px,Y=(s.r+mg)*px;if(s.t==='dots'){x.beginPath();x.arc(X+px/2,Y+px/2,px*.5,0,7);x.fill();}else if(s.t==='rounded'){x.beginPath();x.roundRect(X+px*.05,Y+px*.05,px*.9,px*.9,px*.3);x.fill();}else x.fillRect(Math.floor(X),Math.floor(Y),Math.ceil(px+X-Math.floor(X)),Math.ceil(px+Y-Math.floor(Y)));}
+  if(hole){const L=this.logo,box=hole.k*px*.92,sc=Math.min(box/L.width,box/L.height),w=L.width*sc,h=L.height*sc;x.drawImage(L,size/2-w/2,size/2-h/2,w,h);}
+  return {c,m};},
+ svg(text){const m=this.matrix(text);const mg=+v('qmargin')||0;const tot=m.n+2*mg;const {out,hole}=this.shapes(m);let p='';
+  for(const s of out){const X=s.c+mg,Y=s.r+mg;p+=s.t==='dots'?`<circle cx="${X+.5}" cy="${Y+.5}" r=".5"/>`:s.t==='rounded'?`<rect x="${X+.05}" y="${Y+.05}" width=".9" height=".9" rx=".3"/>`:`<rect x="${X}" y="${Y}" width="1.02" height="1.02"/>`;}
+  let lg='';if(hole){const L=this.logo,box=hole.k*.92,sc=Math.min(box/L.width,box/L.height),w=L.width*sc,h=L.height*sc;lg=`<image x="${tot/2-w/2}" y="${tot/2-h/2}" width="${w}" height="${h}" href="${L.toDataURL('image/png')}"/>`;}
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${tot} ${tot}" width="${v('qsize')||1000}" height="${v('qsize')||1000}" shape-rendering="crispEdges"><rect width="${tot}" height="${tot}" fill="${v('qbg')}"/><g fill="${v('qfg')}">${p}</g>${lg}</svg>`;},
+ async pdf(text){await load('pdf-lib.min.js');const {PDFDocument,rgb}=window.PDFLib;const hex=h=>rgb(parseInt(h.slice(1,3),16)/255,parseInt(h.slice(3,5),16)/255,parseInt(h.slice(5,7),16)/255);
+  const m=this.matrix(text);const mg=+v('qmargin')||0;const tot=m.n+2*mg;const S=288,px=S/tot;const d=await PDFDocument.create();d.setTitle('QR code');d.setProducer('FreePDF');const pg=d.addPage([S,S]);
+  pg.drawRectangle({x:0,y:0,width:S,height:S,color:hex(v('qbg'))});const fg=hex(v('qfg'));const {out,hole}=this.shapes(m);
+  for(const s of out){const X=(s.c+mg)*px,Y=S-(s.r+mg+1)*px;if(s.t==='dots')pg.drawCircle({x:X+px/2,y:Y+px/2,size:px*.5,color:fg});else pg.drawRectangle({x:X,y:Y,width:px*1.01,height:px*1.01,color:fg});}
+  if(hole){const L=this.logo;const im=await d.embedPng(await (await toBlob(L,'image/png')).arrayBuffer());const box=hole.k*px*.92,sc=Math.min(box/L.width,box/L.height),w=L.width*sc,h=L.height*sc;pg.drawImage(im,{x:S/2-w/2,y:S/2-h/2,width:w,height:h});}
+  return new Blob([await d.save()],{type:'application/pdf'});},
+ preview(el){const t=payload(this.type());const pc=$('#qprev',el);const x=pc.getContext('2d');if(!t){x.fillStyle='#f3f4f6';x.fillRect(0,0,300,300);$('#qinfo',el).textContent=T.o_qempty;return;}
+  try{const {c,m}=this.drawCanvas(t,300);x.drawImage(c,0,0);$('#qinfo',el).textContent=`${m.n}×${m.n} · ${new TextEncoder().encode(t).length} bytes`;}catch(e){$('#qinfo',el).textContent=T.o_qtoolong;}},
+ async run(){const t=payload(this.type());if(!t)throw new Error(T.o_qempty);
+  let r;try{r=this.drawCanvas(t,Math.max(128,Math.min(4000,+v('qsize')||1000)));}catch(e){throw new Error(T.o_qtoolong);}
+  const base='qr-'+this.type();return {name:base+'.png',blob:await toBlob(r.c,'image/png'),extra:[{name:base+'.svg',label:'SVG',blob:new Blob([this.svg(t)],{type:'image/svg+xml'})},{name:base+'.pdf',label:'PDF',blob:await this.pdf(t)}],view:`<details><summary>${esc(T.o_qcontent)}</summary><pre style="white-space:pre-wrap;word-break:break-all">${esc(t)}</pre></details>`};}};

@@ -6,7 +6,7 @@ const BASE=process.env.BASE||'http://localhost:8788';const results=[];
 const ctx=await browser.newContext({acceptDownloads:true,viewport:{width:390,height:844}});// mobile viewport
 async function run(name,slug,files,{opts={},before,check,lang=''}={}){if(process.env.ONLY&&!new RegExp(process.env.ONLY).test(name))return;const page=await ctx.newPage();const errs=[];page.on('pageerror',e=>errs.push(e.message));
  const reqs=[];page.on('request',r=>{if(['POST','PUT'].includes(r.method()))reqs.push(r.url());});
- try{await page.goto(`${BASE}/${lang}${slug}/`);await page.setInputFiles('#tool input[type=file]',files.map(S2));await page.waitForSelector('#go');
+ try{await page.goto(`${BASE}/${lang}${slug}/`);if(files.length)await page.setInputFiles('#tool input[type=file]',files.map(S2));await page.waitForSelector('#go');
   for(const [k,v] of Object.entries(opts)){const el=page.locator('#'+k);const tg=await el.evaluate(e=>e.tagName+(e.type||''));if(tg==='INPUTcheckbox')await el.setChecked(v==='1');else if(tg.startsWith('SELECT'))await el.selectOption(v);else await el.fill(v);}
   if(before)await before(page);
   await page.click('#go');await page.waitForSelector('#dl,.status.err',{timeout:60000});
@@ -31,7 +31,7 @@ await run('compress-strong','compress-pdf',['sample.pdf'],{opts:{level:'strong'}
 await run('compress-images','compress-pdf',[path.join(OUT,'jpg2pdf-images.pdf')],{opts:{level:'strong'},check:async b=>{isPdf(b);return b.length+' bytes (input '+fs.statSync(path.join(OUT,'jpg2pdf-images.pdf')).size+')'}});
 await run('protect','protect-pdf',['sample.pdf'],{opts:{pw:'s3cret',pw2:'s3cret'},check:async(b,fp)=>{if(!b.toString('latin1').includes('/Encrypt'))throw new Error('no /Encrypt');fs.copyFileSync(fp,path.join(OUT,'protected.pdf'));return 'encrypted'}});
 await run('unlock','unlock-pdf',[path.join(OUT,'protected.pdf')],{opts:{pw:'s3cret'},check:async b=>{if(b.toString('latin1').includes('/Encrypt'))throw new Error('still encrypted');const n=await pages(b);return 'decrypted, '+n+' pages'}});
-await run('unlock-wrongpw','unlock-pdf',[path.join(OUT,'protected.pdf')],{opts:{pw:'nope'},check:async b=>{throw new Error('should have failed')}}).then(()=>{const r=results[results.length-1];if(r&&r[0]==='FAIL'&&!/should have/.test(r[2])){r[0]='PASS';r[2]='correctly rejected: '+r[2].slice(0,60);}});
+await run('unlock-wrongpw','unlock-pdf',[path.join(OUT,'protected.pdf')],{opts:{pw:'nope'},check:async b=>{throw new Error('should have failed')}}).then(()=>{const r=results[results.length-1];if(r&&r[1]==='unlock-wrongpw'&&r[0]==='FAIL'&&!/should have/.test(r[2])){r[0]='PASS';r[2]='correctly rejected: '+r[2].slice(0,60);}});
 await run('sign','sign-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.preview canvas');await p.locator('.sigpad').scrollIntoViewIfNeeded();const pad=await p.locator('.sigpad').boundingBox();await p.mouse.move(pad.x+20,pad.y+50);await p.mouse.down();for(let i=0;i<20;i++)await p.mouse.move(pad.x+20+i*12,pad.y+50+Math.sin(i)*30);await p.mouse.up();await p.selectOption('#pgsel','2');await p.waitForTimeout(300);await p.click('.preview canvas',{position:{x:100,y:300}});},check:async b=>{isPdf(b);const d=await PDFDocument.load(b);return 'signed, pages '+d.getPageCount()}});
 await run('edit','edit-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.preview canvas');await p.fill('#etxt','Hello – edited “ok”');await p.click('.preview canvas',{position:{x:60,y:60}});await p.selectOption('#emode','white');await p.click('.preview canvas',{position:{x:120,y:150}});},check:async b=>{isPdf(b);return 'edited'}});
 await run('pdf2word','pdf-to-word',['sample.pdf'],{check:async b=>{const z=await JSZip.loadAsync(b);const x=await z.file('word/document.xml').async('string');if(!x.includes('quick brown fox'))throw new Error('text missing');return (x.match(/<w:p>/g)||[]).length+' paragraphs'}});
@@ -96,5 +96,18 @@ await run('favicon','favicon-generator',['logo.png'],{check:async b=>{const z=aw
 await run('color-picker','image-color-picker',['logo.png'],{before:async p=>{await p.waitForSelector('#tool canvas');await p.locator('#tool canvas').first().click({position:{x:150,y:150}});},check:async b=>{const t=b.toString();if(!/#[0-9a-f]{6}/i.test(t))throw new Error('no hex');return t.split('\n')[0].slice(0,60)}});
 await run('collage','collage-maker',['face.jpg','logo.png','image.png','photo.webp'],{opts:{ccols:'2',cw:'1000'},check:async(b,fp)=>want(im(fp),'JPEG',1000)});
 await run('png2jpg-ta','png-to-jpg',['logo.png'],{lang:'ta/',check:async(b,fp)=>want(im(fp),'JPEG')});
+
+// ---- Group 2: QR & barcode ----
+const UPNG=require('upng-js'),jsQR=require('jsqr');
+const qrd=b=>{const i=UPNG.decode(b);const r=jsQR(new Uint8ClampedArray(UPNG.toRGBA8(i)[0]),i.width,i.height);if(r)return r.data;const fp=path.join(OUT,'tmp-qr.png');fs.writeFileSync(fp,b);const d=execFileSync(PYI,['-c','import cv2,sys;print(cv2.QRCodeDetector().detectAndDecode(cv2.imread(sys.argv[1]))[0],end="")',fp]).toString();if(!d)throw new Error('QR not decodable');return d;};
+const dlx=async(p,id)=>{const [d]=await Promise.all([p.waitForEvent('download'),p.click(id)]);const fp=path.join(OUT,'x-'+d.suggestedFilename());await d.saveAs(fp);return fs.readFileSync(fp);};
+let svgOk='';
+await run('qr-url','qr-code-generator',[],{opts:{qurl:'example.com/hello',qsize:'600'},before:async p=>{p.once('load',()=>{});},check:async(b,fp)=>{const d=qrd(b);if(d!=='https://example.com/hello')throw new Error(d);fs.copyFileSync(fp,path.join(OUT,'qr-url.png'));return 'decoded '+d}});
+await run('qr-wifi','wifi-qr-code-generator',[],{opts:{qssid:'Home;Net',qpw:'p@ss:1'},check:async b=>{const d=qrd(b);if(d!=='WIFI:T:WPA;S:Home\\;Net;P:p@ss\\:1;;')throw new Error(d);return d}});
+await run('qr-vcard-logo','vcard-qr-code-generator',[],{opts:{qfn:'குரு',qln:'Moorthi',qtel:'+91 98765 43210',qstyle:'dots',qfg:'#1a237e'},before:async p=>{await p.setInputFiles('#qlogo',S('logo.png'));await p.waitForTimeout(500);},check:async b=>{const d=qrd(b);if(!d.includes('FN:குரு Moorthi'))throw new Error(d);return 'vCard w/ logo+dots decodes'}});
+await run('qr-svg-pdf','event-qr-code-generator',[],{opts:{qsum:'Launch',qstart:'2026-11-01T10:00'},before:async p=>{},check:async(b,fp)=>{qrd(b);return 'png ok'}});
+await run('qr-scan','qr-code-scanner',[path.join(OUT,'qr-url.png')],{check:async b=>{const t=b.toString();if(!t.includes('https://example.com/hello'))throw new Error(t);return t.trim()}});
+await run('barcode-ean','ean-13-barcode-generator',[],{check:async(b,fp)=>{const i=UPNG.decode(b);return 'PNG '+i.width+'x'+i.height}});
+await run('barcode-ta','barcode-generator',[],{lang:'ta/',opts:{bval:'தவறு'},check:async b=>{throw new Error('should reject')}}).then(()=>{const r=results[results.length-1];if(r&&r[1]==='barcode-ta'&&r[0]==='FAIL'&&!/should/.test(r[2])){r[0]='PASS';r[2]='invalid rejected: '+r[2].slice(0,50);}});
 
 await browser.close();for(const r of results)console.log(r.join('  |  '));process.exit(results.some(r=>r[0]==='FAIL')?1:0);})();

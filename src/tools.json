@@ -632,5 +632,206 @@
   "multiple": true,
   "icon": "🧩",
   "cat": "image"
+ },
+ {
+  "id": "qr",
+  "slug": "qr-code-generator",
+  "nofile": true,
+  "icon": "🔳",
+  "cat": "qr"
+ },
+ {
+  "id": "qr_wifi",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "wifi-qr-code-generator",
+  "nofile": true,
+  "icon": "📶",
+  "cat": "qr",
+  "vars": {
+   "type": "wifi"
+  }
+ },
+ {
+  "id": "qr_vcard",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "vcard-qr-code-generator",
+  "nofile": true,
+  "icon": "👤",
+  "cat": "qr",
+  "vars": {
+   "type": "vcard"
+  }
+ },
+ {
+  "id": "qr_mecard",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "mecard-qr-code-generator",
+  "nofile": true,
+  "icon": "📇",
+  "cat": "qr",
+  "vars": {
+   "type": "mecard"
+  }
+ },
+ {
+  "id": "qr_email",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "email-qr-code-generator",
+  "nofile": true,
+  "icon": "✉️",
+  "cat": "qr",
+  "vars": {
+   "type": "email"
+  }
+ },
+ {
+  "id": "qr_sms",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "sms-qr-code-generator",
+  "nofile": true,
+  "icon": "💬",
+  "cat": "qr",
+  "vars": {
+   "type": "sms"
+  }
+ },
+ {
+  "id": "qr_phone",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "phone-number-qr-code-generator",
+  "nofile": true,
+  "icon": "📞",
+  "cat": "qr",
+  "vars": {
+   "type": "phone"
+  }
+ },
+ {
+  "id": "qr_text",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "text-to-qr-code",
+  "nofile": true,
+  "icon": "📝",
+  "cat": "qr",
+  "vars": {
+   "type": "text"
+  }
+ },
+ {
+  "id": "qr_url",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "url-to-qr-code",
+  "nofile": true,
+  "icon": "🔗",
+  "cat": "qr",
+  "vars": {
+   "type": "url"
+  }
+ },
+ {
+  "id": "qr_location",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "location-qr-code-generator",
+  "nofile": true,
+  "icon": "📍",
+  "cat": "qr",
+  "vars": {
+   "type": "location"
+  }
+ },
+ {
+  "id": "qr_event",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "event-qr-code-generator",
+  "nofile": true,
+  "icon": "📅",
+  "cat": "qr",
+  "vars": {
+   "type": "event"
+  }
+ },
+ {
+  "id": "qr_bitcoin",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "bitcoin-qr-code-generator",
+  "nofile": true,
+  "icon": "₿",
+  "cat": "qr",
+  "vars": {
+   "type": "bitcoin"
+  }
+ },
+ {
+  "id": "qr_social",
+  "impl": "qr",
+  "tpl": "qrtype",
+  "slug": "social-media-qr-code-generator",
+  "nofile": true,
+  "icon": "📱",
+  "cat": "qr",
+  "vars": {
+   "type": "social"
+  }
+ },
+ {
+  "id": "qrscan",
+  "slug": "qr-code-scanner",
+  "nofile": true,
+  "icon": "📷",
+  "cat": "qr"
+ },
+ {
+  "id": "barcode",
+  "slug": "barcode-generator",
+  "nofile": true,
+  "icon": "▥",
+  "cat": "qr"
+ },
+ {
+  "id": "bc_ean13",
+  "impl": "barcode",
+  "tpl": "bctype",
+  "slug": "ean-13-barcode-generator",
+  "nofile": true,
+  "icon": "▥",
+  "cat": "qr",
+  "vars": {
+   "format": "EAN13"
+  }
+ },
+ {
+  "id": "bc_upc",
+  "impl": "barcode",
+  "tpl": "bctype",
+  "slug": "upc-barcode-generator",
+  "nofile": true,
+  "icon": "▥",
+  "cat": "qr",
+  "vars": {
+   "format": "UPC"
+  }
+ },
+ {
+  "id": "bc_code39",
+  "impl": "barcode",
+  "tpl": "bctype",
+  "slug": "code-39-barcode-generator",
+  "nofile": true,
+  "icon": "▥",
+  "cat": "qr",
+  "vars": {
+   "format": "CODE39"
+  }
  }
 ]
