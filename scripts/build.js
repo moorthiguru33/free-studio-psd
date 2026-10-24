@@ -95,9 +95,13 @@ for(const impl of new Set(tools.map(x=>x.impl||x.id))){const src=fs.readFileSync
 for(const f of fs.readdirSync(R('src/public')))cp('src/public/'+f,f);
 const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js','fontkit.umd.min.js':'node_modules/@cantoo/fontkit/dist/fontkit.umd.min.js',
  'qrcode.js':'node_modules/qrcode-generator/dist/qrcode.js','jsQR.js':'node_modules/jsqr/dist/jsQR.js','JsBarcode.all.min.js':'node_modules/jsbarcode/dist/JsBarcode.all.min.js',
+ 'marked.umd.js':'node_modules/marked/lib/marked.umd.js','tesseract/tesseract.min.js':'node_modules/tesseract.js/dist/tesseract.min.js','tesseract/worker.min.js':'node_modules/tesseract.js/dist/worker.min.js',
  'pako.min.js':'node_modules/pako/dist/pako.min.js','UPNG.js':'node_modules/upng-js/UPNG.js','UTIF.js':'node_modules/utif/UTIF.js','heic2any.min.js':'node_modules/heic2any/dist/heic2any.min.js','imagetracer.js':'node_modules/imagetracerjs/imagetracer_v1.2.6.js','face-api.min.js':'node_modules/@vladmandic/face-api/dist/face-api.js','avif_enc.wasm':'node_modules/@jsquash/avif/codec/enc/avif_enc.wasm'};
 const MODELS={'face/tiny_face_detector_model-weights_manifest.json':'node_modules/@vladmandic/face-api/model/tiny_face_detector_model-weights_manifest.json','face/tiny_face_detector_model.bin':'node_modules/@vladmandic/face-api/model/tiny_face_detector_model.bin'};
 for(const k in MODELS)cp(MODELS[k],'models/'+k);
+for(const f of fs.readdirSync(R('node_modules/tesseract.js-core')))if(/lstm\.wasm\.js$/.test(f))cp('node_modules/tesseract.js-core/'+f,'vendor/tesseract/'+f);
+// large model files are fetched by scripts/fetch-models.sh (not in git)
+if(fs.existsSync(R('models')))for(const f of fs.readdirSync(R('models'),{recursive:true}))if(fs.statSync(R('models/'+f)).isFile())cp('models/'+f,'models/'+f);
 // ESM-only libraries are bundled into small IIFE globals
 for(const f of fs.readdirSync(R('scripts/vendor')))esbuild.buildSync({entryPoints:[R('scripts/vendor/'+f)],bundle:true,minify:true,format:'iife',outfile:path.join(OUT,'vendor',f),logLevel:'error',platform:'browser'});
 for(const k in V)cp(V[k],'vendor/'+k);

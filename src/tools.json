@@ -833,5 +833,197 @@
   "vars": {
    "format": "CODE39"
   }
+ },
+ {
+  "id": "booklet",
+  "slug": "create-booklet-pdf",
+  "cat": "organize",
+  "icon": "📖",
+  "accept": ".pdf"
+ },
+ {
+  "id": "halve",
+  "slug": "split-pdf-pages-in-half",
+  "cat": "organize",
+  "icon": "✂",
+  "accept": ".pdf"
+ },
+ {
+  "id": "overlay",
+  "slug": "overlay-pdf",
+  "cat": "edit",
+  "icon": "🗐",
+  "accept": ".pdf",
+  "multiple": true
+ },
+ {
+  "id": "pagesize",
+  "slug": "change-pdf-page-size",
+  "cat": "edit",
+  "icon": "📐",
+  "accept": ".pdf"
+ },
+ {
+  "id": "resizepdf",
+  "slug": "resize-pdf",
+  "cat": "edit",
+  "icon": "↔",
+  "accept": ".pdf",
+  "impl": "pagesize"
+ },
+ {
+  "id": "rasterize",
+  "slug": "rasterize-pdf",
+  "cat": "convert",
+  "icon": "▦",
+  "accept": ".pdf"
+ },
+ {
+  "id": "webopt",
+  "slug": "optimize-pdf-for-web",
+  "cat": "optimize",
+  "icon": "🌐",
+  "accept": ".pdf"
+ },
+ {
+  "id": "removemeta",
+  "slug": "remove-pdf-metadata",
+  "cat": "security",
+  "icon": "🧹",
+  "accept": ".pdf"
+ },
+ {
+  "id": "passgen",
+  "slug": "password-generator",
+  "cat": "security",
+  "icon": "🔑",
+  "nofile": true
+ },
+ {
+  "id": "searchpdf",
+  "slug": "search-pdf",
+  "cat": "edit",
+  "icon": "🔍",
+  "accept": ".pdf",
+  "multiple": true
+ },
+ {
+  "id": "viewerprefs",
+  "slug": "pdf-viewer-preferences",
+  "cat": "edit",
+  "icon": "👁",
+  "accept": ".pdf"
+ },
+ {
+  "id": "invoice",
+  "slug": "invoice-generator",
+  "cat": "convert",
+  "icon": "🧾",
+  "nofile": true
+ },
+ {
+  "id": "camera2pdf",
+  "slug": "camera-to-pdf",
+  "cat": "convert",
+  "icon": "📷",
+  "nofile": true
+ },
+ {
+  "id": "txt2pdf",
+  "slug": "text-to-pdf",
+  "cat": "convert",
+  "icon": "📝",
+  "accept": ".txt,.md,.rtf,text/plain",
+  "multiple": true
+ },
+ {
+  "id": "md2pdf",
+  "slug": "markdown-to-pdf",
+  "cat": "convert",
+  "icon": "Ⓜ",
+  "accept": ".md,.markdown,.txt",
+  "multiple": true,
+  "impl": "txt2pdf",
+  "vars": {
+   "from": "md"
+  }
+ },
+ {
+  "id": "rtf2pdf",
+  "slug": "rtf-to-pdf",
+  "cat": "convert",
+  "icon": "📄",
+  "accept": ".rtf",
+  "multiple": true,
+  "impl": "txt2pdf",
+  "vars": {
+   "from": "rtf"
+  }
+ },
+ {
+  "id": "pdf2txt",
+  "slug": "pdf-to-text",
+  "cat": "convert",
+  "icon": "🔤",
+  "accept": ".pdf",
+  "impl": "pdfextract",
+  "vars": {
+   "to": "txt"
+  }
+ },
+ {
+  "id": "pdf2html",
+  "slug": "pdf-to-html",
+  "cat": "convert",
+  "icon": "🌍",
+  "accept": ".pdf",
+  "impl": "pdfextract",
+  "vars": {
+   "to": "html"
+  }
+ },
+ {
+  "id": "pdf2md",
+  "slug": "pdf-to-markdown",
+  "cat": "convert",
+  "icon": "Ⓜ",
+  "accept": ".pdf",
+  "impl": "pdfextract",
+  "vars": {
+   "to": "md"
+  }
+ },
+ {
+  "id": "pdf2svg",
+  "slug": "pdf-to-svg",
+  "cat": "convert",
+  "icon": "✒",
+  "accept": ".pdf"
+ },
+ {
+  "id": "pdf2tiff",
+  "slug": "pdf-to-tiff",
+  "cat": "convert",
+  "icon": "🖼",
+  "accept": ".pdf"
+ },
+ {
+  "id": "ocrpdf",
+  "slug": "ocr-pdf",
+  "cat": "convert",
+  "icon": "🔎",
+  "accept": ".pdf",
+  "impl": "ocr",
+  "vars": {
+   "pdf": 1
+  }
+ },
+ {
+  "id": "ocr",
+  "slug": "image-to-text",
+  "cat": "ai",
+  "icon": "🔡",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.bmp,.webp",
+  "multiple": true
  }
 ]

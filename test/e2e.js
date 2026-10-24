@@ -110,4 +110,29 @@ await run('qr-scan','qr-code-scanner',[path.join(OUT,'qr-url.png')],{check:async
 await run('barcode-ean','ean-13-barcode-generator',[],{check:async(b,fp)=>{const i=UPNG.decode(b);return 'PNG '+i.width+'x'+i.height}});
 await run('barcode-ta','barcode-generator',[],{lang:'ta/',opts:{bval:'தவறு'},check:async b=>{throw new Error('should reject')}}).then(()=>{const r=results[results.length-1];if(r&&r[1]==='barcode-ta'&&r[0]==='FAIL'&&!/should/.test(r[2])){r[0]='PASS';r[2]='invalid rejected: '+r[2].slice(0,50);}});
 
+// ---- Group 3: PDF extras + OCR
+const pinfo=fp=>execFileSync('pdfinfo',[fp]).toString();
+await run('booklet','create-booklet-pdf',['sample.pdf'],{check:async(b,fp)=>{const n=await pages(b);if(n!==4)throw new Error('pages '+n);return '5→8 pages imposed on 4 sheet sides'}});
+await run('halve','split-pdf-pages-in-half',['sample.pdf'],{check:async b=>{const n=await pages(b);if(n!==10)throw new Error(n);return '10 pages'}});
+await run('overlay','overlay-pdf',['sample.pdf','second.pdf'],{check:async(b,fp)=>{const t=ptxt(fp,['-f','1','-l','1']);if(!/Sample page 1/.test(t))throw new Error(t.slice(0,100));return 'pages '+await pages(b)}});
+await run('pagesize','change-pdf-page-size',['sample.pdf'],{opts:{psz:'letter'},check:async(b,fp)=>{if(!/612 x 792/.test(pinfo(fp)))throw new Error(pinfo(fp));return 'letter'}});
+await run('resizepdf-hi','resize-pdf',['second.pdf'],{lang:'hi/',opts:{psz:'a5'},check:async(b,fp)=>{if(!/419\.5\d* x 595/.test(pinfo(fp)))throw new Error(pinfo(fp).match(/Page size.*/)[0]);return 'A5'}});
+await run('rasterize','rasterize-pdf',['sample.pdf'],{check:async(b,fp)=>{if(ptxt(fp).trim())throw new Error('text remains');return 'image-only, pages '+await pages(b)}});
+await run('webopt','optimize-pdf-for-web',['sample.pdf'],{check:async b=>{isPdf(b);return b.length+' bytes'}});
+await run('removemeta','remove-pdf-metadata',[path.join(OUT,'metadata-sample-metadata.pdf')],{check:async(b,fp)=>{const i=pinfo(fp);if(/Title:\s+My Title|Author:\s+Guru/.test(i))throw new Error('meta remains');return 'meta stripped'}});
+await run('passgen','password-generator',[],{opts:{pglen:'24',pgcount:'5'},check:async b=>{const l=b.toString().trim().split('\n');if(l.length!==5||l.some(x=>x.length!==24))throw new Error(l);return '5×24 chars'}});
+await run('searchpdf','search-pdf',['sample.pdf','second.pdf'],{opts:{sq:'fox'},check:async b=>{const n=b.toString().trim().split('\n').length-1;if(n<1)throw new Error('no hits');return n+' hits'}});
+await run('viewerprefs','pdf-viewer-preferences',['sample.pdf'],{opts:{vlayout:'TwoColumnLeft'},check:async b=>{if(!b.toString('latin1').includes('TwoColumnLeft'))throw new Error('no layout');return 'layout set'}});
+await run('invoice','invoice-generator',[],{before:async p=>{await p.fill('#ifrom','ACME Ltd');await p.fill('#ito','Client Co');await p.fill('#iitems','Design | 2 | 150\nHosting | 1 | 99.5');},check:async(b,fp)=>{const t=ptxt(fp);if(!t.includes('399.5')&&!t.includes('399.50'))throw new Error(t.slice(0,300));return 'total 399.50'}});
+await run('camera2pdf','camera-to-pdf',[],{before:async p=>{await p.setInputFiles('#cfile',[S('face.jpg'),S('ocr.png')]);await p.waitForTimeout(800);},check:async b=>{const n=await pages(b);if(n!==2)throw new Error(n);return '2 pages'}});
+await run('txt2pdf','text-to-pdf',['notes.txt'],{check:async(b,fp)=>{const t=ptxt(fp);if(!t.includes('Second paragraph'))throw new Error(t);return 'ok, fonts: '+(execFileSync('pdffonts',[fp]).toString().match(/Noto\w+/g)||[]).join(',')}});
+await run('md2pdf','markdown-to-pdf',['notes.md'],{check:async(b,fp)=>{const t=ptxt(fp);if(!t.includes('Report Title')||!t.includes('beta')||t.includes('**'))throw new Error(t);return 'md rendered'}});
+await run('rtf2pdf','rtf-to-pdf',['notes.rtf'],{check:async(b,fp)=>{const t=ptxt(fp);if(!t.includes('Hello')||!t.includes('Second para')||t.includes('rtf1'))throw new Error(t);return 'rtf ok'}});
+await run('pdf2txt','pdf-to-text',['sample.pdf'],{check:async b=>{if(!b.toString().includes('quick brown fox'))throw new Error('no text');return b.length+' chars'}});
+await run('pdf2html','pdf-to-html',['sample.pdf'],{check:async b=>{const h=b.toString();if(!h.includes('<p')||!h.includes('fox'))throw new Error('bad html');return 'html ok'}});
+await run('pdf2md-ta','pdf-to-markdown',['sample.pdf'],{lang:'ta/',check:async b=>{if(!b.toString().includes('fox'))throw new Error('bad');return 'md ok'}});
+await run('pdf2svg','pdf-to-svg',['second.pdf'],{check:async b=>{const s=b.toString();if(!s.includes('<svg'))throw new Error('not svg: '+s.slice(0,40));return 'svg '+b.length+' bytes'}});
+await run('pdf2tiff','pdf-to-tiff',['sample.pdf'],{opts:{tdpi:'100'},check:async(b,fp)=>{const n=execFileSync('/tmp/hv/bin/python',['-c','import sys;from PIL import Image;i=Image.open(sys.argv[1]);print(i.n_frames,i.size)',fp]).toString().trim();if(!n.startsWith('5 '))throw new Error(n);return 'frames,size '+n}});
+await run('ocr','image-to-text',['ocr.png'],{check:async b=>{const t=b.toString();if(!/quick brown fox/i.test(t)||!/lazy/.test(t))throw new Error(t);return JSON.stringify(t.trim().slice(0,50))}});
+await run('ocrpdf','ocr-pdf',['scan.pdf'],{check:async(b,fp)=>{const t=ptxt(fp);if(!/quick brown/i.test(t))throw new Error('no text layer: '+t);return 'searchable: '+JSON.stringify(t.trim().slice(0,40))}});
 await browser.close();for(const r of results)console.log(r.join('  |  '));process.exit(results.some(r=>r[0]==='FAIL')?1:0);})();
