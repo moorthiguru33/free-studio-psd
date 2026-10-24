@@ -1,0 +1,7 @@
+// @needs media
+// Audio converter / video→MP3 / audio compressor. Decode with WebAudio, encode MP3 (lamejs) or WAV.
+const first=(arr,k)=>{const i=arr.findIndex(o=>o[0]===k);return i>0?[arr[i],...arr.slice(0,i),...arr.slice(i+1)]:arr;};
+TOOLS.audioconv={noAdv:false,opts(){const V=this.vars||{};return sel('aofmt',T.o_format||'Format',first([['mp3','MP3'],['wav','WAV']],V.to||'mp3'))+sel('akbps',T.o_bitrate||'Quality (bitrate)',first([['128','128 kbps · '+(T.o_aStd||'standard')],['192','192 kbps · '+(T.o_aHigh||'high')],['320','320 kbps · '+(T.o_aBest||'best')],['96','96 kbps · '+(T.o_aSmall||'smaller')],['64','64 kbps · '+(T.o_aSmallest||'smallest')]],V.kbps||'128'))+sel('amono',T.o_channels||'Channels',first([['0',T.o_stereo||'Keep stereo'],['1',T.o_mono||'Mono (smaller)']],V.mono||'0'))+sel('arate',T.o_srate||'Sample rate',[['0',T.o_keep||'Keep'],['44100','44.1 kHz'],['22050','22 kHz (voice)']]);},
+ async run(files,status){const items=[];for(const [i,f] of files.entries()){status(`${T.working} ${i+1}/${files.length}`);const buf=await decodeAudio(f);const s=sliceAudio(buf,0,0,{mono:v('amono')==='1',rate:+v('arate')||0});
+  const fmt=v('aofmt');const blob=fmt==='wav'?wavBlob(s):await mp3Blob(s,+v('akbps')||128,status);items.push({blob,name:base(f.name)+'.'+fmt,info:`${fmtT(buf.duration)} · ${fmtSize(f.size)} → ${fmtSize(blob.size)}`});}
+  const r=await zipOrOne(items,'audio.zip');r.view=items.length===1?`<audio controls src="${URL.createObjectURL(items[0].blob)}" style="width:100%;margin-top:10px"></audio>`:'';return r;}};

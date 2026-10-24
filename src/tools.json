@@ -1053,5 +1053,147 @@
   "accept": "image/*,.heic,.heif,.tif,.tiff,.bmp,.webp",
   "multiple": true,
   "maxmb": 40
+ },
+ {
+  "id": "video2mp3",
+  "impl": "audioconv",
+  "slug": "mp4-to-mp3",
+  "accept": "video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": true,
+  "icon": "🎵",
+  "cat": "media",
+  "maxmb": 500,
+  "vars": {
+   "to": "mp3"
+  }
+ },
+ {
+  "id": "audioconv",
+  "slug": "audio-converter",
+  "accept": "audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.wma,video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": true,
+  "icon": "🎧",
+  "cat": "media",
+  "maxmb": 300
+ },
+ {
+  "id": "wav2mp3",
+  "impl": "audioconv",
+  "slug": "wav-to-mp3",
+  "accept": "audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.wma",
+  "multiple": true,
+  "icon": "🎧",
+  "cat": "media",
+  "maxmb": 300,
+  "vars": {
+   "to": "mp3"
+  }
+ },
+ {
+  "id": "mp32wav",
+  "impl": "audioconv",
+  "slug": "mp3-to-wav",
+  "accept": "audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.wma",
+  "multiple": true,
+  "icon": "🎧",
+  "cat": "media",
+  "maxmb": 300,
+  "vars": {
+   "to": "wav"
+  }
+ },
+ {
+  "id": "audiocompress",
+  "impl": "audioconv",
+  "slug": "compress-mp3",
+  "accept": "audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.wma",
+  "multiple": true,
+  "icon": "🗜️",
+  "cat": "media",
+  "maxmb": 300,
+  "vars": {
+   "to": "mp3",
+   "kbps": "64",
+   "mono": "1"
+  }
+ },
+ {
+  "id": "audiocut",
+  "slug": "audio-cutter",
+  "accept": "audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.wma,video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": false,
+  "icon": "✂️",
+  "cat": "media",
+  "maxmb": 300
+ },
+ {
+  "id": "videotrim",
+  "impl": "videoedit",
+  "slug": "trim-video",
+  "accept": "video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": false,
+  "icon": "✂️",
+  "cat": "media",
+  "maxmb": 1000,
+  "vars": {
+   "mode": "trim"
+  }
+ },
+ {
+  "id": "videocrop",
+  "impl": "videoedit",
+  "slug": "crop-video",
+  "accept": "video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": false,
+  "icon": "🔲",
+  "cat": "media",
+  "maxmb": 1000,
+  "vars": {
+   "mode": "crop"
+  }
+ },
+ {
+  "id": "videocompress",
+  "impl": "videoedit",
+  "slug": "compress-video",
+  "accept": "video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": true,
+  "icon": "🗜️",
+  "cat": "media",
+  "maxmb": 1000,
+  "vars": {
+   "mode": "compress"
+  }
+ },
+ {
+  "id": "videomute",
+  "impl": "videoedit",
+  "slug": "mute-video",
+  "accept": "video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": true,
+  "icon": "🔇",
+  "cat": "media",
+  "maxmb": 1000,
+  "vars": {
+   "mode": "mute"
+  }
+ },
+ {
+  "id": "video2gif",
+  "slug": "video-to-gif",
+  "accept": "video/*,.mp4,.mov,.webm,.mkv,.m4v",
+  "multiple": false,
+  "icon": "🎞️",
+  "cat": "media",
+  "maxmb": 500
+ },
+ {
+  "id": "gif2mp4",
+  "slug": "gif-to-mp4",
+  "accept": "image/gif,.gif",
+  "multiple": true,
+  "icon": "🎬",
+  "cat": "media",
+  "maxmb": 100
  }
 ]

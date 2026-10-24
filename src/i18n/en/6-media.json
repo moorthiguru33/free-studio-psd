@@ -1,0 +1,276 @@
+{
+ "ui": {
+  "o_bitrate": "Quality (bitrate)",
+  "o_aStd": "standard",
+  "o_aHigh": "high",
+  "o_aBest": "best",
+  "o_aSmall": "smaller",
+  "o_aSmallest": "smallest",
+  "o_channels": "Channels",
+  "o_stereo": "Keep stereo",
+  "o_mono": "Mono (smaller)",
+  "o_srate": "Sample rate",
+  "o_keep": "Keep",
+  "o_start": "Start (m:ss)",
+  "o_end": "End (m:ss)",
+  "o_fade": "Fade in/out",
+  "o_loadingAudio": "Reading audio…",
+  "o_cutHint": "Click the waveform to set the start, click again (or Shift+click) to set the end.",
+  "o_duration": "Length",
+  "o_badRange": "End must be after start.",
+  "o_noAudio": "Could not read audio from this file.",
+  "o_noWebCodecs": "Your browser does not support video processing (WebCodecs). Please use a recent Chrome, Edge or Safari 17+.",
+  "o_cropTo": "Crop to",
+  "o_square": "square",
+  "o_quality": "Quality",
+  "o_vHigh": "High quality",
+  "o_vMed": "Recommended (smaller)",
+  "o_vLow": "Strong compression",
+  "o_vVlow": "Extreme (smallest)",
+  "o_resolution": "Resolution",
+  "o_audio": "Sound",
+  "o_mute": "Remove sound",
+  "o_setStart": "Set start here",
+  "o_setEnd": "Set end here",
+  "o_noVideo": "No video track found in this file.",
+  "o_noCodec": "This browser cannot encode this video.",
+  "o_lengthS": "Length (seconds)",
+  "o_fps": "Frames per second",
+  "o_width": "Width",
+  "o_repeat": "Repeat"
+ },
+ "tools": {
+  "video2mp3": {
+   "name": "MP4 to MP3",
+   "short": "Extract the audio track from any video.",
+   "title": "MP4 to MP3 Converter – Extract Audio from Video Free | {brand}",
+   "desc": "Convert MP4, MOV, WEBM and MKV videos to MP3 in your browser. Choose 64–320 kbps. Free, no upload, no sign-up, no watermark.",
+   "h1": "Convert MP4 to MP3",
+   "steps": [
+    "Select one or more videos.",
+    "Pick the MP3 quality.",
+    "Download your MP3."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    },
+    {
+     "q": "Which videos work?",
+     "a": "Any video your browser can play – MP4, MOV, WEBM and most MKV files."
+    }
+   ]
+  },
+  "audioconv": {
+   "name": "Audio Converter",
+   "short": "Convert between MP3, WAV, M4A, OGG, FLAC.",
+   "title": "Audio Converter – MP3, WAV, M4A, OGG, FLAC Free Online | {brand}",
+   "desc": "Convert audio files to MP3 or WAV right in your browser. Supports M4A, AAC, OGG, OPUS, FLAC and video files. Free and private.",
+   "h1": "Audio Converter",
+   "steps": [
+    "Select audio files.",
+    "Choose MP3 or WAV and the quality.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "wav2mp3": {
+   "name": "WAV to MP3",
+   "short": "Shrink WAV recordings into MP3.",
+   "title": "WAV to MP3 Converter – Free, Fast, No Upload | {brand}",
+   "desc": "Convert WAV to MP3 (128–320 kbps) instantly in your browser. Batch convert, no upload, no limits.",
+   "h1": "Convert WAV to MP3",
+   "steps": [
+    "Select WAV files.",
+    "Pick a bitrate.",
+    "Download the MP3."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "mp32wav": {
+   "name": "MP3 to WAV",
+   "short": "Convert MP3 to uncompressed WAV.",
+   "title": "MP3 to WAV Converter – Free Online, No Upload | {brand}",
+   "desc": "Convert MP3 files to 16-bit WAV in your browser for editing software and DJ tools.",
+   "h1": "Convert MP3 to WAV",
+   "steps": [
+    "Select MP3 files.",
+    "Keep WAV selected.",
+    "Download the WAV."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "audiocompress": {
+   "name": "Compress MP3",
+   "short": "Make audio files smaller.",
+   "title": "Compress MP3 & Audio Files – Reduce Size Free | {brand}",
+   "desc": "Reduce MP3, WAV and M4A file size by lowering the bitrate, switching to mono or lowering the sample rate. Great for WhatsApp and email.",
+   "h1": "Compress Audio Files",
+   "steps": [
+    "Select audio files.",
+    "Choose bitrate and mono.",
+    "Download the smaller file."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    },
+    {
+     "q": "How much smaller?",
+     "a": "64 kbps mono is typically 4–5× smaller than a 256 kbps stereo MP3 – fine for speech."
+    }
+   ]
+  },
+  "audiocut": {
+   "name": "Audio Cutter",
+   "short": "Trim songs and make ringtones.",
+   "title": "Audio Cutter – Trim MP3 & Make Ringtones Free Online | {brand}",
+   "desc": "Cut MP3, WAV, M4A and more with a visual waveform. Add fade in/out, export MP3 or WAV. Free ringtone maker.",
+   "h1": "Cut Audio Online",
+   "steps": [
+    "Select an audio file.",
+    "Click the waveform to set start and end.",
+    "Download the clip."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "videotrim": {
+   "name": "Trim Video",
+   "short": "Cut the start and end of a video.",
+   "title": "Trim Video Online – Cut MP4 Free, No Watermark | {brand}",
+   "desc": "Trim MP4, MOV and WEBM videos in your browser. Set start and end while watching. No upload, no watermark.",
+   "h1": "Trim Video",
+   "steps": [
+    "Select a video.",
+    "Set the start and end.",
+    "Download the trimmed MP4."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    },
+    {
+     "q": "Is it fast?",
+     "a": "With High quality and no resizing, the video is copied without re-encoding when possible."
+    }
+   ]
+  },
+  "videocrop": {
+   "name": "Crop Video",
+   "short": "Crop to square, 9:16 or 16:9.",
+   "title": "Crop Video Online – Square, 9:16 for Reels & Shorts | {brand}",
+   "desc": "Crop videos to 1:1, 9:16, 16:9, 4:5 or 4:3 for Instagram, YouTube Shorts and TikTok. Free, private, no watermark.",
+   "h1": "Crop Video",
+   "steps": [
+    "Select a video.",
+    "Pick an aspect ratio.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Compress Video",
+   "short": "Reduce video file size.",
+   "title": "Compress Video – Reduce MP4 Size Free Online | {brand}",
+   "desc": "Compress MP4, MOV and WEBM videos in your browser. Choose quality and resolution (720p, 480p). No upload, no watermark.",
+   "h1": "Compress Video",
+   "steps": [
+    "Select videos.",
+    "Choose quality and resolution.",
+    "Download the smaller video."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    },
+    {
+     "q": "Why does it take a while?",
+     "a": "The video is re-encoded on your own device; long or 4K videos take time."
+    }
+   ]
+  },
+  "videomute": {
+   "name": "Mute Video",
+   "short": "Remove the sound from a video.",
+   "title": "Mute Video – Remove Audio from Video Free | {brand}",
+   "desc": "Remove the audio track from MP4, MOV and WEBM videos in your browser.",
+   "h1": "Remove Audio from Video",
+   "steps": [
+    "Select videos.",
+    "Choose the format.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "video2gif": {
+   "name": "Video to GIF",
+   "short": "Turn a video clip into an animated GIF.",
+   "title": "Video to GIF Converter – MP4 to GIF Free Online | {brand}",
+   "desc": "Convert MP4, MOV and WEBM clips to animated GIFs. Choose start, length, fps and width. No watermark.",
+   "h1": "Convert Video to GIF",
+   "steps": [
+    "Select a video.",
+    "Choose start, length and size.",
+    "Download the GIF."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "gif2mp4": {
+   "name": "GIF to MP4",
+   "short": "Convert animated GIFs into video.",
+   "title": "GIF to MP4 Converter – Free, No Watermark | {brand}",
+   "desc": "Convert animated GIFs to MP4 or WebM videos – much smaller and shareable everywhere. Runs in your browser.",
+   "h1": "Convert GIF to MP4",
+   "steps": [
+    "Select GIFs.",
+    "Choose MP4 or WebM.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  }
+ }
+}

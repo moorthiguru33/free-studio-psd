@@ -1,0 +1,8 @@
+// @needs img media
+// Video → GIF: sample frames with mediabunny CanvasSink, encode with gifenc (MIT).
+TOOLS.video2gif={opts:()=>`<div class="row2">${inp('gstart',T.o_start||'Start (m:ss)','text','0:00')}${inp('glen',T.o_lengthS||'Length (seconds)','number','5','min="0.5" max="30" step="0.5"')}</div>`+sel('gfps',T.o_fps||'Frames per second',[['10','10 fps'],['15','15 fps'],['5','5 fps']])+sel('gw',T.o_width||'Width',[['480','480 px'],['320','320 px'],['640','640 px']]),
+ async run(files,status){needWC();const M=await MB();const G=await IL.gifenc();const f=files[0];const input=new M.Input({source:new M.BlobSource(f),formats:M.ALL_FORMATS});const vt=await input.getPrimaryVideoTrack();if(!vt)throw new Error(T.o_noVideo||'No video track found.');
+  const dur=await input.computeDuration();const a=Math.min(secs(v('gstart'))||0,Math.max(0,dur-0.1));const len=Math.min(+v('glen')||5,30,dur-a);const fps=+v('gfps')||10;const W=+v('gw')||480;const H=Math.round(W*vt.displayHeight/vt.displayWidth/2)*2;
+  const sink=new M.CanvasSink(vt,{width:W,height:H,fit:'fill'});const ts=[];for(let t=a;t<a+len-1e-6;t+=1/fps)ts.push(t);const g=G.GIFEncoder();let i=0;
+  for await(const wc of sink.canvasesAtTimestamps(ts)){i++;if(!wc)continue;const x=wc.canvas.getContext('2d');const id=x.getImageData(0,0,W,H).data;const pal=G.quantize(id,256);g.writeFrame(G.applyPalette(id,pal),W,H,{palette:pal,delay:Math.round(1000/fps),repeat:0});status(`${T.working} ${Math.round(i/ts.length*100)}%`);}
+  g.finish();const blob=new Blob([g.bytes()],{type:'image/gif'});return {blob,name:base(f.name)+'.gif',info:`${i} frames · ${W}×${H} · ${len.toFixed(1)} s`,view:`<img src="${URL.createObjectURL(blob)}" alt="GIF" style="max-width:100%;display:block;margin:10px auto">`};}};

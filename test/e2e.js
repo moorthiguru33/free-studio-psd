@@ -140,6 +140,19 @@ await run('bgremove','remove-background',['face.jpg'],{check:async(b,fp)=>{const
 await run('bgremove-white','remove-background',['face.jpg'],{opts:{bgout:'white'},check:async b=>{if(b[0]!==0xFF)throw new Error('not jpg');return 'jpg on white'}});
 await run('enlarge','image-enlarger',['logo.png'],{opts:{escale:'3'},check:async(b,fp)=>{const r=execFileSync('/tmp/hv/bin/python',['-c','import sys;from PIL import Image;print(Image.open(sys.argv[1]).size, Image.open(sys.argv[2]).size)',fp,S('logo.png')]).toString().trim();const m=r.match(/\((\d+), (\d+)\) \((\d+), (\d+)\)/);if(+m[1]!==3*m[3])throw new Error(r);return r}});
 await run('upscale-hi','upscale-image',['photo.webp'],{lang:'hi/',check:async b=>'ok '+b.length});
+// ---- Group Media
+const probe=fp=>execFileSync('ffprobe',['-v','error','-show_entries','stream=codec_type,codec_name,width,height:format=duration','-of','compact',fp]).toString().trim().replace(/\n/g,' ; ');
+await run('video2mp3','mp4-to-mp3',['clip.mp4'],{check:async(b,fp)=>{const r=probe(fp);if(!/codec_name=mp3/.test(r))throw new Error(r);return r}});
+await run('wav2mp3','wav-to-mp3',['tone.wav'],{check:async(b,fp)=>{const r=probe(fp);if(!/mp3/.test(r))throw new Error(r);return r}});
+await run('mp32wav-ta','mp3-to-wav',['tone.mp3'],{lang:'ta/',check:async(b,fp)=>{const r=probe(fp);if(!/pcm_s16le/.test(r))throw new Error(r);return r}});
+await run('audiocompress','compress-mp3',['tone.wav'],{check:async(b,fp)=>{const r=probe(fp);if(!/mp3/.test(r))throw new Error(r);return r+' '+b.length}});
+await run('audiocut','audio-cutter',['tone.mp3'],{opts:{cstart:'0:01',cend:'0:03'},check:async(b,fp)=>{const r=probe(fp);const d=+r.match(/duration=([\d.]+)/)[1];if(Math.abs(d-2)>0.2)throw new Error(r);return r}});
+await run('videotrim','trim-video',['clip.mp4'],{opts:{vstart:'0:01',vend:'0:04'},check:async(b,fp)=>{const r=probe(fp);const d=+r.match(/duration=([\d.]+)/)[1];if(Math.abs(d-3)>0.4)throw new Error(r);return r}});
+await run('videocrop','crop-video',['clip.mp4'],{opts:{vcrop:'1:1'},check:async(b,fp)=>{const r=probe(fp);if(!/width=240\|height=240/.test(r))throw new Error(r);return r}});
+await run('videocompress','compress-video',['clip.mp4'],{check:async(b,fp)=>{const r=probe(fp);if(!/h264/.test(r))throw new Error(r);return r+' '+b.length}});
+await run('videomute','mute-video',['clip.mp4'],{check:async(b,fp)=>{const r=probe(fp);if(/codec_type=audio/.test(r))throw new Error(r);return r}});
+await run('video2gif','video-to-gif',['clip.mp4'],{opts:{glen:'2'},check:async(b,fp)=>{if(String.fromCharCode(...b.slice(0,3))!=='GIF')throw new Error('not gif');return probe(fp)}});
+await run('gif2mp4','gif-to-mp4',['anim.gif'],{check:async(b,fp)=>{const r=probe(fp);if(!/h264/.test(r))throw new Error(r);return r}});
 // ---- UI polish / competitor features
 await run('split-scissors','split-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.cutb');await p.locator('.cutb[data-after="2"]').click();await p.waitForFunction(()=>/2 PDFs/.test(document.querySelector('#sprev').textContent));},check:async b=>{const z=await JSZip.loadAsync(b);const n=Object.keys(z.files);const c=[];for(const f of n)c.push(await pages(await z.file(f).async('uint8array')));if(c.join()!=='2,3')throw new Error(n+' '+c);return n.join(' ')}});
 await run('split-everyx-single','split-pdf',['sample.pdf'],{opts:{smode:'everyx',sx:'5'},check:async b=>{isPdf(b);if(await pages(b)!==5)throw new Error('bad');return 'one output → single PDF (no zip)'}});
