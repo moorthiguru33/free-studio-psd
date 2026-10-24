@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "show_placeholders": false,
   "_help": "1) Paste your AdSense loader (or other network loader) into head_scripts. 2) Paste each ad unit's HTML into its slot. 3) Set enabled to true and redeploy (copy this file to site/ads.json or run gen.py). Slots with no code collapse when enabled; set show_placeholders false to hide the labelled boxes before codes exist. Every slot is lazy-loaded when it nears the viewport and always shows an 'Advertisement' label. AdSense loader (ca-pub-9817687198003924, Auto ads) is injected into every page <head> by gen.py, so head_scripts stays empty to avoid loading it twice. Paste unit HTML into a slot once data-ad-slot IDs exist. Keep enabled=false until a slot has real unit HTML (empty enabled slots collapse after load and cause layout shift); Auto ads run from the head loader regardless. Adsterra: slot value may be a string or {\"d\":desktop>=768px,\"m\":mobile}. Iframe banners are wrapped in their own srcdoc iframe so the global atOptions never conflicts. Empty slots render no markup.",
   "head_scripts": [],
