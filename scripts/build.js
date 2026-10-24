@@ -100,5 +100,6 @@ for(const k in MODELS)cp(MODELS[k],'models/'+k);
 // ESM-only libraries are bundled into small IIFE globals
 for(const f of fs.readdirSync(R('scripts/vendor')))esbuild.buildSync({entryPoints:[R('scripts/vendor/'+f)],bundle:true,minify:true,format:'iife',outfile:path.join(OUT,'vendor',f),logLevel:'error',platform:'browser'});
 for(const k in V)cp(V[k],'vendor/'+k);
+for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);
 const n=fs.readdirSync(OUT,{recursive:true}).filter(f=>f.endsWith('.html')).length;
 console.log(`Built ${n} HTML pages for ${enabled.map(l=>l.code).join(', ')} -> dist/`);
