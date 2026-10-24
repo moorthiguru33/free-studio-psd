@@ -1311,5 +1311,172 @@
   "vars": {
    "mode": "unzip"
   }
+ },
+ {
+  "id": "units",
+  "slug": "unit-converter",
+  "cat": "units",
+  "icon": "📏",
+  "nofile": true
+ },
+ {
+  "id": "ulength",
+  "impl": "units",
+  "slug": "length-converter",
+  "cat": "units",
+  "icon": "📏",
+  "nofile": true,
+  "vars": {
+   "cat": "length",
+   "from": "m",
+   "to": "ft"
+  }
+ },
+ {
+  "id": "umass",
+  "impl": "units",
+  "slug": "weight-converter",
+  "cat": "units",
+  "icon": "⚖️",
+  "nofile": true,
+  "vars": {
+   "cat": "mass",
+   "from": "kg",
+   "to": "lb"
+  }
+ },
+ {
+  "id": "utemp",
+  "impl": "units",
+  "slug": "temperature-converter",
+  "cat": "units",
+  "icon": "🌡️",
+  "nofile": true,
+  "vars": {
+   "cat": "temp",
+   "from": "°C",
+   "to": "°F"
+  }
+ },
+ {
+  "id": "uarea",
+  "impl": "units",
+  "slug": "area-converter",
+  "cat": "units",
+  "icon": "📐",
+  "nofile": true,
+  "vars": {
+   "cat": "area",
+   "from": "acre",
+   "to": "cent"
+  }
+ },
+ {
+  "id": "udata",
+  "impl": "units",
+  "slug": "data-storage-converter",
+  "cat": "units",
+  "icon": "💾",
+  "nofile": true,
+  "vars": {
+   "cat": "data",
+   "from": "GB",
+   "to": "MB"
+  }
+ },
+ {
+  "id": "cm2in",
+  "impl": "units",
+  "slug": "cm-to-inches",
+  "cat": "units",
+  "icon": "📏",
+  "nofile": true,
+  "vars": {
+   "cat": "length",
+   "from": "cm",
+   "to": "in"
+  }
+ },
+ {
+  "id": "kg2lb",
+  "impl": "units",
+  "slug": "kg-to-lbs",
+  "cat": "units",
+  "icon": "⚖️",
+  "nofile": true,
+  "vars": {
+   "cat": "mass",
+   "from": "kg",
+   "to": "lb"
+  }
+ },
+ {
+  "id": "c2f",
+  "impl": "units",
+  "slug": "celsius-to-fahrenheit",
+  "cat": "units",
+  "icon": "🌡️",
+  "nofile": true,
+  "vars": {
+   "cat": "temp",
+   "from": "°C",
+   "to": "°F"
+  }
+ },
+ {
+  "id": "lakh2m",
+  "impl": "units",
+  "slug": "lakh-to-million",
+  "cat": "units",
+  "icon": "🔢",
+  "nofile": true,
+  "vars": {
+   "cat": "number",
+   "from": "lakh",
+   "to": "million"
+  }
+ },
+ {
+  "id": "timezone",
+  "slug": "time-zone-converter",
+  "cat": "units",
+  "icon": "🌍",
+  "nofile": true
+ },
+ {
+  "id": "ist2est",
+  "impl": "timezone",
+  "slug": "ist-to-est",
+  "cat": "units",
+  "icon": "🌍",
+  "nofile": true,
+  "vars": {
+   "from": "Asia/Kolkata",
+   "to": "America/New_York,UTC,Europe/London"
+  }
+ },
+ {
+  "id": "ist2pst",
+  "impl": "timezone",
+  "slug": "ist-to-pst",
+  "cat": "units",
+  "icon": "🌍",
+  "nofile": true,
+  "vars": {
+   "from": "Asia/Kolkata",
+   "to": "America/Los_Angeles,UTC,America/New_York"
+  }
+ },
+ {
+  "id": "utc2ist",
+  "impl": "timezone",
+  "slug": "utc-to-ist",
+  "cat": "units",
+  "icon": "🌍",
+  "nofile": true,
+  "vars": {
+   "from": "UTC",
+   "to": "Asia/Kolkata,Europe/London,America/New_York"
+  }
  }
 ]

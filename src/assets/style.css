@@ -82,3 +82,4 @@ ul.files .nm{font-size:.82rem;font-weight:600;white-space:nowrap;overflow:hidden
 .preview canvas{max-height:75vh;width:auto}
 .checker img{background:repeating-conic-gradient(#ddd 0 25%,#fff 0 50%) 0 0/20px 20px;max-width:100%;border-radius:8px;margin:4px}
 .dtab{border-collapse:collapse;font-size:13px}.dtab th,.dtab td{border:1px solid #dde3ec;padding:4px 8px;text-align:left;white-space:nowrap;max-width:240px;overflow:hidden;text-overflow:ellipsis}.dtab th{background:#f3f6fb}.zlist{list-style:none;padding:0;max-height:50vh;overflow:auto;text-align:left}.zlist li{padding:4px 0;border-bottom:1px solid #eef1f6}
+.ubig{font-size:1.6rem;font-weight:700;margin:8px 0 12px;word-break:break-word}.tzout{display:grid;gap:8px;margin-top:8px}.tzrow{display:grid;grid-template-columns:1fr;padding:10px 12px;border:1px solid #dde3ec;border-radius:10px}.tzrow.src{background:#f3f7ff}.tzrow span{font-size:1.15rem;font-weight:600}.tzrow small{color:#667}

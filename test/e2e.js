@@ -162,6 +162,14 @@ await run('excel2json','excel-to-json',['data.xlsx'],{check:async b=>'zip '+b.le
 await run('json2csv','json-to-csv',['data.json'],{check:async b=>{const t=Buffer.from(b).toString();if(!/address\.city/.test(t)||!/"Delhi, NCR"/.test(t))throw new Error(t);return t.split('\n')[0]}});
 await run('zipcreate','create-zip',['logo.png','notes.txt'],{check:async(b,fp)=>{const r=execFileSync('unzip',['-l',fp]).toString();if(!/logo.png/.test(r))throw new Error(r);return 'ok'}});
 await run('unzip','unzip-files',['sample.zip'],{noDownload:true,check:async(b,fp,page)=>{const n=await page.locator('.zlist a').count();if(n!==2)throw new Error('files '+n);return n+' files listed'}});
+// ---- Group Units
+const txt=b=>Buffer.from(b).toString();
+await run('cm2in','cm-to-inches',[],{opts:{uval:'10'},check:async b=>{const t=txt(b);if(!/^10 cm = 3\.93700787 in/.test(t))throw new Error(t.split('\n')[0]);return t.split('\n')[0]}});
+await run('c2f-ta','celsius-to-fahrenheit',[],{lang:'ta/',opts:{uval:'37'},check:async b=>{const t=txt(b);if(!/= 98\.6 °F/.test(t))throw new Error(t.split('\n')[0]);return t.split('\n')[0]}});
+await run('units-area','unit-converter',[],{opts:{ucat:'area',uval:'1',ufrom:'acre',uto:'ft²'},check:async b=>{const t=txt(b);if(!/= 43,560 ft²/.test(t))throw new Error(t.split('\n')[0]);return t.split('\n')[0]}});
+await run('lakh2m-hi','lakh-to-million',[],{lang:'hi/',opts:{uval:'25'},check:async b=>{const t=txt(b);if(!/= 2\.5 million/.test(t))throw new Error(t.split('\n')[0]);return t.split('\n')[0]}});
+await run('utc2ist','utc-to-ist',[],{opts:{tzdt:'2026-01-15T10:00'},check:async b=>{const t=txt(b);if(!/Asia\/Kolkata \(UTC\+05:30\): .*3:30/.test(t))throw new Error(t);return t.split('\n')[1]}});
+await run('ist2est-dst','ist-to-est',[],{opts:{tzdt:'2026-07-01T09:00'},check:async b=>{const t=txt(b);if(!/America\/New_York \(UTC−04:00\): .*Jun 30.*11:30/.test(t))throw new Error(t);return t.split('\n')[1]}});
 // ---- UI polish / competitor features
 await run('split-scissors','split-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.cutb');await p.locator('.cutb[data-after="2"]').click();await p.waitForFunction(()=>/2 PDFs/.test(document.querySelector('#sprev').textContent));},check:async b=>{const z=await JSZip.loadAsync(b);const n=Object.keys(z.files);const c=[];for(const f of n)c.push(await pages(await z.file(f).async('uint8array')));if(c.join()!=='2,3')throw new Error(n+' '+c);return n.join(' ')}});
 await run('split-everyx-single','split-pdf',['sample.pdf'],{opts:{smode:'everyx',sx:'5'},check:async b=>{isPdf(b);if(await pages(b)!==5)throw new Error('bad');return 'one output → single PDF (no zip)'}});
