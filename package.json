@@ -14,7 +14,6 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@breezystack/lamejs": "^1.2.7",
     "@cantoo/fontkit": "^2.0.12",
     "@cantoo/pdf-lib": "^2.11.1",
     "@jsquash/avif": "^2.1.1",
