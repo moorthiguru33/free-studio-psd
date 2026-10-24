@@ -94,6 +94,7 @@ if IMG:
   _pc=f'<link rel="preconnect" href="{IMG}">'
   # Google AdSense (Auto ads) loader, async at the end of <head> so it never competes with the LCP preloads
   _ADS='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9817687198003924" crossorigin="anonymous"></script>'
+  _CK='<div id="ckn" hidden style="position:fixed;left:12px;right:12px;bottom:72px;z-index:9999;max-width:560px;margin:auto;background:#1f2430;color:#fff;font:14px/1.4 system-ui,sans-serif;padding:10px 14px;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.3);gap:10px;align-items:center;flex-wrap:wrap">We use cookies, including from Google AdSense and other ad partners, to show and measure ads. See our <a href="/privacy/" style="color:#9cf">Privacy Policy</a>.<button type="button" onclick="try{localStorage.ckok=1}catch(e){};this.parentNode.remove()" style="margin-left:auto;background:#4f8cff;color:#fff;border:0;border-radius:6px;padding:6px 14px;cursor:pointer">OK</button></div><script>try{if(!localStorage.ckok){var c=document.getElementById("ckn");c.hidden=false;c.style.display="flex"}}catch(e){}</script>'
   for _a,_,_fs in os.walk(S):
     for _f in _fs:
       if not _f.endswith(('.html','.xml','.json')): continue
@@ -101,6 +102,7 @@ if IMG:
       _s=_s.replace(SITE+'/img/',IMG+'/img/').replace(SITE+'ZZIMGZZ','ZZIMGZZ').replace(SITE+'ZZZMZZ','ZZZMZZ').replace('="/img/','="'+IMG+'/img/').replace('"img":"/img/','"img":"'+IMG+'/img/').replace('"zm":"/img/','"zm":"'+IMG+'/img/')
       if _f.endswith('.html') and _pc not in _s: _s=_s.replace('<meta charset="utf-8">','<meta charset="utf-8">'+_pc,1)
       if _f.endswith('.html') and _ADS not in _s and '</head>' in _s: _s=_s.replace('</head>',_ADS+'</head>',1)
+      if _f.endswith('.html') and 'id="ckn"' not in _s and '</body>' in _s: _s=_s.replace('</body>',_CK+'</body>',1)
       if _s!=_o: open(_p,'w',encoding='utf-8').write(_s)
 shutil.copy('site_routes.json',S+'/_routes.json')
 # downloads: never publish raw Drive file ids; shards carry 'k' (fid XOR HMAC-SHA512 keystream), decoded only by functions/api/dl.js
