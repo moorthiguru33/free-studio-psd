@@ -1,0 +1,2 @@
+import factory from '@jsquash/avif/codec/enc/avif_enc.js';import {defaultOptions} from '@jsquash/avif/meta.js';
+let m;window.AvifEnc={async encode(img,opts={}){m=m||factory({noInitialRun:true,locateFile:()=>'/vendor/avif_enc.wasm'});const mod=await m;const out=mod.encode(new Uint8Array(img.data.buffer),img.width,img.height,{...defaultOptions,...opts});if(!out)throw new Error('AVIF encoding error');return out.buffer;}};

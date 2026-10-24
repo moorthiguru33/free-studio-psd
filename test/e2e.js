@@ -4,10 +4,10 @@ const S=f=>path.join(__dirname,'samples',f);const OUT=path.join(__dirname,'out')
 const BASE=process.env.BASE||'http://localhost:8788';const results=[];
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROME||'/usr/bin/google-chrome',args:['--no-sandbox']});
 const ctx=await browser.newContext({acceptDownloads:true,viewport:{width:390,height:844}});// mobile viewport
-async function run(name,slug,files,{opts={},before,check,lang=''}={}){const page=await ctx.newPage();const errs=[];page.on('pageerror',e=>errs.push(e.message));
+async function run(name,slug,files,{opts={},before,check,lang=''}={}){if(process.env.ONLY&&!new RegExp(process.env.ONLY).test(name))return;const page=await ctx.newPage();const errs=[];page.on('pageerror',e=>errs.push(e.message));
  const reqs=[];page.on('request',r=>{if(['POST','PUT'].includes(r.method()))reqs.push(r.url());});
  try{await page.goto(`${BASE}/${lang}${slug}/`);await page.setInputFiles('#tool input[type=file]',files.map(S2));await page.waitForSelector('#go');
-  for(const [k,v] of Object.entries(opts)){const el=page.locator('#'+k);if(await el.evaluate(e=>e.tagName)==='SELECT')await el.selectOption(v);else await el.fill(v);}
+  for(const [k,v] of Object.entries(opts)){const el=page.locator('#'+k);const tg=await el.evaluate(e=>e.tagName+(e.type||''));if(tg==='INPUTcheckbox')await el.setChecked(v==='1');else if(tg.startsWith('SELECT'))await el.selectOption(v);else await el.fill(v);}
   if(before)await before(page);
   await page.click('#go');await page.waitForSelector('#dl,.status.err',{timeout:60000});
   if(await page.$('.status.err'))throw new Error(await page.textContent('.status'));
@@ -31,7 +31,7 @@ await run('compress-strong','compress-pdf',['sample.pdf'],{opts:{level:'strong'}
 await run('compress-images','compress-pdf',[path.join(OUT,'jpg2pdf-images.pdf')],{opts:{level:'strong'},check:async b=>{isPdf(b);return b.length+' bytes (input '+fs.statSync(path.join(OUT,'jpg2pdf-images.pdf')).size+')'}});
 await run('protect','protect-pdf',['sample.pdf'],{opts:{pw:'s3cret',pw2:'s3cret'},check:async(b,fp)=>{if(!b.toString('latin1').includes('/Encrypt'))throw new Error('no /Encrypt');fs.copyFileSync(fp,path.join(OUT,'protected.pdf'));return 'encrypted'}});
 await run('unlock','unlock-pdf',[path.join(OUT,'protected.pdf')],{opts:{pw:'s3cret'},check:async b=>{if(b.toString('latin1').includes('/Encrypt'))throw new Error('still encrypted');const n=await pages(b);return 'decrypted, '+n+' pages'}});
-await run('unlock-wrongpw','unlock-pdf',[path.join(OUT,'protected.pdf')],{opts:{pw:'nope'},check:async b=>{throw new Error('should have failed')}}).then(()=>{const r=results[results.length-1];if(r[0]==='FAIL'&&!/should have/.test(r[2])){r[0]='PASS';r[2]='correctly rejected: '+r[2].slice(0,60);}});
+await run('unlock-wrongpw','unlock-pdf',[path.join(OUT,'protected.pdf')],{opts:{pw:'nope'},check:async b=>{throw new Error('should have failed')}}).then(()=>{const r=results[results.length-1];if(r&&r[0]==='FAIL'&&!/should have/.test(r[2])){r[0]='PASS';r[2]='correctly rejected: '+r[2].slice(0,60);}});
 await run('sign','sign-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.preview canvas');await p.locator('.sigpad').scrollIntoViewIfNeeded();const pad=await p.locator('.sigpad').boundingBox();await p.mouse.move(pad.x+20,pad.y+50);await p.mouse.down();for(let i=0;i<20;i++)await p.mouse.move(pad.x+20+i*12,pad.y+50+Math.sin(i)*30);await p.mouse.up();await p.selectOption('#pgsel','2');await p.waitForTimeout(300);await p.click('.preview canvas',{position:{x:100,y:300}});},check:async b=>{isPdf(b);const d=await PDFDocument.load(b);return 'signed, pages '+d.getPageCount()}});
 await run('edit','edit-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.preview canvas');await p.fill('#etxt','Hello – edited “ok”');await p.click('.preview canvas',{position:{x:60,y:60}});await p.selectOption('#emode','white');await p.click('.preview canvas',{position:{x:120,y:150}});},check:async b=>{isPdf(b);return 'edited'}});
 await run('pdf2word','pdf-to-word',['sample.pdf'],{check:async b=>{const z=await JSZip.loadAsync(b);const x=await z.file('word/document.xml').async('string');if(!x.includes('quick brown fox'))throw new Error('text missing');return (x.match(/<w:p>/g)||[]).length+' paragraphs'}});
@@ -64,5 +64,37 @@ await run('pdfa-keep','pdf-to-pdfa',['sample.pdf'],{opts:{pamode:'keep'},check:a
 await run('extract-images','extract-images-from-pdf',[path.join(OUT,'jpg2pdf-images.pdf')],{check:async b=>{const z=await JSZip.loadAsync(b);const n=Object.keys(z.files);if(n.length!==2)throw new Error(n);return n.join(' ')}});
 await run('edit-multiscript','edit-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.preview canvas');await p.fill('#etxt','Hello தமிழ் हिन्दी مرحبا Ελλάδα');await p.click('.preview canvas',{position:{x:60,y:60}});},check:async(b,fp)=>{const t=ptxt(fp,['-l','1']);if(!t.includes('Ελλάδα')||!t.includes('Hello'))throw new Error(t.slice(0,100));return 'multi-script text drawn'}});
 await run('word2pdf-unicode','word-to-pdf',['sample.docx'],{check:async(b,fp)=>{const t=ptxt(fp);if(t.includes('?????'))throw new Error('tamil lost');return 'Tamil kept, pages '+await pages(b)}});
+
+// ---- Group 1: image tools ----
+const PYI=process.env.PYI||'/tmp/hv/bin/python';
+const im=fp=>JSON.parse(execFileSync(PYI,['-c','import sys,json;from PIL import Image\ntry:\n import pillow_heif;pillow_heif.register_heif_opener()\nexcept Exception:pass\nim=Image.open(sys.argv[1]);print(json.dumps({"f":im.format,"w":im.width,"h":im.height,"n":getattr(im,"n_frames",1),"m":im.mode}))',fp]).toString());
+const want=(i,f,w,h)=>{if(i.f!==f)throw new Error('format '+i.f);if(w&&i.w!==w)throw new Error('w '+i.w);if(h&&i.h!==h)throw new Error('h '+i.h);return `${i.f} ${i.w}x${i.h}`+(i.n>1?` ${i.n} frames`:'');};
+const FW=im(S('face.jpg'));
+await run('img-compress','compress-image',['face.jpg','image.png'],{check:async b=>{const z=await JSZip.loadAsync(b);const n=Object.keys(z.files);const o=[];for(const f of n){const sz=(await z.file(f).async('nodebuffer')).length;o.push(f+':'+sz);}const fb=fs.statSync(S('face.jpg')).size;const jf=n.find(f=>/jpe?g$/i.test(f));const js=(await z.file(jf).async('nodebuffer')).length;if(js>=fb)throw new Error('not smaller');return o.join(' ')+` (jpg in ${fb})`}});
+await run('img-resize','resize-image',['face.jpg'],{opts:{rw:'300'},check:async(b,fp)=>want(im(fp),'JPEG',300,Math.round(FW.h*300/FW.w))});
+await run('img-crop','crop-image',['face.jpg'],{opts:{ratio:'1:1'},check:async(b,fp)=>{const i=im(fp);if(Math.abs(i.w-i.h)>1)throw new Error(i.w+'x'+i.h);return want(i,'JPEG')}});
+await run('img-rotate','rotate-image',['face.jpg'],{opts:{rang:'90'},check:async(b,fp)=>want(im(fp),'JPEG',FW.h,FW.w)});
+await run('img-convert-webp','image-converter',['face.jpg'],{opts:{ofmt:'webp'},check:async(b,fp)=>want(im(fp),'WEBP',FW.w,FW.h)});
+await run('png2jpg','png-to-jpg',['logo.png'],{check:async(b,fp)=>want(im(fp),'JPEG',300,300)});
+await run('webp2png','webp-to-png',['photo.webp'],{check:async(b,fp)=>want(im(fp),'PNG',FW.w,FW.h)});
+await run('jpg2avif','jpg-to-avif',['face.jpg'],{check:async(b,fp)=>{if(b.slice(4,12).toString()!=='ftypavif')throw new Error('not avif '+b.slice(4,12));return 'AVIF '+b.length+' bytes'}});
+await run('avif2jpg','avif-to-jpg',[path.join(OUT,'jpg2avif-face.avif')],{check:async(b,fp)=>want(im(fp),'JPEG',FW.w,FW.h)});
+await run('tiff2jpg','tiff-to-jpg',['photo.tiff'],{check:async(b,fp)=>want(im(fp),'JPEG',480)});
+await run('jpg2tiff','jpg-to-tiff',['face.jpg'],{check:async(b,fp)=>want(im(fp),'TIFF',FW.w,FW.h)});
+await run('bmp2jpg','bmp-to-jpg',['photo.bmp'],{check:async(b,fp)=>want(im(fp),'JPEG',480)});
+await run('png2ico','png-to-ico',['logo.png'],{check:async(b,fp)=>{const i=im(fp);if(i.f!=='ICO')throw new Error(i.f);return 'ICO '+i.w}});
+await run('png2svg','png-to-svg',['logo.png'],{check:async b=>{const t=b.toString();if(!t.includes('<svg')||!t.includes('<path'))throw new Error('no svg paths');return 'SVG '+b.length+' bytes'}});
+await run('svg2png','svg-to-png',[path.join(OUT,'png2svg-logo.svg')],{check:async(b,fp)=>want(im(fp),'PNG')});
+await run('gif2png','gif-to-png',['anim.gif'],{check:async(b,fp)=>want(im(fp),'PNG',160,120)});
+await run('heic2jpg','heic-to-jpg',['photo.heic'],{check:async(b,fp)=>want(im(fp),'JPEG',FW.w,FW.h)});
+await run('img-watermark','watermark-image',['face.jpg'],{opts:{wtext:'© Guru தமிழ்',wpos:'tile'},check:async(b,fp)=>want(im(fp),'JPEG',FW.w,FW.h)});
+await run('meme','meme-generator',['face.jpg'],{opts:{mtop:'when the build',mbot:'finally passes'},check:async(b,fp)=>want(im(fp),'JPEG',FW.w,FW.h)});
+await run('blur-face','blur-face',['face.jpg'],{before:async p=>{await p.waitForFunction(()=>/[1-9]/.test(document.querySelector('#bcount')?.textContent||''),null,{timeout:60000});},check:async(b,fp)=>want(im(fp),'JPEG',FW.w,FW.h)});
+await run('gif-maker','gif-maker',['face.jpg','logo.png','image.png'],{opts:{gw:'240'},check:async(b,fp)=>{const i=im(fp);if(i.n!==3)throw new Error('frames '+i.n);return want(i,'GIF',240)}});
+await run('image-to-gif','image-to-gif',['face.jpg','logo.png'],{check:async(b,fp)=>{const i=im(fp);if(i.n!==2)throw new Error('frames '+i.n);return want(i,'GIF')}});
+await run('favicon','favicon-generator',['logo.png'],{check:async b=>{const z=await JSZip.loadAsync(b);const n=Object.keys(z.files);for(const f of ['favicon.ico','apple-touch-icon.png','site.webmanifest'])if(!n.some(x=>x.endsWith(f)))throw new Error('missing '+f);return n.length+' files'}});
+await run('color-picker','image-color-picker',['logo.png'],{before:async p=>{await p.waitForSelector('#tool canvas');await p.locator('#tool canvas').first().click({position:{x:150,y:150}});},check:async b=>{const t=b.toString();if(!/#[0-9a-f]{6}/i.test(t))throw new Error('no hex');return t.split('\n')[0].slice(0,60)}});
+await run('collage','collage-maker',['face.jpg','logo.png','image.png','photo.webp'],{opts:{ccols:'2',cw:'1000'},check:async(b,fp)=>want(im(fp),'JPEG',1000)});
+await run('png2jpg-ta','png-to-jpg',['logo.png'],{lang:'ta/',check:async(b,fp)=>want(im(fp),'JPEG')});
 
 await browser.close();for(const r of results)console.log(r.join('  |  '));process.exit(results.some(r=>r[0]==='FAIL')?1:0);})();

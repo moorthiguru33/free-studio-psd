@@ -5,12 +5,13 @@ const site=JSON.parse(fs.readFileSync(R('src/site.json')));
 const tools=JSON.parse(fs.readFileSync(R('src/tools.json')));
 const langs=JSON.parse(fs.readFileSync(R('src/languages.json')));
 const enabled=langs.filter(l=>l.enabled&&fs.existsSync(R(`src/i18n/${l.code}.json`)));
-const load=c=>JSON.parse(fs.readFileSync(R(`src/i18n/${c}.json`)));
-const EN=load('en');
+
 // tools generated from i18n templates (e.g. "PNG to JPG") get their texts from t.templates[tpl] with {from}/{to} vars
-const toolText=(t,x)=>{if(!x.tpl)return t.tools[x.id];const fillDeep=o=>Array.isArray(o)?o.map(fillDeep):typeof o==='object'?Object.fromEntries(Object.entries(o).map(([k,v])=>[k,fillDeep(v)])):fill(o,x.vars||{});return merge(fillDeep(t.templates[x.tpl]),t.tools[x.id]||{});};
+const toolText=(t,x)=>{if(!x.tpl)return x.impl&&t.tools[x.impl]?merge(t.tools[x.impl],t.tools[x.id]||{}):t.tools[x.id];const fillDeep=o=>Array.isArray(o)?o.map(fillDeep):typeof o==='object'?Object.fromEntries(Object.entries(o).map(([k,v])=>[k,fillDeep(v)])):fill(o,x.vars||{});return merge(fillDeep(t.templates[x.tpl]),t.tools[x.id]||{});};
 // deep merge so missing keys fall back to English
 const merge=(a,b)=>{if(Array.isArray(a)||typeof a!=='object')return b===undefined?a:b;const o={...a};for(const k in b)o[k]=merge(a[k],b[k]);return o;};
+const load=c=>{let o=JSON.parse(fs.readFileSync(R(`src/i18n/${c}.json`)));const d=R(`src/i18n/${c}`);if(fs.existsSync(d))for(const f of fs.readdirSync(d).sort())o=merge(o,JSON.parse(fs.readFileSync(path.join(d,f))));return o;};
+const EN=load('en');
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const fill=(s,v)=>String(s).replace(/\{(\w+)\}/g,(m,k)=>v[k]??m);
 const OUT=R('dist');fs.rmSync(OUT,{recursive:true,force:true});fs.mkdirSync(OUT,{recursive:true});
@@ -92,8 +93,12 @@ const FPNAMES=coreSrc.match(/window\.FP=\{([^}]*)\}/)[1];fs.mkdirSync(path.join(
 for(const impl of new Set(tools.map(x=>x.impl||x.id))){const src=fs.readFileSync(R(`src/tools/${impl}.js`),'utf8');const needs=(src.match(/^\/\/ @needs (.+)$/m)||[,''])[1].split(/[ ,]+/).filter(Boolean);
   const code=`(()=>{'use strict';const {${FPNAMES}}=window.FP;\n${needs.map(n=>fs.readFileSync(R(`src/lib/${n}.js`),'utf8')).join('\n')}\n${src}\n})();`;fs.writeFileSync(path.join(OUT,`assets/t/${impl}.js`),mini(code));}
 for(const f of fs.readdirSync(R('src/public')))cp('src/public/'+f,f);
-const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js','fontkit.umd.min.js':'node_modules/@cantoo/fontkit/dist/fontkit.umd.min.js'};
-for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);
+const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js','fontkit.umd.min.js':'node_modules/@cantoo/fontkit/dist/fontkit.umd.min.js',
+ 'pako.min.js':'node_modules/pako/dist/pako.min.js','UPNG.js':'node_modules/upng-js/UPNG.js','UTIF.js':'node_modules/utif/UTIF.js','heic2any.min.js':'node_modules/heic2any/dist/heic2any.min.js','imagetracer.js':'node_modules/imagetracerjs/imagetracer_v1.2.6.js','face-api.min.js':'node_modules/@vladmandic/face-api/dist/face-api.js','avif_enc.wasm':'node_modules/@jsquash/avif/codec/enc/avif_enc.wasm'};
+const MODELS={'face/tiny_face_detector_model-weights_manifest.json':'node_modules/@vladmandic/face-api/model/tiny_face_detector_model-weights_manifest.json','face/tiny_face_detector_model.bin':'node_modules/@vladmandic/face-api/model/tiny_face_detector_model.bin'};
+for(const k in MODELS)cp(MODELS[k],'models/'+k);
+// ESM-only libraries are bundled into small IIFE globals
+for(const f of fs.readdirSync(R('scripts/vendor')))esbuild.buildSync({entryPoints:[R('scripts/vendor/'+f)],bundle:true,minify:true,format:'iife',outfile:path.join(OUT,'vendor',f),logLevel:'error',platform:'browser'});
 for(const k in V)cp(V[k],'vendor/'+k);
 const n=fs.readdirSync(OUT,{recursive:true}).filter(f=>f.endsWith('.html')).length;
 console.log(`Built ${n} HTML pages for ${enabled.map(l=>l.code).join(', ')} -> dist/`);

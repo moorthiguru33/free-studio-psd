@@ -1,0 +1,13 @@
+// @needs img
+const hx=(r,g,b)=>'#'+[r,g,b].map(n=>n.toString(16).padStart(2,'0')).join('').toUpperCase();
+const hsl=(r,g,b)=>{r/=255;g/=255;b/=255;const mx=Math.max(r,g,b),mn=Math.min(r,g,b);let h=0,s=0;const l=(mx+mn)/2;if(mx!==mn){const d=mx-mn;s=l>.5?d/(2-mx-mn):d/(mx+mn);h=mx===r?(g-b)/d+(g<b?6:0):mx===g?(b-r)/d+2:(r-g)/d+4;h*=60;}return `hsl(${Math.round(h)}, ${Math.round(s*100)}%, ${Math.round(l*100)}%)`;};
+const swatch=([r,g,b])=>`<div class="sw" style="display:flex;gap:10px;align-items:center;margin:4px 0"><span style="width:34px;height:34px;border-radius:8px;border:1px solid #ccc;background:${hx(r,g,b)}"></span><code>${hx(r,g,b)}</code><code>rgb(${r}, ${g}, ${b})</code><code>${hsl(r,g,b)}</code></div>`;
+TOOLS.colorpicker={goLabel:()=>T.o_paletteDl,
+ async setup(files){const c=await fileToCanvas(files[0]);this.c=c;this.picks=[];const sc=Math.min(1,1600/Math.max(c.width,c.height));const pv=newCanvas(c.width*sc,c.height*sc);pv.getContext('2d').drawImage(c,0,0,pv.width,pv.height);const view=canvasView(pv);view.el.style.cursor='crosshair';
+  const el=document.createElement('div');el.innerHTML=`<p class="hint" style="text-align:center">${esc(T.o_clickColor)}</p>`;el.appendChild(view.el);const out=document.createElement('div');out.id='picks';el.appendChild(out);
+  const pal=document.createElement('div');pal.innerHTML=`<h3>${esc(T.o_palette)}</h3>`+this.palette(pv).map(swatch).join('');el.appendChild(pal);
+  view.el.addEventListener('click',e=>{const [x,y]=view.toImg(e);const d=pv.getContext('2d').getImageData(Math.min(pv.width-1,x|0),Math.min(pv.height-1,y|0),1,1).data;this.picks.unshift([d[0],d[1],d[2]]);out.innerHTML=`<h3>${esc(T.o_picked)}</h3>`+this.picks.slice(0,12).map(swatch).join('');});return el;},
+ palette(c){const s=newCanvas(64,64*c.height/c.width);s.getContext('2d').drawImage(c,0,0,s.width,s.height);const d=s.getContext('2d').getImageData(0,0,s.width,s.height).data;const m=new Map();
+  for(let i=0;i<d.length;i+=4){if(d[i+3]<128)continue;const k=(d[i]>>4)<<8|(d[i+1]>>4)<<4|(d[i+2]>>4);const e=m.get(k)||{n:0,r:0,g:0,b:0};e.n++;e.r+=d[i];e.g+=d[i+1];e.b+=d[i+2];m.set(k,e);}
+  const arr=[...m.values()].sort((a,b)=>b.n-a.n).map(e=>[Math.round(e.r/e.n),Math.round(e.g/e.n),Math.round(e.b/e.n)]);const out=[];for(const c1 of arr){if(out.every(c2=>Math.abs(c1[0]-c2[0])+Math.abs(c1[1]-c2[1])+Math.abs(c1[2]-c2[2])>60))out.push(c1);if(out.length>=8)break;}return out;},
+ async run([f]){const all=[...this.picks,...this.palette(this.c)];const txt=all.map(([r,g,b])=>`${hx(r,g,b)}\trgb(${r}, ${g}, ${b})\t${hsl(r,g,b)}`).join('\n');return {blob:new Blob([txt+'\n'],{type:'text/plain'}),name:base(f.name)+'-colors.txt'};}};

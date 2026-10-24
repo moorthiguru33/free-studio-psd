@@ -17,6 +17,7 @@ async function openPdfjs(data,password){const pj=await L.pdfjs();return pj.getDo
 async function renderPage(doc,n,scale){const p=await doc.getPage(n);const vp=p.getViewport({scale});const c=document.createElement('canvas');c.width=Math.ceil(vp.width);c.height=Math.ceil(vp.height);const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);await p.render({canvasContext:ctx,viewport:vp}).promise;p.cleanup();return c;}
 const toBlob=(c,type,q)=>new Promise(r=>c.toBlob(r,type,q));
 function parseRanges(s,max){const out=[];for(const part of s.split(/[,;\s]+/).filter(Boolean)){const m=part.match(/^(\d+)?\s*-\s*(\d+)?$|^(\d+)$/);if(!m)throw new Error('Invalid range: '+part);let a,b;if(m[3]){a=b=+m[3];}else{a=m[1]?+m[1]:1;b=m[2]?+m[2]:max;}if(a<1||b>max||a>b)throw new Error('Range out of bounds: '+part+' (1-'+max+')');const r=[];for(let i=a;i<=b;i++)r.push(i-1);out.push({label:a===b?''+a:a+'-'+b,idx:r});}return out;}
+async function zipOrOne(items,zipName){return items.length===1?items[0]:{blob:await zipBlobs(items),name:zipName};}
 async function zipBlobs(items){const JSZip=await L.zip();const z=new JSZip();for(const it of items)z.file(it.name,it.blob);return z.generateAsync({type:'blob'});}
 // helper: select element
 const sel=(id,label,opts)=>`<label>${esc(label)}<select id="${id}">${opts.map(o=>`<option value="${o[0]}">${esc(o[1])}</option>`).join('')}</select></label>`;
@@ -75,6 +76,6 @@ async function go(){const btn=$('#go',work),st=$('.status',work);btn.disabled=tr
    if(r.view||r.links){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=(r.view||'')+(r.links?`<ul class="links">${r.links.map(x=>`<li><a href="${mk(x.blob)}" download="${esc(x.name.split('/').pop())}">${esc(x.name)}</a> <small>${fmtSize(x.blob.size)}</small></li>`).join('')}</ul>`:'');work.appendChild(vw);if(r.mount)r.mount(vw);}
    $('#again',work).onclick=()=>{urls.forEach(u=>URL.revokeObjectURL(u));files=[];render();};
   }catch(e){btn.disabled=false;showErr(e);}}
-window.FP={T,$,esc,load,L,buf,base,pdfBlob,fmtSize,openPdfjs,renderPage,toBlob,parseRanges,zipBlobs,sel,inp,v,setupPreview,mkSafe,chk,vb,TOOLS,work,root,toolId};
+window.FP={T,$,esc,load,L,buf,base,pdfBlob,fmtSize,openPdfjs,renderPage,toBlob,parseRanges,zipBlobs,zipOrOne,sel,inp,v,setupPreview,mkSafe,chk,vb,TOOLS,work,root,toolId};
 document.readyState==='complete'?start():document.addEventListener('DOMContentLoaded',start);
 })();

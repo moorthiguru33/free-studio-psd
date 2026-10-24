@@ -23,7 +23,6 @@ async function rasterInto(d,pjDoc,i,{scale=2,q=.85,gray=false,draw}={}){const pg
   if(draw)draw(ctx,scale,vp);
   if(gray){const im=ctx.getImageData(0,0,c.width,c.height),dt=im.data;for(let k=0;k<dt.length;k+=4){const g=dt[k]*.299+dt[k+1]*.587+dt[k+2]*.114;dt[k]=dt[k+1]=dt[k+2]=g;}ctx.putImageData(im,0,0);}
   const img=await d.embedJpg(new Uint8Array(await (await toBlob(c,'image/jpeg',q)).arrayBuffer()));c.width=c.height=0;const p=d.addPage([vp.width,vp.height]);p.drawImage(img,{x:0,y:0,width:vp.width,height:vp.height});return p;}
-async function zipOrOne(items,zipName){return items.length===1?items[0]:{blob:await zipBlobs(items),name:zipName};}
 async function pageTexts(pjDoc){const out=[];for(let i=1;i<=pjDoc.numPages;i++){const pg=await pjDoc.getPage(i);const tc=await pg.getTextContent();out.push({items:tc.items.filter(it=>'str' in it),vp:pg.getViewport({scale:1})});}return out;}
 const lineTexts=items=>{const lines=[];let cur=null;for(const it of items){const y=it.transform[5],h=Math.abs(it.transform[3])||10;if(!cur||Math.abs(cur.y-y)>h*.5){cur={y,t:''};lines.push(cur);}cur.t+=it.str;if(it.hasEOL)cur=null;}return lines.map(l=>l.t.replace(/\s+/g,' ').trim()).filter(Boolean);};
 

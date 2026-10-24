@@ -291,5 +291,346 @@
   "multiple": false,
   "icon": "🖼",
   "cat": "convert"
+ },
+ {
+  "id": "imgcompress",
+  "slug": "compress-image",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🗜️",
+  "cat": "image"
+ },
+ {
+  "id": "imgresize",
+  "slug": "resize-image",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "↔️",
+  "cat": "image"
+ },
+ {
+  "id": "imgcrop",
+  "slug": "crop-image",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": false,
+  "icon": "✂️",
+  "cat": "image"
+ },
+ {
+  "id": "imgrotate",
+  "slug": "rotate-image",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔄",
+  "cat": "image"
+ },
+ {
+  "id": "imgconvert",
+  "slug": "image-converter",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "to": "jpg"
+  }
+ },
+ {
+  "id": "png2jpg",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "png-to-jpg",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "PNG",
+   "to": "jpg",
+   "TO": "JPG"
+  }
+ },
+ {
+  "id": "jpg2png",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "jpg-to-png",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "JPG",
+   "to": "png",
+   "TO": "PNG"
+  }
+ },
+ {
+  "id": "webp2jpg",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "webp-to-jpg",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "WEBP",
+   "to": "jpg",
+   "TO": "JPG"
+  }
+ },
+ {
+  "id": "webp2png",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "webp-to-png",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "WEBP",
+   "to": "png",
+   "TO": "PNG"
+  }
+ },
+ {
+  "id": "jpg2webp",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "jpg-to-webp",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "JPG",
+   "to": "webp",
+   "TO": "WEBP"
+  }
+ },
+ {
+  "id": "png2webp",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "png-to-webp",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "PNG",
+   "to": "webp",
+   "TO": "WEBP"
+  }
+ },
+ {
+  "id": "avif2jpg",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "avif-to-jpg",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "AVIF",
+   "to": "jpg",
+   "TO": "JPG"
+  }
+ },
+ {
+  "id": "jpg2avif",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "jpg-to-avif",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "JPG",
+   "to": "avif",
+   "TO": "AVIF"
+  }
+ },
+ {
+  "id": "tiff2jpg",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "tiff-to-jpg",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "TIFF",
+   "to": "jpg",
+   "TO": "JPG"
+  }
+ },
+ {
+  "id": "jpg2tiff",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "jpg-to-tiff",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "JPG",
+   "to": "tiff",
+   "TO": "TIFF"
+  }
+ },
+ {
+  "id": "bmp2jpg",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "bmp-to-jpg",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "BMP",
+   "to": "jpg",
+   "TO": "JPG"
+  }
+ },
+ {
+  "id": "png2ico",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "png-to-ico",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "PNG",
+   "to": "ico",
+   "TO": "ICO"
+  }
+ },
+ {
+  "id": "svg2png",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "svg-to-png",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "SVG",
+   "to": "png",
+   "TO": "PNG"
+  }
+ },
+ {
+  "id": "png2svg",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "png-to-svg",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "PNG",
+   "to": "svg",
+   "TO": "SVG"
+  }
+ },
+ {
+  "id": "gif2png",
+  "impl": "imgconvert",
+  "tpl": "imgconv",
+  "slug": "gif-to-png",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🔁",
+  "cat": "image",
+  "vars": {
+   "from": "GIF",
+   "to": "png",
+   "TO": "PNG"
+  }
+ },
+ {
+  "id": "heic2jpg",
+  "slug": "heic-to-jpg",
+  "accept": ".heic,.heif,image/heic,image/heif",
+  "multiple": true,
+  "icon": "📱",
+  "cat": "image"
+ },
+ {
+  "id": "imgwatermark",
+  "slug": "watermark-image",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "💧",
+  "cat": "image"
+ },
+ {
+  "id": "meme",
+  "slug": "meme-generator",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": false,
+  "icon": "😂",
+  "cat": "image"
+ },
+ {
+  "id": "blurface",
+  "slug": "blur-face",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": false,
+  "icon": "🫥",
+  "cat": "image"
+ },
+ {
+  "id": "gifmaker",
+  "slug": "gif-maker",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🎞️",
+  "cat": "image"
+ },
+ {
+  "id": "img2gif",
+  "impl": "gifmaker",
+  "slug": "image-to-gif",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🎞️",
+  "cat": "image"
+ },
+ {
+  "id": "favicon",
+  "slug": "favicon-generator",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": false,
+  "icon": "⭐",
+  "cat": "image"
+ },
+ {
+  "id": "colorpicker",
+  "slug": "image-color-picker",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": false,
+  "icon": "🎨",
+  "cat": "image"
+ },
+ {
+  "id": "collage",
+  "slug": "collage-maker",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+  "multiple": true,
+  "icon": "🧩",
+  "cat": "image"
  }
 ]
