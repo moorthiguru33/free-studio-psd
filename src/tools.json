@@ -1,0 +1,15 @@
+[
+ {"id":"merge","slug":"merge-pdf","accept":".pdf","multiple":true,"icon":"⊕","cat":"organize"},
+ {"id":"split","slug":"split-pdf","accept":".pdf","multiple":false,"icon":"✂","cat":"organize"},
+ {"id":"rotate","slug":"rotate-pdf","accept":".pdf","multiple":true,"icon":"⟳","cat":"organize"},
+ {"id":"pagenumbers","slug":"add-page-numbers","accept":".pdf","multiple":false,"icon":"#","cat":"edit"},
+ {"id":"jpg2pdf","slug":"jpg-to-pdf","accept":"image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp","multiple":true,"icon":"🖼","cat":"convert"},
+ {"id":"pdf2jpg","slug":"pdf-to-jpg","accept":".pdf","multiple":false,"icon":"🗎","cat":"convert"},
+ {"id":"compress","slug":"compress-pdf","accept":".pdf","multiple":false,"icon":"⇲","cat":"optimize"},
+ {"id":"protect","slug":"protect-pdf","accept":".pdf","multiple":false,"icon":"🔒","cat":"security"},
+ {"id":"unlock","slug":"unlock-pdf","accept":".pdf","multiple":false,"icon":"🔓","cat":"security"},
+ {"id":"sign","slug":"sign-pdf","accept":".pdf","multiple":false,"icon":"✍","cat":"edit"},
+ {"id":"edit","slug":"edit-pdf","accept":".pdf","multiple":false,"icon":"✎","cat":"edit"},
+ {"id":"pdf2word","slug":"pdf-to-word","accept":".pdf","multiple":false,"icon":"W","cat":"convert","beta":true},
+ {"id":"word2pdf","slug":"word-to-pdf","accept":".docx","multiple":false,"icon":"⇄","cat":"convert","beta":true}
+]
