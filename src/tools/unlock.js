@@ -1,0 +1,2 @@
+TOOLS.unlock={opts:()=>inp('pw',T.o_password,'password','','autocomplete="current-password"'),
+  async run([f]){const {PDFDocument}=await L.pdflib();const s=await PDFDocument.load(await buf(f),{password:v('pw')||''});const d=await PDFDocument.create();(await d.copyPages(s,s.getPageIndices())).forEach(p=>d.addPage(p));try{d.setTitle(s.getTitle()||'');}catch(e){}return {blob:pdfBlob(await d.save()),name:base(f.name)+'-unlocked.pdf'};}};

@@ -1,0 +1,24 @@
+// @needs pdfx
+TOOLS.word2pdf={async run([f]){const mammoth=await L.mammoth();const {value:html}=await mammoth.convertToHtml({arrayBuffer:await buf(f)});const {PDFDocument,StandardFonts,rgb}=await L.pdflib();const d=await PDFDocument.create();
+   const F={r:await d.embedFont(StandardFonts.Helvetica),b:await d.embedFont(StandardFonts.HelveticaBold),i:await d.embedFont(StandardFonts.HelveticaOblique),bi:await d.embedFont(StandardFonts.HelveticaBoldOblique)};const safe=mkSafe(F.r);
+   const W=595.28,H=841.89,M=56;let page=d.addPage([W,H]),y=H-M;const newPage=()=>{page=d.addPage([W,H]);y=H-M;};
+   const dom=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html').body.firstChild;
+   const runs=(node,st={b:false,i:false},acc=[])=>{for(const n of node.childNodes){if(n.nodeType===3)acc.push({t:n.textContent,...st});else if(n.nodeType===1){const tg=n.tagName;if(tg==='BR'){acc.push({br:true});continue;}runs(n,{b:st.b||tg==='STRONG'||tg==='B',i:st.i||tg==='EM'||tg==='I'},acc);}}return acc;};
+   const block=(el,size,indent,prefix,forceBold)=>{const rs=runs(el);if(prefix)rs.unshift({t:prefix,b:false,i:false});const lh=size*1.35;const maxW=W-2*M-indent;let line=[],lw=0;
+    const flush=()=>{if(y-lh<M)newPage();y-=lh;let x=M+indent;for(const w of line){page.drawText(w.t,{x,y,size,font:w.f,color:rgb(.1,.1,.1)});x+=w.f.widthOfTextAtSize(w.t,size);}line=[];lw=0;};
+    for(const r of rs){if(r.br){flush();continue;}const f=F[(r.b||forceBold?'b':'')+(r.i?'i':'')||'r'];for(const tok of safe(r.t).split(/(\s+)/)){if(!tok)continue;const t=/^\s+$/.test(tok)?' ':tok;const tw=f.widthOfTextAtSize(t,size);if(lw+tw>maxW&&line.length&&t!==' '){flush();}if(!line.length&&t===' ')continue;line.push({t,f});lw+=tw;}}
+    if(line.length)flush();y-=size*0.5;};
+   const walk=(node,depth=0)=>{for(const el of node.children){const tg=el.tagName;if(/^H[1-6]$/.test(tg)){const s=[22,18,15,13,12,11][+tg[1]-1];y-=s*0.4;block(el,s,0,'',true);}else if(tg==='P')block(el,11,0,'');else if(tg==='UL'||tg==='OL'){let k=1;for(const li of el.children){const sub=[...li.children].filter(c=>c.tagName==='UL'||c.tagName==='OL');sub.forEach(s=>s.remove());block(li,11,18+depth*18,tg==='OL'?`${k++}. `:'• ');sub.forEach(s=>walk({children:[s]},depth+1));}}else if(tg==='TABLE'){for(const tr of el.querySelectorAll('tr')){const p=document.createElement('p');p.textContent=[...tr.children].map(c=>c.textContent.trim()).join('   |   ');block(p,10,0,'');}}else walk(el,depth);}};
+   walk(dom);return {blob:pdfBlob(await d.save()),name:base(f.name)+'.pdf'};}};
+TOOLS.word2pdf.run=async function([f]){const mammoth=await L.mammoth();const {value:html}=await mammoth.convertToHtml({arrayBuffer:await buf(f)});const {PDFDocument,rgb}=await L.pdflib();const d=await PDFDocument.create();
+ const W=595.28,H=841.89,M=56;let page=d.addPage([W,H]),y=H-M;const newPage=()=>{page=d.addPage([W,H]);y=H-M;};
+ const dom=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html').body.firstChild;
+ const runsOf=(node,st={b:false},acc=[])=>{for(const n of node.childNodes){if(n.nodeType===3)acc.push({t:n.textContent,...st});else if(n.nodeType===1){if(n.tagName==='BR'){acc.push({br:true});continue;}if(n.tagName==='IMG')continue;runsOf(n,{b:st.b||n.tagName==='STRONG'||n.tagName==='B'},acc);}}return acc;};
+ const block=async(el,size,indent,prefix,forceBold)=>{const rs=runsOf(el);if(prefix)rs.unshift({t:prefix,b:false});const lh=size*1.45;const maxW=W-2*M-indent;let line=[],lw=0;
+  const flush=()=>{if(y-lh<M)newPage();y-=lh;let x=M+indent;for(const w of line){drawRuns(page,w.runs,{x,y,size,color:rgb(.1,.1,.1)});x+=w.w;}line=[];lw=0;};
+  for(const r of rs){if(r.br){flush();continue;}for(const tok of r.t.split(/(\s+)/)){if(!tok)continue;const t=/^\s+$/.test(tok)?' ':tok;if(!line.length&&t===' ')continue;const runs=await textRuns(d,t,r.b||forceBold);const tw=runsWidth(runs,size);if(lw+tw>maxW&&line.length&&t!==' ')flush();if(!line.length&&t===' ')continue;line.push({runs,w:tw});lw+=tw;}}
+  if(line.length)flush();y-=size*0.5;};
+ const walk=async(node,depth=0)=>{for(const el of [...node.children]){const tg=el.tagName;if(/^H[1-6]$/.test(tg)){const s=[22,18,15,13,12,11][+tg[1]-1];y-=s*0.4;await block(el,s,0,'',true);}else if(tg==='P')await block(el,11,0,'');
+  else if(tg==='UL'||tg==='OL'){let k=1;for(const li of [...el.children]){const sub=[...li.children].filter(c=>c.tagName==='UL'||c.tagName==='OL');sub.forEach(s=>s.remove());await block(li,11,18+depth*18,tg==='OL'?`${k++}. `:'• ');for(const s of sub)await walk({children:[s]},depth+1);}}
+  else if(tg==='TABLE'){for(const tr of el.querySelectorAll('tr')){const p=document.createElement('p');p.textContent=[...tr.children].map(c=>c.textContent.trim()).join('   |   ');await block(p,10,0,'');}}else await walk(el,depth);}};
+ await walk(dom);return {blob:pdfBlob(await d.save()),name:base(f.name)+'.pdf'};};

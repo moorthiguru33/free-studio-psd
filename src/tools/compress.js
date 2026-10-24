@@ -1,0 +1,6 @@
+TOOLS.compress={opts:()=>sel('level',T.o_level,[['lossless',T.o_lossless],['strong',T.o_strong],['extreme',T.o_strong+' −−']]),
+  async run([f],status){const {PDFDocument}=await L.pdflib();const data=await buf(f);let out;const lvl=v('level');
+   if(lvl==='lossless'){const d=await PDFDocument.load(data);d.setProducer('');d.setCreator('');out=await d.save({useObjectStreams:true});}
+   else{const doc=await openPdfjs(data);const d=await PDFDocument.create();const [sc,q]=lvl==='strong'?[1.5,.65]:[1,.45];for(let i=1;i<=doc.numPages;i++){status(`${T.working} ${i}/${doc.numPages}`);const pg=await doc.getPage(i);const vp=pg.getViewport({scale:1});const c=await renderPage(doc,i,sc);const img=await d.embedJpg(new Uint8Array(await (await toBlob(c,'image/jpeg',q)).arrayBuffer()));c.width=c.height=0;const p=d.addPage([vp.width,vp.height]);p.drawImage(img,{x:0,y:0,width:vp.width,height:vp.height});}out=await d.save({useObjectStreams:true});}
+   let note;if(out.byteLength>=data.byteLength){out=new Uint8Array(data);note='Already optimized — original kept.';}
+   const pct=Math.round(100-out.byteLength/data.byteLength*100);return {blob:pdfBlob(out),name:base(f.name)+'-compressed.pdf',info:`${fmtSize(data.byteLength)} → ${fmtSize(out.byteLength)} (−${pct}%)${note?' · '+note:''}`};}};

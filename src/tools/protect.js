@@ -1,0 +1,2 @@
+TOOLS.protect={opts:()=>inp('pw',T.o_password,'password','','autocomplete="new-password"')+inp('pw2',T.o_password2,'password','','autocomplete="new-password"'),
+  async run([f]){if(!v('pw'))throw new Error(T.o_password+'?');if(v('pw')!==v('pw2'))throw new Error(T.o_mismatch);const {PDFDocument}=await L.pdflib();const d=await PDFDocument.load(await buf(f));d.encrypt({userPassword:v('pw'),ownerPassword:v('pw')});return {blob:pdfBlob(await d.save()),name:base(f.name)+'-protected.pdf'};}};

@@ -1,0 +1,2 @@
+TOOLS.rotate={opts:()=>sel('angle',T.o_angle,[['90','90° ⟳'],['180','180°'],['270','270° ⟲']]),
+  async run(files){const {PDFDocument,degrees}=await L.pdflib();const a=+v('angle');const items=[];for(const f of files){const d=await PDFDocument.load(await buf(f));d.getPages().forEach(p=>p.setRotation(degrees((p.getRotation().angle+a)%360)));items.push({name:base(f.name)+'-rotated.pdf',blob:pdfBlob(await d.save())});}return items.length===1?items[0]:{blob:await zipBlobs(items),name:'rotated.zip'};}};

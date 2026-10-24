@@ -7,6 +7,8 @@ const langs=JSON.parse(fs.readFileSync(R('src/languages.json')));
 const enabled=langs.filter(l=>l.enabled&&fs.existsSync(R(`src/i18n/${l.code}.json`)));
 const load=c=>JSON.parse(fs.readFileSync(R(`src/i18n/${c}.json`)));
 const EN=load('en');
+// tools generated from i18n templates (e.g. "PNG to JPG") get their texts from t.templates[tpl] with {from}/{to} vars
+const toolText=(t,x)=>{if(!x.tpl)return t.tools[x.id];const fillDeep=o=>Array.isArray(o)?o.map(fillDeep):typeof o==='object'?Object.fromEntries(Object.entries(o).map(([k,v])=>[k,fillDeep(v)])):fill(o,x.vars||{});return merge(fillDeep(t.templates[x.tpl]),t.tools[x.id]||{});};
 // deep merge so missing keys fall back to English
 const merge=(a,b)=>{if(Array.isArray(a)||typeof a!=='object')return b===undefined?a:b;const o={...a};for(const k in b)o[k]=merge(a[k],b[k]);return o;};
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -39,10 +41,10 @@ ${jsonld.map(j=>`<script type="application/ld+json">${JSON.stringify(j)}</script
 }
 const pages=[];
 for(const L of enabled){
-  const t=merge(EN,load(L.code));const lang=L.code;const V={brand:site.brand};
+  const t=merge(EN,load(L.code));for(const x of tools)t.tools[x.id]=toolText(t,x);const lang=L.code;const V={brand:site.brand};
   // Home
   const card=x=>`<a class="card" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`;
-  const cats=['organize','edit','convert','optimize','security'];
+  const cats=['organize','edit','convert','optimize','security','image','qr','ai','media','data'];
   const cards=cats.map(c=>`<h2 class="cat">${esc(t.ui['cat_'+c]||c)}</h2><div class="grid">${tools.filter(x=>x.cat===c).map(card).join('')}</div>`).join('');
   const homeBody=`<section class="hero"><h1>${esc(t.home.h1)}</h1><p class="lead">${esc(t.ui.heroSub)}</p></section>
 <section aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
@@ -56,14 +58,14 @@ for(const L of enabled){
     const steps=tt.steps.map(s=>fill(s,v));
     const rel=[...tools.filter(y=>y.id!==x.id&&y.cat===x.cat),...tools.filter(y=>y.cat!==x.cat)].slice(0,14).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
     const body=`<section class="hero small"><h1>${esc(tt.h1)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</h1><p class="lead">${esc(fill(tt.desc,v))}</p></section>
-<section class="tool" id="tool" data-tool="${x.impl||x.id}" data-preset="${x.preset||''}" data-accept="${x.accept}" data-multiple="${x.multiple}">
-<label class="drop"><input type="file" accept="${x.accept}" ${x.multiple?'multiple':''} hidden><span class="btn big">${esc(t.ui.select)}</span><span class="hint">${esc(t.ui.drop)}</span></label>
+<section class="tool" id="tool" data-tool="${x.impl||x.id}" data-preset="${x.preset||''}" data-vars="${esc(JSON.stringify(x.vars||{}))}" data-accept="${x.accept||''}" data-multiple="${!!x.multiple}" data-nofile="${!!x.nofile}" data-maxmb="${x.maxmb||''}">
+${x.nofile?'':`<label class="drop"><input type="file" accept="${x.accept}" ${x.multiple?'multiple':''} hidden><span class="btn big">${esc(t.ui.select)}</span><span class="hint">${esc(t.ui.drop)}${x.maxmb?` · max ${x.maxmb} MB`:''}</span></label>`}
 <div class="work" hidden></div><p class="priv">🔒 ${esc(t.ui.privacy)}</p></section>
 ${ad('tool-below',t)}
 <section class="howto"><h2>${esc(t.ui.howTo)}: ${esc(tt.name)}</h2><ol>${steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></section>
 <section class="faq"><h2>${esc(t.ui.faq)}</h2>${faq.map(f=>`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>
 <section class="rel"><h2>${esc(t.ui.related)}</h2>${rel}</section>
-<script>window.I18N=${JSON.stringify(t.ui)};</script><script src="/assets/app.js?v=${ver}" defer></script>`;
+<script>window.I18N=${JSON.stringify(t.ui)};</script><script src="/assets/core.js?v=${ver}" defer></script><script src="/assets/t/${x.impl||x.id}.js?v=${ver}" defer></script>`;
     const jsonld=[
       {"@context":"https://schema.org","@type":"SoftwareApplication",name:`${tt.name} – ${site.brand}`,applicationCategory:"UtilitiesApplication",operatingSystem:"Any (web browser)",url:abs(url(lang,x.slug)),inLanguage:lang,description:fill(tt.desc,v),offers:{"@type":"Offer",price:"0",priceCurrency:"USD"}},
       {"@context":"https://schema.org","@type":"HowTo",name:`${t.ui.howTo}: ${tt.name}`,inLanguage:lang,step:steps.map((s,i)=>({"@type":"HowToStep",position:i+1,text:s}))},
@@ -83,7 +85,12 @@ fs.writeFileSync(path.join(OUT,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap
 // assets
 const cp=(a,b)=>{fs.mkdirSync(path.dirname(path.join(OUT,b)),{recursive:true});fs.copyFileSync(R(a),path.join(OUT,b));};
 for(const f of fs.readdirSync(R('src/assets')))cp('src/assets/'+f,'assets/'+f);
-fs.writeFileSync(path.join(OUT,'assets/app.js'),fs.readFileSync(R('src/assets/app.js'),'utf8').replace('/*__EXTRA__*/',()=>fs.readFileSync(R('src/tools2.js'),'utf8')));
+// JS: core (UI + helpers) + one bundle per tool implementation, minified with esbuild
+const esbuild=require('esbuild');const mini=code=>esbuild.transformSync(code,{minify:true,target:'es2020'}).code;
+const coreSrc=fs.readFileSync(R('src/core.js'),'utf8');fs.writeFileSync(path.join(OUT,'assets/core.js'),mini(coreSrc));
+const FPNAMES=coreSrc.match(/window\.FP=\{([^}]*)\}/)[1];fs.mkdirSync(path.join(OUT,'assets/t'),{recursive:true});
+for(const impl of new Set(tools.map(x=>x.impl||x.id))){const src=fs.readFileSync(R(`src/tools/${impl}.js`),'utf8');const needs=(src.match(/^\/\/ @needs (.+)$/m)||[,''])[1].split(/[ ,]+/).filter(Boolean);
+  const code=`(()=>{'use strict';const {${FPNAMES}}=window.FP;\n${needs.map(n=>fs.readFileSync(R(`src/lib/${n}.js`),'utf8')).join('\n')}\n${src}\n})();`;fs.writeFileSync(path.join(OUT,`assets/t/${impl}.js`),mini(code));}
 for(const f of fs.readdirSync(R('src/public')))cp('src/public/'+f,f);
 const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js','fontkit.umd.min.js':'node_modules/@cantoo/fontkit/dist/fontkit.umd.min.js'};
 for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);

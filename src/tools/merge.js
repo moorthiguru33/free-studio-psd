@@ -1,0 +1,1 @@
+TOOLS.merge={async run(files){const {PDFDocument}=await L.pdflib();const out=await PDFDocument.create();for(const f of files){const src=await PDFDocument.load(await buf(f),{ignoreEncryption:false});const pages=await out.copyPages(src,src.getPageIndices());pages.forEach(p=>out.addPage(p));}return {blob:pdfBlob(await out.save()),name:'merged.pdf'};}};

@@ -1,0 +1,5 @@
+TOOLS.pagenumbers={opts:()=>sel('pos',T.o_position,[['bc','↓ ·'],['br','↓ →'],['bl','↓ ←'],['tc','↑ ·'],['tr','↑ →'],['tl','↑ ←']])+inp('start',T.o_start,'number','1','min="0"')+sel('fmt',T.o_format,[['n','1'],['nt','1 / N'],['pn','Page 1'],['pnt','Page 1 of N']])+inp('fs',T.o_size,'number','11','min="6" max="48"'),
+  async run([f]){const {PDFDocument,StandardFonts,rgb}=await L.pdflib();const d=await PDFDocument.load(await buf(f));const font=await d.embedFont(StandardFonts.Helvetica);const pages=d.getPages(),N=pages.length,st=+v('start')||0,pos=v('pos'),fs=+v('fs')||11,fmt=v('fmt');
+   pages.forEach((p,i)=>{const n=st+i,tot=st+N-1;const txt=fmt==='nt'?`${n} / ${tot}`:fmt==='pn'?`Page ${n}`:fmt==='pnt'?`Page ${n} of ${tot}`:`${n}`;const {x:bx,y:by,width:w,height:h}=p.getCropBox();const tw=font.widthOfTextAtSize(txt,fs),m=24;
+    const x=bx+(pos[1]==='c'?(w-tw)/2:pos[1]==='r'?w-tw-m:m);const y=by+(pos[0]==='b'?m:h-m-fs);p.drawText(txt,{x,y,size:fs,font,color:rgb(.15,.15,.15)});});
+   return {blob:pdfBlob(await d.save()),name:base(f.name)+'-numbered.pdf'};}};

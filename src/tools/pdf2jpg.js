@@ -1,0 +1,3 @@
+TOOLS.pdf2jpg={opts:()=>sel('ifmt',T.o_format,[['jpg','JPG'],['png','PNG']])+sel('scale',T.o_scale,[['2','2x (144 DPI)'],['1','1x (72 DPI)'],['3','3x (216 DPI)']]),
+  async run([f],status){const doc=await openPdfjs(await buf(f));const png=v('ifmt')==='png',sc=+v('scale');const items=[];for(let i=1;i<=doc.numPages;i++){status(`${T.working} ${i}/${doc.numPages}`);const c=await renderPage(doc,i,sc);items.push({name:`${base(f.name)}-${i}.${png?'png':'jpg'}`,blob:await toBlob(c,png?'image/png':'image/jpeg',.9)});c.width=c.height=0;}
+   return items.length===1?items[0]:{blob:await zipBlobs(items),name:base(f.name)+'-images.zip'};}};
