@@ -1025,5 +1025,33 @@
   "icon": "🔡",
   "accept": "image/*,.heic,.heif,.tif,.tiff,.bmp,.webp",
   "multiple": true
+ },
+ {
+  "id": "bgremove",
+  "slug": "remove-background",
+  "cat": "ai",
+  "icon": "✂",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.bmp,.webp",
+  "multiple": true,
+  "maxmb": 40
+ },
+ {
+  "id": "enlarge",
+  "slug": "image-enlarger",
+  "cat": "ai",
+  "icon": "⤢",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.bmp,.webp",
+  "multiple": true,
+  "maxmb": 40
+ },
+ {
+  "id": "upscale",
+  "impl": "enlarge",
+  "slug": "upscale-image",
+  "cat": "ai",
+  "icon": "🔍",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.bmp,.webp",
+  "multiple": true,
+  "maxmb": 40
  }
 ]

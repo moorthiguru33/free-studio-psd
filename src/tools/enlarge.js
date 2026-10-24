@@ -1,0 +1,13 @@
+// @needs img
+// Image enlarger: multi-step Lanczos-3 resampling (separable, own implementation) + optional unsharp mask. No AI model; runs on device.
+function lanczosResize(src,W,H){const sw=src.width,sh=src.height;const sd=src.getContext('2d').getImageData(0,0,sw,sh).data;const a=3;const L=x=>x===0?1:Math.abs(x)>=a?0:a*Math.sin(Math.PI*x)*Math.sin(Math.PI*x/a)/(Math.PI*Math.PI*x*x);
+ const pass=(data,iw,ih,ow,horiz)=>{const n=horiz?ow:ih*0+ow;const out=new Float32Array((horiz?ow*ih:iw*ow)*4);const scale=(horiz?iw:ih)/ow;const len=horiz?iw:ih;
+  for(let o=0;o<ow;o++){const cen=(o+.5)*scale-.5;const s0=Math.floor(cen)-a+1,s1=Math.floor(cen)+a;const ws=[];let sum=0;for(let s=s0;s<=s1;s++){const w=L(cen-s);ws.push(w);sum+=w;}
+   const lines=horiz?ih:iw;for(let l=0;l<lines;l++){let r=0,g=0,b=0,al=0;for(let s=s0,k=0;s<=s1;s++,k++){const ss=Math.min(len-1,Math.max(0,s));const idx=horiz?(l*iw+ss)*4:(ss*iw+l)*4;const w=ws[k]/sum;r+=data[idx]*w;g+=data[idx+1]*w;b+=data[idx+2]*w;al+=data[idx+3]*w;}
+    const oi=horiz?(l*ow+o)*4:(o*iw+l)*4;out[oi]=r;out[oi+1]=g;out[oi+2]=b;out[oi+3]=al;}}return out;};
+ const h1=pass(sd,sw,sh,W,true);const v1=pass(h1,W,sh,H,false);const o=newCanvas(W,H);const x=o.getContext('2d');const id=x.createImageData(W,H);for(let i=0;i<v1.length;i++)id.data[i]=v1[i];x.putImageData(id,0,0);return o;}
+function unsharp(c,amt){if(!amt)return c;const W=c.width,H=c.height;const b=newCanvas(W,H);const bx=b.getContext('2d');bx.filter='blur(1px)';bx.drawImage(c,0,0);const x=c.getContext('2d');const o=x.getImageData(0,0,W,H),bl=bx.getImageData(0,0,W,H);for(let i=0;i<o.data.length;i+=4)for(let k=0;k<3;k++)o.data[i+k]=Math.max(0,Math.min(255,o.data[i+k]+amt*(o.data[i+k]-bl.data[i+k])));x.putImageData(o,0,0);return c;}
+TOOLS.enlarge={noAdv:true,opts:()=>sel('escale',T.o_scale||'Enlarge by',[['2','2×'],['3','3×'],['4','4×'],['1.5','1.5×']])+sel('esharp',T.o_sharpen||'Sharpen',[['0.6',T.o_medium||'Medium'],['0',T.o_off||'Off'],['1.2',T.o_strongS||'Strong']])+fmtSel('ofmt',T.o_format),
+ async run(files,status){const items=[];for(const [i,f] of files.entries()){status(`${T.working} ${i+1}/${files.length}`);let c=await fileToCanvas(f);const k=+v('escale')||2;const W=Math.round(c.width*k),H=Math.round(c.height*k);if(W*H>40e6)throw new Error('Result too large (max 40 MP). Try a smaller factor.');
+   await new Promise(r=>setTimeout(r,20));let o=lanczosResize(c,W,H);o=unsharp(o,+v('esharp'));const fmt=outFmt(f,v('ofmt'));items.push({name:imgName(f,`-${k}x`,fmt),blob:await encodeCanvas(o,fmt,.92)});}
+  return zipOrOne(items,'enlarged-images.zip');}};

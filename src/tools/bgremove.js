@@ -1,0 +1,16 @@
+// @needs img
+// Background remover: U²-Net-p (Apache-2.0) via onnxruntime-web (MIT), WASM, on-device. Model 4.6 MB self-hosted at /models/bg/u2netp.onnx
+let SESS=null;
+async function bgSession(status){if(SESS)return SESS;await load('ort/ort.wasm.min.js');const ort=window.ort;ort.env.wasm.wasmPaths=location.origin+'/vendor/ort/';ort.env.wasm.numThreads=1;status(T.o_bgLoading||'Loading AI model…');SESS=await ort.InferenceSession.create(location.origin+'/models/bg/u2netp.onnx',{executionProviders:['wasm']});return SESS;}
+async function bgMask(c,status){const S=320;const s=await bgSession(status);const ort=window.ort;const t=newCanvas(S,S);const x=t.getContext('2d');x.drawImage(c,0,0,S,S);const d=x.getImageData(0,0,S,S).data;const inp=new Float32Array(3*S*S);const M=[.485,.456,.406],SD=[.229,.224,.225];
+  for(let i=0;i<S*S;i++)for(let k=0;k<3;k++)inp[k*S*S+i]=(d[i*4+k]/255-M[k])/SD[k];status(T.o_bgWorking||'Removing background…');
+  const out=await s.run({[s.inputNames[0]]:new ort.Tensor('float32',inp,[1,3,S,S])});const m=out[s.outputNames[0]].data;let lo=Infinity,hi=-Infinity;for(const q of m){if(q<lo)lo=q;if(q>hi)hi=q;}
+  const mc=newCanvas(S,S);const mx=mc.getContext('2d');const id=mx.createImageData(S,S);for(let i=0;i<S*S;i++){const a=(m[i]-lo)/(hi-lo||1);id.data[i*4+3]=Math.round(255*a);}mx.putImageData(id,0,0);return mc;}
+TOOLS.bgremove={noAdv:true,opts:()=>sel('bgout',T.o_bgOut||'Background',[['transparent',T.o_bgTrans||'Transparent (PNG)'],['white',T.o_bgWhite||'White'],['color',T.o_bgColor||'Colour…'],['blur',T.o_bgBlur||'Blurred original']])+inp('bgc',T.o_color||'Colour','color','#2b7de9')+sel('bgedge',T.o_bgEdge||'Edges',[['1',T.o_bgSoft||'Soft'],['0',T.o_bgSharp||'Sharp']]),
+ async run(files,status){const items=[];const views=[];for(const [i,f] of files.entries()){status(`${T.working} ${i+1}/${files.length}`);const c=await fileToCanvas(f);const MAX=4096;let W=c.width,H=c.height;const sc=Math.min(1,MAX/Math.max(W,H));W=Math.round(W*sc);H=Math.round(H*sc);
+   const mk=await bgMask(c,status);const mask=newCanvas(W,H);const mx=mask.getContext('2d');mx.imageSmoothingQuality='high';if(v('bgedge')==='1')mx.filter='blur(1px)';mx.drawImage(mk,0,0,W,H);
+   if(v('bgedge')==='0'){const id=mx.getImageData(0,0,W,H);for(let p=3;p<id.data.length;p+=4)id.data[p]=id.data[p]>128?255:0;mx.putImageData(id,0,0);}
+   const fg=newCanvas(W,H);const fx=fg.getContext('2d');fx.drawImage(c,0,0,W,H);fx.globalCompositeOperation='destination-in';fx.drawImage(mask,0,0);
+   const mode=v('bgout');let o=fg;if(mode!=='transparent'){o=newCanvas(W,H);const ox=o.getContext('2d');if(mode==='blur'){ox.filter='blur('+Math.round(Math.max(W,H)/60)+'px)';ox.drawImage(c,0,0,W,H);ox.filter='none';}else{ox.fillStyle=mode==='white'?'#fff':v('bgc');ox.fillRect(0,0,W,H);}ox.drawImage(fg,0,0);}
+   const fmt=mode==='transparent'?'png':'jpg';const blob=await encodeCanvas(o,fmt,.92);items.push({name:imgName(f,'-nobg',fmt),blob});const pv=newCanvas(Math.min(W,360),Math.round(Math.min(W,360)*H/W));pv.getContext('2d').drawImage(o,0,0,pv.width,pv.height);views.push(`<img src="${pv.toDataURL('image/png')}" alt="">`);}
+  const r=await zipOrOne(items,'no-background.zip');r.view=`<div class="checker">${views.join('')}</div>`;return r;}};
