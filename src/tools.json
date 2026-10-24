@@ -1,15 +1,295 @@
 [
- {"id":"merge","slug":"merge-pdf","accept":".pdf","multiple":true,"icon":"⊕","cat":"organize"},
- {"id":"split","slug":"split-pdf","accept":".pdf","multiple":false,"icon":"✂","cat":"organize"},
- {"id":"rotate","slug":"rotate-pdf","accept":".pdf","multiple":true,"icon":"⟳","cat":"organize"},
- {"id":"pagenumbers","slug":"add-page-numbers","accept":".pdf","multiple":false,"icon":"#","cat":"edit"},
- {"id":"jpg2pdf","slug":"jpg-to-pdf","accept":"image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp","multiple":true,"icon":"🖼","cat":"convert"},
- {"id":"pdf2jpg","slug":"pdf-to-jpg","accept":".pdf","multiple":false,"icon":"🗎","cat":"convert"},
- {"id":"compress","slug":"compress-pdf","accept":".pdf","multiple":false,"icon":"⇲","cat":"optimize"},
- {"id":"protect","slug":"protect-pdf","accept":".pdf","multiple":false,"icon":"🔒","cat":"security"},
- {"id":"unlock","slug":"unlock-pdf","accept":".pdf","multiple":false,"icon":"🔓","cat":"security"},
- {"id":"sign","slug":"sign-pdf","accept":".pdf","multiple":false,"icon":"✍","cat":"edit"},
- {"id":"edit","slug":"edit-pdf","accept":".pdf","multiple":false,"icon":"✎","cat":"edit"},
- {"id":"pdf2word","slug":"pdf-to-word","accept":".pdf","multiple":false,"icon":"W","cat":"convert","beta":true},
- {"id":"word2pdf","slug":"word-to-pdf","accept":".docx","multiple":false,"icon":"⇄","cat":"convert","beta":true}
+ {
+  "id": "merge",
+  "slug": "merge-pdf",
+  "accept": ".pdf",
+  "multiple": true,
+  "icon": "⊕",
+  "cat": "organize"
+ },
+ {
+  "id": "split",
+  "slug": "split-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "✂",
+  "cat": "organize"
+ },
+ {
+  "id": "rotate",
+  "slug": "rotate-pdf",
+  "accept": ".pdf",
+  "multiple": true,
+  "icon": "⟳",
+  "cat": "organize"
+ },
+ {
+  "id": "pagenumbers",
+  "slug": "add-page-numbers",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "#",
+  "cat": "edit"
+ },
+ {
+  "id": "jpg2pdf",
+  "slug": "jpg-to-pdf",
+  "accept": "image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp",
+  "multiple": true,
+  "icon": "🖼",
+  "cat": "convert"
+ },
+ {
+  "id": "pdf2jpg",
+  "slug": "pdf-to-jpg",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🗎",
+  "cat": "convert"
+ },
+ {
+  "id": "compress",
+  "slug": "compress-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⇲",
+  "cat": "optimize"
+ },
+ {
+  "id": "protect",
+  "slug": "protect-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🔒",
+  "cat": "security"
+ },
+ {
+  "id": "unlock",
+  "slug": "unlock-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🔓",
+  "cat": "security"
+ },
+ {
+  "id": "sign",
+  "slug": "sign-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "✍",
+  "cat": "edit"
+ },
+ {
+  "id": "edit",
+  "slug": "edit-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "✎",
+  "cat": "edit"
+ },
+ {
+  "id": "pdf2word",
+  "slug": "pdf-to-word",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "W",
+  "cat": "convert",
+  "beta": true
+ },
+ {
+  "id": "word2pdf",
+  "slug": "word-to-pdf",
+  "accept": ".docx",
+  "multiple": false,
+  "icon": "⇄",
+  "cat": "convert",
+  "beta": true
+ },
+ {
+  "id": "organize",
+  "impl": "organize",
+  "slug": "organize-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "▦",
+  "cat": "organize"
+ },
+ {
+  "id": "deletepages",
+  "impl": "organize",
+  "slug": "delete-pdf-pages",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🗑",
+  "cat": "organize",
+  "preset": "delete"
+ },
+ {
+  "id": "extractpages",
+  "impl": "organize",
+  "slug": "extract-pdf-pages",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⇱",
+  "cat": "organize",
+  "preset": "extract"
+ },
+ {
+  "id": "splitbm",
+  "impl": "splitx",
+  "slug": "split-pdf-by-bookmarks",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🔖",
+  "cat": "organize",
+  "preset": "bookmarks"
+ },
+ {
+  "id": "splitsize",
+  "impl": "splitx",
+  "slug": "split-pdf-by-size",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⚖",
+  "cat": "organize",
+  "preset": "size"
+ },
+ {
+  "id": "splittext",
+  "impl": "splitx",
+  "slug": "split-pdf-by-text",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🔍",
+  "cat": "organize",
+  "preset": "text"
+ },
+ {
+  "id": "nup",
+  "impl": "nup",
+  "slug": "n-up-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⊞",
+  "cat": "organize"
+ },
+ {
+  "id": "watermark",
+  "impl": "watermark",
+  "slug": "add-watermark-to-pdf",
+  "accept": ".pdf",
+  "multiple": true,
+  "icon": "💧",
+  "cat": "edit"
+ },
+ {
+  "id": "headerfooter",
+  "impl": "headerfooter",
+  "slug": "pdf-header-footer",
+  "accept": ".pdf",
+  "multiple": true,
+  "icon": "☰",
+  "cat": "edit"
+ },
+ {
+  "id": "bates",
+  "impl": "bates",
+  "slug": "bates-numbering",
+  "accept": ".pdf",
+  "multiple": true,
+  "icon": "№",
+  "cat": "edit"
+ },
+ {
+  "id": "crop",
+  "impl": "crop",
+  "slug": "crop-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⌗",
+  "cat": "edit"
+ },
+ {
+  "id": "findreplace",
+  "impl": "findreplace",
+  "slug": "find-and-replace-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⇆",
+  "cat": "edit",
+  "beta": true
+ },
+ {
+  "id": "metadata",
+  "impl": "metadata",
+  "slug": "edit-pdf-metadata",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "ℹ",
+  "cat": "edit"
+ },
+ {
+  "id": "flatten",
+  "impl": "flatten",
+  "slug": "flatten-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "▭",
+  "cat": "edit"
+ },
+ {
+  "id": "redact",
+  "impl": "redact",
+  "slug": "redact-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "█",
+  "cat": "security"
+ },
+ {
+  "id": "compare",
+  "impl": "compare",
+  "slug": "compare-pdf",
+  "accept": ".pdf",
+  "multiple": true,
+  "icon": "⇔",
+  "cat": "security"
+ },
+ {
+  "id": "grayscale",
+  "impl": "grayscale",
+  "slug": "grayscale-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "◐",
+  "cat": "optimize"
+ },
+ {
+  "id": "deskew",
+  "impl": "deskew",
+  "slug": "deskew-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "⟋",
+  "cat": "optimize"
+ },
+ {
+  "id": "pdfa",
+  "impl": "pdfa",
+  "slug": "pdf-to-pdfa",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "A",
+  "cat": "convert",
+  "beta": true
+ },
+ {
+  "id": "extractimages",
+  "impl": "extractimages",
+  "slug": "extract-images-from-pdf",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "🖼",
+  "cat": "convert"
+ }
 ]

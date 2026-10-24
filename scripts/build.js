@@ -41,9 +41,11 @@ const pages=[];
 for(const L of enabled){
   const t=merge(EN,load(L.code));const lang=L.code;const V={brand:site.brand};
   // Home
-  const cards=tools.map(x=>`<a class="card" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`).join('');
+  const card=x=>`<a class="card" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`;
+  const cats=['organize','edit','convert','optimize','security'];
+  const cards=cats.map(c=>`<h2 class="cat">${esc(t.ui['cat_'+c]||c)}</h2><div class="grid">${tools.filter(x=>x.cat===c).map(card).join('')}</div>`).join('');
   const homeBody=`<section class="hero"><h1>${esc(t.home.h1)}</h1><p class="lead">${esc(t.ui.heroSub)}</p></section>
-<section class="grid" aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
+<section aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
 <section class="feats"><div><h2>${esc(t.ui.f1t)}</h2><p>${esc(t.ui.f1d)}</p></div><div><h2>${esc(t.ui.f2t)}</h2><p>${esc(t.ui.f2d)}</p></div><div><h2>${esc(t.ui.f3t)}</h2><p>${esc(t.ui.f3d)}</p></div></section>`;
   write(url(lang,''),layout({t,lang,slug:'',title:fill(t.home.title,V),desc:fill(t.home.desc,V),body:homeBody,jsonld:[{"@context":"https://schema.org","@type":"WebSite",name:site.brand,url:abs(url(lang,'')),inLanguage:lang},{"@context":"https://schema.org","@type":"Organization",name:site.brand,url:site.baseUrl,logo:site.baseUrl+'/favicon.svg'}]}));
   pages.push('');
@@ -52,9 +54,9 @@ for(const L of enabled){
     const tt=t.tools[x.id];const v={...V,tool:tt.name};
     const faq=[...tt.faq,...t.commonFaq].map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
     const steps=tt.steps.map(s=>fill(s,v));
-    const rel=tools.filter(y=>y.id!==x.id).slice(0,13).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
+    const rel=[...tools.filter(y=>y.id!==x.id&&y.cat===x.cat),...tools.filter(y=>y.cat!==x.cat)].slice(0,14).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
     const body=`<section class="hero small"><h1>${esc(tt.h1)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</h1><p class="lead">${esc(fill(tt.desc,v))}</p></section>
-<section class="tool" id="tool" data-tool="${x.id}" data-accept="${x.accept}" data-multiple="${x.multiple}">
+<section class="tool" id="tool" data-tool="${x.impl||x.id}" data-preset="${x.preset||''}" data-accept="${x.accept}" data-multiple="${x.multiple}">
 <label class="drop"><input type="file" accept="${x.accept}" ${x.multiple?'multiple':''} hidden><span class="btn big">${esc(t.ui.select)}</span><span class="hint">${esc(t.ui.drop)}</span></label>
 <div class="work" hidden></div><p class="priv">🔒 ${esc(t.ui.privacy)}</p></section>
 ${ad('tool-below',t)}
@@ -81,8 +83,10 @@ fs.writeFileSync(path.join(OUT,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap
 // assets
 const cp=(a,b)=>{fs.mkdirSync(path.dirname(path.join(OUT,b)),{recursive:true});fs.copyFileSync(R(a),path.join(OUT,b));};
 for(const f of fs.readdirSync(R('src/assets')))cp('src/assets/'+f,'assets/'+f);
+fs.writeFileSync(path.join(OUT,'assets/app.js'),fs.readFileSync(R('src/assets/app.js'),'utf8').replace('/*__EXTRA__*/',()=>fs.readFileSync(R('src/tools2.js'),'utf8')));
 for(const f of fs.readdirSync(R('src/public')))cp('src/public/'+f,f);
-const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js'};
+const V={ 'pdf-lib.min.js':'node_modules/@cantoo/pdf-lib/dist/pdf-lib.min.js','pdf.min.js':'node_modules/pdfjs-dist/build/pdf.min.js','pdf.worker.min.js':'node_modules/pdfjs-dist/build/pdf.worker.min.js','jszip.min.js':'node_modules/jszip/dist/jszip.min.js','mammoth.browser.min.js':'node_modules/mammoth/mammoth.browser.min.js','fontkit.umd.min.js':'node_modules/@cantoo/fontkit/dist/fontkit.umd.min.js'};
+for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);
 for(const k in V)cp(V[k],'vendor/'+k);
 const n=fs.readdirSync(OUT,{recursive:true}).filter(f=>f.endsWith('.html')).length;
 console.log(`Built ${n} HTML pages for ${enabled.map(l=>l.code).join(', ')} -> dist/`);

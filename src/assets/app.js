@@ -8,7 +8,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const loaded={};const load=src=>loaded[src]||(loaded[src]=new Promise((ok,ko)=>{const s=document.createElement('script');s.src='/vendor/'+src;s.onload=ok;s.onerror=()=>ko(new Error('Failed to load '+src));document.head.appendChild(s);}));
 const L={pdflib:()=>load('pdf-lib.min.js').then(()=>window.PDFLib),
  pdfjs:()=>load('pdf.min.js').then(()=>{pdfjsLib.GlobalWorkerOptions.workerSrc='/vendor/pdf.worker.min.js';return pdfjsLib;}),
- zip:()=>load('jszip.min.js').then(()=>window.JSZip),mammoth:()=>load('mammoth.browser.min.js').then(()=>window.mammoth)};
+ zip:()=>load('jszip.min.js').then(()=>window.JSZip),mammoth:()=>load('mammoth.browser.min.js').then(()=>window.mammoth),fontkit:()=>load('fontkit.umd.min.js').then(()=>window.fontkit.default||window.fontkit)};
 const buf=f=>f.arrayBuffer();
 const base=n=>n.replace(/\.[^.]+$/,'');
 const pdfBlob=b=>new Blob([b],{type:'application/pdf'});
@@ -116,13 +116,14 @@ const TOOLS={
    const walk=(node,depth=0)=>{for(const el of node.children){const tg=el.tagName;if(/^H[1-6]$/.test(tg)){const s=[22,18,15,13,12,11][+tg[1]-1];y-=s*0.4;block(el,s,0,'',true);}else if(tg==='P')block(el,11,0,'');else if(tg==='UL'||tg==='OL'){let k=1;for(const li of el.children){const sub=[...li.children].filter(c=>c.tagName==='UL'||c.tagName==='OL');sub.forEach(s=>s.remove());block(li,11,18+depth*18,tg==='OL'?`${k++}. `:'• ');sub.forEach(s=>walk({children:[s]},depth+1));}}else if(tg==='TABLE'){for(const tr of el.querySelectorAll('tr')){const p=document.createElement('p');p.textContent=[...tr.children].map(c=>c.textContent.trim()).join('   |   ');block(p,10,0,'');}}else walk(el,depth);}};
    walk(dom);return {blob:pdfBlob(await d.save()),name:base(f.name)+'.pdf'};}}
 };
+/*__EXTRA__*/
 // Replace characters the standard font cannot encode
 function mkSafe(font){const cache={};const ok=ch=>{if(ch in cache)return cache[ch];try{font.encodeText(ch);cache[ch]=true;}catch(e){cache[ch]=false;}return cache[ch];};
  const map={'\u2018':"'",'\u2019':"'",'\u201C':'"','\u201D':'"','\u2013':'-','\u2014':'-','\u2026':'...','\u00A0':' ','\t':' '};
  return s=>[...String(s)].map(c=>map[c]??c).map(c=>c.length>1?c:ok(c)?c:'?').join('').replace(/[\r\n]+/g,' ');}
 
 // --- UI ---
-let files=[];const tool=TOOLS[toolId];
+let files=[];const tool=TOOLS[toolId];tool.preset=root.dataset.preset||'';
 function addFiles(list){const arr=[...list];if(!arr.length)return;files=multiple?files.concat(arr):[arr[0]];render();}
 input.addEventListener('change',()=>{addFiles(input.files);input.value='';});
 ['dragenter','dragover'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.add('over');}));
@@ -133,11 +134,11 @@ async function render(){
   drop.hidden=true;work.hidden=false;
   work.innerHTML=`<ul class="files">${files.map((f,i)=>`<li><span class="nm">📄 ${esc(f.name)}</span><small>${fmtSize(f.size)}</small>${multiple&&files.length>1?`<button type="button" data-a="up" data-i="${i}" aria-label="${esc(T.moveUp)}">↑</button><button type="button" data-a="down" data-i="${i}" aria-label="${esc(T.moveDown)}">↓</button>`:''}<button type="button" data-a="rm" data-i="${i}" aria-label="${esc(T.remove)}">✕</button></li>`).join('')}</ul>
   ${multiple?`<p style="text-align:center;margin:0 0 12px"><button type="button" class="btn ghost" id="addmore">+ ${esc(T.select)}</button></p>`:''}
-  <div class="opts">${tool.opts?tool.opts():''}</div><div class="custom"></div>
+  <div class="opts">${tool.opts?tool.opts.call(tool):''}</div><div class="custom"></div>
   <div class="actions"><button type="button" class="btn big" id="go">${esc(T.process)}</button></div><p class="status" role="status" aria-live="polite"></p>`;
   work.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i,a=b.dataset.a;if(a==='rm')files.splice(i,1);else{const j=a==='up'?i-1:i+1;if(j<0||j>=files.length)return;[files[i],files[j]]=[files[j],files[i]];}render();});
   $('#addmore',work)?.addEventListener('click',()=>input.click());
-  $('#go',work).onclick=go;
+  $('#go',work).onclick=go;if(tool.minFiles&&files.length<tool.minFiles){$('#go',work).disabled=true;$('.status',work).textContent=tool.minMsg||'';}
   if(tool.setup){try{const el=await tool.setup(files);$('.custom',work).appendChild(el);}catch(e){showErr(e);}}
 }
 function showErr(e){console.error(e);const s=$('.status',work);s.className='status err';let m=e&&e.message||String(e);if(/encrypt|password/i.test(m)&&toolId!=='unlock')m+=' — try the Unlock PDF tool first.';s.textContent=`${T.error} ${m}`;}
@@ -145,6 +146,7 @@ async function go(){const btn=$('#go',work),st=$('.status',work);btn.disabled=tr
   try{const r=await tool.run.call(tool,files,m=>st.textContent=m);const u=URL.createObjectURL(r.blob);window.__lastResult=r;
    $('.actions',work).innerHTML=`<a class="btn big" id="dl" href="${u}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a><button type="button" class="btn ghost" id="again">${esc(T.another)}</button>`;
    st.textContent=`${T.done} ${r.name} · ${fmtSize(r.blob.size)}${r.info?' · '+r.info:''}`;
+   if(r.view){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=r.view;work.appendChild(vw);}
    $('#again',work).onclick=()=>{URL.revokeObjectURL(u);files=[];render();};
   }catch(e){btn.disabled=false;showErr(e);}}
 })();

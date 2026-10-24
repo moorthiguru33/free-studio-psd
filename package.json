@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "preview": "node scripts/build.js && node scripts/serve.js 8788",
-    "samples": "node test/make-samples.js",
+    "samples": "node test/make-samples.js && node test/make-samples2.js",
     "test": "node test/e2e.js"
   },
   "keywords": [],
@@ -14,8 +14,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@cantoo/fontkit": "^2.0.12",
     "@cantoo/pdf-lib": "^2.11.1",
-    "@pdf-lib/fontkit": "^1.1.1",
     "jszip": "^3.10.1",
     "mammoth": "^1.13.0",
     "pdf-lib": "^1.17.1",

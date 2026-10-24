@@ -29,3 +29,9 @@ details.menu,details.langs{position:relative}details>summary{cursor:pointer;list
 @media(max-width:600px){.top .toolnav{grid-template-columns:1fr}.tool{padding:14px}.drop{padding:32px 12px}}
 details>summary{white-space:nowrap}:lang(ta) .hero h1,:lang(ta) .lead{line-height:1.45}
 @media(max-width:600px){.mt{display:none}.top .wrap{gap:4px}:lang(ta) .hero h1{font-size:1.45rem}}
+h2.cat{font-size:1.15rem;margin:26px 0 4px;color:var(--mu);text-transform:uppercase;letter-spacing:.04em}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px;margin:0 0 16px}
+.thumb{position:relative;border:2px solid var(--bd);border-radius:10px;padding:6px;background:#fff;cursor:grab;user-select:none}.thumb .tc{transition:transform .15s}.thumb.del{opacity:.35;border-style:dashed}.thumb.sel{border-color:var(--r);box-shadow:0 0 0 2px #e5322d33}
+.thumb .pn{position:absolute;top:4px;left:4px;background:#000a;color:#fff;font-size:11px;border-radius:5px;padding:0 5px}
+.tb{display:flex;justify-content:space-between;margin-top:5px}.tb button{border:1px solid var(--bd);background:#fff;border-radius:6px;padding:2px 0;width:19%;cursor:pointer;font-size:13px}
+.resview{margin-top:16px}.cmpwrap{max-height:70vh;overflow:auto;border:1px solid var(--bd);border-radius:10px}
