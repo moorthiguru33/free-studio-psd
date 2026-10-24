@@ -1195,5 +1195,121 @@
   "icon": "🎬",
   "cat": "media",
   "maxmb": 100
+ },
+ {
+  "id": "dataconv",
+  "slug": "data-converter",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "🔄",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "json"
+  }
+ },
+ {
+  "id": "csv2json",
+  "impl": "dataconv",
+  "slug": "csv-to-json",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "{ }",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "json"
+  }
+ },
+ {
+  "id": "json2csv",
+  "impl": "dataconv",
+  "slug": "json-to-csv",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "📄",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "csv"
+  }
+ },
+ {
+  "id": "csv2excel",
+  "impl": "dataconv",
+  "slug": "csv-to-excel",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "📊",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "xlsx"
+  }
+ },
+ {
+  "id": "excel2csv",
+  "impl": "dataconv",
+  "slug": "excel-to-csv",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "📄",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "csv"
+  }
+ },
+ {
+  "id": "excel2json",
+  "impl": "dataconv",
+  "slug": "excel-to-json",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "{ }",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "json"
+  }
+ },
+ {
+  "id": "json2excel",
+  "impl": "dataconv",
+  "slug": "json-to-excel",
+  "accept": ".csv,.tsv,.txt,.json,.xlsx,.xls,.xlsm,.ods,text/csv,application/json",
+  "multiple": true,
+  "icon": "📊",
+  "cat": "data",
+  "maxmb": 100,
+  "vars": {
+   "to": "xlsx"
+  }
+ },
+ {
+  "id": "zipcreate",
+  "impl": "zip",
+  "slug": "create-zip",
+  "accept": "*",
+  "multiple": true,
+  "icon": "🗜️",
+  "cat": "data",
+  "maxmb": 2000,
+  "vars": {
+   "mode": "zip"
+  }
+ },
+ {
+  "id": "unzip",
+  "impl": "zip",
+  "slug": "unzip-files",
+  "accept": ".zip,application/zip",
+  "multiple": true,
+  "icon": "📂",
+  "cat": "data",
+  "maxmb": 2000,
+  "vars": {
+   "mode": "unzip"
+  }
  }
 ]

@@ -4,13 +4,14 @@ const S=f=>path.join(__dirname,'samples',f);const OUT=path.join(__dirname,'out')
 const BASE=process.env.BASE||'http://localhost:8788';const results=[];
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROME||'/usr/bin/google-chrome',args:['--no-sandbox']});
 const ctx=await browser.newContext({acceptDownloads:true,viewport:process.env.DESKTOP?{width:1366,height:900}:{width:390,height:844}});// mobile viewport
-async function run(name,slug,files,{opts={},before,check,lang=''}={}){if(process.env.ONLY&&!new RegExp(process.env.ONLY).test(name))return;const page=await ctx.newPage();const errs=[];page.on('pageerror',e=>errs.push(e.message));
+async function run(name,slug,files,{opts={},before,check,lang='',noDownload=false}={}){if(process.env.ONLY&&!new RegExp(process.env.ONLY).test(name))return;const page=await ctx.newPage();const errs=[];page.on('pageerror',e=>errs.push(e.message));
  const reqs=[];page.on('request',r=>{if(['POST','PUT'].includes(r.method()))reqs.push(r.url());});
  try{await page.goto(`${BASE}/${lang}${slug}/`);if(files.length)await page.setInputFiles('#tool input[type=file]',files.map(S2));await page.waitForSelector('#go',{state:'attached'});await page.evaluate(()=>document.querySelectorAll('details.adv').forEach(d=>d.open=true));
   for(const [k,v] of Object.entries(opts)){const el=page.locator('#'+k);const tg=await el.evaluate(e=>e.tagName+(e.type||''));if(tg==='INPUTcheckbox')await el.setChecked(v==='1');else if(tg.startsWith('SELECT'))await el.selectOption(v);else await el.fill(v);}
   if(before)await before(page);
-  if(await page.isVisible('#go'))await page.click('#go');else await page.waitForTimeout(900);await page.waitForSelector('#dl,.status.err',{timeout:60000});
+  if(await page.isVisible('#go'))await page.click('#go');else await page.waitForTimeout(900);await page.waitForSelector(noDownload?'.result,.status.err':'#dl,.status.err',{timeout:60000});
   if(await page.$('.status.err'))throw new Error(await page.textContent('.status'));
+  if(noDownload){results.push(['PASS',name,await check(null,null,page)]);await page.close();return;}
   const [dl]=await Promise.all([page.waitForEvent('download'),page.click('#dl')]);const fp=path.join(OUT,name+'-'+dl.suggestedFilename());await dl.saveAs(fp);
   const info=await check(fs.readFileSync(fp),fp);if(errs.length)throw new Error('page errors: '+errs.join('; '));if(reqs.length)throw new Error('uploads detected: '+reqs);
   results.push(['PASS',name,info]);}catch(e){results.push(['FAIL',name,e.message.split('\n')[0]]);await page.screenshot({path:path.join(OUT,name+'-fail.png')});}await page.close();}
@@ -153,6 +154,14 @@ await run('videocompress','compress-video',['clip.mp4'],{check:async(b,fp)=>{con
 await run('videomute','mute-video',['clip.mp4'],{check:async(b,fp)=>{const r=probe(fp);if(/codec_type=audio/.test(r))throw new Error(r);return r}});
 await run('video2gif','video-to-gif',['clip.mp4'],{opts:{glen:'2'},check:async(b,fp)=>{if(String.fromCharCode(...b.slice(0,3))!=='GIF')throw new Error('not gif');return probe(fp)}});
 await run('gif2mp4','gif-to-mp4',['anim.gif'],{check:async(b,fp)=>{const r=probe(fp);if(!/h264/.test(r))throw new Error(r);return r}});
+// ---- Group Data
+await run('csv2json','csv-to-json',['data.csv'],{check:async b=>{const j=JSON.parse(Buffer.from(b).toString());if(j.length!==3||j[0].age!==31||j[1].city.name!=='Delhi, NCR'||j[2].name!=='மீனா')throw new Error(JSON.stringify(j));return JSON.stringify(j[1])}});
+await run('csv2excel','csv-to-excel',['data.csv'],{check:async b=>{const X=require('xlsx');const r=X.utils.sheet_to_json(X.read(b).Sheets.data||X.read(b).Sheets[X.read(b).SheetNames[0]]);if(r.length!==3||r[0].age!==31)throw new Error(JSON.stringify(r));return JSON.stringify(r[0])}});
+await run('excel2csv-hi','excel-to-csv',['data.xlsx'],{lang:'hi/',check:async b=>{if(b[0]!==0x50)throw new Error('expected zip for 2 sheets');return 'zip '+b.length}});
+await run('excel2json','excel-to-json',['data.xlsx'],{check:async b=>'zip '+b.length});
+await run('json2csv','json-to-csv',['data.json'],{check:async b=>{const t=Buffer.from(b).toString();if(!/address\.city/.test(t)||!/"Delhi, NCR"/.test(t))throw new Error(t);return t.split('\n')[0]}});
+await run('zipcreate','create-zip',['logo.png','notes.txt'],{check:async(b,fp)=>{const r=execFileSync('unzip',['-l',fp]).toString();if(!/logo.png/.test(r))throw new Error(r);return 'ok'}});
+await run('unzip','unzip-files',['sample.zip'],{noDownload:true,check:async(b,fp,page)=>{const n=await page.locator('.zlist a').count();if(n!==2)throw new Error('files '+n);return n+' files listed'}});
 // ---- UI polish / competitor features
 await run('split-scissors','split-pdf',['sample.pdf'],{before:async p=>{await p.waitForSelector('.cutb');await p.locator('.cutb[data-after="2"]').click();await p.waitForFunction(()=>/2 PDFs/.test(document.querySelector('#sprev').textContent));},check:async b=>{const z=await JSZip.loadAsync(b);const n=Object.keys(z.files);const c=[];for(const f of n)c.push(await pages(await z.file(f).async('uint8array')));if(c.join()!=='2,3')throw new Error(n+' '+c);return n.join(' ')}});
 await run('split-everyx-single','split-pdf',['sample.pdf'],{opts:{smode:'everyx',sx:'5'},check:async b=>{isPdf(b);if(await pages(b)!==5)throw new Error('bad');return 'one output → single PDF (no zip)'}});

@@ -1,0 +1,187 @@
+{
+ "ui": {
+  "o_delim": "CSV delimiter",
+  "o_dtypes": "Detect numbers & booleans",
+  "o_dnest": "JSON: rebuild nested objects from dot.keys",
+  "o_dpretty": "Pretty-print JSON",
+  "o_zipName": "ZIP file name",
+  "o_zlevel": "Compression",
+  "o_zNormal": "Normal",
+  "o_zMax": "Maximum (slower)",
+  "o_zStore": "None (fastest)",
+  "o_badZip": "Not a valid ZIP file (encrypted ZIPs are not supported).",
+  "o_emptyZip": "The ZIP is empty."
+ },
+ "tools": {
+  "dataconv": {
+   "name": "Data Converter",
+   "short": "Convert CSV, JSON and Excel files.",
+   "title": "CSV, JSON & Excel Converter – Free Online, No Upload | {brand}",
+   "desc": "Convert between CSV, TSV, JSON, Excel (XLSX/XLS) and ODS in your browser. Nested JSON, multi-sheet Excel, Unicode safe.",
+   "h1": "CSV / JSON / Excel Converter",
+   "steps": [
+    "Select CSV, JSON or Excel files.",
+    "Pick the output format.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "csv2json": {
+   "name": "CSV to JSON",
+   "short": "Turn spreadsheet rows into JSON.",
+   "title": "CSV to JSON Converter – Free, Private, Instant | {brand}",
+   "desc": "Convert CSV to a JSON array with automatic number/boolean detection and nested objects from dot.keys. Runs in your browser.",
+   "h1": "Convert CSV to JSON",
+   "steps": [
+    "Select a CSV file.",
+    "Choose the options.",
+    "Download the JSON."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    },
+    {
+     "q": "How are headers used?",
+     "a": "The first row becomes the JSON keys. A header like address.city becomes a nested object."
+    }
+   ]
+  },
+  "json2csv": {
+   "name": "JSON to CSV",
+   "short": "Flatten JSON arrays into CSV.",
+   "title": "JSON to CSV Converter – Free Online, No Upload | {brand}",
+   "desc": "Convert JSON arrays to CSV. Nested objects are flattened to dot.keys; opens cleanly in Excel (UTF-8 BOM).",
+   "h1": "Convert JSON to CSV",
+   "steps": [
+    "Select a JSON file.",
+    "Choose a delimiter.",
+    "Download the CSV."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "csv2excel": {
+   "name": "CSV to Excel",
+   "short": "Convert CSV into an XLSX workbook.",
+   "title": "CSV to Excel Converter – CSV to XLSX Free | {brand}",
+   "desc": "Convert CSV files to Excel XLSX with proper numbers and Unicode text. Free, no upload.",
+   "h1": "Convert CSV to Excel",
+   "steps": [
+    "Select CSV files.",
+    "Keep Excel (XLSX) selected.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "excel2csv": {
+   "name": "Excel to CSV",
+   "short": "Export each sheet as CSV.",
+   "title": "Excel to CSV Converter – XLSX to CSV Free | {brand}",
+   "desc": "Convert XLSX, XLS and ODS spreadsheets to CSV – one file per sheet. Runs in your browser.",
+   "h1": "Convert Excel to CSV",
+   "steps": [
+    "Select Excel files.",
+    "Pick the delimiter.",
+    "Download the CSV (zip if several sheets)."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "excel2json": {
+   "name": "Excel to JSON",
+   "short": "Convert spreadsheets into JSON.",
+   "title": "Excel to JSON Converter – XLSX to JSON Free | {brand}",
+   "desc": "Convert Excel sheets to JSON arrays using the first row as keys. Free and private.",
+   "h1": "Convert Excel to JSON",
+   "steps": [
+    "Select Excel files.",
+    "Choose the options.",
+    "Download the JSON."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "json2excel": {
+   "name": "JSON to Excel",
+   "short": "Turn JSON data into a spreadsheet.",
+   "title": "JSON to Excel Converter – JSON to XLSX Free | {brand}",
+   "desc": "Convert JSON arrays to Excel XLSX. Nested fields become dot.key columns.",
+   "h1": "Convert JSON to Excel",
+   "steps": [
+    "Select a JSON file.",
+    "Keep Excel selected.",
+    "Download the XLSX."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "zipcreate": {
+   "name": "Create ZIP",
+   "short": "Pack files into a ZIP archive.",
+   "title": "Create ZIP File Online – Compress Files to ZIP Free | {brand}",
+   "desc": "Put any files into a ZIP archive in your browser. No upload, no size limits beyond your device memory.",
+   "h1": "Create a ZIP File",
+   "steps": [
+    "Select files.",
+    "Name the ZIP and pick compression.",
+    "Download the ZIP."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    }
+   ]
+  },
+  "unzip": {
+   "name": "Unzip Files",
+   "short": "Extract files from a ZIP.",
+   "title": "Unzip Files Online – Extract ZIP Free, No Upload | {brand}",
+   "desc": "Open ZIP archives in your browser and download individual files. Works on phones too.",
+   "h1": "Extract ZIP Files",
+   "steps": [
+    "Select a ZIP file.",
+    "Wait for the file list.",
+    "Tap any file to download it."
+   ],
+   "faq": [
+    {
+     "q": "Are my files uploaded?",
+     "a": "No. Everything is processed in your browser; files never leave your device."
+    },
+    {
+     "q": "Are password-protected ZIPs supported?",
+     "a": "Not yet – encrypted ZIPs cannot be opened."
+    }
+   ]
+  }
+ }
+}
