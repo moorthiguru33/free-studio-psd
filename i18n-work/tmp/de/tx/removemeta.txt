@@ -1,0 +1,101 @@
+0	PDF-Metadaten entfernen
+1	Autor, Titel und versteckte Daten entfernen.
+2	PDF-Metadaten online entfernen – versteckte Daten löschen
+3	Autor, Software, Datumsangaben, XMP und andere versteckte Metadaten vor dem Teilen aus PDFs entfernen. Optional auch Anhänge und Skripte. Kostenlos.
+4	PDF-Metadaten entfernen
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie, ob auch Anhänge und Skripte entfernt werden sollen.
+7	Laden Sie das bereinigte PDF herunter.
+8	Was wird entfernt?
+9	Die Dokumentinformationen (Titel, Autor, Betreff, Stichwörter, Ersteller, Produzent, Datumsangaben), XMP-Metadaten und PieceInfo – private Bearbeitungsdaten, die Programme wie Adobe Illustrator in der Datei und ihren Seiten speichern.
+10	PDFs können mehr verraten, als Sie denken: den Namen des Autors, die verwendete Software, Erstellungsdaten und manchmal Anhänge. Metadaten zu entfernen ist ein einfacher Datenschutzschritt, bevor Sie Dokumente an Kunden senden, veröffentlichen oder anonym einreichen.
+11	Dokumente für ein anonymes Peer-Review anonymisieren.
+12	Ihren Namen aus Dateien entfernen, die auf einem Arbeitsrechner erstellt wurden.
+13	Durchgesickerte interne Details vor der Veröffentlichung eines PDFs bereinigen.
+14	Prüfen Sie auch den sichtbaren Inhalt – das Entfernen von Metadaten ändert den Text auf den Seiten nicht.
+15	Verwenden Sie „PDF schwärzen“ für vertraulichen Text auf der Seite.
+16	Was genau wird entfernt?
+17	Die Dokumentinformationen (Titel, Autor, Betreff, Stichwörter, Ersteller, Produzent, Datumsangaben), XMP-Metadaten und PieceInfo – private Bearbeitungsdaten, die Programme wie Adobe Illustrator in der Datei und ihren Seiten speichern.
+18	Versteckte Daten in PDFs
+19	Metadaten können den Namen des Autors, die Organisation, Softwareversionen, Bearbeitungszeiten und ursprüngliche Dateipfade verraten. Journalisten, Anwälte und Forschende entfernen sie, bevor sie Dokumente veröffentlichen oder zur anonymen Begutachtung einreichen.
+20	Was gleich bleibt
+21	Seiteninhalt, Text, Bilder, Links und Layout bleiben unverändert – nur die versteckten beschreibenden Daten werden entfernt, das Dokument sieht also identisch aus.
+22	PDF-Metadaten entfernen – Autor, Titel und XMP kostenlos
+23	Versteckte PDF-Metadaten entfernen – Autor, Titel, Betreff, Stichwörter, Software, Datum und XMP – sowie Anhänge und Skripte. Kostenlos und privat.
+24	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Adobe
+25	Metadaten aus einem PDF entfernen
+26	Jedes PDF kann versteckte Informationen enthalten: den Namen des Autors, die Firma, die verwendete Software samt Version, Erstellungs- und Änderungsdatum, Stichwörter und ein vollständiges XMP-Metadatenpaket. Entfernen Sie sie, bevor Sie ein Dokument veröffentlichen oder an Personen außerhalb Ihrer Organisation senden. Optional lassen sich auch Anhänge und Skripte entfernen.
+27	So funktioniert es
+28	Ziehen Sie das PDF hierher.
+29	Aktivieren Sie „Auch Anhänge und Skripte entfernen“ für eine maximale Bereinigung.
+30	Laden Sie das bereinigte PDF herunter – der Bericht zeigt, was entfernt wurde.
+31	Was PDF-Metadaten verraten können
+32	**Autor**: oft Ihr vollständiger Name oder Ihr Windows-Benutzername.
+33	**Ersteller / Produzent**: z. B. Microsoft Word 2021 oder ein Scannermodell.
+34	**Datumsangaben**: wann das Dokument tatsächlich erstellt und zuletzt geändert wurde.
+35	**Titel und Betreff**: manchmal ein alter interner Titel oder ein Entwurfsname.
+36	**XMP-Paket**: kann Bearbeitungsverlauf, Dokumentkennungen und Firmeninformationen enthalten.
+37	**Anhänge**: eingebettete Quelldateien oder Tabellen, die Sie vergessen haben.
+38	Wann Sie Metadaten entfernen sollten
+39	Vor der Veröffentlichung auf einer Website, der Abgabe eines Angebots oder einer Bewerbung, dem Versand von Dokumenten an die Gegenseite, einem anonymen Peer-Review, einer Hinweisgebermeldung oder dem Teilen von Dokumenten in einem Onlineshop. Journalisten und Anwälte entfernen Metadaten routinemäßig als Teil ihrer Dokumentenhygiene. Denken Sie daran, dass Metadaten nur eine Ebene sind: Auch sichtbarer Text, Kommentare und versteckte Ebenen können Informationen preisgeben. Verwenden Sie [PDF-Bereiniger](/pdf-cleaner/) für eine gründlichere Bereinigung und [PDF schwärzen](/redact-pdf/), um sichtbare Inhalte zu entfernen.
+40	Bearbeiten statt löschen
+41	Wenn Sie die Metadaten durch eigene Werte ersetzen möchten – etwa einen SEO-tauglichen Titel –, nutzen Sie [PDF-Metadaten bearbeiten](/edit-pdf-metadata/). Für Fotos ist das Gegenstück [EXIF-Daten entfernen](/remove-exif-data/).
+42	Funktioniert mit fast jedem PDF
+43	Das Tool öffnet PDFs aus Word, Google Docs, LibreOffice, Scannern, Smartphones und Designsoftware, einschließlich PDF-1.0- bis 2.0-Dateien mit Formularen, Anmerkungen und eingebetteten Schriften. Dateien mit einem *Öffnungspasswort* müssen zuerst mit [PDF entsperren](/unlock-pdf/) entsperrt werden (Sie benötigen das Passwort); Dateien mit reinen Berechtigungseinschränkungen öffnen sich meist direkt. Auch große Dokumente mit Hunderten Seiten funktionieren – die Grenze ist der Arbeitsspeicher Ihres Geräts, meist mehrere hundert Megabyte auf einem Laptop und rund 100 MB auf einem Smartphone.
+44	Windows, Mac, iPhone und Android
+45	Es muss nichts installiert werden. Es funktioniert in Chrome, Edge, Firefox und Safari unter Windows, macOS, Linux, ChromeOS, Android und iOS. Tippen Sie auf dem Smartphone auf den Ablagebereich und wählen Sie die Datei aus Dateien, Google Drive oder E-Mail-Downloads; das Ergebnis wird unter Downloads oder in der Dateien-App gespeichert und lässt sich direkt per WhatsApp, Gmail oder Drive teilen.
+46	Häufige Probleme und Lösungen
+47	**„Die Datei ist verschlüsselt“**: Entfernen Sie das Öffnungspasswort mit PDF entsperren und versuchen Sie es erneut.
+48	**Die Datei ist nur ein Cloud-Platzhalter**: Laden Sie sie zuerst vollständig aus OneDrive, iCloud oder Drive herunter.
+49	**Ein beschädigter oder unvollständiger Download**: Bearbeiten Sie ihn mit [PDF reparieren](/repair-pdf/).
+50	**Sehr langsam auf dem Smartphone**: Große gescannte PDFs brauchen viel Speicher; schließen Sie andere Tabs oder teilen Sie die Datei vorher mit [PDF teilen](/split-pdf/).
+51	**Der Download hat nicht begonnen**: Manche In-App-Browser (Instagram, Facebook) blockieren Downloads; öffnen Sie die Seite in Chrome oder Safari.
+52	Mit anderen PDF-Tools kombinieren
+53	Die meisten Aufgaben erfordern mehr als einen Schritt, und alle Fileopia-Tools funktionieren gleich – Sie können sie also verketten, ohne etwas hochzuladen. Ein typischer Ablauf: Seiten scannen oder umwandeln, sie zu einer Datei [zusammenfügen](/merge-pdf/), mit [PDF organisieren](/organize-pdf/) sortieren, gescannten Text per OCR durchsuchbar machen, [Seitenzahlen](/add-page-numbers/) hinzufügen und das Ergebnis zum Schluss für den E-Mail-Versand [komprimieren](/compress-pdf/). Jeder Schritt lädt eine neue Datei herunter und lässt das Original unberührt, sodass Sie jederzeit zurückgehen und andere Einstellungen ausprobieren können. Tipp: Geben Sie jedem Ergebnis einen klaren Namen wie *vertrag-signiert-komprimiert.pdf*, um die Versionen später auseinanderzuhalten.
+54	Datenschutz
+55	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Speicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+56	Wo Ihre Datei verarbeitet wird
+57	In Ihrem Browser, nie hochgeladen
+58	Auf deren Servern (Upload)
+59	Auf deren Servern (Upload)
+60	Auf deren Servern (Upload)
+61	Konto erforderlich
+62	Nie
+63	Siehe Website
+64	Siehe Website
+65	Siehe Website
+66	Ohne Upload – läuft auf Ihrem Gerät
+67	Ja
+68	Siehe Website
+69	Siehe Website
+70	Siehe Website
+71	Bericht über entfernte Elemente
+72	Ja
+73	Siehe Website
+74	Siehe Website
+75	Siehe Website
+76	Kostenlos ohne Registrierung
+77	Ja
+78	Siehe Website
+79	Siehe Website
+80	Siehe Website
+81	Wie entferne ich Metadaten aus einem PDF?
+82	Ziehen Sie es hierher und laden Sie die bereinigte Datei herunter.
+83	Welche Metadaten werden entfernt?
+84	Autor, Titel, Betreff, Stichwörter, Ersteller, Produzent, Datumsangaben und XMP.
+85	Ändert sich der Inhalt?
+86	Nein, die Seiten bleiben unangetastet.
+87	Kann ich auch Anhänge entfernen?
+88	Ja, aktivieren Sie die Option.
+89	Wie sehe ich mir die Metadaten vorher an?
+90	Öffnen Sie „PDF-Metadaten bearbeiten“, um sie anzuzeigen.
+91	Ist das dasselbe wie Schwärzen?
+92	Nein, beim Schwärzen werden sichtbare Inhalte entfernt.
+93	Werden Kommentare entfernt?
+94	Verwenden Sie den PDF-Bereiniger für Kommentare und andere versteckte Daten.
+95	Ist es kostenlos?
+96	Ja.
+97	Werden die Dateien hochgeladen?
+98	Nein – wichtig bei vertraulichen Dokumenten.
+99	Funktioniert es auf dem iPhone?
+100	Ja.

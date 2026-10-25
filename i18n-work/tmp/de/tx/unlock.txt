@@ -1,0 +1,114 @@
+0	PDF entsperren
+1	Passwort von einem eigenen PDF entfernen.
+2	PDF entsperren online kostenlos – PDF-Passwort entfernen | {brand}
+3	Passwortschutz von einem PDF entfernen, wenn Sie das Passwort kennen. Kostenlos und privat – die Verarbeitung erfolgt in Ihrem Browser.
+4	PDF entsperren
+5	Wählen Sie das geschützte PDF aus.
+6	Geben Sie das Passwort ein.
+7	Klicken Sie auf „Start“ und laden Sie das entsperrte PDF herunter.
+8	Könnt ihr ein unbekanntes Passwort knacken?
+9	Nein. Sie müssen das Passwort kennen. Entsperren Sie nur Dateien, auf die Sie zugreifen dürfen.
+10	Kontoauszüge und E-Rechnungen kommen oft passwortgeschützt an. Wenn Sie das Passwort kennen, kann {brand} es entfernen, damit Sie die Datei frei öffnen, drucken oder zusammenfügen können – alles lokal in Ihrem Browser.
+11	Passwort von eigenen Konto- oder Kreditkartenauszügen entfernen.
+12	Geschützte PDFs zum Zusammenfügen oder Komprimieren vorbereiten.
+13	Sie müssen das Passwort kennen; dieses Tool knackt keine Passwörter.
+14	Besitzer- und Benutzerpasswörter
+15	PDFs können ein Öffnungspasswort (zum Anzeigen nötig) und Berechtigungspasswörter haben, die Drucken, Kopieren oder Bearbeiten einschränken. Wenn Sie das Passwort kennen, entfernt das Entsperren den Schutz, sodass Sie normal mit der Datei arbeiten können.
+16	Legale und sichere Nutzung
+17	Entsperren Sie nur Dokumente, die Ihnen gehören oder auf die Sie zugreifen dürfen, etwa eigene Kontoauszüge, Nebenkostenabrechnungen oder Gehaltsabrechnungen. Bewahren Sie die entsperrte Datei sicher auf – sie ist nicht mehr geschützt.
+18	Nach dem Entsperren
+19	Sobald das Passwort entfernt ist, können Sie die Datei mit anderen Dokumenten zusammenfügen, komprimieren, Seitenzahlen hinzufügen oder sie drucken, ohne jedes Mal nach dem Passwort gefragt zu werden.
+20	PDF entsperren – Passwort und Einschränkungen gratis entfernen
+21	Ein bekanntes PDF-Passwort entfernen oder Druck-, Kopier- und Bearbeitungssperren aufheben. Mehrere Dateien, ohne Upload, offline. Kostenlos.
+22	PDF-Passwort in Sekunden entfernen
+23	Jedes Mal ein Passwort einzugeben, wenn Sie Ihren eigenen Kontoauszug oder Ihre Gehaltsabrechnung öffnen, nervt schnell. {brand} entfernt das Passwort, sodass sich die Datei direkt öffnet – vorausgesetzt, Sie kennen es. Das PDF wird in Ihrem Browser entschlüsselt und als normale, ungeschützte Kopie gespeichert. Weder Datei noch Passwort werden hochgeladen.
+24	Viele PDFs haben außerdem ein **Besitzerpasswort**, das das Öffnen nicht verhindert, aber Drucken, Textkopieren oder Bearbeiten sperrt. Diese Einschränkungen lassen sich in der Regel ohne Passworteingabe aufheben – lassen Sie das Feld einfach leer.
+25	Was dieser Entsperrer kann
+26	**Entfernt das Öffnungspasswort**, wenn Sie es korrekt eingeben.
+27	**Hebt Druck-, Kopier- und Bearbeitungssperren auf** bei Dateien, die sich ohne Passwort öffnen.
+28	**Bewahrt alles andere**: Seiten, Text, Bilder, Links, Titel und Autor werden in die neue Datei übernommen.
+29	**Stapelweise**: mehrere PDFs mit demselben Passwort auf einmal entsperren und als ZIP herunterladen.
+30	**Klare Fehlermeldungen**: Bei einem falschen Passwort sehen Sie, welche Datei fehlgeschlagen ist.
+31	Entsperren Sie nur Dateien, die Sie entsperren dürfen
+32	Nutzen Sie dieses Tool für Ihre eigenen Dokumente oder für Dateien, deren Eigentümer Ihnen das Passwort gegeben hat. Es knackt oder errät keine unbekannten Passwörter. Den Schutz von Dokumenten zu entfernen, auf die Sie keinen Zugriff haben dürfen, kann gegen Gesetze oder Verträge verstoßen – respektieren Sie daher den Willen des Verfassers.
+33	So entsperren Sie ein PDF
+34	Legen Sie das geschützte PDF (oder mehrere) ab.
+35	Geben Sie das Passwort ein oder lassen Sie das Feld leer, wenn die Datei nur Einschränkungen hat.
+36	Klicken Sie auf „Entsperren“ und laden Sie die ungeschützte Kopie herunter.
+37	Bewahren Sie die entsperrte Datei sicher auf – jetzt kann sie jeder lesen, der sie hat.
+38	Entsperren auf verschiedenen Geräten
+39	Da das Tool auf einer Webseite läuft, funktioniert es unter Windows, macOS, Linux, Chromebook, Android und iPhone gleich. Auf dem Mac können Sie das PDF auch in Vorschau öffnen, das Passwort eingeben und es unverschlüsselt exportieren; in Chrome können Sie das PDF öffnen, das Passwort eingeben und „Drucken → Als PDF speichern“ nutzen, wobei Links und Formulare verloren gehen können. Dieses Tool lässt die ursprüngliche Struktur intakt.
+40	Schreibgeschützte und eingeschränkte PDFs
+41	Ein „schreibgeschütztes“ PDF hat meist ein Besitzerpasswort mit deaktivierter Bearbeitung. Lassen Sie das Passwort leer und entsperren Sie es, um es mit [PDF bearbeiten](/edit-pdf/) zu bearbeiten, mit [PDF-Formular ausfüllen](/fill-pdf-form/) auszufüllen oder mit [PDF organisieren](/organize-pdf/) neu zu ordnen. Ist eine Datei „schreibgeschützt“, weil sie ein Scan ist, enthält sie keinen bearbeitbaren Text – wenden Sie zuerst [OCR für PDF](/ocr-pdf/) an.
+42	Typische Anwendungen
+43	Passwort von monatlichen Bank-, Kreditkarten- und Versorgerabrechnungen entfernen.
+44	Gehaltsabrechnungen und Steuerformulare für die Ablage entsperren.
+45	Drucken bei Dokumenten erlauben, in denen es deaktiviert war.
+46	Dateien zum Zusammenfügen, Komprimieren oder Bearbeiten vorbereiten – diese Aufgaben benötigen ungeschützte PDFs.
+47	Mit [PDF schützen](/protect-pdf/) erneut mit einem neuen Passwort schützen.
+48	Wo Ihre Datei verarbeitet wird
+49	In Ihrem Browser, nie hochgeladen
+50	Auf deren Servern
+51	Auf deren Servern
+52	Adobe-Cloud
+53	Auf deren Servern
+54	Funktioniert bei ausgeschaltetem WLAN
+55	Ja, nach dem Laden der Seite
+56	Nein
+57	Nein
+58	Nein
+59	Nein
+60	Konto oder E-Mail erforderlich
+61	Nie
+62	Nicht für die Grundnutzung
+63	Nicht für die Grundnutzung
+64	Anmeldung für einige Aktionen
+65	Nicht für die Grundnutzung
+66	Limits der Gratisnutzung
+67	Keine – nur die Ihres Geräts
+68	Gratis-Tarif; Premium für mehr
+69	Gratis-Tarif; Premium für mehr
+70	Gratis-Tarif; Premium für mehr
+71	3 Aufgaben/Stunde, 50 MB pro Datei
+72	Einschränkungen ohne Passwort aufheben
+73	Ja
+74	Siehe Website
+75	Siehe Website
+76	Siehe Website
+77	Siehe Website
+78	Stapelweise entsperren
+79	Kostenlos, als ZIP
+80	Siehe Website
+81	Siehe Website
+82	Siehe Website
+83	Im Rahmen des Aufgabenlimits
+84	Passwort an Server gesendet
+85	Nie
+86	Ja (mit der Datei)
+87	Ja (mit der Datei)
+88	Ja (mit der Datei)
+89	Ja (mit der Datei)
+90	Wie entferne ich das Passwort eines PDFs?
+91	PDF hier ablegen, Passwort eingeben und auf „Entsperren“ klicken. Sie erhalten eine Kopie, die sich ohne Passwort öffnet.
+92	Kann ich ein PDF kostenlos entsperren?
+93	Ja, ohne Limits, Wasserzeichen oder Registrierung.
+94	Ist es sicher?
+95	Ja. Datei und Passwort bleiben in Ihrem Browser; nichts wird hochgeladen.
+96	Kann ich ein PDF ohne Passwort entsperren?
+97	Wenn es nur Einschränkungen hat (Drucken, Kopieren, Bearbeiten), ja – lassen Sie das Feld leer. Wenn zum Öffnen ein Passwort nötig ist, müssen Sie es kennen; dieses Tool knackt keine Passwörter.
+98	Kann ich ein schreibgeschütztes PDF entsperren?
+99	Ja. Schreibgeschützte PDFs haben meist nur Bearbeitungssperren, die sich ohne Passwort aufheben lassen.
+100	Kann ich ein PDF-Passwort auf Mac, iPhone oder Android entfernen?
+101	Ja. Das Tool funktioniert in jedem modernen Browser auf jedem Gerät.
+102	Kann ich mehrere PDFs auf einmal entsperren?
+103	Ja, wenn sie dasselbe Passwort haben. Die Ergebnisse werden als ZIP heruntergeladen.
+104	Ändert sich der Inhalt?
+105	Nein. Seiten, Text, Bilder und Links bleiben exakt erhalten.
+106	Ist es legal, ein PDF zu entsperren?
+107	Eigene Dateien oder Dateien, für die Sie eine Erlaubnis haben, dürfen Sie entsperren. Entfernen Sie keinen Schutz von Dokumenten, auf die Sie nicht zugreifen dürfen.
+108	Wie entsperre ich ein PDF?
+109	PDF ablegen. Hat es nur Einschränkungen (kein Drucken oder Kopieren), werden sie sofort aufgehoben. Ist zum Öffnen ein Passwort nötig, geben Sie das Ihnen bekannte Passwort ein und laden Sie eine entsperrte Kopie herunter.
+110	Kann ich ein PDF ohne Passwort entsperren?
+111	Berechtigungseinschränkungen lassen sich ohne Passwort aufheben. Ein PDF, das zum Öffnen ein Passwort braucht, ist verschlüsselt, und dieses Tool knackt oder errät keine unbekannten Passwörter – Sie benötigen das Passwort von der Person, die Ihnen die Datei geschickt hat.
+112	Wie entsperre ich ein PDF zum Bearbeiten?
+113	Beim Entsperren werden die Einschränkungen aufgehoben, die Bearbeiten, Kopieren oder Drucken verhindern. Danach können Sie die Datei im PDF-Editor oder in jeder anderen App öffnen.

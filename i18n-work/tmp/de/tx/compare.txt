@@ -1,0 +1,119 @@
+0	PDF vergleichen
+1	Textunterschiede zwischen zwei PDFs nebeneinander sehen.
+2	PDFs online vergleichen – Unterschiede zwischen zwei PDFs | {brand}
+3	Vergleichen Sie zwei Versionen eines PDFs und heben Sie hinzugefügten, gelöschten und geänderten Text nebeneinander hervor. Kostenlos, privat, ohne Upload.
+4	Zwei PDFs vergleichen
+5	Wählen Sie die beiden PDF-Versionen aus.
+6	Klicken Sie auf Starten.
+7	Prüfen Sie die markierten Unterschiede oder laden Sie den Bericht herunter.
+8	Werden Bilder verglichen?
+9	Diese Version vergleicht Text. Ein visueller Vergleich ist geplant.
+10	Vertragsüberarbeitungen, Richtlinien-Updates und neue Dokumentversionen kommen oft ohne Änderungsverfolgung. PDF vergleichen zeigt genau, welche Wörter zwischen zwei Versionen hinzugefügt, gelöscht oder geändert wurden, damit Ihnen nichts entgeht.
+11	Prüfen, was sich zwischen zwei Vertragsversionen geändert hat.
+12	Änderungen an AGB oder Richtlinien überprüfen.
+13	Sicherstellen, dass die finale Druckdatei dem freigegebenen Proof entspricht.
+14	Legen Sie die alte Version zuerst ab, damit sich Hinzugefügtes und Gelöschtes natürlich liest.
+15	Gescannte PDFs brauchen OCR, bevor ihr Text verglichen werden kann.
+16	Werden Bilder und Layout verglichen?
+17	Diese Version vergleicht Text. Ein visueller Vergleich ist geplant.
+18	Wann Sie PDFs vergleichen sollten
+19	Nutzen Sie PDF vergleichen immer dann, wenn Sie eine „endgültige“ Version eines Vertrags, einer Richtlinie, einer Spezifikation oder eines wissenschaftlichen Artikels erhalten. Kleine Änderungen an Zahlen, Daten oder Haftungsklauseln übersieht man beim Lesen leicht.
+20	So lesen Sie die Ergebnisse
+21	Gelöschter Text wird in einer Farbe, hinzugefügter in einer anderen markiert, nebeneinander, damit Sie jede Änderung prüfen und vor der Unterschrift bei allem Unerwarteten nachfragen können.
+22	PDF vergleichen – Unterschiede zwischen zwei PDFs finden
+23	Vergleichen Sie zwei PDFs nebeneinander, mit Wort für Wort markiertem Text (hinzugefügt, gelöscht, geändert). Bericht zum Download. Ohne Upload.
+24	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Sejda
+25	Zwei PDF-Dokumente auf Unterschiede vergleichen
+26	PDF vergleichen zeigt genau, was sich zwischen zwei Versionen eines Dokuments geändert hat. Legen Sie das ursprüngliche und das überarbeitete PDF ab, und der Text beider wird nebeneinander ausgerichtet: Gelöschte Zeilen werden links rot markiert, hinzugefügte rechts grün und geänderte gelb, mit den genau durchgestrichenen oder eingefügten Wörtern. Eine Zusammenfassung zeigt die Zahl der Löschungen, Ergänzungen und Änderungen, und Sie können den Vergleich als HTML-Bericht herunterladen, um ihn zu teilen oder zu archivieren.
+27	Es ist der schnellste Weg, die Änderungen in einem Vertrag zu prüfen, zu bestätigen, dass in einer neuen Richtlinie nur die vereinbarten Klauseln geändert wurden, Änderungen an einer Abschlussarbeit zu kontrollieren oder Unterschiede zwischen zwei Rechnungen oder Angeboten zu finden.
+28	So vergleichen Sie zwei PDF-Dateien
+29	Legen Sie die beiden PDFs ab (zuerst das Original, dann das überarbeitete).
+30	Klicken Sie auf Vergleichen.
+31	Lesen Sie die Tabelle nebeneinander: Rot = gelöscht, Grün = hinzugefügt, Gelb = geändert.
+32	Laden Sie den HTML-Bericht herunter, wenn Sie ihn aufbewahren oder senden möchten.
+33	Was verglichen wird
+34	Das Tool vergleicht den **Text** der Dokumente Zeile für Zeile und dann Wort für Wort innerhalb geänderter Zeilen und zeigt die Seitenzahl jeder Zeile. Daher ist es ideal für Verträge, Berichte, Richtlinien und andere Textdokumente. Änderungen an Formatierung (Schrift, Farbe, Layout) oder Bildern erkennt es nicht, und gescannte PDFs brauchen zuerst [OCR für PDF](/ocr-pdf/), damit sie Text enthalten.
+35	So lesen Sie das Ergebnis
+36	Farbe
+37	Bedeutung
+38	Rot, linke Spalte
+39	Die Zeile existiert nur im ersten PDF (gelöscht)
+40	Grün, rechte Spalte
+41	Die Zeile existiert nur im zweiten PDF (hinzugefügt)
+42	Gelb, beide Spalten
+43	Geänderte Zeile; durchgestrichene Wörter wurden gelöscht, markierte hinzugefügt
+44	Ohne Farbe
+45	Unverändert
+46	Kann ich ein PDF mit einem Word-Dokument vergleichen?
+47	Wandeln Sie die Word-Datei zuerst mit [Word in PDF](/word-to-pdf/) in ein PDF um und vergleichen Sie dann die beiden PDFs. Sie können auch das PDF mit [PDF in Word](/pdf-to-word/) in Word umwandeln und die integrierte Vergleichsfunktion von Word nutzen.
+48	Tipps für einen genauen Vergleich
+49	Vergleichen Sie Dokumente, die auf dieselbe Weise erzeugt wurden: Zwei Word-Exporte lassen sich besser vergleichen als ein Word-Export mit einem Scan.
+50	Verschobener Text (ein Absatz, der auf eine andere Seite rutscht) wird weiterhin zugeordnet, weil der Vergleich dem Text folgt, nicht der Seite.
+51	Kopf- und Fußzeilen erscheinen ebenfalls als Zeilen; geänderte Seitenzahlen können als kleine Änderungen auftauchen.
+52	Nutzen Sie bei langen Dokumenten die Browsersuche (Strg+F) im Bericht, um zu einer Klausel zu springen.
+53	PDFs online vergleichen oder mit Desktop-Programmen
+54	Professionelle PDF-Suiten und spezielle Vergleichs-Apps bieten visuellen Vergleich in kostenpflichtigen Tarifen, und Online-Tools laden meist beide Dokumente hoch. Hier werden beide Dateien in Ihrem Browser gelesen und verlassen nie Ihr Gerät – wichtig beim Vergleich vertraulicher Verträge.
+55	Glossar
+56	Begriff
+57	Bedeutung
+58	Diff
+59	Liste der Unterschiede zwischen zwei Texten
+60	Redline (Änderungsmarkierung)
+61	Markierte Fassung, die die Änderungen zeigt
+62	Wort-Diff
+63	Genau markieren, welche Wörter sich in einer Zeile geändert haben
+64	Praxisbeispiel
+65	Ein Lieferant schickt Ihnen einen überarbeiteten Vertrag zurück und sagt, nur die Zahlungsbedingungen hätten sich geändert. Legen Sie Original und Überarbeitung ab: Die markierten Unterschiede zeigen genau, welche Wörter auf jeder Seite hinzugefügt oder entfernt wurden, sodass Sie bestätigen können, dass nichts anderes stillschweigend geändert wurde, etwa eine Haftungsgrenze, ein Datum oder eine Kündigungsfrist. Speichern Sie den Vergleich für Ihre Unterlagen.
+66	Tipps für einen genauen Vergleich
+67	Vergleichen Sie textbasierte PDFs für Ergebnisse auf Wortebene; Scans lassen Sie vorher durch [OCR](/ocr-pdf/) laufen. Wurden Seiten eingefügt, können spätere Unterschiede verschoben erscheinen – vergleichen Sie bei Bedarf Abschnitte mit [Seiten extrahieren](/extract-pages-from-pdf/).
+68	Was der Vergleich nicht abdeckt
+69	Text wird Wort für Wort verglichen; Änderungen an Bildern, Farben, Schriften und Layout werden nicht markiert. Für visuelle Änderungen öffnen Sie beide Dateien nebeneinander oder wandeln die Seiten mit [PDF in JPG](/pdf-to-jpg/) um und prüfen sie. Metadaten und versteckte Inhalte werden ebenfalls nicht verglichen. Nutzen Sie das Tool als schnelle erste Prüfung und lesen Sie die wichtigen Klauseln danach selbst.
+70	Datenschutz
+71	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet also für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+72	Verwandte Tools
+73	[PDF in Word](/pdf-to-word/)
+74	[Word in PDF](/word-to-pdf/)
+75	[OCR für PDF](/ocr-pdf/)
+76	[In PDF suchen und ersetzen](/find-and-replace-pdf/)
+77	[PDF zusammenfügen](/merge-pdf/)
+78	Wo Ihre Datei verarbeitet wird
+79	In Ihrem Browser, nie hochgeladen
+80	Auf deren Servern (Upload)
+81	Auf deren Servern (Upload)
+82	Auf deren Servern (Upload)
+83	Konto erforderlich
+84	Nie
+85	Siehe Website
+86	Siehe Website
+87	Siehe Website
+88	Auf deren Servern (Upload)
+89	Ja
+90	Siehe Website
+91	Siehe Website
+92	Siehe Website
+93	Konto erforderlich
+94	Markierung auf Wortebene
+95	Siehe Website
+96	Siehe Website
+97	Siehe Website
+98	Herunterladbarer Bericht
+99	Ja
+100	Siehe Website
+101	Siehe Website
+102	Siehe Website
+103	Wie kann ich zwei PDF-Dateien vergleichen?
+104	Legen Sie beide PDFs ab und klicken Sie auf Vergleichen, um die Unterschiede nebeneinander zu sehen.
+105	Kann ich zwei PDF-Dokumente kostenlos auf Unterschiede vergleichen?
+106	Ja, kostenlos und ohne Registrierung.
+107	Werden die Änderungen hervorgehoben?
+108	Ja: Rot für Gelöschtes, Grün für Hinzugefügtes und Gelb für Geändertes, mit Markierungen auf Wortebene.
+109	Kann es gescannte PDFs vergleichen?
+110	Führen Sie zuerst OCR aus, damit die Seiten Text enthalten.
+111	Werden Bilder verglichen?
+112	Nein, nur der Text wird verglichen.
+113	Kann ich den Vergleich speichern?
+114	Ja, laden Sie den HTML-Bericht herunter.
+115	Kann ich ein PDF mit einer Word-Datei vergleichen?
+116	Wandeln Sie die Word-Datei zuerst in ein PDF um.
+117	Werden meine Dateien hochgeladen?
+118	Nein, der Vergleich erfolgt lokal.

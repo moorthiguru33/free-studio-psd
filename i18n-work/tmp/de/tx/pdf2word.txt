@@ -1,0 +1,123 @@
+0	PDF in Word
+1	Den Text eines PDFs in ein bearbeitbares Word-Dokument umwandeln.
+2	PDF in Word umwandeln – PDF gratis in DOCX | {brand}
+3	Wandeln Sie PDF kostenlos in bearbeitbares Word (DOCX) um. Ohne Anmeldung und Limits: Ihr Dokument wird im Browser umgewandelt und nie hochgeladen.
+4	PDF in Word umwandeln
+5	Wählen Sie Ihr PDF aus.
+6	Klicken Sie auf Starten.
+7	Laden Sie Ihre bearbeitbare DOCX-Datei herunter.
+8	Bleibt das Layout erhalten?
+9	Der Konverter rekonstruiert Absätze, Überschriften, Spalten und Tabellen Seite für Seite, mit OCR für gescannte Seiten. Sehr komplexe Layouts brauchen eventuell etwas Nacharbeit.
+10	Wenn Sie ein PDF in Word umwandeln, können Sie den Text in Microsoft Word, Google Docs oder LibreOffice wiederverwenden und bearbeiten. {brand} extrahiert den Text jeder Seite direkt auf Ihrem Gerät in eine DOCX-Datei. Am besten funktioniert es mit Text-PDFs wie Briefen, Artikeln und Berichten.
+11	Den Text eines alten Berichts oder Briefs wiederverwenden, ohne ihn abzutippen.
+12	Ein Dokument bearbeiten, wenn Sie die ursprüngliche Word-Datei nicht mehr haben.
+13	Absätze in ein neues Dokument oder eine neue Präsentation kopieren.
+14	Komplexe Tabellen, Spalten und Bilder brauchen eventuell manuelle Nacharbeit.
+15	Gescanntes PDF? Die integrierte OCR (Modus Automatisch) liest Seiten ohne Textebene.
+16	Wenn Sie nur reinen Text brauchen, ist PDF in Text noch schneller.
+17	Kann ich das Ergebnis in Google Docs öffnen?
+18	Ja. DOCX-Dateien lassen sich in Microsoft Word, Google Docs, LibreOffice und WPS Office öffnen.
+19	PDF in Word umwandeln – kostenlos, privat, mit OCR
+20	Wandeln Sie PDF kostenlos im Browser in bearbeitbares Word (DOCX) um. Kostenlose OCR für Scans, fließendes oder exaktes Layout, 12 OCR-Sprachen. Ohne Upload.
+21	Warum dieser PDF-in-Word-Konverter anders ist
+22	Die meisten PDF-in-Word-Konverter verlangen, dass Sie Ihr Dokument auf einen entfernten Server hochladen, in einer Warteschlange warten und das Ergebnis dann herunterladen. Für einen Flyer ist das kein Problem, für einen Vertrag, eine Gehaltsabrechnung, einen Arztbericht oder den Entwurf einer Abschlussarbeit aber schon. {brand} führt die gesamte Umwandlung in Ihrem Browser-Tab durch. Das PDF wird mit PDF.js analysiert, Textstücke, Schriften, Bilder und Tabellen werden in einer echten .docx-Datei rekonstruiert und die Datei wird Ihnen direkt zurückgegeben. Nichts wird irgendwohin gesendet.
+23	Die lokale Verarbeitung beseitigt auch die üblichen Limits. Es gibt keinen Zähler für tägliche Aufgaben, keine Hinweise wie „Upgraden Sie, um mehr Seiten umzuwandeln“ und kein Wasserzeichen. Die einzige Grenze ist der Speicher Ihres Geräts: Ein moderner Laptop bewältigt problemlos Dokumente mit mehreren Hundert Seiten.
+24	**Kostenlose OCR für gescannte PDFs**: iLovePDF kennzeichnet OCR als Premium-Option; hier ist sie enthalten und läuft auf Ihrem Gerät.
+25	**Zwei Layoutmodi**: *Fließtext* rekonstruiert Absätze, Spalten und normale Tabellen, die Sie frei bearbeiten können; *Exaktes Layout* bildet jede Seite mit positionierten Textfeldern präzise nach.
+26	**12 OCR-Sprachen**, darunter Englisch, Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Russisch, Arabisch, Hindi, Tamil, vereinfachtes Chinesisch und Japanisch.
+27	**Seitenbereiche und Stapel**: Wandeln Sie nur Seiten wie 2-5 um oder legen Sie mehrere PDFs auf einmal ab und erhalten Sie ein ZIP mit den Word-Dateien.
+28	**Andere Formate**: Brauchen Sie RTF oder ODT für LibreOffice, WordPad oder ältere Software? Nutzen Sie [PDF in RTF](/pdf-to-rtf/) oder [PDF in ODT](/pdf-to-odt/).
+29	Fließtext oder exaktes Layout: Was soll ich wählen?
+30	Wählen Sie **Fließtext**, wenn Sie das Dokument bearbeiten möchten: Absätze umschreiben, einen Lebenslauf korrigieren, einen Bericht aktualisieren oder Abschnitte in eine andere Datei kopieren. Zeilen werden zu Absätzen zusammengeführt, Überschriften an Schriftgröße und -stärke erkannt, mehrspaltige Seiten in der richtigen Reihenfolge gelesen und Tabellen mit Linien in echte Word-Tabellen umgewandelt. Der Text fließt beim Tippen natürlich um.
+31	Wählen Sie **Exaktes Layout**, wenn das Dokument identisch zum PDF aussehen muss: Formulare, Broschüren, Urkunden oder alles mit sorgfältiger Gestaltung. Jede Zeile wird an ihre ursprüngliche Position gesetzt, sodass die Seite in Word gleich aussieht; das Bearbeiten großer Textblöcke ist aber weniger bequem, weil jede Zeile in einem eigenen Feld steht.
+32	Probieren Sie im Zweifel zuerst Fließtext; die Umwandlung dauert Sekunden, ein Vergleich beider kostet also nichts.
+33	Gescannte PDFs mit OCR umwandeln
+34	Ein gescanntes PDF enthält Seitenbilder statt Text, daher erzeugt ein normaler Konverter eine leere Word-Datei oder ein Dokument voller Bilder. Mit OCR auf **Automatisch** prüft {brand} jede Seite: Seiten mit Textebene werden direkt umgewandelt, reine Bildseiten werden mit Tesseract in WebAssembly erkannt. Wählen Sie **Alle Seiten**, um die Erkennung überall zu erzwingen, etwa bei einem PDF mit einer versteckten Textebene schlechter Qualität.
+35	Für die besten OCR-Ergebnisse scannen Sie mit 300 DPI, halten die Seiten gerade und wählen vor dem Start die Sprache des Dokuments. Die Erkennung erfolgt auf Ihrem Gerät, daher kann ein 20-seitiger Scan auf dem Smartphone eine Minute dauern – aber Ihr Dokument verlässt es nie.
+36	Tipps für ein saubereres Word-Dokument
+37	Verwenden Sie wann immer möglich das digitale Original-PDF: Exportierte PDFs werden viel genauer umgewandelt als Scans oder Fotos.
+38	Ist ein PDF passwortgeschützt, entfernen Sie das Passwort zuerst mit [PDF entsperren](/unlock-pdf/) (Sie müssen es kennen).
+39	Brauchen Sie nur einige Seiten? Geben Sie im Feld Seiten einen Bereich wie 3-7 ein, statt das ganze Dokument umzuwandeln.
+40	Wandeln Sie das Dokument nach dem Bearbeiten mit [Word in PDF](/word-to-pdf/) wieder in PDF um.
+41	Was umgewandelt wird
+42	Element
+43	Fließtext
+44	Exaktes Layout
+45	Absätze und Überschriften
+46	Als bearbeitbare Absätze rekonstruiert
+47	Positionierte Zeilen
+48	Fett, kursiv, Schriftgröße, Farbe
+49	Bleiben erhalten
+50	Bleiben erhalten
+51	Tabellen mit Linien
+52	Echte Word-Tabellen
+53	Positionierter Text
+54	Bilder und Fotos
+55	Eingebettet
+56	An ursprünglicher Position eingebettet
+57	Mehrspaltige Seiten
+58	In Spaltenreihenfolge gelesen
+59	Spalten optisch beibehalten
+60	Gescannte Seiten
+61	Text per OCR
+62	Text per OCR
+63	Wo Ihre Datei verarbeitet wird
+64	In Ihrem Browser, nie hochgeladen
+65	Auf deren Servern
+66	Auf deren Servern
+67	Adobe-Cloud
+68	Auf deren Servern
+69	Funktioniert bei ausgeschaltetem WLAN
+70	Ja, nach dem Laden der Seite
+71	Nein
+72	Nein
+73	Nein
+74	Nein
+75	Konto oder E-Mail erforderlich
+76	Nie
+77	Nicht für die Grundnutzung
+78	Nicht für die Grundnutzung
+79	Anmeldung für einige Aktionen
+80	Nicht für die Grundnutzung
+81	Limits der Gratisnutzung
+82	Keine – nur die Ihres Geräts
+83	Gratis-Tarif; Premium für mehr
+84	Gratis-Tarif; Premium für mehr
+85	Gratis-Tarif; Premium für mehr
+86	3 Aufgaben/Stunde, 50 MB pro Datei
+87	OCR für gescannte PDFs
+88	Kostenlos, auf Ihrem Gerät
+89	Nur Premium
+90	Siehe Website
+91	Siehe Website
+92	Siehe Website
+93	Ausgabeformate
+94	DOCX, RTF, ODT
+95	DOCX
+96	DOCX
+97	Siehe Website
+98	Siehe Website
+99	Seitenbereich und Stapelumwandlung
+100	Beides, kostenlos
+101	Siehe Website
+102	Siehe Website
+103	Siehe Website
+104	Siehe Website
+105	Ist dieser PDF-in-Word-Konverter wirklich kostenlos?
+106	Ja. Es gibt keine Tageslimits, kein Wasserzeichen und keinen Bezahlplan. Da die Umwandlung auf Ihrem eigenen Gerät läuft, kostet es uns nichts, wenn Sie mehr Dateien umwandeln.
+107	Kann ich ein gescanntes PDF in Word umwandeln?
+108	Ja. Lassen Sie die OCR auf Automatisch, dann werden reine Bildseiten automatisch in 12 Sprachen erkannt. Wählen Sie für mehr Genauigkeit die Sprache des Dokuments.
+109	Funktioniert es auf Mac, iPhone und Android?
+110	Ja. Es funktioniert in jedem modernen Browser (Chrome, Edge, Firefox oder Safari) unter Windows, macOS, Linux, iOS und Android. Es muss nichts installiert werden.
+111	Kann ich PDF offline in Word umwandeln?
+112	Ja. Laden Sie diese Seite einmal und trennen Sie die Internetverbindung: Der Konverter funktioniert weiter, weil der gesamte Code bereits in Ihrem Browser ist.
+113	Wie wandle ich ein sehr großes PDF um?
+114	Große Dateien funktionieren, solange Ihr Gerät genug Speicher hat. Auf dem Smartphone ist es schneller und zuverlässiger, ein 500-seitiges PDF mit PDF teilen aufzuteilen und die Teile einzeln umzuwandeln.
+115	Bleiben meine Schriften und die Formatierung erhalten?
+116	Fett, kursiv, Größen und Farben bleiben erhalten. Ist eine Schrift auf Ihrem Computer nicht installiert, ersetzt Word sie durch eine ähnliche; Exaktes Layout hält die Positionen identisch.
+117	Kann ich PDFs in anderen Sprachen in Word umwandeln?
+118	Ja. Text-PDFs in jedem Alphabet werden direkt umgewandelt, und die OCR unterstützt 12 Sprachen, darunter Arabisch, Hindi, Tamil, Chinesisch und Japanisch.
+119	Wie wandle ich ein PDF kostenlos in Word um?
+120	Legen Sie das PDF auf dieser Seite ab, wählen Sie Fließtext (leicht zu bearbeiten) oder exaktes Layout und klicken Sie auf Umwandeln. Sie erhalten eine .docx-Datei, die Sie in Word, Google Docs oder LibreOffice öffnen können. Ohne Registrierung, Wasserzeichen oder Seitenlimit, und gescannte PDFs werden mit der kostenlosen integrierten OCR verarbeitet.
+121	Wie wandle ich PDF ohne Formatverlust in Word um?
+122	Wählen Sie den Modus exaktes Layout: Er setzt Textfelder dorthin, wo sie auf der Seite standen, sodass Spalten, Überschriften und Abstände nah am Original bleiben. Der fließende Modus rekonstruiert den Text als normale Absätze, die leichter zu bearbeiten sind, kann aber das Layout verändern. In beiden Fällen brauchen komplexe Layouts eventuell kleine Nacharbeiten in Word.

@@ -1,0 +1,214 @@
+0	Passwort-Generator
+1	Sichere Zufallspasswörter, erstellt auf Ihrem Gerät.
+2	Passwort-Generator – sichere Passwörter gratis | {brand}
+3	Erzeugen Sie sichere Zufallspasswörter mit Länge und Zeichen Ihrer Wahl. Nutzt den sicheren Zufallsgenerator Ihres Geräts; nichts wird gesendet.
+4	Generator für sichere Passwörter
+5	Wählen Sie Länge und Zeichentypen.
+6	Die Passwörter erscheinen sofort: Kopieren Sie eines.
+7	Laden Sie die Liste auf Wunsch herunter.
+8	Sind diese Passwörter sicher?
+9	Sie werden mit dem kryptografischen Zufallsgenerator des Browsers erstellt und verlassen nie Ihr Gerät.
+10	Wie lang sollte ein Passwort sein?
+11	Mindestens 16 Zeichen mit allen Zeichentypen (~100 Bit) sind sehr sicher.
+12	Schwache und wiederverwendete Passwörter sind die häufigste Ursache für gehackte Konten. Dieser Generator nutzt den kryptografischen Zufallszahlengenerator des Browsers, sodass die Passwörter unvorhersehbar sind und nie Ihr Gerät verlassen.
+13	Für jedes neue Konto ein eigenes Passwort erstellen.
+14	Ein sicheres Passwort für ein verschlüsseltes PDF oder ZIP erzeugen.
+15	Schwer zu erratende WLAN-Passwörter erstellen.
+16	16 oder mehr Zeichen mit gemischten Typen sind ein guter Standard.
+17	Speichern Sie Passwörter in einem Passwort-Manager und nicht in einem Dokument.
+18	Verwenden Sie ein Passwort nie auf mehreren Websites.
+19	Ist es sicher, Passwörter online zu erzeugen?
+20	Hier ja: Sie werden mit dem kryptografischen Zufallsgenerator des Browsers erstellt und verlassen nie Ihr Gerät.
+21	Was ein Passwort sicher macht
+22	Am wichtigsten ist die Länge: Jedes zusätzliche Zeichen vervielfacht die Zahl möglicher Passwörter. Ein zufälliges 16-stelliges Passwort mit Buchstaben, Zahlen und Symbolen per Brute Force zu erraten, würde einen Angreifer länger kosten, als das Universum alt ist.
+23	Passwort-Generator – sichere Passwörter und Passphrasen
+24	Zufallspasswörter, Passphrasen oder PINs, lokal mit crypto.getRandomValues erstellt. Stärkeanzeige, Stapelerzeugung. Kostenlos.
+25	{tool}: {brand} im Vergleich zu LastPass, Bitwarden und 1Password
+26	Sichere Passwörter, erzeugt auf Ihrem Gerät
+27	Der Passwort-Generator von {brand} erstellt mit einem Klick Zufallspasswörter, leicht merkbare Passphrasen und numerische PINs. Jedes Zeichen wählt der kryptografisch sichere Zufallszahlengenerator Ihres Browsers (crypto.getRandomValues der Web Crypto API), mit Rejection Sampling, damit alle Zeichen genau gleich wahrscheinlich sind. Nichts wird an einen Server gesendet: Die Passwörter existieren nur auf Ihrem Bildschirm und in Ihrer Zwischenablage, und die Seite funktioniert auch bei deaktivierter Internetverbindung.
+28	Jedes Ergebnis zeigt seine Entropie in Bit, eine verständliche Sicherheitsbewertung und eine Schätzung, wie lange ein Brute-Force-Angriff dauern würde. Sie können bis zu 500 auf einmal erzeugen, einzeln oder alle zusammen kopieren oder als Textdatei herunterladen. Es gibt kein Konto, keine E-Mail und keine Versuche, Ihnen einen Passwort-Manager zu verkaufen.
+29	Was Sie erzeugen können
+30	**Zufallspasswort**: 4 bis 128 Zeichen aus Klein- und Großbuchstaben, Ziffern und Symbolen. Jeder aktivierte Zeichensatz kommt mindestens einmal vor, was die Passwortregeln der meisten Websites erfüllt.
+31	**Passphrase**: 3 bis 12 zufällige Wörter aus der langen EFF-Liste (7776 englische Wörter), mit wählbarem Trennzeichen (Bindestrich, Leerzeichen, Punkt, Unterstrich, keins oder eine zufällige Ziffer zwischen den Wörtern), optionaler Großschreibung und optionaler Zahl. Leicht auf dem Smartphone zu tippen und leicht zu merken.
+32	**PIN**: zufällige Ziffern zum Entsperren des Smartphones, für Karten, Türcodes und Backup-Codes der Zwei-Faktor-Authentifizierung.
+33	**Ähnliche Zeichen vermeiden**: Entfernt I, l, 1, O, 0, o und |, damit Passwörter, die Sie vorlesen oder von Papier abschreiben, nicht verwechselt werden.
+34	**Zeichen ausschließen**: Entfernen Sie Symbole, die eine Website ablehnt, etwa Anführungszeichen, Klammern oder Leerzeichen.
+35	**Stapelerzeugung**: bis zu 500 Passwörter auf einmal zum Anlegen von Konten oder für Testdaten, als TXT herunterladbar.
+36	**Stärkeprüfung**: Geben Sie ein vorhandenes Passwort ein, um eine grobe Schätzung seiner Stärke zu sehen; erkennt die häufigsten Passwörter, Wörterbuchwörter, Jahreszahlen und Tastaturfolgen. Es verlässt nie die Seite.
+37	So erstellen Sie ein sicheres Passwort
+38	Wählen Sie **Zufallspasswort** für Konten, die Sie in einem Passwort-Manager speichern, oder **Passphrase** für die wenigen Passwörter, die Sie sich merken müssen (die Computeranmeldung, das Master-Passwort des Managers).
+39	Legen Sie die Länge fest: 16 Zeichen oder 5–6 Wörter sind ein guter Standard.
+40	Lassen Sie alle Zeichensätze aktiviert, sofern eine Website sie nicht einschränkt; aktivieren Sie *Ähnliche Zeichen vermeiden*, wenn Sie es von Hand eintippen.
+41	Klicken Sie bei einem Passwort auf **Kopieren** und fügen Sie es in das Registrierungsformular ein; speichern Sie es dann in Ihrem Passwort-Manager oder im Browser.
+42	Klicken Sie auf **Neu erzeugen** für eine neue Runde oder auf **Liste herunterladen** für viele auf einmal.
+43	Wie viel Sicherheit ist genug?
+44	Die Stärke eines Passworts wird in Bit **Entropie** gemessen: die Zahl der Versuche, die ein Angreifer bräuchte, ausgedrückt als Zweierpotenz. Jedes zusätzliche Bit verdoppelt den Aufwand. Die Entropie eines Zufallspassworts ist seine Länge × log₂(Größe des Zeichensatzes). Mit den 94 druckbaren Zeichen fügt jedes Zeichen etwa 6,55 Bit hinzu; nur mit Ziffern 3,32 Bit. Jedes zufällig aus der EFF-Liste mit 7776 Wörtern gewählte Wort fügt 12,9 Bit hinzu.
+45	Die Tabelle unten geht von einem Angreifer aus, der eine Datenbank mit Passwort-Hashes gestohlen hat und 10 Milliarden Versuche pro Sekunde testen kann – realistisch bei einem schnellen, ungesalzenen Hash auf modernen Grafikkarten. Langsame Hashes wie bcrypt oder Argon2 verringern diese Geschwindigkeit um den Faktor Tausende oder Millionen, und Online-Angriffe auf eine Anmeldeseite sind noch langsamer. Die Zeiten sind Durchschnittswerte (die Hälfte des Suchraums).
+46	Typ
+47	Beispiellänge
+48	Entropie
+49	Brute-Force-Zeit bei 10 Milliarden Versuchen/s
+50	PIN, nur Ziffern
+51	4 Zeichen
+52	13 Bit
+53	sofort
+54	PIN, nur Ziffern
+55	6 Zeichen
+56	20 Bit
+57	sofort
+58	Nur Kleinbuchstaben
+59	8 Zeichen
+60	38 Bit
+61	10 Sekunden
+62	Klein- + Großbuchstaben + Ziffern
+63	8 Zeichen
+64	48 Bit
+65	3,0 Stunden
+66	Alle 4 Zeichensätze
+67	8 Zeichen
+68	52 Bit
+69	3,5 Tage
+70	Alle 4 Zeichensätze
+71	12 Zeichen
+72	79 Bit
+73	754.000 Jahre
+74	Alle 4 Zeichensätze
+75	16 Zeichen
+76	105 Bit
+77	>1 Billion Jahre
+78	Alle 4 Zeichensätze
+79	20 Zeichen
+80	131 Bit
+81	>1 Billion Jahre
+82	Passphrase, EFF-Wörter
+83	4 Wörter
+84	52 Bit
+85	2,1 Tage
+86	Passphrase, EFF-Wörter
+87	5 Wörter
+88	65 Bit
+89	45 Jahre
+90	Passphrase, EFF-Wörter
+91	6 Wörter
+92	78 Bit
+93	350.000 Jahre
+94	Passphrase, EFF-Wörter
+95	7 Wörter
+96	90 Bit
+97	2,7 Milliarden Jahre
+98	Als Faustregel gilt: **72 Bit oder mehr sind sicher** für fast jedes Konto, und **100 Bit oder mehr sind sehr sicher**. Das entspricht einem 12-stelligen Passwort mit allen Zeichensätzen, einem 16-stelligen für mehr Reserve oder einer Passphrase aus sechs Wörtern.
+99	Passwörter und Passphrasen im Vergleich
+100	Ein 16-stelliges Zufallspasswort wie `Ut)9NwMw/zt?KMH2` ist sehr sicher, aber kaum zu merken – und das ist in Ordnung, denn ein Passwort-Manager merkt es sich für Sie. Eine Passphrase wie `Quarry-Subsystem-Flashback-Atom-Patriot` bietet pro Tastenanschlag auf der Handytastatur eine ähnliche Sicherheit und prägt sich nach einigen Anwendungen ein. Die Wörter muss der Generator zufällig wählen, nicht Sie: Menschen wählen vorhersehbare Sätze, Liedtexte und Zitate, und genau die probieren Angreifer zuerst.
+101	
+102	Zufallspasswort
+103	Passphrase
+104	Ideal für
+105	Konten, die in einem Passwort-Manager gespeichert sind
+106	Master-Passwort, Geräteanmeldung, WLAN
+107	Typische Länge
+108	16 Zeichen
+109	5–6 Wörter
+110	Sicherheit
+111	≈105 Bit (16 Zeichen, alle Zeichensätze)
+112	≈65–78 Bit (5–6 Wörter)
+113	Leicht auf dem Smartphone zu tippen
+114	Nein
+115	Ja
+116	Leicht zu merken
+117	Nein
+118	Ja
+119	Erfüllt Regeln wie „muss ein Symbol enthalten“
+120	Ja
+121	Zahl hinzufügen und ein Symbol als Trennzeichen wählen
+122	Warum Ihre Passwörter einzigartig sein müssen
+123	Die größte Gefahr ist nicht, dass ein Angreifer ein sicheres Passwort errät, sondern dass ein wiederverwendetes Passwort bei einer Website durchsickert und dann bei allen anderen ausprobiert wird: eine Technik namens **Credential Stuffing**. Im Internet kursieren Milliarden geleakter Kombinationen aus Benutzername und Passwort. Ist das Passwort Ihres Onlineshops dasselbe wie das Ihrer E-Mail, liefert ein Datenleck beim Shop Ihr E-Mail-Konto aus – und damit das Zurücksetzen der Passwörter für alles andere. Erzeugen Sie für jedes Konto ein anderes Passwort und lassen Sie einen Passwort-Manager oder Ihren Browser sie speichern.
+124	Muster, die ein Passwort schwach machen
+125	**Wörterbuchwörter mit kleinen Änderungen**: Sommer2024!, P@ssw0rd, Berlin123. Cracking-Tools probieren jedes Wort zuerst mit den häufigsten Ersetzungen, Großschreibungen und Jahreszahlen.
+126	**Persönliche Informationen**: Namen, Geburtstage, Haustiernamen, Telefonnummern, Kennzeichen und Fußballvereine sind in sozialen Netzwerken leicht zu finden.
+127	**Tastaturmuster und Folgen**: qwertz, 1q2w3e4r, asdfgh, 123456, abcd.
+128	**Geringe Länge**: Ein 8-stelliges Passwort, selbst mit Symbolen, kann ein entschlossener Angreifer mit einem gestohlenen Hash in Stunden per Brute Force knacken.
+129	**Wiederverwendung mit Zähler**: Passwort1, Passwort2, Passwort3, wenn ein Wechsel erzwungen wird.
+130	**Von Menschen gewählte „zufällige“ Zeichenfolgen**: Menschen bevorzugen bestimmte Buchstaben und Positionen; echte Zufälligkeit kommt von einem Generator.
+131	So funktioniert der Generator
+132	Wenn Sie auf *Neu erzeugen* klicken, fordert die Seite von der Web Crypto API des Browsers 32-Bit-Zufallszahlen an. Um ein Zeichen aus einem Satz von beispielsweise 70 Zeichen zu wählen, verwirft sie jede Zahl aus dem kleinen Restbereich oberhalb des größten Vielfachen von 70 und zieht neu. Dieses **Rejection Sampling** beseitigt den „Modulo-Bias“ einfacher Generatoren, bei denen manche Zeichen etwas häufiger vorkommen. Zuerst wird ein Zeichen aus jedem aktivierten Satz platziert, der Rest wird aus dem kombinierten Satz aufgefüllt und die ganze Zeichenfolge mit dem Fisher-Yates-Algorithmus aus derselben unverzerrten Zufallsquelle gemischt.
+133	Passphrasen wählen Wörter auf dieselbe Weise aus der langen EFF-Liste, die die Electronic Frontier Foundation für Würfel-Passphrasen entworfen hat: 7776 gängige, unterscheidbare und leicht zu buchstabierende englische Wörter, sodass jedes Wort genau log₂(7776) ≈ 12,9 Bit beiträgt. Die Liste wird nur dann von dieser Website geladen, wenn Sie den Passphrasen-Modus wählen.
+134	Sie können es selbst prüfen: Öffnen Sie die Entwicklertools des Browsers, sehen Sie sich den Netzwerk-Tab an und erzeugen Sie Passwörter: Es wird keine Anfrage gesendet. Oder trennen Sie die Internetverbindung und erzeugen Sie weiter.
+135	Passwortregeln von Websites
+136	Viele Websites verlangen mindestens einen Großbuchstaben, eine Ziffer und ein Symbol, manche lehnen bestimmte Symbole ab oder begrenzen die Länge. Mit allen vier aktivierten Zeichensätzen enthält jedes erzeugte Passwort mindestens ein Zeichen aus jedem Satz. Lehnt eine Website ein Symbol ab, tragen Sie es unter *Zeichen ausschließen* ein. Begrenzt eine Website die Länge, etwa auf 12 oder 20 Zeichen, passen Sie die Länge entsprechend an, behalten Sie aber für gute Sicherheit mindestens 12 Zeichen. Die aktuellen Richtlinien des US-amerikanischen National Institute of Standards and Technology (NIST SP 800-63B) empfehlen, dass Websites lange Passwörter und Passphrasen zulassen, neue Passwörter gegen Listen geleakter Passwörter prüfen und auf willkürliche Kompositionsregeln und regelmäßige Wechsel verzichten; viele Websites haben sie aber noch, daher unterstützt der Generator beide Stile.
+137	Passwörter sicher aufbewahren
+138	Nutzen Sie einen **Passwort-Manager**: Bitwarden, 1Password, KeePassXC, den in Ihren Browser integrierten oder den Schlüsselbund Ihres Smartphones. Dann müssen Sie sich nur eine sichere Passphrase merken.
+139	Aktivieren Sie die **Zwei-Faktor-Authentifizierung** (eine Authenticator-App oder einen Sicherheitsschlüssel) für E-Mail, Banking, soziale Netzwerke und Ihren Passwort-Manager.
+140	Speichern Sie Passwörter nicht in Textdateien, E-Mail-Entwürfen oder Chatnachrichten. Wenn Sie eine Liste von dieser Seite herunterladen, übertragen Sie die Passwörter in einen Manager und löschen Sie die Datei.
+141	Wenn Sie fürchten, Ihre Master-Passphrase zu vergessen, schreiben Sie sie auf Papier und bewahren Sie es an einem sicheren Ort zu Hause auf: Papier kann nicht aus der Ferne gehackt werden.
+142	Ändern Sie ein Passwort sofort, wenn eine Website Sie über ein Datenleck informiert – und überall sonst, wo Sie dasselbe verwendet haben.
+143	PINs und Codes
+144	Eine 4-stellige PIN hat nur 10.000 Möglichkeiten, eine 6-stellige eine Million. Das ist nur akzeptabel, weil Smartphones und Bankkarten nach wenigen Fehlversuchen sperren oder sich löschen. Vermeiden Sie 1234, 0000, Geburtsjahre und wiederholte Ziffern, die zusammen einen großen Teil der echten PINs ausmachen. Der PIN-Modus wählt jede Ziffer gleichverteilt zufällig. Für alles, was offline angegriffen werden kann (eine verschlüsselte Datei oder ein Backup), verwenden Sie stattdessen ein langes Passwort oder eine Passphrase.
+145	Stapelpasswörter für Teams und Tests
+146	Administratoren, die Konten für eine Klasse, ein Büro oder eine Testumgebung anlegen, können bis zu 500 einzigartige Passwörter auf einmal erzeugen und als Textdatei herunterladen, eines pro Zeile, bereit zum Einfügen in eine Tabelle neben den Benutzernamen. Bitten Sie jede Person, ihr Startpasswort bei der ersten Anmeldung zu ändern. Da alles lokal erzeugt wird, wird die Liste nie auf einem Server gespeichert.
+147	Datenschutz
+148	Die Passwörter werden in Ihrem Browser erzeugt, und {brand} überträgt, protokolliert oder speichert sie nie. Die Seite verwendet keine Cookies oder Analysen für die Werte, die Sie erstellen oder prüfen. Die Stärkeprüfung analysiert den eingegebenen Text vollständig innerhalb der Seite und sendet ihn nirgendwohin; sie fragt keine Leak-Datenbanken ab, weil dafür Daten Ihr Gerät verlassen müssten.
+149	Verwandte Tools
+150	[Hash-Generator](/hash-generator/)
+151	[PDF schützen](/protect-pdf/)
+152	[QR-Code-Generator](/qr-code-generator/)
+153	[UUID-Generator](/uuid-generator/)
+154	[Base64-Kodierer](/base64-encode-decode/)
+155	Lokal erzeugt mit crypto.getRandomValues
+156	Ja (angegeben, überprüfbar)
+157	Siehe Website
+158	Siehe Website
+159	Siehe Website
+160	Passphrasen-Modus
+161	Ja (EFF-Liste mit 7776 Wörtern)
+162	Siehe Website
+163	Ja
+164	Ja („Ganze Wörter verwenden“)
+165	PIN-Modus
+166	Ja
+167	Siehe Website
+168	Siehe Website
+169	Siehe Website
+170	Entropie und geschätzte Knackzeit
+171	Ja
+172	Siehe Website
+173	Siehe Website
+174	Siehe Website
+175	Ähnliche Zeichen vermeiden / Ausschlussliste
+176	Ja / Ja
+177	Siehe Website
+178	Siehe Website
+179	Siehe Website
+180	Stapelerzeugung + TXT-Download
+181	Bis zu 500
+182	Siehe Website
+183	Siehe Website
+184	Siehe Website
+185	Konto oder App nötig
+186	Nein
+187	Nein (Seite bewirbt den Manager)
+188	Nein
+189	Nein (Seite bewirbt eine Testversion)
+190	Wie funktioniert der Zufallspasswort-Generator?
+191	Er nutzt die Web Crypto API Ihres Browsers (crypto.getRandomValues) mit Rejection Sampling, damit jedes Zeichen gleich wahrscheinlich ist, und mischt das Ergebnis anschließend. Nichts wird an einen Server gesendet.
+192	Wie lang sollte ein Passwort sein?
+193	Mindestens 12 Zeichen mit allen Zeichensätzen, 16 für mehr Reserve, oder eine Passphrase aus 5–6 zufälligen Wörtern.
+194	Ist ein Online-Passwort-Generator sicher?
+195	Ja, wenn die Erzeugung wie hier in Ihrem Browser stattfindet. Sie können prüfen, dass keine Netzwerkanfrage erfolgt, oder die Seite offline nutzen.
+196	Was ist eine Passphrase?
+197	Mehrere zufällige, verbundene Wörter wie Quarry-Subsystem-Flashback-Atom. Leichter zu merken und zu tippen und sicher, wenn die Wörter zufällig gewählt werden.
+198	Was macht ein Passwort sicher?
+199	Länge, Zufälligkeit und Einzigartigkeit. Vermeiden Sie Wörter, Namen, Daten und Muster, und verwenden Sie ein Passwort nie wieder.
+200	Was bedeutet „Bit Entropie“?
+201	Wie viele Versuche nötig sind, ausgedrückt als Zweierpotenz. 72 Bit sind sicher; jedes zusätzliche Bit verdoppelt den Aufwand des Angreifers.
+202	Sind die geschätzten Knackzeiten genau?
+203	Nein: Sie gehen von 10 Milliarden Versuchen pro Sekunde gegen einen gestohlenen Hash aus. Echte Angriffe können je nach Hash-Verfahren schneller oder viel langsamer sein.
+204	Sendet die Stärkeprüfung mein Passwort irgendwohin?
+205	Nein. Sie läuft innerhalb der Seite und kontaktiert weder einen Server noch eine Leak-Datenbank.
+206	Wie verwalte ich sichere Passwörter am einfachsten?
+207	Nutzen Sie einen Passwort-Manager oder den in Ihren Browser integrierten, geschützt durch eine sichere Passphrase und Zwei-Faktor-Authentifizierung.
+208	Kann ich viele Passwörter auf einmal erzeugen?
+209	Ja: bis zu 500, zusammen kopiert oder als TXT-Datei heruntergeladen.
+210	Kann ich einem Passwort-Generator vertrauen?
+211	Nur wenn er die Passwörter lokal mit einer kryptografischen Zufallsquelle erstellt. Dieser nutzt crypto.getRandomValues in Ihrem Browser; nichts wird gesendet oder gespeichert.
+212	Was ist die beste Länge für ein Passwort?
+213	Mindestens 16 zufällige Zeichen oder eine Passphrase aus 5–6 Wörtern für wichtige Konten.

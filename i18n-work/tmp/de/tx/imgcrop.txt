@@ -1,0 +1,138 @@
+0	Bild zuschneiden
+1	Schneiden Sie Bilder auf jeden Bereich oder jedes Seitenverhältnis zu.
+2	Bild online kostenlos zuschneiden – Quadrat, 16:9, 4:3, Storys
+3	Schneiden Sie Fotos visuell oder auf exakte Pixel zu, mit Voreinstellungen für Quadrat, 16:9, 4:3 und 9:16-Storys. Kostenlos, privat, ohne Upload.
+4	Bild zuschneiden
+5	Wählen Sie ein Bild aus.
+6	Ziehen Sie über das Bild oder geben Sie exakte Pixelwerte ein; wählen Sie bei Bedarf ein Seitenverhältnis.
+7	Klicken Sie auf Starten und laden Sie das zugeschnittene Bild herunter.
+8	Kann ich für soziale Netzwerke auf ein perfektes Quadrat zuschneiden?
+9	Ja. Wählen Sie das Seitenverhältnis 1:1, und die Auswahl wird automatisch zentriert; ziehen Sie, um sie anzupassen.
+10	Ein guter Zuschnitt entfernt Ablenkungen und passt zum Format, das jede Plattform erwartet: quadratisch für Profilbilder, 16:9 für Video-Miniaturen, 9:16 für Storys. Schneiden Sie visuell zu oder geben Sie exakte Pixel ein.
+11	Quadratische Profilbilder erstellen.
+12	Miniaturen für YouTube oder Präsentationen auf 16:9 zuschneiden.
+13	Ein Foto für Instagram- oder TikTok-Storys auf 9:16 zuschneiden.
+14	Überflüssige Ränder in Screenshots entfernen.
+15	Nutzen Sie die Drittelregel: Platzieren Sie das Motiv außerhalb der Mitte für einen natürlichen Look.
+16	Schneiden Sie vor dem Komprimieren zu, um die kleinste Datei zu erhalten.
+17	Kann ich auf ein perfektes Quadrat zuschneiden?
+18	Ja. Wählen Sie das Seitenverhältnis 1:1, und die Auswahl wird automatisch zentriert; ziehen Sie, um sie anzupassen.
+19	Für soziale Netzwerke zuschneiden
+20	Gängige Größen: Quadrat 1080 × 1080 für den Feed, 1080 × 1350 für Hochformat-Beiträge, 1080 × 1920 für Storys und 1280 × 720 für Video-Miniaturen.
+21	Bild online kostenlos zuschneiden – Exaktes Format, Stapel
+22	Schneiden Sie Fotos kostenlos im Browser zu: Rahmen ziehen oder 1:1, 4:3, 3:2, 16:9, 9:16 oder 4:5 wählen. Volle Qualität, Stapel, JPG/PNG/WebP. Ohne Upload.
+23	{tool}: {brand} im Vergleich zu Canva, Adobe Express und iLoveIMG
+24	Bilder online kostenlos zuschneiden
+25	Entfernen Sie unerwünschte Teile eines Fotos, verbessern Sie die Komposition oder bringen Sie ein Bild in eine exakte Form. Ziehen Sie den Zuschnittrahmen oder fixieren Sie ihn auf ein gängiges Seitenverhältnis (Quadrat 1:1 für Profilbilder, 4:5 für Instagram, 16:9 für YouTube und Präsentationen, 9:16 für Storys) und laden Sie das Ergebnis in voller Qualität herunter. Ohne Konto, ohne Wasserzeichen und ohne Upload.
+26	So funktioniert es
+27	Legen Sie ein oder mehrere Bilder auf der Seite ab.
+28	Wählen Sie ein Seitenverhältnis oder lassen Sie es frei.
+29	Ziehen Sie den Zuschnittrahmen und seine Griffe über den Teil, den Sie behalten möchten.
+30	Laden Sie das zugeschnittene Bild herunter (bei mehreren als ZIP).
+31	Welches Seitenverhältnis sollte ich nutzen?
+32	Seitenverhältnis
+33	Verwendung
+34	1:1
+35	Profilbilder, quadratische Instagram-Beiträge, Produktminiaturen
+36	4:5
+37	Hochformat-Beiträge auf Instagram und Threads
+38	4:3
+39	Klassische Kamera- und Tablet-Fotos, Folien
+40	3:2
+41	Spiegelreflex-Abzüge: Fotopapier 15×10 cm (6×4 in)
+42	16:9
+43	YouTube-Miniaturen, Breitbild-Folien, Desktop-Hintergründe
+44	9:16
+45	Storys, Reels, TikTok und Handy-Hintergründe
+46	Für eine exakte Pixelgröße nach dem Zuschneiden nutzen Sie [Bildgröße ändern](/resize-image/); für alle Social-Media-Voreinstellungen an einem Ort probieren Sie den [Bildgrößen-Änderer für soziale Netzwerke](/social-media-image-resizer/).
+47	Tipps zur Komposition
+48	Folgen Sie der Drittelregel: Setzen Sie Augen oder Horizont auf eine gedachte Linie ein Drittel vom Rand entfernt.
+49	Lassen Sie etwas Raum in die Richtung, in die die Person blickt oder sich bewegt.
+50	Schneiden Sie störende Ränder weg (Mülleimer, Kabel, halbe Personen), nicht das Motiv.
+51	Schneiden Sie Personen nicht an Gelenken ab (Handgelenke, Knie, Knöchel).
+52	Zuschneiden entfernt Pixel: Gehen Sie vom größten Original aus, damit der Ausschnitt im Druck scharf bleibt.
+53	Zuschneiden, Größe ändern oder Ränder entfernen
+54	Zuschneiden entfernt einen Teil des Bildes und ändert seine Form; die Größenänderung behält das ganze Bild und ändert seine Pixelmaße; *Ränder entfernen* (Trim) bedeutet meist, einfarbige Ränder automatisch zu entfernen. Für ein rundes Profilbild nutzen Sie [Bild rund zuschneiden](/circle-crop-image/); um ein Bild in Teile zu zerlegen, nutzen Sie [Bild teilen](/image-splitter/).
+55	Bildformate im Überblick
+56	Format
+57	Kompression
+58	Transparenz
+59	Ideal für
+60	JPG
+61	Verlustbehaftet
+62	Nein
+63	Fotos, E-Mail, soziale Netzwerke
+64	PNG
+65	Verlustfrei
+66	Ja
+67	Screenshots, Logos, Grafiken mit Text
+68	WebP
+69	Verlustbehaftet oder verlustfrei
+70	Ja
+71	Websites: kleiner als JPG und PNG
+72	AVIF
+73	Verlustbehaftet oder verlustfrei
+74	Ja
+75	Kleinere Dateien, neuere Browser
+76	GIF
+77	Verlustfrei, 256 Farben
+78	1 Bit
+79	Einfache Animationen
+80	Das Tool liest JPG, PNG, WebP, GIF, BMP, AVIF und dank integrierter Decoder auch HEIC-Fotos vom iPhone, Sie müssen also selten vorher umwandeln.
+81	Funktioniert auf jedem Gerät
+82	Funktioniert in Chrome, Edge, Firefox und Safari unter Windows, macOS, Linux, ChromeOS, Android und auf iPhone/iPad. Tippen Sie am Handy auf den Ablagebereich und wählen Sie aus Ihrer Galerie; die Ergebnisse werden in Downloads oder der Dateien-App gespeichert. Stapel werden nacheinander verarbeitet und zusammen als ZIP heruntergeladen, ein ganzes Urlaubsalbum braucht also nur ein paar Tipps.
+83	Qualität und Dateigröße
+84	Die Bearbeitung erfolgt in der vollen Auflösung des Originals. JPG- und WebP-Ergebnisse werden in hoher Qualität (etwa 90 %) kodiert, bei den meisten Fotos optisch identisch mit dem Original und mit kompakten Dateien; wählen Sie PNG, wenn Sie verlustfreie Ausgabe oder Transparenz brauchen. Um die Dateien danach weiter zu verkleinern, nutzen Sie [Bild komprimieren](/compress-image/), und zum Ändern der Abmessungen [Bildgröße ändern](/resize-image/).
+85	Häufige Probleme und Lösungen
+86	**Die Datei öffnet sich nicht**: Prüfen Sie, ob es ein echtes Bild ist und keine Verknüpfung oder ein Cloud-Platzhalter; laden Sie es vorher vollständig aus iCloud, Google Fotos oder OneDrive herunter.
+87	**Das Ergebnis wirkt unscharf**: Gehen Sie vom Original aus, nicht von einer per WhatsApp oder Messenger gesendeten Vorschau, die Fotos stark nachkomprimieren.
+88	**Die Farben sehen etwas anders aus**: Fotos mit großem Farbraum (Display P3) werden in sRGB angezeigt, dem Webstandard; das ist normal und auf allen Geräten einheitlich.
+89	**Der Download erscheint nicht auf dem iPhone**: Suchen Sie ihn unter Dateien → Downloads, oder halten Sie die Vorschau gedrückt und wählen Sie In Fotos sichern.
+90	**Ein großer Stapel ist langsam**: Sehr große Fotos brauchen viel Speicher; schließen Sie andere Tabs oder verarbeiten Sie 20–30 Bilder auf einmal.
+91	Datenschutz
+92	Alles geschieht im Browser-Tab. Ihre Bilder werden von Ihrer Festplatte in den Speicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Nichts wird hochgeladen, gespeichert oder protokolliert, es gibt kein Konto, und das Tool funktioniert nach dem Laden der Seite auch offline – sicher für privates, vertrauliches oder unveröffentlichtes Material.
+93	Wo Ihre Datei verarbeitet wird
+94	In Ihrem Browser, nie hochgeladen
+95	Auf deren Servern (Upload)
+96	Auf deren Servern (Upload)
+97	Auf deren Servern (Upload)
+98	Konto erforderlich
+99	Nie
+100	Siehe Website
+101	Siehe Website
+102	Siehe Website
+103	Stapel / mehrere Bilder
+104	Ja
+105	Siehe Website
+106	Siehe Website
+107	Siehe Website
+108	Voreinstellungen für Seitenverhältnisse
+109	Ja
+110	Siehe Website
+111	Siehe Website
+112	Siehe Website
+113	Funktioniert offline
+114	Ja
+115	Siehe Website
+116	Siehe Website
+117	Siehe Website
+118	Wie schneide ich ein Bild online kostenlos zu?
+119	Legen Sie das Bild hier ab, ziehen Sie den Zuschnittrahmen oder wählen Sie ein Seitenverhältnis und laden Sie herunter. Ohne Registrierung oder Wasserzeichen.
+120	Verringert das Zuschneiden die Qualität?
+121	Nein: Die verbleibenden Pixel bleiben exakt erhalten; nur der weggeschnittene Bereich wird entfernt.
+122	Kann ich mehrere Bilder auf einmal zuschneiden?
+123	Ja. Legen Sie mehrere ab, und sie werden zusammen als ZIP heruntergeladen.
+124	Wie schneide ich ein Foto quadratisch zu?
+125	Wählen Sie das Seitenverhältnis 1:1 und schieben Sie den Rahmen über den gewünschten Teil.
+126	Wie schneide ich ein Bild für Instagram zu?
+127	Nutzen Sie 4:5 für Hochformat-Beiträge oder 1:1 für quadratische und laden Sie herunter.
+128	Kann ich ein PNG zuschneiden und die Transparenz behalten?
+129	Ja. PNG und WebP behalten transparente Bereiche.
+130	Funktioniert es auf dem iPhone?
+131	Ja, in Safari. HEIC-Fotos werden unterstützt.
+132	Werden meine Fotos hochgeladen?
+133	Nein, das Zuschneiden erfolgt in Ihrem Browser.
+134	Wie schneide ich auf eine exakte Pixelgröße zu?
+135	Schneiden Sie auf das passende Seitenverhältnis zu und legen Sie dann in Bildgröße ändern die exakte Breite fest.
+136	Kann ich einen Screenshot zuschneiden?
+137	Ja: Legen Sie die Screenshot-Datei ab oder fügen Sie sie ein und schneiden Sie sie wie gewohnt zu.

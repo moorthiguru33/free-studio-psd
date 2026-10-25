@@ -1,0 +1,131 @@
+0	Excel in PDF
+1	Tabellen in saubere PDF-Tabellen umwandeln.
+2	Excel in PDF – XLSX, XLS und ODS kostenlos ohne Upload | {brand}
+3	Wandeln Sie Excel-Tabellen (XLSX, XLS, ODS, CSV) in PDF um: lesbare Tabellen, ein Abschnitt pro Blatt, wiederholte Kopfzeilen. Kostenlos und privat.
+4	Excel in PDF umwandeln
+5	Wählen Sie die Tabellendateien aus.
+6	Wählen Sie das Seitenformat.
+7	Laden Sie das PDF herunter.
+8	Werden alle Blätter einbezogen?
+9	Ja, jedes Blatt mit Inhalt wird zu einem eigenen Abschnitt mit dem Blattnamen als Überschrift.
+10	Sind die Formeln sichtbar?
+11	Es werden die berechneten Werte angezeigt, mit dem Format aus der Datei.
+12	Eine Tabelle als PDF zu teilen stellt sicher, dass alle dieselben Zahlen sehen, ohne sie bearbeiten zu können. {brand} wandelt jedes Blatt in eine saubere PDF-Tabelle mit der ersten Zeile als Kopfzeile um, bricht lange Zellen um und verteilt große Blätter auf mehrere Seiten – ohne installiertes Excel und ohne Ihre Finanzdaten hochzuladen.
+13	Eine Preisliste oder ein Angebot als PDF senden.
+14	Einen Stundenplan oder eine Anwesenheitsliste drucken.
+15	Monatsberichte als PDF archivieren.
+16	Daten mit Personen teilen, die kein Excel haben.
+17	Breite Blätter passen besser auf A3 oder Legal.
+18	Löschen Sie unnötige Spalten vor der Umwandlung für eine übersichtlichere Tabelle.
+19	Brauchen Sie das Gegenteil? Nutzen Sie PDF in Excel.
+20	Bleiben Farben und Diagramme erhalten?
+21	Der Fokus liegt auf den Daten: Zellwerte in sauberen Tabellen. Diagramme und Zellfarben werden nicht übernommen.
+22	Werden meine Daten hochgeladen?
+23	Nein: Die Umwandlung erfolgt in Ihrem Browser.
+24	Excel in PDF umwandeln – Kostenlos, an die Seite angepasst
+25	Excel (XLSX, XLS, ODS, CSV) kostenlos in PDF: automatisch quer bei breiten Blättern, Spalten anpassen, Blätter wählen, Stapel. Ohne Upload.
+26	Wandeln Sie Tabellen in saubere, leicht teilbare PDFs um
+27	Tabellen sind großartig zum Rechnen, aber umständlich zu teilen: Spalten werden abgeschnitten, der Empfänger hat vielleicht kein Excel, und Formeln können versehentlich geändert werden. Ein PDF friert die Tabelle in einem lesbaren Layout ein, das sich auf jedem Gerät öffnet. {brand} wandelt XLSX-, XLS-, ODS-, CSV- und TSV-Dateien direkt in Ihrem Browser in PDF um, sodass Preislisten, Gehaltsabrechnungen und Finanzberichte Ihren Computer nie verlassen.
+28	Optionen, damit die Tabelle passt
+29	**Automatische Ausrichtung**: Breite Blätter wechseln von selbst ins Querformat; oder erzwingen Sie Hoch- oder Querformat.
+30	**Spalten an Seitenbreite anpassen**: Die Textgröße passt sich der Spaltenanzahl an; wählen Sie kleinen Text für mehr Spalten oder großen für bessere Lesbarkeit.
+31	**Blätter wählen**: Wandeln Sie alle Blätter um oder nur die per Name oder Nummer angegebenen (z. B. 1, Übersicht).
+32	**Seitenformat**: A4, Letter, Legal oder A3.
+33	**Stapel**: Wandeln Sie viele Arbeitsmappen auf einmal in ein PDF mit Lesezeichen oder in ein ZIP mit einzelnen PDFs um.
+34	**Alle gängigen Formate**: XLSX, XLS (Excel 97–2003), ODS (LibreOffice), CSV und TSV.
+35	So wandeln Sie Excel in PDF um
+36	Legen Sie eine oder mehrere Tabellendateien ab.
+37	Wählen Sie Ausrichtung, Anpassung und Seitenformat; geben Sie die Blätter an, wenn Sie nur einige möchten.
+38	Wählen Sie ein kombiniertes PDF oder ein PDF pro Datei.
+39	Klicken Sie auf Umwandeln und laden Sie herunter.
+40	Tipps für ein perfektes Ergebnis
+41	Breite Blätter mit vielen Spalten lesen sich am besten quer auf A3 oder mit „kleinem Text“.
+42	Blenden Sie Hilfsspalten vor der Umwandlung aus oder löschen Sie sie: Alles mit Daten wird einbezogen.
+43	Leere Zeilen werden automatisch übersprungen, um Seiten zu sparen.
+44	Hat eine Arbeitsmappe mehrere Blätter, beginnt jedes mit seinem Namen als Überschrift.
+45	Sehr lange Blätter laufen über mehrere Seiten weiter; die Kopfzeile eröffnet die Tabelle.
+46	Brauchen Sie die umgekehrte Richtung? [PDF in Excel](/pdf-to-excel/) wandelt PDF-Tabellen wieder in Tabellen um.
+47	„Als PDF speichern“ in Excel im Vergleich zu diesem Tool
+48	Excel unter Windows und Mac kann über Datei → Speichern unter / Exportieren als PDF exportieren, Google Sheets über Datei → Herunterladen → PDF. Diese Optionen berücksichtigen Druckbereiche und Seiteneinstellungen, die Sie festgelegt haben. Dieses Tool ist praktisch, wenn Sie kein Excel haben, auf einem Handy oder Chromebook sind, viele Dateien gleichzeitig umwandeln müssen oder eine CSV erhalten haben, die Sie nur als ordentliche Tabelle lesen möchten.
+49	Typische Anwendungen
+50	Rechnungen, Angebote und Preislisten an Kunden senden.
+51	Budgets und Berichte mit Personen teilen, die kein Excel nutzen.
+52	Monatliche Exporte aus Lohn- und Buchhaltung archivieren.
+53	Stundenpläne, Schichtpläne und Inventare drucken.
+54	CSV-Exporte aus Apps und Banken in lesbare Dokumente umwandeln.
+55	Datenschutz
+56	Tabellen enthalten oft die sensibelsten Zahlen eines Unternehmens: Gehälter, Margen, Kundenlisten. Da die Umwandlung in Ihrem Browser erfolgt, werden sie nie hochgeladen, protokolliert oder gespeichert. Schließen Sie den Tab, und alles ist weg.
+57	Was mit Formeln und Formatierung geschieht
+58	Das PDF zeigt die Werte, die Ihre Formeln beim letzten Speichern der Arbeitsmappe berechnet haben, nicht die Formeln selbst – genau das, was ein Ausdruck zeigen würde. Daten und Zahlen erscheinen im Format des Blatts. Zellfarben, verbundene Zellen und Diagramme werden zu einer sauberen Tabelle vereinfacht, damit die Daten in jeder Größe lesbar bleiben.
+59	Wo Ihre Datei verarbeitet wird
+60	In Ihrem Browser, nie hochgeladen
+61	Auf deren Servern
+62	Auf deren Servern
+63	Adobe-Cloud
+64	Auf deren Servern
+65	Funktioniert bei ausgeschaltetem WLAN
+66	Ja, nach dem Laden der Seite
+67	Nein
+68	Nein
+69	Nein
+70	Nein
+71	Konto oder E-Mail erforderlich
+72	Nie
+73	Nicht für die Grundnutzung
+74	Nicht für die Grundnutzung
+75	Anmeldung für einige Aktionen
+76	Nicht für die Grundnutzung
+77	Limits der Gratisnutzung
+78	Keine – nur die Ihres Geräts
+79	Gratis-Tarif; Premium für mehr
+80	Gratis-Tarif; Premium für mehr
+81	Gratis-Tarif; Premium für mehr
+82	3 Aufgaben/Stunde, 50 MB pro Datei
+83	Eingabe XLS, XLSX, ODS, CSV, TSV
+84	Ja
+85	Siehe Website
+86	Siehe Website
+87	Siehe Website
+88	Siehe Website
+89	Automatisch quer / Spalten anpassen
+90	Ja
+91	Siehe Website
+92	Siehe Website
+93	Siehe Website
+94	Siehe Website
+95	Blätter wählen
+96	Ja
+97	Siehe Website
+98	Siehe Website
+99	Siehe Website
+100	Siehe Website
+101	Stapelverarbeitung
+102	Kostenlos
+103	Siehe Website
+104	Siehe Website
+105	Siehe Website
+106	Im Rahmen des Aufgabenlimits
+107	Wie wandle ich Excel in PDF um?
+108	Legen Sie hier die XLSX-, XLS-, ODS- oder CSV-Datei ab, wählen Sie Ausrichtung und Anpassung und klicken Sie auf Umwandeln.
+109	Ist es kostenlos?
+110	Ja, ohne Limits, Wasserzeichen oder Registrierung.
+111	Wird meine Tabelle hochgeladen?
+112	Nein. Die Umwandlung erfolgt vollständig in Ihrem Browser.
+113	Wie verhindere ich, dass Spalten abgeschnitten werden?
+114	Lassen Sie die Ausrichtung auf Automatisch (breite Blätter werden quer) und wählen Sie „Kleiner Text“ oder nutzen Sie das Format A3.
+115	Kann ich nur ein Blatt umwandeln?
+116	Ja. Geben Sie den Namen oder die Nummer des Blatts unter „Blätter“ ein.
+117	Kann ich mehrere Arbeitsmappen auf einmal umwandeln?
+118	Ja. Kombinieren Sie sie in einem PDF mit Lesezeichen oder erhalten Sie ein PDF pro Datei.
+119	Wird CSV unterstützt?
+120	Ja, CSV und TSV werden in formatierte Tabellen umgewandelt.
+121	Werden Diagramme und Bilder einbezogen?
+122	Der Konverter konzentriert sich auf Zelldaten. Exportieren Sie Diagramme aus Excel als Bilder oder nutzen Sie die Funktion „Als PDF speichern“ von Excel selbst.
+123	Kann ich am Handy umwandeln?
+124	Ja. Es funktioniert in jedem aktuellen mobilen Browser.
+125	Wie wandle ich Excel in ein PDF mit einer Seite Breite um?
+126	Aktivieren Sie die Anpassung an die Breite: Die Spalten werden auf die Seite skaliert und breite Blätter automatisch quer gesetzt, sodass am Rand nichts abgeschnitten wird.
+127	Wie wandle ich Excel in PDF um, ohne die Formatierung zu verlieren?
+128	Zellwerte, Spaltenbreiten, Fettdruck und Rahmen bleiben erhalten. Diagramme und komplexe bedingte Formatierung werden eventuell nicht übernommen: Prüfen Sie die Vorschau oder exportieren Sie aus Excel, wenn ein Blatt davon abhängt.
+129	Kann ich Excel im Querformat in PDF umwandeln?
+130	Ja. Wählen Sie Querformat oder lassen Sie die Ausrichtung auf Automatisch, dann werden breite Blätter quer gesetzt.

@@ -1,0 +1,137 @@
+0	Wasserzeichen hinzufügen
+1	Einen Text auf die Seiten Ihres PDFs stempeln.
+2	PDF mit Wasserzeichen versehen – online, kostenlos, jede Sprache | {brand}
+3	Ein Text-Wasserzeichen wie VERTRAULICH, ENTWURF oder Ihren Firmennamen auf ein PDF stempeln. Größe, Deckkraft, Winkel und Farbe anpassen. Kostenlos.
+4	Ein PDF mit Wasserzeichen versehen
+5	Wählen Sie Ihre PDF-Dateien aus.
+6	Geben Sie das Wasserzeichen ein und passen Sie Stil und Anordnung an.
+7	Klicken Sie auf Starten und laden Sie herunter.
+8	Kann ich Text in anderen Sprachen verwenden?
+9	Ja. Arabisch, Hebräisch, Hindi, Tamil, Thai, Kyrillisch, Griechisch und mehr werden dank Noto-Schriften unterstützt.
+10	Ein Wasserzeichen zeigt auf einen Blick den Status oder den Eigentümer eines Dokuments und hält von unerlaubtem Kopieren ab. {brand} fügt Wasserzeichen in Ihrem Browser hinzu, unterstützt viele Schriftsysteme (Lateinisch, Kyrillisch, Griechisch, Arabisch, Hebräisch, Devanagari, Thai und mehr) und lädt Ihre Datei nie hoch.
+11	Entwürfe vor der Prüfung mit ENTWURF kennzeichnen.
+12	Sensible Dokumente als VERTRAULICH markieren.
+13	Ihren Firmennamen auf Angebote, Portfolios oder Berichte setzen.
+14	Kopien von Ausweisdokumenten mit „Kopie – nur für die Mietbewerbung“ versehen.
+15	Eine geringe Deckkraft (15–30 %) hält das Dokument lesbar.
+16	Ein diagonales Wasserzeichen in 45° lässt sich am schwersten wegschneiden.
+17	Kombinieren Sie es mit „PDF reduzieren“ oder „PDF rastern“, wenn das Wasserzeichen schwerer zu entfernen sein soll.
+18	Kann jemand das Wasserzeichen entfernen?
+19	Ein entschlossener Nutzer kann ein Text-Wasserzeichen mit einem Bearbeitungsprogramm entfernen. Ein anschließendes Rastern des PDFs macht das deutlich schwerer.
+20	PDF-Wasserzeichen – Text oder Logo, kostenlos und privat
+21	PDF-Wasserzeichen: Text oder Logo, Deckkraft, Drehung, Farbe, Kachel oder 9 Positionen, Seitenbereich und mehrere Dateien. Kostenlos, ohne Upload.
+22	Versehen Sie Ihre PDFs mit Text oder Logo
+23	Ein Wasserzeichen zeigt Betrachtern eines Dokuments, woher es stammt oder wie es verwendet werden darf: VERTRAULICH, ENTWURF, KOPIE, MUSTER, Ihr Firmenlogo oder eine Webadresse. {brand} fügt Text- oder Bild-Wasserzeichen direkt in Ihrem Browser zu PDFs hinzu, sodass Entwürfe, Angebote und Kundenlieferungen nie über den Server eines Dritten laufen.
+24	Optionen
+25	**Text oder Bild**: Geben Sie einen beliebigen Text ein oder laden Sie ein PNG- oder JPG-Logo hoch (transparente PNGs wirken am besten).
+26	**Größe**: Schriftgröße für Text oder Breite in Prozent der Seite für Bilder.
+27	**Deckkraft**: von dezenten 5 % bis vollständig deckend.
+28	**Drehung**: jeder Winkel; 45° diagonal ist der Klassiker für ENTWURF-Stempel, 0° für Logos.
+29	**Farbe**: jede beliebige Farbe für Text-Wasserzeichen.
+30	**Anordnung**: zentriert, als Kachel über die ganze Seite oder an einer von neun Positionen (Ecken, Ränder, Mitte).
+31	**Seitenbereich**: Wasserzeichen nur auf ausgewählten Seiten, z. B. 1 oder 2-10.
+32	**Stapel**: viele PDFs auf einmal mit Wasserzeichen versehen und als ZIP herunterladen.
+33	**Jede Sprache**: Text-Wasserzeichen unterstützen nicht lateinische Schriften.
+34	So fügen Sie einem PDF ein Wasserzeichen hinzu
+35	Legen Sie ein oder mehrere PDFs ab.
+36	Wählen Sie „Text“ und geben Sie Ihr Wasserzeichen ein, oder wählen Sie „Bild / Logo“ und eine Datei.
+37	Passen Sie Größe, Deckkraft, Winkel, Farbe und Anordnung an.
+38	Geben Sie optional einen Seitenbereich an.
+39	Klicken Sie auf „Wasserzeichen hinzufügen“ und laden Sie herunter.
+40	Das passende Wasserzeichen wählen
+41	Zweck
+42	Empfohlene Einstellungen
+43	Entwurf / vertraulich
+44	Text, 45°, Deckkraft 20–30 %, zentriert
+45	Kopieren von Vorschauen erschweren
+46	Text, gekachelt, Deckkraft 15–20 %
+47	Branding
+48	Logo, 0°, Deckkraft 60–100 %, oben oder unten rechts
+49	Muster / Korrekturabzug für Kunden
+50	Text „MUSTER“, gekachelt, Deckkraft 25 %
+51	Copyright-Hinweis
+52	Kleiner Text, unten mittig, Deckkraft 50 %
+53	Welchen Schutz bietet ein Wasserzeichen?
+54	Ein Wasserzeichen wird als Text oder Bild auf die Seite gezeichnet. Es ist eine deutliche sichtbare Aussage über Eigentum oder Status und schreckt vor beiläufigem Missbrauch ab, doch eine entschlossene Person mit einem PDF-Editor kann Objekte von einer Seite entfernen. Für stärkeren Schutz kombinieren Sie ein gekacheltes Wasserzeichen mit [PDF schützen](/protect-pdf/) und deaktivieren Bearbeiten und Kopieren, oder reduzieren Sie das Dokument mit [PDF reduzieren](/flatten-pdf/).
+55	Logo-Wasserzeichen
+56	Laden Sie Ihr Logo als PNG mit transparentem Hintergrund hoch, um das sauberste Ergebnis zu erhalten. Setzen Sie die Drehung auf 0°, wählen Sie eine Ecke und stellen Sie die Breite auf 15–25 % der Seite ein. Für ein dezentes Hintergrundlogo wählen Sie die Mitte, 50–60 % Breite und 10–15 % Deckkraft. Das Bild wird einmal eingebettet und auf jeder Seite wiederverwendet, sodass die Datei kaum größer wird.
+57	Typische Anwendungen
+58	Entwürfe und interne Dokumente als VERTRAULICH kennzeichnen.
+59	Ihr Logo auf Angebote, Berichte und Preislisten setzen.
+60	Foto- und Designentwürfe schützen, die an Kunden gehen.
+61	„KOPIE“ auf gescannte Urkunden stempeln.
+62	Eine Webadresse zu E-Books und Skripten hinzufügen.
+63	Möchten Sie Bilder mit Wasserzeichen versehen?
+64	Für Fotos und Grafiken nutzen Sie [Bild mit Wasserzeichen](/watermark-image/), das JPG-, PNG- und WebP-Dateien auf dieselbe private Weise im Browser verarbeitet.
+65	Wasserzeichen in anderen Sprachen und Schriften
+66	Text-Wasserzeichen werden mit Schriften gezeichnet, die viele Schriftsysteme abdecken, sodass Sie 'गोपनीय', 'سري', '機密' oder 'ரகசியம்' genauso leicht stempeln können wie „VERTRAULICH“. Das ist nützlich für Regionalbüros, Behördenformulare und mehrsprachige Teams, die Statusvermerke brauchen, die man auf einen Blick versteht.
+67	Wo Ihre Datei verarbeitet wird
+68	In Ihrem Browser, nie hochgeladen
+69	Auf deren Servern
+70	Auf deren Servern
+71	Adobe-Cloud
+72	Auf deren Servern
+73	Funktioniert bei ausgeschaltetem WLAN
+74	Ja, nach dem Laden der Seite
+75	Nein
+76	Nein
+77	Nein
+78	Nein
+79	Konto oder E-Mail erforderlich
+80	Nie
+81	Nicht für die Grundnutzung
+82	Nicht für die Grundnutzung
+83	Anmeldung für einige Aktionen
+84	Nicht für die Grundnutzung
+85	Limits der Gratisnutzung
+86	Keine – nur die Ihres Geräts
+87	Gratis-Tarif; Premium für mehr
+88	Gratis-Tarif; Premium für mehr
+89	Gratis-Tarif; Premium für mehr
+90	3 Aufgaben/Stunde, 50 MB pro Datei
+91	Text- und Bild-Wasserzeichen
+92	Ja
+93	Siehe Website
+94	Siehe Website
+95	Siehe Website
+96	Siehe Website
+97	Kachel + 9 Positionen
+98	Ja
+99	Siehe Website
+100	Siehe Website
+101	Siehe Website
+102	Siehe Website
+103	Seitenbereich
+104	Ja
+105	Siehe Website
+106	Siehe Website
+107	Siehe Website
+108	Siehe Website
+109	Stapelverarbeitung
+110	Kostenlos, als ZIP
+111	Siehe Website
+112	Siehe Website
+113	Siehe Website
+114	Im Rahmen des Aufgabenlimits
+115	Wie füge ich einem PDF ein Wasserzeichen hinzu?
+116	PDF ablegen, Text eingeben oder Logo wählen, Deckkraft und Position anpassen und auf „Wasserzeichen hinzufügen“ klicken.
+117	Kann ich mein Logo als Wasserzeichen verwenden?
+118	Ja. Wählen Sie „Bild / Logo“ und laden Sie ein PNG oder JPG hoch. Transparente PNGs wirken am besten.
+119	Kann ich das Wasserzeichen nur auf einige Seiten setzen?
+120	Ja. Geben Sie einen Seitenbereich wie 1 oder 3-10 an.
+121	Kann ich das Wasserzeichen transparent machen?
+122	Ja. Stellen Sie die Deckkraft zwischen 5 % und 100 % ein.
+123	Kann ich das Wasserzeichen über die ganze Seite wiederholen?
+124	Ja. Wählen Sie die Anordnung „Kachel“.
+125	Wird mein Dokument hochgeladen?
+126	Nein. Das Wasserzeichen wird in Ihrem Browser hinzugefügt.
+127	Kann ich mehrere PDFs auf einmal mit Wasserzeichen versehen?
+128	Ja. Legen Sie mehrere Dateien ab und laden Sie ein ZIP herunter.
+129	Lassen sich Wasserzeichen entfernen?
+130	Ein Wasserzeichen ist eine sichtbare Markierung; jemand mit einem Editor könnte es entfernen. Kombinieren Sie es mit Passwortschutz und deaktiviertem Bearbeiten für stärkeren Schutz.
+131	Werden andere Sprachen unterstützt?
+132	Ja. Text-Wasserzeichen funktionieren auch mit nicht lateinischen Schriften.
+133	Wie versehe ich ein PDF kostenlos mit einem Wasserzeichen?
+134	PDF ablegen, Text eingeben (z. B. ENTWURF oder VERTRAULICH) oder ein Logo hochladen, Deckkraft, Drehung, Farbe und Position oder Kachel anpassen und herunterladen. Kostenlos, ohne Anmeldung und ohne zusätzliches Branding.
+135	Kann ich einem PDF ein Wasserzeichen ENTWURF oder VERTRAULICH hinzufügen?
+136	Ja. Geben Sie das Wort ein, drehen Sie es um 45°, stellen Sie eine Deckkraft von etwa 20–30 % ein, damit der Inhalt lesbar bleibt, und wenden Sie es auf alle Seiten oder einen Bereich an.

@@ -1,0 +1,113 @@
+0	PDF drehen
+1	Alle Seiten Ihrer PDFs drehen.
+2	PDF drehen online kostenlos – PDF-Seiten rotieren | {brand}
+3	PDF-Seiten um 90°, 180° oder 270° drehen und dauerhaft speichern. Kostenlos, schnell und privat – läuft in Ihrem Browser.
+4	PDF drehen
+5	Wählen Sie eine oder mehrere PDF-Dateien aus.
+6	Wählen Sie den Drehwinkel.
+7	Klicken Sie auf „Start“ und laden Sie das gedrehte PDF herunter.
+8	Ist die Drehung dauerhaft?
+9	Ja. Die Drehung wird im PDF gespeichert, sodass es sich in jedem Viewer richtig öffnet.
+10	Scans und Handyfotos liegen oft quer oder stehen auf dem Kopf. „PDF drehen“ korrigiert die Ausrichtung dauerhaft, damit sich die Datei überall richtig öffnet.
+11	Quer gescannte Seiten geraderücken.
+12	Querformatseiten für bessere Lesbarkeit drehen.
+13	Um nur einzelne Seiten zu drehen, nutzen Sie „PDF organisieren“.
+14	Drehen statt neu scannen
+15	Ein schief eingelegtes Dokument neu zu scannen kostet Zeit und kann die Qualität verschlechtern. Beim Drehen eines PDFs ändert sich nur die in der Datei gespeicherte Ausrichtungsangabe – Text, Bilder und Dateigröße bleiben genau gleich. Das Ergebnis öffnet sich korrekt in Adobe Reader, in Browsern, in Vorschau, in mobilen Viewern und beim Drucken.
+16	Gemischte Ausrichtungen
+17	Berichte mischen oft Textseiten im Hochformat mit Tabellen oder Diagrammen im Querformat. Drehen Sie mit „PDF organisieren“ nur die Querformatseiten, damit sich jede Seite am Bildschirm natürlich liest, und drucken Sie dann mit aktivierter „automatischer Drehung“.
+18	Stapeldrehung
+19	Wählen Sie mehrere PDFs auf einmal und wenden Sie dieselbe Drehung auf alle an – sehr praktisch, wenn der Scanner einen ganzen Stapel falsch herum eingezogen hat.
+20	PDF drehen – Seiten dauerhaft rotieren, kostenlos und privat
+21	PDF-Seiten dauerhaft um 90°, 180° oder 270° drehen: alle, ungerade, gerade, nur Querformat oder ein Bereich. Stapelweise, kostenlos, ohne Upload und Anmeldung.
+22	Quer liegende oder kopfstehende Seiten dauerhaft korrigieren
+23	Scanner, Smartphones und Faxgeräte erzeugen oft PDFs mit falsch ausgerichteten Seiten: eine quer liegende Tabelle, ein Kassenbon auf dem Kopf oder jede zweite Seite eines Duplex-Scans verdreht. Das Drehen im PDF-Viewer ändert nur die Ansicht auf Ihrem Bildschirm – die nächste Person, die die Datei öffnet, sieht sie wieder quer. {brand} schreibt die neue Ausrichtung in das PDF selbst, sodass die Datei überall richtig herum erscheint: in Acrobat, in Chrome, in Vorschau, auf dem Smartphone und beim Drucken.
+24	Es läuft vollständig in Ihrem Browser. Das PDF wird auf Ihrem Gerät geöffnet, die Seitendrehung aktualisiert und das Ergebnis heruntergeladen – nichts wird hochgeladen, was bei Verträgen, Ausweisscans und Arztbriefen wichtig ist.
+25	Drehen Sie genau die Seiten, die Sie brauchen
+26	**Alle Seiten**: die klassische Lösung für ein komplett falsch ausgerichtetes gescanntes Dokument.
+27	**Ungerade oder gerade Seiten**: korrigiert Duplex-Scans, bei denen nur die Rückseiten auf dem Kopf stehen.
+28	**Nur Querformat / nur Hochformat**: richtet gemischte Dokumente aus, in denen nur breite Tabellen oder Pläne quer liegen.
+29	**Ein Seitenbereich**: geben Sie 2, 5-7 ein, um nur diese Seiten zu drehen.
+30	**90° nach rechts, 180° oder 90° nach links** mit einem Klick.
+31	**Stapelweise**: mehrere PDFs ablegen und alle gedreht als ZIP erhalten.
+32	Verlustfreie Drehung
+33	In einem PDF ist die Drehung eine Eigenschaft jeder Seite. Sie zu ändern rendert oder komprimiert nichts neu – Text bleibt markier- und durchsuchbar, Links und Formularfelder funktionieren weiter, und Bilder behalten ihre volle Qualität. Die Dateigröße ändert sich kaum. Das unterscheidet sich von Tools, die Seiten in Bilder und zurück umwandeln, was Text unscharf machen und die Datei aufblähen kann.
+34	So drehen Sie ein PDF
+35	Legen Sie ein oder mehrere PDFs auf der Seite ab.
+36	Wählen Sie den Winkel: 90° nach rechts, 180° oder 270° (90° nach links).
+37	Wählen Sie die Seiten: alle, ungerade, gerade, Querformat, Hochformat oder einen Bereich.
+38	Klicken Sie auf „Drehen“ und laden Sie herunter. Das Ergebnis zeigt, wie viele Seiten gedreht wurden.
+39	Drehen auf Mac, Windows und Smartphone
+40	Auf dem Mac kann Vorschau Seiten drehen und die Änderung speichern; unter Windows drehen kostenlose PDF-Reader meist nur die Ansicht. Dieses Tool funktioniert auf allen Systemen gleich, auch auf Chromebook, Android und iPhone, ohne Installation. Für einzelne Seiten mit unterschiedlichen Winkeln nutzen Sie [PDF organisieren](/organize-pdf/), wo jede Miniatur eine eigene Drehschaltfläche hat.
+41	Typische Anwendungen
+42	Gescannte Verträge vor dem E-Mail-Versand geraderücken.
+43	Querformat-Tabellen in einem Hochformat-Bericht korrigieren.
+44	Mit dem Smartphone fotografierte und mit [JPG in PDF](/jpg-to-pdf/) umgewandelte Dokumente korrigieren.
+45	Dateien zum Drucken oder für [PDF zusammenfügen](/merge-pdf/) vorbereiten, damit alle Seiten gleich ausgerichtet sind.
+46	Gescannte Bücher auf einem Tablet lesbar machen.
+47	Tipps
+48	Wenn eine Seite in einem Viewer richtig, in einem anderen aber falsch aussieht, hat das PDF womöglich eine ungewöhnliche Drehangabe – eine Drehung um 360° (viermal 90°) normalisiert sie.
+49	Leicht schief gescannte Seiten (wenige Grad) müssen begradigt statt gedreht werden – probieren Sie [PDF begradigen](/deskew-pdf/).
+50	Passwortgeschütztes PDF? Öffnen Sie es zuerst mit [PDF entsperren](/unlock-pdf/), wenn Sie das Passwort kennen.
+51	Wo Ihre Datei verarbeitet wird
+52	In Ihrem Browser, nie hochgeladen
+53	Auf deren Servern
+54	Auf deren Servern
+55	Adobe-Cloud
+56	Auf deren Servern
+57	Funktioniert bei ausgeschaltetem WLAN
+58	Ja, nach dem Laden der Seite
+59	Nein
+60	Nein
+61	Nein
+62	Nein
+63	Konto oder E-Mail erforderlich
+64	Nie
+65	Nicht für die Grundnutzung
+66	Nicht für die Grundnutzung
+67	Anmeldung für einige Aktionen
+68	Nicht für die Grundnutzung
+69	Limits der Gratisnutzung
+70	Keine – nur die Ihres Geräts
+71	Gratis-Tarif; Premium für mehr
+72	Gratis-Tarif; Premium für mehr
+73	Gratis-Tarif; Premium für mehr
+74	3 Aufgaben/Stunde, 50 MB pro Datei
+75	Ungerade/gerade/nur Querformat drehen
+76	Ja
+77	Filter Quer-/Hochformat
+78	Siehe Website
+79	Siehe Website
+80	Siehe Website
+81	Seitenbereich drehen
+82	Ja
+83	Siehe Website
+84	Einzelne Seiten
+85	Siehe Website
+86	Siehe Website
+87	Stapeldrehung
+88	Kostenlos, als ZIP
+89	Ja
+90	Siehe Website
+91	Siehe Website
+92	Innerhalb der Aufgabenlimits
+93	Wird die Drehung dauerhaft gespeichert?
+94	Ja. Die neue Ausrichtung wird ins PDF geschrieben, sodass es in jedem Viewer und beim Drucken richtig herum erscheint.
+95	Kann ich nur eine Seite drehen?
+96	Ja. Wählen Sie „Seitenbereich …“ und geben Sie die Seitenzahl ein, oder drehen Sie einzelne Miniaturen mit „PDF organisieren“.
+97	Kann ich nur die Querformatseiten drehen?
+98	Ja. Wählen Sie „Nur Querformatseiten“, um nur breite Seiten zu drehen und den Rest unverändert zu lassen.
+99	Verringert das Drehen die Qualität?
+100	Nein. Es ändert nur die Drehungseinstellung der Seite; Text, Bilder und Links bleiben unangetastet.
+101	Kann ich mehrere PDFs auf einmal drehen?
+102	Ja. Legen Sie mehrere Dateien ab und laden Sie sie gemeinsam als ZIP herunter.
+103	Wird meine Datei hochgeladen?
+104	Nein. Das Drehen erfolgt in Ihrem Browser und funktioniert nach dem Laden der Seite auch offline.
+105	Wie drehe ich ein PDF auf Mac oder Windows?
+106	Nutzen Sie diese Seite in einem beliebigen Browser – sie funktioniert auf Mac, Windows, Linux, Chromebook, Android und iPhone gleich.
+107	Gibt es ein Dateigrößenlimit?
+108	Es gibt kein festes Limit; sehr große Dateien hängen nur vom Arbeitsspeicher Ihres Geräts ab.
+109	Wie korrigiere ich jede zweite Seite eines Duplex-Scans?
+110	Wählen Sie „Gerade Seiten“ (oder „Ungerade Seiten“) und 180°.
+111	Wie drehe ich ein PDF und speichere es so?
+112	Wählen Sie den Winkel und die zu drehenden Seiten (alle, ungerade, gerade, nur Querformat oder ein Bereich) und laden Sie herunter. Die Drehung wird in die Datei geschrieben, sodass sie sich in jedem Viewer richtig öffnet – anders als die temporäre Drehschaltfläche vieler PDF-Reader.

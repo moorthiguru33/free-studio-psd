@@ -1,0 +1,173 @@
+0	Collage-Maker
+1	Fotos zu einer Raster-Collage kombinieren.
+2	Fotocollage online erstellen – Raster ohne Wasserzeichen
+3	Erstellen Sie eine Collage aus mehreren Fotos mit einstellbaren Spalten, Abständen und Hintergrund. Kostenlos, privat und ohne Wasserzeichen.
+4	Fotocollage-Maker
+5	Wählen Sie zwei oder mehr Fotos aus.
+6	Wählen Sie Spalten, Abstand, Breite und Hintergrund.
+7	Klicken Sie auf Starten und laden Sie Ihre Collage herunter.
+8	Kann ich die Reihenfolge ändern?
+9	Ja: Nutzen Sie die Pfeile neben jeder Datei; die Fotos werden von links nach rechts und von oben nach unten angeordnet.
+10	Eine Collage zeigt viele Fotos in einem einzigen Bild: perfekt für Social-Media-Beiträge, Event-Rückblicke, Moodboards und Familienerinnerungen.
+11	Die Urlaubshighlights in einem einzigen Beitrag teilen.
+12	Ein Moodboard für ein Projekt erstellen.
+13	Ein Produktraster für einen Onlineshop anlegen.
+14	Verwenden Sie Fotos mit ähnlichen Seitenverhältnissen für ein ordentliches Raster.
+15	Fügen Sie Abstände und eine Hintergrundfarbe hinzu, die zu Ihren Fotos passt.
+16	Kann ich die Reihenfolge ändern?
+17	Ja: Nutzen Sie die Pfeile neben jeder Datei; die Fotos werden von links nach rechts und von oben nach unten angeordnet.
+18	Layout-Ideen
+19	Zwei Spalten eignen sich gut für Vorher-nachher-Paare, drei oder vier für Event-Highlights und größere Raster für Produktkataloge oder Moodboards. Ein schmaler weißer oder dunkler Abstand sorgt für einen klaren, modernen Look.
+20	Größen für soziale Netzwerke
+21	Quadratische (1080 × 1080) und hochformatige 4:5-Collagen (1080 × 1350) wirken in Feeds am besten; das Querformat eignet sich für Präsentationen und Blogs.
+22	Collage-Maker online kostenlos – Fotoraster
+23	Erstellen Sie Collagen und Fotoraster kostenlos: Spalten, Abstand, Hintergrund und Einpassung wählen, als JPG, PNG oder WebP laden. Ohne Wasserzeichen.
+24	{tool}: {brand} im Vergleich zu Canva, Adobe Express und iLoveIMG
+25	Kostenloser Fotocollage-Maker
+26	Kombinieren Sie Ihre Lieblingsfotos zu einem Bild für Instagram, Facebook, ein Familienalbum, ein Moodboard oder eine Produktseite. Legen Sie die Fotos ab, wählen Sie Spaltenzahl, Abstand und Hintergrundfarbe, entscheiden Sie, ob die Fotos auf ihre Zellen zugeschnitten oder vollständig gezeigt werden, und laden Sie ein hochauflösendes JPG, PNG oder WebP herunter. Kein Wasserzeichen, kein Konto, keine Uploads.
+27	So funktioniert es
+28	Legen Sie 2 bis 50 Fotos ab.
+29	Fügen Sie sie in der Reihenfolge hinzu, in der sie erscheinen sollen.
+30	Stellen Sie Spalten, Ausgabebreite, Abstand und Hintergrund ein.
+31	Wählen Sie Füllen (auf die Zellen zuschneiden) oder Einpassen (Fotos vollständig zeigen).
+32	Laden Sie die Collage herunter.
+33	Layouts, die funktionieren
+34	Fotos
+35	Spalten
+36	Ergebnis
+37	2
+38	2
+39	Vorher/nachher nebeneinander
+40	3
+41	3
+42	Triptychon / Panoramastreifen
+43	4
+44	2
+45	Klassisches 2 × 2-Raster
+46	6
+47	3
+48	3 × 2-Raster für Facebook
+49	9
+50	3
+51	3 × 3-Raster im Instagram-Stil
+52	12–20
+53	4
+54	Moodboard oder Kontaktabzug
+55	Um zwei Bilder ohne Raster Kante an Kante zu verbinden, ist [Bilder verbinden](/image-joiner/) schneller.
+56	Füllen oder einpassen?
+57	*Füllen* schneidet jedes Foto auf dieselbe Zellform zu und ergibt ein ordentliches Raster wie im Magazin; Gesichter nahe am Rand können abgeschnitten werden. *Einpassen* zeigt jedes Foto vollständig und füllt den Rest mit Hintergrund: besser für Dokumente, Screenshots und Illustrationen. Ein weißer oder hellgrauer Hintergrund mit 10–20 px Abstand wirkt sauber; Schwarz passt gut zu Nachtaufnahmen und dramatischen Bildern.
+58	Die beste Ausgabegröße
+59	Instagram: 1080 px breit (quadratisch oder 4:5).
+60	Facebook: 2048 px breit für eine scharfe Darstellung.
+61	Druck auf A4/Letter mit 300 dpi: etwa 2480–2550 px breit.
+62	Webseiten: 1200–1600 px breit, danach [Bild komprimieren](/compress-image/).
+63	Ideen
+64	Jahresrückblick oder Urlaubshighlights.
+65	Hochzeits- und Baby-Meilenstein-Boards.
+66	Immobilienanzeigen mit mehreren Räumen in einem Bild.
+67	Produktvarianten und Farboptionen für Onlineshops.
+68	Fotos von Rezeptschritten und Bastelfortschritten.
+69	Moodboards für Designer und Stylisten.
+70	Collage oder geteiltes Raster
+71	Eine Collage kombiniert viele Fotos zu einem Bild. Das Gegenteil (ein Foto in mehrere Beiträge aufteilen, die im Profil ein Raster bilden) erledigt der [Instagram-Raster-Maker](/instagram-grid-maker/).
+72	Ihre Collage drucken
+73	Für ein gedrucktes Poster oder eine Fotobuchseite legen Sie die Breite nach der Druckgröße fest: Zoll × 300 für scharfe Drucke (ein 8 × 10-Zoll-Druck braucht 2400 px Breite) oder Zentimeter × 118. Wählen Sie PNG oder hochwertiges JPG, lassen Sie mindestens 20 px Abstand, damit die Schnittlinien zwischen den Fotos gleichmäßig bleiben, und halten Sie wichtige Gesichter vom Außenrand fern, falls die Druckerei ein paar Millimeter beschneidet. Die meisten Fotolabore akzeptieren JPG-Dateien bis 25–50 MB.
+74	Eine 3 × 3-Collage für Instagram Schritt für Schritt
+75	Wählen Sie neun Fotos mit gemeinsamem Thema: eine Reise, eine Jahreszeit, eine Produktlinie.
+76	Legen Sie sie in der gewünschten Lesereihenfolge ab, von links nach rechts und von oben nach unten.
+77	Stellen Sie 3 Spalten, 1080 px Breite, 8–12 px Abstand und weißen Hintergrund ein.
+78	Wählen Sie Füllen, damit jede Zelle ein perfektes Quadrat ist.
+79	Laden Sie als JPG herunter und posten Sie es als ein quadratisches oder 4:5-Bild.
+80	Farbharmonie und Gestaltung
+81	Eine Collage wirkt gewollt, wenn die Fotos etwas gemeinsam haben: eine dominante Farbe, eine ähnliche Helligkeit oder dasselbe Motiv zu verschiedenen Zeitpunkten. Wechseln Sie Nahaufnahmen mit Totalen ab, damit das Auge Ruhepunkte hat, und setzen Sie nicht zwei sehr unruhige Bilder nebeneinander. Ist ein Foto deutlich dunkler, hellen Sie es vor dem Kombinieren mit [Fotofilter](/photo-filters/) auf. Gleichmäßige Abstände und ein neutraler Hintergrund lassen unterschiedliche Fotos wie ein Set wirken.
+82	Collagen für Unternehmen
+83	Onlineshops nutzen Collagen, um alle Farben eines Produkts in einem Bild zu zeigen; Makler kombinieren Räume zu einem Anzeigenfoto; Eventveranstalter teilen am nächsten Morgen die Highlights; Lehrkräfte erstellen visuelle Stundenpläne und Klassenwände. Da das Tool offline im Browser läuft, können Mitarbeitende es auf eingeschränkten Firmenrechnern nutzen, ohne Software zu installieren oder Kundenfotos zu einem externen Dienst hochzuladen.
+84	Die richtigen Fotos auswählen
+85	Beginnen Sie mit mehr Fotos als nötig und sortieren Sie konsequent aus: Eine Collage aus sechs starken Bildern ist besser als eine aus zwanzig mittelmäßigen. Mischen Sie Ausrichtungen mit Bedacht: Im Modus Füllen verlieren Hochformatfotos oben und unten, Querformatfotos an den Seiten – prüfen Sie also, dass Köpfe und wichtige Details in jeder Zelle bleiben. Gruppenfotos wirken in großen Zellen besser; für ein Hauptbild nutzen Sie daher weniger Spalten. Erzählen Sie eine Geschichte, etwa eine Reise oder eine Renovierung, ordnen Sie die Fotos zeitlich, damit sie sich natürlich von der ersten bis zur letzten Zelle lesen. Sind zwei Fotos fast identisch, behalten Sie nur das schärfere; Wiederholung schwächt ein Raster mehr als eine leere Zelle, und wenige große Fotos lesen sich auf einem kleinen Handybildschirm besser.
+86	Abstand und Hintergrund erklärt
+87	Der Abstand ist der Raum in Pixeln zwischen den Fotos und um den Außenrand. 0 px ergibt ein durchgehendes Mosaik, in dem sich die Fotos berühren; 5–10 px wirkt auf dem Handy modern und aufgeräumt; 20–40 px vermittelt einen Galerie- oder Scrapbook-Look und lässt Rand für den Druck. Die Hintergrundfarbe füllt die Abstände und im Modus Einpassen den Raum um Fotos, die nicht zur Zellform passen. Wählen Sie mit der [Bild-Farbpipette](/image-color-picker/) eine Farbe aus den Fotos selbst für einen abgestimmten, sorgfältigen Look.
+88	Qualitätstipps
+89	Verwenden Sie Fotos mit ähnlicher Beleuchtung und Farbe für ein ruhiges Ergebnis, oder geben Sie ihnen vorher mit [Fotofilter](/photo-filters/) denselben Stil. Setzen Sie das stärkste Bild in die Zelle oben links oder in die Mitte, wohin der Blick zuerst fällt. HEIC-Fotos vom iPhone werden automatisch konvertiert.
+90	Bildformate im Überblick
+91	Format
+92	Kompression
+93	Transparenz
+94	Ideal für
+95	JPG
+96	Verlustbehaftet
+97	Nein
+98	Fotos, E-Mail, soziale Netzwerke
+99	PNG
+100	Verlustfrei
+101	Ja
+102	Screenshots, Logos, Grafiken mit Text
+103	WebP
+104	Verlustbehaftet oder verlustfrei
+105	Ja
+106	Websites: leichter als JPG und PNG
+107	AVIF
+108	Verlustbehaftet oder verlustfrei
+109	Ja
+110	Kleinste Dateien, aktuelle Browser
+111	GIF
+112	Verlustfrei, 256 Farben
+113	1 Bit
+114	Einfache Animationen
+115	Das Tool liest JPG, PNG, WebP, GIF, BMP, AVIF und über integrierte Decoder auch HEIC-Fotos vom iPhone – Sie müssen also selten vorher konvertieren.
+116	Funktioniert auf jedem Gerät
+117	Funktioniert in Chrome, Edge, Firefox und Safari unter Windows, macOS, Linux, ChromeOS, Android und auf iPhone/iPad. Tippen Sie auf dem Handy auf den Ablagebereich und wählen Sie aus Ihrer Galerie; die Ergebnisse werden unter Downloads oder in der Dateien-App gespeichert. Stapel werden nacheinander verarbeitet und zusammen als ZIP heruntergeladen – ein ganzes Urlaubsalbum braucht also nur ein paar Fingertipps.
+118	Qualität und Dateigröße
+119	Die Bearbeitung erfolgt in der vollen Auflösung des Originals. JPG- und WebP-Ergebnisse werden mit hoher Qualität (etwa 90 %) kodiert, bei den meisten Fotos optisch identisch mit dem Original und mit kompakten Dateien; wählen Sie PNG, wenn Sie verlustfreie Ausgabe oder Transparenz brauchen. Um Dateien danach weiter zu verkleinern, nutzen Sie [Bild komprimieren](/compress-image/), und um die Abmessungen zu ändern, [Bildgröße ändern](/resize-image/).
+120	Häufige Probleme und Lösungen
+121	**Die Datei öffnet sich nicht**: Prüfen Sie, ob es ein echtes Bild ist und keine Verknüpfung oder ein Cloud-Platzhalter; laden Sie es zuerst vollständig aus iCloud, Google Fotos oder OneDrive herunter.
+122	**Das Ergebnis wirkt unscharf**: Gehen Sie vom Original aus, nicht von einer per WhatsApp oder Messenger gesendeten Vorschau, die Fotos stark nachkomprimieren.
+123	**Die Farben wirken etwas anders**: Fotos mit großem Farbraum (Display P3) werden in sRGB angezeigt, dem Webstandard; das ist normal und auf allen Geräten einheitlich.
+124	**Der Download erscheint nicht auf dem iPhone**: Sehen Sie unter Dateien → Downloads nach oder halten Sie die Vorschau gedrückt und wählen Sie In Fotos sichern.
+125	**Ein großer Stapel ist langsam**: Sehr große Fotos brauchen viel Speicher; schließen Sie andere Tabs oder verarbeiten Sie 20–30 Bilder auf einmal.
+126	Datenschutz
+127	Alles geschieht im Browser-Tab. Ihre Bilder werden von Ihrer Festplatte in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Nichts wird hochgeladen, gespeichert oder protokolliert, es gibt kein Konto, und das Tool funktioniert nach dem Laden der Seite auch offline – sicher also für privates, vertrauliches oder unveröffentlichtes Material.
+128	Wo Ihre Datei verarbeitet wird
+129	In Ihrem Browser, nie hochgeladen
+130	Auf deren Servern (Upload)
+131	Auf deren Servern (Upload)
+132	Auf deren Servern (Upload)
+133	Konto erforderlich
+134	Nie
+135	Siehe Website
+136	Siehe Website
+137	Siehe Website
+138	Stapel / mehrere Bilder
+139	Ja
+140	Siehe Website
+141	Siehe Website
+142	Siehe Website
+143	Spalten, Abstand, Füllen/Einpassen
+144	Ja
+145	Siehe Website
+146	Siehe Website
+147	Siehe Website
+148	Funktioniert offline
+149	Ja
+150	Siehe Website
+151	Siehe Website
+152	Siehe Website
+153	Wie erstelle ich kostenlos eine Fotocollage?
+154	Legen Sie Ihre Fotos ab, wählen Sie Spalten und Abstand und laden Sie herunter – ohne Wasserzeichen.
+155	Wie viele Fotos kann ich hinzufügen?
+156	Bis zu etwa 50; je mehr Zellen, desto kleiner wird jedes Foto.
+157	Gibt es ein Wasserzeichen?
+158	Nein.
+159	Kann ich die Hintergrundfarbe ändern?
+160	Ja, jede Farbe.
+161	Kann ich eine Collage für Instagram erstellen?
+162	Ja, stellen Sie 1080 px Breite und 2 oder 3 Spalten ein.
+163	Können die Fotos ohne Zuschnitt gezeigt werden?
+164	Wählen Sie den Modus Einpassen.
+165	In welcher Reihenfolge werden die Fotos angeordnet?
+166	Von links nach rechts und von oben nach unten, in der Reihenfolge, in der Sie sie hinzufügen.
+167	In welchem Format wird die Collage ausgegeben?
+168	JPG, PNG oder WebP.
+169	Werden meine Fotos hochgeladen?
+170	Nein, die Collage wird in Ihrem Browser erstellt.
+171	Funktioniert es auf dem iPhone?
+172	Ja, einschließlich HEIC-Fotos.

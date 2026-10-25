@@ -1,0 +1,171 @@
+0	Audio schneiden
+1	Songs kürzen und Klingeltöne erstellen.
+2	Audio online schneiden – MP3 kürzen, Klingeltöne | {brand}
+3	Schneiden Sie MP3, WAV, M4A und mehr an einer sichtbaren Wellenform. Ein- und Ausblenden, Export als MP3 oder WAV. Kostenloser Klingelton-Maker.
+4	Audio schneiden – Audio online zuschneiden und kürzen
+5	Wählen Sie eine Audiodatei aus.
+6	Klicken Sie auf die Wellenform, um Anfang und Ende festzulegen.
+7	Laden Sie den Ausschnitt herunter.
+8	Entfernen Sie Stille, schneiden Sie Versprecher heraus oder nehmen Sie den besten Teil eines Songs als Klingelton oder Wecker. Die Wellenform zeigt genau, wo geschnitten wird.
+9	Einen Klingelton oder Benachrichtigungston erstellen.
+10	Stille am Anfang und Ende von Aufnahmen entfernen.
+11	Einen Podcast-Ausschnitt für soziale Netzwerke schneiden.
+12	Fügen Sie ein kurzes Ausblenden für ein weiches Ende hinzu.
+13	Klingeltöne funktionieren meist am besten mit weniger als 30 Sekunden.
+14	Kann ich Ein- und Ausblendungen hinzufügen?
+15	Ja, Ein- und Ausblenden sind verfügbar.
+16	Welche Ausgabeformate gibt es?
+17	MP3 und WAV.
+18	Präzise Schnitte
+19	Vergrößern Sie die Wellenform, um genau zwischen Wörtern oder Beats zu schneiden. Kurze Blenden von 0,5–1 Sekunde beseitigen Knackser an den Schnittstellen und lassen Ausschnitte professionell klingen.
+20	Formate und Kompatibilität
+21	Öffnet MP3, WAV, M4A, OGG und fast jedes Audio, das Ihr Browser abspielen kann, einschließlich der Tonspur von Videodateien. Exportieren Sie als MP3 für die kleinsten Dateien und größte Kompatibilität oder als WAV, wenn Sie den Ausschnitt in einer DAW weiterbearbeiten.
+22	Audio schneiden – MP3 online kürzen, Wellenform, Blenden
+23	Audio-Cutter: MP3, WAV, M4A und mehr an der Wellenform kürzen. Teil behalten oder entfernen, Blenden, Lautstärke, 0,1 s genau, MP3 oder WAV.
+24	{tool}: {brand} im Vergleich zu mp3cut.net, Clideo und VEED
+25	Schneiden Sie jede Audiodatei in Sekunden
+26	Der Audio-Cutter von {brand} kürzt Songs, Podcasts, Sprachnotizen, Interviews und Aufnahmen direkt in Ihrem Browser. Legen Sie eine Datei ab, klicken Sie auf die Wellenform, um Anfang und Ende zu markieren, und speichern Sie nur diesen Teil – oder entfernen Sie ihn und behalten Sie den Rest. Fügen Sie sanfte Ein- und Ausblendungen hinzu, passen Sie die Lautstärke an und laden Sie als MP3 oder WAV herunter.
+27	Ihr Audio wird nicht hochgeladen: Die Datei wird auf Ihrem eigenen Gerät dekodiert und geschnitten. So bleiben private Aufnahmen privat, und selbst lange Dateien (ein einstündiges Meeting oder ein komplettes DJ-Set) sind sofort nach dem Ablegen bereit – ohne Warten auf einen Upload.
+28	Es gibt keinen Premium-Tarif, keine Registrierung und kein Limit für die Zahl der Dateien. Alle Funktionen (Wellenform, Teile entfernen, Blenden, Lautstärke und MP3 mit 320 kbit/s) stehen allen zur Verfügung, auf jedem Gerät mit einem modernen Browser.
+29	Funktionen
+30	**Wellenformansicht:** Sehen Sie laute und leise Stellen und klicken Sie, um Anfang und Ende festzulegen.
+31	**Behalten oder entfernen:** Speichern Sie die Auswahl oder schneiden Sie sie aus der Mitte heraus und fügen Sie den Rest zusammen.
+32	**Präzise Zeiten:** Geben Sie m:ss oder m:ss.s ein (z. B. 1:23.4) – auf eine Zehntelsekunde genau.
+33	**Ein- und Ausblenden** getrennt, von 0,5 bis 5 Sekunden.
+34	**Lautstärke** von 10 % bis 300 %.
+35	**MP3 mit 128–320 kbit/s** oder verlustfreies **WAV**.
+36	**Integrierter Player**, um den Startpunkt und das Ergebnis zu prüfen.
+37	**Unterstützt** MP3, WAV, M4A, AAC, OGG, Opus, FLAC sowie den Ton von MP4-, MOV-, WebM- und MKV-Videos.
+38	So schneiden Sie eine Audiodatei
+39	Legen Sie die Audiodatei (oder ein Video) auf der Seite ab.
+40	Klicken Sie auf die Wellenform, um den Anfang festzulegen, und klicken Sie erneut (oder Umschalt+Klick), um das Ende festzulegen. Sie können die Zeiten auch eintippen.
+41	Wählen Sie „Auswahl behalten“ oder „Auswahl entfernen“.
+42	Passen Sie bei Bedarf Blenden, Lautstärke, Format und Qualität an.
+43	Klicken Sie auf Schneiden, hören Sie sich das Ergebnis an und laden Sie es herunter.
+44	Behalten oder entfernen: zwei Arten zu schneiden
+45	**Auswahl behalten** speichert nur den markierten Teil: ideal für Klingeltöne, Songausschnitte, ein Zitat aus einem Interview oder ein sauberes Intro für ein Video. **Auswahl entfernen** löscht den markierten Teil und fügt das Davor und Danach zusammen: ideal, um ein Husten, eine Werbepause, einen Versprecher in einer Sprachaufnahme oder eine lange Stille mitten in einer Aufnahme zu entfernen. Das Einblenden gilt dann für den Anfang der Datei und das Ausblenden für das Ende.
+46	Beide Modi zeigen die Dauer des Ergebnisses nach dem Schnitt, damit Sie auf einen Blick sehen, dass Sie genau das entfernt oder behalten haben, was Sie wollten. Mit dem integrierten Player können Sie es vor dem Speichern anhören.
+47	Einen Klingelton erstellen
+48	Klingeltöne sollten am besten etwa 20–30 Sekunden lang sein. Wählen Sie den Refrain oder den bekanntesten Teil, fügen Sie 1 Sekunde Einblenden und 2 Sekunden Ausblenden hinzu und speichern Sie als MP3. Android-Handys akzeptieren MP3-Klingeltöne direkt: Kopieren Sie die Datei aufs Handy und wählen Sie sie unter Einstellungen › Töne. Für das iPhone, das das Format M4R benötigt, nutzen Sie unseren [Klingelton-Maker](/ringtone-maker/) oder importieren Sie die MP3 in GarageBand und exportieren Sie sie als Klingelton.
+49	Format und Qualität wählen
+50	Verwendung
+51	Format
+52	Qualität
+53	Klingelton, Musikausschnitt
+54	MP3
+55	192 kbit/s
+56	Podcast oder Sprache
+57	MP3
+58	128 kbit/s
+59	Musik in bester Qualität
+60	MP3
+61	320 kbit/s
+62	In einer DAW weiterbearbeiten
+63	WAV
+64	Verlustfrei
+65	Ein Master archivieren
+66	WAV
+67	Verlustfrei
+68	Wird eine MP3 geschnitten und wieder als MP3 gespeichert, wird das Audio neu kodiert. Ab 192 kbit/s ist das bei fast jedem Material unhörbar. Wenn Sie die Datei weiterbearbeiten möchten, speichern Sie sie als WAV, damit sich keine Kompression aufsummiert.
+69	Tipps für saubere Schnitte
+70	Schneiden Sie in stillen Momenten (zwischen Wörtern oder Beats), um Knackser zu vermeiden. Die Wellenform zeigt Stille als flache Linien.
+71	Verwenden Sie eine kurze Blende (0,5 s), auch wenn Sie keine hörbare Blende möchten – sie beseitigt Knackser an den Schnittstellen.
+72	Hören Sie ab ein paar Sekunden vor dem Startpunkt, um sicherzugehen, dass das erste Wort nicht abgeschnitten ist.
+73	Schneiden Sie Musik auf dem ersten Schlag des Takts, damit Loop oder Klingelton natürlich klingen.
+74	Ist die Aufnahme leise, erhöhen Sie die Lautstärke auf 150–200 %; ist sie sehr laut, vermeiden 80 % Verzerrungen.
+75	Typische Anwendungen
+76	Klingeltöne und Benachrichtigungstöne.
+77	Stille und Fehlstarts aus Sprachnotizen und Podcasts entfernen.
+78	Ein Interview-Zitat für soziale Netzwerke herausschneiden.
+79	Songs für Workouts, Choreografien, Präsentationen oder Videos kürzen.
+80	Werbung oder Unterbrechungen aus Aufnahmen entfernen.
+81	Audioausschnitte für den Sprachunterricht vorbereiten.
+82	Das Intro eines Songs für eine Diashow schneiden.
+83	Unterstützte Dateien
+84	Jedes Format, das Ihr Browser dekodieren kann, funktioniert: MP3, WAV, M4A/AAC (einschließlich iPhone-Sprachmemos), OGG Vorbis, Opus (WhatsApp-Sprachnachrichten), FLAC sowie die Tonspuren von MP4-, MOV-, WebM- und MKV-Videos. Lässt sich eine Datei nicht öffnen, konvertieren Sie sie zuerst mit unserem Audio-Konverter oder versuchen Sie einen anderen Browser: Chrome und Edge unterstützen die meisten Formate.
+85	Sprachnotizen und WhatsApp-Audios schneiden
+86	iPhone-Sprachmemos sind M4A-Dateien; Sprachnachrichten von WhatsApp und Telegram sind meist Opus-Dateien mit der Endung .opus oder .ogg. Beide öffnen sich direkt. Kürzen Sie die Stille am Anfang und Ende, entfernen Sie überflüssige Teile mit „Auswahl entfernen“, erhöhen Sie die Lautstärke, wenn die Aufnahme leise ist, und speichern Sie als MP3 mit 128 kbit/s: klein und auf jedem Gerät abspielbar. So wandeln Sie auch schnell eine Sprachnachricht in eine Standard-MP3 um.
+87	Podcasts und Interviews schneiden
+88	Suchen Sie bei gesprochenem Audio in der Wellenform nach Pausen zwischen Sätzen: Sie erscheinen als dünne, flache Abschnitte. Wer dort schneidet, macht die Schnitte unhörbar. Um mehrere Teile zu entfernen, schneiden Sie einen, laden herunter, öffnen das Ergebnis und schneiden den nächsten. Nutzen Sie MP3 mit 128 kbit/s für Sprache; speichern Sie als WAV, wenn Sie in einem Mehrspur-Editor weiterarbeiten.
+89	Die Wellenform nutzen
+90	Die Wellenform zeigt die Lautstärke des Audios im Zeitverlauf: Hohe Spitzen sind laute Passagen, flache Linien Stille. Klicken Sie an eine beliebige Stelle, um den Anfang zu setzen und den Player dorthin zu bewegen; klicken Sie erneut, um das Ende zu setzen. Der ausgewählte Bereich wird blau hervorgehoben. Feinjustieren können Sie jederzeit über die Felder Anfang und Ende, die Minuten und Sekunden mit Dezimalstellen akzeptieren (z. B. 2:07.35). Drücken Sie Wiedergabe, um zu hören, wo Sie sind, und nutzen Sie die aktuelle Zeit des Players, um die Auswahl anzupassen.
+91	Glossar
+92	**Wellenform:** ein Bild der Lautstärke des Audios im Zeitverlauf.
+93	**Ein- / Ausblenden:** ein allmähliches Lauter- oder Leiserwerden am Anfang oder Ende.
+94	**Bitrate:** Daten pro Sekunde in kbit/s; höher bedeutet bessere Qualität und größere Dateien.
+95	**Verlustfrei:** Es gehen keine Informationen verloren (WAV, FLAC); verlustbehaftete Formate (MP3, AAC) entfernen unhörbare Details.
+96	Audio aus Videos schneiden
+97	Sie können ein Video (MP4, MOV, WebM oder MKV) direkt im Audio-Cutter ablegen. Seine Tonspur wird dekodiert und als Wellenform angezeigt, und der geschnittene Teil wird als Audiodatei gespeichert. So holen Sie am schnellsten einen Song aus einem Konzertclip, ein Zitat aus einem aufgezeichneten Vortrag oder einen Soundeffekt aus Ihren eigenen Aufnahmen – ohne vorher das ganze Video zu konvertieren. Für längere Extraktionen mit Stapelverarbeitung und Tags nutzen Sie [MP4 in MP3](/mp4-to-mp3/).
+98	Warum kein Desktop-Audioeditor?
+99	Programme wie Audacity sind hervorragend für komplexe Bearbeitungen (Mehrspurmischung, Rauschunterdrückung, Effekte), aber für einen schnellen Schnitt heißt das: eine App herunterladen, installieren und erlernen. Der Audio-Cutter öffnet sich sofort in jedem Browser, auf jedem Computer oder Handy – auch auf Arbeitsrechnern, auf denen Sie keine Programme installieren dürfen. Und da er lokal arbeitet, ist er genauso privat wie eine Desktop-App: Ihre Datei wird nie an einen Server gesendet.
+100	Lautstärke und Lautheit
+101	Der Lautstärkeregler multipliziert das Signal: 200 % verdoppelt die Amplitude (etwa +6 dB), 50 % halbiert sie. Eine leise Aufnahme zu stark anzuheben kann zu Übersteuerung führen: einer rauen Verzerrung, wenn Spitzen den Maximalpegel überschreiten. Hören Sie nach dem Anheben Knistern an lauten Stellen, versuchen Sie eine geringere Verstärkung. Für eine gleichmäßige Lautheit über Podcast-Folgen hinweg stellen Sie die Lautstärke so ein, dass die lautesten Teile der Wellenform die Höhe fast, aber nicht ganz ausfüllen.
+102	Musik für Videos, Diashows und Workouts schneiden
+103	Videoeditoren und Diashow-Apps brauchen oft eine Musikspur mit exakter Länge. Wählen Sie ab einem guten Startpunkt (dem ersten Schlag einer Strophe oder des Refrains) bis zur benötigten Dauer, fügen Sie 2–3 Sekunden Ausblenden hinzu, damit die Musik natürlich endet, und speichern Sie als MP3 mit 192 kbit/s. Für ein Workout oder eine Choreografie entfernen Sie mit „Auswahl entfernen“ eine langsame Bridge oder ein langes Intro, um die Energie hochzuhalten. Für Hintergrundmusik unter Sprache senken Sie die Lautstärke auf 50–70 %, damit die Stimmen klar bleiben. Verwenden Sie nur Musik, an der Sie die Rechte haben, besonders wenn Sie das Video online veröffentlichen.
+104	Datenschutz
+105	Jeder Schritt läuft im Browser-Tab ab. Die Datei wird von Ihrer Festplatte gelesen, auf Ihrem eigenen Gerät mit der integrierten Medien-Engine des Browsers (WebCodecs und Web Audio) und WebAssembly dekodiert und neu kodiert, und das Ergebnis landet direkt in Ihrem Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert, und es gibt keine Warteschlange – Familienvideos, Interviews, Sprachnotizen, Meetings und unveröffentlichte Inhalte verlassen also nie Ihren Computer oder Ihr Handy. Auch die Upload-Geschwindigkeit bremst große Dateien nicht aus: Ein 1-GB-Video wird sofort verarbeitet statt nach zehn Minuten Upload.
+106	Verwandte Tools
+107	[Klingelton-Maker](/ringtone-maker/): Klingeltöne für iPhone und Android.
+108	[MP4 in MP3](/mp4-to-mp3/): Audio aus Video.
+109	[Video schneiden](/trim-video/): Videos kürzen.
+110	[Video komprimieren](/compress-video/): kleinere Videos.
+111	[Video in GIF](/video-to-gif/): GIFs aus Clips.
+112	Wo Ihre Datei verarbeitet wird
+113	In Ihrem Browser, nie hochgeladen
+114	Auf deren Servern (Upload)
+115	Auf deren Servern (Upload)
+116	Auf deren Servern (Upload)
+117	Konto oder E-Mail erforderlich
+118	Nie
+119	Nicht für die Grundnutzung
+120	Nicht für die Grundnutzung
+121	Nicht für die Grundnutzung
+122	Limits der Gratisnutzung
+123	Keine – nur die Ihres Geräts
+124	Siehe Website
+125	Siehe Website
+126	Siehe Website
+127	Auswahl an der Wellenform
+128	Ja
+129	Ja
+130	Siehe Website
+131	Siehe Website
+132	Einen Teil aus der Mitte entfernen
+133	Ja
+134	Siehe Website
+135	Siehe Website
+136	„Schneiden, teilen, neu anordnen“
+137	Ein- / Ausblenden
+138	Ja (getrennt)
+139	Siehe Website
+140	Siehe Website
+141	Siehe Website
+142	Premium-Tarif
+143	Keiner – alles kostenlos
+144	6 $/Monat (Premium, 10-GB-Dateien)
+145	Siehe Website
+146	Basic- und Pro-Tarife
+147	Wie schneide ich eine MP3 kostenlos?
+148	Legen Sie die Datei ab, klicken Sie auf die Wellenform, um Anfang und Ende festzulegen, klicken Sie auf Schneiden und laden Sie herunter.
+149	Wird mein Audio hochgeladen?
+150	Nein. Es wird in Ihrem Browser geschnitten.
+151	Kann ich einen Teil aus der Mitte entfernen?
+152	Ja. Wählen Sie „Auswahl entfernen“; die Teile davor und danach werden zusammengefügt.
+153	Wie genau kann ich schneiden?
+154	Auf eine Zehntelsekunde oder genauer: Geben Sie Zeiten wie 1:23.4 ein.
+155	Kann ich Ein- und Ausblenden hinzufügen?
+156	Ja, getrennt, von 0,5 bis 5 Sekunden.
+157	Welche Formate kann ich öffnen?
+158	MP3, WAV, M4A, AAC, OGG, Opus, FLAC sowie den Ton von MP4, MOV, WebM und MKV.
+159	In welchen Formaten kann ich speichern?
+160	MP3 (128–320 kbit/s) oder WAV.
+161	Kann ich einen iPhone-Klingelton erstellen?
+162	Nutzen Sie den Klingelton-Maker für M4R; der Audio-Cutter speichert als MP3/WAV.
+163	Verringert das Schneiden die Qualität?
+164	Die MP3-Ausgabe wird neu kodiert; ab 192 kbit/s ist das unhörbar. WAV ist verlustfrei.
+165	Funktioniert es auf dem Handy?
+166	Ja, in aktuellen mobilen Browsern.
+167	Wie schneide ich Audio kostenlos online?
+168	Legen Sie eine MP3-, WAV- oder M4A-Datei ab, ziehen Sie die Regler an der Wellenform, um einen Teil auszuwählen, behalten oder entfernen Sie ihn, fügen Sie Blenden hinzu und laden Sie als MP3 oder WAV herunter.
+169	Was ist der beste kostenlose Audio-Cutter?
+170	Achten Sie auf Bearbeitung an der Wellenform, Blenden, präzise Zeiten und keine Uploads. Dieser Audio-Cutter bietet all das mit 0,1 Sekunden Genauigkeit in Ihrem Browser.

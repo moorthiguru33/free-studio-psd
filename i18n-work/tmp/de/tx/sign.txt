@@ -1,0 +1,157 @@
+0	PDF unterschreiben
+1	Unterschrift zeichnen oder tippen und in ein PDF einfügen.
+2	PDF unterschreiben online kostenlos – Signatur einfügen | {brand}
+3	Zeichnen oder tippen Sie Ihre Unterschrift und fügen Sie sie auf jeder PDF-Seite ein. Kostenlos, ohne Konto – Ihr Dokument verlässt nie Ihr Gerät.
+4	PDF unterschreiben
+5	Wählen Sie Ihr PDF aus.
+6	Zeichnen oder tippen Sie Ihre Unterschrift und wählen Sie eine Seite.
+7	Klicken Sie in die Vorschau, um sie zu platzieren, dann auf „Start“ und herunterladen.
+8	Ist die Unterschrift rechtsverbindlich?
+9	Es wird eine visuelle elektronische Unterschrift eingefügt, die in vielen Situationen akzeptiert wird. Für zertifikatsbasierte digitale Signaturen prüfen Sie die Anforderungen in Ihrem Land.
+10	Unterschreiben Sie Dokumente in weniger als einer Minute, ohne Drucken und Scannen. Zeichnen Sie Ihre Unterschrift mit Finger, Maus oder Stift oder tippen Sie sie, und platzieren Sie sie an beliebiger Stelle der Seite – alles auf Ihrem Gerät.
+11	Mietverträge, Angebotsschreiben und Einwilligungserklärungen unterschreiben.
+12	Rechnungen oder Lieferscheine freigeben.
+13	Ihre Initialen auf jeder Seite eines Vertrags setzen.
+14	Zeichnen Sie auf dem Smartphone langsam für eine gleichmäßigere Unterschrift.
+15	Nutzen Sie nach dem Unterschreiben „PDF reduzieren“, damit sich die Unterschrift nicht verschieben lässt.
+16	Elektronische Unterschriften
+17	Visuelle elektronische Unterschriften werden in vielen Ländern für alltägliche Vereinbarungen weithin akzeptiert. Manche Dokumente, etwa bestimmte rechtliche oder behördliche Vorgänge, können zertifikatsbasierte digitale Signaturen erfordern – prüfen Sie im Zweifel die örtlichen Vorschriften.
+18	Auf dem Smartphone unterschreiben
+19	Zeichnen Sie Ihre Unterschrift mit dem Finger, platzieren Sie sie auf der richtigen Seite und passen Sie die Größe an die Unterschriftszeile an.
+20	PDF unterschreiben kostenlos – zeichnen, tippen oder hochladen
+21	PDF kostenlos unterschreiben: Unterschrift zeichnen, tippen oder hochladen, Initialen und Datum hinzufügen, auf mehreren Seiten platzieren. Nur lokal gespeichert.
+22	Ein PDF in unter einer Minute unterschreiben – privat
+23	Ob Mietvertrag, Angebotsschreiben, Einverständniserklärung der Schule oder Lieferantenvertrag – Unterschreiben hieß früher drucken, unterschreiben und scannen. Mit {brand} fügen Sie Ihre Unterschrift direkt in Ihrem Browser ins PDF ein. Das Dokument wird nie hochgeladen, es muss kein Konto erstellt werden, und Sie müssen sich die Datei nicht über eine E-Signatur-Plattform zuschicken.
+24	**Drei Wege zur Unterschrift**: Zeichnen Sie sie mit Maus, Trackpad, Finger oder Stift; tippen Sie Ihren Namen und wählen Sie einen Handschrift-Stil; oder laden Sie ein Foto Ihrer Unterschrift hoch. Der weiße Hintergrund wird automatisch transparent.
+25	**Initialen, Datum und freier Text**: Setzen Sie mit demselben Werkzeug Ihre Initialen, das heutige Datum oder beliebigen Text (etwa Ihren Namen in Druckschrift oder „Genehmigt“).
+26	**Beliebig viele Platzierungen auf vielen Seiten**: Klicken Sie so oft wie nötig zum Platzieren; wechseln Sie die Seite, um jede zu paraphieren und die letzte zu unterschreiben. „Rückgängig“ entfernt die letzte Platzierung.
+27	**Unterschrift merken**: Speichern Sie Ihre Unterschrift auf Wunsch nur in diesem Browser (lokaler Speicher), damit sie beim nächsten Mal sofort bereitsteht. Auf keinem Server wird etwas gespeichert.
+28	**Farbe und Größe**: blaue oder schwarze Tinte und beliebige Breite.
+29	Außerdem müssen Sie auf nichts warten. Große gescannte Verträge öffnen sich sofort, Sie können nach dem Laden der Seite offline im Zug oder Flugzeug unterschreiben und so viele Dokumente pro Tag unterschreiben, wie Sie möchten. Keine Credits, kein Countdown einer Testphase und keine Aufforderung, ein Konto anzulegen, bevor Sie Ihre eigene unterschriebene Datei herunterladen.
+30	So unterschreiben Sie ein PDF
+31	**Öffnen Sie Ihr PDF**, indem Sie es auf der Seite ablegen.
+32	**Erstellen Sie Ihre Unterschrift**: zeichnen, tippen oder hochladen. Aktivieren Sie „Unterschrift merken“, um sie auf diesem Gerät zu speichern.
+33	**Wählen Sie, was Sie platzieren**: Unterschrift, Initialen, Heutiges Datum oder Freier Text.
+34	**Klicken Sie auf die Seite**, wo sie hin soll. Jeder Klick fügt eine Kopie hinzu, zentriert auf die angeklickte Stelle.
+35	**Wechseln Sie die Seite**, um weitere Seiten zu unterschreiben oder zu paraphieren. Nutzen Sie „Rückgängig“, wenn eine Platzierung danebengeht.
+36	**Laden Sie** das unterschriebene PDF herunter.
+37	Elektronische Unterschrift oder digitale Signatur
+38	Diese beiden Begriffe werden oft verwechselt. Eine **elektronische Unterschrift** ist jeder elektronische Hinweis darauf, dass eine Person einem Dokument zustimmt: eine gezeichnete oder getippte Unterschrift, ein gescanntes Bild oder sogar ein gesetztes Häkchen. Genau das erstellt dieses Tool. In vielen Ländern sind elektronische Unterschriften für die meisten alltäglichen Vereinbarungen rechtlich anerkannt – in den USA nach dem ESIGN Act und dem UETA, in der Europäischen Union als „einfache elektronische Signaturen“ nach der eIDAS-Verordnung.
+39	Eine **digitale Signatur** ist eine bestimmte Technologie: ein kryptografisches Siegel auf Basis eines auf Ihren Namen ausgestellten Zertifikats, das nachweist, wer unterschrieben hat und dass die Datei seitdem nicht verändert wurde. Manche Dokumente (bestimmte Behördenvorgänge, notarielle Urkunden oder „qualifizierte“ Signaturen nach eIDAS) erfordern dieses Niveau. Wenn ein Empfänger ausdrücklich eine zertifikatsbasierte digitale Signatur verlangt, nutzen Sie das Tool oder den Dienst, den er angibt.
+40	Dies sind allgemeine Informationen, keine Rechtsberatung. Prüfen Sie bei wichtigen Verträgen die Anforderungen in Ihrem Land.
+41	Was ein unterschriebenes PDF vertrauenswürdiger macht
+42	Paraphieren Sie bei längeren Dokumenten jede Seite, damit Seiten nicht unbemerkt ausgetauscht werden können.
+43	Fügen Sie neben Ihrer Unterschrift das Datum hinzu.
+44	Bewahren Sie eine Kopie des unterschriebenen PDFs und der E-Mail auf, mit der Sie es versendet haben.
+45	Nutzen Sie nach dem Unterschreiben [PDF reduzieren](/flatten-pdf/), um alles in die Seite einzubrennen, oder [PDF schützen](/protect-pdf/), um weitere Bearbeitungen zu verhindern.
+46	Ein Foto Ihrer Unterschrift hochladen
+47	Unterschreiben Sie mit einem dunklen Stift auf glattem weißem Papier, fotografieren Sie es bei gutem Licht oder scannen Sie es und laden Sie es hoch. Das Tool entfernt den weißen Hintergrund, sodass nur die Tinte bleibt, und Sie können sie anschließend an die Unterschriftszeile anpassen. Für ein wiederverwendbares transparentes PNG können Sie auch unseren [Unterschrift-Generator](/signature-maker/) nutzen.
+48	Warum lokales Unterschreiben wichtig ist
+49	Die Dokumente, die Sie unterschreiben, gehören zu den sensibelsten, mit denen Sie umgehen: Sie enthalten Namen, Adressen, Gehälter, Bankdaten und Ausweisnummern. Online-Signaturdienste laden die Datei meist auf ihre Server hoch. Hier bleiben das PDF, Ihr Unterschriftsbild und das Ergebnis die ganze Zeit auf Ihrem Gerät. Die optional gespeicherte Unterschrift liegt nur im lokalen Speicher Ihres Browsers und lässt sich durch Deaktivieren der Option oder Löschen der Websitedaten entfernen.
+50	Typische Anwendungen
+51	Miet- und Pachtverträge.
+52	Arbeitsangebote und Geheimhaltungsvereinbarungen.
+53	Einverständniserklärungen für Schule und Arzt.
+54	Rechnungen, Lieferscheine und Bestellungen.
+55	Freelancer-Verträge und Leistungsbeschreibungen.
+56	Auf Smartphone oder Tablet unterschreiben
+57	Mit dem Finger zu unterschreiben wirkt oft natürlicher als mit der Maus. Öffnen Sie das PDF auf Ihrem Smartphone, wählen Sie „Zeichnen“ und unterschreiben Sie im Feld – der Strich wird geglättet, damit er wie Tinte aussieht. Tippen Sie dann auf die Stelle der Seite, an die die Unterschrift gehört. Auf einem iPad oder Android-Tablet mit Stift ist das Ergebnis praktisch wie mit Kugelschreiber auf Papier. Das unterschriebene PDF landet in Ihrem Ordner „Dateien“ oder „Downloads“, bereit zum Anhängen an eine E-Mail oder zum Hochladen in ein Portal.
+58	Getippt, gezeichnet oder hochgeladen – was sieht am besten aus?
+59	Methode
+60	Ideal, wenn
+61	Zeichnen
+62	Sie einen natürlichen, handschriftlichen Look möchten und einen Touchscreen oder ein Trackpad haben
+63	Tippen
+64	Sie etwas Sauberes und Schnelles brauchen, z. B. für interne Freigaben
+65	Hochladen
+66	Sie Ihre exakte Stift-Unterschrift auf allen Dokumenten möchten
+67	Alle drei sind als elektronische Unterschrift gleichwertig. Wählen Sie die bequemste Variante und bleiben Sie dabei, damit Ihre Unterschrift in allen Dokumenten wiedererkennbar ist.
+68	Dokumente mit anderen unterschreiben
+69	Dieses Tool ist dafür gedacht, dass Sie selbst ein Dokument unterschreiben. Wenn mehrere Personen unterschreiben müssen, kann jede das PDF öffnen, ihre Unterschrift hinzufügen und die Datei weitergeben – frühere Unterschriften bleiben erhalten, weil sie in die Seite geschrieben sind. Bei Formularen mit beschrifteten Feldern nutzen Sie zuerst [PDF-Formular ausfüllen](/fill-pdf-form/), um Namen und Adressen einzutragen, und unterschreiben dann. Wenn ein Dokument einen formalen Ablauf mit Prüfprotokoll, Erinnerungen und Zertifikaten durchlaufen muss, ist eine E-Signatur-Plattform der anfragenden Organisation das richtige Werkzeug.
+70	Checkliste vor dem Versand eines unterschriebenen PDFs
+71	Lesen Sie das gesamte Dokument noch einmal – mit Ihrer Unterschrift stimmen Sie jeder Seite zu.
+72	Achten Sie darauf, dass die Unterschrift auf der Unterschriftszeile steht und keinen Text verdeckt.
+73	Paraphieren Sie jede Seite, wenn die Gegenseite das verlangt hat.
+74	Fügen Sie das Datum im vom Empfänger erwarteten Format hinzu.
+75	Öffnen Sie das heruntergeladene PDF und prüfen Sie jede Platzierung vor dem Versand.
+76	Komprimieren Sie es mit [PDF komprimieren](/compress-pdf/), wenn es für E-Mails zu groß ist.
+77	Fehlerbehebung
+78	**Die Unterschrift wirkt zackig**: etwas langsamer zeichnen oder die Breite erhöhen; hochgeladene Bilder sollten mindestens 600 px breit sein.
+79	**Grauer Kasten um eine hochgeladene Unterschrift**: Fotografieren Sie sie auf hellweißem Papier bei gutem Licht, damit sich der Hintergrund sauber entfernen lässt.
+80	**Unterschrift zu groß oder zu klein**: Ändern Sie die Breite vor dem Klicken; mit „Rückgängig“ entfernen und neu platzieren.
+81	**Das PDF ist passwortgeschützt**: Öffnen Sie es mit [PDF entsperren](/unlock-pdf/) und dem erhaltenen Passwort, dann unterschreiben.
+82	**Gespeicherte Unterschrift fehlt**: Sie wird pro Browser gespeichert und erscheint daher nicht in einem anderen Browser, in privaten Fenstern oder nach dem Löschen der Websitedaten.
+83	**Der Empfänger sagt, das PDF sei bearbeitbar**: Reduzieren Sie es nach dem Unterschreiben, damit die Unterschrift in den Seiteninhalt eingebrannt wird.
+84	**Gescannter Vertrag**: kein Problem – Unterschriften werden auf gescannten Seiten genauso platziert wie auf digitalen.
+85	Wo Ihre Datei verarbeitet wird
+86	In Ihrem Browser, nie hochgeladen
+87	Auf deren Servern
+88	Auf deren Servern
+89	Adobe-Cloud
+90	Auf deren Servern
+91	Funktioniert bei ausgeschaltetem WLAN
+92	Ja, nach dem Laden der Seite
+93	Nein
+94	Nein
+95	Nein
+96	Nein
+97	Konto oder E-Mail erforderlich
+98	Nie
+99	Nicht für die Grundnutzung
+100	Nicht für die Grundnutzung
+101	Anmeldung für einige Aktionen
+102	Nicht für die Grundnutzung
+103	Limits der Gratisnutzung
+104	Keine – nur die Ihres Geräts
+105	Gratis-Tarif; Premium für mehr
+106	Gratis-Tarif; Premium für mehr
+107	Gratis-Tarif; Premium für mehr
+108	3 Aufgaben/Stunde, 50 MB pro Datei
+109	Gezeichnete / getippte / hochgeladene Unterschrift
+110	Ja
+111	Siehe Website
+112	Siehe Website
+113	Siehe Website
+114	Siehe Website
+115	Initialen und Datum
+116	Ja
+117	Initialen: ja
+118	Siehe Website
+119	Siehe Website
+120	Siehe Website
+121	Gespeicherte Unterschrift
+122	Nur auf Ihrem Gerät
+123	Konto
+124	Konto
+125	Konto
+126	Siehe Website
+127	Mehrere Platzierungen auf vielen Seiten
+128	Ja
+129	Siehe Website
+130	Siehe Website
+131	Siehe Website
+132	Siehe Website
+133	Ist das Unterschreiben eines PDFs hier kostenlos?
+134	Ja. Keine Limits, kein Wasserzeichen, kein Konto.
+135	Wird mein Dokument hochgeladen?
+136	Nein. Das PDF und Ihre Unterschrift verlassen nie Ihren Browser.
+137	Ist eine elektronische Unterschrift rechtsverbindlich?
+138	Für viele alltägliche Vereinbarungen ja – z. B. nach dem US-amerikanischen ESIGN Act und UETA und als einfache elektronische Signatur nach der EU-Verordnung eIDAS. Manche Dokumente erfordern eine zertifikatsbasierte digitale Signatur. Dies ist keine Rechtsberatung.
+139	Was ist der Unterschied zwischen einer elektronischen Unterschrift und einer digitalen Signatur?
+140	Eine elektronische Unterschrift ist jede elektronische Zustimmungsmarkierung, etwa eine gezeichnete Unterschrift. Eine digitale Signatur nutzt ein Zertifikat und Kryptografie, um die Identität nachzuweisen und Änderungen zu erkennen.
+141	Kann ich auf dem Smartphone unterschreiben?
+142	Ja. Zeichnen Sie Ihre Unterschrift mit dem Finger im Browser eines beliebigen Smartphones oder Tablets.
+143	Kann ich Initialen und das Datum hinzufügen?
+144	Ja. Wählen Sie Initialen, Heutiges Datum oder Freier Text und klicken Sie an die gewünschte Stelle.
+145	Kann ich mehrere Seiten unterschreiben?
+146	Ja. Jeder Klick platziert eine weitere Kopie; wechseln Sie die Seite, um alle zu unterschreiben oder zu paraphieren.
+147	Kann ich ein Bild meiner Unterschrift hochladen?
+148	Ja. Laden Sie ein Foto oder einen Scan hoch; der weiße Hintergrund wird automatisch entfernt.
+149	Wo wird meine Unterschrift gespeichert?
+150	Nur im lokalen Speicher dieses Browsers auf Ihrem Gerät – und nur, wenn Sie „Unterschrift merken“ aktivieren.
+151	Kann ich eine falsch platzierte Unterschrift entfernen?
+152	Ja. Klicken Sie auf „Rückgängig“, um die letzte Platzierung zu entfernen.
+153	Wie unterschreibe ich ein PDF am Computer?
+154	Öffnen Sie das PDF und erstellen Sie eine Unterschrift – mit Maus oder Touchpad gezeichnet, als getippter Name in Handschrift-Schrift oder als hochgeladenes Foto Ihrer Unterschrift –, platzieren Sie sie auf der Seite und laden Sie herunter. Nichts wird installiert oder hochgeladen.
+155	Ist eine so eingefügte Unterschrift rechtsgültig?
+156	Eine gezeichnete oder getippte Unterschrift ist eine elektronische Unterschrift, die viele Rechtsordnungen für alltägliche Vereinbarungen akzeptieren. Sie ist keine zertifikatsbasierte digitale Signatur. Prüfen Sie bei Verträgen mit besonderen Anforderungen, was die Gegenseite oder das Recht Ihres Landes verlangt.

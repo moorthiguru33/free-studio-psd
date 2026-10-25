@@ -1,0 +1,93 @@
+0	JPG in PDF
+1	Wandeln Sie JPG-, PNG- oder WebP-Bilder in PDF um.
+2	JPG in PDF – Bilder online kostenlos in PDF umwandeln | {brand}
+3	Wandeln Sie JPG-, PNG- und WebP-Bilder in ein einziges PDF um. Seitenformat und Ränder wählbar. Kostenlos, ohne Wasserzeichen, ohne Upload: alles im Browser.
+4	JPG in PDF umwandeln
+5	Wählen Sie Ihre Bilder aus oder legen Sie sie ab.
+6	Ordnen Sie sie und wählen Sie Seitenformat und Rand.
+7	Klicken Sie auf Starten und laden Sie Ihr PDF herunter.
+8	Welche Bildformate werden unterstützt?
+9	Unterstützt werden JPG-, PNG- und WebP-Bilder.
+10	Fotos in ein PDF umzuwandeln ist der einfachste Weg, Dokumente, Hausaufgaben oder Belege in einer Datei abzugeben. {brand} erstellt das PDF auf Ihrem Handy oder Computer, Ihre persönlichen Fotos und Ausweisscans werden also nie hochgeladen.
+11	Mit dem Handy fotografierte Dokumente für einen Antrag in ein PDF umwandeln.
+12	Belege für die Spesenabrechnung in einem PDF sammeln.
+13	Hausaufgaben oder handschriftliche Notizen in einer Datei senden.
+14	Wählen Sie A4 oder Letter für Dokumente, die gedruckt werden.
+15	Drehen oder beschneiden Sie die Fotos vorher mit den Bildwerkzeugen für ein saubereres Ergebnis.
+16	Ist das PDF zu groß, nutzen Sie danach PDF komprimieren.
+17	Kann ich viele Bilder auf einmal umwandeln?
+18	Ja. Wählen Sie beliebig viele Bilder; jedes wird zu einer Seite desselben PDFs, in der von Ihnen gewählten Reihenfolge.
+19	JPG in PDF – Bilder kostenlos ohne Upload in PDF umwandeln
+20	Wandeln Sie JPG-, PNG-, HEIC- und WebP-Bilder in ein PDF oder ein PDF pro Bild um. A4, Letter oder angepasst, Ausrichtung, Ränder, Reihenfolge. Kostenlos.
+21	Alle Optionen, die Sie brauchen, ohne Upload
+22	{brand} bietet die Seitenlayout-Optionen der bekanntesten Konverter und ergänzt eigene, während Ihre Fotos auf Ihrem Gerät bleiben. Wählen Sie Seitenformat, Ausrichtung und Rand, ziehen Sie die Bilder in die gewünschte Reihenfolge, drehen Sie seitlich liegende und laden Sie ein einziges PDF herunter oder ein ZIP mit einem PDF pro Bild.
+23	**Seitenformat**: Angepasst (die Seite entspricht dem Bild), A4, US Letter, US Legal, A0–A6 oder ein eigenes Format in Millimetern.
+24	**Ausrichtung**: Automatisch wählt für jedes Bild Hoch- oder Querformat, sodass breite Fotos die Seite füllen; oder erzwingen Sie eine für alle.
+25	**Ränder**: keine, klein (20 pt) oder groß (40 pt).
+26	**Ergebnis**: alle Bilder in einem PDF zusammenfassen oder ein separates PDF pro Bild erstellen, geliefert als ZIP.
+27	**Formate**: JPG, JPEG, PNG, WebP, HEIC/HEIF (iPhone-Fotos), AVIF, GIF, BMP und TIFF.
+28	Wird die Bildqualität beeinträchtigt?
+29	Nein. JPEG- und PNG-Dateien werden Byte für Byte ohne erneute Komprimierung in das PDF eingefügt, das PDF sieht also genauso scharf aus wie die Originale. Nur Bilder in Formaten, die PDF nicht direkt speichern kann (wie HEIC oder WebP), oder gedrehte Bilder werden mit hochwertigen Einstellungen umgewandelt. Ist das resultierende PDF zu groß für E-Mail, verkleinern Sie es danach mit [PDF komprimieren](/compress-pdf/).
+30	JPG in PDF auf Mac, Windows und Mobilgeräten umwandeln
+31	Unter Windows könnten Sie „Microsoft Print to PDF“ nutzen und auf dem Mac aus der Vorschau exportieren, aber bei beiden ist es umständlich, viele Fotos zu ordnen, und die Randsteuerung ist begrenzt. Diese Seite funktioniert auf allen Systemen gleich: Tippen Sie auf iPhone oder Android auf den Ablagebereich, wählen Sie Fotos aus der Galerie, und das PDF wird in Dateien oder Downloads gespeichert. HEIC-Fotos direkt aus der iPhone-Kamera werden ohne vorherige Umwandlung unterstützt.
+32	Beliebte Anwendungen
+33	Scans von Ausweisen, Zeugnissen oder Belegen in einem Portal einreichen, das nur PDF akzeptiert.
+34	Fotos handschriftlicher Notizen oder einer Tafel in ein Dokument umwandeln; für mit der Kamera entzerrte Seiten probieren Sie den [PDF-Scanner](/pdf-scanner/).
+35	Ein einfaches Fotoalbum oder Portfolio mit A4-Seiten und einheitlichen Rändern erstellen.
+36	Screenshots in einem Fehlerbericht oder Tutorial sammeln.
+37	Sind meine Daten sicher?
+38	Ihre Bilder werden mit JavaScript im Speicher verarbeitet und nie hochgeladen. Fotos von Pässen, Bankkarten oder medizinischen Unterlagen sind genau die Art Datei, die nicht an den Server eines Fremden gehen sollte: Mit {brand} wird sie nie gesendet.
+39	So wählen Sie Seitenformat und Ränder
+40	**Angepasst** gibt jeder Seite die exakten Proportionen ihres Bildes, ideal für Screenshots und Illustrationen. **A4** oder **US Letter** mit kleinem Rand eignet sich am besten für Dokumente, die gedruckt oder bei Behörden eingereicht werden, weil alle Seiten gleich groß sind. Nutzen Sie die Ausrichtung **Automatisch**, damit Querformatfotos auf Querformatseiten landen, statt auf einer Hochformatseite verkleinert zu werden.
+41	Wo Ihre Datei verarbeitet wird
+42	In Ihrem Browser, nie hochgeladen
+43	Auf deren Servern
+44	Auf deren Servern
+45	Adobe-Cloud
+46	Auf deren Servern
+47	Funktioniert bei ausgeschaltetem WLAN
+48	Ja, nach dem Laden der Seite
+49	Nein
+50	Nein
+51	Nein
+52	Nein
+53	Konto oder E-Mail erforderlich
+54	Nie
+55	Nicht für die Grundnutzung
+56	Nicht für die Grundnutzung
+57	Anmeldung für einige Aktionen
+58	Nicht für die Grundnutzung
+59	Limits der Gratisnutzung
+60	Keine – nur die Ihres Geräts
+61	Gratis-Tarif; Premium für mehr
+62	Gratis-Tarif; Premium für mehr
+63	Gratis-Tarif; Premium für mehr
+64	3 Aufgaben/Stunde, 50 MB pro Datei
+65	Eingabe HEIC, AVIF, BMP und TIFF
+66	Ja
+67	Auf JPG ausgerichtet
+68	Siehe Website
+69	Siehe Website
+70	Siehe Website
+71	Optionen für das Seitenformat
+72	Angepasst, A0–A6, Letter, Legal, benutzerdefiniert
+73	Angepasst, A4, Letter
+74	Siehe Website
+75	Siehe Website
+76	Siehe Website
+77	Kann ich mehrere JPGs zu einem PDF zusammenfügen?
+78	Ja, das ist die Standardeinstellung. Fügen Sie beliebig viele Bilder hinzu, ziehen Sie sie in die gewünschte Reihenfolge, und sie werden zu aufeinanderfolgenden Seiten eines PDFs.
+79	Kann ich für jedes Bild ein eigenes PDF erstellen?
+80	Ja. Wählen Sie unter Ergebnis „Ein PDF pro Bild“, und Sie erhalten ein ZIP mit einem PDF für jedes Bild.
+81	Welche Bildformate kann ich in PDF umwandeln?
+82	JPG, JPEG, PNG, WebP, HEIC/HEIF, AVIF, GIF, BMP und TIFF.
+83	Ist dieser JPG-in-PDF-Konverter kostenlos?
+84	Völlig kostenlos, ohne Wasserzeichen, ohne Limits und ohne Konto.
+85	Wie wandle ich JPG unter Windows oder Mac in PDF um?
+86	Öffnen Sie diese Seite im Browser, legen Sie die Bilder ab, wählen Sie Seitenformat und Ränder und klicken Sie auf Umwandeln. Es funktioniert auf beiden Systemen gleich, ohne Installation.
+87	Kann ich die Reihenfolge der Bilder ändern?
+88	Ja. Ziehen Sie die Bildkarten vor dem Umwandeln in die gewünschte Reihenfolge oder sortieren Sie sie nach Namen. Sie können auch einzelne Bilder drehen.
+89	Wie wandle ich JPG kostenlos in PDF um?
+90	Legen Sie ein oder mehrere JPG-Bilder ab, ziehen Sie sie in die gewünschte Reihenfolge, wählen Sie ein Seitenformat (A4, Letter oder an das Bild angepasst) und die Ränder und klicken Sie auf Umwandeln. Sie können ein gemeinsames PDF oder ein PDF pro Bild erstellen, kostenlos und ohne Wasserzeichen.
+91	Kann ich JPG am Handy in PDF umwandeln?
+92	Ja. Die Seite funktioniert in mobilen Browsern auf Android und iPhone: Tippen Sie, um Fotos aus der Galerie zu wählen, wandeln Sie um, und das PDF wird in Ihren Downloads gespeichert.

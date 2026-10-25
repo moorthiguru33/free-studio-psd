@@ -1,0 +1,169 @@
+0	PNG in JPG
+1	PNG-Bilder in Sekunden in JPG umwandeln.
+2	PNG in JPG umwandeln – kostenlos, online, privat | {brand}
+3	Wandeln Sie PNG kostenlos online in JPG um. Viele Bilder auf einmal, direkt im Browser: ohne Upload, ohne Anmeldung und ohne Wasserzeichen.
+4	PNG in JPG umwandeln
+5	Wählen Sie Ihre PNG-Bilder aus oder legen Sie sie ab (Stapel möglich).
+6	Wählen Sie Qualität und Optionen: JPG ist bereits ausgewählt.
+7	Klicken Sie auf Starten und laden Sie Ihre JPG-Dateien herunter (bei mehreren als ZIP).
+8	Verringert die Umwandlung von PNG in JPG die Qualität?
+9	Verlustfreie Formate wie PNG bewahren jedes Pixel. Bei JPG, WEBP und AVIF steuern Sie die Qualitätseinstellung; 85–92 ist bei den meisten Fotos optisch identisch.
+10	Kann ich viele PNG-Dateien auf einmal umwandeln?
+11	Ja. Wählen Sie beliebig viele Dateien; sie werden in Ihrem Browser umgewandelt und zusammen als ZIP heruntergeladen.
+12	PNG-Dateien sind verlustfrei und unterstützen Transparenz, deshalb sind sie groß: Ein Handy-Screenshot oder ein exportiertes Foto kann mehrere Megabyte belegen. Die Umwandlung in JPG macht Fotos und Screenshots meist viel kleiner – ideal für E-Mail, Websites und Formulare, die nur JPG akzeptieren.
+13	Große PNG-Fotos zum Versenden per E-Mail oder Messenger verkleinern.
+14	Formulare erfüllen, die nur JPG akzeptieren.
+15	Screenshots für Dokumentationen verkleinern.
+16	Transparente Bereiche werden weiß (oder in der gewählten Hintergrundfarbe), weil JPG keine Transparenz kennt.
+17	Behalten Sie PNG für Logos, Text und scharfe Grafiken.
+18	Eine Qualität von 85–90 bringt Größe und Schärfe ins Gleichgewicht.
+19	Was passiert mit transparenten Hintergründen?
+20	JPG unterstützt keine Transparenz, daher werden transparente Bereiche mit einer Volltonfarbe gefüllt, meist Weiß.
+21	PNG in JPG umwandeln – Stapel, Hintergrundfarbe, gratis
+22	Wandeln Sie PNG in JPG um, mit Qualitätsregler, Hintergrundfarbe für Transparenz, Skalierung und ZIP-Stapel. Bis zu 90 % kleiner. Ohne Upload.
+23	{tool}: {brand} im Vergleich zu CloudConvert, FreeConvert und iLoveIMG
+24	Große PNG-Dateien in kompakte JPGs umwandeln
+25	PNG ist ein hervorragendes Format für Logos, Screenshots und Grafiken, aber eine schlechte Wahl für Fotos. Ein als PNG gespeichertes Foto kann leicht 5–10 MB groß sein, während dasselbe Foto als hochwertiges JPG 500 KB–1 MB ohne sichtbaren Unterschied belegt. Das ist wichtig, wenn eine E-Mail zurückkommt, ein Formular Dateien über 2 MB ablehnt oder eine Website langsam lädt. {brand} wandelt PNG im Browser in JPG um, lässt Sie die Qualität wählen und füllt transparente Bereiche mit der gewünschten Hintergrundfarbe statt mit den schwarzen oder ausgefransten Rändern mancher Konverter.
+26	Legen Sie ein PNG ab oder Hunderte. Jede Datei wird auf Ihrem eigenen Gerät dekodiert und neu kodiert (ohne Upload, ohne Server-Warteschlange und ohne Größenlimit), und Sie erhalten die JPGs einzeln oder in einem ZIP.
+27	Funktionen
+28	**Qualitätsregler**: standardmäßig 90 für ausgezeichnete Qualität; 75–80 fürs Web, 60 für Miniaturen.
+29	**Hintergrundfarbe für Transparenz**: JPG kann keine Transparenz speichern, also wählen Sie, womit diese Bereiche gefüllt werden: Weiß, Schwarz, Ihre Markenfarbe oder jede andere.
+30	**Beim Umwandeln skalieren**: Legen Sie eine maximale Breite fest, damit riesige Screenshots oder Exporte in vernünftiger Größe herauskommen.
+31	**Stapelumwandlung** mit einem einzigen ZIP-Download.
+32	**Jede Eingabe**: Neben PNG werden WebP, GIF, BMP, TIFF, AVIF, HEIC und SVG akzeptiert.
+33	**Andere Ausgaben**: Stellen Sie das Formatmenü auf WebP, AVIF, GIF, BMP, TIFF oder ICO, wenn Sie kein JPG brauchen.
+34	**Privat und unbegrenzt**: läuft im Browser, ohne Konto und ohne Wasserzeichen.
+35	So wandeln Sie PNG in JPG um
+36	Legen Sie Ihre PNG-Dateien auf der Seite ab oder fügen Sie einen Screenshot mit Strg+V ein.
+37	Lassen Sie das Format auf JPG und legen Sie die Qualität fest (90 ist ein guter Standard).
+38	Haben Ihre PNGs transparente Bereiche, wählen Sie die Hintergrundfarbe.
+39	Legen Sie bei Bedarf eine maximale Breite fest.
+40	Klicken Sie auf Umwandeln und laden Sie das JPG oder ZIP herunter.
+41	Progressives und Baseline-JPG und weitere technische Details
+42	Die hier erstellten JPGs sind Standard-Baseline-JPEG-Dateien mit 4:2:0-Chroma-Subsampling bei den normalen Qualitätseinstellungen – genau das, was Kameras, Smartphones und fast alle Websites erzeugen. Sie öffnen sich in jedem Bildbetrachter, Browser, Textverarbeitungsprogramm, Fotokiosk und Upload-Formular, selbst in sehr alter Software. Die Farben werden im sRGB-Farbraum gespeichert. PNGs mit 16 Bit pro Kanal werden auf 8 Bit reduziert, mehr unterstützt JPG nicht, und das reicht zum Ansehen und Drucken völlig aus. Bilder mit eingebettetem Gamma oder Farbprofil werden vor dem Kodieren im Browser in sRGB umgewandelt, sodass die Farben so aussehen wie beim Betrachten des PNGs in Ihrem Browser.
+43	PNG oder JPG: Was sollten Sie verwenden?
+44	
+45	PNG
+46	JPG
+47	Kompression
+48	Verlustfrei: Jedes Pixel bleibt erhalten
+49	Verlustbehaftet: Feine Details werden vereinfacht
+50	Transparenz
+51	Ja
+52	Nein
+53	Ideal für
+54	Logos, Symbole, Screenshots, Text, Strichzeichnungen
+55	Fotos und komplexe Bilder
+56	Größe eines Fotos
+57	Sehr groß
+58	Klein (oft 80–90 % kleiner)
+59	Immer wieder bearbeiten
+60	Kein Qualitätsverlust
+61	Leichter Verlust bei jedem erneuten Speichern
+62	Kompatibilität
+63	Universell
+64	Universell
+65	Eine nützliche Regel: Stammt das Bild aus einer Kamera, nutzen Sie JPG (oder WebP). Wurde es am Computer erstellt (ein Logo, eine Grafik, der Screenshot eines Dokuments), bleiben Sie bei PNG, denn die JPG-Kompression fügt um scharfe Kanten und Text leichte Flecken hinzu. Screenshots von Fotos, Videostandbilder und Spiele liegen dazwischen; JPG mit Qualität 85–90 funktioniert meist gut.
+66	Dateinamen ordentlich halten
+67	Umgewandelte Dateien behalten ihren ursprünglichen Namen mit der Endung .jpg, aus „rechnung-gescannt.png“ wird also „rechnung-gescannt.jpg“. Bei einem Stapel enthält das ZIP jede umgewandelte Datei mit ihrem eigenen Namen, bereit zum Entpacken in denselben Ordner wie die Originale oder in einen neuen. Heißen zwei Eingabedateien gleich, werden sie nummeriert, damit nichts überschrieben wird.
+68	Was passiert mit der Transparenz?
+69	PNG unterstützt einen Alphakanal, ein Logo kann also einen transparenten Hintergrund haben, durch den man sieht, was dahinter liegt. JPG hat keinen Alphakanal. Beim Umwandeln wird jedes teilweise oder ganz transparente Pixel mit der gewählten Hintergrundfarbe gemischt. Halbtransparente Ränder (die geglättete Kontur eines Logos) werden weich überblendet, sodass kein ausgefranster Saum bleibt.
+70	Wählen Sie den Hintergrund danach, wo das JPG verwendet wird: Weiß für Dokumente und die meisten Websites, Schwarz für Dark-Mode-Designs oder genau die Farbe Ihrer Seite für einen nahtlosen Look. Brauchen Sie wirklich Transparenz in einer kleineren Datei, wandeln Sie in WebP um, das Transparenz und verlustbehaftete Kompression unterstützt.
+71	Warum PNG-Dateien so groß sind
+72	PNG komprimiert Bilder, indem es nach wiederholten Pixelmustern sucht – das funktioniert hervorragend bei flächigen Farben (ein Logo auf Weiß, der Screenshot einer Tabelle), aber schlecht bei Fotos, wo fast jedes Pixel leicht von seinem Nachbarn abweicht. Ein 12-Megapixel-Foto hat 36 Millionen Farbwerte; PNG muss praktisch alle speichern. JPG beschreibt dagegen kleine Bildblöcke als weiche Muster und verwirft Details, die zu fein zum Sehen sind, und ist daher bei Fotos viel kleiner.
+73	Screenshots auf modernen hochauflösenden Bildschirmen sind ebenfalls sehr groß: Ein Screenshot von einem Retina-MacBook oder 4K-Monitor kann 3000–4000 Pixel breit sein. Eine maximale Breite von 1600 oder 1920 beim Umwandeln verringert die Größe stark und sieht auf normalen Bildschirmen trotzdem scharf aus.
+74	Die richtige Qualität wählen
+75	Qualität
+76	Verwendung
+77	95–100
+78	Druck, Archiv, spätere Bearbeitung
+79	85–90
+80	Fotos zum Teilen, Portfolios
+81	75–80
+82	Websites, Blogs, E-Mail
+83	60–70
+84	Miniaturen, Vorschauen, Chat
+85	Unter 50
+86	Nur wenn die Größe viel wichtiger ist als das Aussehen
+87	Die Qualitätswerte sind keine Prozentangaben der Originalqualität: Sie steuern, wie viele Details der Encoder verwirft. Der sichtbare Unterschied zwischen 90 und 100 ist minimal, aber die Datei bei 100 kann doppelt so groß sein.
+88	Häufige Gründe, PNG in JPG umzuwandeln
+89	Ein Foto auf eine Website hochladen, die nur JPG akzeptiert oder ein Größenlimit hat.
+90	Screenshots per E-Mail senden, ohne das Anhangslimit zu überschreiten.
+91	Eine Website beschleunigen, indem riesige PNG-Fotos ersetzt werden.
+92	Dokumente und Präsentationen mit vielen Bildern verkleinern.
+93	Bilder für Druckdienste vorbereiten, die JPG verlangen.
+94	Speicherplatz auf dem Handy oder in der Cloud sparen.
+95	Screenshots umwandeln
+96	Screenshots von Smartphone und Computer werden als PNG gespeichert. Besteht der Screenshot vor allem aus Text oder Benutzeroberfläche (ein Chat, eine Einstellungsseite, eine Tabelle), behalten Sie PNG oder wandeln Sie in WebP um; JPG kann den Text etwas unscharf machen. Ist es vor allem ein Foto oder Videostandbild, ist JPG mit Qualität 85 ideal. Drücken Sie auf dieser Seite Strg+V, um einen Screenshot direkt aus der Zwischenablage einzufügen, ohne ihn vorher zu speichern.
+97	PNG-Exporte aus Designtools umwandeln
+98	Figma, Canva, Photoshop und PowerPoint exportieren standardmäßig oft als PNG. Bei Folien und Beiträgen mit Fotos, Verläufen oder Texturen verkleinert die Umwandlung des Exports in JPG mit Qualität 85 die Datei meist um 70–85 % ohne sichtbare Veränderung, was Präsentationen und Newsletter deutlich leichter macht. Bei Designs, die vor allem aus flächigen Farben und Text bestehen (eine Infografik, eine Zitatkarte, ein Diagramm), vergleichen Sie beides: PNG kann sogar kleiner und schärfer sein. Testen Sie zuerst mit einer Datei und prüfen Sie die Größe vorher und nachher beim Download, bevor Sie einen ganzen Stapel umwandeln.
+99	Hat das Design einen transparenten Hintergrund und brauchen Sie es auf einer farbigen Seite, stellen Sie die Hintergrundfarbe genau auf die Farbe der Seite ein (nutzen Sie den Hex-Code Ihrer Marke), damit sich das JPG nahtlos einfügt.
+100	PNG in JPG für den Druck
+101	Druckereien und Fotolabore akzeptieren meist JPG und bevorzugen es für Fotos, weil die Dateien handlich sind. Wandeln Sie mit Qualität 95 um und behalten Sie die volle Auflösung: Legen Sie keine maximale Breite fest. Bei Designs mit großen Farbflächen oder Text fragen Sie die Druckerei, ob sie PNG oder PDF akzeptiert; manche bevorzugen verlustfreie Dateien für Logos und Strichzeichnungen. Prüfen Sie, ob das Bild genug Pixel für die Druckgröße hat: etwa 300 Pixel pro Zoll, also 2400×3000 Pixel für einen Abzug von 20×25 cm (8×10 Zoll).
+102	Und PNGs mit sehr wenigen Farben?
+103	Symbole, Pixel-Art und einfache Diagramme mit nur wenigen Farben sind als PNG meist winzig (manchmal nur einige Kilobyte), weil PNG wiederholte Farben sehr effizient speichert. Die Umwandlung in JPG kann sie größer machen und fügt Unschärfe an den Kanten hinzu. Behalten Sie solche Bilder als PNG oder nutzen Sie [Bild komprimieren](/compress-image/), das PNGs per Palettenkompression verkleinert und dabei verlustfrei aussieht. JPG glänzt bei Fotos und allem mit weichen Verläufen und Millionen Farben.
+104	Einen Ordner im Stapel umwandeln
+105	Wählen Sie alle Dateien eines Ordners aus (Strg+A oder Cmd+A in der Dateiauswahl) und legen Sie sie auf einmal ab. Die Dateien werden nacheinander verarbeitet, um wenig Speicher zu brauchen, und das ZIP behält die Originalnamen mit der Endung .jpg. Auf einem normalen Laptop werden hundert Screenshots mit 2 Megapixeln in deutlich unter einer Minute umgewandelt.
+106	Datenschutz
+107	Jeder Schritt läuft im Browser-Tab ab. Das Bild wird auf Ihrem eigenen Gerät mit der integrierten Bild-Engine des Browsers und WebAssembly dekodiert, bearbeitet und neu kodiert, und das Ergebnis landet direkt in Ihrem Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert, und es gibt keine Warteschlange – private Fotos, Ausweisdokumente, Screenshots mit persönlichen Daten und Fotos unveröffentlichter Produkte verlassen also nie Ihren Computer oder Ihr Handy. Sie können sogar das WLAN trennen, sobald die Seite geladen ist, und das Tool funktioniert weiter.
+108	Verwandte Tools
+109	[JPG in PNG](/jpg-to-png/): die umgekehrte Richtung, mit der Option, Weiß transparent zu machen.
+110	[Bild komprimieren](/compress-image/): erreicht ein exaktes Ziel in KB.
+111	[WebP in JPG](/webp-to-jpg/): für von Websites gespeicherte Bilder.
+112	[Bildkonverter](/image-converter/): alle Formate an einem Ort.
+113	[Bildgröße ändern](/resize-image/): Voreinstellungen und exakte Größen.
+114	Wo Ihr Bild verarbeitet wird
+115	In Ihrem Browser, nie hochgeladen
+116	Auf deren Servern (Upload)
+117	Auf deren Servern (Upload)
+118	Auf deren Servern (Upload)
+119	Konto oder E-Mail erforderlich
+120	Nie
+121	Nicht für die Grundnutzung
+122	Nicht für die Grundnutzung
+123	Nicht für die Grundnutzung
+124	Limits der Gratisnutzung
+125	Keine – nur die Ihres Geräts
+126	Siehe Website
+127	Siehe Website
+128	Siehe Website
+129	Hintergrundfarbe für transparente Bereiche
+130	Ja, jede Farbe
+131	Siehe Website
+132	Ja (erweiterte Einstellungen)
+133	Siehe Website
+134	Qualitätsregler
+135	Schieberegler 1–100
+136	Siehe Website
+137	Kompressionsoption
+138	Siehe Website
+139	Größe beim Umwandeln ändern
+140	Maximale Breite
+141	Siehe Website
+142	Ja
+143	Auf der Seite nicht angeboten
+144	Stapelverarbeitung
+145	Ja, als ZIP
+146	Siehe Website
+147	Siehe Website
+148	Ja („viele Bilder auf einmal“)
+149	Wie wandle ich PNG in JPG um?
+150	Legen Sie Ihre PNG-Dateien hier ab, lassen Sie JPG als Format und klicken Sie auf Umwandeln. Laden Sie das JPG oder ein ZIP herunter.
+151	Verringert die Umwandlung von PNG in JPG die Qualität?
+152	Leicht, weil JPG verlustbehaftet ist. Bei Qualität 85–90 ist der Unterschied bei Fotos unsichtbar. Scharfer Text und Strichzeichnungen können weicher wirken, behalten Sie diese also als PNG.
+153	Was passiert mit dem transparenten Hintergrund?
+154	JPG kann keine Transparenz speichern, daher werden transparente Bereiche mit der gewählten Hintergrundfarbe gefüllt, standardmäßig Weiß.
+155	Wie viel kleiner wird das JPG?
+156	Bei Fotos meist 70 bis 90 % kleiner. Bei einfachen Grafiken ist die Ersparnis geringer, und PNG kann sogar kleiner sein.
+157	Kann ich viele PNGs auf einmal umwandeln?
+158	Ja. Legen Sie alle ab und laden Sie ein einziges ZIP herunter.
+159	Werden meine Bilder hochgeladen?
+160	Nein. Die Umwandlung läuft in Ihrem Browser und nichts wird an einen Server gesendet.
+161	Kann ich PNG auf dem iPhone oder Android in JPG umwandeln?
+162	Ja. Die Seite funktioniert in Safari und Chrome auf dem Smartphone.
+163	Gibt es ein Dateigrößenlimit?
+164	Es gibt kein festes Limit. Sehr große Bilder sind nur durch den Speicher Ihres Geräts begrenzt.
+165	Sollte ich WebP statt JPG verwenden?
+166	Für Websites ist WebP meist kleiner und unterstützt Transparenz. Nutzen Sie JPG, wenn Sie maximale Kompatibilität brauchen.
+167	Wie wandle ich PNG ohne Qualitätsverlust in JPG um?
+168	Stellen Sie die Qualität auf 90–95. JPG ist verlustbehaftet, aber mit diesen Einstellungen ist der Unterschied bei Fotos unsichtbar. Für Screenshots und Text kann PNG weiterhin das beste Format sein.

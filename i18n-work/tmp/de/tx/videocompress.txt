@@ -1,0 +1,241 @@
+0	Video komprimieren
+1	Ihre Videos verkleinern.
+2	Video komprimieren online kostenlos – MP4 ohne Wasserzeichen | {brand}
+3	MP4-, MOV- und WEBM-Videos im Browser komprimieren. Qualität und Auflösung (720p, 480p) wählen. Ohne Upload und ohne Wasserzeichen.
+4	Video komprimieren
+5	Wählen Sie die Videos aus.
+6	Wählen Sie Qualität und Auflösung.
+7	Laden Sie das kleinere Video herunter.
+8	Warum dauert es eine Weile?
+9	Das Video wird auf Ihrem eigenen Gerät neu codiert; lange oder 4K-Videos dauern länger.
+10	Handyvideos sind riesig: Ein paar Minuten in 4K können über ein Gigabyte groß sein. Komprimiert auf 720p oder 480p lassen sie sich leicht per E-Mail senden, in Chats teilen oder hochladen – ohne private Aufnahmen an einen Server zu schicken.
+11	Videos, die Größenlimits überschreiten, per E-Mail oder Messenger senden.
+12	Speicherplatz auf dem Smartphone freigeben.
+13	Videos schneller auf Kurs- oder Bewerbungsplattformen hochladen.
+14	720p ist ein guter Kompromiss für Smartphones und Laptops.
+15	Schneiden Sie nicht benötigte Teile vorher weg.
+16	Wie lange dauert es?
+17	Das Video wird auf Ihrem Gerät neu codiert; lange oder 4K-Videos dauern länger.
+18	Funktioniert es auf dem Handy?
+19	Ja, in aktuellen mobilen Browsern, Computer sind bei langen Videos aber schneller.
+20	So funktioniert Videokompression
+21	Die Größe eines Videos hängt vor allem von Auflösung und Bitrate ab. Der Wechsel von 4K oder 1080p auf 720p reduziert die Pixelzahl auf weniger als die Hälfte, und eine niedrigere Bitrate entfernt Details, die das Auge auf einem Handybildschirm selten bemerkt.
+22	Empfohlene Einstellungen
+23	720p mit mittlerer Qualität ist ideal für E-Mail, Chat-Apps und Kursplattformen. 480p eignet sich für sehr kleine Dateien und reine Sprachaufnahmen. Behalten Sie 1080p für Inhalte, die auf großen Bildschirmen angesehen werden.
+24	Video komprimieren – exakte Größe in MB, kostenlos, ohne Upload
+25	Videos auf eine exakte Größe (10, 16, 25 MB oder eigene) oder eine Qualität komprimieren. MP4, MOV, WebM, 1080p/720p/480p, Ton entfernen, Stapel. Ohne Wasserzeichen.
+26	{tool}: {brand} im Vergleich zu FreeConvert, Clideo und VEED
+27	Verkleinern Sie Ihre Videos, damit sie überall hinpassen
+28	Videos heutiger Smartphones sind riesig: Eine Minute in 4K kann 300–400 MB belegen, und selbst 1080p liegt bei 100–150 MB pro Minute. Das ist zu viel für E-Mail, Chat-Apps, Upload-Formulare und Cloud-Speicherkontingente. Der Videokompressor von {brand} macht sie deutlich kleiner – meist um 60–90 % – und hält sie dabei scharf genug für Smartphones und Laptops. Wählen Sie eine **Zieldateigröße** wie 10 MB, 16 MB oder 25 MB, und der Kompressor berechnet die nötige Bitrate – oder wählen Sie eine Qualitätsstufe und eine Auflösung und lassen Sie ihn den Rest erledigen.
+29	Die Kompression erfolgt vollständig in Ihrem Browser mit dem Hardware-Video-Encoder Ihres Computers oder Smartphones. Nichts wird hochgeladen – ein großer Vorteil bei großen Videos, deren Upload sonst Minuten dauern würde, bevor die Kompression überhaupt beginnt –, und es gibt kein Wasserzeichen, kein Konto und kein Dateigrößenlimit außer dem Arbeitsspeicher Ihres Geräts.
+30	Kostenlose Online-Kompressoren begrenzen Sie oft auf wenige Dateien pro Tag, deckeln die Größe bei einigen hundert Megabyte oder stempeln ein Logo auf das Ergebnis, wenn Sie nicht zahlen. Hier passiert nichts davon: Komprimieren Sie so viele Videos, wie Sie möchten, so lang, wie Ihr Gerät bewältigt – das Ergebnis gehört ganz Ihnen, ohne Branding, ohne Ablaufdatum und ohne Konto. Da der Hardware-Encoder Ihres Geräts die Schwerarbeit leistet, sind selbst lange 1080p-Videos oft schneller fertig, als ihr Upload dauern würde.
+31	Funktionen
+32	**Zieldateigröße:** 8, 10, 16, 25, 50 oder 100 MB oder eine beliebige eigene Größe.
+33	**Qualitätsstufen:** hoch, empfohlen, starke und extreme Kompression.
+34	**Auflösung:** beibehalten, 1080p, 720p oder 480p.
+35	**Ton entfernen** für stumme Clips und kleinere Dateien.
+36	**Ausgabeformate:** MP4 (H.264), WebM (VP9), MOV oder MKV.
+37	**Stapel:** mehrere Videos auf einmal komprimieren.
+38	**Größe vorher/nachher** für jede Datei.
+39	**Vorschau-Player**, um das Ergebnis vor dem Speichern zu prüfen.
+40	**Hardwarebeschleunigt** über WebCodecs – schnell auf modernen Geräten.
+41	**Kein Wasserzeichen, kein Tageslimit:** Komprimieren Sie so viele Videos, wie Sie brauchen.
+42	So komprimieren Sie ein Video
+43	Legen Sie ein oder mehrere Videos ab (MP4, MOV, WebM, MKV, M4V).
+44	Wählen Sie eine Zielgröße (z. B. 25 MB für E-Mail) oder schalten Sie sie aus und wählen Sie eine Qualität.
+45	Wählen Sie eine Auflösung – 720p ist eine gute Voreinstellung zum Teilen.
+46	Klicken Sie auf „Komprimieren“ und verfolgen Sie den Fortschritt.
+47	Prüfen Sie die Vorschau und laden Sie herunter.
+48	Zielgröße: So funktioniert es
+49	Die Größe eines Videos ist einfach seine Bitrate mal seine Dauer. Wenn Sie 25 MB wünschen und der Clip 2 Minuten dauert, hat der Kompressor 25 × 8 = 200 Megabit für 120 Sekunden – etwa 1,6 Megabit pro Sekunde. Er reserviert einen kleinen Teil für den Ton (64–96 kbps) und den Container-Overhead und gibt den Rest dem Video-Encoder. Deshalb können kurze Clips selbst bei kleinen Zielen sehr gut aussehen, während lange Videos ein größeres Ziel oder eine niedrigere Auflösung brauchen, um gut auszusehen.
+50	Ziel
+51	1-Minuten-Clip
+52	5-Minuten-Clip
+53	20-Minuten-Clip
+54	10 MB
+55	≈1,2 Mbit/s – gutes 720p
+56	≈0,2 Mbit/s – 480p verwenden
+57	Zu klein
+58	25 MB
+59	≈3,2 Mbit/s – gutes 1080p
+60	≈0,6 Mbit/s – 480p/720p
+61	≈0,1 Mbit/s – zu klein
+62	100 MB
+63	≈13 Mbit/s – hervorragend
+64	≈2,6 Mbit/s – gutes 1080p
+65	≈0,6 Mbit/s – 480p
+66	Ist ein Ziel für die Videodauer unmöglich, warnt Sie das Tool, statt eine unbrauchbare Datei zu erzeugen.
+67	Empfohlene Einstellungen je nach Ziel
+68	Ziel
+69	Empfohlene Einstellung
+70	E-Mail (Gmail, Outlook)
+71	Ziel 25 MB, 720p
+72	Discord (kostenlos)
+73	Ziel 10 MB, 720p oder 480p
+74	WhatsApp / Messenger
+75	Ziel 16 MB, 720p
+76	Web oder Blog
+77	Empfohlene Qualität, 1080p oder 720p
+78	Online-Formulare und Jobportale
+79	Ziel nach Vorgabe, 720p
+80	Archiv auf dem Smartphone
+81	Hohe Qualität, Auflösung beibehalten
+82	Präsentationen
+83	Empfohlene Qualität, 1080p, MP4
+84	Limits ändern sich – prüfen Sie immer das aktuelle Limit des Dienstes, an den Sie senden.
+85	Qualität, Bitrate und Auflösung
+86	Drei Dinge bestimmen, wie gut ein komprimiertes Video aussieht: die **Bitrate** (wie viele Bits pro Sekunde der Encoder nutzen darf), die **Auflösung** (wie viele Pixel pro Bild) und der **Codec** (wie geschickt diese Bits genutzt werden). Eine Reduktion von 1080p auf 720p verringert die Pixelzahl auf weniger als die Hälfte, sodass bei gleicher Bitrate jedes Pixel doppelt so viele Bits erhält – deshalb sieht ein 720p-Video bei kleinen Größen oft besser aus als ein 1080p-Video, besonders auf Smartphones. Szenen mit viel Bewegung (Sport, Konfetti, Wasser, Blätter im Wind) brauchen mehr Bitrate als eine Person, die in die Kamera spricht, oder eine Bildschirmaufnahme.
+87	Codecs: H.264 oder VP9
+88	Die MP4-Ausgabe nutzt **H.264 (AVC)**, den am breitesten unterstützten Video-Codec: Er läuft auf jedem Smartphone, Computer, Fernseher, Browser und in jedem sozialen Netzwerk. Die WebM-Ausgabe nutzt **VP9**, das bei gleicher Qualität oft 20–40 % kleinere Dateien erzeugt, aber von älteren Apps und Geräten weniger unterstützt wird. MOV- und MKV-Container werden für Arbeitsabläufe angeboten, die sie erfordern. Zum Teilen ist MP4/H.264 die sichere Wahl.
+89	Tipps für kleinere, besser aussehende Videos
+90	Schneiden Sie überflüssige Teile vorher mit [Video zuschneiden](/trim-video/) weg – das kürzeste Video lässt sich am besten komprimieren.
+91	Verwenden Sie 720p für alles, was auf einem Smartphone angesehen wird.
+92	Entfernen Sie den Ton bei stummen Clips, Bildschirmaufnahmen ohne Kommentar oder B-Roll-Material.
+93	Komprimieren Sie dasselbe Video nicht immer wieder; gehen Sie stets vom Original aus.
+94	Bildschirmaufnahmen lassen sich sehr gut komprimieren; behalten Sie ihre Auflösung, damit Text lesbar bleibt.
+95	Erwägen Sie, sehr lange Aufnahmen in Teile zu splitten.
+96	Warum im Browser komprimieren?
+97	Online-Kompressoren laden Ihre Datei auf einen Server, komprimieren sie dort und schicken sie zurück – bei einem 500-MB-Video und einer typischen Upload-Geschwindigkeit von 20 Mbit/s dauert allein der Upload über drei Minuten, danach warten Sie in einer Warteschlange. Kostenlose Tarife fügen oft ein Wasserzeichen hinzu oder begrenzen die Größe. Hier beginnt die Kompression sofort mit dem in Ihr Gerät eingebauten Hardware-Encoder, und die Datei verlässt es nie. Einzige Voraussetzung ist ein Browser mit WebCodecs: aktuelles Chrome, Edge und Opera, Safari 17+ und neueres Firefox.
+98	Videos von iPhone und Android komprimieren
+99	iPhones nehmen MOV-Dateien in HEVC auf; Android-Smartphones meist MP4 in H.264 oder HEVC. Beide lassen sich gut komprimieren. Ein einminütiger 4K-iPhone-Clip mit etwa 350 MB wird mit 1080p „Empfohlen“ auf rund 20–30 MB verkleinert oder mit 720p „Stark“ auf unter 10 MB. Öffnen Sie diese Seite direkt auf dem Smartphone in Safari oder Chrome, tippen Sie auf den Ablagebereich und wählen Sie das Video aus Ihrer Galerie; das komprimierte MP4 wird unter Dateien/Downloads gespeichert. Da der Hardware-Encoder des Smartphones genutzt wird, geht die Kompression selbst auf Mittelklassegeräten schnell – lassen Sie aber den Bildschirm an, weil mobile Browser Hintergrund-Tabs pausieren.
+100	Die Qualitätsstufen erklärt
+101	Stufe
+102	Was sie tut
+103	Typische Verkleinerung
+104	Hohe Qualität
+105	Hohe Bitrate, minimaler sichtbarer Verlust
+106	20–50 %
+107	Empfohlen
+108	Ausgewogene Bitrate; hervorragend auf Smartphones und Laptops
+109	50–80 %
+110	Starke Kompression
+111	Niedrigere Bitrate; gut für Messenger
+112	70–90 %
+113	Extrem
+114	Kleinste Datei; sichtbarer Schärfeverlust
+115	85–95 %
+116	Die Verkleinerung hängt stark vom Original ab: Eine 4K-Kameradatei mit hoher Bitrate schrumpft enorm, ein bereits von einer Messenger-App komprimiertes Video dagegen kaum – das Tool kann keine Details entfernen, die nicht mehr da sind. Kombinieren Sie eine Stufe mit einer niedrigeren Auflösung für die größte Ersparnis.
+117	Bildschirmaufnahmen und Tutorials
+118	Bildschirmaufnahmen sind überwiegend statisch, mit scharfem Text und wenigen sich ändernden Pixeln – sie lassen sich daher sehr gut komprimieren. Behalten Sie die Originalauflösung, damit der Text lesbar bleibt, und wählen Sie „Empfohlen“ oder „Stark“. Ein 10-minütiges Tutorial in 1080p passt oft in 25–50 MB. Wenn Sie den Kommentar nicht brauchen, entfernen Sie den Ton und sparen weitere 5–10 %.
+119	Warum das Video nicht einfach als ZIP packen?
+120	Videodateien sind intern bereits komprimiert, daher verkleinern ZIP- oder RAR-Archive sie nur um 1–2 %. Die echte Ersparnis entsteht durch erneutes Codieren mit niedrigerer Bitrate oder Auflösung – genau das macht dieser Kompressor. Das Ergebnis ist ein normales MP4, das sich direkt abspielen lässt, ohne Entpacken.
+121	Der Ton in komprimierten Videos
+122	Wenn Sie eine Zielgröße festlegen, wird der Ton mit 64–96 kbps codiert, um möglichst viel Budget für das Bild zu lassen – mehr als genug für Sprache und passend für Hintergrundmusik. Ohne Zielgröße bleibt der Ton nach Möglichkeit unverändert. Hat Ihr Browser keinen AAC-Encoder (einige Chromium-Versionen unter Linux), wird der Ton als Opus gespeichert, das in allen modernen Browsern und den meisten Playern läuft; wählen Sie „Ton entfernen“, wenn Sie für einen stummen Clip maximale Kompatibilität brauchen.
+123	Fehlerbehebung
+124	Problem
+125	Lösung
+126	„Ihr Browser unterstützt keine Videoverarbeitung“
+127	Aktualisieren Sie auf die neueste Version von Chrome, Edge oder Safari 17+.
+128	Das Ergebnis ist größer als erwartet
+129	Senken Sie die Auflösung oder nutzen Sie eine Zielgröße.
+130	Das Ergebnis wirkt verpixelt
+131	Erhöhen Sie die Zielgröße oder wählen Sie die Qualität „Empfohlen“.
+132	Der Fortschritt stoppt auf dem Smartphone
+133	Lassen Sie den Tab im Vordergrund und den Bildschirm an.
+134	Sehr große Dateien schlagen fehl
+135	Schließen Sie andere Tabs; nutzen Sie für Dateien mit mehreren GB einen Computer.
+136	Glossar
+137	**Bitrate:** Datenmenge pro Sekunde Video, in Mbit/s; der wichtigste Faktor für die Dateigröße.
+138	**Auflösung:** Bildgröße, z. B. 1920×1080 (1080p) oder 1280×720 (720p).
+139	**Codec:** das Kompressionsverfahren, z. B. H.264, HEVC, VP9.
+140	**Container:** das Dateiformat, das die Spuren enthält, z. B. MP4, MOV, WebM.
+141	**WebCodecs:** die Browsertechnologie, die Webseiten Zugriff auf Hardware-Video-Encoder gibt.
+142	Für E-Mail komprimieren
+143	Die meisten E-Mail-Anbieter begrenzen Anhänge auf etwa 20–25 MB, und die Codierung von Anhängen erhöht die Größe unterwegs um rund ein Drittel. Nutzen Sie die 25-MB-Voreinstellung für Gmail und Outlook nur, wenn Ihr Anbieter 25 MB erlaubt; am sichersten sind 16 oder 20 MB. Komprimieren Sie längere Videos auf 720p oder 480p oder teilen Sie einen Cloud-Link. Das komprimierte MP4 öffnet sich direkt in der Mail-App oder im Browser des Empfängers, ohne spezielle Software.
+144	Für Discord, WhatsApp und Telegram komprimieren
+145	Messenger-Apps komprimieren Videos beim Senden selbst, oft stark, wodurch sie unscharf werden. Wenn Sie vorher mit sinnvollen Einstellungen komprimieren, behalten Sie die Kontrolle: Sie wählen den Kompromiss zwischen Schärfe und Größe, und die App lässt eine bereits kleine Datei eventuell unverändert. Verwenden Sie 10 MB für kostenlose Discord-Konten, 16 MB als sichere allgemeine Größe für Messenger und 720p Auflösung. Das Senden als „Dokument“ in WhatsApp oder Telegram vermeidet ebenfalls die automatische Neukomprimierung.
+146	Für Websites und Onlinekurse komprimieren
+147	Große Videos verlangsamen Webseiten und verbrauchen Bandbreite. Für ein Hintergrund- oder Produktvideo bietet 720p oder 1080p mit Qualität „Empfohlen“, bei stummen Schleifen ohne Ton, eine gute Balance; WebM-Ausgabe (VP9) ist noch kleiner und läuft in allen modernen Browsern. Für Lernplattformen mit Upload-Limits (oft 100–500 MB) nutzen Sie die 100-MB-Voreinstellung oder eine eigene Größe. Behalten Sie textlastige Inhalte wie Folien in 1080p, damit sie lesbar bleiben.
+148	Wie viel Platz können Sie sparen?
+149	Original
+150	Einstellungen
+151	Ergebnis ca.
+152	1 Min. 4K vom iPhone (≈350 MB)
+153	1080p · Empfohlen
+154	≈25–40 MB
+155	1 Min. 1080p von Android (≈130 MB)
+156	720p · Empfohlen
+157	≈10–20 MB
+158	10-minütige Bildschirmaufnahme in 1080p (≈200 MB)
+159	Beibehalten · Stark
+160	≈25–40 MB
+161	30-s-Clip (≈60 MB)
+162	Ziel 10 MB
+163	≤10 MB
+164	Diese Werte sind Richtwerte; die tatsächlichen Größen hängen vom Inhalt und vom Encoder Ihres Geräts ab.
+165	Auflösung: Wann reduzieren?
+166	Smartphones zeigen Videos auf etwa 6-Zoll-Bildschirmen, wo 720p bereits scharf aussieht; Laptops profitieren von 1080p, und nur Fernseher und große Monitore brauchen wirklich 4K. Zum Teilen verringert der Schritt von 4K auf 1080p die Pixel um drei Viertel und von 1080p auf 720p auf weniger als die Hälfte – der wirksamste Weg, die Größe zu senken und das Bild sauber zu halten. Eine geringere Auflösung gibt dem Encoder außerdem mehr Bits pro Pixel, sodass feine Details und Bewegung besser aussehen als bei einer Datei in voller Auflösung, die auf dieselbe Größe komprimiert wurde. Behalten Sie die Originalauflösung bei Bildschirmaufnahmen mit kleinem Text oder bei Material, das Sie später bearbeiten; für alles andere sind 720p oder 1080p die praktische Wahl.
+167	Vorher und nachher: das Ergebnis prüfen
+168	Nach der Kompression werden die Größe vorher und nachher sowie die prozentuale Ersparnis angezeigt, und ein Vorschau-Player lässt Sie das Ergebnis ansehen. Achten Sie auf schnelle Bewegungen, feine Texturen wie Gras oder Haare und dunkle Szenen, wo sich Kompression zuerst als Blöcke oder Streifen zeigt. Sehen Sie Probleme, komprimieren Sie mit einem größeren Ziel oder einer besseren Qualitätsstufe erneut – erneut vom Original, nicht vom bereits komprimierten Ergebnis, hält die Qualität maximal. Da der Vorgang lokal ist, kostet eine Wiederholung nur Sekunden oder Minuten, keinen weiteren Upload.
+169	Datenschutz
+170	Jeder Schritt läuft im Browser-Tab ab. Die Datei wird von Ihrer Festplatte gelesen, auf Ihrem eigenen Gerät mit der integrierten Medien-Engine des Browsers (WebCodecs und Web Audio) und WebAssembly dekodiert und neu kodiert, und das Ergebnis landet direkt in Ihrem Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert, und es gibt keine Warteschlange – Familienvideos, Interviews, Sprachnotizen, Meetings und unveröffentlichte Inhalte verlassen also nie Ihren Computer oder Ihr Handy. Auch die Upload-Geschwindigkeit bremst große Dateien nicht aus: Ein 1-GB-Video wird sofort verarbeitet statt nach zehn Minuten Upload.
+171	Verwandte Tools
+172	[Video zuschneiden](/trim-video/): nicht benötigte Teile wegschneiden.
+173	[Video stummschalten](/mute-video/): die Tonspur entfernen.
+174	[MOV in MP4](/mov-to-mp4/): iPhone-Videos umwandeln.
+175	[MP4 in MP3](/mp4-to-mp3/): den Ton extrahieren.
+176	[Video in GIF](/video-to-gif/): ein GIF aus einem Clip erstellen.
+177	Wo Ihre Datei verarbeitet wird
+178	In Ihrem Browser, nie hochgeladen
+179	Auf deren Servern (Upload)
+180	Auf deren Servern (Upload)
+181	Auf deren Servern (Upload)
+182	Konto oder E-Mail erforderlich
+183	Nie
+184	Nicht für die Grundnutzung
+185	Nicht für die Grundnutzung
+186	Nicht für die Grundnutzung
+187	Limits der Gratisnutzung
+188	Keine – nur die Ihres Geräts
+189	Siehe Website
+190	Siehe Website
+191	Siehe Website
+192	Größenlimit im kostenlosen Tarif
+193	Nur der Gerätespeicher
+194	Siehe Website
+195	500 MB
+196	1 GB
+197	Auf eine Zielgröße komprimieren
+198	Ja (Voreinstellungen + eigene)
+199	Ja („gewünschte Dateigröße“)
+200	Siehe Website
+201	Siehe Website
+202	Wasserzeichen im kostenlosen Ergebnis
+203	Nein
+204	Siehe Website
+205	Premium entfernt das Wasserzeichen
+206	Siehe Website
+207	Wahl der Auflösung
+208	1080p / 720p / 480p / beibehalten
+209	Siehe Website
+210	Siehe Website
+211	Siehe Website
+212	Stapelverarbeitung
+213	Ja
+214	Siehe Website
+215	Siehe Website
+216	Siehe Website
+217	Wie komprimiere ich ein Video kostenlos?
+218	Video ablegen, Zielgröße oder Qualität wählen, auf „Komprimieren“ klicken und herunterladen. Ohne Anmeldung und ohne Wasserzeichen.
+219	Wird mein Video hochgeladen?
+220	Nein. Es wird auf Ihrem Gerät mit dem Video-Encoder des Browsers komprimiert.
+221	Kann ich auf eine exakte Größe wie 25 MB komprimieren?
+222	Ja. Wählen Sie eine voreingestellte Zielgröße oder geben Sie eine eigene ein; das Ergebnis liegt genau bei dieser Größe oder knapp darunter.
+223	Wie viel kleiner wird mein Video?
+224	Bei Handyvideos meist 60–90 % kleiner, je nach Einstellungen und Inhalt.
+225	Verringert die Komprimierung die Qualität?
+226	Etwas, aber mit den empfohlenen Einstellungen ist der Unterschied auf Smartphones und Laptops kaum sichtbar.
+227	Welches Format sollte ich wählen?
+228	MP4 (H.264) für maximale Kompatibilität; WebM (VP9) für kleinere Dateien im Web.
+229	Gibt es ein Dateigrößenlimit?
+230	Es gibt kein festes Limit. Sehr große Dateien hängen vom Arbeitsspeicher Ihres Geräts ab.
+231	Kann ich mehrere Videos auf einmal komprimieren?
+232	Ja. Legen Sie mehrere Dateien ab; sie werden nacheinander verarbeitet.
+233	Warum heißt es, mein Ziel sei zu klein?
+234	Das Video ist für diese Größe zu lang. Wählen Sie ein größeres Ziel, eine niedrigere Auflösung oder kürzen Sie das Video.
+235	Welche Browser werden unterstützt?
+236	Aktuelles Chrome, Edge und Opera, Safari 17+ und neueres Firefox mit WebCodecs-Unterstützung.
+237	Wie verkleinere ich eine Videodatei?
+238	Video ablegen und eine Zielgröße wie 10 oder 25 MB oder eine Qualitätsstufe wählen. Die Auflösung auf 720p zu senken ist bei großen Handyvideos der wirksamste Schritt.
+239	Wie komprimiere ich ein Video für den E-Mail-Versand?
+240	Die meisten E-Mail-Dienste begrenzen Anhänge auf 20–25 MB. Wählen Sie ein Ziel von 20 MB und 720p oder 480p Auflösung.

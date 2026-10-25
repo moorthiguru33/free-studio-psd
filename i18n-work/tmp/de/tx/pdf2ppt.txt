@@ -1,0 +1,122 @@
+0	PDF in PowerPoint
+1	Jede Seite eines PDFs in eine PowerPoint-Folie (PPTX) umwandeln.
+2	PDF in PowerPoint – PDF gratis in PPT umwandeln | {brand}
+3	Wandeln Sie PDF kostenlos in PowerPoint (PPTX) um: Jede Seite wird eine scharfe Folie mit exaktem Layout. Ohne Anmeldung; die Datei bleibt auf Ihrem Gerät.
+4	PDF in PowerPoint umwandeln
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie die Bildqualität und auf Wunsch, welche Seiten enthalten sein sollen.
+7	Klicken Sie auf Starten und laden Sie Ihre .pptx-Präsentation herunter.
+8	Sehen die Folien genau wie mein PDF aus?
+9	Ja. Jede Seite wird als hochauflösendes Bild auf eine eigene Folie gesetzt, sodass Schriften, Farben und Layout identisch bleiben. Die Foliengröße folgt der Form der PDF-Seite.
+10	Kann ich den Text in PowerPoint bearbeiten?
+11	Der Seiteninhalt ist ein Bild, daher lässt sich der Text nicht direkt bearbeiten. Sie können Textfelder, Notizen und Animationen darüberlegen und Folien umsortieren oder löschen. Für bearbeitbaren Text nutzen Sie zuerst PDF in Word.
+12	Öffnet es sich in Google Präsentationen und Keynote?
+13	Ja. Die Datei ist eine Standard-PPTX, die sich in PowerPoint, Google Präsentationen, Keynote und LibreOffice Impress öffnen lässt.
+14	PDF in PowerPoint – bearbeitbare Folien, gratis, ohne Upload
+15	Wandeln Sie PDF in PowerPoint (PPTX) mit bearbeitbaren Textfeldern über dem Originallayout oder exakten Bildern um. Seitenbereich, HD. Gratis, ohne Upload.
+16	Ein PDF in Folien umwandeln, die Sie wirklich bearbeiten können
+17	Viele PDF-in-PowerPoint-Konverter kleben nur ein Bild jeder Seite auf eine Folie: Das sieht gut aus, aber Sie können kein einziges Wort ändern. {brand} bietet **bearbeitbare Textfelder**: Jede Textzeile des PDFs wird zu einem echten PowerPoint-Textfeld mit ursprünglicher Position, Größe und Farbe, platziert über einem sauberen Hintergrundbild mit den Grafiken der Seite. Ändern Sie Titel, aktualisieren Sie Zahlen oder übersetzen Sie eine Präsentation direkt in PowerPoint, Keynote oder Google Präsentationen.
+18	Wenn Sie das PDF nur unverändert präsentieren möchten, wählen Sie **Nur Seitenbilder** für eine pixelgenaue Kopie. In beiden Fällen findet die Umwandlung in Ihrem Browser statt und das PDF wird nie hochgeladen.
+19	Funktionen
+20	**Bearbeitbarer Text**: Textzeilen werden zu PowerPoint-Textfeldern mit gleicher Farbe und Größe.
+21	**Layout bleibt erhalten**: Hintergründe, Bilder, Logos und Formen bleiben als hochauflösendes Bild hinter dem Text.
+22	**Die Foliengröße folgt dem PDF**: 16:9, 4:3, A4 oder jede andere.
+23	**Qualität**: Hintergründe mit 100, 144 oder 216 DPI.
+24	**Seitenbereich**: Wandeln Sie nur die benötigten Seiten um, z. B. 1-3,5.
+25	**Öffnet sich überall**: PowerPoint, Keynote, Google Präsentationen und LibreOffice Impress.
+26	So wandeln Sie PDF in PowerPoint um
+27	Legen Sie Ihr PDF ab.
+28	Wählen Sie „Bearbeitbare Textfelder“ oder „Nur Seitenbilder“.
+29	Wählen Sie die Qualität und auf Wunsch einen Seitenbereich.
+30	Klicken Sie auf Umwandeln und öffnen Sie die PPTX in Ihrem Präsentationsprogramm.
+31	Bearbeitbar oder Bilder? Was soll ich wählen?
+32	Wählen Sie
+33	Wann
+34	Bearbeitbare Textfelder
+35	Sie müssen Wörter oder Zahlen ändern oder die Präsentation übersetzen
+36	Nur Seitenbilder
+37	Sie wollen nur präsentieren und brauchen exakte Treue, oder das PDF nutzt ungewöhnliche Schriften
+38	Im bearbeitbaren Modus werden Schriften je nach Schriftfamilie im PDF Arial, Times New Roman oder Courier New zugeordnet, daher können Zeilen etwas breiter oder schmaler als im Original ausfallen. Fett- und Kursivschnitte eingebetteter Schriften brauchen eventuell eine kleine Nachbesserung.
+39	Gescannte PDFs
+40	Ist das PDF ein Scan, hat es keine Textebene, daher liest der Konverter die Seite mit integrierter OCR (standardmäßig automatisch, 12 Sprachen) und erzeugt trotzdem bearbeitbare Textfelder. Sie können auch zuerst [OCR für PDF](/ocr-pdf/) nutzen, wenn Sie zusätzlich ein PDF mit durchsuchbarem Text möchten.
+41	Tipps
+42	Nutzen Sie die Einstellung Hoch (144 DPI) für normale Bildschirme und Sehr hoch für große Beamer.
+43	Gruppieren Sie Textfelder in PowerPoint (markieren und Strg+G drücken), um Blöcke zusammen zu verschieben.
+44	Wenn Sie viel Text bearbeiten, liefert [PDF in Word](/pdf-to-word/) durchgehende Absätze, die sich leichter umschreiben lassen.
+45	Möchten Sie zurück? Exportieren Sie aus PowerPoint oder nutzen Sie [PowerPoint in PDF](/powerpoint-to-pdf/).
+46	Typische Anwendungen
+47	Folien aus dem PDF eines Vortrags in Ihrer eigenen Präsentation wiederverwenden.
+48	Eine alte Präsentation aktualisieren, wenn nur noch das PDF vorhanden ist.
+49	Eine Präsentation in eine andere Sprache übersetzen.
+50	Berichte für ein Meeting in Folien umwandeln.
+51	Ein PDF in der Referentenansicht von PowerPoint mit Notizen präsentieren.
+52	Datenschutz
+53	Präsentationen sind oft vertraulich: Investoren-Pitches, interne Strategie, unveröffentlichte Produkte. Die gesamte Verarbeitung erfolgt auf Ihrem Gerät, die Datei verlässt es also nie.
+54	So funktioniert die bearbeitbare Umwandlung
+55	Für jede Seite rendert der Konverter die ganze Seite in der gewählten Auflösung und liest jede Textzeile mit Position, Größe und Schriftfamilie. Er nimmt eine Farbprobe jeder Zeile aus der gerenderten Seite, füllt diesen Bereich des Hintergrunds mit der umgebenden Farbe und setzt ein PowerPoint-Textfeld mit demselben Text, derselben Farbe und Größe genau an dieselbe Stelle. Das Ergebnis sieht aus wie die Originalfolie, aber jedes Wort lässt sich markieren, umschreiben, umformatieren oder löschen, und dank des sauberen Hintergrunds bleibt keine Geisterkopie des alten Textes hinter Ihren Änderungen.
+56	Schriften, Fett und Kursiv
+57	Der Konverter liest die Schrift jedes Textstücks im PDF und behält Fett, Kursiv und Fettkursiv in den PowerPoint-Textfeldern bei. Serifenschriften werden Times New Roman und Festbreitenschriften Courier New zugeordnet, sodass die Folien den Charakter des Originals behalten, auch wenn die genaue Schrift nicht installiert ist. Auf gescannten, per OCR gelesenen Seiten wird der Text in eine serifenlose Standardschrift gesetzt.
+58	Wo Ihre Datei verarbeitet wird
+59	In Ihrem Browser, nie hochgeladen
+60	Auf deren Servern
+61	Auf deren Servern
+62	Adobe-Cloud
+63	Auf deren Servern
+64	Funktioniert bei ausgeschaltetem WLAN
+65	Ja, nach dem Laden der Seite
+66	Nein
+67	Nein
+68	Nein
+69	Nein
+70	Konto oder E-Mail erforderlich
+71	Nie
+72	Nicht für die Grundnutzung
+73	Nicht für die Grundnutzung
+74	Anmeldung für einige Aktionen
+75	Nicht für die Grundnutzung
+76	Limits der Gratisnutzung
+77	Keine – nur die Ihres Geräts
+78	Gratis-Tarif; Premium für mehr
+79	Gratis-Tarif; Premium für mehr
+80	Gratis-Tarif; Premium für mehr
+81	3 Aufgaben/Stunde, 50 MB pro Datei
+82	Bearbeitbare Textfelder
+83	Ja
+84	Siehe Website
+85	Siehe Website
+86	Siehe Website
+87	Siehe Website
+88	OCR für gescannte PDFs
+89	Kostenlos, integriert (12 Sprachen)
+90	Premium
+91	Siehe Website
+92	Siehe Website
+93	Siehe Website
+94	Seitenbereich
+95	Ja
+96	Siehe Website
+97	Siehe Website
+98	Siehe Website
+99	Siehe Website
+100	Kann ich den Text nach der Umwandlung von PDF in PowerPoint bearbeiten?
+101	Ja. Im Modus „Bearbeitbare Textfelder“ wird jede Textzeile zu einem PowerPoint-Textfeld.
+102	Bleibt das Layout erhalten?
+103	Ja. Hintergründe, Bilder und Formen bleiben als hochauflösendes Bild hinter dem bearbeitbaren Text.
+104	Wird mein PDF hochgeladen?
+105	Nein. Die Umwandlung findet in Ihrem Browser statt.
+106	Funktioniert es mit Google Präsentationen und Keynote?
+107	Ja. Die PPTX öffnet sich in PowerPoint, Google Präsentationen, Keynote und LibreOffice Impress.
+108	Kann ich nur einige Seiten umwandeln?
+109	Ja. Geben Sie einen Seitenbereich wie 1-3,5 an.
+110	Und gescannte PDFs?
+111	Gescannte Seiten werden automatisch mit integrierter OCR in 12 Sprachen gelesen, sodass Sie auch hier bearbeitbare Textfelder erhalten. Wählen Sie für mehr Genauigkeit die Sprache des Dokuments.
+112	Ist es kostenlos?
+113	Ja, ohne Limits und ohne Wasserzeichen.
+114	Warum sehen die Schriften etwas anders aus?
+115	Der Text wird in eine Standardschrift (Arial, Times oder Courier) gesetzt, die dem ursprünglichen Stil entspricht. Wählen Sie „Nur Seitenbilder“ für ein exaktes Aussehen.
+116	Welche Foliengröße wird verwendet?
+117	Die Foliengröße entspricht der Form der PDF-Seite, z. B. 16:9 für Präsentationen oder A4 für Dokumente.
+118	Wie wandle ich ein PDF in PowerPoint um?
+119	Legen Sie das PDF ab, wählen Sie den bearbeitbaren Modus (Textfelder über dem Originallayout) oder exakte Seitenbilder, geben Sie bei Bedarf einen Bereich an und wandeln Sie um. Öffnen Sie die PPTX in PowerPoint, Keynote oder Google Präsentationen.
+120	Wie wandle ich ein PDF ohne Formatverlust in PowerPoint um?
+121	Der exakte Modus setzt jede Seite als hochauflösendes Bild, sodass sie identisch aussieht, der Text aber nicht bearbeitbar ist. Der bearbeitbare Modus behält das Aussehen, indem er die Seite als Hintergrund nutzt, und legt echte, bearbeitbare Textfelder darüber, wobei Fett und Kursiv erhalten bleiben.

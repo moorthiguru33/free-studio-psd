@@ -1,0 +1,126 @@
+0	PDF zuschneiden
+1	Schneiden Sie die Ränder von PDF-Seiten ab.
+2	PDF online zuschneiden – Ränder aus einem PDF entfernen | {brand}
+3	Schneiden Sie PDF-Seiten millimetergenau zu, um weiße Ränder zu entfernen oder sich auf den Inhalt zu konzentrieren. Auf allen oder nur einigen Seiten.
+4	PDF zuschneiden
+5	Wählen Sie Ihr PDF aus.
+6	Geben Sie an, wie viel an jeder Seite abgeschnitten werden soll.
+7	Klicken Sie auf Starten und laden Sie herunter.
+8	Wird der abgeschnittene Inhalt gelöscht?
+9	Das Zuschneiden blendet Inhalte aus, die außerhalb des neuen Seitenrahmens liegen. Nutzen Sie PDF schwärzen, um sensible Inhalte dauerhaft zu entfernen.
+10	Gescannte Seiten und exportierte Folien haben oft breite Ränder oder unerwünschte Kanten. Zuschneiden verkleinert den sichtbaren Seitenbereich, sodass sich Dokumente auf Handys und E-Readern besser lesen und gedruckt sauberer aussehen.
+11	Breite weiße Ränder entfernen, um auf Handy oder Tablet besser zu lesen.
+12	Scannerkanten und -schatten abschneiden.
+13	Sich für eine Präsentation auf ein Diagramm oder eine Abbildung konzentrieren.
+14	Messen Sie auf einer Seite und wenden Sie es auf alle an, wenn die Seiten dasselbe Layout haben.
+15	Zuschneiden blendet Inhalte aus, löscht sie aber nicht: Nutzen Sie PDF schwärzen für sensible Inhalte.
+16	Nach dem Zuschneiden kann Seitengröße ändern den Inhalt wieder auf A4 oder Letter einpassen.
+17	Wird der abgeschnittene Inhalt gelöscht?
+18	Nein. Er wird außerhalb des neuen Seitenrahmens ausgeblendet. Nutzen Sie PDF schwärzen, um sensible Inhalte dauerhaft zu entfernen.
+19	Zuschneiden für E-Reader
+20	Ohne breite Ränder erscheint der Text auf kleinen Bildschirmen größer – besonders nützlich für wissenschaftliche Artikel und gescannte Bücher, die auf Handys, Tablets und E-Readern gelesen werden.
+21	PDF zuschneiden – Weiße Ränder oder exakte mm entfernen
+22	Schneiden Sie PDFs zu: weiße Ränder automatisch mit Abstand entfernen oder exakte mm an jeder Seite abschneiden, auf allen oder einigen Seiten. Ohne Upload.
+23	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Sejda
+24	PDF-Seiten online zuschneiden – automatisch oder präzise
+25	PDF zuschneiden entfernt die Ränder der Seiten eines PDFs. Nutzen Sie **Automatisch zuschneiden**, um weiße Ränder um den Inhalt automatisch zu entfernen, mit etwas Abstand, damit nichts gedrängt wirkt, oder wechseln Sie zu **Manuell**, um eine exakte Zahl Millimeter oben, rechts, unten und links abzuschneiden. Sie können alle Seiten oder nur einen Bereich wie 2-10 zuschneiden, und das Ergebnis ist ein neues PDF: Ihre Originaldatei bleibt unverändert.
+26	Zuschneiden ist ideal, um PDFs auf dem Handy oder E-Reader zu lesen (breite Ränder verschwenden Bildschirmfläche), Abbildungen und Diagramme für Folien vorzubereiten, Scannerkanten und schwarze Streifen zu entfernen, Druckmarken aus druckfertigen Dateien zu schneiden und als PDF gespeicherte Screenshots zu säubern.
+27	Automatisch zuschneiden: weiße Ränder entfernen
+28	Das automatische Zuschneiden rendert jede Seite auf Ihrem Gerät, sucht die äußersten nicht weißen Pixel und setzt den Zuschnittrahmen knapp außerhalb davon plus den gewählten Abstand (standardmäßig 3 mm). Ist **Gleicher Zuschnitt auf allen Seiten** aktiviert, nutzt das Tool den kleinsten auf allen ausgewählten Seiten gefundenen Rand, sodass alle Seiten gleich groß bleiben und der Inhalt beim Blättern nicht springt – am besten für Bücher und Berichte. Deaktivieren Sie es, um jede Seite eng an ihren eigenen Inhalt zuzuschneiden, was gut für Abbildungssammlungen und gescannte Belege unterschiedlicher Größe passt.
+29	Im automatischen Modus bleiben in der Datei gedrehte Seiten unverändert, und komplett leere Seiten werden übersprungen.
+30	Manuelles Zuschneiden in Millimetern
+31	Sie möchten…
+32	Eingabe
+33	Einen 1 cm breiten Scannerrand entfernen
+34	10 mm an jeder Seite
+35	Die Schnittmarken einer A4-Datei mit 3 mm Beschnitt entfernen
+36	Messen Sie die Marken; meist 10–15 mm pro Seite
+37	Nur die obere Hälfte einer Seite behalten
+38	Unten = halbe Seitenhöhe (148 mm bei A4)
+39	Einen Kopfzeilenstreifen entfernen
+40	Oben = Höhe der Kopfzeile
+41	Ein Millimeter entspricht etwa 2,83 PDF-Punkten. Ergeben die eingegebenen Ränder zusammen mehr als die Breite oder Höhe der Seite, erscheint ein Fehler mit Angabe der Seite – es wird also nichts versehentlich weggeschnitten.
+42	So schneiden Sie ein PDF kostenlos zu
+43	Legen Sie das PDF auf dieser Seite ab.
+44	Wählen Sie Automatisch zuschneiden (und den Abstand) oder manuelle Ränder in mm.
+45	Geben Sie bei Bedarf einen Seitenbereich wie 1-3,5 ein.
+46	Klicken Sie auf Zuschneiden und laden Sie das zugeschnittene PDF herunter.
+47	Ist das Zuschneiden dauerhaft?
+48	PDF-Zuschnitt funktioniert, indem der sichtbare Bereich der Seite geändert wird: CropBox, MediaBox, TrimBox und BleedBox werden auf die neue Größe gesetzt, sodass jeder Viewer und Drucker die zugeschnittene Seite zeigt. Inhalt außerhalb des Rahmens wird ausgeblendet, nicht gelöscht – das hält die Qualität perfekt und den Vorgang verlustfrei. Muss der ausgeblendete Inhalt wirklich verschwinden (etwa vertrauliche Notizen am Rand), nutzen Sie danach [PDF schwärzen](/redact-pdf/) oder [PDF reduzieren](/flatten-pdf/) im Modus *gesamter Inhalt*.
+49	PDF zu JPG zuschneiden
+50	Um statt eines PDFs ein zugeschnittenes Bild zu erhalten (eine Abbildung für eine Präsentation oder Website), schneiden Sie hier zuerst zu und wandeln das Ergebnis dann mit [PDF in JPG](/pdf-to-jpg/) oder [PDF in PNG](/pdf-to-png/) um. Da der Zuschnittrahmen berücksichtigt wird, enthalten die Bilder nur den behaltenen Bereich.
+51	Zuschneiden oder Größe ändern
+52	Zuschneiden entfernt Ränder und macht die Seite kleiner. [PDF-Größe ändern](/resize-pdf/) ändert das Papierformat (zum Beispiel von Letter auf A4) und skaliert den Inhalt passend. Muss ein Dokument nach dem Zuschneiden ein bestimmtes Papierformat haben, schneiden Sie zuerst zu und ändern danach die Größe.
+53	Tipps für das beste Ergebnis
+54	Lassen Sie bei Büchern *gleicher Zuschnitt* aktiviert, damit die Seiten ausgerichtet bleiben; bei gemischten Dokumenten deaktivieren Sie es.
+55	Fügen Sie 2–5 mm Abstand hinzu, damit der Text auf E-Readern nicht den Rand berührt.
+56	Gescannte Seiten mit grauem Hintergrund oder dunklen Rändern gelten eventuell nicht als „weiß“; nutzen Sie den manuellen Zuschnitt oder bereinigen Sie den Scan vorher.
+57	Schneiden Sie nur die Seiten zu, die es brauchen, indem Sie einen Bereich angeben: Titelseiten haben oft andere Ränder.
+58	Prüfen Sie nach dem Zuschneiden die erste und letzte Seite: Seitenzahlen in der Fußzeile sind ebenfalls Inhalt und bleiben erhalten.
+59	PDF online zuschneiden oder mit Desktop-Programmen
+60	Desktop-Editoren können Seiten zuschneiden, benötigen aber meist eine kostenpflichtige Lizenz. Die meisten Online-Tools laden Ihre Datei auf einen Server hoch. Dieses Tool bietet kostenlos automatisches und manuelles Zuschneiden, vollständig im Browser – praktisch für Verträge, Pläne und andere Dateien, die Sie lieber nicht hochladen.
+61	Glossar
+62	Begriff
+63	Bedeutung
+64	CropBox (Zuschnittrahmen)
+65	Der sichtbare Bereich einer Seite in einem PDF
+66	MediaBox (Medienrahmen)
+67	Die volle „Papier“-Größe der Seite
+68	BleedBox / TrimBox
+69	Bereiche für die Druckproduktion; hier werden sie auf die Zuschnittgröße gesetzt
+70	Abstand
+71	Zusätzlicher Raum um den Inhalt beim automatischen Zuschneiden
+72	Datenschutz
+73	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet also für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+74	Verwandte Tools
+75	[PDF-Größe ändern](/resize-pdf/)
+76	[PDF in JPG](/pdf-to-jpg/)
+77	[PDF schwärzen](/redact-pdf/)
+78	[PDF-Seiten halbieren](/split-pdf-pages-in-half/)
+79	[PDF drehen](/rotate-pdf/)
+80	Wo Ihre Datei verarbeitet wird
+81	In Ihrem Browser, nie hochgeladen
+82	Auf deren Servern (Upload)
+83	Auf deren Servern (Upload)
+84	Auf deren Servern (Upload)
+85	Konto erforderlich
+86	Nie
+87	Siehe Website
+88	Siehe Website
+89	Siehe Website
+90	Auf deren Servern (Upload)
+91	Ja
+92	Siehe Website
+93	Siehe Website
+94	Siehe Website
+95	Konto erforderlich
+96	Ja
+97	Siehe Website
+98	Siehe Website
+99	Siehe Website
+100	Seitenbereich
+101	Ja
+102	Siehe Website
+103	Siehe Website
+104	Siehe Website
+105	Automatisches Zuschneiden weißer Ränder
+106	Ja
+107	Siehe Website
+108	Siehe Website
+109	Siehe Website
+110	Wie schneide ich ein PDF zu?
+111	Legen Sie das PDF ab, wählen Sie automatisches Zuschneiden oder manuelle Ränder in mm und laden Sie die zugeschnittene Datei herunter.
+112	Kann ich PDF-Seiten kostenlos zuschneiden?
+113	Ja, ohne Registrierung, Wasserzeichen oder Limits.
+114	Kann ich ein PDF automatisch zuschneiden?
+115	Ja, das automatische Zuschneiden entfernt weiße Ränder automatisch, mit optionalem Abstand.
+116	Kann ich nur einige Seiten zuschneiden?
+117	Ja, geben Sie einen Bereich wie 2-10 ein.
+118	Verringert das Zuschneiden die Qualität?
+119	Nein, es ändert nur den sichtbaren Bereich; der Inhalt wird nicht neu gerendert.
+120	Wird der abgeschnittene Inhalt gelöscht?
+121	Er wird ausgeblendet. Nutzen Sie PDF schwärzen, um ihn dauerhaft zu entfernen.
+122	Wie schneide ich ein PDF zu einem JPG zu?
+123	Schneiden Sie hier zu und wandeln Sie danach mit PDF in JPG um.
+124	Wird mein PDF hochgeladen?
+125	Nein, das Zuschneiden läuft in Ihrem Browser.

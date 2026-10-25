@@ -1,0 +1,95 @@
+0	PDF zusammenfügen
+1	Mehrere PDFs zu einem Dokument kombinieren.
+2	PDF zusammenfügen – kostenlos, ohne Upload | {brand}
+3	Fügen Sie PDF-Dateien in Sekunden zu einem Dokument zusammen. Kostenlos, ohne Registrierung, ohne Dateilimit und ohne Wasserzeichen – direkt im Browser.
+4	PDF-Dateien zusammenfügen
+5	Wählen Sie die PDF-Dateien aus, die Sie kombinieren möchten, oder legen Sie sie ab.
+6	Ordnen Sie sie mit den Schaltflächen Nach oben/Nach unten.
+7	Klicken Sie auf Starten und laden Sie Ihr zusammengefügtes PDF herunter.
+8	Wie viele PDFs kann ich zusammenfügen?
+9	So viele, wie der Speicher Ihres Geräts zulässt: Es gibt kein künstliches Limit.
+10	PDF zusammenfügen ist der schnellste Weg, verstreute Dokumente (Scans, Rechnungen, Kapitel, Formulare) in eine einzige geordnete Datei zu verwandeln, die sich leicht teilen, drucken und archivieren lässt. {brand} fügt Ihre Dateien im Browser zusammen, sodass weder vertrauliche Verträge noch Scans Ihres Personalausweises über einen Server laufen.
+11	Gescannten Reisepass, Personalausweis und ein Formular für einen Online-Antrag in einem PDF kombinieren.
+12	Rechnungen oder Kontoauszüge jedes Monats für Ihren Steuerberater in einer Datei bündeln.
+13	Kapitel, Deckblatt und Anhänge zu einem Bericht oder einer Abschlussarbeit zusammenführen.
+14	Mehrere unterschriebene Seiten wieder zum vollständigen Vertrag zusammensetzen.
+15	Bringen Sie die Dateien mit den Schaltflächen Nach oben/Nach unten in die richtige Reihenfolge, bevor Sie auf Starten klicken.
+16	Ist die fertige Datei zu groß für E-Mails, verkleinern Sie sie anschließend mit PDF komprimieren.
+17	Brauchen Sie nur einige Seiten jeder Datei? Teilen oder extrahieren Sie zuerst die Seiten und fügen Sie sie dann zusammen.
+18	Verringert das Zusammenfügen die Qualität?
+19	Nein. Die Seiten werden unverändert kopiert, sodass der Text auswählbar bleibt und Bilder ihre ursprüngliche Qualität behalten.
+20	Kann ich passwortgeschützte PDFs zusammenfügen?
+21	Entsperren Sie sie zuerst mit PDF entsperren (Sie brauchen das Passwort) und fügen Sie sie dann zusammen.
+22	PDF zusammenfügen – PDFs und Bilder gratis, ohne Upload
+23	Fügen Sie PDFs und JPG/PNG-Bilder kostenlos im Browser zu einem PDF zusammen. Per Ziehen sortieren, Lesezeichen pro Datei, Leerseiten. Ohne Anmeldung.
+24	PDF-Dateien in beliebiger Reihenfolge kombinieren
+25	Fügen Sie zwei oder mehr PDFs hinzu, ziehen Sie die Dateikarten in die gewünschte Reihenfolge (oder sortieren Sie sie per Schaltfläche alphabetisch) und klicken Sie auf Zusammenfügen. {brand} kopiert jede Seite in ein neues Dokument, ohne etwas neu zu kodieren, sodass Text, Links, Schriften und Bildqualität exakt erhalten bleiben. Das Zusammenfügen geschieht in Ihrem Browser: Ein 300-seitiges Paket vertraulicher Verträge erreicht nie einen Server.
+26	**PDFs und Bilder mischen**: JPG-, PNG-, WebP-, HEIC-, AVIF-, GIF- und BMP-Dateien werden als Seiten hinzugefügt, sodass Sie das Foto eines Kassenbons in einem Schritt an eine Spesenabrechnung anhängen können.
+27	**Ein Lesezeichen pro Datei**: Das zusammengefügte PDF enthält einen Inhaltseintrag mit dem Namen jeder Quelldatei, sodass Sie in jedem PDF-Viewer direkt zu „Rechnung‑März“ oder „Kapitel 3“ springen.
+28	**Leere Trennseiten**: Fügen Sie auf Wunsch zwischen den Dateien eine leere Seite ein – praktisch für den abschnittsweisen Druck.
+29	**Auffüllen auf gerade Seitenzahl für Duplexdruck**: Jede Datei wird auf eine gerade Seitenzahl ergänzt, damit beim beidseitigen Druck jedes Dokument auf einem neuen Blatt beginnt.
+30	PDFs offline zusammenfügen
+31	Sobald diese Seite geladen ist, können Sie die Internetverbindung trennen und weiter Dateien zusammenfügen: Die pdf-lib-Engine, die die Arbeit erledigt, ist bereits in Ihrem Browser. So wird {brand} zu einem praktischen Offline-PDF-Tool im Zug, in einem eingeschränkten Büronetz oder überall mit schlechtem Empfang – ohne Software zu installieren.
+32	PDFs auf Mac, Windows, iPhone und Android zusammenfügen
+33	Da es eine Webseite ist, funktioniert dasselbe Tool in Safari unter macOS und iOS, in Chrome oder Edge unter Windows und in Chrome unter Android. Tippen Sie auf dem Smartphone auf den Upload-Bereich, um Dateien aus Dateien, Fotos oder Google Drive zu wählen; das zusammengefügte PDF wird in Ihren Downloads gespeichert. Unter macOS können Sie auch mit Vorschau zusammenfügen, aber {brand} ist schneller, wenn die Dateien in verschiedenen Ordnern liegen oder Bilder enthalten.
+34	Kann ich in Google Drive gespeicherte Dateien zusammenfügen?
+35	Ja: Laden Sie sie zuerst herunter oder wählen Sie sie unter Android und iOS direkt aus Drive in der Dateiauswahl. Die Dateien werden lokal gelesen; {brand} fragt nie nach Zugriff auf Ihr Drive-Konto.
+36	Die Größe eines zusammengefügten PDFs verringern
+37	Beim Zusammenfügen addieren sich die Größen: Drei Scans mit je 4 MB ergeben ein PDF mit 12 MB. Ist das zu viel für E-Mails, verkleinern Sie das Ergebnis mit [PDF komprimieren](/compress-pdf/) oder einem Tool mit fester Zielgröße wie [PDF auf 1 MB komprimieren](/compress-pdf-to-1mb/). Einmal nach dem Zusammenfügen zu komprimieren ist schneller, als jeden Teil einzeln zu komprimieren.
+38	Word-, Excel- oder PowerPoint-Dateien zusammenfügen
+39	Wandeln Sie sie zuerst mit [Word in PDF](/word-to-pdf/), [Excel in PDF](/excel-to-pdf/) oder [PowerPoint in PDF](/powerpoint-to-pdf/) in PDF um – auch diese arbeiten lokal – und fügen Sie die PDFs dann hier zusammen. Möchten Sie nach dem Zusammenfügen einzelne Seiten umsortieren oder entfernen? Nutzen Sie [PDF organisieren](/organize-pdf/).
+40	Tipps für ein gut geordnetes zusammengefügtes Dokument
+41	Benennen Sie die Dateien vor dem Zusammenfügen: Die Namen werden zu Lesezeichen, daher ist „01 Deckblatt“, „02 Bericht“ besser als „scan0043“.
+42	Nutzen Sie die Sortierung A–Z, wenn die Dateien nummeriert sind, und passen Sie dann per Ziehen an.
+43	Richten Sie gedrehte Seiten anschließend mit [PDF drehen](/rotate-pdf/) aus und fügen Sie [Seitenzahlen](/add-page-numbers/) hinzu, wenn die Reihenfolge feststeht.
+44	Aktivieren Sie das Auffüllen auf gerade Seitenzahl, bevor Sie Pakete doppelseitig drucken.
+45	Wo Ihre Datei verarbeitet wird
+46	In Ihrem Browser, nie hochgeladen
+47	Auf deren Servern
+48	Auf deren Servern
+49	Adobe-Cloud
+50	Auf deren Servern
+51	Funktioniert bei ausgeschaltetem WLAN
+52	Ja, nach dem Laden der Seite
+53	Nein
+54	Nein
+55	Nein
+56	Nein
+57	Konto oder E-Mail erforderlich
+58	Nie
+59	Nicht für die Grundnutzung
+60	Nicht für die Grundnutzung
+61	Anmeldung für einige Aktionen
+62	Nicht für die Grundnutzung
+63	Limits der Gratisnutzung
+64	Keine – nur die Ihres Geräts
+65	Gratis-Tarif; Premium für mehr
+66	Gratis-Tarif; Premium für mehr
+67	Gratis-Tarif; Premium für mehr
+68	3 Aufgaben/Stunde, 50 MB pro Datei
+69	Bilder (JPG/PNG/HEIC) als Seiten hinzufügen
+70	Ja
+71	Separates Tool
+72	Ja (PDF, Office, JPG, PNG)
+73	Siehe Website
+74	Siehe Website
+75	Lesezeichen pro Datei
+76	Ja
+77	Auf der Seite nicht angeboten
+78	Auf der Seite nicht angeboten
+79	Siehe Website
+80	Siehe Website
+81	Kann ich PDF- und JPG-Dateien zusammenfügen?
+82	Ja. Fügen Sie Bilder neben den PDFs hinzu; jedes Bild wird in der angezeigten Reihenfolge zu einer Seite. Auch HEIC-Fotos vom iPhone funktionieren.
+83	Wie füge ich PDF-Dateien auf einem Mac zusammen?
+84	Öffnen Sie diese Seite in Safari oder Chrome, fügen Sie die Dateien hinzu, ziehen Sie sie in die richtige Reihenfolge und klicken Sie auf Zusammenfügen. Es muss nichts installiert werden und die Dateien bleiben auf Ihrem Mac.
+85	Wie verringere ich die Größe eines zusammengefügten PDFs?
+86	Verkleinern Sie die zusammengefügte Datei mit PDF komprimieren. Die Stufe Empfohlen verkleinert gescannte Dokumente meist auf weniger als die Hälfte, während der Text scharf bleibt.
+87	Kann ich passwortgeschützte PDFs kombinieren?
+88	Verschlüsselte PDFs müssen zuerst mit PDF entsperren und dem Ihnen bekannten Passwort entsperrt werden. Danach werden sie ganz normal zusammengefügt.
+89	Wie füge ich PDFs am besten offline zusammen?
+90	Öffnen Sie diese Seite einmal und trennen Sie die Verbindung: Das Zusammenfügen funktioniert weiter im Browser, ohne Installation. Ihre Dateien verlassen nie Ihr Gerät.
+91	Wie füge ich mehrere PDFs zu einem zusammen?
+92	Legen Sie alle PDFs (und auf Wunsch JPG- oder PNG-Bilder) auf dieser Seite ab, ziehen Sie die Karten in die gewünschte Reihenfolge und klicken Sie auf Zusammenfügen. Sie laden ein einziges PDF mit allen Seiten herunter und, wenn gewünscht, mit einem Lesezeichen pro Datei.
+93	Kann ich PDFs kostenlos und ohne Registrierung zusammenfügen?
+94	Ja. Das Tool ist kostenlos, ohne Konto, ohne Wasserzeichen und ohne Tageslimit, weil die Dateien auf Ihrem eigenen Gerät und nicht auf einem Server kombiniert werden.

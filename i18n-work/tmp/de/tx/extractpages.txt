@@ -1,0 +1,153 @@
+0	PDF-Seiten extrahieren
+1	Wählen Sie Seiten und speichern Sie sie als neues PDF.
+2	PDF-Seiten online kostenlos extrahieren – Seiten speichern | {brand}
+3	Wählen Sie die benötigten Seiten und speichern Sie sie als neues PDF. Visuelle Seitenauswahl, kostenlos, unbegrenzt und privat: Nichts wird hochgeladen.
+4	PDF-Seiten extrahieren
+5	Wählen Sie Ihr PDF aus.
+6	Tippen Sie auf die Seiten, die Sie behalten möchten.
+7	Klicken Sie auf Starten und laden Sie das neue PDF herunter.
+8	Kann ich die Reihenfolge der extrahierten Seiten ändern?
+9	Ja. Ziehen Sie sie (oder nutzen Sie ← →), bevor Sie auf Starten klicken.
+10	Oft brauchen Sie nur einen Teil eines Dokuments: eine unterschriebene Seite, ein einzelnes Kapitel oder die Seiten zu einem Projekt. Mit Seiten extrahieren wählen Sie sie visuell aus und speichern sie als neues, kleineres PDF, ohne das Original anzutasten.
+11	Einem Kunden nur die Unterschriftsseite eines Vertrags zurücksenden.
+12	Ein Kapitel aus einem Buch oder Kursreader mit einer Lerngruppe teilen.
+13	Einen einzelnen Auszug oder eine Rechnung aus einer kombinierten Monatsdatei holen.
+14	Die wichtigsten Folien einer langen, als PDF exportierten Präsentation sammeln.
+15	Wählen Sie Seiten in beliebiger Reihenfolge und ordnen Sie sie vor dem Klick auf Starten neu.
+16	Für feste Bereiche wie 1-5 ist PDF teilen mit einem Seitenbereich schneller.
+17	Extrahierte Seiten behalten ihre Originalqualität und auswählbaren Text.
+18	Kann ich nicht aufeinanderfolgende Seiten extrahieren?
+19	Ja. Tippen Sie auf eine beliebige Kombination, etwa Seite 2, 7 und 15, und sie werden zusammen in einem PDF gespeichert.
+20	Ein Werkzeug zum Aufräumen von Seiten
+21	Statt separate Werkzeuge zum Drehen, Löschen und Umordnen von Seiten zu nutzen, zeigt PDF organisieren das ganze Dokument als Seitenraster. Nehmen Sie alle Änderungen auf einmal vor und exportieren Sie ein einziges sauberes PDF.
+22	Typischer Aufräum-Ablauf
+23	Scannen Sie einen Stapel Dokumente, löschen Sie leere Seiten, richten Sie seitlich liegende auf, ziehen Sie Seiten in die richtige Reihenfolge und exportieren Sie. Komprimieren Sie das Ergebnis danach, wenn Sie es per E-Mail senden müssen.
+24	Funktioniert auf jedem Gerät
+25	Die Miniaturen werden in Ihrem Browser erzeugt, sodass sich selbst große PDFs auf Laptop, Tablet oder Handy neu ordnen lassen, ohne sie auf einen Server hochzuladen.
+26	PDF-Seiten extrahieren – Ausgewählte Seiten kostenlos speichern
+27	Extrahieren Sie PDF-Seiten: Miniaturen markieren oder Bereiche wie 1-3,8 eingeben, als ein PDF oder jede Seite einzeln speichern. Kostenlos, ohne Upload.
+28	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Sejda
+29	Extrahieren Sie Seiten aus einem PDF in eine neue Datei
+30	Seiten extrahieren kopiert nur die benötigten Seiten eines größeren Dokuments in ein neues PDF. Markieren Sie Miniaturen oder geben Sie Seitenbereiche wie 1-3,8,12-15 ein und speichern Sie sie als ein kombiniertes PDF oder als separate Dateien (ein PDF pro Seite, in einem ZIP gebündelt). Das Originaldokument bleibt unverändert.
+31	Typische Anwendungen: die Unterschriftsseite eines Vertrags herausholen, nur das relevante Kapitel eines Handbuchs senden, eine einzelne Rechnung aus einem Monatsauszug speichern oder jede Seite eines gescannten Stapels in eine eigene Datei trennen.
+32	Zwei Wege, Seiten auszuwählen
+33	**Miniaturen anklicken**: Alle Seiten werden angezeigt; tippen Sie auf die gewünschten, und sie werden hervorgehoben.
+34	**Bereich eingeben**: Geben Sie 2-5,9 ein und klicken Sie auf Bereich auswählen. Sie können Bereiche und einzelne Seiten mischen und Eingaben mit Klicks kombinieren.
+35	**Auswahl löschen** beginnt neu, ohne die Datei erneut zu laden.
+36	Ein PDF oder separate Dateien
+37	Standardmäßig werden die ausgewählten Seiten zusammen in ihrer ursprünglichen Reihenfolge als PDF namens *ihredatei-extracted.pdf* gespeichert. Aktivieren Sie *Jede ausgewählte Seite als separates PDF speichern*, um eine Datei pro Seite zu erhalten, mit der Seitenzahl im Namen (zum Beispiel *bericht-page7.pdf*), geliefert in einem ZIP. Separate Dateien sind praktisch, wenn jede Seite ein eigenes Formular, ein Beleg oder ein Zertifikat ist, das einzeln abgelegt oder per E-Mail gesendet werden muss.
+38	So extrahieren Sie PDF-Seiten kostenlos
+39	Legen Sie das PDF auf dieser Seite ab.
+40	Markieren Sie die gewünschten Seiten oder geben Sie Bereiche ein und klicken Sie auf Bereich auswählen.
+41	Aktivieren Sie bei Bedarf die Option, jede Seite einzeln zu speichern.
+42	Klicken Sie auf Extrahieren und laden Sie das neue PDF oder ZIP herunter.
+43	Extrahieren, teilen oder löschen
+44	Ziel
+45	Nutzen Sie
+46	Einige Seiten behalten und den Rest verwerfen
+47	PDF-Seiten extrahieren
+48	Einige wenige Seiten entfernen und den Rest behalten
+49	[PDF-Seiten löschen](/delete-pdf-pages/)
+50	Das ganze Dokument in Teile schneiden
+51	[PDF teilen](/split-pdf/)
+52	An jedem Kapitel-Lesezeichen teilen
+53	[PDF nach Lesezeichen teilen](/split-pdf-by-bookmarks/)
+54	Die Seiten als Bilder erhalten
+55	[PDF in JPG](/pdf-to-jpg/)
+56	Was erhalten bleibt
+57	Extrahierte Seiten sind exakte Kopien: auswählbarer Text, Schriften, Vektorgrafiken und Bilder in voller Auflösung. Seitengröße und Drehung bleiben erhalten. Kommentare und Anmerkungen einer Seite wandern meist mit ihr. Lesezeichen des Originaldokuments werden nicht kopiert, weil sie auf Seiten verweisen würden, die es vielleicht nicht mehr gibt.
+58	Seiten als Bilder extrahieren
+59	Brauchen Sie statt eines PDFs ein Bild einer Seite (für eine Folie, eine Website oder eine Chatnachricht), nutzen Sie [PDF in JPG](/pdf-to-jpg/) oder [PDF in PNG](/pdf-to-png/) und geben Sie denselben Seitenbereich ein. Um nur die in ein PDF eingebetteten Fotos in Originalqualität herauszuholen, nutzen Sie [Bilder aus PDF extrahieren](/extract-images-from-pdf/).
+60	Große und geschützte Dateien
+61	Es gibt kein Seiten- oder Größenlimit außer dem Speicher Ihres Geräts; Miniaturen werden in niedriger Auflösung erzeugt, sodass sich auch lange Dokumente schnell durchsehen lassen. Braucht das PDF zum Öffnen ein Passwort, entsperren Sie es zuerst mit [PDF entsperren](/unlock-pdf/) (Sie müssen das Passwort kennen).
+62	Praxisbeispiel: drei Rechnungen aus einem Auszug holen
+63	Stellen Sie sich einen 40-seitigen Lieferantenauszug vor, aus dem Sie nur die Rechnungen auf den Seiten 6, 14 und 15 brauchen. Legen Sie das PDF ab, geben Sie *6,14-15* in das Bereichsfeld ein und klicken Sie auf *Bereich auswählen*: Die drei Miniaturen leuchten auf. Um jede Rechnung einzeln abzulegen, aktivieren Sie *Jede ausgewählte Seite als separates PDF speichern*. Klicken Sie auf Extrahieren, und Sie erhalten ein ZIP mit *auszug-page6.pdf*, *auszug-page14.pdf* und *auszug-page15.pdf*. Ohne dieses Kästchen erhalten Sie ein einziges dreiseitiges PDF. Das Ganze dauert Sekunden, und der Auszug wird nirgendwohin hochgeladen.
+64	Syntax der Seitenbereiche
+65	Sie geben ein
+66	Ausgewählte Seiten
+67	5
+68	Nur Seite 5
+69	1-3
+70	Seiten 1, 2 und 3
+71	2,4,6
+72	Seiten 2, 4 und 6
+73	1-3,10-12
+74	Seiten 1–3 und 10–12
+75	8-8
+76	Seite 8 (wie 8)
+77	Leerzeichen werden ignoriert, und Seiten, die im Dokument nicht existieren, werden als Fehler gemeldet, damit Sie den Bereich korrigieren können. Die Auswahl per Bereich kommt zu bereits angeklickten Seiten hinzu; nutzen Sie *Auswahl löschen*, um neu zu beginnen.
+78	Seiten am Handy extrahieren
+79	Auf kleinen Bildschirmen ist das Eingeben eines Bereichs oft schneller als das Antippen von Miniaturen. Die Seite funktioniert in Chrome, Safari, Firefox und Samsung Internet für Mobilgeräte. Ein einzelnes PDF landet in Ihrem Download-Ordner oder in der Dateien-App; ZIPs lassen sich mit der Dateien-App auf dem iPhone und den meisten Android-Dateimanagern öffnen. Wenn Sie das Ergebnis sofort teilen, ist ein einzelnes kombiniertes PDF am einfachsten.
+80	Seiten mit Kommentaren oder Formularfeldern extrahieren
+81	Anmerkungen wie Markierungen, Haftnotizen und gezeichnete Markierungen sind auf ihrer Seite gespeichert und gehen in den meisten Viewern in die extrahierte Datei über. Ausfüllbare Formularfelder werden mit ihren Seiten kopiert, aber wenn ein Formular Skripte nutzt, die auf Felder anderer Seiten verweisen, funktionieren diese nach dem Trennen eventuell nicht mehr. Brauchen Sie eine feste, nicht bearbeitbare Kopie, nutzen Sie vor dem Extrahieren [PDF reduzieren](/flatten-pdf/).
+82	Gründe, zu extrahieren statt die ganze Datei zu teilen
+83	**Datenschutz**: Senden Sie nur die Seite, die jemand braucht, nicht das ganze Dokument mit persönlichen Daten auf anderen Seiten.
+84	**Größe**: Ein zweiseitiger Auszug ist viel kleiner als ein 300-seitiges Handbuch und passt in E-Mail- und Chat-Limits.
+85	**Klarheit**: Prüfer sehen genau den Abschnitt, den sie unterschreiben oder kommentieren sollen.
+86	**Ablage**: Speichern Sie jeden Beleg, jedes Zertifikat oder Formular unter eigenem Namen in Ihren Unterlagen.
+87	Ungerade oder gerade Seiten auswählen
+88	Die Schaltflächen *Ungerade* und *Gerade* wählen mit einem Klick alle ungeraden (1, 3, 5…) oder geraden (2, 4, 6…) Seiten. Nützlich, um Vorder- und Rückseiten eines Duplex-Scans zu trennen oder nur die rechten Seiten eines Buchscans herauszuholen. Kombinieren Sie sie mit eingegebenen Bereichen und Klicks auf Miniaturen, um die Auswahl zu verfeinern.
+89	PDF-Seiten online extrahieren oder mit Desktop-Programmen
+90	Kostenpflichtige Desktop-PDF-Editoren können Seiten extrahieren, viele Online-Dienste ebenfalls – meist durch Hochladen Ihrer Datei auf ihre Server und teils mit Stundenlimits für Gratis-Nutzer. Hier wird das PDF in Ihrem Browser geöffnet und die neue Datei auf Ihrem Gerät erstellt, ohne Nutzungslimits. Das macht es schnell bei großen Dateien und langsamen Verbindungen und sicher für vertrauliche Dokumente.
+91	Glossar
+92	Begriff
+93	Bedeutung
+94	Extrahieren
+95	Die ausgewählten Seiten in ein neues Dokument kopieren
+96	Seitenbereich
+97	Eine Seitenliste wie 1-3,8
+98	ZIP
+99	Eine einzelne komprimierte Datei mit mehreren Dateien
+100	Reduzieren
+101	Formularfelder und Anmerkungen in den Seiteninhalt einbetten
+102	Das Ergebnis prüfen
+103	Die Ergebnismeldung zeigt, wie viele Seiten extrahiert wurden. Öffnen Sie die Datei zur Kontrolle; haben Sie die falschen Seiten gewählt, ändern Sie die Auswahl und klicken Sie erneut auf Extrahieren: Die Originaldatei bleibt geladen, bis Sie eine andere wählen.
+104	Datenschutz
+105	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet also für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+106	Verwandte Tools
+107	[PDF teilen](/split-pdf/)
+108	[PDF-Seiten löschen](/delete-pdf-pages/)
+109	[PDF organisieren](/organize-pdf/)
+110	[PDF in JPG](/pdf-to-jpg/)
+111	[PDF zusammenfügen](/merge-pdf/)
+112	Wo Ihre Datei verarbeitet wird
+113	In Ihrem Browser, nie hochgeladen
+114	Auf deren Servern (Upload)
+115	Auf deren Servern (Upload)
+116	Auf deren Servern (Upload)
+117	Konto erforderlich
+118	Nie
+119	Siehe Website
+120	Siehe Website
+121	Siehe Website
+122	Auswahl per eingegebenem Bereich
+123	Ja
+124	Siehe Website
+125	Siehe Website
+126	Siehe Website
+127	Jede Seite als eigenes PDF
+128	Ja (ZIP)
+129	Siehe Website
+130	Siehe Website
+131	Siehe Website
+132	Auswahl per Miniaturen
+133	Ja
+134	Siehe Website
+135	Siehe Website
+136	Siehe Website
+137	Wie extrahiere ich Seiten aus einem PDF?
+138	Legen Sie das PDF ab, markieren Sie Seiten oder geben Sie einen Bereich ein und klicken Sie auf Extrahieren, um ein neues PDF herunterzuladen.
+139	Wie extrahiere ich PDF-Seiten in separate Dateien?
+140	Aktivieren Sie „Jede ausgewählte Seite als separates PDF speichern“; Sie erhalten ein ZIP mit einem PDF pro Seite.
+141	Kann ich Seiten kostenlos extrahieren?
+142	Ja, ohne Registrierung, Wasserzeichen oder Seitenlimit.
+143	Kann ich die Seiten eines PDFs trennen?
+144	Ja: Wählen Sie alle Seiten und speichern Sie jede als separates PDF, oder nutzen Sie PDF teilen.
+145	Verringert das Extrahieren die Qualität?
+146	Nein, die Seiten werden exakt kopiert.
+147	Kann ich nicht aufeinanderfolgende Seiten extrahieren?
+148	Ja, z. B. 1,4,7-9.
+149	Wird meine Datei hochgeladen?
+150	Nein, das Extrahieren läuft in Ihrem Browser.
+151	Bleiben Lesezeichen erhalten?
+152	Nein; fügen Sie bei Bedarf mit dem Lesezeichen-Tool neue hinzu.

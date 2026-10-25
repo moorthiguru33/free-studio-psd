@@ -1,0 +1,162 @@
+0	JPG in PNG
+1	Wandeln Sie JPG-Bilder in Sekunden in PNG um.
+2	JPG in PNG umwandeln – Kostenlos, online und privat | {brand}
+3	Wandeln Sie JPG online kostenlos in PNG um. Viele Bilder auf einmal, direkt im Browser: ohne Upload, ohne Registrierung und ohne Wasserzeichen.
+4	JPG in PNG umwandeln
+5	Wählen Sie Ihre JPG-Bilder aus oder legen Sie sie ab (Stapel möglich).
+6	Wählen Sie Qualität und Optionen: PNG ist bereits ausgewählt.
+7	Klicken Sie auf Starten und laden Sie Ihre PNG-Dateien herunter (bei mehreren als ZIP).
+8	Verringert die Umwandlung von JPG in PNG die Qualität?
+9	Verlustfreie Formate wie PNG bewahren jedes Pixel. Bei JPG, WEBP und AVIF steuern Sie die Qualitätseinstellung; 85–92 ist bei den meisten Fotos optisch identisch.
+10	Kann ich viele JPG-Dateien auf einmal umwandeln?
+11	Ja. Wählen Sie beliebig viele Dateien; sie werden in Ihrem Browser umgewandelt und zusammen als ZIP heruntergeladen.
+12	JPG ist ideal für Fotos, nutzt aber verlustbehaftete Komprimierung. Die Umwandlung in PNG gibt Ihnen eine verlustfreie Kopie: nützlich, wenn Sie ein Bild oft bearbeiten, ein von Designtools bevorzugtes Format brauchen oder später Transparenz hinzufügen möchten.
+13	Ein Foto vorbereiten, um es oft ohne weiteren Qualitätsverlust zu bearbeiten.
+14	Bilder in Tools oder Vorlagen verwenden, die PNG verlangen.
+15	Einen Freisteller oder eine transparente Grafik aus einem JPG beginnen.
+16	PNGs sind meist größer als JPGs: Das ist normal.
+17	Die Umwandlung kann bereits im JPG verlorene Details nicht wiederherstellen.
+18	Nutzen Sie Hintergrund entfernen, um den Hintergrund transparent zu machen.
+19	Verbessert die Umwandlung in PNG die Qualität?
+20	Nein, die aktuelle Qualität bleibt exakt erhalten, aber in früheren JPG-Komprimierungen verlorene Details lassen sich nicht wiederherstellen.
+21	JPG in PNG umwandeln – Transparenter Hintergrund, gratis
+22	Wandeln Sie JPG verlustfrei in PNG um und machen Sie optional den weißen Hintergrund transparent. Größe ändern, ZIP-Stapel, jedes Format. Ohne Upload.
+23	{tool}: {brand} im Vergleich zu CloudConvert, FreeConvert und Convertio
+24	Verlustfreie PNGs aus Ihren JPG-Bildern
+25	Es gibt gute Gründe, ein JPG in PNG umzuwandeln. Designtools und Präsentationsprogramme beherrschen PNG-Transparenz; manche Druckereien, Spiele-Engines und App-Stores verlangen PNG; und wenn Sie ein Bild oft bearbeiten, verhindert PNG, dass jedes Speichern eine weitere Schicht JPG-Artefakte hinzufügt. {brand} wandelt JPG sofort in Ihrem Browser in PNG um und kann auch einen weißen Hintergrund transparent machen – ideal für Logos, Unterschriften und auf weißem Papier fotografierte Produktfotos.
+26	Ihre Bilder werden auf Ihrem eigenen Gerät umgewandelt. Nichts wird hochgeladen, es gibt keine Größengrenze, und Sie können ein Bild oder einen ganzen Ordner auf einmal umwandeln.
+27	Funktionen
+28	**Verlustfreie PNG-Ausgabe**: Jedes Pixel des JPGs bleibt exakt erhalten.
+29	**Weiß transparent machen**: Ein Kästchen verwandelt einen weißen oder fast weißen Hintergrund in Transparenz, mit weichen, geglätteten Kanten.
+30	**Größe beim Umwandeln ändern**: Legen Sie eine maximale Breite für Websites oder Apps fest.
+31	**Stapelumwandlung** in einem einzigen ZIP.
+32	**Erzeugt auch** WebP, AVIF, GIF, BMP, TIFF, ICO und SVG (vektorisiert) auf demselben Bildschirm.
+33	**Privat, kostenlos und unbegrenzt**: läuft lokal, ohne Registrierung und ohne Wasserzeichen.
+34	So wandeln Sie JPG in PNG um
+35	Legen Sie Ihre JPG- oder JPEG-Dateien ab (oder fügen Sie eine mit Strg+V ein).
+36	Lassen Sie das Format auf PNG.
+37	Aktivieren Sie „Weißen Hintergrund transparent machen“, wenn Sie ein transparentes PNG möchten.
+38	Legen Sie bei Bedarf eine maximale Breite fest.
+39	Klicken Sie auf Umwandeln und laden Sie herunter.
+40	Zwischen JPG in PNG, WebP oder SVG wählen
+41	PNG ist die sichere Wahl für Transparenz, weil alle Programme sie unterstützen. Ist das Bild für eine Website und zählt die Größe, ist WebP mit Transparenz bei Fotos meist um ein Mehrfaches kleiner als PNG und funktioniert in allen aktuellen Browsern: Wählen Sie WebP im Formatmenü mit derselben Transparenzoption. Ist das Bild ein einfaches Logo oder Symbol mit wenigen Farben, wandelt die Option „SVG (vektorisieren)“ es in eine Vektordatei um, die sich auf jede Größe skalieren lässt; das funktioniert besser bei flachen, kontrastreichen Designs als bei Fotos. Für App-Symbole und Favicons bleibt PNG der Standard. Was Sie auch wählen, behalten Sie das ursprüngliche JPG, um es bei geänderten Anforderungen erneut umwandeln zu können.
+42	Den Hintergrund eines JPGs transparent machen
+43	JPG-Dateien können keine Transparenz enthalten, ein als JPG gespeichertes Logo oder eine Unterschrift hat also immer einen festen, meist weißen Hintergrund. Mit aktiviertem „Weißen Hintergrund transparent machen“ wird jedes Pixel nahe Reinweiß transparent, und fast weiße Pixel an den Kanten werden teilweise transparent. So verschwindet der weiße Kasten um ein Logo oder eine gescannte Unterschrift, und die Kanten bleiben weich.
+44	Am besten funktioniert es, wenn der Hintergrund sauber weiß ist und das Motiv eine andere Farbe hat. Hellgraue Schatten, gebrochen weißes Papier oder Verläufe können teilweise sichtbar bleiben. Für Fotos mit komplexen Hintergründen (eine Person in einem Raum, ein Produkt auf einem Tisch) nutzen Sie das KI-Tool [Hintergrund entfernen](/remove-background/), das jedes Motiv von jedem Hintergrund trennen kann.
+45	Digitale Unterschriften als transparentes PNG
+46	Ein häufiger Einsatz sind Unterschriften. Unterschreiben Sie mit dunkler Tinte auf sauberem weißem Papier, fotografieren oder scannen Sie sie, schneiden Sie sie mit [Bild zuschneiden](/crop-image/) eng zu und wandeln Sie sie in PNG mit transparentem weißem Hintergrund um. Das resultierende PNG lässt sich in Verträgen in Word, Google Docs oder PDF-Editoren platzieren, ohne dass ein weißes Rechteck die Linien des Dokuments verdeckt. [PDF unterschreiben](/sign-pdf/) kann es direkt in ein PDF setzen.
+47	Bildgröße und Auflösung
+48	Das PNG hat exakt dieselben Pixelmaße wie Ihr JPG, es sei denn, Sie legen eine maximale Breite fest. Auflösungs-Metadaten wie 72 oder 300 DPI spielen am Bildschirm keine Rolle; sie sagen der Drucksoftware nur, in welcher Größe das Bild standardmäßig gedruckt wird. Verlangt eine Druckerei oder ein Formular bestimmte DPI, zählt eigentlich die Pixelanzahl: 300 DPI bei 10 cm Breite erfordern etwa 1181 Pixel. Nutzen Sie [Bildgröße ändern](/resize-image/) mit Zentimetern oder Zoll und einem DPI-Wert, um vor oder nach der Umwandlung die exakte Größe zu erhalten.
+49	Verbessert die Umwandlung in PNG die Qualität?
+50	Nein, und das ist ein häufiges Missverständnis. Ein JPG in PNG umzuwandeln behält das Bild exakt so, wie es ist, einschließlich bereits vorhandener JPG-Artefakte. Es fügt keine Details hinzu und schärft nichts. PNG verhindert lediglich weitere Verluste: Jedes Mal, wenn Sie ein JPG bearbeiten und erneut speichern, geht etwas mehr Detail verloren, während sich ein PNG endlos ohne weitere Änderungen bearbeiten und speichern lässt.
+51	Möchten Sie ein größeres oder schärferes Bild, nutzen Sie [Bild hochskalieren](/upscale-image/). Möchten Sie eine kleinere Datei, bleiben Sie beim JPG oder nutzen Sie [Bild komprimieren](/compress-image/): Die PNG-Version eines Fotos ist meist um ein Mehrfaches größer als das JPG.
+52	Geschwindigkeit
+53	Die Umwandlung ist bei normalen Fotos fast sofort fertig, weil es keinen Upload oder Download von einem Server gibt: Der Browser dekodiert das JPG und schreibt das PNG direkt. Sehr große Bilder ab 50 Megapixeln können einige Sekunden dauern, vor allem beim Schreiben der großen verlustfreien PNG-Datei.
+54	Stapel werden Bild für Bild verarbeitet, selbst einige hundert Fotos blockieren also weder Browser noch Handy.
+55	JPG im Vergleich zu PNG
+56	
+57	JPG
+58	PNG
+59	Kompression
+60	Verlustbehaftet
+61	Verlustfrei
+62	Transparenz
+63	Nein
+64	Ja, mit weichen Kanten
+65	Typische Verwendung
+66	Fotos
+67	Logos, Symbole, Screenshots, Grafiken, Bearbeitung
+68	Größe bei Fotos
+69	Klein
+70	3- bis 10-mal größer
+71	Wiederholte Bearbeitung
+72	Verschlechtert sich bei jedem Speichern leicht
+73	Verlustfrei
+74	Für Webfotos ist JPG oder WebP fast immer die beste Wahl. Für Logos und Grafiken mit Transparenz eher PNG oder SVG. WebP kann beides (verlustbehaftete Komprimierung und Transparenz) und ist eine gute Option, wenn das Ziel es unterstützt.
+75	Wann Sie ein PNG brauchen
+76	Logos und Symbole, die auf farbigen Hintergründen stehen sollen.
+77	Unterschriften und Stempel zum Platzieren in Dokumenten.
+78	Bilder, die Sie in Photoshop, GIMP oder Figma weiter bearbeiten.
+79	Assets für App-Stores und Spiele, die PNG verlangen.
+80	Sticker-Pakete für Messenger-Apps.
+81	Bilder mit Text oder Diagrammen, die nach weiteren Bearbeitungen perfekt scharf bleiben müssen.
+82	Warum ist das PNG so viel größer?
+83	Ein JPG speichert eine vereinfachte Version des Fotos, deshalb ist es klein. PNG speichert jedes Pixel exakt, und Fotos haben Millionen leicht unterschiedlicher Pixel, eine verlustfreie Datei ist also zwangsläufig größer: Ein JPG-Foto mit 400 KB kann zu einem PNG mit 3–5 MB werden. Das ist normal. Zählt die Größe, legen Sie beim Umwandeln eine maximale Breite fest oder wählen Sie statt PNG die WebP-Ausgabe mit Transparenz.
+84	Andere Formate in PNG umwandeln
+85	Der Konverter akzeptiert mehr als JPG: Von Websites gespeicherte WebP-Bilder, HEIC-Fotos vom iPhone, BMP- und TIFF-Scans, GIFs (erstes Bild), AVIF und SVG werden auf dieselbe Weise in PNG umgewandelt. SVGs werden in ihrer natürlichen Größe gerendert; brauchen Sie ein großes PNG aus einem kleinen Symbol, vergrößern Sie es vorher in einem SVG-Editor.
+86	Logos für Websites und Apps vorbereiten
+87	Ist die einzige Kopie Ihres Logos ein JPG auf weißem Hintergrund, wandeln Sie es in PNG mit transparentem Weiß um, damit es auf farbigen Kopfzeilen, Dark-Mode-Seiten und Fotos stehen kann. Für das schärfste Ergebnis gehen Sie von der größten verfügbaren Version aus und legen keine maximale Breite fest; skalieren Sie danach Kopien für jeden Zweck mit [Bildgröße ändern](/resize-image/). Viele Favicons und App-Symbole entstehen aus solchen PNGs: Der [Favicon-Generator](/favicon-generator/) kann eines in alle Größen umwandeln, die Browser und Handys brauchen.
+88	Haben Sie das Logo als Vektorgrafik (SVG, AI oder PDF), wandeln Sie diese statt des JPGs um: Vektorlogos lassen sich ohne Unschärfe auf jede Größe skalieren. [SVG in PNG](/svg-to-png/) rendert SVG direkt in PNG.
+89	Tipps für ein saubereres transparentes Ergebnis
+90	Fotografieren oder scannen Sie auf sauberem, hellem weißem Papier bei gleichmäßigem Licht, ohne Schatten auf dem Blatt.
+91	Schneiden Sie das Motiv vor der Umwandlung eng zu, damit weniger Hintergrund entfernt werden muss.
+92	Erhöhen Sie vorher in einem Bildbearbeitungsprogramm den Kontrast, wenn das Papier grau wirkt; der Transparenz-Schwellenwert wirkt auf fast weiße Pixel.
+93	Prüfen Sie das Ergebnis auf einem dunklen Hintergrund: Ein verbliebener heller Rand ist dort deutlich zu sehen.
+94	Beachten Sie bei farbigen Logos mit Weiß im Design (ein weißer Buchstabe in einem roten Kreis), dass auch die weißen Teile transparent werden; nutzen Sie Hintergrund entfernen oder ein Bildbearbeitungsprogramm, wenn Sie das nicht möchten.
+95	JPG in PNG für Druck und Bearbeitung
+96	Druckereien brauchen selten PNG: Hochwertiges JPG ist der Standard für Fotos. PNG ist nützlich, wenn Sie ein Bild viele Male bearbeiten: PNG im Editor öffnen, bearbeiten, speichern, wieder öffnen und weitermachen, ohne dass sich JPG-Artefakte ansammeln. Wenn Sie fertig sind, exportieren Sie die Endfassung einmal als JPG zum Teilen. Grafikdesigner behalten oft eine PNG- oder TIFF-Masterdatei und exportieren JPG nur für die Auslieferung.
+97	Lassen sich PNG-Dateien komprimieren?
+98	Ja. Die PNG-Kompression ist verlustfrei, daher bleibt ein umgewandeltes Foto groß, aber [Bild komprimieren](/compress-image/) kann PNG-Dateien durch Farbquantisierung um 60 bis 80 % verkleinern: Dabei wird die beste Palette mit 256 Farben für das Bild gewählt. Bei Logos, Symbolen und Screenshots ist das Ergebnis optisch identisch und die Transparenz bleibt erhalten. Bei Fotos kann die Quantisierung in weichen Verläufen leichte Streifen zeigen; dort ist WebP die bessere Wahl.
+99	Datenschutz
+100	Jeder Schritt läuft im Browser-Tab ab. Das Bild wird auf Ihrem eigenen Gerät mit der integrierten Bild-Engine des Browsers und WebAssembly dekodiert, bearbeitet und neu kodiert, und das Ergebnis landet direkt in Ihrem Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert, und es gibt keine Warteschlange – private Fotos, Ausweisdokumente, Screenshots mit persönlichen Daten und Fotos unveröffentlichter Produkte verlassen also nie Ihren Computer oder Ihr Handy. Sie können sogar das WLAN trennen, sobald die Seite geladen ist, und das Tool funktioniert weiter.
+101	Verwandte Tools
+102	[PNG in JPG](/png-to-jpg/): die umgekehrte Richtung, mit Hintergrundfarbe.
+103	[Hintergrund entfernen](/remove-background/): KI-Freisteller für komplexe Fotos.
+104	[PDF unterschreiben](/sign-pdf/): Platzieren Sie eine transparente Unterschrift in einem PDF.
+105	[Bildkonverter](/image-converter/): alle Formate.
+106	[Bild komprimieren](/compress-image/): kleinere PNG-Dateien durch Palettenkompression.
+107	Wo Ihr Bild verarbeitet wird
+108	In Ihrem Browser, nie hochgeladen
+109	Auf deren Servern (Upload)
+110	Auf deren Servern (Upload)
+111	Auf deren Servern (Upload)
+112	Konto oder E-Mail erforderlich
+113	Nie
+114	Nicht für die Grundnutzung
+115	Nicht für die Grundnutzung
+116	Nicht für die Grundnutzung
+117	Limits der Gratisnutzung
+118	Keine – nur die Ihres Geräts
+119	Siehe Website
+120	Siehe Website
+121	Siehe Website
+122	Eine Farbe transparent machen
+123	Weiß → transparent
+124	Siehe Website
+125	„Farbe wählen, die transparent werden soll“
+126	Siehe Website
+127	Größe beim Umwandeln ändern
+128	Maximale Breite
+129	Siehe Website
+130	Ja
+131	Siehe Website
+132	Dateigrößenlimit
+133	Keins (Gerätespeicher)
+134	Siehe Website
+135	Siehe Website
+136	Maximal 1 GB (laut deren Seite)
+137	Dateiaufbewahrung
+138	Nie hochgeladen
+139	Siehe Website
+140	Siehe Website
+141	Werden nach 24 Stunden gelöscht
+142	Wie wandle ich JPG in PNG um?
+143	Legen Sie Ihre JPG-Dateien ab, lassen Sie PNG ausgewählt und klicken Sie auf Umwandeln.
+144	Kann ich den Hintergrund transparent machen?
+145	Ja. Aktivieren Sie „Weißen Hintergrund transparent machen“. Das funktioniert bei weißen oder fast weißen Hintergründen; für komplexe Hintergründe nutzen Sie Hintergrund entfernen.
+146	Verbessert die Umwandlung von JPG in PNG die Qualität?
+147	Nein. Das Bild bleibt genau so, wie es ist, aber spätere Bearbeitungen verlieren keine Qualität mehr.
+148	Warum ist meine PNG-Datei größer als das JPG?
+149	PNG ist verlustfrei, daher brauchen Fotos viel mehr Bytes. Legen Sie eine maximale Breite fest oder nutzen Sie WebP, wenn die Größe wichtig ist.
+150	Kann ich mehrere JPG-Dateien auf einmal umwandeln?
+151	Ja, und Sie erhalten eine einzige ZIP-Datei.
+152	Werden meine Dateien hochgeladen?
+153	Nein. Alles läuft in Ihrem Browser.
+154	Wie erstelle ich eine transparente Unterschrift?
+155	Unterschreiben Sie auf weißem Papier, fotografieren Sie es, schneiden Sie es zu und wandeln Sie es mit aktiviertem „Weißen Hintergrund transparent machen“ in PNG um.
+156	Ist es kostenlos?
+157	Ja, ohne Limits, ohne Registrierung und ohne Wasserzeichen.
+158	Funktioniert es auf dem Handy?
+159	Ja, in Safari und Chrome auf dem Smartphone.
+160	Wie wandle ich JPG in PNG mit transparentem Hintergrund um?
+161	Aktivieren Sie „Weißen Hintergrund transparent machen“ und passen Sie die Toleranz an. Das funktioniert bei Logos und Grafiken auf reinem Weiß; für Fotos nutzen Sie Hintergrund entfernen.

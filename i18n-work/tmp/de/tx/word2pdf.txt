@@ -1,0 +1,108 @@
+0	Word in PDF
+1	DOCX-Dokumente in PDF umwandeln.
+2	Word in PDF umwandeln online kostenlos – DOCX in PDF | {brand}
+3	Word-Dokumente (DOCX) im Browser in PDF umwandeln. Kostenlos, ohne Upload und ohne Wasserzeichen.
+4	Word in PDF umwandeln
+5	Wählen Sie Ihre DOCX-Datei aus.
+6	Klicken Sie auf Starten.
+7	Laden Sie das PDF herunter.
+8	Bleibt die Formatierung erhalten?
+9	Text, Überschriften, Fett- und Kursivschrift, Listen, Tabellen, Bilder und Ränder bleiben erhalten. Prüfen Sie Dokumente mit sehr komplexen Layouts.
+10	Ein PDF sieht auf jedem Gerät gleich aus – deshalb verlangen es die meisten Formulare und Portale. {brand} wandelt DOCX-Dateien in Ihrem Browser in PDF um, sodass Ihre Lebensläufe und Briefe Ihr Gerät nie verlassen.
+11	Lebenslauf oder Anschreiben vor der Bewerbung in PDF umwandeln.
+12	Briefe oder Berichte senden, die nicht bearbeitet werden sollen.
+13	Dokumente für den Druck vorbereiten.
+14	Prüfen Sie das Ergebnis bei Dokumenten mit vielen Bildern oder komplexen Layouts.
+15	Für vollständige Layouttreue können Sie auch die Funktion „Als PDF speichern“ in Word selbst nutzen.
+16	Warum PDF statt Word senden?
+17	Ein Word-Dokument kann auf einem anderen Computer anders aussehen – wegen fehlender Schriften oder anderer Programmversionen. Ein PDF bewahrt das Layout, lässt sich schwerer versehentlich ändern und wird von praktisch allen Jobportalen und Organisationen akzeptiert.
+18	Kompatibilität
+19	Unterstützt werden DOCX-Dateien aus Microsoft Word, Google Docs (als DOCX heruntergeladen), LibreOffice und Pages-Exporte.
+20	Word in PDF umwandeln – kostenlos, im Stapel, ohne Upload
+21	Word (DOCX, DOC) kostenlos im Browser in PDF umwandeln. Stapelumwandlung als ZIP; Schriften, Tabellen und Bilder bleiben. Ohne Upload und Wasserzeichen.
+22	Warum Word hier in PDF umwandeln?
+23	Ein Word-Dokument sieht auf jedem Computer anders aus: Schriften werden ersetzt, Seitenumbrüche verschieben sich und Bilder rutschen. Ein PDF friert das Layout ein, sodass der Empfänger genau das sieht, was Sie senden – unter Windows, macOS, auf dem Smartphone oder dem Drucker. Deshalb werden Lebensläufe, Rechnungen, Hausarbeiten, Verträge und Behördenformulare fast immer als PDF verlangt.
+24	{brand} wandelt die .docx-Datei in Ihrem Browser um. Das Dokument wird auf Ihrem eigenen Gerät entpackt und gesetzt, und das fertige PDF entsteht lokal. Ihre Datei wird nie an einen Server übertragen, sodass vertrauliche Personalschreiben, Kundenangebote oder Prüfungsantworten auf Ihrem Rechner bleiben.
+25	**Kostenlose Stapelumwandlung**: Legen Sie mehrere DOCX-Dateien auf einmal ab und erhalten Sie ein ZIP mit den PDFs. Smallpdf behält die Stapelverarbeitung zahlenden Tarifen vor; hier ist sie kostenlos und unbegrenzt.
+26	**Bewahrt das Wichtige**: Absätze, Überschriften, Fett- und Kursivschrift, Listen, Tabellen, Bilder, Seitenformat und Ränder.
+27	**Kein Wasserzeichen, kein Tageslimit**: Wandeln Sie eine Datei um oder hundert, heute und morgen.
+28	**Funktioniert offline**: Sobald die Seite geladen ist, können Sie das WLAN ausschalten und weiter umwandeln.
+29	So speichern Sie ein Word-Dokument ohne Website als PDF
+30	Wenn Microsoft Word installiert ist, können Sie auch **Datei → Speichern unter → PDF** (Windows) oder **Datei → Exportieren → PDF** (Mac) wählen. Google Docs bietet **Datei → Herunterladen → PDF-Dokument**, und LibreOffice hat **Datei → Als PDF exportieren**. Das sind gute Optionen, wenn das Programm ohnehin geöffnet ist.
+31	Dieses Tool hilft, wenn Sie an einem Computer ohne Office, an einem Chromebook oder am Smartphone sind, wenn Sie einen ganzen Ordner auf einmal umwandeln müssen oder wenn Sie eine DOCX erhalten haben und schnell ein PDF wollen, ohne etwas zu installieren.
+32	Tipps für ein perfektes PDF
+33	**Gängige Schriften verwenden**: Calibri, Arial, Times New Roman und ähnliche Schriften werden mit höchster Treue umgewandelt. Seltene Zierschriften werden eventuell durch ähnliche ersetzt.
+34	**Nachverfolgte Änderungen vorher annehmen**: Kommentare und Überarbeitungsmarkierungen werden nicht gedruckt, stellen Sie das Dokument also in Word fertig, bevor Sie es umwandeln.
+35	**Seitenformat prüfen**: A4 und US-Letter werden unterstützt; das PDF nutzt das im Dokument festgelegte Format.
+36	**Große Bilder**: Sehr hochauflösende Fotos erzeugen große PDFs. Verkleinern Sie das Ergebnis mit [PDF komprimieren](/compress-pdf/) für den E-Mail-Versand.
+37	**Alte .doc-Dateien**: Auch .doc-Dateien aus Word 97–2003 werden unterstützt. Text und Absätze werden in Ihrem Browser umgewandelt; bei komplexen Layouts mit Bildern speichern Sie sie zuvor als .docx, um das treueste Ergebnis zu erhalten.
+38	Typische Anwendungen
+39	Einen Lebenslauf oder ein Anschreiben senden, das bei jedem Personaler identisch aussieht.
+40	Hausarbeiten und Abschlussarbeiten auf Portalen einreichen, die nur PDF akzeptieren.
+41	Einen Stapel generierter Briefe oder Rechnungen auf einmal in PDF umwandeln.
+42	Genehmigte Dokumente archivieren, damit niemand sie versehentlich bearbeitet.
+43	Ein Dokument zum Unterschreiben mit [PDF unterschreiben](/sign-pdf/) vorbereiten oder mit [PDF zusammenfügen](/merge-pdf/) mit anderen kombinieren.
+44	Was mit Ihrem Dokument passiert
+45	Alles läuft in JavaScript im Browsertab. Die DOCX wird von Ihrer Festplatte in den Arbeitsspeicher gelesen, umgewandelt, und das PDF wird zum Download angeboten. Beim Schließen des Tabs wird alles verworfen. Es gibt kein Konto, kein Tracking Ihrer Dateien per Cookies und keine irgendwo gespeicherte Kopie – Sie können das prüfen, indem Sie nach dem Laden der Seite die Internetverbindung trennen.
+46	Word in PDF unter Windows, Mac, Chromebook und auf dem Smartphone
+47	Da der Konverter eine Webseite ist, verhält er sich überall gleich. Auf einem Windows-PC oder Mac ersparen Sie sich, Word nur zum Exportieren zu öffnen. Auf einem Chromebook, wo die Desktop-Apps von Microsoft Office fehlen, liefert er in Sekunden ein originalgetreues PDF. Unter Android oder auf dem iPhone öffnen Sie die DOCX aus Ihrer E-Mail oder der Dateien-App, wandeln sie hier um und teilen das PDF direkt – sehr praktisch, wenn ein Portal oder ein Personaler ein PDF verlangt und Sie nicht am Schreibtisch sind.
+48	Wo Ihre Datei verarbeitet wird
+49	In Ihrem Browser, nie hochgeladen
+50	Auf deren Servern
+51	Auf deren Servern
+52	Adobe-Cloud
+53	Auf deren Servern
+54	Funktioniert bei ausgeschaltetem WLAN
+55	Ja, nach dem Laden der Seite
+56	Nein
+57	Nein
+58	Nein
+59	Nein
+60	Konto oder E-Mail erforderlich
+61	Nie
+62	Nicht für die Grundnutzung
+63	Nicht für die Grundnutzung
+64	Anmeldung für einige Aktionen
+65	Nicht für die Grundnutzung
+66	Limits der Gratisnutzung
+67	Keine – nur die Ihres Geräts
+68	Gratis-Tarif; Premium für mehr
+69	Gratis-Tarif; Premium für mehr
+70	Gratis-Tarif; Premium für mehr
+71	3 Aufgaben/Stunde, 50 MB pro Datei
+72	Stapelumwandlung
+73	Kostenlos: viele Dateien in einem ZIP
+74	Siehe Website
+75	Pro-Tarife
+76	Siehe Website
+77	Im Rahmen des Aufgabenlimits
+78	Wasserzeichen im Ergebnis
+79	Nie
+80	Nein
+81	Nein
+82	Nein
+83	Nein
+84	Ist dieser Word-in-PDF-Konverter wirklich kostenlos?
+85	Ja. Es gibt keine Testphase, kein Wasserzeichen und kein Limit für Dateien oder Umwandlungen.
+86	Kann ich mehrere Word-Dateien auf einmal umwandeln?
+87	Ja. Wählen Sie mehrere DOCX-Dateien aus oder legen Sie sie ab, und Sie erhalten ein ZIP mit einem PDF pro Dokument.
+88	Werden meine Dokumente hochgeladen?
+89	Nein. Die Umwandlung findet in Ihrem Browser statt, sodass die Datei Ihr Gerät nie verlässt. Nach dem Laden der Seite funktioniert es sogar offline.
+90	Bleibt die Formatierung gleich?
+91	Absätze, Überschriften, Schriften, Listen, Tabellen, Bilder und Ränder bleiben erhalten. Sehr seltene Schriften werden eventuell durch ähnliche ersetzt.
+92	Werden .doc-Dateien unterstützt?
+93	Ja. .doc-Dateien aus Word 97–2003 werden direkt in Ihrem Browser umgewandelt (Text und Absätze). Bei Dokumenten mit vielen Bildern oder komplexen Tabellen liefert das vorherige Speichern als .docx das treueste Ergebnis.
+94	Wie speichere ich ein Word-Dokument in Word selbst als PDF?
+95	Nutzen Sie in Word „Datei → Speichern unter“ und wählen Sie PDF (Windows) oder „Datei → Exportieren → PDF“ (Mac). Dieses Tool ist praktisch, wenn Word nicht installiert ist.
+96	Kann ich Word auf dem Smartphone in PDF umwandeln?
+97	Ja. Das Tool funktioniert in mobilen Browsern unter Android und auf dem iPhone, ohne eine App zu installieren.
+98	Kann ich das PDF später wieder in Word umwandeln?
+99	Ja – nutzen Sie unseren Konverter „PDF in Word“, der zusätzlich kostenlose OCR für gescannte Dateien enthält.
+100	Gibt es ein Dateigrößenlimit?
+101	Es gibt kein festes Limit. Sehr große Dokumente hängen vom Arbeitsspeicher Ihres Geräts ab; die meisten modernen Smartphones und Laptops bewältigen lange Berichte problemlos.
+102	Wie wandle ich Word kostenlos in PDF um?
+103	Legen Sie eine oder mehrere .docx-Dateien ab und klicken Sie auf „Umwandeln“. Jedes Dokument wird in Ihrem Browser in PDF umgewandelt und einzeln oder als ZIP heruntergeladen – ohne Konto und ohne Wasserzeichen.
+104	Kann ich Word auf dem Smartphone in PDF umwandeln?
+105	Ja, der Konverter funktioniert in mobilen Browsern. Wählen Sie die DOCX in Ihrer Dateien-App, wandeln Sie sie um und speichern Sie das PDF. Sehr lange oder komplexe Dokumente werden auf einem Computer schneller umgewandelt.
+106	Wie wandle ich Word in PDF um, ohne die Formatierung zu verlieren?
+107	Schriften, Tabellen und Bilder bleiben erhalten, doch eine Schrift, die weder eingebettet noch in Ihrem Browser verfügbar ist, wird durch eine ähnliche ersetzt. Für exakte Ergebnisse nutzen Sie gängige Schriften oder exportieren direkt aus Word; dieses Tool ist in der Beta und ideal für alltägliche Dokumente.

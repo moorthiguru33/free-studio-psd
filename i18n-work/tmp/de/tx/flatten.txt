@@ -1,0 +1,120 @@
+0	PDF reduzieren
+1	Machen Sie Formularfelder und Anmerkungen dauerhaft.
+2	PDF online kostenlos reduzieren – Formularfelder sperren | {brand}
+3	Reduzieren Sie ausfüllbare PDF-Formulare und Anmerkungen, damit sich ihre Werte nicht mehr ändern lassen, oder wandeln Sie jede Seite in ein Bild um. Kostenlos und privat.
+4	PDF reduzieren
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie nur Formulare oder alles.
+7	Klicken Sie auf Starten und laden Sie herunter.
+8	Bleibt der Text durchsuchbar?
+9	Ja mit Nur Formularfelder. Der Modus Alles wandelt die Seiten in Bilder um.
+10	Wenn Sie ein ausgefülltes Formular senden, kann der Empfänger seine Felder meist noch bearbeiten. Reduzieren bettet Feldwerte und Anmerkungen in die Seite ein, sodass das Formular überall gleich aussieht und sich nicht leicht ändern lässt.
+11	Einen ausgefüllten Antrag oder ein Steuerformular vor dem Einreichen sperren.
+12	Sicherstellen, dass Kommentare und Stempel in jedem Viewer sichtbar sind.
+13	Formulare reparieren, deren Felder am Handy oder bei manchen Druckern leer erscheinen.
+14	Nutzen Sie „Nur Formularfelder“, damit der Text auswählbar bleibt.
+15	Der Modus „Alles“ wandelt Seiten in Bilder um: stärker, aber der Text ist nicht mehr auswählbar.
+16	Behalten Sie eine nicht reduzierte Kopie, falls Sie sie später bearbeiten müssen.
+17	Bleibt der Text durchsuchbar?
+18	Ja im Modus Nur Formularfelder. Der Modus Alles wandelt die Seiten in Bilder um.
+19	Warum Formulare reduzieren
+20	Interaktive Formularfelder können je nach Viewer unterschiedlich aussehen und nach dem Senden bearbeitet werden. Reduzieren fixiert die Werte auf der Seite, sodass der Empfänger genau das sieht, was Sie senden.
+21	PDF reduzieren – Felder und Anmerkungen kostenlos sperren
+22	Reduzieren Sie Formulare und Anmerkungen eines PDFs, damit sie nicht bearbeitet werden: nur Formularfelder oder den ganzen Inhalt als Bild. Ohne Upload.
+23	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Sejda
+24	Was bedeutet es, ein PDF zu reduzieren?
+25	Reduzieren bettet die interaktiven oder geschichteten Teile eines PDFs in die Seite selbst ein: ausfüllbare Formularfelder, Kontrollkästchen, Dropdown-Listen, Kommentare, Stempel und Zeichnungen. Das Dokument sieht gleich aus, aber diese Elemente sind keine eigenständigen, bearbeitbaren Objekte mehr. Ein reduziertes Formular zeigt die Antworten als normalen Seiteninhalt, der sich nicht durch Klick in ein Feld ändern lässt, und wird in jedem Viewer gleich gedruckt und angezeigt.
+26	Man reduziert PDFs vor dem Senden ausgefüllter Anträge, Verträge oder Steuerformulare, vor dem Archivieren, wenn ein Portal Dateien mit Formularfeldern ablehnt und wenn ausgefüllte Antworten in einer anderen App verschwinden oder anders aussehen.
+27	Zwei Reduzierungsmodi
+28	Modus
+29	Was passiert
+30	Text auswählbar?
+31	Ideal für
+32	Formularfelder
+33	Der aktuelle Wert jedes Felds wird auf die Seite gezeichnet und das Feld entfernt
+34	Ja
+35	Ausgefüllte Formulare, Anträge
+36	Gesamter Inhalt
+37	Jede Seite wird gerendert und als Bild gespeichert
+38	Nein (mit OCR wiederherstellen)
+39	Maximale Sperre, gemischte Anmerkungen, seltene Viewer-Probleme
+40	Beginnen Sie mit *Formularfelder*: Das hält die Datei klein und den Text durchsuchbar. Nutzen Sie *Gesamter Inhalt*, wenn Anmerkungen, Ebenen oder ungewöhnliche Formulartechniken weiterhin bearbeitbar wirken oder je nach App anders aussehen.
+41	So reduzieren Sie ein PDF kostenlos
+42	Füllen Sie zuerst das Formular aus, in einer beliebigen PDF-App oder mit [PDF-Formular ausfüllen](/fill-pdf-form/).
+43	Legen Sie das PDF hier ab.
+44	Wählen Sie Formularfelder oder Gesamter Inhalt.
+45	Klicken Sie auf Reduzieren und laden Sie herunter.
+46	So reduzieren Sie ein PDF, damit es nicht bearbeitet werden kann
+47	Nach dem Reduzieren lassen sich die Formularantworten nicht mehr durch Eintippen in Felder ändern. Beachten Sie, dass sich jedes PDF mit einem Editor weiterhin verändern lässt: Reduzieren verhindert versehentliche und beiläufige Änderungen, nicht gezielte Manipulation. Für stärkeren Schutz fügen Sie mit [PDF schützen](/protect-pdf/) ein Passwort mit deaktivierter Bearbeitung hinzu und nutzen als Integritätsnachweis eine zertifikatsbasierte digitale Signatur.
+48	Verringert Reduzieren die Qualität?
+49	Der Modus *Formularfelder* lässt den Rest der Seite unberührt, die Qualität bleibt also identisch. Der Modus *Gesamter Inhalt* rendert die Seiten mit etwa 144 dpi in hoher JPEG-Qualität, was am Bildschirm und im normalen Druck scharf aussieht, aber der Text wird Teil eines Bildes, und bei textlastigen Dokumenten kann die Datei wachsen. Nutzen Sie ihn, wenn das Aussehen wichtiger ist als Größe oder Durchsuchbarkeit.
+50	Ein großes PDF reduzieren
+51	Das Reduzieren von Formularfeldern ist auch bei langen Dokumenten schnell. Der Modus für den gesamten Inhalt rendert jede Seite, eine 200-seitige Datei dauert also länger und das Ergebnis kann größer sein; Sie können danach [PDF komprimieren](/compress-pdf/) nutzen. Ein Fortschrittszähler zeigt, welche Seite gerade verarbeitet wird.
+52	Warum Antworten ohne Reduzieren verschwinden
+53	Manche Viewer, mobile Apps und Druckertreiber zeigen Formularfeldwerte nicht richtig an, besonders wenn die Felder eigene Schriften oder Skripte nutzen. Wer Ihr Formular erhält, sieht vielleicht leere Kästchen. Reduzieren zeichnet die Werte auf die Seite, damit alle dasselbe sehen.
+54	PDF online reduzieren oder mit Desktop-Programmen
+55	Desktop-Editoren können über Drucken als PDF oder Preflight-Werkzeuge reduzieren, oft in kostenpflichtigen Versionen. Online-Dienste verlangen meist, Ihr ausgefülltes Formular hochzuladen – mit persönlichen Daten wie Ausweisnummern und Adressen. Dieses Tool reduziert kostenlos auf Ihrem Gerät.
+56	Glossar
+57	Begriff
+58	Bedeutung
+59	Formularfeld
+60	Ein interaktives Feld, Kontrollkästchen oder eine Liste in einem PDF-Formular
+61	Anmerkung
+62	Ein Kommentar, eine Markierung, ein Stempel oder eine Zeichnung über einer Seite
+63	Erscheinungsbild-Stream
+64	Die visuelle Darstellung des Werts eines Felds
+65	Rastern
+66	Seiteninhalt in ein Pixelbild umwandeln
+67	Praxisbeispiel
+68	Ein ausgefülltes Bewerbungsformular hat Felder, die in jedem Viewer anders aussehen und die jeder ändern kann. Legen Sie es hier ab, reduzieren Sie es und senden Sie das Ergebnis: Die Antworten sehen überall gleich aus, lassen sich gut drucken und nicht mehr versehentlich bearbeiten. Behalten Sie das ausfüllbare Original, falls Sie später eine Antwort aktualisieren müssen.
+69	Wann Sie nicht reduzieren sollten
+70	Reduzieren Sie kein Formular, das noch jemand ausfüllen muss, und kein Dokument, das Sie erneut bearbeiten werden. Reduzieren ist ein letzter Schritt, wie das Drucken auf Papier: Tun Sie es an einer Kopie, kurz vor dem Senden oder Archivieren.
+71	Datenschutz
+72	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet also für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+73	Verwandte Tools
+74	[PDF-Formular ausfüllen](/fill-pdf-form/)
+75	[PDF schützen](/protect-pdf/)
+76	[PDF unterschreiben](/sign-pdf/)
+77	[PDF komprimieren](/compress-pdf/)
+78	[OCR für PDF](/ocr-pdf/)
+79	Wo Ihre Datei verarbeitet wird
+80	In Ihrem Browser, nie hochgeladen
+81	Auf deren Servern (Upload)
+82	Auf deren Servern (Upload)
+83	Auf deren Servern (Upload)
+84	Konto erforderlich
+85	Nie
+86	Siehe Website
+87	Siehe Website
+88	Siehe Website
+89	Auf deren Servern (Upload)
+90	Ja
+91	Siehe Website
+92	Siehe Website
+93	Siehe Website
+94	Konto erforderlich
+95	Ja
+96	Siehe Website
+97	Siehe Website
+98	Siehe Website
+99	Formularfelder reduzieren (Text bleibt erhalten)
+100	Ja
+101	Siehe Website
+102	Siehe Website
+103	Siehe Website
+104	Was bedeutet es, ein PDF zu reduzieren?
+105	Bettet Formularfelder und Anmerkungen in die Seite ein, damit sie nicht mehr bearbeitet werden können.
+106	Wie reduziere ich ein PDF?
+107	Legen Sie es hier ab, wählen Sie einen Modus und laden Sie die reduzierte Datei herunter.
+108	Kann ich ein PDF kostenlos reduzieren?
+109	Ja, ohne Registrierung oder Wasserzeichen.
+110	Verringert Reduzieren die Qualität?
+111	Der Modus Formularfelder hält die Qualität identisch; der Modus Gesamter Inhalt rendert die Seiten als Bilder.
+112	Bleibt der Text durchsuchbar?
+113	Ja im Modus Formularfelder; nicht im Modus Gesamter Inhalt, außer Sie nutzen OCR.
+114	Lässt sich ein reduziertes PDF rückgängig machen?
+115	Nein; behalten Sie das Original, falls Sie das Formular erneut bearbeiten müssen.
+116	Sollte ich vor dem Unterschreiben reduzieren?
+117	Füllen Sie aus und reduzieren Sie zuerst, dann unterschreiben Sie, damit die Unterschrift den endgültigen Inhalt abdeckt.
+118	Wird meine Datei hochgeladen?
+119	Nein, das Reduzieren läuft in Ihrem Browser.

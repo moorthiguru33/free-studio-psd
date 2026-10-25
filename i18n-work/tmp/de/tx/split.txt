@@ -1,0 +1,131 @@
+0	PDF teilen
+1	Seiten extrahieren oder ein PDF in mehrere Dateien aufteilen.
+2	PDF teilen – Seiten extrahieren oder nach Bereichen trennen | {brand}
+3	PDF in einzelne Seiten oder Bereiche wie 1-3,5 aufteilen. Kostenlos, unbegrenzt und privat – das PDF wird in Ihrem Browser geteilt und nie hochgeladen.
+4	PDF teilen
+5	Wählen Sie das PDF, das Sie teilen möchten.
+6	Geben Sie Seitenbereiche wie 1-3,5 ein oder lassen Sie das Feld leer, um jede Seite einzeln zu speichern.
+7	Klicken Sie auf „Start“ und laden Sie die entstandenen PDFs als ZIP herunter.
+8	Kann ich nur ein paar Seiten extrahieren?
+9	Ja. Geben Sie einen einzigen Bereich wie 2-4 ein, und Sie erhalten ein PDF mit nur diesen Seiten.
+10	Mit dem Teilen holen Sie nur die Seiten heraus, die Sie brauchen – ein Kapitel, eine Rechnung, eine unterschriebene Seite –, statt das ganze Dokument zu senden. Mit {brand} erfolgt das Teilen lokal, sodass große oder vertrauliche PDFs Ihr Gerät nicht verlassen.
+11	Nur die relevanten Seiten eines langen Vertrags oder Berichts senden.
+12	Einen gescannten Stapel Belege in eine Datei pro Seite aufteilen.
+13	Kapitel eines E-Books oder Skripts trennen.
+14	Nutzen Sie Bereiche wie 1-3,7,10-12, um mehrere Dateien auf einmal zu erstellen.
+15	Lassen Sie das Feld leer, um jede Seite als eigenes PDF zu speichern.
+16	Sie möchten eine einzige Datei mit ausgewählten Seiten? Nutzen Sie „Seiten extrahieren“.
+17	Behalten geteilte Seiten Links und Qualität?
+18	Ja. Die Seiten werden ohne erneutes Rendern kopiert, Text, Bilder und Qualität bleiben also unverändert.
+19	PDF teilen – Seiten oder Bereiche kostenlos extrahieren, ohne Upload
+20	PDF in einzelne Seiten, Bereiche, alle X Seiten oder gerade/ungerade teilen oder per Klick schneiden. Kostenlos, privat, im Browser. Ohne Upload und Anmeldung.
+21	Alle Arten, ein PDF zu teilen – an einem Ort
+22	Teilen klingt einfach, aber jeder sucht etwas anderes: ein Kapitel herausholen, einen Stapel Scans in einzelne Rechnungen trennen, nur die unterschriebene Seite senden oder eine riesige Datei in Stücke zerlegen, die in eine E-Mail passen. {brand} deckt all diese Fälle ab – in Ihrem Browser, sodass das Dokument nie hochgeladen wird.
+23	**Jede Seite**: ein PDF pro Seite, geliefert als ZIP.
+24	**Wo ich auf die Schere klicke**: Sehen Sie sich die Miniaturen an und klicken Sie zwischen die Seiten, um das Dokument genau dort zu schneiden, wo Sie möchten.
+25	**Seitenbereiche auswählen**: Geben Sie Bereiche wie 1-3, 7, 10-12 ein, um nur diese Seiten zu extrahieren (eine Datei pro Bereich oder alle zusammen in einer).
+26	**Alle X Seiten**: einen 100-seitigen Scan in einem Schritt in Dokumente zu je 2 oder 5 Seiten teilen.
+27	**Gerade / ungerade Seiten**: Vorder- und Rückseiten eines Duplex-Scans trennen.
+28	**Nach Dateigröße**: Nutzen Sie [PDF nach Größe teilen](/split-pdf-by-size/), um Teile unter einem E-Mail-Limit wie 10 MB zu erhalten.
+29	**Nach Lesezeichen oder Kapiteln**: [PDF nach Lesezeichen teilen](/split-pdf-by-bookmarks/) erstellt automatisch eine Datei pro Kapitel.
+30	**Nach Text**: [PDF nach Text teilen](/split-pdf-by-text/) beginnt jedes Mal eine neue Datei, wenn ein Wort wie „Rechnung“ vorkommt.
+31	**Seiten halbieren**: [PDF-Seiten halbieren](/split-pdf-pages-in-half/) schneidet Buchscans mit zwei Seiten pro Blatt in Einzelseiten.
+32	Welchen Modus sollte ich verwenden?
+33	Ziel
+34	Bester Modus
+35	Ein oder zwei Seiten senden
+36	Seitenbereiche auswählen
+37	Einen Stapel gescannter Belege trennen
+38	Alle X Seiten oder per Klick schneiden
+39	Die Datei passend für eine E-Mail machen
+40	Nach Größe teilen
+41	Eine Datei pro Kapitel
+42	Nach Lesezeichen teilen
+43	Duplex-Scan mit gemischten Vorder- und Rückseiten
+44	Gerade / ungerade Seiten
+45	Jede Seite als eigene Datei
+46	Jede Seite
+47	Verlustfrei und privat
+48	Beim Teilen werden die ursprünglichen Seitenobjekte in neue PDFs kopiert – nichts wird neu gerendert oder komprimiert, Text bleibt also markierbar, Vektorgrafiken bleiben scharf und Bilder behalten ihre Qualität. Links, Formularfelder und Schriften der kopierten Seiten bleiben erhalten.
+49	Da die Arbeit lokal erfolgt, müssen Sie nicht warten, bis ein 200-MB-Scan hochgeladen ist, es gibt kein stündliches Aufgabenlimit wie die 3 Aufgaben pro Stunde bei Sejda, und keine Kopie Ihres Kontoauszugs oder Arztberichts bleibt auf einem fremden Server.
+50	Tipps
+51	Die Seitenzahlen in den Bereichen beziehen sich auf die physische Position (1 = erste Seite), nicht auf die auf der Seite gedruckten Nummern.
+52	Sie möchten Seiten löschen statt extrahieren? Nutzen Sie [PDF-Seiten löschen](/delete-pdf-pages/). Zum Umsortieren nutzen Sie [PDF organisieren](/organize-pdf/).
+53	Sie haben die Teile schon und möchten einige wieder zusammenführen? [PDF zusammenfügen](/merge-pdf/) kombiniert sie in beliebiger Reihenfolge.
+54	Passwortgeschützte Datei? Entsperren Sie sie zuerst mit [PDF entsperren](/unlock-pdf/), wenn Sie das Passwort kennen.
+55	Typische Anwendungen
+56	Nur die relevanten Seiten eines Vertrags oder Berichts senden.
+57	Einen gescannten Stapel Rechnungen in eine Datei pro Rechnung aufteilen.
+58	Ein einzelnes Kapitel aus einem E-Book oder Lehrbuch zum Lernen extrahieren.
+59	Ein großes Portfolio in kleinere Teile zerlegen, die Upload-Portale akzeptieren.
+60	Nur die Unterschriftsseite teilen, damit die Gegenseite unterschreibt.
+61	Wo Ihre Datei verarbeitet wird
+62	In Ihrem Browser, nie hochgeladen
+63	Auf deren Servern
+64	Auf deren Servern
+65	Adobe-Cloud
+66	Auf deren Servern
+67	Funktioniert bei ausgeschaltetem WLAN
+68	Ja, nach dem Laden der Seite
+69	Nein
+70	Nein
+71	Nein
+72	Nein
+73	Konto oder E-Mail erforderlich
+74	Nie
+75	Nicht für die Grundnutzung
+76	Nicht für die Grundnutzung
+77	Anmeldung für einige Aktionen
+78	Nicht für die Grundnutzung
+79	Limits der Gratisnutzung
+80	Keine – nur die Ihres Geräts
+81	Gratis-Tarif; Premium für mehr
+82	Gratis-Tarif; Premium für mehr
+83	Gratis-Tarif; Premium für mehr
+84	3 Aufgaben/Stunde, 50 MB pro Datei
+85	Nach Bereichen / festen Seiten teilen
+86	Ja
+87	Ja
+88	Ja
+89	Ja
+90	Ja
+91	Per Klick auf Miniaturen schneiden
+92	Ja
+93	Siehe Website
+94	Siehe Website
+95	Siehe Website
+96	Siehe Website
+97	Gerade / ungerade Seiten
+98	Ja
+99	Auf der Seite nicht angeboten
+100	Siehe Website
+101	Siehe Website
+102	Siehe Website
+103	Nach Größe, Lesezeichen oder Text teilen
+104	Ja (kostenlos, separate Tools)
+105	Größe: ja
+106	Siehe Website
+107	Siehe Website
+108	Ja
+109	Wie extrahiere ich nur einige Seiten aus einem PDF?
+110	Wählen Sie „Seitenbereiche auswählen“, geben Sie die Seiten ein, z. B. 2-4, 9, und klicken Sie auf „Teilen“. Sie können jeden Bereich als eigene Datei oder alle zusammen erhalten.
+111	Verringert das Teilen die Qualität?
+112	Nein. Die Seiten werden unverändert ohne erneute Komprimierung kopiert, Text und Bilder sehen also genau wie im Original aus.
+113	Wird mein PDF hochgeladen?
+114	Nein. Das Teilen erfolgt in Ihrem Browser, und die Datei verlässt nie Ihr Gerät.
+115	Kann ich ein PDF in gleich große Teile aufteilen?
+116	Ja. Nutzen Sie „Alle X Seiten“ und geben Sie an, wie viele Seiten jeder Teil haben soll.
+117	Wie teile ich ein PDF passend für ein E-Mail-Limit?
+118	Nutzen Sie „PDF nach Größe teilen“ und legen Sie ein Maximum wie 10 MB fest; jeder Teil bleibt darunter.
+119	Kann ich nach Kapiteln teilen?
+120	Ja. „PDF nach Lesezeichen teilen“ erstellt automatisch eine Datei pro Lesezeichen (Kapitel).
+121	Gibt es ein Limit für Seiten oder Dateien?
+122	Nein. Es gibt keine stündlichen Limits; sehr große Dateien hängen nur vom Arbeitsspeicher Ihres Geräts ab.
+123	Funktionieren Links und Formularfelder weiterhin?
+124	Ja, Links und Formularfelder der kopierten Seiten bleiben erhalten.
+125	Kann ich ein passwortgeschütztes PDF teilen?
+126	Wenn Sie das Passwort kennen, entsperren Sie es zuerst mit „PDF entsperren“ und teilen es dann.
+127	Wie trenne ich ein PDF in mehrere Dateien?
+128	PDF ablegen und Teilungsart wählen: jede Seite als eigene Datei, eigene Bereiche wie 1-3,4-9, alle X Seiten oder gerade/ungerade Seiten. Sie können auch zwischen die Miniaturen klicken, um zu schneiden. Die Teile werden als ZIP heruntergeladen.
+129	Kann ich ein PDF halbieren?
+130	Ja. Verwenden Sie bei einer 20-seitigen Datei einen Bereich wie 1-10,11-20 oder „Alle X Seiten“ mit der Hälfte der Gesamtzahl. Um jedes physische Blatt in der Mitte zu teilen (zwei gescannte Seiten pro Blatt), nutzen Sie das Tool „PDF-Seiten halbieren“.

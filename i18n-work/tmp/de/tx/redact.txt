@@ -1,0 +1,129 @@
+0	PDF schwärzen
+1	Vertrauliche Texte und Bereiche dauerhaft entfernen.
+2	PDF schwärzen online kostenlos – Text dauerhaft entfernen | {brand}
+3	Wörter und Bereiche in einem PDF dauerhaft schwärzen. Die Seiten werden neu aufgebaut, sodass verdeckter Text nicht kopiert oder wiederhergestellt werden kann. Kostenlos.
+4	PDF schwärzen
+5	Wählen Sie Ihr PDF aus.
+6	Geben Sie die zu schwärzenden Wörter ein oder ziehen Sie Rechtecke in der Vorschau (oder beides).
+7	Klicken Sie auf „Start“ und laden Sie das geschwärzte PDF herunter.
+8	Ist die Schwärzung dauerhaft?
+9	Ja. Jede Seite mit Schwärzungen wird als Bild neu aufgebaut, mit schwarz abgedeckten Bereichen – der darunterliegende Text ist also weg. Die übrigen Seiten bleiben unverändert.
+10	In vielen Editoren bleibt der Text unter einem schwarzen Rechteck erhalten und lässt sich von jedem kopieren. Echtes Schwärzen entfernt ihn. {brand} baut jede geschwärzte Seite neu auf, sodass der verdeckte Inhalt verschwindet – und da alles lokal läuft, verlässt das vertrauliche Dokument nie Ihr Gerät.
+11	Kontonummern, Ausweisnummern und Unterschriften vor dem Teilen verdecken.
+12	Personenbezogene Daten aus Dokumenten entfernen, die auf Datenschutz- oder Informationsfreiheitsanfragen hin herausgegeben werden.
+13	Kundennamen in Fallstudien oder Schriftsätzen schwärzen.
+14	Suchen Sie nach einem Wort, um alle Vorkommen auf einmal zu schwärzen, und fügen Sie dann Rechtecke für Bilder oder Unterschriften hinzu.
+15	Prüfen Sie das Ergebnis, indem Sie versuchen, Text in den geschwärzten Bereichen zu markieren und zu kopieren.
+16	Nutzen Sie zusätzlich „PDF-Metadaten entfernen“ – Autorennamen und Titel können Informationen preisgeben.
+17	Lässt sich geschwärzter Text wiederherstellen?
+18	Nein. Jede Seite mit Schwärzungen wird als Bild neu aufgebaut, mit schwarz abgedeckten Bereichen – der darunterliegende Text ist also weg. Die übrigen Seiten bleiben unverändert.
+19	PDF schwärzen kostenlos – Text dauerhaft unkenntlich machen
+20	PDF kostenlos schwärzen: gesuchten Text, E-Mails, Telefonnummern oder gezogene Rechtecke schwarz oder weiß abdecken. Wirklich entfernt, nicht verdeckt. Ohne Upload.
+21	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Sejda
+22	PDF kostenlos schwärzen – echtes Entfernen statt schwarzem Kasten darüber
+23	Schwärzen bedeutet, vertrauliche Informationen (Namen, Kontonummern, Adressen, Unterschriften) dauerhaft zu entfernen, bevor Sie ein Dokument teilen. Der häufigste Fehler: schwarze Rechtecke in einem normalen PDF-Editor zu zeichnen – der Text darunter bleibt erhalten und lässt sich kopieren. Dieses Tool schwärzt wirklich. Jede Seite mit einer Schwärzung wird als Bild mit eingebrannten Kästen neu aufgebaut, sodass verdeckter Text, seine Schriftdaten und jede markierbare Ebene darunter verschwinden. Seiten ohne Schwärzung werden unverändert übernommen, und die Dokument-Metadaten werden gelöscht.
+24	Sie können schwärzen, indem Sie nach Wörtern oder Ausdrücken **suchen** (durch Kommas getrennt, z. B. *Max Mustermann, 4111 1111*), automatisch **alle E-Mail-Adressen** und **Telefonnummern** finden lassen oder in der Seitenvorschau **Rechtecke** über beliebige Inhalte ziehen (Fotos, Unterschriften, Stempel, Handschrift).
+25	So schwärzen Sie Text in einem PDF
+26	Legen Sie das PDF ab.
+27	Geben Sie die zu schwärzenden Wörter ein oder markieren Sie E-Mails und Telefonnummern.
+28	Ziehen Sie für alles andere Rechtecke in der Vorschau; mit den Seitenschaltflächen wechseln Sie zwischen den Seiten.
+29	Wählen Sie schwarze oder weiße Kästen und klicken Sie auf „Schwärzen“.
+30	Laden Sie die geschwärzte Kopie herunter und prüfen Sie sie.
+31	Schwarz oder weiß schwärzen?
+32	Schwarze Kästen sind bei juristischen und behördlichen Dokumenten üblich, weil sie deutlich zeigen, dass etwas entfernt wurde. Weiße Kästen (manchmal *Weißen* genannt) verschmelzen mit der Seite und werden verwendet, wenn ein sauberes Erscheinungsbild wichtig ist, etwa bei veröffentlichten Beispielen oder Vorlagen. Beide entfernen den Inhalt gleichermaßen.
+33	Kann man Text in einem PDF ohne Adobe Pro schwärzen?
+34	Ja – genau das macht diese Seite, kostenlos und in Ihrem Browser. Profi-Suiten bieten dieselbe echte Schwärzung in ihren kostenpflichtigen Editionen; kostenlose Viewer und viele einfache Editoren erlauben nur das Zeichnen von Formen, und das ist keine Schwärzung.
+35	Was mit geschwärzten Seiten passiert
+36	
+37	Seiten mit Schwärzung
+38	Andere Seiten
+39	Inhalt
+40	Hochauflösend gerendert (≈180 dpi) mit eingebrannten Kästen
+41	Exakt übernommen
+42	Text auswählbar
+43	Nein (bei Bedarf OCR ausführen)
+44	Ja
+45	Verdeckter Text wiederherstellbar
+46	Nein
+47	—
+48	Metadaten
+49	Im gesamten Dokument gelöscht
+50	Gelöscht
+51	Wenn die geschwärzten Seiten wieder durchsuchbar sein sollen, wenden Sie [OCR für PDF](/ocr-pdf/) auf das Ergebnis an – die geschwärzten Bereiche enthalten keinen Text, es kommt also nichts Vertrauliches zurück.
+52	Suchtipps
+53	Trennen Sie mehrere Begriffe durch Kommas.
+54	Lassen Sie *Groß-/Kleinschreibung beachten* ausgeschaltet, um MÜLLER, Müller und müller zu finden.
+55	Die Suche findet nur echten Text; ziehen Sie bei gescannten Seiten Rechtecke oder führen Sie zuerst OCR aus.
+56	Unterschiedlich formatierte Nummern (4111-1111 statt 4111 1111) müssen Sie in jedem Format angeben.
+57	Prüfen Sie vor dem Teilen immer jede Seite des Ergebnisses.
+58	Kann ich ein bereits signiertes PDF schwärzen?
+59	Ja, aber das Schwärzen verändert das Dokument, wodurch jede digitale Signatur ungültig wird. Schwärzen Sie zuerst und signieren Sie danach die endgültige Version.
+60	Weitere Stellen, an denen sich vertrauliche Daten verstecken
+61	Auch Kommentare, Formularfelder, Anhänge, Lesezeichen und Ebenen können personenbezogene Daten enthalten. Geschwärzte Seiten werden ohne sie neu aufgebaut; für den Rest des Dokuments empfehlen sich [PDF reduzieren](/flatten-pdf/) und [PDF-Metadaten entfernen](/remove-pdf-metadata/).
+62	Glossar
+63	Begriff
+64	Bedeutung
+65	Schwärzung
+66	Dauerhaftes Entfernen von Informationen aus einem Dokument
+67	Einbrennen
+68	Eine Markierung zum Teil des Seitenbildes selbst machen
+69	OCR
+70	Text in einem Bild erkennen, damit er durchsuchbar wird
+71	Personenbezogene Daten
+72	Informationen, mit denen sich eine Person identifizieren lässt
+73	Praxisbeispiel
+74	Bevor Sie einen Kontoauszug an einen Vermieter weitergeben, aktivieren Sie *E-Mail-Adressen automatisch schwärzen* und *Telefonnummern*, fügen Ihre Kontonummer als Suchtext hinzu und klicken auf „Schwärzen“. Jeder Treffer wird mit einem vollen Kasten abgedeckt und aus der Textebene entfernt – eine Suche nach der Nummer im Ergebnis findet nichts.
+75	Datenschutz
+76	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet also für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+77	Verwandte Tools
+78	[PDF-Metadaten entfernen](/remove-pdf-metadata/)
+79	[PDF reduzieren](/flatten-pdf/)
+80	[OCR für PDF](/ocr-pdf/)
+81	[PDF schützen](/protect-pdf/)
+82	[PDF bearbeiten](/edit-pdf/)
+83	Wo Ihre Datei verarbeitet wird
+84	In Ihrem Browser, nie hochgeladen
+85	Auf deren Servern (Upload)
+86	Auf deren Servern (Upload)
+87	Auf deren Servern (Upload)
+88	Konto erforderlich
+89	Nie
+90	Siehe Website
+91	Siehe Website
+92	Siehe Website
+93	Auf deren Servern (Upload)
+94	Ja
+95	Siehe Website
+96	Siehe Website
+97	Siehe Website
+98	Konto erforderlich
+99	Ja
+100	Siehe Website
+101	Siehe Website
+102	Siehe Website
+103	Echtes Entfernen (keine Überlagerung)
+104	Ja
+105	Siehe Website
+106	Siehe Website
+107	Siehe Website
+108	Findet E-Mails und Telefonnummern automatisch
+109	Ja
+110	Siehe Website
+111	Siehe Website
+112	Siehe Website
+113	Wie kann ich ein PDF kostenlos schwärzen?
+114	Hier ablegen, Begriffe suchen oder Rechtecke ziehen und das geschwärzte PDF herunterladen – ohne Anmeldung.
+115	Wie schwärze ich Text in einem PDF?
+116	Geben Sie den Text ein oder ziehen Sie ein Rechteck darüber und klicken Sie auf „Schwärzen“; der Text wird dauerhaft entfernt.
+117	Was bedeutet es, ein PDF zu schwärzen?
+118	Vertrauliche Inhalte dauerhaft entfernen, sodass sie nicht wiederhergestellt werden können.
+119	Ist die Schwärzung dauerhaft?
+120	Ja, die betroffenen Seiten werden ohne den verdeckten Text als Bilder neu aufgebaut.
+121	Kann ich E-Mail-Adressen automatisch schwärzen?
+122	Ja, aktivieren Sie die Optionen für E-Mails und Telefonnummern.
+123	Kann ich Weiß statt Schwarz verwenden?
+124	Ja, wählen Sie weiße Kästen.
+125	Sind geschwärzte Seiten durchsuchbar?
+126	Erst, wenn Sie OCR darauf anwenden.
+127	Wird mein Dokument hochgeladen?
+128	Nein, die Schwärzung erfolgt auf Ihrem Gerät.

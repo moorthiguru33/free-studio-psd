@@ -1,0 +1,135 @@
+0	PDF in PNG
+1	PDF-Seiten in hochwertige PNG-Bilder umwandeln.
+2	PDF in PNG – PDF gratis in hochwertige PNG-Bilder | {brand}
+3	Wandeln Sie PDF-Seiten in scharfe PNG-Bilder mit bis zu 300 DPI um. Seiten wählen, ein PNG oder ein ZIP erhalten. Kostenlos, ohne Anmeldung und Upload.
+4	PDF in PNG umwandeln
+5	Wählen Sie ein PDF.
+6	Wählen Sie Auflösung und Seiten.
+7	Laden Sie die PNG-Bilder herunter.
+8	PNG oder JPG?
+9	PNG verliert keine Qualität: am besten für Text, Diagramme und Screenshots mit scharfen Kanten. JPG ist bei Fotos kleiner.
+10	Welche Auflösung sollte ich verwenden?
+11	2x (144 DPI) für Bildschirme und 300 DPI zum Drucken.
+12	PNG hält Text und Linien perfekt scharf und ist daher das beste Bildformat für Folien, Dokumentation und Social-Media-Beiträge aus PDF-Seiten. {brand} rendert jede Seite in Ihrem Browser mit bis zu 300 DPI und bündelt mehrere Seiten in einem ZIP.
+13	Eine PDF-Seite in einer Präsentation oder einem Blogbeitrag verwenden.
+14	Eine einzelne Seite in sozialen Netzwerken oder einem Chat teilen.
+15	Scharfe Bilder von Diagrammen und Grafiken erstellen.
+16	Miniaturansichten von Dokumenten erstellen.
+17	Nutzen Sie Seitenbereiche wie 1,3-5, um nur das Nötige umzuwandeln.
+18	Komprimieren Sie das Ergebnis mit PNG komprimieren, wenn die Dateien groß sind.
+19	Bleibt die Transparenz erhalten?
+20	Die Seiten werden auf weißem Hintergrund gerendert, wie gedrucktes Papier.
+21	Wird meine Datei hochgeladen?
+22	Nein.
+23	JPG oder PNG?
+24	JPG erzeugt bei Seiten mit Fotos kleinere Dateien. PNG hält Text und Linien perfekt scharf und verliert keine Qualität. Für Dokument-Screenshots, die in Chats geteilt werden, ist PNG bei 2x meist der beste Kompromiss.
+25	Auflösungsleitfaden
+26	1x eignet sich für Vorschauen, 2x für die meisten Bildschirme und Dokumente und 3x zum Drucken oder Vergrößern von Details.
+27	PDF in PNG – PDF-Seiten in PNG mit 300 DPI umwandeln
+28	Wandeln Sie jede Seite eines PDFs oder nur einen Bereich in ein scharfes PNG mit bis zu 300 DPI um. Verlustfrei, bereit für Folien, als ZIP. Im Browser.
+29	{tool}: {brand} im Vergleich zu Smallpdf, iLovePDF und PDF24
+30	Verlustfreie Bilder Ihrer PDF-Seiten
+31	PNG ist ein verlustfreies Bildformat und daher die beste Wahl, wenn Sie Seitenbilder mit scharfem Text, feinen Linien und flächigen Farben brauchen: Diagramme, Folien, Grafiken, Formulare, Noten oder UI-Mockups. Dieses Tool rendert jede Seite Ihres PDFs in der gewählten Auflösung und speichert sie als PNG – ohne die unscharfen Säume, die JPEG um Text herum erzeugt.
+32	So wählen Sie die Auflösung
+33	DPI
+34	Größe einer A4-Seite
+35	Verwendung
+36	72
+37	595 × 842 px
+38	Schnelle Vorschauen, Miniaturen
+39	144 (2×)
+40	1191 × 1684 px
+41	Bildschirme, Folien, Webseiten
+42	216 (3×)
+43	1786 × 2526 px
+44	Dokumentation, scharf auf hochauflösenden Displays
+45	300
+46	2480 × 3508 px
+47	Druck, OCR, Archiv
+48	Mehr DPI bedeuten größere Dateien. PNGs von Textseiten sind dank flächiger Farben meist klein; Seiten mit Fotos ergeben große PNGs, daher kann für sie [PDF in JPG](/pdf-to-jpg/) die bessere Wahl sein.
+49	PNG und JPG für PDF-Seiten im Vergleich
+50	
+51	PNG
+52	JPG
+53	Kompression
+54	Verlustfrei
+55	Verlustbehaftet
+56	Schärfe von Text und Linien
+57	Perfekt
+58	Leichte Artefakte
+59	Fotos
+60	Große Dateien
+61	Kleine Dateien
+62	Transparenz
+63	Unterstützt
+64	Nicht unterstützt
+65	Ideal für
+66	Diagramme, Folien, Dokumente
+67	Fotolastige Seiten, E-Mail
+68	So wandeln Sie PDF in PNG um
+69	Legen Sie das PDF auf der Seite ab.
+70	Wählen Sie die DPI und auf Wunsch einen Seitenbereich wie 1-3,7.
+71	Klicken Sie auf **Umwandeln**.
+72	Laden Sie ein einzelnes PNG oder alle Seiten als ZIP herunter.
+73	Warum gerenderte PNGs schärfer aussehen als ein Screenshot
+74	Ein Screenshot aus einem PDF-Viewer erfasst die Seite in Ihrer Bildschirmauflösung, meist zwischen 96 und 150 DPI, einschließlich jeder Zoom-Unschärfe. Wird das PDF direkt mit 216 oder 300 DPI gerendert, werden Text und Vektoren aus den Originalkonturen gezeichnet, sodass die Buchstaben scharf bleiben, auch wenn Sie das Bild vergrößern oder drucken.
+75	Typische Anwendungen
+76	Eine PDF-Seite in eine Präsentation, ein Dokument oder ein Designprogramm einfügen, das kein PDF importiert.
+77	Eine Seite in sozialen Netzwerken oder auf einer Website veröffentlichen.
+78	Miniaturen für eine Dokumentenbibliothek erstellen.
+79	Seiten in bildbasierten Workflows verwenden, etwa Annotationstools oder Datensätzen für maschinelles Lernen.
+80	Große und geschützte PDFs
+81	Lange Dokumente werden Seite für Seite gerendert, um wenig Speicher zu verbrauchen, sodass selbst Hunderte Seiten in einem normalen Browser umgewandelt werden; der Fortschritt wird angezeigt, sobald jede Seite fertig ist. Ist ein PDF passwortgeschützt, entfernen Sie das Passwort zuerst mit [PDF entsperren](/unlock-pdf/) (Sie müssen es kennen) und wandeln es dann hier um.
+82	Die Originalbilder extrahieren
+83	Das Rendern einer Seite erfasst alles, was sie enthält (Text, Vektorzeichnungen und Bilder), als ein einziges Bild. Wenn Sie nur die in einem PDF eingebetteten Fotos in ihrer Originalauflösung möchten, stellen Sie den Modus auf *Bilder extrahieren*. Das Tool speichert dann jedes eingebettete Bild als eigene Datei ohne erneutes Rendern – das ist schneller und erhält die Originalqualität der Fotos aus Broschüren, Katalogen und Berichten.
+84	Transparente Hintergründe
+85	PDF-Seiten haben meist einen weißen Hintergrund, und der Renderer füllt ihn weiß, damit das PNG genau wie die Seite aussieht. Brauchen Sie ein Logo oder eine Zeichnung mit transparentem Hintergrund, extrahieren Sie es mit *Bilder extrahieren* (falls es ein eingebettetes Bild ist) oder wandeln Sie die Seite in [SVG](/pdf-to-svg/) um und entfernen die Hintergrundform in einem Vektorprogramm.
+86	Datenschutz
+87	Die Seiten werden mit PDF.js in Ihrem Browser gerendert und direkt auf Ihrem Gerät gespeichert. Das PDF wird nie hochgeladen, und das Tool funktioniert offline, sobald die Seite geladen ist: geeignet für vertrauliche Verträge, Pläne und Berichte.
+88	Verwandte Tools
+89	[PDF in JPG](/pdf-to-jpg/)
+90	[PDF in SVG](/pdf-to-svg/)
+91	[PDF in TIFF](/pdf-to-tiff/)
+92	[Bilder aus PDF extrahieren](/extract-images-from-pdf/)
+93	[JPG in PDF](/jpg-to-pdf/)
+94	Wo Ihre Datei verarbeitet wird
+95	In Ihrem Browser, nie hochgeladen
+96	Deren Server (mit Upload)
+97	Deren Server (mit Upload)
+98	Deren Server (mit Upload)
+99	Konto erforderlich
+100	Nie
+101	Siehe Website
+102	Siehe Website
+103	Siehe Website
+104	Bis 300 DPI wählbar
+105	Ja
+106	Siehe Website
+107	Siehe Website
+108	Siehe Website
+109	Seitenbereich
+110	Ja
+111	Siehe Website
+112	Siehe Website
+113	Siehe Website
+114	ZIP mit allen Seiten
+115	Ja
+116	Siehe Website
+117	Siehe Website
+118	Siehe Website
+119	Wie wandle ich ein PDF in PNG um?
+120	Legen Sie das PDF ab, wählen Sie die DPI und klicken Sie auf Umwandeln. Laden Sie jedes PNG oder ein ZIP mit allen Seiten herunter.
+121	Welche DPI sollte ich verwenden?
+122	144 DPI (2×) für Bildschirme und 300 DPI zum Drucken oder für OCR.
+123	Ist die Umwandlung von PDF in PNG verlustfrei?
+124	Ja, PNG erhält jedes gerenderte Pixel ohne Kompressionsartefakte.
+125	Kann ich nur einige Seiten umwandeln?
+126	Ja, geben Sie einen Seitenbereich wie 1-3,7 ein.
+127	Wird mein PDF hochgeladen?
+128	Nein, es wird in Ihrem Browser gerendert.
+129	PNG oder JPG: Was ist besser?
+130	PNG für Text und Diagramme, JPG für fotolastige Seiten.
+131	Kann ich ein passwortgeschütztes PDF umwandeln?
+132	Entsperren Sie es zuerst mit PDF entsperren (Sie brauchen das Passwort) und wandeln Sie es dann um.
+133	Gibt es ein Seitenlimit?
+134	Es gibt kein festes Limit; sehr lange Dokumente dauern einfach länger.

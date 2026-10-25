@@ -1,0 +1,150 @@
+0	Bildhintergrund entfernen
+1	Personen und Produkte automatisch freistellen.
+2	Bildhintergrund kostenlos entfernen – KI, transparentes PNG | {brand}
+3	Entfernen Sie den Hintergrund Ihrer Bilder automatisch mit KI auf Ihrem Gerät. Transparentes PNG oder weißer, farbiger oder unscharfer Hintergrund. Kostenlos.
+4	Den Hintergrund eines Bildes entfernen
+5	Wählen Sie Fotos aus (JPG, PNG, WEBP, HEIC).
+6	Wählen Sie einen transparenten, weißen, farbigen oder unscharfen Hintergrund.
+7	Laden Sie das freigestellte Bild herunter.
+8	Wird mein Foto hochgeladen?
+9	Nein. Das KI-Modell (4,6 MB) wird einmal heruntergeladen und läuft in Ihrem Browser.
+10	Was funktioniert am besten?
+11	Klare Motive (Personen, Produkte, Tiere) mit gutem Kontrast zum Hintergrund. Feines Haar kann weichgezeichnet wirken.
+12	Saubere Freisteller sind unverzichtbar für Produktseiten, Profilbilder, Präsentationen und Designs. Die meisten Tools zum Entfernen von Hintergründen laden Ihr Foto auf einen Server hoch und beschränken kostenlose Downloads auf eine niedrige Auflösung; {brand} führt die KI in voller Auflösung in Ihrem Browser aus.
+13	Produktfotos mit weißem Hintergrund für Marktplätze erstellen.
+14	Professionelle Profil- und Passbilder machen.
+15	Objekte für Präsentationen, Plakate und Thumbnails freistellen.
+16	Klare Motive mit gutem Kontrast liefern die besten Ergebnisse.
+17	Wählen Sie für Marktplatz-Angebote einen weißen Hintergrund.
+18	Feines Haar kann weichgezeichnet wirken – vergrößern Sie zur Kontrolle.
+19	Wird mein Foto hochgeladen?
+20	Nein. Das KI-Modell (4,6 MB) wird einmal heruntergeladen und läuft in Ihrem Browser.
+21	Was funktioniert am besten?
+22	Klare Motive (Personen, Produkte, Tiere) mit gutem Kontrast zum Hintergrund.
+23	Bildhintergrund entfernen – Kostenlos in HD, ohne Upload
+24	Entfernen Sie den Bildhintergrund mit lokaler KI. Transparentes PNG in voller Auflösung oder weißer, farbiger, unscharfer oder eigener Hintergrund. Stapel.
+25	{tool}: {brand} im Vergleich zu remove.bg, Photoroom und Adobe Express
+26	Personen, Produkte und Haustiere mit einem Klick freistellen
+27	Einen Hintergrund zu entfernen, bedeutete früher zwanzig Minuten mit dem Zeichenstift-Werkzeug in Photoshop. Der Hintergrund-Entferner von {brand} erledigt das in Sekunden: Legen Sie ein Foto ab, und ein KI-Modell findet das Hauptmotiv (eine Person, ein Produkt, ein Haustier, ein Auto) und trennt es von allem dahinter. Laden Sie den Freisteller als transparentes PNG herunter oder setzen Sie ihn direkt auf einen sauberen weißen Hintergrund, eine Markenfarbe, eine unscharfe Version des Originals oder ein ganz anderes Foto Ihrer Wahl.
+28	Der Unterschied zu bekannten Diensten ist, wo die Arbeit erledigt wird. Das Segmentierungsmodell läuft mit WebAssembly in Ihrem Browser, Ihr Foto wird also nie hochgeladen. Damit eignet es sich für Ausweisfotos, Kinderfotos, vertrauliche Produktprototypen und alles, was Sie nicht auf einen öffentlichen Server stellen würden – und es gibt keine Credits, keinen kostenpflichtigen „HD-Download“ und kein Konto.
+29	Funktionen
+30	**Transparentes PNG** mit bis zu 4096 Pixeln an der langen Seite, ohne Vorschau-Limit in niedriger Auflösung.
+31	**Hintergrund ersetzen** durch Weiß (für Marktplätze), jede Volltonfarbe, eine sanfte Unschärfe der Originalszene oder Ihr eigenes Hintergrundbild.
+32	**Weiche oder scharfe Kanten**: Weiche Kanten wirken bei Haaren und Fell natürlich, scharfe sind sauberer für Produkte mit harten Konturen.
+33	**Stapelverarbeitung**: Legen Sie Dutzende Produktfotos ab und erhalten Sie ein ZIP.
+34	**KI auf dem Gerät**: Ein kompaktes U²-Net-Modell (etwa 4,6 MB) wird einmal heruntergeladen und zwischengespeichert; danach funktioniert es offline.
+35	**Sofortvorschau** auf Schachbrettmuster, um die Transparenz vor dem Download zu sehen.
+36	**Kein Wasserzeichen, keine Registrierung, keine Credits.**
+37	So entfernen Sie den Hintergrund eines Bildes
+38	Legen Sie ein oder mehrere Fotos ab (JPG, PNG, WebP, HEIC und mehr) oder fügen Sie eines mit Strg+V ein.
+39	Wählen Sie, was den Hintergrund ersetzt: transparent, Weiß, eine Farbe, das unscharfe Original oder Ihr eigenes Bild.
+40	Wählen Sie weiche oder scharfe Kanten.
+41	Klicken Sie auf Hintergrund entfernen. Beim ersten Mal wird das KI-Modell geladen; weitere Bilder gehen schneller.
+42	Laden Sie das PNG (transparent) oder JPG (mit neuem Hintergrund) herunter – oder das ZIP bei einem Stapel.
+43	So funktioniert der KI-Hintergrund-Entferner
+44	Das Tool nutzt U²-Net, ein neuronales Netz für die „Erkennung hervorstechender Objekte“: also das, was ein Mensch auf einem Foto natürlicherweise ansehen würde. Das Bild wird auf 320×320 Pixel skaliert und durch das Netz geschickt, das für jedes Pixel eine Wahrscheinlichkeit angibt, zum Vordergrund zu gehören. Diese niedrig aufgelöste Maske wird mit sanfter Interpolation wieder auf die volle Größe Ihres Fotos skaliert, sodass der fertige Freisteller alle Details des Originalbildes behält – nicht nur die Größe, die das Netz gesehen hat.
+45	Mit weichen Kanten wird die Maske leicht weichgezeichnet, damit halbtransparente Pixel am Rand sanft mit jedem neuen Hintergrund verschmelzen – wichtig bei Haaren, Fell und Bewegungsunschärfe. Mit scharfen Kanten wird jedes Pixel ganz behalten oder ganz entfernt, was saubere Konturen für Kartons, Flaschen und Elektronik ergibt.
+46	Da das Modell auf Ihrem Gerät läuft, hängt die Geschwindigkeit von Ihrer Hardware ab: Ein moderner Laptop verarbeitet ein Foto in ein bis drei Sekunden, ein Handy braucht ein paar Sekunden länger.
+47	Beste Einsatzzwecke
+48	**Produktfotos für den Onlinehandel**: weiße Hintergründe für Angebote bei Amazon, eBay und Etsy oder Hintergründe in Ihrer Markenfarbe für den eigenen Shop.
+49	**Profilbilder**: ein sauberer, professioneller Look für LinkedIn, Lebensläufe und Firmenwebsites.
+50	**Pass- und Visumfotos**: Ersetzen Sie ein unordentliches Zimmer durch einen schlichten weißen oder hellblauen Hintergrund und passen Sie danach die Größe mit dem [Passbild-Generator](/passport-photo-maker/) an.
+51	**Design und Marketing**: Freisteller für Plakate, Thumbnails, Präsentationen und Social-Media-Grafiken.
+52	**Sticker und Memes**: transparente PNGs für Chat-Sticker und den [Meme-Generator](/meme-generator/).
+53	**Immobilien und Autos**: ein Auto oder Möbelstück für ein Inserat isolieren.
+54	Tipps für einen saubereren Freisteller
+55	Verwenden Sie ein Foto, auf dem sich das Motiv deutlich vom Hintergrund abhebt: etwas Abstand und Kontrast helfen.
+56	Gute, gleichmäßige Beleuchtung verhindert, dass Schatten als Teil des Motivs behandelt werden.
+57	Halten Sie das ganze Motiv im Bild; abgeschnittene Ränder sind kein Problem, aber das Modell arbeitet am besten, wenn das Hauptobjekt eindeutig ist.
+58	Bei Gruppenfotos behält das Modell alles, was es für das Hauptmotiv hält; schneiden Sie vorher zu, wenn Sie nur eine Person möchten.
+59	Für feines Haar vor unruhigem Hintergrund wählen Sie weiche Kanten und eine dem Original ähnliche Hintergrundfarbe – so wirkt das Ergebnis am natürlichsten.
+60	Ist eine kleine Stelle misslungen, öffnen Sie das PNG in einem Editor und bessern Sie nach: Die harte Arbeit ist bereits erledigt.
+61	Transparentes PNG oder JPG?
+62	Ein transparentes PNG zeigt nur das Motiv, ohne Hintergrund, bereit zum Einfügen in ein Design, eine Präsentation oder eine Website. Wählen Sie es, wenn Sie das Bild später mit etwas anderem kombinieren. Wählen Sie einen weißen, farbigen, unscharfen oder Bild-Hintergrund, wird das Ergebnis reduziert und als JPG gespeichert, das kleiner ist und von allen Marktplätzen und Formularen akzeptiert wird. Um das PNG danach zu verkleinern, nutzen Sie [Bild komprimieren](/compress-image/), das die Transparenz erhält.
+63	Ersetzen Sie den Hintergrund durch Ihr eigenes Foto
+64	Wählen Sie „Ihr eigenes Bild…“ und ein Hintergrundbild: einen Studiohintergrund, ein Büro, einen Strand, ein Markenmuster. Der Hintergrund wird so skaliert, dass er das ganze Bild füllt, und zentriert; danach wird Ihr Motiv mit derselben Kantenverschmelzung wie bei der transparenten Version darübergelegt. Bei Produktfotos wirkt ein dezenter Verlauf oder eine Textur oft hochwertiger als reines Weiß; bei Profilbildern wirken ein sanft unscharfes Büro oder eine Außenaufnahme natürlich.
+65	Volle Auflösung kostenlos
+66	Viele Dienste zum Entfernen von Hintergründen geben Ihnen gratis eine kleine Vorschau und verlangen Credits oder ein Abo für die Datei in voller Auflösung. Hier hat das Ergebnis immer dieselbe Auflösung wie Ihr Foto (bis zu 4096 Pixel an der langen Seite), denn es gibt keine Serverkosten, die gedeckt werden müssten: Die Arbeit erledigt Ihr eigenes Gerät.
+67	Grenzen und was Sie erwarten können
+68	Kein automatisches Werkzeug ist perfekt. Sehr feine Details wie lose Haarsträhnen vor ähnlich farbigem Hintergrund, transparente Objekte wie Wassergläser und Motive, die mit dem Hintergrund verschwimmen, können Nacharbeit erfordern. Das Modell ist für ein einzelnes klares Motiv gedacht; zum Entfernen kleiner Objekte aus einer Szene eignet es sich nicht – nutzen Sie dafür [Gesichter verpixeln](/blur-face/) oder einen Editor. Bilder über 4096 Pixel werden auf diese Größe verkleinert, damit der Speicherbedarf auf Mobilgeräten vertretbar bleibt.
+69	Hintergrundregeln der Marktplätze
+70	Die meisten großen Marktplätze verlangen Produktbilder auf reinweißem Hintergrund. Das Hauptbild eines Produkts bei Amazon etwa muss einen reinweißen Hintergrund (RGB 255, 255, 255) haben, wobei das Produkt den Großteil des Bildes ausfüllt; eBay und Google Shopping haben ähnliche Empfehlungen. Wählen Sie hier „Weiß“, erhalten Sie exakt RGB-255-Weiß, kein gebrochenes Weiß wie bei manchen Editoren. Nutzen Sie nach dem Entfernen des Hintergrunds [Bildgröße ändern](/resize-image/) mit „Ränder bis zur exakten Größe hinzufügen“, um das Bild quadratisch mit weißen Rändern und zentriertem Produkt anzulegen – die Komposition, die die meisten Marktplätze bevorzugen.
+71	Für Ihren eigenen Shop lassen einheitliche Hintergründe im ganzen Katalog die Kategorieseiten aufgeräumt und professionell wirken. Verarbeiten Sie alle Produktfotos in einem Stapel mit derselben Farbe, damit jeder Artikel auf identischem Hintergrund steht.
+72	Hintergründe bei Profil- und Ausweisfotos entfernen
+73	Viele amtliche Fotos verlangen einen schlichten weißen oder gebrochen weißen Hintergrund ohne Schatten oder Muster. Fotografieren Sie zum Fenster gewandt für gleichmäßiges Licht, entfernen Sie hier den Hintergrund mit „Weiß“ oder „Farbe“ (für Hellblau, einen üblichen Visumhintergrund, wählen Sie ein blasses Blau) und nutzen Sie danach den [Passbild-Generator](/passport-photo-maker/), um auf die richtige Kopfgröße und Druckvorlage zuzuschneiden. Prüfen Sie die genauen Regeln Ihres Landes: Manche Behörden akzeptieren keine digital bearbeiteten Hintergründe, andere erlauben sie ausdrücklich.
+74	Für LinkedIn und Firmenverzeichnisse probieren Sie „Original unscharf“: Es behält ein natürliches Ortsgefühl, entfernt aber die Ablenkung eines unordentlichen Zimmers – wie ein Porträt mit lichtstarkem Objektiv.
+75	Freisteller in Designs verwenden
+76	Transparente PNGs lassen sich direkt in Canva, Figma, PowerPoint, Google Slides, Keynote und jedes wichtige Designtool einfügen. Setzen Sie das Motiv auf einen Verlauf oder eine Form, fügen Sie in Ihrem Designtool einen Schatten für Tiefe hinzu, und das Ergebnis sieht aus wie ein Studiofoto. Für YouTube-Thumbnails ist ein großer Gesichts-Freisteller vor einer auffälligen Farbe ein klassisches Layout, das Klicks anzieht.
+77	Datenschutz
+78	Jeder Schritt läuft im Browser-Tab ab. Das Bild wird auf Ihrem eigenen Gerät mit der integrierten Bild-Engine des Browsers und WebAssembly dekodiert, bearbeitet und neu kodiert, und das Ergebnis landet direkt in Ihrem Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert, und es gibt keine Warteschlange – private Fotos, Ausweisdokumente, Screenshots mit persönlichen Daten und Fotos unveröffentlichter Produkte verlassen also nie Ihren Computer oder Ihr Handy. Sie können sogar das WLAN trennen, sobald die Seite geladen ist, und das Tool funktioniert weiter.
+79	Die KI-Modelldatei wird von unserer eigenen Website ausgeliefert und von Ihrem Browser zwischengespeichert; es wird kein KI-Dienst eines Drittanbieters aufgerufen und keine Kopie Ihres Bildes anderswo erstellt.
+80	Verwandte Tools
+81	[Passbild-Generator](/passport-photo-maker/): Zuschnitt für amtliche Dokumente anpassen.
+82	[Bildgröße ändern](/resize-image/): quadratische oder plattformspezifische Größen für Marktplätze.
+83	[Bild komprimieren](/compress-image/): kleinere PNGs mit erhaltener Transparenz.
+84	[JPG in PNG](/jpg-to-png/): einfache Umwandlung von Weiß in Transparenz für Logos.
+85	[Collage-Maker](/collage-maker/): mehrere Freisteller zu einem Bild kombinieren.
+86	Wo Ihr Bild verarbeitet wird
+87	In Ihrem Browser, nie hochgeladen
+88	Auf deren Servern (Upload)
+89	Auf deren Servern (Upload)
+90	Adobe-Cloud
+91	Konto oder E-Mail erforderlich
+92	Nie
+93	Nicht für die Grundnutzung
+94	Nicht für die Grundnutzung
+95	Siehe Website
+96	Limits der Gratisnutzung
+97	Keine – nur die Ihres Geräts
+98	Siehe Website
+99	Siehe Website
+100	Siehe Website
+101	Das Modell läuft auf Ihrem Gerät
+102	Ja
+103	Nein (in der Cloud)
+104	Nein (in der Cloud)
+105	Siehe Website
+106	Kostenloser Download in voller Auflösung
+107	Ja, bis 4096 px
+108	Siehe Website
+109	Siehe Website
+110	Siehe Website
+111	Durch Farbe / Unschärfe / eigenes Bild ersetzen
+112	Ja
+113	Siehe Website
+114	Siehe Website
+115	Siehe Website
+116	Stapelverarbeitung
+117	Ja, als ZIP
+118	Siehe Website
+119	Siehe Website
+120	Siehe Website
+121	Registrierung
+122	Nie
+123	Nicht für die Grundnutzung
+124	„Keine Registrierung nötig“ (laut ihrer Seite)
+125	Siehe Website
+126	Ist dieser Hintergrund-Entferner wirklich kostenlos?
+127	Ja. Keine Credits, keine kostenpflichtigen HD-Downloads, kein Wasserzeichen, kein Konto.
+128	Werden meine Fotos hochgeladen?
+129	Nein. Das KI-Modell läuft in Ihrem Browser, die Fotos verlassen Ihr Gerät also nie.
+130	Welche Auflösung hat das Ergebnis?
+131	Dieselbe wie Ihr Foto, bis zu 4096 Pixel an der langen Seite.
+132	Wie mache ich den Hintergrund weiß?
+133	Wählen Sie unter Hintergrund „Weiß“, bevor Sie auf Hintergrund entfernen klicken. Das Ergebnis ist ein JPG mit reinweißem Hintergrund.
+134	Kann ich ein anderes Bild hinter das Motiv setzen?
+135	Ja. Wählen Sie „Ihr eigenes Bild…“ und das Hintergrundfoto.
+136	Funktioniert es neben Personen auch mit Produkten?
+137	Ja. Es erkennt das Hauptmotiv, ob Person, Produkt, Tier oder Fahrzeug. Nutzen Sie scharfe Kanten für Produkte mit harten Konturen.
+138	Kann ich den Hintergrund vieler Bilder auf einmal entfernen?
+139	Ja. Legen Sie mehrere Bilder ab und laden Sie alle als ZIP herunter.
+140	Warum dauert das erste Bild länger?
+141	Beim ersten Mal wird das 4,6 MB große KI-Modell heruntergeladen. Es wird zwischengespeichert, daher gehen weitere Bilder viel schneller, und danach funktioniert es offline.
+142	Warum sind manche Haarkanten nicht perfekt?
+143	Feines Haar vor ähnlichem Hintergrund ist für jedes automatische Tool schwierig. Weiche Kanten helfen; eine kurze Nachbearbeitung in einem Editor erledigt den Rest.
+144	Funktioniert es auf meinem Handy?
+145	Ja, in aktuellen Versionen von Safari und Chrome. Auf älteren Handys dauert die Verarbeitung ein paar Sekunden länger.
+146	Wie entferne ich den Hintergrund eines Bildes kostenlos?
+147	Legen Sie das Foto ab; ein KI-Modell auf Ihrem Gerät trennt das Motiv und liefert ein transparentes PNG. Sie können den Hintergrund durch Weiß, eine Farbe, Unschärfe oder ein anderes Foto ersetzen. Kostenlos, ohne Uploads oder Credits.
+148	Funktioniert das Entfernen bei Produkten und Personen?
+149	Ja, es ist auf beides trainiert. Feines Haar und transparente Objekte sind am schwierigsten: Vergrößern Sie und prüfen Sie die Kanten, bevor Sie das Ergebnis verwenden.

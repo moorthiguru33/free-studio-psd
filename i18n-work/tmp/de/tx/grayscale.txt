@@ -1,0 +1,140 @@
+0	PDF in Graustufen
+1	Wandeln Sie ein farbiges PDF in Schwarzweiß um.
+2	PDF in Graustufen online kostenlos – Farbe zu Schwarzweiß | {brand}
+3	Wandeln Sie ein farbiges PDF in Graustufen um, um Tinte und Toner zu sparen oder Schwarzweiß-Vorgaben zu erfüllen. Kostenlos, privat, im Browser.
+4	PDF in Graustufen umwandeln
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie eine Qualitätsstufe.
+7	Klicken Sie auf Starten und laden Sie herunter.
+8	Bleibt der Text auswählbar?
+9	Die Seiten werden in Graustufenbilder umgewandelt, der Text ist danach also nicht auswählbar.
+10	Farbige Dokumente auf einem Schwarzweißdrucker zu drucken kann Text blass wirken lassen, und Farbtinte ist teuer. Die Umwandlung in Graustufen zeigt genau, wie das Dokument gedruckt wird, und kann Kosten senken.
+11	Farbtinte beim Drucken langer Dokumente zu Hause oder im Büro sparen.
+12	Einreichungsvorgaben erfüllen, die Schwarzweiß-Dokumente verlangen.
+13	Vorab sehen, wie Diagramme und Fotos auf einem Monochromdrucker aussehen.
+14	Prüfen Sie Diagramme nach der Umwandlung: Farben, die sich nur im Farbton unterscheiden, können in Grau identisch aussehen.
+15	Nutzen Sie danach PDF komprimieren für eine noch kleinere Datei.
+16	Bleibt der Text auswählbar?
+17	Nein, die Seiten werden in Graustufenbilder umgewandelt, der Text ist danach also nicht auswählbar. Nutzen Sie OCR für PDF, wenn Sie durchsuchbaren Text brauchen.
+18	Tinte und Toner sparen
+19	Farbpatronen sind teuer, und viele Büros drucken standardmäßig schwarzweiß. Vorher umzuwandeln lässt Sie die Lesbarkeit von Diagrammen und Markierungen vor dem Druck prüfen und vermeidet verschwendete Seiten.
+20	Auch kleinere Dateien
+21	Farbbilder enthalten drei Informationskanäle; Graustufen brauchen nur einen, daher kann die Umwandlung auch die Größe bildlastiger Dokumente verringern.
+22	PDF in Graustufen oder Schwarzweiß kostenlos
+23	Wandeln Sie ein PDF in Graustufen oder reines Schwarzweiß mit einstellbarem Schwellenwert um. Mehrere Qualitätsstufen. Kostenlos, ohne Upload, offline.
+24	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Sejda
+25	Wandeln Sie ein PDF in Graustufen oder Schwarzweiß um
+26	Dieses Tool entfernt die Farbe aus einem PDF. **Graustufen** wandelt jede Farbe in den entsprechenden Grauton um – der Look einer guten Schwarzweißkopie – und hält Fotos und Diagramme lesbar. **Schwarzweiß** geht weiter und macht jedes Pixel rein schwarz oder rein weiß, je nach einem von Ihnen gesteuerten Schwellenwert. Das ergibt scharfe, kontrastreiche Seiten für Textdokumente, Formulare und Unterschriften und bei Scans die kleinsten Dateien.
+27	Häufige Gründe: Eine Druckerei oder ein Gerichtsportal verlangt Graustufen, Sie möchten ohne Farbtinte drucken, ein farbiger Hintergrund erschwert das Lesen eines Scans, oder Sie müssen ein sehr farbiges gescanntes Dokument verkleinern.
+28	Graustufen oder Schwarzweiß
+29	
+30	Graustufen
+31	Schwarzweiß
+32	Farben
+33	256 Grautöne
+34	Nur Schwarz und Weiß
+35	Fotos
+36	Behalten Details
+37	Werden hart, posterisiert
+38	Textscans
+39	Gut
+40	Am schärfsten, entfernt den Papierton
+41	Dateigröße
+42	Kleiner als in Farbe
+43	Meist am kleinsten
+44	Ideal für
+45	Gemischte Dokumente, Berichte
+46	Verträge, Formulare, Briefe, Belege
+47	Wenn Sie unsicher sind, beginnen Sie mit Graustufen. Nutzen Sie Schwarzweiß, wenn die Seiten überwiegend Text enthalten und wie ein sauberes Fax oder ein Laserausdruck aussehen sollen.
+48	So wählen Sie den Schwarzweiß-Schwellenwert
+49	Die Helligkeit jedes Pixels (0 = schwarz, 255 = weiß) wird mit dem Schwellenwert verglichen. Der Standardwert 160 passt für die meisten Bürodokumente. Erhöhen Sie ihn (180–200), wenn heller oder dünner Text verschwindet; senken Sie ihn (120–140), wenn graues Papier, Flecken oder ein farbiger Hintergrund zu schwarzen Punkten werden. Einmal ausführen, Ergebnis prüfen, anpassen: Das dauert nur Sekunden.
+50	Qualitätsstufen
+51	Stufe
+52	Render-Skalierung
+53	Verwendung
+54	Hoch
+55	2× (≈144 dpi)
+56	Druck, kleiner Text
+57	Mittel
+58	1,5× (≈108 dpi)
+59	Lesen am Bildschirm, E-Mail
+60	Kleine Datei
+61	1× (72 dpi)
+62	Minimale Größe; nur großer Text
+63	So wandeln Sie ein PDF in Graustufen um
+64	Ziehen Sie das PDF hierher.
+65	Wählen Sie Graustufen oder Schwarzweiß (und den Schwellenwert).
+66	Wählen Sie eine Qualitätsstufe.
+67	Umwandeln und herunterladen.
+68	Was mit dem Text passiert
+69	Damit wirklich alle Farbe entfernt wird – auch in Bildern, Verläufen, Transparenzen und eingebetteten Grafiken –, wird jede Seite gerendert und als Bild gespeichert. Die Seiten sehen genau wie das Original aus, nur in Grau, und der Text ist nicht mehr auswählbar oder durchsuchbar. Brauchen Sie durchsuchbaren Text, wenden Sie [OCR für PDF](/ocr-pdf/) auf das Ergebnis an, das eine unsichtbare Textebene hinzufügt. Behalten Sie das farbige Original zum Bearbeiten.
+70	In Graustufen drucken, ohne umzuwandeln
+71	Die meisten Druckdialoge haben eine Option *Graustufen* oder *Schwarzweiß*, die für gelegentliches Drucken zu Hause reicht. Die Datei umzuwandeln ist besser, wenn Sie sie an jemanden senden, in ein Portal hochladen, das Farbe ablehnt, auf jedem Drucker einheitliche Ergebnisse möchten oder eine kleinere Datei brauchen.
+72	Kann man einem Graustufen-PDF die Farbe zurückgeben?
+73	Nein: Die Farbinformation wird entfernt. Es gibt keinen zuverlässigen Weg, die Originalfarben aus einer grauen Version wiederherzustellen, behalten Sie also immer das farbige Original.
+74	PDF online in Graustufen umwandeln oder mit Desktop-Software
+75	Desktop-PDF-Suiten bieten Farbumwandlung in ihren Druckvorstufen-Werkzeugen, meist in kostenpflichtigen Editionen. Die meisten Online-Konverter laden Ihr Dokument zuerst hoch. Hier läuft die Umwandlung in Ihrem Browser, ist kostenlos und enthält einen echten Schwarzweiß-Modus, der vielen Tools fehlt.
+76	Glossar
+77	Begriff
+78	Bedeutung
+79	Graustufen
+80	Bild, das nur aus Grautönen besteht
+81	Schwarzweiß / monochrom
+82	Bild mit nur rein schwarzen und rein weißen Pixeln
+83	Schwellenwert
+84	Helligkeitsstufe, die zwischen Schwarz und Weiß entscheidet
+85	DPI
+86	Punkte pro Zoll; höher bedeutet schärfer und größere Dateien
+87	Praxisbeispiel
+88	Einen 30-seitigen Bericht in Farbe zu drucken kostet viel. Wandeln Sie ihn hier mit der Qualität *Druck* um, um scharfen grauen Text und Bilder mit 200 dpi zu erhalten, oder wählen Sie *Schwarzweiß* mit dem Standard-Schwellenwert für rein schwarzen Text auf weißem Papier – ideal für Laserdrucker und Faxe. Vergleichen Sie die Dateigrößen in der Ergebnismeldung.
+89	Datenschutz
+90	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Speicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+91	Verwandte Tools
+92	[OCR für PDF](/ocr-pdf/)
+93	[PDF komprimieren](/compress-pdf/)
+94	[PDF gerade ausrichten](/deskew-pdf/)
+95	[PDF reduzieren](/flatten-pdf/)
+96	[PDF in JPG](/pdf-to-jpg/)
+97	Wo Ihre Datei verarbeitet wird
+98	In Ihrem Browser, nie hochgeladen
+99	Auf deren Servern (Upload)
+100	Auf deren Servern (Upload)
+101	Auf deren Servern (Upload)
+102	Konto erforderlich
+103	Nie
+104	Siehe Website
+105	Siehe Website
+106	Siehe Website
+107	Echter Schwarzweiß-Modus
+108	Ja
+109	Siehe Website
+110	Siehe Website
+111	Siehe Website
+112	Einstellbarer Schwellenwert
+113	Ja
+114	Siehe Website
+115	Siehe Website
+116	Siehe Website
+117	Qualitätsstufen, inkl. 200 dpi
+118	4
+119	Siehe Website
+120	Siehe Website
+121	Siehe Website
+122	Wie wandle ich ein PDF in Graustufen um?
+123	Ziehen Sie das PDF hierher, wählen Sie Graustufen und eine Qualität und laden Sie herunter.
+124	Wie wandle ich ein PDF in Schwarzweiß statt in Graustufen um?
+125	Wählen Sie Schwarzweiß und passen Sie den Schwellenwert an.
+126	Ist es kostenlos?
+127	Ja, ohne Registrierung oder Wasserzeichen.
+128	Bleibt der Text auswählbar?
+129	Nein, die Seiten werden als Bilder gerendert; wenden Sie OCR an, um sie wieder durchsuchbar zu machen.
+130	Verringern Graustufen die Dateigröße?
+131	Meist ja, besonders bei Farbscans; Schwarzweiß ergibt meist die kleinste Größe.
+132	Kann ich einem Graustufen-PDF die Farbe zurückgeben?
+133	Nein, die Farbinformation existiert nicht mehr.
+134	Welchen Schwellenwert sollte ich verwenden?
+135	Beginnen Sie bei 160; erhöhen Sie ihn, wenn Text verschwindet, und senken Sie ihn, wenn Hintergründe schwarz werden.
+136	Wird mein PDF hochgeladen?
+137	Nein, die Umwandlung läuft auf Ihrem Gerät.
+138	Wie wandle ich ein PDF mit 200 dpi in Graustufen um?
+139	Wählen Sie Graustufen und die Qualitätsstufe Druck (200 dpi). Jede Seite wird mit 200 dpi in Grautönen gerendert und als neues PDF gespeichert.

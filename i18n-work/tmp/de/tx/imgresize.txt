@@ -1,0 +1,177 @@
+0	Bildgröße ändern
+1	Ändern Sie die Abmessungen eines Bildes in Pixeln oder %.
+2	Bildgröße online kostenlos ändern – Pixel oder % | {brand}
+3	Ändern Sie die Größe von JPG, PNG, WEBP und mehr auf exakte Pixel oder einen Prozentsatz bei gleichem Seitenverhältnis. Stapelweise im Browser, kostenlos.
+4	Bildgröße ändern
+5	Wählen Sie Ihre Bilder aus.
+6	Geben Sie Breite/Höhe in Pixeln oder einen Prozentsatz ein.
+7	Klicken Sie auf Starten und laden Sie die geänderten Bilder herunter.
+8	Wird das Bild verzerrt?
+9	Nein: Mit „Seitenverhältnis beibehalten“ passt das Bild ohne Verzerrung in die angegebene Größe.
+10	Jede Plattform verlangt eine andere Größe: Profilbilder, Webbanner, Marktplatz-Anzeigen, Passfotos. Bildgröße ändern skaliert Ihre Fotos auf exakte Maße ohne Verzerrung, stapelweise und auf Ihrem Gerät.
+11	Produktfotos für einen Onlineshop auf eine einheitliche Breite bringen.
+12	Bilder für Beiträge und Titelbilder in sozialen Netzwerken vorbereiten.
+13	Kamerafotos für E-Mail und schnellere Uploads verkleinern.
+14	Exakte Pixelvorgaben in Antragsformularen erfüllen.
+15	Lassen Sie das „Seitenverhältnis“ aktiviert, um Verzerrungen zu vermeiden.
+16	Verkleinern erhält die Qualität; kleine Bilder zu vergrößern kann unscharf wirken: Probieren Sie Bild hochskalieren.
+17	Kombinieren Sie es mit Bild komprimieren für die kleinsten Dateien.
+18	Verzerrt die Größenänderung mein Bild?
+19	Nein: Mit „Seitenverhältnis beibehalten“ passt das Bild ohne Verzerrung in die angegebene Größe.
+20	Größe fürs Web ändern
+21	Die meisten Websites zeigen Bilder mit höchstens 1200–2000 px Breite. Große Kamerafotos auf diese Breite zu verkleinern, kann die Größe schon vor jeder Komprimierung um 70 bis 90 % senken.
+22	Bildgröße ändern – Pixel, cm, Zoll und KB, kostenlos
+23	Ändern Sie die Bildgröße in Pixeln, %, cm, mm oder Zoll mit DPI. Voreinstellungen für Pass, Instagram, YouTube, Zuschnitt, max. KB, Stapel. Kostenlos.
+24	{tool}: {brand} im Vergleich zu iLoveIMG, ImageResizer.com und Adobe Express
+25	Bringen Sie jedes Bild auf die exakte Größe, die Sie brauchen
+26	Jede Plattform will Bilder in einer anderen Größe. Ein Passfoto muss 35×45 mm messen, eine YouTube-Miniatur 1280×720 Pixel, ein LinkedIn-Banner 1584×396, ein Instagram-Hochformatbeitrag 1080×1350, und ein Prüfungsformular verlangt vielleicht 200×230 Pixel und weniger als 50 KB. Der Bildgrößen-Änderer von {brand} deckt all das auf einem Bildschirm ab: Geben Sie die Größe in Pixeln, Prozent, Zentimetern, Millimetern oder Zoll ein oder wählen Sie eine Voreinstellung und laden Sie in Sekunden ein perfekt bemessenes Bild herunter.
+27	Ändern Sie die Größe eines Bildes oder Hunderter auf einmal; das Seitenverhältnis bleibt erhalten, sofern Sie nichts anderes angeben, und das Tool kann auf eine exakte Form zuschneiden oder auffüllen, damit nichts verzerrt wird. Alles läuft in Ihrem Browser, Ihre Fotos werden also nie hochgeladen.
+28	Funktionen
+29	**Einheiten:** Pixel, Prozent, cm, mm und Zoll mit DPI-Einstellung (standardmäßig 300 DPI für den Druck).
+30	**Voreinstellungen:** Pass 35×45 mm, Instagram quadratisch, Hochformat und Story, YouTube-Miniatur, LinkedIn-Banner, Facebook-Titelbild, X-Header, Full HD und A4 bei 300 DPI.
+31	**Exakte Formen ohne Verzerrung:** einpassen, füllen und auf die exakte Größe zuschneiden, mit Hintergrundfarbe auffüllen oder strecken, wenn Sie das wirklich wollen.
+32	**Nicht vergrößern:** lässt Bilder unverändert, die bereits kleiner als das Ziel sind.
+33	**Maximale Dateigröße:** Legen Sie ein KB-Limit für JPG- oder WebP-Ausgaben fest, und das Tool findet die beste Qualität darunter.
+34	**Hochwertige Verkleinerung:** Große Verkleinerungen erfolgen in mehreren Halbierungsschritten für scharfe Ergebnisse ohne gezackte Kanten.
+35	**Stapelweise:** Ändern Sie die Größe eines ganzen Ordners auf einmal und laden Sie ein ZIP herunter.
+36	**Formatwahl:** Behalten Sie das Original oder speichern Sie als JPG, PNG, WebP oder AVIF.
+37	So ändern Sie die Größe eines Bildes
+38	Legen Sie ein oder mehrere Bilder ab (JPG, PNG, WebP, HEIC, GIF, BMP, TIFF, AVIF).
+39	Wählen Sie eine Voreinstellung oder eine Einheit und geben Sie Breite und/oder Höhe ein.
+40	Legen Sie Breite und Höhe fest, wählen Sie, was passieren soll, wenn die Form nicht passt: einpassen, füllen und zuschneiden, mit Farbe auffüllen oder strecken.
+41	Legen Sie bei Bedarf ein Ausgabeformat und eine maximale Größe in KB fest.
+42	Klicken Sie auf Größe ändern und laden Sie das Bild oder ZIP herunter.
+43	Pixel, Zentimeter und DPI erklärt
+44	Digitale Bilder werden in Pixeln gemessen. Physische Größen wie Zentimeter oder Zoll ergeben nur zusammen mit einer Auflösung Sinn, gemessen in Punkten (Pixeln) pro Zoll. Bei 300 DPI, dem üblichen Standard für Fotodrucke, sind ein Zoll 300 Pixel und ein Zentimeter etwa 118. Ein Passfoto von 35×45 mm bei 300 DPI misst also 413×531 Pixel, und ein Abzug von 10×15 cm (4×6 in) 1200×1800 Pixel.
+45	Größe
+46	Bei 300 DPI
+47	Bei 150 DPI
+48	35×45 mm (Pass)
+49	413×531 px
+50	207×266 px
+51	2×2 in (US-Pass/-Visum)
+52	600×600 px
+53	300×300 px
+54	Foto 4×6 in (10×15 cm)
+55	1200×1800 px
+56	600×900 px
+57	A4-Seite
+58	2480×3508 px
+59	1240×1754 px
+60	A5-Flyer
+61	1748×2480 px
+62	874×1240 px
+63	Wenn Sie cm, mm oder Zoll wählen, geben Sie die DPI ein, die der Drucker oder das Formular erwartet; das Tool rechnet die Größe für Sie in Pixel um.
+64	Einpassen, füllen, Ränder hinzufügen oder strecken?
+65	Modus
+66	Was passiert
+67	Nutzen Sie es für
+68	Einpassen
+69	Das Bild wird so skaliert, dass es in den Rahmen passt; eine Seite kann kleiner bleiben
+70	Das ganze Bild behalten, z. B. Produktfotos
+71	Füllen und zuschneiden
+72	Das Bild füllt den Rahmen exakt; Überstehendes wird von der Mitte aus abgeschnitten
+73	Beiträge in sozialen Netzwerken, Miniaturen, Passfotos
+74	Ränder hinzufügen
+75	Das Bild passt hinein, und der Rest wird mit einer Farbe gefüllt
+76	Marktplätze, die quadratische Bilder mit weißen Rändern verlangen
+77	Strecken
+78	Das Bild wird auf die exakte Größe gezwungen und kann verzerrt aussehen
+79	Nur wenn Verzerrung keine Rolle spielt
+80	Die Voreinstellungen nutzen automatisch Füllen und zuschneiden, damit das Ergebnis immer exakt die Größe hat, die die Plattform erwartet.
+81	Gängige Bildgrößen 2026
+82	Plattform
+83	Empfohlene Größe
+84	Quadratischer Instagram-Beitrag
+85	1080×1080
+86	Instagram-Hochformatbeitrag
+87	1080×1350
+88	Instagram-/Facebook-Story, Reels, TikTok
+89	1080×1920
+90	YouTube-Miniatur
+91	1280×720
+92	LinkedIn-Profilbanner
+93	1584×396
+94	Facebook-Seitentitelbild
+95	820×312
+96	X-Header (Twitter)
+97	1500×500
+98	Hauptbild einer Website
+99	1920×1080 oder breiter
+100	Plattformen ändern ihre Empfehlungen von Zeit zu Zeit; erscheint ein hochgeladenes Bild beschnitten, prüfen Sie die Hilfeseite der Plattform und geben Sie die Größe von Hand ein.
+101	Größe für Online-Formulare ändern
+102	Prüfungs-, Job- und Visaportale geben oft sowohl Pixelmaße als auch eine Höchstgröße vor, etwa „200×230 Pixel, 20–50 KB, JPG“. Wählen Sie „Benutzerdefiniert“, geben Sie 200 und 230 Pixel ein, wählen Sie Füllen und zuschneiden, damit das Gesicht unverzerrt zentriert bleibt, setzen Sie das Format auf JPG und tragen Sie 50 in das Feld „Maximale Dateigröße“ ein. Ein Klick liefert eine Datei, die die Anforderungen erfüllt. Bei Unterschriften verfahren Sie genauso mit den Maßen der Unterschrift und einem Limit von 20 KB.
+103	Verringert die Größenänderung die Qualität?
+104	Ein Bild zu verkleinern entfernt immer Pixel, aber richtig gemacht bleibt es scharf. Das Tool verkleinert große Bilder in mehreren Halbierungsschritten mit hochwertiger Glättung, was gezackte Kanten und Moiré einer einzigen großen Verkleinerung vermeidet. Ein Bild zu vergrößern kann keine echten Details hinzufügen; für Vergrößerungen um 2× oder mehr nutzt [Bild hochskalieren](/upscale-image/) Lanczos-Resampling und Schärfung für ein besseres Ergebnis.
+105	Datenschutz
+106	Jeder Schritt läuft im Browser-Tab ab. Das Bild wird auf Ihrem eigenen Gerät mit der integrierten Bild-Engine des Browsers und WebAssembly dekodiert, bearbeitet und neu kodiert, und das Ergebnis landet direkt in Ihrem Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert, und es gibt keine Warteschlange – private Fotos, Ausweisdokumente, Screenshots mit persönlichen Daten und Fotos unveröffentlichter Produkte verlassen also nie Ihren Computer oder Ihr Handy. Sie können sogar das WLAN trennen, sobald die Seite geladen ist, und das Tool funktioniert weiter.
+107	Verwandte Tools
+108	[Bild komprimieren](/compress-image/): verringert die Größe auf ein exaktes KB-Ziel.
+109	[Bild zuschneiden](/crop-image/): wählen Sie genau, welcher Teil des Fotos bleibt.
+110	[Passfoto-Generator](/passport-photo-maker/): Pass- und Visumfotos mit Druckbögen.
+111	[Bildkonverter](/image-converter/): ändert das Format ohne Größenänderung.
+112	Wo Ihr Bild verarbeitet wird
+113	In Ihrem Browser, nie hochgeladen
+114	Auf deren Servern (Upload)
+115	Auf deren Servern (Upload)
+116	Adobe-Cloud
+117	Konto oder E-Mail erforderlich
+118	Nie
+119	Nicht für die Grundnutzung
+120	Nicht für die Grundnutzung
+121	Siehe Website
+122	Limits der Gratisnutzung
+123	Keine – nur die Ihres Geräts
+124	Siehe Website
+125	Siehe Website
+126	Siehe Website
+127	Einheiten
+128	px, %, cm, mm, Zoll + DPI
+129	Pixel oder Prozent
+130	Siehe Website
+131	Siehe Website
+132	Voreinstellungen für soziale Netzwerke / Pass
+133	Ja (10 Voreinstellungen)
+134	Auf der Seite nicht angeboten
+135	Siehe Website
+136	Siehe Website
+137	Zuschneiden zum Füllen oder Ränder bis zur exakten Größe hinzufügen
+138	Ja
+139	Auf der Seite nicht angeboten
+140	Siehe Website
+141	Siehe Website
+142	Maximale KB der Ausgabe
+143	Ja
+144	Auf der Seite nicht angeboten
+145	Auf der Seite nicht angeboten
+146	Siehe Website
+147	Stapelweise Größe ändern
+148	Ja, als ZIP
+149	Ja („mehrere Bilder gleichzeitig“)
+150	Siehe Website
+151	Siehe Website
+152	Dateiaufbewahrung
+153	Nie hochgeladen
+154	Siehe Website
+155	Nach 6 Stunden gelöscht
+156	Siehe Website
+157	Wie ändere ich die Größe eines Bildes ohne Qualitätsverlust?
+158	Behalten Sie das Seitenverhältnis bei und verkleinern Sie nur. Das Tool verkleinert in mehreren Schritten für scharfe Ergebnisse. Vergrößern fügt keine Details hinzu; nutzen Sie dafür Bild hochskalieren.
+159	Wie bringe ich ein Bild für den Pass auf 35×45 mm?
+160	Wählen Sie die Voreinstellung „Pass 35×45 mm @300 DPI“. Sie erhalten ein von der Mitte aus zugeschnittenes Bild mit 413×531 px.
+161	Kann ich auf eine exakte Größe in cm oder Zoll ändern?
+162	Ja. Wählen Sie cm, mm oder Zoll, geben Sie die Größe ein und legen Sie die DPI fest, die Drucker oder Formular erwarten.
+163	Wie ändere ich die Größe eines Bildes und bleibe unter 50 KB?
+164	Legen Sie die Größe fest, wählen Sie JPG- oder WebP-Ausgabe und tragen Sie 50 in das Feld „Maximale Dateigröße“ ein.
+165	Kann ich die Größe vieler Bilder auf einmal ändern?
+166	Ja. Legen Sie alle ab; Sie erhalten ein ZIP mit allen geänderten Bildern.
+167	Wie mache ich ein Bild quadratisch, ohne es zuzuschneiden?
+168	Geben Sie dieselbe Breite und Höhe ein und wählen Sie „Ränder bis zur exakten Größe hinzufügen“ mit Ihrer Hintergrundfarbe.
+169	Werden meine Fotos hochgeladen?
+170	Nein. Die Größenänderung erfolgt in Ihrem Browser, und nichts wird an einen Server gesendet.
+171	Welche Größen nutzen die Social-Media-Voreinstellungen?
+172	Instagram 1080×1080 und 1080×1350, Storys 1080×1920, YouTube 1280×720, LinkedIn 1584×396, Facebook-Titelbild 820×312 und X-Header 1500×500.
+173	Funktioniert es auf iPhone und Android?
+174	Ja. Es funktioniert in Safari und Chrome für Mobilgeräte, auch mit HEIC-Fotos vom iPhone.
+175	Wie ändere ich die Größe eines Bildes?
+176	Legen Sie das Bild ab und geben Sie eine neue Breite oder Höhe in Pixeln, einen Prozentsatz oder eine Druckgröße in cm, mm oder Zoll mit DPI ein. Lassen Sie „Seitenverhältnis sperren“ aktiviert, um Verzerrungen zu vermeiden, und laden Sie herunter.

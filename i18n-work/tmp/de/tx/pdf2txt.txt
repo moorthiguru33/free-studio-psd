@@ -1,0 +1,102 @@
+0	PDF in Text
+1	Den reinen Text aus einem PDF extrahieren.
+2	PDF in Text – Text aus PDF gratis online extrahieren
+3	Extrahieren Sie den gesamten Text eines PDFs in eine .txt-Datei, in Lesereihenfolge und mit zusammengeführten Absätzen. Kostenlos, ohne Upload und Anmeldung.
+4	PDF in Text
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie, ob Seitenumbrüche markiert werden sollen.
+7	Laden Sie die Textdatei herunter.
+8	Mein PDF ist ein Scan: Gibt es keinen Text?
+9	Nutzen Sie zuerst OCR für PDF, um den Text zu erkennen.
+10	Reiner Text ist das am einfachsten zu durchsuchende, zu analysierende, zu übersetzende oder in eine andere App einzufügende Format. PDF in Text holt jedes Wort in Lesereihenfolge heraus, ohne Formatierung.
+11	Den Text eines Dokuments in einen Übersetzer oder KI-Assistenten einfügen.
+12	Text in einer Tabelle oder einem Skript analysieren.
+13	Ein Dokument für Screenreader oder Nur-Text-Tools zugänglich machen.
+14	Für Überschriften und Listen bewahrt PDF in Markdown mehr Struktur.
+15	Gescannte PDFs brauchen OCR.
+16	Und wenn mein PDF gescannt ist?
+17	Nutzen Sie zuerst OCR für PDF, um den Text zu erkennen.
+18	Einsatzmöglichkeiten für reinen Text
+19	Textdateien sind winzig, lassen sich auf jedem Gerät öffnen und sind ideal, um Wörter zu zählen, zu übersetzen, Suchindizes aufzubauen, Daten zu analysieren oder Inhalte in KI-Assistenten einzufügen. Das Entfernen der Formatierung hilft auch Screenreadern und Barrierefreiheits-Tools.
+20	Lesereihenfolge
+21	Der Text wird in Lesereihenfolge extrahiert und die Zeilen werden zu Absätzen zusammengeführt, mehrspaltige Layouts brauchen aber eventuell kleine Korrekturen.
+22	PDF in Text – Text aus PDF (TXT) kostenlos extrahieren
+23	Wandeln Sie PDF im Browser in reinen Text (.txt) um: saubere Zeilen und Absätze, optionale Seitenumbruchmarken, Unicode. Kostenlos, ohne Upload.
+24	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Adobe
+25	PDF in reinen Text umwandeln
+26	Holen Sie den gesamten Text eines PDFs als einfache .txt-Datei heraus: ideal zum Kopieren in andere Programme, für Analyse- oder KI-Tools, zum Übersetzen, für bessere Barrierefreiheit, für Suchindizes oder einfach zum Lesen auf jedem Gerät. Zeilen und Absätze werden aus dem PDF-Layout rekonstruiert; alle Sprachen und Schriftsysteme bleiben in Unicode erhalten.
+27	So funktioniert es
+28	Legen Sie das PDF ab.
+29	Aktivieren Sie „Seitenumbrüche markieren“, wenn Sie Trenner zwischen den Seiten möchten.
+30	Klicken Sie auf Umwandeln und laden Sie die .txt-Datei herunter.
+31	Gescannte PDFs
+32	Die Extraktion liest die Textebene des PDFs. Gescannte Seiten sind Bilder ohne Text und ergeben daher leere Seiten. Führen Sie zuerst [OCR für PDF](/ocr-pdf/) aus und extrahieren Sie dann.
+33	Warum Abstände oder Reihenfolge seltsam aussehen können
+34	PDFs speichern Text als positionierte Stücke, nicht als Absätze. Der Extraktor rekonstruiert Zeilen und Absätze aus ihren Positionen. Mehrspaltige Layouts, Tabellen, Fußnoten und Seitenkästen können in einer anderen als der Lesereihenfolge herauskommen, und am Zeilenende getrennte Wörter bleiben getrennt. Tabellen lassen sich besser mit [PDF in Excel](/pdf-to-excel/) oder [PDF in CSV](/pdf-to-csv/) extrahieren.
+35	Seitenumbrüche markieren
+36	Aktivieren Sie *Seitenumbrüche markieren*, um auf jeder Seite einen deutlichen Trenner einzufügen, damit Sie finden, wo Seite 12 beginnt, oder mit Seitenzahlen zitieren können.
+37	Einsatzmöglichkeiten für reinen Text
+38	In ChatGPT, Übersetzungstools oder einen Wortzähler einfügen: siehe [Wortzähler](/word-counter/).
+39	In eine Tabelle, eine Datenbank oder einen Suchindex importieren.
+40	Auf älteren E-Readern und mit Screenreadern lesen.
+41	Zwei Versionen mit dem [Textvergleich](/text-diff-checker/) vergleichen.
+42	Eine leichte, zukunftssichere Archivkopie aufbewahren.
+43	Funktioniert mit fast jedem PDF
+44	Das Tool öffnet PDFs aus Word, Google Docs, LibreOffice, Scannern, Smartphones und Designprogrammen, einschließlich PDF 1.0–2.0 mit Formularen, Anmerkungen und eingebetteten Schriften. Dateien mit einem *Öffnungs*-Passwort müssen zuerst mit [PDF entsperren](/unlock-pdf/) entsperrt werden (Sie brauchen das Passwort); Dateien mit reinen Berechtigungsbeschränkungen öffnen sich meist direkt. Auch große Dokumente mit Hunderten Seiten funktionieren: Die Grenze ist der Speicher Ihres Geräts, meist mehrere Hundert Megabyte auf einem Laptop und etwa 100 MB auf einem Smartphone.
+45	Windows, Mac, iPhone und Android
+46	Es muss nichts installiert werden. Es funktioniert in Chrome, Edge, Firefox und Safari unter Windows, macOS, Linux, ChromeOS, Android und iOS. Tippen Sie auf dem Smartphone auf den Ablagebereich und wählen Sie die Datei aus Dateien, Google Drive oder den E-Mail-Downloads; das Ergebnis wird in Downloads oder der App Dateien gespeichert und lässt sich direkt per WhatsApp, Gmail oder Drive teilen.
+47	Häufige Probleme und Lösungen
+48	**„Die Datei ist verschlüsselt“**: Entfernen Sie das Öffnungspasswort mit PDF entsperren und versuchen Sie es erneut.
+49	**Die Datei ist ein Cloud-Platzhalter**: Laden Sie sie zuerst vollständig aus OneDrive, iCloud oder Drive herunter.
+50	**Ein beschädigter oder unvollständiger Download**: Bearbeiten Sie ihn mit [PDF reparieren](/repair-pdf/).
+51	**Sehr langsam auf dem Smartphone**: Große gescannte PDFs brauchen viel Speicher; schließen Sie andere Tabs oder teilen Sie die Datei vorher mit [PDF teilen](/split-pdf/).
+52	**Der Download hat nicht begonnen**: Manche In-App-Browser (Instagram, Facebook) blockieren Downloads; öffnen Sie die Seite in Chrome oder Safari.
+53	Mit anderen PDF-Tools kombinieren
+54	Die meisten Aufgaben erfordern mehr als einen Schritt, und alle Fileopia-Tools funktionieren gleich, sodass Sie sie ohne Upload verketten können. Ein typischer Ablauf: Seiten scannen oder umwandeln, sie zu einer Datei [zusammenfügen](/merge-pdf/), mit [PDF organisieren](/organize-pdf/) sortieren, gescannten Text per OCR durchsuchbar machen, [Seitenzahlen](/add-page-numbers/) hinzufügen und das Ergebnis schließlich zum Versenden per E-Mail [komprimieren](/compress-pdf/). Jeder Schritt lädt eine neue Datei herunter und lässt das Original unberührt, sodass Sie jederzeit zurückgehen und andere Einstellungen ausprobieren können. Tipp: Geben Sie jedem Ergebnis einen klaren Namen wie *vertrag-unterschrieben-komprimiert.pdf*, um die Versionen später zu unterscheiden.
+55	Datenschutz
+56	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrem Datenträger in den Arbeitsspeicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden per E-Mail schicken würden.
+57	Wo Ihre Datei verarbeitet wird
+58	In Ihrem Browser, nie hochgeladen
+59	Auf deren Servern (Upload)
+60	Auf deren Servern (Upload)
+61	Auf deren Servern (Upload)
+62	Konto erforderlich
+63	Nie
+64	Siehe Website
+65	Siehe Website
+66	Siehe Website
+67	Ohne Upload: läuft auf Ihrem Gerät
+68	Ja
+69	Siehe Website
+70	Siehe Website
+71	Siehe Website
+72	Seitenumbruchmarken, UTF-8
+73	Ja
+74	Siehe Website
+75	Siehe Website
+76	Siehe Website
+77	Kostenlos ohne Registrierung
+78	Ja
+79	Siehe Website
+80	Siehe Website
+81	Siehe Website
+82	Wie wandle ich ein PDF in Text um?
+83	Legen Sie das PDF ab und laden Sie die .txt-Datei herunter.
+84	Bleibt die Formatierung erhalten?
+85	Nein: Reiner Text hat keine Schriften und kein Layout; dafür nutzen Sie PDF in Word.
+86	Warum ist meine Textdatei leer?
+87	Das PDF ist gescannt; führen Sie zuerst die OCR aus.
+88	Werden Hindi, Arabisch oder Chinesisch unterstützt?
+89	Ja, in Unicode, sofern das PDF eine korrekte Textzuordnung hat.
+90	Kann ich die Seitenzahlen markieren?
+91	Ja, aktivieren Sie „Seitenumbrüche markieren“.
+92	Ist die Kodierung UTF-8?
+93	Ja.
+94	Kann ich Tabellen extrahieren?
+95	Nutzen Sie PDF in Excel oder in CSV.
+96	Ist es kostenlos?
+97	Ja.
+98	Werden die Dateien hochgeladen?
+99	Nein.
+100	Funktioniert es auf dem Handy?
+101	Ja.

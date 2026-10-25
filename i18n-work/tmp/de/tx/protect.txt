@@ -1,0 +1,136 @@
+0	PDF schützen
+1	Fügen Sie Ihrem PDF ein Passwort hinzu.
+2	PDF mit Passwort schützen – gratis verschlüsseln | {brand}
+3	Verschlüsseln Sie ein PDF mit Passwort per AES-256. Kostenlos und sicher: Weder die Datei noch das Passwort verlassen Ihr Gerät.
+4	Ein PDF mit Passwort schützen
+5	Wählen Sie Ihr PDF aus.
+6	Geben Sie ein Passwort ein und bestätigen Sie es.
+7	Klicken Sie auf Starten und laden Sie das verschlüsselte PDF herunter.
+8	Welche Verschlüsselung wird verwendet?
+9	Die Dateien werden mit AES-256 verschlüsselt, der stärksten Standardverschlüsselung für PDF.
+10	Ein Passwort verhindert, dass jemand ohne es Ihr PDF öffnet. {brand} verschlüsselt die Dateien lokal mit AES-256, sodass weder die Datei noch das Passwort jemals durchs Internet gehen.
+11	Gehaltsabrechnungen, Kontoauszüge oder Arztberichte sicher per E-Mail senden.
+12	Ausweisdokumente teilen und das Passwort separat schicken.
+13	Geschäftsangebote und Verträge schützen.
+14	Verwenden Sie ein langes Passwort: Probieren Sie unseren Passwort-Generator.
+15	Teilen Sie das Passwort über einen anderen Kanal als die Datei.
+16	So funktioniert die PDF-Verschlüsselung
+17	AES-256 ist die stärkste im PDF-Standard definierte Verschlüsselung und wird von Adobe Reader, Chrome, Edge, Firefox, der macOS-Vorschau und aktuellen mobilen Viewern unterstützt. Ohne das Passwort ist der Inhalt nicht lesbar.
+18	So wählen Sie ein sicheres Passwort
+19	Verwenden Sie mindestens 12–16 Zeichen aus Wörtern, Zahlen und Symbolen. Eine Passphrase wie „Kaffee-Fenster-42-Orbit“ ist sicher und leicht zu merken. Senden Sie das Passwort nie in derselben E-Mail wie die Datei.
+20	Funktioniert offline
+21	Die Verschlüsselung erfolgt in Ihrem Browser, sodass Sie Dateien nach dem Laden der Seite sogar ohne Internetverbindung schützen können.
+22	PDF mit Passwort schützen – AES-256, kostenlos, ohne Upload
+23	PDF mit Passwort und AES-256-Verschlüsselung schützen. Drucken, Kopieren und Bearbeiten steuern, Besitzerpasswort, mehrere Dateien. Kostenlos und privat.
+24	Sperren Sie Ihr PDF mit starker Verschlüsselung
+25	Ein passwortgeschütztes PDF kann nur öffnen, wer das Passwort kennt. {brand} verschlüsselt Ihre Datei mit **AES-256**, der stärksten Standard-PDF-Verschlüsselung und der Standardempfehlung der aktuellen PDF-Spezifikation (ISO 32000-2). Manche bekannten Online-Tools werben mit AES-128; AES-256 wird von allen modernen Readern unterstützt, darunter Adobe Acrobat, Chrome, Edge, Firefox, macOS Vorschau und mobile Apps. Wenn Sie Kompatibilität mit sehr alter Software brauchen, können Sie auf AES-128 umschalten.
+26	Die Verschlüsselung erfolgt in Ihrem Browser. Das ungeschützte Dokument und das Passwort verlassen nie Ihr Gerät: Es gibt keinen Server, der sie protokollieren könnte, und nichts, was nach einer Stunde gelöscht werden müsste.
+27	Legen Sie fest, was Leser dürfen
+28	**Öffnungspasswort**: erforderlich, um das Dokument anzuzeigen.
+29	**Drucken erlauben**: deaktivieren, um das Drucken in kompatiblen Readern zu sperren.
+30	**Kopieren erlauben**: deaktivieren, um das Kopieren von Text und Bildern zu verhindern.
+31	**Bearbeiten erlauben**: deaktivieren, um Änderungen und das Umsortieren von Seiten zu verhindern.
+32	**Kommentare und Formularausfüllen erlauben**: Formulare bleiben nutzbar, während alles andere gesperrt ist.
+33	**Besitzerpasswort**: ein zweites Passwort, das die Einschränkungen für Sie aufhebt, während Empfänger nur eingeschränkte Rechte haben.
+34	**Stärkeanzeige**: prüft sofort, ob Ihr Passwort schwach oder stark ist; erstellen Sie eines mit unserem [Passwort-Generator](/password-generator/).
+35	**Stapelverarbeitung**: mehrere PDFs mit denselben Einstellungen schützen und als ZIP herunterladen.
+36	So funktioniert der PDF-Passwortschutz
+37	Beim Schützen eines PDFs wird jeder Text-, Bild- und Schriftdatenstrom der Datei mit einem Schlüssel verschlüsselt, der aus Ihrem Passwort abgeleitet wird. Ohne Passwort ist der Inhalt unlesbarer Datensalat. Die Berechtigungen (Drucken, Kopieren, Bearbeiten) werden mitgespeichert und von Standard-PDF-Readern beachtet; sie sind eher eine Richtlinie als ein unknackbarer Schutz. Verlassen Sie sich bei wirklich vertraulichem Material daher auf das Öffnungspasswort und halten Sie es geheim.
+38	Einstellung
+39	Was geschützt wird
+40	Öffnungspasswort (Benutzer)
+41	Niemand kann die Datei ohne es ansehen
+42	Besitzerpasswort
+43	Erlaubt Ihnen, Einschränkungen zu ändern oder aufzuheben
+44	Berechtigungen
+45	Teilen Readern mit, ob Drucken, Kopieren oder Bearbeiten erlaubt ist
+46	So wählen Sie ein gutes Passwort
+47	Verwenden Sie mindestens 12 Zeichen mit Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen – oder vier zufällige Wörter.
+48	Verwenden Sie niemals das Passwort Ihres E-Mail-Kontos oder Ihrer Bank erneut.
+49	Senden Sie das Passwort über einen anderen Kanal als die Datei: zum Beispiel das PDF per E-Mail und das Passwort per SMS oder Telefon.
+50	Speichern Sie es in einem Passwort-Manager; ein verlorenes Passwort kann niemand wiederherstellen, auch wir nicht.
+51	So schützen Sie ein PDF mit einem Passwort
+52	Ziehen Sie Ihr PDF (oder mehrere) hierher.
+53	Geben Sie das Passwort zweimal ein und prüfen Sie die Stärkeanzeige.
+54	Öffnen Sie bei Bedarf „Berechtigungen“, um Drucken, Kopieren oder Bearbeiten einzuschränken und ein Besitzerpasswort festzulegen.
+55	Klicken Sie auf „Schützen“ und laden Sie das verschlüsselte PDF herunter.
+56	Typische Anwendungen
+57	Gehaltsabrechnungen, Steuererklärungen und Kontoauszüge per E-Mail senden.
+58	Verträge und Personalunterlagen mit Bewerbern teilen.
+59	Prüfungen oder Lösungsbögen verteilen.
+60	Kundenberichte und Patientenakten schützen.
+61	Fertige E-Books gegen einfaches Kopieren sperren.
+62	Verwandte Tools
+63	Sie möchten ein bekanntes Passwort entfernen? Nutzen Sie [PDF entsperren](/unlock-pdf/). Sie möchten Teile einer Seite dauerhaft unkenntlich machen, statt die ganze Datei zu sperren? Nutzen Sie [PDF schwärzen](/redact-pdf/). Sie möchten einen sichtbaren Stempel „Vertraulich“ hinzufügen? Probieren Sie [Wasserzeichen hinzufügen](/add-watermark-to-pdf/).
+64	Wo Ihre Datei verarbeitet wird
+65	In Ihrem Browser, nie hochgeladen
+66	Auf deren Servern
+67	Auf deren Servern
+68	Adobe-Cloud
+69	Auf deren Servern
+70	Funktioniert bei ausgeschaltetem WLAN
+71	Ja, nach dem Laden der Seite
+72	Nein
+73	Nein
+74	Nein
+75	Nein
+76	Konto oder E-Mail erforderlich
+77	Nie
+78	Nicht für die Grundnutzung
+79	Nicht für die Grundnutzung
+80	Anmeldung für einige Aktionen
+81	Nicht für die Grundnutzung
+82	Limits der Gratisnutzung
+83	Keine – nur die Ihres Geräts
+84	Gratis-Tarif; Premium für mehr
+85	Gratis-Tarif; Premium für mehr
+86	Gratis-Tarif; Premium für mehr
+87	3 Aufgaben/Stunde, 50 MB pro Datei
+88	Verschlüsselungsstufe
+89	AES-256 (AES-128 optional)
+90	Siehe Website
+91	128-Bit-AES
+92	Siehe Website
+93	Siehe Website
+94	Berechtigungen für Drucken / Kopieren / Bearbeiten
+95	Ja
+96	Siehe Website
+97	Siehe Website
+98	Siehe Website
+99	Siehe Website
+100	Separates Besitzerpasswort
+101	Ja
+102	Siehe Website
+103	Siehe Website
+104	Siehe Website
+105	Siehe Website
+106	Stapelschutz
+107	Kostenlos, als ZIP
+108	Siehe Website
+109	Siehe Website
+110	Siehe Website
+111	Im Rahmen des Aufgabenlimits
+112	Wie sicher ist der Passwortschutz eines PDFs?
+113	Mit AES-256 und einem starken Passwort ist der Inhalt ohne Passwort praktisch nicht lesbar. Verwenden Sie 12 oder mehr Zeichen und halten Sie es geheim.
+114	Wird mein Passwort irgendwohin gesendet?
+115	Nein. Die Verschlüsselung läuft in Ihrem Browser; Passwort und Datei verlassen nie Ihr Gerät.
+116	Kann ich das Drucken oder Kopieren meines PDFs verhindern?
+117	Ja. Deaktivieren Sie unter „Berechtigungen“ die Optionen „Drucken erlauben“ oder „Kopieren erlauben“. Standard-Reader beachten diese Einstellungen.
+118	Was ist ein Besitzerpasswort?
+119	Ein zweites Passwort, das die Einschränkungen aufhebt. Empfänger öffnen die Datei mit dem normalen Passwort und haben eingeschränkte Rechte; Sie behalten die volle Kontrolle.
+120	Kann ich ein PDF mit Passwort schützen, ohne etwas zu installieren?
+121	Ja. Dieses Tool funktioniert in jedem Browser unter Windows, Mac, Linux, Android und iPhone.
+122	Wie teile ich ein passwortgeschütztes PDF per E-Mail?
+123	Hängen Sie das geschützte PDF an und senden Sie das Passwort separat, zum Beispiel per SMS oder Telefon.
+124	Was ist, wenn ich das Passwort vergesse?
+125	Es lässt sich nicht wiederherstellen – speichern Sie es in einem Passwort-Manager. Bewahren Sie ein ungeschütztes Original an einem sicheren Ort auf.
+126	Öffnet jeder PDF-Reader die Datei?
+127	Ja. AES-256 wird von Acrobat, Browsern, Vorschau und mobilen Apps unterstützt. Wählen Sie AES-128 nur für sehr alte Software.
+128	Kann ich mehrere PDFs auf einmal schützen?
+129	Ja. Ziehen Sie mehrere Dateien hinein; alle erhalten dasselbe Passwort und dieselben Einstellungen und werden als ZIP heruntergeladen.
+130	Was passiert danach mit meiner Datei?
+131	Es wird nichts gespeichert. Beim Schließen des Tabs wird alles verworfen.
+132	Wie versehe ich ein PDF mit einem Passwort?
+133	PDF hineinziehen, Passwort eingeben, erlaubte Aktionen wählen (Drucken, Kopieren, Bearbeiten) und herunterladen. Die Datei wird mit AES-256 verschlüsselt, und wer sie öffnet, wird nach dem Passwort gefragt.
+134	Wie schütze ich ein PDF vor Bearbeiten und Kopieren?
+135	Legen Sie ein Besitzerpasswort fest und deaktivieren Sie Bearbeiten und Kopieren. Leser können die Datei weiterhin öffnen (oder benötigen das Öffnungspasswort, falls Sie eines festlegen), aber kompatible PDF-Apps sperren Änderungen und das Kopieren von Text.

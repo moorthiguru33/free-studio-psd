@@ -1,0 +1,130 @@
+0	PDF in JPG
+1	Jede Seite eines PDFs in ein JPG- oder PNG-Bild umwandeln.
+2	PDF in JPG umwandeln – online gratis, hohe Qualität | {brand}
+3	Wandeln Sie jede Seite eines PDFs in hochwertige JPG- oder PNG-Bilder um. Kostenlos, ohne Limits und direkt in Ihrem Browser.
+4	PDF in JPG umwandeln
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie Bildformat und Auflösung.
+7	Klicken Sie auf Starten und laden Sie die Bilder als ZIP herunter.
+8	Welche Auflösung haben die Bilder?
+9	Sie können von Standard (1x) bis hohe Auflösung (3x, etwa 216 DPI) wählen.
+10	Wenn Sie PDF-Seiten in Bilder umwandeln, lassen sie sich leicht in sozialen Netzwerken teilen, in Folien einfügen oder auf jedem Gerät ansehen. {brand} rendert jede Seite in Ihrem Browser in der gewählten Auflösung.
+11	Eine einzelne PDF-Seite per WhatsApp oder Instagram teilen.
+12	PDF-Seiten in PowerPoint oder Google Präsentationen einfügen.
+13	Miniaturansichten oder Vorschauen eines Dokuments erstellen.
+14	Wählen Sie PNG für scharfen Text und Diagramme und JPG für leichtere Seiten mit Fotos.
+15	Nutzen Sie die Auflösung 2x oder 3x, wenn die Bilder gedruckt oder vergrößert werden.
+16	JPG oder PNG?
+17	JPG erzeugt bei Seiten mit Fotos kleinere Dateien. PNG hält Text und Linien perfekt scharf und verliert keine Qualität. Für Dokument-Screenshots, die in Chats geteilt werden, ist PNG bei 2x meist der beste Kompromiss.
+18	Auflösungsleitfaden
+19	1x eignet sich für Vorschauen, 2x für die meisten Bildschirme und Dokumente und 3x zum Drucken oder Vergrößern von Details.
+20	PDF in JPG – PDF-Seiten kostenlos in Bilder umwandeln
+21	Wandeln Sie jede PDF-Seite in JPG, PNG oder WebP mit bis zu 300 DPI um oder wählen Sie einen Bereich. Kostenlos im Browser: ohne Upload, Anmeldung, offline.
+22	PDF-Seiten in hochwertige Bilder umwandeln
+23	{brand} rendert jede Seite Ihres PDFs mit PDF.js (derselben Engine, mit der Firefox PDFs anzeigt) und speichert sie als Bild. Sie wählen Format und Auflösung, können die Umwandlung auf bestimmte Seiten beschränken und laden ein einzelnes Bild oder ein ZIP mit allen Seiten herunter. Das PDF wird nie hochgeladen, sodass selbst vertrauliche Dokumente sicher umgewandelt werden.
+24	**Formate**: JPG für kleine Dateien, PNG für verlustfreien Text und Diagramme oder WebP für das beste Verhältnis von Größe zu Qualität im Web.
+25	**Auflösung**: 72 DPI (Bildschirm), 144 DPI (Standard, scharf auf den meisten Bildschirmen), 216 DPI oder 300 DPI zum Drucken.
+26	**Seitenbereich**: Wandeln Sie nur „1-3,5“ statt eines 200-seitigen Dokuments um.
+27	**Modus Bilder extrahieren**: Stellen Sie den Modus auf *Bilder extrahieren*, um die im PDF eingebetteten Originalfotos in voller Qualität zu speichern, statt ganze Seiten zu rendern (wählen Sie *Original*, um JPEGs Byte für Byte zu erhalten).
+28	Welche DPI sollte ich wählen?
+29	Verwendung
+30	Empfohlene Einstellung
+31	Warum
+32	Folien, soziale Netzwerke, Web
+33	144 DPI
+34	Scharf auf dem Bildschirm, kleine Dateien
+35	Miniaturen, Vorschauen
+36	72 DPI
+37	Die kleinsten Dateien
+38	Vergrößerbare Details, OCR
+39	216 DPI
+40	Feiner Text bleibt lesbar
+41	Druck
+42	300 DPI
+43	Druckstandard
+44	Mehr DPI ergeben größere Bilder und dauern auf Smartphones länger. Eine typische A4-Seite misst bei 144 DPI etwa 1190 × 1684 Pixel und bei 300 DPI 2480 × 3508 Pixel.
+45	Wird die Bildqualität beeinträchtigt?
+46	Die Seiten werden aus den ursprünglichen Vektordaten gerendert, sodass Text und Zeichnungen in jeder Auflösung scharf bleiben: Das PDF selbst verliert keine Qualität. JPG nutzt eine hochwertige Kompression; wenn Sie pixelgenaue Textkanten brauchen, wählen Sie PNG.
+47	PDF in JPG auf Mac, Windows oder Smartphone umwandeln
+48	Alles geschieht im Browser, daher sind die Schritte überall gleich: Seite öffnen, PDF wählen, Format und DPI auswählen und auf Umwandeln klicken. Auf dem iPhone können Sie die Bilder über die App Dateien in Fotos speichern; auf Android landen sie in Downloads. Und da der Code bereits geladen ist, können Sie PDFs nach dem Öffnen der Seite auch offline umwandeln.
+49	Bleibt das Original-PDF unverändert?
+50	Ja. {brand} liest Ihre Datei nur; das Original-PDF auf Ihrem Gerät wird nie verändert und nirgendwo wird eine Kopie gespeichert: Beim Schließen des Tabs wird alles verworfen. Wandeln Sie dieselbe Datei später erneut um, erhalten Sie identische Ergebnisse.
+51	JPG, PNG oder WebP?
+52	Format
+53	Dateigröße
+54	Qualität
+55	Ideal für
+56	JPG
+57	Klein
+58	Sehr gut für Fotos, leicht weichgezeichnete Textkanten
+59	Teilen, E-Mail, soziale Netzwerke
+60	PNG
+61	Am größten
+62	Verlustfrei, perfekte Textkanten
+63	Diagramme, textlastige Seiten, Bearbeitung
+64	WebP
+65	Am kleinsten
+66	Sehr gut
+67	Websites, Blogs
+68	Im Zweifel nutzen Sie JPG mit 144 DPI: überall kompatibel und scharf auf dem Bildschirm. Zum Drucken oder für OCR nutzen Sie PNG oder JPG mit 300 DPI.
+69	Schritt für Schritt: ein PDF in Bilder umwandeln
+70	1. Wählen Sie Ihr PDF oder legen Sie es ab. 2. Wählen Sie JPG, PNG oder WebP. 3. Wählen Sie eine Auflösung: 144 DPI für Bildschirme oder 300 DPI zum Drucken. 4. Geben Sie auf Wunsch Seiten wie 2-4 an. 5. Klicken Sie auf Umwandeln und laden Sie ein einzelnes Bild oder ein ZIP mit allen Seiten herunter, in Reihenfolge benannt, damit sie in jedem Ordner richtig sortiert werden.
+71	Große Dokumente werden Seite für Seite mit Fortschrittsanzeige verarbeitet, sodass ein 100-seitiges PDF bei 144 DPI auf einem Laptop meist in deutlich unter einer Minute fertig ist. Der Speicher wird nach jeder Seite freigegeben, was Smartphones und Tablets flüssig hält.
+72	Wo Ihre Datei verarbeitet wird
+73	In Ihrem Browser, nie hochgeladen
+74	Auf deren Servern
+75	Auf deren Servern
+76	Adobe-Cloud
+77	Auf deren Servern
+78	Funktioniert bei ausgeschaltetem WLAN
+79	Ja, nach dem Laden der Seite
+80	Nein
+81	Nein
+82	Nein
+83	Nein
+84	Konto oder E-Mail erforderlich
+85	Nie
+86	Nicht für die Grundnutzung
+87	Nicht für die Grundnutzung
+88	Anmeldung für einige Aktionen
+89	Nicht für die Grundnutzung
+90	Limits der Gratisnutzung
+91	Keine – nur die Ihres Geräts
+92	Gratis-Tarif; Premium für mehr
+93	Gratis-Tarif; Premium für mehr
+94	Gratis-Tarif; Premium für mehr
+95	3 Aufgaben/Stunde, 50 MB pro Datei
+96	Ausgabeformate
+97	JPG, PNG, WebP
+98	JPG
+99	JPG
+100	Siehe Website
+101	Siehe Website
+102	Modi Seite zu Bild und Bilder extrahieren
+103	Beides
+104	Beides
+105	Siehe Website
+106	Siehe Website
+107	Siehe Website
+108	Auflösung (DPI) wählen
+109	72–300 DPI
+110	Siehe Website
+111	Auf der Seite nicht angeboten
+112	Siehe Website
+113	Siehe Website
+114	Wie wandle ich PDF kostenlos und ohne Registrierung in JPG um?
+115	Wählen Sie Ihr PDF auf dieser Seite und klicken Sie auf Umwandeln. Kein Konto, keine E-Mail, kein Wasserzeichen. Niemals.
+116	Kann ich einzelne Bilder aus einem PDF extrahieren?
+117	Ja: Stellen Sie den Modus auf Bilder extrahieren, dann werden die im PDF eingebetteten Fotos in ihrer Originalqualität gespeichert, statt ganze Seiten zu rendern.
+118	Wird die Qualität meiner Bilder beeinträchtigt?
+119	Nein. Die Seiten werden aus den Vektordaten mit den gewählten DPI gerendert. Zum Drucken wählen Sie 300 DPI; für ein verlustfreies Ergebnis PNG.
+120	Kann ich nur einige Seiten umwandeln?
+121	Ja. Geben Sie im Feld Seiten einen Bereich wie 1-3,5 ein. Lassen Sie es leer, um alle umzuwandeln.
+122	Kann ich PDF offline in JPG umwandeln?
+123	Ja. Sobald die Seite geladen ist, trennen Sie die Verbindung: Die Umwandlung funktioniert weiter, weil sie vollständig in Ihrem Browser läuft.
+124	Wie wandle ich auf dem iPhone ein PDF in JPG um?
+125	Öffnen Sie diese Seite in Safari, tippen Sie, um das PDF in Dateien zu wählen, wandeln Sie um und speichern Sie die heruntergeladenen Bilder in Fotos.
+126	Was ist der Unterschied zwischen PDF in JPG und Bilder extrahieren?
+127	PDF in JPG rendert ganze Seiten einschließlich Text. Bilder extrahieren speichert nur die im PDF eingebetteten Bilder in ihrer Originalauflösung.
+128	Wie mache ich aus einem PDF ein JPG oder PNG?
+129	Legen Sie das PDF ab, wählen Sie JPG, PNG oder WebP und eine Auflösung (bis 300 DPI), geben Sie bei Bedarf einen Seitenbereich an und wandeln Sie um. Laden Sie einzelne Bilder oder ein ZIP mit allen Seiten herunter.

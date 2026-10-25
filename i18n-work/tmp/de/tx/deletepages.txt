@@ -1,0 +1,128 @@
+0	PDF-Seiten löschen
+1	Entfernen Sie unerwünschte Seiten aus einem PDF.
+2	PDF-Seiten online kostenlos löschen – Seiten entfernen | {brand}
+3	Entfernen Sie Seiten aus einem PDF per Tipp auf die Miniaturen. Kostenlos, ohne Upload oder Wasserzeichen: Ein neues, sauberes PDF entsteht auf Ihrem Gerät.
+4	PDF-Seiten löschen
+5	Wählen Sie Ihr PDF aus.
+6	Tippen Sie auf die Seiten, die Sie entfernen möchten.
+7	Klicken Sie auf Starten und laden Sie das PDF herunter.
+8	Wird die Originaldatei verändert?
+9	Nein. Ein neues PDF wird auf Ihrem Gerät erstellt; das Original bleibt unverändert.
+10	Leere Scans, doppelte Seiten, veraltete Anhänge oder Seiten mit persönlichen Daten müssen oft weg, bevor ein Dokument geteilt wird. {brand} zeigt jede Seite als Miniatur, damit Sie genau sehen, was Sie entfernen, und erstellt die neue Datei lokal.
+11	Leere Seiten entfernen, die ein Duplex-Scanner hinterlässt.
+12	Werbeseiten oder Deckblätter aus einem heruntergeladenen Bericht löschen.
+13	Seiten mit persönlichen Daten entfernen, bevor ein Dokument an Dritte geht.
+14	Ein langes Handbuch kürzen und nur die wirklich benötigten Abschnitte behalten.
+15	Vergrößern Sie die Miniaturen, wenn sich Seiten ähneln.
+16	Ihre Originaldatei wird nie verändert: Behalten Sie sie, bis Sie das Ergebnis geprüft haben.
+17	Wenn Sie lieber wenige Seiten behalten als viele löschen möchten, geht PDF-Seiten extrahieren schneller.
+18	Verringert das Löschen von Seiten die Dateigröße?
+19	Meist ja, weil der Inhalt gelöschter Seiten nicht in die neue Datei kopiert wird. Nutzen Sie danach PDF komprimieren, um noch mehr zu sparen.
+20	Ein Werkzeug zum Aufräumen von Seiten
+21	Statt separate Werkzeuge zum Drehen, Löschen und Umordnen von Seiten zu nutzen, zeigt PDF organisieren das ganze Dokument als Seitenraster. Nehmen Sie alle Änderungen auf einmal vor und exportieren Sie ein einziges sauberes PDF.
+22	Typischer Aufräum-Ablauf
+23	Scannen Sie einen Stapel Dokumente, löschen Sie leere Seiten, richten Sie seitlich liegende auf, ziehen Sie Seiten in die richtige Reihenfolge und exportieren Sie. Komprimieren Sie das Ergebnis danach, wenn Sie es per E-Mail senden müssen.
+24	Funktioniert auf jedem Gerät
+25	Die Miniaturen werden in Ihrem Browser erzeugt, sodass sich selbst große PDFs auf Laptop, Tablet oder Handy neu ordnen lassen, ohne sie auf einen Server hochzuladen.
+26	PDF-Seiten löschen – Kostenlos und ohne Datei-Upload
+27	Löschen Sie PDF-Seiten: Miniaturen anklicken, Bereiche wie 2,5-8 eingeben oder leere Seiten automatisch markieren. Rückgängig. Kostenlos und privat.
+28	Entfernen Sie überflüssige Seiten mit wenigen Klicks
+29	Gescannte Stapel mit leeren Rückseiten, Berichte mit veraltetem Anhang, ein Vertrag, der ohne das interne Deckblatt hinausgehen muss: Seiten zu entfernen ist eine der häufigsten PDF-Aufgaben. {brand} zeigt jede Seite als Miniatur, damit Sie genau sehen, was Sie löschen, und arbeitet vollständig in Ihrem Browser – das Dokument wird also nie hochgeladen.
+30	Drei Wege, Seiten auszuwählen
+31	**Miniaturen anklicken**: Tippen Sie auf eine Seite, um sie zum Löschen zu markieren; tippen Sie erneut, um sie zu behalten.
+32	**Bereich eingeben**: Geben Sie 2,5-8 ein und klicken Sie auf Seiten markieren, um viele Seiten auf einmal auszuwählen.
+33	**Leere Seiten markieren**: Sucht automatisch nach leeren Seiten (häufig bei Duplex-Scans) und markiert sie.
+34	**Rückgängig**: Nehmen Sie Markierungen zurück, wenn Sie es sich anders überlegen.
+35	**Gleichzeitig drehen oder umordnen**: Jede Miniatur hat Schaltflächen zum Drehen und Verschieben, sodass Sie das Dokument im selben Schritt ordnen können.
+36	So löschen Sie Seiten aus einem PDF
+37	Legen Sie Ihr PDF auf der Seite ab und warten Sie, bis die Miniaturen erscheinen.
+38	Klicken Sie auf die Seiten, die Sie entfernen möchten, geben Sie einen Bereich ein oder klicken Sie auf Leere Seiten markieren.
+39	Prüfen Sie den Zähler, der anzeigt, wie viele Seiten markiert sind.
+40	Klicken Sie auf Seiten löschen und laden Sie das neue PDF herunter. Das Original auf Ihrer Festplatte bleibt unverändert.
+41	Verlustfrei und sicher
+42	Die verbleibenden Seiten werden unverändert in ein neues PDF kopiert: kein Neu-Rendern, kein Qualitätsverlust, mit auswählbarem Text und funktionierenden Links. Gelöschte Seiten verschwinden wirklich aus der neuen Datei, statt nur ausgeblendet zu werden – Sie können sie also teilen, ohne gelöschte Inhalte preiszugeben.
+43	Wie leere Seiten erkannt werden
+44	Die dunklen Pixel in der Miniatur jeder Seite werden analysiert. Markiert werden Seiten, auf denen fast nichts gedruckt ist: ganz weiß oder nur mit Scannerstaub. Seiten mit einer blassen Kopfzeile oder einer Seitenzahl bleiben erhalten, damit keine absichtlich fast leeren Seiten gelöscht werden. Werfen Sie vor dem Speichern immer einen Blick auf die markierten Miniaturen.
+45	Löschen, extrahieren oder teilen?
+46	Sie möchten…
+47	Nutzen Sie
+48	Einige wenige Seiten entfernen und den Rest behalten
+49	PDF-Seiten löschen (dieses Tool)
+50	Nur einige wenige Seiten behalten
+51	[PDF-Seiten extrahieren](/extract-pdf-pages/)
+52	Das Dokument in mehrere Dateien aufteilen
+53	[PDF teilen](/split-pdf/)
+54	Gleichzeitig umordnen, drehen und löschen
+55	[PDF organisieren](/organize-pdf/)
+56	Typische Anwendungen
+57	Leere Rückseiten aus Duplex-Scans entfernen.
+58	Interne Notizen herausnehmen, bevor ein Dokument an einen Kunden geht.
+59	Veraltete Anhänge aus Berichten löschen.
+60	Werbeseiten aus heruntergeladenen Auszügen entfernen.
+61	Eine Datei durch Entfernen nicht benötigter Seiten verkleinern, bevor Sie [PDF komprimieren](/compress-pdf/).
+62	Mit großen Dokumenten arbeiten
+63	Die Miniaturen werden auf Ihrem Gerät erzeugt, sodass einige hundert Seiten auf einem modernen Laptop in Sekunden laden. Einen Bereich einzugeben ist der schnellste Weg, große Blöcke wie 120-180 zu entfernen, ohne alle Miniaturen durchzugehen.
+64	Wo Ihre Datei verarbeitet wird
+65	In Ihrem Browser, nie hochgeladen
+66	Auf deren Servern
+67	Auf deren Servern
+68	Adobe-Cloud
+69	Auf deren Servern
+70	Funktioniert bei ausgeschaltetem WLAN
+71	Ja, nach dem Laden der Seite
+72	Nein
+73	Nein
+74	Nein
+75	Nein
+76	Konto oder E-Mail erforderlich
+77	Nie
+78	Nicht für die Grundnutzung
+79	Nicht für die Grundnutzung
+80	Anmeldung für einige Aktionen
+81	Nicht für die Grundnutzung
+82	Limits der Gratisnutzung
+83	Keine – nur die Ihres Geräts
+84	Gratis-Tarif; Premium für mehr
+85	Gratis-Tarif; Premium für mehr
+86	Gratis-Tarif; Premium für mehr
+87	3 Aufgaben/Stunde, 50 MB pro Datei
+88	Miniaturen anklicken + Bereiche eingeben
+89	Ja
+90	Siehe Website
+91	Siehe Website
+92	Siehe Website
+93	Siehe Website
+94	Automatische Erkennung leerer Seiten
+95	Ja
+96	Auf der Seite nicht angeboten
+97	Siehe Website
+98	Siehe Website
+99	Siehe Website
+100	Rückgängig
+101	Ja
+102	Siehe Website
+103	Siehe Website
+104	Siehe Website
+105	Siehe Website
+106	Wie lösche ich Seiten aus einem PDF?
+107	Legen Sie das PDF ab, klicken Sie auf die zu entfernenden Seiten (oder geben Sie einen Bereich ein), dann auf Seiten löschen, und laden Sie herunter.
+108	Kann ich mehrere Seiten auf einmal löschen?
+109	Ja. Geben Sie einen Bereich wie 2,5-8 ein oder klicken Sie auf beliebig viele Miniaturen.
+110	Kann es leere Seiten automatisch entfernen?
+111	Ja. Klicken Sie auf Leere Seiten markieren, um leere Seiten auszuwählen, prüfen Sie sie und löschen Sie sie.
+112	Kann ich etwas rückgängig machen?
+113	Ja. Nutzen Sie Rückgängig, um frühere Markierungen wiederherzustellen, oder klicken Sie auf eine markierte Miniatur, um sie zu behalten.
+114	Verringert das Löschen von Seiten die Qualität?
+115	Nein. Die verbleibenden Seiten werden unverändert kopiert.
+116	Wird mein PDF hochgeladen?
+117	Nein. Alles geschieht in Ihrem Browser.
+118	Ist es kostenlos?
+119	Ja, ohne Wasserzeichen, Limits oder Registrierung.
+120	Kann ich Seiten am Handy löschen?
+121	Ja. Tippen Sie im Browser eines beliebigen Handys oder Tablets auf die Miniaturen.
+122	Verschwinden gelöschte Seiten wirklich?
+123	Ja. Sie sind in der neuen Datei überhaupt nicht enthalten.
+124	Wie entferne ich Seiten aus einem PDF?
+125	Öffnen Sie das PDF, tippen Sie auf die Miniaturen der unerwünschten Seiten (oder geben Sie Bereiche wie 2,5-8 ein) und laden Sie die neue Datei herunter. Leere Seiten lassen sich automatisch markieren.
+126	Kann ich PDF-Seiten kostenlos löschen?
+127	Ja, ohne Konto, Wasserzeichen oder Seitenlimit; die Seiten werden auf Ihrem Gerät gelöscht.

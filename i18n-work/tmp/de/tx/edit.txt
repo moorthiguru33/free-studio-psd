@@ -1,0 +1,188 @@
+0	PDF bearbeiten
+1	Fügen Sie einem PDF Text und Abdeckfelder hinzu.
+2	PDF online kostenlos bearbeiten – Text zu PDF hinzufügen | {brand}
+3	Bearbeiten Sie PDF-Text, fügen Sie Bilder, Formen, Markierungen, Links und Abdeckfelder im Browser hinzu. Suchen und Ersetzen, OCR. Ohne Upload.
+4	PDF bearbeiten
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie Text hinzufügen oder Abdecken und klicken Sie in die Vorschau, um Elemente zu platzieren.
+7	Klicken Sie auf Starten und laden Sie das bearbeitete PDF herunter.
+8	Kann ich vorhandenen Text bearbeiten?
+9	Ja. Klicken Sie mit „Vorhandenen Text bearbeiten“ auf eine beliebige Zeile und schreiben Sie sie neu; Sie können sie auch mit einem Abdeckfeld überdecken und darüber schreiben.
+10	Müssen Sie ein Feld ausfüllen, einen Tippfehler korrigieren oder eine Notiz in ein PDF einfügen? Mit {brand} fügen Sie auf jeder Seite Text und Abdeckfelder hinzu, ohne Software zu installieren oder Ihre Datei hochzuladen.
+11	Ein einfaches Formular ohne ausfüllbare Felder ausfüllen.
+12	Einen Fehler abdecken und den richtigen Text darüberschreiben.
+13	Ein Datum, einen Namen oder eine Notiz in ein Dokument einfügen.
+14	Vergrößern Sie die Vorschau, um Text genau zu platzieren.
+15	Um sensible Informationen dauerhaft zu verbergen, nutzen Sie PDF schwärzen statt eines Abdeckfelds.
+16	Was Sie bearbeiten können
+17	Fügen Sie überall neuen Text hinzu (Namen, Daten, Notizen, Antworten in Formularen), wählen Sie Größe und Farbe, und decken Sie unerwünschte Inhalte mit Abdeckfeldern ab. Ideal für schnelle Korrekturen, wenn Sie das Originaldokument nicht haben.
+18	Einschränkungen
+19	Lange Absätze werden Zeile für Zeile bearbeitet, weil PDFs Text in einzelnen Zeilen speichern. Um sensible Informationen dauerhaft zu entfernen, nutzen Sie PDF schwärzen.
+20	Kostenloser PDF-Editor – Text bearbeiten, Bilder und Formen
+21	Bearbeiten Sie PDF-Text, fügen Sie Bilder, Formen, Markierungen, Links und Abdeckfelder kostenlos hinzu. Suchen und Ersetzen, OCR, Rückgängig. Ohne Upload.
+22	Ein vollwertiger PDF-Editor, der Ihre Datei nie hochlädt
+23	Die meisten kostenlosen Online-PDF-Editoren sind eigentlich Anmerkungswerkzeuge: Sie können Kästen auf die Seite zeichnen, aber die vorhandenen Wörter nicht ändern. Andere bearbeiten zwar Text, senden Ihr Dokument aber an einen Server und begrenzen Sie auf wenige Aufgaben pro Stunde; Sejda etwa erlaubt im Gratis-Tarif 3 Aufgaben pro Stunde und 50 MB pro Datei. {brand} ist in beiden Punkten anders. Sie können vorhandenen Text direkt ändern, und der ganze Editor läuft im Browser-Tab – das Dokument bleibt also auf Ihrem Gerät, und es gibt kein Stundenlimit.
+24	Der Editor öffnet Ihr PDF mit PDF.js, findet jedes Textstück samt Schrift, Größe und Farbe und lässt Sie auf jedes klicken, um zu schreiben. Beim Speichern wird der Originaltext entfernt und Ihr neuer Text an derselben Stelle in einer passenden Schrift geschrieben. Bilder, Vektorgrafiken und der Rest der Seite bleiben unangetastet, die Datei sieht also aus wie vorher – nur mit Ihren Änderungen.
+25	Was Sie tun können
+26	**Vorhandenen Text bearbeiten**: Klicken Sie auf eine Zeile, schreiben Sie sie neu und ändern Sie Schrift, Größe, Farbe, Fett oder Kursiv.
+27	**Text hinzufügen**: Klicken Sie irgendwo, um ein neues Textfeld zu platzieren; ziehen Sie es, um es zu verschieben.
+28	**Suchen und Ersetzen**: Ändern Sie einen Namen, ein Datum, einen Preis oder einen Tippfehler im ganzen Dokument auf einmal.
+29	**Abdecken**: Ziehen Sie einen Kasten, um Inhalte wie eine alte Adresse oder Telefonnummer abzudecken und dauerhaft zu entfernen.
+30	**Bilder hinzufügen**: Fügen Sie Logos, Stempel, Fotos oder eine gescannte Unterschrift ein, verschieben Sie sie und ändern Sie ihre Größe.
+31	**Vorhandene Objekte auswählen / verschieben**: Bereits im PDF enthaltene Bilder neu positionieren, skalieren oder löschen.
+32	**Markierungen und Formen**: Textmarker, Rechteck, Ellipse, Linie, Pfeil und Freihandstift mit einstellbarer Farbe und Linienstärke.
+33	**Links**: Ziehen Sie einen Kasten und verlinken Sie ihn mit einer Webadresse, einer E-Mail (mailto:) oder einer anderen Seite desselben Dokuments.
+34	**OCR**: Machen Sie gescannte Seiten bearbeitbar, indem zuerst ihr Text erkannt wird.
+35	**Rückgängig und Wiederholen**: Jede Änderung lässt sich rückgängig machen (Strg+Z) und wiederholen (Strg+Y oder Strg+Umschalt+Z).
+36	**Mehrere Seiten**: Wechseln Sie frei zwischen den Seiten; alle Änderungen werden zusammen in einem PDF gespeichert.
+37	So bearbeiten Sie PDF-Text Schritt für Schritt
+38	**Öffnen Sie die Datei.** Legen Sie Ihr PDF auf der Seite ab oder klicken Sie, um es auszuwählen. Es öffnet sich sofort, weil nichts hochgeladen wird.
+39	**Prüfen Sie, dass „Vorhandenen Text bearbeiten“ ausgewählt ist.** Textstücke zeigen beim Darüberfahren einen dezenten Umriss.
+40	**Klicken Sie auf den Text, den Sie ändern möchten.** Er wird zu einem bearbeitbaren Feld, in dem Originalschrift, -größe und -farbe bereits übernommen sind.
+41	**Tippen Sie Ihre Änderungen.** Nutzen Sie die Symbolleiste, um Schrift, Größe, Farbe, Fett oder Kursiv anzupassen. Drücken Sie Escape oder klicken Sie woanders hin, um fertig zu werden.
+42	**Wiederholen Sie dies auf anderen Seiten** mit der Seitenauswahl. Nutzen Sie Suchen und Ersetzen für Änderungen, die oft vorkommen.
+43	**Klicken Sie auf Speichern** und laden Sie Ihr bearbeitetes PDF herunter. Die Originaldatei auf Ihrer Festplatte wird nicht verändert.
+44	So fügen Sie ein Textfeld, ein Bild oder eine Unterschrift hinzu
+45	Wählen Sie **Text hinzufügen** und klicken Sie dort, wo der neue Text hin soll. Tippen Sie und ziehen Sie das Feld zur Feinjustierung. Für Logos oder Fotos wählen Sie die Bildoption, wählen ein PNG oder JPG und ziehen an den Ecken, um die Größe zu ändern. Ein transparentes PNG eignet sich am besten für Stempel und Unterschriften, weil die Seite darum herum sichtbar bleibt.
+46	Brauchen Sie eine richtige Unterschrift mit Initialen und heutigem Datum auf mehreren Seiten, ist unser spezielles Tool [PDF unterschreiben](/sign-pdf/) schneller: Zeichnen, tippen oder laden Sie eine Unterschrift einmal hoch und klicken Sie, um sie so oft wie nötig zu platzieren.
+47	So markieren Sie und zeichnen Formen und Pfeile
+48	Wählen Sie **Markierungen und Formen**, wählen Sie die Form in der Liste und ziehen Sie über die Seite. Markierungen sind halbtransparent, der Text darunter bleibt also lesbar. Rechtecke und Ellipsen lenken die Aufmerksamkeit auf eine Abbildung; Pfeile und Linien weisen auf Details in Zeichnungen oder Screenshots; mit dem Freihandstift können Sie einkreisen, unterstreichen oder handschriftlich anmerken, und auf einem Touchscreen funktioniert er mit dem Finger oder einem Eingabestift. Stellen Sie Farbe und Linienstärke vor dem Zeichnen ein. Jede Form wird als Vektorgrafik auf die Seite geschrieben, bleibt also bei jedem Zoom scharf und wird so gedruckt, wie Sie sie sehen.
+49	So fügen Sie anklickbare Links hinzu
+50	Wählen Sie **Link**, ziehen Sie ein Rechteck über die Wörter oder das Bild, die anklickbar sein sollen, und geben Sie eine Webadresse wie https://example.com, eine E-Mail wie mailto:name@example.com oder eine Seitenzahl ein, um innerhalb des Dokuments zu springen. Der Link wird als Standard-PDF-Link-Anmerkung gespeichert und funktioniert daher in Adobe Reader, Chrome, Edge, Firefox, der macOS-Vorschau und mobilen PDF-Viewern. Praktisch, um einem Brief einen Buchungslink, einem Flyer eine Website oder einem langen Bericht ein Inhaltsverzeichnis hinzuzufügen.
+51	So entfernen oder verbergen Sie Inhalte
+52	Nutzen Sie **Abdecken**, um ein weißes Rechteck über das zu ziehen, was weg soll: einen alten Preis, eine persönliche Nummer oder eine saubere Fläche für neuen Text. Beim Speichern wird der abgedeckte Inhalt aus der Textebene der Seite entfernt, er ist also nicht nur optisch verborgen. Für sensible Dokumente, die mit schwarzen Balken geschwärzt werden müssen, nutzen Sie unser Tool [PDF schwärzen](/redact-pdf/), das auch den darunterliegenden Text und die Bilder entfernt.
+53	Gescannte PDFs mit OCR bearbeiten
+54	Eine gescannte Seite ist ein Bild, es gibt also keinen Text zum Anklicken. Führen Sie zuerst die OCR im Editor aus: Sie erkennt die Wörter auf der Seite in der gewählten Sprache und verwandelt sie in bearbeitbare Textfelder über dem Original. Danach können Sie Text korrigieren, ersetzen oder abdecken wie in jedem anderen PDF. Für eine durchsuchbare, ansonsten identische Kopie eines Scans nutzen Sie [OCR für PDF](/ocr-pdf/).
+55	Wofür man es im Alltag nutzt
+56	**Einen Tippfehler in einem Vertrag oder Lebenslauf korrigieren**, ohne die ursprüngliche Word-Datei zu suchen.
+57	**Preise, Daten oder Telefonnummern aktualisieren** in Speisekarten, Flyern und Preislisten.
+58	**Ein Formular ausfüllen**, das keine ausfüllbaren Felder hat: Fügen Sie einfach Text hinzu, wo er gebraucht wird.
+59	**Zeichnungen und Screenshots markieren** mit Pfeilen, Kästen und Kommentaren für Kolleginnen und Kollegen.
+60	**Ein Logo und Kontaktlinks hinzufügen** zu einem Angebot oder einer Broschüre.
+61	**Persönliche Daten entfernen**, bevor ein Dokument öffentlich geteilt wird.
+62	**OCR-Fehler korrigieren** in einem gescannten Brief.
+63	Schriften und wie gut sie passen
+64	Wenn Sie vorhandenen Text bearbeiten, versucht der Editor, dieselbe im PDF eingebettete Schrift zu verwenden. Enthält das PDF nur eine Teilmenge der Schrift (nur die verwendeten Buchstaben), fehlen neue Buchstaben darin eventuell; dann greift der Editor auf die ähnlichste Standardschrift zurück (Serif, Sans oder Monospace) mit derselben Stärke und demselben Stil. Bei den meisten Geschäftsdokumenten in Arial, Helvetica, Times oder Calibri ist das Ergebnis nicht zu unterscheiden. Sie können in der Symbolleiste jederzeit eine andere Schrift wählen.
+65	Warum ein Editor im Browser sicherer ist
+66	Bearbeitete PDFs sind oft persönlich: Mietverträge, Gehaltsabrechnungen, Steuerformulare, Arztberichte, Anwaltsschreiben. Sie auf eine kostenlose Website hochzuladen bedeutet, diese Daten einer Firma anzuvertrauen, über die Sie nichts wissen. Bei {brand} wird der Editor-Code einmal heruntergeladen und arbeitet danach lokal mit Ihrer Datei. Sie können nach dem Laden der Seite die Internetverbindung trennen und weiterarbeiten – der Beweis, dass nichts gesendet wird. Es gibt kein Konto und keinen auf einem Server gespeicherten Verlauf.
+67	Tipps für die besten Ergebnisse
+68	Bearbeiten Sie jeweils eine Zeile: PDFs speichern Text in einzelnen Zeilen, lange Absätze werden also Zeile für Zeile bearbeitet.
+69	Halten Sie Ersetzungen ungefähr so lang wie das Original, damit sie benachbarten Text nicht überlappen.
+70	Nutzen Sie Suchen und Ersetzen für Namen und Daten, die auf vielen Seiten vorkommen.
+71	Möchten Sie ganze Seiten umordnen oder löschen? Nutzen Sie nach dem Bearbeiten [PDF organisieren](/organize-pdf/).
+72	Ist die Datei nach dem Einfügen von Fotos groß? Lassen Sie sie durch [PDF komprimieren](/compress-pdf/) laufen.
+73	Brauchen Sie ein Word-Dokument, um große Abschnitte neu zu schreiben? Wandeln Sie es mit [PDF in Word](/pdf-to-word/) um, bearbeiten Sie es und wandeln Sie es mit [Word in PDF](/word-to-pdf/) zurück.
+74	PDFs auf Handy oder Tablet bearbeiten
+75	Der Editor ist vollständig für Touchscreens ausgelegt. Tippen Sie auf einem iPhone, iPad oder Android-Gerät auf eine Textzeile, um sie mit der Bildschirmtastatur zu bearbeiten, zoomen Sie mit zwei Fingern und nutzen Sie Finger oder Apple Pencil mit dem Freihandstift für Anmerkungen. Da nichts hochgeladen wird, funktioniert die Bearbeitung nach dem Laden der Seite auch bei langsamen mobilen Daten. Laden Sie das Ergebnis in Dateien herunter oder teilen Sie es direkt per E-Mail oder Messenger.
+76	Bearbeiten, kommentieren oder umwandeln
+77	Sie möchten…
+78	Beste Wahl
+79	Ein paar Wörter oder Zahlen korrigieren
+80	Vorhandenen Text hier bearbeiten
+81	Kommentieren oder zur Prüfung markieren
+82	Markierungen, Formen, Pfeile und Stift
+83	Ganze Abschnitte neu schreiben oder Absätze umstellen
+84	In Word umwandeln, bearbeiten und zurückwandeln
+85	Sensible Informationen dauerhaft verbergen
+86	PDF schwärzen
+87	Ein Formular mit Feldern ausfüllen
+88	PDF-Formular ausfüllen
+89	Seitenreihenfolge ändern oder Seiten löschen
+90	PDF organisieren
+91	Die richtige Wahl spart Zeit: Direktes Bearbeiten ist perfekt für punktuelle Korrekturen und lässt das Originallayout intakt, während die Umwandlung in Word besser ist, wenn der Text neu fließen muss, etwa wenn mehrere neue Absätze hinzukommen.
+92	Tastenkürzel
+93	**Strg/Cmd + Z**: macht die letzte Änderung rückgängig.
+94	**Strg/Cmd + Y** oder **Strg/Cmd + Umschalt + Z**: wiederholt.
+95	**Entf / Rücktaste**: löscht das ausgewählte Textfeld, Bild oder die Form.
+96	**Escape**: beendet die Bearbeitung des aktuellen Textfelds.
+97	Fehlerbehebung
+98	**Text wird beim Darüberfahren nicht markiert**: Die Seite ist wahrscheinlich ein Scan; führen Sie zuerst OCR aus.
+99	**Neue Buchstaben sehen etwas anders aus**: Die eingebettete Schrift ist eine Teilmenge; wählen Sie in der Symbolleiste eine ähnliche Schrift.
+100	**Die Form wurde an der falschen Stelle gezeichnet**: Drücken Sie Strg+Z oder wechseln Sie zu Auswählen / verschieben und ziehen Sie sie.
+101	**Der Link öffnet sich nicht**: Prüfen Sie, ob er mit https:// oder mailto: beginnt, und testen Sie ihn in einem PDF-Reader, nicht in einem Bildbetrachter.
+102	**Die Datei ist passwortgeschützt**: Entsperren Sie sie mit [PDF entsperren](/unlock-pdf/), wenn Sie das Passwort kennen, und bearbeiten Sie sie dann.
+103	**Bei einer riesigen Datei ist es sehr langsam**: Teilen Sie sie mit [PDF teilen](/split-pdf/), bearbeiten Sie den benötigten Teil und fügen Sie sie wieder zusammen.
+104	Wo Ihre Datei verarbeitet wird
+105	In Ihrem Browser, nie hochgeladen
+106	Auf deren Servern
+107	Auf deren Servern
+108	Adobe-Cloud
+109	Auf deren Servern
+110	Funktioniert bei ausgeschaltetem WLAN
+111	Ja, nach dem Laden der Seite
+112	Nein
+113	Nein
+114	Nein
+115	Nein
+116	Konto oder E-Mail erforderlich
+117	Nie
+118	Nicht für die Grundnutzung
+119	Nicht für die Grundnutzung
+120	Anmeldung für einige Aktionen
+121	Nicht für die Grundnutzung
+122	Limits der Gratisnutzung
+123	Keine – nur die Ihres Geräts
+124	Gratis-Tarif; Premium für mehr
+125	Gratis-Tarif; Premium für mehr
+126	Gratis-Tarif; Premium für mehr
+127	3 Aufgaben/Stunde, 50 MB pro Datei
+128	Vorhandenen Text bearbeiten
+129	Ja
+130	Siehe Website
+131	Ja
+132	Ja
+133	Ja
+134	Formen, Pfeile, Freihandstift
+135	Ja
+136	Siehe Website
+137	Siehe Website
+138	Siehe Website
+139	Siehe Website
+140	Links hinzufügen
+141	Ja
+142	Siehe Website
+143	Siehe Website
+144	Siehe Website
+145	Siehe Website
+146	Suchen und Ersetzen
+147	Ja
+148	Auf der Seite nicht angeboten
+149	Siehe Website
+150	Siehe Website
+151	Siehe Website
+152	OCR für Scans
+153	Kostenlos
+154	Premium
+155	Siehe Website
+156	Siehe Website
+157	Siehe Website
+158	Rückgängig / Wiederholen
+159	Ja
+160	Siehe Website
+161	Siehe Website
+162	Siehe Website
+163	Siehe Website
+164	Kann ich vorhandenen PDF-Text kostenlos bearbeiten?
+165	Ja. Klicken Sie auf eine Textzeile, schreiben Sie sie neu und speichern Sie. Schrift, Größe und Farbe werden automatisch angeglichen.
+166	Wird mein PDF auf einen Server hochgeladen?
+167	Nein. Der Editor läuft vollständig in Ihrem Browser. Sie können nach dem Laden der Seite sogar die Internetverbindung trennen.
+168	Gibt es Stunden- oder Dateigrößenlimits?
+169	Nein. Anders als Tools, die nur wenige Aufgaben pro Stunde erlauben, können Sie so viele PDFs bearbeiten, wie Sie möchten; die Größe hängt nur von Ihrem Gerät ab.
+170	Kann ich Bilder, Formen und Markierungen hinzufügen?
+171	Ja: Bilder, Textmarker, Rechtecke, Ellipsen, Linien, Pfeile und einen Freihandstift in jeder Farbe und Linienstärke.
+172	Kann ich einem PDF anklickbare Links hinzufügen?
+173	Ja. Ziehen Sie im Modus Link einen Kasten und geben Sie eine URL, eine E-Mail-Adresse oder eine Seitenzahl ein.
+174	Kann ich ein gescanntes PDF bearbeiten?
+175	Ja. Führen Sie zuerst OCR aus, um den gescannten Text in bearbeitbaren Text umzuwandeln, und bearbeiten Sie dann wie gewohnt.
+176	Wie bearbeite ich ein PDF ohne Adobe Acrobat?
+177	Öffnen Sie es hier in einem beliebigen Browser (Chrome, Edge, Safari oder Firefox) unter Windows, Mac, Linux, Android oder auf dem iPhone. Es muss nichts installiert werden.
+178	Kann ich einen Fehler rückgängig machen?
+179	Ja. Nutzen Sie die Schaltflächen Rückgängig und Wiederholen oder Strg+Z und Strg+Y.
+180	Hat mein bearbeitetes PDF ein Wasserzeichen?
+181	Nein. Das gespeicherte PDF ist sauber, ohne Wasserzeichen oder Logos.
+182	Kann ich das bearbeitete PDF mit einem Passwort schützen?
+183	Ja. Nutzen Sie nach dem Speichern PDF schützen, um ein Passwort hinzuzufügen.
+184	Wie bearbeite ich ein PDF kostenlos?
+185	Öffnen Sie das PDF auf dieser Seite und klicken Sie, um Text hinzuzufügen oder zu ändern, Bilder und Formen einzufügen, zu markieren, abzudecken oder Links hinzuzufügen. Klicken Sie auf Speichern, um das bearbeitete PDF herunterzuladen. Kostenlos, ohne Wasserzeichen oder Stundenlimit.
+186	Kann ich vorhandenen Text in einem PDF bearbeiten?
+187	Ja. Klicken Sie auf eine Textzeile, um sie zu bearbeiten; das Original wird abgedeckt und nach Möglichkeit in einer passenden Schrift durch Ihren neuen Text ersetzt. Bei gescannten Seiten führen Sie zuerst OCR aus, damit der Text bearbeitbar wird.

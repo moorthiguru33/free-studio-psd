@@ -1,0 +1,146 @@
+0	OCR für PDF
+1	Gescannte PDFs durchsuchbar machen.
+2	OCR für PDF online gratis – Scans durchsuchbar | {brand}
+3	Erkennt Text in gescannten PDFs und fügt eine unsichtbare Textebene zum Suchen, Markieren und Kopieren hinzu. Viele Sprachen, auf Ihrem Gerät.
+4	OCR für PDF – durchsuchbares PDF
+5	Wählen Sie Ihr gescanntes PDF.
+6	Wählen Sie die Sprache oder Sprachen des Dokuments.
+7	Laden Sie das durchsuchbare PDF herunter.
+8	Ändert sich das Aussehen der Seite?
+9	Nein: Die Originalseite bleibt erhalten und darüber wird eine unsichtbare Textebene gelegt.
+10	Wie lange dauert es?
+11	Etwa 2–6 Sekunden pro Seite auf einem modernen Gerät. Beim ersten Mal wird das Sprachmodell (1–4 MB) heruntergeladen.
+12	Ein gescanntes PDF besteht nur aus Bildern von Seiten: Sie können darin weder suchen noch Text kopieren. OCR (optische Zeichenerkennung) liest den Text und fügt eine unsichtbare Ebene hinzu, sodass das PDF gleich aussieht, aber durchsuchbar wird. Anders als die meisten OCR-Dienste erledigt {brand} das auf Ihrem Gerät.
+13	Gescannte Verträge und Archive durchsuchbar machen.
+14	Text aus gescannten Büchern oder Artikeln kopieren.
+15	Scans für PDF in Word oder Nach Text teilen vorbereiten.
+16	Wählen Sie für maximale Genauigkeit die richtige Sprache des Dokuments.
+17	Richten Sie schiefe Seiten vorher mit PDF gerade ausrichten aus.
+18	Saubere Scans mit 300 DPI liefern die besten Ergebnisse.
+19	Ändert OCR das Aussehen meiner Seiten?
+20	Nein: Die Originalseite bleibt erhalten und darüber wird eine unsichtbare Textebene gelegt.
+21	Wie lange dauert es?
+22	Etwa 2–6 Sekunden pro Seite auf einem modernen Gerät. Beim ersten Mal wird das Sprachmodell (1–4 MB) heruntergeladen.
+23	OCR für PDF – gescannte PDFs durchsuchbar, gratis
+24	Machen Sie gescannte PDFs per kostenloser OCR in 12 Sprachen durchsuchbar und kopierbar, darunter Hindi, Tamil und Arabisch. Seitenbereich, TXT. Ohne Upload.
+25	Scans durchsuchbar und kopierbar machen
+26	Ein gescanntes PDF ist ein Stapel von Bildern: Sie können darin nicht suchen, keinen Satz kopieren und es nicht von einem Screenreader vorlesen lassen. OCR (optische Zeichenerkennung) liest die Buchstaben in diesen Bildern und legt direkt darüber eine unsichtbare Textebene. Die Seite sieht gleich aus, aber jetzt findet Strg+F Wörter, der Text lässt sich markieren und kopieren, und Ihr Computer oder ein Dokumentenmanagementsystem kann das Dokument indexieren.
+27	{brand} führt die OCR mit der Tesseract-Engine in Ihrem Browser aus. Die Sprachmodelle werden einmal heruntergeladen und zwischengespeichert; Ihre Scans werden nie hochgeladen. Das macht es geeignet für Krankenakten, juristische Unterlagen, Rechnungen und Ausweisdokumente.
+28	Funktionen
+29	**12 Sprachen**, paarweise kombinierbar: siehe Tabelle unten.
+30	**Ausgabe als durchsuchbares PDF**: Die Originalseiten bleiben erhalten und unsichtbarer Text wird hinzugefügt.
+31	**TXT-Export**: Erhalten Sie den erkannten Text als reine Textdatei oder PDF und TXT zugleich.
+32	**Seitenbereich**: Führen Sie die OCR nur für die benötigten Seiten aus.
+33	**Seiten mit vorhandenem Text überspringen**: Gemischte Dokumente werden schneller verarbeitet und vorhandener digitaler Text wird nicht verdoppelt.
+34	**Einstellbare Auflösung**: 200 DPI ist ein guter Standardwert; erhöhen Sie für kleine Schrift auf 300.
+35	Unterstützte OCR-Sprachen
+36	Sprache
+37	Schrift
+38	Englisch, Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch
+39	Lateinisch
+40	Russisch
+41	Kyrillisch
+42	Arabisch
+43	Arabisch (von rechts nach links)
+44	Hindi
+45	Devanagari
+46	Tamil
+47	Tamil
+48	Chinesisch (vereinfacht)
+49	Han
+50	Japanisch
+51	Kanji / Kana
+52	Wählen Sie für zweisprachige Dokumente eine zweite Sprache, etwa Englisch + Hindi oder Französisch + Arabisch.
+53	So führen Sie OCR für ein PDF aus
+54	Legen Sie Ihr gescanntes PDF ab.
+55	Wählen Sie die Sprache des Dokuments (und auf Wunsch eine zweite).
+56	Wählen Sie die Ausgabe: durchsuchbares PDF, TXT oder beides.
+57	Geben Sie auf Wunsch einen Seitenbereich an und lassen Sie „Seiten überspringen, die bereits Text enthalten“ aktiviert.
+58	Klicken Sie auf Starten und warten Sie: Jede Seite dauert je nach Gerät einige Sekunden.
+59	Laden Sie es herunter und testen Sie es: Drücken Sie in Ihrem PDF-Reader Strg+F und suchen Sie nach einem Wort.
+60	So erreichen Sie maximale Genauigkeit
+61	Scannen Sie mit 300 DPI in Graustufen oder Farbe; 200 DPI genügen für normal große Schrift.
+62	Gerade Seiten werden besser erkannt: Korrigieren Sie schiefe Scans mit [PDF gerade ausrichten](/deskew-pdf/) und seitlich liegende Seiten mit [PDF drehen](/rotate-pdf/).
+63	Wählen Sie die richtige Sprache; davon hängen Akzente und nicht-lateinische Buchstaben ab.
+64	Sehr heller, verblasster oder handgeschriebener Text ist für jede OCR schwierig; Handschrift wird im Allgemeinen nicht unterstützt.
+65	Für Handyfotos schneidet [PDF-Scanner](/pdf-scanner/) die Seiten vor der OCR zu und verbessert sie.
+66	Was kann ich mit einem OCR-PDF machen?
+67	Große Archive gescannter Briefe und Verträge durchsuchen.
+68	Zitate und Zahlen in Berichte kopieren.
+69	Es mit [PDF in Word](/pdf-to-word/) in bearbeitbare Formate oder mit [PDF in Excel](/pdf-to-excel/) in Tabellen umwandeln.
+70	Dokumente für Nutzer von Screenreadern barrierefrei machen.
+71	Den Text mit [PDF bearbeiten](/edit-pdf/) ändern.
+72	Durchsuchbares PDF oder Textdatei
+73	Ein durchsuchbares PDF behält das exakte Aussehen des Originalscans mit markierbarem Text darunter: ideal zum Archivieren und Teilen. Eine TXT-Datei enthält nur die Wörter, ohne Layout: ideal zum Einfügen in andere Programme, Übersetzen oder Analysieren. Wählen Sie „beides“, wenn Sie beides brauchen.
+74	Datenschutz bei OCR im Browser
+75	Viele Online-OCR-Dienste schicken Ihre Scans zur Verarbeitung an einen Server. Hier laufen die OCR-Engine und die Sprachdaten auf Ihrem eigenen Computer oder Smartphone. Sind Seite und Sprachmodell einmal geladen, können Sie sogar die Internetverbindung trennen und weiterarbeiten.
+76	Geschwindigkeit und große Dokumente
+77	OCR ist rechenintensiv. Ein moderner Laptop verarbeitet eine Seite meist in wenigen Sekunden; Smartphones brauchen länger. Für einen 200-seitigen Scan nutzen Sie den Seitenbereich, um ihn in Teilen zu verarbeiten, oder lassen den Tab während der Arbeit geöffnet: Der Fortschritt wird pro Seite angezeigt.
+78	OCR für Rechts-nach-links- und indische Schriften
+79	Arabisch wird von rechts nach links erkannt und die Textebene behält die richtige Lesereihenfolge, sodass Suchen und Kopieren in arabischen Readern funktionieren. Hindi (Devanagari) und Tamil werden mit eigenen trainierten Modellen unterstützt, einschließlich Ligaturen und Vokalzeichen. Wählen Sie bei gemischten Dokumenten (etwa ein englisches Formular mit Namen auf Hindi) beide Sprachen, damit jedes Wort mit dem richtigen Alphabet abgeglichen wird.
+80	Wo Ihre Datei verarbeitet wird
+81	In Ihrem Browser, nie hochgeladen
+82	Auf deren Servern
+83	Auf deren Servern
+84	Adobe-Cloud
+85	Auf deren Servern
+86	Funktioniert bei ausgeschaltetem WLAN
+87	Ja, nach dem Laden der Seite
+88	Nein
+89	Nein
+90	Nein
+91	Nein
+92	Konto oder E-Mail erforderlich
+93	Nie
+94	Nicht für die Grundnutzung
+95	Nicht für die Grundnutzung
+96	Anmeldung für einige Aktionen
+97	Nicht für die Grundnutzung
+98	Limits der Gratisnutzung
+99	Keine – nur die Ihres Geräts
+100	Gratis-Tarif; Premium für mehr
+101	Gratis-Tarif; Premium für mehr
+102	Gratis-Tarif; Premium für mehr
+103	3 Aufgaben/Stunde, 50 MB pro Datei
+104	OCR-Sprachen, inkl. Hindi, Tamil und Arabisch
+105	12, kostenlos
+106	Siehe Website
+107	Siehe Website
+108	Siehe Website
+109	Siehe Website
+110	Durchsuchbares PDF + TXT
+111	Ja
+112	Siehe Website
+113	Siehe Website
+114	Siehe Website
+115	Siehe Website
+116	Seitenbereich / Seiten mit Text überspringen
+117	Ja
+118	Siehe Website
+119	Siehe Website
+120	Siehe Website
+121	Siehe Website
+122	Was macht OCR für PDF?
+123	Es erkennt den Text gescannter Seiten und fügt eine unsichtbare Textebene hinzu, damit Sie Text suchen, markieren und kopieren können, während die Seite gleich aussieht.
+124	Ist die OCR hier kostenlos?
+125	Ja, vollständig: alle Sprachen, ohne Seitenlimit.
+126	Welche Sprachen werden unterstützt?
+127	Englisch, Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Russisch, Arabisch, Hindi, Tamil, vereinfachtes Chinesisch und Japanisch; zwei lassen sich kombinieren.
+128	Werden meine Scans hochgeladen?
+129	Nein. Die OCR läuft in Ihrem Browser.
+130	Kann ich den Text als Datei erhalten?
+131	Ja. Wählen Sie TXT oder „Durchsuchbares PDF + TXT“.
+132	Kann ich die OCR nur für einige Seiten ausführen?
+133	Ja. Geben Sie einen Seitenbereich an, z. B. 1-5.
+134	Funktioniert es mit Handschrift?
+135	Handschrift wird im Allgemeinen nicht zuverlässig erkannt; gedruckter Text funktioniert am besten.
+136	Warum ist die OCR langsam?
+137	Texterkennung ist eine aufwendige Berechnung, die auf Ihrem Gerät stattfindet. Nutzen Sie für große Scans einen Seitenbereich oder ein leistungsstärkeres Gerät.
+138	Wie genau ist es?
+139	Bei sauberen gedruckten Scans mit 200–300 DPI ist die Genauigkeit meist sehr hoch. Scans geringer Qualität oder schiefe Scans verringern sie.
+140	Sieht die Datei anders aus?
+141	Nein. Die ursprünglichen Seitenbilder bleiben erhalten; es wird nur eine unsichtbare Textebene hinzugefügt.
+142	Wie führe ich kostenlos OCR für ein PDF aus?
+143	Legen Sie das gescannte PDF ab, wählen Sie die Sprache des Dokuments (oder zwei Sprachen), auf Wunsch einen Seitenbereich, und starten Sie die OCR. Sie erhalten ein durchsuchbares PDF mit unsichtbarer Textebene und können den erkannten Text auch als TXT exportieren.
+144	Was bedeutet OCR für PDF?
+145	OCR (optische Zeichenerkennung) liest die Buchstaben in einem gescannten Bild. Ein OCR-PDF sieht aus wie der Scan, aber sein Text lässt sich suchen, markieren und kopieren.

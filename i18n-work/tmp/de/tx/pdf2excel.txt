@@ -1,0 +1,129 @@
+0	PDF in Excel
+1	Tabellen aus PDFs mit intelligenter Erkennung in Excel extrahieren.
+2	PDF in Excel – Tabellen in XLSX, ohne Upload | {brand}
+3	Wandeln Sie PDF-Tabellen mit automatischer Erkennung, Spaltenausrichtung und echten Zahlen in Excel um. XLSX, CSV oder ODS; Blatt pro Seite oder Tabelle.
+4	PDF in Excel umwandeln
+5	Wählen Sie ein PDF mit Tabellen.
+6	Wählen Sie das Format und wie die Tabellenblätter organisiert werden.
+7	Prüfen Sie die Tabelle und laden Sie die Tabellendatei herunter.
+8	Wie funktioniert die Tabellenerkennung?
+9	Der Text wird zu Zeilen gruppiert, an breiten Lücken in Zellen geteilt, und die Spalten werden ausgerichtet, indem die Zellpositionen über die ganze Tabelle gruppiert werden – so landen auch Zeilen mit leeren Zellen in der richtigen Spalte.
+10	Lassen sich die Zahlen in Formeln verwenden?
+11	Ja. „1,234.50“, „(500)“, „€2,000“ und „15%“ werden in echte Zahlen umgewandelt (deaktivieren Sie das, um den exakten Text zu behalten). Dezimalzahlen mit Komma wie „1.234,50“ bleiben als Text erhalten.
+12	Kontoauszüge, Preislisten oder Berichte aus einem PDF in eine Tabelle abzutippen ist mühsam. {brand} erkennt die Tabellen in der Textebene, richtet die Spalten intelligent aus und wandelt Beträge in echte Zahlen um, damit Sie sofort summieren und sortieren können. Wählen Sie ein Blatt pro Seite, eines pro Tabelle oder alles auf einem Blatt – und nichts wird hochgeladen.
+13	Konto- oder Kreditkartenauszüge in Excel analysieren.
+14	Preislisten und Rechnungen von Lieferanten importieren.
+15	Tabellen aus Geschäftsberichten oder Forschungsartikeln weiterverwenden.
+16	Stunden- und Terminpläne in bearbeitbare Tabellen umwandeln.
+17	„Nur Tabellen“ entfernt Überschriften und Absätze für ein saubereres Blatt.
+18	Nutzen Sie den Seitenbereich, um Deckblatt und Übersichtsseiten zu überspringen.
+19	Gescanntes PDF? Führen Sie zuerst OCR für PDF aus und wandeln Sie dann um.
+20	Funktioniert es mit gescannten Auszügen?
+21	Nur nach der OCR: Scans haben keine Textebene. Unser Tool OCR für PDF fügt sie hinzu.
+22	Kann ich stattdessen CSV erhalten?
+23	Ja, wählen Sie CSV in den Optionen oder nutzen Sie PDF in CSV.
+24	PDF in Excel umwandeln – kostenlose OCR für Scans
+25	Wandeln Sie PDF-Tabellen kostenlos in Excel (XLSX) oder CSV um. Kostenlose OCR für gescannte PDFs in 12 Sprachen. Blatt pro Seite oder Tabelle. Ohne Upload.
+26	PDF-Tabellen in echte Tabellen umwandeln
+27	Kontoauszüge, Preislisten, Rechnungen, Stundenpläne und Finanzberichte kommen oft als PDF, aber Sie brauchen die Zahlen in Excel, um sie zu sortieren, zu filtern und zu summieren. Kopieren und Einfügen aus einem PDF ergibt meist eine lange Spalte durcheinandergewürfelten Textes. {brand} erkennt die Zeilen und Spalten jeder Seite und schreibt sie in echte Zellen, wobei Zahlen als Zahlen gespeichert werden.
+28	**Kostenlose OCR für gescannte PDFs**: iLovePDF bietet OCR als Premium-Funktion an. Hier werden gescannte und fotografierte Seiten auf Ihrem Gerät mit Tesseract in 12 Sprachen gelesen, kostenlos.
+29	**Automatikmodus**: Seiten, die bereits Text enthalten, werden direkt umgewandelt; nur Bildseiten durchlaufen die OCR, was die Umwandlung schnell hält.
+30	**Blattaufteilung wählen**: ein Blatt pro Seite, eines pro Tabelle oder alles auf einem Blatt.
+31	**XLSX oder CSV**: Excel-Arbeitsmappen für Excel, Google Sheets und LibreOffice oder CSV für Datenbanken und Skripte.
+32	**Privat**: Finanzdaten verlassen nie Ihren Browser.
+33	So funktioniert die Tabellenerkennung
+34	Bei digitalen PDFs liest der Konverter jedes Textstück mit seiner genauen Position. Stücke auf derselben Grundlinie bilden eine Zeile; gleichbleibende Lücken zwischen Stücken markieren die Spaltengrenzen. Tabellenlinien, falls vorhanden, helfen, das Raster zu bestätigen. Zahlen mit Tausendertrennzeichen, Währungssymbolen, Prozentangaben und negative Werte in Klammern werden erkannt und als Zahlenzellen gespeichert, damit Formeln sofort funktionieren.
+35	Bei gescannten Seiten wird die Seite mit 300 DPI gerendert, die OCR liefert jedes Wort mit seinem Rahmen, und dieselbe Zeilen- und Spaltenlogik wird angewendet. Die Ergebnisanzeige sagt Ihnen, wie viele Seiten per OCR gelesen wurden, damit Sie wissen, welche Sie prüfen sollten.
+36	So erhalten Sie das sauberste Ergebnis
+37	**Wählen Sie die richtige OCR-Sprache** für Scans: Davon hängen Akzente und nicht-lateinische Schriften ab.
+38	**Gerade, scharfe Scans** funktionieren am besten. Ist ein Scan schief oder dunkel, versuchen Sie es zuerst mit [PDF-Scanner](/pdf-scanner/), um ihn zu bereinigen.
+39	**Ein Blatt pro Tabelle** ist ideal für Berichte mit mehreren Tabellen pro Seite; **ein einziges Blatt** ist ideal für lange, mehrseitige Auszüge.
+40	**Prüfen Sie verbundene Überschriften**: Mehrzeilige Spaltentitel können auf zwei Zeilen landen; verbinden Sie sie in Excel in Sekunden.
+41	Brauchen Sie nur den Text? [PDF in Text](/pdf-to-text/) ist schneller. Brauchen Sie ein bearbeitbares Dokument? Nutzen Sie [PDF in Word](/pdf-to-word/).
+42	XLS, XLSX und CSV im Vergleich
+43	Format
+44	Ideal für
+45	XLSX
+46	Modernes Excel, Google Sheets, LibreOffice: behält mehrere Blätter und Zahlentypen
+47	CSV
+48	Import in Datenbanken, Buchhaltungsprogramme oder Python/R-Skripte: eine Tabelle, reiner Text
+49	XLS
+50	Nur sehr alte Excel-Versionen; öffnen Sie die XLSX-Datei und speichern Sie sie als XLS, wenn Sie das wirklich brauchen
+51	Typische Anwendungen
+52	Konto- und Kreditkartenauszüge abgleichen.
+53	Preislisten von Lieferanten in Warenwirtschaftssysteme importieren.
+54	Jahresabschlüsse und Geschäftsberichte analysieren.
+55	Alte gedruckte Tabellen per OCR digitalisieren.
+56	Stunden- und Terminpläne in bearbeitbare Tabellen umwandeln.
+57	Schritt für Schritt: PDF in Excel
+58	**Legen Sie Ihr PDF** auf der Seite ab, digital oder gescannt.
+59	**Wählen Sie das Format**: XLSX für Excel und Google Sheets oder CSV.
+60	**Wählen Sie die Blattaufteilung**: pro Seite, pro Tabelle oder ein einziges Blatt.
+61	**Lassen Sie die OCR auf Automatisch**, damit gescannte Seiten von selbst erkannt werden, und wählen Sie die Sprache des Dokuments.
+62	**Umwandeln und herunterladen** und die Datei in Excel, Google Sheets, Numbers oder LibreOffice Calc öffnen. Prüfen Sie einige Summen mit dem PDF, bevor Sie den Zahlen vertrauen.
+63	Wo Ihre Datei verarbeitet wird
+64	In Ihrem Browser, nie hochgeladen
+65	Auf deren Servern
+66	Auf deren Servern
+67	Adobe-Cloud
+68	Auf deren Servern
+69	Funktioniert bei ausgeschaltetem WLAN
+70	Ja, nach dem Laden der Seite
+71	Nein
+72	Nein
+73	Nein
+74	Nein
+75	Konto oder E-Mail erforderlich
+76	Nie
+77	Nicht für die Grundnutzung
+78	Nicht für die Grundnutzung
+79	Anmeldung für einige Aktionen
+80	Nicht für die Grundnutzung
+81	Limits der Gratisnutzung
+82	Keine – nur die Ihres Geräts
+83	Gratis-Tarif; Premium für mehr
+84	Gratis-Tarif; Premium für mehr
+85	Gratis-Tarif; Premium für mehr
+86	3 Aufgaben/Stunde, 50 MB pro Datei
+87	OCR für gescannte PDFs
+88	Kostenlos, 12 Sprachen
+89	Premium
+90	Siehe Website
+91	Siehe Website
+92	Siehe Website
+93	CSV-Ausgabe
+94	Ja
+95	Siehe Website
+96	Siehe Website
+97	Siehe Website
+98	Siehe Website
+99	Blatt pro Seite / pro Tabelle / einzeln
+100	Ja
+101	Siehe Website
+102	Siehe Website
+103	Siehe Website
+104	Siehe Website
+105	Kann es gescannte PDFs in Excel umwandeln?
+106	Ja. Die kostenlose OCR liest gescannte oder fotografierte Seiten in 12 Sprachen und rekonstruiert die Zeilen und Spalten der Tabelle.
+107	Ist PDF in Excel kostenlos?
+108	Ja, vollständig, einschließlich der OCR, die manche Dienste berechnen.
+109	Werden meine Kontoauszüge hochgeladen?
+110	Nein. Alles wird in Ihrem Browser verarbeitet; nichts wird an einen Server gesendet.
+111	Sind die Zahlen in Excel echte Zahlen?
+112	Ja. Werte mit Trennzeichen, Währungssymbolen, Prozentangaben und negative Werte in Klammern werden als Zahlenzellen gespeichert.
+113	Was ist der Unterschied zwischen XLS und XLSX?
+114	XLSX ist das moderne Excel-Format, das seit 2007 verwendet wird. XLS ist das alte Format; bei Bedarf können Sie die XLSX-Datei in Excel als XLS speichern.
+115	Kann ich alle Seiten auf ein einziges Blatt bringen?
+116	Ja. Wählen Sie „Alles auf einem Blatt“, ideal für lange Auszüge.
+117	Funktioniert es mit Google Sheets?
+118	Ja. Laden Sie die XLSX-Datei in Google Drive hoch oder nutzen Sie in Sheets Datei → Importieren.
+119	Warum werden manche Spalten zusammengelegt oder geteilt?
+120	Tabellen ohne klare Abstände oder Linien können mehrdeutig sein. Probieren Sie die Aufteilung „ein Blatt pro Tabelle“ oder korrigieren Sie die wenigen betroffenen Zellen in Excel.
+121	Kann ich stattdessen in CSV umwandeln?
+122	Ja. Wählen Sie CSV als Format, um eine Tabelle als reinen Text zu erhalten.
+123	Wie wandle ich ein PDF in Excel um?
+124	Legen Sie das PDF ab, wählen Sie XLSX oder CSV und ob Sie ein Blatt pro Seite oder pro Tabelle möchten, und wandeln Sie um. Die Tabellen werden anhand der Textposition erkannt; gescannte PDFs werden vorher mit der kostenlosen OCR gelesen.
+125	Wie wandle ich ein PDF ohne Formatverlust in eine Excel-Tabelle um?
+126	Tabellen mit klaren Spalten werden am genauesten umgewandelt. Zellwerte werden wo immer möglich als Zahlen gespeichert, damit Sie sie summieren und sortieren können; die visuelle Gestaltung wie Farben und verbundene Zellen wird nicht nachgebildet. Prüfen Sie die Summen nach der Umwandlung eines komplexen Auszugs.
+127	Ist dieser PDF-in-Excel-Konverter kostenlos?
+128	Ja, einschließlich der OCR für gescannte Tabellen, die andere Konverter ihren Bezahlplänen vorbehalten. Keine Registrierung und kein Dateilimit.

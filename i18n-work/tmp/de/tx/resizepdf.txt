@@ -1,0 +1,133 @@
+0	PDF-Größe ändern
+1	PDF-Seiten an ein neues Papierformat anpassen.
+2	PDF-Seitengröße online ändern – einheitliches Format | {brand}
+3	Alle PDF-Seiten an ein Standardformat (A4, Letter und mehr) oder eine eigene Größe anpassen. Gemischte Formate werden einheitlich. Kostenlos, ohne Upload.
+4	PDF-Seitengröße ändern
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie das Zielformat.
+7	Herunterladen.
+8	Ist das dasselbe wie Komprimieren?
+9	Nein – hier ändert sich das Papierformat. Um die Dateigröße zu verringern, nutzen Sie „PDF komprimieren“.
+10	PDFs aus verschiedenen Quellen haben oft unterschiedlich große Seiten, was unordentlich aussieht und schlecht druckt. Die Größenänderung bringt alle Seiten auf dasselbe Papierformat und hält den Inhalt scharf.
+11	Ein zusammengefügtes PDF vor dem Drucken oder Binden vereinheitlichen.
+12	Handyscans und Belege an Standardseiten anpassen.
+13	Seiten normalisieren, bevor Sie eine Broschüre erstellen.
+14	Dies ändert das Papierformat, nicht die Dateigröße.
+15	Prüfen Sie Querformatseiten – sie werden in das neue Format eingepasst.
+16	Verkleinert das mein PDF?
+17	Nein – hier ändert sich das Papierformat. Um die Dateigröße zu verringern, nutzen Sie „PDF komprimieren“.
+18	Gängige Papierformate
+19	A4 (210 × 297 mm) ist in den meisten Ländern der Standard; US Letter (8,5 × 11 in) und Legal (8,5 × 14 in) werden in Nordamerika verwendet. A3 ist für Pläne üblich, A5 für Broschüren.
+20	Größe ändern oder komprimieren
+21	Die Größenänderung ändert die physischen Seitenmaße; sie verringert nicht die Dateigröße. Um Megabyte zu sparen, nutzen Sie „PDF komprimieren“.
+22	PDF-Seitengröße ändern – A4 oder Letter online kostenlos
+23	PDF-Seiten an A4, Letter, Legal, A3, A5, B5, Tabloid oder eine eigene Größe anpassen, mit Rändern. Kostenlos, ohne Upload und ohne Anmeldung.
+24	{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf und Adobe
+25	Alle Seiten eines PDFs auf ein einheitliches Format bringen
+26	Geben Sie jeder Seite eines PDFs das Format, das Sie brauchen – A4 für Europa und Asien, US Letter für Nordamerika, Legal, A3, A5, B5, Tabloid oder eine eigene Größe in Millimetern –, im Hoch- oder Querformat. Der Inhalt wird proportional skaliert und zentriert, sodass nichts verzerrt oder abgeschnitten wird, und Sie können einen Rand hinzufügen, damit Drucker die Kanten nicht beschneiden.
+27	So funktioniert es
+28	Ziehen Sie das PDF hierher.
+29	Wählen Sie das Zielformat (oder „Wie Original“ bzw. „Benutzerdefiniert“ in mm) und die Ausrichtung.
+30	Geben Sie einen Rand in Millimetern an, wenn Sie Weißraum um den Inhalt wünschen.
+31	Laden Sie das angepasste PDF herunter.
+32	Gängige Seitenformate
+33	Größe
+34	Millimeter
+35	Zoll
+36	Verwendung
+37	A4
+38	210 × 297
+39	8,27 × 11,69
+40	Die meisten Länder
+41	US Letter
+42	216 × 279
+43	8,5 × 11
+44	USA, Kanada
+45	US Legal
+46	216 × 356
+47	8,5 × 14
+48	Juristische Dokumente in den USA
+49	A3
+50	297 × 420
+51	11,7 × 16,5
+52	Poster, Pläne
+53	A5
+54	148 × 210
+55	5,8 × 8,3
+56	Broschüren, Notizbücher
+57	PDF misst Seiten in Punkt: 72 Punkt = 1 Zoll, A4 misst also 595 × 842 pt und Letter 612 × 792 pt.
+58	Skalierung ohne Verzerrung
+59	Der Inhalt jeder Seite wird als Vektorformular auf die neue Seite gesetzt, horizontal und vertikal mit demselben Faktor skaliert und dann zentriert. Text bleibt markierbar und scharf; nichts wird gerastert. Wenn sich die Form von Original und Ziel unterscheidet – etwa von Letter zu A4 –, entsteht an zwei Seiten etwas mehr Weißraum, was besser ist, als den Inhalt zu verzerren.
+60	Ein Letter-PDF auf A4 drucken (und umgekehrt)
+61	Wird ein US-Letter-Dokument ohne Anpassung auf A4-Papier gedruckt, werden oft die letzten Zeilen abgeschnitten oder die Ränder ungleichmäßig. Wenn Sie es hier zuerst in A4 umwandeln, erhalten Sie auf jedem Drucker ein sauberes Ergebnis. Ebenso sollten Sie A4-Dokumente in Letter umwandeln, bevor Sie sie an Druckereien und Gerichte in Nordamerika senden.
+62	Seitengröße ändern oder Dateigröße verringern
+63	„PDF-Größe ändern“ kann zweierlei bedeuten. Dieses Tool ändert die *physischen Seitenmaße*, etwa von Letter zu A4, oder vereinheitlicht ein PDF mit gemischten Seitenformaten. Wenn Sie eine kleinere *Datei* in Megabyte möchten, nutzen Sie [PDF komprimieren](/compress-pdf/) oder ein Tool mit Zielgröße wie [PDF auf 1 MB komprimieren](/compress-pdf-to-1mb/). Eine Änderung des Seitenformats allein verkleinert die Datei nicht merklich, weil der Inhalt als Vektor erhalten bleibt.
+64	Gemischte Seitenformate
+65	Scans von verschiedenen Geräten, zusammengefügte Dokumente und Handyaufnahmen ergeben oft PDFs, in denen jede Seite eine leicht andere Größe hat – das sieht unordentlich aus und verwirrt Drucker. Die Anpassung an ein einziges Format zentriert den Inhalt jeder Seite auf identischen Blättern, sodass das Dokument gleichmäßig druckt, sauber gebunden werden kann und am Bildschirm professionell wirkt.
+66	Typische Aufgaben
+67	Einen US-Letter-Vertrag für einen europäischen Kunden in A4 umwandeln – oder umgekehrt.
+68	Einen zusammengefügten Scan vor dem Drucken oder der elektronischen Einreichung vereinheitlichen.
+69	A3-Pläne für den Anhang eines Berichts auf A4 verkleinern.
+70	Weiße Ränder hinzufügen, damit der Drucker randlose Inhalte nicht beschneidet.
+71	Seiten mit zusätzlichem Rand für die Bindung vorbereiten.
+72	Ränder für Bindung und Druck
+73	Bürodrucker können nicht bis ganz an den Rand drucken; ein Rand von 5 mm hält den Inhalt sicher. Für Ring- oder Spiralbindung fügen Sie 10–15 mm hinzu. Druckereien benötigen Beschnittzugabe statt eines Rands – siehe [Druckfertiges PDF](/print-ready-pdf/). Der hier angegebene Rand gilt für alle Seiten, und der Inhalt wird gleichmäßig verkleinert, um hineinzupassen.
+74	Funktioniert mit fast jedem PDF
+75	Das Tool öffnet PDFs aus Word, Google Docs, LibreOffice, Scannern, Smartphones und Designsoftware, einschließlich PDF-1.0- bis 2.0-Dateien mit Formularen, Anmerkungen und eingebetteten Schriften. Dateien mit einem *Öffnungspasswort* müssen zuerst mit [PDF entsperren](/unlock-pdf/) entsperrt werden (Sie benötigen das Passwort); Dateien mit reinen Berechtigungseinschränkungen öffnen sich meist direkt. Auch große Dokumente mit Hunderten Seiten funktionieren – die Grenze ist der Arbeitsspeicher Ihres Geräts, meist mehrere hundert Megabyte auf einem Laptop und rund 100 MB auf einem Smartphone.
+76	Windows, Mac, iPhone und Android
+77	Es muss nichts installiert werden. Es funktioniert in Chrome, Edge, Firefox und Safari unter Windows, macOS, Linux, ChromeOS, Android und iOS. Tippen Sie auf dem Smartphone auf den Ablagebereich und wählen Sie die Datei aus Dateien, Google Drive oder E-Mail-Downloads; das Ergebnis wird unter Downloads oder in der Dateien-App gespeichert und lässt sich direkt per WhatsApp, Gmail oder Drive teilen.
+78	Häufige Probleme und Lösungen
+79	**„Die Datei ist verschlüsselt“**: Entfernen Sie das Öffnungspasswort mit PDF entsperren und versuchen Sie es erneut.
+80	**Die Datei ist nur ein Cloud-Platzhalter**: Laden Sie sie zuerst vollständig aus OneDrive, iCloud oder Drive herunter.
+81	**Ein beschädigter oder unvollständiger Download**: Bearbeiten Sie ihn mit [PDF reparieren](/repair-pdf/).
+82	**Sehr langsam auf dem Smartphone**: Große gescannte PDFs brauchen viel Speicher; schließen Sie andere Tabs oder teilen Sie die Datei vorher mit [PDF teilen](/split-pdf/).
+83	**Der Download hat nicht begonnen**: Manche In-App-Browser (Instagram, Facebook) blockieren Downloads; öffnen Sie die Seite in Chrome oder Safari.
+84	Mit anderen PDF-Tools kombinieren
+85	Die meisten Aufgaben erfordern mehr als einen Schritt, und alle Fileopia-Tools funktionieren gleich – Sie können sie also verketten, ohne etwas hochzuladen. Ein typischer Ablauf: Seiten scannen oder umwandeln, sie zu einer Datei [zusammenfügen](/merge-pdf/), mit [PDF organisieren](/organize-pdf/) sortieren, gescannten Text per OCR durchsuchbar machen, [Seitenzahlen](/add-page-numbers/) hinzufügen und das Ergebnis zum Schluss für den E-Mail-Versand [komprimieren](/compress-pdf/). Jeder Schritt lädt eine neue Datei herunter und lässt das Original unberührt, sodass Sie jederzeit zurückgehen und andere Einstellungen ausprobieren können. Tipp: Geben Sie jedem Ergebnis einen klaren Namen wie *vertrag-signiert-komprimiert.pdf*, um die Versionen später auseinanderzuhalten.
+86	Datenschutz
+87	Alles geschieht im Browser-Tab mit pdf-lib und PDF.js. Das PDF wird von Ihrer Festplatte in den Speicher gelesen, dort verarbeitet und direkt auf Ihrem Gerät gespeichert. Es wird nie hochgeladen, gespeichert oder protokolliert, und das Tool funktioniert nach dem Laden der Seite auch offline – geeignet für Verträge, Krankenakten, Personalunterlagen, Kontoauszüge und alles, was Sie keinem Fremden mailen würden.
+88	Wo Ihre Datei verarbeitet wird
+89	In Ihrem Browser, nie hochgeladen
+90	Auf deren Servern (Upload)
+91	Auf deren Servern (Upload)
+92	Auf deren Servern (Upload)
+93	Konto erforderlich
+94	Nie
+95	Siehe Website
+96	Siehe Website
+97	Siehe Website
+98	Ohne Upload – läuft auf Ihrem Gerät
+99	Ja
+100	Siehe Website
+101	Siehe Website
+102	Siehe Website
+103	Vektorskalierung + Ränder
+104	Ja
+105	Siehe Website
+106	Siehe Website
+107	Siehe Website
+108	Kostenlos ohne Registrierung
+109	Ja
+110	Siehe Website
+111	Siehe Website
+112	Siehe Website
+113	Wie wandle ich ein PDF in A4 um?
+114	Hineinziehen, A4 wählen und herunterladen.
+115	Wird der Inhalt verzerrt?
+116	Nein, er wird proportional skaliert und zentriert.
+117	Kann ich Letter in A4 umwandeln?
+118	Ja.
+119	Kann ich alle Seiten auf dieselbe Größe bringen?
+120	Ja, jede Seite erhält das gewählte Format.
+121	Kann ich Ränder hinzufügen?
+122	Ja, in Millimetern.
+123	Bleibt der Text auswählbar?
+124	Ja, nichts wird gerastert.
+125	Verringert das die Dateigröße?
+126	Nein – dafür nutzen Sie „PDF komprimieren“.
+127	Kann ich ins Querformat wechseln?
+128	Ja, wählen Sie die Ausrichtung.
+129	Ist es kostenlos?
+130	Ja.
+131	Werden die Dateien hochgeladen?
+132	Nein.

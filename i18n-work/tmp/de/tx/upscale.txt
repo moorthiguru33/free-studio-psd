@@ -1,0 +1,261 @@
+0	Bild hochskalieren
+1	Auflösung eines Bildes erhöhen.
+2	Bild hochskalieren – Auflösung 2×–4× kostenlos erhöhen | {brand}
+3	Bilder im Browser auf höhere Auflösung (2×, 3×, 4×) hochskalieren – mit Lanczos-Resampling und Schärfung. Ohne Upload und ohne Wasserzeichen.
+4	Bildauflösung erhöhen
+5	Wählen Sie die Bilder aus.
+6	Wählen Sie den Faktor.
+7	Herunterladen.
+8	Gibt es ein Wasserzeichen?
+9	Nein, niemals.
+10	Das Hochskalieren erhöht die Auflösung eines Bildes, damit es zu größeren Bildschirmen, Drucken oder Mindestgrößen von Plattformen passt. Alles geschieht auf Ihrem Gerät, ohne Wasserzeichen.
+11	Die Mindestbildgröße für Onlineshops oder Anzeigen erreichen.
+12	Alte Digitalfotos für moderne Bildschirme vergrößern.
+13	Die Auflösung von Screenshots für Dokumente erhöhen.
+14	Gehen Sie nicht über 4× – größere Faktoren verstärken die Unschärfe.
+15	Nutzen Sie danach „Bild komprimieren“, damit die Dateien handlich bleiben.
+16	Wird ein Wasserzeichen hinzugefügt?
+17	Nein, niemals.
+18	In welchem Format sollte ich speichern?
+19	PNG für Grafiken und Screenshots, hochwertiges JPG für Fotos.
+20	Hochskalieren oder vergrößern
+21	Beides macht das Bild größer. Hochskalieren zielt auf ein bestimmtes Vielfaches (2×, 3×, 4×), um die Auflösung zu erreichen, die eine Plattform oder ein Druckformat verlangt. Die Qualität hängt vom Original ab: Ein scharfes 1000-px-Foto, um 2× vergrößert, sieht viel besser aus als ein unscharfes Vorschaubild, um 4× vergrößert.
+22	Leitfaden für Druckgrößen
+23	Für einen Druck mit 300 DPI braucht ein 10 × 15-cm-Abzug etwa 1200 × 1800 px, ein A4- oder Letter-Druck etwa 2500 × 3500 px. Hochskalieren hilft, diese Größen zu erreichen, kann aber keine echten Details hinzufügen, die nie aufgenommen wurden.
+24	Bild hochskalieren – 2×, 4×, 8× kostenlos, auf Ihrem Gerät
+25	Bilder um 1,5×, 2×, 3×, 4× oder 8× hochskalieren – mit Lanczos, Entrauschen und Schärfen. Vorher/Nachher-Vergleich, Stapel, volle Auflösung. Ohne Upload.
+26	{tool}: {brand} im Vergleich zu iLoveIMG, ImgUpscaler und Upscale.media
+27	Kleine Bilder vergrößern, ohne dass sie verpixelt wirken
+28	Wenn Sie ein kleines Bild in einem einfachen Editor aufziehen, wird es verpixelt oder unscharf: Jedes Originalpixel wird zu einem Block identischer Pixel, oder die Kanten verschwimmen. Das Tool „Bild hochskalieren“ von {brand} vergrößert Fotos, Grafiken und Screenshots um 1,5×, 2×, 3×, 4× oder 8× mit hochwertigem Lanczos-Resampling, optionalem Entrauschen, das JPEG-Artefakte vor dem Vergrößern bereinigt, und einer Unscharfmaskierung, die am Ende die Schärfe zurückbringt. Das Ergebnis ist ein größeres Bild, das bei normalem Betrachtungsabstand glatt und scharf wirkt.
+29	Der gesamte Vorgang läuft in Ihrem Browser. Ihre Bilder werden nie hochgeladen – sicher für private Fotos, Kundenarbeiten und Bilder unveröffentlichter Produkte. Keine Credits, kein Wasserzeichen, keine niedrig aufgelöste „Vorschau“: Der Download ist das vollständige hochskalierte Bild.
+30	Sie können so viele Bilder so oft verarbeiten, wie Sie möchten – es gibt kein Tageskontingent.
+31	Was dieser Upscaler genau macht
+32	Manche Online-Upscaler verwenden auf ihren Servern große generative KI-Modelle, die glaubwürdige neue Details „erfinden“ – Hautporen, Haarsträhnen, Ziegeltextur. {brand} tut das nicht. Es nutzt einen mathematisch präzisen Resampling-Filter (Lanczos-3, aus derselben Filterfamilie, die professionelle Bildbearbeitungsprogramme verwenden) zusammen mit klassischer Bereinigung und Schärfung. Das heißt: Es fügt nie Details hinzu, die nicht vorhanden waren, verändert nie Gesichter oder Text und erzeugt nie die seltsamen Artefakte, die KI-Modelle manchmal produzieren – es kann aber auch keine Details rekonstruieren, die das kleine Bild nicht enthält. Für die meisten Zwecke – ein Webbild größer drucken, ein Logo für eine Folie vorbereiten, ein Produktfoto für einen Onlineshop vergrößern, einen Screenshot lesbar machen – ist sorgfältiges Resampling genau das Richtige, und es ist schnell und vollkommen privat.
+33	Funktionen
+34	**Skalierungsfaktoren:** 1,5×, 2×, 3×, 4× und 8×.
+35	**Lanczos-3-Resampling**, getrennt auf Breite und Höhe angewendet, für glatte Kanten mit kontrollierten Halos.
+36	**Entrauschen / JPEG-Bereinigung:** aus, leicht oder stark – vor dem Vergrößern angewendet, damit Blöcke und Rauschen nicht mitvergrößert werden.
+37	**Schärfen:** aus, mittel oder stark – per Unscharfmaskierung nach dem Vergrößern.
+38	**Vorher/Nachher-Schieberegler**, um Original und Ergebnis zu vergleichen.
+39	**Stapel:** viele Bilder auf einmal hochskalieren und als ZIP herunterladen.
+40	**Ausgabeformat:** Originalformat beibehalten oder JPG, PNG bzw. WebP wählen.
+41	**Große Ausgaben:** bis etwa 64 Megapixel pro Bild; würde ein Faktor das überschreiten, wird er automatisch reduziert.
+42	**Unterstützt** JPG, PNG, WebP, HEIC, BMP und TIFF.
+43	So skalieren Sie ein Bild hoch
+44	Ziehen Sie ein oder mehrere Bilder auf die Seite (oder fügen Sie sie mit Strg+V ein).
+45	Wählen Sie den Faktor: 2× für die meisten Zwecke, 4× oder 8× für sehr kleine Originale.
+46	Stellen Sie bei JPGs aus dem Web oder aus Messenger-Apps das Entrauschen auf „Leicht“.
+47	Lassen Sie die Schärfung auf „Mittel“ oder wählen Sie „Stark“ für Text und Strichzeichnungen.
+48	Klicken Sie auf „Hochskalieren“, vergleichen Sie mit dem Schieberegler und laden Sie herunter.
+49	Welchen Faktor sollte ich wählen?
+50	Ausgangsgröße
+51	Ziel
+52	Empfohlener Faktor
+53	Foto mit 640×480
+54	Full-HD-Hintergrundbild
+55	3×
+56	Produktfoto mit 800×800
+57	Shop-Zoom (2000 px)
+58	2,5–3× (3× verwenden)
+59	Logo mit 300 px
+60	Folie oder Banner
+61	4×
+62	Instagram-Bild mit 1080 px
+63	A4-Druck mit 300 DPI (2480×3508)
+64	2×, dann zuschneiden
+65	Winziges Icon oder Sprite (64 px)
+66	Großer Bildschirm
+67	8×
+68	Screenshot
+69	Lesbar in einem Dokument
+70	2×
+71	Denken Sie daran, dass die sichtbare Qualität des Ergebnisses durch die Informationen im Original begrenzt ist. Von 500 auf 1000 Pixel sieht meist hervorragend aus; von 100 auf 800 Pixel ergibt ein glattes, aber weiches Bild.
+72	So funktioniert Lanczos-Resampling
+73	Jedes Pixel im vergrößerten Bild liegt zwischen Pixeln des Originals. Die einfachste Methode, nächster Nachbar, kopiert das nächstgelegene Originalpixel – schnell, aber verpixelt. Bilineare Interpolation mittelt die vier nächsten Pixel – glatt, aber unscharf. Bikubisch nutzt sechzehn Pixel und liefert bessere Ergebnisse. Lanczos geht weiter: Für jedes neue Pixel betrachtet es sechs Originalpixel in jeder Richtung und gewichtet sie mit einer gefensterten Sinc-Funktion, dem mathematisch idealen Rekonstruktionsfilter für bandbegrenzte Signale. In der Praxis erhält es Kanten und feine Texturen deutlich besser als bilinear oder bikubisch und hält Halos dabei klein.
+74	Da große Vergrößerungen in einem Schritt Probleme verstärken können, wendet {brand} den Filter getrennt horizontal und vertikal an, was bei diesem Filtertyp schneller und genauer ist. Danach erhöht die optionale Unscharfmaskierung den lokalen Kontrast an Kanten, den unsere Augen als Schärfe wahrnehmen.
+75	Vor dem Hochskalieren entrauschen
+76	Als JPG gespeicherte Bilder – besonders aus sozialen Netzwerken heruntergeladene oder per Messenger weitergeleitete – enthalten Kompressionsartefakte: schwache 8×8-Pixel-Blöcke, Säume um Text und Farbflecken. Beim Hochskalieren werden diese vier- oder sechzehnmal größer und viel sichtbarer. Die Entrauschen-Option wendet vor dem Vergrößern eine sanfte Weichzeichnung an, die die Artefakte glättet; das anschließende Schärfen stellt die Kanten wieder her. Verwenden Sie „Leicht“ für normale Webbilder und „Stark“ für stark komprimierte. Für saubere PNG-Grafiken und Fotos direkt aus der Kamera lassen Sie es aus.
+77	Anwendungsfälle
+78	**Druck:** Webbilder haben in Druckgröße oft nur 72–150 Pixel pro Zoll; 2–4× Hochskalieren bringt Sie näher an die 300 PPI, die Drucker bevorzugen.
+79	**E-Commerce:** Onlineshops verlangen für die Zoomfunktion oft mindestens 1000–2000 Pixel an der langen Seite.
+80	**Präsentationen:** Logos und Diagramme vergrößern, damit sie auf einem Beamer nicht unscharf wirken.
+81	**Alte Fotos:** Scans kleiner Abzüge vergrößern, bevor Sie sie zuschneiden oder restaurieren.
+82	**Spiele und Pixel-Art:** 8× mit ausgeschalteter Schärfung für knackige Vergrößerungen.
+83	**Hintergrundbilder:** ein Lieblingsfoto auf Full HD oder 4K bringen.
+84	**Social Media:** die Mindestauflösung für Titelbilder und Banner erreichen.
+85	Für den Druck hochskalieren
+86	Die Druckqualität hängt von den Pixeln pro Zoll in der endgültigen Größe ab. Ein 1200×800-Foto, 10 cm breit gedruckt, hat etwa 300 Pixel pro Zoll – hervorragend. Dasselbe Foto 30 cm breit gedruckt hat nur 100 – aus der Nähe sichtbar weich. 3× Hochskalieren vor dem Drucken fügt keine echten Details hinzu, gibt dem Drucker aber ein glattes Bild, statt ihn mit seiner eigenen, meist einfacheren Interpolation vergrößern zu lassen; Kanten und Verläufe wirken sauberer. Für Poster, die aus der Entfernung betrachtet werden, reichen meist 150 PPI. Legen Sie nach dem Hochskalieren mit [Bildgröße ändern](/resize-image/) in Zentimetern oder Zoll die exakte Druckgröße und die DPI fest.
+87	Tipps für die besten Ergebnisse
+88	Gehen Sie von der größten, am wenigsten komprimierten Version des Bildes aus, die Sie haben.
+89	Schneiden Sie zuerst zu, damit Sie nur hochskalieren, was Sie brauchen: [Bild zuschneiden](/crop-image/).
+90	Verwenden Sie PNG-Ausgabe für Grafiken und Screenshots und hochwertiges JPG für Fotos.
+91	Wählen Sie für Text und Logos die Schärfung „Stark“; für Gesichter wirkt „Mittel“ natürlicher.
+92	Skalieren Sie dasselbe Bild nicht wiederholt hoch; ein größerer Schritt ist besser als mehrere kleine.
+93	Wird die Datei zu groß, komprimieren Sie sie danach mit [Bild komprimieren](/compress-image/).
+94	Vergleich der Vergrößerungsmethoden
+95	Methode
+96	Funktionsweise
+97	Aussehen
+98	Ideal für
+99	Nächster Nachbar
+100	Kopiert das nächstgelegene Pixel
+101	Verpixelt, harte Kanten
+102	Pixel-Art mit ganzzahligen Faktoren
+103	Bilinear
+104	Mittelt 4 Pixel
+105	Glatt, aber unscharf
+106	Schnelle Vorschauen
+107	Bikubisch
+108	Gewichtet 16 Pixel mit einer kubischen Kurve
+109	Gut, etwas weich
+110	Allgemeine Bearbeitung
+111	Lanczos-3 (hier verwendet)
+112	Gewichtet 36 Pixel mit gefensterter Sinc-Funktion
+113	Das schärfste klassische Ergebnis
+114	Fotos, Grafiken, Screenshots
+115	Generative KI
+116	Ein neuronales Netz sagt neue Details voraus
+117	Sehr scharf, kann Details erfinden
+118	Stark beschädigte Bilder, wenn Genauigkeit nicht entscheidend ist
+119	Lanczos wird in Bildverarbeitungsbibliotheken oft als Referenzmethode gewählt, weil es unter den klassischen Filtern die beste Balance zwischen Schärfe und Artefakten bietet. In Kombination mit leichtem Schärfen ist der Unterschied zur KI-Vergrößerung bei moderaten Faktoren wie 2× gering, und Lanczos hat den Vorteil, vollkommen vorhersehbar zu sein.
+120	Verschiedene Bildarten hochskalieren
+121	**Porträts und Gesichter.** Verwenden Sie 2× oder 3×, Entrauschen „Leicht“ und Schärfung „Mittel“. Starkes Schärfen auf Haut übertreibt Poren und Rauschen. Da nichts erfunden wird, sieht die Person genau so aus, wie sie ist – eine häufige Klage über KI-Upscaler ist, dass sie Gesichtszüge subtil verändern.
+122	**Text, Dokumente und Screenshots.** Verwenden Sie 2×, Entrauschen aus und Schärfung „Stark“, und speichern Sie als PNG. Buchstaben bleiben glatt und lesbar – ideal vor dem Drucken oder Einfügen in einen Bericht. Wenn Sie den Text kopieren möchten, nutzen Sie [Bild in Text](/image-to-text/); kleine Screenshots vorher hochzuskalieren kann auch die OCR-Genauigkeit verbessern.
+123	**Logos und Icons.** Verwenden Sie 4×, Schärfung „Stark“ und PNG-Ausgabe, um die Transparenz zu erhalten. Für wirklich skalierbare Logos ist eine Vektorversion (SVG) jeder Vergrößerung überlegen – fragen Sie den Designer oder Markeninhaber danach.
+124	**Produktfotos.** Verwenden Sie 2–3× mit Entrauschen „Leicht“ und Schärfung „Mittel“. Kombinieren Sie es mit [Hintergrund entfernen](/remove-background/) für den sauberen weißen Hintergrund, den viele Onlineshops verlangen.
+125	**Anime, Cartoons und Illustrationen.** Flächige Farben und saubere Linien lassen sich mit Lanczos sehr gut vergrößern. Verwenden Sie Schärfung „Stark“ und PNG.
+126	**Alte gescannte Fotos.** Scannen Sie zuerst mit der höchsten Auflösung, die Ihr Scanner unterstützt – das erfasst weit mehr echte Details als jeder Upscaler. Nutzen Sie dann Entrauschen „Leicht“ oder „Stark“, um das Korn vor dem Hochskalieren zu mildern.
+127	Wie sich Hochskalieren auf die Dateigröße auswirkt
+128	Die Verdopplung von Breite und Höhe vervierfacht die Pixelzahl; 4× versechzehnfacht sie, 8× vervierundsechzigfacht sie. Ein 1-MB-JPG, um 4× hochskaliert, kann 8–15 MB groß werden, als PNG sogar über 50 MB. Brauchen Sie eine kleinere Datei, wählen Sie JPG- oder WebP-Ausgabe oder schicken Sie das Ergebnis durch [Bild komprimieren](/compress-image/) mit Zielgröße. Fürs Web macht ein Hochskalieren über die Anzeigegröße hinaus Seiten nur langsamer – skalieren Sie auf die Anzeigegröße.
+129	Pixel, DPI und PPI erklärt
+130	Eine Bilddatei enthält nur Pixel, zum Beispiel 2400×1600. DPI oder PPI (Punkte bzw. Pixel pro Zoll) ist eine separate Zahl, die dem Drucker sagt, wie groß er das Bild drucken soll. DPI von 72 auf 300 zu ändern, ohne die Pixel zu ändern, verbessert die Qualität nicht – der Druck wird nur kleiner. Um bei gleicher Qualität größer zu drucken, brauchen Sie mehr Pixel – und genau die liefert das Hochskalieren. Eine nützliche Faustregel: benötigte Pixel = Druckgröße in Zoll × 300 für die Betrachtung aus der Nähe, × 150 für Poster. Eine A4-Seite (8,3×11,7 in) mit 300 PPI braucht etwa 2480×3508 Pixel.
+131	Fehlerbehebung
+132	Problem
+133	Lösung
+134	Das Ergebnis wirkt überschärft, mit Halos
+135	Schärfung auf „Mittel“ stellen oder ausschalten
+136	Blöcke oder Flecken sind sichtbar
+137	Entrauschen auf „Leicht“ oder „Stark“ stellen
+138	Das Ergebnis ist weich
+139	Kleineren Faktor nutzen, von einem größeren Original ausgehen oder Schärfung auf „Stark“ stellen
+140	Der Faktor wurde automatisch reduziert
+141	Die Ausgabe würde ~64 Megapixel überschreiten; zuschneiden oder kleineren Faktor wählen
+142	Der Browser-Tab stürzt auf dem Smartphone ab
+143	Kleineren Faktor nutzen oder für sehr große Ausgaben einen Computer verwenden
+144	Transparente Bereiche wurden weiß
+145	PNG- oder WebP-Ausgabe wählen, nicht JPG
+146	Wann ein KI-Upscaler besser sein kann
+147	Ist Ihr Bild extrem klein (etwa ein 150-Pixel-Vorschaubild) und muss groß gedruckt werden oder ist es stark verschwommen, kann ein generativer KI-Dienst durch halluzinierte Textur ein eindrucksvolleres Ergebnis liefern. Bedenken Sie, dass solche Dienste meist einen Upload erfordern, die kostenlose Nutzung oft mit Credits oder Wasserzeichen begrenzen und die hinzugefügten Details nicht echt sind – ungeeignet für Beweismittel, Dokumente, wissenschaftliche Bilder oder alles, wo Genauigkeit zählt. Für alltägliche Vergrößerungen ist privates Resampling auf dem Gerät meist die sicherere und schnellere Wahl.
+148	Hochskalieren auf Smartphone und Tablet
+149	Das Tool funktioniert in Chrome, Safari und Firefox für Mobilgeräte. Wählen Sie ein Foto aus Ihrer Galerie oder nehmen Sie eines mit der Kamera auf. Smartphones haben weniger Arbeitsspeicher als Computer, bleiben Sie bei großen Fotos daher bei 2× oder 3×; 8× eines 12-Megapixel-Fotos würde das 64-Megapixel-Limit ohnehin weit überschreiten. Auf dem iPhone werden HEIC-Fotos direkt akzeptiert. Downloads landen im Ordner „Dateien“ oder „Downloads“, von wo aus Sie sie teilen oder in Ihrer Fotomediathek speichern können.
+150	Empfohlene Mindestgrößen für gängige Zwecke
+151	Verwendung
+152	Mindestgröße (Pixel)
+153	Instagram-Beitrag
+154	1080×1080
+155	YouTube-Miniatur
+156	1280×720
+157	LinkedIn- / Facebook-Titelbild
+158	1584×396 / 1640×624 (je Plattform prüfen)
+159	Full-HD-Hintergrundbild
+160	1920×1080
+161	4K-Hintergrundbild
+162	3840×2160
+163	Produktzoom im Amazon-Stil
+164	1000+ an der langen Seite
+165	A4-Druck, 300 PPI
+166	2480×3508
+167	Fotoabzug 10×15 cm
+168	1200×1800
+169	Plattformen ändern ihre Empfehlungen von Zeit zu Zeit, prüfen Sie daher vor einer wichtigen Kampagne die aktuellen Vorgaben. Liegt Ihr Bild unter dem Minimum, skalieren Sie es knapp über das Ziel und nutzen Sie dann die Voreinstellungen von [Bildgröße ändern](/resize-image/) für die exakten Maße.
+170	So nutzen Sie den Vorher/Nachher-Vergleich
+171	Ziehen Sie nach der Verarbeitung den Trenner über die Vorschau, um das Original (mit der einfachen Browser-Skalierung vergrößert) und das Ergebnis von {brand} in gleicher Größe zu vergleichen. Achten Sie auf Kanten, Text und fein texturierte Bereiche wie Haare oder Stoff. Sehen Sie Halos – helle oder dunkle Säume um Kanten –, reduzieren Sie die Schärfung. Wirken glatte Flächen körnig, erhöhen Sie das Entrauschen. Da die Verarbeitung lokal und schnell ist, können Sie zwei oder drei Kombinationen in unter einer Minute ausprobieren und die beste behalten.
+172	Verbreitete Mythen über das Hochskalieren
+173	**„Hochskalieren holt die ursprünglichen Details zurück.“** Nur die Kamera oder die Originaldatei hat diese Details; Resampling rekonstruiert glatte Übergänge, KI errät Textur.
+174	**„DPI auf 300 zu setzen macht es hochauflösend.“** DPI sind nur Druck-Metadaten – entscheidend sind die Pixel.
+175	**„Größer ist immer besser.“** Ein Bild, das größer ist als der Ort, an dem es angezeigt wird, verschwendet Speicher und Bandbreite.
+176	**„Dafür braucht man einen leistungsstarken Server.“** Moderne Browser berechnen selbst 64-Megapixel-Ergebnisse auf einem gewöhnlichen Laptop in Sekunden.
+177	Arbeitsablauf für das Stapel-Hochskalieren
+178	Um einen ganzen Produktkatalog oder ein Fotoalbum vorzubereiten, ziehen Sie alle Bilder auf einmal hinein. Jedes wird mit denselben Einstellungen hochskaliert und wie das Original mit einem Suffix benannt, damit Sie sie leicht zuordnen können; alles wird als ein ZIP heruntergeladen. Verarbeiten Sie ähnliche Bilder gemeinsam – Fotos in einem Stapel, Logos und Screenshots in einem anderen –, da sie von unterschiedlichen Einstellungen für Entrauschen und Schärfen profitieren.
+179	Hochskalieren und Transparenz
+180	PNG- und WebP-Bilder mit transparentem Hintergrund – Logos, Sticker, freigestellte Produkte – behalten ihre Transparenz beim Hochskalieren, sofern Sie PNG- oder WebP-Ausgabe wählen. Der Resampling-Filter verarbeitet den Alphakanal zusammen mit der Farbe, sodass Kanten glatt bleiben statt zackig oder mit Farbsaum. Bei JPG-Ausgabe werden transparente Bereiche weiß gefüllt – nützlich, wenn ein Onlineshop weißen Hintergrund verlangt, aber nicht, wenn Sie das Bild über andere Inhalte legen möchten. Stammt Ihr Ausschnitt aus [Hintergrund entfernen](/remove-background/), skalieren Sie ihn als PNG hoch und legen Sie ihn dann auf den gewünschten Hintergrund. Für beste Ergebnisse bei sehr feinen Kanten wie Haaren skalieren Sie zuerst hoch und entfernen den Hintergrund danach, damit das Freistellen mit mehr Pixeln arbeitet.
+181	Glossar
+182	**Hochskalieren (Upscaling):** die Pixelmaße eines Bildes erhöhen.
+183	**Resampling:** beim Ändern der Größe neue Pixelwerte aus den ursprünglichen berechnen.
+184	**Lanczos-Filter:** ein hochwertiger Resampling-Filter auf Basis der Sinc-Funktion.
+185	**Unscharfmaskierung:** eine Schärfungstechnik, die den Unterschied zwischen dem Bild und einer weichgezeichneten Kopie verstärkt.
+186	**Artefakte:** unerwünschte Muster wie JPEG-Blöcke, Halos oder Rauschen.
+187	**Megapixel:** eine Million Pixel; 8000×8000 sind 64 Megapixel.
+188	Datenschutz
+189	Jeder Schritt erfolgt im Tab Ihres Browsers. Das Bild wird mit der integrierten Bild-Engine des Browsers und WebAssembly auf Ihrem eigenen Gerät decodiert, bearbeitet und neu codiert, und das Ergebnis geht direkt in Ihren Download-Ordner. Nichts wird hochgeladen, nichts auf einem Server gespeichert und es gibt keine Warteschlange – private Fotos, Ausweisdokumente, Screenshots mit persönlichen Daten und Fotos unveröffentlichter Produkte verlassen nie Ihren Computer oder Ihr Smartphone. Sie können nach dem Laden der Seite sogar das WLAN trennen, und das Tool funktioniert weiter.
+190	Viele KI-Upscaler laden Ihr Bild auf ihre Server hoch und bewahren es eine Zeit lang auf – oft bis zu 24 Stunden –, bevor sie es löschen. Hier gibt es nichts zu löschen: Das Bild verlässt nie Ihr Gerät.
+191	Verwandte Tools
+192	[Bild vergrößern](/image-enlarger/): dieselbe Engine mit Vergrößerungsvoreinstellungen.
+193	[Bildgröße ändern](/resize-image/): exakte Größen in Pixeln, cm oder Zoll.
+194	[Bild komprimieren](/compress-image/): das Ergebnis verkleinern.
+195	[Hintergrund entfernen](/remove-background/): das Motiv freistellen.
+196	[Bild zuschneiden](/crop-image/): vor dem Hochskalieren zuschneiden.
+197	Wo Ihr Bild verarbeitet wird
+198	In Ihrem Browser, nie hochgeladen
+199	Auf deren Servern (Upload)
+200	Auf deren Servern (Upload)
+201	Auf deren Servern (Upload)
+202	Konto oder E-Mail erforderlich
+203	Nie
+204	Nicht für die Grundnutzung
+205	Nicht für die Grundnutzung
+206	Nicht für die Grundnutzung
+207	Limits der Gratisnutzung
+208	Keine – nur die Ihres Geräts
+209	Siehe Website
+210	Siehe Website
+211	Siehe Website
+212	Verarbeitung
+213	Auf Ihrem Gerät
+214	Upload
+215	Upload
+216	Upload
+217	Skalierungsoptionen
+218	1,5×, 2×, 3×, 4×, 8×
+219	Größenmultiplikator (Premium-Optionen angezeigt)
+220	2× und 4×
+221	2×, 4×, 8×
+222	Methode
+223	Lanczos + Entrauschen + Schärfen (keine KI)
+224	KI
+225	KI-Superauflösung
+226	KI
+227	Dateiaufbewahrung
+228	Nie hochgeladen
+229	Siehe Website
+230	Nach 24 Stunden gelöscht
+231	Siehe Website
+232	Stapelverarbeitung
+233	Ja
+234	Siehe Website
+235	Stapel-Hochskalierung
+236	Massenverarbeitung (Unternehmen)
+237	Wie skaliere ich ein Bild kostenlos hoch?
+238	Bild hineinziehen, 2×, 4× oder 8× wählen und auf „Hochskalieren“ klicken. Laden Sie das Ergebnis in voller Auflösung herunter.
+239	Ist das KI-Hochskalierung?
+240	Nein. Es nutzt hochwertiges Lanczos-Resampling mit Entrauschen und Schärfen. Es erfindet nie Details, Gesichter und Text werden also nicht verändert.
+241	Wird mein Bild hochgeladen?
+242	Nein. Alles läuft in Ihrem Browser.
+243	Was ist die maximale Ausgabegröße?
+244	Etwa 64 Megapixel pro Bild, z. B. 8000×8000. Würde der gewählte Faktor das überschreiten, wird er automatisch reduziert.
+245	Kann ich mehrere Bilder auf einmal hochskalieren?
+246	Ja. Ziehen Sie mehrere Bilder hinein; sie werden gemeinsam als ZIP heruntergeladen.
+247	Macht das Hochskalieren ein verschwommenes Foto scharf?
+248	Es macht ein kleines Bild größer und klarer, kann aber keine Details zurückholen, die durch Kameraunschärfe verloren gingen.
+249	Welches Ausgabeformat sollte ich verwenden?
+250	PNG für Grafiken, Screenshots und Pixel-Art; JPG oder WebP für Fotos.
+251	Gibt es ein Wasserzeichen?
+252	Nein. Die Downloads sind sauber und in voller Auflösung.
+253	Funktioniert es auf dem Handy?
+254	Ja, allerdings können sehr große Ausgaben (8× eines großen Fotos) den Arbeitsspeicher des Smartphones übersteigen.
+255	Was ist der Unterschied zwischen Hochskalieren und Größe ändern?
+256	„Größe ändern“ legt jede exakte Größe fest, größer oder kleiner. Hochskalieren ist auf das Vergrößern optimiert, mit Entrauschen und Schärfen.
+257	Wie skaliere ich ein Bild ohne Qualitätsverlust hoch?
+258	Wählen Sie 2× und halten Sie die Schärfung moderat. Hochskalieren kann keine echten Details erfinden; Lanczos-Resampling mit Entrauschen liefert saubere Kanten ohne die Artefakte einfachen Aufziehens.
+259	Wie skaliere ich ein Bild auf 4K hoch?
+260	Wählen Sie den Faktor, der die Breite auf etwa 3840 px bringt – zum Beispiel 2× bei einem 1920-px-Bild – und laden Sie das Ergebnis in voller Auflösung herunter.

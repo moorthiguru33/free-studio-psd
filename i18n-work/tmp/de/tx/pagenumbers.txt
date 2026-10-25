@@ -1,0 +1,144 @@
+0	Seitenzahlen hinzufügen
+1	Nummerieren Sie die Seiten Ihres PDFs.
+2	Seitenzahlen in PDF einfügen – online gratis | {brand}
+3	Nummerieren Sie die Seiten jedes PDFs: Position, Schriftgröße und Startnummer wählbar. Kostenlos, ohne Wasserzeichen und Anmeldung, im Browser.
+4	Seitenzahlen zu einem PDF hinzufügen
+5	Wählen Sie Ihr PDF aus.
+6	Wählen Sie Position und Startnummer.
+7	Klicken Sie auf Starten und laden Sie das nummerierte PDF herunter.
+8	Kann ich mit einer anderen Zahl als 1 beginnen?
+9	Ja, geben Sie in den Optionen eine beliebige Startnummer an.
+10	Seitenzahlen machen lange Dokumente leichter zu durchblättern, zu zitieren und zu drucken: Prüfer können „siehe Seite 14“ sagen, statt zu scrollen. {brand} setzt die Zahlen direkt auf Ihrem eigenen Gerät auf jede Seite, sodass Manuskripte, juristische Akten und Berichte privat bleiben.
+11	Eine Dissertation, Abschlussarbeit oder ein Manuskript vor der Abgabe nummerieren.
+12	Gerichtsakten oder Vertragsanlagen vorbereiten, die nach Seite zitiert werden müssen.
+13	Einen zusammengefügten Bericht nummerieren, damit das Inhaltsverzeichnis nachvollziehbar ist.
+14	Gedruckte Skripte nummerieren, damit lose Blätter wieder sortiert werden können.
+15	Beginnen Sie mit einer anderen Zahl (zum Beispiel 3), wenn Deckblatt und Inhaltsverzeichnis nicht mitgezählt werden sollen.
+16	Unten mittig ist für gedruckte Dokumente am besten lesbar; unten rechts passt bei doppelseitiger Bindung schlechter, testen Sie es also an einer Seite.
+17	Fügen Sie zuerst alle Teile zusammen und nummerieren Sie einmal, damit die Folge durchgehend ist.
+18	Brauchen Sie „Seite 3 von 20“ oder Datumsangaben? Nutzen Sie Kopf- und Fußzeile.
+19	Kann ich das Deckblatt unnummeriert lassen?
+20	Passen Sie die Startnummer so an, dass die Zählung zu Ihrem Layout passt, oder trennen Sie das Deckblatt ab, nummerieren Sie den Rest und fügen Sie alles wieder zusammen.
+21	Kann ich die Zahlen später bearbeiten?
+22	Sie werden in den Seiteninhalt gezeichnet und drucken daher überall korrekt; um sie zu ändern, nummerieren Sie die Originaldatei neu.
+23	Seitenzahlen in PDF – kostenlos und frei formatierbar
+24	Nummerieren Sie ein PDF: 6 Positionen, „Seite 1 von N“, römische Zahlen, eigener Text, Deckblatt überspringen, Bereich, gegenüberliegende Seiten. Ohne Upload.
+25	Nummerieren Sie Ihre PDF-Seiten genau so, wie Sie es brauchen
+26	Seitenzahlen machen lange Dokumente nutzbar: Leser können „Seite 14“ zitieren, Ausdrucke lassen sich wieder sortieren und das Inhaltsverzeichnis erfüllt endlich seinen Zweck. {brand} fügt Seitenzahlen als echten Text in jedes PDF ein – im Browser, ohne Upload, ohne Wasserzeichen und ohne Konto. Sie entscheiden, wo sie stehen, wie sie aussehen und welche Seiten sie erhalten.
+27	Alle Optionen
+28	**Sechs Positionen**: oben oder unten, links, mittig oder rechts.
+29	**Formate**: 1, 1 / N, Seite 1, Seite 1 von N, - 1 -, römische Zahlen (i, ii, iii) oder ein völlig eigener Text mit {n} für die Zahl und {N} für die Gesamtzahl, z. B. „Bericht 2026 – {n}/{N}“.
+30	**Startnummer**: Beginnen Sie bei 0, bei 1 oder einer beliebigen Zahl, um die Nummerierung eines früheren Bandes fortzusetzen.
+31	**Erste Seiten überspringen**: Lassen Sie Deckblatt und Titelseite unnummeriert; die Nummerierung beginnt danach.
+32	**Seitenbereich**: Nummerieren Sie zum Beispiel nur die Seiten 3-20.
+33	**Gegenüberliegende Seiten**: Spiegelt die Positionen links/rechts auf geraden Seiten für gedruckte und gebundene Dokumente.
+34	**Schrift, Größe, Farbe und Rand**: Helvetica, Times, Courier oder Helvetica Bold in jeder Farbe.
+35	So fügen Sie einem PDF Seitenzahlen hinzu
+36	Legen Sie Ihr PDF auf der Seite ab.
+37	Wählen Sie eine Position und ein Format und geben Sie die Startnummer an.
+38	Öffnen Sie „Weitere Optionen“, um das Deckblatt zu überspringen, den Bereich zu begrenzen, Schrift, Farbe oder Rand zu ändern oder gegenüberliegende Seiten zu aktivieren.
+39	Klicken Sie auf Seitenzahlen hinzufügen und laden Sie herunter. Das Ergebnis zeigt, wie viele Seiten nummeriert wurden.
+40	Welches Format sollte ich verwenden?
+41	Dokument
+42	Empfohlenes Format
+43	Berichte, Abschlussarbeiten, Handbücher
+44	Seite 1 von N, unten mittig oder rechts
+45	Juristische Akten und Anlagen
+46	Eigener Text wie „Anlage A – {n}“ (oder Bates-Nummerierung verwenden)
+47	Vorspann (Vorwort, Inhaltsverzeichnis)
+48	Römische Zahlen i, ii, iii
+49	Gedruckte Broschüren
+50	Gegenüberliegende Seiten, untere Außenecke
+51	Als PDF exportierte Folien
+52	1 / N, unten rechts
+53	Deckblatt überspringen und Vorspann separat nummerieren
+54	Akademische und berufliche Dokumente nummerieren das Vorwort oft mit römischen Zahlen und den Haupttext mit arabischen Zahlen ab 1. Das gelingt in zwei Durchgängen: Nummerieren Sie zuerst den Vorspann im römischen Format mit einem Bereich (z. B. 2-6); wenden Sie das Tool dann erneut auf das Ergebnis an, im arabischen Format, mit einem Bereich ab dem ersten Kapitel (z. B. 7-) und Startnummer 1. Da beide Durchgänge in Ihrem Browser stattfinden, dauert es nur Sekunden.
+55	Gegenüberliegende Seiten für den Druck
+56	In einem gebundenen Dokument liegen ungerade Seiten rechts und gerade links. Die Zahlen sehen am Außenrand am besten aus: rechts auf ungeraden, links auf geraden Seiten. Aktivieren Sie **Gegenüberliegende Seiten** und wählen Sie eine rechte Position: Gerade Seiten erhalten automatisch die gespiegelte linke Position. So werden professionell gesetzte Bücher nummeriert.
+57	Warum im PDF nummerieren und nicht in der Originaldatei?
+58	Oft haben Sie die Word- oder InDesign-Datei nicht mehr, oder das PDF kombiniert mehrere Quellen: eine gescannte Anlage, eine Tabelle, einen unterschriebenen Brief. Nach dem [Zusammenfügen von PDFs](/merge-pdf/) ist das Nummerieren des fertigen PDFs der einzige Weg zu einer durchgehenden Folge. Die Zahlen werden als echter Text eingefügt, sind also durchsuchbar, drucken scharf und beeinträchtigen den Rest der Seite nicht.
+59	Juristische Nummerierung: Bates-Stempel
+60	Kanzleien und Gerichte verlangen oft Bates-Nummern (ein Präfix plus eine Folge mit führenden Nullen, etwa ABC000123) auf allen Dokumenten eines Falls. Nutzen Sie dafür unser spezielles Tool [Bates-Nummerierung](/bates-numbering/), das Präfixe, Suffixe und fortlaufende Nummerierung über viele Dateien hinweg beherrscht.
+61	Tipps
+62	Prüfen Sie den Rand, wenn Ihr Dokument bereits eine Fußzeile hat, damit sich die Zahlen nicht überlappen.
+63	Verwenden Sie Grau für dezente Zahlen, die nicht vom Inhalt ablenken.
+64	Für Kopf- und Fußzeilen mit Datum, Titel oder anderem Text nutzen Sie [Kopf- und Fußzeile](/pdf-header-footer/).
+65	Gescannte Seiten? Die Zahlen funktionieren genauso; nutzen Sie zusätzlich [OCR für PDF](/ocr-pdf/), wenn das Dokument durchsuchbar sein soll.
+66	Typische Anwendungen
+67	Dissertationen, Abschluss- und Hausarbeiten nach den Vorgaben der Hochschule nummerieren.
+68	Gerichtsakten und Anlagen vorbereiten.
+69	Zusammengefügte Berichte und Vorstandsunterlagen nummerieren.
+70	Handbücher, Kataloge und gedruckte Broschüren nummerieren.
+71	Verweise in gescannten Archiven erleichtern.
+72	Wo Ihre Datei verarbeitet wird
+73	In Ihrem Browser, nie hochgeladen
+74	Auf deren Servern
+75	Auf deren Servern
+76	Adobe-Cloud
+77	Auf deren Servern
+78	Funktioniert bei ausgeschaltetem WLAN
+79	Ja, nach dem Laden der Seite
+80	Nein
+81	Nein
+82	Nein
+83	Nein
+84	Konto oder E-Mail erforderlich
+85	Nie
+86	Nicht für die Grundnutzung
+87	Nicht für die Grundnutzung
+88	Anmeldung für einige Aktionen
+89	Nicht für die Grundnutzung
+90	Limits der Gratisnutzung
+91	Keine – nur die Ihres Geräts
+92	Gratis-Tarif; Premium für mehr
+93	Gratis-Tarif; Premium für mehr
+94	Gratis-Tarif; Premium für mehr
+95	3 Aufgaben/Stunde, 50 MB pro Datei
+96	Frei formatierbarer Text
+97	Ja ({n}, {N})
+98	Siehe Website
+99	Siehe Website
+100	Siehe Website
+101	Siehe Website
+102	Erste Seiten überspringen / Bereich
+103	Ja
+104	Ja
+105	Siehe Website
+106	Siehe Website
+107	Siehe Website
+108	Gegenüberliegende Seiten
+109	Ja
+110	Ja
+111	Siehe Website
+112	Siehe Website
+113	Siehe Website
+114	Römische Zahlen
+115	Ja
+116	Siehe Website
+117	Siehe Website
+118	Siehe Website
+119	Siehe Website
+120	Wie füge ich einem PDF Seitenzahlen hinzu?
+121	Legen Sie das PDF hier ab, wählen Sie Position und Format und klicken Sie auf Seitenzahlen hinzufügen. Laden Sie die nummerierte Datei herunter.
+122	Kann ich Zahlen wie „Seite 1 von 10“ einfügen?
+123	Ja. Wählen Sie „Seite 1 von N“ oder erstellen Sie eigenen Text mit {n} und {N}.
+124	Kann ich das Deckblatt überspringen?
+125	Ja. Setzen Sie unter Weitere Optionen „Erste Seiten überspringen“ auf 1 (oder mehr).
+126	Kann ich die Nummerierung mit einer anderen Zahl beginnen?
+127	Ja. Geben Sie eine beliebige Startnummer an, z. B. 25, um einen früheren Band fortzusetzen.
+128	Kann ich nur einige Seiten nummerieren?
+129	Ja. Geben Sie einen Seitenbereich wie 3-20 an.
+130	Kann ich römische Zahlen verwenden?
+131	Ja. Wählen Sie das Format „i, ii, iii“.
+132	Was sind gegenüberliegende Seiten?
+133	In gebundenen Dokumenten steht die Zahl am Außenrand: rechts auf ungeraden und links auf geraden Seiten.
+134	Wird mein Dokument hochgeladen?
+135	Nein. Die Zahlen werden in Ihrem Browser hinzugefügt; die Datei verlässt nie Ihr Gerät.
+136	Kann ich Schrift und Farbe ändern?
+137	Ja: Helvetica, Times, Courier oder Helvetica Bold, in jeder Farbe und Größe.
+138	Wird ein Wasserzeichen hinzugefügt?
+139	Nein. Das Ergebnis ist sauber.
+140	Wie nummeriere ich PDF-Seiten kostenlos?
+141	Legen Sie das PDF ab, wählen Sie Position und ein Format wie „Seite 1 von N“, überspringen Sie auf Wunsch das Deckblatt oder legen Sie die Startnummer fest, und laden Sie herunter. Kostenlos und ohne Wasserzeichen.
+142	Wie lasse ich die Nummerierung auf Seite 3 beginnen?
+143	Setzen Sie „Erste Seiten überspringen“ auf 2 und wählen Sie, ob die Nummerierung bei 1 beginnt oder ab 3 fortläuft.
