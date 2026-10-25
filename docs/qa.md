@@ -70,3 +70,25 @@ All tested with big.pdf / scan10.pdf / 15 MB JPG + 10 MB PNG (batch of 2), phone
 | video2mp3, audioconv, wav2mp3, mp32wav, audiocompress, audiocut | PASS | PASS | 3-min MP3 |
 | videotrim, videocrop, videocompress (15.5→3.9 MB), videomute, video2gif, gif2mp4 | PASS | PASS | 1080p 20 s |
 | dataconv, csv2json, json2csv, csv2excel, excel2csv, excel2json, json2excel | PASS | PASS | 20k-row CSV |
+
+## Batch 5 (tools 105–132: archive, AI/PDF utilities, office→PDF, remaining converters)
+| Tool | Phone | Desktop | Notes |
+|---|---|---|---|
+| zipcreate, unzip, summarize, quizgen, extractfacts, poster, cleanpdf, repair, pdfacheck | PASS | PASS | |
+| chatpdf | INPUT | INPUT | **Fixed**: "Ask a question first." was shown as an error. Messages thrown by tool code are now shown as ℹ hints |
+| pdf2epub, epub2pdf, pdfspeech, formfill, formcreate, anypdf, zip2pdf | PASS | PASS | |
+| viewer | PASS | PASS | **Fixed**: the phone layout scrolled sideways because the page area was 524 px on a 390 px screen. The container now shrinks to fit and pages scroll inside it |
+| excel2pdf, csv2pdf (20k rows → 10.6 MB PDF), odt2pdf, pdf2excel, pdf2csv, docscan, printready, pdf2png, compresspng (10→3.7 MB), compressjpg (15→2.5 MB) | PASS | PASS | |
+
+## No-upload tools (35: generators, calculators, text utilities, recorders)
+Covered by the functional suites (QR, barcode, password, units, timers, voice/screen/webcam recorders with fake devices, etc.). All pass on phone and desktop.
+
+## Final regression
+Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PASS or a correct INPUT hint on phone and desktop.
+
+## Remaining gaps
+- Edit PDF still covers original text rather than deleting its content-stream operators (not attempted this round; see report).
+- pdf2svg: pages with embedded/Type3 fonts are a raster image plus an invisible text layer, not pure vectors.
+- jpg2avif is slow on large photos (~37 s for 18 MP total).
+- pdf2txt/html/md give no text for image-only pages (use OCR PDF first).
+- halve-pages doubles file size for image pages.

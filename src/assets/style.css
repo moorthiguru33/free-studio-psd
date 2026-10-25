@@ -145,3 +145,4 @@ ul.files .nm{font-size:.82rem;font-weight:600;white-space:nowrap;overflow:hidden
 .psrc{position:absolute;cursor:text;border-radius:2px}.psrc:hover{outline:1.5px dashed #2563eb;background:#2563eb14}.play[data-mode=edit] .psrc{outline:1px dashed #2563eb55}.pcov{position:absolute;pointer-events:none}
 .status.err.hint{background:#fff8e6;border-color:#f3d27a;color:#6b4b00}
 @media(max-width:700px){.ptb{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin}.ptb>*{flex:0 0 auto}}
+#tool .custom,#tool .fcol{min-width:0;max-width:100%}.vpages{overflow-x:auto;max-width:100%}#vq{flex:1 1 8em;min-width:0}
