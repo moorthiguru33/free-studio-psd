@@ -152,7 +152,7 @@ function w2Flow(pg,addImg){const {tables,rest}=w2Tables(w2Segments(pg.items));
       s+=`<w:tc><w:tcPr><w:tcW w:w="${W2.tw(tw[k])}" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:spacing w:before="40" w:after="40"/>${right?'<w:jc w:val="right"/>':''}</w:pPr>${cell.map((g,j)=>w2runs(j?[{...g.runs[0],t:' '+g.runs[0].t},...g.runs.slice(1)]:g.runs)).join('')}</w:p></w:tc>`;});s+='</w:tr>';}
     s+=`</w:tbl>`;prevBot=u.bot;i++;continue;}
    // paragraph: absorb following segs that continue it
-   const L=[u];let j=i+1;while(j<list.length&&list[j].kind==='seg'){const a=L[L.length-1],b=list[j];const dy=b.y-a.y;if(dy<=a.size*0.3||dy>Math.max(a.size,b.size)*1.6||Math.abs(a.size-b.size)>a.size*0.15)break;if(Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x)<=0)break;L.push(b);j++;}
+   const L=[u];let j=i+1;while(j<list.length&&list[j].kind==='seg'){const a=L[L.length-1],b=list[j];const dy=b.y-a.y;if(dy<=a.size*0.3||dy>Math.max(a.size,b.size)*1.6||Math.abs(a.size-b.size)>a.size*0.05||a.runs[0].fam!==b.runs[0].fam||a.runs[0].color!==b.runs[0].color)break;if(Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x)<=0)break;L.push(b);j++;}
    const lefts=L.map(g=>g.x),rights=L.map(g=>g.x+g.w),cent=L.map(g=>g.x+g.w/2);const spread=a=>Math.max(...a)-Math.min(...a);const cw=colR-colL;
    let jc='';if(L.length>1){if(spread(lefts)<3&&L.length>2&&spread(rights.slice(0,-1))<3)jc='both';else if(spread(lefts)>=3&&spread(cent)<3)jc='center';else if(spread(lefts)>=3&&spread(rights)<3)jc='right';}
    else{const g=L[0];if(Math.abs(g.x+g.w/2-(colL+cw/2))<4&&g.x-colL>20)jc='center';else if(Math.abs(g.x+g.w-colR)<4&&g.x-colL>cw*0.3)jc='right';}
