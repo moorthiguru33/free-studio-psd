@@ -1,0 +1,3433 @@
+{
+"tools": {
+"webp2png": {
+"seo": {
+"title": "WEBP to PNG Converter – Free, Batch, No Upload",
+"desc": "Convert WEBP to PNG free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert WEBP to PNG online, free",
+"This free WEBP to PNG converter turns WebP, developed by Google images into PNG (Portable Network Graphics) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single PNG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert WEBP to PNG",
+{
+"steps": [
+"Drop your WEBP files on the page (or tap to choose).",
+"Check that the output format is PNG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the PNG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"WEBP vs PNG: what is the difference?",
+{
+"table": [
+[
+"",
+"WEBP",
+"PNG"
+],
+[
+"Compression",
+"Lossy or lossless",
+"Lossless"
+],
+[
+"Transparency",
+"Yes",
+"Yes, full alpha"
+],
+[
+"Animation",
+"Yes",
+"APNG only (limited)"
+],
+[
+"Colours",
+"16.7 million + alpha",
+"Up to 16.7 million + alpha"
+],
+[
+"Support",
+"All current major browsers (Safari since version 14); some older desktop apps cannot open it",
+"Everywhere"
+],
+[
+"Best for",
+"Web pages – smaller than JPG and PNG",
+"Screenshots, logos, graphics with text, transparency"
+],
+[
+"File size",
+"Usually smaller than JPG/PNG at similar quality",
+"Large for photos, small for flat graphics"
+],
+[
+"Introduced",
+"2010",
+"1996"
+]
+]
+}
+],
+[
+"Why convert WEBP to PNG?",
+{
+"list": [
+"Open images saved from websites in apps that do not accept WebP, such as older versions of Photoshop, Word or Windows Photo Viewer.",
+"Keep transparency – PNG supports full alpha, just like WebP.",
+"Edit without further quality loss: PNG is lossless, so repeated saves do not add artefacts.",
+"Upload to forms and print services that only accept PNG or JPG."
+]
+},
+"Converting a lossy WebP to PNG cannot restore detail that WebP compression already removed, but it stops any further loss. Expect the PNG to be larger – often 2–5× for photos – because PNG stores every pixel exactly."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – only affects lossy formats; PNG output is lossless.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"Is WEBP to PNG conversion lossless?",
+"PNG stores pixels exactly, so the conversion adds no new compression artefacts. Detail already lost in a lossy WEBP cannot be brought back; the PNG will look exactly like the WEBP you started with."
+],
+[
+"About the WEBP and PNG formats",
+"WebP was released by Google in 2010, based on the VP8 video codec. One format covers lossy photos, lossless graphics, transparency and animation. Google reports lossy WebP files 25–34% smaller than comparable JPEGs.",
+"PNG was created in the mid-1990s as a patent-free replacement for GIF. It compresses losslessly with the same algorithm as ZIP, so files are exact copies of the pixels – perfect for screenshots, diagrams and logos, but large for photographs."
+],
+[
+"Convert many images at once",
+"Select or drop as many WEBP files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert WEBP to PNG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export PNG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width; PNG is lossless, consider WebP for the web"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[PNG to WEBP](/png-to-webp/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert WEBP to PNG?",
+"a": "Drop the WEBP files here, keep PNG as the output and press Convert."
+},
+{
+"q": "Is this WEBP to PNG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert WEBP to PNG without losing quality?",
+"a": "Yes, PNG adds no further loss."
+},
+{
+"q": "Does PNG support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+},
+{
+"q": "Why are images saved as WebP?",
+"a": "Websites use WebP because it is smaller than JPG and PNG, which makes pages load faster."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"png-to-webp",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"jpg2webp": {
+"seo": {
+"title": "JPG to WEBP Converter – Free, Batch, No Upload",
+"desc": "Convert JPG to WEBP free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert JPG to WEBP online, free",
+"This free JPG to WEBP converter turns JPEG (Joint Photographic Experts Group) images into WebP, developed by Google files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single WEBP or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert JPG to WEBP",
+{
+"steps": [
+"Drop your JPG files on the page (or tap to choose).",
+"Check that the output format is WEBP; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the WEBP – or a ZIP when you converted several files."
+]
+}
+],
+[
+"JPG vs WEBP: what is the difference?",
+{
+"table": [
+[
+"",
+"JPG",
+"WEBP"
+],
+[
+"Compression",
+"Lossy",
+"Lossy or lossless"
+],
+[
+"Transparency",
+"No",
+"Yes"
+],
+[
+"Animation",
+"No",
+"Yes"
+],
+[
+"Colours",
+"16.7 million (8-bit per channel)",
+"16.7 million + alpha"
+],
+[
+"Support",
+"Everywhere – every browser, phone, OS and app",
+"All current major browsers (Safari since version 14); some older desktop apps cannot open it"
+],
+[
+"Best for",
+"Photos, e-mail, uploads to any site",
+"Web pages – smaller than JPG and PNG"
+],
+[
+"File size",
+"Small for photos",
+"Usually smaller than JPG/PNG at similar quality"
+],
+[
+"Introduced",
+"1992",
+"2010"
+]
+]
+}
+],
+[
+"Why convert JPG to WEBP?",
+{
+"list": [
+"Speed up websites: WebP photos are typically noticeably smaller than equivalent JPGs, which improves Core Web Vitals such as Largest Contentful Paint.",
+"Save storage and bandwidth for galleries, shops and blogs.",
+"Follow PageSpeed Insights' advice to “serve images in modern formats”.",
+"Convert whole folders at once for a WordPress or Shopify upload."
+]
+},
+"Quality 75–85 is the sweet spot for photos: visually almost identical to the JPG at a clearly smaller size. Converting from JPG re-compresses an already lossy image, so do not go very low."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – lower values give smaller files; 80–90 is a good default.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"How to convert JPG to WEBP without losing quality",
+"WEBP is a lossy format, so some information is always discarded – the goal is to make the loss invisible. Use quality 90 or higher for images you will print or edit again, 80–85 for websites and sharing, and avoid converting the same image repeatedly. Do not upscale: keep *Max width* empty unless you want a smaller image. The result message shows the size before and after, so you can find the best balance."
+],
+[
+"About the JPG and WEBP formats",
+"JPEG was standardised in 1992 and remains the most widely used photo format. It splits the image into 8×8 blocks and discards fine detail the eye notices least, which is why heavy compression shows blocky artefacts around edges and text.",
+"WebP was released by Google in 2010, based on the VP8 video codec. One format covers lossy photos, lossless graphics, transparency and animation. Google reports lossy WebP files 25–34% smaller than comparable JPEGs."
+],
+[
+"Convert many images at once",
+"Select or drop as many JPG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert JPG to WEBP on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export WEBP too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[Image to PDF](/image-to-pdf/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert JPG to WEBP?",
+"a": "Drop the JPG files here, keep WEBP as the output and press Convert."
+},
+{
+"q": "Is this JPG to WEBP converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert JPG to WEBP without losing quality?",
+"a": "Use quality 90+; WEBP is lossy, but the loss is invisible at high settings."
+},
+{
+"q": "Does WEBP support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"image-to-pdf",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"png2webp": {
+"seo": {
+"title": "PNG to WEBP Converter – Free, Batch, No Upload",
+"desc": "Convert PNG to WEBP free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert PNG to WEBP online, free",
+"This free PNG to WEBP converter turns PNG (Portable Network Graphics) images into WebP, developed by Google files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single WEBP or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert PNG to WEBP",
+{
+"steps": [
+"Drop your PNG files on the page (or tap to choose).",
+"Check that the output format is WEBP; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the WEBP – or a ZIP when you converted several files."
+]
+}
+],
+[
+"PNG vs WEBP: what is the difference?",
+{
+"table": [
+[
+"",
+"PNG",
+"WEBP"
+],
+[
+"Compression",
+"Lossless",
+"Lossy or lossless"
+],
+[
+"Transparency",
+"Yes, full alpha",
+"Yes"
+],
+[
+"Animation",
+"APNG only (limited)",
+"Yes"
+],
+[
+"Colours",
+"Up to 16.7 million + alpha",
+"16.7 million + alpha"
+],
+[
+"Support",
+"Everywhere",
+"All current major browsers (Safari since version 14); some older desktop apps cannot open it"
+],
+[
+"Best for",
+"Screenshots, logos, graphics with text, transparency",
+"Web pages – smaller than JPG and PNG"
+],
+[
+"File size",
+"Large for photos, small for flat graphics",
+"Usually smaller than JPG/PNG at similar quality"
+],
+[
+"Introduced",
+"1996",
+"2010"
+]
+]
+}
+],
+[
+"Why convert PNG to WEBP?",
+{
+"list": [
+"Shrink screenshots, graphics and transparent images for the web while keeping the alpha channel.",
+"Improve page speed scores by serving a modern format.",
+"Reduce the size of image-heavy documentation and landing pages.",
+"Replace large PNG hero images that slow down mobile pages."
+]
+},
+"For graphics with text and sharp edges, use quality 90–100 to avoid blur around letters; for photos saved as PNG, 75–85 gives big savings."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – lower values give smaller files; 80–90 is a good default.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"How to convert PNG to WEBP without losing quality",
+"WEBP is a lossy format, so some information is always discarded – the goal is to make the loss invisible. Use quality 90 or higher for images you will print or edit again, 80–85 for websites and sharing, and avoid converting the same image repeatedly. Do not upscale: keep *Max width* empty unless you want a smaller image. The result message shows the size before and after, so you can find the best balance."
+],
+[
+"About the PNG and WEBP formats",
+"PNG was created in the mid-1990s as a patent-free replacement for GIF. It compresses losslessly with the same algorithm as ZIP, so files are exact copies of the pixels – perfect for screenshots, diagrams and logos, but large for photographs.",
+"WebP was released by Google in 2010, based on the VP8 video codec. One format covers lossy photos, lossless graphics, transparency and animation. Google reports lossy WebP files 25–34% smaller than comparable JPEGs."
+],
+[
+"Convert many images at once",
+"Select or drop as many PNG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert PNG to WEBP on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export WEBP too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[WEBP to PNG](/webp-to-png/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert PNG to WEBP?",
+"a": "Drop the PNG files here, keep WEBP as the output and press Convert."
+},
+{
+"q": "Is this PNG to WEBP converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert PNG to WEBP without losing quality?",
+"a": "Use quality 90+; WEBP is lossy, but the loss is invisible at high settings."
+},
+{
+"q": "Does WEBP support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"webp-to-png",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"avif2jpg": {
+"seo": {
+"title": "AVIF to JPG Converter – Free, Batch, No Upload",
+"desc": "Convert AVIF to JPG free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert AVIF to JPG online, free",
+"This free AVIF to JPG converter turns AVIF (AV1 Image File Format) images into JPEG (Joint Photographic Experts Group) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single JPG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert AVIF to JPG",
+{
+"steps": [
+"Drop your AVIF files on the page (or tap to choose).",
+"Check that the output format is JPG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the JPG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"AVIF vs JPG: what is the difference?",
+{
+"table": [
+[
+"",
+"AVIF",
+"JPG"
+],
+[
+"Compression",
+"Lossy or lossless",
+"Lossy"
+],
+[
+"Transparency",
+"Yes",
+"No"
+],
+[
+"Animation",
+"Yes",
+"No"
+],
+[
+"Colours",
+"8, 10 or 12-bit, HDR capable",
+"16.7 million (8-bit per channel)"
+],
+[
+"Support",
+"Chrome, Edge, Firefox and Safari 16+; many editors and older apps cannot open it",
+"Everywhere – every browser, phone, OS and app"
+],
+[
+"Best for",
+"Modern websites wanting the smallest files",
+"Photos, e-mail, uploads to any site"
+],
+[
+"File size",
+"Often the smallest at similar quality",
+"Small for photos"
+],
+[
+"Introduced",
+"2019",
+"1992"
+]
+]
+}
+],
+[
+"Why convert AVIF to JPG?",
+{
+"list": [
+"Open AVIF images downloaded from websites in apps that do not support AVIF yet, such as older Windows Photos, Office or many editors.",
+"Share images by e-mail or messaging with people on older devices.",
+"Upload to sites and forms that only accept JPG.",
+"Print at shops whose software expects JPG."
+]
+},
+"JPG has no transparency, so transparent areas of an AVIF are filled with the background colour you choose (white by default). Use quality 90+ for prints and 80–85 for sharing."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – lower values give smaller files; 80–90 is a good default.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"How to convert AVIF to JPG without losing quality",
+"JPG is a lossy format, so some information is always discarded – the goal is to make the loss invisible. Use quality 90 or higher for images you will print or edit again, 80–85 for websites and sharing, and avoid converting the same image repeatedly. Do not upscale: keep *Max width* empty unless you want a smaller image. The result message shows the size before and after, so you can find the best balance."
+],
+[
+"About the AVIF and JPG formats",
+"AVIF is based on the royalty-free AV1 video codec from the Alliance for Open Media. It supports HDR, wide colour, transparency and animation, and usually beats both JPG and WebP on size – at the cost of slower encoding.",
+"JPEG was standardised in 1992 and remains the most widely used photo format. It splits the image into 8×8 blocks and discards fine detail the eye notices least, which is why heavy compression shows blocky artefacts around edges and text."
+],
+[
+"Convert many images at once",
+"Select or drop as many AVIF files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert AVIF to JPG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export JPG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[JPG to AVIF](/jpg-to-avif/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert AVIF to JPG?",
+"a": "Drop the AVIF files here, keep JPG as the output and press Convert."
+},
+{
+"q": "Is this AVIF to JPG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert AVIF to JPG without losing quality?",
+"a": "Use quality 90+; JPG is lossy, but the loss is invisible at high settings."
+},
+{
+"q": "Does JPG support transparency?",
+"a": "No – transparent areas are filled with the background colour."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"jpg-to-avif",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"jpg2avif": {
+"seo": {
+"title": "JPG to AVIF Converter – Free, Batch, No Upload",
+"desc": "Convert JPG to AVIF free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert JPG to AVIF online, free",
+"This free JPG to AVIF converter turns JPEG (Joint Photographic Experts Group) images into AVIF (AV1 Image File Format) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single AVIF or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert JPG to AVIF",
+{
+"steps": [
+"Drop your JPG files on the page (or tap to choose).",
+"Check that the output format is AVIF; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the AVIF – or a ZIP when you converted several files."
+]
+}
+],
+[
+"JPG vs AVIF: what is the difference?",
+{
+"table": [
+[
+"",
+"JPG",
+"AVIF"
+],
+[
+"Compression",
+"Lossy",
+"Lossy or lossless"
+],
+[
+"Transparency",
+"No",
+"Yes"
+],
+[
+"Animation",
+"No",
+"Yes"
+],
+[
+"Colours",
+"16.7 million (8-bit per channel)",
+"8, 10 or 12-bit, HDR capable"
+],
+[
+"Support",
+"Everywhere – every browser, phone, OS and app",
+"Chrome, Edge, Firefox and Safari 16+; many editors and older apps cannot open it"
+],
+[
+"Best for",
+"Photos, e-mail, uploads to any site",
+"Modern websites wanting the smallest files"
+],
+[
+"File size",
+"Small for photos",
+"Often the smallest at similar quality"
+],
+[
+"Introduced",
+"1992",
+"2019"
+]
+]
+}
+],
+[
+"Why convert JPG to AVIF?",
+{
+"list": [
+"Get the smallest possible image files for a fast website.",
+"Serve modern formats to supporting browsers, with JPG as a fallback.",
+"Save storage for large photo libraries on the web.",
+"Experiment with next-generation compression without installing tools."
+]
+},
+"AVIF encoding is heavier than JPG, so large batches take longer on older phones. Check that your website or CMS accepts AVIF uploads before converting everything."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – lower values give smaller files; 80–90 is a good default.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"How to convert JPG to AVIF without losing quality",
+"AVIF is a lossy format, so some information is always discarded – the goal is to make the loss invisible. Use quality 90 or higher for images you will print or edit again, 80–85 for websites and sharing, and avoid converting the same image repeatedly. Do not upscale: keep *Max width* empty unless you want a smaller image. The result message shows the size before and after, so you can find the best balance."
+],
+[
+"About the JPG and AVIF formats",
+"JPEG was standardised in 1992 and remains the most widely used photo format. It splits the image into 8×8 blocks and discards fine detail the eye notices least, which is why heavy compression shows blocky artefacts around edges and text.",
+"AVIF is based on the royalty-free AV1 video codec from the Alliance for Open Media. It supports HDR, wide colour, transparency and animation, and usually beats both JPG and WebP on size – at the cost of slower encoding."
+],
+[
+"Convert many images at once",
+"Select or drop as many JPG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert JPG to AVIF on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export AVIF too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[AVIF to JPG](/avif-to-jpg/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert JPG to AVIF?",
+"a": "Drop the JPG files here, keep AVIF as the output and press Convert."
+},
+{
+"q": "Is this JPG to AVIF converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert JPG to AVIF without losing quality?",
+"a": "Use quality 90+; AVIF is lossy, but the loss is invisible at high settings."
+},
+{
+"q": "Does AVIF support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"avif-to-jpg",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"tiff2jpg": {
+"seo": {
+"title": "TIFF to JPG Converter – Free, Batch, No Upload",
+"desc": "Convert TIFF to JPG free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert TIFF to JPG online, free",
+"This free TIFF to JPG converter turns TIFF (Tagged Image File Format) images into JPEG (Joint Photographic Experts Group) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single JPG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert TIFF to JPG",
+{
+"steps": [
+"Drop your TIFF files on the page (or tap to choose).",
+"Check that the output format is JPG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the JPG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"TIFF vs JPG: what is the difference?",
+{
+"table": [
+[
+"",
+"TIFF",
+"JPG"
+],
+[
+"Compression",
+"Uncompressed or lossless (LZW/ZIP); JPEG inside TIFF possible",
+"Lossy"
+],
+[
+"Transparency",
+"Yes",
+"No"
+],
+[
+"Animation",
+"No (but multi-page)",
+"No"
+],
+[
+"Colours",
+"8/16-bit per channel, CMYK possible",
+"16.7 million (8-bit per channel)"
+],
+[
+"Support",
+"Image editors, print and scanning software; most browsers except Safari do not display it",
+"Everywhere – every browser, phone, OS and app"
+],
+[
+"Best for",
+"Print, scanning, archiving, professional editing",
+"Photos, e-mail, uploads to any site"
+],
+[
+"File size",
+"Very large",
+"Small for photos"
+],
+[
+"Introduced",
+"1986",
+"1992"
+]
+]
+}
+],
+[
+"Why convert TIFF to JPG?",
+{
+"list": [
+"Make huge scanner or camera TIFFs small enough to e-mail or upload.",
+"View images in browsers and phones that cannot display TIFF.",
+"Share scans of documents and photos quickly.",
+"Post print-quality images online."
+]
+},
+"Multi-page TIFF files (for example scanned documents and faxes) are common; this converter turns the first page into a JPG. To keep all pages, convert the TIFF to PDF with [Image to PDF](/image-to-pdf/)."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – lower values give smaller files; 80–90 is a good default.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"How to convert TIFF to JPG without losing quality",
+"JPG is a lossy format, so some information is always discarded – the goal is to make the loss invisible. Use quality 90 or higher for images you will print or edit again, 80–85 for websites and sharing, and avoid converting the same image repeatedly. Do not upscale: keep *Max width* empty unless you want a smaller image. The result message shows the size before and after, so you can find the best balance."
+],
+[
+"About the TIFF and JPG formats",
+"TIFF dates from 1986 and is a flexible container used by scanners, publishers and archives. It can hold several pages, high bit depths and CMYK colour, and is often stored uncompressed or with lossless LZW compression.",
+"JPEG was standardised in 1992 and remains the most widely used photo format. It splits the image into 8×8 blocks and discards fine detail the eye notices least, which is why heavy compression shows blocky artefacts around edges and text."
+],
+[
+"Convert many images at once",
+"Select or drop as many TIFF files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert TIFF to JPG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export JPG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[JPG to TIFF](/jpg-to-tiff/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert TIFF to JPG?",
+"a": "Drop the TIFF files here, keep JPG as the output and press Convert."
+},
+{
+"q": "Is this TIFF to JPG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert TIFF to JPG without losing quality?",
+"a": "Use quality 90+; JPG is lossy, but the loss is invisible at high settings."
+},
+{
+"q": "Does JPG support transparency?",
+"a": "No – transparent areas are filled with the background colour."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"jpg-to-tiff",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"jpg2tiff": {
+"seo": {
+"title": "JPG to TIFF Converter – Free, Batch, No Upload",
+"desc": "Convert JPG to TIFF free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert JPG to TIFF online, free",
+"This free JPG to TIFF converter turns JPEG (Joint Photographic Experts Group) images into TIFF (Tagged Image File Format) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single TIFF or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert JPG to TIFF",
+{
+"steps": [
+"Drop your JPG files on the page (or tap to choose).",
+"Check that the output format is TIFF; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the TIFF – or a ZIP when you converted several files."
+]
+}
+],
+[
+"JPG vs TIFF: what is the difference?",
+{
+"table": [
+[
+"",
+"JPG",
+"TIFF"
+],
+[
+"Compression",
+"Lossy",
+"Uncompressed or lossless (LZW/ZIP); JPEG inside TIFF possible"
+],
+[
+"Transparency",
+"No",
+"Yes"
+],
+[
+"Animation",
+"No",
+"No (but multi-page)"
+],
+[
+"Colours",
+"16.7 million (8-bit per channel)",
+"8/16-bit per channel, CMYK possible"
+],
+[
+"Support",
+"Everywhere – every browser, phone, OS and app",
+"Image editors, print and scanning software; most browsers except Safari do not display it"
+],
+[
+"Best for",
+"Photos, e-mail, uploads to any site",
+"Print, scanning, archiving, professional editing"
+],
+[
+"File size",
+"Small for photos",
+"Very large"
+],
+[
+"Introduced",
+"1992",
+"1986"
+]
+]
+}
+],
+[
+"Why convert JPG to TIFF?",
+{
+"list": [
+"Supply images to printers, publishers or archives that require TIFF.",
+"Use in desktop publishing and scanning workflows.",
+"Store a lossless working copy for further editing so no more JPG loss is added.",
+"Meet document management or legal submission requirements."
+]
+},
+"A TIFF made from a JPG is lossless from that point on but cannot recover detail lost in the original JPG compression. Files will be much larger."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – only affects lossy formats; TIFF output is lossless.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"Is JPG to TIFF conversion lossless?",
+"TIFF stores pixels exactly, so the conversion adds no new compression artefacts. Detail already lost in a lossy JPG cannot be brought back; the TIFF will look exactly like the JPG you started with."
+],
+[
+"About the JPG and TIFF formats",
+"JPEG was standardised in 1992 and remains the most widely used photo format. It splits the image into 8×8 blocks and discards fine detail the eye notices least, which is why heavy compression shows blocky artefacts around edges and text.",
+"TIFF dates from 1986 and is a flexible container used by scanners, publishers and archives. It can hold several pages, high bit depths and CMYK colour, and is often stored uncompressed or with lossless LZW compression."
+],
+[
+"Convert many images at once",
+"Select or drop as many JPG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert JPG to TIFF on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export TIFF too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width; TIFF is lossless, consider WebP for the web"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[TIFF to JPG](/tiff-to-jpg/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert JPG to TIFF?",
+"a": "Drop the JPG files here, keep TIFF as the output and press Convert."
+},
+{
+"q": "Is this JPG to TIFF converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert JPG to TIFF without losing quality?",
+"a": "Yes, TIFF adds no further loss."
+},
+{
+"q": "Does TIFF support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"tiff-to-jpg",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"bmp2jpg": {
+"seo": {
+"title": "BMP to JPG Converter – Free, Batch, No Upload",
+"desc": "Convert BMP to JPG free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert BMP to JPG online, free",
+"This free BMP to JPG converter turns BMP (Windows Bitmap) images into JPEG (Joint Photographic Experts Group) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single JPG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert BMP to JPG",
+{
+"steps": [
+"Drop your BMP files on the page (or tap to choose).",
+"Check that the output format is JPG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the JPG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"BMP vs JPG: what is the difference?",
+{
+"table": [
+[
+"",
+"BMP",
+"JPG"
+],
+[
+"Compression",
+"Usually uncompressed",
+"Lossy"
+],
+[
+"Transparency",
+"Rarely supported",
+"No"
+],
+[
+"Animation",
+"No",
+"No"
+],
+[
+"Colours",
+"Up to 16.7 million",
+"16.7 million (8-bit per channel)"
+],
+[
+"Support",
+"Windows and most editors; not ideal for the web",
+"Everywhere – every browser, phone, OS and app"
+],
+[
+"Best for",
+"Legacy Windows software",
+"Photos, e-mail, uploads to any site"
+],
+[
+"File size",
+"Very large",
+"Small for photos"
+],
+[
+"Introduced",
+"1990s",
+"1992"
+]
+]
+}
+],
+[
+"Why convert BMP to JPG?",
+{
+"list": [
+"Shrink uncompressed BMP files – often 10× or more – for e-mail and the web.",
+"Open old Windows Paint images on phones and Macs easily.",
+"Upload to websites that do not accept BMP.",
+"Free up disk space from legacy image archives."
+]
+},
+"BMP stores every pixel uncompressed, so JPG at quality 90 usually looks the same with a fraction of the size."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – lower values give smaller files; 80–90 is a good default.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"How to convert BMP to JPG without losing quality",
+"JPG is a lossy format, so some information is always discarded – the goal is to make the loss invisible. Use quality 90 or higher for images you will print or edit again, 80–85 for websites and sharing, and avoid converting the same image repeatedly. Do not upscale: keep *Max width* empty unless you want a smaller image. The result message shows the size before and after, so you can find the best balance."
+],
+[
+"About the BMP and JPG formats",
+"BMP is the native bitmap format of Windows, used since the early days of Windows Paint. It normally stores raw, uncompressed pixels, so files are big and rarely used on the web today.",
+"JPEG was standardised in 1992 and remains the most widely used photo format. It splits the image into 8×8 blocks and discards fine detail the eye notices least, which is why heavy compression shows blocky artefacts around edges and text."
+],
+[
+"Convert many images at once",
+"Select or drop as many BMP files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert BMP to JPG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export JPG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[Image to PDF](/image-to-pdf/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert BMP to JPG?",
+"a": "Drop the BMP files here, keep JPG as the output and press Convert."
+},
+{
+"q": "Is this BMP to JPG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert BMP to JPG without losing quality?",
+"a": "Use quality 90+; JPG is lossy, but the loss is invisible at high settings."
+},
+{
+"q": "Does JPG support transparency?",
+"a": "No – transparent areas are filled with the background colour."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"image-to-pdf",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"png2ico": {
+"seo": {
+"title": "PNG to ICO Converter – Free, Batch, No Upload",
+"desc": "Convert PNG to ICO free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert PNG to ICO online, free",
+"This free PNG to ICO converter turns PNG (Portable Network Graphics) images into ICO (Windows icon) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single ICO or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert PNG to ICO",
+{
+"steps": [
+"Drop your PNG files on the page (or tap to choose).",
+"Check that the output format is ICO; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the ICO – or a ZIP when you converted several files."
+]
+}
+],
+[
+"PNG vs ICO: what is the difference?",
+{
+"table": [
+[
+"",
+"PNG",
+"ICO"
+],
+[
+"Compression",
+"Lossless",
+"PNG or BMP images inside"
+],
+[
+"Transparency",
+"Yes, full alpha",
+"Yes"
+],
+[
+"Animation",
+"APNG only (limited)",
+"No"
+],
+[
+"Colours",
+"Up to 16.7 million + alpha",
+"Up to 32-bit"
+],
+[
+"Support",
+"Everywhere",
+"Windows, browsers (favicons)"
+],
+[
+"Best for",
+"Screenshots, logos, graphics with text, transparency",
+"Favicons and Windows icons"
+],
+[
+"File size",
+"Large for photos, small for flat graphics",
+"Tiny"
+],
+[
+"Introduced",
+"1996",
+"1985"
+]
+]
+}
+],
+[
+"Why convert PNG to ICO?",
+{
+"list": [
+"Create a favicon.ico for your website.",
+"Make icons for Windows shortcuts, folders and apps.",
+"Keep transparency in the icon.",
+"Turn a logo into an icon in seconds."
+]
+},
+"Start from a square PNG of at least 256×256 pixels; non-square images are fitted into a square. For a complete favicon set with apple-touch-icon and manifest sizes, use the [Favicon generator](/favicon-generator/)."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – only affects lossy formats; ICO output is lossless.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"Is PNG to ICO conversion lossless?",
+"ICO stores pixels exactly, so the conversion adds no new compression artefacts. Detail already lost in a lossy PNG cannot be brought back; the ICO will look exactly like the PNG you started with."
+],
+[
+"About the PNG and ICO formats",
+"PNG was created in the mid-1990s as a patent-free replacement for GIF. It compresses losslessly with the same algorithm as ZIP, so files are exact copies of the pixels – perfect for screenshots, diagrams and logos, but large for photographs.",
+"ICO is the Windows icon container. One .ico file can hold several sizes (such as 16, 32 and 48 px) so Windows and browsers can pick the sharpest version; it is the classic format for favicon.ico."
+],
+[
+"Convert many images at once",
+"Select or drop as many PNG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert PNG to ICO on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export ICO too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width; ICO is lossless, consider WebP for the web"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[Image to PDF](/image-to-pdf/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert PNG to ICO?",
+"a": "Drop the PNG files here, keep ICO as the output and press Convert."
+},
+{
+"q": "Is this PNG to ICO converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert PNG to ICO without losing quality?",
+"a": "Yes, ICO adds no further loss."
+},
+{
+"q": "Does ICO support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"image-to-pdf",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"svg2png": {
+"seo": {
+"title": "SVG to PNG Converter – Free, Batch, No Upload",
+"desc": "Convert SVG to PNG free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert SVG to PNG online, free",
+"This free SVG to PNG converter turns SVG (Scalable Vector Graphics) images into PNG (Portable Network Graphics) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single PNG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert SVG to PNG",
+{
+"steps": [
+"Drop your SVG files on the page (or tap to choose).",
+"Check that the output format is PNG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the PNG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"SVG vs PNG: what is the difference?",
+{
+"table": [
+[
+"",
+"SVG",
+"PNG"
+],
+[
+"Compression",
+"Vector (XML text), not pixels",
+"Lossless"
+],
+[
+"Transparency",
+"Yes",
+"Yes, full alpha"
+],
+[
+"Animation",
+"Yes (CSS/SMIL)",
+"APNG only (limited)"
+],
+[
+"Colours",
+"Unlimited",
+"Up to 16.7 million + alpha"
+],
+[
+"Support",
+"All browsers, design apps, cutting machines (Cricut, Silhouette)",
+"Everywhere"
+],
+[
+"Best for",
+"Logos, icons, illustrations that must scale",
+"Screenshots, logos, graphics with text, transparency"
+],
+[
+"File size",
+"Tiny for simple shapes, large for photo-like traces",
+"Large for photos, small for flat graphics"
+],
+[
+"Introduced",
+"2001",
+"1996"
+]
+]
+}
+],
+[
+"Why convert SVG to PNG?",
+{
+"list": [
+"Use vector logos and icons in apps that only accept pixel images, such as Word, PowerPoint, social media and e-mail signatures.",
+"Render an SVG at a precise width for a website or print.",
+"Share graphics with people who cannot open SVG files.",
+"Create PNG previews of icon sets."
+]
+},
+"SVG has no fixed pixel size; set *Max width* to control the output size – for example 2000 px for print or 512 px for an app icon. Transparent areas stay transparent in PNG."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – only affects lossy formats; PNG output is lossless.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"Is SVG to PNG conversion lossless?",
+"PNG stores pixels exactly, so the conversion adds no new compression artefacts. Detail already lost in a lossy SVG cannot be brought back; the PNG will look exactly like the SVG you started with."
+],
+[
+"About the SVG and PNG formats",
+"SVG is an open W3C standard that describes images as shapes, paths and text in XML. Because it is vector-based, an SVG stays perfectly sharp at any size, from a favicon to a billboard, and can be edited in code or in design apps.",
+"PNG was created in the mid-1990s as a patent-free replacement for GIF. It compresses losslessly with the same algorithm as ZIP, so files are exact copies of the pixels – perfect for screenshots, diagrams and logos, but large for photographs."
+],
+[
+"Convert many images at once",
+"Select or drop as many SVG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert SVG to PNG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export PNG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width; PNG is lossless, consider WebP for the web"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[PNG to SVG](/png-to-svg/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert SVG to PNG?",
+"a": "Drop the SVG files here, keep PNG as the output and press Convert."
+},
+{
+"q": "Is this SVG to PNG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert SVG to PNG without losing quality?",
+"a": "Yes, PNG adds no further loss."
+},
+{
+"q": "Does PNG support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"png-to-svg",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"png2svg": {
+"seo": {
+"title": "PNG to SVG Converter – Free, Batch, No Upload",
+"desc": "Convert PNG to SVG free in your browser: batch files, quality and size control, SVG tracing. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert PNG to SVG online, free",
+"This free PNG to SVG converter turns PNG (Portable Network Graphics) images into SVG (Scalable Vector Graphics) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single SVG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert PNG to SVG",
+{
+"steps": [
+"Drop your PNG files on the page (or tap to choose).",
+"Check that the output format is SVG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the SVG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"PNG vs SVG: what is the difference?",
+{
+"table": [
+[
+"",
+"PNG",
+"SVG"
+],
+[
+"Compression",
+"Lossless",
+"Vector (XML text), not pixels"
+],
+[
+"Transparency",
+"Yes, full alpha",
+"Yes"
+],
+[
+"Animation",
+"APNG only (limited)",
+"Yes (CSS/SMIL)"
+],
+[
+"Colours",
+"Up to 16.7 million + alpha",
+"Unlimited"
+],
+[
+"Support",
+"Everywhere",
+"All browsers, design apps, cutting machines (Cricut, Silhouette)"
+],
+[
+"Best for",
+"Screenshots, logos, graphics with text, transparency",
+"Logos, icons, illustrations that must scale"
+],
+[
+"File size",
+"Large for photos, small for flat graphics",
+"Tiny for simple shapes, large for photo-like traces"
+],
+[
+"Introduced",
+"1996",
+"2001"
+]
+]
+}
+],
+[
+"Why convert PNG to SVG?",
+{
+"list": [
+"Turn a logo or icon into a scalable vector for print, signage or a website.",
+"Prepare cut files for Cricut, Silhouette and laser cutters.",
+"Make simple artwork resizable without pixelation.",
+"Reduce file size for flat graphics with few colours."
+]
+},
+"This is *tracing*: the image is analysed and redrawn as coloured vector shapes. It works best for logos, icons, silhouettes and drawings with clear edges and few colours. Photos produce very large SVGs that still look like posterised art. For Cricut, choose 2 colours (black & white) and a high-contrast image."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – only affects lossy formats; SVG output is lossless.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white.",
+"**SVG trace colours** – 2 for black-and-white cut files, 16 for typical logos, up to 64 for more detail.",
+"**SVG detail** – *High* keeps small shapes (bigger file), *Smooth* drops specks for cleaner, smaller files."
+]
+}
+],
+[
+"Is PNG to SVG conversion lossless?",
+"SVG is vector, so the conversion adds no new compression artefacts. Detail already lost in a lossy PNG cannot be brought back; the SVG will look exactly like the PNG you started with."
+],
+[
+"About the PNG and SVG formats",
+"PNG was created in the mid-1990s as a patent-free replacement for GIF. It compresses losslessly with the same algorithm as ZIP, so files are exact copies of the pixels – perfect for screenshots, diagrams and logos, but large for photographs.",
+"SVG is an open W3C standard that describes images as shapes, paths and text in XML. Because it is vector-based, an SVG stays perfectly sharp at any size, from a favicon to a billboard, and can be edited in code or in design apps."
+],
+[
+"Convert many images at once",
+"Select or drop as many PNG files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert PNG to SVG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export SVG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width; SVG is lossless, consider WebP for the web"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Raster vs vector: what tracing does",
+"A PNG is a grid of pixels. An SVG describes shapes – paths with curves and fill colours. Converting PNG to SVG therefore means *tracing*: the converter reduces the image to a set number of colours, finds the outline of every area of each colour, and fits smooth curves and straight lines to those outlines. The result is a real vector file you can scale, recolour and edit node by node in Inkscape, Illustrator, Figma or Affinity Designer, not just a PNG wrapped inside an SVG file (which is what some converters produce)."
+],
+[
+"Choosing the number of colours",
+{
+"table": [
+[
+"Colours",
+"Best for",
+"Result"
+],
+[
+"2",
+"Cricut/Silhouette cut files, stencils, line art, signatures",
+"Clean black shapes, smallest file"
+],
+[
+"4–8",
+"Simple logos, icons, badges",
+"Flat colour areas, crisp edges"
+],
+[
+"16",
+"Most logos and illustrations (default)",
+"Good balance of fidelity and size"
+],
+[
+"32–64",
+"Detailed illustrations, gradients",
+"Closer to the original, larger file"
+]
+]
+},
+"Start with the default and look at the preview in a browser. If colours are missing, increase the number; if you see blotches and noise, decrease it or choose *Smooth* detail."
+],
+[
+"How to prepare a PNG for a clean SVG",
+{
+"list": [
+"Use the largest, sharpest version of the image you have – tracing a tiny or blurry image gives wobbly outlines.",
+"Crop away unneeded background with [Crop image](/crop-image/).",
+"Increase contrast and remove JPG-style noise before tracing.",
+"Remove the background first with [Remove background](/remove-background/) if you only want the subject.",
+"For line art, convert to black and white so the tracer sees two clear colours."
+]
+}
+],
+[
+"PNG to SVG for Cricut and cutting machines",
+"Cutting machines follow vector paths, so they need SVG (or DXF) files rather than PNG. For a single-layer cut, choose **2 colours** so the design becomes solid black shapes on white, and *Smooth* detail to drop specks that would turn into tiny cuts. Upload the SVG in Cricut Design Space with *Upload → Upload image*, then check the cut preview: every closed shape becomes a cut line. Use *Weld* or *Attach* in Design Space to keep separate pieces together. For multi-colour layered vinyl, use 4–8 colours; each colour becomes a separate group you can assign to its own layer."
+],
+[
+"PNG to SVG in Inkscape or Illustrator vs online",
+"Inkscape (*Path → Trace Bitmap*) and Illustrator (*Image Trace*) offer fine control over thresholds, corners and noise, and are the right choice for professional logo redraws. They take time to learn and install. This converter gives you a good first trace in seconds, on any device, without uploading client artwork. You can always open the SVG in Inkscape or Illustrator afterwards to refine nodes, merge shapes or change colours."
+],
+[
+"Limitations of automatic tracing",
+{
+"list": [
+"Photos become poster-like art with thousands of paths and large files – keep photos as PNG, JPG or WebP.",
+"Text in the image is traced as shapes, not editable text; retype it in a design app if needed.",
+"Very thin lines may break up; trace at a larger size or choose High detail.",
+"Gradients are approximated with bands of flat colour.",
+"Huge images are scaled to about 1,000 px (1,600 px in High detail) for tracing, then output at the original dimensions.",
+"Soft shadows and glows turn into stepped rings of colour; remove them from the artwork first if you can.",
+"JPG-compressed sources add speckles around edges – start from the original PNG where possible."
+]
+}
+],
+[
+"Is PNG to SVG conversion free here?",
+"Yes. There are no limits on the number of images, no daily quota, no watermark and no account. Tracing runs on your own device with the open-source ImageTracer library, so there is no server cost and no reason to restrict you – the only limit is your device's memory for extremely large images. Batch tracing also works: drop several PNGs and download all the SVGs together as one ZIP, each traced with the same colour and detail settings, which is ideal for converting a whole icon set in a single pass."
+],
+[
+"Checking and using your SVG",
+"Open the downloaded SVG in your browser to see it at any zoom level. In a website, use it in an <img> tag or inline it to style colours with CSS. In Word and PowerPoint (Microsoft 365), insert it as a picture – it stays sharp when resized. For print, most print shops accept SVG or will ask for PDF; convert with a design app or use [Image to PDF](/image-to-pdf/) for a pixel version."
+],
+[
+"Worked example: a café logo for signage",
+"A café owner has only a 600 × 600 px PNG of the logo, but the sign maker needs a vector file for a 2-metre sign. Drop the PNG, choose 8 colours (the logo has a dark brown, a cream and an orange accent plus their anti-aliased edges), tick *Make white background transparent* and keep *Normal* detail. Convert, then open the SVG in the browser and zoom to 800%: the edges stay smooth instead of turning into blocks. The sign maker can import the SVG straight into their software, or open it in Inkscape to clean a couple of small nodes. Total time: under a minute, with the artwork never leaving the computer."
+],
+[
+"SVG vs EPS, PDF and DXF",
+{
+"table": [
+[
+"Format",
+"Typical use",
+"Notes"
+],
+[
+"SVG",
+"Web, apps, Cricut/Silhouette, modern design tools",
+"Open standard, text-based, easy to edit"
+],
+[
+"EPS",
+"Older print workflows",
+"Being replaced by PDF; many apps import it"
+],
+[
+"PDF (vector)",
+"Print shops, sharing",
+"Can contain vectors; good for final artwork"
+],
+[
+"DXF",
+"CAD, laser and CNC cutters",
+"Lines only, no fills"
+]
+]
+},
+"SVG is usually the most convenient starting point: most design and CAD tools import it and can export the other formats if a supplier insists on one."
+],
+[
+"Keeping SVG file size small",
+"A trace with many colours and small details can contain thousands of paths. To keep files light for websites: reduce the number of colours, choose *Smooth* detail to drop tiny specks, crop the image tightly before tracing, and avoid tracing photos. For web use you can also run the result through an SVG optimiser such as SVGO, which removes redundant data without changing the look."
+],
+[
+"Who uses PNG to SVG conversion",
+{
+"list": [
+"**Small businesses** turning a logo into a vector for signs, vehicle wraps and embroidery.",
+"**Crafters** making Cricut and Silhouette cut files for vinyl, iron-on and paper.",
+"**Web developers** replacing blurry PNG icons with crisp, scalable SVGs.",
+"**Laser-engraving and CNC hobbyists** creating paths from drawings.",
+"**Teachers and students** vectorising diagrams for slides and posters."
+]
+}
+],
+[
+"Step-by-step: from PNG to a finished vector",
+{
+"steps": [
+"Start with the biggest, cleanest PNG you have.",
+"Crop and, if needed, remove the background.",
+"Pick colours: 2 for cut files, 8–16 for logos.",
+"Choose detail: Normal first; High for fine lines, Smooth for cleaner shapes.",
+"Convert and open the SVG in your browser at high zoom.",
+"If it looks noisy, lower colours or pick Smooth and run again.",
+"Optionally refine nodes or recolour in Inkscape, Illustrator or Figma."
+]
+},
+"Because the original PNG is never changed and every run takes seconds, it is quick to try two or three settings and keep the best one."
+],
+[
+"Can I change PNG to SVG just by renaming?",
+"No. Renaming *logo.png* to *logo.svg* does not change the content – apps will refuse to open it or show an error. Some online tools also just embed the PNG pixels inside an SVG wrapper, which still pixelates when enlarged. A real conversion must trace the pixels into vector paths, which is what this tool does; you can check by opening the SVG in a text editor and seeing *path* elements rather than a long base64 image."
+],
+[
+"Make the background transparent",
+"Tick *Make white background transparent* before converting and white areas become empty rather than white shapes – essential for logos that will sit on coloured backgrounds, and for cut files where you do not want a big rectangle around the design."
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[SVG to PNG](/svg-to-png/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert PNG to SVG?",
+"a": "Drop the PNG files here, keep SVG as the output and press Convert."
+},
+{
+"q": "Is this PNG to SVG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert PNG to SVG without losing quality?",
+"a": "Yes, SVG adds no further loss."
+},
+{
+"q": "Does SVG support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+},
+{
+"q": "Can I use the SVG with Cricut?",
+"a": "Yes – choose 2 trace colours and a high-contrast image, then upload the SVG to Design Space."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"svg-to-png",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+},
+"gif2png": {
+"seo": {
+"title": "GIF to PNG Converter – Free, Batch, No Upload",
+"desc": "Convert GIF to PNG free in your browser: batch files, quality and size control, transparency. No upload, no sign-up, no watermark.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Convertio and FreeConvert",
+"compareCols": [
+"CloudConvert",
+"Convertio",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert GIF to PNG online, free",
+"This free GIF to PNG converter turns GIF (Graphics Interchange Format) images into PNG (Portable Network Graphics) files directly in your browser. Drop one image or a whole folder, choose quality and size, and download a single PNG or a ZIP – no upload, no sign-up and no watermark. It works on Windows, Mac, Linux, iPhone and Android in any modern browser."
+],
+[
+"How to convert GIF to PNG",
+{
+"steps": [
+"Drop your GIF files on the page (or tap to choose).",
+"Check that the output format is PNG; adjust quality, background or max width if needed.",
+"Press Convert.",
+"Download the PNG – or a ZIP when you converted several files."
+]
+}
+],
+[
+"GIF vs PNG: what is the difference?",
+{
+"table": [
+[
+"",
+"GIF",
+"PNG"
+],
+[
+"Compression",
+"Lossless, but limited to 256 colours",
+"Lossless"
+],
+[
+"Transparency",
+"1-bit (on/off) only",
+"Yes, full alpha"
+],
+[
+"Animation",
+"Yes",
+"APNG only (limited)"
+],
+[
+"Colours",
+"256 per frame",
+"Up to 16.7 million + alpha"
+],
+[
+"Support",
+"Everywhere",
+"Everywhere"
+],
+[
+"Best for",
+"Simple animations, tiny graphics",
+"Screenshots, logos, graphics with text, transparency"
+],
+[
+"File size",
+"Small for flat graphics, large for photos",
+"Large for photos, small for flat graphics"
+],
+[
+"Introduced",
+"1987",
+"1996"
+]
+]
+}
+],
+[
+"Why convert GIF to PNG?",
+{
+"list": [
+"Get a still image from an animated GIF (the first frame).",
+"Edit a GIF graphic without the 256-colour limit.",
+"Use the image in apps that handle PNG better.",
+"Keep transparency for logos and icons."
+]
+},
+"PNG keeps the GIF's colours exactly. Animated GIFs become a single still image of the first frame; to keep animation, convert to MP4 or WebP instead."
+],
+[
+"Options explained",
+{
+"list": [
+"**Quality** – only affects lossy formats; PNG output is lossless.",
+"**Background colour** – used when the output is JPG, to fill transparent areas (white by default).",
+"**Max width** – scales larger images down proportionally; leave empty to keep the original size.",
+"**Make white background transparent** – for PNG, WebP, AVIF, GIF and ICO output, turns near-white pixels transparent, useful for logos on white."
+]
+}
+],
+[
+"Is GIF to PNG conversion lossless?",
+"PNG stores pixels exactly, so the conversion adds no new compression artefacts. Detail already lost in a lossy GIF cannot be brought back; the PNG will look exactly like the GIF you started with."
+],
+[
+"About the GIF and PNG formats",
+"GIF was introduced by CompuServe in 1987. It is limited to 256 colours per frame but supports simple animation and on/off transparency, which is why it remains popular for short loops and reactions.",
+"PNG was created in the mid-1990s as a patent-free replacement for GIF. It compresses losslessly with the same algorithm as ZIP, so files are exact copies of the pixels – perfect for screenshots, diagrams and logos, but large for photographs."
+],
+[
+"Convert many images at once",
+"Select or drop as many GIF files as you like. They are converted one after another on your device and packed into a single ZIP for download. Because nothing is uploaded, batch speed depends only on your computer or phone – typically a fraction of a second per photo on a laptop."
+],
+[
+"Convert GIF to PNG on Windows, Mac, iPhone and Android",
+"There is nothing to install: open this page in Chrome, Edge, Firefox or Safari. On iPhone and iPad, choose images from Photos or Files and save the result to Files; on Android, results go to Downloads. On a PC or MacBook, you can drag files straight from a folder. Built-in apps can sometimes export PNG too, but a browser converter is the same on every device and handles batches."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Output is too large",
+"Lower quality or set a max width; PNG is lossless, consider WebP for the web"
+],
+[
+"Transparent areas turned white",
+"JPG has no transparency – choose PNG or WebP"
+],
+[
+"File will not open in an old app",
+"Convert to JPG or PNG, which are universally supported"
+],
+[
+"Colours look slightly different",
+"Some images use wide-gamut colour profiles; browsers convert to sRGB"
+],
+[
+"Phone browser is slow on big batches",
+"Convert in smaller groups or use a computer"
+]
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Lossy",
+"Compression that discards detail to save space"
+],
+[
+"Lossless",
+"Compression that keeps every pixel exact"
+],
+[
+"Alpha channel",
+"Per-pixel transparency information"
+],
+[
+"sRGB",
+"The standard colour space for screens and the web"
+]
+]
+}
+],
+[
+"Privacy",
+"Images are decoded and converted inside your browser using the built-in image engine (and WebAssembly encoders for AVIF and tracing for SVG). Nothing is uploaded or stored on a server, there is no account, and the page keeps working offline once loaded – handy for personal photos, ID scans and client artwork."
+],
+[
+"Related tools",
+[
+"[Image converter](/image-converter/)",
+"[Compress image](/compress-image/)",
+"[Resize image](/resize-image/)",
+"[Image to PDF](/image-to-pdf/)",
+"[Crop image](/crop-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality & max width",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert GIF to PNG?",
+"a": "Drop the GIF files here, keep PNG as the output and press Convert."
+},
+{
+"q": "Is this GIF to PNG converter free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark."
+},
+{
+"q": "Can I convert GIF to PNG without losing quality?",
+"a": "Yes, PNG adds no further loss."
+},
+{
+"q": "Does PNG support transparency?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes, select many files and download a ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Does it work on iPhone, Android and Mac?",
+"a": "Yes, in any modern browser, with nothing to install."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a max width in pixels."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"image-to-pdf",
+"crop-image"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}
