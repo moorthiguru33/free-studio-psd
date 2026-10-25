@@ -1,0 +1,135 @@
+0	PDF a PNG
+1	Convierte páginas de PDF en imágenes PNG de alta calidad.
+2	PDF a PNG – Convertir PDF en imágenes PNG gratis y en alta calidad | {brand}
+3	Convierte páginas de PDF en imágenes PNG nítidas de hasta 300 PPP. Elige páginas y obtén un PNG o un ZIP. Gratis, sin registro y sin subir nada.
+4	Convertir PDF a PNG
+5	Selecciona un PDF.
+6	Elige la resolución y las páginas.
+7	Descarga las imágenes PNG.
+8	¿PNG o JPG?
+9	PNG no pierde calidad: es lo mejor para texto, diagramas y capturas con bordes nítidos. JPG ocupa menos con fotos.
+10	¿Qué resolución debo usar?
+11	2x (144 PPP) para pantallas y 300 PPP para imprimir.
+12	PNG mantiene el texto y los trazos perfectamente nítidos, por eso es el mejor formato de imagen para diapositivas, documentación y publicaciones en redes hechas a partir de páginas de PDF. {brand} renderiza cada página en tu navegador a hasta 300 PPP y agrupa varias páginas en un ZIP.
+13	Usar una página de PDF en una presentación o en una entrada de blog.
+14	Compartir una sola página en redes sociales o en un chat.
+15	Crear imágenes nítidas de diagramas y gráficos.
+16	Hacer miniaturas de documentos.
+17	Usa rangos de páginas como 1,3-5 para convertir solo lo que necesitas.
+18	Comprime el resultado con Comprimir PNG si los archivos pesan mucho.
+19	¿Se conserva la transparencia?
+20	Las páginas se renderizan sobre fondo blanco, como el papel impreso.
+21	¿Se sube mi archivo?
+22	No.
+23	¿JPG o PNG?
+24	JPG genera archivos más pequeños en páginas con fotos. PNG mantiene el texto y los trazos perfectamente nítidos y no pierde calidad. Para capturas de documentos que se comparten en chats, PNG a 2x suele ser el mejor equilibrio.
+25	Guía de resolución
+26	1x sirve para vistas previas, 2x para la mayoría de pantallas y documentos, y 3x para imprimir o ampliar detalles.
+27	PDF a PNG – Convertir páginas de PDF en PNG a 300 PPP
+28	Convierte cada página de un PDF en un PNG nítido de hasta 300 PPP, o solo un rango. Sin pérdida, listo para transparencias y en ZIP. En tu navegador.
+29	{tool}: {brand} frente a Smallpdf, iLovePDF y PDF24
+30	Imágenes sin pérdida de tus páginas PDF
+31	PNG es un formato de imagen sin pérdida, por lo que es la mejor opción cuando necesitas imágenes de página con texto nítido, líneas finas y colores planos: diagramas, diapositivas, gráficos, formularios, partituras o maquetas de interfaz. Esta herramienta renderiza cada página de tu PDF a la resolución que elijas y la guarda como PNG, sin los halos borrosos que JPEG añade alrededor del texto.
+32	Cómo elegir la resolución
+33	PPP
+34	Tamaño de una página A4
+35	Uso
+36	72
+37	595 × 842 px
+38	Vistas previas rápidas, miniaturas
+39	144 (2×)
+40	1191 × 1684 px
+41	Pantallas, diapositivas, páginas web
+42	216 (3×)
+43	1786 × 2526 px
+44	Documentación, nítido en pantallas de alta densidad
+45	300
+46	2480 × 3508 px
+47	Impresión, OCR, archivo
+48	Más PPP significa archivos más grandes. Los PNG de páginas de texto suelen ser pequeños gracias a sus colores planos; las páginas con fotos generan PNG grandes, así que para ellas [PDF a JPG](/pdf-to-jpg/) puede ser mejor opción.
+49	PNG frente a JPG para páginas de PDF
+50	
+51	PNG
+52	JPG
+53	Compresión
+54	Sin pérdida
+55	Con pérdida
+56	Nitidez de texto y líneas
+57	Perfecta
+58	Ligeros artefactos
+59	Fotos
+60	Archivos grandes
+61	Archivos pequeños
+62	Transparencia
+63	Compatible
+64	No compatible
+65	Ideal para
+66	Diagramas, diapositivas, documentos
+67	Páginas con muchas fotos, correo
+68	Cómo convertir PDF a PNG
+69	Suelta el PDF en la página.
+70	Elige los PPP y, si quieres, un rango de páginas como 1-3,7.
+71	Pulsa **Convertir**.
+72	Descarga un solo PNG o todas las páginas en un ZIP.
+73	Por qué los PNG renderizados se ven más nítidos que una captura
+74	Hacer una captura de un visor de PDF toma la página a la resolución de tu pantalla, normalmente entre 96 y 150 PPP, e incluye cualquier desenfoque del zoom. Renderizar el PDF directamente a 216 o 300 PPP dibuja el texto y los vectores a partir de los contornos originales, así que las letras siguen nítidas aunque amplíes o imprimas la imagen.
+75	Usos habituales
+76	Insertar una página de PDF en una presentación, documento o programa de diseño que no importa PDF.
+77	Publicar una página en redes sociales o en una web.
+78	Crear miniaturas para una biblioteca de documentos.
+79	Usar las páginas en flujos de trabajo basados en imágenes, como herramientas de anotación o conjuntos de datos de aprendizaje automático.
+80	PDF grandes y protegidos
+81	Los documentos largos se renderizan página a página para gastar poca memoria, así que incluso cientos de páginas se convierten en un navegador normal; el progreso se muestra a medida que termina cada página. Si un PDF está protegido con contraseña, quítala primero con [Desbloquear PDF](/unlock-pdf/) (necesitas conocerla) y luego conviértelo aquí.
+82	Extraer las imágenes originales
+83	Renderizar una página captura todo lo que contiene (texto, dibujos vectoriales e imágenes) como una sola imagen. Si solo quieres las fotos incrustadas en un PDF a su resolución original, cambia el modo a *Extraer imágenes*. La herramienta guardará cada imagen incrustada como un archivo independiente sin volver a renderizar, lo que es más rápido y conserva la calidad original de las fotos de folletos, catálogos e informes.
+84	Fondos transparentes
+85	Las páginas PDF suelen tener fondo blanco y el renderizador lo rellena de blanco para que el PNG se vea exactamente como la página. Si necesitas un logotipo o un dibujo con fondo transparente, extráelo con *Extraer imágenes* (si es una imagen incrustada) o convierte la página a [SVG](/pdf-to-svg/) y elimina la forma del fondo en un editor vectorial.
+86	Privacidad
+87	Las páginas se renderizan con PDF.js dentro de tu navegador y se guardan directamente en tu dispositivo. El PDF nunca se sube y la herramienta funciona sin conexión cuando la página ha cargado: apta para contratos, planos e informes confidenciales.
+88	Herramientas relacionadas
+89	[PDF a JPG](/pdf-to-jpg/)
+90	[PDF a SVG](/pdf-to-svg/)
+91	[PDF a TIFF](/pdf-to-tiff/)
+92	[Extraer imágenes de un PDF](/extract-images-from-pdf/)
+93	[JPG a PDF](/jpg-to-pdf/)
+94	Dónde se procesa tu archivo
+95	En tu navegador, nunca se sube
+96	Sus servidores (con subida)
+97	Sus servidores (con subida)
+98	Sus servidores (con subida)
+99	Cuenta necesaria
+100	Nunca
+101	Ver su sitio
+102	Ver su sitio
+103	Ver su sitio
+104	Elegir hasta 300 PPP
+105	Sí
+106	Ver su sitio
+107	Ver su sitio
+108	Ver su sitio
+109	Rango de páginas
+110	Sí
+111	Ver su sitio
+112	Ver su sitio
+113	Ver su sitio
+114	ZIP con todas las páginas
+115	Sí
+116	Ver su sitio
+117	Ver su sitio
+118	Ver su sitio
+119	¿Cómo convierto un PDF a PNG?
+120	Suelta el PDF, elige los PPP y pulsa Convertir. Descarga cada PNG o un ZIP con todas las páginas.
+121	¿Qué PPP debo usar?
+122	144 PPP (2×) para pantallas y 300 PPP para imprimir u OCR.
+123	¿La conversión de PDF a PNG es sin pérdida?
+124	Sí, PNG conserva cada píxel renderizado sin artefactos de compresión.
+125	¿Puedo convertir solo algunas páginas?
+126	Sí, escribe un rango de páginas como 1-3,7.
+127	¿Se sube mi PDF?
+128	No, se renderiza en tu navegador.
+129	PNG o JPG: ¿cuál es mejor?
+130	PNG para texto y diagramas, JPG para páginas con muchas fotos.
+131	¿Puedo convertir un PDF protegido con contraseña?
+132	Desbloquéalo primero con Desbloquear PDF (necesitas la contraseña) y después conviértelo.
+133	¿Hay límite de páginas?
+134	No hay un límite fijo; los documentos muy largos simplemente tardan más.

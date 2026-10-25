@@ -1,0 +1,14 @@
+PASS  |  video2mp3  |  stream|codec_name=mp3|codec_type=audio ; format|duration=6.034250
+PASS  |  audiocut  |  stream|codec_name=mp3|codec_type=audio ; format|duration=2.037542
+PASS  |  videocompress  |  stream|codec_name=h264|codec_type=video|width=320|height=240 ; stream|codec_name=aac|codec_type=audio ; format|duration=6.000000 186072
+PASS  |  pdf2excel  |  ["South",980,"",0.05]
+PASS  |  viewer-textlayer  |  text selectable
+PASS  |  viewer-password  |  opened with password, saved 1 page
+PASS  |  viewer  |  search ok, saved 2 pages
+PASS  |  excel2pdf  |  pages 1
+PASS  |  pdf2png-landing  |  png page 2
+PASS  |  split-scissors  |  sample-1-2.pdf sample-3-5.pdf
+PASS  |  split-everyx-single  |  one output → single PDF (no zip)
+PASS  |  jpg2pdf-rotate-legal  |  2 pages Legal, rotated+sorted
+PASS  |  rename+next  |  my-merged.pdf, 6 follow-on tools, thumbnails shown
+PASS  |  qr-live  |  download available without Create step

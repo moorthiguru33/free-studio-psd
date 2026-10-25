@@ -1,0 +1,140 @@
+0	Convertidor de imágenes
+1	Convierte entre JPG, PNG, WEBP, AVIF, GIF, TIFF e ICO.
+2	Convertidor de imágenes online gratis – JPG, PNG, WebP, HEIC
+3	Convierte imágenes entre JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC y SVG. Conversión por lotes en tu navegador, sin subidas.
+4	Convertidor de imágenes
+5	Selecciona imágenes en cualquier formato habitual (también HEIC y TIFF).
+6	Elige el formato de salida y la calidad.
+7	Haz clic en Empezar y descarga los archivos convertidos.
+8	¿Qué formatos son compatibles?
+9	Entrada: JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG y HEIC/HEIF. Salida: JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO y SVG (vectorización).
+10	Cada formato sirve para algo distinto: JPG para fotos, PNG para gráficos y transparencia, WEBP y AVIF para imágenes web ligeras, ICO para iconos. Un solo convertidor los maneja todos, por lotes y sin subir tus imágenes.
+11	Convertir fotos HEIC del iPhone a JPG.
+12	Pasar capturas PNG a WEBP compacto para una web.
+13	Crear iconos ICO a partir de PNG.
+14	Convertir escaneos antiguos en BMP o TIFF a JPG.
+15	Elige PNG cuando necesites transparencia.
+16	Para la web, WEBP es compatible con todos los navegadores modernos.
+17	Una calidad de 85–92 es visualmente idéntica en la mayoría de fotos.
+18	¿Qué formatos son compatibles?
+19	Entrada: JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG y HEIC/HEIF. Salida: JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO y SVG (vectorización).
+20	Convertidor de imágenes gratis – JPG, PNG, WebP, HEIC, SVG
+21	Convierte imágenes entre JPG, PNG, WebP, AVIF, GIF, BMP, ICO y SVG gratis. Por lotes, ancho máximo, transparencia, entrada HEIC. Sin subidas ni marcas.
+22	{tool}: {brand} frente a Canva, Adobe Express y iLoveIMG
+23	Convertidor de imágenes online gratis
+24	Convierte cualquier imagen al formato que necesites: JPG para fotos, PNG para gráficos, WebP o AVIF para webs rápidas, ICO para iconos o trazados vectoriales SVG para plotters de corte y logotipos. Suelta una carpeta entera (fotos HEIC de iPhone, vistas previas PSD, escaneos TIFF, BMP, GIF), elige la salida y descarga un ZIP. Sin subidas ni cuenta.
+25	Cómo usarlo
+26	Suelta tus imágenes (cualquier mezcla de formatos).
+27	Elige el formato de salida.
+28	Si quieres, fija un ancho máximo y, para PNG/WebP, haz transparente el fondo blanco.
+29	Para SVG, elige el número de colores del trazado y el nivel de detalle.
+30	Pulsa Convertir y descarga.
+31	¿Qué formato de salida debería elegir?
+32	Quieres…
+33	Elige
+34	Máxima compatibilidad para fotos
+35	JPG
+36	Texto nítido, logotipos, transparencia
+37	PNG
+38	Archivos más pequeños para una web
+39	WebP o AVIF
+40	Favicon o icono de Windows
+41	ICO
+42	Vector escalable para Cricut, láser o imprenta
+43	SVG (vectorizado)
+44	Animación sencilla
+45	GIF
+46	Convertir HEIC a JPG
+47	Los iPhone guardan las fotos en HEIC para ahorrar espacio, pero muchas webs y programas de Windows no pueden abrirlas. Suelta aquí los archivos HEIC y elige JPG, o usa la página específica [HEIC a JPG](/heic-to-jpg/). La conversión se hace en tu dispositivo, así que las fotos privadas nunca se suben.
+48	Vectorizar mapas de bits a SVG
+49	Elegir SVG convierte la imagen en formas vectoriales de colores. Usa 2 colores para logotipos en blanco y negro y archivos de corte para Cricut o Silhouette, 8–16 para ilustraciones planas y 32–64 para obras con mucho detalle. Las fotos no se vectorizan bien: el resultado tiene un aspecto posterizado. Consulta [PNG a SVG](/png-to-svg/) para ver consejos.
+50	Hacer un fondo transparente
+51	Marcar *Hacer transparente el fondo blanco* convierte los píxeles blancos puros en transparencia en la salida PNG y WebP; es útil para logotipos y firmas escaneados sobre papel blanco. Para fotos con fondos complejos, usa [Quitar fondo de imagen](/remove-background/).
+52	Formatos de foto de un vistazo
+53	Formato
+54	Compresión
+55	Transparencia
+56	Ideal para
+57	JPG
+58	Con pérdida
+59	No
+60	Fotos, correo, redes sociales
+61	PNG
+62	Sin pérdida
+63	Sí
+64	Capturas, logotipos, gráficos con texto
+65	WebP
+66	Con o sin pérdida
+67	Sí
+68	Webs: más pequeño que JPG y PNG
+69	AVIF
+70	Con o sin pérdida
+71	Sí
+72	Archivos más pequeños, navegadores recientes
+73	GIF
+74	Sin pérdida, 256 colores
+75	1 bit
+76	Animaciones sencillas
+77	La herramienta lee JPG, PNG, WebP, GIF, BMP, AVIF y, gracias a decodificadores integrados, fotos HEIC de iPhone, así que rara vez tendrás que convertir antes.
+78	Funciona en cualquier dispositivo
+79	Funciona en Chrome, Edge, Firefox y Safari en Windows, macOS, Linux, ChromeOS, Android y iPhone/iPad. En el móvil, toca la zona para soltar archivos y elige de tu galería; los resultados se guardan en Descargas o en la app Archivos. Los lotes se procesan uno tras otro y se descargan juntos en un ZIP, así que un álbum entero de vacaciones lleva solo unos toques.
+80	Calidad y tamaño de archivo
+81	Las ediciones se hacen a la resolución completa del original. Los resultados JPG y WebP se codifican con alta calidad (alrededor del 90 %), visualmente idéntica al original en la mayoría de fotos y con archivos compactos; elige PNG cuando necesites salida sin pérdida o transparencia. Para reducir aún más los archivos después, usa [Comprimir imagen](/compress-image/), y para cambiar las dimensiones, [Redimensionar imagen](/resize-image/).
+82	Problemas habituales y soluciones
+83	**El archivo no se abre**: comprueba que sea una imagen real y no un acceso directo o un marcador de la nube; descárgalo antes por completo de iCloud, Google Fotos u OneDrive.
+84	**El resultado se ve borroso**: parte del original, no de una miniatura enviada por WhatsApp o Messenger, que recomprimen mucho las fotos.
+85	**Los colores se ven algo distintos**: las fotos de gama amplia (Display P3) se muestran en sRGB, el estándar de la web; es normal y coherente entre dispositivos.
+86	**La descarga no aparece en el iPhone**: búscala en Archivos → Descargas, o mantén pulsada la vista previa y elige Guardar en Fotos.
+87	**Un lote grande va lento**: las fotos muy grandes usan mucha memoria; cierra otras pestañas o procesa 20–30 imágenes cada vez.
+88	Privacidad
+89	Todo ocurre dentro de la pestaña del navegador. Tus imágenes se leen de tu disco a la memoria, se procesan allí y se guardan directamente en tu dispositivo. No se sube, guarda ni registra nada, no hay cuenta y la herramienta sigue funcionando sin conexión una vez cargada la página, así que es segura para material privado, confidencial o aún no publicado.
+90	Dónde se procesa tu archivo
+91	En tu navegador, nunca se sube
+92	Sus servidores (subida)
+93	Sus servidores (subida)
+94	Sus servidores (subida)
+95	Cuenta necesaria
+96	Nunca
+97	Ver su sitio
+98	Ver su sitio
+99	Ver su sitio
+100	Lotes / varias imágenes
+101	Sí
+102	Ver su sitio
+103	Ver su sitio
+104	Ver su sitio
+105	Vectorización a SVG
+106	Sí
+107	Ver su sitio
+108	Ver su sitio
+109	Ver su sitio
+110	Entrada HEIC
+111	Sí
+112	Ver su sitio
+113	Ver su sitio
+114	Ver su sitio
+115	Funciona sin conexión
+116	Sí
+117	Ver su sitio
+118	Ver su sitio
+119	Ver su sitio
+120	¿Cómo convierto una imagen a JPG?
+121	Suéltala aquí, elige JPG y pulsa Convertir.
+122	¿Puedo convertir muchas imágenes a la vez?
+123	Sí, también de formatos mezclados; obtienes un ZIP.
+124	¿Convierte HEIC?
+125	Sí, las fotos HEIC/HEIF de iPhone son compatibles.
+126	¿Qué es más pequeño, WebP o JPG?
+127	WebP suele ser entre un 25 y un 35 % más pequeño con una calidad similar.
+128	¿Puedo convertir PNG a SVG?
+129	Sí, elige SVG para vectorizar la imagen en formas.
+130	¿Convertir a PNG mejora la calidad?
+131	No. PNG no pierde calidad a partir de ese momento, pero no puede recuperar el detalle perdido en un JPG.
+132	¿Puedo redimensionar mientras convierto?
+133	Sí, fija un ancho máximo.
+134	¿Conserva la transparencia?
+135	PNG, WebP, AVIF, GIF e ICO la conservan; JPG rellena las zonas transparentes de blanco.
+136	¿Se suben mis imágenes?
+137	No.
+138	¿Hay límite de tamaño?
+139	Solo la memoria de tu dispositivo; las imágenes de hasta unos 50 megapíxeles se convierten sin problema.

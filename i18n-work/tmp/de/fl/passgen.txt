@@ -1,0 +1,214 @@
+0	Generador de contraseñas
+1	Contraseñas aleatorias seguras, creadas en tu dispositivo.
+2	Generador de contraseñas – Contraseñas seguras gratis | {brand}
+3	Genera contraseñas aleatorias seguras con la longitud y los caracteres que elijas. Usa el generador aleatorio seguro de tu dispositivo; no se envía nada.
+4	Generador de contraseñas seguras
+5	Elige la longitud y los tipos de caracteres.
+6	Las contraseñas aparecen al instante: copia una.
+7	Si quieres, descarga la lista.
+8	¿Son seguras estas contraseñas?
+9	Se crean con el generador aleatorio criptográfico del navegador y nunca salen de tu dispositivo.
+10	¿Qué longitud debe tener una contraseña?
+11	Al menos 16 caracteres con todos los tipos de caracteres (~100 bits) es muy segura.
+12	Las contraseñas débiles y reutilizadas son la causa más común de cuentas hackeadas. Este generador usa el generador de números aleatorios criptográfico del navegador, así que las contraseñas son impredecibles y nunca salen de tu dispositivo.
+13	Crear una contraseña única para cada cuenta nueva.
+14	Generar una contraseña segura para un PDF o un ZIP cifrado.
+15	Crear contraseñas de wifi difíciles de adivinar.
+16	16 caracteres o más con tipos variados es un buen valor por defecto.
+17	Guarda las contraseñas en un gestor de contraseñas y no en un documento.
+18	No reutilices nunca una contraseña en distintas webs.
+19	¿Es seguro generar contraseñas online?
+20	Aquí sí: se crean con el generador aleatorio criptográfico del navegador y nunca salen de tu dispositivo.
+21	Qué hace segura una contraseña
+22	Lo que más importa es la longitud: cada carácter extra multiplica el número de contraseñas posibles. Una contraseña aleatoria de 16 caracteres con letras, números y símbolos le llevaría a un atacante más tiempo que la edad del universo adivinarla por fuerza bruta.
+23	Generador de contraseñas – Seguras y frases de contraseña
+24	Contraseñas aleatorias, frases de contraseña o PIN creados en local con crypto.getRandomValues. Medidor de seguridad, generación por lotes. Gratis.
+25	{tool}: {brand} frente a LastPass, Bitwarden y 1Password
+26	Contraseñas seguras, generadas en tu dispositivo
+27	El generador de contraseñas de {brand} crea contraseñas aleatorias, frases de contraseña fáciles de recordar y PIN numéricos con un clic. Cada carácter lo elige el generador de números aleatorios criptográficamente seguro de tu navegador (crypto.getRandomValues de la Web Crypto API), con muestreo por rechazo para que todos los caracteres tengan exactamente la misma probabilidad. No se envía nada a ningún servidor: las contraseñas solo existen en tu pantalla y en tu portapapeles, y la página sigue funcionando con la conexión a internet desactivada.
+28	Cada resultado muestra su entropía en bits, una valoración de seguridad en lenguaje sencillo y una estimación de cuánto tardaría un ataque de fuerza bruta. Puedes generar hasta 500 a la vez, copiarlas una a una o todas juntas, o descargarlas como archivo de texto. No hay cuenta, ni correo, ni intentos de venderte un gestor de contraseñas.
+29	Qué puedes generar
+30	**Contraseña aleatoria**: de 4 a 128 caracteres entre minúsculas, mayúsculas, dígitos y símbolos. Cada conjunto activado aparece al menos una vez, lo que cumple las normas de contraseñas de la mayoría de webs.
+31	**Frase de contraseña**: de 3 a 12 palabras aleatorias de la lista larga de la EFF (7776 palabras en inglés), con separador a elegir (guion, espacio, punto, guion bajo, ninguno o un dígito aleatorio entre palabras), mayúsculas opcionales y un número opcional. Fácil de escribir en el móvil y fácil de recordar.
+32	**PIN**: dígitos aleatorios para desbloquear el móvil, tarjetas, códigos de puertas y códigos de respaldo de la verificación en dos pasos.
+33	**Evitar caracteres parecidos**: quita I, l, 1, O, 0, o y | para que las contraseñas que leas en voz alta o copies de un papel no se confundan.
+34	**Excluir caracteres**: quita los símbolos que rechace una web, como comillas, corchetes o espacios.
+35	**Generación por lotes**: hasta 500 contraseñas a la vez para dar de alta cuentas o crear datos de prueba, descargables en TXT.
+36	**Comprobador de seguridad**: escribe una contraseña existente para ver una estimación aproximada de su seguridad; detecta las contraseñas más comunes, palabras del diccionario, años y secuencias del teclado. Nunca sale de la página.
+37	Cómo crear una contraseña segura
+38	Elige **Contraseña aleatoria** para las cuentas que guardes en un gestor de contraseñas, o **Frase de contraseña** para las pocas contraseñas que debes recordar (el inicio de sesión del ordenador, la contraseña maestra del gestor).
+39	Fija la longitud: 16 caracteres o 5–6 palabras es un buen valor por defecto.
+40	Deja activados todos los conjuntos de caracteres salvo que una web los restrinja; marca *Evitar caracteres parecidos* si la vas a escribir a mano.
+41	Haz clic en el botón **Copiar** de una contraseña y pégala en el formulario de registro; después guárdala en tu gestor de contraseñas o en el navegador.
+42	Haz clic en **Regenerar** para obtener una tanda nueva, o en **Descargar lista** para muchas a la vez.
+43	¿Cuánta seguridad es suficiente?
+44	La seguridad de una contraseña se mide en bits de **entropía**: el número de intentos que necesitaría un atacante, expresado como potencia de dos. Cada bit extra duplica el trabajo. La entropía de una contraseña aleatoria es su longitud × log₂(tamaño del conjunto de caracteres). Con los 94 caracteres imprimibles, cada carácter añade unos 6,55 bits; solo con dígitos, cada uno añade 3,32 bits. Cada palabra elegida al azar de la lista de la EFF de 7776 palabras añade 12,9 bits.
+45	La tabla de abajo supone un atacante que ha robado una base de datos de hashes de contraseñas y puede probar 10 000 millones de intentos por segundo, algo realista con un hash rápido y sin sal en tarjetas gráficas modernas. Los hashes lentos como bcrypt o Argon2 reducen esa velocidad en un factor de miles o millones, y los ataques online contra una página de inicio de sesión son aún más lentos. Los tiempos son medias (la mitad del espacio de búsqueda).
+46	Tipo
+47	Longitud de ejemplo
+48	Entropía
+49	Tiempo de fuerza bruta a 10 000 millones de intentos/s
+50	PIN, solo dígitos
+51	4 caracteres
+52	13 bits
+53	al instante
+54	PIN, solo dígitos
+55	6 caracteres
+56	20 bits
+57	al instante
+58	Solo minúsculas
+59	8 caracteres
+60	38 bits
+61	10 segundos
+62	Minúsculas + mayúsculas + dígitos
+63	8 caracteres
+64	48 bits
+65	3,0 horas
+66	Los 4 conjuntos
+67	8 caracteres
+68	52 bits
+69	3,5 días
+70	Los 4 conjuntos
+71	12 caracteres
+72	79 bits
+73	754 000 años
+74	Los 4 conjuntos
+75	16 caracteres
+76	105 bits
+77	>1 billón de años
+78	Los 4 conjuntos
+79	20 caracteres
+80	131 bits
+81	>1 billón de años
+82	Frase de contraseña, palabras EFF
+83	4 palabras
+84	52 bits
+85	2,1 días
+86	Frase de contraseña, palabras EFF
+87	5 palabras
+88	65 bits
+89	45 años
+90	Frase de contraseña, palabras EFF
+91	6 palabras
+92	78 bits
+93	350 000 años
+94	Frase de contraseña, palabras EFF
+95	7 palabras
+96	90 bits
+97	2700 millones de años
+98	Como regla general, **72 bits o más es seguro** para casi cualquier cuenta, y **100 bits o más es muy seguro**. Eso equivale a una contraseña de 12 caracteres con todos los conjuntos, una de 16 caracteres para más margen o una frase de contraseña de seis palabras.
+99	Contraseñas frente a frases de contraseña
+100	Una contraseña aleatoria de 16 caracteres como `Ut)9NwMw/zt?KMH2` es muy segura pero casi imposible de recordar, y no pasa nada, porque un gestor de contraseñas la recuerda por ti. Una frase de contraseña como `Quarry-Subsystem-Flashback-Atom-Patriot` tiene una seguridad parecida por pulsación en el teclado del móvil y se memoriza tras usarla unas cuantas veces. Las palabras debe elegirlas al azar el generador, no tú: la gente elige frases predecibles, letras de canciones y citas, que es lo primero que prueban los atacantes.
+101	
+102	Contraseña aleatoria
+103	Frase de contraseña
+104	Ideal para
+105	Cuentas guardadas en un gestor de contraseñas
+106	Contraseña maestra, inicio de sesión del dispositivo, wifi
+107	Longitud típica
+108	16 caracteres
+109	5–6 palabras
+110	Seguridad
+111	≈105 bits (16 caracteres, todos los conjuntos)
+112	≈65–78 bits (5–6 palabras)
+113	Fácil de escribir en el móvil
+114	No
+115	Sí
+116	Fácil de recordar
+117	No
+118	Sí
+119	Cumple las normas de «debe contener un símbolo»
+120	Sí
+121	Añade un número y elige un símbolo como separador
+122	Por qué tus contraseñas deben ser únicas
+123	El mayor peligro no es que un atacante adivine una contraseña segura, sino que una contraseña que reutilizaste se filtre en una web y luego se pruebe en todas las demás: una técnica llamada **relleno de credenciales** (credential stuffing). Circulan por internet miles de millones de pares de usuario y contraseña filtrados. Si la contraseña de tu tienda online es la misma que la de tu correo, una brecha en la tienda entrega tu correo y, con él, el restablecimiento de contraseña de todo lo demás. Genera una contraseña distinta para cada cuenta y deja que un gestor de contraseñas o tu navegador las guarden.
+124	Patrones que hacen débil una contraseña
+125	**Palabras del diccionario con pequeños cambios**: Verano2024!, P@ssw0rd, Madrid123. Las herramientas de descifrado prueban primero cada palabra con las sustituciones, mayúsculas y años más comunes.
+126	**Información personal**: nombres, cumpleaños, nombres de mascotas, números de teléfono, matrículas y equipos de fútbol son fáciles de encontrar en las redes sociales.
+127	**Patrones y secuencias del teclado**: qwerty, 1q2w3e4r, asdfgh, 123456, abcd.
+128	**Poca longitud**: una contraseña de 8 caracteres, incluso con símbolos, puede descifrarse por fuerza bruta en horas por un atacante decidido con un hash robado.
+129	**Reutilizar con un contador**: Contraseña1, Contraseña2, Contraseña3 cuando te obligan a cambiarla.
+130	**Cadenas «aleatorias» elegidas por personas**: la gente favorece ciertas letras y posiciones; la aleatoriedad real viene de un generador.
+131	Cómo funciona el generador
+132	Cuando haces clic en *Regenerar*, la página pide a la Web Crypto API del navegador números aleatorios de 32 bits. Para elegir un carácter de un conjunto de, por ejemplo, 70 caracteres, descarta cualquier número del pequeño rango sobrante por encima del mayor múltiplo de 70 y vuelve a sacar otro. Este **muestreo por rechazo** elimina el «sesgo del módulo» que tienen los generadores simples, en los que algunos caracteres salen un poco más a menudo. Primero se coloca un carácter de cada conjunto activado, el resto se rellena con el conjunto combinado y toda la cadena se baraja con el algoritmo de Fisher–Yates usando la misma fuente aleatoria sin sesgo.
+133	Las frases de contraseña eligen palabras del mismo modo de la lista larga de la EFF, diseñada por la Electronic Frontier Foundation para frases de contraseña con dados: 7776 palabras inglesas comunes, distintas y fáciles de deletrear, así que cada palabra aporta exactamente log₂(7776) ≈ 12,9 bits. La lista se carga desde este sitio solo cuando eliges el modo de frase de contraseña.
+134	Puedes comprobarlo tú mismo: abre las herramientas para desarrolladores del navegador, mira la pestaña de red y genera contraseñas: no se hace ninguna petición. O desconéctate de internet y sigue generando.
+135	Normas de contraseñas de las webs
+136	Muchas webs exigen al menos una mayúscula, un dígito y un símbolo, y algunas rechazan ciertos símbolos o limitan la longitud. Con los cuatro conjuntos activados, cada contraseña generada contiene al menos un carácter de cada conjunto. Si una web rechaza un símbolo, escríbelo en *Excluir caracteres*. Si una web limita la longitud, por ejemplo a 12 o 20 caracteres, ajusta la longitud en consecuencia, pero mantén al menos 12 caracteres para una buena seguridad. Las directrices actuales del Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST SP 800-63B) recomiendan que las webs permitan contraseñas y frases largas, comprueben las contraseñas nuevas contra listas de contraseñas filtradas y eviten imponer normas de composición arbitrarias y cambios periódicos, pero muchas webs todavía las tienen, así que el generador admite ambos estilos.
+137	Guardar contraseñas de forma segura
+138	Usa un **gestor de contraseñas**: Bitwarden, 1Password, KeePassXC, el integrado en tu navegador o el llavero de tu móvil. Así solo tienes que recordar una frase de contraseña segura.
+139	Activa la **verificación en dos pasos** (una app de autenticación o una llave de seguridad) en el correo, la banca, las redes sociales y tu gestor de contraseñas.
+140	No guardes contraseñas en archivos de texto, borradores de correo ni mensajes de chat. Si descargas una lista desde esta página, pasa las contraseñas a un gestor y borra el archivo.
+141	Si temes olvidar tu frase de contraseña maestra, escríbela en papel y guárdala en un lugar seguro de casa: el papel no se puede hackear a distancia.
+142	Cambia una contraseña de inmediato si una web te avisa de que ha sufrido una brecha, y en cualquier otro sitio donde usaras la misma.
+143	PIN y códigos
+144	Un PIN de 4 dígitos tiene solo 10 000 posibilidades y uno de 6 dígitos, un millón. Eso solo es aceptable porque los móviles y las tarjetas bancarias se bloquean o se borran tras unos pocos intentos fallidos. Evita 1234, 0000, años de nacimiento y dígitos repetidos, que en conjunto son una gran parte de los PIN reales. El modo PIN elige cada dígito de forma uniformemente aleatoria. Para cualquier cosa que pueda atacarse sin conexión (un archivo cifrado o una copia de seguridad), usa en su lugar una contraseña o frase de contraseña larga.
+145	Contraseñas por lotes para equipos y pruebas
+146	Los administradores que dan de alta cuentas para una clase, una oficina o un entorno de pruebas pueden generar hasta 500 contraseñas únicas a la vez y descargarlas como archivo de texto, una por línea, listas para pegarlas en una hoja de cálculo junto a los nombres de usuario. Pide a cada persona que cambie su contraseña inicial en el primer inicio de sesión. Como todo se genera en local, la lista nunca se guarda en ningún servidor.
+147	Privacidad
+148	Las contraseñas se generan en tu navegador y {brand} nunca las transmite, registra ni almacena. La página no usa cookies ni analítica sobre los valores que creas o compruebas. El comprobador de seguridad analiza el texto que escribes íntegramente dentro de la página y no lo envía a ningún sitio; no consulta bases de datos de filtraciones, porque eso requeriría enviar datos fuera de tu dispositivo.
+149	Herramientas relacionadas
+150	[Generador de hash](/hash-generator/)
+151	[Proteger PDF](/protect-pdf/)
+152	[Generador de códigos QR](/qr-code-generator/)
+153	[Generador de UUID](/uuid-generator/)
+154	[Codificador Base64](/base64-encode-decode/)
+155	Generadas en local con crypto.getRandomValues
+156	Sí (lo indican, se puede inspeccionar)
+157	Ver su sitio
+158	Ver su sitio
+159	Ver su sitio
+160	Modo frase de contraseña
+161	Sí (lista EFF de 7776 palabras)
+162	Ver su sitio
+163	Sí
+164	Sí («Usar palabras completas»)
+165	Modo PIN
+166	Sí
+167	Ver su sitio
+168	Ver su sitio
+169	Ver su sitio
+170	Entropía y estimación del tiempo de descifrado
+171	Sí
+172	Ver su sitio
+173	Ver su sitio
+174	Ver su sitio
+175	Evitar caracteres parecidos / lista de exclusión
+176	Sí / Sí
+177	Ver su sitio
+178	Ver su sitio
+179	Ver su sitio
+180	Generación por lotes + descarga TXT
+181	Hasta 500
+182	Ver su sitio
+183	Ver su sitio
+184	Ver su sitio
+185	Necesita cuenta o app
+186	No
+187	No (la página promociona el gestor)
+188	No
+189	No (la página promociona una prueba)
+190	¿Cómo funciona el generador de contraseñas aleatorias?
+191	Usa la Web Crypto API de tu navegador (crypto.getRandomValues) con muestreo por rechazo, para que cada carácter tenga la misma probabilidad, y después baraja el resultado. No se envía nada a ningún servidor.
+192	¿Qué longitud debe tener una contraseña?
+193	Al menos 12 caracteres con todos los conjuntos, 16 para más margen, o una frase de 5–6 palabras aleatorias.
+194	¿Es seguro usar un generador de contraseñas online?
+195	Es seguro cuando la generación se hace en tu navegador, como aquí. Puedes comprobar que no se hace ninguna petición de red o usar la página sin conexión.
+196	¿Qué es una frase de contraseña?
+197	Varias palabras aleatorias unidas, como Quarry-Subsystem-Flashback-Atom. Más fácil de recordar y escribir, y segura cuando las palabras se eligen al azar.
+198	¿Qué hace segura una contraseña?
+199	La longitud, la aleatoriedad y que sea única. Evita palabras, nombres, fechas y patrones, y no reutilices nunca una contraseña.
+200	¿Qué significa «bits de entropía»?
+201	Cuántos intentos hacen falta, expresado como potencia de dos. 72 bits es seguro; cada bit extra duplica el trabajo del atacante.
+202	¿Son exactas las estimaciones del tiempo de descifrado?
+203	No: suponen 10 000 millones de intentos por segundo contra un hash robado. Los ataques reales pueden ser más rápidos o mucho más lentos según el método de hash.
+204	¿El comprobador de seguridad envía mi contraseña a algún sitio?
+205	No. Funciona dentro de la página y no contacta con ningún servidor ni base de datos de filtraciones.
+206	¿Cuál es la forma más fácil de gestionar contraseñas seguras?
+207	Usa un gestor de contraseñas o el integrado en tu navegador, protegido con una frase de contraseña segura y verificación en dos pasos.
+208	¿Puedo generar muchas contraseñas a la vez?
+209	Sí: hasta 500, copiadas juntas o descargadas como archivo TXT.
+210	¿Puedo fiarme de un generador de contraseñas?
+211	Solo si crea las contraseñas en local con una fuente aleatoria criptográfica. Este usa crypto.getRandomValues en tu navegador; no se envía ni se guarda nada.
+212	¿Cuál es la mejor longitud para una contraseña?
+213	Al menos 16 caracteres aleatorios, o una frase de 5–6 palabras, para las cuentas importantes.

@@ -1,0 +1,14 @@
+PASS  |  compress-images  |  144753 bytes (input 332178)
+PASS  |  protect  |  encrypted
+PASS  |  unlock  |  decrypted, 5 pages
+PASS  |  unlock-wrongpw  |  correctly rejected: ℹ protected.pdf: mot de passe incorrect ou manquant 
+PASS  |  sign  |  signed, pages 5
+PASS  |  edit  |  edited
+PASS  |  pdf2word  |  135 paragraphs
+PASS  |  word2pdf  |  pages 4
+PASS  |  merge-ta  |  pages 6
+PASS  |  rotate-hi  |  pages 1
+PASS  |  organize-reorder  |  order 5234, rot 0,90,0,0
+PASS  |  delete-pages  |  kept 135
+PASS  |  rename+next  |  my-merged.pdf, 6 follow-on tools, thumbnails shown
+PASS  |  qr-live  |  download available without Create step

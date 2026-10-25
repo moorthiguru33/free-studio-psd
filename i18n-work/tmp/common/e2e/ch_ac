@@ -1,0 +1,12 @@
+extract-pages
+watermark
+crop
+flatten
+redact
+redact-box
+compare
+grayscale
+edit-remove
+edit-multiscript
+word2pdf-unicode
+img-compress

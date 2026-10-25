@@ -1,0 +1,131 @@
+0	Dividir PDF
+1	Extrae páginas o divide un PDF en varios archivos.
+2	Dividir PDF – Extraer páginas o separar por rangos gratis | {brand}
+3	Divide un PDF en páginas sueltas o en rangos como 1-3,5. Gratis, ilimitado y privado: el PDF se divide en tu navegador y nunca se sube.
+4	Dividir PDF
+5	Selecciona el PDF que quieres dividir.
+6	Escribe rangos de páginas como 1-3,5 o déjalo vacío para separar cada página.
+7	Haz clic en Empezar y descarga los PDF resultantes en un ZIP.
+8	¿Puedo extraer solo unas pocas páginas?
+9	Sí. Escribe un único rango, como 2-4, y obtendrás un PDF con solo esas páginas.
+10	Dividir te permite sacar solo las páginas que necesitas (un capítulo, una factura, una página firmada) en lugar de enviar el documento entero. Con {brand} la división se hace en local, así que los PDF grandes o confidenciales no salen de tu dispositivo.
+11	Enviar solo las páginas relevantes de un contrato o informe largo.
+12	Separar un lote escaneado de tiques en un archivo por página.
+13	Separar los capítulos de un libro electrónico o de unos apuntes.
+14	Usa rangos como 1-3,7,10-12 para crear varios archivos a la vez.
+15	Deja el campo vacío para guardar cada página en su propio PDF.
+16	¿Quieres un solo archivo con las páginas elegidas? Usa Extraer páginas.
+17	¿Las páginas separadas conservan los enlaces y la calidad?
+18	Sí. Las páginas se copian sin volver a renderizarse, así que el texto, las imágenes y la calidad no cambian.
+19	Dividir PDF – Extraer páginas o rangos gratis, sin subir
+20	Divide un PDF en páginas sueltas, rangos, cada X páginas o pares/impares, o corta con un clic. Gratis, privado y en tu navegador. Sin subidas ni registro.
+21	Todas las formas de dividir un PDF, en un solo sitio
+22	Dividir parece sencillo, pero cada persona busca algo distinto: sacar un capítulo, separar un montón de escaneos en facturas individuales, enviar solo la página firmada o partir un archivo enorme en trozos que quepan en un correo. {brand} cubre todos estos casos y lo hace en tu navegador, así que el documento nunca se sube.
+23	**Cada página**: un PDF por página, entregados en un ZIP.
+24	**Donde haga clic en las tijeras**: mira las miniaturas y haz clic entre páginas para cortar el documento justo donde quieras.
+25	**Seleccionar rangos de páginas**: escribe rangos como 1-3, 7, 10-12 para extraer solo esas páginas (un archivo por rango o todo junto en uno).
+26	**Cada X páginas**: divide un escaneo de 100 páginas en documentos de 2 o 5 páginas de una vez.
+27	**Páginas pares / impares**: separa el anverso y el reverso de un escaneo a doble cara.
+28	**Por tamaño de archivo**: usa [Dividir PDF por tamaño](/split-pdf-by-size/) para obtener partes por debajo de un límite de correo, como 10 MB.
+29	**Por marcadores o capítulos**: [Dividir PDF por marcadores](/split-pdf-by-bookmarks/) crea automáticamente un archivo por capítulo.
+30	**Por texto**: [Dividir PDF por texto](/split-pdf-by-text/) empieza un archivo nuevo cada vez que aparece una palabra como «Factura».
+31	**Páginas por la mitad**: [Dividir páginas por la mitad](/split-pdf-pages-in-half/) corta los escaneos de libro con dos páginas por hoja en páginas individuales.
+32	¿Qué modo debo usar?
+33	Objetivo
+34	Mejor modo
+35	Enviar una o dos páginas
+36	Seleccionar rangos de páginas
+37	Separar un montón de tiques escaneados
+38	Cada X páginas o cortar con clic
+39	Que el archivo quepa en un correo
+40	Dividir por tamaño
+41	Un archivo por capítulo
+42	Dividir por marcadores
+43	Escaneo a doble cara con anversos y reversos mezclados
+44	Páginas pares / impares
+45	Cada página en su propio archivo
+46	Cada página
+47	Sin pérdida y privado
+48	Al dividir, los objetos de página originales se copian en PDF nuevos: no se vuelve a renderizar ni a comprimir nada, por lo que el texto sigue siendo seleccionable, los gráficos vectoriales siguen nítidos y las imágenes conservan su calidad. Se mantienen los enlaces, los campos de formulario y las fuentes de las páginas copiadas.
+49	Como el trabajo se hace en local, no hay que esperar a que suba un escaneo de 200 MB, no hay límite de tareas por hora como las 3 tareas por hora de Sejda y no queda ninguna copia de tu extracto bancario o tu informe médico en el servidor de otro.
+50	Consejos
+51	Los números de página de los rangos se refieren a la posición física (1 = primera página), no a los números impresos en la página.
+52	¿Quieres eliminar páginas en lugar de extraerlas? Usa [Eliminar páginas de un PDF](/delete-pdf-pages/). Para reordenarlas, usa [Organizar PDF](/organize-pdf/).
+53	¿Ya tienes los trozos y quieres volver a juntar algunos? [Unir PDF](/merge-pdf/) los combina en cualquier orden.
+54	¿Archivo protegido con contraseña? Desbloquéalo primero con [Desbloquear PDF](/unlock-pdf/) si conoces la contraseña.
+55	Usos habituales
+56	Enviar solo las páginas relevantes de un contrato o informe.
+57	Separar un lote escaneado de facturas en un archivo por factura.
+58	Extraer un solo capítulo de un libro electrónico o de texto para estudiar.
+59	Partir un portafolio grande en piezas más pequeñas que acepten los portales de subida.
+60	Compartir solo la página de firma para que la contraparte firme.
+61	Dónde se procesa tu archivo
+62	En tu navegador, nunca se sube
+63	Sus servidores
+64	Sus servidores
+65	Nube de Adobe
+66	Sus servidores
+67	Funciona con el wifi apagado
+68	Sí, tras cargar la página
+69	No
+70	No
+71	No
+72	No
+73	Cuenta o correo necesarios
+74	Nunca
+75	No para el uso básico
+76	No para el uso básico
+77	Inicio de sesión para algunas acciones
+78	No para el uso básico
+79	Límites de uso gratuito
+80	Ninguno: solo los de tu dispositivo
+81	Plan gratuito; Premium para más
+82	Plan gratuito; Premium para más
+83	Plan gratuito; Premium para más
+84	3 tareas/hora, 50 MB por archivo
+85	Dividir por rangos / páginas fijas
+86	Sí
+87	Sí
+88	Sí
+89	Sí
+90	Sí
+91	Cortar con clic sobre miniaturas
+92	Sí
+93	Ver su sitio
+94	Ver su sitio
+95	Ver su sitio
+96	Ver su sitio
+97	Páginas pares / impares
+98	Sí
+99	No se ofrece en la página
+100	Ver su sitio
+101	Ver su sitio
+102	Ver su sitio
+103	Dividir por tamaño, marcadores o texto
+104	Sí (gratis, herramientas aparte)
+105	Tamaño: sí
+106	Ver su sitio
+107	Ver su sitio
+108	Sí
+109	¿Cómo extraigo solo unas páginas de un PDF?
+110	Elige «Seleccionar rangos de páginas», escribe las páginas, por ejemplo 2-4, 9, y haz clic en Dividir. Puedes obtener cada rango en su propio archivo o todos juntos.
+111	¿Dividir reduce la calidad?
+112	No. Las páginas se copian tal cual, sin recomprimir, así que el texto y las imágenes se ven idénticos al original.
+113	¿Se sube mi PDF?
+114	No. La división se hace en tu navegador y el archivo nunca sale de tu dispositivo.
+115	¿Puedo dividir un PDF en partes iguales?
+116	Sí. Usa «Cada X páginas» e indica cuántas páginas debe tener cada parte.
+117	¿Cómo divido un PDF para que quepa en el límite de un correo?
+118	Usa Dividir PDF por tamaño y fija un máximo, como 10 MB; cada parte quedará por debajo.
+119	¿Puedo dividir por capítulos?
+120	Sí. Dividir PDF por marcadores crea automáticamente un archivo por marcador (capítulo).
+121	¿Hay límite de páginas o archivos?
+122	No. No hay límites por hora; los archivos muy grandes solo dependen de la memoria de tu dispositivo.
+123	¿Seguirán funcionando los enlaces y los campos de formulario?
+124	Sí, se conservan los enlaces y los campos de formulario de las páginas copiadas.
+125	¿Puedo dividir un PDF protegido con contraseña?
+126	Si conoces la contraseña, desbloquéalo primero con Desbloquear PDF y después divídelo.
+127	¿Cómo separo un PDF en varios archivos?
+128	Suelta el PDF y elige cómo dividirlo: cada página en su propio archivo, rangos personalizados como 1-3,4-9, cada X páginas o páginas pares/impares. También puedes hacer clic entre las miniaturas para cortar. Las partes se descargan en un ZIP.
+129	¿Puedo dividir un PDF por la mitad?
+130	Sí. Usa un rango como 1-10,11-20 para un archivo de 20 páginas, o «cada X páginas» con la mitad del total. Para cortar cada hoja física por el centro (dos páginas escaneadas por hoja), usa la herramienta Dividir páginas de PDF por la mitad.

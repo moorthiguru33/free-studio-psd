@@ -1,0 +1,166 @@
+0	WEBP a JPG
+1	Convierte imágenes WEBP a JPG en segundos.
+2	Convertir WEBP a JPG – Gratis, online y privado | {brand}
+3	Convierte WEBP a JPG online gratis. Convierte muchas imágenes a la vez, directamente en tu navegador: sin subidas, sin registro y sin marca de agua.
+4	Convertir WEBP a JPG
+5	Selecciona o suelta tus imágenes WEBP (admite lotes).
+6	Elige la calidad y las opciones: JPG ya viene seleccionado.
+7	Haz clic en Empezar y descarga tus archivos JPG (en ZIP si son varios).
+8	¿Convertir WEBP a JPG reduce la calidad?
+9	Los formatos sin pérdida como PNG conservan cada píxel. En JPG, WEBP y AVIF tú controlas el ajuste de calidad; 85–92 es visualmente idéntico en la mayoría de fotos.
+10	¿Puedo convertir muchos archivos WEBP a la vez?
+11	Sí. Selecciona todos los archivos que quieras; se convierten en tu navegador y se descargan juntos en un ZIP.
+12	WEBP es un formato web moderno, pero algunas apps, editores, impresoras y formularios antiguos todavía no lo aceptan. Si guardaste una imagen de una web y no se abre, convertir WEBP a JPG la hace compatible en todas partes.
+13	Abrir imágenes guardadas de webs en programas antiguos.
+14	Subir imágenes a formularios que solo aceptan JPG.
+15	Imprimir fotos en tiendas que no admiten WEBP.
+16	Las imágenes WEBP transparentes reciben un fondo blanco en JPG; elige PNG para conservar la transparencia.
+17	Convierte muchos archivos a la vez y descarga un ZIP.
+18	¿Por qué no puedo abrir archivos WEBP?
+19	Algunos programas y servicios antiguos no admiten WEBP. Convertir a JPG lo soluciona.
+20	Convertir WebP a JPG – Lotes, calidad, gratis y privado
+21	Convierte imágenes WebP a JPG (o PNG) con control de calidad, color de fondo, redimensión y ZIP por lotes. Del WebP animado se guarda el 1.er fotograma.
+22	{tool}: {brand} frente a CloudConvert, FreeConvert y ezgif
+23	Abre imágenes WebP en cualquier app
+24	Haces clic derecho en una imagen de una web, eliges «Guardar imagen como» y obtienes un archivo .webp que tu visor de fotos, Word, una versión antigua de Photoshop o un formulario de subida se niegan a aceptar. WebP es el formato de imagen web moderno de Google (más pequeño que JPG y PNG, y usado por la mayoría de webs grandes), pero muchos programas de escritorio y formularios online siguen esperando JPG. {brand} convierte WebP a JPG (o PNG) en un segundo, directamente en tu navegador.
+25	Convierte una imagen o una carpeta entera. Elige la calidad del JPG, el color que irá detrás de las zonas transparentes y, si quieres, un ancho máximo; después descarga los archivos por separado o en un ZIP. No se sube nada.
+26	Funciones
+27	**Salida JPG o PNG**: elige PNG para conservar la transparencia y JPG para la máxima compatibilidad.
+28	**Control de calidad**: 90 por defecto.
+29	**Color de fondo** para imágenes WebP transparentes convertidas a JPG.
+30	**Redimensiona al convertir** con un ancho máximo.
+31	**WebP animado**: el primer fotograma se guarda como imagen fija.
+32	**Por lotes**: convierte muchos archivos en un ZIP.
+33	**Funciona en local**: sin subidas, sin tope de tamaño y sin cuenta.
+34	Cómo convertir WebP a JPG
+35	Suelta tus archivos .webp en la página.
+36	Deja JPG como salida (o elige PNG).
+37	Ajusta la calidad y el color de fondo si hace falta.
+38	Haz clic en Convertir y descarga los JPG o el ZIP.
+39	¿Qué es WebP?
+40	WebP es un formato de imagen desarrollado por Google y lanzado en 2010. Admite compresión con pérdida (como JPG) y sin pérdida (como PNG), además de transparencia y animación (como GIF), todo en un único formato. Con la misma calidad visual, los WebP con pérdida suelen ser un 25–35 % más pequeños que JPG, y los WebP sin pérdida alrededor de un 25 % más pequeños que PNG. Por eso las webs, las tiendas online y las redes de distribución de contenido sirven imágenes WebP siempre que el navegador lo admite, y todos los navegadores principales lo admiten desde 2020.
+41	El inconveniente es el software fuera del navegador. Las versiones antiguas del Visualizador de fotos de Windows, Microsoft Office, Photoshop anterior a la versión 23.2, muchos servicios de impresión y bastantes formularios de subida no aceptan WebP. Convertir a JPG es la solución universal.
+42	¿Mantener WebP o convertir?
+43	Si un archivo solo se va a ver en un navegador o volver a publicar en la web, no hace falta convertirlo: WebP es más pequeño y lo aceptan todos los navegadores modernos y la mayoría de redes sociales. Convierte a JPG cuando el destino sea un programa o servicio que no admita WebP: versiones antiguas de Office y editores de fotos, imprentas, algunos clientes de correo, formularios de la administración y de exámenes, y muchas herramientas de carga masiva de marketplaces. Si dudas, JPG es el formato que funciona absolutamente en todas partes, a cambio de un archivo algo más grande. Conserva también el WebP original si puedes volver a necesitar la transparencia o el menor tamaño; convertir el JPG de nuevo a WebP no recuperará el detalle perdido.
+44	WebP frente a JPG frente a PNG
+45	
+46	WebP
+47	JPG
+48	PNG
+49	Compresión con pérdida
+50	Sí
+51	Sí
+52	No
+53	Compresión sin pérdida
+54	Sí
+55	No
+56	Sí
+57	Transparencia
+58	Sí
+59	No
+60	Sí
+61	Animación
+62	Sí
+63	No
+64	No (APNG aparte)
+65	Tamaño en fotos
+66	El más pequeño
+67	Pequeño
+68	Grande
+69	Compatibilidad
+70	Todos los navegadores; algunas apps
+71	Todo
+72	Todo
+73	Convertir WebP en el móvil
+74	En Android, las imágenes guardadas desde Chrome suelen ser WebP y algunas apps de galería o mensajería no pueden compartirlas bien. Abre esta página en Chrome, toca la zona para soltar archivos, elige las imágenes de Descargas y conviértelas; los JPG se guardan de nuevo en Descargas. En iPhone y iPad, Safari guarda las imágenes de las webs en Fotos o Archivos, a veces como WebP. El convertidor funciona igual en Safari: elige los archivos, conviértelos y guarda los JPG en Archivos o compártelos a Fotos. No se sube nada, así que también funciona con datos móviles lentos o limitados.
+75	Por qué las imágenes se guardan como WebP
+76	Cuando guardas una imagen de una web, obtienes el formato que envió el sitio. La mayoría de webs grandes detectan que tu navegador admite WebP y lo envían para ahorrar ancho de banda, aunque la imagen original subida fuera un JPG. Algunos navegadores te dejan elegir: en Chrome a veces puedes abrir la imagen en una pestaña nueva y cambiar la extensión en la URL, pero eso solo funciona en sitios que sirven formatos distintos según la URL. Convertir el archivo guardado es más sencillo y siempre funciona.
+77	Calidad del JPG convertido
+78	Un WebP con pérdida ya descartó algo de detalle al crearse; convertirlo a JPG no puede recuperarlo y añade un poco de compresión JPG propia. Con calidad 90, este segundo paso es prácticamente invisible. Si el WebP era sin pérdida, elige salida PNG para una copia perfecta, o JPG con calidad 95 para un archivo mucho más pequeño que se ve idéntico en pantalla.
+79	Para comprobarlo rápido, abre el original y el convertido uno al lado del otro al 100 % de zoom: con los ajustes normales no deberías poder distinguirlos.
+80	Archivos WebP animados
+81	WebP puede guardar animaciones, como un GIF pero mucho más pequeñas. JPG y PNG son formatos de imagen fija, así que este convertidor guarda el primer fotograma de un WebP animado. Para conservar la animación, conviértelo a GIF o MP4 con una herramienta de vídeo: [GIF a MP4](/gif-to-mp4/) y [Vídeo a GIF](/video-to-gif/) cubren los casos habituales.
+82	Transparencia
+83	Muchas imágenes WebP (logotipos, stickers, recortes de producto) tienen fondo transparente. JPG no puede guardar transparencia, así que las zonas transparentes se rellenan con el color de fondo que elijas (blanco por defecto). Si necesitas conservar la transparencia, elige salida PNG.
+84	Abrir archivos WebP sin convertirlos
+85	En Windows 10 y 11, la app Fotos abre archivos WebP, y en macOS, Vista Previa los admite desde macOS Big Sur. Chrome, Edge, Firefox y Safari los muestran directamente: arrastra el archivo a una pestaña del navegador. Photoshop admite WebP desde la versión 23.2 (2022) y GIMP desde la 2.10. Si una app o una web siguen rechazándolo, conviértelo a JPG aquí.
+86	Convertir en sentido contrario
+87	Si tienes una web, probablemente quieras lo contrario: convertir imágenes JPG y PNG a WebP para que las páginas carguen más rápido. Usa [JPG a WebP](/jpg-to-webp/) o [PNG a WebP](/png-to-webp/), o [Comprimir imagen](/compress-image/) con salida WebP y un ancho máximo para redimensionar y convertir en un solo paso.
+88	Usar imágenes WebP en documentos y presentaciones
+89	Microsoft Word y PowerPoint de Microsoft 365 pueden insertar imágenes WebP, pero las versiones antiguas de Office, muchas vías de importación de Google Docs y algunas herramientas de PDF no. Si una imagen aparece como un recuadro vacío o con el aviso «no se puede mostrar la imagen», conviértela a JPG (o a PNG si es un gráfico con transparencia) y vuelve a insertarla. En presentaciones, un ancho máximo de 1920 píxeles mantiene el archivo ligero y se sigue viendo nítido en un proyector.
+90	WebP a JPG para imprimir
+91	Los servicios de impresión y los laboratorios fotográficos suelen exigir JPG. Como las imágenes WebP de las webs suelen estar redimensionadas y comprimidas para cargar rápido, revisa el tamaño en píxeles antes de imprimir: una imagen de solo 800 píxeles de ancho se imprime nítida a unos 7 cm de ancho a 300 DPI. Convierte con calidad 95 y, si la necesitas más grande, prueba [Ampliar imagen](/upscale-image/) para una ampliación más limpia que el escalado de la propia impresora.
+92	¿Es legal guardar y convertir imágenes de webs?
+93	Cambiar el formato de un archivo no cambia quién es su propietario. Las imágenes de las webs suelen estar protegidas por derechos de autor, y guardar una como referencia personal es muy distinto de volver a publicarla. Antes de usar una imagen descargada en un blog, un anuncio de producto o material de marketing, revisa la licencia o pregunta al propietario. Los bancos de imágenes gratuitos como Unsplash o Pexels indican claramente sus licencias. Con tus propias imágenes, por supuesto, convierte con total libertad.
+94	WebP sin pérdida
+95	Algunos archivos WebP (sobre todo gráficos, capturas y logotipos) usan compresión WebP sin pérdida. Convertirlos a JPG introduce por primera vez compresión con pérdida, lo que puede suavizar el texto y los bordes nítidos. Para esas imágenes elige salida PNG: la conversión es entonces totalmente sin pérdida y se conserva cada píxel exactamente.
+96	Velocidad y límites
+97	La velocidad de conversión depende de tu dispositivo, no de la cola de un servidor: un portátil normal convierte decenas de imágenes WebP por segundo en tamaños web habituales, y los lotes grandes se procesan imagen a imagen para que la página siga respondiendo. No hay un límite fijo de tamaño; las imágenes de hasta unos 100 megapíxeles funcionan en la mayoría de ordenadores.
+98	Privacidad
+99	Cada paso ocurre dentro de la pestaña del navegador. La imagen se decodifica, se edita y se vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, los documentos de identidad, las capturas con datos personales y las fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el wifi una vez cargada la página y la herramienta sigue funcionando.
+100	Herramientas relacionadas
+101	[WebP a PNG](/webp-to-png/): conserva la transparencia.
+102	[JPG a WebP](/jpg-to-webp/): haz las imágenes más pequeñas para la web.
+103	[PNG a JPG](/png-to-jpg/): convierte capturas y gráficos.
+104	[Convertidor de imágenes](/image-converter/): todos los formatos.
+105	[Comprimir imagen](/compress-image/): objetivos exactos en KB.
+106	Dónde se procesa tu imagen
+107	En tu navegador, nunca se sube
+108	Sus servidores (subida)
+109	Sus servidores (subida)
+110	Sus servidores (subida)
+111	Cuenta o correo necesarios
+112	Nunca
+113	No para el uso básico
+114	No para el uso básico
+115	No para el uso básico
+116	Límites de uso gratuito
+117	Ninguno: solo los de tu dispositivo
+118	Ver su sitio
+119	Ver su sitio
+120	Ver su sitio
+121	Procesamiento
+122	Solo en tu dispositivo
+123	Subida
+124	Subida
+125	Subida u opción de «procesamiento local»
+126	Tamaño máximo de archivo
+127	Ninguno (memoria del dispositivo)
+128	Ver su sitio
+129	Ver su sitio
+130	200 MB
+131	Conservación de archivos
+132	Nunca se suben
+133	Ver su sitio
+134	Ver su sitio
+135	Se borran 1 hora después de subirlos
+136	Color de fondo para la transparencia
+137	Sí
+138	Ver su sitio
+139	Sí
+140	Sí
+141	Por lotes
+142	Sí, en ZIP
+143	Ver su sitio
+144	Ver su sitio
+145	Sí, en ZIP
+146	¿Cómo convierto WebP a JPG?
+147	Suelta tus archivos WebP, deja JPG como formato y haz clic en Convertir.
+148	¿Por qué las imágenes de las webs se guardan como WebP?
+149	Las webs envían WebP a los navegadores que lo admiten porque los archivos son más pequeños. Convierte a JPG para apps que no admiten WebP.
+150	¿Convertir WebP a JPG pierde calidad?
+151	Con calidad 90 la diferencia no se ve. Los JPG suelen pesar algo más que el WebP.
+152	¿Qué pasa con las imágenes WebP transparentes?
+153	Las zonas transparentes se rellenan con el color de fondo que elijas. Elige salida PNG para conservar la transparencia.
+154	¿Puede convertir WebP animados?
+155	Guarda el primer fotograma como JPG o PNG fijo.
+156	¿Puedo convertir muchos archivos WebP a la vez?
+157	Sí, y descargarlos en un solo ZIP.
+158	¿Se suben mis imágenes?
+159	No. La conversión se ejecuta en tu navegador.
+160	¿Es WebP mejor que JPG?
+161	Para webs, sí: es más pequeño con la misma calidad. Para compartir con software antiguo, JPG es más compatible.
+162	¿Puedo abrir WebP en Photoshop?
+163	Photoshop 23.2 y posteriores abren WebP. En versiones anteriores, convierte antes a JPG o PNG.
+164	¿Cómo convierto WebP a JPG de forma masiva?
+165	Suelta todos los archivos WebP a la vez, ajusta la calidad y descarga un ZIP con los JPG.

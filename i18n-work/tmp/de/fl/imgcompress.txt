@@ -1,0 +1,203 @@
+0	Comprimir imagen
+1	Reduce el tamaño de archivos JPG, PNG y WEBP.
+2	Comprimir imagen online gratis – Reducir JPG, PNG, WEBP | {brand}
+3	Reduce hasta un 90 % el peso de tus imágenes sin perder nitidez. Comprime JPG, PNG, WEBP y AVIF por lotes en el navegador, sin subidas ni límites.
+4	Comprimir imágenes
+5	Selecciona una o varias imágenes.
+6	Elige un nivel de calidad, el formato de salida y, si quieres, un ancho máximo.
+7	Haz clic en Empezar y descarga los archivos más ligeros.
+8	¿Cuánto más pequeñas quedarán mis imágenes?
+9	Las fotos normales se reducen entre un 50 y un 90 %. Convertir a WEBP o AVIF suele dar el mayor ahorro. Si una imagen ya está optimizada, se conserva la original para que nunca pese más.
+10	¿Cómo se comprimen los PNG?
+11	Los PNG se cuantizan en color (como hace TinyPNG), lo que a menudo reduce su tamaño a la mitad manteniendo la transparencia.
+12	Las imágenes pesadas ralentizan las webs, llenan la memoria del móvil y son rechazadas por formularios con límite de tamaño. {brand} comprime las fotos en tu propio dispositivo, así que puedes reducir cientos de imágenes, incluidas fotos privadas, sin subirlas.
+13	Acelerar una web o tienda online reduciendo las fotos de producto.
+14	Ajustar fotos al límite de subida de solicitudes de empleo, estudios o visados.
+15	Enviar muchas fotos de vacaciones por correo o chat.
+16	Liberar espacio en el móvil o en la nube.
+17	Con calidad 75–85, las fotos suelen ser indistinguibles del original.
+18	Convertir a WEBP o AVIF suele dar los archivos más pequeños.
+19	Redimensiona primero las fotos muy grandes (por ejemplo, de 4000 px de ancho): menos píxeles significa archivos mucho más pequeños.
+20	¿Cuánto puedo reducir el tamaño?
+21	Las fotos normales se reducen entre un 50 y un 90 %. Si una imagen ya está optimizada, se conserva la original para que nunca pese más.
+22	Comprimir imagen a 20/50/100 KB – JPG, PNG, WebP gratis
+23	Comprime imágenes JPG, PNG, WebP y AVIF a un tamaño exacto en KB o a la calidad que elijas. Por lotes, con redimensión, sin EXIF y a WebP. Gratis.
+24	{tool}: {brand} frente a TinyPNG, iLoveIMG y FreeConvert
+25	Haz las imágenes más ligeras sin que se vean peor
+26	Las imágenes grandes son la causa más habitual de que una web cargue lento, un correo rebote o un formulario online rechace tu archivo. Una foto recién sacada de un móvil moderno suele pesar 3–8 MB y medir 4000 píxeles de ancho, mientras que la mayoría de webs, formularios y apps de chat solo necesitan una fracción. El compresor de imágenes de {brand} reduce archivos JPG, PNG, WebP y AVIF, normalmente entre un 50 y un 90 %, manteniéndolos visualmente idénticos al tamaño de visualización normal.
+27	Tú decides el equilibrio. Elige un nivel de calidad y deja que el compresor haga el resto, o indícale el tamaño exacto que necesitas (20 KB, 50 KB, 100 KB, 200 KB, 500 KB, 1 MB o cualquier cifra personalizada) y buscará la máxima calidad que quepa por debajo de ese límite. Suelta una imagen o cien; los lotes se descargan en un único ZIP con una tabla de antes y después para que veas exactamente cuánto ha ahorrado cada archivo.
+28	A diferencia de la mayoría de compresores online, no se sube nada. El trabajo se hace dentro de tu navegador, así que va tan rápido como tu dispositivo, no tiene límite diario y es seguro para escaneos de pasaporte, fotos médicas, contratos fotografiados con el móvil y cualquier cosa que prefieras no entregar al servidor de un desconocido.
+29	Lo que puedes hacer aquí y la mayoría de compresores no ofrecen
+30	**Comprimir a un tamaño exacto.** Los portales de la administración, las webs de empleo, los formularios de inscripción a exámenes y las solicitudes de visado suelen pedir «foto de menos de 50 KB» o «firma de menos de 20 KB». Elige el objetivo y la herramienta encuentra la mejor calidad que cabe; si la calidad por sí sola no basta, reduce suavemente las dimensiones en píxeles hasta conseguirlo.
+31	**Control deslizante de calidad para un control total.** 80–90 es visualmente sin pérdida para fotos, 60–75 es el punto ideal para webs y 40–55 sirve para miniaturas y vistas previas.
+32	**Convierte mientras comprimes.** Guarda en WebP o AVIF para obtener archivos entre un 25 y un 50 % más pequeños que JPG con la misma calidad, o mantén el formato original.
+33	**Redimensiona en el mismo paso.** Fija un ancho máximo (por ejemplo, 1920 px para la imagen principal de una web o 1080 px para redes sociales) y la imagen se reduce antes de comprimirla: el mayor ahorro de todos en fotos de móvil.
+34	**Elimina los metadatos.** Los datos EXIF, como la ubicación GPS, el número de serie de la cámara o el historial de edición, se eliminan por defecto. Eso protege tu privacidad y ahorra algunos kilobytes más.
+35	**Lotes con informe.** Comprime muchas imágenes a la vez y obtén una tabla con el tamaño original, el nuevo y el porcentaje ahorrado de cada archivo, además de una sola descarga en ZIP.
+36	**Nunca más grande que el original.** Si una imagen ya está optimizada y no se puede reducir en el mismo formato, recibes la original en lugar de un archivo más grande.
+37	**Funciona sin conexión y sin topes.** Sin límite de 5 MB por archivo, sin límite de 20 imágenes, sin cuenta y sin marca de agua.
+38	Cómo comprimir una imagen
+39	Suelta tus archivos JPG, PNG, WebP, AVIF, HEIC, GIF o BMP en la página, o pulsa Ctrl+V para pegar una captura desde el portapapeles.
+40	Elige un nivel de calidad o un tamaño objetivo, como 50 KB o 100 KB.
+41	Si quieres, elige un formato de salida (mantener el original, JPG, WebP, PNG o AVIF) y un ancho máximo.
+42	Haz clic en Comprimir. Una sola imagen se descarga directamente; varias se descargan en un ZIP con un informe de tamaños.
+43	Cómo funciona la compresión de imágenes
+44	Las fotos digitales contienen mucha más información de la que el ojo humano puede percibir al tamaño de visualización normal. La compresión lo aprovecha de dos formas.
+45	**La compresión con pérdida** (JPG, WebP, AVIF) descarta detalles finos que difícilmente notarás: variaciones sutiles de color en zonas lisas como el cielo o la piel, y texturas de alta frecuencia que se pierden de todos modos al ver la imagen en la pantalla de un móvil. JPG divide la imagen en bloques de 8×8 píxeles, convierte cada bloque en frecuencias y redondea las menos importantes; el ajuste de calidad controla lo agresivo que es ese redondeo. WebP y AVIF usan técnicas de predicción más modernas tomadas de los códecs de vídeo, por lo que alcanzan la misma calidad visual con muchos menos bytes.
+46	**La compresión sin pérdida** (PNG) conserva cada píxel exactamente. El archivo solo se reduce describiendo los mismos píxeles de forma más eficiente. Para reducir drásticamente los PNG, {brand} usa cuantización de color: reduce la imagen a una paleta optimizada de hasta 256 colores, elegidos para representar el original lo más fielmente posible, y luego la guarda sin pérdida. En logotipos, iconos, gráficos, capturas de pantalla e ilustraciones esto suele reducir el tamaño entre un 60 y un 80 % sin cambios visibles, y se conserva la transparencia.
+47	Redimensionar es lo que más efecto tiene. Reducir a la mitad el ancho y el alto de una imagen elimina tres cuartas partes de sus píxeles, así que una foto de móvil de 4000 píxeles reducida a 1600 ya es alrededor de un 85 % más pequeña antes de aplicar ninguna compresión.
+48	¿Qué formato deberías elegir?
+49	Formato
+50	Ideal para
+51	Transparencia
+52	Tamaño típico frente a JPG
+53	JPG
+54	Fotos para cualquier dispositivo o app
+55	No
+56	Referencia
+57	WebP
+58	Webs, blogs, tiendas online
+59	Sí
+60	Entre un 25 y un 35 % menor
+61	AVIF
+62	Webs modernas que buscan los archivos más pequeños
+63	Sí
+64	Entre un 40 y un 50 % menor
+65	PNG
+66	Logotipos, capturas, texto, dibujos lineales
+67	Sí
+68	Mayor en fotos, menor en gráficos planos
+69	Si no lo tienes claro, mantén el formato original: se abrirá en todos los sitios donde se abría el original. Si la imagen es para tu propia web, WebP es compatible con todos los navegadores actuales y suele ser el mejor equilibrio entre tamaño y compatibilidad. AVIF da los archivos más pequeños, pero la codificación es más lenta y algunas apps antiguas todavía no lo abren.
+70	Guardar fotos como PNG es un error frecuente: una foto de cámara guardada en PNG puede pesar de cinco a diez veces más que la misma foto en JPG de alta calidad. Convertir esos archivos a JPG o WebP al comprimirlos suele ser el mayor ahorro posible.
+71	Ajustes recomendados para usos habituales
+72	Uso
+73	Ajuste
+74	Imagen principal / banner de una web
+75	Ancho máximo 1920 px, WebP, calidad 70
+76	Imagen de blog o de producto
+77	Ancho máximo 1200 px, WebP o JPG, calidad 70–75
+78	Adjunto de correo
+79	Ancho máximo 1600 px, JPG, calidad 75
+80	Foto para formulario online (menos de 50 KB)
+81	Objetivo 50 KB, JPG
+82	Firma escaneada (menos de 20 KB)
+83	Objetivo 20 KB, JPG
+84	Publicación en redes sociales
+85	Ancho máximo 1080 px, JPG, calidad 85
+86	WhatsApp / chat, resultado más nítido
+87	Ancho máximo 1600 px, JPG, calidad 80
+88	Logotipo o captura de pantalla
+89	Mantener PNG, calidad 80 (paleta)
+90	Archivo de fotos de vacaciones
+91	Mantener JPG, calidad 85, sin redimensionar
+92	Son puntos de partida. Mira el resultado al tamaño al que se va a mostrar realmente (una página web o la pantalla de un móvil) y no ampliado al 400 %, donde cualquier imagen comprimida muestra algunos artefactos.
+93	Comprimir imágenes a un tamaño concreto en KB
+94	Muchos formularios oficiales fijan un tamaño máximo para fotos y firmas. Los portales de exámenes y oposiciones, los sistemas de pasaportes y visados, las solicitudes universitarias y los formularios de verificación bancaria suelen pedir algo como «foto de 20–50 KB, firma de 10–20 KB, solo JPG». Alcanzar esas cifras a base de prueba y error en un editor de fotos es tedioso.
+95	Elige el objetivo en la lista (o «Personalizado» y escribe la cifra) y el compresor hace una búsqueda binaria sobre el ajuste de calidad: codifica la imagen, comprueba el tamaño y va acotando hasta encontrar la máxima calidad que sigue por debajo de tu límite. Si ni siquiera con calidad baja cabe (una foto grande de 12 megapíxeles no entra en 20 KB a tamaño completo), reduce las dimensiones en píxeles paso a paso hasta que quepa. En este modo, las imágenes PNG se guardan como WebP o JPG, porque un PNG sin pérdida no se puede ajustar a un tamaño fijo.
+96	Si el formulario también exige unas dimensiones exactas en píxeles (por ejemplo, 200×230 px), usa primero [Redimensionar imagen](/resize-image/) con el preajuste o el tamaño adecuado y luego comprime el resultado al objetivo en KB, o usa la casilla «Tamaño máximo de archivo» de la herramienta de redimensionar para hacer ambas cosas a la vez.
+97	¿Por qué comprimir las imágenes de tu web?
+98	Las imágenes suelen ser la mayor parte del peso de una página. Imágenes más pequeñas significan una carga más rápida, lo que mejora la experiencia de usuario, las conversiones y la visibilidad en buscadores: Google usa señales de experiencia de página como el Largest Contentful Paint, y el elemento más grande de la mayoría de páginas es una imagen. Las páginas más ligeras también cuestan menos de servir y son más amables con quienes navegan con datos móviles lentos.
+99	No sirvas imágenes más anchas que el tamaño máximo al que se muestran: una columna de contenido de 1200 px nunca necesita una imagen de 4000 px.
+100	Prefiere WebP o AVIF para fotos; mantén PNG o SVG para logotipos e iconos.
+101	Usa calidad 65–75 para la mayoría de fotos web; la diferencia con 90 rara vez se ve en pantalla.
+102	Elimina los metadatos: los navegadores no necesitan los datos de la cámara, y el GPS puede revelar dónde se hizo la foto.
+103	Usa carga diferida (lazy-load) en las imágenes que quedan por debajo del pliegue para que solo se descarguen cuando el visitante haga scroll.
+104	Comprimir una galería de fotos de producto de 3 MB cada una a unos 150 KB puede convertir una página que tarda diez segundos en el móvil en una que aparece casi al instante.
+105	¿La compresión reduce la calidad?
+106	Con ajustes razonables, no de forma visible. Un JPG o WebP con calidad 75–85 es indistinguible del original para la mayoría de personas al tamaño normal. Los artefactos se notan con calidades muy bajas: bloques en degradados suaves, halos alrededor de bordes nítidos y texturas finas emborronadas. Si los ves, sube la calidad o permite un tamaño objetivo algo mayor.
+107	Volver a comprimir una y otra vez un JPG ya comprimido lo degrada poco a poco, porque cada pasada descarta un poco más de detalle. Parte siempre del mejor original que tengas y guárdalo a salvo. Las capturas y gráficos con texto nítido se comprimen mejor como PNG con paleta o WebP de alta calidad; JPG tiende a difuminar los bordes del texto.
+108	Metadatos, orientación y color
+109	Las fotos de los móviles guardan su orientación en los datos EXIF en lugar de girar los píxeles. El compresor aplica esa orientación antes de guardar, así que el resultado queda derecho aunque se eliminen los metadatos. Las coordenadas GPS, el modelo de cámara, los datos del objetivo y las marcas de tiempo se descartan cuando «Eliminar metadatos» está activado, que es la opción por defecto; desmárcala si necesitas conservarlos.
+110	Las imágenes se convierten al espacio de color estándar sRGB que usa la web. Las zonas transparentes se conservan en la salida PNG, WebP y AVIF; al guardar en JPG, que no admite transparencia, esas zonas se rellenan de blanco.
+111	Formatos admitidos y límites
+112	Entrada: JPG/JPEG, PNG, WebP, AVIF, GIF (primer fotograma), BMP, TIFF, ICO, SVG y fotos HEIC/HEIF de iPhone. Salida: JPG, PNG, WebP o AVIF. No hay un límite fijo de tamaño ni de número de archivos; el límite práctico es la memoria de tu dispositivo. Un portátil normal maneja lotes de cientos de fotos e imágenes individuales de hasta unos 100 megapíxeles. Los lotes muy grandes se procesan imagen a imagen para que el navegador siga respondiendo.
+113	Privacidad: tus imágenes nunca salen de tu dispositivo
+114	Cada paso ocurre dentro de la pestaña del navegador. La imagen se decodifica, se edita y se vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, los documentos de identidad, las capturas con datos personales y las fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el wifi una vez cargada la página y la herramienta sigue funcionando.
+115	Muchos compresores online populares suben tus archivos a sus servidores y los conservan durante un tiempo antes de borrarlos; TinyPNG, por ejemplo, indica que conserva los archivos subidos hasta 48 horas. Con {brand} simplemente no hay nada que conservar.
+116	Comprimir imágenes para tiendas online y marketplaces
+117	Marketplaces como Amazon, Etsy, eBay, Mercado Libre y las tiendas Shopify recomiendan fotos de producto grandes y nítidas, a menudo de 1600–2500 píxeles en el lado largo para que los clientes puedan hacer zoom, pero también premian las páginas rápidas. Lo mejor es exportar cada foto de producto una vez con las dimensiones recomendadas y comprimirla con calidad 80–85. La vista ampliada sigue nítida y el archivo suele pasar de varios megabytes a 200–400 KB. Para tu propia tienda, crea además copias WebP de 800–1200 px para las páginas de categoría y las miniaturas, donde nadie hace zoom y cada kilobyte cuenta.
+118	Mantén los fondos limpios y bien iluminados: los fondos blancos o gris claro lisos se comprimen mucho mejor que una mesa o una tela con textura, y quedan más profesionales. Si necesitas un fondo blanco puro, [Quitar fondo](/remove-background/) puede sustituirlo antes de comprimir.
+119	Pantalla frente a impresión
+120	Los ajustes de compresión para pantalla y para impresión son distintos. Las pantallas muestran unos 100–200 píxeles por pulgada a una distancia de visión normal, así que las imágenes web pueden tener un tamaño moderado y una calidad media. Las impresoras necesitan unos 300 píxeles por pulgada al tamaño final: una foto impresa en A4 requiere aproximadamente 2480×3508 píxeles. Para imprimir, conserva la resolución completa, usa calidad 90 o superior y quédate con JPG, que acepta cualquier imprenta. No imprimas nunca una imagen comprimida a un objetivo pequeño en KB para un formulario web: el detalle perdido no se puede recuperar.
+121	Si solo tienes una imagen pequeña y necesitas imprimirla más grande, [Ampliar imagen](/upscale-image/) puede agrandarla con enfoque, lo cual es mejor que dejar que la impresora la estire.
+122	Comprimir GIF y animaciones
+123	Esta herramienta guarda el primer fotograma de un GIF animado como imagen fija. Para conservar la animación, usa [Comprimir GIF](/compress-gif/), que reduce los colores y el tamaño de los fotogramas manteniendo el movimiento, o convierte los clips cortos a vídeo MP4 o WebP para obtener archivos a menudo diez veces más pequeños que el GIF.
+124	Comprimir en móviles y tabletas
+125	El compresor funciona en Safari en iPhone y iPad y en Chrome en Android. Toca la zona para soltar archivos y elige fotos de tu galería (las fotos HEIC del iPhone se convierten automáticamente); las imágenes comprimidas se guardan en tus descargas o en la app Archivos. Como el procesamiento se hace en el móvil, los lotes grandes pueden tardar algo más en dispositivos antiguos, pero no se gastan datos móviles en subidas.
+126	Herramientas relacionadas para trabajar con imágenes
+127	[Redimensionar imagen](/resize-image/): cambia las dimensiones en píxeles, porcentaje, cm o pulgadas, con preajustes para redes sociales y pasaporte.
+128	[Convertidor de imágenes](/image-converter/): convierte entre JPG, PNG, WebP, AVIF, GIF, TIFF, ICO y SVG.
+129	[HEIC a JPG](/heic-to-jpg/): convierte fotos de iPhone para Windows, la web y formularios.
+130	[Recortar imagen](/crop-image/): elimina los bordes que sobran antes de comprimir para obtener un archivo aún más pequeño.
+131	[Comprimir PDF](/compress-pdf/): la misma idea para documentos PDF llenos de páginas escaneadas.
+132	Consejos para obtener los archivos más pequeños posibles
+133	Recorta primero. Quitar los bordes vacíos reduce tanto los píxeles como los bytes.
+134	Redimensiona antes de comprimir: es el mayor ahorro individual.
+135	Elige WebP o AVIF si el destino los acepta.
+136	Simplifica la imagen: un fondo recargado y con ruido se comprime mucho peor que uno limpio.
+137	En capturas de pantalla, mantén PNG: el texto sigue nítido y la compresión con paleta es muy eficiente.
+138	Revisa la tabla de antes y después y vuelve a comprimir los casos atípicos con menor calidad o con un tamaño objetivo.
+139	Dónde se procesa tu imagen
+140	En tu navegador, nunca se sube
+141	Sus servidores (subida)
+142	Sus servidores (subida)
+143	Sus servidores (subida)
+144	Cuenta o correo necesarios
+145	Nunca
+146	No para el uso básico
+147	No para el uso básico
+148	No para el uso básico
+149	Límites de uso gratuito
+150	Ninguno: solo los de tu dispositivo
+151	Ver su sitio
+152	Ver su sitio
+153	Ver su sitio
+154	Comprimir a un objetivo exacto en KB
+155	Sí, desde 20 KB a cualquier tamaño
+156	No se ofrece en la página
+157	No se ofrece en la página
+158	No se ofrece en la página
+159	Formatos
+160	Entrada JPG, PNG, WebP, AVIF; salida JPG/PNG/WebP/AVIF
+161	AVIF, WebP, PNG, JPEG
+162	JPG, PNG, SVG, GIF
+163	JPG, PNG, GIF
+164	Límites gratuitos por lote
+165	Sin límite fijo
+166	Hasta 20 imágenes, máx. 5 MB cada una
+167	Ver su sitio
+168	Ver su sitio
+169	Redimensionar y convertir formato al comprimir
+170	Sí
+171	Opción de conversión
+172	No se ofrece en la página
+173	Ajustes avanzados
+174	Conservación de archivos
+175	Nunca se suben
+176	Hasta 48 horas
+177	Ver su sitio
+178	Ver su sitio
+179	¿Cómo comprimo una imagen a exactamente 50 KB o 20 KB?
+180	Elige el tamaño en la lista «Tamaño objetivo» (o Personalizado) y haz clic en Comprimir. La herramienta encuentra la máxima calidad que cabe y, si hace falta, reduce ligeramente las dimensiones.
+181	¿Es gratis comprimir imágenes aquí?
+182	Sí. No hay límite de número de imágenes, ni tope de tamaño, ni marca de agua, y nunca necesitas una cuenta.
+183	¿Se suben mis imágenes a un servidor?
+184	No. La compresión se ejecuta por completo en tu navegador, en tu propio dispositivo. Tus imágenes nunca se suben ni se guardan.
+185	¿Qué formato da el archivo más pequeño?
+186	AVIF suele dar los archivos más pequeños, seguido de WebP y después JPG. PNG solo es mejor para logotipos, capturas y gráficos de colores planos.
+187	¿Comprimir una imagen reduce su calidad?
+188	Ligeramente, pero con calidad 70–85 la diferencia normalmente es invisible al tamaño normal. La compresión PNG con paleta mantiene nítidos los bordes y la transparencia.
+189	¿Puedo comprimir muchas imágenes a la vez?
+190	Sí. Suelta todas las que quieras. Obtienes un ZIP y una tabla con el tamaño de cada archivo antes y después.
+191	¿Puedo comprimir PNG sin perder la transparencia?
+192	Sí. La salida PNG conserva la transparencia, igual que WebP y AVIF. Solo JPG rellena las zonas transparentes de blanco.
+193	¿Elimina los datos EXIF y GPS?
+194	Sí, por defecto. Desmarca «Eliminar metadatos» si quieres conservarlos.
+195	¿Puedo comprimir fotos HEIC del iPhone?
+196	Sí. Las fotos HEIC se convierten y comprimen a JPG, WebP u otro formato que elijas.
+197	¿Por qué mi imagen no se ha hecho más pequeña?
+198	Probablemente ya estaba bien optimizada. En ese caso se devuelve la original en lugar de un archivo más grande. Prueba con menos calidad, salida WebP o un ancho máximo menor.
+199	¿Cómo comprimo una imagen sin perder calidad?
+200	Usa una calidad de 75–85 o un objetivo en KB moderado: JPEG y WebP descartan primero el detalle que no se ve. Redimensionar las fotos muy grandes al tamaño al que se van a mostrar suele ahorrar más que bajar la calidad.
+201	¿Cómo comprimo una imagen a 50 KB o 100 KB?
+202	Elige el preajuste en KB o escribe tu propio objetivo. La herramienta encuentra la máxima calidad que cabe y solo reduce ligeramente las dimensiones si hace falta.

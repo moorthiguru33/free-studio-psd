@@ -1,0 +1,419 @@
+     0	(eliminado)
+     1	(no se encontraron tablas)
+     2	(texto en pt / imagen en % del ancho de página)
+     3	10 MB (Discord gratis)
+     4	16 (predeterminado)
+     5	16 MB (WhatsApp/mensajería)
+     6	1x (72 DPI)
+     7	2 – blanco y negro / Cricut
+     8	22 kHz (voz)
+     9	25 MB (adjuntos de correo)
+    10	300 DPI (impresión)
+    11	64 – máximo detalle
+    12	: no se encontraron diapositivas.
+    13	: los archivos .ppt binarios antiguos no son compatibles; ábrelo en PowerPoint, Keynote, Google Slides o LibreOffice y guárdalo antes como .pptx.
+    14	: imagen no compatible
+    15	AES-128 (lectores antiguos)
+    16	AES-256 (recomendado)
+    17	Acción
+    18	Añadir un marcador por archivo (usa el nombre del archivo)
+    19	Añadir un número
+    20	Añade antes al menos una edición: toca la página para añadir texto o un recuadro blanco.
+    21	Añadir texto
+    22	Avanzado (opcional)
+    23	Después
+    24	Todas las páginas
+    25	Permitir comentarios y rellenar formularios
+    26	Permitir copiar texto e imágenes
+    27	Permitir edición
+    28	Permitir impresión
+    29	Ya estaba optimizado: se conserva el original.
+    30	Censurar también todas las direcciones de correo
+    31	Censurar también todos los números de teléfono
+    32	Flecha
+    33	Adjuntos
+    34	Auto
+    35	Auto (horizontal para hojas anchas)
+    36	Recorte automático: quitar márgenes blancos
+    37	Auto: solo páginas sin texto
+    38	Ajustar columnas al ancho de página
+    39	Girar automáticamente páginas de lado o al revés
+    40	Auto: el mismo recorte en todas las páginas
+    41	Fondo
+    42	Antes
+    43	Máxima calidad, menor reducción. No se pierde nada.
+    44	Negro
+    45	Blanco y negro (puro, para escaneos de texto)
+    46	Umbral de blanco y negro (0–255)
+    47	Original desenfocado
+    48	Abajo centro
+    49	Abajo izquierda
+    50	Abajo derecha
+    51	Color del recuadro
+    52	Recuadro con etiqueta
+    53	Cancelar
+    54	Palabras con mayúscula inicial
+    55	Canales
+    56	Elige una imagen de fondo
+    57	Elige una imagen
+    58	Haz clic en la página para colocarla. Cada clic añade otra copia; cambia de página para firmar todas. Usa Deshacer para quitar la última.
+    59	Color
+    60	Color
+    61	Modo de color
+    62	Color…
+    63	Combinar en un PDF (un marcador por archivo)
+    64	Comparar
+    65	Convertir números (1,234.50 → 1234.5)
+    66	Convertir a escala de grises (imágenes y páginas escaneadas)
+    67	Color de las esquinas
+    68	Recorte mayor que la página
+    69	Recortar a
+    70	Personalizado (mm)
+    71	Ajustes personalizados
+    72	Tamaño personalizado (KB)
+    73	Personalizado…
+    74	Datos
+    75	Eliminar
+    76	Reducción de ruido / limpieza JPEG
+    77	Detectando texto en la imagen (OCR)…
+    78	No ampliar imágenes más pequeñas
+    79	Descargar
+    80	Dibuja un recuadro sobre la zona que debe ser clicable y escribe una dirección web, un correo o un número de página.
+    81	Arrastra sobre la página para tapar algo con un recuadro blanco.
+    82	Arrastra para cambiar el tamaño
+    83	Bordes
+    84	Editar texto existente
+    85	Cuadros de texto editables sobre la página de fondo
+    86	Elipse
+    87	Cifrado
+    88	El final debe ser posterior al inicio.
+    89	Ampliar
+    90	Indica las páginas
+    91	Páginas pares / impares
+    92	Páginas pares
+    93	Cada X páginas
+    94	Todas las páginas
+    95	Todo en una hoja
+    96	Diseño exacto: idéntico, texto en cuadros movibles
+    97	Excluir caracteres
+    98	Extraer imágenes: guarda las fotos del PDF
+    99	Extrema
+   100	Extrema (la más pequeña)
+   101	Portada de Facebook 820×312
+   102	Páginas enfrentadas (izquierda/derecha invertidas en pares)
+   103	No se pudo cargar
+   104	Aceptable
+   105	Archivo
+   106	Nombre del archivo
+   107	Rellenar y recortar al tamaño exacto
+   108	Filtro
+   109	Buscar
+   110	Ajustar
+   111	Encajar dentro (sin recortar)
+   112	Texto fluido: párrafos, tablas y columnas normales
+   113	Fuente
+   114	Marco
+   115	Etiqueta del marco
+   116	Lápiz a mano alzada
+   117	Buena
+   118	Buena calidad, menor tamaño. El texto sigue nítido.
+   119	Degradado
+   120	Color final del degradado
+   121	Escala de grises (tonos de gris)
+   122	Alta
+   123	Alta (144 DPI)
+   124	Alta (archivo más grande)
+   125	Alta calidad
+   126	Resaltar
+   127	Resaltado y formas
+   128	Imagen
+   129	Imagen / logotipo
+   130	Resolución de imagen
+   131	Imagen: haz clic para seleccionar
+   132	Página solo de imagen: el OCR encontró
+   133	Imágenes y formas
+   134	Insertar una página en blanco entre archivos
+   135	Instagram vertical 1080×1350
+   136	Publicación de Instagram 1080×1080
+   137	Intervalo no válido:
+   138	Calidad JPEG
+   139	Conservar
+   140	Mantener líneas exactas: monoespaciado (código, registros, tablas)
+   141	Conservar la selección
+   142	Etiqueta debajo
+   143	Horizontal
+   144	Solo páginas horizontales
+   145	Idioma
+   146	Texto grande
+   147	Diseño
+   148	Menos
+   149	Carta
+   150	Línea
+   151	Números de línea (diseño monoespaciado)
+   152	Enlace
+   153	Enlazar a (https://…, mailto:… o un número de página):
+   154	Banner de LinkedIn 1584×396
+   155	Cargando modelo de IA…
+   156	Límite en MB (memoria del navegador)
+   157	Etiquetas MP3 (título, artista, álbum, portada)
+   158	Hacer transparente el fondo blanco (PNG/WebP)
+   159	Márgenes manuales (mm)
+   160	Margen (pt)
+   161	Máscara
+   162	Tamaño máximo en KB (JPG/WebP)
+   163	Media
+   164	Metadatos
+   165	Centro izquierda
+   166	Centro derecha
+   167	Modo
+   168	Mono (Courier)
+   169	Nombres
+   170	¿Necesitas una contraseña segura? Prueba el
+   171	Siguiente
+   172	Página siguiente
+   173	Sin flujo WordDocument: no es un archivo .doc de Word
+   174	No se encontraron imágenes ni formas vectoriales en esta página.
+   175	Sin coincidencias
+   176	No se encontró texto, ni siquiera con OCR. Revisa el idioma del OCR o la calidad del escaneo.
+   177	No se encontró ninguna pista de vídeo en este archivo.
+   178	Ninguno
+   179	No se pudo convertir ninguno de estos archivos:
+   180	Normal
+   181	No es un archivo .doc de Word 97-2003
+   182	OCR para páginas escaneadas (gratis)
+   183	El OCR encontró
+   184	Idioma del OCR
+   185	Páginas impares
+   186	Desactivado
+   187	Un PDF por archivo (ZIP)
+   188	Una hoja por página
+   189	Una hoja por tabla
+   190	Solo estas páginas (p. ej., 3-20)
+   191	Orientación
+   192	Original (sin pérdida)
+   193	Salida
+   194	Contraseña de propietario (opcional, desbloquea los permisos)
+   195	PDF (todas las fotos en un archivo)
+   196	PIN (dígitos)
+   197	Color de relleno
+   198	Completar cada archivo hasta un número par de páginas (impresión a doble cara)
+   199	Rellenar hasta el tamaño exacto
+   200	Margen para el recorte automático (mm)
+   201	Página
+   202	Página 1
+   203	Página 1 de N
+   204	Solo imágenes de página (aspecto exacto)
+   205	Números de página en el pie
+   206	Intervalo de páginas…
+   207	Página a imagen: cada página se convierte en imagen
+   208	Páginas (p. ej., 1,3-5)
+   209	Páginas que eliminar
+   210	Frase de contraseña (palabras)
+   211	Pasaporte 35×45 mm a 300 DPI
+   212	Elige un color para ese texto
+   213	Elegir color del texto
+   214	Diseño del texto sin formato
+   215	Vertical
+   216	Solo páginas verticales
+   217	Ajuste predefinido
+   218	Anterior
+   219	Página anterior
+   220	Impresión (200 dpi)
+   221	Código QR
+   222	Calidad
+   223	Calidad (tasa de bits)
+   224	Contraseña aleatoria
+   225	Intervalo fuera de rango:
+   226	Reconocer texto en las imágenes de esta página
+   227	Recomendada
+   228	Recomendada (más pequeña)
+   229	Rectángulo
+   230	Reajustar párrafos (documentos, notas)
+   231	Recordar mi firma en este dispositivo
+   232	Quitar el sonido
+   233	Eliminar la selección (cortar la parte central)
+   234	Quitando el fondo…
+   235	Reemplazar por
+   236	Reemplazado
+   237	Resolución
+   238	Orden inverso
+   239	Rotar todo ↻
+   240	Qué páginas rotar
+   241	Detalle SVG
+   242	Colores de trazado SVG
+   243	Sans (Helvetica)
+   244	Guardar cada página seleccionada como un PDF aparte (ZIP)
+   245	Guardar páginas seleccionadas
+   246	Guardado
+   247	Buscar texto…
+   248	PDF con búsqueda + TXT
+   249	Buscando en la página
+   250	Seleccionar / mover
+   251	Selecciona una imagen o forma
+   252	Seleccionar intervalos de páginas
+   253	Seleccionar páginas
+   254	Selecciona, mueve, redimensiona, elimina o cambia el color de imágenes, logotipos y formas que ya están en la página
+   255	Separador
+   256	Serif (Times)
+   257	Forma
+   258	Forma: haz clic para seleccionar
+   259	Enfoque
+   260	Hojas
+   261	Reducir para encajar
+   262	Firma
+   263	Omitir primeras páginas (sin número)
+   264	Omitir páginas que ya contienen texto
+   265	Diapositivas
+   266	Pequeño
+   267	Archivo pequeño
+   268	Texto pequeño (caben más columnas)
+   269	Archivo más pequeño (100 DPI)
+   270	El archivo más pequeño. Las páginas se convierten en imágenes (texto no seleccionable).
+   271	Suave (archivo más pequeño)
+   272	Ordenar archivos por nombre
+   273	Sonido
+   274	Dividir aquí
+   275	Modo de división
+   276	Estándar
+   277	Historia / Reel 1080×1920
+   278	Enderezar escaneos torcidos
+   279	Estirar
+   280	Fuerte
+   281	Compresión fuerte
+   282	Solo tablas (omitir párrafos)
+   283	Toca una imagen, logotipo o forma de la página para seleccionarla: arrastra para mover, usa la esquina ● para redimensionar o la barra superior para cambiar el color, reemplazar o eliminar.
+   284	Toca un elemento para seleccionarlo y arrástralo para moverlo.
+   285	Toca cualquier texto de la página para editarlo (las páginas escaneadas se leen con OCR automáticamente).
+   286	Toca o haz clic en cualquier punto de la página para añadir texto y escribe. Iniciar se activa tras tu primera edición.
+   287	Tamaño de archivo objetivo
+   288	Texto
+   289	Texto (.txt)
+   290	Cuerpo del texto
+   291	Eso eliminaría todo el archivo.
+   292	Este .doc está cifrado: ábrelo en Word y guárdalo sin contraseña primero
+   293	Este navegador no puede codificar este vídeo.
+   294	Título
+   295	Arriba centro
+   296	Arriba izquierda
+   297	Arriba derecha
+   298	Transparente (PNG)
+   299	Tipo
+   300	Deshacer la última colocación
+   301	Subir imagen de firma
+   302	Usar texto claro
+   303	Muy alta (216 DPI)
+   304	Muy fuerte
+   305	Muy débil
+   306	Volumen (%)
+   307	Tipo de marca de agua
+   308	Débil
+   309	Cuando ambos lados están definidos
+   310	Donde haga clic con las tijeras
+   311	Blanco
+   312	Ancho (%)
+   313	Palabras
+   314	Procesando…
+   315	Cabecera de X 1500×500
+   316	Miniatura de YouTube 1280×720
+   317	Tu propia imagen…
+   318	Haz clic en las tijeras entre páginas para dividir ahí.
+   319	Páginas por archivo
+   320	Páginas (vacío = todas)
+   321	Páginas que guardar (vacío = todas)
+   322	Redondeado
+   323	Cuadrado
+   324	Círculo
+   325	Forma de las esquinas (ojos)
+   326	Algo salió mal.
+   327	Reintentar
+   328	Continuar con otra herramienta
+   329	Opciones
+   330	Rellena
+   331	Rotar
+   332	Seguridad: 
+   333	Permisos y contraseña de propietario
+   334	Comprueba la seguridad de tu propia contraseña
+   335	Escribe una contraseña: nunca sale de esta página
+   336	Estimación aproximada; se comprueba solo en tu dispositivo.
+   337	Copiar todo
+   338	Usar la firma guardada
+   339	Iniciales (del nombre escrito)
+   340	Imagen (PNG/JPG)
+   341	Abajo centro
+   342	Desactivado: usar calidad
+   343	Desactivado: usar el ajuste de calidad
+   344	Inicio (m:ss)
+   345	Fundido de entrada
+   346	Fundido de salida
+   347	Imagen de portada (JPG/PNG)
+   348	Frecuencia de muestreo
+   349	Leyendo audio…
+   350	Eliminado
+   351	Ancho máximo (px)
+   352	Máx. 16384 px
+   353	Full HD 1920×1080
+   354	Dividir aquí
+   355	espacio
+   356	ninguno
+   357	dígito aleatorio
+   358	Texto personalizado ({n} = número, {N} = total)
+   359	Texto personalizado
+   360	Páginas (vacío = todas, p. ej., 1,3-5)
+   361	todas
+   362	Tamaño personalizado (MB)
+   363	Personalizado
+   364	Marcar páginas
+   365	Marcar páginas en blanco
+   366	Seleccionar intervalo
+   367	Insertar página en blanco
+   368	Unir todas las imágenes en un PDF
+   369	Un PDF por imagen (ZIP)
+   370	Reemplazar imagen
+   371	Reemplazar todo
+   372	OCR de esta página
+   373	Tamaño de fuente (pt)
+   374	Tamaño de fuente
+   375	Color del texto
+   376	Grosor de línea (pt)
+   377	Grosor de línea
+   378	Haz clic para editar este texto
+   379	Hojas (vacío = todas; nombres o números separados por comas)
+   380	Copiar todo
+   381	Imagen de fondo
+   382	Déjalo vacío para quitar las restricciones de impresión, copia y edición de PDF que se abren sin contraseña.
+   383	Más opciones
+   384	Eliminar selección
+   385	Borrar selección
+   386	Duplicar selección
+   387	Fecha de hoy
+   388	p. ej., Aprobado
+   389	p. ej., {}[]
+   390	SVG (vectorizado)
+   391	Igual que el original (cada página conserva su tamaño)
+   392	Contraseña incorrecta. Inténtalo de nuevo.
+   393	Este PDF está protegido con contraseña. Introdúcela para abrirlo.
+   394	Abrir
+   395	La contraseña solo se usa en tu navegador para descifrar el archivo.
+   396	página(s) ya tenían texto
+   397	página(s) numeradas
+   398	página(s) rotadas
+   399	página(s) escaneadas leídas con OCR
+   400	línea(s) de texto. Toca una para editarla, arrastra ✥ para moverla.
+   401	línea(s) de texto. Toca una para editarla.
+   402	edición(es) añadida(s). Arrastra para mover, usa la esquina ● para redimensionar. Pulsa Iniciar al terminar.
+   403	coincidencia(s). Pulsa Iniciar para guardar.
+   404	campos de formulario aplanados
+   405	zona(s) en
+   406	no es compatible (omitido).
+   407	” no encontrado.
+   408	millones de años
+   409	miles de millones de años
+   410	miles de años
+   411	caracteres repetidos
+   412	secuencia de teclado o numérica
+   413	: donde se sale es difícil de leer (bajo contraste)
+   414	No se pudo cargar 
+   415	Intervalo no válido: 
+   416	Intervalo fuera de rango: 
+   417	generador de contraseñas
+   418	contraseña incorrecta o ausente

@@ -1,0 +1,202 @@
+0	Imagen a texto (OCR)
+1	Extrae texto de fotos y capturas de pantalla.
+2	Imagen a texto (OCR) online gratis – Copia texto de fotos | {brand}
+3	Extrae texto de imágenes, fotos, capturas y escaneos con OCR en 12 idiomas. Obtén texto sin formato o un PDF buscable. Privado: funciona en tu navegador.
+4	Imagen a texto (OCR)
+5	Selecciona imágenes (JPG, PNG, HEIC…).
+6	Elige el idioma y la salida.
+7	Copia o descarga el texto.
+8	¿Qué idiomas son compatibles?
+9	Inglés, español, francés, alemán, portugués, italiano, ruso, árabe, hindi, tamil, chino (simplificado) y japonés.
+10	¿Se sube mi imagen?
+11	No: el OCR se ejecuta por completo en tu dispositivo.
+12	Volver a teclear el texto de una foto, una captura o una página escaneada es lento y propenso a errores. El OCR lee el texto por ti, listo para copiar, editar o traducir. A diferencia de los servicios de OCR en la nube, {brand} procesa las imágenes en tu dispositivo.
+13	Copiar texto de una captura o de la foto de un letrero, una diapositiva o una pizarra.
+14	Digitalizar recetas, cartas y recibos impresos.
+15	Extraer citas de páginas de libros para investigar.
+16	Traducir el texto de una imagen copiándolo en un traductor.
+17	Usa una foto nítida, bien iluminada y tomada de frente.
+18	Elige el idioma correcto para la máxima precisión.
+19	Recorta la zona del texto para evitar ruido.
+20	¿Qué idiomas son compatibles?
+21	Inglés, español, francés, alemán, portugués, italiano, ruso, árabe, hindi, tamil, chino (simplificado) y japonés.
+22	¿Se suben las imágenes?
+23	No: el OCR se ejecuta por completo en tu dispositivo.
+24	Imagen a texto – OCR gratis en 12 idiomas, sin subidas
+25	Extrae texto de imágenes, capturas y fotos con OCR en tu dispositivo. 12 idiomas, dos a la vez, pegar con Ctrl+V, lotes, TXT o PDF buscable. Gratis.
+26	{tool}: {brand} frente a imagetotext.info, OnlineOCR.net y Prepostseo
+27	Copia el texto de cualquier imagen
+28	La foto de un tablón de anuncios, la captura de un chat, una carta escaneada, una diapositiva de una clase, un recibo, la página de un libro: todos contienen texto que no puedes seleccionar ni buscar. La herramienta Imagen a texto de {brand} lee ese texto con reconocimiento óptico de caracteres (OCR) y te lo devuelve como texto sin formato y editable que puedes copiar, pegar, buscar, traducir o guardar. Reconoce texto impreso en doce idiomas, incluidos hindi, tamil, árabe, chino y japonés, y puede leer dos idiomas en la misma imagen.
+29	Todo ocurre en tu navegador. El motor de OCR y los modelos de idioma se cargan en la página y se ejecutan en tu dispositivo, así que tus imágenes (documentos de identidad, cartas del banco, informes médicos, mensajes privados) nunca se suben. No hay límite diario, ni nivel de precisión «premium», ni cuenta.
+30	A diferencia de muchas webs de OCR «gratuitas», no hay anuncios entre pasos, ni CAPTCHA, ni hace falta un correo para descargar tu texto, ni hay límite de número o tamaño de imágenes: el único límite es la memoria de tu dispositivo.
+31	Funciones
+32	**12 idiomas:** inglés, español, francés, alemán, portugués, italiano, ruso, árabe, hindi, tamil, chino (simplificado) y japonés.
+33	**Dos idiomas a la vez** para documentos mixtos, como inglés con hindi o francés con árabe.
+34	**Pegar desde el portapapeles:** pulsa Ctrl+V (Cmd+V en Mac) para pasar el OCR a una captura sin guardarla.
+35	**OCR por lotes:** suelta muchas imágenes y obtén todo el texto de una vez.
+36	**Salida en texto o PDF buscable:** copia el texto, descarga un archivo .txt o crea un PDF con una capa de texto invisible sobre la imagen.
+37	**Resolución ajustable:** sube los DPI para la letra pequeña.
+38	**Análisis automático del diseño** que mantiene las líneas y los párrafos en orden de lectura.
+39	**Funciona sin conexión** cuando el modelo de idioma se ha cargado una vez.
+40	**Sin marca de agua ni registro:** el texto que extraes es tuyo, sin nada añadido.
+41	Cómo extraer texto de una imagen
+42	Suelta una o varias imágenes (JPG, PNG, WebP, HEIC, BMP, TIFF) o pega una captura con Ctrl+V.
+43	Elige el idioma del texto y, si quieres, un segundo idioma.
+44	Elige la salida: texto sin formato o PDF buscable.
+45	Haz clic en Extraer texto. La primera vez se descarga el modelo de idioma (unos pocos MB); las siguientes empiezan al instante.
+46	Copia el texto o descarga el archivo.
+47	Cómo funciona el OCR
+48	El OCR convierte píxeles en caracteres en varias fases. Primero la imagen se pasa a blanco y negro con umbralización adaptativa, que compensa la iluminación desigual y los fondos de color. Después se analiza el diseño de la página: el motor encuentra los bloques de texto, separa las columnas y divide los bloques en líneas y palabras. Por último, cada línea pasa por una red neuronal (un modelo LSTM entrenado con cientos de miles de líneas de texto en el idioma elegido) que predice la secuencia de caracteres más probable, usando su conocimiento del idioma para elegir entre formas parecidas como «rn» y «m» o «0» y «O».
+49	{brand} usa Tesseract, el motor de OCR de código abierto desarrollado originalmente en HP y mantenido después con el apoyo de Google, compilado a WebAssembly para que se ejecute en el navegador a una velocidad casi nativa. El mismo motor impulsa muchos productos de OCR de escritorio y de servidor.
+50	Cómo obtener los resultados más precisos
+51	**Usa una imagen nítida y bien iluminada.** El desenfoque y las sombras son las principales causas de errores. Fotografía los documentos planos, con luz natural y sin reflejos del flash.
+52	**Llena el encuadre con el texto.** Recorta mesas, manos y fondos con [Recortar imagen](/crop-image/).
+53	**Elige el idioma correcto.** Un texto en francés leído con el modelo inglés pierde los acentos y lee mal las palabras.
+54	**Sube los DPI para la letra pequeña.** Si el texto es pequeño en la imagen, aumenta la resolución para que las letras midan al menos 20–30 píxeles de alto.
+55	**Endereza la imagen.** Las inclinaciones leves se corrigen, pero las fotos muy giradas conviene girarlas antes con [Girar imagen](/rotate-image/).
+56	**Más contraste ayuda.** El texto oscuro sobre fondo claro da los mejores resultados; el texto claro sobre fondo oscuro también suele funcionar.
+57	¿Qué tipo de imágenes funcionan?
+58	Imagen
+59	Resultado esperado
+60	Capturas de texto, páginas web, chats
+61	Excelente, casi perfecto
+62	Documentos impresos escaneados
+63	Excelente
+64	Fotos de móvil de páginas impresas
+65	Muy bueno con buena luz
+66	Recibos y facturas
+67	Bueno; el papel térmico desvaído es más difícil
+68	Letreros, carteles, menús
+69	Bueno con fuentes claras
+70	Fuentes estilizadas o decorativas
+71	Variable
+72	Letra manuscrita
+73	Limitado: a veces funcionan las mayúsculas claras, rara vez la letra cursiva
+74	Texto sobre fotos o dibujos
+75	Variable
+76	Sé realista con la letra manuscrita: los motores de OCR clásicos, incluido este, están entrenados con texto impreso. Las mayúsculas manuscritas claras pueden leerse en parte correctamente, pero la letra ligada producirá sobre todo errores. El reconocimiento de escritura a mano específico requiere modelos de IA mucho más grandes que hoy se ejecutan en servidores.
+77	Idiomas y sistemas de escritura
+78	Cada idioma tiene su propio modelo entrenado, que conoce el alfabeto y las palabras habituales. Los idiomas de escritura latina (inglés, español, francés, alemán, portugués, italiano) comparten la mayoría de letras pero se diferencian en acentos y vocabulario, así que elegir el correcto mejora notablemente la precisión. El ruso usa el cirílico. El árabe se escribe de derecha a izquierda con letras que cambian de forma según su posición; el modelo árabe lo gestiona y devuelve el texto en el orden lógico correcto. El hindi usa el devanagari, con su característica línea superior y sus letras conjuntas, y el tamil tiene su propia escritura con signos vocálicos alrededor de las consonantes; ambos tienen modelos específicos. El chino (simplificado) y el japonés tienen miles de caracteres y modelos más grandes, así que su primera carga tarda algo más.
+79	En documentos que mezclan dos idiomas, elige ambos: cada palabra se compara entonces con los dos modelos, lo que evita, por ejemplo, que las palabras en inglés se deformen en un documento en hindi.
+80	¿Texto o PDF buscable?
+81	El texto sin formato es lo más flexible: pégalo en un documento, un correo, una hoja de cálculo o un traductor. Un PDF buscable mantiene la imagen exactamente como se ve y coloca encima el texto reconocido de forma invisible, para que puedas buscarlo con Ctrl+F, seleccionar y copiar fragmentos y dejar que los sistemas de gestión documental lo indexen. Elige PDF cuando importe el diseño original (una carta firmada, un documento de identidad o un formulario) y texto cuando quieras reutilizar las palabras. Para PDF escaneados de varias páginas, usa [OCR a PDF](/ocr-pdf/), que añade una capa de texto a cada página y puede enderezar escaneos torcidos.
+82	Usos habituales
+83	Copiar texto de capturas de mensajes, diapositivas o vídeos.
+84	Digitalizar cartas y notas impresas para buscarlas y archivarlas.
+85	Sacar una cita, una dirección o un número de teléfono de una foto.
+86	Extraer el texto de recibos para notas de gastos.
+87	Traducir letreros y menús: pasa el OCR a la foto y pega el texto en un traductor.
+88	Tomar apuntes de páginas de libros de texto o diapositivas de clase.
+89	Accesibilidad: convertir contenido que solo es imagen en texto que un lector de pantalla pueda leer en voz alta, o en audio con [Texto a voz](/text-to-speech/).
+90	Tablas y diseño
+91	La salida del OCR mantiene el orden de lectura de líneas y párrafos, pero los diseños complejos, como periódicos de varias columnas y tablas, se linealizan: las columnas se leen una tras otra y las celdas de las tablas se convierten en líneas de texto separadas por espacios. Para tablas en PDF, [PDF a Excel](/pdf-to-excel/) reconstruye filas y columnas, también en páginas escaneadas.
+92	Solución de problemas con malos resultados
+93	Síntoma
+94	Causa probable
+95	Solución
+96	Símbolos aleatorios en lugar de palabras
+97	Idioma equivocado o imagen muy borrosa
+98	Elige el idioma correcto; repite la foto
+99	Faltan acentos (é, ü, ñ)
+100	Se usó el modelo inglés para un idioma europeo
+101	Selecciona francés, alemán, español, etc.
+102	Solo se encuentra parte del texto
+103	Poco contraste o letra diminuta
+104	Sube los DPI; recorta más cerca del texto
+105	Líneas desordenadas
+106	Diseño de varias columnas o mixto
+107	Recorta cada columna por separado
+108	Se confunden «l», «1» e «I»
+109	Fuente sin serifa con glifos idénticos
+110	Revisa a mano números y códigos
+111	No se reconoce nada
+112	El texto es manuscrito o artístico
+113	El OCR está pensado para texto impreso
+114	Como con cualquier herramienta de OCR, revisa siempre los datos importantes, como importes, números de cuenta, fechas y nombres. Incluso un resultado con un 99 % de precisión contiene un carácter erróneo de cada cien, y el motor no puede saber que un dígito mal leído en un IBAN importa más que una letra mal leída en una palabra.
+115	Capturas de pantalla: el caso más fácil
+116	Las capturas son ideales para el OCR porque el texto está perfectamente nítido, recto y con iluminación uniforme. Para sacar texto de un vídeo, un PDF bloqueado, una app que no permite copiar o una imagen de un chat, haz una captura (Windows: Win+Mayús+S; Mac: Cmd+Mayús+4; Android e iPhone: la combinación de botones habitual), abre esta página y pulsa Ctrl+V. La captura se lee directamente del portapapeles; nunca necesitas guardarla como archivo. En pantallas de alta resolución, las capturas ya tienen suficientes píxeles por letra, así que los DPI por defecto bastan.
+117	Extraer texto de redes sociales y memes
+118	Las imágenes compartidas en redes sociales suelen estar comprimidas y pueden tener texto sobre fondos recargados o degradados de color. El OCR sigue funcionando bien con rótulos grandes y con capturas de publicaciones, tuits y comentarios. Con el típico texto blanco con contorno negro de los memes, el motor lee las letras siempre que sean grandes y claras; recorta la imagen de debajo para reducir el ruido. El texto muy pequeño en imágenes comprimidas (como una marca de agua o un nombre de usuario en una esquina) puede necesitar más DPI o una imagen de origen más limpia. Si la publicación sigue online, una captura nueva a resolución completa da mejores resultados que volver a guardar varias veces una copia ya comprimida.
+119	Fotos hechas con el móvil
+120	Las fotos de documentos hechas con el móvil varían mucho más que los escaneos. Para mejores resultados, sostén el móvil paralelo a la página para que el texto no se deforme en perspectiva, asegúrate de que toda la página esté enfocada tocando el texto antes de disparar y evita tu propia sombra poniéndote a un lado de la fuente de luz. Apaga el flash con papel brillante, que refleja la luz y crea manchas blancas sin texto. Si disparas en HEIC con un iPhone, puedes subir el HEIC directamente; se decodifica en el navegador. Una cámara de móvil moderna produce 12 megapíxeles o más, que es de sobra: no hace falta subir los DPI para fotos.
+121	Recibos y facturas
+122	Los recibos suelen imprimirse en papel térmico, que se desvanece con el tiempo y tiene poco contraste. Fotografíalos poco después de la compra, sobre un fondo oscuro para que los bordes se vean claros, y alisa el papel enrollado. El resultado del OCR te dará el nombre de la tienda, los artículos y los totales como texto que puedes pegar en una hoja de gastos. Como los importes son críticos, revisa los totales a ojo antes de presentar una nota de gastos.
+123	OCR frente a copiar texto de un PDF
+124	Si un PDF se creó desde un procesador de textos, ya contiene texto real, y basta con seleccionarlo y copiarlo o usar [PDF a texto](/pdf-to-text/), que es más rápido y 100 % preciso. El OCR solo hace falta cuando el PDF es un escaneo o una imagen de texto. Una prueba rápida: intenta seleccionar una palabra en tu visor de PDF. Si puedes resaltar palabras sueltas, el texto ya está ahí; si se resalta toda la página como una imagen, necesitas OCR.
+125	Glosario
+126	**OCR (reconocimiento óptico de caracteres):** convertir imágenes de texto en caracteres legibles por una máquina.
+127	**DPI (puntos por pulgada):** cuántos píxeles se usan por pulgada del original; los valores más altos agrandan las letras pequeñas para el motor.
+128	**Capa de texto:** texto invisible colocado sobre una imagen en un PDF para poder buscarlo y copiarlo.
+129	**LSTM:** el tipo de red neuronal que usa el Tesseract moderno para reconocer líneas de texto completas.
+130	**Binarización:** convertir la imagen a blanco y negro puros antes del reconocimiento.
+131	Privacidad
+132	Cada paso ocurre dentro de la pestaña del navegador. La imagen se decodifica, se edita y se vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, los documentos de identidad, las capturas con datos personales y las fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el wifi una vez cargada la página y la herramienta sigue funcionando.
+133	Muchos servicios de OCR online suben tu imagen a un servidor y la procesan allí, y algunos guardan un historial de conversiones en una cuenta. Aquí, lo único que se descarga es el modelo de idioma, desde nuestro propio sitio, y lo único que se produce es texto en tu pantalla.
+134	Herramientas relacionadas
+135	[OCR a PDF](/ocr-pdf/): PDF buscables a partir de documentos escaneados.
+136	[PDF a Excel](/pdf-to-excel/): tablas de PDF, también escaneados.
+137	[Texto a voz](/text-to-speech/): escucha el texto extraído.
+138	[Recortar imagen](/crop-image/): aísla el texto antes del OCR.
+139	[Lector de códigos QR](/qr-code-scanner/): lee códigos QR en imágenes.
+140	Dónde se procesa tu imagen
+141	En tu navegador, nunca se sube
+142	Sus servidores (subida)
+143	Sus servidores (subida)
+144	Sus servidores (subida)
+145	Cuenta o correo necesarios
+146	Nunca
+147	No para el uso básico
+148	No para el uso básico
+149	No para el uso básico
+150	Límites de uso gratuito
+151	Ninguno: solo los de tu dispositivo
+152	Ver su sitio
+153	Ver su sitio
+154	Ver su sitio
+155	Procesamiento
+156	En tu dispositivo
+157	Subida
+158	Subida
+159	Subida
+160	Idiomas
+161	12 (dos a la vez)
+162	«Varios idiomas»
+163	Muchos (lista en su página)
+164	«Más de 20 idiomas»
+165	Tamaño máximo de archivo
+166	Ninguno (memoria del dispositivo)
+167	Ver su sitio
+168	15 MB
+169	Ver su sitio
+170	Salida en PDF buscable
+171	Sí
+172	No se ofrece en la página
+173	Caso de uso «PDF buscable»
+174	Ver su sitio
+175	Plan de pago para más uso
+176	No
+177	Planes mensuales de 8/10/40 $ indicados
+178	Gratis para uso como «invitado»; planes de pago
+179	Premium para límites mayores
+180	¿Cómo extraigo texto de una imagen gratis?
+181	Suelta la imagen o pega una captura, elige el idioma y haz clic en Extraer texto. Copia el resultado o descárgalo.
+182	¿Se sube mi imagen?
+183	No. El OCR se ejecuta en tu navegador; tu imagen se queda en tu dispositivo.
+184	¿Qué idiomas son compatibles?
+185	Inglés, español, francés, alemán, portugués, italiano, ruso, árabe, hindi, tamil, chino (simplificado) y japonés. Puedes combinar dos.
+186	¿Puede leer letra manuscrita?
+187	Solo de forma limitada. Las mayúsculas claras pueden funcionar; la letra cursiva no se reconoce de forma fiable.
+188	¿Qué precisión tiene?
+189	En capturas y escaneos claros, normalmente más del 98 % de los caracteres son correctos. Las fotos borrosas u oscuras y las fuentes decorativas reducen la precisión.
+190	¿Puedo pasar el OCR a varias imágenes a la vez?
+191	Sí. Suelta varias imágenes y obtén todo el texto junto.
+192	¿Puedo pegar una captura directamente?
+193	Sí. Pulsa Ctrl+V (Cmd+V en Mac) en la página.
+194	¿Puedo convertir un PDF escaneado en texto?
+195	Usa OCR a PDF para PDF de varias páginas; crea un PDF buscable y también puede generar texto.
+196	¿Por qué la primera vez va más lenta?
+197	El modelo de idioma (unos pocos MB) se descarga una vez y queda en caché; las siguientes veces empieza al momento.
+198	¿Funciona en mi móvil?
+199	Sí. Haz una foto o elige una de tu galería en Safari o Chrome para móvil.
+200	¿Cómo convierto una imagen en texto?
+201	Suelta o pega (Ctrl+V) una captura o una foto, elige el idioma y el texto se reconoce en tu dispositivo. Cópialo o guárdalo como TXT o PDF buscable.

@@ -1,0 +1,14 @@
+PASS  |  merge  |  6 pages
+PASS  |  split-ranges  |  sample-1-2.pdf sample-4.pdf
+PASS  |  split-extract  |  3 pages
+PASS  |  split-all  |  5 files
+PASS  |  rotate  |  all 90°
+PASS  |  pagenumbers  |  pages 5
+PASS  |  pdf2jpg  |  5 jpgs
+PASS  |  pdf2ppt  |  5 slides
+PASS  |  pdf2png  |  single png
+PASS  |  jpg2pdf  |  2 pages A4
+PASS  |  compress-lossless  |  8417 bytes
+PASS  |  compress-strong  |  8481 bytes, pages 5
+PASS  |  rename+next  |  my-merged.pdf, 6 follow-on tools, thumbnails shown
+PASS  |  qr-live  |  download available without Create step

@@ -1,0 +1,122 @@
+0	PDF a PowerPoint
+1	Convierte cada página de un PDF en una diapositiva de PowerPoint (PPTX).
+2	PDF a PowerPoint – Convertir PDF a PPT gratis | {brand}
+3	Convierte PDF a PowerPoint (PPTX) gratis: cada página es una diapositiva nítida con el diseño exacto. Sin registro; el archivo no sale de tu equipo.
+4	Convertir PDF a PowerPoint
+5	Selecciona tu PDF.
+6	Elige la calidad de imagen y, si quieres, qué páginas incluir.
+7	Haz clic en Empezar y descarga tu presentación .pptx.
+8	¿Las diapositivas se verán exactamente como mi PDF?
+9	Sí. Cada página se coloca en su propia diapositiva como imagen de alta resolución, así que fuentes, colores y diseño quedan idénticos. El tamaño de la diapositiva sigue la forma de la página del PDF.
+10	¿Puedo editar el texto en PowerPoint?
+11	El contenido de la página es una imagen, así que el texto no se puede editar directamente. Puedes añadir cuadros de texto, notas y animaciones encima, y reordenar o eliminar diapositivas. Para texto editable, usa primero PDF a Word.
+12	¿Se abre en Presentaciones de Google y Keynote?
+13	Sí. El archivo es un PPTX estándar que se abre en PowerPoint, Presentaciones de Google, Keynote y LibreOffice Impress.
+14	PDF a PowerPoint – Diapositivas editables, gratis, sin subir
+15	Convierte PDF a PowerPoint (PPTX) con cuadros de texto editables sobre el diseño original o imágenes exactas. Rango de páginas, HD. Gratis, sin subidas.
+16	Convierte un PDF en diapositivas que de verdad puedes editar
+17	Muchos convertidores de PDF a PowerPoint se limitan a pegar una imagen de cada página en una diapositiva: se ve bien, pero no puedes cambiar ni una palabra. {brand} ofrece **cuadros de texto editables**: cada línea de texto del PDF se convierte en un cuadro de texto real de PowerPoint, con su posición, tamaño y color originales, colocado sobre una imagen de fondo limpia con los gráficos de la página. Cambia títulos, actualiza cifras o traduce una presentación directamente en PowerPoint, Keynote o Presentaciones de Google.
+18	Si solo necesitas presentar el PDF tal cual, elige **Solo imágenes de página** para una copia perfecta al píxel. En ambos casos, la conversión ocurre en tu navegador y el PDF nunca se sube.
+19	Funciones
+20	**Texto editable**: las líneas de texto se convierten en cuadros de texto de PowerPoint con el mismo color y tamaño.
+21	**Diseño conservado**: fondos, imágenes, logotipos y formas se mantienen como una imagen de alta resolución detrás del texto.
+22	**El tamaño de la diapositiva sigue al PDF**: 16:9, 4:3, A4 o cualquier otro.
+23	**Calidad**: fondos a 100, 144 o 216 PPP.
+24	**Rango de páginas**: convierte solo las páginas que necesites, p. ej. 1-3,5.
+25	**Se abre en todas partes**: PowerPoint, Keynote, Presentaciones de Google y LibreOffice Impress.
+26	Cómo convertir PDF a PowerPoint
+27	Suelta tu PDF.
+28	Elige «Cuadros de texto editables» o «Solo imágenes de página».
+29	Elige la calidad y, si quieres, un rango de páginas.
+30	Haz clic en Convertir y abre el PPTX en tu programa de presentaciones.
+31	¿Editable o imágenes? ¿Cuál elijo?
+32	Elige
+33	Cuándo
+34	Cuadros de texto editables
+35	Necesitas cambiar palabras o cifras, o traducir la presentación
+36	Solo imágenes de página
+37	Solo vas a presentarla y necesitas fidelidad exacta, o el PDF usa fuentes poco comunes
+38	En el modo editable, las fuentes se asignan a Arial, Times New Roman o Courier New según la familia tipográfica del PDF, así que las líneas pueden quedar ligeramente más anchas o estrechas que el original. Las negritas y cursivas de fuentes incrustadas pueden necesitar un pequeño retoque.
+39	PDF escaneados
+40	Si el PDF es un escaneo, no tiene capa de texto, así que el convertidor lee la página con OCR integrado (automático por defecto, 12 idiomas) y aun así genera cuadros de texto editables. También puedes pasar antes [OCR a PDF](/ocr-pdf/) si además quieres un PDF con texto buscable.
+41	Consejos
+42	Usa el ajuste Alta (144 PPP) para pantallas normales y Muy alta para proyectores grandes.
+43	Agrupa cuadros de texto en PowerPoint (selecciónalos y pulsa Ctrl+G) para mover bloques juntos.
+44	Si vas a editar mucho texto, [PDF a Word](/pdf-to-word/) da párrafos continuos más fáciles de reescribir.
+45	¿Quieres volver atrás? Exporta desde PowerPoint o usa [PowerPoint a PDF](/powerpoint-to-pdf/).
+46	Usos habituales
+47	Reutilizar diapositivas del PDF de una conferencia en tu propia charla.
+48	Actualizar una presentación antigua cuando solo queda el PDF.
+49	Traducir una presentación a otro idioma.
+50	Convertir informes en diapositivas para una reunión.
+51	Presentar un PDF en la vista del moderador de PowerPoint con notas.
+52	Privacidad
+53	Las presentaciones suelen ser confidenciales: presentaciones para inversores, estrategia interna, productos sin lanzar. Todo el procesamiento se hace en tu dispositivo, así que el archivo nunca sale de él.
+54	Cómo funciona la conversión editable
+55	Para cada página, el convertidor renderiza la página completa a la resolución elegida y lee cada línea de texto con su posición, tamaño y familia tipográfica. Toma una muestra del color de cada línea en la página renderizada, rellena esa zona del fondo con el color de alrededor y coloca un cuadro de texto de PowerPoint con el mismo texto, color y tamaño exactamente en el mismo sitio. El resultado se ve como la diapositiva original, pero cada palabra se puede seleccionar, reescribir, cambiar de estilo o borrar, y gracias al fondo limpio no queda una copia fantasma del texto antiguo detrás de tus cambios.
+56	Fuentes, negrita y cursiva
+57	El convertidor lee la fuente de cada fragmento de texto del PDF y conserva la negrita, la cursiva y la negrita cursiva en los cuadros de texto de PowerPoint. Las fuentes con serifa se asignan a Times New Roman y las monoespaciadas a Courier New, así que las diapositivas mantienen el carácter del original aunque la fuente exacta no esté instalada. En las páginas escaneadas leídas con OCR, el texto se pone en una fuente sin serifa estándar.
+58	Dónde se procesa tu archivo
+59	En tu navegador, nunca se sube
+60	Sus servidores
+61	Sus servidores
+62	Nube de Adobe
+63	Sus servidores
+64	Funciona con el wifi apagado
+65	Sí, tras cargar la página
+66	No
+67	No
+68	No
+69	No
+70	Cuenta o correo necesarios
+71	Nunca
+72	No para el uso básico
+73	No para el uso básico
+74	Inicio de sesión para algunas acciones
+75	No para el uso básico
+76	Límites de uso gratuito
+77	Ninguno: solo los de tu dispositivo
+78	Plan gratuito; Premium para más
+79	Plan gratuito; Premium para más
+80	Plan gratuito; Premium para más
+81	3 tareas/hora, 50 MB por archivo
+82	Cuadros de texto editables
+83	Sí
+84	Ver su sitio
+85	Ver su sitio
+86	Ver su sitio
+87	Ver su sitio
+88	OCR para PDF escaneados
+89	Gratis, integrado (12 idiomas)
+90	Premium
+91	Ver su sitio
+92	Ver su sitio
+93	Ver su sitio
+94	Rango de páginas
+95	Sí
+96	Ver su sitio
+97	Ver su sitio
+98	Ver su sitio
+99	Ver su sitio
+100	¿Puedo editar el texto después de convertir el PDF a PowerPoint?
+101	Sí. En el modo «Cuadros de texto editables», cada línea de texto se convierte en un cuadro de texto de PowerPoint.
+102	¿Se conserva el diseño?
+103	Sí. Fondos, imágenes y formas se mantienen como una imagen de alta resolución detrás del texto editable.
+104	¿Se sube mi PDF?
+105	No. La conversión ocurre en tu navegador.
+106	¿Funciona con Presentaciones de Google y Keynote?
+107	Sí. El PPTX se abre en PowerPoint, Presentaciones de Google, Keynote y LibreOffice Impress.
+108	¿Puedo convertir solo algunas páginas?
+109	Sí. Indica un rango de páginas como 1-3,5.
+110	¿Y los PDF escaneados?
+111	Las páginas escaneadas se leen automáticamente con OCR integrado en 12 idiomas, así que también obtienes cuadros de texto editables. Elige el idioma del documento para mayor precisión.
+112	¿Es gratis?
+113	Sí, sin límites ni marca de agua.
+114	¿Por qué las fuentes se ven un poco distintas?
+115	El texto se pone en una fuente estándar (Arial, Times o Courier) que coincide con el estilo original. Elige «Solo imágenes de página» para un aspecto exacto.
+116	¿Qué tamaño de diapositiva se usa?
+117	El tamaño de la diapositiva coincide con la forma de la página del PDF, p. ej. 16:9 para presentaciones o A4 para documentos.
+118	¿Cómo convierto un PDF a PowerPoint?
+119	Suelta el PDF, elige el modo editable (cuadros de texto sobre el diseño original) o imágenes exactas de página, indica un rango si lo necesitas y convierte. Abre el PPTX en PowerPoint, Keynote o Presentaciones de Google.
+120	¿Cómo paso un PDF a PowerPoint sin perder el formato?
+121	El modo exacto coloca cada página como imagen de alta resolución, así que se ve idéntica pero el texto no es editable. El modo editable mantiene el aspecto usando la página como fondo y añade encima cuadros de texto reales y editables, conservando negritas y cursivas.

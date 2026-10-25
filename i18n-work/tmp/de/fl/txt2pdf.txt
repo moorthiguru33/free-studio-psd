@@ -1,0 +1,140 @@
+0	Texto a PDF
+1	Convierte archivos TXT a PDF.
+2	Convertir texto a PDF online gratis – TXT a PDF en cualquier idioma
+3	Convierte archivos de texto sin formato (.txt) en PDF bien maquetados eligiendo tamaño de página, tamaño de letra y márgenes. Admite muchas escrituras.
+4	Convertir texto a PDF
+5	Selecciona uno o varios archivos .txt.
+6	Elige tamaño de página, tamaño de letra y márgenes.
+7	Descarga el PDF (un ZIP si son varios).
+8	¿Admite texto en tamil, hindi, árabe o chino?
+9	Sí. La fuente Noto adecuada se carga automáticamente para latín, griego, cirílico, árabe, hebreo, escrituras índicas, tailandés, chino, japonés, coreano, armenio, georgiano, etíope, jemer, lao, birmano, cingalés, tibetano y más. Las escrituras complejas se componen con HarfBuzz, así que los grupos consonánticos, las ligaduras y la unión de letras árabes se ven correctamente, y las líneas de derecha a izquierda se alinean a la derecha.
+10	Los archivos de texto sin formato se abren en cualquier sitio, pero se ven poco cuidados y se imprimen de forma irregular. Convertirlos a PDF fija el diseño, el tamaño de página (A4 o Carta) y la fuente para compartir o imprimir.
+11	Convertir notas, registros o fragmentos de código en un PDF imprimible.
+12	Compartir letras de canciones, guiones o poemas con un formato fijo.
+13	Archivar registros de texto en un formato de documento estándar.
+14	Elige un aspecto monoespaciado para código o registros.
+15	Elige A4 o Carta según tu impresora.
+16	¿Qué idiomas son compatibles?
+17	Sí. La fuente Noto adecuada se carga automáticamente para latín, griego, cirílico, árabe, hebreo, escrituras índicas, tailandés, chino, japonés, coreano, armenio, georgiano, etíope, jemer, lao, birmano, cingalés, tibetano y más. Las escrituras complejas se componen con HarfBuzz, así que los grupos consonánticos, las ligaduras y la unión de letras árabes se ven correctamente, y las líneas de derecha a izquierda se alinean a la derecha.
+18	Fuentes y escrituras
+19	El conversor incrusta fuentes Noto para que el texto en muchos idiomas y escrituras se vea correctamente en cualquier dispositivo, aunque el lector no tenga esas fuentes instaladas.
+20	Convertir texto a PDF gratis – TXT, Markdown y RTF a PDF
+21	Convierte archivos TXT, Markdown y RTF a PDF gratis en tu navegador. Tamaño de página y de letra, márgenes, monoespaciado, números de línea y de página.
+22	{tool}: {brand} frente a Smallpdf, iLovePDF y Online2PDF
+23	Convierte texto a PDF online, gratis
+24	Este conversor gratuito de texto a PDF convierte archivos .txt sin formato, Markdown (.md) y texto enriquecido (.rtf) en documentos PDF limpios y con texto buscable directamente en tu navegador. Suelta un archivo o un lote entero, elige el tamaño de página, el tamaño de letra, los márgenes y la orientación, y descarga un solo PDF o un ZIP. No hay subidas, ni registro, ni marca de agua, ni límite diario, y funciona en Windows, Mac, Linux, ChromeOS, iPhone y Android.
+25	Cómo convertir un archivo TXT a PDF
+26	Suelta tus archivos .txt, .md o .rtf en la página, o toca para elegirlos.
+27	Abre las opciones: elige A4, Carta (EE. UU.), Legal o A5, vertical u horizontal, el tamaño de letra (6–24 pt) y el margen en milímetros.
+28	Para código, registros o tablas de texto elige *Mantener las líneas exactas – monoespaciado* y, si quieres, activa los números de línea.
+29	Deja activado *Números de página en el pie* en los documentos que vayas a imprimir o compartir.
+30	Pulsa Convertir y descarga el PDF, o un ZIP si has convertido varios archivos.
+31	Dos diseños: párrafos ajustados o líneas exactas
+32	El texto sin formato no tiene formato propio, así que el conversor ofrece dos formas de maquetarlo. *Ajustar párrafos* trata las líneas en blanco como saltos de párrafo y ajusta las palabras al ancho de la página con una fuente proporcional: ideal para notas, cartas, redacciones, correos y conversaciones de chat exportadas, porque el PDF se lee como un documento normal. *Mantener las líneas exactas – monoespaciado* conserva cada salto de línea y cada espacio tal como se escribieron con una fuente tipo Courier, que es lo que quieres para código fuente, archivos de configuración, registros de servidor, arte ASCII y tablas alineadas por columnas. Las líneas más anchas que la página pasan a la línea siguiente en lugar de cortarse, así que no se pierde nada.
+33	Markdown y RTF se convierten con su formato
+34	Los archivos Markdown se representan con Markdown al estilo de GitHub: títulos, negrita y cursiva, listas con viñetas y numeradas, casillas de listas de tareas, citas, bloques de código, líneas horizontales, tablas e imágenes incrustadas como data URI. Los archivos RTF de WordPad, TextEdit y procesadores de texto antiguos conservan sus párrafos, la negrita y los caracteres especiales. Si quieres más control sobre la salida de Markdown, la herramienta específica [Markdown a PDF](/markdown-to-pdf/) tiene opciones adicionales.
+35	¿Qué tamaño de página y de letra elijo?
+36	Uso
+37	Tamaño de página
+38	Tamaño de letra
+39	Margen
+40	Imprimir en Europa, India, Asia, Australia
+41	A4
+42	11 pt
+43	20 mm
+44	Imprimir en EE. UU. y Canadá
+45	Carta (EE. UU.)
+46	11–12 pt
+47	20–25 mm
+48	Listados de código y registros
+49	A4 o Carta, horizontal
+50	8–9 pt monoespaciado
+51	10–15 mm
+52	Leer en el móvil o un lector electrónico
+53	A5
+54	10–11 pt
+55	10 mm
+56	Documentos legales (EE. UU.)
+57	Legal
+58	12 pt
+59	25 mm
+60	Letra grande para leer con facilidad
+61	A4 o Carta
+62	14–16 pt
+63	20 mm
+64	La orientación horizontal ayuda con líneas de registro y tablas anchas porque caben más caracteres en cada línea antes del ajuste; a 8 pt monoespaciado en A4 horizontal caben unos 150 caracteres a lo ancho de la página.
+65	Unicode, acentos y otras escrituras
+66	El conversor incrusta fuentes Noto según haga falta, así que las letras latinas con acentos, el griego, el cirílico, el árabe, el hebreo, el devanagari, el tamil, el tailandés, el chino, el japonés y el coreano aparecen correctamente en el PDF en lugar de como cuadros vacíos. Los archivos de texto deben guardarse en UTF-8, la opción por defecto hoy en el Bloc de notas, TextEdit, VS Code y la mayoría de editores. Si un archivo muy antiguo muestra caracteres raros, ábrelo en un editor, elige *Guardar como… UTF-8* y vuelve a convertirlo.
+67	¿El PDF tiene texto buscable?
+68	Sí. El texto se escribe en el PDF como texto real, no como imagen, así que puedes buscarlo con Ctrl+F, seleccionarlo y copiarlo, y los lectores de pantalla pueden leerlo en voz alta. Los archivos son diminutos: un documento de texto de 100 páginas suele ocupar mucho menos de un megabyte. Para combinar el resultado con otros documentos usa [Unir PDF](/merge-pdf/); para reducir un PDF con imágenes usa [Comprimir PDF](/compress-pdf/).
+69	Texto a PDF en iPhone, Android y Mac
+70	En el móvil, abre esta página en Safari o Chrome, toca la zona para soltar archivos y elige un archivo .txt desde Archivos o Descargas. El PDF se guarda en tus descargas y se puede compartir directamente por correo o WhatsApp. En un Mac también puedes imprimir a PDF desde TextEdit, pero así no controlas los números de línea, el diseño monoespaciado ni la conversión por lotes; en Windows, *Microsoft Print to PDF* funciona con un archivo cada vez. Esta herramienta convierte decenas de archivos de una vez y pone a cada PDF el nombre de su archivo de origen.
+71	Usos habituales
+72	Convertir actas de reuniones, diarios y listas de tareas en PDF imprimibles.
+73	Archivar registros de servidor o conversaciones de chat exportadas en un formato que cualquiera puede abrir.
+74	Imprimir código fuente con números de línea para una revisión de código o la entrega de un examen.
+75	Entregar un README o documentación en Markdown como PDF adjunto.
+76	Convertir cartas antiguas en RTF a PDF antes de jubilar un ordenador.
+77	Hacer un PDF de un libro electrónico en texto plano o de un archivo de letras para leerlo en una tableta.
+78	Consejos para el mejor resultado
+79	Separa los párrafos con una línea en blanco: en el modo de ajuste, los saltos de línea simples se mantienen como saltos de línea dentro del párrafo.
+80	Para columnas alineadas con tabuladores usa el diseño monoespaciado; los tabuladores se convierten en cuatro espacios.
+81	Las líneas únicas muy largas (por ejemplo, JSON minificado) se leen mejor tras darles formato con [Formateador de JSON](/json-formatter/).
+82	¿Necesitas lo contrario? [PDF a texto](/pdf-to-text/) extrae el texto de cualquier PDF.
+83	Privacidad
+84	Todo ocurre dentro de la pestaña del navegador. Tus archivos se leen de tu disco a la memoria, se procesan allí y se guardan directamente en tu dispositivo. Nunca se suben, se almacenan ni se registran, y la herramienta sigue funcionando sin conexión una vez cargada la página, así que es segura para notas privadas, registros, contratos, código y cualquier cosa que no entregarías al servidor de un desconocido.
+85	Dónde se procesa tu archivo
+86	En tu navegador, nunca se sube
+87	Sus servidores (subida)
+88	Sus servidores (subida)
+89	Sus servidores (subida)
+90	Cuenta necesaria
+91	Nunca
+92	Ver su sitio
+93	Ver su sitio
+94	Ver su sitio
+95	TXT, Markdown y RTF
+96	Sí
+97	Ver su sitio
+98	Ver su sitio
+99	Ver su sitio
+100	Diseño monoespaciado con números de línea
+101	Sí
+102	Ver su sitio
+103	Ver su sitio
+104	Ver su sitio
+105	Números de página, orientación, márgenes
+106	Sí
+107	Ver su sitio
+108	Ver su sitio
+109	Ver su sitio
+110	Conversión por lotes en ZIP
+111	Sí
+112	Ver su sitio
+113	Ver su sitio
+114	Ver su sitio
+115	Funciona sin conexión
+116	Sí
+117	Ver su sitio
+118	Ver su sitio
+119	Ver su sitio
+120	¿Cómo convierto un archivo de texto a PDF gratis?
+121	Suelta el archivo .txt en esta página, ajusta si quieres el tamaño de página, el tamaño de letra y los márgenes, y pulsa Convertir. El PDF se descarga al instante, sin cuenta ni marca de agua.
+122	¿Puedo convertir varios archivos TXT a PDF a la vez?
+123	Sí. Selecciona o suelta tantos archivos como quieras; cada uno se convierte en su propio PDF y se descargan juntos en un ZIP.
+124	¿Conserva mis saltos de línea y espacios?
+125	Elige *Mantener las líneas exactas – monoespaciado* para conservar exactamente cada salto de línea y cada espacio. El diseño de ajuste por defecto mantiene los párrafos y saltos de línea, pero usa una fuente proporcional.
+126	¿Puedo añadir números de línea a un listado de código?
+127	Sí. Elige el diseño monoespaciado y marca *Números de línea*. Los números se alinean a la derecha para que el código quede en una columna recta.
+128	¿Admite Markdown y RTF?
+129	Sí. Markdown se representa con títulos, listas, tablas, bloques de código e imágenes; RTF conserva los párrafos, la negrita y los caracteres especiales.
+130	¿Funciona con texto en chino, árabe o hindi?
+131	Sí. Las fuentes para la mayoría de las escrituras del mundo se incrustan automáticamente, siempre que el archivo de texto esté guardado en UTF-8.
+132	¿El texto del PDF se puede buscar y seleccionar?
+133	Sí. Es texto PDF real, así que puedes buscarlo, seleccionarlo y copiarlo, y los lectores de pantalla pueden leerlo.
+134	¿Cómo convierto un TXT a PDF en el iPhone?
+135	Abre esta página en Safari, toca la zona para soltar archivos, elige el archivo en la app Archivos y toca Convertir. El PDF se guarda en Descargas.
+136	¿Se suben mis archivos?
+137	No. La conversión se hace por completo en tu navegador y los archivos nunca salen de tu dispositivo.
+138	¿Hay límite de tamaño o de páginas?
+139	No hay un límite fijo; los archivos muy grandes solo están limitados por la memoria de tu dispositivo. Los archivos de texto de varios megabytes se convierten en segundos.

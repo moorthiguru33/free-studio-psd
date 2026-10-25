@@ -1,0 +1,102 @@
+0	PDF a texto
+1	Extrae el texto sin formato de un PDF.
+2	Convertir PDF a texto online gratis – Extrae texto de PDF
+3	Extrae todo el texto de un PDF a un archivo .txt, en orden de lectura y con los párrafos unidos. Gratis, sin subidas y sin registro.
+4	PDF a texto
+5	Selecciona tu PDF.
+6	Elige si quieres marcar los saltos de página.
+7	Descarga el archivo de texto.
+8	Mi PDF es un escaneo: ¿no hay texto?
+9	Usa antes OCR a PDF para reconocer el texto.
+10	El texto sin formato es el formato más fácil de buscar, analizar, traducir o pegar en otra app. PDF a texto saca cada palabra en orden de lectura, sin el formato.
+11	Pegar el texto de un documento en un traductor o un asistente de IA.
+12	Analizar texto en una hoja de cálculo o un script.
+13	Hacer un documento accesible para lectores de pantalla o herramientas de texto plano.
+14	Para títulos y listas, PDF a Markdown conserva más estructura.
+15	Los PDF escaneados necesitan OCR.
+16	¿Y si mi PDF está escaneado?
+17	Usa antes OCR a PDF para reconocer el texto.
+18	Usos del texto sin formato
+19	Los archivos de texto son diminutos, se abren en cualquier dispositivo y son ideales para contar palabras, traducir, indexar búsquedas, analizar datos o pegar en asistentes de IA. Quitar el formato también ayuda a los lectores de pantalla y las herramientas de accesibilidad.
+20	Orden de lectura
+21	El texto se extrae en orden de lectura y las líneas se unen en párrafos, pero los diseños de varias columnas pueden necesitar pequeñas correcciones.
+22	PDF a texto – Extrae el texto de un PDF (TXT) gratis
+23	Convierte PDF a texto sin formato (.txt) en tu navegador: líneas y párrafos limpios, marcas de salto de página opcionales, Unicode. Gratis, sin subidas.
+24	{tool}: {brand} frente a iLovePDF, Smallpdf y Adobe
+25	Convierte PDF a texto sin formato
+26	Saca todo el texto de un PDF como un simple archivo .txt: ideal para copiarlo en otros programas, pasarlo a herramientas de análisis o de IA, traducirlo, mejorar la accesibilidad, indexar búsquedas o simplemente leerlo en cualquier dispositivo. Las líneas y los párrafos se reconstruyen a partir del diseño del PDF; todos los idiomas y sistemas de escritura se conservan en Unicode.
+27	Cómo usarlo
+28	Suelta el PDF.
+29	Marca «Marcar saltos de página» si quieres separadores entre páginas.
+30	Pulsa Convertir y descarga el archivo .txt.
+31	PDF escaneados
+32	La extracción lee la capa de texto del PDF. Las páginas escaneadas son imágenes sin texto, así que producen páginas vacías. Ejecuta antes [OCR a PDF](/ocr-pdf/) y después extrae.
+33	Por qué el espaciado o el orden pueden parecer raros
+34	Los PDF guardan el texto como fragmentos posicionados, no como párrafos. El extractor reconstruye líneas y párrafos a partir de sus posiciones. Los diseños de varias columnas, las tablas, las notas al pie y los recuadros laterales pueden salir en un orden distinto al de lectura, y las palabras partidas con guion al final de línea siguen partidas. Las tablas se extraen mejor con [PDF a Excel](/pdf-to-excel/) o [PDF a CSV](/pdf-to-csv/).
+35	Marcar saltos de página
+36	Marca *Marcar saltos de página* para insertar un separador claro en cada página, así podrás encontrar dónde empieza la página 12 o citar con números de página.
+37	Usos del texto sin formato
+38	Pegarlo en ChatGPT, herramientas de traducción o un contador de palabras: consulta [Contador de palabras](/word-counter/).
+39	Importarlo en una hoja de cálculo, una base de datos o un índice de búsqueda.
+40	Leerlo en lectores electrónicos antiguos y lectores de pantalla.
+41	Comparar dos versiones con el [Comparador de textos](/text-diff-checker/).
+42	Guardar una copia de archivo ligera y a prueba de futuro.
+43	Funciona con casi cualquier PDF
+44	La herramienta abre PDF de Word, Google Docs, LibreOffice, escáneres, móviles y programas de diseño, incluidos archivos PDF 1.0–2.0 con formularios, anotaciones y fuentes incrustadas. Los archivos protegidos con contraseña de *apertura* deben desbloquearse antes con [Desbloquear PDF](/unlock-pdf/) (necesitas la contraseña); los que solo tienen restricciones de permisos suelen abrirse directamente. También funcionan documentos grandes de cientos de páginas: el límite es la memoria de tu dispositivo, normalmente varios cientos de megabytes en un portátil y unos 100 MB en un móvil.
+45	Windows, Mac, iPhone y Android
+46	No hay nada que instalar. Funciona en Chrome, Edge, Firefox y Safari en Windows, macOS, Linux, ChromeOS, Android e iOS. En el móvil, toca la zona para soltar archivos y elige el archivo desde Archivos, Google Drive o las descargas del correo; el resultado se guarda en Descargas o en la app Archivos y se puede compartir directamente por WhatsApp, Gmail o Drive.
+47	Problemas habituales y soluciones
+48	**«El archivo está cifrado»**: quita la contraseña de apertura con Desbloquear PDF y vuelve a intentarlo.
+49	**El archivo es un marcador de posición de la nube**: descárgalo antes por completo desde OneDrive, iCloud o Drive.
+50	**Una descarga dañada o incompleta**: pásala por [Reparar PDF](/repair-pdf/).
+51	**Muy lento en el móvil**: los PDF escaneados grandes necesitan mucha memoria; cierra otras pestañas o divide antes el archivo con [Dividir PDF](/split-pdf/).
+52	**La descarga no empezó**: algunos navegadores integrados en apps (Instagram, Facebook) bloquean las descargas; abre la página en Chrome o Safari.
+53	Combínalo con otras herramientas PDF
+54	La mayoría de tareas requieren más de un paso, y todas las herramientas de Fileopia funcionan igual, así que puedes encadenarlas sin subir nada. Un flujo típico: escanea o convierte las páginas, [únelas](/merge-pdf/) en un solo archivo, ordénalas con [Organizar PDF](/organize-pdf/), haz buscable el texto escaneado con OCR, añade [números de página](/add-page-numbers/) y, por último, [comprime](/compress-pdf/) el resultado para enviarlo por correo. Cada paso descarga un archivo nuevo y deja intacto el original, así que siempre puedes volver atrás y probar otros ajustes. Consejo: pon a cada resultado un nombre claro como *contrato-firmado-comprimido.pdf* para distinguir las versiones más tarde.
+55	Privacidad
+56	Todo ocurre dentro de la pestaña del navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa allí y se guarda directamente en tu dispositivo. Nunca se sube, se almacena ni se registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, lo que la hace adecuada para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+57	Dónde se procesa tu archivo
+58	En tu navegador, nunca se sube
+59	Sus servidores (subida)
+60	Sus servidores (subida)
+61	Sus servidores (subida)
+62	Cuenta necesaria
+63	Nunca
+64	Ver su sitio
+65	Ver su sitio
+66	Ver su sitio
+67	Sin subidas: funciona en tu dispositivo
+68	Sí
+69	Ver su sitio
+70	Ver su sitio
+71	Ver su sitio
+72	Marcas de salto de página, UTF-8
+73	Sí
+74	Ver su sitio
+75	Ver su sitio
+76	Ver su sitio
+77	Gratis sin registro
+78	Sí
+79	Ver su sitio
+80	Ver su sitio
+81	Ver su sitio
+82	¿Cómo convierto un PDF a texto?
+83	Suelta el PDF y descarga el .txt.
+84	¿Conserva el formato?
+85	No: el texto sin formato no tiene fuentes ni diseño; para eso usa PDF a Word.
+86	¿Por qué mi archivo de texto está vacío?
+87	El PDF está escaneado; ejecuta antes el OCR.
+88	¿Es compatible con hindi, árabe o chino?
+89	Sí, en Unicode, si el PDF tiene un mapeo de texto correcto.
+90	¿Puedo marcar los números de página?
+91	Sí, marca «Marcar saltos de página».
+92	¿La codificación es UTF-8?
+93	Sí.
+94	¿Puedo extraer tablas?
+95	Usa PDF a Excel o a CSV.
+96	¿Es gratis?
+97	Sí.
+98	¿Se suben los archivos?
+99	No.
+100	¿Funciona en móviles?
+101	Sí.

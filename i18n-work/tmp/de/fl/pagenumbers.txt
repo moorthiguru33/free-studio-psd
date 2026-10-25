@@ -1,0 +1,144 @@
+0	Numerar páginas
+1	Numera las páginas de tu PDF.
+2	Numerar páginas de un PDF online gratis – Posición e inicio | {brand}
+3	Numera las páginas de cualquier PDF: elige posición, tamaño de letra y número inicial. Gratis, sin marca de agua ni registro, en tu navegador.
+4	Añadir números de página a un PDF
+5	Selecciona tu PDF.
+6	Elige la posición y el número inicial.
+7	Haz clic en Empezar y descarga el PDF numerado.
+8	¿Puedo empezar por un número distinto de 1?
+9	Sí, indica cualquier número inicial en las opciones.
+10	Los números de página hacen que los documentos largos sean más fáciles de recorrer, citar e imprimir: los revisores pueden decir «ver página 14» en lugar de desplazarse. {brand} estampa los números directamente en cada página en tu propio dispositivo, así que manuscritos, expedientes legales e informes siguen siendo privados.
+11	Numerar una tesis, un TFG o un manuscrito antes de entregarlo.
+12	Preparar expedientes judiciales o anexos de contratos que deben citarse por página.
+13	Añadir números a un informe unido para que se pueda seguir el índice.
+14	Numerar apuntes impresos para poder volver a ordenar las hojas sueltas.
+15	Empieza por otro número (por ejemplo, 3) si la portada y el índice no deben contarse.
+16	Abajo en el centro es la opción más legible para documentos impresos; abajo a la derecha encaja peor en la encuadernación a doble cara, así que prueba con una página.
+17	Une primero todas las partes y numera una sola vez para que la secuencia sea continua.
+18	¿Necesitas «Página 3 de 20» o fechas? Usa Encabezado y pie de página.
+19	¿Puedo no numerar la portada?
+20	Ajusta el número inicial para que el recuento cuadre con tu maquetación, o separa la portada, numera el resto y vuelve a unirlo.
+21	¿Podré editar los números después?
+22	Se dibujan en el contenido de la página, así que se imprimen bien en cualquier sitio; para cambiarlos, vuelve a numerar el archivo original.
+23	Numerar páginas de un PDF – Gratis y con formato propio
+24	Numera un PDF: 6 posiciones, «Página 1 de N», números romanos, texto propio, saltar portada, rango y páginas enfrentadas. Gratis y sin subidas.
+25	Numera las páginas de tu PDF exactamente como necesitas
+26	Los números de página hacen útiles los documentos largos: los lectores pueden citar la «página 14», las copias impresas se pueden volver a ordenar y el índice por fin sirve para algo. {brand} añade números de página como texto real a cualquier PDF en tu navegador, sin subidas, sin marca de agua y sin cuenta. Tú decides dónde van, cómo se ven y qué páginas los llevan.
+27	Todas las opciones
+28	**Seis posiciones**: arriba o abajo, a la izquierda, en el centro o a la derecha.
+29	**Formatos**: 1, 1 / N, Página 1, Página 1 de N, - 1 -, números romanos (i, ii, iii) o un texto totalmente personalizado con {n} para el número y {N} para el total, p. ej. «Informe 2026 – {n}/{N}».
+30	**Número inicial**: empieza en 0, en 1 o en cualquier número para continuar la numeración de un volumen anterior.
+31	**Saltar primeras páginas**: deja sin numerar la portada y la página de título; la numeración empieza después.
+32	**Rango de páginas**: numera solo, por ejemplo, las páginas 3-20.
+33	**Páginas enfrentadas**: refleja las posiciones izquierda/derecha en las páginas pares para documentos impresos y encuadernados.
+34	**Fuente, tamaño, color y margen**: Helvetica, Times, Courier o Helvetica Bold en cualquier color.
+35	Cómo añadir números de página a un PDF
+36	Suelta tu PDF en la página.
+37	Elige una posición y un formato, e indica el número inicial.
+38	Abre «Más opciones» para saltar la portada, limitar el rango, cambiar fuente, color o margen, o activar las páginas enfrentadas.
+39	Haz clic en Añadir números de página y descarga. El resultado indica cuántas páginas se han numerado.
+40	¿Qué formato debo usar?
+41	Documento
+42	Formato recomendado
+43	Informes, tesis, manuales
+44	Página 1 de N, abajo en el centro o a la derecha
+45	Expedientes legales y anexos
+46	Texto propio como «Anexo A – {n}» (o usa la numeración Bates)
+47	Preliminares (prólogo, índice)
+48	Números romanos i, ii, iii
+49	Folletos impresos
+50	Páginas enfrentadas, esquina exterior inferior
+51	Diapositivas exportadas a PDF
+52	1 / N, abajo a la derecha
+53	Saltar la portada y numerar los preliminares aparte
+54	Los documentos académicos y profesionales suelen numerar el prólogo con números romanos y el texto principal con números arábigos empezando por 1. Hazlo en dos pasadas: primero numera los preliminares con el formato romano y un rango (p. ej. 2-6); después vuelve a pasar la herramienta sobre el resultado con el formato arábigo, un rango que empiece en el primer capítulo (p. ej. 7-) y número inicial 1. Como ambas pasadas ocurren en tu navegador, se tarda unos segundos.
+55	Páginas enfrentadas para imprimir
+56	En un documento encuadernado, las páginas impares quedan a la derecha y las pares a la izquierda. Los números quedan mejor en el borde exterior: a la derecha en las impares y a la izquierda en las pares. Marca **Páginas enfrentadas** y elige una posición a la derecha: las páginas pares reciben automáticamente la posición reflejada a la izquierda. Es como se numeran los libros maquetados profesionalmente.
+57	¿Por qué numerar en el PDF y no en el archivo original?
+58	A menudo ya no tienes el archivo de Word o InDesign, o el PDF combina varias fuentes: un anexo escaneado, una hoja de cálculo, una carta firmada. Después de [unir PDF](/merge-pdf/), numerar el PDF final es la única forma de obtener una secuencia continua. Los números se añaden como texto real, así que se pueden buscar, se imprimen nítidos y no afectan al resto de la página.
+59	Numeración legal: sellos Bates
+60	Los despachos y juzgados suelen exigir números Bates (un prefijo más una secuencia con ceros a la izquierda, como ABC000123) en todos los documentos de un caso. Para eso, usa nuestra herramienta específica de [numeración Bates](/bates-numbering/), que gestiona prefijos, sufijos y numeración continua entre muchos archivos.
+61	Consejos
+62	Revisa el margen si tu documento ya tiene pie de página, para que los números no se superpongan.
+63	Usa un color gris para unos números discretos que no distraigan del contenido.
+64	Para encabezados y pies con fechas, títulos u otro texto, usa [Encabezado y pie de página](/pdf-header-footer/).
+65	¿Páginas escaneadas? Los números funcionan igual; pasa también [OCR a PDF](/ocr-pdf/) si quieres que el documento se pueda buscar.
+66	Usos habituales
+67	Numerar tesis, TFG y trabajos según los requisitos de la universidad.
+68	Preparar expedientes judiciales y anexos.
+69	Añadir números a informes unidos y dosieres para el consejo.
+70	Numerar manuales, catálogos y folletos impresos.
+71	Facilitar las referencias en archivos escaneados.
+72	Dónde se procesa tu archivo
+73	En tu navegador, nunca se sube
+74	Sus servidores
+75	Sus servidores
+76	Nube de Adobe
+77	Sus servidores
+78	Funciona con el wifi apagado
+79	Sí, tras cargar la página
+80	No
+81	No
+82	No
+83	No
+84	Cuenta o correo necesarios
+85	Nunca
+86	No para el uso básico
+87	No para el uso básico
+88	Inicio de sesión para algunas acciones
+89	No para el uso básico
+90	Límites de uso gratuito
+91	Ninguno: solo los de tu dispositivo
+92	Plan gratuito; Premium para más
+93	Plan gratuito; Premium para más
+94	Plan gratuito; Premium para más
+95	3 tareas/hora, 50 MB por archivo
+96	Texto de formato propio
+97	Sí ({n}, {N})
+98	Ver su sitio
+99	Ver su sitio
+100	Ver su sitio
+101	Ver su sitio
+102	Saltar primeras páginas / rango
+103	Sí
+104	Sí
+105	Ver su sitio
+106	Ver su sitio
+107	Ver su sitio
+108	Páginas enfrentadas
+109	Sí
+110	Sí
+111	Ver su sitio
+112	Ver su sitio
+113	Ver su sitio
+114	Números romanos
+115	Sí
+116	Ver su sitio
+117	Ver su sitio
+118	Ver su sitio
+119	Ver su sitio
+120	¿Cómo añado números de página a un PDF?
+121	Suelta aquí el PDF, elige una posición y un formato y haz clic en Añadir números de página. Descarga el archivo numerado.
+122	¿Puedo poner números del tipo «Página 1 de 10»?
+123	Sí. Elige «Página 1 de N» o crea tu propio texto con {n} y {N}.
+124	¿Puedo saltar la portada?
+125	Sí. En Más opciones, pon «Saltar primeras páginas» en 1 (o más).
+126	¿Puedo empezar la numeración en otro número?
+127	Sí. Pon cualquier número inicial, p. ej. 25 para continuar un volumen anterior.
+128	¿Puedo numerar solo algunas páginas?
+129	Sí. Indica un rango de páginas como 3-20.
+130	¿Puedo usar números romanos?
+131	Sí. Elige el formato «i, ii, iii».
+132	¿Qué son las páginas enfrentadas?
+133	En documentos encuadernados, el número se coloca en el borde exterior: a la derecha en las páginas impares y a la izquierda en las pares.
+134	¿Se sube mi documento?
+135	No. Los números se añaden en tu navegador; el archivo nunca sale de tu dispositivo.
+136	¿Puedo cambiar la fuente y el color?
+137	Sí: Helvetica, Times, Courier o Helvetica Bold, en cualquier color y tamaño.
+138	¿Añade marca de agua?
+139	No. El resultado sale limpio.
+140	¿Cómo numero las páginas de un PDF gratis?
+141	Suelta el PDF, elige una posición y un formato como «Página 1 de N», si quieres salta la portada o fija el número inicial, y descarga. Gratis y sin marca de agua.
+142	¿Cómo hago que la numeración empiece en la página 3?
+143	Pon «Saltar primeras páginas» en 2 y elige si la numeración empieza en 1 o continúa desde 3.

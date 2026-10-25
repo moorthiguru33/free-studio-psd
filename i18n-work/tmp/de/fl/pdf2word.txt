@@ -1,0 +1,123 @@
+0	PDF a Word
+1	Convierte el texto de un PDF en un documento de Word editable.
+2	Convertir PDF a Word – Pasar PDF a DOCX gratis | {brand}
+3	Convierte PDF a Word (DOCX) editable gratis. Sin registro ni límites: tu documento se convierte en tu navegador y nunca se sube.
+4	Convertir PDF a Word
+5	Selecciona tu PDF.
+6	Haz clic en Empezar.
+7	Descarga tu archivo DOCX editable.
+8	¿Se conserva el diseño?
+9	El convertidor reconstruye párrafos, títulos, columnas y tablas página a página, con OCR para las páginas escaneadas. Los diseños muy complejos pueden necesitar algún retoque.
+10	Convertir un PDF a Word te permite reutilizar y editar el texto en Microsoft Word, Documentos de Google o LibreOffice. {brand} extrae el texto de cada página a un archivo DOCX directamente en tu dispositivo. Funciona mejor con PDF de texto, como cartas, artículos e informes.
+11	Reutilizar el texto de un informe o una carta antiguos sin volver a teclearlo.
+12	Editar un documento cuando ya no tienes el archivo de Word original.
+13	Copiar párrafos en un documento o una presentación nuevos.
+14	Las tablas, columnas e imágenes complejas pueden necesitar algún retoque manual.
+15	¿PDF escaneado? El OCR integrado (modo Automático) lee las páginas que no tienen capa de texto.
+16	Si solo necesitas texto plano, PDF a texto es aún más rápido.
+17	¿Puedo abrir el resultado en Documentos de Google?
+18	Sí. Los archivos DOCX se abren en Microsoft Word, Documentos de Google, LibreOffice y WPS Office.
+19	Convertir PDF a Word – Gratis, privado y con OCR
+20	Convierte PDF a Word (DOCX) editable gratis en tu navegador. OCR gratis para escaneos, diseño fluido o exacto, 12 idiomas de OCR. Sin subidas ni registro.
+21	Por qué este convertidor de PDF a Word es diferente
+22	La mayoría de los convertidores de PDF a Word te piden subir tu documento a un servidor remoto, esperar en una cola y después descargar el resultado. Para un folleto no pasa nada, pero no para un contrato, una nómina, un informe médico o el borrador de una tesis. {brand} hace toda la conversión dentro de la pestaña de tu navegador. El PDF se analiza con PDF.js, los fragmentos de texto, las fuentes, las imágenes y las tablas se reconstruyen en un archivo .docx real y el archivo se te devuelve directamente. No se envía nada a ningún sitio.
+23	Trabajar en local también elimina los límites habituales. No hay contador de tareas diarias, ni avisos de «mejora tu plan para convertir más páginas», ni marca de agua. El único límite es la memoria del dispositivo que usas: un portátil moderno maneja sin problemas documentos de varios cientos de páginas.
+24	**OCR gratis para PDF escaneados**: iLovePDF marca el OCR como opción Premium; aquí viene incluido y se ejecuta en tu dispositivo.
+25	**Dos modos de diseño**: *Texto fluido* reconstruye párrafos, columnas y tablas normales que puedes editar libremente; *Diseño exacto* reproduce cada página con precisión mediante cuadros de texto posicionados.
+26	**12 idiomas de OCR**, entre ellos inglés, español, francés, alemán, portugués, italiano, ruso, árabe, hindi, tamil, chino simplificado y japonés.
+27	**Rangos de páginas y lotes**: convierte solo páginas como 2-5, o suelta varios PDF a la vez y obtén un ZIP con los archivos de Word.
+28	**Otros formatos**: ¿necesitas RTF u ODT para LibreOffice, WordPad o software antiguo? Usa [PDF a RTF](/pdf-to-rtf/) o [PDF a ODT](/pdf-to-odt/).
+29	Texto fluido o diseño exacto: ¿cuál elijo?
+30	Elige **Texto fluido** cuando quieras editar el documento: reescribir párrafos, arreglar un CV, actualizar un informe o copiar secciones en otro archivo. Las líneas se unen en párrafos, los títulos se detectan por el tamaño y el grosor de la letra, las páginas con varias columnas se leen en el orden correcto y las tablas con líneas se convierten en tablas reales de Word. El texto se recoloca con naturalidad mientras escribes.
+31	Elige **Diseño exacto** cuando el documento deba verse idéntico al PDF: formularios, folletos, certificados o cualquier cosa con un diseño cuidado. Cada línea se coloca en su posición original, así que la página se ve igual en Word, pero editar bloques grandes de texto es menos cómodo porque cada línea va en su propio cuadro.
+32	Si dudas, prueba primero Texto fluido; la conversión tarda segundos, así que comparar ambos no cuesta nada.
+33	Convertir PDF escaneados con OCR
+34	Un PDF escaneado contiene imágenes de páginas en lugar de texto, así que un convertidor normal produce un archivo de Word vacío o un documento lleno de imágenes. Con el OCR en **Automático**, {brand} revisa cada página: las que ya tienen capa de texto se convierten directamente y las que solo son imagen se reconocen con Tesseract ejecutándose en WebAssembly. Elige **Todas las páginas** para forzar el reconocimiento en todas, por ejemplo en un PDF con una capa de texto oculta de mala calidad.
+35	Para obtener los mejores resultados de OCR, escanea a 300 PPP, mantén las páginas rectas y elige el idioma del documento antes de empezar. El reconocimiento se hace en tu dispositivo, así que un escaneo de 20 páginas puede tardar un minuto en el móvil, pero tu documento nunca sale de él.
+36	Consejos para un documento de Word más limpio
+37	Usa el PDF digital original siempre que puedas: los PDF exportados se convierten con mucha más precisión que los escaneos o las fotos.
+38	Si un PDF está protegido con contraseña, quítala primero con [Desbloquear PDF](/unlock-pdf/) (necesitas conocerla).
+39	¿Solo necesitas algunas páginas? Escribe un rango como 3-7 en el campo Páginas en lugar de convertir todo el documento.
+40	Después de editar, vuelve a convertir el documento en PDF con [Word a PDF](/word-to-pdf/).
+41	Qué se convierte
+42	Elemento
+43	Texto fluido
+44	Diseño exacto
+45	Párrafos y títulos
+46	Reconstruidos como párrafos editables
+47	Líneas posicionadas
+48	Negrita, cursiva, tamaño de letra, color
+49	Se conservan
+50	Se conservan
+51	Tablas con líneas
+52	Tablas reales de Word
+53	Texto posicionado
+54	Imágenes y fotos
+55	Incrustadas
+56	Incrustadas en su posición original
+57	Páginas con varias columnas
+58	Leídas en orden de columnas
+59	Columnas mantenidas visualmente
+60	Páginas escaneadas
+61	Texto por OCR
+62	Texto por OCR
+63	Dónde se procesa tu archivo
+64	En tu navegador, nunca se sube
+65	Sus servidores
+66	Sus servidores
+67	Nube de Adobe
+68	Sus servidores
+69	Funciona con el wifi apagado
+70	Sí, tras cargar la página
+71	No
+72	No
+73	No
+74	No
+75	Cuenta o correo necesarios
+76	Nunca
+77	No para el uso básico
+78	No para el uso básico
+79	Inicio de sesión para algunas acciones
+80	No para el uso básico
+81	Límites de uso gratuito
+82	Ninguno: solo los de tu dispositivo
+83	Plan gratuito; Premium para más
+84	Plan gratuito; Premium para más
+85	Plan gratuito; Premium para más
+86	3 tareas/hora, 50 MB por archivo
+87	OCR para PDF escaneados
+88	Gratis, en tu dispositivo
+89	Solo Premium
+90	Ver su sitio
+91	Ver su sitio
+92	Ver su sitio
+93	Formatos de salida
+94	DOCX, RTF, ODT
+95	DOCX
+96	DOCX
+97	Ver su sitio
+98	Ver su sitio
+99	Rango de páginas y conversión por lotes
+100	Ambos, gratis
+101	Ver su sitio
+102	Ver su sitio
+103	Ver su sitio
+104	Ver su sitio
+105	¿Este convertidor de PDF a Word es realmente gratis?
+106	Sí. No hay límites diarios, ni marca de agua, ni plan de pago. Como la conversión se ejecuta en tu propio dispositivo, no nos cuesta nada más que conviertas más archivos.
+107	¿Puedo convertir un PDF escaneado a Word?
+108	Sí. Deja el OCR en Automático y las páginas que solo son imagen se reconocen automáticamente en 12 idiomas. Elige el idioma del documento para mayor precisión.
+109	¿Funciona en Mac, iPhone y Android?
+110	Sí. Funciona en cualquier navegador moderno (Chrome, Edge, Firefox o Safari) en Windows, macOS, Linux, iOS y Android. No hay que instalar nada.
+111	¿Puedo convertir PDF a Word sin conexión?
+112	Sí. Carga esta página una vez y desconéctate de internet: el convertidor sigue funcionando porque todo el código ya está en tu navegador.
+113	¿Cómo convierto un PDF muy grande?
+114	Los archivos grandes funcionan siempre que tu dispositivo tenga memoria suficiente. En el móvil, es más rápido y fiable dividir un PDF de 500 páginas con Dividir PDF y convertir las partes una a una.
+115	¿Se conservarán mis fuentes y el formato?
+116	Se conservan la negrita, la cursiva, los tamaños y los colores. Si una fuente no está instalada en tu ordenador, Word la sustituye por otra parecida; Diseño exacto mantiene idénticas las posiciones.
+117	¿Puedo convertir PDF a Word en otros idiomas?
+118	Sí. Los PDF de texto en cualquier alfabeto se convierten directamente, y el OCR admite 12 idiomas, entre ellos árabe, hindi, tamil, chino y japonés.
+119	¿Cómo paso un PDF a Word gratis?
+120	Suelta el PDF en esta página, elige texto fluido (fácil de editar) o diseño exacto y pulsa Convertir. Obtendrás un archivo .docx que puedes abrir en Word, Documentos de Google o LibreOffice. Sin registro, marca de agua ni límite de páginas, y los PDF escaneados se procesan con el OCR gratuito integrado.
+121	¿Cómo convierto PDF a Word sin perder el formato?
+122	Elige el modo de diseño exacto: coloca cuadros de texto donde estaban en la página, así que columnas, títulos y espaciado se mantienen cerca del original. El modo fluido reconstruye el texto como párrafos normales, más fáciles de editar, pero puede cambiar el diseño. En ambos casos, los diseños complejos pueden necesitar pequeños retoques en Word.

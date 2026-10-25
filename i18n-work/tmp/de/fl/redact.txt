@@ -1,0 +1,129 @@
+0	Censurar PDF
+1	Elimina de forma permanente texto y zonas sensibles.
+2	Censurar PDF online gratis – Tachar texto de forma permanente | {brand}
+3	Censura de forma permanente palabras y zonas de un PDF. Las páginas se reconstruyen para que el texto oculto no se pueda copiar ni recuperar. Gratis.
+4	Censurar PDF
+5	Selecciona tu PDF.
+6	Escribe las palabras que quieras censurar o dibuja recuadros en la vista previa (o ambas cosas).
+7	Haz clic en Empezar y descarga el PDF censurado.
+8	¿La censura es permanente?
+9	Sí. Cada página con censura se reconstruye como imagen con las zonas tapadas en negro, así que el texto subyacente desaparece. Las demás páginas se conservan sin cambios.
+10	En muchos editores, dibujar un recuadro negro sobre un texto deja el texto debajo, y cualquiera puede copiarlo. La censura de verdad lo elimina. {brand} reconstruye cada página censurada para que el contenido oculto desaparezca y, como funciona en local, el documento sensible nunca sale de tu dispositivo.
+11	Ocultar números de cuenta, números de identidad y firmas antes de compartir.
+12	Eliminar datos personales de documentos publicados por solicitudes de protección de datos o de transparencia.
+13	Tachar nombres de clientes en casos de éxito o escritos judiciales.
+14	Busca una palabra para censurar todas sus apariciones a la vez y después añade recuadros para imágenes o firmas.
+15	Comprueba el resultado intentando seleccionar y copiar texto en las zonas censuradas.
+16	Pasa también Quitar metadatos del PDF: los nombres de autor y los títulos pueden revelar información.
+17	¿Se puede recuperar el texto censurado?
+18	No. Cada página con censura se reconstruye como imagen con las zonas tapadas en negro, así que el texto subyacente desaparece. Las demás páginas se conservan sin cambios.
+19	Censurar PDF gratis – Tacha texto de forma permanente
+20	Censura un PDF gratis: tacha en negro o blanco texto buscado, correos, teléfonos o recuadros dibujados. Se elimina de verdad, no se oculta. Sin subidas.
+21	{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+22	Censura un PDF gratis: eliminación real, no un recuadro negro encima
+23	Censurar significa eliminar de forma permanente información sensible (nombres, números de cuenta, direcciones, firmas) antes de compartir un documento. El error más común es dibujar rectángulos negros en un editor de PDF normal: el texto de debajo sigue ahí y se puede copiar. Esta herramienta censura de verdad. Cada página que contiene una censura se reconstruye como imagen con los recuadros integrados, así que el texto oculto, sus datos de fuente y cualquier capa seleccionable de debajo desaparecen. Las páginas sin censura se copian intactas y se borran los metadatos del documento.
+24	Puedes censurar **buscando** palabras o frases (separadas por comas, p. ej. *Juan García, 4111 1111*), buscando automáticamente **todas las direcciones de correo** y **números de teléfono**, o **dibujando recuadros** sobre cualquier cosa (fotos, firmas, sellos, letra manuscrita) en la vista previa de la página.
+25	Cómo tachar texto en un PDF
+26	Suelta el PDF.
+27	Escribe las palabras que quieras censurar o marca correos y números de teléfono.
+28	Dibuja recuadros en la vista previa para todo lo demás; usa los botones de página para moverte entre páginas.
+29	Elige recuadros negros o blancos y pulsa Censurar.
+30	Descarga la copia censurada y revísala.
+31	¿Censura en negro o en blanco?
+32	Los recuadros negros son lo habitual en documentos legales y de la administración porque dejan claro que se ha eliminado algo. Los recuadros blancos (a veces llamados *censura con corrector*) se funden con la página y se usan cuando importa un aspecto limpio, por ejemplo en ejemplos publicados o plantillas. Ambos eliminan el contenido igual.
+33	¿Se puede censurar texto en un PDF sin Adobe Pro?
+34	Sí: es justo lo que hace esta página, gratis y en tu navegador. Las suites profesionales ofrecen el mismo tipo de censura real en sus ediciones de pago; los visores gratuitos y muchos editores básicos solo permiten dibujar formas, lo cual no es censurar.
+35	Qué pasa con las páginas censuradas
+36	
+37	Páginas con censura
+38	Otras páginas
+39	Contenido
+40	Renderizado en alta resolución (≈180 ppp) con los recuadros integrados
+41	Copiado exactamente
+42	Texto seleccionable
+43	No (pasa OCR si lo necesitas)
+44	Sí
+45	Texto oculto recuperable
+46	No
+47	—
+48	Metadatos
+49	Borrados en todo el documento
+50	Borrados
+51	Si necesitas que las páginas censuradas vuelvan a ser buscables, pasa [OCR a PDF](/ocr-pdf/) sobre el resultado: las zonas censuradas no contienen texto, así que no vuelve nada sensible.
+52	Consejos de búsqueda
+53	Separa varios términos con comas.
+54	Deja desactivado *Distinguir mayúsculas* para encontrar GARCÍA, García y garcía.
+55	La búsqueda solo encuentra texto real; en páginas escaneadas, dibuja recuadros o pasa antes el OCR.
+56	Los números con distinto formato (4111-1111 frente a 4111 1111) necesitan que indiques cada formato.
+57	Revisa siempre todas las páginas del resultado antes de compartirlo.
+58	¿Puedo censurar un PDF que ya está firmado?
+59	Puedes, pero censurar modifica el documento, así que cualquier firma digital deja de ser válida. Censura primero y firma después la versión final.
+60	Otros lugares donde se esconden datos sensibles
+61	Los comentarios, los campos de formulario, los adjuntos, los marcadores y las capas también pueden contener datos personales. Las páginas censuradas se reconstruyen sin ellos; para el resto del documento, valora usar [Aplanar PDF](/flatten-pdf/) y [Quitar metadatos del PDF](/remove-pdf-metadata/).
+62	Glosario
+63	Término
+64	Significado
+65	Censura (redacción)
+66	Eliminación permanente de información de un documento
+67	Integrar
+68	Hacer que una marca forme parte de la propia imagen de la página
+69	OCR
+70	Reconocer el texto de una imagen para que se pueda buscar
+71	Datos personales (PII)
+72	Información que permite identificar a una persona
+73	Ejemplo práctico
+74	Antes de compartir un extracto bancario con un casero, marca *Censurar automáticamente direcciones de correo* y *números de teléfono*, añade tu número de cuenta como texto de búsqueda y pulsa Censurar. Cada coincidencia se tapa con un recuadro sólido y se elimina de la capa de texto, así que buscar el número en el resultado no encuentra nada.
+75	Privacidad
+76	Todo ocurre dentro de la pestaña del navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa allí y se guarda directamente en tu dispositivo. Nunca se sube, se almacena ni se registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, por lo que sirve para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+77	Herramientas relacionadas
+78	[Quitar metadatos del PDF](/remove-pdf-metadata/)
+79	[Aplanar PDF](/flatten-pdf/)
+80	[OCR a PDF](/ocr-pdf/)
+81	[Proteger PDF](/protect-pdf/)
+82	[Editar PDF](/edit-pdf/)
+83	Dónde se procesa tu archivo
+84	En tu navegador, nunca se sube
+85	Sus servidores (subida)
+86	Sus servidores (subida)
+87	Sus servidores (subida)
+88	Cuenta necesaria
+89	Nunca
+90	Ver su sitio
+91	Ver su sitio
+92	Ver su sitio
+93	Sus servidores (subida)
+94	Sí
+95	Ver su sitio
+96	Ver su sitio
+97	Ver su sitio
+98	Cuenta necesaria
+99	Sí
+100	Ver su sitio
+101	Ver su sitio
+102	Ver su sitio
+103	Eliminación real (no superposición)
+104	Sí
+105	Ver su sitio
+106	Ver su sitio
+107	Ver su sitio
+108	Busca correos y teléfonos automáticamente
+109	Sí
+110	Ver su sitio
+111	Ver su sitio
+112	Ver su sitio
+113	¿Cómo puedo censurar un PDF gratis?
+114	Suéltalo aquí, busca términos o dibuja recuadros y descarga el PDF censurado, sin registro.
+115	¿Cómo tacho texto en un PDF?
+116	Escribe el texto o dibuja un recuadro encima y pulsa Censurar; el texto se elimina de forma permanente.
+117	¿Qué significa censurar un PDF?
+118	Eliminar de forma permanente el contenido sensible para que no se pueda recuperar.
+119	¿La censura es permanente?
+120	Sí, las páginas afectadas se reconstruyen como imágenes sin el texto oculto.
+121	¿Puedo censurar direcciones de correo automáticamente?
+122	Sí, marca las opciones de correos y números de teléfono.
+123	¿Puedo usar blanco en lugar de negro?
+124	Sí, elige recuadros blancos.
+125	¿Las páginas censuradas se podrán buscar?
+126	No hasta que les pases OCR.
+127	¿Se sube mi documento?
+128	No, la censura se hace en tu dispositivo.

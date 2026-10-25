@@ -1,0 +1,119 @@
+0	Comparar PDF
+1	Ve las diferencias de texto entre dos PDF, uno al lado del otro.
+2	Comparar PDF online gratis – Diferencias entre dos PDF | {brand}
+3	Compara dos versiones de un PDF y resalta el texto añadido, eliminado y modificado, una al lado de la otra. Gratis, privado y sin subidas.
+4	Comparar dos PDF
+5	Selecciona las dos versiones del PDF.
+6	Haz clic en Empezar.
+7	Revisa las diferencias resaltadas o descarga el informe.
+8	¿Compara imágenes?
+9	Esta versión compara texto. La comparación visual está prevista.
+10	Las revisiones de contratos, las actualizaciones de políticas y las nuevas versiones de documentos suelen llegar sin control de cambios. Comparar PDF muestra exactamente qué palabras se han añadido, eliminado o cambiado entre dos versiones, para que no se te escape nada.
+11	Comprobar qué ha cambiado entre dos versiones de un contrato.
+12	Revisar cambios en condiciones generales o políticas.
+13	Verificar que el archivo final de imprenta coincide con la prueba aprobada.
+14	Pon primero la versión antigua para que lo añadido y lo eliminado se lea de forma natural.
+15	Los PDF escaneados necesitan OCR antes de poder comparar su texto.
+16	¿Compara imágenes y maquetación?
+17	Esta versión compara texto. La comparación visual está prevista.
+18	Cuándo comparar PDF
+19	Usa Comparar PDF siempre que recibas una versión «definitiva» de un contrato, una política, una especificación o un artículo académico. Los pequeños cambios en cifras, fechas o cláusulas de responsabilidad son fáciles de pasar por alto al leer.
+20	Cómo leer los resultados
+21	El texto eliminado se marca en un color y el añadido en otro, uno al lado del otro, para que puedas revisar cada cambio y preguntar por cualquier cosa inesperada antes de firmar.
+22	Comparar PDF – Encuentra diferencias entre dos PDF
+23	Compara dos PDF en paralelo y resalta palabra por palabra el texto añadido, eliminado y cambiado. Descarga el informe. Gratis, sin subidas ni registro.
+24	{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+25	Compara dos documentos PDF para encontrar diferencias
+26	Comparar PDF muestra exactamente qué ha cambiado entre dos versiones de un documento. Suelta el PDF original y el revisado, y el texto de ambos se alinea en paralelo: las líneas eliminadas se resaltan en rojo a la izquierda, las añadidas en verde a la derecha y las modificadas en amarillo, con las palabras exactas tachadas o insertadas. Un resumen muestra el número de eliminaciones, adiciones y cambios, y puedes descargar la comparación como informe HTML para compartirla o archivarla.
+27	Es la forma más rápida de revisar las marcas de un contrato, confirmar que en una nueva política solo cambiaron las cláusulas acordadas, revisar cambios en una tesis o detectar diferencias entre dos facturas o presupuestos.
+28	Cómo comparar dos archivos PDF
+29	Suelta los dos PDF (primero el original y luego el revisado).
+30	Pulsa Comparar.
+31	Lee la tabla en paralelo: rojo = eliminado, verde = añadido, amarillo = cambiado.
+32	Descarga el informe HTML si necesitas guardarlo o enviarlo.
+33	Qué se compara
+34	La herramienta compara el **texto** de los documentos línea por línea y luego palabra por palabra dentro de las líneas cambiadas, y muestra el número de página de cada línea. Por eso es ideal para contratos, informes, políticas y otros documentos de texto. No detecta cambios de formato (fuente, color, maquetación) ni de imágenes, y los PDF escaneados necesitan antes [OCR a PDF](/ocr-pdf/) para que contengan texto.
+35	Cómo leer el resultado
+36	Color
+37	Significado
+38	Rojo, columna izquierda
+39	La línea solo existe en el primer PDF (eliminada)
+40	Verde, columna derecha
+41	La línea solo existe en el segundo PDF (añadida)
+42	Amarillo, ambas columnas
+43	Línea cambiada; las palabras tachadas se eliminaron y las resaltadas se añadieron
+44	Sin color
+45	Sin cambios
+46	¿Puedo comparar un PDF con un documento de Word?
+47	Convierte primero el archivo de Word a PDF con [Word a PDF](/word-to-pdf/) y luego compara los dos PDF. También puedes convertir el PDF a Word con [PDF a Word](/pdf-to-word/) y usar la función de comparar integrada en Word.
+48	Consejos para comparar con precisión
+49	Compara documentos generados del mismo modo: dos exportaciones de Word se comparan mejor que una exportación de Word frente a un escaneo.
+50	El texto que se recoloca (un párrafo que pasa a otra página) sigue coincidiendo, porque la comparación sigue el texto, no la página.
+51	Los encabezados y pies de página también aparecen como líneas; los números de página cambiados pueden verse como pequeños cambios.
+52	En documentos largos, usa la búsqueda del navegador (Ctrl+F) en el informe para saltar a una cláusula.
+53	Comparar PDF online frente a programas de escritorio
+54	Las suites profesionales de PDF y las apps de comparación dedicadas ofrecen comparación visual en planes de pago, y las herramientas online suelen subir ambos documentos. Aquí, los dos archivos se leen en tu navegador y nunca salen de tu dispositivo, algo importante al comparar contratos confidenciales.
+55	Glosario
+56	Término
+57	Significado
+58	Diff
+59	Lista de diferencias entre dos textos
+60	Redline (marcas de revisión)
+61	Versión marcada que muestra los cambios
+62	Diff por palabras
+63	Resaltar exactamente qué palabras cambiaron en una línea
+64	Ejemplo práctico
+65	Un proveedor te devuelve un contrato revisado y dice que solo han cambiado las condiciones de pago. Suelta el original y la revisión: las diferencias resaltadas muestran exactamente qué palabras se añadieron o eliminaron en cada página, para que confirmes que no se alteró nada más sin avisar, como un límite de responsabilidad, una fecha o un plazo de preaviso. Guarda la comparación para tus archivos.
+66	Consejos para comparar con precisión
+67	Compara PDF basados en texto para obtener resultados por palabra; pasa antes [OCR](/ocr-pdf/) a los escaneos. Si se insertaron páginas, las diferencias posteriores pueden aparecer desplazadas: compara secciones con [Extraer páginas](/extract-pages-from-pdf/) cuando haga falta.
+68	Qué no cubre la comparación
+69	El texto se compara palabra por palabra; los cambios en imágenes, colores, fuentes y maquetación no se resaltan. Para cambios visuales, abre los dos archivos en paralelo o convierte las páginas con [PDF a JPG](/pdf-to-jpg/) y revísalas. Tampoco se comparan los metadatos ni el contenido oculto. Úsala como primera comprobación rápida y luego revisa tú mismo las cláusulas clave.
+70	Privacidad
+71	Todo ocurre dentro de la pestaña del navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa allí y se guarda directamente en tu dispositivo. Nunca se sube, se almacena ni se registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, por lo que sirve para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+72	Herramientas relacionadas
+73	[PDF a Word](/pdf-to-word/)
+74	[Word a PDF](/word-to-pdf/)
+75	[OCR a PDF](/ocr-pdf/)
+76	[Buscar y reemplazar en PDF](/find-and-replace-pdf/)
+77	[Unir PDF](/merge-pdf/)
+78	Dónde se procesa tu archivo
+79	En tu navegador, nunca se sube
+80	Sus servidores (subida)
+81	Sus servidores (subida)
+82	Sus servidores (subida)
+83	Cuenta necesaria
+84	Nunca
+85	Ver su sitio
+86	Ver su sitio
+87	Ver su sitio
+88	Sus servidores (subida)
+89	Sí
+90	Ver su sitio
+91	Ver su sitio
+92	Ver su sitio
+93	Cuenta necesaria
+94	Resaltado por palabras
+95	Ver su sitio
+96	Ver su sitio
+97	Ver su sitio
+98	Informe descargable
+99	Sí
+100	Ver su sitio
+101	Ver su sitio
+102	Ver su sitio
+103	¿Cómo puedo comparar dos archivos PDF?
+104	Suelta los dos PDF y pulsa Comparar para ver las diferencias en paralelo.
+105	¿Puedo comparar gratis dos documentos PDF para ver sus diferencias?
+106	Sí, gratis y sin registro.
+107	¿Resalta los cambios?
+108	Sí: rojo para lo eliminado, verde para lo añadido y amarillo para lo cambiado, con marcas por palabra.
+109	¿Puede comparar PDF escaneados?
+110	Pasa antes el OCR para que las páginas contengan texto.
+111	¿Se comparan las imágenes?
+112	No, solo se compara el texto.
+113	¿Puedo guardar la comparación?
+114	Sí, descarga el informe HTML.
+115	¿Puedo comparar un PDF con un archivo de Word?
+116	Convierte primero el archivo de Word a PDF.
+117	¿Se suben mis archivos?
+118	No, la comparación se hace en local.

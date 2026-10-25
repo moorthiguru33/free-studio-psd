@@ -1,0 +1,128 @@
+0	Comprimir PDF
+1	Reduce el tamaño de tu PDF.
+2	Comprimir PDF – Reducir el tamaño de un PDF online gratis | {brand}
+3	Comprime un PDF para reducir su tamaño y enviarlo por correo, WhatsApp o portales. Gratis y sin registro: se comprime en tu navegador, sin subirlo.
+4	Comprimir PDF
+5	Selecciona el PDF que quieres reducir.
+6	Elige compresión sin pérdida o fuerte.
+7	Haz clic en Empezar y descarga el PDF más ligero.
+8	¿Qué diferencia hay entre los modos?
+9	Sin pérdida mantiene el texto seleccionable y reestructura el archivo. Fuerte convierte cada página en una imagen comprimida, con lo que los archivos escaneados o con muchas imágenes quedan mucho más pequeños, pero el texto deja de ser seleccionable.
+10	El correo rechaza los PDF grandes (a menudo con límites de 20–25 MB), igual que muchos portales de la administración, de empleo y de universidades que solo aceptan 1–2 MB. {brand} reduce los PDF en tu propio dispositivo, así que puedes comprimir documentos privados sin subirlos a ningún sitio.
+11	Dejar un PDF escaneado lo bastante pequeño para un formulario online con límite de 1 o 2 MB.
+12	Enviar un informe grande por correo o WhatsApp.
+13	Ahorrar espacio en el móvil o en la nube.
+14	Prueba primero Sin pérdida: mantiene el texto seleccionable. Usa Fuerte para archivos escaneados o con muchas fotos.
+15	En los PDF de texto que ya son pequeños puede que no se logre un gran ahorro.
+16	Comprime después de unir, no antes, para obtener un único archivo optimizado.
+17	¿Cuánto más pequeño quedará mi PDF?
+18	Depende del contenido. Los PDF escaneados o con muchas imágenes suelen reducirse un 50–90 % en modo Fuerte; los PDF solo de texto se reducen menos.
+19	¿Puedo comprimir un PDF a menos de 1 MB o de 100 KB?
+20	Con escaneos, a menudo sí usando el modo Fuerte. Los documentos muy largos pueden seguir siendo más grandes; dividirlos puede ayudar.
+21	Comprimir PDF – Reducir tamaño de PDF gratis, sin subirlo
+22	Comprime PDF gratis en tu navegador. Tres niveles con tamaño estimado, texto nítido, sin subidas, sin registro ni límites por hora. Funciona sin conexión.
+23	Cómo funciona la compresión de PDF
+24	Un PDF es un contenedor. El texto y los dibujos vectoriales ocupan poco; lo que hace grandes a la mayoría de los PDF son las imágenes incrustadas (páginas escaneadas, fotos y capturas de pantalla), además de fuentes duplicadas y objetos sin usar que quedan tras editar. {brand} examina el interior de tu PDF, mide cada imagen incrustada y aplica el nivel que elijas. Antes incluso de hacer clic, cada tarjeta de nivel muestra un tamaño estimado del resultado para que elijas el equilibrio que más te convenga.
+25	**Recomendada**: vuelve a codificar las fotos demasiado grandes como JPEG eficientes a una resolución razonable, elimina objetos sin usar y reescribe el archivo de forma compacta. El texto y los gráficos vectoriales no se tocan, así que siguen perfectamente nítidos y buscables.
+26	**Extrema**: renderiza cada página como imagen a resolución reducida. Da el archivo más pequeño posible, ideal para límites de correo y portales de subida, pero el texto deja de ser seleccionable.
+27	**Ajustes personalizados**: abre *Ajustes personalizados* para fijar la resolución de las imágenes (72–300 PPP), la calidad JPEG (30–90 %) y convertir imágenes y páginas escaneadas a escala de grises.
+28	**Baja**: una reconstrucción sin pérdida. No cambia nada visual; solo ganas espacio al limpiar la estructura del archivo. Útil para documentos en los que importa cada píxel.
+29	Si un resultado fuera mayor que el original (algo que ocurre con archivos ya optimizados), {brand} conserva el original y te avisa, para que nunca descargues un archivo peor.
+30	¿Necesitas un tamaño exacto, como 100 KB o 1 MB?
+31	Los formularios de la administración, los portales de empleo y las solicitudes universitarias suelen imponer un límite estricto. Usa las herramientas de tamaño objetivo: [Comprimir PDF a 100 KB](/compress-pdf-to-100kb/), [200 KB](/compress-pdf-to-200kb/), [500 KB](/compress-pdf-to-500kb/), [1 MB](/compress-pdf-to-1mb/) o [cualquier tamaño en KB](/compress-pdf-to-kb/). Prueban ajustes cada vez más fuertes y se detienen en cuanto el archivo cabe, conservando la máxima calidad posible.
+32	¿La compresión afecta a las fuentes o a la calidad?
+33	En los niveles Recomendada y Baja las fuentes nunca se convierten en imagen, así que el texto se imprime y se amplía exactamente igual que antes. Las fotos se remuestrean a una resolución que sigue viéndose nítida en pantalla y en la impresión normal de oficina. Solo Extrema convierte las páginas en imágenes; elígela cuando el tamaño importe más que poder editar.
+34	En los documentos escaneados, que ya son solo imágenes, Recomendada suele dar el mayor ahorro casi sin diferencia visible, y a menudo reduce un escaneo de 10 MB a 1–2 MB.
+35	Usos habituales
+36	**Currículums**: muchos sistemas de selección de personal limitan las subidas a 2 MB o menos; un CV comprimido se sube al instante y mantiene el texto buscable para la coincidencia de palabras clave.
+37	**Carteles y folletos**: las exportaciones de diseño con fotos a resolución completa pueden superar los 50 MB; Recomendada las deja en tamaño de correo.
+38	**Papeleo escaneado**: extractos bancarios, facturas y copias de documentos de identidad para formularios online.
+39	**Compartir en equipo**: los archivos más pequeños se sincronizan antes en unidades compartidas y apps de chat y, como aquí no se sube nada, los documentos confidenciales del equipo siguen siendo privados.
+40	Consejos para conseguir el PDF más pequeño
+41	Elimina primero las páginas que no necesitas con [Eliminar páginas de un PDF](/delete-pdf-pages/).
+42	¿Escaneos en color de texto en blanco y negro? Marca *Convertir a escala de grises* en Ajustes personalizados: suele ahorrar otro 20–40 %.
+43	Combina varios documentos con [Unir PDF](/merge-pdf/) y comprime una sola vez, en lugar de comprimir cada parte.
+44	Comparativa de niveles de compresión
+45	Nivel
+46	Qué hace
+47	Ahorro típico
+48	Texto seleccionable
+49	Ideal para
+50	Baja
+51	Reconstrucción sin pérdida: elimina objetos sin usar y reescribe el archivo de forma compacta
+52	5–20 %
+53	Sí
+54	Archivo, documentos legales
+55	Recomendada
+56	Vuelve a codificar las fotos demasiado grandes y conserva texto y vectores
+57	40–80 % en archivos con muchas imágenes
+58	Sí
+59	Correo, compartir, subidas
+60	Extrema
+61	Renderiza las páginas como imágenes comprimidas
+62	80–95 %
+63	No
+64	Límites de subida estrictos
+65	El ahorro depende por completo de lo que contenga el PDF. Un archivo casi todo de texto mecanografiado puede reducirse solo un pequeño porcentaje, porque hay poco que quitar; un escaneo hecho con la cámara del móvil puede quedar diez veces más pequeño o más.
+66	¿Por qué comprimir en el navegador y no online?
+67	Los compresores online son cómodos, pero todos te obligan a enviar el archivo a un servidor que no controlas, a menudo con periodos de conservación de varias horas. Muchos también limitan a los usuarios gratuitos: el plan web gratuito de Sejda, por ejemplo, permite 3 tareas por hora y archivos de hasta 50 MB. {brand} no tiene ninguna de esas restricciones: el motor de compresión se descarga una vez como parte de esta página y después funciona en tu procesador. Los archivos grandes solo están limitados por la memoria de tu dispositivo y puedes comprimir tantos documentos como quieras, uno tras otro, sin esperas ni cuentas.
+68	También es más rápido con archivos grandes y conexiones lentas: no hay una subida de 30 MB seguida de una descarga de 30 MB, solo procesamiento local.
+69	Además, puedes repetir la compresión: prueba Recomendada, compara el resultado con el original y, si lo necesitas más pequeño, aplica Extrema sobre el original. Cada intento tarda segundos.
+70	Dónde se procesa tu archivo
+71	En tu navegador, nunca se sube
+72	Sus servidores
+73	Sus servidores
+74	Nube de Adobe
+75	Sus servidores
+76	Funciona con el wifi apagado
+77	Sí, tras cargar la página
+78	No
+79	No
+80	No
+81	No
+82	Cuenta o correo necesarios
+83	Nunca
+84	No para el uso básico
+85	No para el uso básico
+86	Inicio de sesión para algunas acciones
+87	No para el uso básico
+88	Límites de uso gratuito
+89	Ninguno: solo los de tu dispositivo
+90	Plan gratuito; Premium para más
+91	Plan gratuito; Premium para más
+92	Plan gratuito; Premium para más
+93	3 tareas/hora, 50 MB por archivo
+94	Escala de grises y PPP/calidad a medida
+95	Sí
+96	Ver su sitio
+97	Ver su sitio
+98	Ver su sitio
+99	Ver su sitio
+100	Niveles de compresión
+101	3, con estimación de tamaño en directo
+102	3
+103	Ver su sitio
+104	Ver su sitio
+105	Ver su sitio
+106	Comprimir a un tamaño exacto (KB)
+107	Sí, con herramientas específicas
+108	No se ofrece en la página
+109	No se ofrece en la página
+110	Ver su sitio
+111	Ver su sitio
+112	¿Cómo reduzco el tamaño de un PDF escaneado?
+113	Usa el nivel Recomendada. Los escaneos están hechos de imágenes, así que volver a codificarlas da un gran ahorro (a menudo del 70–90 %) sin perder legibilidad. Para un límite estricto, usa una herramienta de tamaño objetivo como Comprimir PDF a 200 KB.
+114	¿Puedo comprimir PDF con todo mi equipo?
+115	Sí. No hay cuentas ni licencias por usuario: cualquier persona del equipo puede abrir la página y comprimir archivos. Como los archivos nunca salen del dispositivo de cada uno, también sirve para material confidencial.
+116	¿La compresión hará que el texto se vea borroso?
+117	No, salvo que elijas Extrema. Recomendada y Baja mantienen el texto y los gráficos vectoriales tal cual; solo se optimizan las fotos incrustadas.
+118	¿Por qué mi PDF comprimido no es mucho más pequeño?
+119	Probablemente el archivo sea casi todo texto o ya esté optimizado. Los PDF solo de texto son pequeños por naturaleza. Prueba Extrema si solo necesitas una copia para ver, o elimina las páginas que sobran.
+120	¿Cómo comprimo un PDF para enviarlo por correo?
+121	Usa Recomendada. La mayoría de servicios de correo aceptan adjuntos de hasta 20–25 MB; si tu archivo sigue siendo demasiado grande, usa Comprimir PDF a 1 MB o divídelo en partes.
+122	¿Es seguro comprimir documentos confidenciales?
+123	Sí. El archivo se procesa en tu navegador y nunca se sube, así que no se guarda nada en ningún servidor.
+124	¿Cómo reduzco el tamaño de un archivo PDF?
+125	Suelta el PDF, elige un nivel de compresión (cada uno muestra el tamaño estimado del resultado) y descarga el archivo más ligero. Las imágenes del PDF se vuelven a codificar a menor resolución mientras el texto y los gráficos vectoriales siguen nítidos.
+126	¿Cómo comprimo un PDF para que pese menos de 1 MB?
+127	Usa primero el nivel más fuerte. Si el archivo sigue siendo demasiado grande, normalmente se debe a muchas páginas escaneadas en alta resolución; dividir el PDF o pasar el escaneo a escala de grises lo reduce aún más. Los PDF solo de texto ya son pequeños y se reducen menos.

@@ -1,0 +1,113 @@
+0	Girar PDF
+1	Gira todas las páginas de tus PDF.
+2	Girar PDF online gratis – Rotar páginas de un PDF | {brand}
+3	Gira las páginas de un PDF 90°, 180° o 270° y guárdalas de forma permanente. Gratis, rápido y privado: funciona en tu navegador.
+4	Girar PDF
+5	Selecciona uno o varios archivos PDF.
+6	Elige el ángulo de rotación.
+7	Haz clic en Empezar y descarga el PDF girado.
+8	¿El giro es permanente?
+9	Sí. La rotación se guarda en el PDF para que se abra correctamente en cualquier visor.
+10	Los escaneos y las fotos del móvil a menudo quedan de lado o del revés. Girar PDF corrige la orientación de forma permanente para que el archivo se abra bien en todas partes.
+11	Enderezar páginas escaneadas de lado.
+12	Girar páginas horizontales para leerlas mejor.
+13	Para girar solo algunas páginas, usa Organizar PDF.
+14	Girar frente a volver a escanear
+15	Volver a escanear un documento torcido hace perder tiempo y puede empeorar la calidad. Girar un PDF solo cambia la instrucción de orientación guardada en el archivo, así que el texto, las imágenes y el tamaño se mantienen exactamente iguales. El resultado se abre correctamente en Adobe Reader, en los navegadores, en Vista Previa, en los visores del móvil y en las impresoras.
+16	Orientaciones mezcladas
+17	Los informes suelen mezclar páginas de texto en vertical con tablas o gráficos en horizontal. Gira solo las páginas horizontales con Organizar PDF para que cada una se lea con naturalidad en pantalla y luego imprime con el «giro automático» activado.
+18	Giro por lotes
+19	Selecciona varios PDF a la vez y aplica el mismo giro a todos: muy útil cuando el escáner ha metido todo un montón de hojas con la orientación equivocada.
+20	Girar PDF – Rotar páginas para siempre, gratis y privado
+21	Gira páginas de PDF 90°, 180° o 270° para siempre: todas, impares, pares, solo horizontales o un rango. Por lotes, gratis, sin subidas ni registro.
+22	Corrige para siempre las páginas de lado o del revés
+23	Los escáneres, los móviles y los faxes producen a menudo PDF con páginas mal orientadas: una tabla horizontal tumbada, un tique del revés o una de cada dos páginas de un escaneo a doble cara girada. Girar la página en tu visor de PDF solo cambia la vista en tu pantalla: la siguiente persona que abra el archivo lo volverá a ver de lado. {brand} escribe la nueva orientación en el propio PDF, así que el archivo se abre del derecho en todas partes: en Acrobat, en Chrome, en Vista Previa, en el móvil y al imprimir.
+24	Funciona por completo en tu navegador. El PDF se abre en tu dispositivo, se actualiza la rotación de las páginas y se descarga el resultado: no se sube nada, algo importante para contratos, escaneos de documentos de identidad y cartas médicas.
+25	Gira exactamente las páginas que necesitas
+26	**Todas las páginas**: la solución clásica para un documento escaneado entero con la orientación equivocada.
+27	**Páginas impares o pares**: corrige escaneos a doble cara en los que solo los reversos están del revés.
+28	**Solo páginas horizontales / solo verticales**: endereza documentos mezclados en los que solo las tablas o planos anchos están de lado.
+29	**Un rango de páginas**: escribe 2, 5-7 para girar solo esas páginas.
+30	**90° a la derecha, 180° o 90° a la izquierda** con un clic.
+31	**Por lotes**: suelta varios PDF y recíbelos todos girados en un ZIP.
+32	Rotación sin pérdida
+33	En un PDF, la rotación es una propiedad de cada página. Cambiarla no vuelve a renderizar ni a comprimir nada, así que el texto sigue siendo seleccionable y buscable, los enlaces y los campos de formulario siguen funcionando y las imágenes mantienen toda su calidad. El tamaño del archivo apenas cambia. Es distinto de las herramientas que convierten las páginas en imágenes y viceversa, que pueden emborronar el texto e inflar el archivo.
+34	Cómo girar un PDF
+35	Suelta uno o varios PDF en la página.
+36	Elige el ángulo: 90° a la derecha, 180° o 270° (90° a la izquierda).
+37	Elige qué páginas: todas, impares, pares, horizontales, verticales o un rango.
+38	Haz clic en Girar y descarga. El resultado indica cuántas páginas se han girado.
+39	Girar en Mac, Windows y móviles
+40	En un Mac, Vista Previa puede girar páginas y guardar el cambio; en Windows, los lectores de PDF gratuitos normalmente solo giran la vista. Esta herramienta funciona igual en todos los sistemas, incluidos Chromebook, Android e iPhone, sin instalar nada. Para páginas sueltas que necesitan ángulos distintos, usa [Organizar PDF](/organize-pdf/), donde cada miniatura tiene su propio botón de giro.
+41	Usos habituales
+42	Enderezar contratos escaneados antes de enviarlos por correo.
+43	Corregir hojas de cálculo horizontales impresas dentro de un informe vertical.
+44	Corregir fotos de documentos hechas con el móvil y convertidas con [JPG a PDF](/jpg-to-pdf/).
+45	Preparar archivos para imprimir o para [Unir PDF](/merge-pdf/), de modo que todas las páginas miren hacia el mismo lado.
+46	Hacer legibles los libros escaneados en una tableta.
+47	Consejos
+48	Si una página se ve bien en un visor pero mal en otro, puede que el PDF tenga un indicador de rotación inusual: girar 360° (cuatro veces 90°) lo normaliza.
+49	Las páginas escaneadas ligeramente torcidas (unos pocos grados) necesitan enderezarse, no girarse: prueba [Enderezar PDF](/deskew-pdf/).
+50	¿PDF protegido con contraseña? Ábrelo primero con [Desbloquear PDF](/unlock-pdf/) si conoces la contraseña.
+51	Dónde se procesa tu archivo
+52	En tu navegador, nunca se sube
+53	Sus servidores
+54	Sus servidores
+55	Nube de Adobe
+56	Sus servidores
+57	Funciona con el wifi apagado
+58	Sí, tras cargar la página
+59	No
+60	No
+61	No
+62	No
+63	Cuenta o correo necesarios
+64	Nunca
+65	No para el uso básico
+66	No para el uso básico
+67	Inicio de sesión para algunas acciones
+68	No para el uso básico
+69	Límites de uso gratuito
+70	Ninguno: solo los de tu dispositivo
+71	Plan gratuito; Premium para más
+72	Plan gratuito; Premium para más
+73	Plan gratuito; Premium para más
+74	3 tareas/hora, 50 MB por archivo
+75	Girar páginas impares/pares/solo horizontales
+76	Sí
+77	Filtro horizontal/vertical
+78	Ver su sitio
+79	Ver su sitio
+80	Ver su sitio
+81	Girar un rango de páginas
+82	Sí
+83	Ver su sitio
+84	Páginas sueltas
+85	Ver su sitio
+86	Ver su sitio
+87	Giro por lotes
+88	Gratis, en ZIP
+89	Sí
+90	Ver su sitio
+91	Ver su sitio
+92	Dentro de los límites de tareas
+93	¿El giro se guarda de forma permanente?
+94	Sí. La nueva orientación se escribe en el PDF, así que se abre del derecho en cualquier visor y al imprimir.
+95	¿Puedo girar una sola página?
+96	Sí. Elige «Rango de páginas…» e indica el número de página, o usa Organizar PDF para girar miniaturas sueltas.
+97	¿Puedo girar solo las páginas horizontales?
+98	Sí. Elige «Solo páginas horizontales» para girar únicamente las páginas anchas y dejar las demás como están.
+99	¿Girar reduce la calidad?
+100	No. Solo cambia el ajuste de rotación de la página; el texto, las imágenes y los enlaces no se tocan.
+101	¿Puedo girar varios PDF a la vez?
+102	Sí. Suelta varios archivos y descárgalos juntos en un ZIP.
+103	¿Se sube mi archivo?
+104	No. El giro se hace en tu navegador y funciona sin conexión cuando la página ha cargado.
+105	¿Cómo giro un PDF en Mac o Windows?
+106	Usa esta página en cualquier navegador: funciona igual en Mac, Windows, Linux, Chromebook, Android e iPhone.
+107	¿Hay límite de tamaño de archivo?
+108	No hay un límite fijo; los archivos muy grandes solo dependen de la memoria de tu dispositivo.
+109	¿Cómo corrijo una de cada dos páginas de un escaneo a doble cara?
+110	Elige «Páginas pares» (o «Páginas impares») y 180°.
+111	¿Cómo giro un PDF y lo guardo así?
+112	Elige el ángulo y qué páginas girar (todas, impares, pares, solo horizontales o un rango) y descarga. El giro se escribe en el archivo, así que se abre bien en cualquier visor, a diferencia del botón de giro temporal de muchos lectores de PDF.

@@ -1,0 +1,14 @@
+PASS  |  img-resize  |  JPEG 300x200
+PASS  |  img-crop  |  JPEG 1280x1280
+PASS  |  img-convert-webp  |  WEBP 1920x1280
+PASS  |  png2jpg  |  JPEG 300x300
+PASS  |  heic2jpg  |  JPEG 1920x1280
+PASS  |  collage  |  JPEG 1000x1000
+PASS  |  png2jpg-ta  |  JPEG 300x300
+PASS  |  qr-url  |  decoded https://example.com/hello
+PASS  |  qr-scan  |  [qr_code] https://example.com/hello
+PASS  |  resizepdf-custom  |  100x150mm
+PASS  |  resizepdf-orig  |  Page size:       595 x 842 pts (A4)
+PASS  |  resizepdf-hi  |  A5
+PASS  |  rename+next  |  my-merged.pdf, 6 follow-on tools, thumbnails shown
+PASS  |  qr-live  |  download available without Create step

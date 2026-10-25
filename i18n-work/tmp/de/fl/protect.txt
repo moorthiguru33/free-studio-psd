@@ -1,0 +1,136 @@
+0	Proteger PDF
+1	Añade una contraseña a tu PDF.
+2	Proteger PDF con contraseña online gratis – Cifrar PDF | {brand}
+3	Cifra un PDF con contraseña usando AES-256. Gratis y seguro: ni el archivo ni la contraseña salen de tu dispositivo.
+4	Proteger un PDF con contraseña
+5	Selecciona tu PDF.
+6	Escribe y confirma una contraseña.
+7	Haz clic en Empezar y descarga el PDF cifrado.
+8	¿Qué nivel de cifrado se usa?
+9	Los archivos se cifran con AES-256, el cifrado estándar de PDF más fuerte.
+10	Añadir una contraseña impide que nadie sin ella abra tu PDF. {brand} cifra los archivos con AES-256 en local, así que ni el archivo ni la contraseña viajan nunca por internet.
+11	Enviar por correo nóminas, extractos bancarios o informes médicos con seguridad.
+12	Compartir documentos de identidad enviando la contraseña por separado.
+13	Proteger propuestas comerciales y contratos.
+14	Usa una contraseña larga: prueba nuestro Generador de contraseñas.
+15	Comparte la contraseña por un canal distinto al del archivo.
+16	Cómo funciona el cifrado de PDF
+17	AES-256 es el cifrado más fuerte definido en el estándar PDF y es compatible con Adobe Reader, Chrome, Edge, Firefox, Vista Previa de macOS y los visores móviles actuales. Sin la contraseña, el contenido no se puede leer.
+18	Cómo elegir una contraseña segura
+19	Usa al menos 12–16 caracteres combinando palabras, números y símbolos. Una frase de contraseña como «Cafe-Ventana-42-Orbita» es segura y fácil de recordar. No envíes nunca la contraseña en el mismo correo que el archivo.
+20	Funciona sin conexión
+21	El cifrado se hace en tu navegador, así que puedes proteger archivos incluso sin conexión a internet una vez cargada la página.
+22	Proteger PDF con contraseña – AES-256, gratis, sin subir
+23	Protege PDF con contraseña y cifrado AES-256. Controla impresión, copia y edición, fija una contraseña de propietario, varios archivos. Gratis y privado.
+24	Bloquea tu PDF con un cifrado fuerte
+25	Un PDF protegido con contraseña solo lo puede abrir quien la conozca. {brand} cifra tu archivo con **AES-256**, el cifrado estándar de PDF más fuerte y el recomendado por defecto en la especificación PDF actual (ISO 32000-2). Algunas herramientas online populares anuncian AES-128; AES-256 es compatible con todos los lectores modernos, incluidos Adobe Acrobat, Chrome, Edge, Firefox, Vista Previa de macOS y las apps móviles. Si necesitas compatibilidad con software muy antiguo, puedes cambiar a AES-128.
+26	El cifrado ocurre dentro de tu navegador. El documento sin proteger y la contraseña nunca salen de tu dispositivo: no hay ningún servidor que pueda registrarlos ni nada que borrar al cabo de una hora.
+27	Elige qué pueden hacer los lectores
+28	**Contraseña de apertura**: necesaria para ver el documento.
+29	**Permitir imprimir**: desmárcalo para bloquear la impresión en los lectores compatibles.
+30	**Permitir copiar**: desmárcalo para impedir que se copien texto e imágenes.
+31	**Permitir editar**: desmárcalo para impedir cambios y la reorganización de páginas.
+32	**Permitir comentarios y rellenar formularios**: mantén los formularios utilizables mientras bloqueas todo lo demás.
+33	**Contraseña de propietario**: una segunda contraseña que te quita las restricciones a ti, mientras los destinatarios conservan los derechos limitados.
+34	**Medidor de seguridad**: comprueba al instante si tu contraseña es débil o fuerte; genera una con nuestro [Generador de contraseñas](/password-generator/).
+35	**Por lotes**: protege varios PDF con los mismos ajustes y descárgalos en un ZIP.
+36	Cómo funciona la protección de PDF con contraseña
+37	Al proteger un PDF, cada flujo de texto, imagen y fuente del archivo se cifra con una clave derivada de tu contraseña. Sin la contraseña, el contenido son bytes ilegibles. Los permisos (imprimir, copiar, editar) se guardan junto a él y los respetan los lectores de PDF estándar; son una política más que una protección inquebrantable, así que para material de verdad confidencial confía en la contraseña de apertura y mantenla en secreto.
+38	Ajuste
+39	Qué protege
+40	Contraseña de apertura (usuario)
+41	Nadie puede ver el archivo sin ella
+42	Contraseña de propietario
+43	Te permite cambiar o quitar las restricciones
+44	Permisos
+45	Indican a los lectores si se permite imprimir, copiar o editar
+46	Cómo elegir una buena contraseña
+47	Usa al menos 12 caracteres combinando mayúsculas, minúsculas, números y símbolos, o cuatro palabras al azar.
+48	No reutilices nunca la contraseña de tu correo o tu banco.
+49	Envía la contraseña por un canal distinto al del archivo: por ejemplo, el PDF por correo y la contraseña por SMS o por teléfono.
+50	Guárdala en un gestor de contraseñas; nadie puede recuperar una contraseña perdida, ni siquiera nosotros.
+51	Cómo proteger un PDF con contraseña
+52	Suelta tu PDF (o varios).
+53	Escribe la contraseña dos veces y comprueba el indicador de seguridad.
+54	Si quieres, abre Permisos para limitar la impresión, la copia o la edición y fijar una contraseña de propietario.
+55	Haz clic en Proteger y descarga el PDF cifrado.
+56	Usos habituales
+57	Enviar por correo nóminas, declaraciones de la renta y extractos bancarios.
+58	Compartir contratos y documentos de RR. HH. con candidatos.
+59	Distribuir exámenes o plantillas de respuestas.
+60	Proteger informes de clientes e historiales médicos.
+61	Bloquear libros electrónicos terminados contra la copia fácil.
+62	Herramientas relacionadas
+63	¿Necesitas quitar una contraseña que conoces? Usa [Desbloquear PDF](/unlock-pdf/). ¿Quieres ocultar partes de una página de forma permanente en lugar de bloquear todo el archivo? Usa [Censurar PDF](/redact-pdf/). ¿Vas a añadir un sello visible de «Confidencial»? Prueba [Añadir marca de agua](/add-watermark-to-pdf/).
+64	Dónde se procesa tu archivo
+65	En tu navegador, nunca se sube
+66	Sus servidores
+67	Sus servidores
+68	Nube de Adobe
+69	Sus servidores
+70	Funciona con el wifi apagado
+71	Sí, tras cargar la página
+72	No
+73	No
+74	No
+75	No
+76	Cuenta o correo necesarios
+77	Nunca
+78	No para el uso básico
+79	No para el uso básico
+80	Inicio de sesión para algunas acciones
+81	No para el uso básico
+82	Límites de uso gratuito
+83	Ninguno: solo los de tu dispositivo
+84	Plan gratuito; Premium para más
+85	Plan gratuito; Premium para más
+86	Plan gratuito; Premium para más
+87	3 tareas/hora, 50 MB por archivo
+88	Nivel de cifrado
+89	AES-256 (AES-128 opcional)
+90	Ver su sitio
+91	AES de 128 bits
+92	Ver su sitio
+93	Ver su sitio
+94	Permisos de impresión / copia / edición
+95	Sí
+96	Ver su sitio
+97	Ver su sitio
+98	Ver su sitio
+99	Ver su sitio
+100	Contraseña de propietario aparte
+101	Sí
+102	Ver su sitio
+103	Ver su sitio
+104	Ver su sitio
+105	Ver su sitio
+106	Proteger por lotes
+107	Gratis, en ZIP
+108	Ver su sitio
+109	Ver su sitio
+110	Ver su sitio
+111	Dentro del límite de tareas
+112	¿Qué seguridad ofrece la protección con contraseña de un PDF?
+113	Con AES-256 y una contraseña fuerte, en la práctica el contenido no se puede leer sin la contraseña. Usa 12 caracteres o más y mantenla en secreto.
+114	¿Se envía mi contraseña a algún sitio?
+115	No. El cifrado se ejecuta en tu navegador; la contraseña y el archivo nunca salen de tu dispositivo.
+116	¿Puedo impedir que impriman o copien mi PDF?
+117	Sí. Desmarca Permitir imprimir o Permitir copiar en Permisos. Los lectores estándar respetan estos ajustes.
+118	¿Qué es una contraseña de propietario?
+119	Una segunda contraseña que quita las restricciones. Los destinatarios abren el archivo con la contraseña normal y tienen derechos limitados; tú mantienes el control total.
+120	¿Puedo proteger un PDF con contraseña sin instalar nada?
+121	Sí. Esta herramienta funciona en cualquier navegador en Windows, Mac, Linux, Android y iPhone.
+122	¿Cómo comparto por correo un PDF protegido con contraseña?
+123	Adjunta el PDF protegido y envía la contraseña por separado, por ejemplo por SMS o por teléfono.
+124	¿Y si olvido la contraseña?
+125	No se puede recuperar: guárdala en un gestor de contraseñas. Conserva un original sin proteger en un lugar seguro.
+126	¿Lo abrirá cualquier lector de PDF?
+127	Sí. AES-256 es compatible con Acrobat, los navegadores, Vista Previa y las apps móviles. Elige AES-128 solo para software muy antiguo.
+128	¿Puedo proteger varios PDF a la vez?
+129	Sí. Suelta varios archivos; todos reciben la misma contraseña y ajustes, y se descargan en un ZIP.
+130	¿Qué pasa después con mi archivo?
+131	No se guarda nada. Al cerrar la pestaña se descarta todo.
+132	¿Cómo pongo contraseña a un PDF?
+133	Suelta el PDF, escribe una contraseña, elige qué acciones permitir (imprimir, copiar, editar) y descarga. El archivo se cifra con AES-256 y a quien lo abra se le pedirá la contraseña.
+134	¿Cómo protejo un PDF contra la edición y la copia?
+135	Fija una contraseña de propietario y desmarca editar y copiar. Los lectores pueden seguir abriendo el archivo (o necesitarán la contraseña de apertura si la pones), pero las apps de PDF compatibles bloquearán los cambios y la copia de texto.

@@ -1,0 +1,14 @@
+PASS  |  extract-pages  |  extracted 24
+PASS  |  watermark  |  tiled, Latin+Tamil+Devanagari+Arabic fonts embedded
+PASS  |  crop  |  width 482
+PASS  |  flatten  |  fields 0, value kept
+PASS  |  redact  |  term removed (pages rebuilt)
+PASS  |  redact-box  |  page 3 rebuilt, others intact
+PASS  |  compare  |  diff report ok: undefined
+PASS  |  grayscale  |  pages 5
+PASS  |  edit-remove  |  old glyphs removed from content stream
+PASS  |  edit-multiscript  |  multi-script text drawn
+PASS  |  word2pdf-unicode  |  Tamil kept, pages 4
+PASS  |  img-compress  |  face-compressed.jpg:126167 image-compressed.png:2845 (jpg in 144516)
+PASS  |  rename+next  |  my-merged.pdf, 6 follow-on tools, thumbnails shown
+PASS  |  qr-live  |  download available without Create step

@@ -1,0 +1,129 @@
+0	PDF a Excel
+1	Extrae tablas de PDF a Excel con detección inteligente.
+2	PDF a Excel – Convierte tablas PDF a XLSX gratis, sin subidas | {brand}
+3	Convierte tablas PDF a Excel con detección automática, alineación de columnas y números reales. XLSX, CSV u ODS; hoja por página o por tabla. Gratis.
+4	Convertir PDF a Excel
+5	Selecciona un PDF con tablas.
+6	Elige el formato y cómo se organizan las hojas.
+7	Revisa la tabla y descarga la hoja de cálculo.
+8	¿Cómo funciona la detección de tablas?
+9	El texto se agrupa en filas, se divide en celdas donde hay huecos amplios y las columnas se alinean agrupando las posiciones de las celdas en toda la tabla, así que las filas con celdas vacías también caen en la columna correcta.
+10	¿Los números sirven para fórmulas?
+11	Sí. «1,234.50», «(500)», «€2,000» y «15%» se convierten en números reales (desactívalo para conservar el texto exacto). Los decimales con coma, como «1.234,50», se mantienen como texto.
+12	Volver a teclear extractos bancarios, listas de precios o informes de un PDF en una hoja de cálculo es tedioso. {brand} detecta las tablas en la capa de texto, alinea las columnas de forma inteligente y convierte los importes en números reales para que puedas sumar y ordenar al momento. Elige una hoja por página, una por tabla o todo en una sola hoja, y no se sube nada.
+13	Analizar extractos bancarios o de tarjeta de crédito en Excel.
+14	Importar listas de precios y facturas de proveedores.
+15	Reutilizar tablas de memorias anuales o artículos de investigación.
+16	Convertir horarios y calendarios en hojas editables.
+17	«Solo tablas» quita títulos y párrafos para una hoja más limpia.
+18	Usa el rango de páginas para saltarte la portada y las páginas de resumen.
+19	¿PDF escaneado? Ejecuta antes OCR a PDF y después convierte.
+20	¿Funciona con extractos escaneados?
+21	Solo tras el OCR: los escaneos no tienen capa de texto. Nuestra herramienta OCR a PDF la añade.
+22	¿Puedo obtener CSV en su lugar?
+23	Sí, elige CSV en las opciones o usa PDF a CSV.
+24	Convertir PDF a Excel – OCR gratis para tablas escaneadas
+25	Convierte tablas PDF a Excel (XLSX) o CSV gratis. OCR gratuito para PDF escaneados en 12 idiomas. Hoja por página o por tabla. Sin subidas ni registro.
+26	Convierte tablas PDF en hojas de cálculo de verdad
+27	Los extractos bancarios, las listas de precios, las facturas, los horarios y los informes financieros suelen llegar en PDF, pero necesitas los números en Excel para ordenarlos, filtrarlos y sumarlos. Copiar y pegar desde un PDF suele producir una larga columna de texto revuelto. {brand} detecta las filas y columnas de cada página y las escribe en celdas de verdad, con los números guardados como números.
+28	**OCR gratis para PDF escaneados**: iLovePDF incluye el OCR como función Premium. Aquí, las páginas escaneadas y fotografiadas se leen en tu dispositivo con Tesseract en 12 idiomas, sin coste.
+29	**Modo automático**: las páginas que ya contienen texto se convierten directamente; solo las páginas que son imagen pasan por el OCR, lo que mantiene la conversión rápida.
+30	**Elige la organización de las hojas**: una hoja por página, una por tabla o todo en una sola hoja.
+31	**XLSX o CSV**: libros de Excel para Excel, Google Sheets y LibreOffice, o CSV para bases de datos y scripts.
+32	**Privado**: los datos financieros nunca salen de tu navegador.
+33	Cómo funciona la detección de tablas
+34	En los PDF digitales, el conversor lee cada fragmento de texto con su posición exacta. Los fragmentos sobre la misma línea base forman una fila; los huecos constantes entre fragmentos marcan los límites de las columnas. Las líneas de la tabla, si las hay, ayudan a confirmar la cuadrícula. Los números con separadores de miles, símbolos de moneda, porcentajes y negativos entre paréntesis se reconocen y se guardan como celdas numéricas para que las fórmulas funcionen al momento.
+35	En las páginas escaneadas, la página se representa a 300 DPI, el OCR devuelve cada palabra con su recuadro y se aplica la misma lógica de filas y columnas. La pantalla de resultados te dice cuántas páginas se leyeron con OCR para que sepas cuáles revisar.
+36	Cómo conseguir el resultado más limpio
+37	**Elige el idioma de OCR correcto** para los escaneos: de él dependen los acentos y las escrituras no latinas.
+38	**Los escaneos rectos y nítidos** funcionan mejor. Si un escaneo está torcido u oscuro, prueba antes [Escáner de PDF](/pdf-scanner/) para limpiarlo.
+39	**Una hoja por tabla** es ideal para informes con varias tablas por página; **una sola hoja** es ideal para extractos largos de muchas páginas.
+40	**Revisa los encabezados combinados**: los títulos de columna en varias líneas pueden quedar en dos filas; combínalos en Excel en segundos.
+41	¿Solo necesitas el texto? [PDF a texto](/pdf-to-text/) es más rápido. ¿Necesitas un documento editable? Usa [PDF a Word](/pdf-to-word/).
+42	XLS frente a XLSX frente a CSV
+43	Formato
+44	Ideal para
+45	XLSX
+46	Excel moderno, Google Sheets, LibreOffice: mantiene varias hojas y los tipos de número
+47	CSV
+48	Importar en bases de datos, programas de contabilidad o scripts de Python/R: una tabla, texto plano
+49	XLS
+50	Solo versiones muy antiguas de Excel; abre el XLSX y guárdalo como XLS si de verdad lo necesitas
+51	Usos habituales
+52	Conciliar extractos bancarios y de tarjeta de crédito.
+53	Importar listas de precios de proveedores en sistemas de inventario.
+54	Analizar estados financieros y memorias anuales.
+55	Digitalizar tablas impresas antiguas con OCR.
+56	Convertir horarios y calendarios en hojas editables.
+57	Paso a paso: PDF a Excel
+58	**Suelta tu PDF** en la página, digital o escaneado.
+59	**Elige el formato**: XLSX para Excel y Google Sheets, o CSV.
+60	**Elige la organización de las hojas**: por página, por tabla o una sola hoja.
+61	**Deja el OCR en Automático** para que las páginas escaneadas se reconozcan solas, y elige el idioma del documento.
+62	**Convierte y descarga**, y abre el archivo en Excel, Google Sheets, Numbers o LibreOffice Calc. Comprueba algunos totales con el PDF antes de fiarte de las cifras.
+63	Dónde se procesa tu archivo
+64	En tu navegador, nunca se sube
+65	Sus servidores
+66	Sus servidores
+67	Nube de Adobe
+68	Sus servidores
+69	Funciona con el wifi apagado
+70	Sí, tras cargar la página
+71	No
+72	No
+73	No
+74	No
+75	Cuenta o correo necesarios
+76	Nunca
+77	No para el uso básico
+78	No para el uso básico
+79	Inicio de sesión para algunas acciones
+80	No para el uso básico
+81	Límites de uso gratuito
+82	Ninguno: solo los de tu dispositivo
+83	Plan gratuito; Premium para más
+84	Plan gratuito; Premium para más
+85	Plan gratuito; Premium para más
+86	3 tareas/hora, 50 MB por archivo
+87	OCR para PDF escaneados
+88	Gratis, 12 idiomas
+89	Premium
+90	Ver su sitio
+91	Ver su sitio
+92	Ver su sitio
+93	Salida CSV
+94	Sí
+95	Ver su sitio
+96	Ver su sitio
+97	Ver su sitio
+98	Ver su sitio
+99	Hoja por página / por tabla / única
+100	Sí
+101	Ver su sitio
+102	Ver su sitio
+103	Ver su sitio
+104	Ver su sitio
+105	¿Puede convertir PDF escaneados a Excel?
+106	Sí. El OCR gratuito lee páginas escaneadas o fotografiadas en 12 idiomas y reconstruye las filas y columnas de la tabla.
+107	¿PDF a Excel es gratis?
+108	Sí, por completo, incluido el OCR, que algunos servicios cobran.
+109	¿Se suben mis extractos bancarios?
+110	No. Todo se procesa en tu navegador; no se envía nada a ningún servidor.
+111	¿Los números serán números reales en Excel?
+112	Sí. Los valores con separadores, símbolos de moneda, porcentajes y negativos entre paréntesis se guardan como celdas numéricas.
+113	¿Qué diferencia hay entre XLS y XLSX?
+114	XLSX es el formato moderno de Excel, usado desde 2007. XLS es el formato antiguo; si hace falta, puedes guardar el XLSX como XLS en Excel.
+115	¿Puedo poner todas las páginas en una sola hoja?
+116	Sí. Elige «Todo en una sola hoja», ideal para extractos largos.
+117	¿Funciona con Google Sheets?
+118	Sí. Sube el XLSX a Google Drive o usa Archivo → Importar en Sheets.
+119	¿Por qué algunas columnas se juntan o se dividen?
+120	Las tablas sin espaciado o líneas claras pueden ser ambiguas. Prueba la organización «una hoja por tabla» o ajusta las pocas celdas afectadas en Excel.
+121	¿Puedo convertir a CSV en su lugar?
+122	Sí. Elige CSV como formato para obtener una tabla en texto plano.
+123	¿Cómo convierto un PDF a Excel?
+124	Suelta el PDF, elige XLSX o CSV y si quieres una hoja por página o por tabla, y convierte. Las tablas se detectan a partir de la posición del texto; los PDF escaneados se leen antes con el OCR gratuito.
+125	¿Cómo convierto un PDF a hoja de Excel sin perder el formato?
+126	Las tablas con columnas claras se convierten con más precisión. Los valores de las celdas se guardan como números siempre que es posible, para que puedas sumarlos y ordenarlos; el estilo visual, como colores y celdas combinadas, no se reproduce. Revisa los totales tras convertir un extracto complejo.
+127	¿Este conversor de PDF a Excel es gratis?
+128	Sí, incluido el OCR para tablas escaneadas, que otros conversores reservan a sus planes de pago. No hay registro ni límite de archivos.

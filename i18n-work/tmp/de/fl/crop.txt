@@ -1,0 +1,126 @@
+0	Recortar PDF
+1	Recorta los márgenes de las páginas de un PDF.
+2	Recortar PDF online gratis – Quitar márgenes de un PDF | {brand}
+3	Recorta páginas de un PDF por milímetros exactos para quitar márgenes blancos o centrarte en el contenido. En todas o solo algunas páginas. Gratis.
+4	Recortar PDF
+5	Selecciona tu PDF.
+6	Indica cuánto recortar de cada lado.
+7	Haz clic en Empezar y descarga.
+8	¿Se elimina el contenido recortado?
+9	El recorte oculta el contenido que queda fuera del nuevo cuadro de página. Usa Censurar PDF para eliminar contenido sensible de forma permanente.
+10	Las páginas escaneadas y las diapositivas exportadas suelen tener márgenes anchos o bordes no deseados. Recortar reduce el área visible de la página, de modo que los documentos se leen mejor en móviles y lectores electrónicos y quedan más limpios al imprimirlos.
+11	Quitar márgenes blancos anchos para leer mejor en el móvil o la tableta.
+12	Cortar los bordes y sombras del escáner.
+13	Centrarte en un gráfico o una figura para una presentación.
+14	Mide en una página y aplícalo a todas si las páginas comparten el mismo diseño.
+15	El recorte oculta el contenido pero no lo elimina: usa Censurar PDF para el contenido sensible.
+16	Después de recortar, Cambiar tamaño de página puede volver a ajustar el contenido a A4 o Carta.
+17	¿Se elimina el contenido recortado?
+18	No. Queda oculto fuera del nuevo cuadro de página. Usa Censurar PDF para eliminar de forma permanente el contenido sensible.
+19	Recortar para lectores electrónicos
+20	Quitar márgenes anchos hace que el texto se vea más grande en pantallas pequeñas, algo especialmente útil para artículos académicos y libros escaneados que se leen en móviles, tabletas y lectores electrónicos.
+21	Recortar PDF – Quitar márgenes blancos o en mm, gratis
+22	Recorta PDF gratis: quita márgenes blancos automáticamente con relleno o corta mm exactos de cada lado, en todas o algunas páginas. Sin subidas.
+23	{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+24	Recorta páginas de PDF online, de forma automática o precisa
+25	Recortar PDF corta los bordes de las páginas de un PDF. Usa **Recorte automático** para quitar automáticamente los márgenes blancos alrededor del contenido, con un poco de relleno para que nada quede apretado, o cambia a **Manual** para cortar un número exacto de milímetros por arriba, la derecha, abajo y la izquierda. Puedes recortar todas las páginas o solo un rango como 2-10, y el resultado es un PDF nuevo: tu archivo original no cambia.
+26	Recortar es ideal para leer PDF en el móvil o en un lector electrónico (los márgenes anchos desperdician pantalla), preparar figuras y diagramas para diapositivas, quitar bordes de escáner y franjas negras, cortar las marcas de impresión de archivos listos para imprenta y limpiar capturas de pantalla guardadas como PDF.
+27	Recorte automático: quitar márgenes blancos
+28	El recorte automático renderiza cada página en tu dispositivo, busca los píxeles no blancos más exteriores y coloca el cuadro de recorte justo fuera de ellos más el relleno que elijas (3 mm por defecto). Con **Mismo cuadro de recorte en todas las páginas** marcado, la herramienta usa el margen más pequeño encontrado en todas las páginas seleccionadas, así que todas mantienen el mismo tamaño y el contenido no salta al pasar páginas: lo mejor para libros e informes. Desmárcalo para recortar cada página ajustada a su propio contenido, lo que va bien para colecciones de figuras y recibos escaneados de distintos tamaños.
+29	En modo automático, las páginas giradas en el archivo se dejan como están y las páginas totalmente en blanco se omiten.
+30	Recorte manual en milímetros
+31	Quieres…
+32	Pon
+33	Quitar un borde de escáner de 1 cm
+34	10 mm en cada lado
+35	Cortar las marcas de corte de un archivo A4 con 3 mm de sangrado
+36	Mide las marcas; suelen ser 10–15 mm por lado
+37	Quedarte solo con la mitad superior de una página
+38	Abajo = la mitad de la altura de la página (148 mm en A4)
+39	Quitar una franja de encabezado
+40	Arriba = altura del encabezado
+41	Un milímetro equivale a unos 2,83 puntos PDF. Si los márgenes que introduces suman más que el ancho o el alto de la página, verás un error que indica la página, así que nada se recorta por error.
+42	Cómo recortar un PDF gratis
+43	Suelta el PDF en esta página.
+44	Elige Recorte automático (y el relleno) o márgenes manuales en mm.
+45	Si quieres, escribe un rango de páginas como 1-3,5.
+46	Pulsa Recortar y descarga el PDF recortado.
+47	¿El recorte es permanente?
+48	El recorte de PDF funciona cambiando el área visible de la página: el cuadro de recorte, el cuadro de medios, el cuadro de corte y el cuadro de sangrado se fijan al nuevo tamaño, así que cualquier visor e impresora muestra la página recortada. El contenido fuera del cuadro se oculta, no se borra, lo que mantiene la calidad perfecta y la operación sin pérdida. Si necesitas que el contenido oculto desaparezca de verdad (por ejemplo, notas confidenciales en un margen), usa después [Censurar PDF](/redact-pdf/) o [Aplanar PDF](/flatten-pdf/) en el modo *todo el contenido*.
+49	Recortar PDF a JPG
+50	Para obtener una imagen recortada en lugar de un PDF (una figura para una presentación o una web), recorta primero aquí y después convierte el resultado con [PDF a JPG](/pdf-to-jpg/) o [PDF a PNG](/pdf-to-png/). Como se respeta el cuadro de recorte, las imágenes contienen solo la zona que conservaste.
+51	Recortar o cambiar el tamaño
+52	Recortar quita los bordes y hace la página más pequeña. [Cambiar tamaño de PDF](/resize-pdf/) cambia el tamaño del papel (por ejemplo, de Carta a A4) escalando el contenido para que quepa. Si un documento debe tener un tamaño de papel concreto después de recortarlo, recorta primero y cambia el tamaño después.
+53	Consejos para obtener el mejor resultado
+54	En libros, deja activado *mismo cuadro de recorte* para que las páginas queden alineadas; en documentos variados, desactívalo.
+55	Añade 2–5 mm de relleno para que el texto no toque el borde en los lectores electrónicos.
+56	Puede que las páginas escaneadas con fondo gris o bordes oscuros no cuenten como «blancas»; usa el recorte manual o limpia antes el escaneo.
+57	Recorta solo las páginas que lo necesiten indicando un rango: las portadas suelen tener márgenes distintos.
+58	Revisa la primera y la última página después de recortar: los números de página del pie también son contenido y se conservarán.
+59	Recortar PDF online frente a programas de escritorio
+60	Los editores de escritorio pueden recortar páginas, pero normalmente requieren una licencia de pago. La mayoría de recortadores online suben tu archivo a un servidor. Esta herramienta te da recorte automático y manual gratis, por completo en tu navegador: útil para contratos, planos y otros archivos que prefieres no subir.
+61	Glosario
+62	Término
+63	Significado
+64	Cuadro de recorte (crop box)
+65	El área visible de una página en un PDF
+66	Cuadro de medios (media box)
+67	El tamaño completo del «papel» de la página
+68	Cuadro de sangrado / corte
+69	Áreas de producción de imprenta; aquí se ajustan al tamaño del recorte
+70	Relleno
+71	Espacio extra que se deja alrededor del contenido en el recorte automático
+72	Privacidad
+73	Todo ocurre dentro de la pestaña del navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa allí y se guarda directamente en tu dispositivo. Nunca se sube, se almacena ni se registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, por lo que sirve para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+74	Herramientas relacionadas
+75	[Cambiar tamaño de PDF](/resize-pdf/)
+76	[PDF a JPG](/pdf-to-jpg/)
+77	[Censurar PDF](/redact-pdf/)
+78	[Dividir páginas de PDF por la mitad](/split-pdf-pages-in-half/)
+79	[Girar PDF](/rotate-pdf/)
+80	Dónde se procesa tu archivo
+81	En tu navegador, nunca se sube
+82	Sus servidores (subida)
+83	Sus servidores (subida)
+84	Sus servidores (subida)
+85	Cuenta necesaria
+86	Nunca
+87	Ver su sitio
+88	Ver su sitio
+89	Ver su sitio
+90	Sus servidores (subida)
+91	Sí
+92	Ver su sitio
+93	Ver su sitio
+94	Ver su sitio
+95	Cuenta necesaria
+96	Sí
+97	Ver su sitio
+98	Ver su sitio
+99	Ver su sitio
+100	Rango de páginas
+101	Sí
+102	Ver su sitio
+103	Ver su sitio
+104	Ver su sitio
+105	Recorte automático de márgenes blancos
+106	Sí
+107	Ver su sitio
+108	Ver su sitio
+109	Ver su sitio
+110	¿Cómo recorto un PDF?
+111	Suelta el PDF, elige recorte automático o márgenes manuales en mm y descarga el archivo recortado.
+112	¿Puedo recortar páginas de PDF gratis?
+113	Sí, sin registro, marca de agua ni límites.
+114	¿Puedo recortar un PDF automáticamente?
+115	Sí, el recorte automático quita los márgenes blancos automáticamente con relleno opcional.
+116	¿Puedo recortar solo algunas páginas?
+117	Sí, escribe un rango como 2-10.
+118	¿Recortar reduce la calidad?
+119	No, solo cambia el área visible; el contenido no se vuelve a renderizar.
+120	¿Se elimina el contenido recortado?
+121	Se oculta. Usa Censurar PDF para eliminarlo de forma permanente.
+122	¿Cómo recorto un PDF a JPG?
+123	Recorta aquí y después convierte con PDF a JPG.
+124	¿Se sube mi PDF?
+125	No, el recorte se ejecuta en tu navegador.

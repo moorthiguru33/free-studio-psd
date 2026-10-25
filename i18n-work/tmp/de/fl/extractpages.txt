@@ -1,0 +1,153 @@
+0	Extraer páginas de un PDF
+1	Elige páginas y guárdalas como un PDF nuevo.
+2	Extraer páginas de un PDF online gratis – Guardar páginas | {brand}
+3	Elige las páginas que necesitas y guárdalas como un PDF nuevo. Selección visual de páginas, gratis, ilimitada y privada: no se sube nada.
+4	Extraer páginas de un PDF
+5	Selecciona tu PDF.
+6	Toca las páginas que quieras conservar.
+7	Haz clic en Empezar y descarga el nuevo PDF.
+8	¿Puedo cambiar el orden de las páginas extraídas?
+9	Sí. Arrástralas (o usa ← →) antes de hacer clic en Empezar.
+10	A menudo solo necesitas una parte de un documento: una página firmada, un solo capítulo o las páginas que hablan de un proyecto. Extraer páginas te permite seleccionarlas de forma visual y guardarlas como un PDF nuevo y más pequeño sin tocar el original.
+11	Devolver a un cliente solo la página de firma de un contrato.
+12	Compartir un capítulo de un libro o de un dosier de curso con un grupo de estudio.
+13	Sacar un único extracto o factura de un archivo mensual combinado.
+14	Reunir las diapositivas clave de una presentación larga exportada a PDF.
+15	Selecciona páginas en cualquier orden y reordénalas antes de hacer clic en Empezar.
+16	Para rangos fijos como 1-5, Dividir PDF con un rango de páginas es más rápido.
+17	Las páginas extraídas conservan su calidad original y el texto seleccionable.
+18	¿Puedo extraer páginas no consecutivas?
+19	Sí. Toca cualquier combinación de páginas, por ejemplo la 2, la 7 y la 15, y se guardarán juntas en un solo PDF.
+20	Una sola herramienta para limpiar páginas
+21	En lugar de usar herramientas distintas para girar, eliminar y reordenar páginas, Organizar PDF muestra todo el documento como una cuadrícula de páginas. Haz todos los cambios a la vez y exporta un único PDF limpio.
+22	Flujo de limpieza típico
+23	Escanea un lote de documentos, elimina las páginas en blanco, endereza las que están de lado, arrastra las páginas para ordenarlas y exporta. Después, comprime el resultado si tienes que enviarlo por correo.
+24	Funciona en cualquier dispositivo
+25	Las miniaturas se generan en tu navegador, así que incluso los PDF grandes se pueden reorganizar en un portátil, una tableta o un móvil sin subirlos a ningún servidor.
+26	Extraer páginas de un PDF – Guardar páginas elegidas gratis
+27	Extrae páginas de un PDF: marca miniaturas o escribe rangos como 1-3,8 y guarda un PDF o cada página aparte. Gratis, sin subidas ni registro.
+28	{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+29	Extrae páginas de un PDF a un archivo nuevo
+30	Extraer páginas copia solo las páginas que necesitas de un documento más grande a un PDF nuevo. Marca miniaturas o escribe rangos de páginas como 1-3,8,12-15 y guárdalas como un único PDF combinado o como archivos separados (un PDF por página, agrupados en un ZIP). El documento original queda intacto.
+31	Usos típicos: sacar la página de firma de un contrato, enviar solo el capítulo relevante de un manual, guardar una sola factura de un extracto mensual o separar cada página de un lote escaneado en su propio archivo.
+32	Dos formas de elegir páginas
+33	**Haz clic en las miniaturas**: se muestran todas las páginas; toca las que quieras y se resaltarán.
+34	**Escribe un rango**: introduce 2-5,9 y pulsa Seleccionar rango. Puedes mezclar rangos y páginas sueltas, y combinar lo que escribes con los clics.
+35	**Borrar selección** empieza de nuevo sin volver a cargar el archivo.
+36	Un PDF o archivos separados
+37	Por defecto, las páginas seleccionadas se guardan juntas en su orden original como un PDF llamado *tuarchivo-extracted.pdf*. Marca *Guardar cada página seleccionada como un PDF aparte* para obtener un archivo por página, con su número de página en el nombre (por ejemplo, *informe-page7.pdf*) y entregados en un ZIP. Los archivos separados son prácticos cuando cada página es un formulario, un recibo o un certificado distinto que debe archivarse o enviarse por correo por separado.
+38	Cómo extraer páginas de un PDF gratis
+39	Suelta el PDF en esta página.
+40	Marca las páginas que quieras o escribe rangos y pulsa Seleccionar rango.
+41	Si quieres, marca la opción de guardar cada página por separado.
+42	Pulsa Extraer y descarga el nuevo PDF o el ZIP.
+43	Extraer, dividir o eliminar
+44	Objetivo
+45	Usa
+46	Conservar unas pocas páginas y descartar el resto
+47	Extraer páginas de un PDF
+48	Quitar unas pocas páginas y conservar el resto
+49	[Eliminar páginas de un PDF](/delete-pdf-pages/)
+50	Cortar todo el documento en partes
+51	[Dividir PDF](/split-pdf/)
+52	Dividir en cada marcador de capítulo
+53	[Dividir PDF por marcadores](/split-pdf-by-bookmarks/)
+54	Obtener las páginas como imágenes
+55	[PDF a JPG](/pdf-to-jpg/)
+56	Qué se conserva
+57	Las páginas extraídas son copias exactas: texto seleccionable, fuentes, gráficos vectoriales e imágenes a resolución completa. Se conservan el tamaño y el giro de la página. Los comentarios y anotaciones que pertenecen a una página suelen viajar con ella. Los marcadores del documento original no se copian, porque apuntarían a páginas que quizá ya no existan.
+58	Extraer páginas como imágenes
+59	Si necesitas una imagen de una página en lugar de un PDF (para una diapositiva, una web o un mensaje de chat), usa [PDF a JPG](/pdf-to-jpg/) o [PDF a PNG](/pdf-to-png/) e introduce el mismo rango de páginas. Para sacar solo las fotos incrustadas en un PDF con su calidad original, usa [Extraer imágenes de un PDF](/extract-images-from-pdf/).
+60	Archivos grandes y protegidos
+61	No hay límite de páginas ni de tamaño más allá de la memoria de tu dispositivo; las miniaturas se generan a baja resolución, así que incluso los documentos largos se recorren rápido. Si el PDF necesita contraseña para abrirse, desbloquéalo primero con [Desbloquear PDF](/unlock-pdf/) (debes conocer la contraseña).
+62	Ejemplo práctico: sacar tres facturas de un extracto
+63	Imagina un extracto de proveedor de 40 páginas del que solo necesitas las facturas de las páginas 6, 14 y 15. Suelta el PDF, escribe *6,14-15* en el campo de rango y pulsa *Seleccionar rango*: las tres miniaturas se iluminan. Para archivar cada factura por separado, marca *Guardar cada página seleccionada como un PDF aparte*. Pulsa Extraer y obtendrás un ZIP con *extracto-page6.pdf*, *extracto-page14.pdf* y *extracto-page15.pdf*. Sin esa casilla, obtendrías un solo PDF de tres páginas. Todo el trabajo lleva unos segundos y el extracto nunca se sube a ningún sitio.
+64	Sintaxis de los rangos de páginas
+65	Escribes
+66	Páginas seleccionadas
+67	5
+68	Solo la página 5
+69	1-3
+70	Páginas 1, 2 y 3
+71	2,4,6
+72	Páginas 2, 4 y 6
+73	1-3,10-12
+74	Páginas 1–3 y 10–12
+75	8-8
+76	Página 8 (igual que 8)
+77	Los espacios se ignoran, y las páginas que no existen en el documento se indican como error para que puedas corregir el rango. Seleccionar por rango se suma a las páginas en las que ya hayas hecho clic; usa *Borrar selección* para empezar de nuevo.
+78	Extraer páginas en el móvil
+79	En pantallas pequeñas, escribir un rango suele ser más rápido que tocar miniaturas. La página funciona en Chrome, Safari, Firefox y Samsung Internet para móvil. Al descargar un solo PDF, va a tu carpeta Descargas o a la app Archivos; los ZIP se pueden abrir con la app Archivos del iPhone y con la mayoría de gestores de archivos de Android. Si vas a compartir el resultado enseguida, lo más fácil es un único PDF combinado.
+80	Extraer páginas con comentarios o campos de formulario
+81	Las anotaciones como resaltados, notas adhesivas y marcas dibujadas se guardan en la página a la que pertenecen y, en la mayoría de visores, pasan al archivo extraído. Los campos de formulario rellenables se copian con sus páginas, pero si un formulario usa scripts que hacen referencia a campos de otras páginas, esos scripts pueden dejar de funcionar al separar las páginas. Si necesitas una copia fija y no editable, pasa [Aplanar PDF](/flatten-pdf/) antes de extraer.
+82	Motivos para extraer en lugar de compartir el archivo entero
+83	**Privacidad**: envía solo la página que alguien necesita, no el documento completo con datos personales en otras páginas.
+84	**Tamaño**: un extracto de dos páginas es mucho más pequeño que un manual de 300, así que cabe en los límites del correo y del chat.
+85	**Claridad**: los revisores ven exactamente la sección que deben firmar o comentar.
+86	**Archivo**: guarda cada recibo, certificado o formulario con su propio nombre en tus registros.
+87	Seleccionar páginas impares o pares
+88	Los botones *Impares* y *Pares* seleccionan de un clic todas las páginas impares (1, 3, 5…) o pares (2, 4, 6…). Es útil para separar las caras delanteras y traseras de un escaneo a doble cara, o para sacar solo las páginas derechas del escaneo de un libro. Combínalos con rangos escritos y clics en miniaturas para afinar la selección.
+89	Extraer páginas online frente a programas de escritorio
+90	Los editores de PDF de escritorio de pago permiten extraer páginas, y muchos servicios online también, normalmente subiendo tu archivo a sus servidores y a veces con límites por hora para los usuarios gratuitos. Aquí, el PDF se abre en tu navegador y el nuevo archivo se crea en tu dispositivo, sin límites de uso. Eso lo hace rápido con archivos grandes y conexiones lentas, y seguro para documentos confidenciales.
+91	Glosario
+92	Término
+93	Significado
+94	Extraer
+95	Copiar las páginas seleccionadas a un documento nuevo
+96	Rango de páginas
+97	Una lista de páginas como 1-3,8
+98	ZIP
+99	Un único archivo comprimido que contiene varios archivos
+100	Aplanar
+101	Integrar los campos de formulario y las anotaciones en el contenido de la página
+102	Comprobar el resultado
+103	El mensaje del resultado muestra cuántas páginas se han extraído. Abre el archivo para confirmarlo y, si elegiste páginas equivocadas, cambia la selección y vuelve a pulsar Extraer: el archivo original sigue cargado hasta que elijas otro.
+104	Privacidad
+105	Todo ocurre dentro de la pestaña del navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa allí y se guarda directamente en tu dispositivo. Nunca se sube, se almacena ni se registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, por lo que sirve para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+106	Herramientas relacionadas
+107	[Dividir PDF](/split-pdf/)
+108	[Eliminar páginas de un PDF](/delete-pdf-pages/)
+109	[Organizar PDF](/organize-pdf/)
+110	[PDF a JPG](/pdf-to-jpg/)
+111	[Unir PDF](/merge-pdf/)
+112	Dónde se procesa tu archivo
+113	En tu navegador, nunca se sube
+114	Sus servidores (subida)
+115	Sus servidores (subida)
+116	Sus servidores (subida)
+117	Cuenta necesaria
+118	Nunca
+119	Ver su sitio
+120	Ver su sitio
+121	Ver su sitio
+122	Selección por rango escrito
+123	Sí
+124	Ver su sitio
+125	Ver su sitio
+126	Ver su sitio
+127	Cada página como PDF aparte
+128	Sí (ZIP)
+129	Ver su sitio
+130	Ver su sitio
+131	Ver su sitio
+132	Selección por miniaturas
+133	Sí
+134	Ver su sitio
+135	Ver su sitio
+136	Ver su sitio
+137	¿Cómo extraigo páginas de un PDF?
+138	Suelta el PDF, marca páginas o escribe un rango y pulsa Extraer para descargar un PDF nuevo.
+139	¿Cómo extraigo páginas de un PDF en archivos separados?
+140	Marca «Guardar cada página seleccionada como un PDF aparte»; obtendrás un ZIP con un PDF por página.
+141	¿Puedo extraer páginas gratis?
+142	Sí, sin registro, marca de agua ni límite de páginas.
+143	¿Puedo separar las páginas de un PDF?
+144	Sí: selecciona todas las páginas y guarda cada una como un PDF aparte, o usa Dividir PDF.
+145	¿Extraer reduce la calidad?
+146	No, las páginas se copian exactamente.
+147	¿Puedo extraer páginas no consecutivas?
+148	Sí, p. ej. 1,4,7-9.
+149	¿Se sube mi archivo?
+150	No, la extracción se ejecuta en tu navegador.
+151	¿Se conservan los marcadores?
+152	No; añade otros nuevos con la herramienta de marcadores si los necesitas.

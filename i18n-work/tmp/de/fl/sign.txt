@@ -1,0 +1,157 @@
+0	Firmar PDF
+1	Dibuja o escribe tu firma y colócala en un PDF.
+2	Firmar PDF online gratis – Añadir firma a un PDF | {brand}
+3	Dibuja o escribe tu firma y añádela a cualquier página de un PDF. Gratis, sin cuenta y tu documento no sale de tu dispositivo.
+4	Firmar PDF
+5	Selecciona tu PDF.
+6	Dibuja o escribe tu firma y elige una página.
+7	Haz clic en la vista previa para colocarla y, después, en Empezar y descarga.
+8	¿Es una firma jurídicamente vinculante?
+9	Añade una firma electrónica visual, que se acepta en muchas situaciones. Para firmas digitales basadas en certificado, consulta los requisitos de tu país.
+10	Firma documentos en menos de un minuto sin imprimir ni escanear. Dibuja tu firma con el dedo, el ratón o un lápiz óptico, o escríbela, y colócala en cualquier parte de la página, todo en tu dispositivo.
+11	Firmar contratos de alquiler, cartas de oferta y formularios de consentimiento.
+12	Aprobar facturas o albaranes.
+13	Añadir tus iniciales en cada página de un contrato.
+14	En el móvil, dibuja despacio para una firma más suave.
+15	Después de firmar, usa Aplanar PDF para que la firma no se pueda mover.
+16	Firmas electrónicas
+17	Las firmas electrónicas visuales se aceptan ampliamente para acuerdos cotidianos en muchos países. Algunos documentos, como ciertos trámites legales o con la administración, pueden exigir firmas digitales basadas en certificado: consulta la normativa local si tienes dudas.
+18	Firmar en el móvil
+19	Dibuja tu firma con el dedo, colócala en la página correcta y ajusta su tamaño a la línea de firma.
+20	Firmar PDF gratis – Dibuja, escribe o sube tu firma
+21	Firma PDF gratis: dibuja, escribe o sube una firma, añade iniciales y fecha y colócala en varias páginas. Se guarda solo en tu equipo. Sin subidas.
+22	Firma un PDF en menos de un minuto y en privado
+23	Ya sea un contrato de alquiler, una carta de oferta, una autorización del colegio o un contrato con un proveedor, firmar solía significar imprimir, firmar y escanear. Con {brand} añades tu firma directamente al PDF en tu navegador. El documento nunca se sube, no hay que crear ninguna cuenta y no necesitas enviarte el archivo a través de una plataforma de firma electrónica.
+24	**Tres formas de crear una firma**: dibújala con el ratón, el trackpad, el dedo o un lápiz óptico; escribe tu nombre y elige un estilo manuscrito; o sube una foto de tu firma. El fondo blanco se vuelve transparente automáticamente.
+25	**Iniciales, fecha y texto libre**: coloca tus iniciales, la fecha de hoy o cualquier texto (como tu nombre en letra de imprenta o «Aprobado») con la misma herramienta.
+26	**Muchas colocaciones, muchas páginas**: haz clic para colocarla tantas veces como necesites; cambia de página para poner tus iniciales en cada una y firmar la última. Deshacer elimina la última colocación.
+27	**Recordar mi firma**: si quieres, guarda tu firma solo en este navegador (almacenamiento local) para tenerla lista al instante la próxima vez. No se guarda nada en ningún servidor.
+28	**Color y tamaño**: tinta azul o negra, y cualquier anchura.
+29	Además, no hay nada que esperar. Los contratos escaneados grandes se abren al instante, puedes firmar en el tren o en el avión sin conexión una vez cargada la página y firmar tantos documentos como quieras al día. No hay créditos, ni cuenta atrás de prueba gratuita, ni avisos para crear una cuenta antes de descargar tu propio archivo firmado.
+30	Cómo firmar un PDF
+31	**Abre tu PDF** soltándolo en la página.
+32	**Crea tu firma**: dibújala, escríbela o súbela. Marca «Recordar mi firma» si quieres guardarla en este dispositivo.
+33	**Elige qué colocar**: Firma, Iniciales, Fecha de hoy o Texto libre.
+34	**Haz clic en la página** donde deba ir. Cada clic añade una copia centrada en el punto donde has hecho clic.
+35	**Cambia de página** para firmar o poner iniciales en otras páginas. Usa Deshacer si colocas una mal.
+36	**Descarga** el PDF firmado.
+37	Firma electrónica frente a firma digital
+38	Estos dos términos se confunden a menudo. Una **firma electrónica** es cualquier indicación electrónica de que una persona está de acuerdo con un documento: una firma dibujada o escrita, una imagen escaneada o incluso marcar una casilla. Eso es lo que crea esta herramienta. En muchos países las firmas electrónicas tienen reconocimiento legal para la mayoría de acuerdos cotidianos: en Estados Unidos según la ESIGN Act y la UETA, y en la Unión Europea como «firmas electrónicas simples» según el reglamento eIDAS.
+39	Una **firma digital** es una tecnología concreta: un sello criptográfico basado en un certificado emitido a tu nombre, que demuestra quién firmó y que el archivo no se ha modificado desde entonces. Algunos documentos (ciertos trámites con la administración, escrituras notariales o firmas «cualificadas» según eIDAS) exigen ese nivel. Si un destinatario pide expresamente una firma digital basada en certificado, usa la herramienta o el servicio que indique.
+40	Esto es información general, no asesoramiento jurídico. Consulta los requisitos de los contratos importantes en tu país.
+41	Qué hace más fiable un PDF firmado
+42	Pon tus iniciales en cada página cuando el documento sea largo, para que no se puedan cambiar páginas sin que se note.
+43	Añade la fecha junto a tu firma.
+44	Guarda una copia del PDF firmado y del correo con el que lo enviaste.
+45	Después de firmar, usa [Aplanar PDF](/flatten-pdf/) para integrarlo todo en la página, o [Proteger PDF](/protect-pdf/) para impedir más ediciones.
+46	Subir una foto de la firma
+47	Firma con un bolígrafo oscuro sobre papel blanco liso, haz una foto bien iluminada o escanéala y súbela. La herramienta quita el fondo blanco para que solo quede la tinta y después puedes ajustarla a la línea de firma. Para un PNG transparente reutilizable también puedes usar nuestro [Creador de firmas](/signature-maker/).
+48	Por qué importa firmar en local
+49	Los documentos que firmas están entre los más sensibles que manejas: contienen nombres, direcciones, salarios, datos bancarios y números de identidad. Los servicios de firma online suelen subir el archivo a sus servidores. Aquí, el PDF, la imagen de tu firma y el resultado se quedan en tu dispositivo todo el tiempo. La firma guardada opcional vive solo en el almacenamiento local de tu navegador y se puede eliminar desmarcando la opción o borrando los datos del sitio.
+50	Usos habituales
+51	Contratos de alquiler y arrendamiento.
+52	Cartas de oferta de empleo y acuerdos de confidencialidad.
+53	Formularios de consentimiento escolares y médicos.
+54	Facturas, albaranes y órdenes de compra.
+55	Contratos de autónomos y documentos de alcance del trabajo.
+56	Firmar en el móvil o la tableta
+57	Firmar con el dedo suele quedar más natural que con el ratón. Abre el PDF en tu móvil, elige Dibujar y firma en el recuadro: el trazo se suaviza para que parezca tinta. Después toca la página donde va la firma. En un iPad o una tableta Android con lápiz óptico, el resultado es prácticamente igual que con bolígrafo sobre papel. El PDF firmado se descarga en tu carpeta Archivos o Descargas, listo para adjuntarlo a un correo o subirlo a un portal.
+58	Escrita, dibujada o subida: ¿cuál queda mejor?
+59	Método
+60	Ideal cuando
+61	Dibujar
+62	Quieres un aspecto natural, manuscrito, y tienes pantalla táctil o trackpad
+63	Escribir
+64	Necesitas algo limpio y rápido, p. ej. para aprobaciones internas
+65	Subir
+66	Quieres tu firma exacta con bolígrafo en todos los documentos
+67	Las tres son igual de válidas como firma electrónica. Elige la que te resulte más cómoda y úsala siempre, para que tu firma sea reconocible en todos los documentos.
+68	Firmar documentos con otras personas
+69	Esta herramienta está pensada para que firmes tú un documento. Si deben firmar varias personas, cada una puede abrir el PDF, añadir su firma y pasar el archivo a la siguiente: las firmas anteriores se conservan porque quedan escritas en la página. Para formularios con campos etiquetados, prueba primero [Rellenar formulario PDF](/fill-pdf-form/) para escribir nombres y direcciones, y después firma. Cuando un documento debe pasar por un proceso formal con registro de auditoría, recordatorios y certificados, lo adecuado es una plataforma de firma electrónica elegida por la organización que solicita la firma.
+70	Lista de comprobación antes de enviar un PDF firmado
+71	Lee el documento entero una vez más: al firmar confirmas que estás de acuerdo con cada página.
+72	Asegúrate de que la firma está sobre la línea de firma y no tapa ningún texto.
+73	Pon tus iniciales en cada página si la otra parte lo ha pedido.
+74	Añade la fecha en el formato que espera el destinatario.
+75	Abre el PDF descargado para revisar cada colocación antes de enviarlo.
+76	Comprímelo con [Comprimir PDF](/compress-pdf/) si es demasiado grande para el correo.
+77	Solución de problemas
+78	**La firma se ve dentada**: dibuja un poco más despacio o aumenta la anchura; las imágenes subidas deben tener al menos 600 px de ancho.
+79	**Recuadro gris alrededor de una firma subida**: fotografíala sobre papel blanco brillante con buena luz para que el fondo se pueda quitar limpiamente.
+80	**Firma demasiado grande o pequeña**: cambia la anchura antes de hacer clic; usa Deshacer y vuelve a colocarla.
+81	**El PDF está protegido con contraseña**: ábrelo con [Desbloquear PDF](/unlock-pdf/) usando la contraseña que te dieron y después firma.
+82	**No aparece la firma guardada**: se guarda en cada navegador, así que no aparecerá en otro navegador, en ventanas privadas ni después de borrar los datos del sitio.
+83	**El destinatario dice que el PDF es editable**: aplánalo después de firmar para que la firma quede integrada en el contenido de la página.
+84	**Contrato escaneado**: no hay problema; las firmas se colocan sobre la página escaneada igual que sobre una digital.
+85	Dónde se procesa tu archivo
+86	En tu navegador, nunca se sube
+87	Sus servidores
+88	Sus servidores
+89	Nube de Adobe
+90	Sus servidores
+91	Funciona con el wifi apagado
+92	Sí, tras cargar la página
+93	No
+94	No
+95	No
+96	No
+97	Cuenta o correo necesarios
+98	Nunca
+99	No para el uso básico
+100	No para el uso básico
+101	Inicio de sesión para algunas acciones
+102	No para el uso básico
+103	Límites de uso gratuito
+104	Ninguno: solo los de tu dispositivo
+105	Plan gratuito; Premium para más
+106	Plan gratuito; Premium para más
+107	Plan gratuito; Premium para más
+108	3 tareas/hora, 50 MB por archivo
+109	Firma dibujada / escrita / subida
+110	Sí
+111	Ver su sitio
+112	Ver su sitio
+113	Ver su sitio
+114	Ver su sitio
+115	Iniciales y fecha
+116	Sí
+117	Iniciales: sí
+118	Ver su sitio
+119	Ver su sitio
+120	Ver su sitio
+121	Firma guardada
+122	Solo en tu dispositivo
+123	Cuenta
+124	Cuenta
+125	Cuenta
+126	Ver su sitio
+127	Varias colocaciones en muchas páginas
+128	Sí
+129	Ver su sitio
+130	Ver su sitio
+131	Ver su sitio
+132	Ver su sitio
+133	¿Es gratis firmar un PDF aquí?
+134	Sí. No hay límites, ni marca de agua, ni cuenta.
+135	¿Se sube mi documento?
+136	No. El PDF y tu firma nunca salen de tu navegador.
+137	¿Es jurídicamente vinculante una firma electrónica?
+138	Para muchos acuerdos cotidianos, sí: p. ej. según la ESIGN Act y la UETA de EE. UU. y como firma electrónica simple según el reglamento eIDAS de la UE. Algunos documentos exigen una firma digital basada en certificado. Esto no es asesoramiento jurídico.
+139	¿Qué diferencia hay entre una firma electrónica y una firma digital?
+140	Una firma electrónica es cualquier marca electrónica de conformidad, como una firma dibujada. Una firma digital usa un certificado y criptografía para demostrar la identidad y detectar cambios.
+141	¿Puedo firmar en el móvil?
+142	Sí. Dibuja tu firma con el dedo en el navegador de cualquier móvil o tableta.
+143	¿Puedo añadir iniciales y la fecha?
+144	Sí. Elige Iniciales, Fecha de hoy o Texto libre y haz clic donde deban ir.
+145	¿Puedo firmar varias páginas?
+146	Sí. Cada clic coloca otra copia; cambia de página para firmar o poner iniciales en todas.
+147	¿Puedo subir una imagen de mi firma?
+148	Sí. Sube una foto o un escaneo; el fondo blanco se quita automáticamente.
+149	¿Dónde se guarda mi firma?
+150	Solo en el almacenamiento local de este navegador, en tu dispositivo, y solo si marcas «Recordar mi firma».
+151	¿Puedo quitar una firma mal colocada?
+152	Sí. Haz clic en Deshacer para quitar la última colocación.
+153	¿Cómo firmo un PDF en el ordenador?
+154	Abre el PDF, crea una firma dibujándola con el ratón o el touchpad, escribiendo tu nombre con una fuente manuscrita o subiendo una foto de tu firma; después colócala en la página y descarga. No se instala ni se sube nada.
+155	¿Es legalmente válida una firma añadida así?
+156	Una firma dibujada o escrita es una firma electrónica, que muchas jurisdicciones aceptan para acuerdos cotidianos. No es una firma digital basada en certificado. Para contratos con requisitos especiales, comprueba qué necesita la otra parte o la ley de tu país.

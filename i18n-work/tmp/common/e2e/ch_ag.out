@@ -1,0 +1,3 @@
+PASS  |  pdf2word-ocr  |  scanned page OCRed into docx
+PASS  |  rename+next  |  my-merged.pdf, 6 follow-on tools, thumbnails shown
+PASS  |  qr-live  |  download available without Create step

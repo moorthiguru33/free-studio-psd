@@ -1,0 +1,261 @@
+0	Ampliar imagen
+1	Aumenta la resolución de una imagen.
+2	Ampliar imagen – Aumenta la resolución 2×–4× gratis | {brand}
+3	Amplía imágenes a mayor resolución (2×, 3×, 4×) en tu navegador con remuestreo Lanczos y enfoque. Sin subidas ni marca de agua.
+4	Aumentar la resolución de una imagen
+5	Selecciona las imágenes.
+6	Elige la escala.
+7	Descarga.
+8	¿Habrá marca de agua?
+9	No, nunca.
+10	Ampliar una imagen aumenta su resolución para que se adapte a pantallas más grandes, impresiones o tamaños mínimos de plataformas. Todo ocurre en tu dispositivo, sin marca de agua.
+11	Alcanzar el tamaño mínimo de imagen para tiendas online o anuncios.
+12	Ampliar fotos digitales antiguas para verlas en pantallas modernas.
+13	Aumentar la resolución de capturas de pantalla para documentos.
+14	Evita pasar de 4×: los factores mayores amplifican el desenfoque.
+15	Después, usa Comprimir imagen para que los archivos sigan siendo manejables.
+16	¿Se añade una marca de agua?
+17	No, nunca.
+18	¿En qué formato debo guardar?
+19	PNG para gráficos y capturas; JPG de alta calidad para fotos.
+20	Escalar frente a agrandar
+21	Ambos hacen la imagen más grande. Escalar busca un múltiplo concreto (2×, 3×, 4×) para alcanzar la resolución que exige una plataforma o un tamaño de impresión. La calidad depende del original: una foto nítida de 1000 px ampliada 2× se ve mucho mejor que una miniatura borrosa ampliada 4×.
+22	Guía de tamaños de impresión
+23	Para imprimir a 300 DPI, una copia de 10 × 15 cm necesita unos 1200 × 1800 px; una impresión A4 o Carta necesita unos 2500 × 3500 px. Ampliar te ayuda a alcanzar esos tamaños, aunque no puede añadir detalle real que nunca se captó.
+24	Ampliar imagen – 2×, 4×, 8× gratis, en tu dispositivo
+25	Amplía imágenes 1,5×, 2×, 3×, 4× u 8× con Lanczos, reducción de ruido y enfoque. Comparador antes/después, lotes, resolución completa. Sin subidas.
+26	{tool}: {brand} frente a iLoveIMG, ImgUpscaler y Upscale.media
+27	Agranda imágenes pequeñas sin que se vean pixeladas
+28	Cuando estiras una imagen pequeña en un editor básico, se vuelve pixelada o borrosa: cada píxel original se convierte en un cuadrado de píxeles idénticos o los bordes se emborronan. La herramienta Ampliar imagen de {brand} agranda fotos, gráficos y capturas 1,5×, 2×, 3×, 4× u 8× con remuestreo Lanczos de alta calidad, una reducción de ruido opcional que limpia los artefactos JPEG antes de ampliar y una máscara de enfoque que devuelve la nitidez al final. El resultado es una imagen más grande que se ve suave y nítida a una distancia de visualización normal.
+29	Todo el proceso se ejecuta en tu navegador. Tus imágenes nunca se suben, así que es seguro para fotos personales, trabajos de clientes e imágenes de productos aún no lanzados. No hay créditos, ni marca de agua, ni una «vista previa» de baja resolución: la descarga es la imagen ampliada completa.
+30	Puedes procesar tantas imágenes como quieras y tantas veces como quieras: no hay cuota diaria.
+31	Qué hace exactamente este ampliador
+32	Algunos ampliadores online usan grandes modelos de IA generativa en sus servidores que «inventan» detalles nuevos verosímiles: poros de la piel, mechones de pelo, textura de ladrillo. {brand} no hace eso. Usa un filtro de remuestreo matemáticamente preciso (Lanczos-3, de la misma familia de filtros que emplean los editores de imagen profesionales) junto con limpieza y enfoque clásicos. Esto significa que nunca añade detalles que no existían, nunca altera caras ni texto y nunca produce los artefactos extraños que a veces generan los modelos de IA, pero tampoco puede reconstruir detalle que la imagen pequeña no contiene. Para la mayoría de usos –imprimir más grande una imagen web, preparar un logotipo para una diapositiva, agrandar la foto de un producto para una tienda online, hacer legible una captura– un remuestreo cuidadoso es justo lo que necesitas, y es rápido y totalmente privado.
+33	Funciones
+34	**Factores de escala:** 1,5×, 2×, 3×, 4× y 8×.
+35	**Remuestreo Lanczos-3** aplicado por separado al ancho y al alto para obtener bordes suaves con halos controlados.
+36	**Reducción de ruido / limpieza JPEG:** desactivada, ligera o fuerte, aplicada antes de ampliar para que los bloques y el ruido no se magnifiquen.
+37	**Enfoque:** desactivado, medio o fuerte, con máscara de enfoque tras ampliar.
+38	**Comparador antes/después** para comparar el original con el resultado.
+39	**Lotes:** amplía muchas imágenes a la vez y descárgalas en un ZIP.
+40	**Formato de salida:** mantén el formato original o elige JPG, PNG o WebP.
+41	**Salidas grandes:** hasta unos 64 megapíxeles por imagen; si un factor los superara, se reduce automáticamente.
+42	**Admite** JPG, PNG, WebP, HEIC, BMP y TIFF.
+43	Cómo ampliar una imagen
+44	Arrastra una o varias imágenes a la página (o pégalas con Ctrl+V).
+45	Elige la escala: 2× para la mayoría de usos, 4× u 8× para originales muy pequeños.
+46	Para JPG de la web o de apps de mensajería, pon la reducción de ruido en Ligera.
+47	Deja el enfoque en Medio, o elige Fuerte para texto y dibujos lineales.
+48	Haz clic en Ampliar, compara con el deslizador y descarga.
+49	¿Qué escala debo elegir?
+50	Tamaño inicial
+51	Objetivo
+52	Escala sugerida
+53	Foto de 640×480
+54	Fondo de pantalla Full HD
+55	3×
+56	Foto de producto de 800×800
+57	Zoom de tienda online (2000 px)
+58	2,5–3× (usa 3×)
+59	Logotipo de 300 px
+60	Diapositiva o banner
+61	4×
+62	Imagen de Instagram de 1080 px
+63	Impresión A4 a 300 DPI (2480×3508)
+64	2× y luego recortar
+65	Icono o sprite diminuto (64 px)
+66	Pantalla grande
+67	8×
+68	Captura de pantalla
+69	Legible en un documento
+70	2×
+71	Recuerda que la calidad visual del resultado está limitada por la información del original. Pasar de 500 a 1000 píxeles suele verse excelente; pasar de 100 a 800 píxeles da una imagen suave pero blanda.
+72	Cómo funciona el remuestreo Lanczos
+73	Cada píxel de la imagen ampliada queda entre píxeles del original. El método más sencillo, el vecino más cercano, copia el píxel original más próximo: rápido pero pixelado. La interpolación bilineal promedia los cuatro píxeles más cercanos: suave pero borrosa. La bicúbica usa dieciséis píxeles y da mejores resultados. Lanczos va más allá: para cada píxel nuevo examina seis píxeles originales en cada dirección y los pondera con una función sinc enventanada, el filtro de reconstrucción matemáticamente ideal para señales de banda limitada. En la práctica conserva los bordes y las texturas finas mucho mejor que la bilineal o la bicúbica, manteniendo los halos pequeños.
+74	Como las ampliaciones grandes en un solo paso pueden amplificar problemas, {brand} aplica el filtro por separado en horizontal y en vertical, lo que es más rápido y exacto para este tipo de filtro. Después, la máscara de enfoque opcional aumenta el contraste local en los bordes, que nuestros ojos perciben como nitidez.
+75	Reduce el ruido antes de ampliar
+76	Las imágenes guardadas como JPG –sobre todo las descargadas de redes sociales o reenviadas por apps de mensajería– contienen artefactos de compresión: tenues bloques de 8×8 píxeles, halos alrededor del texto y manchas de color. Al ampliar, estos se hacen cuatro o dieciséis veces más grandes y mucho más visibles. La opción de reducción de ruido aplica un desenfoque suave antes de ampliar, que alisa los artefactos; el enfoque posterior recupera los bordes. Usa Ligera para imágenes web normales y Fuerte para las muy comprimidas. Para gráficos PNG limpios y fotos recién salidas de la cámara, déjala desactivada.
+77	Casos de uso
+78	**Impresión:** las imágenes web suelen tener 72–150 píxeles por pulgada al tamaño de impresión; ampliar 2–4× te acerca a los 300 PPI que prefieren las impresoras.
+79	**Comercio electrónico:** las tiendas online suelen exigir un mínimo de 1000–2000 píxeles en el lado largo para el zoom.
+80	**Presentaciones:** agranda logotipos y gráficos para que no se vean borrosos en un proyector.
+81	**Fotos antiguas:** amplía escaneos de copias pequeñas antes de recortarlas o restaurarlas.
+82	**Juegos y pixel art:** 8× con el enfoque desactivado para ampliaciones nítidas.
+83	**Fondos de pantalla:** lleva una foto favorita a Full HD o 4K.
+84	**Redes sociales:** alcanza la resolución mínima para portadas y banners.
+85	Ampliar para imprimir
+86	La calidad de impresión depende de los píxeles por pulgada al tamaño final. Una foto de 1200×800 impresa a 10 cm de ancho tiene unos 300 píxeles por pulgada: excelente. La misma foto impresa a 30 cm de ancho solo tiene 100: visiblemente blanda de cerca. Ampliar 3× antes de imprimir no añade detalle real, pero entrega a la impresora una imagen suave en lugar de dejar que la agrande con su propia interpolación, normalmente más simple; bordes y degradados se ven más limpios. Para pósteres vistos a distancia, 150 PPI suelen bastar. Tras ampliar, usa [Redimensionar imagen](/resize-image/) con centímetros o pulgadas para fijar el tamaño de impresión exacto y los DPI.
+87	Consejos para obtener los mejores resultados
+88	Parte de la versión más grande y menos comprimida de la imagen que tengas.
+89	Recorta primero, para ampliar solo lo que necesitas: [Recortar imagen](/crop-image/).
+90	Usa salida PNG para gráficos y capturas, y JPG de alta calidad para fotos.
+91	Para texto y logotipos, elige enfoque Fuerte; para caras, Medio resulta más natural.
+92	Evita ampliar la misma imagen repetidamente; un paso más grande es mejor que varios pequeños.
+93	Si el archivo queda demasiado grande, comprímelo después con [Comprimir imagen](/compress-image/).
+94	Comparativa de métodos de ampliación
+95	Método
+96	Cómo funciona
+97	Aspecto
+98	Ideal para
+99	Vecino más cercano
+100	Copia el píxel más próximo
+101	Pixelado, bordes duros
+102	Pixel art a factores enteros
+103	Bilineal
+104	Promedia 4 píxeles
+105	Suave pero borroso
+106	Vistas previas rápidas
+107	Bicúbica
+108	Pondera 16 píxeles con una curva cúbica
+109	Bueno, algo blando
+110	Edición general
+111	Lanczos-3 (el usado aquí)
+112	Pondera 36 píxeles con una sinc enventanada
+113	El resultado clásico más nítido
+114	Fotos, gráficos, capturas
+115	IA generativa
+116	Una red neuronal predice detalle nuevo
+117	Muy nítido, puede inventar detalle
+118	Imágenes muy degradadas, cuando la exactitud no es crítica
+119	Lanczos suele elegirse como método de referencia en las bibliotecas de procesamiento de imágenes porque ofrece el mejor equilibrio entre nitidez y artefactos entre los filtros clásicos. Combinado con un enfoque ligero, la diferencia con la ampliación por IA es pequeña en factores moderados como 2×, y Lanczos tiene la ventaja de ser totalmente predecible.
+120	Ampliar distintos tipos de imágenes
+121	**Retratos y caras.** Usa 2× o 3×, reducción de ruido Ligera y enfoque Medio. Un enfoque fuerte en la piel exagera poros y ruido. Como no se inventa nada, la persona se ve exactamente como es; una queja habitual de los ampliadores con IA es que alteran sutilmente los rasgos faciales.
+122	**Texto, documentos y capturas.** Usa 2×, reducción de ruido desactivada y enfoque Fuerte, y guarda en PNG. Las letras quedan suaves y legibles, ideal antes de imprimir o pegar en un informe. Si quieres copiar el texto, usa [Imagen a texto](/image-to-text/); ampliar antes las capturas pequeñas también puede mejorar la precisión del OCR.
+123	**Logotipos e iconos.** Usa 4×, enfoque Fuerte y salida PNG para conservar la transparencia. Para logotipos realmente escalables, una versión vectorial (SVG) siempre es mejor que cualquier ampliación; pídesela al diseñador o al propietario de la marca.
+124	**Fotos de producto.** Usa 2–3× con reducción de ruido Ligera y enfoque Medio. Combínalo con [Quitar fondo](/remove-background/) para obtener el fondo blanco limpio que exigen muchas tiendas online.
+125	**Anime, dibujos animados e ilustraciones.** Los colores planos y las líneas limpias se amplían muy bien con Lanczos. Usa enfoque Fuerte y PNG.
+126	**Fotos antiguas escaneadas.** Escanea primero a la máxima resolución que admita tu escáner: eso capta mucho más detalle real que cualquier ampliador. Después usa reducción de ruido Ligera o Fuerte para atenuar el grano antes de ampliar.
+127	Cómo afecta la ampliación al tamaño del archivo
+128	Duplicar ancho y alto multiplica el número de píxeles por cuatro; 4× lo multiplica por dieciséis y 8× por sesenta y cuatro. Un JPG de 1 MB ampliado 4× puede pasar a 8–15 MB, y en PNG puede superar los 50 MB. Si necesitas un archivo más pequeño, elige salida JPG o WebP, o pasa el resultado por [Comprimir imagen](/compress-image/) con un tamaño objetivo. Para uso web, ampliar por encima del tamaño al que se muestra la imagen solo hace las páginas más lentas; redimensiona al tamaño de visualización.
+129	Píxeles, DPI y PPI explicados
+130	Un archivo de imagen solo tiene píxeles, por ejemplo 2400×1600. Los DPI o PPI (puntos o píxeles por pulgada) son un número aparte que indica a la impresora a qué tamaño imprimirla. Cambiar los DPI de 72 a 300 sin cambiar los píxeles no mejora la calidad; solo hace la impresión más pequeña. Para imprimir más grande con la misma calidad necesitas más píxeles, y eso es lo que te da la ampliación. Una regla útil: píxeles necesarios = tamaño de impresión en pulgadas × 300 para ver de cerca, × 150 para pósteres. Una página A4 (8,3×11,7 in) a 300 PPI necesita unos 2480×3508 píxeles.
+131	Solución de problemas
+132	Problema
+133	Solución
+134	El resultado se ve sobreenfocado, con halos
+135	Pon el enfoque en Medio o desactívalo
+136	Se ven bloques o manchas
+137	Pon la reducción de ruido en Ligera o Fuerte
+138	El resultado es blando
+139	Usa un factor menor, parte de un original más grande o pon el enfoque en Fuerte
+140	La escala se redujo automáticamente
+141	La salida superaría ~64 megapíxeles; recorta o elige un factor menor
+142	La pestaña del navegador se cierra en el móvil
+143	Usa un factor menor o un ordenador para salidas muy grandes
+144	Las zonas transparentes se volvieron blancas
+145	Elige salida PNG o WebP, no JPG
+146	Cuándo puede ser mejor un ampliador con IA
+147	Si tu imagen es extremadamente pequeña (por ejemplo, una miniatura de 150 píxeles) y necesitas imprimirla en grande, o está muy borrosa, un servicio de IA generativa puede producir un resultado más llamativo alucinando textura. Ten en cuenta que estos servicios suelen requerir subir la imagen, a menudo limitan el uso gratuito con créditos o marcas de agua, y el detalle añadido no es real, por lo que no son adecuados para pruebas, documentos, imágenes científicas ni nada en lo que importe la exactitud. Para ampliaciones cotidianas, el remuestreo privado en el dispositivo suele ser la opción más segura y rápida.
+148	Ampliar en móviles y tabletas
+149	La herramienta funciona en Chrome, Safari y Firefox para móvil. Elige una foto de tu galería o haz una con la cámara. Los móviles tienen menos memoria que los ordenadores, así que para fotos grandes quédate en 2× o 3×; 8× de una foto de 12 megapíxeles superaría con creces el límite de 64 megapíxeles de todos modos. En iPhone, las fotos HEIC se aceptan directamente. Las descargas se guardan en tu carpeta Archivos o Descargas, desde donde puedes compartirlas o guardarlas en tu fototeca.
+150	Tamaños mínimos recomendados para usos habituales
+151	Uso
+152	Tamaño mínimo (píxeles)
+153	Publicación de Instagram
+154	1080×1080
+155	Miniatura de YouTube
+156	1280×720
+157	Portada de LinkedIn / Facebook
+158	1584×396 / 1640×624 (consulta cada plataforma)
+159	Fondo de pantalla Full HD
+160	1920×1080
+161	Fondo de pantalla 4K
+162	3840×2160
+163	Zoom de producto estilo Amazon
+164	1000+ en el lado largo
+165	Impresión A4, 300 PPI
+166	2480×3508
+167	Copia fotográfica de 10×15 cm
+168	1200×1800
+169	Las plataformas cambian sus recomendaciones de vez en cuando, así que consulta las indicaciones actuales antes de una campaña importante. Si tu imagen está por debajo del mínimo, amplíala justo por encima del objetivo y luego usa los ajustes predefinidos de [Redimensionar imagen](/resize-image/) para obtener las dimensiones exactas.
+170	Cómo usar el comparador antes/después
+171	Tras el procesado, arrastra el divisor sobre la vista previa para comparar el original (ampliado con el escalado simple del navegador) y el resultado de {brand} al mismo tamaño. Fíjate en bordes, texto y zonas de textura fina como pelo o tela. Si ves halos –contornos claros u oscuros alrededor de los bordes–, reduce el enfoque. Si las zonas lisas se ven granuladas, aumenta la reducción de ruido. Como el procesado es local y rápido, puedes probar dos o tres combinaciones en menos de un minuto y quedarte con la que más te guste.
+172	Mitos comunes sobre la ampliación
+173	**«Ampliar recupera el detalle original».** Solo la cámara o el archivo original tienen ese detalle; el remuestreo reconstruye transiciones suaves y la IA adivina la textura.
+174	**«Cambiar los DPI a 300 la convierte en alta resolución».** Los DPI son solo metadatos de impresión: lo que cuenta son los píxeles.
+175	**«Más grande siempre es mejor».** Una imagen más grande que el lugar donde se mostrará desperdicia almacenamiento y ancho de banda.
+176	**«Hace falta un servidor potente».** Los navegadores modernos calculan incluso resultados de 64 megapíxeles en un portátil corriente en segundos.
+177	Flujo de trabajo para ampliar por lotes
+178	Para preparar un catálogo de productos completo o un álbum de fotos, arrastra todas las imágenes a la vez. Cada una se amplía con los mismos ajustes y se nombra como el original con un sufijo, para que puedas emparejarlas fácilmente; el conjunto se descarga en un único ZIP. Procesa juntas imágenes de tipo similar –fotos en un lote, logotipos y capturas en otro–, porque se benefician de ajustes distintos de reducción de ruido y enfoque.
+179	Ampliación y transparencia
+180	Las imágenes PNG y WebP con fondo transparente –logotipos, pegatinas, productos recortados– conservan la transparencia al ampliarse, siempre que elijas salida PNG o WebP. El filtro de remuestreo procesa el canal alfa junto con el color, así que los bordes siguen suaves en lugar de quedar dentados o con un borde de color. Elegir salida JPG rellena las zonas transparentes de blanco, lo que es útil cuando una tienda online exige fondo blanco, pero no cuando quieres colocar la imagen sobre otro contenido. Si tu recorte viene de [Quitar fondo](/remove-background/), amplíalo como PNG y colócalo luego sobre el fondo que quieras. Para obtener los mejores resultados con bordes muy finos como el pelo, amplía primero y quita el fondo después, para que el recorte trabaje sobre más píxeles.
+181	Glosario
+182	**Ampliación (upscaling):** aumentar las dimensiones en píxeles de una imagen.
+183	**Remuestreo:** calcular nuevos valores de píxel a partir de los originales al cambiar el tamaño.
+184	**Filtro Lanczos:** un filtro de remuestreo de alta calidad basado en la función sinc.
+185	**Máscara de enfoque:** una técnica de enfoque que realza la diferencia entre la imagen y una copia desenfocada.
+186	**Artefactos:** patrones no deseados como bloques JPEG, halos o ruido.
+187	**Megapíxel:** un millón de píxeles; 8000×8000 son 64 megapíxeles.
+188	Privacidad
+189	Cada paso ocurre dentro de la pestaña de tu navegador. La imagen se decodifica, edita y vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, documentos de identidad, capturas con datos personales y fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el Wi‑Fi una vez cargada la página y la herramienta sigue funcionando.
+190	Muchos ampliadores con IA suben tu imagen a sus servidores y la conservan durante un tiempo –a menudo hasta 24 horas– antes de borrarla. Aquí no hay nada que borrar: la imagen nunca sale de tu dispositivo.
+191	Herramientas relacionadas
+192	[Agrandar imagen](/image-enlarger/): el mismo motor con ajustes predefinidos de ampliación.
+193	[Redimensionar imagen](/resize-image/): tamaños exactos en píxeles, cm o pulgadas.
+194	[Comprimir imagen](/compress-image/): reduce el resultado.
+195	[Quitar fondo](/remove-background/): recorta el sujeto.
+196	[Recortar imagen](/crop-image/): recorta antes de ampliar.
+197	Dónde se procesa tu imagen
+198	En tu navegador, nunca se sube
+199	Sus servidores (subida)
+200	Sus servidores (subida)
+201	Sus servidores (subida)
+202	Cuenta o correo necesarios
+203	Nunca
+204	No para el uso básico
+205	No para el uso básico
+206	No para el uso básico
+207	Límites de uso gratuito
+208	Ninguno: solo los de tu dispositivo
+209	Ver su sitio
+210	Ver su sitio
+211	Ver su sitio
+212	Procesamiento
+213	En tu dispositivo
+214	Subida
+215	Subida
+216	Subida
+217	Opciones de escala
+218	1,5×, 2×, 3×, 4×, 8×
+219	Multiplicador de tamaño (opciones Premium mostradas)
+220	2× y 4×
+221	2×, 4×, 8×
+222	Método
+223	Lanczos + reducción de ruido + enfoque (sin IA)
+224	IA
+225	Superresolución por IA
+226	IA
+227	Conservación de archivos
+228	Nunca se sube
+229	Ver su sitio
+230	Se borra en 24 horas
+231	Ver su sitio
+232	Por lotes
+233	Sí
+234	Ver su sitio
+235	Ampliación por lotes
+236	Masivo (empresas)
+237	¿Cómo amplío una imagen gratis?
+238	Arrastra la imagen, elige 2×, 4× u 8× y haz clic en Ampliar. Descarga el resultado a resolución completa.
+239	¿Es una ampliación con IA?
+240	No. Usa remuestreo Lanczos de alta calidad con reducción de ruido y enfoque. Nunca inventa detalles, así que las caras y el texto no se alteran.
+241	¿Se sube mi imagen?
+242	No. Todo se ejecuta en tu navegador.
+243	¿Cuál es el tamaño máximo de salida?
+244	Unos 64 megapíxeles por imagen, p. ej. 8000×8000. Si el factor elegido lo superara, se reduce automáticamente.
+245	¿Puedo ampliar varias imágenes a la vez?
+246	Sí. Arrastra varias imágenes; se descargan juntas en un ZIP.
+247	¿Ampliar hará nítida una foto borrosa?
+248	Hace una imagen pequeña más grande y definida, pero no puede recuperar el detalle perdido por el desenfoque de la cámara.
+249	¿Qué formato de salida debo usar?
+250	PNG para gráficos, capturas y pixel art; JPG o WebP para fotos.
+251	¿Hay marca de agua?
+252	No. Las descargas son limpias y a resolución completa.
+253	¿Funciona en móviles?
+254	Sí, aunque las salidas muy grandes (8× de una foto grande) pueden superar la memoria del móvil.
+255	¿Qué diferencia hay entre ampliar y redimensionar?
+256	Redimensionar fija cualquier tamaño exacto, mayor o menor. Ampliar está optimizado para agrandar, con reducción de ruido y enfoque.
+257	¿Cómo amplío una imagen sin perder calidad?
+258	Elige 2× y mantén un enfoque moderado. Ampliar no puede inventar detalle real; el remuestreo Lanczos con reducción de ruido da bordes limpios sin los artefactos del estiramiento simple.
+259	¿Cómo amplío una imagen a 4K?
+260	Elige el factor que lleve el ancho a unos 3840 px –por ejemplo 2× para una imagen de 1920 px– y descarga el resultado a resolución completa.

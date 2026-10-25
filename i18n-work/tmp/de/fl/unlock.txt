@@ -1,0 +1,114 @@
+0	Desbloquear PDF
+1	Quita la contraseña de un PDF que es tuyo.
+2	Desbloquear PDF online gratis – Quitar contraseña de PDF | {brand}
+3	Quita la protección con contraseña de un PDF cuando conoces la contraseña. Gratis y privado: se procesa en tu navegador.
+4	Desbloquear PDF
+5	Selecciona el PDF protegido.
+6	Escribe su contraseña.
+7	Haz clic en Empezar y descarga el PDF desbloqueado.
+8	¿Podéis descifrar una contraseña desconocida?
+9	No. Debes conocer la contraseña. Desbloquea solo archivos a los que tengas permiso de acceso.
+10	Los extractos bancarios y las facturas electrónicas suelen llegar protegidos con contraseña. Si la conoces, {brand} puede quitarla para que abras, imprimas o unas el archivo libremente, todo en local en tu navegador.
+11	Quitar la contraseña de extractos bancarios o de tarjeta que son tuyos.
+12	Preparar PDF protegidos para unirlos o comprimirlos.
+13	Debes conocer la contraseña; esta herramienta no descifra contraseñas.
+14	Contraseñas de propietario y de usuario
+15	Los PDF pueden tener una contraseña de apertura (necesaria para verlos) y contraseñas de permisos que restringen la impresión, la copia o la edición. Cuando conoces la contraseña, al desbloquear se elimina la protección para que puedas trabajar con el archivo con normalidad.
+16	Uso legal y seguro
+17	Desbloquea solo documentos que sean tuyos o a los que tengas permiso de acceso, como tus propios extractos bancarios, facturas de suministros o nóminas. Después de desbloquearlo, guarda el archivo en un lugar seguro: ya no tiene protección.
+18	Después de desbloquear
+19	Una vez quitada la contraseña, puedes unir el archivo con otros documentos, comprimirlo, numerar sus páginas o imprimirlo sin que te pida la contraseña cada vez.
+20	Desbloquear PDF – Quitar contraseña y restricciones gratis
+21	Quita una contraseña de PDF que conoces o elimina las restricciones de impresión, copia y edición. Varios archivos, sin subidas y sin conexión. Gratis.
+22	Quita la contraseña de un PDF en segundos
+23	Escribir una contraseña cada vez que abres tu propio extracto bancario o tu nómina cansa enseguida. {brand} quita la contraseña para que el archivo se abra directamente, siempre que la conozcas. El PDF se descifra dentro de tu navegador y se guarda como una copia normal sin protección. Ni el archivo ni la contraseña se suben.
+24	Muchos PDF tienen además una **contraseña de propietario** que no impide abrir el archivo pero bloquea la impresión, la copia de texto o la edición. Esas restricciones normalmente se pueden quitar sin introducir ninguna contraseña: deja el campo vacío.
+25	Qué hace este desbloqueador
+26	**Quita la contraseña de apertura** cuando la introduces correctamente.
+27	**Quita las restricciones de impresión, copia y edición** de archivos que se abren sin contraseña.
+28	**Conserva todo lo demás**: páginas, texto, imágenes, enlaces, título y autor se copian en el nuevo archivo.
+29	**Por lotes**: desbloquea de una vez varios PDF con la misma contraseña y descárgalos en un ZIP.
+30	**Errores claros**: si una contraseña es incorrecta, te indica qué archivo ha fallado.
+31	Desbloquea solo los archivos que tienes permitido
+32	Usa esta herramienta para tus propios documentos o para archivos cuyo propietario te haya dado la contraseña. No descifra ni adivina contraseñas desconocidas. Quitar la protección de documentos a los que no tienes permiso de acceso puede infringir la ley o un contrato, así que respeta la voluntad del autor del documento.
+33	Cómo desbloquear un PDF
+34	Suelta el PDF protegido (o varios).
+35	Escribe la contraseña, o déjala vacía si el archivo solo tiene restricciones.
+36	Haz clic en Desbloquear y descarga la copia sin protección.
+37	Guarda el archivo desbloqueado en un lugar seguro: ahora puede leerlo cualquiera que lo tenga.
+38	Desbloquear en distintos dispositivos
+39	Como la herramienta funciona en una página web, se usa igual en Windows, macOS, Linux, Chromebook, Android y iPhone. En un Mac también puedes abrir el PDF en Vista Previa, introducir la contraseña y exportarlo sin cifrado; en Chrome puedes abrir el PDF, introducir la contraseña y usar «Imprimir → Guardar como PDF», aunque eso puede aplanar enlaces y formularios. Esta herramienta mantiene intacta la estructura original.
+40	PDF de solo lectura y con restricciones
+41	Un PDF de «solo lectura» suele tener una contraseña de propietario con la edición desactivada. Deja la contraseña vacía y desbloquéalo para editarlo con [Editar PDF](/edit-pdf/), rellenarlo con [Rellenar formulario PDF](/fill-pdf-form/) o reorganizarlo con [Organizar PDF](/organize-pdf/). Si un archivo es de «solo lectura» porque es un escaneo, no tiene texto que editar: pasa antes [OCR a PDF](/ocr-pdf/).
+42	Usos habituales
+43	Quitar la contraseña de los extractos mensuales del banco, de la tarjeta y de los suministros.
+44	Desbloquear nóminas y formularios fiscales para archivarlos.
+45	Permitir la impresión en documentos en los que estaba desactivada.
+46	Preparar archivos para unirlos, comprimirlos o editarlos, ya que esas tareas necesitan PDF sin proteger.
+47	Volver a protegerlo con una contraseña nueva usando [Proteger PDF](/protect-pdf/).
+48	Dónde se procesa tu archivo
+49	En tu navegador, nunca se sube
+50	Sus servidores
+51	Sus servidores
+52	Nube de Adobe
+53	Sus servidores
+54	Funciona con el wifi apagado
+55	Sí, tras cargar la página
+56	No
+57	No
+58	No
+59	No
+60	Cuenta o correo necesarios
+61	Nunca
+62	No para el uso básico
+63	No para el uso básico
+64	Inicio de sesión para algunas acciones
+65	No para el uso básico
+66	Límites de uso gratuito
+67	Ninguno: solo los de tu dispositivo
+68	Plan gratuito; Premium para más
+69	Plan gratuito; Premium para más
+70	Plan gratuito; Premium para más
+71	3 tareas/hora, 50 MB por archivo
+72	Quitar restricciones sin contraseña
+73	Sí
+74	Ver su sitio
+75	Ver su sitio
+76	Ver su sitio
+77	Ver su sitio
+78	Desbloquear por lotes
+79	Gratis, en ZIP
+80	Ver su sitio
+81	Ver su sitio
+82	Ver su sitio
+83	Dentro del límite de tareas
+84	Contraseña enviada a un servidor
+85	Nunca
+86	Sí (con el archivo)
+87	Sí (con el archivo)
+88	Sí (con el archivo)
+89	Sí (con el archivo)
+90	¿Cómo quito la contraseña de un PDF?
+91	Suelta aquí el PDF, escribe la contraseña y haz clic en Desbloquear. Obtendrás una copia que se abre sin contraseña.
+92	¿Puedo desbloquear un PDF gratis?
+93	Sí, sin límites, marca de agua ni registro.
+94	¿Es seguro?
+95	Sí. El archivo y la contraseña se quedan en tu navegador; no se sube nada.
+96	¿Puedo desbloquear un PDF sin la contraseña?
+97	Si solo tiene restricciones (imprimir, copiar, editar), sí: deja el campo vacío. Si necesita contraseña para abrirse, debes conocerla; esta herramienta no descifra contraseñas.
+98	¿Puedo desbloquear un PDF de solo lectura?
+99	Sí. Los PDF de solo lectura suelen tener solo restricciones de edición, que se pueden quitar sin contraseña.
+100	¿Puedo quitar la contraseña de un PDF en Mac, iPhone o Android?
+101	Sí. La herramienta funciona en cualquier navegador moderno en cualquier dispositivo.
+102	¿Puedo desbloquear varios PDF a la vez?
+103	Sí, si comparten la misma contraseña. Los resultados se descargan en un ZIP.
+104	¿Cambiará el contenido?
+105	No. Las páginas, el texto, las imágenes y los enlaces se conservan exactamente.
+106	¿Es legal desbloquear un PDF?
+107	Desbloquear tus propios archivos o archivos para los que tienes permiso está bien. No quites la protección de documentos a los que no tienes permiso de acceso.
+108	¿Cómo desbloqueo un PDF?
+109	Suelta el PDF. Si solo tiene restricciones (sin impresión ni copia), se quitan al momento. Si necesita contraseña para abrirse, escribe la contraseña que conoces y descarga una copia desbloqueada.
+110	¿Puedo desbloquear un PDF sin la contraseña?
+111	Puedes quitar las restricciones de permisos sin contraseña. Un PDF que necesita contraseña para abrirse está cifrado, y esta herramienta no descifra ni adivina contraseñas desconocidas: necesitas la contraseña de quien te envió el archivo.
+112	¿Cómo desbloqueo un PDF para editarlo?
+113	Al desbloquearlo se quitan las restricciones que impiden editar, copiar o imprimir. Después puedes abrir el archivo en el editor de PDF o en cualquier otra app.
