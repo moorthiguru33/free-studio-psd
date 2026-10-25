@@ -1,0 +1,3001 @@
+{
+"tools": {
+"poster": {
+"seo": {
+"title": "PDF Poster Maker – Print Large Posters on A4 Sheets Free",
+"desc": "Print a PDF page or image as a big poster tiled over A4, Letter, A3 or Legal sheets: 2×2 to 4×4 or by scale, overlap, cut marks and labels.",
+"compareTitle": "{tool}: {brand} vs Rasterbator, PosterRazor and Adobe",
+"compareCols": [
+"Rasterbator",
+"PosterRazor",
+"Adobe Reader poster print"
+],
+"sections": [
+[
+"Print a poster on ordinary paper",
+"Turn one PDF page – or a photo, chart, map or banner – into a large poster using the printer you already have. The page is enlarged and cut into tiles that each fit a sheet of A4, US Letter, A3 or Legal paper. Print the tiles, trim along the cut marks, line them up using the labels (A1, A2, B1…) and tape or glue them together: an A4 design printed 2 × 2 becomes roughly A2, 3 × 3 roughly A1."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF or image; for a multi-page PDF choose the page number.",
+"Pick the poster size in sheets (2 × 2, 3 × 3, 4 × 4…) or a scale percentage.",
+"Choose the paper, orientation and overlap; keep cut marks and labels on.",
+"Download the tiled PDF and print it at 100 % (actual size)."
+]
+}
+],
+[
+"Poster sizes you get",
+{
+"table": [
+[
+"Tiles of A4",
+"Approx. poster size",
+"Similar to"
+],
+[
+"1 × 2",
+"21 × 59 cm",
+"A3 landscape strip"
+],
+[
+"2 × 2",
+"42 × 59 cm",
+"A2"
+],
+[
+"3 × 3",
+"63 × 89 cm",
+"A1"
+],
+[
+"4 × 4",
+"84 × 119 cm",
+"A0"
+]
+]
+},
+"Overlap slightly reduces the final size. With US Letter sheets, 2 × 2 gives about 17 × 22 in and 3 × 3 about 25 × 33 in."
+],
+[
+"Overlap, cut marks and labels",
+"Most home printers cannot print to the very edge of the paper, so each tile repeats a strip of the image – the overlap, 10 mm by default – that you trim off on one side and glue under the neighbouring sheet. Cut marks show exactly where to trim, and each tile is labelled by row letter and column number so you can assemble them in the right order even with 16 sheets on the floor."
+],
+[
+"Print settings that matter",
+{
+"list": [
+"Print at **Actual size / 100 %**, not *Fit to page*, otherwise the tiles shrink and do not line up.",
+"Turn off borderless printing and duplex.",
+"Use heavier paper (120–160 g/m²) for a poster that hangs flat.",
+"Print a single test tile first to check scaling and colour."
+]
+}
+],
+[
+"Choosing orientation",
+"*Auto* picks the sheet orientation that needs the fewest sheets for your poster's shape; force portrait or landscape if you prefer longer tiles. Landscape artwork on portrait tiles can waste paper, which auto avoids."
+],
+[
+"Image resolution",
+"Enlarging also enlarges pixels. Vector PDFs from Illustrator, Canva, Word or PowerPoint stay sharp at any size. For photos, aim for at least 100–150 pixels per inch at final size: a 3 × 3 A4 poster (about 25 × 35 in) looks good from a distance with a photo of 3,000 × 4,000 pixels or more. Upscale small images first if needed."
+],
+[
+"Assembling the poster",
+{
+"steps": [
+"Lay the tiles out by their labels: row A at the top, column 1 on the left.",
+"Trim the overlap from the right and bottom edges of each tile along the cut marks, leaving the left and top edges untrimmed.",
+"Overlap each trimmed edge onto its neighbour's untrimmed margin and align the image.",
+"Fix with a glue stick or tape on the back, working row by row.",
+"Optionally mount on foam board or laminate."
+]
+}
+],
+[
+"Ideas",
+"Classroom charts and timelines, science-fair boards, wall maps for travel planning, birthday banners, event signage, sewing patterns, architectural plans and kids' colouring posters can all be printed this way without a large-format printer or a trip to a print shop. For a professional print at a shop, export the original instead with [Print-ready PDF](/print-ready-pdf/) to add bleed and crop marks."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Overlap, cut marks, assembly labels",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I print a poster on A4 paper?",
+"a": "Choose the number of tiles, download and print at 100 %."
+},
+{
+"q": "How big is a 2×2 A4 poster?",
+"a": "About A2, 42 × 59 cm."
+},
+{
+"q": "Can I use an image instead of a PDF?",
+"a": "Yes."
+},
+{
+"q": "What is overlap for?",
+"a": "It covers printer margins so tiles join without gaps."
+},
+{
+"q": "Are cut marks included?",
+"a": "Yes, with A1/B2 labels."
+},
+{
+"q": "Which paper sizes?",
+"a": "A4, Letter, A3, Legal."
+},
+{
+"q": "Can I scale by percentage?",
+"a": "Yes, choose By scale."
+},
+{
+"q": "Why don't my tiles line up?",
+"a": "Print at actual size, not fit to page."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Is my file uploaded?",
+"a": "No."
+}
+],
+"related": [
+"print-ready-pdf",
+"create-booklet-pdf",
+"resize-pdf",
+"n-up-pdf",
+"jpg-to-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"cleanpdf": {
+"seo": {
+"title": "PDF Cleaner – Remove JavaScript, Metadata & Hidden Data",
+"desc": "Sanitize a PDF: remove JavaScript, auto-run actions, attachments, metadata, comments, XFA, external links and hidden data. Report shows what went.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Clean and sanitize a PDF",
+"PDFs can carry much more than the visible pages: scripts that run on opening, embedded files, author names and software details, comment threads, hidden form data and leftover thumbnails. The cleaner removes the items you select and tells you exactly what it found and deleted, so you can share or archive a safer, leaner file."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF.",
+"Tick what to remove (JavaScript and attachments are on by default).",
+"Press Clean.",
+"Read the report and download the cleaned PDF."
+]
+}
+],
+[
+"What can be removed",
+{
+"table": [
+[
+"Item",
+"Why remove it"
+],
+[
+"JavaScript & auto-run actions",
+"Can launch actions or track opening; often used in malicious PDFs"
+],
+[
+"Embedded files / attachments",
+"May hide executables or confidential data"
+],
+[
+"Metadata (author, software, XMP)",
+"Reveals names, usernames, software versions, dates"
+],
+[
+"Comments & markup",
+"Review notes you did not mean to share (links are kept)"
+],
+[
+"External links",
+"Prevent tracking links and phishing URLs"
+],
+[
+"XFA form data",
+"Legacy dynamic forms that some readers cannot show and can hide content"
+],
+[
+"Bookmarks",
+"For a minimal distribution copy"
+],
+[
+"Thumbnails, private app data, hidden-layer config",
+"Leftovers from editing software"
+]
+]
+}
+],
+[
+"Clean vs flatten vs redact",
+"Cleaning removes hidden *structures*. It does not change visible content: text you can see stays. To delete visible confidential text permanently, use [Redact PDF](/redact-pdf/); to turn forms and annotations into fixed page content, use [Flatten PDF](/flatten-pdf/); to change only the title or author fields, use [Edit PDF Metadata](/edit-pdf-metadata/)."
+],
+[
+"When to clean a PDF",
+{
+"list": [
+"Before publishing a document on your website or sending it to clients.",
+"When you received a PDF from an unknown source and want to strip active content before opening it in a desktop reader.",
+"Before archiving, as PDF/A forbids JavaScript and some attachments.",
+"To reduce file size a little by dropping thumbnails and private data."
+]
+}
+],
+[
+"Is my PDF safe now?",
+"Removing JavaScript, actions and attachments eliminates the most common PDF attack routes, but no sanitizer can guarantee safety against bugs in image or font decoders. If a file is genuinely suspicious, open it in a sandboxed viewer – a browser's built-in PDF viewer is a good one – and do not enable editing features in desktop software."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Removal report",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I remove JavaScript from a PDF?",
+"a": "Drop it, keep JavaScript ticked and press Clean."
+},
+{
+"q": "Does it remove metadata?",
+"a": "Yes, author, software and XMP."
+},
+{
+"q": "Will the visible content change?",
+"a": "No."
+},
+{
+"q": "Can it remove attachments?",
+"a": "Yes."
+},
+{
+"q": "Are links removed?",
+"a": "Only external links if ticked; comment removal keeps links."
+},
+{
+"q": "Does it show what was removed?",
+"a": "Yes, a report."
+},
+{
+"q": "Is it the same as redaction?",
+"a": "No, use Redact PDF for visible text."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it reduce file size?",
+"a": "Sometimes slightly."
+}
+],
+"related": [
+"redact-pdf",
+"edit-pdf-metadata",
+"flatten-pdf",
+"remove-pdf-metadata",
+"repair-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"repair": {
+"seo": {
+"title": "Repair PDF – Fix Corrupted & Damaged PDF Files Free",
+"desc": "Fix PDFs that won't open or show errors: rebuild the xref and structure, or re-render every readable page. Recovers text where possible. Free.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, PDF2Go and Sejda",
+"compareCols": [
+"iLovePDF Repair",
+"PDF2Go Repair",
+"Sejda Repair"
+],
+"sections": [
+[
+"Repair a damaged PDF",
+"A PDF that will not open, shows \"file is damaged and could not be repaired\", has blank pages, or crashes a program is usually not lost. Most corruption affects the file's index or a few objects, while the pages themselves are still inside. Repair PDF tries two strategies and reports what it managed to recover."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the damaged PDF.",
+"Leave Method on Automatic (recommended).",
+"Press Repair.",
+"Read the report and download the repaired PDF."
+]
+}
+],
+[
+"How repair works",
+{
+"table": [
+[
+"Method",
+"What it does",
+"Result"
+],
+[
+"Automatic",
+"Tries a structural rebuild first, then falls back to re-rendering pages if pages are missing",
+"Best of both"
+],
+[
+"Rebuild structure only",
+"Re-parses the file tolerantly, rebuilds the cross-reference table and trailer, drops broken objects, rewrites a clean PDF",
+"Text, links and fonts kept"
+],
+[
+"Re-render pages",
+"Draws every page that can still be read and builds a new PDF from them, keeping text where possible, images otherwise",
+"Most robust; some pages may become images"
+]
+]
+}
+],
+[
+"Common causes of damage",
+{
+"list": [
+"**Incomplete download or upload** – the file is truncated, so its end-of-file index is missing.",
+"**E-mail or FTP transfer in text mode** – line endings are altered and byte offsets break.",
+"**Software crashes while saving** – partial writes.",
+"**Faulty USB drives, SD cards or disks** – damaged sectors.",
+"**Buggy generators** – some scanners, web apps and old printers write invalid cross-reference tables.",
+"**Incremental edits gone wrong** – a file saved many times with broken update sections."
+]
+}
+],
+[
+"What the xref table is",
+"A PDF ends with a cross-reference (xref) table that lists the byte position of every object – pages, fonts, images. If a single number is wrong, strict readers such as Adobe Acrobat refuse to open the file even though every page is intact. A tolerant parser scans the whole file for objects instead of trusting the index, then writes a fresh, correct table. That alone fixes most \"damaged file\" errors."
+],
+[
+"When recovery is impossible",
+"If part of the file is overwritten with zeros or the download stopped halfway, the missing pages simply are not in the file, and no tool can bring them back. The report tells you how many pages were recovered. Try to get the file again from the original source – re-download it, ask the sender, or check the e-mail server, cloud trash and previous versions in OneDrive, Google Drive or Dropbox."
+],
+[
+"Encrypted or password-protected files",
+"Repair does not remove passwords. If a protected PDF is damaged, the encryption dictionary may be part of the damage; supply the password to [Unlock PDF](/unlock-pdf/) first if the file still opens there, then repair the unlocked copy."
+],
+[
+"After repairing",
+{
+"list": [
+"Open the result in two different readers (for example the browser and Acrobat Reader) and page through it.",
+"If pages became images, run [OCR PDF](/ocr-pdf/) to make the text searchable again.",
+"Use [Compress PDF](/compress-pdf/) if the re-rendered file is large.",
+"Keep the repaired copy and the original until you are sure nothing is missing."
+]
+}
+],
+[
+"Preventing corruption",
+"Download large PDFs completely before opening, avoid editing a file directly on a USB stick or network share, keep backups, and save as a new file rather than overwriting when an editor warns about errors."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Two recovery methods + report",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I repair a corrupted PDF?",
+"a": "Drop it and press Repair."
+},
+{
+"q": "Why does my PDF say it is damaged?",
+"a": "Usually a broken xref table or truncated file."
+},
+{
+"q": "Is text kept?",
+"a": "Yes with structural rebuild; re-render may create images."
+},
+{
+"q": "Can it recover missing pages?",
+"a": "Only pages still present in the file."
+},
+{
+"q": "What does Automatic do?",
+"a": "Tries rebuild, then re-render if needed."
+},
+{
+"q": "Can it repair password-protected PDFs?",
+"a": "Unlock first if possible."
+},
+{
+"q": "Is my file uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it work with large files?",
+"a": "Yes, limited by device memory."
+},
+{
+"q": "What if repair fails?",
+"a": "Get a fresh copy from the source."
+}
+],
+"related": [
+"unlock-pdf",
+"ocr-pdf",
+"compress-pdf",
+"pdf-cleaner",
+"validate-pdfa"
+],
+"updated": "2026-10-25"
+}
+},
+"pdfacheck": {
+"seo": {
+"title": "Validate PDF/A – Free PDF/A Checker & Preflight",
+"desc": "Check a PDF against PDF/A-1b, 2b or 3b: fonts, XMP, OutputIntent, encryption, JavaScript, transparency, attachments. Clear report, no upload.",
+"compareTitle": "{tool}: {brand} vs veraPDF, Acrobat Preflight and PDF Tools",
+"compareCols": [
+"veraPDF",
+"Adobe Acrobat Preflight",
+"PDF Tools validator"
+],
+"sections": [
+[
+"Validate PDF/A online",
+"Courts, tax authorities, patent offices, libraries and many company archives require PDF/A. Before you submit, check whether your file actually meets the rules. The validator reads the claimed PDF/A level from the file's XMP metadata (or the level you choose) and checks the requirements that cause most rejections, then lists every problem in plain language."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF.",
+"Check against the claimed level, or choose PDF/A-1b, 2b or 3b.",
+"Press Validate and read the report.",
+"Fix problems with PDF to PDF/A and validate again."
+]
+}
+],
+[
+"What is checked",
+{
+"table": [
+[
+"Check",
+"Rule"
+],
+[
+"Header and binary comment",
+"Required file header markers"
+],
+[
+"XMP metadata",
+"pdfaid part and conformance present and consistent with Info dictionary"
+],
+[
+"Encryption",
+"Forbidden in all PDF/A levels"
+],
+[
+"OutputIntent with ICC profile",
+"Required for device-independent colour"
+],
+[
+"Fonts",
+"Every font embedded, including the standard 14"
+],
+[
+"JavaScript and actions",
+"Forbidden"
+],
+[
+"Embedded files",
+"Forbidden in A-1; only PDF/A in A-2; any in A-3"
+],
+[
+"Transparency",
+"Forbidden in A-1"
+],
+[
+"LZW compression, external content",
+"Forbidden"
+],
+[
+"Annotations",
+"Must have the print flag"
+]
+]
+}
+],
+[
+"An honest note",
+"This is a fast preflight, not a certified validator such as veraPDF, which checks hundreds of detailed clauses including font glyph widths and colour-space use in every content stream. A file that passes here passes the checks responsible for the vast majority of real-world rejections; for formal certification, also run veraPDF."
+],
+[
+"Fixing common failures",
+{
+"list": [
+"**Fonts not embedded** – re-export from Word/LibreOffice with PDF/A enabled, or convert with [PDF to PDF/A](/pdf-to-pdfa/).",
+"**Encrypted** – remove protection with [Unlock PDF](/unlock-pdf/).",
+"**JavaScript or attachments** – strip them with [PDF Cleaner](/pdf-cleaner/).",
+"**No OutputIntent** – PDF to PDF/A adds an sRGB profile."
+]
+}
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Plain-language report",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I check if a PDF is PDF/A?",
+"a": "Drop it and press Validate."
+},
+{
+"q": "Which levels can be checked?",
+"a": "PDF/A-1b, 2b, 3b or the claimed level."
+},
+{
+"q": "Is it the same as veraPDF?",
+"a": "No, it is a best-effort preflight."
+},
+{
+"q": "Why must fonts be embedded?",
+"a": "So text displays identically in the future."
+},
+{
+"q": "Can it fix problems?",
+"a": "Use PDF to PDF/A, then validate again."
+},
+{
+"q": "Is encryption allowed in PDF/A?",
+"a": "No."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "What is an OutputIntent?",
+"a": "An embedded colour profile."
+},
+{
+"q": "Why was my file rejected by a portal?",
+"a": "Check the report for the failing rule."
+}
+],
+"related": [
+"pdf-to-pdfa",
+"pdf-cleaner",
+"unlock-pdf",
+"repair-pdf",
+"edit-pdf-metadata"
+],
+"updated": "2026-10-25"
+}
+},
+"formfill": {
+"seo": {
+"title": "Fill PDF Form Online – Type on Any PDF Free, No Upload",
+"desc": "Fill PDF forms in your browser: text, checkboxes, radio, dropdowns. Non-fillable PDFs get auto-detected blanks and click-to-type. Flatten option.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Fill in PDF forms online",
+"Complete application forms, tax forms, contracts and questionnaires without printing. The PDF is shown page by page and live input boxes are placed exactly over each form field, so you type in the right place. If the PDF has no fields, blank lines are detected and you can click anywhere to add text."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF form.",
+"Click a field and type; tick boxes and pick options.",
+"For non-fillable PDFs, click any spot to add a text box.",
+"Optionally flatten, then download."
+]
+}
+],
+[
+"Field types supported",
+{
+"table": [
+[
+"AcroForm field",
+"On the page"
+],
+[
+"Text and multi-line text",
+"Type directly in the box"
+],
+[
+"Checkbox",
+"Click to tick"
+],
+[
+"Radio buttons",
+"Pick one option"
+],
+[
+"Dropdown and list box",
+"Choose from the list"
+]
+]
+},
+"XFA-only forms (some government forms made in Adobe LiveCycle) are not standard AcroForms; open them in Adobe Reader or ask the issuer for a regular PDF."
+],
+[
+"Forms without fields",
+"Many PDFs are just printed forms with lines to write on. The tool detects blank lines (____ or dotted runs) and turns them into boxes, and you can click anywhere on a page to add your own text box – for ticks, dates or notes."
+],
+[
+"Flatten or keep editable?",
+"Keep fields editable if someone else will review or update the form. Tick *Flatten* to make answers part of the page so they cannot be changed and display the same in every viewer – often required for job applications, visa forms and official submissions."
+],
+[
+"Signing the form",
+"After filling, add your signature with [Sign PDF](/sign-pdf/). Many organisations accept a typed or drawn signature; legally binding e-signatures for contracts may require a qualified service."
+],
+[
+"Tips",
+{
+"list": [
+"Use the form's own date format.",
+"Save a copy before flattening in case you need to edit later.",
+"Check every page – some forms continue overleaf.",
+"For many pages, zoom in on a phone to tap small checkboxes accurately."
+]
+}
+],
+[
+"Phones and tablets",
+"The form works with on-screen keyboards on iPhone, iPad and Android, so you can fill a form received by e-mail without a computer."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Auto-detects blanks in flat PDFs",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I fill a PDF form online?",
+"a": "Drop it, click fields and type, then download."
+},
+{
+"q": "Can I fill a non-fillable PDF?",
+"a": "Yes, blanks are detected and you can click to add text."
+},
+{
+"q": "Are checkboxes supported?",
+"a": "Yes, also radio buttons and dropdowns."
+},
+{
+"q": "What does flatten do?",
+"a": "Makes answers non-editable."
+},
+{
+"q": "Can I sign the form?",
+"a": "Use Sign PDF afterwards."
+},
+{
+"q": "Are XFA forms supported?",
+"a": "No, only standard AcroForms."
+},
+{
+"q": "Is my data uploaded?",
+"a": "No."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Will fields stay editable?",
+"a": "Yes, unless you flatten."
+}
+],
+"related": [
+"create-fillable-pdf",
+"sign-pdf",
+"flatten-pdf",
+"edit-pdf",
+"pdf-reader"
+],
+"updated": "2026-10-25"
+}
+},
+"formcreate": {
+"seo": {
+"title": "Create Fillable PDF – Make PDF Forms Free, No Upload",
+"desc": "Turn any PDF into a fillable form: blank lines become real text fields automatically, or click to add fields. Editable AcroForm output, free.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Create a fillable PDF form",
+"Make a form people can fill in on screen from any document – a registration form, order form, questionnaire or contract. Blank lines (____ or dotted runs) are detected and turned into real AcroForm text fields, and you can click anywhere to add more. The result is a standard fillable PDF that works in Adobe Reader, browsers, Preview and mobile apps."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF (for example exported from Word).",
+"Review the detected fields; click empty spots to add more.",
+"Download the fillable PDF.",
+"Test it by filling it with [Fill PDF Form](/fill-pdf-form/)."
+]
+}
+],
+[
+"Forms without fields",
+"Many PDFs are just printed forms with lines to write on. The tool detects blank lines (____ or dotted runs) and turns them into boxes, and you can click anywhere on a page to add your own text box – for ticks, dates or notes."
+],
+[
+"Flatten or keep editable?",
+"Keep fields editable if someone else will review or update the form. Tick *Flatten* to make answers part of the page so they cannot be changed and display the same in every viewer – often required for job applications, visa forms and official submissions."
+],
+[
+"Designing a good form",
+{
+"list": [
+"Leave enough space on each line for typical answers.",
+"Use clear labels next to each line – people see the label, not the field name.",
+"Group related fields and keep one question per line.",
+"Make the form in Word or Google Docs, export as PDF, then add fields here."
+]
+}
+],
+[
+"Fillable forms vs online surveys",
+"A fillable PDF keeps the exact look of your document, can be filled offline and is returned as a single file – good for contracts, applications and records. For collecting many responses into a spreadsheet, an online survey tool is usually easier."
+],
+[
+"Compatibility",
+"Fields are standard AcroForm text fields, the format supported by every major PDF reader. They work in Adobe Acrobat Reader, Chrome, Edge, Firefox, Apple Preview and mobile apps such as Xodo and Adobe Reader for Android and iOS."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Auto-detected fields",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a PDF fillable?",
+"a": "Drop it, review detected fields, download."
+},
+{
+"q": "Are blank lines detected automatically?",
+"a": "Yes."
+},
+{
+"q": "Can I add fields manually?",
+"a": "Yes, click on the page."
+},
+{
+"q": "Do the fields work in Adobe Reader?",
+"a": "Yes, they are standard AcroForm fields."
+},
+{
+"q": "Can I add checkboxes?",
+"a": "Text fields are created; checkboxes in existing forms are kept."
+},
+{
+"q": "Is my document uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Can I create a form from Word?",
+"a": "Export to PDF first, then add fields."
+},
+{
+"q": "Can people fill it on phones?",
+"a": "Yes."
+},
+{
+"q": "Can I edit fields later?",
+"a": "Run it through the tool again."
+}
+],
+"related": [
+"fill-pdf-form",
+"word-to-pdf",
+"flatten-pdf",
+"sign-pdf",
+"edit-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"viewer": {
+"seo": {
+"title": "PDF Reader Online – Open, Search & Read PDFs Free",
+"desc": "Open and read PDFs in your browser: fast continuous scrolling, zoom, fit width, page jump, full-text search with hit list, night mode. No upload.",
+"compareTitle": "{tool}: {brand} vs Acrobat Reader, Chrome viewer and Smallpdf",
+"compareCols": [
+"Adobe Acrobat Reader",
+"Chrome PDF viewer",
+"Smallpdf reader"
+],
+"sections": [
+[
+"Free online PDF reader",
+"Open any PDF instantly on any device – no Adobe Reader install, no account, no upload. The reader renders pages as you scroll so even 1,000-page manuals open quickly, and gives you the essentials: zoom and fit-to-width, jump to a page, full-text search with a list of every match, a night mode for reading in the dark and a document information panel. When you need only part of the document, save the pages you choose as a new PDF."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop or open the PDF.",
+"Scroll to read; zoom or fit width.",
+"Search for words and jump between matches; switch on night mode.",
+"Optionally enter pages and save them as a new PDF."
+]
+}
+],
+[
+"Features at a glance",
+{
+"table": [
+[
+"Feature",
+"What it does"
+],
+[
+"Continuous scroll with lazy rendering",
+"Pages draw as they come into view, so huge files open fast and use little memory"
+],
+[
+"Zoom and fit width",
+"Read comfortably on phones, tablets and wide monitors"
+],
+[
+"Page jump",
+"Type a page number to go straight there"
+],
+[
+"Full-text search with hit list",
+"Every match listed with context; click to jump"
+],
+[
+"Night mode",
+"Dark pages with light text for low-light reading"
+],
+[
+"Document info",
+"Page count, file size, PDF version, title and outline"
+],
+[
+"Save selected pages",
+"Export, for example, 3-7, 12 as a new PDF"
+]
+]
+}
+],
+[
+"Why read PDFs in the browser?",
+"Desktop PDF software is often large, asks for updates and sign-ins, and opens files with features (scripts, forms, plug-ins) you rarely need. A browser-based reader is sandboxed by the browser's security model, starts instantly and works the same on Windows, macOS, Linux, ChromeOS, Android and iOS. Because Fileopia renders the file locally with Mozilla's PDF.js engine – the same engine behind Firefox's built-in viewer – confidential documents never leave your device."
+],
+[
+"Searching a PDF",
+{
+"list": [
+"Type a word or phrase; the hit list shows each occurrence with the surrounding text and page number.",
+"Click a hit to jump to it; matches are highlighted on the page.",
+"Search is case-insensitive and works across the whole document.",
+"Scanned PDFs have no text layer, so search finds nothing – make the file searchable with [OCR PDF](/ocr-pdf/) first."
+]
+}
+],
+[
+"Reading comfortably on a phone",
+"Use *fit width* so lines fill the screen, then scroll vertically. Pinch-zoom works as usual. Night mode reduces glare at bedtime. For books, a reflowable format is easier on small screens – convert with [PDF to EPUB](/pdf-to-epub/), or listen instead with [PDF to Speech](/pdf-to-speech/)."
+],
+[
+"Saving only some pages",
+"Type page numbers and ranges such as 1-3, 8, 10-12 and press *Save selected pages* to get a smaller PDF with just those pages – handy for sending one chapter, a single invoice from a statement or the signature page of a contract. For more page operations see [Split PDF](/split-pdf/), [Extract Pages](/extract-pdf-pages/) and [Organize PDF](/organize-pdf/)."
+],
+[
+"File types and limits",
+"The reader opens standard PDFs from version 1.0 to 2.0, including files with forms, annotations, layers and embedded fonts. Very large scans (hundreds of megabytes) depend on your device's memory; a modern phone comfortably reads files of 50–100 MB. Password-protected PDFs need the password – remove it permanently with [Unlock PDF](/unlock-pdf/) if you are allowed to."
+],
+[
+"Reader vs editor",
+"This page is for reading. To change the document use the dedicated tools: [Edit PDF](/edit-pdf/) for text and images, [Sign PDF](/sign-pdf/) to sign, [Fill PDF Form](/fill-pdf-form/) for forms, [Merge PDF](/merge-pdf/) to combine, [Compress PDF](/compress-pdf/) to shrink and [Rotate PDF](/rotate-pdf/) for sideways pages. Each one works the same way – locally in your browser."
+],
+[
+"Opening PDFs from e-mail and cloud storage",
+"On a phone, tap the drop area and choose *Browse* or *Files* to pick a PDF saved from Gmail, Outlook, WhatsApp, Google Drive, iCloud Drive or OneDrive. Cloud files must be downloaded to the device first; files that are still \"online only\" placeholders cannot be read. On a computer, drag the attachment from your downloads folder onto the page."
+],
+[
+"Accessibility",
+"Text is rendered with a selectable text layer, so you can copy passages and use your browser's own tools. Zoom up to large sizes for low vision, use night mode to reduce glare, and have pages read aloud with [PDF to Speech](/pdf-to-speech/). Tagged PDFs keep their reading order in the text layer."
+],
+[
+"Keyboard shortcuts",
+"Use your browser's normal keys: Page Up/Page Down or the space bar to scroll, Ctrl/Cmd + and − to zoom the whole page, Home and End for the first and last page, and Ctrl/Cmd+F focuses the browser search, while the reader's own search box gives the full hit list."
+],
+[
+"Set as your everyday reader",
+"Bookmark the page or add it to your home screen. Once loaded it also works offline, so you can read downloaded documents on a flight or in an area with poor signal."
+],
+[
+"Common questions about opening PDFs",
+{
+"list": [
+"**\"Failed to load PDF\"** – the file may be incomplete or damaged; try [Repair PDF](/repair-pdf/).",
+"**Blank or grey pages** – very complex vector drawings can take a few seconds; wait or zoom out.",
+"**Strange characters** – the PDF uses unembedded fonts; text is still searchable if a text layer exists.",
+"**Sideways pages** – rotate them permanently with Rotate PDF.",
+"**Huge file on a phone** – compress it first or save only the pages you need."
+]
+}
+],
+[
+"Comparing PDF readers",
+"Adobe Acrobat Reader is the reference desktop app and supports every PDF feature, including XFA forms and certificate signatures, but it is large and pushes a subscription. Browser built-in viewers in Chrome, Edge and Firefox are quick but have limited search lists and no page export. Fileopia sits in between: instant, private, with a hit list, night mode and page export, and nothing to install."
+],
+[
+"Reading long documents efficiently",
+{
+"list": [
+"Skim the outline (bookmarks) in the document info panel to see the structure before you start.",
+"Search for key terms – a name, clause number or figure – and use the hit list as a mini index.",
+"Read at *fit width* on a laptop, and switch to a larger zoom for dense tables or footnotes.",
+"Note page numbers of important passages, then save just those pages as a short extract to share.",
+"For a quick overview of a report, run it through [Summarize PDF](/summarize-pdf/) first and read the full sections that matter."
+]
+}
+],
+[
+"Students and researchers",
+"Lecture slides, journal articles and e-books are mostly PDFs. Open them here on a library computer or a borrowed laptop without signing in to anything, search for the concepts you are revising, and export the chapter you need for printing. Because nothing is stored on the computer or uploaded, there is no risk of leaving your files behind on a shared machine. Ask questions about a paper with [Chat with PDF](/chat-with-pdf/) or quiz yourself with the [PDF Question Generator](/pdf-question-generator/)."
+],
+[
+"Business and legal documents",
+"Contracts, invoices, statements, tenders and HR policies often contain personal or commercially sensitive data, and many companies forbid uploading them to online converters. A local reader avoids that problem entirely: the file is read from your disk into the browser tab and disappears when you close it. Use search to check clauses quickly – \"termination\", \"indemnity\", \"payment\" – and save the relevant pages as an extract for a colleague."
+],
+[
+"Older and unusual PDFs",
+"Files produced by old scanners, fax software and legacy publishing systems sometimes use rare compression or fonts. PDF.js supports nearly all standard filters (Flate, LZW, DCT/JPEG, JBIG2, JPEG 2000, CCITT fax) and Type 1, TrueType, OpenType and CID fonts, so even decades-old archives usually display correctly. If a page looks wrong, try [Repair PDF](/repair-pdf/), which rebuilds the file structure."
+],
+[
+"Printing from the reader",
+"To print, open the PDF in your browser's built-in viewer or download the selected pages and print them from there; choose *Actual size* to keep the original scale, or *Fit* for documents with wide margins. Printing only the pages you need saves paper and toner, especially with long manuals and statements where only a few pages matter. For double-sided booklets use Create Booklet PDF, and for large wall charts use PDF Poster."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Search hit list, night mode, page export",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I open a PDF online?",
+"a": "Drop it on the page; it opens instantly."
+},
+{
+"q": "Is the PDF uploaded?",
+"a": "No, it is rendered on your device."
+},
+{
+"q": "Can I search inside the PDF?",
+"a": "Yes, with a list of all matches."
+},
+{
+"q": "Is there a dark mode?",
+"a": "Yes, night mode."
+},
+{
+"q": "Can I save only some pages?",
+"a": "Yes, enter pages and save."
+},
+{
+"q": "Does it work on iPhone and Android?",
+"a": "Yes."
+},
+{
+"q": "Can it open password-protected PDFs?",
+"a": "With the password."
+},
+{
+"q": "Why can't I search a scanned PDF?",
+"a": "It has no text; run OCR first."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, once loaded."
+}
+],
+"related": [
+"edit-pdf",
+"ocr-pdf",
+"split-pdf",
+"pdf-to-speech",
+"compress-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"anypdf": {
+"seo": {
+"title": "Convert to PDF – Word, Excel, Images, ZIP to PDF Free",
+"desc": "Convert any file to PDF in one batch: Word, Excel, CSV, ODT, images, text, Markdown, HTML and ZIP. One combined PDF with bookmarks. No upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Convert anything to PDF",
+"Drop a mix of files – a Word letter, a few phone photos, an Excel sheet, a scanned receipt as PNG, a text file – and get one tidy PDF, or one PDF per file. Everything is converted locally in your browser, so private documents stay on your device."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or many files (or a ZIP).",
+"Choose one combined PDF or one per file.",
+"Adjust page size, orientation and table fit if you have spreadsheets.",
+"Convert and download."
+]
+}
+],
+[
+"What happens to each file type",
+{
+"table": [
+[
+"Input",
+"Output in the PDF"
+],
+[
+"PDF",
+"Pages copied unchanged"
+],
+[
+"JPG, PNG, WebP, GIF, BMP, AVIF, SVG",
+"One image per page, fitted to the page"
+],
+[
+"Word (DOCX), ODT",
+"Headings, paragraphs, lists, tables and images as selectable text"
+],
+[
+"Excel (XLSX, XLS), ODS, CSV, TSV",
+"Real tables with grid lines, one section per sheet"
+],
+[
+"TXT, Markdown, HTML",
+"Formatted text with headings and lists"
+],
+[
+"ZIP",
+"Unpacked; every supported file inside is converted"
+]
+]
+}
+],
+[
+"One PDF or many",
+"Choose *Combine into one PDF* to get a single document with a bookmark for every source file – ideal for sending a bundle of receipts or an application pack – or *One PDF per file* to download a ZIP of separate PDFs. Tick *Sort files by name* to order the output alphabetically instead of in the order you added the files."
+],
+[
+"Wide tables and page layout",
+"Spreadsheets are the hardest content to fit on paper. With *Auto* output, sheets with many columns are placed on landscape pages; *Auto-fit columns* shrinks the table to the page width, *Small text* fits even more columns and *Large text* is easier to read. Choose A4, Letter, Legal or A3 for text and tables, and list sheet names or numbers to convert only some sheets."
+],
+[
+"Typical bundles",
+{
+"list": [
+"Visa or job applications: passport scan, photos, CV (DOCX) and certificates in one PDF.",
+"Expense claims: receipts as images plus the claim spreadsheet.",
+"Coursework: Word essay, data tables and figures.",
+"Property documents: agreement, ID proofs and photos."
+]
+},
+"After converting, reorder pages with [Organize PDF](/organize-pdf/) or shrink the file with [Compress PDF](/compress-pdf/) to meet upload limits."
+],
+[
+"Fonts and languages",
+"Text from documents, sheets and HTML is set with Noto fonts that cover Latin, Cyrillic, Greek, Arabic, Hebrew, Devanagari, Tamil and other Indic scripts, Thai, Chinese, Japanese and Korean, so mixed-language documents do not show empty boxes."
+],
+[
+"Limits",
+"Complex Word layouts – text boxes, columns, headers and footers – are simplified; for a pixel-perfect copy, export from Word with *Save as PDF*. PowerPoint files have their own [PowerPoint to PDF](/powerpoint-to-pdf/) tool."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch, bookmarks per file",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert files to PDF?",
+"a": "Drop them, choose combine or separate, and convert."
+},
+{
+"q": "Which formats are supported?",
+"a": "PDF, images, DOCX, ODT, XLSX, XLS, ODS, CSV, TSV, TXT, Markdown, HTML and ZIP."
+},
+{
+"q": "Can I combine many files into one PDF?",
+"a": "Yes, with bookmarks per file."
+},
+{
+"q": "Can I get separate PDFs?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Are tables kept?",
+"a": "Yes, as real tables."
+},
+{
+"q": "Is my data uploaded?",
+"a": "No."
+},
+{
+"q": "Can I convert a ZIP?",
+"a": "Yes, every supported file inside."
+},
+{
+"q": "Does it keep Word formatting?",
+"a": "Basic structure; complex layouts are simplified."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+}
+],
+"related": [
+"word-to-pdf",
+"jpg-to-pdf",
+"excel-to-pdf",
+"merge-pdf",
+"compress-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"zip2pdf": {
+"seo": {
+"title": "ZIP to PDF Converter – Turn a ZIP of Files into One PDF",
+"desc": "Convert a ZIP archive to PDF: every image, Word, Excel, CSV, text and PDF file inside is converted and merged, with bookmarks. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Convert a ZIP to PDF",
+"Got a ZIP of scanned pages, photos or documents? Drop it here and every supported file inside is unpacked and converted into one PDF – with a bookmark per file – or into separate PDFs. No need to extract the archive first."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the ZIP file.",
+"Tick Sort files by name to order pages alphabetically.",
+"Choose one combined PDF or one per file.",
+"Convert and download."
+]
+}
+],
+[
+"What happens to each file type",
+{
+"table": [
+[
+"Input",
+"Output in the PDF"
+],
+[
+"PDF",
+"Pages copied unchanged"
+],
+[
+"JPG, PNG, WebP, GIF, BMP, AVIF, SVG",
+"One image per page, fitted to the page"
+],
+[
+"Word (DOCX), ODT",
+"Headings, paragraphs, lists, tables and images as selectable text"
+],
+[
+"Excel (XLSX, XLS), ODS, CSV, TSV",
+"Real tables with grid lines, one section per sheet"
+],
+[
+"TXT, Markdown, HTML",
+"Formatted text with headings and lists"
+],
+[
+"ZIP",
+"Unpacked; every supported file inside is converted"
+]
+]
+}
+],
+[
+"One PDF or many",
+"Choose *Combine into one PDF* to get a single document with a bookmark for every source file – ideal for sending a bundle of receipts or an application pack – or *One PDF per file* to download a ZIP of separate PDFs. Tick *Sort files by name* to order the output alphabetically instead of in the order you added the files."
+],
+[
+"Getting the page order right",
+"Files are processed in the order stored in the ZIP, which is not always alphabetical. Tick *Sort files by name* for alphabetical order. Name files with leading zeros – page-01.jpg, page-02.jpg … page-10.jpg – so page 10 does not come before page 2."
+],
+[
+"What is skipped",
+"Folders are walked recursively. System files such as __MACOSX entries and unsupported types (videos, executables) are skipped and listed in the result message. Password-protected ZIPs cannot be opened; extract them with your system first."
+],
+[
+"Common uses",
+{
+"list": [
+"A photographer's ZIP of JPGs turned into a contact-sheet PDF.",
+"Downloaded scanned pages from a library or archive.",
+"A ZIP of invoices from an accounting system bundled for an auditor.",
+"Assignments downloaded from a learning platform, merged for marking."
+]
+}
+],
+[
+"Other archive formats",
+"RAR, 7Z and TAR files can be unpacked with [Extract RAR](/extract-rar/), [Extract 7Z](/extract-7z/) or [Extract TAR](/extract-tar/), then the files dropped here."
+],
+[
+"Very large archives",
+"Everything happens in your browser's memory, so a ZIP of a few hundred photos works well on a laptop. For thousands of high-resolution images, split the job into smaller batches and join the PDFs afterwards with [Merge PDF](/merge-pdf/)."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch, bookmarks per file",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a ZIP to PDF?",
+"a": "Drop the ZIP and press Convert."
+},
+{
+"q": "Do I need to unzip first?",
+"a": "No."
+},
+{
+"q": "Which files inside are converted?",
+"a": "Images, PDF, Word, ODT, spreadsheets, text, Markdown and HTML."
+},
+{
+"q": "Can I control the order?",
+"a": "Sort by name, and use leading zeros in file names."
+},
+{
+"q": "Are folders supported?",
+"a": "Yes, recursively."
+},
+{
+"q": "Can it open encrypted ZIPs?",
+"a": "No."
+},
+{
+"q": "Can I get one PDF per file?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Is it uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "What about RAR?",
+"a": "Extract it first with Extract RAR."
+}
+],
+"related": [
+"convert-to-pdf",
+"unzip-files",
+"jpg-to-pdf",
+"merge-pdf",
+"extract-rar"
+],
+"updated": "2026-10-25"
+}
+},
+"csv2pdf": {
+"seo": {
+"title": "CSV to PDF Converter – Print CSV as a Table Free",
+"desc": "Convert CSV or TSV to a clean PDF table: auto landscape for wide data, fit columns to width, A4/Letter/Legal/A3, UTF-8 and BOM. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Convert CSV to PDF",
+"CSV files open as raw text in most viewers. This converter turns them into a readable, printable PDF table with a header row, grid lines and sensible column widths – perfect for sharing exports from banking, CRM, e-commerce, attendance or accounting software with someone who should not edit the data."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more CSV or TSV files.",
+"Leave Output on Auto (landscape for wide tables) or choose an orientation.",
+"Pick Fit and page size.",
+"Convert and download."
+]
+}
+],
+[
+"Wide tables and page layout",
+"Spreadsheets are the hardest content to fit on paper. With *Auto* output, sheets with many columns are placed on landscape pages; *Auto-fit columns* shrinks the table to the page width, *Small text* fits even more columns and *Large text* is easier to read. Choose A4, Letter, Legal or A3 for text and tables, and list sheet names or numbers to convert only some sheets."
+],
+[
+"CSV quirks handled",
+{
+"list": [
+"Comma, semicolon and tab delimiters, as produced by different locales and apps.",
+"Quoted fields containing commas or line breaks.",
+"UTF-8 with or without BOM, so accented letters, ₹ and non-Latin scripts display correctly.",
+"Very long tables continue across pages."
+]
+}
+],
+[
+"Tips for wide data",
+{
+"list": [
+"Delete columns nobody needs before converting.",
+"Use A3 or Legal for 15+ columns.",
+"Small text fits more columns, but check legibility when printing.",
+"For filtering or formulas, convert to Excel instead with [CSV to Excel](/csv-to-excel/)."
+]
+}
+],
+[
+"Why a PDF?",
+"A PDF looks the same on every device, prints predictably, cannot be accidentally re-sorted, and can be password-protected with [Protect PDF](/protect-pdf/) before e-mailing sensitive data such as salaries or customer lists."
+],
+[
+"Batch and multiple files",
+"Drop several CSV files to get one PDF with a bookmark for each, or one PDF per file in a ZIP – handy for monthly reports exported as separate files."
+],
+[
+"Checking the data first",
+"Open the CSV in a spreadsheet or text editor if you are unsure about the delimiter or encoding. A file that looks like one long column usually uses semicolons; one with strange symbols such as Ã© was saved in a different encoding."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch, bookmarks per file",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert CSV to PDF?",
+"a": "Drop the CSV and press Convert."
+},
+{
+"q": "Does it handle wide tables?",
+"a": "Yes, auto landscape and fit to width."
+},
+{
+"q": "Which delimiters are supported?",
+"a": "Comma, semicolon and tab."
+},
+{
+"q": "Are non-English characters shown?",
+"a": "Yes, UTF-8 with Noto fonts."
+},
+{
+"q": "Can I convert TSV?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several CSVs?",
+"a": "Yes, combined or separate."
+},
+{
+"q": "Is the data uploaded?",
+"a": "No."
+},
+{
+"q": "Can I choose the page size?",
+"a": "A4, Letter, Legal or A3."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does the header row repeat?",
+"a": "The table continues across pages."
+}
+],
+"related": [
+"csv-to-excel",
+"excel-to-pdf",
+"convert-to-pdf",
+"csv-to-json",
+"protect-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"odt2pdf": {
+"seo": {
+"title": "ODT to PDF Converter – OpenDocument Text to PDF Free",
+"desc": "Convert ODT (LibreOffice, OpenOffice) documents to PDF with headings, lists, tables and images. Batch, multi-script fonts. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Convert ODT to PDF",
+"ODT is the OpenDocument text format used by LibreOffice Writer, Apache OpenOffice, Collabora and many government offices. Not everyone can open it, so PDF is the safe way to share. This converter reads the ODT's content directly in your browser and lays out headings, paragraphs, lists, tables and images as a PDF with selectable text."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more ODT (or OTT) files.",
+"Choose the page size.",
+"Convert and download."
+]
+}
+],
+[
+"What happens to each file type",
+{
+"table": [
+[
+"Input",
+"Output in the PDF"
+],
+[
+"PDF",
+"Pages copied unchanged"
+],
+[
+"JPG, PNG, WebP, GIF, BMP, AVIF, SVG",
+"One image per page, fitted to the page"
+],
+[
+"Word (DOCX), ODT",
+"Headings, paragraphs, lists, tables and images as selectable text"
+],
+[
+"Excel (XLSX, XLS), ODS, CSV, TSV",
+"Real tables with grid lines, one section per sheet"
+],
+[
+"TXT, Markdown, HTML",
+"Formatted text with headings and lists"
+],
+[
+"ZIP",
+"Unpacked; every supported file inside is converted"
+]
+]
+}
+],
+[
+"One PDF or many",
+"Choose *Combine into one PDF* to get a single document with a bookmark for every source file – ideal for sending a bundle of receipts or an application pack – or *One PDF per file* to download a ZIP of separate PDFs. Tick *Sort files by name* to order the output alphabetically instead of in the order you added the files."
+],
+[
+"What is kept",
+{
+"list": [
+"Headings, paragraphs, bold and italic text.",
+"Bulleted and numbered lists.",
+"Tables.",
+"Embedded images.",
+"Text in any script, using Noto fonts."
+]
+},
+"Page headers, footers, footnotes, text boxes and exact page breaks are simplified. For a pixel-perfect PDF, use LibreOffice's own *File → Export as PDF*."
+],
+[
+"About OpenDocument",
+"OpenDocument (ODF) is an ISO standard (ISO/IEC 26300) for office documents. Governments in the EU, India and elsewhere have adopted it for interoperability and long-term access. An .odt file is a ZIP containing content.xml, styles, metadata and pictures – which is why it can be read without LibreOffice."
+],
+[
+"Other OpenDocument files",
+"Spreadsheets (.ods) are converted to tables by the same engine – drop them here or use [Convert to PDF](/convert-to-pdf/). For Word files use [Word to PDF](/word-to-pdf/)."
+],
+[
+"When to use this tool",
+"You received an .odt but have no LibreOffice, you are on a phone or Chromebook, or you need to convert several files quickly without opening each one. Because the conversion is local, it is also suitable for confidential documents."
+],
+[
+"After converting",
+"Add page numbers with [Add Page Numbers](/add-page-numbers/), combine with other documents using [Merge PDF](/merge-pdf/), or archive it as PDF/A with [PDF to PDF/A](/pdf-to-pdfa/)."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch, bookmarks per file",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert ODT to PDF?",
+"a": "Drop the file and press Convert."
+},
+{
+"q": "Do I need LibreOffice?",
+"a": "No."
+},
+{
+"q": "Are images and tables kept?",
+"a": "Yes."
+},
+{
+"q": "Is the layout identical?",
+"a": "Structure is kept; complex layout simplified."
+},
+{
+"q": "Can I convert OTT templates?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files?",
+"a": "Yes."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "What is ODT?",
+"a": "OpenDocument Text, an ISO standard."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+}
+],
+"related": [
+"word-to-pdf",
+"convert-to-pdf",
+"merge-pdf",
+"add-page-numbers",
+"pdf-to-pdfa"
+],
+"updated": "2026-10-25"
+}
+},
+"html2pdf": {
+"seo": {
+"title": "HTML to PDF Converter – Convert HTML Files to PDF Free",
+"desc": "Convert saved HTML files to clean PDFs: headings, paragraphs, lists, tables, code and quotes, scripts and menus removed. Batch, free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Adobe Acrobat online"
+],
+"sections": [
+[
+"Convert HTML to PDF",
+"Turn HTML files – saved web pages, exported e-mails, documentation, reports generated by software, or pages you wrote yourself – into clean, readable PDFs. Scripts, styles, navigation menus and footers are removed and the content is laid out with headings, paragraphs, lists, block quotes, code blocks and tables in a consistent, print-friendly style, with selectable text."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more .html or .htm files.",
+"Choose page size and whether to combine them.",
+"Convert and download."
+]
+}
+],
+[
+"One PDF or many",
+"Choose *Combine into one PDF* to get a single document with a bookmark for every source file – ideal for sending a bundle of receipts or an application pack – or *One PDF per file* to download a ZIP of separate PDFs. Tick *Sort files by name* to order the output alphabetically instead of in the order you added the files."
+],
+[
+"What the converter does",
+{
+"table": [
+[
+"HTML element",
+"In the PDF"
+],
+[
+"h1–h6",
+"Headings"
+],
+[
+"p, br",
+"Paragraphs and line breaks"
+],
+[
+"ul, ol, li",
+"Bulleted and numbered lists"
+],
+[
+"table",
+"Tables with grid lines"
+],
+[
+"pre, code",
+"Monospaced code blocks"
+],
+[
+"blockquote",
+"Indented quotes"
+],
+[
+"hr",
+"Dividers"
+],
+[
+"script, style, nav, footer",
+"Removed"
+]
+]
+}
+],
+[
+"Reader-style vs pixel-perfect",
+"This is a *content* converter: it produces a clean, reader-mode style document rather than reproducing the website's CSS design, colours and layout. That is ideal for articles, documentation and reports you want to read, print or archive. For an exact visual copy of a live web page, use your browser's own *Print → Save as PDF*, which renders the page with its full styles; you can then combine or compress the result here."
+],
+[
+"Converting a web page",
+"This tool works with HTML files on your device rather than URLs – nothing is fetched from the internet. To convert a page: open it in your browser, press Ctrl/Cmd+S and choose *Webpage, HTML only*, then drop the saved file here. Images referenced from remote servers are not downloaded, which also prevents tracking pixels from loading."
+],
+[
+"Use cases",
+{
+"list": [
+"Archive blog posts, recipes and articles in a clean, ad-free format.",
+"Convert software-generated HTML reports (test results, analytics, invoices) for e-mail.",
+"Turn exported Markdown or documentation sites into a PDF handbook.",
+"Save HTML e-mails or newsletters as PDF records.",
+"Students saving online reading material for offline annotation."
+]
+}
+],
+[
+"Languages and characters",
+"Text is set with Noto fonts that cover Latin, Cyrillic, Greek, Arabic, Hebrew, Devanagari, Tamil and other Indic scripts, Thai, Chinese, Japanese and Korean, so pages in any language convert without missing characters. The page's charset (normally UTF-8) is respected."
+],
+[
+"Developers and generated HTML",
+"If your application produces HTML reports, keep them semantic – real headings, lists and tables rather than nested divs styled to look like them – and they will convert cleanly. For automated server-side conversion at scale, a headless browser such as Chromium's print-to-PDF is the usual tool; this page is for quick, private, manual conversions."
+],
+[
+"Markdown and plain text",
+"Markdown (.md) and text (.txt) files are accepted too, with headings and lists recognised in Markdown. Use [Markdown to PDF](/markdown-to-pdf/) for more options, or [Text to PDF](/text-to-pdf/) for plain text."
+],
+[
+"Making the PDF smaller or combined",
+"Drop several HTML files at once to get one PDF with a bookmark per page – a handy way to build a handbook from a set of help pages. Add page numbers with [Add Page Numbers](/add-page-numbers/) and reduce size with [Compress PDF](/compress-pdf/)."
+],
+[
+"Troubleshooting",
+{
+"list": [
+"**Empty PDF** – the page builds its content with JavaScript; save it after it loads using *Webpage, Complete*, or print to PDF from the browser.",
+"**Menus or cookie banners in the output** – they are not marked as nav/footer in the HTML; delete them from the file or use the browser's reader mode before saving.",
+"**Missing images** – images on remote servers are not fetched; use the browser's print to PDF when images matter."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch, bookmarks per file",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert HTML to PDF?",
+"a": "Drop the HTML file and press Convert."
+},
+{
+"q": "Can I convert a URL?",
+"a": "No, save the page as HTML first."
+},
+{
+"q": "Is the website's design kept?",
+"a": "No, content is laid out in a clean reader style."
+},
+{
+"q": "Are scripts removed?",
+"a": "Yes, with styles, menus and footers."
+},
+{
+"q": "Are tables supported?",
+"a": "Yes."
+},
+{
+"q": "Can I convert several files?",
+"a": "Yes, into one PDF with bookmarks."
+},
+{
+"q": "Are remote images loaded?",
+"a": "No, nothing is fetched."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Is the text selectable?",
+"a": "Yes."
+}
+],
+"related": [
+"markdown-to-pdf",
+"text-to-pdf",
+"convert-to-pdf",
+"merge-pdf",
+"compress-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"docscan": {
+"seo": {
+"title": "PDF Scanner – Scan Documents to PDF with Your Phone",
+"desc": "Turn phone photos of paper into a clean PDF: auto edge detection, perspective correction, colour, grayscale or B&W photocopy look. Free, no app.",
+"compareTitle": "{tool}: {brand} vs Adobe Scan, Microsoft Lens and CamScanner",
+"compareCols": [
+"Adobe Scan",
+"Microsoft Lens",
+"CamScanner"
+],
+"sections": [
+[
+"Scan documents to PDF without an app",
+"Photograph receipts, letters, forms, notes or book pages with your phone and turn them into a flat, clean, professional-looking PDF. The scanner finds the page edges automatically, straightens the perspective so a photo taken at an angle looks like a flatbed scan, whitens the paper and boosts contrast. Drag the corner dots to adjust any page."
+],
+[
+"How to use it",
+{
+"steps": [
+"Take or choose photos of the pages (several at once).",
+"Check the detected corners; drag the dots to fine-tune.",
+"Choose Enhance: colour, grayscale, black & white or original.",
+"Pick the page size and download the PDF."
+]
+}
+],
+[
+"Enhance modes",
+{
+"table": [
+[
+"Mode",
+"Best for"
+],
+[
+"Colour (whiter paper)",
+"Documents with stamps, logos, highlighter or photos"
+],
+[
+"Grayscale",
+"Smaller files, letters and forms"
+],
+[
+"Black & white (photocopy)",
+"Text-only pages – sharpest, smallest, best for OCR and fax-like copies"
+],
+[
+"Original",
+"When you want the photo untouched apart from cropping"
+]
+]
+}
+],
+[
+"Taking good photos",
+{
+"list": [
+"Place the page on a dark, contrasting surface so edges are easy to detect.",
+"Use even light – daylight near a window is ideal; avoid your own shadow and flash glare.",
+"Hold the phone parallel to the page and fill most of the frame.",
+"Keep the camera still; tap to focus on the text.",
+"Flatten curled pages; for books, press the spine gently."
+]
+}
+],
+[
+"How the perspective correction works",
+"Once the four corners are known, the scanner computes a homography – a mathematical mapping from the tilted quadrilateral in your photo to a flat rectangle – and resamples every pixel, so lines of text become straight and parallel. Landscape pages are rotated automatically."
+],
+[
+"Make it searchable",
+"Scanned pages are images. Run the PDF through [OCR PDF](/ocr-pdf/) to add a text layer so you can search, copy and have it read aloud. Black & white mode gives the best OCR accuracy."
+],
+[
+"Meeting upload limits",
+"Government portals, banks and job sites often limit uploads to 1–2 MB. Grayscale or black & white keeps files small; if needed, run [Compress PDF](/compress-pdf/) or the size-targeted compressors afterwards."
+],
+[
+"Why scan in the browser?",
+"Scanner apps often require accounts, add watermarks, upload pages to their cloud or push subscriptions. Here photos never leave your phone – important for ID cards, bank statements, medical records and contracts."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Perspective correction + corner handles",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I scan a document to PDF with my phone?",
+"a": "Take photos, check the corners and download."
+},
+{
+"q": "Do I need an app?",
+"a": "No, it works in the browser."
+},
+{
+"q": "Does it straighten angled photos?",
+"a": "Yes, with perspective correction."
+},
+{
+"q": "Can I adjust the edges?",
+"a": "Yes, drag the corner dots."
+},
+{
+"q": "Can I scan multiple pages?",
+"a": "Yes, into one PDF."
+},
+{
+"q": "What is black & white mode?",
+"a": "A high-contrast photocopy look."
+},
+{
+"q": "Can I make it searchable?",
+"a": "Run OCR PDF afterwards."
+},
+{
+"q": "Are photos uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no watermark."
+},
+{
+"q": "Which page sizes?",
+"a": "A4, Letter or same as scan."
+}
+],
+"related": [
+"ocr-pdf",
+"jpg-to-pdf",
+"compress-pdf",
+"merge-pdf",
+"sign-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"printready": {
+"seo": {
+"title": "Print-Ready PDF – Add Bleed, Crop Marks & Trim Boxes",
+"desc": "Make a PDF print-ready for commercial printing: add 3 mm bleed (mirrored or white), crop and registration marks, colour bar, TrimBox/BleedBox.",
+"compareTitle": "{tool}: {brand} vs Acrobat Pro, Canva and printer tools",
+"compareCols": [
+"Adobe Acrobat Pro",
+"Canva print export",
+"Online printer upload tools"
+],
+"sections": [
+[
+"Make a print-ready PDF",
+"Professional printers print on larger sheets and cut them down to size. Because cutting is never perfectly accurate, artwork that reaches the edge must extend a few millimetres beyond the final size – the *bleed* – and the file must show where to cut. This tool adds bleed, crop (trim) marks, registration targets and a colour bar, sets the PDF's TrimBox, BleedBox and MediaBox correctly and can resize pages to a standard trim size."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF.",
+"Set the bleed (3 mm is the usual requirement) and how to fill it.",
+"Choose crop marks, registration marks and colour bar.",
+"Optionally resize to a trim size, then download."
+]
+}
+],
+[
+"Print terms explained",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Trim size",
+"Final size after cutting, e.g. A4 or 85 × 55 mm business card"
+],
+[
+"Bleed",
+"Extra artwork beyond the trim, usually 3 mm (0.125 in in the US)"
+],
+[
+"Safe zone",
+"Keep text 3–5 mm inside the trim"
+],
+[
+"Crop / trim marks",
+"Short lines outside the page showing where to cut"
+],
+[
+"Registration marks",
+"Targets for aligning colour plates"
+],
+[
+"Colour bar",
+"Patches the press operator uses to check ink density"
+],
+[
+"TrimBox / BleedBox / MediaBox",
+"PDF page boxes telling print software the finished size, bleed area and full sheet"
+]
+]
+}
+],
+[
+"Bleed fill options",
+"*Extend artwork (mirror edges)* fills the bleed with a mirrored copy of the outer strip of your design, so backgrounds and photos running off the edge continue seamlessly – exactly what printers expect when the original file has no bleed. *White* adds an empty margin – fine for designs with white borders. Always prefer real bleed from your design software when you have it; mirroring is a smart fallback for files created without bleed."
+],
+[
+"Common trim sizes",
+{
+"table": [
+[
+"Product",
+"Trim size",
+"With 3 mm bleed"
+],
+[
+"Business card (EU)",
+"85 × 55 mm",
+"91 × 61 mm"
+],
+[
+"A6 flyer / postcard",
+"105 × 148 mm",
+"111 × 154 mm"
+],
+[
+"A5 flyer",
+"148 × 210 mm",
+"154 × 216 mm"
+],
+[
+"A4 brochure",
+"210 × 297 mm",
+"216 × 303 mm"
+],
+[
+"US Letter",
+"8.5 × 11 in",
+"8.75 × 11.25 in"
+]
+]
+}
+],
+[
+"Checklist before sending to print",
+{
+"list": [
+"Images at 300 dpi at final size.",
+"Fonts embedded (they are in most PDFs from Word, Canva and InDesign).",
+"Important text at least 3–5 mm inside the trim.",
+"Bleed added and crop marks present if the printer asks for them.",
+"Colour: printers often prefer CMYK; RGB PDFs are converted by the print shop and bright colours may shift slightly.",
+"Ask the printer for their spec – some want no marks, only bleed and a TrimBox."
+]
+}
+],
+[
+"Resizing to a trim size",
+"Choosing a trim size scales each page to fit, for example turning a Letter design into A4 or a slide into an A5 flyer. Keep proportions similar to avoid large blank areas."
+],
+[
+"Designs from Canva, Word or PowerPoint",
+"Office apps cannot add bleed. Export a PDF at the final size, then run it through this tool with mirror bleed. Canva can export with bleed directly via *PDF Print → Crop marks and bleed*; if you did that already, you do not need this tool."
+],
+[
+"Home vs commercial printing",
+"Home and office printers cannot print to the edge, so bleed is mainly for print shops and online printers. For enlargements on home printers use [PDF Poster](/pdf-poster/); for folded booklets use [Create Booklet PDF](/create-booklet-pdf/)."
+],
+[
+"Why PDF page boxes matter",
+"Prepress software such as Acrobat Preflight, Enfocus PitStop and print-shop upload portals read the TrimBox to know the finished size and the BleedBox to know how much extra artwork exists. A file that only has a MediaBox forces the printer to guess, which is how cards end up trimmed off-centre or with white slivers. Setting the boxes correctly lets automated imposition place your pages exactly."
+],
+[
+"Preparing for different printers",
+"Online printers such as Vistaprint, Moo, Printful or local offset shops each publish a file specification. Most ask for 3 mm (or 1/8 inch) bleed, a PDF with fonts embedded and optionally crop marks offset from the trim so they do not print into the bleed. Large-format and sign printers may want 5–10 mm bleed instead – just set the value accordingly."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Mirror bleed, marks, page boxes",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What is bleed in printing?",
+"a": "Extra artwork beyond the trim, usually 3 mm."
+},
+{
+"q": "How do I add bleed to a PDF?",
+"a": "Drop it, set bleed and download."
+},
+{
+"q": "What if my design has no bleed?",
+"a": "Use mirror edges to extend it."
+},
+{
+"q": "Does it add crop marks?",
+"a": "Yes, plus registration marks and colour bar."
+},
+{
+"q": "Does it set TrimBox and BleedBox?",
+"a": "Yes."
+},
+{
+"q": "Can it resize to business card size?",
+"a": "Yes, 85 × 55 mm and other sizes."
+},
+{
+"q": "Does it convert to CMYK?",
+"a": "No; most printers convert RGB."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "How much bleed do I need?",
+"a": "Usually 3 mm or 0.125 in; check with your printer."
+}
+],
+"related": [
+"pdf-poster",
+"create-booklet-pdf",
+"resize-pdf",
+"compress-pdf",
+"validate-pdfa"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}
