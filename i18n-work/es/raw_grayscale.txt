@@ -1,0 +1,119 @@
+PDF en escala de grises
+Convierte un PDF en color a blanco y negro.
+PDF a escala de grises online gratis – Color a blanco y negro | {brand}
+Convierte un PDF en color a escala de grises para ahorrar tinta y tóner o cumplir normas de envío en blanco y negro. Gratis, privado, en tu navegador.
+Convertir PDF a escala de grises
+Selecciona tu PDF.
+Elige un nivel de calidad.
+Haz clic en Iniciar y descarga.
+¿El texto sigue siendo seleccionable?
+Las páginas se convierten en imágenes en escala de grises, así que después el texto no se puede seleccionar.
+Imprimir documentos en color en una impresora de blanco y negro puede hacer que el texto se vea tenue, y la tinta de color es cara. Convertir a escala de grises muestra exactamente cómo se imprimirá el documento y puede reducir costes.
+Ahorrar tinta de color al imprimir documentos largos en casa o en la oficina.
+Cumplir normas de envío que exigen documentos en blanco y negro.
+Previsualizar cómo se verán gráficos y fotos en una impresora monocromo.
+Revisa los gráficos tras la conversión: colores que solo difieren en el tono pueden verse idénticos en gris.
+Después, usa Comprimir PDF para obtener un archivo aún más pequeño.
+¿El texto sigue siendo seleccionable?
+No, las páginas se convierten en imágenes en escala de grises, así que después el texto no se puede seleccionar. Usa OCR PDF si necesitas texto con búsqueda.
+Ahorro de tinta y tóner
+Los cartuchos de color son caros y muchas oficinas imprimen en blanco y negro por defecto. Convertir primero te permite comprobar la legibilidad de gráficos y resaltados antes de imprimir, evitando páginas desperdiciadas.
+También archivos más pequeños
+Las imágenes en color contienen tres canales de información; la escala de grises solo necesita uno, así que convertir también puede reducir el tamaño de los documentos con muchas imágenes.
+PDF a escala de grises o blanco y negro gratis
+Convierte un PDF a escala de grises o a blanco y negro puro con umbral ajustable. Varios niveles de calidad. Gratis, sin subidas ni registro, sin conexión.
+{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+Convierte un PDF a escala de grises o a blanco y negro
+Esta herramienta elimina el color de un PDF. **Escala de grises** convierte cada color en el tono de gris correspondiente –el aspecto de una buena fotocopia en blanco y negro–, manteniendo legibles fotos y gráficos. **Blanco y negro** va más allá y convierte cada píxel en negro puro o blanco puro según un umbral que tú controlas, lo que da páginas nítidas y de alto contraste para documentos de texto, formularios y firmas, y los archivos más pequeños en escaneos.
+Motivos habituales: una imprenta o un sistema de presentación judicial exige escala de grises, quieres imprimir sin gastar tinta de color, un fondo de color dificulta la lectura de un escaneo o necesitas reducir un documento escaneado muy colorido.
+Escala de grises frente a blanco y negro
+
+Escala de grises
+Blanco y negro
+Colores
+256 tonos de gris
+Solo blanco y negro
+Fotos
+Conservan el detalle
+Quedan duras, posterizadas
+Escaneos de texto
+Buenos
+Los más nítidos, elimina el tono del papel
+Tamaño del archivo
+Menor que en color
+Normalmente el menor
+Ideal para
+Documentos mixtos, informes
+Contratos, formularios, cartas, recibos
+Si no estás seguro, empieza por la escala de grises. Usa blanco y negro cuando las páginas sean sobre todo texto y quieras que parezcan un fax limpio o una impresión láser.
+Cómo elegir el umbral de blanco y negro
+El brillo de cada píxel (0 = negro, 255 = blanco) se compara con el umbral. El valor predeterminado de 160 sirve para la mayoría de documentos de oficina. Súbelo (180–200) si desaparece texto claro o fino; bájalo (120–140) si el papel gris, las manchas o un fondo de color se convierten en motas negras. Ejecútalo una vez, revisa el resultado y ajusta: solo lleva unos segundos.
+Niveles de calidad
+Nivel
+Escala de renderizado
+Uso
+Alta
+2× (≈144 dpi)
+Impresión, texto pequeño
+Media
+1,5× (≈108 dpi)
+Lectura en pantalla, correo electrónico
+Archivo pequeño
+1× (72 dpi)
+Tamaño mínimo; solo texto grande
+Cómo convertir un PDF a escala de grises
+Arrastra el PDF.
+Elige Escala de grises o Blanco y negro (y el umbral).
+Elige un nivel de calidad.
+Convierte y descarga.
+Qué pasa con el texto
+Para garantizar que se elimina todo el color –incluido el de imágenes, degradados, transparencias y gráficos incrustados–, cada página se renderiza y se guarda como imagen. Las páginas se ven exactamente como el original, pero en gris, y el texto ya no se puede seleccionar ni buscar. Si necesitas texto con búsqueda, aplica [OCR PDF](/ocr-pdf/) al resultado, que vuelve a añadir una capa de texto invisible. Conserva el original en color para editarlo.
+Imprimir en escala de grises sin convertir
+La mayoría de los cuadros de impresión tienen una opción de *escala de grises* o *blanco y negro*, suficiente para imprimir puntualmente en casa. Convertir el archivo es mejor cuando lo envías a otra persona, lo subes a un portal que rechaza el color, quieres resultados uniformes en cualquier impresora o necesitas un archivo más pequeño.
+¿Se puede devolver el color a un PDF en escala de grises?
+No: la información de color se elimina. No hay una forma fiable de recuperar los colores originales a partir de una versión en gris, así que conserva siempre el original en color.
+Convertir PDF a escala de grises online frente a software de escritorio
+Las suites de PDF de escritorio ofrecen conversión de color en sus herramientas de preimpresión, normalmente en ediciones de pago. La mayoría de los conversores online suben primero tu documento. Aquí la conversión se ejecuta en tu navegador, es gratuita e incluye un verdadero modo blanco y negro del que carecen muchas herramientas.
+Glosario
+Término
+Significado
+Escala de grises
+Imagen formada solo por tonos de gris
+Blanco y negro / monocromo
+Imagen con solo píxeles negros puros y blancos puros
+Umbral
+Nivel de brillo que decide entre negro y blanco
+DPI
+Puntos por pulgada; más alto significa más nitidez y archivos más grandes
+Ejemplo práctico
+Imprimir en color un informe de 30 páginas cuesta mucho. Conviértelo aquí con la calidad *Impresión* para obtener texto e imágenes en gris nítidos a 200 dpi, o elige *Blanco y negro* con el umbral predeterminado para obtener texto negro puro sobre papel blanco, ideal para impresoras láser y faxes. Compara los tamaños de archivo en el mensaje del resultado.
+Privacidad
+Todo ocurre dentro de la pestaña de tu navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa ahí y se guarda directamente en tu dispositivo. Nunca se sube, almacena ni registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, lo que la hace adecuada para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+Herramientas relacionadas
+[OCR PDF](/ocr-pdf/)
+[Comprimir PDF](/compress-pdf/)
+[Enderezar PDF](/deskew-pdf/)
+[Aplanar PDF](/flatten-pdf/)
+[PDF a JPG](/pdf-to-jpg/)
+¿Cómo convierto un PDF a escala de grises?
+Arrastra el PDF, elige Escala de grises, selecciona una calidad y descarga.
+¿Cómo convierto un PDF a blanco y negro y no a escala de grises?
+Elige Blanco y negro y ajusta el umbral.
+¿Es gratis?
+Sí, sin registro ni marca de agua.
+¿El texto seguirá siendo seleccionable?
+No, las páginas se renderizan como imágenes; aplica OCR para que vuelvan a tener búsqueda.
+¿La escala de grises reduce el tamaño del archivo?
+Normalmente sí, sobre todo en escaneos en color; el blanco y negro suele dar el menor tamaño.
+¿Puedo devolver el color a un PDF en escala de grises?
+No, la información de color ya no existe.
+¿Qué umbral debo usar?
+Empieza en 160; súbelo si desaparece texto y bájalo si los fondos se vuelven negros.
+¿Se sube mi PDF?
+No, la conversión se ejecuta en tu dispositivo.
+¿Cómo convierto un PDF a escala de grises a 200 dpi?
+Elige Escala de grises y el nivel de calidad Impresión (200 dpi). Cada página se renderiza a 200 dpi en tonos de gris y se guarda como un PDF nuevo.
+C|Modo blanco y negro real
+C|Umbral ajustable
+C|Niveles de calidad, incl. 200 dpi
+C|4

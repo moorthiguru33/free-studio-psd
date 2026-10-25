@@ -1,0 +1,111 @@
+Redimensionar PDF
+Ajusta las páginas del PDF a un nuevo tamaño de papel.
+Redimensionar páginas PDF online gratis – Tamaño uniforme | {brand}
+Ajusta todas las páginas del PDF a un tamaño de papel estándar (A4, Carta y más). Los tamaños mixtos quedan uniformes. Gratis, sin subidas.
+Redimensionar páginas PDF
+Selecciona tu PDF.
+Elige el tamaño de destino.
+Descarga.
+¿Es lo mismo que comprimir?
+No: esto cambia el tamaño del papel. Para reducir el tamaño del archivo, usa Comprimir PDF.
+Los PDF formados a partir de distintas fuentes suelen tener páginas de tamaños diferentes, lo que se ve desordenado y se imprime mal. Redimensionar hace que todas las páginas tengan el mismo tamaño de papel y mantiene el contenido nítido.
+Hacer uniforme un PDF unido antes de imprimirlo o encuadernarlo.
+Ajustar escaneos del móvil y recibos a páginas estándar.
+Normalizar las páginas antes de crear un folleto.
+Esto cambia el tamaño del papel, no el del archivo.
+Revisa las páginas apaisadas: se ajustan al nuevo tamaño.
+¿Esto reducirá el tamaño de mi PDF?
+No: esto cambia el tamaño del papel. Para reducir el tamaño del archivo, usa Comprimir PDF.
+Tamaños de papel habituales
+A4 (210 × 297 mm) es el estándar en la mayor parte del mundo; US Letter o Carta (8,5 × 11 in) y Legal (8,5 × 14 in) se usan en Norteamérica. A3 es habitual para planos y A5 para folletos.
+Redimensionar frente a comprimir
+Redimensionar cambia las dimensiones físicas de la página; no reduce el tamaño del archivo. Para reducir megabytes, usa Comprimir PDF.
+Redimensionar páginas PDF – A4 o Carta online gratis
+Ajusta las páginas del PDF a A4, Carta, Legal, A3, A5, B5 o Tabloide con márgenes. Los tamaños mixtos quedan uniformes. Gratis, sin subidas ni registro.
+{tool}: {brand} frente a iLovePDF, Smallpdf y Adobe
+Ajusta todas las páginas de un PDF a un mismo tamaño
+Da a cada página de un PDF el tamaño que necesitas –A4 para Europa y Asia, US Letter (Carta) para Norteamérica, Legal, A3, A5, B5 o Tabloide– en vertical u horizontal. El contenido se escala proporcionalmente y se centra para que nada se estire ni se corte, y puedes añadir un margen para que las impresoras no recorten los bordes.
+Cómo usarlo
+Arrastra el PDF.
+Elige el tamaño de página de destino y la orientación (o Automática para seguir la de cada página).
+Indica un margen en milímetros si quieres espacio en blanco alrededor del contenido.
+Descarga el PDF redimensionado.
+Tamaños de página habituales
+Tamaño
+Milímetros
+Pulgadas
+Uso
+A4
+210 × 297
+8,27 × 11,69
+La mayor parte del mundo
+US Letter (Carta)
+216 × 279
+8,5 × 11
+EE. UU., Canadá
+US Legal
+216 × 356
+8,5 × 14
+Documentos legales de EE. UU.
+A3
+297 × 420
+11,7 × 16,5
+Pósteres, planos
+A5
+148 × 210
+5,8 × 8,3
+Folletos, cuadernos
+El PDF mide las páginas en puntos: 72 puntos = 1 pulgada, así que A4 mide 595 × 842 pt y Carta 612 × 792 pt.
+Escalado sin deformación
+El contenido de cada página se coloca como un formulario vectorial en la nueva página, escalado por el mismo factor en horizontal y en vertical, y luego se centra. El texto sigue siendo seleccionable y nítido; no se rasteriza nada. Si la forma del original y la del destino difieren –por ejemplo, de Carta a A4–, quedará un espacio en blanco algo mayor en dos lados, lo cual es mejor que estirar el contenido.
+Imprimir un PDF Carta en A4 (y al revés)
+Imprimir un documento US Letter en papel A4 sin redimensionarlo suele cortar las últimas líneas o dejar márgenes desiguales. Convertirlo primero a A4 aquí da un resultado limpio en cualquier impresora. Del mismo modo, convierte los documentos A4 a Carta antes de enviarlos a imprentas y tribunales de Norteamérica.
+Redimensionar páginas frente a reducir el tamaño del archivo
+«Redimensionar PDF» puede significar dos cosas. Esta herramienta cambia las *dimensiones físicas de la página*, por ejemplo de Carta a A4, o hace uniforme un PDF con tamaños de página mixtos. Si quieres un *archivo* más pequeño en megabytes, usa [Comprimir PDF](/compress-pdf/) o una de las herramientas de tamaño objetivo, como [Comprimir PDF a 1 MB](/compress-pdf-to-1mb/). Cambiar el tamaño de página no reduce por sí solo el archivo de forma notable, porque el contenido se mantiene en vectores.
+Tamaños de página mixtos
+Los escaneos de distintas máquinas, los documentos unidos y las capturas con el móvil suelen dar PDF en los que cada página tiene un tamaño ligeramente distinto, lo que se ve desordenado y confunde a las impresoras. Redimensionar a un único tamaño centra el contenido de cada página en hojas idénticas, de modo que el documento se imprime de forma uniforme, se encuaderna bien y se ve profesional al desplazarse en pantalla.
+Trabajos típicos
+Convertir un contrato US Letter a A4 para un cliente europeo, o al revés.
+Hacer uniforme un escaneo unido antes de imprimirlo o presentarlo electrónicamente.
+Reducir planos A3 a A4 para el anexo de un informe.
+Añadir márgenes blancos para que la impresora no recorte el contenido que llega al borde.
+Preparar las páginas para encuadernar con un margen adicional.
+Márgenes para encuadernar e imprimir
+Las impresoras de oficina no pueden imprimir hasta el mismo borde; un margen de 5 mm mantiene el contenido a salvo. Para encuadernación con anillas o canutillo, añade 10–15 mm. Las imprentas comerciales necesitan sangrado en lugar de margen: consulta [PDF listo para imprenta](/print-ready-pdf/). El margen que indiques aquí se aplica en todos los lados, y el contenido se reduce de forma uniforme para caber dentro.
+Funciona con casi cualquier PDF
+La herramienta abre PDF de Word, Google Docs, LibreOffice, escáneres, móviles y software de diseño, incluidos archivos PDF 1.0–2.0 con formularios, anotaciones y fuentes incrustadas. Los archivos protegidos con contraseña de *apertura* deben desbloquearse primero con [Desbloquear PDF](/unlock-pdf/) (necesitas la contraseña); los que solo tienen restricciones de permisos suelen abrirse directamente. También funcionan documentos grandes de cientos de páginas: el límite es la memoria de tu dispositivo, normalmente varios cientos de megabytes en un portátil y unos 100 MB en un móvil.
+Windows, Mac, iPhone y Android
+No hay nada que instalar. Funciona en Chrome, Edge, Firefox y Safari en Windows, macOS, Linux, ChromeOS, Android e iOS. En el móvil, toca la zona de arrastre y elige el archivo desde Archivos, Google Drive o las descargas del correo; el resultado se guarda en Descargas o en la app Archivos y puede compartirse directamente por WhatsApp, Gmail o Drive.
+Problemas comunes y soluciones
+**«El archivo está cifrado»**: quita la contraseña de apertura con Desbloquear PDF y vuelve a intentarlo.
+**El archivo es un marcador de posición en la nube**: descárgalo completo primero desde OneDrive, iCloud o Drive.
+**Una descarga dañada o incompleta**: pásala por [Reparar PDF](/repair-pdf/).
+**Muy lento en el móvil**: los PDF escaneados grandes necesitan mucha memoria; cierra otras pestañas o divide antes el archivo con [Dividir PDF](/split-pdf/).
+**La descarga no empezó**: algunos navegadores integrados en apps (Instagram, Facebook) bloquean las descargas; abre la página en Chrome o Safari.
+Combínalo con otras herramientas PDF
+La mayoría de los trabajos requieren más de un paso, y todas las herramientas de Fileopia funcionan igual, así que puedes encadenarlas sin subir nada. Un flujo típico: escanea o convierte las páginas, [únelas](/merge-pdf/) en un solo archivo, ordénalas con [Organizar PDF](/organize-pdf/), haz que el texto escaneado tenga búsqueda con OCR, añade [números de página](/add-page-numbers/) y, por último, [comprime](/compress-pdf/) el resultado para enviarlo por correo. Cada paso descarga un archivo nuevo y deja intacto el original, así que siempre puedes volver atrás y probar otros ajustes. Consejo: da a cada resultado un nombre claro, como *contrato-firmado-comprimido.pdf*, para distinguir las versiones más tarde.
+Privacidad
+Todo ocurre dentro de la pestaña de tu navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa ahí y se guarda directamente en tu dispositivo. Nunca se sube, almacena ni registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, lo que la hace adecuada para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+¿Cómo paso un PDF a A4?
+Arrástralo, elige A4 y descarga.
+¿Se estirará el contenido?
+No, se escala proporcionalmente y se centra.
+¿Puedo convertir Carta a A4?
+Sí.
+¿Puedo hacer que todas las páginas tengan el mismo tamaño?
+Sí, cada página recibe el tamaño elegido.
+¿Puedo añadir márgenes?
+Sí, en milímetros.
+¿El texto sigue siendo seleccionable?
+Sí, no se rasteriza nada.
+¿Esto reduce el tamaño del archivo?
+No: para eso usa Comprimir PDF.
+¿Puedo pasar a horizontal?
+Sí, elige la orientación.
+¿Es gratis?
+Sí.
+¿Se suben los archivos?
+No.
+C|Sin subidas: se ejecuta en tu dispositivo
+C|Escalado vectorial + márgenes
+C|Gratis sin registro

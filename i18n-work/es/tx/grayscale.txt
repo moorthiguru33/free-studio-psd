@@ -1,0 +1,119 @@
+0	PDF en escala de grises
+1	Convierte un PDF en color a blanco y negro.
+2	PDF a escala de grises online gratis – Color a blanco y negro | {brand}
+3	Convierte un PDF en color a escala de grises para ahorrar tinta y tóner o cumplir normas de envío en blanco y negro. Gratis, privado, en tu navegador.
+4	Convertir PDF a escala de grises
+5	Selecciona tu PDF.
+6	Elige un nivel de calidad.
+7	Haz clic en Iniciar y descarga.
+8	¿El texto sigue siendo seleccionable?
+9	Las páginas se convierten en imágenes en escala de grises, así que después el texto no se puede seleccionar.
+10	Imprimir documentos en color en una impresora de blanco y negro puede hacer que el texto se vea tenue, y la tinta de color es cara. Convertir a escala de grises muestra exactamente cómo se imprimirá el documento y puede reducir costes.
+11	Ahorrar tinta de color al imprimir documentos largos en casa o en la oficina.
+12	Cumplir normas de envío que exigen documentos en blanco y negro.
+13	Previsualizar cómo se verán gráficos y fotos en una impresora monocromo.
+14	Revisa los gráficos tras la conversión: colores que solo difieren en el tono pueden verse idénticos en gris.
+15	Después, usa Comprimir PDF para obtener un archivo aún más pequeño.
+16	¿El texto sigue siendo seleccionable?
+17	No, las páginas se convierten en imágenes en escala de grises, así que después el texto no se puede seleccionar. Usa OCR PDF si necesitas texto con búsqueda.
+18	Ahorro de tinta y tóner
+19	Los cartuchos de color son caros y muchas oficinas imprimen en blanco y negro por defecto. Convertir primero te permite comprobar la legibilidad de gráficos y resaltados antes de imprimir, evitando páginas desperdiciadas.
+20	También archivos más pequeños
+21	Las imágenes en color contienen tres canales de información; la escala de grises solo necesita uno, así que convertir también puede reducir el tamaño de los documentos con muchas imágenes.
+22	PDF a escala de grises o blanco y negro gratis
+23	Convierte un PDF a escala de grises o a blanco y negro puro con umbral ajustable. Varios niveles de calidad. Gratis, sin subidas ni registro, sin conexión.
+24	{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+25	Convierte un PDF a escala de grises o a blanco y negro
+26	Esta herramienta elimina el color de un PDF. **Escala de grises** convierte cada color en el tono de gris correspondiente –el aspecto de una buena fotocopia en blanco y negro–, manteniendo legibles fotos y gráficos. **Blanco y negro** va más allá y convierte cada píxel en negro puro o blanco puro según un umbral que tú controlas, lo que da páginas nítidas y de alto contraste para documentos de texto, formularios y firmas, y los archivos más pequeños en escaneos.
+27	Motivos habituales: una imprenta o un sistema de presentación judicial exige escala de grises, quieres imprimir sin gastar tinta de color, un fondo de color dificulta la lectura de un escaneo o necesitas reducir un documento escaneado muy colorido.
+28	Escala de grises frente a blanco y negro
+29	
+30	Escala de grises
+31	Blanco y negro
+32	Colores
+33	256 tonos de gris
+34	Solo blanco y negro
+35	Fotos
+36	Conservan el detalle
+37	Quedan duras, posterizadas
+38	Escaneos de texto
+39	Buenos
+40	Los más nítidos, elimina el tono del papel
+41	Tamaño del archivo
+42	Menor que en color
+43	Normalmente el menor
+44	Ideal para
+45	Documentos mixtos, informes
+46	Contratos, formularios, cartas, recibos
+47	Si no estás seguro, empieza por la escala de grises. Usa blanco y negro cuando las páginas sean sobre todo texto y quieras que parezcan un fax limpio o una impresión láser.
+48	Cómo elegir el umbral de blanco y negro
+49	El brillo de cada píxel (0 = negro, 255 = blanco) se compara con el umbral. El valor predeterminado de 160 sirve para la mayoría de documentos de oficina. Súbelo (180–200) si desaparece texto claro o fino; bájalo (120–140) si el papel gris, las manchas o un fondo de color se convierten en motas negras. Ejecútalo una vez, revisa el resultado y ajusta: solo lleva unos segundos.
+50	Niveles de calidad
+51	Nivel
+52	Escala de renderizado
+53	Uso
+54	Alta
+55	2× (≈144 dpi)
+56	Impresión, texto pequeño
+57	Media
+58	1,5× (≈108 dpi)
+59	Lectura en pantalla, correo electrónico
+60	Archivo pequeño
+61	1× (72 dpi)
+62	Tamaño mínimo; solo texto grande
+63	Cómo convertir un PDF a escala de grises
+64	Arrastra el PDF.
+65	Elige Escala de grises o Blanco y negro (y el umbral).
+66	Elige un nivel de calidad.
+67	Convierte y descarga.
+68	Qué pasa con el texto
+69	Para garantizar que se elimina todo el color –incluido el de imágenes, degradados, transparencias y gráficos incrustados–, cada página se renderiza y se guarda como imagen. Las páginas se ven exactamente como el original, pero en gris, y el texto ya no se puede seleccionar ni buscar. Si necesitas texto con búsqueda, aplica [OCR PDF](/ocr-pdf/) al resultado, que vuelve a añadir una capa de texto invisible. Conserva el original en color para editarlo.
+70	Imprimir en escala de grises sin convertir
+71	La mayoría de los cuadros de impresión tienen una opción de *escala de grises* o *blanco y negro*, suficiente para imprimir puntualmente en casa. Convertir el archivo es mejor cuando lo envías a otra persona, lo subes a un portal que rechaza el color, quieres resultados uniformes en cualquier impresora o necesitas un archivo más pequeño.
+72	¿Se puede devolver el color a un PDF en escala de grises?
+73	No: la información de color se elimina. No hay una forma fiable de recuperar los colores originales a partir de una versión en gris, así que conserva siempre el original en color.
+74	Convertir PDF a escala de grises online frente a software de escritorio
+75	Las suites de PDF de escritorio ofrecen conversión de color en sus herramientas de preimpresión, normalmente en ediciones de pago. La mayoría de los conversores online suben primero tu documento. Aquí la conversión se ejecuta en tu navegador, es gratuita e incluye un verdadero modo blanco y negro del que carecen muchas herramientas.
+76	Glosario
+77	Término
+78	Significado
+79	Escala de grises
+80	Imagen formada solo por tonos de gris
+81	Blanco y negro / monocromo
+82	Imagen con solo píxeles negros puros y blancos puros
+83	Umbral
+84	Nivel de brillo que decide entre negro y blanco
+85	DPI
+86	Puntos por pulgada; más alto significa más nitidez y archivos más grandes
+87	Ejemplo práctico
+88	Imprimir en color un informe de 30 páginas cuesta mucho. Conviértelo aquí con la calidad *Impresión* para obtener texto e imágenes en gris nítidos a 200 dpi, o elige *Blanco y negro* con el umbral predeterminado para obtener texto negro puro sobre papel blanco, ideal para impresoras láser y faxes. Compara los tamaños de archivo en el mensaje del resultado.
+89	Privacidad
+90	Todo ocurre dentro de la pestaña de tu navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa ahí y se guarda directamente en tu dispositivo. Nunca se sube, almacena ni registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, lo que la hace adecuada para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+91	Herramientas relacionadas
+92	[OCR PDF](/ocr-pdf/)
+93	[Comprimir PDF](/compress-pdf/)
+94	[Enderezar PDF](/deskew-pdf/)
+95	[Aplanar PDF](/flatten-pdf/)
+96	[PDF a JPG](/pdf-to-jpg/)
+97	¿Cómo convierto un PDF a escala de grises?
+98	Arrastra el PDF, elige Escala de grises, selecciona una calidad y descarga.
+99	¿Cómo convierto un PDF a blanco y negro y no a escala de grises?
+100	Elige Blanco y negro y ajusta el umbral.
+101	¿Es gratis?
+102	Sí, sin registro ni marca de agua.
+103	¿El texto seguirá siendo seleccionable?
+104	No, las páginas se renderizan como imágenes; aplica OCR para que vuelvan a tener búsqueda.
+105	¿La escala de grises reduce el tamaño del archivo?
+106	Normalmente sí, sobre todo en escaneos en color; el blanco y negro suele dar el menor tamaño.
+107	¿Puedo devolver el color a un PDF en escala de grises?
+108	No, la información de color ya no existe.
+109	¿Qué umbral debo usar?
+110	Empieza en 160; súbelo si desaparece texto y bájalo si los fondos se vuelven negros.
+111	¿Se sube mi PDF?
+112	No, la conversión se ejecuta en tu dispositivo.
+113	¿Cómo convierto un PDF a escala de grises a 200 dpi?
+114	Elige Escala de grises y el nivel de calidad Impresión (200 dpi). Cada página se renderiza a 200 dpi en tonos de gris y se guarda como un PDF nuevo.
+C	Modo blanco y negro real
+C	Umbral ajustable
+C	Niveles de calidad, incl. 200 dpi
+C	4

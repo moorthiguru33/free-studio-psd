@@ -1,0 +1,133 @@
+0	Lector de PDF
+1	Abre y lee PDF online con búsqueda y zoom.
+2	Lector de PDF online – Abre y ve archivos PDF gratis, sin subidas
+3	Abre PDF en tu navegador: desplazamiento rápido, zoom, salto de página, búsqueda en todo el texto y modo nocturno. Guarda páginas elegidas en un PDF nuevo.
+4	Lector de PDF online
+5	Selecciona un PDF.
+6	Desplázate, haz zoom, busca o salta a una página.
+7	Si quieres, guarda las páginas elegidas como un PDF nuevo.
+8	¿Tengo que instalar algo?
+9	No. Funciona en cualquier navegador moderno en móvil, tableta u ordenador.
+10	¿Se sube el archivo?
+11	No, se abre localmente: perfecto para documentos privados en ordenadores compartidos.
+12	A veces solo necesitas leer un PDF: en un ordenador de biblioteca, en un portátil del trabajo sin Acrobat o en un móvil cuyo visor no permite buscar. El lector de {brand} renderiza las páginas a medida que las necesitas para un desplazamiento rápido incluso en documentos largos, busca en todo el texto con fragmentos de cada resultado y ofrece un modo nocturno para leer con comodidad.
+13	Leer un PDF en un ordenador sin aplicación de PDF.
+14	Buscar en un manual largo todas las menciones de un término.
+15	Leer de noche con el modo oscuro.
+16	Extraer unas pocas páginas como un PDF aparte.
+17	Escribe al menos dos letras para buscar; haz clic en un resultado para saltar a su página.
+18	Usa + / − para hacer zoom; las páginas se vuelven a renderizar nítidas en cada nivel de zoom.
+19	Escribe intervalos de páginas como 1-3,7 para guardar solo esas páginas.
+20	¿Puedo hacer anotaciones?
+21	Usa Editar PDF para texto, dibujos y resaltados.
+22	¿Admite PDF protegidos con contraseña?
+23	Desbloquea primero el archivo con Desbloquear PDF.
+24	Lector de PDF online – Abre, busca y lee PDF gratis
+25	Abre y lee PDF en el navegador: desplazamiento continuo rápido, zoom, ajuste al ancho, salto de página, búsqueda con lista de resultados, modo nocturno.
+26	{tool}: {brand} frente a Acrobat Reader, el visor de Chrome y Smallpdf
+27	Lector de PDF online gratuito
+28	Abre cualquier PDF al instante en cualquier dispositivo: sin instalar Adobe Reader, sin cuenta y sin subidas. El lector renderiza las páginas a medida que te desplazas, así que incluso manuales de 1000 páginas se abren rápido, y te da lo esencial: zoom y ajuste al ancho, salto a una página, búsqueda en todo el texto con una lista de todas las coincidencias, un modo nocturno para leer a oscuras y un panel de información del documento. Cuando solo necesitas una parte del documento, guarda las páginas que elijas como un PDF nuevo.
+29	Cómo usarlo
+30	Arrastra o abre el PDF.
+31	Desplázate para leer; haz zoom o ajusta al ancho.
+32	Busca palabras y salta entre coincidencias; activa el modo nocturno.
+33	Si quieres, indica páginas y guárdalas como un PDF nuevo.
+34	Funciones de un vistazo
+35	Función
+36	Qué hace
+37	Desplazamiento continuo con renderizado diferido
+38	Las páginas se dibujan al entrar en pantalla, así que los archivos enormes se abren rápido y usan poca memoria
+39	Zoom y ajuste al ancho
+40	Lee con comodidad en móviles, tabletas y monitores panorámicos
+41	Salto de página
+42	Escribe un número de página para ir directamente
+43	Búsqueda en todo el texto con lista de resultados
+44	Cada coincidencia aparece con su contexto; haz clic para saltar
+45	Modo nocturno
+46	Páginas oscuras con texto claro para leer con poca luz
+47	Información del documento
+48	Número de páginas, tamaño del archivo, versión de PDF, título y esquema
+49	Guardar páginas elegidas
+50	Exporta, por ejemplo, 3-7, 12 como un PDF nuevo
+51	¿Por qué leer PDF en el navegador?
+52	El software de PDF de escritorio suele ser pesado, pide actualizaciones e inicios de sesión, y abre los archivos con funciones (scripts, formularios, complementos) que rara vez necesitas. Un lector en el navegador queda aislado por el modelo de seguridad del navegador, arranca al instante y funciona igual en Windows, macOS, Linux, ChromeOS, Android e iOS. Como Fileopia renderiza el archivo localmente con el motor PDF.js de Mozilla –el mismo que usa el visor integrado de Firefox–, los documentos confidenciales nunca salen de tu dispositivo.
+53	Buscar en un PDF
+54	Escribe una palabra o frase; la lista de resultados muestra cada aparición con el texto que la rodea y el número de página.
+55	Haz clic en un resultado para saltar a él.
+56	La búsqueda no distingue mayúsculas de minúsculas y abarca todo el documento.
+57	Los PDF escaneados no tienen capa de texto, así que la búsqueda no encuentra nada: hazlos buscables primero con [OCR PDF](/ocr-pdf/).
+58	Leer con comodidad en el móvil
+59	Usa *ajustar al ancho* para que las líneas llenen la pantalla y desplázate en vertical. El zoom con dos dedos funciona como siempre. El modo nocturno reduce el deslumbramiento antes de dormir. Para libros, un formato adaptable es más cómodo en pantallas pequeñas: convierte con [PDF a EPUB](/pdf-to-epub/) o escúchalo con [PDF a voz](/pdf-to-speech/).
+60	Guardar solo algunas páginas
+61	Escribe números e intervalos de páginas como 1-3, 8, 10-12 y pulsa *Guardar páginas seleccionadas* para obtener un PDF más pequeño solo con esas páginas: útil para enviar un capítulo, una única factura de un extracto o la página de firma de un contrato. Para más operaciones con páginas, consulta [Dividir PDF](/split-pdf/), [Extraer páginas](/extract-pdf-pages/) y [Organizar PDF](/organize-pdf/).
+62	Tipos de archivo y límites
+63	El lector abre PDF estándar de las versiones 1.0 a 2.0, incluidos archivos con formularios, anotaciones, capas y fuentes incrustadas. Los escaneos muy grandes (cientos de megabytes) dependen de la memoria de tu dispositivo; un móvil moderno lee sin problema archivos de 50–100 MB. Los PDF protegidos con contraseña deben desbloquearse primero con [Desbloquear PDF](/unlock-pdf/) (necesitas la contraseña y permiso para quitarla).
+64	Lector frente a editor
+65	Esta página es para leer. Para cambiar el documento, usa las herramientas específicas: [Editar PDF](/edit-pdf/) para texto e imágenes, [Firmar PDF](/sign-pdf/) para firmar, [Rellenar formulario PDF](/fill-pdf-form/) para formularios, [Unir PDF](/merge-pdf/) para combinar, [Comprimir PDF](/compress-pdf/) para reducir y [Rotar PDF](/rotate-pdf/) para páginas giradas. Todas funcionan igual: localmente en tu navegador.
+66	Abrir PDF del correo y del almacenamiento en la nube
+67	En el móvil, toca la zona de arrastre y elige *Explorar* o *Archivos* para seleccionar un PDF guardado desde Gmail, Outlook, WhatsApp, Google Drive, iCloud Drive u OneDrive. Los archivos en la nube deben descargarse antes al dispositivo; los que siguen siendo marcadores «solo en línea» no se pueden leer. En el ordenador, arrastra el adjunto desde tu carpeta de descargas a la página.
+68	Accesibilidad
+69	Amplía las páginas a tamaños grandes si tienes baja visión, usa el modo nocturno para reducir el deslumbramiento y escucha las páginas en voz alta con [PDF a voz](/pdf-to-speech/). Las páginas se muestran como imágenes; si necesitas copiar pasajes, extrae el texto con la herramienta PDF a texto.
+70	Atajos de teclado
+71	Usa las teclas habituales del navegador: Re Pág/Av Pág o la barra espaciadora para desplazarte, Ctrl/Cmd + y − para ampliar toda la página, Inicio y Fin para la primera y la última página; Ctrl/Cmd+F activa la búsqueda del navegador, mientras que el cuadro de búsqueda del propio lector ofrece la lista completa de resultados.
+72	Úsalo como tu lector diario
+73	Guarda la página en marcadores o añádela a tu pantalla de inicio. Una vez cargada también funciona sin conexión, así que puedes leer documentos descargados en un vuelo o en una zona con mala cobertura.
+74	Preguntas frecuentes al abrir PDF
+75	**«No se pudo cargar el PDF»**: puede que el archivo esté incompleto o dañado; prueba [Reparar PDF](/repair-pdf/).
+76	**Páginas en blanco o grises**: los dibujos vectoriales muy complejos pueden tardar unos segundos; espera o reduce el zoom.
+77	**Caracteres extraños**: el PDF usa fuentes no incrustadas; el texto sigue siendo buscable si existe una capa de texto.
+78	**Páginas de lado**: gíralas de forma permanente con Rotar PDF.
+79	**Archivo enorme en el móvil**: comprímelo primero o guarda solo las páginas que necesites.
+80	Comparativa de lectores de PDF
+81	Adobe Acrobat Reader es la aplicación de escritorio de referencia y admite todas las funciones de PDF, incluidos los formularios XFA y las firmas con certificado, pero es pesada y promociona una suscripción. Los visores integrados de Chrome, Edge y Firefox son rápidos, pero tienen listas de búsqueda limitadas y no exportan páginas. Fileopia está en medio: instantáneo, privado, con lista de resultados, modo nocturno y exportación de páginas, y sin nada que instalar.
+82	Leer documentos largos de forma eficiente
+83	Repasa el esquema (marcadores) en el panel de información del documento para ver la estructura antes de empezar.
+84	Busca términos clave –un nombre, un número de cláusula o una cifra– y usa la lista de resultados como un pequeño índice.
+85	Lee con *ajustar al ancho* en el portátil y aumenta el zoom para tablas densas o notas al pie.
+86	Anota los números de página de los pasajes importantes y guarda solo esas páginas como un extracto breve para compartir.
+87	Para una visión rápida de un informe, pásalo primero por [Resumir PDF](/summarize-pdf/) y lee completas las secciones que importan.
+88	Estudiantes e investigadores
+89	Las diapositivas de clase, los artículos académicos y los libros electrónicos son en su mayoría PDF. Ábrelos aquí en un ordenador de biblioteca o un portátil prestado sin iniciar sesión en nada, busca los conceptos que estás repasando y exporta el capítulo que necesites imprimir. Como no se guarda nada en el ordenador ni se sube nada, no hay riesgo de dejar tus archivos en una máquina compartida. Haz preguntas sobre un artículo con [Chat con PDF](/chat-with-pdf/) o ponte a prueba con el [Generador de preguntas de PDF](/pdf-question-generator/).
+90	Documentos empresariales y legales
+91	Los contratos, facturas, extractos, licitaciones y políticas de RR. HH. suelen contener datos personales o comercialmente sensibles, y muchas empresas prohíben subirlos a conversores online. Un lector local evita ese problema por completo: el archivo se lee de tu disco en la pestaña del navegador y desaparece al cerrarla. Usa la búsqueda para revisar cláusulas rápidamente –«rescisión», «indemnización», «pago»– y guarda las páginas relevantes como extracto para un compañero.
+92	PDF antiguos y poco habituales
+93	Los archivos generados por escáneres antiguos, software de fax y sistemas de edición heredados a veces usan compresiones o fuentes poco comunes. PDF.js admite casi todos los filtros estándar (Flate, LZW, DCT/JPEG, JBIG2, JPEG 2000, fax CCITT) y las fuentes Type 1, TrueType, OpenType y CID, así que incluso archivos de hace décadas suelen mostrarse correctamente. Si una página se ve mal, prueba [Reparar PDF](/repair-pdf/), que reconstruye la estructura del archivo.
+94	Imprimir desde el lector
+95	Para imprimir, abre el PDF en el visor integrado de tu navegador o descarga las páginas seleccionadas e imprímelas desde ahí; elige *Tamaño real* para mantener la escala original, o *Ajustar* para documentos con márgenes amplios. Imprimir solo las páginas que necesitas ahorra papel y tóner, sobre todo en manuales y extractos largos en los que solo importan unas pocas páginas. Para folletos a doble cara usa Crear folleto PDF, y para gráficos murales grandes usa Póster PDF. Las impresoras dúplex pueden imprimir el extracto por ambas caras automáticamente; elige *voltear por el borde largo* en documentos verticales para que las páginas traseras no queden al revés, y revisa la vista previa antes de enviar un trabajo largo a una impresora compartida de la oficina.
+96	Funciona con casi cualquier PDF
+97	La herramienta abre PDF de Word, Google Docs, LibreOffice, escáneres, móviles y software de diseño, incluidos archivos PDF 1.0–2.0 con formularios, anotaciones y fuentes incrustadas. Los archivos protegidos con contraseña de *apertura* deben desbloquearse primero con [Desbloquear PDF](/unlock-pdf/) (necesitas la contraseña); los que solo tienen restricciones de permisos suelen abrirse directamente. También funcionan documentos grandes de cientos de páginas: el límite es la memoria de tu dispositivo, normalmente varios cientos de megabytes en un portátil y unos 100 MB en un móvil.
+98	Windows, Mac, iPhone y Android
+99	No hay nada que instalar. Funciona en Chrome, Edge, Firefox y Safari en Windows, macOS, Linux, ChromeOS, Android e iOS. En el móvil, toca la zona de arrastre y elige el archivo desde Archivos, Google Drive o las descargas del correo; el resultado se guarda en Descargas o en la app Archivos y puede compartirse directamente por WhatsApp, Gmail o Drive.
+100	Problemas comunes y soluciones
+101	**«El archivo está cifrado»**: quita la contraseña de apertura con Desbloquear PDF y vuelve a intentarlo.
+102	**El archivo es un marcador de posición en la nube**: descárgalo completo primero desde OneDrive, iCloud o Drive.
+103	**Una descarga dañada o incompleta**: pásala por [Reparar PDF](/repair-pdf/).
+104	**Muy lento en el móvil**: los PDF escaneados grandes necesitan mucha memoria; cierra otras pestañas o divide antes el archivo con [Dividir PDF](/split-pdf/).
+105	**La descarga no empezó**: algunos navegadores integrados en apps (Instagram, Facebook) bloquean las descargas; abre la página en Chrome o Safari.
+106	Combínalo con otras herramientas PDF
+107	La mayoría de los trabajos requieren más de un paso, y todas las herramientas de Fileopia funcionan igual, así que puedes encadenarlas sin subir nada. Un flujo típico: escanea o convierte las páginas, [únelas](/merge-pdf/) en un solo archivo, ordénalas con [Organizar PDF](/organize-pdf/), haz que el texto escaneado tenga búsqueda con OCR, añade [números de página](/add-page-numbers/) y, por último, [comprime](/compress-pdf/) el resultado para enviarlo por correo. Cada paso descarga un archivo nuevo y deja intacto el original, así que siempre puedes volver atrás y probar otros ajustes. Consejo: da a cada resultado un nombre claro, como *contrato-firmado-comprimido.pdf*, para distinguir las versiones más tarde.
+108	Privacidad
+109	Todo ocurre dentro de la pestaña de tu navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa ahí y se guarda directamente en tu dispositivo. Nunca se sube, almacena ni registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, lo que la hace adecuada para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+110	¿Cómo abro un PDF online?
+111	Arrástralo a la página; se abre al instante.
+112	¿Se sube el PDF?
+113	No, se renderiza en tu dispositivo.
+114	¿Puedo buscar dentro del PDF?
+115	Sí, con una lista de todas las coincidencias.
+116	¿Hay modo oscuro?
+117	Sí, el modo nocturno.
+118	¿Puedo guardar solo algunas páginas?
+119	Sí, indica las páginas y guarda.
+120	¿Funciona en iPhone y Android?
+121	Sí.
+122	¿Puede abrir PDF protegidos con contraseña?
+123	Primero desbloquéalos con Desbloquear PDF (necesitas la contraseña).
+124	¿Por qué no puedo buscar en un PDF escaneado?
+125	No tiene texto; aplica OCR primero.
+126	¿Es gratis?
+127	Sí.
+128	¿Funciona sin conexión?
+129	Sí, una vez cargada.
+C	Sin subidas: se ejecuta en tu dispositivo
+C	Lista de resultados, modo nocturno, exportación de páginas
+C	Gratis sin registro

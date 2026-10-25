@@ -1,0 +1,79 @@
+0	Eliminar metadatos de PDF
+1	Elimina autor, título y datos ocultos.
+2	Eliminar metadatos de PDF online gratis – Limpia datos ocultos
+3	Elimina autor, software, fechas, XMP y otros metadatos ocultos de tus PDF antes de compartirlos. Opcionalmente, quita adjuntos y scripts. Gratis.
+4	Eliminar metadatos de PDF
+5	Selecciona tu PDF.
+6	Elige si quieres eliminar también adjuntos y scripts.
+7	Descarga el PDF limpio.
+8	¿Qué se elimina?
+9	La información del documento (título, autor, asunto, palabras clave, creador, productor, fechas), los metadatos XMP y los datos PieceInfo de las páginas.
+10	Los PDF pueden revelar más de lo que crees: el nombre del autor, el software utilizado, las fechas de creación y a veces adjuntos. Eliminar los metadatos es un paso sencillo de privacidad antes de enviar documentos a clientes, publicarlos o presentar trabajos anónimos.
+11	Anonimizar documentos para la revisión por pares ciega.
+12	Quitar tu nombre de archivos creados en un ordenador del trabajo.
+13	Limpiar detalles internos filtrados antes de publicar un PDF.
+14	Revisa también el contenido visible: eliminar metadatos no cambia el texto de las páginas.
+15	Usa Censurar PDF para el texto sensible de la página.
+16	¿Qué se elimina exactamente?
+17	La información del documento (título, autor, asunto, palabras clave, creador, productor, fechas), los metadatos XMP y los datos PieceInfo de las páginas.
+18	Datos ocultos en los PDF
+19	Los metadatos pueden revelar el nombre del autor, la organización, las versiones de software, los tiempos de edición y las rutas originales de los archivos. Periodistas, abogados e investigadores los eliminan antes de publicar documentos o enviarlos a revisión anónima.
+20	Qué se mantiene igual
+21	El contenido de las páginas, el texto, las imágenes, los enlaces y el diseño no cambian: solo se eliminan los datos descriptivos ocultos, así que el documento se ve idéntico.
+22	Eliminar metadatos de PDF – Autor, título y XMP gratis
+23	Elimina metadatos ocultos del PDF –autor, título, asunto, palabras clave, software, fechas y XMP– y también adjuntos y scripts. Gratis y privado.
+24	{tool}: {brand} frente a iLovePDF, Smallpdf y Adobe
+25	Elimina los metadatos de un PDF
+26	Todo PDF puede llevar información oculta: el nombre del autor, la empresa, el software y la versión utilizados, las fechas de creación y modificación, palabras clave y un paquete completo de metadatos XMP. Antes de publicar un documento o enviarlo a personas ajenas a tu organización, elimínala. Opcionalmente, quita también los adjuntos y los scripts.
+27	Cómo usarlo
+28	Arrastra el PDF.
+29	Marca Eliminar también adjuntos y scripts para una limpieza máxima.
+30	Descarga el PDF limpio: el informe muestra lo que se ha eliminado.
+31	Lo que pueden revelar los metadatos de un PDF
+32	**Autor**: a menudo tu nombre completo o tu nombre de usuario de Windows.
+33	**Creador / Productor**: p. ej., Microsoft Word 2021 o un modelo de escáner.
+34	**Fechas**: cuándo se creó realmente el documento y cuándo se modificó por última vez.
+35	**Título y asunto**: a veces un antiguo título interno o el nombre de un borrador.
+36	**Paquete XMP**: puede incluir el historial de edición, identificadores del documento e información de la empresa.
+37	**Adjuntos**: archivos de origen u hojas de cálculo incrustados de los que te olvidaste.
+38	Cuándo eliminar los metadatos
+39	Antes de publicar en un sitio web, presentar una licitación o una candidatura de empleo, enviar documentos a la parte contraria, una revisión por pares anónima, una denuncia interna o compartir documentos en una tienda online. Periodistas y abogados eliminan los metadatos de forma rutinaria como parte de su higiene documental. Recuerda que los metadatos son solo una capa: el texto visible, los comentarios y las capas ocultas también pueden filtrar información. Usa [Limpiador de PDF](/pdf-cleaner/) para una limpieza más profunda y [Censurar PDF](/redact-pdf/) para eliminar contenido visible.
+40	Editar en lugar de borrar
+41	Si quieres sustituir los metadatos por tus propios valores –por ejemplo, un título adecuado para SEO–, usa [Editar metadatos de PDF](/edit-pdf-metadata/). Para fotos, el equivalente es [Eliminar datos EXIF](/remove-exif-data/).
+42	Funciona con casi cualquier PDF
+43	La herramienta abre PDF de Word, Google Docs, LibreOffice, escáneres, móviles y software de diseño, incluidos archivos PDF 1.0–2.0 con formularios, anotaciones y fuentes incrustadas. Los archivos protegidos con contraseña de *apertura* deben desbloquearse primero con [Desbloquear PDF](/unlock-pdf/) (necesitas la contraseña); los que solo tienen restricciones de permisos suelen abrirse directamente. También funcionan documentos grandes de cientos de páginas: el límite es la memoria de tu dispositivo, normalmente varios cientos de megabytes en un portátil y unos 100 MB en un móvil.
+44	Windows, Mac, iPhone y Android
+45	No hay nada que instalar. Funciona en Chrome, Edge, Firefox y Safari en Windows, macOS, Linux, ChromeOS, Android e iOS. En el móvil, toca la zona de arrastre y elige el archivo desde Archivos, Google Drive o las descargas del correo; el resultado se guarda en Descargas o en la app Archivos y puede compartirse directamente por WhatsApp, Gmail o Drive.
+46	Problemas comunes y soluciones
+47	**«El archivo está cifrado»**: quita la contraseña de apertura con Desbloquear PDF y vuelve a intentarlo.
+48	**El archivo es un marcador de posición en la nube**: descárgalo completo primero desde OneDrive, iCloud o Drive.
+49	**Una descarga dañada o incompleta**: pásala por [Reparar PDF](/repair-pdf/).
+50	**Muy lento en el móvil**: los PDF escaneados grandes necesitan mucha memoria; cierra otras pestañas o divide antes el archivo con [Dividir PDF](/split-pdf/).
+51	**La descarga no empezó**: algunos navegadores integrados en apps (Instagram, Facebook) bloquean las descargas; abre la página en Chrome o Safari.
+52	Combínalo con otras herramientas PDF
+53	La mayoría de los trabajos requieren más de un paso, y todas las herramientas de Fileopia funcionan igual, así que puedes encadenarlas sin subir nada. Un flujo típico: escanea o convierte las páginas, [únelas](/merge-pdf/) en un solo archivo, ordénalas con [Organizar PDF](/organize-pdf/), haz que el texto escaneado tenga búsqueda con OCR, añade [números de página](/add-page-numbers/) y, por último, [comprime](/compress-pdf/) el resultado para enviarlo por correo. Cada paso descarga un archivo nuevo y deja intacto el original, así que siempre puedes volver atrás y probar otros ajustes. Consejo: da a cada resultado un nombre claro, como *contrato-firmado-comprimido.pdf*, para distinguir las versiones más tarde.
+54	Privacidad
+55	Todo ocurre dentro de la pestaña de tu navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa ahí y se guarda directamente en tu dispositivo. Nunca se sube, almacena ni registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, lo que la hace adecuada para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+56	¿Cómo elimino los metadatos de un PDF?
+57	Arrástralo aquí y descarga el archivo limpio.
+58	¿Qué metadatos se eliminan?
+59	Autor, título, asunto, palabras clave, creador, productor, fechas y XMP.
+60	¿Cambia el contenido?
+61	No, las páginas no se tocan.
+62	¿Puedo eliminar también los adjuntos?
+63	Sí, marca la opción.
+64	¿Cómo consulto antes los metadatos?
+65	Abre Editar metadatos de PDF para verlos.
+66	¿Es lo mismo que censurar?
+67	No, la censura elimina contenido visible.
+68	¿Elimina los comentarios?
+69	Usa Limpiador de PDF para los comentarios y otros datos ocultos.
+70	¿Es gratis?
+71	Sí.
+72	¿Se suben los archivos?
+73	No, algo importante para documentos confidenciales.
+74	¿Funciona en iPhone?
+75	Sí.
+C	Sin subidas: se ejecuta en tu dispositivo
+C	Informe de los elementos eliminados
+C	Gratis sin registro
