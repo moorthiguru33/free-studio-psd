@@ -1,0 +1,400 @@
+{
+  "tools": {
+    "video2mp3": {
+      "name": "MP4 en MP3",
+      "short": "Extrayez la piste audio de n'importe quelle vidéo.",
+      "title": "Convertir MP4 en MP3 en ligne gratuit – Extraire l'audio | {brand}",
+      "desc": "Convertissez des vidéos MP4, MOV, WEBM et MKV en MP3 dans votre navigateur. De 64 à 320 kbit/s. Gratuit, sans envoi, sans inscription et sans filigrane.",
+      "h1": "Convertir MP4 en MP3",
+      "steps": [
+        "Sélectionnez une ou plusieurs vidéos.",
+        "Choisissez la qualité du MP3.",
+        "Téléchargez votre MP3."
+      ],
+      "faq": [
+        {
+          "q": "Quelles vidéos fonctionnent ?",
+          "a": "Toute vidéo que votre navigateur peut lire : MP4, MOV, WEBM et la plupart des fichiers MKV."
+        }
+      ],
+      "guide": {
+        "intro": "Souvent, vous n'avez besoin que du son d'une vidéo : un cours, l'enregistrement d'un podcast, une interview ou votre propre prestation musicale. Extraire l'audio en MP3 le rend léger et lisible sur tout appareil, et ici la vidéo ne quitte jamais votre ordinateur ou votre téléphone.",
+        "uses": [
+          "Écouter des cours ou réunions enregistrés où vous voulez.",
+          "Extraire votre propre musique ou vos enregistrements vocaux d'une vidéo.",
+          "Créer des versions audio de webinaires pour des podcasts."
+        ],
+        "tips": [
+          "192 kbit/s suffit largement pour la musique ; 64–96 kbit/s suffit pour la voix.",
+          "Ne convertissez que du contenu qui vous appartient ou que vous avez le droit d'utiliser."
+        ],
+        "faq": [
+          {
+            "q": "Les vidéos sont-elles envoyées ?",
+            "a": "Non. Votre navigateur extrait l'audio sur votre appareil."
+          },
+          {
+            "q": "Quelles vidéos fonctionnent ?",
+            "a": "Toute vidéo que votre navigateur peut lire : MP4, MOV, WEBM et la plupart des fichiers MKV."
+          }
+        ],
+        "more": [
+          [
+            "Choisir la qualité",
+            "La plupart des pistes son des vidéos sont en AAC à 128–256 kbit/s. Exporter en MP3 à 192 kbit/s conserve pratiquement toute cette qualité ; choisir 320 kbit/s n'améliorera pas l'audio au-delà de l'original. Pour les cours et la voix, 96 kbit/s garde des fichiers compacts."
+          ],
+          [
+            "Respecter le droit d'auteur",
+            "N'extrayez l'audio que de vidéos que vous avez créées ou que vous avez le droit d'utiliser. Télécharger de la musique protégée depuis des services de streaming enfreint généralement leurs conditions d'utilisation."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "MP4 en MP3 – Extraire l'audio gratuit, sans envoi, avec tags",
+        "desc": "Convertissez MP4, MOV, WebM et MKV en MP3 sur votre appareil. 64–320 kbit/s, découpe, fondus, volume, tags ID3, pochette, lots. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et FreeConvert, Convertio, CloudConvert",
+        "compareCols": [
+          "FreeConvert",
+          "Convertio",
+          "CloudConvert"
+        ],
+        "sections": [
+          [
+            "Récupérez l'audio de n'importe quelle vidéo",
+            "Vous voulez la bande-son d'une vidéo, une conférence enregistrée en podcast, un cours à écouter dans le bus ou une chanson d'un clip que vous avez filmé ? Le convertisseur MP4 en MP3 de {brand} extrait l'audio des vidéos MP4, MOV, WebM, MKV et M4V et l'enregistre en MP3 lisible sur tout téléphone, autoradio, enceinte connectée et app de musique, ou en WAV non compressé pour le montage.",
+            "Contrairement à la plupart des convertisseurs en ligne, votre vidéo n'est jamais envoyée. C'est important pour les vidéos : elles sont lourdes, donc leur envoi prend une éternité avec une connexion ordinaire, et elles sont souvent privées : moments en famille, réunions, interviews. Ici, la conversion démarre dès que vous cliquez, va à la vitesse de votre appareil et n'a pas d'autre limite de taille que sa mémoire.",
+            "Pas de publicités entre les étapes, pas d'e-mail demandé pour télécharger, pas de limite quotidienne de conversions. Convertissez un clip ou tout un dossier d'enregistrements autant de fois que vous voulez : la seule limite est la mémoire de l'appareil utilisé, et même les téléphones gèrent sans peine les vidéos courantes."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Débits MP3 de 64 à 320 kbit/s**, ou WAV sans perte.",
+              "**Découpe :** indiquez un début et une fin pour ne garder que la partie utile.",
+              "**Fondu d'entrée et de sortie** de 1 à 5 secondes.",
+              "**Volume :** montez les enregistrements trop faibles jusqu'à 300 % ou baissez ceux trop forts.",
+              "**Tags ID3 :** titre, artiste, album, année et pochette, pour un affichage propre dans les lecteurs de musique.",
+              "**Mono ou stéréo**, et fréquence d'échantillonnage de 48, 44,1 ou 22 kHz.",
+              "**Conversion par lots :** déposez de nombreuses vidéos et obtenez un ZIP de MP3.",
+              "**Lecteur d'aperçu** pour écouter avant de télécharger.",
+              "**Compatible avec** MP4, MOV (iPhone), WebM, MKV, M4V et la plupart des vidéos que votre navigateur peut lire.",
+              "**Démarrage instantané :** pas d'envoi ni de file d'attente ; la conversion démarre dès que vous cliquez et le résultat est prêt à écouter dans l'aperçu intégré."
+            ]
+          ],
+          [
+            "Comment convertir un MP4 en MP3",
+            [
+              "Déposez une ou plusieurs vidéos sur la page.",
+              "Choisissez MP3 et une qualité : 192 kbit/s est idéal pour la musique et 128 pour la voix.",
+              "Si vous le souhaitez, réglez début/fin, fondus, volume et tags.",
+              "Cliquez sur Convertir. Écoutez l'aperçu.",
+              "Téléchargez le MP3 (ou un ZIP s'il y a plusieurs fichiers)."
+            ]
+          ],
+          [
+            "Quel débit choisir ?",
+            {
+              "table": [
+                [
+                  "Débit",
+                  "Taille par minute (stéréo)",
+                  "Idéal pour"
+                ],
+                [
+                  "64 kbit/s",
+                  "≈0,5 Mo",
+                  "Notes vocales, livres audio (mono)"
+                ],
+                [
+                  "96 kbit/s",
+                  "≈0,7 Mo",
+                  "Podcasts, cours"
+                ],
+                [
+                  "128 kbit/s",
+                  "≈1 Mo",
+                  "Voix et musique sans exigence"
+                ],
+                [
+                  "192 kbit/s",
+                  "≈1,4 Mo",
+                  "Musique : le meilleur compromis"
+                ],
+                [
+                  "256 kbit/s",
+                  "≈1,9 Mo",
+                  "Musique haute qualité"
+                ],
+                [
+                  "320 kbit/s",
+                  "≈2,4 Mo",
+                  "Qualité MP3 maximale"
+                ]
+              ]
+            },
+            "Un débit plus élevé ne peut pas ajouter une qualité absente de la vidéo. La plupart des vidéos de téléphone et des clips en ligne ont un audio AAC à 96–192 kbit/s ; les convertir à 192 kbit/s conserve pratiquement tout. Passer à 320 kbit/s rend surtout le fichier plus gros. Pour la voix, choisir Mono divise la taille par deux sans différence audible."
+          ],
+          [
+            "MP4 et MP3 expliqués",
+            "**MP4** (MPEG-4 Partie 14) est un conteneur : une boîte qui contient une piste vidéo (généralement H.264 ou H.265), une ou plusieurs pistes audio (généralement AAC) et des métadonnées. **MP3** (MPEG-1/2 Audio Layer III) est un format uniquement audio, apparu dans les années 1990 et toujours le format audio le plus compatible au monde. Convertir un MP4 en MP3 signifie extraire la piste audio du conteneur, la décoder en son brut et la réencoder en MP3. La partie vidéo est simplement ignorée, c'est pourquoi le MP3 ne pèse qu'une fraction de la taille.",
+            "MOV est le conteneur QuickTime d'Apple, utilisé par l'iPhone et le Mac ; WebM est le format ouvert utilisé par les navigateurs et de nombreux enregistreurs d'écran ; MKV (Matroska) est populaire pour les films et les enregistrements. Tous fonctionnent de la même façon ici : le moteur multimédia du navigateur lit l'audio et {brand} encode le MP3."
+          ],
+          [
+            "Découpe, fondus et volume",
+            "Souvent, vous ne voulez qu'une partie d'une vidéo : une chanson d'un concert filmé, une réponse d'interview, le discours d'une vidéo de mariage. Saisissez les temps de début et de fin (par exemple 1:05 et 4:30, ou 0:12.5 pour une précision d'une demi-seconde) et seule cette partie est conservée. Le fondu d'entrée et de sortie rend la coupe douce au lieu d'un démarrage brutal. Le réglage du volume remonte les enregistrements faibles du téléphone (150–200 % convient souvent) ou baisse ceux qui saturent. Pour un montage très précis avec forme d'onde, utilisez [Couper un audio](/audio-cutter/) après la conversion."
+          ],
+          [
+            "Tags ID3 et pochette",
+            "Les fichiers MP3 peuvent contenir des informations sur eux-mêmes dans des tags ID3 : titre, artiste, album, année et une image de pochette intégrée. Les apps de musique, autoradios et téléphones les utilisent pour afficher correctement la piste au lieu d'un nom de fichier comme VID_20260412_183012. Ouvrez le panneau « Tags MP3 », remplissez les champs et ajoutez une pochette JPG ou PNG, par exemple une image de la vidéo ou le logo d'un podcast. Les tags sont écrits au format ID3v2.3, largement compatible."
+          ],
+          [
+            "Usages",
+            [
+              "Transformer des cours, webinaires et conférences enregistrés en podcasts.",
+              "Garder la musique des vidéos de vos propres concerts ou événements.",
+              "Extraire des voix off et des interviews pour les monter.",
+              "Faire des versions audio de réunions pour les absents.",
+              "Créer une musique de fond ou des effets sonores à partir de vos propres clips.",
+              "Conserver un message vocal reçu sous forme de vidéo.",
+              "Apprendre une langue : écouter des leçons vidéo sans regarder l'écran."
+            ]
+          ],
+          [
+            "Droit d'auteur",
+            "Ne convertissez que des vidéos qui vous appartiennent ou que vous avez le droit d'utiliser : vos propres enregistrements, du contenu Creative Commons ou du matériel dont la licence le permet. Télécharger et convertir de la musique ou des films depuis des plateformes de streaming enfreint généralement leurs conditions d'utilisation et peut violer le droit d'auteur. {brand} ne télécharge pas de vidéos depuis des sites web ; il convertit des fichiers déjà présents sur votre appareil."
+          ],
+          [
+            "MP3, WAV ou un autre format ?",
+            {
+              "table": [
+                [
+                  "Format",
+                  "Type",
+                  "Taille (par min)",
+                  "À utiliser quand"
+                ],
+                [
+                  "MP3",
+                  "Avec perte",
+                  "≈1–2,4 Mo",
+                  "Vous voulez l'écouter partout : téléphones, voitures, enceintes"
+                ],
+                [
+                  "WAV",
+                  "Sans perte, non compressé",
+                  "≈10 Mo",
+                  "Vous allez monter, mixer ou masteriser l'audio"
+                ],
+                [
+                  "M4A/AAC (dans la vidéo)",
+                  "Avec perte",
+                  "≈1–1,5 Mo",
+                  "Écosystème Apple ; non proposé en sortie ici"
+                ]
+              ]
+            },
+            "Le MP3 est la bonne réponse pour neuf personnes sur dix : tout appareil fabriqué depuis 25 ans le lit. Choisissez le WAV seulement si vous comptez monter l'audio dans des logiciels comme Audacity, GarageBand, Premiere ou une STAN, où un fichier non compressé évite une génération de compression supplémentaire."
+          ],
+          [
+            "Convertir des vidéos de téléphone",
+            "**iPhone :** les vidéos sont des fichiers MOV avec vidéo HEVC et audio AAC. Transférez-les sur votre ordinateur (AirDrop, téléchargement depuis Photos iCloud, câble) ou ouvrez cette page dans Safari sur l'iPhone et choisissez la vidéo dans votre photothèque : Safari propose « Photothèque » dans le sélecteur de fichiers. **Android :** les vidéos sont des fichiers MP4 dans DCIM/Camera. Dans Chrome pour Android, touchez la zone de dépôt et choisissez la vidéo dans Fichiers ou Galerie. Le MP3 est enregistré dans votre dossier Téléchargements, d'où vous pouvez le déplacer vers une app de musique."
+          ],
+          [
+            "Convertir enregistrements d'écran, webinaires et réunions",
+            "Les enregistrements de Zoom, Teams, Google Meet et OBS sont généralement des fichiers MP4 ou MKV avec de la voix. Pour ceux-ci, choisissez 96 ou 128 kbit/s et Mono : une réunion d'une heure devient un MP3 de 40–55 Mo, assez léger pour le partager par e-mail ou messagerie et parfait à écouter pendant le trajet. Utilisez les champs de découpe pour sauter les minutes avant l'arrivée de tous. Si les intervenants sont faibles, montez le volume à 150 %."
+          ],
+          [
+            "Conseils pour les lots",
+            "Quand vous déposez plusieurs vidéos, les mêmes réglages s'appliquent à chacune : format, débit, découpe, fondus, volume et tags. Les temps de découpe ne servent généralement que pour un seul fichier : laissez-les vides pour les lots. Des tags comme artiste et album sont pratiques pour une série, par exemple toutes les parties d'un cours ou toutes les chansons d'un concert ; si besoin, donnez ensuite un titre à chaque fichier dans votre app de musique. Tous les résultats sont rassemblés dans un ZIP."
+          ],
+          [
+            "Dépannage",
+            {
+              "table": [
+                [
+                  "Problème",
+                  "Solution"
+                ],
+                [
+                  "« Impossible de lire l'audio de ce fichier »",
+                  "La vidéo n'a pas de piste audio ou utilise un codec que votre navigateur ne peut pas décoder. Essayez Chrome ou Edge."
+                ],
+                [
+                  "Le MP3 est muet",
+                  "La piste audio de la vidéo était silencieuse ou le volume était très bas."
+                ],
+                [
+                  "La conversion est lente",
+                  "Les très longues vidéos mettent du temps à se décoder sur les anciens téléphones ; utilisez un ordinateur pour les fichiers de plusieurs heures."
+                ],
+                [
+                  "La pochette ne s'affiche pas",
+                  "Certains lecteurs mettent les pochettes en cache ; ajoutez de nouveau le fichier à la bibliothèque."
+                ],
+                [
+                  "L'audio et la durée ne correspondent pas à la vidéo",
+                  "Si vous avez indiqué des temps de début et de fin, seule cette partie est exportée."
+                ]
+              ]
+            }
+          ],
+          [
+            "Qualité : le réencodage fait-il du tort ?",
+            "L'audio des vidéos est déjà compressé, généralement en AAC. Le convertir en MP3 le décode puis le recompresse avec une autre méthode : en théorie, de l'information est perdue deux fois. En pratique, à 192 kbit/s ou plus, le résultat est indiscernable de l'original pour presque tous les auditeurs et contenus, car l'AAC comme le MP3 à ces débits sont bien au-dessus du seuil d'audibilité pour un contenu courant. S'il vous faut une copie mathématiquement identique de l'audio d'origine pour l'archiver, choisissez WAV."
+          ],
+          [
+            "Fréquence d'échantillonnage et canaux",
+            "La fréquence d'échantillonnage est le nombre de mesures du son par seconde. 44,1 kHz est le standard du CD et ce qu'attendent la plupart des lecteurs MP3 ; 48 kHz est le standard vidéo, donc la plupart des vidéos l'utilisent déjà. Choisir « Conserver » évite un rééchantillonnage inutile. 22 kHz divise les données par deux et suffit pour un contenu uniquement vocal comme les cours, mais coupe les aigus dans la musique. Stéréo garde les canaux gauche et droit ; Mono les mélange en un seul, ce qui divise par deux le débit nécessaire pour la même qualité : idéal pour les enregistrements à un seul micro, où les deux canaux sont de toute façon identiques."
+          ],
+          [
+            "Utiliser les MP3 de vidéos dans d'autres projets",
+            "L'audio extrait sert à bien plus qu'à écouter. Utilisez-le comme bande-son d'un diaporama, ajoutez-le à une nouvelle vidéo dans un logiciel de montage, créez une sonnerie avec [Créateur de sonneries](/ringtone-maker/), transcrivez une conférence ou nettoyez un enregistrement dans un éditeur audio. Si vous comptez poursuivre le montage, extrayez en WAV pour garder la meilleure qualité et n'exportez en MP3 qu'à la fin."
+          ],
+          [
+            "Pourquoi le MP3 est bien plus petit que la vidéo",
+            "Dans une vidéo de téléphone typique, l'image représente 95–98 % des données et l'audio seulement 2–5 %. Une vidéo 1080p d'une minute pesant 100 Mo ne contient généralement que 1–1,5 Mo d'audio. C'est pourquoi l'extraction de l'audio produit un fichier d'environ un centième de la taille : parfait quand vous n'avez besoin que du son, et un moyen simple de gagner de la place sur votre téléphone si vous gardez des enregistrements de conférences ou de concerts surtout pour les écouter."
+          ],
+          [
+            "Glossaire",
+            [
+              "**Débit (kbit/s) :** quantité de données utilisée par seconde d'audio ; plus il est élevé, meilleure est la qualité et plus gros est le fichier.",
+              "**Conteneur :** le type de fichier qui contient les pistes, comme MP4, MOV ou MKV.",
+              "**Codec :** la méthode de compression d'une piste, comme AAC, MP3 ou Opus.",
+              "**Tag ID3 :** métadonnées stockées dans un MP3 : titre, artiste, album, pochette.",
+              "**Fréquence d'échantillonnage :** nombre d'échantillons audio pris par seconde, p. ex. 44 100.",
+              "**Mono / stéréo :** un seul canal, ou canaux gauche et droit séparés.",
+              "**Sans perte :** aucune information n'est supprimée, comme en WAV ; MP3 et AAC sont avec perte."
+            ]
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. Le fichier est lu depuis votre disque, décodé et réencodé sur votre propre appareil avec le moteur multimédia intégré du navigateur (WebCodecs et Web Audio) et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : vidéos de famille, interviews, mémos vocaux, réunions et contenus inédits ne quittent jamais votre ordinateur ou votre téléphone. La vitesse d'envoi ne ralentit pas non plus les gros fichiers : une vidéo de 1 Go commence à être traitée immédiatement, et non après dix minutes d'envoi."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Couper un audio](/audio-cutter/) : découpez des MP3 avec forme d'onde.",
+              "[Compresser une vidéo](/compress-video/) : réduisez la taille des vidéos.",
+              "[MOV en MP4](/mov-to-mp4/) : convertissez les vidéos d'iPhone.",
+              "[Vidéo en GIF](/video-to-gif/) : transformez des clips en GIF.",
+              "[Couper une vidéo](/trim-video/) : raccourcissez vos vidéos."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Limite de taille de fichier",
+            "Seulement la mémoire de l'appareil",
+            "Voir le site",
+            "1 Go (ou avec inscription)",
+            "Voir le site"
+          ],
+          [
+            "Découpe, fondus, volume",
+            "Oui",
+            "Oui (options avancées)",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Tags ID3 et pochette",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Par lots",
+            "Oui (ZIP)",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Import depuis le cloud",
+            "Inutile : fichiers locaux",
+            "Google Drive, OneDrive, Dropbox",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir gratuitement un MP4 en MP3 ?",
+            "a": "Déposez la vidéo, choisissez MP3 et un débit, cliquez sur Convertir et téléchargez. Sans inscription."
+          },
+          {
+            "q": "Ma vidéo est-elle envoyée ?",
+            "a": "Non. L'audio est extrait dans votre navigateur."
+          },
+          {
+            "q": "Y a-t-il une limite de taille de fichier ?",
+            "a": "Pas de limite fixe ; les très gros fichiers ne sont limités que par la mémoire de votre appareil."
+          },
+          {
+            "q": "Quel est le meilleur débit ?",
+            "a": "192 kbit/s pour la musique, 128 kbit/s pour la voix et 64–96 kbit/s en mono pour les livres audio."
+          },
+          {
+            "q": "Puis-je convertir seulement une partie de la vidéo ?",
+            "a": "Oui. Indiquez les temps de début et de fin ; vous pouvez aussi ajouter des fondus."
+          },
+          {
+            "q": "Puis-je ajouter titre, artiste et pochette ?",
+            "a": "Oui. Remplissez le panneau des tags MP3 et choisissez une image de pochette."
+          },
+          {
+            "q": "Cela fonctionne-t-il avec les vidéos MOV d'iPhone ?",
+            "a": "Oui. MOV, MP4, WebM, MKV et M4V sont pris en charge."
+          },
+          {
+            "q": "Puis-je convertir de nombreuses vidéos à la fois ?",
+            "a": "Oui. Déposez-en plusieurs ; les MP3 se téléchargent dans un ZIP."
+          },
+          {
+            "q": "Le MP3 sonnera-t-il moins bien que la vidéo ?",
+            "a": "À 192 kbit/s ou plus, la différence est inaudible avec l'audio habituel des vidéos."
+          },
+          {
+            "q": "Puis-je obtenir du WAV à la place ?",
+            "a": "Oui. Choisissez WAV pour un audio sans perte destiné au montage."
+          }
+        ],
+        "related": [
+          "audio-cutter",
+          "compress-video",
+          "mov-to-mp4",
+          "video-to-gif",
+          "trim-video"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir un MP4 en MP3 ?",
+            "a": "Déposez le MP4, choisissez un débit (64–320 kbit/s), découpez si vous voulez, ajoutez fondus ou tags ID3, et téléchargez le MP3. Tout s'exécute sur votre appareil : aucun envoi à attendre."
+          }
+        ]
+      }
+    }
+  }
+}

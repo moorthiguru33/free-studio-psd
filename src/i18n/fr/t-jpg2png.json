@@ -1,0 +1,307 @@
+{
+  "tools": {
+    "jpg2png": {
+      "name": "JPG en PNG",
+      "short": "Convertissez des images JPG en PNG en quelques secondes.",
+      "title": "Convertir JPG en PNG – Gratuit, en ligne et privé | {brand}",
+      "desc": "Convertissez JPG en PNG gratuitement, plusieurs images à la fois, dans votre navigateur : sans envoi, sans inscription et sans filigrane.",
+      "h1": "Convertir JPG en PNG",
+      "steps": [
+        "Sélectionnez ou déposez vos images JPG (lots acceptés).",
+        "Choisissez la qualité et les options : PNG est déjà sélectionné.",
+        "Cliquez sur Démarrer et téléchargez vos fichiers PNG (en ZIP s'il y en a plusieurs)."
+      ],
+      "faq": [
+        {
+          "q": "Convertir JPG en PNG réduit-il la qualité ?",
+          "a": "Les formats sans perte comme le PNG conservent chaque pixel. En JPG, WEBP et AVIF, vous contrôlez le réglage de qualité ; 85–92 est visuellement identique pour la plupart des photos."
+        },
+        {
+          "q": "Puis-je convertir beaucoup de fichiers JPG à la fois ?",
+          "a": "Oui. Sélectionnez autant de fichiers que vous voulez ; ils sont convertis dans votre navigateur et téléchargés ensemble dans un ZIP."
+        }
+      ],
+      "guide": {
+        "intro": "Le JPG est idéal pour les photos, mais il utilise une compression avec perte. Convertir en PNG vous donne une copie sans perte : utile quand vous allez retoucher une image de nombreuses fois, avez besoin d'un format préféré par les outils de design ou voulez ajouter de la transparence plus tard.",
+        "uses": [
+          "Préparer une photo pour la retoucher de nombreuses fois sans perdre davantage de qualité.",
+          "Utiliser des images dans des outils ou des modèles qui exigent le PNG.",
+          "Commencer un détourage ou un graphique transparent à partir d'un JPG."
+        ],
+        "tips": [
+          "Les PNG sont souvent plus lourds que les JPG : c'est normal.",
+          "La conversion ne peut pas récupérer le détail déjà perdu dans le JPG.",
+          "Utilisez Supprimer l'arrière-plan pour rendre le fond transparent."
+        ],
+        "faq": [
+          {
+            "q": "Convertir en PNG améliore-t-il la qualité ?",
+            "a": "Non, elle conserve exactement la qualité actuelle, mais ne peut pas récupérer le détail perdu lors de compressions JPG antérieures."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Convertir JPG en PNG – Fond transparent, gratuit",
+        "desc": "Convertissez JPG en PNG sans perte et rendez, si besoin, le fond blanc transparent. Redimensionnement, ZIP par lots. Gratuit, sans envoi.",
+        "compareTitle": "{tool} : {brand} et CloudConvert, FreeConvert, Convertio",
+        "compareCols": [
+          "CloudConvert",
+          "FreeConvert",
+          "Convertio"
+        ],
+        "sections": [
+          [
+            "Des PNG sans perte à partir de vos images JPG",
+            "Il y a de bonnes raisons de convertir un JPG en PNG. Les outils de design et les logiciels de présentation gèrent la transparence PNG ; certains imprimeurs, moteurs de jeu et boutiques d'applications demandent du PNG ; et si vous allez retoucher une image de nombreuses fois, le PNG évite que chaque enregistrement ajoute une couche d'artefacts de compression JPG. {brand} convertit JPG en PNG instantanément dans votre navigateur et peut aussi rendre un fond blanc transparent, idéal pour les logos, signatures et photos de produits prises sur papier blanc.",
+            "Vos images sont converties sur votre propre appareil. Rien n'est envoyé, il n'y a pas de plafond de taille et vous pouvez convertir une image ou un dossier entier à la fois."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Sortie PNG sans perte** : chaque pixel du JPG est conservé exactement tel quel.",
+              "**Rendre le blanc transparent** : une case transforme un fond blanc ou presque blanc en transparence, avec des bords doux et lissés.",
+              "**Redimensionnez en convertissant** : fixez une largeur maximale pour le web ou les applications.",
+              "**Conversion par lots** dans un seul ZIP.",
+              "**Produit aussi** du WebP, AVIF, GIF, BMP, TIFF, ICO et SVG (vectorisé) depuis le même écran.",
+              "**Privé, gratuit et illimité** : fonctionne en local, sans inscription et sans filigrane."
+            ]
+          ],
+          [
+            "Comment convertir JPG en PNG",
+            [
+              "Déposez vos fichiers JPG ou JPEG (ou collez-en un avec Ctrl+V).",
+              "Laissez le format sur PNG.",
+              "Cochez « Rendre le fond blanc transparent » si vous voulez un PNG transparent.",
+              "Si vous le souhaitez, fixez une largeur maximale.",
+              "Cliquez sur Convertir et téléchargez."
+            ]
+          ],
+          [
+            "Choisir entre JPG vers PNG, WebP ou SVG",
+            "Le PNG est le choix sûr pour la transparence car tous les logiciels le gèrent. Si l'image est destinée à un site et que la taille compte, le WebP avec transparence est souvent plusieurs fois plus léger que le PNG pour les photos et fonctionne dans tous les navigateurs actuels : choisissez WebP dans le menu de format avec la même option de transparence. Si l'image est un logo ou une icône simple avec peu de couleurs, l'option « SVG (vectoriser) » la transforme en fichier vectoriel qui s'adapte à toutes les tailles ; cela marche mieux avec les designs plats et contrastés qu'avec les photos. Pour les icônes d'applications et les favicons, le PNG reste le standard. Quel que soit votre choix, gardez le JPG d'origine pour pouvoir reconvertir si vos besoins changent."
+          ],
+          [
+            "Rendre transparent le fond d'un JPG",
+            "Les fichiers JPG ne peuvent pas contenir de transparence : un logo ou une signature enregistrés en JPG ont donc toujours un fond plein, généralement blanc. Avec « Rendre le fond blanc transparent » coché, chaque pixel proche du blanc pur devient transparent, et les pixels presque blancs des bords deviennent partiellement transparents. Le rectangle blanc autour d'un logo ou d'une signature scannée disparaît, tout en gardant des bords doux.",
+            "Cela fonctionne le mieux quand le fond est d'un blanc propre et que le sujet est d'une autre couleur. Les ombres gris clair, le papier blanc cassé ou les dégradés peuvent rester partiellement visibles. Pour les photos aux fonds complexes (une personne dans une pièce, un produit sur une table), utilisez l'outil à IA [Supprimer l'arrière-plan](/remove-background/), qui peut séparer n'importe quel sujet de n'importe quel fond."
+          ],
+          [
+            "Signatures numériques en PNG transparent",
+            "Les signatures sont un usage courant. Signez à l'encre foncée sur du papier blanc propre, photographiez ou scannez la signature, recadrez-la au plus près avec [Recadrer une image](/crop-image/) et convertissez-la en PNG avec le fond blanc transparent. Le PNG obtenu peut être placé sur des contrats dans Word, Google Docs ou des éditeurs PDF sans qu'un rectangle blanc ne cache les lignes du document. [Signer un PDF](/sign-pdf/) peut le placer directement dans un PDF."
+          ],
+          [
+            "Taille et résolution de l'image",
+            "Le PNG a exactement les mêmes dimensions en pixels que votre JPG, sauf si vous fixez une largeur maximale. Les métadonnées de résolution, comme 72 ou 300 DPI, n'ont pas d'importance à l'écran ; elles indiquent seulement au logiciel d'impression à quelle taille imprimer l'image par défaut. Si un imprimeur ou un formulaire demande un DPI précis, c'est le nombre de pixels qui compte vraiment : 300 DPI sur 10 cm de large demandent environ 1181 pixels. Utilisez [Redimensionner une image](/resize-image/) avec des centimètres ou des pouces et une valeur de DPI pour obtenir la taille exacte avant ou après la conversion."
+          ],
+          [
+            "Convertir en PNG améliore-t-il la qualité ?",
+            "Non, et c'est un malentendu courant. Convertir un JPG en PNG garde l'image exactement telle quelle, y compris les artefacts de compression JPG qu'elle contient déjà. Cela n'ajoute pas de détail et n'accentue rien. Ce que fait le PNG, c'est éviter de nouvelles pertes : chaque fois que vous retouchez et réenregistrez un JPG, un peu plus de détail est éliminé, alors qu'un PNG peut être modifié et enregistré à l'infini sans autre changement.",
+            "Si vous voulez une image plus grande ou plus nette, utilisez [Agrandir une image](/upscale-image/). Si vous voulez un fichier plus léger, gardez le JPG ou utilisez [Compresser une image](/compress-image/) : la version PNG d'une photo est souvent plusieurs fois plus lourde que le JPG."
+          ],
+          [
+            "Vitesse",
+            "La conversion est quasi instantanée pour les photos courantes car il n'y a ni envoi ni téléchargement depuis un serveur : le navigateur décode le JPG et écrit directement le PNG. Les très grandes images, de 50 mégapixels ou plus, peuvent prendre quelques secondes, surtout pour écrire le gros fichier PNG sans perte.",
+            "Les lots sont traités image par image : même quelques centaines de photos ne bloqueront pas votre navigateur ou votre téléphone."
+          ],
+          [
+            "JPG ou PNG",
+            {
+              "table": [
+                [
+                  "",
+                  "JPG",
+                  "PNG"
+                ],
+                [
+                  "Compression",
+                  "Avec perte",
+                  "Sans perte"
+                ],
+                [
+                  "Transparence",
+                  "Non",
+                  "Oui, avec des bords doux"
+                ],
+                [
+                  "Usage typique",
+                  "Photos",
+                  "Logos, icônes, captures, graphiques, retouche"
+                ],
+                [
+                  "Taille pour les photos",
+                  "Petite",
+                  "3 à 10 fois plus lourd"
+                ],
+                [
+                  "Retouches répétées",
+                  "Se dégrade légèrement à chaque enregistrement",
+                  "Sans perte"
+                ]
+              ]
+            },
+            "Pour les photos web, le JPG ou le WebP est presque toujours le meilleur choix. Pour les logos et graphiques avec transparence, préférez PNG ou SVG. Le WebP fait les deux (compression avec perte et transparence) et c'est une bonne option quand la destination le prend en charge."
+          ],
+          [
+            "Quand vous avez besoin d'un PNG",
+            [
+              "Logos et icônes à placer sur des fonds colorés.",
+              "Signatures et tampons à placer sur des documents.",
+              "Images que vous allez continuer à retoucher dans Photoshop, GIMP ou Figma.",
+              "Ressources pour boutiques d'applications et jeux qui exigent le PNG.",
+              "Packs de stickers pour les messageries.",
+              "Images avec du texte ou des schémas qui doivent rester parfaitement nets après d'autres retouches."
+            ]
+          ],
+          [
+            "Pourquoi le PNG est-il beaucoup plus lourd ?",
+            "Un JPG stocke une version simplifiée de la photo, d'où sa petite taille. Le PNG stocke chaque pixel exactement, et les photos ont des millions de pixels légèrement différents : un fichier sans perte est forcément plus lourd. Une photo JPG de 400 Ko peut devenir un PNG de 3–5 Mo. C'est normal. Si la taille compte, fixez une largeur maximale en convertissant ou choisissez une sortie WebP avec transparence au lieu du PNG."
+          ],
+          [
+            "Convertir d'autres formats en PNG",
+            "Le convertisseur accepte plus que le JPG : les images WebP enregistrées depuis des sites, les photos HEIC d'iPhone, les scans BMP et TIFF, les GIF (première image), l'AVIF et le SVG sont convertis en PNG de la même façon. Les SVG sont rendus à leur taille naturelle ; si vous avez besoin d'un grand PNG à partir d'une petite icône, augmentez d'abord sa taille dans un éditeur SVG."
+          ],
+          [
+            "Préparer des logos pour les sites et les applications",
+            "Si la seule copie de votre logo est un JPG sur fond blanc, convertissez-la en PNG avec le blanc transparent pour pouvoir la placer sur des en-têtes colorés, des pages en mode sombre et des photos. Pour un résultat plus net, partez de la plus grande version disponible et ne fixez pas de largeur maximale ; redimensionnez ensuite des copies pour chaque usage avec [Redimensionner une image](/resize-image/). Beaucoup de favicons et d'icônes d'applications sont créés à partir de ces PNG : le [Générateur de favicon](/favicon-generator/) peut en tirer toutes les tailles dont les navigateurs et les téléphones ont besoin.",
+            "Si vous avez le logo sous forme vectorielle (SVG, AI ou PDF), convertissez plutôt celui-ci que le JPG : les logos vectoriels s'adaptent à toutes les tailles sans flou. [SVG en PNG](/svg-to-png/) rend directement un SVG en PNG."
+          ],
+          [
+            "Conseils pour un résultat transparent plus propre",
+            [
+              "Photographiez ou scannez sur du papier blanc propre et lumineux, sous une lumière uniforme, sans ombre sur la feuille.",
+              "Recadrez au plus près du sujet avant de convertir pour avoir moins de fond à supprimer.",
+              "Augmentez d'abord le contraste dans un éditeur photo si le papier paraît gris ; le seuil de transparence agit sur les pixels presque blancs.",
+              "Vérifiez le résultat sur un fond sombre : tout halo clair restant y est bien visible.",
+              "Pour les logos colorés comportant du blanc dans le dessin (une lettre blanche dans un cercle rouge), notez que les parties blanches deviendront aussi transparentes ; utilisez Supprimer l'arrière-plan ou un éditeur si ce n'est pas ce que vous voulez."
+            ]
+          ],
+          [
+            "JPG en PNG pour l'impression et la retouche",
+            "Les imprimeurs ont rarement besoin de PNG : le JPG haute qualité est le standard pour les photos. Le PNG est utile quand vous allez retoucher une image de nombreuses fois : ouvrez le PNG dans un éditeur, travaillez, enregistrez, rouvrez et continuez sans accumuler d'artefacts JPG. Une fois terminé, exportez une seule fois la version finale en JPG pour la partager. Les graphistes gardent souvent un PNG ou TIFF maître et n'exportent en JPG que pour la livraison."
+          ],
+          [
+            "Peut-on compresser des PNG ?",
+            "Oui. La compression PNG est sans perte, donc une photo convertie reste lourde, mais [Compresser une image](/compress-image/) peut réduire les PNG de 60 à 80 % grâce à la quantification des couleurs : elle choisit la meilleure palette de 256 couleurs pour l'image. Pour les logos, icônes et captures, le résultat est visuellement identique et la transparence est conservée. Pour les photos, la quantification peut faire apparaître de légères bandes dans les dégradés doux ; le WebP est alors un meilleur choix."
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. L'image est décodée, modifiée et réencodée sur votre propre appareil avec le moteur d'images intégré du navigateur et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : photos privées, pièces d'identité, captures contenant des données personnelles et photos de produits pas encore lancés ne quittent jamais votre ordinateur ou votre téléphone. Vous pouvez même couper le Wi-Fi une fois la page chargée, l'outil continue de fonctionner."
+          ],
+          [
+            "Outils associés",
+            [
+              "[PNG en JPG](/png-to-jpg/) : la conversion inverse, avec couleur de fond.",
+              "[Supprimer l'arrière-plan](/remove-background/) : détourages par IA pour les photos complexes.",
+              "[Signer un PDF](/sign-pdf/) : placez une signature transparente sur un PDF.",
+              "[Convertisseur d'images](/image-converter/) : tous les formats.",
+              "[Compresser une image](/compress-image/) : des PNG plus légers grâce à la compression à palette."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre image est traitée",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Rendre une couleur transparente",
+            "Blanc → transparent",
+            "Voir le site",
+            "« Choisissez une couleur à rendre transparente »",
+            "Voir le site"
+          ],
+          [
+            "Redimensionner en convertissant",
+            "Largeur maximale",
+            "Voir le site",
+            "Oui",
+            "Voir le site"
+          ],
+          [
+            "Limite de taille de fichier",
+            "Aucune (mémoire de l'appareil)",
+            "Voir le site",
+            "Voir le site",
+            "1 Go maximum (selon leur page)"
+          ],
+          [
+            "Conservation des fichiers",
+            "Jamais envoyés",
+            "Voir le site",
+            "Voir le site",
+            "Supprimés sous 24 heures"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir JPG en PNG ?",
+            "a": "Déposez vos fichiers JPG, laissez PNG sélectionné et cliquez sur Convertir."
+          },
+          {
+            "q": "Puis-je rendre le fond transparent ?",
+            "a": "Oui. Cochez « Rendre le fond blanc transparent ». Cela fonctionne avec les fonds blancs ou presque blancs ; pour les fonds complexes, utilisez Supprimer l'arrière-plan."
+          },
+          {
+            "q": "Convertir JPG en PNG améliore-t-il la qualité ?",
+            "a": "Non. L'image reste exactement telle quelle, mais les retouches suivantes ne feront plus perdre de qualité."
+          },
+          {
+            "q": "Pourquoi mon PNG est-il plus lourd que le JPG ?",
+            "a": "Le PNG est sans perte : les photos demandent beaucoup plus d'octets. Fixez une largeur maximale ou utilisez WebP si la taille compte."
+          },
+          {
+            "q": "Puis-je convertir plusieurs JPG à la fois ?",
+            "a": "Oui, et vous obtenez un seul ZIP."
+          },
+          {
+            "q": "Mes fichiers sont-ils envoyés ?",
+            "a": "Non. Tout s'exécute dans votre navigateur."
+          },
+          {
+            "q": "Comment créer une signature transparente ?",
+            "a": "Signez sur du papier blanc, prenez-la en photo, recadrez-la et convertissez-la en PNG avec « Rendre le fond blanc transparent » coché."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui, sans limites, sans inscription et sans filigrane."
+          },
+          {
+            "q": "Ça marche sur mobile ?",
+            "a": "Oui, dans Safari et Chrome sur mobile."
+          }
+        ],
+        "related": [
+          "png-to-jpg",
+          "remove-background",
+          "sign-pdf",
+          "image-converter",
+          "compress-image"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir JPG en PNG avec un fond transparent ?",
+            "a": "Activez « Rendre le fond blanc transparent » et réglez la tolérance. Cela fonctionne avec les logos et graphiques sur fond blanc uni ; pour les photos, utilisez Supprimer l'arrière-plan."
+          }
+        ]
+      }
+    }
+  }
+}

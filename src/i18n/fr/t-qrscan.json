@@ -1,0 +1,396 @@
+{
+  "tools": {
+    "qrscan": {
+      "name": "Lecteur de QR code",
+      "short": "Lisez des QR codes et des codes-barres depuis des images ou l'appareil photo.",
+      "title": "Lecteur de QR code en ligne – Scanner image ou caméra, gratuit",
+      "desc": "Scannez des QR codes et des codes-barres depuis une photo, une capture ou votre caméra, directement dans le navigateur. Rien n'est envoyé.",
+      "h1": "Lecteur de QR code",
+      "steps": [
+        "Choisissez une image ou appuyez sur Utiliser la caméra.",
+        "Les codes décodés apparaissent instantanément et les liens sont cliquables.",
+        "Copiez-les ou téléchargez tous les résultats en texte."
+      ],
+      "faq": [
+        {
+          "q": "Quels codes peut-il lire ?",
+          "a": "Les QR codes dans tous les navigateurs. Dans Chrome, Edge et sur Android, les codes-barres 1D (EAN, UPC, Code 128…) et Data Matrix sont aussi lus via le détecteur de codes-barres du navigateur."
+        },
+        {
+          "q": "Est-ce sûr ?",
+          "a": "Les images et les images de la caméra ne quittent jamais votre appareil. Vérifiez un lien avant de l'ouvrir."
+        }
+      ],
+      "guide": {
+        "intro": "On vous a envoyé un QR code dans une capture ou un PDF et vous ne pouvez pas le viser avec un appareil photo ? Envoyez l'image et lisez-le instantanément. Vous pouvez aussi utiliser la caméra de votre ordinateur ou de votre téléphone.",
+        "uses": [
+          "Lire des QR codes dans des captures ou des e-mails.",
+          "Vérifier où mène un QR code avant de l'ouvrir.",
+          "Scanner les codes-barres de produits."
+        ],
+        "tips": [
+          "Recadrez autour du code si l'image en contient plusieurs.",
+          "Méfiez-vous des codes inconnus : vérifiez le lien avant de le visiter."
+        ],
+        "faq": [
+          {
+            "q": "Quels codes sont pris en charge ?",
+            "a": "Les QR codes dans tous les navigateurs. Dans Chrome, Edge et sur Android, les codes-barres 1D (EAN, UPC, Code 128…) et Data Matrix sont aussi lus."
+          }
+        ],
+        "more": [
+          [
+            "Vérification de sécurité",
+            "Les QR codes peuvent cacher des liens malveillants. Les scanner ici affiche le contenu complet avant ouverture, pour vérifier d'abord la destination."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Lecteur de QR en ligne – Scanner image ou caméra gratuit",
+        "desc": "Scannez QR codes et codes-barres depuis une photo, une capture ou la caméra, dans votre navigateur. Collez des captures, export CSV. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et QRCodeScan.in, ScanQR, Google Lens",
+        "compareCols": [
+          "QRCodeScan.in",
+          "ScanQR",
+          "Google Lens"
+        ],
+        "sections": [
+          [
+            "Scannez un QR code en ligne, gratuitement",
+            "Ce lecteur de QR code lit les QR codes (et, dans les navigateurs Chromium compatibles, les codes-barres de produits comme EAN, UPC et Code 128) depuis une image, une capture ou votre caméra en direct. Les résultats apparaissent instantanément et se copient en un clic ; les liens web ne s'ouvrent que lorsque vous cliquez dessus. Collez une capture avec Ctrl+V, scannez beaucoup d'images à la fois et exportez tout en TXT ou CSV. Rien n'est envoyé : le décodage se fait sur votre appareil."
+          ],
+          [
+            "Comment scanner un QR code depuis une image",
+            {
+              "steps": [
+                "Cliquez sur *Choisir une image* et sélectionnez une ou plusieurs photos ou captures, ou collez simplement une capture avec Ctrl+V (⌘V sur Mac).",
+                "Les codes sont décodés en un instant et affichés avec leur type.",
+                "Copiez n'importe quel résultat ou cliquez sur un lien pour l'ouvrir après avoir vérifié l'adresse.",
+                "Appuyez sur Télécharger pour enregistrer tous les résultats en TXT, ou choisissez CSV pour un tableur."
+              ]
+            }
+          ],
+          [
+            "Comment scanner un QR code avec la caméra",
+            {
+              "steps": [
+                "Cliquez sur *Utiliser la caméra* et autorisez l'accès à la caméra quand le navigateur le demande.",
+                "Pointez la caméra vers le code ; sur les téléphones, la caméra arrière est utilisée.",
+                "Chaque nouveau code est ajouté automatiquement à la liste ; cliquez à nouveau sur le bouton pour arrêter la caméra."
+              ]
+            },
+            "L'accès à la caméra nécessite une page sécurisée (https) et votre autorisation ; la vidéo ne quitte jamais votre appareil."
+          ],
+          [
+            "Scannez un QR code depuis une capture sur téléphone ou PC",
+            "Un QR code reçu par WhatsApp, par e-mail ou sur un site ne peut pas être visé avec l'appareil photo du même téléphone. Faites une capture, ouvrez cette page et choisissez la capture dans votre galerie ; ou sur ordinateur, appuyez sur Impr écran / Maj+⌘+4 et collez-la directement dans la page. Le lecteur essaie plusieurs résolutions et des couleurs normales et inversées (clair sur foncé) : il trouve généralement les codes petits ou stylisés des captures."
+          ],
+          [
+            "Ce que le lecteur peut lire",
+            {
+              "table": [
+                [
+                  "Contenu",
+                  "Exemple",
+                  "Ce que vous voyez"
+                ],
+                [
+                  "Lien web",
+                  "https://example.com",
+                  "Lien cliquable"
+                ],
+                [
+                  "Wifi",
+                  "WIFI:T:WPA;S:Maison;P:secret;;",
+                  "Texte avec le nom du réseau et le mot de passe"
+                ],
+                [
+                  "Carte de contact",
+                  "BEGIN:VCARD …",
+                  "Texte vCard à copier dans vos contacts"
+                ],
+                [
+                  "E-mail / téléphone / SMS",
+                  "mailto:, tel:, SMSTO:",
+                  "Cliquable ou copiable"
+                ],
+                [
+                  "Lieu",
+                  "geo:48.85,2.29",
+                  "Coordonnées"
+                ],
+                [
+                  "Événement d'agenda",
+                  "BEGIN:VEVENT …",
+                  "Texte de l'événement"
+                ],
+                [
+                  "Paiement en cryptomonnaie",
+                  "bitcoin:bc1…",
+                  "Adresse et montant"
+                ],
+                [
+                  "Texte brut",
+                  "Tout texte",
+                  "Texte"
+                ],
+                [
+                  "Codes-barres de produits",
+                  "EAN-13, UPC-A, Code 128",
+                  "Numéro (Chrome sur Android, macOS et ChromeOS)"
+                ]
+              ]
+            },
+            "Le décodage des QR utilise la bibliothèque open source jsQR et fonctionne dans tout navigateur moderne. Les codes-barres unidimensionnels dépendent de la Barcode Detection API intégrée au navigateur, disponible dans les navigateurs Chromium (Chrome, Edge) sur Android, macOS et ChromeOS ; ailleurs, les QR codes restent lisibles."
+          ],
+          [
+            "Protégez-vous : hameçonnage par QR (« quishing »)",
+            "Les faux QR codes collés sur des horodateurs, envoyés par e-mail ou imprimés sur des prospectus sont une arnaque en hausse : ils mènent à des pages de paiement ou de connexion qui imitent les vraies. Ce lecteur n'ouvre jamais un lien automatiquement. Avant de cliquer, lisez l'adresse : vérifiez l'orthographe du domaine, méfiez-vous des raccourcisseurs d'URL et des terminaisons étranges, et ne saisissez jamais de coordonnées bancaires ou d'identifiants sur une page atteinte via un code inattendu. Les demandes de paiement doivent être réglées dans votre app bancaire ou de paiement, pas sur un site ouvert depuis un autocollant."
+          ],
+          [
+            "Pourquoi mon QR code ne se lit-il pas ?",
+            {
+              "list": [
+                "L'image est trop floue ou le code trop petit : recadrez plus près ou reprenez la photo avec un bon éclairage.",
+                "Une partie du code est coupée ou masquée ; les trois carrés des coins doivent être visibles.",
+                "Contraste très faible ou fonds colorés : le lecteur essaie les couleurs inversées, mais un code pâle sur une photo chargée peut encore échouer.",
+                "Un très grand logo ou une impression abîmée dépassent la correction d'erreurs du code.",
+                "Ce n'est pas un QR code : Data Matrix, Aztec et PDF417 ne sont lus que là où l'API de codes-barres du navigateur les prend en charge."
+              ]
+            }
+          ],
+          [
+            "Scannez beaucoup de QR codes à la fois",
+            "Sélectionnez des dizaines d'images (par exemple des photos de billets, des étiquettes d'inventaire ou une pile de captures) et chaque code trouvé est ajouté à une seule liste. Les doublons ne s'affichent qu'une fois. Téléchargez la liste en TXT, ou en CSV avec une colonne *format* et une colonne *content* pour l'ouvrir dans Excel ou Google Sheets, pour des listes de contrôle d'accès et des inventaires."
+          ],
+          [
+            "Lecteur web ou applis appareil photo",
+            "La plupart des appareils photo de téléphones lisent nativement les QR codes, ce qui suffit quand le code est devant vous. Un lecteur dans le navigateur est préférable quand le code est déjà sur votre écran, quand vous avez besoin du texte brut (par exemple un mot de passe wifi ou une vCard), quand vous voulez scanner un lot d'images ou sur un ordinateur portable sans app d'appareil photo. En plus, il vous montre exactement ce que contient le code avant que quoi que ce soit ne s'ouvre."
+          ],
+          [
+            "Comment scanner un QR code sur chaque appareil",
+            {
+              "table": [
+                [
+                  "Appareil",
+                  "Option intégrée",
+                  "Avec cette page"
+                ],
+                [
+                  "iPhone / iPad",
+                  "App Appareil photo ou Scanner de codes du Centre de contrôle",
+                  "Safari : choisissez une image dans Photos ou utilisez la caméra"
+                ],
+                [
+                  "Android",
+                  "App appareil photo, Google Lens ou le lecteur des réglages rapides",
+                  "Chrome : choisissez une image, collez ou utilisez la caméra ; codes-barres aussi"
+                ],
+                [
+                  "PC Windows",
+                  "App Caméra (Windows 11) avec une webcam",
+                  "Collez une capture (Win+Maj+S puis Ctrl+V)"
+                ],
+                [
+                  "Mac",
+                  "Aucune pour les codes à l'écran",
+                  "Collez une capture (Maj+⌘+4 puis ⌘V)"
+                ],
+                [
+                  "Chromebook",
+                  "Mode QR de l'app Appareil photo",
+                  "Collez des captures ; codes-barres pris en charge"
+                ]
+              ]
+            },
+            "Sur ordinateur, le raccourci coller est généralement le plus rapide : capturez la zone de l'écran avec le code et collez-la sur cette page, sans enregistrer de fichier d'abord."
+          ],
+          [
+            "Comment un QR code stocke les données",
+            "Un QR code (Quick Response, « réponse rapide ») est un code matriciel bidimensionnel inventé par Denso Wave en 1994 pour suivre des pièces automobiles. Les trois grands carrés des coins indiquent au lecteur où se trouve le code et son orientation ; le petit carré d'alignement et les motifs de synchronisation l'aident à corriger la perspective et les surfaces courbes. Les autres modules stockent les données et des codes de correction d'erreurs Reed–Solomon : un code reste donc lisible même si une partie est sale, abîmée ou masquée par un logo, jusqu'à 7 %, 15 %, 25 % ou 30 % selon le niveau de correction choisi à la création. Un seul QR code peut stocker jusqu'à 4296 caractères alphanumériques ou 7089 chiffres, même si la plupart contiennent un court lien web."
+          ],
+          [
+            "Lire des codes wifi, contacts et événements",
+            "Beaucoup de QR codes contiennent du texte structuré plutôt qu'un lien. Un code wifi ressemble à ceci : WIFI:T:WPA;S:NomDuReseau;P:motdepasse;; (le nom du réseau suit S: et le mot de passe suit P:), vous pouvez donc copier le mot de passe sur un ordinateur portable incapable de scanner. Les codes de contact contiennent une vCard (BEGIN:VCARD … END:VCARD) ou une MeCard ; copiez le texte dans un fichier .vcf pour l'importer dans votre carnet d'adresses. Les codes d'événement contiennent un VEVENT avec le titre et les heures de début et de fin à coller dans un agenda. Les codes de paiement commencent par un schéma comme bitcoin: ou upi: suivi de l'adresse et du montant ; confirmez toujours le destinataire dans votre portefeuille ou votre app bancaire."
+          ],
+          [
+            "Usages pour les entreprises et les événements",
+            {
+              "list": [
+                "Valider des billets d'événement à partir de captures envoyées par les invités et exporter la liste en CSV.",
+                "Lire des étiquettes d'inventaire ou d'actifs avec la webcam d'un portable pendant un inventaire.",
+                "Vérifier que menus, affiches et emballages imprimés pointent vers la bonne adresse avant un tirage.",
+                "Récupérer le lien d'un QR code dans un PDF ou une présentation en faisant une capture.",
+                "Vérifier si les QR codes de la signalétique publique ont été falsifiés en comparant l'adresse décodée à l'adresse officielle."
+              ]
+            }
+          ],
+          [
+            "QR codes dans les PDF, présentations et e-mails",
+            "Les QR codes arrivent souvent dans des documents : cartes d'embarquement et billets en PDF, codes sur des diapositives ou images intégrées dans des newsletters. Ouvrez le document, zoomez jusqu'à ce que le code occupe une bonne partie de l'écran, faites une capture et collez-la ici. Pour un PDF avec de nombreuses pages de codes (par exemple un lot de billets), convertissez les pages en images avec [PDF en JPG](/pdf-to-jpg/) et sélectionnez toutes les images à la fois ; chaque code est lu et ajouté à la liste, prêt à être exporté."
+          ],
+          [
+            "Autres codes 2D que vous pouvez rencontrer",
+            {
+              "table": [
+                [
+                  "Code",
+                  "Aspect",
+                  "Usage courant",
+                  "Lisible ici ?"
+                ],
+                [
+                  "QR code",
+                  "Carré, avec trois carrés de position aux coins",
+                  "Liens, paiements, wifi, billets",
+                  "Oui, dans tous les navigateurs"
+                ],
+                [
+                  "Data Matrix",
+                  "Carré ou rectangle avec une bordure pleine en L",
+                  "Électronique, pharmacie, affranchissement",
+                  "Là où l'API de codes-barres du navigateur le prend en charge"
+                ],
+                [
+                  "Aztec",
+                  "Carré avec une cible au centre",
+                  "Cartes d'embarquement avion et train",
+                  "Là où l'API de codes-barres du navigateur le prend en charge"
+                ],
+                [
+                  "PDF417",
+                  "Larges rangées empilées",
+                  "Permis de conduire, pièces d'identité, expéditions",
+                  "Là où l'API de codes-barres du navigateur le prend en charge"
+                ]
+              ]
+            },
+            "Si un code 2D non QR échoue sur votre ordinateur, essayez la même image sur un téléphone Android avec Chrome, où la prise en charge de ces formats est plus large."
+          ],
+          [
+            "Conseils pour un scan propre",
+            {
+              "list": [
+                "Remplissez le cadre : le code doit occuper au moins un quart de la largeur de l'image.",
+                "Évitez les reflets sur le papier brillant et les écrans : inclinez légèrement ou éteignez une lampe proche.",
+                "Tenez la caméra immobile une seconde ; le lecteur analyse quatre images par seconde.",
+                "Pour les codes imprimés sur des bouteilles ou des canettes courbes, photographiez de face.",
+                "Nettoyez l'objectif : une trace de doigt est la cause la plus fréquente d'échec de scan sur téléphone."
+              ]
+            }
+          ],
+          [
+            "Accessibilité",
+            "Les résultats s'affichent en texte : les lecteurs d'écran annoncent le contenu de chaque code, et les liens sont des liens normaux accessibles au clavier. Les personnes qui ont du mal à viser un petit code imprimé avec leur téléphone peuvent le photographier à une distance confortable, recadrer ou zoomer ensuite et lire le résultat dans n'importe quelle taille de texte."
+          ],
+          [
+            "Pourquoi un lecteur dans le navigateur plutôt qu'une appli ?",
+            "Beaucoup d'applis de scan gratuites des magasins d'applications affichent des publicités plein écran, demandent l'accès à vos contacts ou à votre position et envoient chaque lien scanné à leurs propres serveurs pour des « statistiques » ou le redirigent via un domaine de suivi. Une page web ne demande aucune installation ni d'autre autorisation que la caméra, que vous pouvez accorder pour une seule visite. Comme cette page décode en local et ne réécrit jamais les liens, l'adresse affichée est exactement celle que contient le code, et votre historique de scans n'existe que dans l'onglet ouvert jusqu'à sa fermeture."
+          ],
+          [
+            "Créez votre propre QR code",
+            "Besoin d'en créer un plutôt que de le lire ? Utilisez le [Générateur de QR code](/qr-code-generator/) gratuit pour les liens, ou les générateurs dédiés de [QR wifi](/wifi-qr-code-generator/), [QR vCard](/vcard-qr-code-generator/) et de [codes-barres](/barcode-generator/)."
+          ],
+          [
+            "Confidentialité",
+            "Les images et les images de la caméra sont décodées dans l'onglet du navigateur. Rien n'est envoyé, stocké ni enregistré, il n'y a pas de compte et le lecteur continue de fonctionner hors ligne une fois la page chargée, ce qui compte quand les codes contiennent des mots de passe wifi, des billets, des adresses de cryptomonnaie ou des coordonnées personnelles."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Scan depuis image, collage de captures et caméra",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Lots d'images, export TXT + CSV",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Les liens ne s'ouvrent jamais seuls",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment scanner un QR code depuis une image ?",
+            "a": "Cliquez sur Choisir une image et sélectionnez la photo ou la capture, ou collez-la avec Ctrl+V. Le contenu apparaît instantanément."
+          },
+          {
+            "q": "Comment scanner un QR code affiché sur l'écran de mon propre téléphone ?",
+            "a": "Faites une capture, ouvrez cette page et choisissez la capture dans votre galerie."
+          },
+          {
+            "q": "Puis-je scanner des QR codes avec la caméra de mon ordinateur ?",
+            "a": "Oui. Cliquez sur Utiliser la caméra, autorisez l'accès et placez le code devant la webcam."
+          },
+          {
+            "q": "Lit-il aussi les codes-barres ?",
+            "a": "Oui, dans Chrome et Edge sur Android, macOS et ChromeOS, qui proposent une API de détection de codes-barres. Les QR codes fonctionnent dans tous les navigateurs."
+          },
+          {
+            "q": "Est-il sûr d'ouvrir le lien ?",
+            "a": "Vérifiez d'abord l'adresse : le lecteur n'ouvre jamais de liens automatiquement. Ne saisissez ni mot de passe ni données de paiement sur des pages issues de codes inconnus."
+          },
+          {
+            "q": "Puis-je scanner plusieurs QR codes à la fois ?",
+            "a": "Oui. Sélectionnez beaucoup d'images ; tous les codes sont listés et exportables en TXT ou CSV."
+          },
+          {
+            "q": "Comment voir le mot de passe wifi d'un QR code ?",
+            "a": "Scannez le code ; le résultat affiche le nom du réseau après S: et le mot de passe après P:."
+          },
+          {
+            "q": "Pourquoi mon QR code n'est-il pas lu ?",
+            "a": "L'image est peut-être floue, coupée ou peu contrastée. Recadrez plus près, reprenez la photo avec un meilleur éclairage ou essayez une capture plus grande."
+          },
+          {
+            "q": "Mes images sont-elles envoyées ?",
+            "a": "Non. Le décodage se fait sur votre appareil et rien n'est envoyé à aucun serveur."
+          },
+          {
+            "q": "Le lecteur est-il gratuit ?",
+            "a": "Oui : gratuit, illimité, sans appli ni inscription."
+          }
+        ],
+        "related": [
+          "qr-code-generator",
+          "barcode-generator",
+          "wifi-qr-code-generator",
+          "vcard-qr-code-generator",
+          "url-to-qr-code"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

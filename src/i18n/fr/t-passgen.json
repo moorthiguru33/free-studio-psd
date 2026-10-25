@@ -1,0 +1,389 @@
+{
+  "tools": {
+    "passgen": {
+      "name": "Générateur de mots de passe",
+      "short": "Des mots de passe aléatoires robustes, créés sur votre appareil.",
+      "title": "Générateur de mots de passe – Mots de passe robustes gratuits | {brand}",
+      "desc": "Générez des mots de passe aléatoires robustes, longueur et caractères au choix, avec l'aléatoire sécurisé de votre appareil. Rien n'est envoyé.",
+      "h1": "Générateur de mots de passe robustes",
+      "steps": [
+        "Choisissez la longueur et les types de caractères.",
+        "Les mots de passe apparaissent instantanément : copiez-en un.",
+        "Si vous le souhaitez, téléchargez la liste."
+      ],
+      "faq": [
+        {
+          "q": "Ces mots de passe sont-ils sûrs ?",
+          "a": "Ils sont créés avec le générateur aléatoire cryptographique du navigateur et ne quittent jamais votre appareil."
+        },
+        {
+          "q": "Quelle longueur doit avoir un mot de passe ?",
+          "a": "Au moins 16 caractères avec tous les types de caractères (~100 bits), c'est très robuste."
+        }
+      ],
+      "guide": {
+        "intro": "Les mots de passe faibles et réutilisés sont la cause la plus fréquente de comptes piratés. Ce générateur utilise le générateur de nombres aléatoires cryptographique du navigateur : les mots de passe sont imprévisibles et ne quittent jamais votre appareil.",
+        "uses": [
+          "Créer un mot de passe unique pour chaque nouveau compte.",
+          "Générer un mot de passe robuste pour un PDF ou un ZIP chiffré.",
+          "Créer des mots de passe wifi difficiles à deviner."
+        ],
+        "tips": [
+          "16 caractères ou plus de types variés, c'est un bon réglage par défaut.",
+          "Conservez les mots de passe dans un gestionnaire de mots de passe, pas dans un document.",
+          "Ne réutilisez jamais un mot de passe sur plusieurs sites."
+        ],
+        "faq": [
+          {
+            "q": "Est-il sûr de générer des mots de passe en ligne ?",
+            "a": "Ici, oui : ils sont créés avec le générateur aléatoire cryptographique du navigateur et ne quittent jamais votre appareil."
+          }
+        ],
+        "more": [
+          [
+            "Ce qui rend un mot de passe robuste",
+            "C'est la longueur qui compte le plus : chaque caractère supplémentaire multiplie le nombre de mots de passe possibles. Un mot de passe aléatoire de 16 caractères avec lettres, chiffres et symboles demanderait à un attaquant plus de temps que l'âge de l'univers pour le deviner par force brute."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Générateur de mots de passe – Robustes et phrases de passe",
+        "desc": "Mots de passe aléatoires, phrases de passe ou codes PIN créés en local avec crypto.getRandomValues. Indicateur de robustesse, génération par lots. Gratuit.",
+        "compareTitle": "{tool} : {brand} et LastPass, Bitwarden, 1Password",
+        "compareCols": [
+          "LastPass",
+          "Bitwarden",
+          "1Password"
+        ],
+        "sections": [
+          [
+            "Des mots de passe robustes, générés sur votre appareil",
+            "Le générateur de mots de passe de {brand} crée des mots de passe aléatoires, des phrases de passe faciles à retenir et des codes PIN numériques en un clic. Chaque caractère est choisi par le générateur de nombres aléatoires cryptographiquement sûr de votre navigateur (crypto.getRandomValues de la Web Crypto API), avec échantillonnage par rejet pour que tous les caractères aient exactement la même probabilité. Rien n'est envoyé à aucun serveur : les mots de passe n'existent que sur votre écran et dans votre presse-papiers, et la page continue de fonctionner avec la connexion internet coupée.",
+            "Chaque résultat affiche son entropie en bits, une évaluation de robustesse en langage simple et une estimation du temps qu'il faudrait pour une attaque par force brute. Vous pouvez en générer jusqu'à 500 à la fois, les copier un par un ou tous ensemble, ou les télécharger en fichier texte. Pas de compte, pas d'e-mail, pas de tentative de vous vendre un gestionnaire de mots de passe."
+          ],
+          [
+            "Ce que vous pouvez générer",
+            [
+              "**Mot de passe aléatoire** : de 4 à 128 caractères parmi minuscules, majuscules, chiffres et symboles. Chaque ensemble activé apparaît au moins une fois, ce qui respecte les règles de mot de passe de la plupart des sites.",
+              "**Phrase de passe** : de 3 à 12 mots aléatoires tirés de la longue liste de l'EFF (7776 mots anglais), avec le séparateur de votre choix (tiret, espace, point, tiret bas, aucun ou un chiffre aléatoire entre les mots), majuscules facultatives et un nombre facultatif. Facile à taper sur mobile et facile à retenir.",
+              "**PIN** : des chiffres aléatoires pour déverrouiller un téléphone, des cartes, des codes de porte et des codes de secours de la validation en deux étapes.",
+              "**Éviter les caractères ressemblants** : supprime I, l, 1, O, 0, o et | pour que les mots de passe lus à voix haute ou recopiés depuis un papier ne prêtent pas à confusion.",
+              "**Exclure des caractères** : supprimez les symboles refusés par un site, comme les guillemets, les crochets ou les espaces.",
+              "**Génération par lots** : jusqu'à 500 mots de passe à la fois pour créer des comptes ou des données de test, téléchargeables en TXT.",
+              "**Testeur de robustesse** : saisissez un mot de passe existant pour obtenir une estimation approximative de sa robustesse ; il repère les mots de passe les plus courants, les mots du dictionnaire, les années et les suites de touches du clavier. Il ne quitte jamais la page."
+            ]
+          ],
+          [
+            "Comment créer un mot de passe robuste",
+            [
+              "Choisissez **Mot de passe aléatoire** pour les comptes enregistrés dans un gestionnaire de mots de passe, ou **Phrase de passe** pour les quelques mots de passe à retenir (session de l'ordinateur, mot de passe maître du gestionnaire).",
+              "Réglez la longueur : 16 caractères ou 5–6 mots, c'est un bon réglage par défaut.",
+              "Laissez tous les ensembles de caractères activés sauf si un site les restreint ; cochez *Éviter les caractères ressemblants* si vous allez le taper à la main.",
+              "Cliquez sur le bouton **Copier** d'un mot de passe et collez-le dans le formulaire d'inscription ; enregistrez-le ensuite dans votre gestionnaire de mots de passe ou votre navigateur.",
+              "Cliquez sur **Régénérer** pour une nouvelle série, ou sur **Télécharger la liste** pour en obtenir beaucoup à la fois."
+            ]
+          ],
+          [
+            "Quelle robustesse suffit ?",
+            "La robustesse d'un mot de passe se mesure en bits d'**entropie** : le nombre d'essais dont un attaquant aurait besoin, exprimé en puissance de deux. Chaque bit supplémentaire double le travail. L'entropie d'un mot de passe aléatoire est sa longueur × log₂(taille de l'ensemble de caractères). Avec les 94 caractères imprimables, chaque caractère ajoute environ 6,55 bits ; avec des chiffres seulement, chacun ajoute 3,32 bits. Chaque mot tiré au hasard de la liste EFF de 7776 mots ajoute 12,9 bits.",
+            "Le tableau ci-dessous suppose un attaquant qui a volé une base de hachages de mots de passe et peut tester 10 milliards d'essais par seconde, ce qui est réaliste avec un hachage rapide et sans sel sur des cartes graphiques modernes. Les hachages lents comme bcrypt ou Argon2 réduisent cette vitesse d'un facteur de milliers ou de millions, et les attaques en ligne contre une page de connexion sont encore plus lentes. Les durées sont des moyennes (la moitié de l'espace de recherche).",
+            {
+              "table": [
+                [
+                  "Type",
+                  "Longueur d'exemple",
+                  "Entropie",
+                  "Durée de force brute à 10 milliards d'essais/s"
+                ],
+                [
+                  "PIN, chiffres seulement",
+                  "4 caractères",
+                  "13 bits",
+                  "instantané"
+                ],
+                [
+                  "PIN, chiffres seulement",
+                  "6 caractères",
+                  "20 bits",
+                  "instantané"
+                ],
+                [
+                  "Minuscules seulement",
+                  "8 caractères",
+                  "38 bits",
+                  "10 secondes"
+                ],
+                [
+                  "Minuscules + majuscules + chiffres",
+                  "8 caractères",
+                  "48 bits",
+                  "3,0 heures"
+                ],
+                [
+                  "Les 4 ensembles",
+                  "8 caractères",
+                  "52 bits",
+                  "3,5 jours"
+                ],
+                [
+                  "Les 4 ensembles",
+                  "12 caractères",
+                  "79 bits",
+                  "754 000 ans"
+                ],
+                [
+                  "Les 4 ensembles",
+                  "16 caractères",
+                  "105 bits",
+                  ">1 000 milliards d'années"
+                ],
+                [
+                  "Les 4 ensembles",
+                  "20 caractères",
+                  "131 bits",
+                  ">1 000 milliards d'années"
+                ],
+                [
+                  "Phrase de passe, mots EFF",
+                  "4 mots",
+                  "52 bits",
+                  "2,1 jours"
+                ],
+                [
+                  "Phrase de passe, mots EFF",
+                  "5 mots",
+                  "65 bits",
+                  "45 ans"
+                ],
+                [
+                  "Phrase de passe, mots EFF",
+                  "6 mots",
+                  "78 bits",
+                  "350 000 ans"
+                ],
+                [
+                  "Phrase de passe, mots EFF",
+                  "7 mots",
+                  "90 bits",
+                  "2,7 milliards d'années"
+                ]
+              ]
+            },
+            "En règle générale, **72 bits ou plus, c'est robuste** pour presque tous les comptes, et **100 bits ou plus, c'est très robuste**. Cela correspond à un mot de passe de 12 caractères avec tous les ensembles, un de 16 caractères pour plus de marge, ou une phrase de passe de six mots."
+          ],
+          [
+            "Mots de passe ou phrases de passe",
+            "Un mot de passe aléatoire de 16 caractères comme `Ut)9NwMw/zt?KMH2` est très robuste mais presque impossible à retenir, et ce n'est pas grave, car un gestionnaire de mots de passe le retient pour vous. Une phrase de passe comme `Quarry-Subsystem-Flashback-Atom-Patriot` a une robustesse comparable par frappe sur un clavier de téléphone et se mémorise après quelques utilisations. Les mots doivent être choisis au hasard par le générateur, pas par vous : les gens choisissent des phrases prévisibles, des paroles de chansons et des citations, que les attaquants testent en premier.",
+            {
+              "table": [
+                [
+                  "",
+                  "Mot de passe aléatoire",
+                  "Phrase de passe"
+                ],
+                [
+                  "Idéal pour",
+                  "Comptes enregistrés dans un gestionnaire de mots de passe",
+                  "Mot de passe maître, session de l'appareil, wifi"
+                ],
+                [
+                  "Longueur typique",
+                  "16 caractères",
+                  "5–6 mots"
+                ],
+                [
+                  "Robustesse",
+                  "≈105 bits (16 caractères, tous les ensembles)",
+                  "≈65–78 bits (5–6 mots)"
+                ],
+                [
+                  "Facile à taper sur mobile",
+                  "Non",
+                  "Oui"
+                ],
+                [
+                  "Facile à retenir",
+                  "Non",
+                  "Oui"
+                ],
+                [
+                  "Respecte les règles « doit contenir un symbole »",
+                  "Oui",
+                  "Ajoutez un nombre et choisissez un symbole comme séparateur"
+                ]
+              ]
+            }
+          ],
+          [
+            "Pourquoi vos mots de passe doivent être uniques",
+            "Le plus grand danger n'est pas qu'un attaquant devine un mot de passe robuste, mais qu'un mot de passe réutilisé fuite sur un site puis soit essayé sur tous les autres : une technique appelée **credential stuffing** (bourrage d'identifiants). Des milliards de couples identifiant/mot de passe divulgués circulent sur internet. Si le mot de passe de votre boutique en ligne est le même que celui de votre messagerie, une fuite de la boutique livre votre messagerie et, avec elle, la réinitialisation du mot de passe de tout le reste. Générez un mot de passe différent pour chaque compte et laissez un gestionnaire de mots de passe ou votre navigateur les retenir."
+          ],
+          [
+            "Les schémas qui affaiblissent un mot de passe",
+            [
+              "**Mots du dictionnaire légèrement modifiés** : Ete2024!, P@ssw0rd, Paris123. Les outils de cassage testent d'abord chaque mot avec les substitutions, majuscules et années les plus courantes.",
+              "**Informations personnelles** : noms, anniversaires, noms d'animaux, numéros de téléphone, plaques d'immatriculation et clubs de football se trouvent facilement sur les réseaux sociaux.",
+              "**Schémas et suites du clavier** : azerty, qwerty, 1q2w3e4r, 123456, abcd.",
+              "**Longueur insuffisante** : un mot de passe de 8 caractères, même avec des symboles, peut être cassé par force brute en quelques heures par un attaquant déterminé disposant d'un hachage volé.",
+              "**Réutilisation avec un compteur** : MotDePasse1, MotDePasse2, MotDePasse3 quand on vous oblige à le changer.",
+              "**Chaînes « aléatoires » choisies par des humains** : les gens privilégient certaines lettres et positions ; le vrai hasard vient d'un générateur."
+            ]
+          ],
+          [
+            "Comment fonctionne le générateur",
+            "Quand vous cliquez sur *Régénérer*, la page demande à la Web Crypto API du navigateur des nombres aléatoires de 32 bits. Pour choisir un caractère dans un ensemble de, par exemple, 70 caractères, elle écarte tout nombre de la petite plage restante au-delà du plus grand multiple de 70 et en tire un autre. Cet **échantillonnage par rejet** élimine le « biais du modulo » des générateurs simples, où certains caractères sortent un peu plus souvent. Un caractère de chaque ensemble activé est placé d'abord, le reste est complété avec l'ensemble combiné et toute la chaîne est mélangée avec l'algorithme de Fisher–Yates en utilisant la même source aléatoire sans biais.",
+            "Les phrases de passe choisissent les mots de la même façon dans la longue liste de l'EFF, conçue par l'Electronic Frontier Foundation pour les phrases de passe aux dés : 7776 mots anglais courants, distincts et faciles à épeler ; chaque mot apporte donc exactement log₂(7776) ≈ 12,9 bits. La liste est chargée depuis ce site uniquement quand vous choisissez le mode phrase de passe.",
+            "Vous pouvez le vérifier vous-même : ouvrez les outils de développement du navigateur, regardez l'onglet réseau et générez des mots de passe : aucune requête n'est faite. Ou déconnectez-vous d'internet et continuez à générer."
+          ],
+          [
+            "Règles de mots de passe des sites",
+            "Beaucoup de sites exigent au moins une majuscule, un chiffre et un symbole, et certains refusent certains symboles ou limitent la longueur. Avec les quatre ensembles activés, chaque mot de passe généré contient au moins un caractère de chaque ensemble. Si un site refuse un symbole, saisissez-le dans *Exclure des caractères*. Si un site limite la longueur, par exemple à 12 ou 20 caractères, ajustez la longueur en conséquence, mais gardez au moins 12 caractères pour une bonne robustesse. Les recommandations actuelles du National Institute of Standards and Technology américain (NIST SP 800-63B) préconisent que les sites autorisent les mots de passe et phrases longs, vérifient les nouveaux mots de passe contre des listes de mots de passe divulgués et évitent d'imposer des règles de composition arbitraires et des changements périodiques ; mais beaucoup de sites les appliquent encore, le générateur prend donc en charge les deux styles."
+          ],
+          [
+            "Stocker les mots de passe en sécurité",
+            [
+              "Utilisez un **gestionnaire de mots de passe** : Bitwarden, 1Password, KeePassXC, celui intégré à votre navigateur ou le trousseau de votre téléphone. Vous n'avez alors qu'une phrase de passe robuste à retenir.",
+              "Activez la **validation en deux étapes** (une application d'authentification ou une clé de sécurité) sur la messagerie, la banque, les réseaux sociaux et votre gestionnaire de mots de passe.",
+              "Ne conservez pas de mots de passe dans des fichiers texte, des brouillons d'e-mail ou des messages. Si vous téléchargez une liste depuis cette page, transférez les mots de passe dans un gestionnaire et supprimez le fichier.",
+              "Si vous craignez d'oublier votre phrase de passe maître, écrivez-la sur papier et rangez-la dans un endroit sûr chez vous : le papier ne peut pas être piraté à distance.",
+              "Changez immédiatement un mot de passe si un site vous informe d'une fuite, ainsi que partout où vous utilisiez le même."
+            ]
+          ],
+          [
+            "PIN et codes",
+            "Un PIN de 4 chiffres n'a que 10 000 possibilités et un PIN de 6 chiffres, un million. Ce n'est acceptable que parce que les téléphones et les cartes bancaires se bloquent ou s'effacent après quelques essais ratés. Évitez 1234, 0000, les années de naissance et les chiffres répétés, qui représentent ensemble une grande part des PIN réels. Le mode PIN choisit chaque chiffre de façon uniformément aléatoire. Pour tout ce qui peut être attaqué hors ligne (un fichier chiffré ou une sauvegarde), utilisez plutôt un mot de passe ou une phrase de passe longs."
+          ],
+          [
+            "Mots de passe par lots pour les équipes et les tests",
+            "Les administrateurs qui créent des comptes pour une classe, un bureau ou un environnement de test peuvent générer jusqu'à 500 mots de passe uniques à la fois et les télécharger en fichier texte, un par ligne, prêts à coller dans un tableur à côté des identifiants. Demandez à chacun de changer son mot de passe initial à la première connexion. Comme tout est généré en local, la liste n'est jamais stockée sur aucun serveur."
+          ],
+          [
+            "Confidentialité",
+            "Les mots de passe sont générés dans votre navigateur et {brand} ne les transmet, n'enregistre ni ne stocke jamais. La page n'utilise ni cookies ni analyse sur les valeurs que vous créez ou testez. Le testeur de robustesse analyse le texte saisi entièrement dans la page et ne l'envoie nulle part ; il ne consulte pas de bases de fuites, car cela nécessiterait d'envoyer des données hors de votre appareil."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Générateur de hachage](/hash-generator/)",
+              "[Protéger un PDF](/protect-pdf/)",
+              "[Générateur de QR code](/qr-code-generator/)",
+              "[Générateur d'UUID](/uuid-generator/)",
+              "[Encodeur Base64](/base64-encode-decode/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Générés en local avec crypto.getRandomValues",
+            "Oui (indiqué, vérifiable)",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Mode phrase de passe",
+            "Oui (liste EFF de 7776 mots)",
+            "Voir le site",
+            "Oui",
+            "Oui (« Utiliser des mots entiers »)"
+          ],
+          [
+            "Mode PIN",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Entropie et estimation du temps de cassage",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Éviter les caractères ressemblants / liste d'exclusion",
+            "Oui / Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Génération par lots + téléchargement TXT",
+            "Jusqu'à 500",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Compte ou application requis",
+            "Non",
+            "Non (la page fait la promotion du gestionnaire)",
+            "Non",
+            "Non (la page fait la promotion d'un essai)"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment fonctionne le générateur de mots de passe aléatoires ?",
+            "a": "Il utilise la Web Crypto API de votre navigateur (crypto.getRandomValues) avec échantillonnage par rejet, pour que chaque caractère ait la même probabilité, puis mélange le résultat. Rien n'est envoyé à aucun serveur."
+          },
+          {
+            "q": "Quelle longueur doit avoir un mot de passe ?",
+            "a": "Au moins 12 caractères avec tous les ensembles, 16 pour plus de marge, ou une phrase de 5–6 mots aléatoires."
+          },
+          {
+            "q": "Est-il sûr d'utiliser un générateur de mots de passe en ligne ?",
+            "a": "C'est sûr quand la génération se fait dans votre navigateur, comme ici. Vous pouvez vérifier qu'aucune requête réseau n'est faite ou utiliser la page hors ligne."
+          },
+          {
+            "q": "Qu'est-ce qu'une phrase de passe ?",
+            "a": "Plusieurs mots aléatoires réunis, comme Quarry-Subsystem-Flashback-Atom. Plus facile à retenir et à taper, et robuste quand les mots sont choisis au hasard."
+          },
+          {
+            "q": "Qu'est-ce qui rend un mot de passe robuste ?",
+            "a": "La longueur, le hasard et l'unicité. Évitez les mots, noms, dates et schémas, et ne réutilisez jamais un mot de passe."
+          },
+          {
+            "q": "Que signifie « bits d'entropie » ?",
+            "a": "Le nombre d'essais nécessaires, exprimé en puissance de deux. 72 bits, c'est robuste ; chaque bit supplémentaire double le travail de l'attaquant."
+          },
+          {
+            "q": "Les estimations du temps de cassage sont-elles exactes ?",
+            "a": "Non : elles supposent 10 milliards d'essais par seconde contre un hachage volé. Les attaques réelles peuvent être plus rapides ou bien plus lentes selon la méthode de hachage."
+          },
+          {
+            "q": "Le testeur de robustesse envoie-t-il mon mot de passe quelque part ?",
+            "a": "Non. Il fonctionne dans la page et ne contacte aucun serveur ni aucune base de fuites."
+          },
+          {
+            "q": "Quelle est la façon la plus simple de gérer des mots de passe robustes ?",
+            "a": "Utilisez un gestionnaire de mots de passe ou celui intégré à votre navigateur, protégé par une phrase de passe robuste et la validation en deux étapes."
+          },
+          {
+            "q": "Puis-je générer beaucoup de mots de passe à la fois ?",
+            "a": "Oui : jusqu'à 500, copiés ensemble ou téléchargés en fichier TXT."
+          }
+        ],
+        "related": [
+          "hash-generator",
+          "protect-pdf",
+          "qr-code-generator",
+          "uuid-generator",
+          "base64-encode-decode"
+        ],
+        "faqKw": [
+          {
+            "q": "Peut-on faire confiance à un générateur de mots de passe ?",
+            "a": "Seulement s'il crée les mots de passe en local avec une source aléatoire cryptographique. Celui-ci utilise crypto.getRandomValues dans votre navigateur ; rien n'est envoyé ni stocké."
+          },
+          {
+            "q": "Quelle est la meilleure longueur pour un mot de passe ?",
+            "a": "Au moins 16 caractères aléatoires, ou une phrase de 5–6 mots, pour les comptes importants."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "tools": {
+    "crop": {
+      "name": "Rogner un PDF",
+      "short": "Rognez les marges des pages d'un PDF.",
+      "title": "Rogner un PDF en ligne gratuit – Supprimer les marges d'un PDF | {brand}",
+      "desc": "Rognez les pages d'un PDF au millimètre près pour supprimer les marges blanches ou vous concentrer sur le contenu. Sur toutes ou certaines pages. Gratuit.",
+      "h1": "Rogner un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Indiquez combien rogner de chaque côté.",
+        "Cliquez sur Démarrer et téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Le contenu rogné est-il supprimé ?",
+          "a": "Le rognage masque le contenu situé hors du nouveau cadre de page. Utilisez Caviarder un PDF pour supprimer définitivement un contenu sensible."
+        }
+      ],
+      "guide": {
+        "intro": "Les pages numérisées et les diapositives exportées ont souvent de larges marges ou des bords indésirables. Le rognage réduit la zone visible de la page : les documents se lisent mieux sur mobile et liseuse, et sont plus nets à l'impression.",
+        "uses": [
+          "Supprimer de larges marges blanches pour mieux lire sur téléphone ou tablette.",
+          "Couper les bords et les ombres du scanner.",
+          "Isoler un graphique ou une figure pour une présentation."
+        ],
+        "tips": [
+          "Mesurez sur une page et appliquez à toutes si les pages ont la même mise en page.",
+          "Le rognage masque le contenu mais ne le supprime pas : utilisez Caviarder un PDF pour le contenu sensible.",
+          "Après le rognage, Redimensionner un PDF peut réajuster le contenu au format A4 ou Letter."
+        ],
+        "faq": [
+          {
+            "q": "Le contenu rogné est-il supprimé ?",
+            "a": "Non. Il est masqué hors du nouveau cadre de page. Utilisez Caviarder un PDF pour supprimer définitivement le contenu sensible."
+          }
+        ],
+        "more": [
+          [
+            "Rogner pour les liseuses",
+            "Supprimer les larges marges agrandit le texte sur les petits écrans, ce qui est particulièrement utile pour les articles scientifiques et les livres numérisés lus sur téléphone, tablette et liseuse."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Rogner un PDF – Supprimer les marges blanches, gratuit",
+        "desc": "Rognez des PDF : retirez les marges blanches automatiquement ou coupez des mm précis de chaque côté, sur toutes ou certaines pages. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Sejda",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Sejda"
+        ],
+        "sections": [
+          [
+            "Rognez des pages PDF en ligne, automatiquement ou avec précision",
+            "Rogner un PDF coupe les bords des pages d'un PDF. Utilisez le **Rognage automatique** pour supprimer automatiquement les marges blanches autour du contenu, avec un peu de marge pour que rien ne soit à l'étroit, ou passez en **Manuel** pour couper un nombre précis de millimètres en haut, à droite, en bas et à gauche. Vous pouvez rogner toutes les pages ou seulement une plage comme 2-10, et le résultat est un nouveau PDF : votre fichier d'origine ne change pas.",
+            "Le rognage est idéal pour lire des PDF sur téléphone ou liseuse (les larges marges gaspillent l'écran), préparer des figures et des schémas pour des diapositives, supprimer les bords de scanner et les bandes noires, couper les traits de coupe des fichiers prêts à imprimer et nettoyer des captures d'écran enregistrées en PDF."
+          ],
+          [
+            "Rognage automatique : supprimer les marges blanches",
+            "Le rognage automatique rend chaque page sur votre appareil, cherche les pixels non blancs les plus extérieurs et place le cadre de rognage juste à l'extérieur, plus la marge choisie (3 mm par défaut). Avec **Même cadre de rognage sur toutes les pages** coché, l'outil utilise la plus petite marge trouvée sur l'ensemble des pages sélectionnées : toutes gardent la même taille et le contenu ne saute pas d'une page à l'autre, idéal pour les livres et les rapports. Décochez-le pour rogner chaque page au plus près de son propre contenu, ce qui convient aux collections de figures et aux reçus numérisés de tailles variées.",
+            "En mode automatique, les pages pivotées dans le fichier sont laissées telles quelles et les pages entièrement blanches sont ignorées."
+          ],
+          [
+            "Rognage manuel en millimètres",
+            {
+              "table": [
+                [
+                  "Vous voulez…",
+                  "Indiquez"
+                ],
+                [
+                  "Supprimer un bord de scanner de 1 cm",
+                  "10 mm de chaque côté"
+                ],
+                [
+                  "Couper les traits de coupe d'un fichier A4 avec 3 mm de fond perdu",
+                  "Mesurez les traits ; ils font souvent 10 à 15 mm par côté"
+                ],
+                [
+                  "Ne garder que la moitié supérieure d'une page",
+                  "Bas = la moitié de la hauteur de la page (148 mm en A4)"
+                ],
+                [
+                  "Supprimer un bandeau d'en-tête",
+                  "Haut = hauteur de l'en-tête"
+                ]
+              ]
+            },
+            "Un millimètre équivaut à environ 2,83 points PDF. Si les marges saisies dépassent au total la largeur ou la hauteur de la page, une erreur indique la page concernée : rien n'est rogné par erreur."
+          ],
+          [
+            "Comment rogner un PDF gratuitement",
+            {
+              "steps": [
+                "Déposez le PDF sur cette page.",
+                "Choisissez le Rognage automatique (et la marge) ou des marges manuelles en mm.",
+                "Si vous le souhaitez, saisissez une plage de pages comme 1-3,5.",
+                "Appuyez sur Rogner et téléchargez le PDF rogné."
+              ]
+            }
+          ],
+          [
+            "Le rognage est-il définitif ?",
+            "Le rognage d'un PDF modifie la zone visible de la page : le cadre de rognage (CropBox), le cadre de support (MediaBox), le cadre de coupe (TrimBox) et le cadre de fond perdu (BleedBox) sont réglés à la nouvelle taille, donc tous les lecteurs et toutes les imprimantes affichent la page rognée. Le contenu hors du cadre est masqué, pas effacé, ce qui garde une qualité parfaite et une opération sans perte. Si le contenu masqué doit vraiment disparaître (par exemple des notes confidentielles dans une marge), utilisez ensuite [Caviarder un PDF](/redact-pdf/) ou [Aplatir un PDF](/flatten-pdf/) en mode *tout le contenu*."
+          ],
+          [
+            "Rogner un PDF en JPG",
+            "Pour obtenir une image rognée plutôt qu'un PDF (une figure pour une présentation ou un site), rognez d'abord ici, puis convertissez le résultat avec [PDF en JPG](/pdf-to-jpg/) ou [PDF en PNG](/pdf-to-png/). Comme le cadre de rognage est respecté, les images ne contiennent que la zone conservée."
+          ],
+          [
+            "Rogner ou redimensionner",
+            "Rogner supprime les bords et rend la page plus petite. [Redimensionner un PDF](/resize-pdf/) change le format du papier (par exemple de Letter à A4) en mettant le contenu à l'échelle. Si un document doit avoir un format précis après rognage, rognez d'abord puis redimensionnez."
+          ],
+          [
+            "Conseils pour un meilleur résultat",
+            {
+              "list": [
+                "Pour les livres, laissez *même cadre de rognage* activé pour que les pages restent alignées ; pour des documents variés, désactivez-le.",
+                "Ajoutez 2 à 5 mm de marge pour que le texte ne touche pas le bord sur les liseuses.",
+                "Les pages numérisées avec un fond gris ou des bords sombres peuvent ne pas être considérées comme « blanches » ; utilisez le rognage manuel ou nettoyez d'abord le scan.",
+                "Ne rognez que les pages qui en ont besoin en indiquant une plage : les couvertures ont souvent des marges différentes.",
+                "Vérifiez la première et la dernière page après le rognage : les numéros de page en pied de page sont aussi du contenu et seront conservés."
+              ]
+            }
+          ],
+          [
+            "Rogner un PDF en ligne ou avec un logiciel de bureau",
+            "Les éditeurs de bureau savent rogner des pages, mais demandent généralement une licence payante. La plupart des outils de rognage en ligne envoient votre fichier sur un serveur. Cet outil offre gratuitement le rognage automatique et manuel, entièrement dans votre navigateur : pratique pour les contrats, les plans et les autres fichiers que vous préférez ne pas envoyer."
+          ],
+          [
+            "Glossaire",
+            {
+              "table": [
+                [
+                  "Terme",
+                  "Signification"
+                ],
+                [
+                  "Cadre de rognage (CropBox)",
+                  "La zone visible d'une page dans un PDF"
+                ],
+                [
+                  "Cadre de support (MediaBox)",
+                  "La taille complète du « papier » de la page"
+                ],
+                [
+                  "Cadre de fond perdu / de coupe",
+                  "Zones de production pour l'impression ; ici réglées à la taille du rognage"
+                ],
+                [
+                  "Marge de sécurité",
+                  "Espace supplémentaire laissé autour du contenu lors du rognage automatique"
+                ]
+              ]
+            }
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Redimensionner un PDF](/resize-pdf/)",
+              "[PDF en JPG](/pdf-to-jpg/)",
+              "[Caviarder un PDF](/redact-pdf/)",
+              "[Couper les pages d'un PDF en deux](/split-pdf-pages-in-half/)",
+              "[Faire pivoter un PDF](/rotate-pdf/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Leurs serveurs (envoi)",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Compte requis",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Plage de pages",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Rognage automatique des marges blanches",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment rogner un PDF ?",
+            "a": "Déposez le PDF, choisissez le rognage automatique ou des marges manuelles en mm et téléchargez le fichier rogné."
+          },
+          {
+            "q": "Puis-je rogner des pages PDF gratuitement ?",
+            "a": "Oui, sans inscription, filigrane ni limites."
+          },
+          {
+            "q": "Puis-je rogner un PDF automatiquement ?",
+            "a": "Oui, le rognage automatique supprime automatiquement les marges blanches avec une marge de sécurité facultative."
+          },
+          {
+            "q": "Puis-je rogner seulement certaines pages ?",
+            "a": "Oui, saisissez une plage comme 2-10."
+          },
+          {
+            "q": "Le rognage réduit-il la qualité ?",
+            "a": "Non, seule la zone visible change ; le contenu n'est pas rendu à nouveau."
+          },
+          {
+            "q": "Le contenu rogné est-il supprimé ?",
+            "a": "Il est masqué. Utilisez Caviarder un PDF pour le supprimer définitivement."
+          },
+          {
+            "q": "Comment rogner un PDF en JPG ?",
+            "a": "Rognez ici puis convertissez avec PDF en JPG."
+          },
+          {
+            "q": "Mon PDF est-il envoyé ?",
+            "a": "Non, le rognage s'exécute dans votre navigateur."
+          }
+        ],
+        "related": [
+          "resize-pdf",
+          "pdf-to-jpg",
+          "redact-pdf",
+          "split-pdf-pages-in-half",
+          "rotate-pdf"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

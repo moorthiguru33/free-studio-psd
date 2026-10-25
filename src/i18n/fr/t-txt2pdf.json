@@ -1,0 +1,273 @@
+{
+  "tools": {
+    "txt2pdf": {
+      "name": "Texte en PDF",
+      "short": "Convertissez des fichiers TXT en PDF.",
+      "title": "Convertir du texte en PDF en ligne gratuit – TXT en PDF, toute langue",
+      "desc": "Convertissez du texte brut (.txt) en PDF bien mis en page : format de page, taille de police et marges au choix. Nombreuses écritures prises en charge.",
+      "h1": "Convertir du texte en PDF",
+      "steps": [
+        "Sélectionnez un ou plusieurs fichiers .txt.",
+        "Choisissez le format de page, la taille de police et les marges.",
+        "Téléchargez le PDF (un ZIP s'il y en a plusieurs)."
+      ],
+      "faq": [
+        {
+          "q": "Le texte en tamoul, hindi, arabe ou chinois est-il pris en charge ?",
+          "a": "Oui. La bonne police Noto est chargée automatiquement pour le latin, le grec, le cyrillique, l'arabe, l'hébreu, les écritures indiennes, le thaï, le chinois, le japonais, le coréen, l'arménien, le géorgien, l'éthiopien, le khmer, le lao, le birman, le cingalais, le tibétain et plus. Les écritures complexes sont composées avec HarfBuzz : groupes consonantiques, ligatures et liaison des lettres arabes s'affichent correctement, et les lignes de droite à gauche sont alignées à droite."
+        }
+      ],
+      "guide": {
+        "intro": "Les fichiers texte brut s'ouvrent partout, mais ont un aspect peu soigné et s'impriment de façon irrégulière. Les convertir en PDF fixe la mise en page, le format de page (A4 ou Letter) et la police pour le partage ou l'impression.",
+        "uses": [
+          "Transformer des notes, journaux ou extraits de code en PDF imprimable.",
+          "Partager des paroles de chansons, scénarios ou poèmes avec une mise en forme fixe.",
+          "Archiver des journaux texte dans un format de document standard."
+        ],
+        "tips": [
+          "Choisissez un aspect à chasse fixe pour le code ou les journaux.",
+          "Choisissez A4 ou Letter selon votre imprimante."
+        ],
+        "faq": [
+          {
+            "q": "Quelles langues sont prises en charge ?",
+            "a": "Oui. La bonne police Noto est chargée automatiquement pour le latin, le grec, le cyrillique, l'arabe, l'hébreu, les écritures indiennes, le thaï, le chinois, le japonais, le coréen, l'arménien, le géorgien, l'éthiopien, le khmer, le lao, le birman, le cingalais, le tibétain et plus. Les écritures complexes sont composées avec HarfBuzz : groupes consonantiques, ligatures et liaison des lettres arabes s'affichent correctement, et les lignes de droite à gauche sont alignées à droite."
+          }
+        ],
+        "more": [
+          [
+            "Polices et écritures",
+            "Le convertisseur intègre des polices Noto pour que le texte dans de nombreuses langues et écritures s'affiche correctement sur tout appareil, même si le lecteur n'a pas ces polices installées."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Texte en PDF gratuit – TXT, Markdown et RTF en PDF",
+        "desc": "Convertissez TXT, Markdown et RTF en PDF dans le navigateur. Format de page, taille de police, marges, chasse fixe, numéros de ligne et de page.",
+        "compareTitle": "{tool} : {brand} et Smallpdf, iLovePDF, Online2PDF",
+        "compareCols": [
+          "Smallpdf",
+          "iLovePDF",
+          "Online2PDF"
+        ],
+        "sections": [
+          [
+            "Convertissez du texte en PDF en ligne, gratuitement",
+            "Ce convertisseur gratuit de texte en PDF transforme des fichiers .txt bruts, Markdown (.md) et texte enrichi (.rtf) en documents PDF propres au texte cherchable, directement dans votre navigateur. Déposez un fichier ou tout un lot, choisissez le format de page, la taille de police, les marges et l'orientation, et téléchargez un seul PDF ou un ZIP. Pas d'envoi, pas d'inscription, pas de filigrane, pas de limite quotidienne, et cela fonctionne sous Windows, Mac, Linux, ChromeOS, iPhone et Android."
+          ],
+          [
+            "Comment convertir un fichier TXT en PDF",
+            {
+              "steps": [
+                "Déposez vos fichiers .txt, .md ou .rtf sur la page, ou touchez pour les choisir.",
+                "Ouvrez les options : choisissez A4, Letter (US), Legal ou A5, portrait ou paysage, la taille de police (6–24 pt) et la marge en millimètres.",
+                "Pour du code, des journaux ou des tableaux en texte, choisissez *Garder les lignes exactes – chasse fixe* et activez si besoin les numéros de ligne.",
+                "Laissez *Numéros de page en pied de page* activé pour les documents à imprimer ou partager.",
+                "Appuyez sur Convertir et téléchargez le PDF, ou un ZIP si vous avez converti plusieurs fichiers."
+              ]
+            }
+          ],
+          [
+            "Deux mises en page : paragraphes ajustés ou lignes exactes",
+            "Le texte brut n'a pas de mise en forme propre ; le convertisseur propose donc deux façons de le mettre en page. *Ajuster les paragraphes* traite les lignes vides comme des sauts de paragraphe et ajuste les mots à la largeur de la page avec une police proportionnelle : idéal pour les notes, lettres, rédactions, e-mails et conversations exportées, car le PDF se lit comme un document normal. *Garder les lignes exactes – chasse fixe* conserve chaque saut de ligne et chaque espace tels qu'ils ont été tapés avec une police de type Courier, ce qu'il faut pour le code source, les fichiers de configuration, les journaux de serveur, l'art ASCII et les tableaux alignés en colonnes. Les lignes plus larges que la page passent à la ligne suivante au lieu d'être coupées : rien n'est perdu."
+          ],
+          [
+            "Markdown et RTF sont convertis avec leur mise en forme",
+            "Les fichiers Markdown sont rendus en Markdown façon GitHub : titres, gras et italique, listes à puces et numérotées, cases de listes de tâches, citations, blocs de code, lignes horizontales, tableaux et images intégrées en data URI. Les fichiers RTF de WordPad, TextEdit et d'anciens traitements de texte gardent leurs paragraphes, le gras et les caractères spéciaux. Si vous voulez plus de contrôle sur la sortie Markdown, l'outil dédié [Markdown en PDF](/markdown-to-pdf/) propose des options supplémentaires."
+          ],
+          [
+            "Quel format de page et quelle taille de police choisir ?",
+            {
+              "table": [
+                [
+                  "Usage",
+                  "Format de page",
+                  "Taille de police",
+                  "Marge"
+                ],
+                [
+                  "Impression en Europe, Inde, Asie, Australie",
+                  "A4",
+                  "11 pt",
+                  "20 mm"
+                ],
+                [
+                  "Impression aux États-Unis et au Canada",
+                  "Letter (US)",
+                  "11–12 pt",
+                  "20–25 mm"
+                ],
+                [
+                  "Listings de code et journaux",
+                  "A4 ou Letter, paysage",
+                  "8–9 pt chasse fixe",
+                  "10–15 mm"
+                ],
+                [
+                  "Lecture sur téléphone ou liseuse",
+                  "A5",
+                  "10–11 pt",
+                  "10 mm"
+                ],
+                [
+                  "Documents juridiques (États-Unis)",
+                  "Legal",
+                  "12 pt",
+                  "25 mm"
+                ],
+                [
+                  "Gros caractères pour une lecture facile",
+                  "A4 ou Letter",
+                  "14–16 pt",
+                  "20 mm"
+                ]
+              ]
+            },
+            "L'orientation paysage aide pour les lignes de journaux et les tableaux larges, car plus de caractères tiennent sur chaque ligne avant le retour à la ligne ; en chasse fixe 8 pt sur A4 paysage, environ 150 caractères tiennent sur la largeur de la page."
+          ],
+          [
+            "Unicode, accents et autres écritures",
+            "Le convertisseur intègre des polices Noto selon les besoins : les lettres latines accentuées, le grec, le cyrillique, l'arabe, l'hébreu, le devanagari, le tamoul, le thaï, le chinois, le japonais et le coréen s'affichent correctement dans le PDF au lieu de carrés vides. Les fichiers texte doivent être enregistrés en UTF-8, l'option par défaut aujourd'hui dans le Bloc-notes, TextEdit, VS Code et la plupart des éditeurs. Si un très vieux fichier affiche des caractères étranges, ouvrez-le dans un éditeur, choisissez *Enregistrer sous… UTF-8* et reconvertissez-le."
+          ],
+          [
+            "Le PDF a-t-il du texte cherchable ?",
+            "Oui. Le texte est écrit dans le PDF comme du vrai texte, pas comme une image : vous pouvez le rechercher avec Ctrl+F, le sélectionner et le copier, et les lecteurs d'écran peuvent le lire à voix haute. Les fichiers sont minuscules : un document texte de 100 pages pèse généralement bien moins d'un mégaoctet. Pour combiner le résultat avec d'autres documents, utilisez [Fusionner des PDF](/merge-pdf/) ; pour réduire un PDF avec images, utilisez [Compresser un PDF](/compress-pdf/)."
+          ],
+          [
+            "Texte en PDF sur iPhone, Android et Mac",
+            "Sur mobile, ouvrez cette page dans Safari ou Chrome, touchez la zone de dépôt et choisissez un fichier .txt dans Fichiers ou Téléchargements. Le PDF est enregistré dans vos téléchargements et peut être partagé directement par e-mail ou WhatsApp. Sur Mac, vous pouvez aussi imprimer en PDF depuis TextEdit, mais sans contrôle des numéros de ligne, de la chasse fixe ni de la conversion par lots ; sous Windows, *Microsoft Print to PDF* traite un fichier à la fois. Cet outil convertit des dizaines de fichiers d'un coup et donne à chaque PDF le nom de son fichier source."
+          ],
+          [
+            "Usages courants",
+            {
+              "list": [
+                "Transformer comptes rendus de réunion, journaux intimes et listes de tâches en PDF imprimables.",
+                "Archiver des journaux de serveur ou des conversations exportées dans un format que tout le monde peut ouvrir.",
+                "Imprimer du code source avec numéros de ligne pour une revue de code ou un rendu d'examen.",
+                "Remettre un README ou une documentation Markdown en pièce jointe PDF.",
+                "Convertir d'anciennes lettres RTF en PDF avant de mettre un ordinateur au rebut.",
+                "Faire un PDF d'un livre numérique en texte brut ou d'un fichier de paroles pour le lire sur une tablette."
+              ]
+            }
+          ],
+          [
+            "Conseils pour un meilleur résultat",
+            {
+              "list": [
+                "Séparez les paragraphes par une ligne vide : en mode ajusté, les sauts de ligne simples sont gardés comme retours à la ligne dans le paragraphe.",
+                "Pour des colonnes alignées par tabulations, utilisez la chasse fixe ; les tabulations deviennent quatre espaces.",
+                "Les très longues lignes uniques (par exemple du JSON minifié) se lisent mieux après mise en forme avec [Formateur JSON](/json-formatter/).",
+                "Besoin de l'inverse ? [PDF en texte](/pdf-to-text/) extrait le texte de n'importe quel PDF."
+              ]
+            }
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur. Vos fichiers sont lus depuis votre disque en mémoire, traités là et enregistrés directement sur votre appareil. Ils ne sont jamais envoyés, stockés ni journalisés, et l'outil fonctionne hors ligne une fois la page chargée : il convient donc aux notes privées, journaux, contrats, code et tout ce que vous ne confieriez pas au serveur d'un inconnu."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "TXT, Markdown et RTF",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Chasse fixe avec numéros de ligne",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Numéros de page, orientation, marges",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Conversion par lots en ZIP",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir gratuitement un fichier texte en PDF ?",
+            "a": "Déposez le fichier .txt sur cette page, ajustez si vous le souhaitez le format de page, la taille de police et les marges, puis appuyez sur Convertir. Le PDF se télécharge instantanément, sans compte ni filigrane."
+          },
+          {
+            "q": "Puis-je convertir plusieurs fichiers TXT en PDF à la fois ?",
+            "a": "Oui. Sélectionnez ou déposez autant de fichiers que vous voulez ; chacun devient son propre PDF et ils sont téléchargés ensemble dans un ZIP."
+          },
+          {
+            "q": "Mes sauts de ligne et espaces sont-ils conservés ?",
+            "a": "Choisissez *Garder les lignes exactes – chasse fixe* pour conserver exactement chaque saut de ligne et chaque espace. La mise en page ajustée par défaut garde les paragraphes et les sauts de ligne, mais utilise une police proportionnelle."
+          },
+          {
+            "q": "Puis-je ajouter des numéros de ligne à un listing de code ?",
+            "a": "Oui. Choisissez la chasse fixe et cochez *Numéros de ligne*. Les numéros sont alignés à droite pour que le code reste dans une colonne droite."
+          },
+          {
+            "q": "Markdown et RTF sont-ils pris en charge ?",
+            "a": "Oui. Le Markdown est rendu avec titres, listes, tableaux, blocs de code et images ; le RTF conserve les paragraphes, le gras et les caractères spéciaux."
+          },
+          {
+            "q": "Cela fonctionne-t-il avec du texte en chinois, arabe ou hindi ?",
+            "a": "Oui. Les polices de la plupart des écritures du monde sont intégrées automatiquement, à condition que le fichier texte soit enregistré en UTF-8."
+          },
+          {
+            "q": "Le texte du PDF est-il cherchable et sélectionnable ?",
+            "a": "Oui. C'est du vrai texte PDF : vous pouvez le rechercher, le sélectionner et le copier, et les lecteurs d'écran peuvent le lire."
+          },
+          {
+            "q": "Comment convertir un TXT en PDF sur iPhone ?",
+            "a": "Ouvrez cette page dans Safari, touchez la zone de dépôt, choisissez le fichier dans l'app Fichiers et touchez Convertir. Le PDF est enregistré dans Téléchargements."
+          },
+          {
+            "q": "Mes fichiers sont-ils envoyés ?",
+            "a": "Non. La conversion se fait entièrement dans votre navigateur et les fichiers ne quittent jamais votre appareil."
+          },
+          {
+            "q": "Y a-t-il une limite de taille ou de pages ?",
+            "a": "Pas de limite fixe ; les très gros fichiers ne sont limités que par la mémoire de votre appareil. Des fichiers texte de plusieurs mégaoctets sont convertis en quelques secondes."
+          }
+        ],
+        "related": [
+          "markdown-to-pdf",
+          "word-to-pdf",
+          "pdf-to-text",
+          "merge-pdf",
+          "html-to-pdf"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

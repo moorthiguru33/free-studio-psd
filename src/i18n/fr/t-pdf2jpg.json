@@ -1,0 +1,245 @@
+{
+  "tools": {
+    "pdf2jpg": {
+      "name": "PDF en JPG",
+      "short": "Convertissez chaque page d'un PDF en image JPG ou PNG.",
+      "title": "Convertir PDF en JPG en ligne gratuit – Haute qualité | {brand}",
+      "desc": "Convertissez chaque page d'un PDF en images JPG ou PNG de haute qualité. Gratuit, sans limites et directement dans votre navigateur.",
+      "h1": "Convertir PDF en JPG",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez le format d'image et la résolution.",
+        "Cliquez sur Démarrer et téléchargez les images dans un ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Quelle résolution ont les images ?",
+          "a": "Vous pouvez choisir de la résolution standard (1x) à la haute résolution (3x, environ 216 PPP)."
+        }
+      ],
+      "guide": {
+        "intro": "Convertir des pages PDF en images facilite leur partage sur les réseaux sociaux, leur insertion dans des diapositives ou leur affichage sur n'importe quel appareil. {brand} rend chaque page dans votre navigateur à la résolution choisie.",
+        "uses": [
+          "Partager une seule page d'un PDF sur WhatsApp ou Instagram.",
+          "Insérer des pages PDF dans PowerPoint ou Google Slides.",
+          "Créer des miniatures ou des aperçus d'un document."
+        ],
+        "tips": [
+          "Choisissez PNG pour un texte et des schémas nets, et JPG pour des pages photo plus légères.",
+          "Utilisez la résolution 2x ou 3x si les images seront imprimées ou agrandies."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "JPG ou PNG ?",
+            "Le JPG produit des fichiers plus légers pour les pages photo. Le PNG garde le texte et les traits parfaitement nets et ne perd pas de qualité. Pour des captures de documents partagées dans des messageries, le PNG en 2x est souvent le meilleur compromis."
+          ],
+          [
+            "Guide de résolution",
+            "1x convient aux aperçus, 2x à la plupart des écrans et documents, et 3x à l'impression ou au zoom sur les détails."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "PDF en JPG – Convertir des pages PDF en images gratuit",
+        "desc": "Convertissez chaque page d'un PDF en JPG, PNG ou WebP jusqu'à 300 PPP, ou une plage. Dans votre navigateur : sans envoi ni inscription.",
+        "sections": [
+          [
+            "Convertissez des pages PDF en images de haute qualité",
+            "{brand} rend chaque page de votre PDF avec PDF.js (le moteur qu'utilise Firefox pour afficher les PDF) et l'enregistre en image. Vous choisissez le format et la résolution, pouvez limiter la conversion à certaines pages et téléchargez une seule image ou un ZIP de toutes les pages. Le PDF n'est jamais envoyé : même les documents confidentiels sont convertis en toute sécurité.",
+            [
+              "**Formats** : JPG pour des fichiers légers, PNG pour du texte et des schémas sans perte, ou WebP pour le meilleur rapport taille-qualité sur le web.",
+              "**Résolution** : 72 PPP (écran), 144 PPP (par défaut, net sur la plupart des écrans), 216 PPP ou 300 PPP pour l'impression.",
+              "**Plage de pages** : convertissez seulement « 1-3,5 » au lieu d'un document de 200 pages.",
+              "**Mode extraction d'images** : passez le Mode sur *Extraire les images* pour enregistrer en pleine qualité les photos d'origine intégrées au PDF plutôt que de rendre des pages entières (choisissez *Original* pour garder les JPEG octet par octet)."
+            ]
+          ],
+          [
+            "Quel PPP choisir ?",
+            {
+              "table": [
+                [
+                  "Usage",
+                  "Réglage recommandé",
+                  "Pourquoi"
+                ],
+                [
+                  "Diapositives, réseaux sociaux, web",
+                  "144 PPP",
+                  "Net à l'écran, fichiers légers"
+                ],
+                [
+                  "Miniatures, aperçus",
+                  "72 PPP",
+                  "Les fichiers les plus légers"
+                ],
+                [
+                  "Détail zoomable, OCR",
+                  "216 PPP",
+                  "Le petit texte reste lisible"
+                ],
+                [
+                  "Impression",
+                  "300 PPP",
+                  "Standard d'imprimerie"
+                ]
+              ]
+            },
+            "Plus de PPP produit des images plus grandes et prend plus de temps sur mobile. Une page A4 typique mesure environ 1190 × 1684 pixels à 144 PPP et 2480 × 3508 pixels à 300 PPP."
+          ],
+          [
+            "La qualité de l'image sera-t-elle affectée ?",
+            "Les pages sont rendues à partir des données vectorielles d'origine : le texte et les dessins restent nets à toute résolution, et le PDF lui-même ne perd pas de qualité. Le JPG utilise une compression haute qualité ; si vous avez besoin de bords de texte parfaits au pixel près, choisissez PNG."
+          ],
+          [
+            "Convertir PDF en JPG sur Mac, Windows ou mobile",
+            "Tout se passe dans le navigateur, donc les étapes sont identiques partout : ouvrez la page, choisissez le PDF, sélectionnez le format et le PPP, puis appuyez sur Convertir. Sur iPhone, vous pouvez enregistrer les images dans Photos depuis l'app Fichiers ; sur Android, elles arrivent dans Téléchargements. Et comme le code est déjà chargé, vous pouvez convertir des PDF hors ligne une fois la page ouverte."
+          ],
+          [
+            "Le PDF d'origine reste-t-il intact ?",
+            "Oui. {brand} ne fait que lire votre fichier ; le PDF d'origine sur votre appareil n'est jamais modifié et aucune copie n'est conservée nulle part : à la fermeture de l'onglet, tout est effacé. Si vous reconvertissez le même fichier plus tard, vous obtiendrez des résultats identiques."
+          ],
+          [
+            "JPG, PNG ou WebP ?",
+            {
+              "table": [
+                [
+                  "Format",
+                  "Taille du fichier",
+                  "Qualité",
+                  "Idéal pour"
+                ],
+                [
+                  "JPG",
+                  "Petite",
+                  "Très bonne pour les photos, bords de texte légèrement adoucis",
+                  "Partage, e-mail, réseaux sociaux"
+                ],
+                [
+                  "PNG",
+                  "Le plus lourd",
+                  "Sans perte, bords de texte parfaits",
+                  "Schémas, pages riches en texte, retouche"
+                ],
+                [
+                  "WebP",
+                  "Le plus léger",
+                  "Très bonne",
+                  "Sites web, blogs"
+                ]
+              ]
+            },
+            "En cas de doute, utilisez JPG à 144 PPP : il est compatible partout et net à l'écran. Pour l'impression ou l'OCR, utilisez PNG ou JPG à 300 PPP."
+          ],
+          [
+            "Pas à pas : convertir un PDF en images",
+            "1. Choisissez ou déposez votre PDF. 2. Sélectionnez JPG, PNG ou WebP. 3. Choisissez une résolution : 144 PPP pour les écrans ou 300 PPP pour l'impression. 4. Si vous le souhaitez, indiquez des pages comme 2-4. 5. Appuyez sur Convertir et téléchargez une seule image ou un ZIP de toutes les pages, nommées dans l'ordre pour bien se trier dans n'importe quel dossier.",
+            "Les gros documents sont traités page par page avec affichage de la progression : un PDF de 100 pages à 144 PPP se termine généralement en bien moins d'une minute sur un ordinateur portable. La mémoire est libérée après chaque page, ce qui garde téléphones et tablettes réactifs."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Formats de sortie",
+            "JPG, PNG, WebP",
+            "JPG",
+            "JPG",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Modes page en image et extraction d'images",
+            "Les deux",
+            "Les deux",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Choix de la résolution (PPP)",
+            "72–300 PPP",
+            "Voir le site",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir PDF en JPG gratuitement et sans inscription ?",
+            "a": "Choisissez votre PDF sur cette page et cliquez sur Convertir. Pas de compte, pas d'e-mail, pas de filigrane. Jamais."
+          },
+          {
+            "q": "Puis-je extraire des images d'un PDF ?",
+            "a": "Oui : passez le Mode sur Extraire les images et les photos intégrées au PDF seront enregistrées dans leur qualité d'origine, au lieu de rendre des pages entières."
+          },
+          {
+            "q": "La qualité de mes images sera-t-elle affectée ?",
+            "a": "Non. Les pages sont rendues à partir des données vectorielles au PPP choisi. Pour l'impression, choisissez 300 PPP ; pour un résultat sans perte, choisissez PNG."
+          },
+          {
+            "q": "Puis-je convertir seulement certaines pages ?",
+            "a": "Oui. Saisissez une plage de pages, comme 1-3,5, dans le champ Pages. Laissez-le vide pour tout convertir."
+          },
+          {
+            "q": "Puis-je convertir PDF en JPG hors ligne ?",
+            "a": "Oui. Une fois la page chargée, déconnectez-vous : la conversion continue de fonctionner car elle s'exécute entièrement dans votre navigateur."
+          },
+          {
+            "q": "Comment convertir un PDF en JPG sur iPhone ?",
+            "a": "Ouvrez cette page dans Safari, touchez pour choisir le PDF dans Fichiers, convertissez et enregistrez les images téléchargées dans Photos."
+          },
+          {
+            "q": "Quelle différence entre PDF en JPG et Extraire les images ?",
+            "a": "PDF en JPG rend des pages entières, texte compris. Extraire les images enregistre seulement les images intégrées au PDF, dans leur résolution d'origine."
+          }
+        ],
+        "related": [
+          "jpg-to-pdf",
+          "pdf-to-png",
+          "extract-images-from-pdf",
+          "compress-image",
+          "split-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment passer un PDF en JPG ou PNG ?",
+            "a": "Déposez le PDF, choisissez JPG, PNG ou WebP et une résolution (jusqu'à 300 PPP), indiquez éventuellement une plage de pages et convertissez. Téléchargez des images séparées ou un ZIP de toutes les pages."
+          }
+        ]
+      }
+    }
+  }
+}

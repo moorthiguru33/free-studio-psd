@@ -1,0 +1,239 @@
+{
+  "tools": {
+    "excel2pdf": {
+      "name": "Excel en PDF",
+      "short": "Transformez des feuilles de calcul en tableaux PDF nets.",
+      "title": "Excel en PDF – Convertissez XLSX, XLS et ODS en PDF gratuitement, sans envoi | {brand}",
+      "desc": "Convertissez Excel (XLSX, XLS, ODS, CSV) en PDF : tableaux lisibles, une section par feuille, en-têtes répétés. Gratuit, privé, sans inscription.",
+      "h1": "Convertir Excel en PDF",
+      "steps": [
+        "Sélectionnez les feuilles de calcul.",
+        "Choisissez le format de page.",
+        "Téléchargez le PDF."
+      ],
+      "faq": [
+        {
+          "q": "Toutes les feuilles sont-elles incluses ?",
+          "a": "Oui, chaque feuille avec du contenu devient sa propre section avec le nom de la feuille comme titre."
+        },
+        {
+          "q": "Les formules sont-elles visibles ?",
+          "a": "Ce sont les valeurs calculées qui sont affichées, avec le format qu'elles ont dans le fichier."
+        }
+      ],
+      "guide": {
+        "intro": "Partager une feuille de calcul en PDF garantit que tout le monde voit les mêmes chiffres sans pouvoir les modifier. {brand} transforme chaque feuille en tableau PDF net avec la première ligne en en-tête, en renvoyant à la ligne les cellules longues et en répartissant les grandes feuilles sur plusieurs pages, sans Excel installé et sans envoyer vos données financières.",
+        "uses": [
+          "Envoyer une grille tarifaire ou un devis en PDF.",
+          "Imprimer un planning ou une feuille de présence.",
+          "Archiver des rapports mensuels en PDF.",
+          "Partager des données avec des personnes qui n'ont pas Excel."
+        ],
+        "tips": [
+          "Les feuilles larges tiennent mieux en A3 ou Legal.",
+          "Supprimez les colonnes inutiles avant la conversion pour un tableau plus net.",
+          "Besoin de l'inverse ? Utilisez PDF en Excel."
+        ],
+        "faq": [
+          {
+            "q": "Les couleurs et les graphiques sont-ils conservés ?",
+            "a": "L'outil se concentre sur les données : valeurs des cellules dans des tableaux nets. Les graphiques et les couleurs de cellule ne sont pas reproduits."
+          },
+          {
+            "q": "Mes données sont-elles envoyées ?",
+            "a": "Non : la conversion se fait dans votre navigateur."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Convertir Excel en PDF – Gratuit, ajusté à la page",
+        "desc": "Convertissez Excel (XLSX, XLS, ODS, CSV) en PDF. Paysage auto pour les feuilles larges, colonnes ajustées, choix des feuilles, lots. Sans envoi.",
+        "sections": [
+          [
+            "Transformez vos feuilles de calcul en PDF nets et faciles à partager",
+            "Les feuilles de calcul sont parfaites pour travailler les chiffres, mais peu pratiques à partager : les colonnes sont coupées, le destinataire n'a pas forcément Excel et les formules peuvent être modifiées par accident. Un PDF fige le tableau dans une mise en page lisible qui s'ouvre sur tous les appareils. {brand} convertit les fichiers XLSX, XLS, ODS, CSV et TSV en PDF directement dans votre navigateur : grilles tarifaires, paies et rapports financiers ne quittent jamais votre ordinateur."
+          ],
+          [
+            "Options pour faire tenir le tableau",
+            [
+              "**Orientation automatique** : les feuilles larges passent d'elles-mêmes en paysage ; ou forcez portrait ou paysage.",
+              "**Ajuster les colonnes à la largeur de la page** : la taille du texte s'adapte au nombre de colonnes ; choisissez un petit texte pour faire tenir plus de colonnes ou un grand texte pour mieux lire.",
+              "**Choisir les feuilles** : convertissez toutes les feuilles ou seulement celles indiquées par nom ou numéro (ex. 1, Synthèse).",
+              "**Format de page** : A4, Letter, Legal ou A3.",
+              "**Lots** : convertissez de nombreux classeurs d'un coup en un seul PDF avec signets ou en un ZIP de PDF séparés.",
+              "**Tous les formats courants** : XLSX, XLS (Excel 97–2003), ODS (LibreOffice), CSV et TSV."
+            ]
+          ],
+          [
+            "Comment convertir Excel en PDF",
+            [
+              "Déposez un ou plusieurs fichiers de feuille de calcul.",
+              "Choisissez l'orientation, l'ajustement et le format de page ; indiquez les feuilles si vous n'en voulez que certaines.",
+              "Choisissez un PDF combiné ou un PDF par fichier.",
+              "Cliquez sur Convertir et téléchargez."
+            ]
+          ],
+          [
+            "Conseils pour un résultat parfait",
+            [
+              "Les feuilles larges avec beaucoup de colonnes se lisent mieux en paysage, en A3 ou avec « petit texte ».",
+              "Masquez ou supprimez les colonnes auxiliaires avant la conversion : tout ce qui contient des données est inclus.",
+              "Les lignes vides sont ignorées automatiquement pour économiser des pages.",
+              "Quand un classeur a plusieurs feuilles, chacune commence par son nom en titre.",
+              "Les feuilles très longues continuent sur plusieurs pages ; la ligne d'en-tête ouvre le tableau.",
+              "Besoin du sens inverse ? [PDF en Excel](/pdf-to-excel/) retransforme les tableaux PDF en feuilles de calcul."
+            ]
+          ],
+          [
+            "« Enregistrer en PDF » d'Excel ou cet outil",
+            "Excel sous Windows et Mac peut exporter en PDF via Fichier → Enregistrer sous / Exporter, et Google Sheets via Fichier → Télécharger → PDF. Ces options respectent les zones d'impression et la mise en page que vous avez définies. Cet outil est pratique quand vous n'avez pas Excel, êtes sur un téléphone ou un Chromebook, devez convertir de nombreux fichiers à la fois ou avez reçu un CSV que vous voulez simplement lire sous forme de tableau propre."
+          ],
+          [
+            "Usages courants",
+            [
+              "Envoyer factures, devis et grilles tarifaires aux clients.",
+              "Partager budgets et rapports avec des personnes qui n'utilisent pas Excel.",
+              "Archiver les exports mensuels de paie et de comptabilité.",
+              "Imprimer plannings, rotations et inventaires.",
+              "Transformer les exports CSV d'applications et de banques en documents lisibles."
+            ]
+          ],
+          [
+            "Confidentialité",
+            "Les feuilles de calcul contiennent souvent les chiffres les plus sensibles d'une entreprise : salaires, marges, listes de clients. Comme la conversion se fait dans votre navigateur, elles ne sont jamais envoyées, enregistrées ni stockées. Fermez l'onglet et tout disparaît."
+          ],
+          [
+            "Formules et mise en forme",
+            "Le PDF affiche les valeurs calculées par vos formules lors du dernier enregistrement du classeur, pas les formules elles-mêmes : exactement ce qu'afficherait une copie imprimée. Les dates et les nombres apparaissent avec le format de la feuille. Les couleurs de cellule, les cellules fusionnées et les graphiques sont simplifiés en un tableau net pour que les données restent lisibles à toutes les tailles."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Entrée XLS, XLSX, ODS, CSV, TSV",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Paysage auto / ajuster les colonnes",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Choisir les feuilles",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Par lots",
+            "Gratuit",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Dans la limite de tâches"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir Excel en PDF ?",
+            "a": "Déposez ici le fichier XLSX, XLS, ODS ou CSV, choisissez l'orientation et l'ajustement, puis cliquez sur Convertir."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui, sans limites, filigrane ni inscription."
+          },
+          {
+            "q": "Ma feuille de calcul est-elle envoyée ?",
+            "a": "Non. La conversion se fait entièrement dans votre navigateur."
+          },
+          {
+            "q": "Comment éviter que les colonnes soient coupées ?",
+            "a": "Laissez l'orientation sur Automatique (les feuilles larges passent en paysage) et choisissez « Petit texte », ou utilisez le format A3."
+          },
+          {
+            "q": "Puis-je convertir une seule feuille ?",
+            "a": "Oui. Saisissez le nom ou le numéro de la feuille dans « Feuilles »."
+          },
+          {
+            "q": "Puis-je convertir plusieurs classeurs à la fois ?",
+            "a": "Oui. Combinez-les en un PDF avec signets ou obtenez un PDF par fichier."
+          },
+          {
+            "q": "Le CSV est-il pris en charge ?",
+            "a": "Oui, les CSV et TSV deviennent des tableaux mis en forme."
+          },
+          {
+            "q": "Les graphiques et les images sont-ils inclus ?",
+            "a": "Le convertisseur se concentre sur les données des cellules. Pour les graphiques, exportez-les depuis Excel en images ou utilisez l'option Enregistrer en PDF d'Excel."
+          },
+          {
+            "q": "Puis-je convertir sur mobile ?",
+            "a": "Oui. Fonctionne dans tout navigateur mobile récent."
+          }
+        ],
+        "related": [
+          "pdf-to-excel",
+          "word-to-pdf",
+          "powerpoint-to-pdf",
+          "merge-pdf",
+          "csv-to-excel"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir Excel en PDF sur une seule page de large ?",
+            "a": "Activez l'ajustement à la largeur : les colonnes sont mises à l'échelle pour tenir dans la page et les feuilles larges passent automatiquement en paysage, rien n'est coupé au bord."
+          },
+          {
+            "q": "Comment convertir Excel en PDF sans perdre la mise en forme ?",
+            "a": "Les valeurs des cellules, la largeur des colonnes, le gras et les bordures sont conservés. Les graphiques et la mise en forme conditionnelle complexe peuvent ne pas être reproduits : vérifiez l'aperçu ou exportez depuis Excel quand une feuille en dépend."
+          },
+          {
+            "q": "Puis-je convertir Excel en PDF en paysage ?",
+            "a": "Oui. Choisissez paysage, ou laissez l'orientation sur automatique et les feuilles larges seront mises en page en paysage."
+          }
+        ]
+      }
+    }
+  }
+}

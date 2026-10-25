@@ -1,0 +1,468 @@
+{
+  "tools": {
+    "videocompress": {
+      "name": "Compresser une vidéo",
+      "short": "Réduisez la taille de vos vidéos.",
+      "title": "Compresser une vidéo en ligne gratuit – Réduire un MP4 sans filigrane | {brand}",
+      "desc": "Compressez des vidéos MP4, MOV et WEBM dans votre navigateur. Choisissez qualité et résolution (720p, 480p). Sans envoi et sans filigrane.",
+      "h1": "Compresser une vidéo",
+      "steps": [
+        "Sélectionnez les vidéos.",
+        "Choisissez qualité et résolution.",
+        "Téléchargez la vidéo allégée."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi cela prend-il un moment ?",
+          "a": "La vidéo est réencodée sur votre propre appareil ; les vidéos longues ou en 4K prennent plus de temps."
+        }
+      ],
+      "guide": {
+        "intro": "Les vidéos de téléphone sont énormes : quelques minutes en 4K peuvent dépasser un gigaoctet. Les compresser en 720p ou 480p les rend faciles à envoyer par e-mail, partager dans les messageries ou mettre en ligne, sans transmettre d'enregistrements privés à un serveur.",
+        "uses": [
+          "Envoyer par e-mail ou messagerie des vidéos qui dépassent les limites de taille.",
+          "Libérer de l'espace sur votre téléphone.",
+          "Mettre en ligne plus vite sur des plateformes de cours ou de recrutement."
+        ],
+        "tips": [
+          "Le 720p est un bon équilibre pour téléphones et portables.",
+          "Coupez d'abord les passages inutiles."
+        ],
+        "faq": [
+          {
+            "q": "Combien de temps cela prend-il ?",
+            "a": "La vidéo est réencodée sur votre appareil ; les vidéos longues ou en 4K prennent plus de temps."
+          },
+          {
+            "q": "Ça marche sur mobile ?",
+            "a": "Oui, dans les navigateurs mobiles récents, mais les ordinateurs sont plus rapides pour les longues vidéos."
+          }
+        ],
+        "more": [
+          [
+            "Comment fonctionne la compression vidéo",
+            "La taille d'une vidéo dépend surtout de la résolution et du débit. Passer de la 4K ou du 1080p au 720p réduit le nombre de pixels de plus de moitié, et baisser le débit supprime des détails que l'œil remarque rarement sur un écran de téléphone."
+          ],
+          [
+            "Réglages recommandés",
+            "Le 720p en qualité moyenne est idéal pour l'e-mail, les messageries et les plateformes de cours. Le 480p convient aux très petits fichiers et aux enregistrements uniquement vocaux. Gardez le 1080p pour le contenu destiné aux grands écrans."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Compresser une vidéo – Taille exacte en Mo, sans envoi",
+        "desc": "Compressez des vidéos à une taille exacte (10, 16, 25 Mo ou perso) ou à une qualité. MP4, MOV, WebM, 1080p/720p/480p, sans son, lots.",
+        "compareTitle": "{tool} : {brand} et FreeConvert, Clideo, VEED",
+        "compareCols": [
+          "FreeConvert",
+          "Clideo",
+          "VEED"
+        ],
+        "sections": [
+          [
+            "Réduisez vos vidéos pour qu'elles passent partout",
+            "Les vidéos des téléphones actuels sont énormes : une minute en 4K peut peser 300–400 Mo, et même en 1080p on atteint 100–150 Mo par minute. C'est trop pour l'e-mail, les messageries, les formulaires d'envoi et les quotas de stockage en ligne. Le compresseur vidéo de {brand} les rend bien plus légères (généralement de 60 à 90 %) tout en les gardant assez nettes pour téléphones et portables. Choisissez une **taille de fichier cible** comme 10 Mo, 16 Mo ou 25 Mo et le compresseur calcule le débit nécessaire pour l'atteindre, ou choisissez un niveau de qualité et une résolution et laissez-le faire le reste.",
+            "La compression se fait entièrement dans votre navigateur avec l'encodeur vidéo matériel de votre ordinateur ou téléphone. Rien n'est envoyé (un gros avantage pour les vidéos volumineuses, dont l'envoi prendrait sinon des minutes avant même le début de la compression) et il n'y a ni filigrane, ni compte, ni limite de taille hormis la mémoire de votre appareil.",
+            "Les compresseurs en ligne gratuits vous limitent souvent à quelques fichiers par jour, plafonnent à quelques centaines de mégaoctets ou apposent un logo sur le résultat si vous ne payez pas. Rien de tout cela ici : compressez autant de vidéos que vous voulez, aussi longues que votre appareil peut le gérer, et le résultat est entièrement à vous : sans marque, sans expiration et sans compte. Comme le gros du travail est fait par l'encodeur matériel de votre appareil, même les longues vidéos 1080p se terminent souvent plus vite qu'elles ne mettraient à être envoyées."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Taille de fichier cible :** 8, 10, 16, 25, 50 ou 100 Mo, ou toute taille personnalisée.",
+              "**Niveaux de qualité :** haute, recommandée, forte compression et extrême.",
+              "**Résolution :** conserver, 1080p, 720p ou 480p.",
+              "**Supprimer le son** pour les clips sans audio et des fichiers plus petits.",
+              "**Formats de sortie :** MP4 (H.264), WebM (VP9), MOV ou MKV.",
+              "**Lots :** compressez plusieurs vidéos d'un coup.",
+              "**Taille avant/après** pour chaque fichier.",
+              "**Lecteur d'aperçu** pour vérifier le résultat avant de l'enregistrer.",
+              "**Accéléré par le matériel** via WebCodecs : rapide sur les appareils récents.",
+              "**Sans filigrane ni limite quotidienne :** compressez toutes les vidéos nécessaires."
+            ]
+          ],
+          [
+            "Comment compresser une vidéo",
+            [
+              "Déposez une ou plusieurs vidéos (MP4, MOV, WebM, MKV, M4V).",
+              "Choisissez une taille cible (par exemple 25 Mo pour l'e-mail) ou désactivez-la et choisissez une qualité.",
+              "Choisissez une résolution : 720p est un bon choix par défaut pour le partage.",
+              "Cliquez sur Compresser et suivez la progression.",
+              "Vérifiez l'aperçu et téléchargez."
+            ]
+          ],
+          [
+            "Taille cible : comment ça marche",
+            "La taille d'une vidéo est simplement son débit multiplié par sa durée. Si vous demandez 25 Mo pour un clip de 2 minutes, le compresseur dispose de 25 × 8 = 200 mégabits à répartir sur 120 secondes : environ 1,6 mégabit par seconde. Il en réserve une petite part pour l'audio (64–96 kbit/s) et la surcharge du conteneur, et donne le reste à l'encodeur vidéo. C'est pourquoi les clips courts peuvent être très beaux même avec de petites cibles, alors que les longues vidéos demandent une cible plus grande ou une résolution plus basse.",
+            {
+              "table": [
+                [
+                  "Objectif",
+                  "Clip d'1 minute",
+                  "Clip de 5 minutes",
+                  "Clip de 20 minutes"
+                ],
+                [
+                  "10 Mo",
+                  "≈1,2 Mbit/s : bon 720p",
+                  "≈0,2 Mbit/s : utilisez 480p",
+                  "Trop petit"
+                ],
+                [
+                  "25 Mo",
+                  "≈3,2 Mbit/s : bon 1080p",
+                  "≈0,6 Mbit/s : 480p/720p",
+                  "≈0,1 Mbit/s : trop petit"
+                ],
+                [
+                  "100 Mo",
+                  "≈13 Mbit/s : excellent",
+                  "≈2,6 Mbit/s : bon 1080p",
+                  "≈0,6 Mbit/s : 480p"
+                ]
+              ]
+            },
+            "Si une cible est impossible pour la durée de la vidéo, l'outil vous prévient au lieu de produire un fichier inregardable."
+          ],
+          [
+            "Réglages recommandés selon la destination",
+            {
+              "table": [
+                [
+                  "Destination",
+                  "Réglage suggéré"
+                ],
+                [
+                  "E-mail (Gmail, Outlook)",
+                  "Cible 25 Mo, 720p"
+                ],
+                [
+                  "Discord (gratuit)",
+                  "Cible 10 Mo, 720p ou 480p"
+                ],
+                [
+                  "WhatsApp / messagerie",
+                  "Cible 16 Mo, 720p"
+                ],
+                [
+                  "Web ou blog",
+                  "Qualité recommandée, 1080p ou 720p"
+                ],
+                [
+                  "Formulaires en ligne et portails d'emploi",
+                  "Cible selon l'exigence, 720p"
+                ],
+                [
+                  "Archive sur votre téléphone",
+                  "Haute qualité, conserver la résolution"
+                ],
+                [
+                  "Présentations",
+                  "Qualité recommandée, 1080p, MP4"
+                ]
+              ]
+            },
+            "Les limites changent : vérifiez toujours la limite actuelle du service de destination."
+          ],
+          [
+            "Qualité, débit et résolution",
+            "Trois éléments déterminent l'aspect d'une vidéo compressée : le **débit** (combien de bits par seconde l'encodeur peut utiliser), la **résolution** (combien de pixels par image) et le **codec** (avec quelle intelligence ces bits sont utilisés). Passer de 1080p à 720p réduit le nombre de pixels de plus de moitié : à débit égal, chaque pixel reçoit deux fois plus de bits. C'est pourquoi une vidéo 720p paraît souvent meilleure qu'une 1080p à petite taille, surtout sur téléphone. Les scènes très animées (sport, confettis, eau, feuilles au vent) demandent plus de débit qu'une personne parlant face caméra ou un enregistrement d'écran."
+          ],
+          [
+            "Codecs : H.264 ou VP9",
+            "La sortie MP4 utilise **H.264 (AVC)**, le codec vidéo le plus compatible : il se lit sur tout téléphone, ordinateur, téléviseur, navigateur et réseau social. La sortie WebM utilise **VP9**, qui produit souvent des fichiers 20–40 % plus petits à qualité égale, mais est moins compatible avec les apps et appareils anciens. Les conteneurs MOV et MKV sont proposés pour les flux de travail qui les exigent. Pour partager, MP4/H.264 est le choix sûr."
+          ],
+          [
+            "Conseils pour des vidéos plus légères et plus belles",
+            [
+              "Coupez d'abord les parties inutiles avec [Couper une vidéo](/trim-video/) : la vidéo la plus courte est celle qui se compresse le mieux.",
+              "Utilisez le 720p pour tout ce qui sera regardé sur téléphone.",
+              "Supprimez le son des clips sans audio, des enregistrements d'écran sans narration ou des plans de coupe.",
+              "Évitez de compresser la même vidéo encore et encore ; repartez toujours de l'original.",
+              "Les enregistrements d'écran se compressent très bien ; gardez leur résolution pour que le texte reste lisible.",
+              "Pour les très longs enregistrements, envisagez de les diviser en parties."
+            ]
+          ],
+          [
+            "Pourquoi compresser dans le navigateur ?",
+            "Les compresseurs en ligne envoient votre fichier sur un serveur, le compressent là-bas et vous le renvoient : avec une vidéo de 500 Mo et une connexion montante typique de 20 Mbit/s, l'envoi seul prend plus de trois minutes, puis vous attendez dans une file. Les offres gratuites ajoutent souvent un filigrane ou limitent la taille. Ici, la compression démarre instantanément avec l'encodeur matériel intégré à votre appareil, et le fichier ne le quitte jamais. La seule condition est un navigateur avec WebCodecs : Chrome, Edge et Opera actuels, Safari 17+ et Firefox récent."
+          ],
+          [
+            "Compresser des vidéos d'iPhone et d'Android",
+            "Les iPhone enregistrent des fichiers MOV en HEVC ; les téléphones Android enregistrent généralement en MP4 H.264 ou HEVC. Les deux se compressent bien. Un clip iPhone d'une minute en 4K d'environ 350 Mo tombe à environ 20–30 Mo en 1080p « Recommandée », ou sous 10 Mo en 720p « Forte ». Sur le téléphone même, ouvrez cette page dans Safari ou Chrome, touchez la zone de dépôt et choisissez la vidéo dans votre galerie ; le MP4 compressé est enregistré dans Fichiers/Téléchargements. Comme l'encodeur matériel du téléphone est utilisé, la compression est rapide même en milieu de gamme, mais gardez l'écran allumé, car les navigateurs mobiles mettent en pause les onglets en arrière-plan."
+          ],
+          [
+            "Les niveaux de qualité expliqués",
+            {
+              "table": [
+                [
+                  "Niveau",
+                  "Ce qu'il fait",
+                  "Réduction de taille typique"
+                ],
+                [
+                  "Haute qualité",
+                  "Débit élevé, perte visible minimale",
+                  "20–50 %"
+                ],
+                [
+                  "Recommandée",
+                  "Débit équilibré ; excellent sur téléphone et portable",
+                  "50–80 %"
+                ],
+                [
+                  "Forte compression",
+                  "Débit plus faible ; adapté aux messageries",
+                  "70–90 %"
+                ],
+                [
+                  "Extrême",
+                  "Fichier minimal ; perte de netteté visible",
+                  "85–95 %"
+                ]
+              ]
+            },
+            "La réduction dépend beaucoup de l'original : un fichier caméra 4K à débit élevé se réduit énormément, alors qu'une vidéo déjà compressée par une messagerie peut à peine se réduire : l'outil ne peut pas retirer un détail qui n'existe plus. Combinez un niveau avec une résolution plus basse pour le plus gros gain."
+          ],
+          [
+            "Enregistrements d'écran et tutoriels",
+            "Les enregistrements d'écran sont surtout statiques, avec du texte net et peu de pixels qui changent : ils se compressent donc très bien. Gardez la résolution d'origine pour que le texte reste lisible et choisissez « Recommandée » ou « Forte ». Un tutoriel de 10 minutes en 1080p tient souvent dans 25–50 Mo. Si vous n'avez pas besoin de la narration, supprimez le son pour gagner encore 5–10 %."
+          ],
+          [
+            "Pourquoi ne pas compresser la vidéo en ZIP ?",
+            "Les fichiers vidéo sont déjà compressés en interne : les archives ZIP ou RAR ne les réduisent que de 1–2 %. Le vrai gain vient du réencodage de la vidéo à un débit ou une résolution plus bas, ce que fait ce compresseur. Le résultat est un MP4 normal qui se lit directement, sans décompression."
+          ],
+          [
+            "L'audio dans les vidéos compressées",
+            "Quand vous fixez une taille cible, l'audio est encodé à 64–96 kbit/s pour laisser le maximum du budget à l'image : largement suffisant pour la voix et correct pour une musique de fond. Sans taille cible, l'audio est conservé tel quel quand c'est possible. Si votre navigateur n'a pas d'encodeur AAC (certaines versions de Chromium pour Linux), l'audio est enregistré en Opus, lu par tous les navigateurs modernes et la plupart des lecteurs ; choisissez « Supprimer le son » si vous avez besoin d'une compatibilité maximale pour un clip sans audio."
+          ],
+          [
+            "Dépannage",
+            {
+              "table": [
+                [
+                  "Problème",
+                  "Solution"
+                ],
+                [
+                  "« Votre navigateur ne prend pas en charge le traitement vidéo »",
+                  "Mettez à jour vers la dernière version de Chrome, Edge ou Safari 17+."
+                ],
+                [
+                  "Le résultat est plus gros que prévu",
+                  "Baissez la résolution ou utilisez une taille cible."
+                ],
+                [
+                  "Le résultat paraît pixellisé",
+                  "Augmentez la taille cible ou choisissez la qualité « Recommandée »."
+                ],
+                [
+                  "La progression s'arrête sur mobile",
+                  "Gardez l'onglet au premier plan et l'écran allumé."
+                ],
+                [
+                  "Les très gros fichiers échouent",
+                  "Fermez les autres onglets ; pour les fichiers de plusieurs Go, utilisez un ordinateur."
+                ]
+              ]
+            }
+          ],
+          [
+            "Glossaire",
+            [
+              "**Débit :** quantité de données par seconde de vidéo, en Mbit/s ; le principal facteur de la taille du fichier.",
+              "**Résolution :** taille de l'image, p. ex. 1920×1080 (1080p) ou 1280×720 (720p).",
+              "**Codec :** la méthode de compression, p. ex. H.264, HEVC, VP9.",
+              "**Conteneur :** le format de fichier qui contient les pistes, p. ex. MP4, MOV, WebM.",
+              "**WebCodecs :** la technologie du navigateur qui donne aux pages web accès aux encodeurs vidéo matériels."
+            ]
+          ],
+          [
+            "Compresser pour l'e-mail",
+            "La plupart des fournisseurs d'e-mail limitent les pièces jointes à environ 20–25 Mo, et l'encodage des pièces jointes ajoute environ un tiers à la taille en chemin. Pour rester prudent, utilisez le réglage 25 Mo pour Gmail et Outlook seulement si votre fournisseur autorise 25 Mo ; pour une sécurité maximale, utilisez 16 ou 20 Mo. Pour les vidéos plus longues, compressez en 720p ou 480p, ou partagez un lien cloud. Le MP4 compressé s'ouvre directement dans l'app de messagerie ou le navigateur du destinataire, sans logiciel particulier."
+          ],
+          [
+            "Compresser pour Discord, WhatsApp et Telegram",
+            "Les messageries compressent elles-mêmes les vidéos à l'envoi, souvent fortement, ce qui les rend floues. Les compresser au préalable avec des réglages raisonnables vous donne le contrôle : vous choisissez l'équilibre entre netteté et taille, et l'app peut laisser le fichier intact s'il est déjà petit. Utilisez 10 Mo pour les comptes Discord gratuits, 16 Mo comme taille sûre générale pour les messageries, et la résolution 720p. Envoyer le fichier en tant que « document » sur WhatsApp ou Telegram évite aussi sa recompression automatique."
+          ],
+          [
+            "Compresser pour les sites web et les cours en ligne",
+            "Les grosses vidéos ralentissent les pages web et consomment de la bande passante. Pour une vidéo d'arrière-plan ou de produit, du 720p ou 1080p en qualité « Recommandée », sans son pour les boucles muettes, offre un bon équilibre ; la sortie WebM (VP9) est encore plus légère et se lit dans tous les navigateurs modernes. Pour les plateformes de formation à limite d'envoi (souvent 100–500 Mo), utilisez le réglage 100 Mo ou une taille personnalisée. Gardez en 1080p les contenus riches en texte comme les diapositives, pour qu'ils restent lisibles."
+          ],
+          [
+            "Combien d'espace pouvez-vous gagner ?",
+            {
+              "table": [
+                [
+                  "Original",
+                  "Réglages",
+                  "Résultat approx."
+                ],
+                [
+                  "1 min en 4K d'iPhone (≈350 Mo)",
+                  "1080p · Recommandée",
+                  "≈25–40 Mo"
+                ],
+                [
+                  "1 min en 1080p d'Android (≈130 Mo)",
+                  "720p · Recommandée",
+                  "≈10–20 Mo"
+                ],
+                [
+                  "Enregistrement d'écran de 10 min en 1080p (≈200 Mo)",
+                  "Conserver · Forte",
+                  "≈25–40 Mo"
+                ],
+                [
+                  "Clip de 30 s (≈60 Mo)",
+                  "Cible 10 Mo",
+                  "≤10 Mo"
+                ]
+              ]
+            },
+            "Ces chiffres sont indicatifs ; les tailles réelles dépendent du contenu et de l'encodeur de votre appareil."
+          ],
+          [
+            "Résolution : quand la réduire",
+            "Les téléphones affichent la vidéo sur des écrans d'environ 6 pouces, où le 720p est déjà net ; les portables profitent du 1080p, et seuls les téléviseurs et grands moniteurs ont vraiment besoin de la 4K. Pour le partage, passer de la 4K au 1080p réduit les pixels des trois quarts, et du 1080p au 720p de plus de moitié : le moyen le plus efficace de réduire la taille tout en gardant une image propre. Réduire la résolution donne aussi à l'encodeur plus de bits par pixel : les détails fins et le mouvement paraissent meilleurs que dans un fichier en pleine résolution compressé à la même taille. Gardez la résolution d'origine pour les enregistrements d'écran avec du petit texte ou les rushes à monter plus tard ; pour tout le reste, le 720p ou le 1080p est le choix pratique."
+          ],
+          [
+            "Avant et après : vérifier le résultat",
+            "Après la compression, la taille avant et après et le pourcentage gagné s'affichent, et un lecteur d'aperçu vous permet de voir le résultat. Regardez les mouvements rapides, les textures fines comme l'herbe ou les cheveux et les scènes sombres, où la compression se remarque d'abord par des blocs ou des bandes. Si vous voyez des problèmes, recompressez avec une cible plus grande ou un meilleur niveau de qualité : recompresser depuis l'original, et non depuis le résultat déjà compressé, garde la meilleure qualité. Comme le traitement est local, recommencer ne coûte que quelques secondes ou minutes, pas un nouvel envoi."
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. Le fichier est lu depuis votre disque, décodé et réencodé sur votre propre appareil avec le moteur multimédia intégré du navigateur (WebCodecs et Web Audio) et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : vidéos de famille, interviews, mémos vocaux, réunions et contenus inédits ne quittent jamais votre ordinateur ou votre téléphone. La vitesse d'envoi ne ralentit pas non plus les gros fichiers : une vidéo de 1 Go commence à être traitée immédiatement, et non après dix minutes d'envoi."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Couper une vidéo](/trim-video/) : supprimez les parties inutiles.",
+              "[Couper le son d'une vidéo](/mute-video/) : retirez la piste audio.",
+              "[MOV en MP4](/mov-to-mp4/) : convertissez les vidéos d'iPhone.",
+              "[MP4 en MP3](/mp4-to-mp3/) : extrayez l'audio.",
+              "[Vidéo en GIF](/video-to-gif/) : créez un GIF à partir d'un clip."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Limite de taille de l'offre gratuite",
+            "Seulement la mémoire de l'appareil",
+            "Voir le site",
+            "500 Mo",
+            "1 Go"
+          ],
+          [
+            "Compresser à une taille cible",
+            "Oui (préréglages + personnalisée)",
+            "Oui (« taille de fichier souhaitée »)",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Filigrane sur le résultat gratuit",
+            "Non",
+            "Voir le site",
+            "Premium retire le filigrane",
+            "Voir le site"
+          ],
+          [
+            "Choix de la résolution",
+            "1080p / 720p / 480p / conserver",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Par lots",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment compresser une vidéo gratuitement ?",
+            "a": "Déposez la vidéo, choisissez une taille cible ou une qualité, cliquez sur Compresser et téléchargez. Sans inscription et sans filigrane."
+          },
+          {
+            "q": "Ma vidéo est-elle envoyée ?",
+            "a": "Non. Elle est compressée sur votre appareil avec l'encodeur vidéo du navigateur."
+          },
+          {
+            "q": "Puis-je compresser à une taille exacte comme 25 Mo ?",
+            "a": "Oui. Choisissez une taille cible prédéfinie ou saisissez-en une ; le résultat atteint cette taille ou juste en dessous."
+          },
+          {
+            "q": "De combien ma vidéo sera-t-elle réduite ?",
+            "a": "En général de 60 à 90 % pour les vidéos de téléphone, selon les réglages et le contenu."
+          },
+          {
+            "q": "La compression réduit-elle la qualité ?",
+            "a": "Un peu, mais avec les réglages recommandés la différence se remarque à peine sur téléphone et portable."
+          },
+          {
+            "q": "Quel format choisir ?",
+            "a": "MP4 (H.264) pour une compatibilité maximale ; WebM (VP9) pour des fichiers plus légers sur le web."
+          },
+          {
+            "q": "Y a-t-il une limite de taille de fichier ?",
+            "a": "Pas de limite fixe. Les très gros fichiers dépendent de la mémoire de votre appareil."
+          },
+          {
+            "q": "Puis-je compresser plusieurs vidéos à la fois ?",
+            "a": "Oui. Déposez plusieurs fichiers ; ils sont traités l'un après l'autre."
+          },
+          {
+            "q": "Pourquoi l'outil dit-il que ma cible est trop petite ?",
+            "a": "La vidéo est trop longue pour cette taille. Choisissez une cible plus grande, une résolution plus basse ou coupez la vidéo."
+          },
+          {
+            "q": "Quels navigateurs sont compatibles ?",
+            "a": "Chrome, Edge et Opera actuels, Safari 17+ et Firefox récent avec prise en charge de WebCodecs."
+          }
+        ],
+        "related": [
+          "trim-video",
+          "mute-video",
+          "mov-to-mp4",
+          "mp4-to-mp3",
+          "video-to-gif"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment réduire la taille d'un fichier vidéo ?",
+            "a": "Déposez la vidéo et choisissez une taille cible comme 10 ou 25 Mo, ou un niveau de qualité. Passer en 720p est l'étape la plus efficace pour les grosses vidéos de téléphone."
+          },
+          {
+            "q": "Comment compresser une vidéo pour l'envoyer par e-mail ?",
+            "a": "La plupart des services d'e-mail limitent les pièces jointes à 20–25 Mo. Choisissez une cible de 20 Mo et une résolution 720p ou 480p."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "tools": {
+    "deletepages": {
+      "name": "Supprimer des pages d'un PDF",
+      "short": "Retirez les pages indésirables d'un PDF.",
+      "title": "Supprimer des pages d'un PDF en ligne gratuit – Retirer des pages | {brand}",
+      "desc": "Retirez des pages d'un PDF en touchant leurs miniatures. Gratuit, sans envoi ni filigrane : un nouveau PDF propre est créé sur votre appareil.",
+      "h1": "Supprimer des pages d'un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Touchez les pages à retirer.",
+        "Cliquez sur Démarrer et téléchargez le PDF."
+      ],
+      "faq": [
+        {
+          "q": "Le fichier d'origine est-il modifié ?",
+          "a": "Non. Un nouveau PDF est créé sur votre appareil ; l'original reste intact."
+        }
+      ],
+      "guide": {
+        "intro": "Les scans vierges, les pages en double, les annexes périmées ou les pages contenant des données personnelles doivent souvent disparaître avant de partager un document. {brand} affiche chaque page en miniature pour que vous voyiez exactement ce que vous retirez, et crée le nouveau fichier en local.",
+        "uses": [
+          "Retirer les pages blanches laissées par un scanner recto verso.",
+          "Supprimer les pages de publicité ou les couvertures d'un rapport téléchargé.",
+          "Retirer les pages contenant des informations personnelles avant d'envoyer un document à des tiers.",
+          "Alléger un long manuel pour ne garder que les sections vraiment utiles."
+        ],
+        "tips": [
+          "Agrandissez les miniatures quand les pages se ressemblent.",
+          "Votre fichier d'origine n'est jamais modifié : gardez-le jusqu'à avoir vérifié le résultat.",
+          "Pour garder quelques pages plutôt que d'en supprimer beaucoup, Extraire des pages d'un PDF est plus rapide."
+        ],
+        "faq": [
+          {
+            "q": "Supprimer des pages réduit-il la taille du fichier ?",
+            "a": "En général oui, car le contenu des pages supprimées n'est pas copié dans le nouveau fichier. Passez ensuite Compresser un PDF pour gagner encore plus."
+          }
+        ],
+        "more": [
+          [
+            "Un seul outil pour nettoyer les pages",
+            "Au lieu d'utiliser des outils séparés pour faire pivoter, supprimer et réorganiser les pages, Organiser un PDF affiche tout le document sous forme de grille de pages. Faites toutes les modifications d'un coup et exportez un seul PDF propre."
+          ],
+          [
+            "Flux de nettoyage typique",
+            "Numérisez un lot de documents, supprimez les pages blanches, redressez celles qui sont de travers, faites glisser les pages pour les remettre dans l'ordre et exportez. Ensuite, compressez le résultat si vous devez l'envoyer par e-mail."
+          ],
+          [
+            "Fonctionne sur tous les appareils",
+            "Les miniatures sont générées dans votre navigateur : même les gros PDF peuvent être réorganisés sur un ordinateur portable, une tablette ou un téléphone sans être envoyés sur un serveur."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Supprimer des pages d'un PDF – Gratuit et sans envoi",
+        "desc": "Supprimez des pages d'un PDF : cliquez sur les miniatures, saisissez des plages (2,5-8) ou repérez les pages blanches. Annuler. Gratuit et privé.",
+        "sections": [
+          [
+            "Retirez les pages en trop en quelques clics",
+            "Piles numérisées avec des versos blancs, rapports avec une annexe périmée, contrat à envoyer sans la page de garde interne : retirer des pages est l'une des tâches PDF les plus courantes. {brand} affiche chaque page en miniature pour que vous voyiez exactement ce que vous supprimez, et tout fonctionne dans votre navigateur : le document n'est jamais envoyé."
+          ],
+          [
+            "Trois façons de choisir les pages",
+            [
+              "**Cliquez sur les miniatures** : touchez une page pour la marquer à supprimer ; touchez-la à nouveau pour la garder.",
+              "**Saisissez une plage** : entrez 2,5-8 et cliquez sur Marquer les pages pour sélectionner beaucoup de pages d'un coup.",
+              "**Marquer les pages blanches** : repère automatiquement les pages vides (fréquentes dans les scans recto verso) et les marque.",
+              "**Annuler** : revenez sur vos marquages si vous changez d'avis.",
+              "**Faire pivoter ou réorganiser en même temps** : chaque miniature a des boutons pour pivoter et déplacer, vous pouvez donc remettre de l'ordre dans la même étape."
+            ]
+          ],
+          [
+            "Comment supprimer des pages d'un PDF",
+            [
+              "Déposez votre PDF sur la page et attendez l'affichage des miniatures.",
+              "Cliquez sur les pages à retirer, saisissez une plage ou cliquez sur Marquer les pages blanches.",
+              "Vérifiez le compteur qui indique combien de pages sont marquées.",
+              "Cliquez sur Supprimer les pages et téléchargez le nouveau PDF. L'original sur votre disque ne change pas."
+            ]
+          ],
+          [
+            "Sans perte et sûr",
+            "Les pages restantes sont copiées telles quelles dans un nouveau PDF : pas de nouveau rendu, pas de perte de qualité, texte sélectionnable et liens fonctionnels. Les pages supprimées disparaissent vraiment du nouveau fichier, elles ne sont pas masquées : vous pouvez le partager sans divulguer le contenu effacé."
+          ],
+          [
+            "Comment les pages blanches sont détectées",
+            "Les pixels sombres de la miniature de chaque page sont analysés. Les pages presque vierges (entièrement blanches ou avec seulement de la poussière de scanner) sont marquées. Les pages avec un en-tête pâle ou un numéro de page sont conservées, pour ne pas effacer des pages volontairement presque vides. Jetez toujours un œil aux miniatures marquées avant d'enregistrer."
+          ],
+          [
+            "Supprimer, extraire ou diviser ?",
+            {
+              "table": [
+                [
+                  "Vous voulez…",
+                  "Utilisez"
+                ],
+                [
+                  "Retirer quelques pages et garder le reste",
+                  "Supprimer des pages d'un PDF (cet outil)"
+                ],
+                [
+                  "Ne garder que quelques pages",
+                  "[Extraire des pages d'un PDF](/extract-pdf-pages/)"
+                ],
+                [
+                  "Couper le document en plusieurs fichiers",
+                  "[Diviser un PDF](/split-pdf/)"
+                ],
+                [
+                  "Réorganiser, faire pivoter et supprimer à la fois",
+                  "[Organiser un PDF](/organize-pdf/)"
+                ]
+              ]
+            }
+          ],
+          [
+            "Usages courants",
+            [
+              "Retirer les versos blancs des scans recto verso.",
+              "Enlever les notes internes avant d'envoyer un document à un client.",
+              "Supprimer les annexes périmées des rapports.",
+              "Retirer les pages de publicité des relevés téléchargés.",
+              "Alléger un fichier en retirant les pages dont personne n'a besoin, avant [Compresser un PDF](/compress-pdf/)."
+            ]
+          ],
+          [
+            "Travailler avec de gros documents",
+            "Les miniatures sont générées sur votre appareil : quelques centaines de pages se chargent en quelques secondes sur un ordinateur portable récent. Saisir une plage est le moyen le plus rapide de retirer de gros blocs, comme 120-180, sans faire défiler toutes les miniatures."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Clic sur les miniatures + plages saisies",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Détection automatique des pages blanches",
+            "Oui",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Annuler",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment supprimer des pages d'un PDF ?",
+            "a": "Déposez le PDF, cliquez sur les pages à retirer (ou saisissez une plage), puis cliquez sur Supprimer les pages et téléchargez."
+          },
+          {
+            "q": "Puis-je supprimer plusieurs pages à la fois ?",
+            "a": "Oui. Saisissez une plage comme 2,5-8 ou cliquez sur autant de miniatures que vous voulez."
+          },
+          {
+            "q": "Peut-il retirer automatiquement les pages blanches ?",
+            "a": "Oui. Cliquez sur Marquer les pages blanches pour sélectionner les pages vides, vérifiez-les et supprimez-les."
+          },
+          {
+            "q": "Puis-je annuler ?",
+            "a": "Oui. Utilisez Annuler pour revenir aux marquages précédents ou cliquez sur une miniature marquée pour la garder."
+          },
+          {
+            "q": "Supprimer des pages réduit-il la qualité ?",
+            "a": "Non. Les pages restantes sont copiées sans modification."
+          },
+          {
+            "q": "Mon PDF est-il envoyé ?",
+            "a": "Non. Tout se passe dans votre navigateur."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui, sans filigrane, limites ni inscription."
+          },
+          {
+            "q": "Puis-je supprimer des pages depuis mon téléphone ?",
+            "a": "Oui. Touchez les miniatures dans le navigateur de n'importe quel téléphone ou tablette."
+          },
+          {
+            "q": "Les pages supprimées disparaissent-elles vraiment ?",
+            "a": "Oui. Elles ne sont pas du tout incluses dans le nouveau fichier."
+          }
+        ],
+        "related": [
+          "extract-pdf-pages",
+          "organize-pdf",
+          "split-pdf",
+          "merge-pdf",
+          "compress-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment retirer des pages d'un PDF ?",
+            "a": "Ouvrez le PDF, touchez les miniatures des pages indésirables (ou saisissez des plages comme 2,5-8) et téléchargez le nouveau fichier. Les pages blanches peuvent être marquées automatiquement."
+          },
+          {
+            "q": "Puis-je supprimer des pages d'un PDF gratuitement ?",
+            "a": "Oui, sans compte, filigrane ni limite de pages ; les pages sont supprimées sur votre appareil."
+          }
+        ]
+      }
+    }
+  }
+}

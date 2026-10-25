@@ -1,0 +1,212 @@
+{
+  "tools": {
+    "removemeta": {
+      "name": "Supprimer les métadonnées PDF",
+      "short": "Supprimez l'auteur, le titre et les données cachées.",
+      "title": "Supprimer les métadonnées PDF en ligne gratuit – Données cachées",
+      "desc": "Supprimez auteur, logiciel, dates, XMP et autres métadonnées cachées de vos PDF avant partage. En option, pièces jointes et scripts. Gratuit.",
+      "h1": "Supprimer les métadonnées PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez si vous voulez aussi supprimer pièces jointes et scripts.",
+        "Téléchargez le PDF nettoyé."
+      ],
+      "faq": [
+        {
+          "q": "Qu'est-ce qui est supprimé ?",
+          "a": "Les informations du document (titre, auteur, sujet, mots-clés, créateur, producteur, dates), les métadonnées XMP et PieceInfo : des données d'édition privées que des logiciels comme Adobe Illustrator stockent dans le fichier et ses pages."
+        }
+      ],
+      "guide": {
+        "intro": "Les PDF peuvent révéler plus que vous ne pensez : le nom de l'auteur, le logiciel utilisé, les dates de création et parfois des pièces jointes. Supprimer les métadonnées est une étape de confidentialité simple avant d'envoyer des documents à des clients, de les publier ou de soumettre des travaux anonymes.",
+        "uses": [
+          "Anonymiser des documents pour une relecture par les pairs en aveugle.",
+          "Retirer votre nom de fichiers créés sur un ordinateur professionnel.",
+          "Nettoyer des détails internes avant de publier un PDF."
+        ],
+        "tips": [
+          "Vérifiez aussi le contenu visible : supprimer les métadonnées ne change pas le texte des pages.",
+          "Utilisez Caviarder un PDF pour le texte sensible de la page."
+        ],
+        "faq": [
+          {
+            "q": "Qu'est-ce qui est supprimé exactement ?",
+            "a": "Les informations du document (titre, auteur, sujet, mots-clés, créateur, producteur, dates), les métadonnées XMP et PieceInfo : des données d'édition privées que des logiciels comme Adobe Illustrator stockent dans le fichier et ses pages."
+          }
+        ],
+        "more": [
+          [
+            "Données cachées dans les PDF",
+            "Les métadonnées peuvent révéler le nom de l'auteur, l'organisation, les versions de logiciel, les durées d'édition et les chemins d'origine des fichiers. Journalistes, avocats et chercheurs les suppriment avant de publier des documents ou de les soumettre à une relecture anonyme."
+          ],
+          [
+            "Ce qui reste identique",
+            "Le contenu des pages, le texte, les images, les liens et la mise en page ne changent pas : seules les données descriptives cachées sont supprimées, le document a donc exactement le même aspect."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Supprimer les métadonnées PDF – Auteur, titre et XMP gratuit",
+        "desc": "Supprimez les métadonnées cachées d'un PDF (auteur, titre, sujet, mots-clés, logiciel, dates et XMP) ainsi que pièces jointes et scripts. Gratuit et privé.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Adobe",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Adobe Acrobat online"
+        ],
+        "sections": [
+          [
+            "Supprimez les métadonnées d'un PDF",
+            "Tout PDF peut contenir des informations cachées : le nom de l'auteur, l'entreprise, le logiciel et sa version, les dates de création et de modification, des mots-clés et tout un paquet de métadonnées XMP. Avant de publier un document ou de l'envoyer hors de votre organisation, supprimez-les. En option, retirez aussi les pièces jointes et les scripts."
+          ],
+          [
+            "Mode d'emploi",
+            {
+              "steps": [
+                "Faites glisser le PDF.",
+                "Cochez Supprimer aussi pièces jointes et scripts pour un nettoyage maximal.",
+                "Téléchargez le PDF nettoyé : le rapport indique ce qui a été supprimé."
+              ]
+            }
+          ],
+          [
+            "Ce que les métadonnées d'un PDF peuvent révéler",
+            {
+              "list": [
+                "**Auteur** : souvent votre nom complet ou votre nom d'utilisateur Windows.",
+                "**Créateur / Producteur** : p. ex. Microsoft Word 2021 ou un modèle de scanner.",
+                "**Dates** : quand le document a vraiment été créé et modifié pour la dernière fois.",
+                "**Titre et sujet** : parfois un ancien titre interne ou le nom d'un brouillon.",
+                "**Paquet XMP** : peut inclure l'historique d'édition, des identifiants de document et des informations sur l'entreprise.",
+                "**Pièces jointes** : fichiers sources ou tableurs intégrés que vous aviez oubliés."
+              ]
+            }
+          ],
+          [
+            "Quand supprimer les métadonnées",
+            "Avant de publier sur un site, de répondre à un appel d'offres ou à une offre d'emploi, d'envoyer des documents à la partie adverse, une relecture anonyme, un signalement interne ou de partager des documents dans une boutique en ligne. Journalistes et avocats suppriment systématiquement les métadonnées dans le cadre de leur hygiène documentaire. N'oubliez pas que les métadonnées ne sont qu'une couche : le texte visible, les commentaires et les calques cachés peuvent aussi divulguer des informations. Utilisez le [Nettoyeur PDF](/pdf-cleaner/) pour un nettoyage plus poussé et [Caviarder un PDF](/redact-pdf/) pour supprimer du contenu visible."
+          ],
+          [
+            "Modifier plutôt que supprimer",
+            "Si vous voulez remplacer les métadonnées par vos propres valeurs (par exemple un titre adapté au SEO), utilisez [Modifier les métadonnées PDF](/edit-pdf-metadata/). Pour les photos, l'équivalent est [Supprimer les données EXIF](/remove-exif-data/)."
+          ],
+          [
+            "Fonctionne avec presque tous les PDF",
+            "L'outil ouvre les PDF issus de Word, Google Docs, LibreOffice, scanners, téléphones et logiciels de design, y compris les fichiers PDF 1.0–2.0 avec formulaires, annotations et polices intégrées. Les fichiers protégés par un mot de passe d'*ouverture* doivent d'abord être déverrouillés avec [Déverrouiller un PDF](/unlock-pdf/) (le mot de passe est nécessaire) ; ceux qui n'ont que des restrictions d'autorisations s'ouvrent généralement directement. Les gros documents de centaines de pages fonctionnent aussi : la limite est la mémoire de votre appareil, généralement plusieurs centaines de mégaoctets sur un ordinateur portable et environ 100 Mo sur un téléphone."
+          ],
+          [
+            "Windows, Mac, iPhone et Android",
+            "Rien à installer. Fonctionne dans Chrome, Edge, Firefox et Safari sous Windows, macOS, Linux, ChromeOS, Android et iOS. Sur mobile, touchez la zone de dépôt et choisissez le fichier dans Fichiers, Google Drive ou les téléchargements de votre messagerie ; le résultat est enregistré dans Téléchargements ou dans l'app Fichiers et peut être partagé directement via WhatsApp, Gmail ou Drive."
+          ],
+          [
+            "Problèmes courants et solutions",
+            {
+              "list": [
+                "**« Le fichier est chiffré »** : retirez le mot de passe d'ouverture avec Déverrouiller un PDF et réessayez.",
+                "**Le fichier est un fichier cloud fantôme** : téléchargez-le d'abord entièrement depuis OneDrive, iCloud ou Drive.",
+                "**Un téléchargement endommagé ou incomplet** : passez-le dans [Réparer un PDF](/repair-pdf/).",
+                "**Très lent sur mobile** : les gros PDF scannés demandent beaucoup de mémoire ; fermez les autres onglets ou divisez d'abord le fichier avec [Diviser un PDF](/split-pdf/).",
+                "**Le téléchargement n'a pas démarré** : certains navigateurs intégrés aux applications (Instagram, Facebook) bloquent les téléchargements ; ouvrez la page dans Chrome ou Safari."
+              ]
+            }
+          ],
+          [
+            "Combinez-le avec d'autres outils PDF",
+            "La plupart des tâches demandent plus d'une étape, et tous les outils Fileopia fonctionnent de la même façon : vous pouvez les enchaîner sans rien envoyer. Un flux typique : scannez ou convertissez les pages, [fusionnez-les](/merge-pdf/) en un seul fichier, ordonnez-les avec [Organiser un PDF](/organize-pdf/), rendez le texte scanné cherchable avec l'OCR, ajoutez des [numéros de page](/add-page-numbers/) et enfin [compressez](/compress-pdf/) le résultat pour l'envoyer par e-mail. Chaque étape télécharge un nouveau fichier et laisse l'original intact : vous pouvez toujours revenir en arrière et essayer d'autres réglages. Astuce : donnez à chaque résultat un nom clair comme *contrat-signe-compresse.pdf* pour distinguer les versions plus tard."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet de votre navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Sans envoi : s'exécute sur votre appareil",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Rapport des éléments supprimés",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Gratuit sans inscription",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment supprimer les métadonnées d'un PDF ?",
+            "a": "Déposez-le ici et téléchargez le fichier nettoyé."
+          },
+          {
+            "q": "Quelles métadonnées sont supprimées ?",
+            "a": "Auteur, titre, sujet, mots-clés, créateur, producteur, dates et XMP."
+          },
+          {
+            "q": "Le contenu change-t-il ?",
+            "a": "Non, les pages ne sont pas touchées."
+          },
+          {
+            "q": "Puis-je aussi supprimer les pièces jointes ?",
+            "a": "Oui, cochez l'option."
+          },
+          {
+            "q": "Comment consulter d'abord les métadonnées ?",
+            "a": "Ouvrez Modifier les métadonnées PDF pour les voir."
+          },
+          {
+            "q": "Est-ce la même chose que caviarder ?",
+            "a": "Non, le caviardage supprime du contenu visible."
+          },
+          {
+            "q": "Les commentaires sont-ils supprimés ?",
+            "a": "Utilisez le Nettoyeur PDF pour les commentaires et autres données cachées."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui."
+          },
+          {
+            "q": "Les fichiers sont-ils envoyés ?",
+            "a": "Non, ce qui compte pour les documents confidentiels."
+          },
+          {
+            "q": "Ça marche sur iPhone ?",
+            "a": "Oui."
+          }
+        ],
+        "related": [
+          "pdf-cleaner",
+          "edit-pdf-metadata",
+          "redact-pdf",
+          "remove-exif-data",
+          "optimize-pdf-for-web"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

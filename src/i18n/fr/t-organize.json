@@ -1,0 +1,329 @@
+{
+  "tools": {
+    "organize": {
+      "name": "Organiser un PDF",
+      "short": "Réordonnez, faites pivoter, supprimez et extrayez des pages visuellement.",
+      "title": "Organiser les pages d'un PDF en ligne gratuit – Trier et pivoter | {brand}",
+      "desc": "Réordonnez les pages d'un PDF par glisser-déposer, faites pivoter ou supprimez des pages et extrayez des sélections. Gratuit, privé et sans envoi.",
+      "h1": "Organiser les pages d'un PDF",
+      "steps": [
+        "Sélectionnez votre PDF pour voir les miniatures des pages.",
+        "Faites glisser les pages pour les réordonner ; faites pivoter, supprimez ou sélectionnez des pages.",
+        "Cliquez sur Démarrer et téléchargez le nouveau PDF."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je réordonner des pages sur mobile ?",
+          "a": "Oui. Utilisez les boutons ← et → de chaque miniature ; le glisser-déposer fonctionne sur ordinateur."
+        }
+      ],
+      "guide": {
+        "intro": "Organiser un PDF affiche chaque page en miniature pour que vous puissiez réordonner, faire pivoter et supprimer des pages visuellement : idéal pour remettre en ordre des lots scannés.",
+        "uses": [
+          "Corriger des pages scannées dans le mauvais ordre.",
+          "Supprimer des pages blanches ou en double."
+        ],
+        "tips": [
+          "Sur mobile, utilisez les boutons fléchés de chaque miniature."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Un seul outil pour nettoyer les pages",
+            "Au lieu d'utiliser des outils séparés pour faire pivoter, supprimer et réorganiser les pages, Organiser un PDF affiche tout le document sous forme de grille de pages. Faites toutes les modifications d'un coup et exportez un seul PDF propre."
+          ],
+          [
+            "Flux de nettoyage typique",
+            "Numérisez un lot de documents, supprimez les pages blanches, redressez celles qui sont de travers, faites glisser les pages pour les remettre dans l'ordre et exportez. Ensuite, compressez le résultat si vous devez l'envoyer par e-mail."
+          ],
+          [
+            "Fonctionne sur tous les appareils",
+            "Les miniatures sont générées dans votre navigateur : même les gros PDF peuvent être réorganisés sur un ordinateur portable, une tablette ou un téléphone sans être envoyés sur un serveur."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Organiser un PDF – Trier, pivoter, supprimer des pages",
+        "desc": "Organisez un PDF : glissez les miniatures pour réordonner, pivotez, supprimez, dupliquez, insérez des pages blanches, inversez l'ordre. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Sejda",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Sejda"
+        ],
+        "sections": [
+          [
+            "Organisez visuellement les pages d'un PDF",
+            "Organiser un PDF vous permet de réordonner les pages d'un document comme vous mélangeriez des feuilles sur une table. Déposez un PDF et chaque page apparaît en miniature. Faites glisser une page à un nouvel emplacement, faites-la pivoter, supprimez-la, dupliquez-la ou insérez une page blanche après elle, puis enregistrez un nouveau PDF avec les pages exactement dans l'ordre voulu. Le fichier d'origine n'est jamais modifié : vous téléchargez toujours une nouvelle copie.",
+            "C'est la solution la plus rapide aux problèmes PDF les plus courants : un scanner qui a mis les pages dans le mauvais ordre, un rapport avec l'annexe au milieu, une page couchée dans un contrat par ailleurs droit, ou un fichier qui a besoin d'une page blanche avant chaque section pour bien s'imprimer en recto verso."
+          ],
+          [
+            "Ce que vous pouvez faire avec chaque page",
+            {
+              "list": [
+                "**Déplacer** : faites glisser la miniature ou utilisez les boutons ← et → pour la décaler d'une position avec précision sur écran tactile.",
+                "**Faire pivoter** : faites pivoter une page de 90° à chaque fois ; la rotation est enregistrée définitivement dans le fichier.",
+                "**Supprimer** : marquez une page avec ✕ pour l'exclure du résultat (touchez-la à nouveau pour la récupérer).",
+                "**Sélectionner** : cochez des pages puis dupliquez-les ou enregistrez seulement la sélection.",
+                "**Dupliquer la sélection** : crée une copie d'une page juste après elle, utile pour les formulaires dont vous avez besoin en double.",
+                "**Insérer une page blanche** : ajoute une page vide de la même taille que la première après la première page sélectionnée (ou à la fin).",
+                "**Inverser l'ordre** : retourne tout le document, idéal pour les scans qui ont commencé par la dernière page.",
+                "**Tout faire pivoter** : fait pivoter toutes les pages à la fois quand tout un scan est sorti couché."
+              ]
+            }
+          ],
+          [
+            "Comment organiser les pages d'un PDF gratuitement",
+            {
+              "steps": [
+                "Déposez votre PDF sur la page ou touchez-la pour le choisir. Les miniatures sont générées sur votre appareil.",
+                "Faites glisser les pages dans le nouvel ordre. Utilisez Inverser l'ordre ou Tout faire pivoter pour des corrections rapides sur tout le document.",
+                "Supprimez, faites pivoter, dupliquez ou insérez des pages blanches selon vos besoins.",
+                "Choisissez d'enregistrer toutes les pages conservées ou seulement celles sélectionnées, appuyez sur le bouton et téléchargez le PDF organisé."
+              ]
+            }
+          ],
+          [
+            "Remettre en ordre un document scanné",
+            "Les documents recto verso scannés sur un chargeur recto seul sont un problème classique : tous les rectos sortent d'abord, puis tous les versos en ordre inverse. Pour remettre en ordre un tel PDF, utilisez Inverser l'ordre sur une copie contenant les versos, puis fusionnez et intercalez-les, ou faites simplement glisser les pages à leur place ici si le document est court. Pour les longs scans, le plus rapide est de combiner l'outil [Fusionner des PDF](/merge-pdf/) avec cet organisateur.",
+            "Si des pages sont à l'envers, faites-les pivoter de 180°. Si une page est de travers plutôt que tournée, [Redresser un PDF](/deskew-pdf/) la redresse automatiquement."
+          ],
+          [
+            "Organiser un PDF ou d'autres outils de pages",
+            {
+              "table": [
+                [
+                  "Tâche",
+                  "Meilleur outil"
+                ],
+                [
+                  "Changer l'ordre, faire pivoter et supprimer en une fois",
+                  "Organiser un PDF (cette page)"
+                ],
+                [
+                  "Supprimer beaucoup de pages par numéro",
+                  "[Supprimer des pages d'un PDF](/delete-pdf-pages/)"
+                ],
+                [
+                  "Ne garder que certaines pages",
+                  "[Extraire des pages d'un PDF](/extract-pdf-pages/)"
+                ],
+                [
+                  "Découper un PDF en plusieurs fichiers",
+                  "[Diviser un PDF](/split-pdf/)"
+                ],
+                [
+                  "Combiner plusieurs PDF",
+                  "[Fusionner des PDF](/merge-pdf/)"
+                ],
+                [
+                  "Faire pivoter définitivement des pages selon une règle (impaires/paires/paysage)",
+                  "[Faire pivoter un PDF](/rotate-pdf/)"
+                ]
+              ]
+            }
+          ],
+          [
+            "Pages blanches pour l'impression recto verso",
+            "En recto verso, chaque chapitre commence généralement sur une page de droite (impaire). Si une section se termine sur une page impaire, insérez une page blanche après elle pour que la section suivante commence au recto d'une nouvelle feuille. La page blanche reprend la taille de votre première page : elle correspond au document. Les pages blanches servent aussi quand il faut de la place pour des notes manuscrites ou un tampon."
+          ],
+          [
+            "Qualité et éléments conservés",
+            "Les pages sont copiées, pas rendues à nouveau. Le texte reste sélectionnable et cherchable, les images gardent leur résolution d'origine et les polices restent intégrées : le PDF organisé a exactement le même aspect que l'original. La plupart des lecteurs conservent les liens et les champs de formulaire des pages copiées ; les signets du document qui pointaient vers l'ancien ordre ne sont pas reconstruits, ajoutez-en donc de nouveaux avec [Modifier les signets](/pdf-bookmark-editor/) si besoin."
+          ],
+          [
+            "Gros documents",
+            "Les miniatures sont dessinées en basse résolution pour que tout reste rapide : un PDF de 200 pages reste confortable sur un ordinateur portable. Sur mobile, les très longs fichiers mettent plus de temps à s'afficher ; si vous n'avez qu'à réordonner quelques pages du début, pas de problème, mais pour les gros travaux un ordinateur est plus pratique. Il n'y a pas de limite de pages ni de taille au-delà de la mémoire de votre appareil."
+          ],
+          [
+            "PDF protégés par mot de passe",
+            "Si un PDF vous demande un mot de passe à l'ouverture, déverrouillez-le d'abord avec [Déverrouiller un PDF](/unlock-pdf/) (vous devez connaître le mot de passe), puis organisez la copie déverrouillée. Les fichiers qui ne restreignent que l'impression ou la modification s'ouvrent généralement sans problème."
+          ],
+          [
+            "Exemple pratique : corriger un rapport de 12 pages en désordre",
+            "Imaginez qu'un collègue ait scanné un rapport de 12 pages et qu'elles soient sorties dans l'ordre 1, 2, 3, 7, 8, 9, 4, 5, 6, 10, 11, 12, avec la page 8 à l'envers. Déposez le fichier et les miniatures montrent le problème d'un coup d'œil. Faites glisser le bloc des pages 4–6 pour qu'il se place après la 3 : sur ordinateur, faites glisser chaque miniature à la position voulue ; sur mobile, touchez trois fois le bouton ← de la page 4 et recommencez avec la 5 et la 6. Touchez ↻ deux fois sur la page 8 pour la faire pivoter de 180°. Enfin, si le rapport a besoin d'une quatrième de couverture blanche pour bien s'imprimer en recto verso, sélectionnez la page 12 et appuyez sur *Insérer une page blanche*. Enregistrez et vous avez un PDF propre et bien ordonné en moins d'une minute, sans rien installer."
+          ],
+          [
+            "Conseils pour aller vite",
+            {
+              "list": [
+                "Réduisez le zoom du navigateur (Ctrl/Cmd et −) pour voir plus de miniatures à la fois en réordonnant de longs fichiers.",
+                "Utilisez d'abord Inverser l'ordre quand un scan est entièrement à l'envers, puis ajustez quelques pages en les faisant glisser.",
+                "Tout faire pivoter est plus rapide que faire pivoter chaque page quand tout un scan est couché ; refaites ensuite pivoter les quelques pages qui étaient déjà droites.",
+                "Cochez des pages et passez le résultat à *Pages sélectionnées seulement* pour créer un court extrait dans un nouvel ordre, par exemple les pages 9, 2 et 5, dans cette séquence.",
+                "Les pages supprimées restent visibles avec un ✕ jusqu'à l'enregistrement : vous pouvez changer d'avis ; touchez-les à nouveau pour les récupérer."
+              ]
+            }
+          ],
+          [
+            "Questions fréquentes sur l'ordre des pages d'un PDF",
+            "Un PDF stocke les pages sous forme de liste ordonnée, et réorganiser consiste simplement à écrire cette liste dans un nouvel ordre. C'est pourquoi l'opération est rapide et sans perte. Les libellés de page (la numérotation personnalisée affichée par certains lecteurs, comme *i, ii, iii* dans les pages liminaires) ne changent pas, et les numéros de page imprimés qui font partie du contenu restent tels quels : si vous déplacez la page 7 au début, elle affichera toujours *7* en pied de page. Pour renuméroter, utilisez [Numéroter les pages](/add-page-numbers/) après l'organisation, de préférence sur une version sans les anciens numéros imprimés."
+          ],
+          [
+            "Organiser plusieurs PDF ensemble",
+            "Cet outil traite un PDF à la fois. Pour combiner des pages de différents fichiers en un document ordonné, fusionnez-les d'abord avec [Fusionner des PDF](/merge-pdf/) (PDF et images acceptés), puis ouvrez ici le fichier fusionné pour faire glisser chaque page à sa place définitive. Cette méthode en deux étapes est la plus souple pour monter des dossiers de candidature, des portfolios et des recueils de pièces à partir de nombreuses sources."
+          ],
+          [
+            "Qui utilise un organisateur de pages PDF",
+            {
+              "list": [
+                "**Le personnel de bureau** qui remet en ordre contrats scannés, bons de livraison et formulaires RH avant de les archiver.",
+                "**Les élèves et les enseignants** qui réordonnent cours, fiches d'exercices et examens.",
+                "**Les avocats et assistants juridiques** qui classent les pièces dans l'ordre où elles sont citées.",
+                "**Les graphistes et imprimeurs** qui insèrent des pages blanches pour que les doubles pages et les sections tombent du bon côté.",
+                "**Tout le monde**, pour nettoyer un scan fait au téléphone où une page a été photographiée deux fois ou dans le désordre."
+              ]
+            }
+          ],
+          [
+            "Organiser les pages d'un PDF en ligne ou avec un logiciel de bureau",
+            "Les éditeurs de bureau, comme les suites PDF payantes, peuvent aussi réordonner les pages, mais il faut les installer, ils demandent souvent un abonnement et, sur les ordinateurs professionnels, des droits d'administrateur. Les organisateurs en ligne sont plus rapides pour les besoins ponctuels, mais la plupart envoient votre document sur un serveur pour le traiter. Cette page combine la commodité d'un site web et la confidentialité d'un logiciel de bureau : elle se charge dans un onglet du navigateur puis fait tout le travail en local. Vous pouvez même vous déconnecter d'internet après le chargement de la page : elle continue de fonctionner."
+          ],
+          [
+            "Conseils pour mobiles et écrans tactiles",
+            "Sur mobile, faire glisser des miniatures peut faire défiler la page au lieu de déplacer la feuille : chaque miniature a donc de petits boutons ← et → qui la décalent d'une position. Pour déplacer une page très loin, il est souvent plus rapide de la supprimer et d'utiliser *Dupliquer la sélection* sur une page proche de la position cible, ou d'ouvrir le fichier sur une tablette en paysage pour avoir plus de place. Les boutons pivoter, supprimer et sélectionner sont assez grands pour être touchés avec précision."
+          ],
+          [
+            "Vérifier le résultat",
+            "Après le téléchargement, ouvrez le PDF et parcourez-le rapidement : le nombre de pages affiché dans le message de résultat indique combien ont été conservées. En cas d'erreur, vous pouvez redéposer l'original et recommencer : le fichier source n'a pas été modifié. Pour vérifier d'un coup d'œil l'ordre d'un long document, [Plusieurs pages par feuille](/n-up-pdf/) avec 16 pages par feuille donne une vue d'ensemble immédiate."
+          ],
+          [
+            "Glossaire",
+            {
+              "table": [
+                [
+                  "Terme",
+                  "Signification"
+                ],
+                [
+                  "Réordonner",
+                  "Changer la position des pages dans le document"
+                ],
+                [
+                  "Faire pivoter",
+                  "Tourner une page de 90°, 180° ou 270° ; enregistré dans le paramètre /Rotate de la page"
+                ],
+                [
+                  "Page blanche",
+                  "Une page vide insérée pour séparer des sections ou corriger l'impression recto verso"
+                ],
+                [
+                  "Recto verso (duplex)",
+                  "Imprimer sur les deux faces du papier"
+                ],
+                [
+                  "Miniature",
+                  "Une petite image d'aperçu d'une page"
+                ]
+              ]
+            }
+          ],
+          [
+            "Accessibilité",
+            "Tous les boutons ont des libellés ou des titres, la page est utilisable au clavier et respecte le niveau de zoom de votre navigateur. Les utilisateurs de lecteurs d'écran peuvent utiliser le champ de plage des modes supprimer et extraire au lieu de cliquer sur les miniatures."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Supprimer des pages d'un PDF](/delete-pdf-pages/)",
+              "[Extraire des pages d'un PDF](/extract-pdf-pages/)",
+              "[Fusionner des PDF](/merge-pdf/)",
+              "[Diviser un PDF](/split-pdf/)",
+              "[Faire pivoter un PDF](/rotate-pdf/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Réordonner par glisser-déposer",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Insérer une page blanche",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Dupliquer des pages",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Inverser tout le document",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment organiser les pages d'un PDF ?",
+            "a": "Déposez le PDF, faites glisser les miniatures dans le nouvel ordre, faites pivoter ou supprimez des pages et téléchargez le nouveau PDF."
+          },
+          {
+            "q": "Comment organiser les pages d'un PDF gratuitement ?",
+            "a": "Cet outil est gratuit, sans inscription, filigrane ni limite de pages, car il fonctionne dans votre navigateur."
+          },
+          {
+            "q": "Puis-je remettre en ordre un fichier PDF ?",
+            "a": "Oui : faites glisser les pages dans n'importe quel ordre ou utilisez Inverser l'ordre pour retourner tout le document."
+          },
+          {
+            "q": "Puis-je ajouter une page blanche à un PDF ?",
+            "a": "Oui : sélectionnez une page et appuyez sur Insérer une page blanche ; elle est ajoutée après."
+          },
+          {
+            "q": "Puis-je dupliquer une page ?",
+            "a": "Oui : cochez-la et appuyez sur Dupliquer la sélection."
+          },
+          {
+            "q": "La qualité va-t-elle changer ?",
+            "a": "Non : les pages sont copiées sans être rendues à nouveau, le texte et les images restent identiques."
+          },
+          {
+            "q": "Mon PDF est-il envoyé ?",
+            "a": "Non : tout se passe sur votre appareil."
+          },
+          {
+            "q": "Ça marche sur mobile ?",
+            "a": "Oui ; utilisez les boutons fléchés si le glisser-déposer est peu pratique sur un petit écran."
+          }
+        ],
+        "related": [
+          "delete-pdf-pages",
+          "extract-pdf-pages",
+          "merge-pdf",
+          "split-pdf",
+          "rotate-pdf"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

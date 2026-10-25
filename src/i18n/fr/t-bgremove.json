@@ -1,0 +1,279 @@
+{
+  "tools": {
+    "bgremove": {
+      "name": "Supprimer l'arrière-plan d'une image",
+      "short": "Détourez personnes et produits automatiquement.",
+      "title": "Supprimer l'arrière-plan d'une image gratuit – IA, PNG transparent | {brand}",
+      "desc": "Supprimez l'arrière-plan de vos images avec une IA sur votre appareil. PNG transparent ou fond blanc, coloré ou flouté. Gratuit.",
+      "h1": "Supprimer l'arrière-plan d'une image",
+      "steps": [
+        "Sélectionnez des photos (JPG, PNG, WEBP, HEIC).",
+        "Choisissez un fond transparent, blanc, coloré ou flouté.",
+        "Téléchargez l'image détourée."
+      ],
+      "faq": [
+        {
+          "q": "Ma photo est-elle envoyée ?",
+          "a": "Non. Le modèle d'IA (4,6 Mo) est téléchargé une fois et s'exécute dans votre navigateur."
+        },
+        {
+          "q": "Qu'est-ce qui marche le mieux ?",
+          "a": "Des sujets nets (personnes, produits, animaux) bien contrastés par rapport au fond. Les cheveux fins peuvent être adoucis."
+        }
+      ],
+      "guide": {
+        "intro": "Un détourage propre est indispensable pour les fiches produit, les photos de profil, les présentations et les visuels. La plupart des outils de suppression d'arrière-plan envoient votre photo sur un serveur et limitent les téléchargements gratuits à une basse résolution ; {brand} exécute l'IA dans votre navigateur en pleine résolution.",
+        "uses": [
+          "Créer des photos produit sur fond blanc pour les marketplaces.",
+          "Faire des photos de profil professionnelles et des photos d'identité.",
+          "Détourer des objets pour des présentations, des affiches et des miniatures."
+        ],
+        "tips": [
+          "Des sujets nets et bien contrastés donnent les meilleurs résultats.",
+          "Choisissez un fond blanc pour les annonces sur les marketplaces.",
+          "Les cheveux fins peuvent être adoucis : zoomez pour vérifier."
+        ],
+        "faq": [
+          {
+            "q": "Ma photo est-elle envoyée ?",
+            "a": "Non. Le modèle d'IA (4,6 Mo) est téléchargé une fois et s'exécute dans votre navigateur."
+          },
+          {
+            "q": "Qu'est-ce qui marche le mieux ?",
+            "a": "Des sujets nets (personnes, produits, animaux) bien contrastés par rapport au fond."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Supprimer l'arrière-plan d'une image – Gratuit, HD",
+        "desc": "Supprimez l'arrière-plan d'une image avec une IA locale. PNG transparent en pleine résolution, ou fond blanc, coloré, flouté ou perso. Par lots.",
+        "compareTitle": "{tool} : {brand} et remove.bg, Photoroom, Adobe Express",
+        "compareCols": [
+          "remove.bg",
+          "Photoroom",
+          "Adobe Express"
+        ],
+        "sections": [
+          [
+            "Détourez personnes, produits et animaux en un clic",
+            "Supprimer un arrière-plan demandait autrefois vingt minutes avec l'outil plume de Photoshop. Le détoureur de {brand} le fait en quelques secondes : déposez une photo et un modèle d'IA repère le sujet principal (une personne, un produit, un animal, une voiture) et le sépare de tout ce qui se trouve derrière. Téléchargez le détourage en PNG transparent ou placez-le directement sur un fond blanc net, une couleur de marque, une version floutée de l'original ou une tout autre photo de votre choix.",
+            "La différence avec les services connus, c'est l'endroit où le travail est fait. Le modèle de segmentation s'exécute dans votre navigateur grâce à WebAssembly, donc votre photo n'est jamais envoyée. Il convient ainsi aux photos d'identité, aux photos d'enfants, aux prototypes de produits confidentiels et à tout ce que vous ne mettriez pas sur un serveur public, et cela signifie : pas de crédits, pas de « téléchargement HD » payant, pas de compte."
+          ],
+          [
+            "Fonctions",
+            [
+              "**PNG transparent** jusqu'à 4096 pixels sur le grand côté, sans aperçu limité en basse résolution.",
+              "**Remplacez l'arrière-plan** par du blanc (pour les marketplaces), n'importe quelle couleur unie, un léger flou de la scène d'origine ou votre propre image de fond.",
+              "**Bords doux ou nets** : les bords doux rendent naturels cheveux et pelage ; les bords nets sont plus propres pour les produits aux contours francs.",
+              "**Traitement par lots** : déposez des dizaines de photos produit et récupérez un ZIP.",
+              "**IA sur l'appareil** : un modèle U²-Net compact (environ 4,6 Mo) est téléchargé une fois et mis en cache ; ensuite, il fonctionne hors ligne.",
+              "**Aperçu instantané** sur un damier pour voir la transparence avant de télécharger.",
+              "**Sans filigrane, sans inscription et sans crédits.**"
+            ]
+          ],
+          [
+            "Comment supprimer l'arrière-plan d'une image",
+            [
+              "Déposez une ou plusieurs photos (JPG, PNG, WebP, HEIC et plus) ou collez-en une avec Ctrl+V.",
+              "Choisissez ce qui remplacera l'arrière-plan : transparent, blanc, une couleur, l'original flouté ou votre propre image.",
+              "Choisissez des bords doux ou nets.",
+              "Cliquez sur Supprimer l'arrière-plan. La première fois, le modèle d'IA se charge ; les images suivantes vont plus vite.",
+              "Téléchargez le PNG (transparent) ou le JPG (avec nouveau fond), ou le ZIP pour un lot."
+            ]
+          ],
+          [
+            "Comment fonctionne le détoureur par IA",
+            "L'outil utilise U²-Net, un réseau de neurones conçu pour la « détection d'objets saillants » : trouver dans une photo ce qu'une personne regarderait naturellement. L'image est ramenée à 320×320 pixels et passe dans le réseau, qui donne pour chaque pixel une probabilité d'appartenir au premier plan. Ce masque basse résolution est ensuite remis à la taille réelle de votre photo par une interpolation douce : le détourage final garde tout le détail de l'image d'origine, et non la taille vue par le réseau.",
+            "Avec des bords doux, le masque est légèrement adouci pour que les pixels semi-transparents du contour se fondent en douceur dans n'importe quel nouveau fond, ce qui compte pour les cheveux, le pelage et le flou de mouvement. Avec des bords nets, chaque pixel est soit gardé, soit entièrement supprimé, ce qui donne des contours propres pour les boîtes, les bouteilles et l'électronique.",
+            "Comme le modèle s'exécute sur votre appareil, la vitesse dépend de votre matériel : un ordinateur portable récent traite une photo en une à trois secondes, un téléphone en quelques secondes de plus."
+          ],
+          [
+            "Meilleurs usages",
+            [
+              "**Photos produit pour l'e-commerce** : fonds blancs pour les annonces Amazon, Cdiscount, eBay et Etsy, ou fonds aux couleurs de votre marque pour votre propre boutique.",
+              "**Photos de profil** : un rendu net et professionnel pour LinkedIn, les CV et les sites d'entreprise.",
+              "**Photos d'identité et de visa** : remplacez une pièce encombrée par un fond uni blanc ou bleu clair, puis ajustez la taille avec le [Créateur de photos d'identité](/passport-photo-maker/).",
+              "**Design et marketing** : détourages pour affiches, miniatures, présentations et visuels pour les réseaux sociaux.",
+              "**Stickers et mèmes** : des PNG transparents pour les stickers de messagerie et le [Générateur de mèmes](/meme-generator/).",
+              "**Immobilier et automobile** : isolez une voiture ou un meuble pour une annonce."
+            ]
+          ],
+          [
+            "Conseils pour un détourage plus propre",
+            [
+              "Utilisez une photo où le sujet se détache clairement du fond : un peu de distance et de contraste aident.",
+              "Un éclairage bon et homogène évite que les ombres soient prises pour une partie du sujet.",
+              "Gardez tout le sujet dans le cadre ; des bords coupés ne posent pas de problème, mais le modèle fonctionne mieux quand l'objet principal est évident.",
+              "Sur une photo de groupe, le modèle garde tout ce qu'il considère comme sujet principal ; recadrez d'abord si vous ne voulez qu'une personne.",
+              "Pour des cheveux fins sur un fond chargé, choisissez des bords doux et une couleur de fond proche de l'original pour le résultat le plus naturel.",
+              "Si une petite zone est ratée, ouvrez le PNG dans un éditeur et retouchez-la : le plus dur est fait."
+            ]
+          ],
+          [
+            "PNG transparent ou JPG ?",
+            "Un PNG transparent laisse le sujet seul, sans fond, prêt à être placé dans un visuel, une présentation ou un site. Choisissez-le si vous comptez combiner l'image avec autre chose plus tard. Si vous choisissez un fond blanc, coloré, flouté ou une image, le résultat est aplati et enregistré en JPG, plus léger et accepté par toutes les marketplaces et tous les formulaires. Pour alléger le PNG ensuite, utilisez [Compresser une image](/compress-image/), qui conserve la transparence."
+          ],
+          [
+            "Remplacez l'arrière-plan par votre propre photo",
+            "Choisissez « Votre propre image… » et sélectionnez une image de fond : un fond de studio, un bureau, une plage, un motif de marque. Le fond est mis à l'échelle pour couvrir tout le cadre et centré, puis votre sujet est placé par-dessus avec le même fondu des bords que la version transparente. Pour des photos produit, un dégradé ou une texture discrets font souvent plus haut de gamme que le blanc pur ; pour des photos de profil, un bureau ou un extérieur légèrement flouté donnent un rendu naturel."
+          ],
+          [
+            "Pleine résolution gratuite",
+            "Beaucoup de services de suppression d'arrière-plan offrent un petit aperçu gratuit et font payer des crédits ou un abonnement pour le fichier en pleine résolution. Ici, le résultat a toujours la même résolution que votre photo (jusqu'à 4096 pixels sur le grand côté), car il n'y a pas de coûts de serveur à rembourser : c'est votre propre appareil qui fait le travail."
+          ],
+          [
+            "Limites et à quoi s'attendre",
+            "Aucun outil automatique n'est parfait. Les détails très fins, comme des mèches de cheveux sur un fond de couleur proche, les objets transparents comme un verre d'eau et les sujets qui se confondent avec le fond peuvent demander des retouches. Le modèle est conçu pour un seul sujet net ; il ne sert pas à effacer de petits objets d'une scène : pour cela, utilisez [Flouter des visages](/blur-face/) ou un éditeur. Les images de plus de 4096 pixels sont réduites à cette taille pour garder une consommation de mémoire raisonnable sur mobile."
+          ],
+          [
+            "Règles d'arrière-plan des marketplaces",
+            "La plupart des grandes marketplaces demandent des images produit sur fond blanc pur. L'image principale d'un produit sur Amazon, par exemple, doit avoir un fond blanc pur (RVB 255, 255, 255), le produit occupant la majeure partie du cadre ; Cdiscount, eBay et Google Shopping ont des recommandations similaires. Choisir « Blanc » ici produit exactement du blanc RVB 255, et non un blanc cassé comme en génèrent certains éditeurs. Après avoir supprimé le fond, utilisez [Redimensionner une image](/resize-image/) avec « Ajouter des bords jusqu'à la taille exacte » pour obtenir une image carrée à bords blancs avec le produit centré, la composition que préfèrent la plupart des marketplaces.",
+            "Pour votre propre boutique, des fonds cohérents dans tout le catalogue rendent les pages de catégorie nettes et professionnelles. Traitez toutes les photos produit en un seul lot avec la même couleur, pour que chaque article soit sur un fond identique."
+          ],
+          [
+            "Supprimer le fond des photos de profil et d'identité",
+            "Beaucoup de photos officielles exigent un fond uni blanc ou blanc cassé, sans ombres ni motifs. Prenez la photo face à une fenêtre pour un éclairage homogène, supprimez ici le fond avec « Blanc » ou « Couleur » (pour le bleu clair, fond courant pour les visas, choisissez un bleu pâle), puis utilisez le [Créateur de photos d'identité](/passport-photo-maker/) pour recadrer à la bonne taille de tête et au bon gabarit d'impression. Vérifiez les règles exactes de votre pays : certaines autorités refusent les fonds retouchés numériquement, d'autres les autorisent expressément.",
+            "Pour LinkedIn et les annuaires d'entreprise, essayez « Original flouté » : on garde une impression naturelle de lieu sans la distraction d'une pièce en désordre, comme un portrait pris avec un objectif lumineux."
+          ],
+          [
+            "Utiliser les détourages dans vos visuels",
+            "Les PNG transparents se placent directement dans Canva, Figma, PowerPoint, Google Slides, Keynote et tous les grands outils de design. Posez le sujet sur un dégradé ou une forme, ajoutez une ombre dans votre outil de design pour la profondeur, et le résultat ressemble à une photo de studio. Pour les miniatures YouTube, un grand détourage de visage sur une couleur vive est un classique qui attire les clics."
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. L'image est décodée, modifiée et réencodée sur votre propre appareil avec le moteur d'images intégré du navigateur et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : photos privées, pièces d'identité, captures contenant des données personnelles et photos de produits pas encore lancés ne quittent jamais votre ordinateur ou votre téléphone. Vous pouvez même couper le Wi-Fi une fois la page chargée, l'outil continue de fonctionner.",
+            "Le fichier du modèle d'IA est servi depuis notre propre site et mis en cache par votre navigateur ; aucun service d'IA tiers n'est appelé et aucune copie de votre image n'est créée ailleurs."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Créateur de photos d'identité](/passport-photo-maker/) : ajustez le cadrage pour les documents officiels.",
+              "[Redimensionner une image](/resize-image/) : formats carrés ou propres à chaque plateforme pour les marketplaces.",
+              "[Compresser une image](/compress-image/) : des PNG plus légers qui gardent la transparence.",
+              "[JPG en PNG](/jpg-to-png/) : conversion simple du blanc en transparent pour les logos.",
+              "[Créateur de collages](/collage-maker/) : réunissez plusieurs détourages dans une seule image."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre image est traitée",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Cloud d'Adobe"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Voir le site"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Le modèle s'exécute sur votre appareil",
+            "Oui",
+            "Non (dans le cloud)",
+            "Non (dans le cloud)",
+            "Voir le site"
+          ],
+          [
+            "Téléchargement gratuit en pleine résolution",
+            "Oui, jusqu'à 4096 px",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Remplacer par une couleur / un flou / une image perso",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Par lots",
+            "Oui, en ZIP",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Inscription",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "« Aucune inscription requise » (selon leur page)",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Ce détoureur est-il vraiment gratuit ?",
+            "a": "Oui. Pas de crédits, pas de téléchargement HD payant, pas de filigrane, pas de compte."
+          },
+          {
+            "q": "Mes photos sont-elles envoyées ?",
+            "a": "Non. Le modèle d'IA s'exécute dans votre navigateur, donc les photos ne quittent jamais votre appareil."
+          },
+          {
+            "q": "Quelle est la résolution du résultat ?",
+            "a": "La même que votre photo, jusqu'à 4096 pixels sur le grand côté."
+          },
+          {
+            "q": "Comment mettre un fond blanc ?",
+            "a": "Choisissez « Blanc » dans Arrière-plan avant de cliquer sur Supprimer l'arrière-plan. Le résultat est un JPG sur fond blanc pur."
+          },
+          {
+            "q": "Puis-je mettre une autre image derrière le sujet ?",
+            "a": "Oui. Choisissez « Votre propre image… » et sélectionnez la photo de fond."
+          },
+          {
+            "q": "Ça marche aussi pour les produits, pas seulement les personnes ?",
+            "a": "Oui. Il détecte le sujet principal, qu'il s'agisse d'une personne, d'un produit, d'un animal ou d'un véhicule. Utilisez des bords nets pour les produits aux contours francs."
+          },
+          {
+            "q": "Puis-je supprimer l'arrière-plan de nombreuses images à la fois ?",
+            "a": "Oui. Déposez plusieurs images et téléchargez-les toutes dans un ZIP."
+          },
+          {
+            "q": "Pourquoi la première image est-elle plus lente ?",
+            "a": "La première fois, le modèle d'IA de 4,6 Mo est téléchargé. Il est mis en cache, donc les images suivantes vont beaucoup plus vite et l'outil fonctionne ensuite hors ligne."
+          },
+          {
+            "q": "Pourquoi certains bords de cheveux ne sont-ils pas parfaits ?",
+            "a": "Des cheveux fins sur un fond similaire sont difficiles pour tout outil automatique. Les bords doux aident ; une retouche rapide dans un éditeur règle le reste."
+          },
+          {
+            "q": "Ça marche sur mon téléphone ?",
+            "a": "Oui, dans les versions actuelles de Safari et Chrome. Sur les téléphones anciens, le traitement prend quelques secondes de plus."
+          }
+        ],
+        "related": [
+          "passport-photo-maker",
+          "resize-image",
+          "compress-image",
+          "jpg-to-png",
+          "collage-maker"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment supprimer l'arrière-plan d'une image gratuitement ?",
+            "a": "Déposez la photo ; un modèle d'IA qui s'exécute sur votre appareil isole le sujet et vous donne un PNG transparent. Vous pouvez remplacer le fond par du blanc, une couleur, un flou ou une autre photo. Gratuit, sans envoi ni crédits."
+          },
+          {
+            "q": "La suppression d'arrière-plan marche-t-elle sur les produits et les personnes ?",
+            "a": "Oui, il est entraîné sur les deux. Les cheveux fins et les objets transparents sont les plus difficiles : zoomez et vérifiez les bords avant d'utiliser le résultat."
+          }
+        ]
+      }
+    }
+  }
+}

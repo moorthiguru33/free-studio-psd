@@ -1,0 +1,249 @@
+{
+  "tools": {
+    "flatten": {
+      "name": "Aplatir un PDF",
+      "short": "Rendez définitifs les champs de formulaire et les annotations.",
+      "title": "Aplatir un PDF en ligne gratuit – Verrouiller les champs de formulaire | {brand}",
+      "desc": "Aplatissez formulaires PDF et annotations pour que leurs valeurs ne soient plus modifiables, ou changez chaque page en image. Gratuit et privé.",
+      "h1": "Aplatir un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez formulaires seulement ou tout.",
+        "Cliquez sur Démarrer et téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Le texte restera-t-il cherchable ?",
+          "a": "Oui avec Champs de formulaire seulement. Le mode Tout transforme les pages en images."
+        }
+      ],
+      "guide": {
+        "intro": "Quand vous envoyez un formulaire rempli, le destinataire peut généralement encore modifier ses champs. L'aplatissement intègre les valeurs des champs et les annotations à la page : le formulaire a le même aspect partout et ne peut pas être modifié facilement.",
+        "uses": [
+          "Verrouiller une candidature ou un formulaire fiscal rempli avant de le soumettre.",
+          "S'assurer que les commentaires et tampons s'affichent dans tous les lecteurs.",
+          "Corriger les formulaires dont les champs apparaissent vides sur mobile ou sur certaines imprimantes."
+        ],
+        "tips": [
+          "Utilisez « Champs de formulaire seulement » pour garder le texte sélectionnable.",
+          "Le mode « Tout » transforme les pages en images : plus radical, mais le texte n'est plus sélectionnable.",
+          "Gardez une copie non aplatie au cas où vous devriez la modifier plus tard."
+        ],
+        "faq": [
+          {
+            "q": "Le texte restera-t-il cherchable ?",
+            "a": "Oui en mode Champs de formulaire seulement. Le mode Tout transforme les pages en images."
+          }
+        ],
+        "more": [
+          [
+            "Pourquoi aplatir des formulaires",
+            "Les champs de formulaire interactifs peuvent s'afficher différemment selon le lecteur et être modifiés après l'envoi. L'aplatissement fixe les valeurs sur la page : ce que vous envoyez est exactement ce que voit le destinataire."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Aplatir un PDF – Verrouiller champs et annotations, gratuit",
+        "desc": "Aplatissez formulaires et annotations d'un PDF : seulement les champs de formulaire ou tout le contenu en image. Gratuit et sans envoi.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Sejda",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Sejda"
+        ],
+        "sections": [
+          [
+            "Que signifie aplatir un PDF ?",
+            "L'aplatissement intègre à la page elle-même les parties interactives ou en calques d'un PDF : champs de formulaire remplissables, cases à cocher, listes déroulantes, commentaires, tampons et dessins. Le document a le même aspect, mais ces éléments ne sont plus des objets modifiables indépendants. Un formulaire aplati affiche les réponses comme du contenu de page normal qu'on ne peut pas changer en cliquant sur un champ, et il s'imprime et s'affiche de la même façon dans tous les lecteurs.",
+            "On aplatit des PDF avant d'envoyer des candidatures, des contrats ou des formulaires fiscaux remplis, avant de les archiver, quand un portail refuse les fichiers contenant des champs de formulaire et quand les réponses saisies disparaissent ou s'affichent différemment dans une autre application."
+          ],
+          [
+            "Deux modes d'aplatissement",
+            {
+              "table": [
+                [
+                  "Mode",
+                  "Ce qui se passe",
+                  "Texte sélectionnable ?",
+                  "Idéal pour"
+                ],
+                [
+                  "Champs de formulaire",
+                  "La valeur actuelle de chaque champ est dessinée sur la page et le champ est supprimé",
+                  "Oui",
+                  "Formulaires remplis, candidatures"
+                ],
+                [
+                  "Tout le contenu",
+                  "Chaque page est rendue et enregistrée en image",
+                  "Non (passez l'OCR pour le récupérer)",
+                  "Verrouillage maximal, annotations mixtes, problèmes rares de lecteurs"
+                ]
+              ]
+            },
+            "Commencez par *Champs de formulaire* : le fichier reste léger et le texte cherchable. Utilisez *Tout le contenu* quand les annotations, les calques ou des technologies de formulaire peu courantes restent modifiables ou s'affichent différemment selon l'application."
+          ],
+          [
+            "Comment aplatir un PDF gratuitement",
+            {
+              "steps": [
+                "Remplissez d'abord le formulaire, dans n'importe quelle application PDF ou avec [Remplir un formulaire PDF](/fill-pdf-form/).",
+                "Déposez le PDF ici.",
+                "Choisissez Champs de formulaire ou Tout le contenu.",
+                "Appuyez sur Aplatir et téléchargez."
+              ]
+            }
+          ],
+          [
+            "Comment aplatir un PDF pour qu'il ne soit pas modifiable",
+            "Après l'aplatissement, les réponses du formulaire ne peuvent plus être changées en tapant dans les champs. Notez que tout PDF peut encore être modifié avec un éditeur : l'aplatissement évite les modifications accidentelles et occasionnelles, pas une falsification délibérée. Pour une protection plus forte, ajoutez un mot de passe avec la modification désactivée grâce à [Protéger un PDF](/protect-pdf/) et, comme preuve d'intégrité, utilisez une signature numérique à base de certificat."
+          ],
+          [
+            "L'aplatissement réduit-il la qualité ?",
+            "Le mode *Champs de formulaire* ne touche pas au reste de la page : la qualité est identique. Le mode *Tout le contenu* rend les pages à environ 144 ppp avec une haute qualité JPEG, nette à l'écran et en impression normale, mais le texte fait alors partie d'une image et le fichier peut grossir pour les documents riches en texte. Utilisez-le quand l'aspect compte plus que la taille ou la recherche de texte."
+          ],
+          [
+            "Aplatir un gros PDF",
+            "L'aplatissement des champs de formulaire est rapide, même sur de longs documents. Le mode tout le contenu rend chaque page : un fichier de 200 pages prend plus de temps et le résultat peut être plus lourd ; vous pouvez ensuite passer [Compresser un PDF](/compress-pdf/). Un compteur de progression indique la page en cours de traitement."
+          ],
+          [
+            "Pourquoi les réponses disparaissent sans aplatissement",
+            "Certains lecteurs, applications mobiles et pilotes d'imprimante n'affichent pas correctement les valeurs des champs de formulaire, surtout quand les champs utilisent des polices ou des scripts personnalisés. Le destinataire de votre formulaire peut voir des cases vides. L'aplatissement dessine les valeurs sur la page pour que tout le monde voie la même chose."
+          ],
+          [
+            "Aplatir un PDF en ligne ou avec un logiciel de bureau",
+            "Les éditeurs de bureau peuvent aplatir via l'impression en PDF ou des outils de contrôle en amont, souvent dans des versions payantes. Les services en ligne exigent généralement d'envoyer votre formulaire rempli, avec des données personnelles comme des numéros d'identité et des adresses. Cet outil aplatit sur votre appareil, gratuitement."
+          ],
+          [
+            "Glossaire",
+            {
+              "table": [
+                [
+                  "Terme",
+                  "Signification"
+                ],
+                [
+                  "Champ de formulaire",
+                  "Une zone, une case ou une liste interactive dans un formulaire PDF"
+                ],
+                [
+                  "Annotation",
+                  "Un commentaire, surlignage, tampon ou dessin superposé à une page"
+                ],
+                [
+                  "Flux d'apparence",
+                  "Le dessin visuel de la valeur d'un champ"
+                ],
+                [
+                  "Pixelliser",
+                  "Convertir le contenu de la page en image en pixels"
+                ]
+              ]
+            }
+          ],
+          [
+            "Exemple concret",
+            "Un formulaire de candidature rempli a des champs qui s'affichent différemment selon le lecteur et que n'importe qui peut modifier. Déposez-le ici, aplatissez-le et envoyez le résultat : les réponses s'affichent à l'identique partout, s'impriment correctement et ne peuvent plus être modifiées par erreur. Gardez l'original remplissable au cas où vous devriez mettre à jour une réponse plus tard."
+          ],
+          [
+            "Quand ne pas aplatir",
+            "N'aplatissez pas un formulaire qu'une autre personne doit encore remplir, ni un document que vous allez encore modifier. L'aplatissement est une étape finale, comme une impression papier : faites-le sur une copie, juste avant l'envoi ou l'archivage."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Remplir un formulaire PDF](/fill-pdf-form/)",
+              "[Protéger un PDF](/protect-pdf/)",
+              "[Signer un PDF](/sign-pdf/)",
+              "[Compresser un PDF](/compress-pdf/)",
+              "[OCR PDF](/ocr-pdf/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Leurs serveurs (envoi)",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Compte requis",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Aplatir les champs de formulaire (garde le texte)",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Que signifie aplatir un PDF ?",
+            "a": "Intègre les champs de formulaire et les annotations à la page pour qu'ils ne soient plus modifiables."
+          },
+          {
+            "q": "Comment aplatir un PDF ?",
+            "a": "Déposez-le ici, choisissez un mode et téléchargez le fichier aplati."
+          },
+          {
+            "q": "Puis-je aplatir un PDF gratuitement ?",
+            "a": "Oui, sans inscription ni filigrane."
+          },
+          {
+            "q": "L'aplatissement réduit-il la qualité ?",
+            "a": "Le mode champs de formulaire garde une qualité identique ; le mode tout le contenu rend les pages en images."
+          },
+          {
+            "q": "Le texte restera-t-il cherchable ?",
+            "a": "Oui en mode champs de formulaire ; non en mode tout le contenu, sauf si vous passez l'OCR."
+          },
+          {
+            "q": "Peut-on désaplatir un PDF aplati ?",
+            "a": "Non ; gardez l'original si vous risquez de devoir modifier à nouveau le formulaire."
+          },
+          {
+            "q": "Faut-il aplatir avant de signer ?",
+            "a": "Remplissez et aplatissez d'abord, puis signez, pour que la signature porte sur le contenu définitif."
+          },
+          {
+            "q": "Mon fichier est-il envoyé ?",
+            "a": "Non, l'aplatissement s'exécute dans votre navigateur."
+          }
+        ],
+        "related": [
+          "fill-pdf-form",
+          "protect-pdf",
+          "sign-pdf",
+          "compress-pdf",
+          "ocr-pdf"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

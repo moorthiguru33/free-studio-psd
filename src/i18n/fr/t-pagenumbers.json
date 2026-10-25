@@ -1,0 +1,270 @@
+{
+  "tools": {
+    "pagenumbers": {
+      "name": "Numéroter les pages",
+      "short": "Numérotez les pages de votre PDF.",
+      "title": "Numéroter les pages d'un PDF en ligne gratuit – Position et début | {brand}",
+      "desc": "Numérotez les pages d'un PDF : position, taille de police et numéro de départ au choix. Gratuit, sans filigrane ni inscription, dans le navigateur.",
+      "h1": "Ajouter des numéros de page à un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez la position et le numéro de départ.",
+        "Cliquez sur Démarrer et téléchargez le PDF numéroté."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je commencer à un autre numéro que 1 ?",
+          "a": "Oui, indiquez n'importe quel numéro de départ dans les options."
+        }
+      ],
+      "guide": {
+        "intro": "Les numéros de page rendent les longs documents plus faciles à parcourir, citer et imprimer : les relecteurs peuvent dire « voir page 14 » au lieu de faire défiler. {brand} appose les numéros directement sur chaque page sur votre propre appareil : manuscrits, dossiers juridiques et rapports restent privés.",
+        "uses": [
+          "Numéroter une thèse, un mémoire ou un manuscrit avant de le rendre.",
+          "Préparer des dossiers judiciaires ou des annexes de contrats à citer par page.",
+          "Ajouter des numéros à un rapport fusionné pour que le sommaire soit utilisable.",
+          "Numéroter des documents imprimés pour pouvoir remettre en ordre les feuilles volantes."
+        ],
+        "tips": [
+          "Commencez à un autre numéro (par exemple 3) si la couverture et le sommaire ne doivent pas être comptés.",
+          "En bas au centre est le plus lisible pour les documents imprimés ; en bas à droite convient moins bien à la reliure recto verso, testez donc sur une page.",
+          "Fusionnez d'abord toutes les parties et numérotez une seule fois pour une séquence continue.",
+          "Besoin de « Page 3 sur 20 » ou de dates ? Utilisez En-tête et pied de page."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je ne pas numéroter la couverture ?",
+            "a": "Ajustez le numéro de départ pour que le décompte corresponde à votre mise en page, ou séparez la couverture, numérotez le reste et refusionnez."
+          },
+          {
+            "q": "Pourrai-je modifier les numéros ensuite ?",
+            "a": "Ils sont dessinés dans le contenu de la page et s'impriment donc correctement partout ; pour les changer, renumérotez le fichier d'origine."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Numéroter les pages d'un PDF – Gratuit, format personnalisé",
+        "desc": "Numérotez un PDF : 6 positions, « Page 1 sur N », chiffres romains, texte libre, couverture ignorée, plage et pages en vis-à-vis. Gratuit et sans envoi.",
+        "sections": [
+          [
+            "Numérotez les pages de votre PDF exactement comme il faut",
+            "Les numéros de page rendent les longs documents utilisables : les lecteurs peuvent citer la « page 14 », les copies imprimées peuvent être remises en ordre et le sommaire sert enfin à quelque chose. {brand} ajoute des numéros de page sous forme de vrai texte à n'importe quel PDF dans votre navigateur, sans envoi, sans filigrane et sans compte. Vous décidez où ils vont, à quoi ils ressemblent et quelles pages les reçoivent."
+          ],
+          [
+            "Toutes les options",
+            [
+              "**Six positions** : en haut ou en bas, à gauche, au centre ou à droite.",
+              "**Formats** : 1, 1 / N, Page 1, Page 1 sur N, - 1 -, chiffres romains (i, ii, iii) ou un texte entièrement personnalisé avec {n} pour le numéro et {N} pour le total, p. ex. « Rapport 2026 – {n}/{N} ».",
+              "**Numéro de départ** : commencez à 0, à 1 ou à n'importe quel numéro pour poursuivre la numérotation d'un volume précédent.",
+              "**Ignorer les premières pages** : laissez la couverture et la page de titre sans numéro ; la numérotation commence après.",
+              "**Plage de pages** : numérotez seulement, par exemple, les pages 3-20.",
+              "**Pages en vis-à-vis** : inverse les positions gauche/droite sur les pages paires pour les documents imprimés et reliés.",
+              "**Police, taille, couleur et marge** : Helvetica, Times, Courier ou Helvetica Bold dans n'importe quelle couleur."
+            ]
+          ],
+          [
+            "Comment ajouter des numéros de page à un PDF",
+            [
+              "Déposez votre PDF sur la page.",
+              "Choisissez une position et un format, et indiquez le numéro de départ.",
+              "Ouvrez « Plus d'options » pour ignorer la couverture, limiter la plage, changer la police, la couleur ou la marge, ou activer les pages en vis-à-vis.",
+              "Cliquez sur Ajouter les numéros de page et téléchargez. Le résultat indique combien de pages ont été numérotées."
+            ]
+          ],
+          [
+            "Quel format utiliser ?",
+            {
+              "table": [
+                [
+                  "Document",
+                  "Format recommandé"
+                ],
+                [
+                  "Rapports, thèses, manuels",
+                  "Page 1 sur N, en bas au centre ou à droite"
+                ],
+                [
+                  "Dossiers juridiques et annexes",
+                  "Texte libre comme « Annexe A – {n} » (ou utilisez la numérotation Bates)"
+                ],
+                [
+                  "Pages liminaires (préface, sommaire)",
+                  "Chiffres romains i, ii, iii"
+                ],
+                [
+                  "Livrets imprimés",
+                  "Pages en vis-à-vis, coin extérieur bas"
+                ],
+                [
+                  "Diapositives exportées en PDF",
+                  "1 / N, en bas à droite"
+                ]
+              ]
+            }
+          ],
+          [
+            "Ignorer la couverture et numéroter les pages liminaires à part",
+            "Les documents universitaires et professionnels numérotent souvent la préface en chiffres romains et le corps du texte en chiffres arabes à partir de 1. Faites-le en deux passes : numérotez d'abord les pages liminaires au format romain avec une plage (p. ex. 2-6) ; puis repassez l'outil sur le résultat au format arabe, avec une plage commençant au premier chapitre (p. ex. 7-) et un numéro de départ de 1. Comme les deux passes ont lieu dans votre navigateur, cela prend quelques secondes."
+          ],
+          [
+            "Pages en vis-à-vis pour l'impression",
+            "Dans un document relié, les pages impaires sont à droite et les paires à gauche. Les numéros rendent mieux sur le bord extérieur : à droite pour les impaires, à gauche pour les paires. Cochez **Pages en vis-à-vis** et choisissez une position à droite : les pages paires reçoivent automatiquement la position symétrique à gauche. C'est ainsi que sont numérotés les livres mis en page par des professionnels."
+          ],
+          [
+            "Pourquoi numéroter dans le PDF plutôt que dans le fichier d'origine ?",
+            "Souvent, vous n'avez plus le fichier Word ou InDesign, ou le PDF combine plusieurs sources : une annexe scannée, un tableur, une lettre signée. Après avoir [fusionné des PDF](/merge-pdf/), numéroter le PDF final est le seul moyen d'obtenir une séquence continue. Les numéros sont ajoutés sous forme de vrai texte : ils sont cherchables, s'impriment nettement et n'affectent pas le reste de la page."
+          ],
+          [
+            "Numérotation juridique : tampons Bates",
+            "Les cabinets et tribunaux exigent souvent des numéros Bates (un préfixe suivi d'une séquence avec des zéros, comme ABC000123) sur tous les documents d'une affaire. Pour cela, utilisez notre outil dédié de [numérotation Bates](/bates-numbering/), qui gère préfixes, suffixes et numérotation continue sur de nombreux fichiers."
+          ],
+          [
+            "Conseils",
+            [
+              "Vérifiez la marge si votre document a déjà un pied de page, pour que les numéros ne se chevauchent pas.",
+              "Utilisez une couleur grise pour des numéros discrets qui ne détournent pas du contenu.",
+              "Pour des en-têtes et pieds de page avec dates, titres ou autre texte, utilisez [En-tête et pied de page](/pdf-header-footer/).",
+              "Des pages scannées ? Les numéros fonctionnent de la même façon ; passez aussi [OCR PDF](/ocr-pdf/) si vous voulez que le document soit cherchable."
+            ]
+          ],
+          [
+            "Usages courants",
+            [
+              "Numéroter thèses, mémoires et devoirs selon les exigences de l'université.",
+              "Préparer des dossiers judiciaires et des annexes.",
+              "Ajouter des numéros aux rapports fusionnés et aux dossiers du conseil d'administration.",
+              "Numéroter des manuels, catalogues et livrets imprimés.",
+              "Faciliter les références dans les archives scannées."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Texte au format personnalisé",
+            "Oui ({n}, {N})",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Ignorer les premières pages / plage",
+            "Oui",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Pages en vis-à-vis",
+            "Oui",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Chiffres romains",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment ajouter des numéros de page à un PDF ?",
+            "a": "Déposez le PDF ici, choisissez une position et un format, puis cliquez sur Ajouter les numéros de page. Téléchargez le fichier numéroté."
+          },
+          {
+            "q": "Puis-je mettre des numéros du type « Page 1 sur 10 » ?",
+            "a": "Oui. Choisissez « Page 1 sur N » ou créez votre propre texte avec {n} et {N}."
+          },
+          {
+            "q": "Puis-je ignorer la couverture ?",
+            "a": "Oui. Dans Plus d'options, réglez « Ignorer les premières pages » sur 1 (ou plus)."
+          },
+          {
+            "q": "Puis-je commencer la numérotation à un autre numéro ?",
+            "a": "Oui. Indiquez n'importe quel numéro de départ, p. ex. 25 pour poursuivre un volume précédent."
+          },
+          {
+            "q": "Puis-je numéroter seulement certaines pages ?",
+            "a": "Oui. Indiquez une plage de pages comme 3-20."
+          },
+          {
+            "q": "Puis-je utiliser des chiffres romains ?",
+            "a": "Oui. Choisissez le format « i, ii, iii »."
+          },
+          {
+            "q": "Que sont les pages en vis-à-vis ?",
+            "a": "Dans les documents reliés, le numéro est placé sur le bord extérieur : à droite sur les pages impaires et à gauche sur les paires."
+          },
+          {
+            "q": "Mon document est-il envoyé ?",
+            "a": "Non. Les numéros sont ajoutés dans votre navigateur ; le fichier ne quitte jamais votre appareil."
+          },
+          {
+            "q": "Puis-je changer la police et la couleur ?",
+            "a": "Oui : Helvetica, Times, Courier ou Helvetica Bold, dans n'importe quelle couleur et taille."
+          },
+          {
+            "q": "Un filigrane est-il ajouté ?",
+            "a": "Non. Le résultat est propre."
+          }
+        ],
+        "related": [
+          "bates-numbering",
+          "pdf-header-footer",
+          "merge-pdf",
+          "add-watermark-to-pdf",
+          "organize-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment numéroter les pages d'un PDF gratuitement ?",
+            "a": "Déposez le PDF, choisissez une position et un format comme « Page 1 sur N », ignorez éventuellement la couverture ou fixez le numéro de départ, et téléchargez. Gratuit et sans filigrane."
+          },
+          {
+            "q": "Comment faire commencer la numérotation à la page 3 ?",
+            "a": "Réglez « Ignorer les premières pages » sur 2 et choisissez si la numérotation commence à 1 ou continue à partir de 3."
+          }
+        ]
+      }
+    }
+  }
+}

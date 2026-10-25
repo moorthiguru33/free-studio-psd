@@ -1,0 +1,232 @@
+{
+  "tools": {
+    "compress": {
+      "name": "Compresser un PDF",
+      "short": "Réduisez la taille de votre PDF.",
+      "title": "Compresser un PDF – Réduire la taille d'un PDF en ligne gratuit | {brand}",
+      "desc": "Compressez un PDF pour l'envoyer par e-mail, WhatsApp ou sur un portail. Gratuit, sans inscription : compressé dans votre navigateur, sans envoi.",
+      "h1": "Compresser un PDF",
+      "steps": [
+        "Sélectionnez le PDF à réduire.",
+        "Choisissez une compression sans perte ou forte.",
+        "Cliquez sur Démarrer et téléchargez le PDF allégé."
+      ],
+      "faq": [
+        {
+          "q": "Quelle est la différence entre les modes ?",
+          "a": "Sans perte garde le texte sélectionnable et restructure le fichier. Forte transforme chaque page en image compressée : les fichiers numérisés ou riches en images deviennent beaucoup plus petits, mais le texte n'est plus sélectionnable."
+        }
+      ],
+      "guide": {
+        "intro": "Les messageries refusent les gros PDF (souvent au-delà de 20–25 Mo), tout comme de nombreux portails administratifs, d'emploi et universitaires qui n'acceptent que 1 à 2 Mo. {brand} réduit les PDF sur votre propre appareil : vous pouvez compresser des documents privés sans les envoyer nulle part.",
+        "uses": [
+          "Rendre un PDF numérisé assez léger pour un formulaire en ligne limité à 1 ou 2 Mo.",
+          "Envoyer un gros rapport par e-mail ou WhatsApp.",
+          "Gagner de la place sur le téléphone ou dans le cloud."
+        ],
+        "tips": [
+          "Essayez d'abord Sans perte : le texte reste sélectionnable. Utilisez Forte pour les fichiers numérisés ou riches en photos.",
+          "Les PDF texte déjà légers ne gagneront peut-être pas beaucoup.",
+          "Compressez après la fusion, pas avant, pour obtenir un seul fichier optimisé."
+        ],
+        "faq": [
+          {
+            "q": "De combien mon PDF sera-t-il réduit ?",
+            "a": "Cela dépend du contenu. Les PDF numérisés ou riches en images diminuent souvent de 50 à 90 % en mode Forte ; les PDF texte diminuent moins."
+          },
+          {
+            "q": "Puis-je compresser un PDF sous 1 Mo ou 100 Ko ?",
+            "a": "Pour les scans, souvent oui avec le mode Forte. Les documents très longs peuvent rester plus lourds ; les diviser peut aider."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Compresser un PDF – Réduire sa taille, gratuit, sans envoi",
+        "desc": "Compressez des PDF dans votre navigateur. Trois niveaux avec taille estimée, texte net, sans envoi, inscription ni limite horaire. Hors ligne.",
+        "sections": [
+          [
+            "Comment fonctionne la compression PDF",
+            "Un PDF est un conteneur. Le texte et les dessins vectoriels prennent peu de place ; ce qui alourdit la plupart des PDF, ce sont les images intégrées (pages numérisées, photos et captures d'écran), plus les polices en double et les objets inutilisés laissés par les modifications. {brand} examine l'intérieur de votre PDF, mesure chaque image intégrée et applique le niveau choisi. Avant même de cliquer, chaque carte de niveau affiche une taille estimée du résultat pour que vous choisissiez le compromis qui vous convient.",
+            [
+              "**Recommandée** : réencode les photos trop grandes en JPEG efficaces à une résolution raisonnable, supprime les objets inutilisés et réécrit le fichier de manière compacte. Le texte et les graphiques vectoriels ne sont pas touchés : ils restent parfaitement nets et cherchables.",
+              "**Extrême** : rend chaque page sous forme d'image à résolution réduite. Donne le fichier le plus petit possible, idéal pour les limites des e-mails et des portails d'envoi, mais le texte n'est plus sélectionnable.",
+              "**Réglages personnalisés** : ouvrez *Réglages personnalisés* pour fixer la résolution des images (72–300 PPP), la qualité JPEG (30–90 %) et convertir les images et pages numérisées en niveaux de gris.",
+              "**Faible** : une reconstruction sans perte. Rien ne change visuellement ; vous gagnez seulement de la place en nettoyant la structure du fichier. Utile pour les documents où chaque pixel compte."
+            ],
+            "Si un résultat devait être plus lourd que l'original (ce qui arrive avec des fichiers déjà optimisés), {brand} garde l'original et vous prévient : vous ne téléchargez jamais un fichier moins bon."
+          ],
+          [
+            "Besoin d'une taille précise, comme 100 Ko ou 1 Mo ?",
+            "Les formulaires administratifs, les sites d'emploi et les candidatures universitaires imposent souvent une limite stricte. Utilisez les outils à taille cible : [Compresser un PDF à 100 Ko](/compress-pdf-to-100kb/), [200 Ko](/compress-pdf-to-200kb/), [500 Ko](/compress-pdf-to-500kb/), [1 Mo](/compress-pdf-to-1mb/) ou [n'importe quelle taille en Ko](/compress-pdf-to-kb/). Ils essaient des réglages de plus en plus forts et s'arrêtent dès que le fichier passe, en gardant la meilleure qualité possible."
+          ],
+          [
+            "La compression affecte-t-elle les polices ou la qualité ?",
+            "Aux niveaux Recommandée et Faible, les polices ne sont jamais converties en image : le texte s'imprime et s'agrandit exactement comme avant. Les photos sont rééchantillonnées à une résolution qui reste nette à l'écran et en impression de bureau classique. Seul Extrême transforme les pages en images ; choisissez-le quand la taille compte plus que la possibilité de modifier.",
+            "Pour les documents numérisés, qui ne sont déjà que des images, Recommandée donne souvent le plus gros gain sans différence visible, et ramène souvent un scan de 10 Mo à 1–2 Mo."
+          ],
+          [
+            "Usages courants",
+            [
+              "**CV** : beaucoup de logiciels de recrutement limitent les envois à 2 Mo ou moins ; un CV compressé s'envoie instantanément et garde un texte cherchable pour la correspondance des mots-clés.",
+              "**Affiches et brochures** : les exports de design avec photos en pleine résolution peuvent dépasser 50 Mo ; Recommandée les ramène à une taille compatible avec l'e-mail.",
+              "**Papiers numérisés** : relevés bancaires, factures et copies de pièces d'identité pour les formulaires en ligne.",
+              "**Partage en équipe** : les fichiers plus légers se synchronisent plus vite sur les disques partagés et dans les messageries, et comme rien n'est envoyé ici, les documents confidentiels de l'équipe restent privés."
+            ]
+          ],
+          [
+            "Conseils pour obtenir le PDF le plus léger",
+            [
+              "Supprimez d'abord les pages inutiles avec [Supprimer des pages d'un PDF](/delete-pdf-pages/).",
+              "Des scans en couleur d'un texte en noir et blanc ? Cochez *Convertir en niveaux de gris* dans les Réglages personnalisés : cela économise souvent encore 20 à 40 %.",
+              "Réunissez plusieurs documents avec [Fusionner des PDF](/merge-pdf/) et compressez une seule fois, plutôt que chaque partie."
+            ]
+          ],
+          [
+            "Comparatif des niveaux de compression",
+            {
+              "table": [
+                [
+                  "Niveau",
+                  "Ce qu'il fait",
+                  "Gain typique",
+                  "Texte sélectionnable",
+                  "Idéal pour"
+                ],
+                [
+                  "Faible",
+                  "Reconstruction sans perte : supprime les objets inutilisés et réécrit le fichier de manière compacte",
+                  "5–20 %",
+                  "Oui",
+                  "Archivage, documents juridiques"
+                ],
+                [
+                  "Recommandée",
+                  "Réencode les photos trop grandes et garde texte et vecteurs",
+                  "40–80 % pour les fichiers riches en images",
+                  "Oui",
+                  "E-mail, partage, envois"
+                ],
+                [
+                  "Extrême",
+                  "Rend les pages sous forme d'images compressées",
+                  "80–95 %",
+                  "Non",
+                  "Limites d'envoi strictes"
+                ]
+              ]
+            },
+            "Le gain dépend entièrement du contenu du PDF. Un fichier presque entièrement composé de texte dactylographié ne diminuera que de quelques pour cent, car il y a peu à retirer ; un scan pris avec l'appareil photo du téléphone peut devenir dix fois plus petit, voire plus."
+          ],
+          [
+            "Pourquoi compresser dans le navigateur plutôt qu'en ligne ?",
+            "Les compresseurs en ligne sont pratiques, mais tous vous obligent à envoyer le fichier à un serveur que vous ne contrôlez pas, souvent avec des durées de conservation de plusieurs heures. Beaucoup limitent aussi les utilisateurs gratuits : l'offre web gratuite de Sejda, par exemple, permet 3 tâches par heure et des fichiers jusqu'à 50 Mo. {brand} n'a aucune de ces restrictions : le moteur de compression est téléchargé une fois avec cette page, puis fonctionne sur votre processeur. Les gros fichiers ne sont limités que par la mémoire de votre appareil et vous pouvez compresser autant de documents que vous voulez, l'un après l'autre, sans attente ni compte.",
+            "C'est aussi plus rapide avec les gros fichiers et les connexions lentes : pas d'envoi de 30 Mo suivi d'un téléchargement de 30 Mo, seulement un traitement local.",
+            "Vous pouvez aussi recommencer la compression : essayez Recommandée, comparez le résultat à l'original et, s'il le faut plus petit, appliquez Extrême à l'original. Chaque essai prend quelques secondes."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Niveaux de gris et PPP/qualité sur mesure",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Niveaux de compression",
+            "3, avec estimation de taille en direct",
+            "3",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Compresser à une taille précise (Ko)",
+            "Oui, avec des outils dédiés",
+            "Non proposé sur la page",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment réduire la taille d'un PDF numérisé ?",
+            "a": "Utilisez le niveau Recommandée. Les scans sont faits d'images, donc les réencoder fait gagner beaucoup (souvent 70 à 90 %) sans perte de lisibilité. Pour une limite stricte, utilisez un outil à taille cible comme Compresser un PDF à 200 Ko."
+          },
+          {
+            "q": "Puis-je compresser des PDF avec toute mon équipe ?",
+            "a": "Oui. Pas de compte ni de licence par utilisateur : n'importe qui dans l'équipe peut ouvrir la page et compresser des fichiers. Comme les fichiers ne quittent jamais l'appareil de chacun, cela convient aussi aux documents confidentiels."
+          },
+          {
+            "q": "La compression rendra-t-elle le texte flou ?",
+            "a": "Non, sauf si vous choisissez Extrême. Recommandée et Faible gardent le texte et les graphiques vectoriels tels quels ; seules les photos intégrées sont optimisées."
+          },
+          {
+            "q": "Pourquoi mon PDF compressé n'est-il pas beaucoup plus léger ?",
+            "a": "Le fichier est probablement surtout du texte ou déjà optimisé. Les PDF texte sont légers par nature. Essayez Extrême si vous avez seulement besoin d'une copie de consultation, ou supprimez les pages en trop."
+          },
+          {
+            "q": "Comment compresser un PDF pour l'envoyer par e-mail ?",
+            "a": "Utilisez Recommandée. La plupart des messageries acceptent des pièces jointes jusqu'à 20–25 Mo ; si votre fichier est encore trop lourd, utilisez Compresser un PDF à 1 Mo ou divisez-le en parties."
+          },
+          {
+            "q": "Est-il sûr de compresser des documents confidentiels ?",
+            "a": "Oui. Le fichier est traité dans votre navigateur et n'est jamais envoyé : rien n'est stocké sur aucun serveur."
+          }
+        ],
+        "related": [
+          "compress-pdf-to-kb",
+          "compress-pdf-to-100kb",
+          "grayscale-pdf",
+          "merge-pdf",
+          "compress-image"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment réduire la taille d'un fichier PDF ?",
+            "a": "Déposez le PDF, choisissez un niveau de compression (chacun affiche la taille estimée du résultat) et téléchargez le fichier allégé. Les images du PDF sont réencodées à une résolution plus faible tandis que le texte et les graphiques vectoriels restent nets."
+          },
+          {
+            "q": "Comment compresser un PDF à moins de 1 Mo ?",
+            "a": "Utilisez d'abord le niveau le plus fort. Si le fichier reste trop lourd, c'est généralement à cause de nombreuses pages numérisées en haute résolution ; diviser le PDF ou passer le scan en niveaux de gris le réduit encore. Les PDF texte sont déjà légers et diminuent moins."
+          }
+        ]
+      }
+    }
+  }
+}

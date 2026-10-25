@@ -1,0 +1,262 @@
+{
+  "tools": {
+    "redact": {
+      "name": "Caviarder un PDF",
+      "short": "Supprimez définitivement du texte et des zones sensibles.",
+      "title": "Caviarder un PDF en ligne gratuit – Masquer du texte définitivement | {brand}",
+      "desc": "Caviardez définitivement mots et zones d'un PDF. Les pages sont reconstruites : le texte masqué ne peut être ni copié ni récupéré. Gratuit.",
+      "h1": "Caviarder un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Saisissez les mots à caviarder ou dessinez des rectangles sur l'aperçu (ou les deux).",
+        "Cliquez sur Démarrer et téléchargez le PDF caviardé."
+      ],
+      "faq": [
+        {
+          "q": "Le caviardage est-il définitif ?",
+          "a": "Oui. Chaque page caviardée est reconstruite sous forme d'image avec les zones recouvertes de noir : le texte sous-jacent disparaît. Les autres pages sont conservées sans modification."
+        }
+      ],
+      "guide": {
+        "intro": "Dans beaucoup d'éditeurs, dessiner un rectangle noir sur un texte laisse le texte dessous, et n'importe qui peut le copier. Un vrai caviardage le supprime. {brand} reconstruit chaque page caviardée pour que le contenu masqué disparaisse et, comme il fonctionne en local, le document sensible ne quitte jamais votre appareil.",
+        "uses": [
+          "Masquer numéros de compte, numéros d'identité et signatures avant de partager.",
+          "Supprimer des données personnelles de documents publiés dans le cadre de demandes RGPD ou d'accès aux documents administratifs.",
+          "Masquer des noms de clients dans des études de cas ou des actes de procédure."
+        ],
+        "tips": [
+          "Recherchez un mot pour caviarder toutes ses occurrences d'un coup, puis ajoutez des rectangles pour les images ou les signatures.",
+          "Vérifiez le résultat en essayant de sélectionner et copier du texte dans les zones caviardées.",
+          "Passez aussi Supprimer les métadonnées PDF : les noms d'auteur et les titres peuvent révéler des informations."
+        ],
+        "faq": [
+          {
+            "q": "Le texte caviardé peut-il être récupéré ?",
+            "a": "Non. Chaque page caviardée est reconstruite sous forme d'image avec les zones recouvertes de noir : le texte sous-jacent disparaît. Les autres pages sont conservées sans modification."
+          }
+        ]
+      },
+      "seo": {
+        "title": "Caviarder un PDF gratuit – Masquer du texte définitivement",
+        "desc": "Caviardez un PDF : masquez en noir ou blanc le texte cherché, les e-mails, les téléphones ou des zones tracées. Supprimé, pas caché. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Sejda",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Sejda"
+        ],
+        "sections": [
+          [
+            "Caviardez un PDF gratuitement : vraie suppression, pas un rectangle noir par-dessus",
+            "Caviarder, c'est supprimer définitivement des informations sensibles (noms, numéros de compte, adresses, signatures) avant de partager un document. L'erreur la plus courante est de dessiner des rectangles noirs dans un éditeur PDF ordinaire : le texte dessous est toujours là et peut être copié. Cet outil caviarde vraiment. Chaque page contenant un caviardage est reconstruite sous forme d'image avec les rectangles intégrés : le texte masqué, ses données de police et toute couche sélectionnable dessous disparaissent. Les pages sans caviardage sont copiées intactes et les métadonnées du document sont effacées.",
+            "Vous pouvez caviarder en **recherchant** des mots ou expressions (séparés par des virgules, p. ex. *Jean Dupont, 4111 1111*), en trouvant automatiquement **toutes les adresses e-mail** et **numéros de téléphone**, ou en **dessinant des rectangles** sur n'importe quoi (photos, signatures, tampons, écriture manuscrite) dans l'aperçu de la page."
+          ],
+          [
+            "Comment masquer du texte dans un PDF",
+            {
+              "steps": [
+                "Déposez le PDF.",
+                "Saisissez les mots à caviarder ou cochez e-mails et numéros de téléphone.",
+                "Dessinez des rectangles sur l'aperçu pour tout le reste ; utilisez les boutons de page pour naviguer.",
+                "Choisissez des rectangles noirs ou blancs et appuyez sur Caviarder.",
+                "Téléchargez la copie caviardée et vérifiez-la."
+              ]
+            }
+          ],
+          [
+            "Caviardage noir ou blanc ?",
+            "Les rectangles noirs sont la norme dans les documents juridiques et administratifs car ils montrent clairement que quelque chose a été supprimé. Les rectangles blancs (parfois appelés *caviardage au correcteur*) se fondent dans la page et servent quand un rendu propre compte, par exemple pour des exemples publiés ou des modèles. Les deux suppriment le contenu de la même façon."
+          ],
+          [
+            "Peut-on caviarder du texte dans un PDF sans Adobe Pro ?",
+            "Oui : c'est exactement ce que fait cette page, gratuitement et dans votre navigateur. Les suites professionnelles proposent le même type de vrai caviardage dans leurs éditions payantes ; les lecteurs gratuits et beaucoup d'éditeurs basiques permettent seulement de dessiner des formes, ce qui n'est pas du caviardage."
+          ],
+          [
+            "Ce qui arrive aux pages caviardées",
+            {
+              "table": [
+                [
+                  "",
+                  "Pages avec caviardage",
+                  "Autres pages"
+                ],
+                [
+                  "Contenu",
+                  "Rendu en haute résolution (≈180 ppp) avec les rectangles intégrés",
+                  "Copiées à l'identique"
+                ],
+                [
+                  "Texte sélectionnable",
+                  "Non (passez l'OCR si besoin)",
+                  "Oui"
+                ],
+                [
+                  "Texte masqué récupérable",
+                  "Non",
+                  "—"
+                ],
+                [
+                  "Métadonnées",
+                  "Effacées dans tout le document",
+                  "Effacées"
+                ]
+              ]
+            },
+            "Si les pages caviardées doivent redevenir cherchables, passez [OCR PDF](/ocr-pdf/) sur le résultat : les zones caviardées ne contiennent pas de texte, rien de sensible ne revient donc."
+          ],
+          [
+            "Conseils de recherche",
+            {
+              "list": [
+                "Séparez plusieurs termes par des virgules.",
+                "Laissez *Respecter la casse* désactivé pour trouver DUPONT, Dupont et dupont.",
+                "La recherche ne trouve que du vrai texte ; sur les pages scannées, dessinez des rectangles ou passez d'abord l'OCR.",
+                "Les numéros aux formats différents (4111-1111 et 4111 1111) demandent d'indiquer chaque format.",
+                "Vérifiez toujours toutes les pages du résultat avant de le partager."
+              ]
+            }
+          ],
+          [
+            "Puis-je caviarder un PDF déjà signé ?",
+            "Oui, mais caviarder modifie le document : toute signature numérique n'est plus valide. Caviardez d'abord, puis signez la version finale."
+          ],
+          [
+            "Autres endroits où se cachent des données sensibles",
+            "Les commentaires, champs de formulaire, pièces jointes, signets et calques peuvent aussi contenir des données personnelles. Les pages caviardées sont reconstruites sans eux ; pour le reste du document, envisagez [Aplatir un PDF](/flatten-pdf/) et [Supprimer les métadonnées PDF](/remove-pdf-metadata/)."
+          ],
+          [
+            "Glossaire",
+            {
+              "table": [
+                [
+                  "Terme",
+                  "Signification"
+                ],
+                [
+                  "Caviardage",
+                  "Suppression définitive d'informations d'un document"
+                ],
+                [
+                  "Intégrer",
+                  "Faire d'une marque une partie de l'image même de la page"
+                ],
+                [
+                  "OCR",
+                  "Reconnaître le texte d'une image pour le rendre cherchable"
+                ],
+                [
+                  "Données personnelles",
+                  "Informations permettant d'identifier une personne"
+                ]
+              ]
+            }
+          ],
+          [
+            "Exemple concret",
+            "Avant de partager un relevé bancaire avec un propriétaire, cochez *Caviarder automatiquement les adresses e-mail* et *numéros de téléphone*, ajoutez votre numéro de compte comme terme de recherche et appuyez sur Caviarder. Chaque occurrence est recouverte d'un rectangle plein et supprimée de la couche de texte : rechercher le numéro dans le résultat ne donne rien."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Supprimer les métadonnées PDF](/remove-pdf-metadata/)",
+              "[Aplatir un PDF](/flatten-pdf/)",
+              "[OCR PDF](/ocr-pdf/)",
+              "[Protéger un PDF](/protect-pdf/)",
+              "[Modifier un PDF](/edit-pdf/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Leurs serveurs (envoi)",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Compte requis",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Vraie suppression (pas une superposition)",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Trouve e-mails et téléphones automatiquement",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment caviarder un PDF gratuitement ?",
+            "a": "Déposez-le ici, recherchez des termes ou dessinez des rectangles et téléchargez le PDF caviardé, sans inscription."
+          },
+          {
+            "q": "Comment masquer du texte dans un PDF ?",
+            "a": "Saisissez le texte ou dessinez un rectangle dessus et appuyez sur Caviarder ; le texte est supprimé définitivement."
+          },
+          {
+            "q": "Que signifie caviarder un PDF ?",
+            "a": "Supprimer définitivement le contenu sensible pour qu'il ne puisse pas être récupéré."
+          },
+          {
+            "q": "Le caviardage est-il définitif ?",
+            "a": "Oui, les pages concernées sont reconstruites en images sans le texte masqué."
+          },
+          {
+            "q": "Puis-je caviarder automatiquement les adresses e-mail ?",
+            "a": "Oui, cochez les options e-mails et numéros de téléphone."
+          },
+          {
+            "q": "Puis-je utiliser du blanc au lieu du noir ?",
+            "a": "Oui, choisissez des rectangles blancs."
+          },
+          {
+            "q": "Les pages caviardées seront-elles cherchables ?",
+            "a": "Pas avant d'y avoir passé l'OCR."
+          },
+          {
+            "q": "Mon document est-il envoyé ?",
+            "a": "Non, le caviardage se fait sur votre appareil."
+          }
+        ],
+        "related": [
+          "remove-pdf-metadata",
+          "flatten-pdf",
+          "ocr-pdf",
+          "protect-pdf",
+          "edit-pdf"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

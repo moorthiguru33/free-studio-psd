@@ -1,0 +1,215 @@
+{
+  "tools": {
+    "pdf2txt": {
+      "name": "PDF en texte",
+      "short": "Extrayez le texte brut d'un PDF.",
+      "title": "Convertir PDF en texte en ligne gratuit – Extraire le texte d'un PDF",
+      "desc": "Extrayez tout le texte d'un PDF en .txt, dans l'ordre de lecture et avec les paragraphes reconstitués. Gratuit, sans envoi ni inscription.",
+      "h1": "PDF en texte",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez si vous voulez marquer les sauts de page.",
+        "Téléchargez le fichier texte."
+      ],
+      "faq": [
+        {
+          "q": "Mon PDF est un scan : il n'y a pas de texte ?",
+          "a": "Utilisez d'abord OCR PDF pour reconnaître le texte."
+        }
+      ],
+      "guide": {
+        "intro": "Le texte brut est le format le plus facile à rechercher, analyser, traduire ou coller dans une autre application. PDF en texte récupère chaque mot dans l'ordre de lecture, sans la mise en forme.",
+        "uses": [
+          "Coller le texte d'un document dans un traducteur ou un assistant d'IA.",
+          "Analyser du texte dans un tableur ou un script.",
+          "Rendre un document accessible aux lecteurs d'écran ou aux outils en texte brut."
+        ],
+        "tips": [
+          "Pour les titres et les listes, PDF en Markdown conserve plus de structure.",
+          "Les PDF scannés nécessitent l'OCR."
+        ],
+        "faq": [
+          {
+            "q": "Et si mon PDF est scanné ?",
+            "a": "Utilisez d'abord OCR PDF pour reconnaître le texte."
+          }
+        ],
+        "more": [
+          [
+            "Usages du texte brut",
+            "Les fichiers texte sont minuscules, s'ouvrent sur tous les appareils et sont idéaux pour compter les mots, traduire, indexer des recherches, analyser des données ou coller dans des assistants d'IA. Supprimer la mise en forme aide aussi les lecteurs d'écran et les outils d'accessibilité."
+          ],
+          [
+            "Ordre de lecture",
+            "Le texte est extrait dans l'ordre de lecture et les lignes sont réunies en paragraphes, mais les mises en page multicolonnes peuvent demander de petites corrections."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "PDF en texte – Extraire le texte d'un PDF (TXT) gratuit",
+        "desc": "Convertissez un PDF en texte brut (.txt) : lignes et paragraphes propres, sauts de page marqués en option, Unicode. Gratuit, sans envoi.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Adobe",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Adobe Acrobat online"
+        ],
+        "sections": [
+          [
+            "Convertissez un PDF en texte brut",
+            "Récupérez tout le texte d'un PDF dans un simple fichier .txt : idéal pour le copier dans d'autres logiciels, le passer à des outils d'analyse ou d'IA, le traduire, améliorer l'accessibilité, indexer des recherches ou simplement le lire sur n'importe quel appareil. Les lignes et les paragraphes sont reconstruits à partir de la mise en page du PDF ; toutes les langues et tous les systèmes d'écriture sont conservés en Unicode."
+          ],
+          [
+            "Mode d'emploi",
+            {
+              "steps": [
+                "Déposez le PDF.",
+                "Cochez « Marquer les sauts de page » si vous voulez des séparateurs entre les pages.",
+                "Appuyez sur Convertir et téléchargez le fichier .txt."
+              ]
+            }
+          ],
+          [
+            "PDF scannés",
+            "L'extraction lit la couche de texte du PDF. Les pages scannées sont des images sans texte : elles donnent des pages vides. Lancez d'abord [OCR PDF](/ocr-pdf/) puis extrayez."
+          ],
+          [
+            "Pourquoi l'espacement ou l'ordre peuvent sembler étranges",
+            "Les PDF stockent le texte sous forme de fragments positionnés, pas de paragraphes. L'extracteur reconstruit lignes et paragraphes d'après leurs positions. Les mises en page multicolonnes, les tableaux, les notes de bas de page et les encadrés peuvent sortir dans un ordre différent de l'ordre de lecture, et les mots coupés par un trait d'union en fin de ligne restent coupés. Les tableaux s'extraient mieux avec [PDF en Excel](/pdf-to-excel/) ou [PDF en CSV](/pdf-to-csv/)."
+          ],
+          [
+            "Marquer les sauts de page",
+            "Cochez *Marquer les sauts de page* pour insérer un séparateur clair à chaque page : vous retrouverez où commence la page 12 ou pourrez citer avec les numéros de page."
+          ],
+          [
+            "Usages du texte brut",
+            {
+              "list": [
+                "Le coller dans ChatGPT, des outils de traduction ou un compteur de mots : voir [Compteur de mots](/word-counter/).",
+                "L'importer dans un tableur, une base de données ou un index de recherche.",
+                "Le lire sur d'anciennes liseuses et avec des lecteurs d'écran.",
+                "Comparer deux versions avec le [Comparateur de textes](/text-diff-checker/).",
+                "Garder une copie d'archive légère et pérenne."
+              ]
+            }
+          ],
+          [
+            "Fonctionne avec presque tous les PDF",
+            "L'outil ouvre les PDF issus de Word, Google Docs, LibreOffice, scanners, téléphones et logiciels de design, y compris les fichiers PDF 1.0–2.0 avec formulaires, annotations et polices intégrées. Les fichiers protégés par un mot de passe d'*ouverture* doivent d'abord être déverrouillés avec [Déverrouiller un PDF](/unlock-pdf/) (le mot de passe est nécessaire) ; ceux qui n'ont que des restrictions d'autorisations s'ouvrent généralement directement. Les gros documents de centaines de pages fonctionnent aussi : la limite est la mémoire de votre appareil, généralement plusieurs centaines de mégaoctets sur un ordinateur portable et environ 100 Mo sur un téléphone."
+          ],
+          [
+            "Windows, Mac, iPhone et Android",
+            "Rien à installer. Fonctionne dans Chrome, Edge, Firefox et Safari sous Windows, macOS, Linux, ChromeOS, Android et iOS. Sur mobile, touchez la zone de dépôt et choisissez le fichier dans Fichiers, Google Drive ou les téléchargements de votre messagerie ; le résultat est enregistré dans Téléchargements ou dans l'app Fichiers et peut être partagé directement via WhatsApp, Gmail ou Drive."
+          ],
+          [
+            "Problèmes courants et solutions",
+            {
+              "list": [
+                "**« Le fichier est chiffré »** : retirez le mot de passe d'ouverture avec Déverrouiller un PDF et réessayez.",
+                "**Le fichier est un fichier cloud fantôme** : téléchargez-le d'abord entièrement depuis OneDrive, iCloud ou Drive.",
+                "**Un téléchargement endommagé ou incomplet** : passez-le dans [Réparer un PDF](/repair-pdf/).",
+                "**Très lent sur mobile** : les gros PDF scannés demandent beaucoup de mémoire ; fermez les autres onglets ou divisez d'abord le fichier avec [Diviser un PDF](/split-pdf/).",
+                "**Le téléchargement n'a pas démarré** : certains navigateurs intégrés aux applications (Instagram, Facebook) bloquent les téléchargements ; ouvrez la page dans Chrome ou Safari."
+              ]
+            }
+          ],
+          [
+            "Combinez-le avec d'autres outils PDF",
+            "La plupart des tâches demandent plus d'une étape, et tous les outils Fileopia fonctionnent de la même façon : vous pouvez les enchaîner sans rien envoyer. Un flux typique : scannez ou convertissez les pages, [fusionnez-les](/merge-pdf/) en un seul fichier, ordonnez-les avec [Organiser un PDF](/organize-pdf/), rendez le texte scanné cherchable avec l'OCR, ajoutez des [numéros de page](/add-page-numbers/) et enfin [compressez](/compress-pdf/) le résultat pour l'envoyer par e-mail. Chaque étape télécharge un nouveau fichier et laisse l'original intact : vous pouvez toujours revenir en arrière et essayer d'autres réglages. Astuce : donnez à chaque résultat un nom clair comme *contrat-signe-compresse.pdf* pour distinguer les versions plus tard."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet de votre navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Sans envoi : fonctionne sur votre appareil",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Marques de saut de page, UTF-8",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Gratuit sans inscription",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir un PDF en texte ?",
+            "a": "Déposez le PDF et téléchargez le .txt."
+          },
+          {
+            "q": "La mise en forme est-elle conservée ?",
+            "a": "Non : le texte brut n'a ni polices ni mise en page ; pour cela, utilisez PDF en Word."
+          },
+          {
+            "q": "Pourquoi mon fichier texte est-il vide ?",
+            "a": "Le PDF est scanné ; lancez d'abord l'OCR."
+          },
+          {
+            "q": "Le hindi, l'arabe ou le chinois sont-ils pris en charge ?",
+            "a": "Oui, en Unicode, si le PDF a un mappage de texte correct."
+          },
+          {
+            "q": "Puis-je marquer les numéros de page ?",
+            "a": "Oui, cochez « Marquer les sauts de page »."
+          },
+          {
+            "q": "L'encodage est-il UTF-8 ?",
+            "a": "Oui."
+          },
+          {
+            "q": "Puis-je extraire des tableaux ?",
+            "a": "Utilisez PDF en Excel ou en CSV."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui."
+          },
+          {
+            "q": "Les fichiers sont-ils envoyés ?",
+            "a": "Non."
+          },
+          {
+            "q": "Ça marche sur mobile ?",
+            "a": "Oui."
+          }
+        ],
+        "related": [
+          "pdf-to-word",
+          "ocr-pdf",
+          "pdf-to-markdown",
+          "word-counter",
+          "pdf-to-html"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

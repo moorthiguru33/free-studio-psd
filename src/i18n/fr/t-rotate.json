@@ -1,0 +1,214 @@
+{
+  "tools": {
+    "rotate": {
+      "name": "Faire pivoter un PDF",
+      "short": "Faites pivoter toutes les pages de vos PDF.",
+      "title": "Faire pivoter un PDF en ligne gratuit – Tourner les pages | {brand}",
+      "desc": "Faites pivoter les pages d'un PDF de 90°, 180° ou 270° et enregistrez-les définitivement. Gratuit, rapide et privé : fonctionne dans votre navigateur.",
+      "h1": "Faire pivoter un PDF",
+      "steps": [
+        "Sélectionnez un ou plusieurs fichiers PDF.",
+        "Choisissez l'angle de rotation.",
+        "Cliquez sur Démarrer et téléchargez le PDF pivoté."
+      ],
+      "faq": [
+        {
+          "q": "La rotation est-elle définitive ?",
+          "a": "Oui. La rotation est enregistrée dans le PDF pour qu'il s'ouvre correctement dans n'importe quel lecteur."
+        }
+      ],
+      "guide": {
+        "intro": "Les scans et les photos de téléphone sont souvent de travers ou à l'envers. Faire pivoter un PDF corrige l'orientation définitivement pour que le fichier s'ouvre correctement partout.",
+        "uses": [
+          "Redresser des pages scannées de travers.",
+          "Faire pivoter des pages en paysage pour une meilleure lecture."
+        ],
+        "tips": [
+          "Pour faire pivoter seulement certaines pages, utilisez Organiser un PDF."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Faire pivoter ou rescanner",
+            "Rescanner un document de travers fait perdre du temps et peut dégrader la qualité. Faire pivoter un PDF change seulement l'instruction d'orientation enregistrée dans le fichier : le texte, les images et la taille restent exactement identiques. Le résultat s'ouvre correctement dans Adobe Reader, les navigateurs, Aperçu, les lecteurs mobiles et les imprimantes."
+          ],
+          [
+            "Orientations mixtes",
+            "Les rapports mélangent souvent des pages de texte en portrait et des tableaux ou graphiques en paysage. Faites pivoter seulement les pages en paysage avec Organiser un PDF pour que chacune se lise naturellement à l'écran, puis imprimez avec la « rotation automatique » activée."
+          ],
+          [
+            "Rotation par lots",
+            "Sélectionnez plusieurs PDF à la fois et appliquez la même rotation à tous : très utile quand le scanner a avalé toute une pile de feuilles dans le mauvais sens."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Faire pivoter un PDF – Tourner les pages, gratuit",
+        "desc": "Faites pivoter des pages PDF de 90°, 180° ou 270° définitivement : toutes, impaires, paires, paysage seulement ou une plage. Par lots, gratuit, sans envoi.",
+        "sections": [
+          [
+            "Corrigez définitivement les pages de travers ou à l'envers",
+            "Les scanners, téléphones et fax produisent souvent des PDF aux pages mal orientées : un tableau en paysage couché, un ticket à l'envers ou une page sur deux d'un scan recto verso retournée. Faire pivoter la page dans votre lecteur PDF ne change que l'affichage sur votre écran : la prochaine personne qui ouvre le fichier le verra de nouveau de travers. {brand} écrit la nouvelle orientation dans le PDF lui-même : le fichier s'ouvre à l'endroit partout, dans Acrobat, Chrome, Aperçu, sur mobile et à l'impression.",
+            "Fonctionne entièrement dans votre navigateur. Le PDF est ouvert sur votre appareil, la rotation des pages est mise à jour et le résultat est téléchargé : rien n'est envoyé, ce qui compte pour les contrats, les scans de pièces d'identité et les courriers médicaux."
+          ],
+          [
+            "Faites pivoter exactement les pages nécessaires",
+            [
+              "**Toutes les pages** : la solution classique pour un document scanné entièrement dans le mauvais sens.",
+              "**Pages impaires ou paires** : corrige les scans recto verso où seuls les versos sont à l'envers.",
+              "**Pages en paysage seulement / en portrait seulement** : redresse les documents mixtes où seuls les tableaux ou plans larges sont de travers.",
+              "**Une plage de pages** : saisissez 2, 5-7 pour faire pivoter seulement ces pages.",
+              "**90° à droite, 180° ou 90° à gauche** en un clic.",
+              "**Par lots** : déposez plusieurs PDF et récupérez-les tous pivotés dans un ZIP."
+            ]
+          ],
+          [
+            "Rotation sans perte",
+            "Dans un PDF, la rotation est une propriété de chaque page. La modifier ne refait aucun rendu ni aucune compression : le texte reste sélectionnable et cherchable, les liens et champs de formulaire fonctionnent toujours et les images gardent toute leur qualité. La taille du fichier change à peine. C'est différent des outils qui convertissent les pages en images et inversement, ce qui peut rendre le texte flou et alourdir le fichier."
+          ],
+          [
+            "Comment faire pivoter un PDF",
+            [
+              "Déposez un ou plusieurs PDF sur la page.",
+              "Choisissez l'angle : 90° à droite, 180° ou 270° (90° à gauche).",
+              "Choisissez les pages : toutes, impaires, paires, paysage, portrait ou une plage.",
+              "Cliquez sur Faire pivoter et téléchargez. Le résultat indique combien de pages ont été pivotées."
+            ]
+          ],
+          [
+            "Faire pivoter sur Mac, Windows et mobile",
+            "Sur Mac, Aperçu peut faire pivoter des pages et enregistrer le changement ; sous Windows, les lecteurs PDF gratuits ne font généralement pivoter que l'affichage. Cet outil fonctionne de la même façon sur tous les systèmes, y compris Chromebook, Android et iPhone, sans rien installer. Pour des pages individuelles nécessitant des angles différents, utilisez [Organiser un PDF](/organize-pdf/), où chaque miniature a son propre bouton de rotation."
+          ],
+          [
+            "Usages courants",
+            [
+              "Redresser des contrats scannés avant de les envoyer par e-mail.",
+              "Corriger des feuilles de calcul en paysage imprimées dans un rapport en portrait.",
+              "Corriger des photos de documents prises au téléphone et converties avec [JPG en PDF](/jpg-to-pdf/).",
+              "Préparer des fichiers pour l'impression ou pour [Fusionner des PDF](/merge-pdf/), afin que toutes les pages soient dans le même sens.",
+              "Rendre lisibles des livres scannés sur une tablette."
+            ]
+          ],
+          [
+            "Conseils",
+            [
+              "Si une page s'affiche bien dans un lecteur mais mal dans un autre, le PDF a peut-être un indicateur de rotation inhabituel : une rotation de 360° (quatre fois 90°) le normalise.",
+              "Les pages scannées légèrement de travers (quelques degrés) doivent être redressées, pas pivotées : essayez [Redresser un PDF](/deskew-pdf/).",
+              "Un PDF protégé par mot de passe ? Ouvrez-le d'abord avec [Déverrouiller un PDF](/unlock-pdf/) si vous connaissez le mot de passe."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Pivoter pages impaires/paires/paysage seulement",
+            "Oui",
+            "Filtre paysage/portrait",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Pivoter une plage de pages",
+            "Oui",
+            "Voir le site",
+            "Pages individuelles",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Rotation par lots",
+            "Gratuit, en ZIP",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Dans les limites de tâches"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "La rotation est-elle enregistrée définitivement ?",
+            "a": "Oui. La nouvelle orientation est écrite dans le PDF : il s'ouvre à l'endroit dans tout lecteur et à l'impression."
+          },
+          {
+            "q": "Puis-je faire pivoter une seule page ?",
+            "a": "Oui. Choisissez « Plage de pages… » et saisissez le numéro de page, ou utilisez Organiser un PDF pour faire pivoter des miniatures individuelles."
+          },
+          {
+            "q": "Puis-je faire pivoter seulement les pages en paysage ?",
+            "a": "Oui. Choisissez « Pages en paysage seulement » pour faire pivoter uniquement les pages larges et laisser les autres telles quelles."
+          },
+          {
+            "q": "La rotation réduit-elle la qualité ?",
+            "a": "Non. Seul le réglage de rotation de la page change ; le texte, les images et les liens ne sont pas touchés."
+          },
+          {
+            "q": "Puis-je faire pivoter plusieurs PDF à la fois ?",
+            "a": "Oui. Déposez plusieurs fichiers et téléchargez-les ensemble dans un ZIP."
+          },
+          {
+            "q": "Mon fichier est-il envoyé ?",
+            "a": "Non. La rotation se fait dans votre navigateur et fonctionne hors ligne une fois la page chargée."
+          },
+          {
+            "q": "Comment faire pivoter un PDF sur Mac ou Windows ?",
+            "a": "Utilisez cette page dans n'importe quel navigateur : elle fonctionne de la même façon sur Mac, Windows, Linux, Chromebook, Android et iPhone."
+          },
+          {
+            "q": "Y a-t-il une limite de taille de fichier ?",
+            "a": "Il n'y a pas de limite fixe ; les très gros fichiers dépendent seulement de la mémoire de votre appareil."
+          },
+          {
+            "q": "Comment corriger une page sur deux d'un scan recto verso ?",
+            "a": "Choisissez « Pages paires » (ou « Pages impaires ») et 180°."
+          }
+        ],
+        "related": [
+          "organize-pdf",
+          "deskew-pdf",
+          "merge-pdf",
+          "split-pdf",
+          "compress-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment faire pivoter un PDF et l'enregistrer ainsi ?",
+            "a": "Choisissez l'angle et les pages à faire pivoter (toutes, impaires, paires, paysage seulement ou une plage) et téléchargez. La rotation est écrite dans le fichier : il s'ouvre correctement dans tout lecteur, contrairement au bouton de rotation temporaire de nombreux lecteurs PDF."
+          }
+        ]
+      }
+    }
+  }
+}

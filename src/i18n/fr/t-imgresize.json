@@ -1,0 +1,342 @@
+{
+  "tools": {
+    "imgresize": {
+      "name": "Redimensionner une image",
+      "short": "Changez les dimensions d'une image en pixels ou en %.",
+      "title": "Redimensionner une image en ligne gratuit – Pixels ou % | {brand}",
+      "desc": "Redimensionnez JPG, PNG, WEBP et plus en pixels exacts ou en pourcentage, proportions gardées. Par lots dans votre navigateur, gratuit.",
+      "h1": "Redimensionner des images",
+      "steps": [
+        "Sélectionnez vos images.",
+        "Saisissez une largeur/hauteur en pixels ou un pourcentage.",
+        "Cliquez sur Démarrer et téléchargez les images redimensionnées."
+      ],
+      "faq": [
+        {
+          "q": "L'image sera-t-elle étirée ?",
+          "a": "Non : avec « Conserver les proportions » activé, l'image tient dans la taille indiquée sans être déformée."
+        }
+      ],
+      "guide": {
+        "intro": "Chaque plateforme demande une taille différente : photos de profil, bannières web, annonces sur les marketplaces, photos de passeport. Redimensionner une image met vos photos aux dimensions exactes sans les déformer, par lots et sur votre appareil.",
+        "uses": [
+          "Donner une largeur uniforme aux photos de produits d'une boutique en ligne.",
+          "Préparer des images pour les publications et couvertures sur les réseaux sociaux.",
+          "Réduire les photos d'appareil pour les envoyer par e-mail et les mettre en ligne plus vite.",
+          "Respecter des exigences exactes en pixels dans les formulaires de candidature."
+        ],
+        "tips": [
+          "Gardez les « proportions » activées pour éviter l'étirement.",
+          "Réduire conserve la qualité ; agrandir de petites images peut donner un résultat flou : essayez Agrandir une image.",
+          "Combinez avec Compresser une image pour obtenir les fichiers les plus légers."
+        ],
+        "faq": [
+          {
+            "q": "Le redimensionnement va-t-il étirer mon image ?",
+            "a": "Non : avec « Conserver les proportions » activé, l'image tient dans la taille indiquée sans être déformée."
+          }
+        ],
+        "more": [
+          [
+            "Redimensionner pour le web",
+            "La plupart des sites affichent des images de 1200–2000 px de large au plus. Redimensionner les grandes photos d'appareil à cette largeur peut réduire le poids de 70 à 90 % avant toute compression."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Redimensionner une image – Pixels, cm, pouces et Ko, gratuit",
+        "desc": "Redimensionnez des images en pixels, %, cm, mm ou pouces avec DPI. Préréglages passeport, Instagram et YouTube, recadrage, Ko max. et lots. Gratuit.",
+        "compareTitle": "{tool} : {brand} et iLoveIMG, ImageResizer.com, Adobe Express",
+        "compareCols": [
+          "iLoveIMG",
+          "ImageResizer.com",
+          "Adobe Express"
+        ],
+        "sections": [
+          [
+            "Redimensionnez n'importe quelle image à la taille exacte voulue",
+            "Chaque plateforme veut des images d'une taille différente. Une photo de passeport doit mesurer 35×45 mm, une miniature YouTube 1280×720 pixels, une bannière LinkedIn 1584×396, une publication verticale Instagram 1080×1350, et un formulaire d'examen peut demander 200×230 pixels et moins de 50 Ko. Le redimensionneur d'images de {brand} couvre tout cela depuis un seul écran : saisissez la taille en pixels, pourcentage, centimètres, millimètres ou pouces, ou choisissez un préréglage, et téléchargez une image à la taille parfaite en quelques secondes.",
+            "Redimensionnez une image ou des centaines à la fois ; les proportions sont conservées sauf indication contraire, et l'outil peut recadrer ou compléter jusqu'à une forme exacte pour que rien ne soit étiré. Tout s'exécute dans votre navigateur : vos photos ne sont jamais envoyées."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Unités :** pixels, pourcentage, cm, mm et pouces avec réglage du DPI (300 DPI par défaut pour l'impression).",
+              "**Préréglages :** passeport 35×45 mm, Instagram carré, vertical et story, miniature YouTube, bannière LinkedIn, couverture Facebook, en-tête X, Full HD et A4 à 300 DPI.",
+              "**Formes exactes sans déformation :** ajuster à l'intérieur, remplir et recadrer à la taille exacte, compléter avec une couleur de fond ou étirer si vous le voulez vraiment.",
+              "**Ne pas agrandir :** laisse intactes les images déjà plus petites que la cible.",
+              "**Taille de fichier maximale :** fixez une limite en Ko pour la sortie JPG ou WebP et le redimensionneur trouve la meilleure qualité en dessous.",
+              "**Réduction haute qualité :** les fortes réductions se font en plusieurs étapes de moitié pour des résultats nets sans bords crénelés.",
+              "**Par lots :** redimensionnez un dossier entier d'un coup et téléchargez un ZIP.",
+              "**Choix du format :** gardez l'original ou enregistrez en JPG, PNG, WebP ou AVIF."
+            ]
+          ],
+          [
+            "Comment redimensionner une image",
+            [
+              "Déposez une ou plusieurs images (JPG, PNG, WebP, HEIC, GIF, BMP, TIFF, AVIF).",
+              "Choisissez un préréglage, ou choisissez une unité et saisissez la largeur et/ou la hauteur.",
+              "Si vous fixez largeur et hauteur, choisissez quoi faire quand la forme ne correspond pas : ajuster, remplir et recadrer, compléter avec une couleur ou étirer.",
+              "Si vous le souhaitez, fixez un format de sortie et une taille maximale en Ko.",
+              "Cliquez sur Redimensionner et téléchargez l'image ou le ZIP."
+            ]
+          ],
+          [
+            "Pixels, centimètres et DPI expliqués",
+            "Les images numériques se mesurent en pixels. Les tailles physiques, comme les centimètres ou les pouces, n'ont de sens qu'avec une résolution, mesurée en points (pixels) par pouce. À 300 DPI, le standard courant pour l'impression photo, un pouce fait 300 pixels et un centimètre environ 118. Ainsi, une photo de passeport de 35×45 mm à 300 DPI mesure 413×531 pixels, et un tirage 10×15 cm (4×6 in) mesure 1200×1800 pixels.",
+            {
+              "table": [
+                [
+                  "Taille",
+                  "À 300 DPI",
+                  "À 150 DPI"
+                ],
+                [
+                  "35×45 mm (passeport)",
+                  "413×531 px",
+                  "207×266 px"
+                ],
+                [
+                  "2×2 in (passeport/visa américain)",
+                  "600×600 px",
+                  "300×300 px"
+                ],
+                [
+                  "Photo 4×6 in (10×15 cm)",
+                  "1200×1800 px",
+                  "600×900 px"
+                ],
+                [
+                  "Page A4",
+                  "2480×3508 px",
+                  "1240×1754 px"
+                ],
+                [
+                  "Prospectus A5",
+                  "1748×2480 px",
+                  "874×1240 px"
+                ]
+              ]
+            },
+            "Quand vous choisissez cm, mm ou pouces, saisissez le DPI attendu par l'imprimante ou le formulaire ; le redimensionneur convertit la taille en pixels pour vous."
+          ],
+          [
+            "Ajuster, remplir, ajouter des bordures ou étirer ?",
+            {
+              "table": [
+                [
+                  "Mode",
+                  "Ce qui se passe",
+                  "À utiliser pour"
+                ],
+                [
+                  "Ajuster à l'intérieur",
+                  "L'image est mise à l'échelle pour tenir dans le cadre ; un côté peut être plus petit",
+                  "Garder l'image entière, p. ex. photos de produits"
+                ],
+                [
+                  "Remplir et recadrer",
+                  "L'image remplit exactement le cadre ; le surplus est recadré depuis le centre",
+                  "Publications sur les réseaux, miniatures, photos de passeport"
+                ],
+                [
+                  "Ajouter des bordures",
+                  "L'image tient à l'intérieur et le reste est rempli d'une couleur",
+                  "Marketplaces qui exigent des images carrées à bordures blanches"
+                ],
+                [
+                  "Étirer",
+                  "L'image est forcée à la taille exacte et peut paraître déformée",
+                  "Seulement quand la déformation n'a pas d'importance"
+                ]
+              ]
+            },
+            "Les préréglages utilisent automatiquement remplir et recadrer, pour que le résultat ait toujours exactement la taille attendue par la plateforme."
+          ],
+          [
+            "Tailles d'image courantes en 2026",
+            {
+              "table": [
+                [
+                  "Plateforme",
+                  "Taille recommandée"
+                ],
+                [
+                  "Publication Instagram carrée",
+                  "1080×1080"
+                ],
+                [
+                  "Publication Instagram verticale",
+                  "1080×1350"
+                ],
+                [
+                  "Story Instagram / Facebook, Reels, TikTok",
+                  "1080×1920"
+                ],
+                [
+                  "Miniature YouTube",
+                  "1280×720"
+                ],
+                [
+                  "Bannière de profil LinkedIn",
+                  "1584×396"
+                ],
+                [
+                  "Couverture de page Facebook",
+                  "820×312"
+                ],
+                [
+                  "En-tête X (Twitter)",
+                  "1500×500"
+                ],
+                [
+                  "Image principale d'un site",
+                  "1920×1080 ou plus large"
+                ]
+              ]
+            },
+            "Les plateformes modifient leurs recommandations de temps en temps ; si une image envoyée apparaît recadrée, consultez la page d'aide de la plateforme et saisissez la taille à la main."
+          ],
+          [
+            "Redimensionner pour les formulaires en ligne",
+            "Les portails d'examens, d'emploi et de visa précisent souvent à la fois les dimensions en pixels et une taille maximale, par exemple « 200×230 pixels, 20–50 Ko, JPG ». Choisissez « Personnalisée », saisissez 200 et 230 pixels, sélectionnez Remplir et recadrer pour que le visage reste centré sans déformation, réglez le format sur JPG et saisissez 50 dans la case « Taille de fichier maximale ». Un clic vous donne un fichier conforme. Pour les signatures, faites de même avec les dimensions de la signature et une limite de 20 Ko."
+          ],
+          [
+            "Le redimensionnement réduit-il la qualité ?",
+            "Rendre une image plus petite supprime toujours des pixels, mais bien fait, le résultat reste net. Le redimensionneur réduit les grandes images en plusieurs étapes de moitié avec un lissage haute qualité, ce qui évite les bords crénelés et l'effet moiré d'une seule forte réduction. Agrandir une image ne peut pas ajouter de vrai détail ; pour des agrandissements de 2× ou plus, [Agrandir une image](/upscale-image/) utilise un rééchantillonnage Lanczos et de l'accentuation pour un meilleur résultat."
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. L'image est décodée, modifiée et réencodée sur votre propre appareil avec le moteur d'images intégré du navigateur et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : photos privées, pièces d'identité, captures contenant des données personnelles et photos de produits pas encore lancés ne quittent jamais votre ordinateur ou votre téléphone. Vous pouvez même couper le Wi-Fi une fois la page chargée, l'outil continue de fonctionner."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Compresser une image](/compress-image/) : réduisez le poids à une cible exacte en Ko.",
+              "[Recadrer une image](/crop-image/) : choisissez exactement quelle partie de la photo garder.",
+              "[Créateur de photos d'identité](/passport-photo-maker/) : photos de passeport et de visa avec planches à imprimer.",
+              "[Convertisseur d'images](/image-converter/) : changez le format sans redimensionner."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre image est traitée",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Cloud d'Adobe"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Voir le site"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Unités",
+            "px, %, cm, mm, pouces + DPI",
+            "Pixels ou pourcentage",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Préréglages réseaux / passeport",
+            "Oui (10 préréglages)",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Recadrer pour remplir ou ajouter des bordures à la taille exacte",
+            "Oui",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Ko max. en sortie",
+            "Oui",
+            "Non proposé sur la page",
+            "Non proposé sur la page",
+            "Voir le site"
+          ],
+          [
+            "Redimensionnement par lots",
+            "Oui, en ZIP",
+            "Oui (« plusieurs images à la fois »)",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Conservation des fichiers",
+            "Jamais envoyés",
+            "Voir le site",
+            "Supprimés sous 6 heures",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment redimensionner une image sans perdre en qualité ?",
+            "a": "Gardez les proportions et réduisez seulement la taille. L'outil réduit en plusieurs étapes pour des résultats nets. Agrandir n'ajoute pas de détail ; pour cela, utilisez Agrandir une image."
+          },
+          {
+            "q": "Comment redimensionner une image en 35×45 mm pour un passeport ?",
+            "a": "Choisissez le préréglage « Passeport 35×45 mm @300 DPI ». Vous obtenez une image de 413×531 px recadrée depuis le centre."
+          },
+          {
+            "q": "Puis-je redimensionner à une taille exacte en cm ou en pouces ?",
+            "a": "Oui. Choisissez cm, mm ou pouces, saisissez la taille et réglez le DPI attendu par l'imprimante ou le formulaire."
+          },
+          {
+            "q": "Comment redimensionner une image et la garder sous 50 Ko ?",
+            "a": "Fixez la taille, choisissez une sortie JPG ou WebP et saisissez 50 dans la case « Taille de fichier maximale »."
+          },
+          {
+            "q": "Puis-je redimensionner beaucoup d'images à la fois ?",
+            "a": "Oui. Déposez-les toutes ; vous obtenez un ZIP avec toutes les images redimensionnées."
+          },
+          {
+            "q": "Comment rendre une image carrée sans la recadrer ?",
+            "a": "Saisissez la même largeur et la même hauteur et choisissez « Ajouter des bordures jusqu'à la taille exacte » avec votre couleur de fond."
+          },
+          {
+            "q": "Mes photos sont-elles envoyées ?",
+            "a": "Non. Le redimensionnement se fait dans votre navigateur et rien n'est envoyé à aucun serveur."
+          },
+          {
+            "q": "Quelles tailles utilisent les préréglages réseaux sociaux ?",
+            "a": "Instagram 1080×1080 et 1080×1350, stories 1080×1920, YouTube 1280×720, LinkedIn 1584×396, couverture Facebook 820×312 et en-tête X 1500×500."
+          },
+          {
+            "q": "Ça marche sur iPhone et Android ?",
+            "a": "Oui. Fonctionne dans Safari et Chrome sur mobile, y compris avec les photos HEIC de l'iPhone."
+          }
+        ],
+        "related": [
+          "compress-image",
+          "crop-image",
+          "passport-photo-maker",
+          "image-converter",
+          "upscale-image"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment redimensionner une image ?",
+            "a": "Déposez l'image et saisissez une nouvelle largeur ou hauteur en pixels, un pourcentage ou une taille d'impression en cm, mm ou pouces avec DPI. Gardez « verrouiller les proportions » activé pour éviter l'étirement, puis téléchargez."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "tools": {
+    "sign": {
+      "name": "Signer un PDF",
+      "short": "Dessinez ou tapez votre signature et placez-la sur un PDF.",
+      "title": "Signer un PDF en ligne gratuit – Ajouter une signature | {brand}",
+      "desc": "Dessinez ou tapez votre signature et ajoutez-la sur n'importe quelle page d'un PDF. Gratuit, sans compte, et votre document ne quitte pas votre appareil.",
+      "h1": "Signer un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Dessinez ou tapez votre signature et choisissez une page.",
+        "Cliquez sur l'aperçu pour la placer, puis sur Démarrer et téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "La signature a-t-elle une valeur juridique ?",
+          "a": "L'outil ajoute une signature électronique visuelle, acceptée dans de nombreuses situations. Pour les signatures numériques à certificat, vérifiez les exigences de votre pays."
+        }
+      ],
+      "guide": {
+        "intro": "Signez des documents en moins d'une minute sans imprimer ni scanner. Dessinez votre signature au doigt, à la souris ou au stylet, ou tapez-la, et placez-la n'importe où sur la page, le tout sur votre appareil.",
+        "uses": [
+          "Signer des baux, des lettres d'offre et des formulaires de consentement.",
+          "Valider des factures ou des bons de livraison.",
+          "Parapher chaque page d'un contrat."
+        ],
+        "tips": [
+          "Sur mobile, dessinez lentement pour une signature plus fluide.",
+          "Après la signature, utilisez Aplatir un PDF pour que la signature ne puisse pas être déplacée."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Signatures électroniques",
+            "Les signatures électroniques visuelles sont largement acceptées pour les accords courants dans de nombreux pays. Certains documents, comme certaines démarches juridiques ou administratives, peuvent exiger des signatures numériques à certificat : vérifiez la réglementation locale en cas de doute."
+          ],
+          [
+            "Signer sur mobile",
+            "Dessinez votre signature au doigt, placez-la sur la bonne page et ajustez sa taille à la ligne de signature."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Signer un PDF – Dessinez, tapez ou importez une signature",
+        "desc": "Signez un PDF : dessinez, tapez ou importez une signature, ajoutez initiales et date, sur plusieurs pages. Stockée sur votre appareil. Sans envoi.",
+        "sections": [
+          [
+            "Signez un PDF en moins d'une minute, en toute confidentialité",
+            "Qu'il s'agisse d'un bail, d'une lettre d'offre, d'une autorisation scolaire ou d'un contrat fournisseur, signer voulait dire imprimer, signer et scanner. Avec {brand}, vous ajoutez votre signature directement au PDF dans votre navigateur. Le document n'est jamais envoyé, il n'y a aucun compte à créer et vous n'avez pas besoin de vous envoyer le fichier via une plateforme de signature électronique.",
+            [
+              "**Trois façons de créer une signature** : dessinez-la à la souris, au pavé tactile, au doigt ou au stylet ; tapez votre nom et choisissez un style manuscrit ; ou importez une photo de votre signature. Le fond blanc devient transparent automatiquement.",
+              "**Initiales, date et texte libre** : placez vos initiales, la date du jour ou n'importe quel texte (comme votre nom en capitales ou « Approuvé ») avec le même outil.",
+              "**Plusieurs placements, plusieurs pages** : cliquez pour la placer autant de fois que nécessaire ; changez de page pour parapher chacune et signer la dernière. Annuler supprime le dernier placement.",
+              "**Mémoriser ma signature** : si vous le souhaitez, enregistrez votre signature seulement dans ce navigateur (stockage local) pour l'avoir prête instantanément la prochaine fois. Rien n'est stocké sur un serveur.",
+              "**Couleur et taille** : encre bleue ou noire, et toute largeur."
+            ],
+            "En plus, aucune attente. Les gros contrats scannés s'ouvrent instantanément, vous pouvez signer dans le train ou l'avion hors ligne une fois la page chargée et signer autant de documents que vous voulez par jour. Pas de crédits, pas de compte à rebours d'essai gratuit, pas d'invitation à créer un compte avant de télécharger votre propre fichier signé."
+          ],
+          [
+            "Comment signer un PDF",
+            [
+              "**Ouvrez votre PDF** en le déposant sur la page.",
+              "**Créez votre signature** : dessinez-la, tapez-la ou importez-la. Cochez « Mémoriser ma signature » si vous voulez la garder sur cet appareil.",
+              "**Choisissez quoi placer** : Signature, Initiales, Date du jour ou Texte libre.",
+              "**Cliquez sur la page** là où elle doit aller. Chaque clic ajoute une copie centrée sur le point cliqué.",
+              "**Changez de page** pour signer ou parapher d'autres pages. Utilisez Annuler si vous en placez une au mauvais endroit.",
+              "**Téléchargez** le PDF signé."
+            ]
+          ],
+          [
+            "Signature électronique ou signature numérique",
+            "Ces deux termes sont souvent confondus. Une **signature électronique** est toute indication électronique qu'une personne approuve un document : une signature dessinée ou tapée, une image scannée ou même une case cochée. C'est ce que crée cet outil. Dans de nombreux pays, les signatures électroniques sont juridiquement reconnues pour la plupart des accords courants : aux États-Unis selon l'ESIGN Act et l'UETA, et dans l'Union européenne en tant que « signatures électroniques simples » selon le règlement eIDAS.",
+            "Une **signature numérique** est une technologie précise : un sceau cryptographique basé sur un certificat délivré à votre nom, qui prouve qui a signé et que le fichier n'a pas été modifié depuis. Certains documents (certaines démarches administratives, actes notariés ou signatures « qualifiées » selon eIDAS) exigent ce niveau. Si un destinataire demande expressément une signature numérique à certificat, utilisez l'outil ou le service qu'il indique.",
+            "Ceci est une information générale, pas un conseil juridique. Vérifiez les exigences des contrats importants dans votre pays."
+          ],
+          [
+            "Ce qui rend un PDF signé plus fiable",
+            [
+              "Paraphez chaque page quand le document est long, pour qu'aucune page ne puisse être remplacée sans que cela se voie.",
+              "Ajoutez la date à côté de votre signature.",
+              "Gardez une copie du PDF signé et de l'e-mail avec lequel vous l'avez envoyé.",
+              "Après la signature, utilisez [Aplatir un PDF](/flatten-pdf/) pour tout intégrer à la page, ou [Protéger un PDF](/protect-pdf/) pour empêcher d'autres modifications."
+            ]
+          ],
+          [
+            "Importer une photo de la signature",
+            "Signez avec un stylo foncé sur du papier blanc uni, prenez une photo bien éclairée ou scannez-la, puis importez-la. L'outil retire le fond blanc pour ne garder que l'encre, que vous pouvez ensuite ajuster à la ligne de signature. Pour un PNG transparent réutilisable, vous pouvez aussi utiliser notre [Créateur de signature](/signature-maker/)."
+          ],
+          [
+            "Pourquoi signer en local est important",
+            "Les documents que vous signez sont parmi les plus sensibles que vous manipulez : ils contiennent noms, adresses, salaires, coordonnées bancaires et numéros d'identité. Les services de signature en ligne envoient généralement le fichier sur leurs serveurs. Ici, le PDF, l'image de votre signature et le résultat restent sur votre appareil en permanence. La signature mémorisée facultative ne vit que dans le stockage local de votre navigateur et peut être supprimée en décochant l'option ou en effaçant les données du site."
+          ],
+          [
+            "Usages courants",
+            [
+              "Baux et contrats de location.",
+              "Lettres d'offre d'emploi et accords de confidentialité.",
+              "Formulaires de consentement scolaires et médicaux.",
+              "Factures, bons de livraison et bons de commande.",
+              "Contrats de freelance et cahiers des charges."
+            ]
+          ],
+          [
+            "Signer sur téléphone ou tablette",
+            "Signer au doigt donne souvent un rendu plus naturel qu'à la souris. Ouvrez le PDF sur votre téléphone, choisissez Dessiner et signez dans le cadre : le tracé est lissé pour ressembler à de l'encre. Touchez ensuite la page à l'endroit de la signature. Sur un iPad ou une tablette Android avec stylet, le résultat est pratiquement identique à un stylo sur papier. Le PDF signé est téléchargé dans votre dossier Fichiers ou Téléchargements, prêt à être joint à un e-mail ou envoyé sur un portail."
+          ],
+          [
+            "Tapée, dessinée ou importée : laquelle rend le mieux ?",
+            {
+              "table": [
+                [
+                  "Méthode",
+                  "Idéal quand"
+                ],
+                [
+                  "Dessiner",
+                  "Vous voulez un aspect naturel, manuscrit, et avez un écran tactile ou un pavé tactile"
+                ],
+                [
+                  "Taper",
+                  "Vous avez besoin de quelque chose de propre et rapide, p. ex. pour des validations internes"
+                ],
+                [
+                  "Importer",
+                  "Vous voulez votre signature exacte au stylo sur tous les documents"
+                ]
+              ]
+            },
+            "Les trois sont aussi valables comme signature électronique. Choisissez celle qui vous convient le mieux et utilisez-la toujours, pour que votre signature soit reconnaissable sur tous les documents."
+          ],
+          [
+            "Signer des documents avec d'autres personnes",
+            "Cet outil est conçu pour que vous signiez vous-même un document. Si plusieurs personnes doivent signer, chacune peut ouvrir le PDF, ajouter sa signature et transmettre le fichier à la suivante : les signatures précédentes sont conservées car elles sont écrites sur la page. Pour les formulaires avec des champs étiquetés, essayez d'abord [Remplir un formulaire PDF](/fill-pdf-form/) pour saisir noms et adresses, puis signez. Quand un document doit suivre un processus formel avec piste d'audit, relances et certificats, une plateforme de signature électronique choisie par l'organisation qui demande la signature est la solution adaptée."
+          ],
+          [
+            "Liste de vérification avant d'envoyer un PDF signé",
+            [
+              "Relisez tout le document une dernière fois : en signant, vous confirmez être d'accord avec chaque page.",
+              "Vérifiez que la signature est sur la ligne de signature et ne recouvre aucun texte.",
+              "Paraphez chaque page si l'autre partie l'a demandé.",
+              "Ajoutez la date au format attendu par le destinataire.",
+              "Ouvrez le PDF téléchargé pour vérifier chaque placement avant l'envoi.",
+              "Compressez-le avec [Compresser un PDF](/compress-pdf/) s'il est trop lourd pour l'e-mail."
+            ]
+          ],
+          [
+            "Dépannage",
+            [
+              "**La signature paraît crénelée** : dessinez un peu plus lentement ou augmentez la largeur ; les images importées doivent faire au moins 600 px de large.",
+              "**Cadre gris autour d'une signature importée** : photographiez-la sur du papier blanc éclatant avec un bon éclairage pour que le fond s'enlève proprement.",
+              "**Signature trop grande ou trop petite** : changez la largeur avant de cliquer ; utilisez Annuler et replacez-la.",
+              "**Le PDF est protégé par mot de passe** : ouvrez-le avec [Déverrouiller un PDF](/unlock-pdf/) avec le mot de passe reçu, puis signez.",
+              "**La signature mémorisée n'apparaît pas** : elle est enregistrée par navigateur ; elle n'apparaîtra donc pas dans un autre navigateur, en navigation privée ni après effacement des données du site.",
+              "**Le destinataire dit que le PDF est modifiable** : aplatissez-le après la signature pour que celle-ci soit intégrée au contenu de la page.",
+              "**Contrat scanné** : aucun problème ; les signatures se placent sur la page scannée comme sur une page numérique."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Signature dessinée / tapée / importée",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Initiales et date",
+            "Oui",
+            "Initiales : oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Signature mémorisée",
+            "Seulement sur votre appareil",
+            "Compte",
+            "Compte",
+            "Compte",
+            "Voir le site"
+          ],
+          [
+            "Plusieurs placements sur de nombreuses pages",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Signer un PDF ici est-il gratuit ?",
+            "a": "Oui. Pas de limites, pas de filigrane, pas de compte."
+          },
+          {
+            "q": "Mon document est-il envoyé ?",
+            "a": "Non. Le PDF et votre signature ne quittent jamais votre navigateur."
+          },
+          {
+            "q": "Une signature électronique a-t-elle une valeur juridique ?",
+            "a": "Pour de nombreux accords courants, oui : p. ex. selon l'ESIGN Act et l'UETA aux États-Unis, et comme signature électronique simple selon le règlement eIDAS de l'UE. Certains documents exigent une signature numérique à certificat. Ceci n'est pas un conseil juridique."
+          },
+          {
+            "q": "Quelle différence entre une signature électronique et une signature numérique ?",
+            "a": "Une signature électronique est toute marque électronique d'accord, comme une signature dessinée. Une signature numérique utilise un certificat et la cryptographie pour prouver l'identité et détecter les modifications."
+          },
+          {
+            "q": "Puis-je signer sur mobile ?",
+            "a": "Oui. Dessinez votre signature au doigt dans le navigateur de n'importe quel téléphone ou tablette."
+          },
+          {
+            "q": "Puis-je ajouter des initiales et la date ?",
+            "a": "Oui. Choisissez Initiales, Date du jour ou Texte libre et cliquez là où ils doivent aller."
+          },
+          {
+            "q": "Puis-je signer plusieurs pages ?",
+            "a": "Oui. Chaque clic place une autre copie ; changez de page pour signer ou parapher toutes les pages."
+          },
+          {
+            "q": "Puis-je importer une image de ma signature ?",
+            "a": "Oui. Importez une photo ou un scan ; le fond blanc est retiré automatiquement."
+          },
+          {
+            "q": "Où ma signature est-elle stockée ?",
+            "a": "Seulement dans le stockage local de ce navigateur, sur votre appareil, et seulement si vous cochez « Mémoriser ma signature »."
+          },
+          {
+            "q": "Puis-je retirer une signature mal placée ?",
+            "a": "Oui. Cliquez sur Annuler pour retirer le dernier placement."
+          }
+        ],
+        "related": [
+          "signature-maker",
+          "edit-pdf",
+          "flatten-pdf",
+          "protect-pdf",
+          "fill-pdf-form"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment signer un PDF sur ordinateur ?",
+            "a": "Ouvrez le PDF, créez une signature en la dessinant à la souris ou au pavé tactile, en tapant votre nom avec une police manuscrite ou en important une photo de votre signature ; placez-la ensuite sur la page et téléchargez. Rien n'est installé ni envoyé."
+          },
+          {
+            "q": "Une signature ajoutée ainsi est-elle juridiquement valable ?",
+            "a": "Une signature dessinée ou tapée est une signature électronique, acceptée par de nombreuses juridictions pour les accords courants. Ce n'est pas une signature numérique à certificat. Pour les contrats aux exigences particulières, vérifiez ce dont l'autre partie ou la loi de votre pays a besoin."
+          }
+        ]
+      }
+    }
+  }
+}

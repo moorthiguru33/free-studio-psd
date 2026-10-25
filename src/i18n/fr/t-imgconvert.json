@@ -1,0 +1,279 @@
+{
+  "tools": {
+    "imgconvert": {
+      "name": "Convertisseur d'images",
+      "short": "Convertissez entre JPG, PNG, WEBP, AVIF, GIF, TIFF et ICO.",
+      "title": "Convertisseur d'images en ligne gratuit – JPG, PNG, WebP, HEIC",
+      "desc": "Convertissez des images entre JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC et SVG. Conversion par lots dans votre navigateur, sans envoi.",
+      "h1": "Convertisseur d'images",
+      "steps": [
+        "Sélectionnez des images dans n'importe quel format courant (HEIC et TIFF compris).",
+        "Choisissez le format de sortie et la qualité.",
+        "Cliquez sur Démarrer et téléchargez les fichiers convertis."
+      ],
+      "faq": [
+        {
+          "q": "Quels formats sont pris en charge ?",
+          "a": "Entrée : JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG et HEIC/HEIF. Sortie : JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO et SVG (vectorisation)."
+        }
+      ],
+      "guide": {
+        "intro": "Chaque format a son usage : JPG pour les photos, PNG pour les graphiques et la transparence, WEBP et AVIF pour des images web légères, ICO pour les icônes. Un seul convertisseur les gère tous, par lots et sans envoyer vos images.",
+        "uses": [
+          "Convertir les photos HEIC de l'iPhone en JPG.",
+          "Passer des captures PNG en WEBP compact pour un site.",
+          "Créer des icônes ICO à partir de PNG.",
+          "Convertir d'anciens scans BMP ou TIFF en JPG."
+        ],
+        "tips": [
+          "Choisissez PNG quand vous avez besoin de transparence.",
+          "Pour le web, le WEBP est pris en charge par tous les navigateurs modernes.",
+          "Une qualité de 85–92 est visuellement identique pour la plupart des photos."
+        ],
+        "faq": [
+          {
+            "q": "Quels formats sont pris en charge ?",
+            "a": "Entrée : JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG et HEIC/HEIF. Sortie : JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO et SVG (vectorisation)."
+          }
+        ]
+      },
+      "seo": {
+        "title": "Convertisseur d'images gratuit – JPG, PNG, WebP, HEIC, SVG",
+        "desc": "Convertissez des images entre JPG, PNG, WebP, AVIF, GIF, BMP, ICO et SVG. Par lots, largeur max., transparence, entrée HEIC. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et Canva, Adobe Express, iLoveIMG",
+        "compareCols": [
+          "Canva",
+          "Adobe Express",
+          "iLoveIMG"
+        ],
+        "sections": [
+          [
+            "Convertisseur d'images en ligne gratuit",
+            "Convertissez n'importe quelle image au format voulu : JPG pour les photos, PNG pour les graphiques, WebP ou AVIF pour des sites rapides, ICO pour les icônes ou tracés vectoriels SVG pour les traceurs de découpe et les logos. Déposez un dossier entier (photos HEIC d'iPhone, aperçus PSD, scans TIFF, BMP, GIF), choisissez la sortie et téléchargez un ZIP. Sans envoi ni compte."
+          ],
+          [
+            "Mode d'emploi",
+            {
+              "steps": [
+                "Déposez vos images (formats mélangés acceptés).",
+                "Choisissez le format de sortie.",
+                "Si vous le souhaitez, fixez une largeur maximale et, pour PNG/WebP, rendez le fond blanc transparent.",
+                "Pour le SVG, choisissez le nombre de couleurs du tracé et le niveau de détail.",
+                "Appuyez sur Convertir et téléchargez."
+              ]
+            }
+          ],
+          [
+            "Quel format de sortie choisir ?",
+            {
+              "table": [
+                [
+                  "Vous voulez…",
+                  "Choisissez"
+                ],
+                [
+                  "Compatibilité maximale pour les photos",
+                  "JPG"
+                ],
+                [
+                  "Texte net, logos, transparence",
+                  "PNG"
+                ],
+                [
+                  "Fichiers les plus légers pour un site",
+                  "WebP ou AVIF"
+                ],
+                [
+                  "Favicon ou icône Windows",
+                  "ICO"
+                ],
+                [
+                  "Vecteur redimensionnable pour Cricut, laser ou imprimerie",
+                  "SVG (vectorisé)"
+                ],
+                [
+                  "Animation simple",
+                  "GIF"
+                ]
+              ]
+            }
+          ],
+          [
+            "Convertir HEIC en JPG",
+            "Les iPhone enregistrent les photos en HEIC pour gagner de la place, mais beaucoup de sites et de logiciels Windows ne savent pas les ouvrir. Déposez ici les fichiers HEIC et choisissez JPG, ou utilisez la page dédiée [HEIC en JPG](/heic-to-jpg/). La conversion se fait sur votre appareil : les photos privées ne sont jamais envoyées."
+          ],
+          [
+            "Vectoriser des images matricielles en SVG",
+            "Choisir SVG transforme l'image en formes vectorielles colorées. Utilisez 2 couleurs pour les logos noir et blanc et les fichiers de découpe Cricut ou Silhouette, 8–16 pour les illustrations en aplats et 32–64 pour les œuvres très détaillées. Les photos se vectorisent mal : le résultat a un aspect postérisé. Consultez [PNG en SVG](/png-to-svg/) pour des conseils."
+          ],
+          [
+            "Rendre un fond transparent",
+            "Cocher *Rendre le fond blanc transparent* transforme les pixels blanc pur en transparence en sortie PNG et WebP ; utile pour les logos et signatures scannés sur papier blanc. Pour les photos aux fonds complexes, utilisez [Supprimer l'arrière-plan d'une image](/remove-background/)."
+          ],
+          [
+            "Les formats photo en un coup d'œil",
+            {
+              "table": [
+                [
+                  "Format",
+                  "Compression",
+                  "Transparence",
+                  "Idéal pour"
+                ],
+                [
+                  "JPG",
+                  "Avec perte",
+                  "Non",
+                  "Photos, e-mail, réseaux sociaux"
+                ],
+                [
+                  "PNG",
+                  "Sans perte",
+                  "Oui",
+                  "Captures, logos, graphiques avec texte"
+                ],
+                [
+                  "WebP",
+                  "Avec ou sans perte",
+                  "Oui",
+                  "Web : plus léger que JPG et PNG"
+                ],
+                [
+                  "AVIF",
+                  "Avec ou sans perte",
+                  "Oui",
+                  "Fichiers plus légers, navigateurs récents"
+                ],
+                [
+                  "GIF",
+                  "Sans perte, 256 couleurs",
+                  "1 bit",
+                  "Animations simples"
+                ]
+              ]
+            },
+            "L'outil lit JPG, PNG, WebP, GIF, BMP, AVIF et, grâce à des décodeurs intégrés, les photos HEIC d'iPhone : vous aurez rarement besoin de convertir avant."
+          ],
+          [
+            "Fonctionne sur tous les appareils",
+            "Fonctionne dans Chrome, Edge, Firefox et Safari sous Windows, macOS, Linux, ChromeOS, Android et iPhone/iPad. Sur mobile, touchez la zone de dépôt et choisissez dans votre galerie ; les résultats sont enregistrés dans Téléchargements ou dans l'app Fichiers. Les lots sont traités l'un après l'autre et téléchargés ensemble dans un ZIP : un album de vacances entier ne demande que quelques touches."
+          ],
+          [
+            "Qualité et taille de fichier",
+            "Les modifications se font à la pleine résolution de l'original. Les résultats JPG et WebP sont encodés en haute qualité (environ 90 %), visuellement identique à l'original pour la plupart des photos avec des fichiers compacts ; choisissez PNG quand vous avez besoin d'une sortie sans perte ou de transparence. Pour alléger encore les fichiers ensuite, utilisez [Compresser une image](/compress-image/), et pour changer les dimensions, [Redimensionner une image](/resize-image/)."
+          ],
+          [
+            "Problèmes courants et solutions",
+            {
+              "list": [
+                "**Le fichier ne s'ouvre pas** : vérifiez qu'il s'agit d'une vraie image et non d'un raccourci ou d'un fichier cloud fantôme ; téléchargez-le d'abord entièrement depuis iCloud, Google Photos ou OneDrive.",
+                "**Le résultat est flou** : partez de l'original, pas d'une miniature reçue par WhatsApp ou Messenger, qui recompressent fortement les photos.",
+                "**Les couleurs sont un peu différentes** : les photos à large gamut (Display P3) s'affichent en sRGB, le standard du web ; c'est normal et cohérent d'un appareil à l'autre.",
+                "**Le téléchargement n'apparaît pas sur l'iPhone** : cherchez dans Fichiers → Téléchargements, ou appuyez longuement sur l'aperçu et choisissez Enregistrer dans Photos.",
+                "**Un gros lot est lent** : les très grandes photos consomment beaucoup de mémoire ; fermez d'autres onglets ou traitez 20 à 30 images à la fois."
+              ]
+            }
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur. Vos images sont lues depuis votre disque vers la mémoire, traitées là et enregistrées directement sur votre appareil. Rien n'est envoyé, stocké ni enregistré, il n'y a pas de compte et l'outil continue de fonctionner hors ligne une fois la page chargée : il est sûr pour du contenu privé, confidentiel ou pas encore publié."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Lots / plusieurs images",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Vectorisation en SVG",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Entrée HEIC",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir une image en JPG ?",
+            "a": "Déposez-la ici, choisissez JPG et appuyez sur Convertir."
+          },
+          {
+            "q": "Puis-je convertir beaucoup d'images à la fois ?",
+            "a": "Oui, même de formats différents ; vous obtenez un ZIP."
+          },
+          {
+            "q": "Le HEIC est-il pris en charge ?",
+            "a": "Oui, les photos HEIC/HEIF d'iPhone sont prises en charge."
+          },
+          {
+            "q": "Lequel est plus léger, WebP ou JPG ?",
+            "a": "Le WebP est généralement 25 à 35 % plus léger à qualité similaire."
+          },
+          {
+            "q": "Puis-je convertir un PNG en SVG ?",
+            "a": "Oui, choisissez SVG pour vectoriser l'image en formes."
+          },
+          {
+            "q": "Convertir en PNG améliore-t-il la qualité ?",
+            "a": "Non. Le PNG ne perd plus de qualité à partir de là, mais ne peut pas récupérer le détail perdu dans un JPG."
+          },
+          {
+            "q": "Puis-je redimensionner en convertissant ?",
+            "a": "Oui, fixez une largeur maximale."
+          },
+          {
+            "q": "La transparence est-elle conservée ?",
+            "a": "PNG, WebP, AVIF, GIF et ICO la conservent ; le JPG remplit les zones transparentes de blanc."
+          },
+          {
+            "q": "Mes images sont-elles envoyées ?",
+            "a": "Non."
+          },
+          {
+            "q": "Y a-t-il une limite de taille ?",
+            "a": "Seulement la mémoire de votre appareil ; les images jusqu'à environ 50 mégapixels se convertissent sans problème."
+          }
+        ],
+        "related": [
+          "compress-image",
+          "resize-image",
+          "heic-to-jpg",
+          "png-to-svg",
+          "webp-to-png"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

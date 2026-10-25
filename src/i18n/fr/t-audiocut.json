@@ -1,0 +1,325 @@
+{
+  "tools": {
+    "audiocut": {
+      "name": "Couper un audio",
+      "short": "Coupez des chansons et créez des sonneries.",
+      "title": "Couper un audio en ligne gratuit – Coupez des MP3, créez des sonneries | {brand}",
+      "desc": "Coupez MP3, WAV, M4A et plus sur une forme d'onde. Fondu d'entrée et de sortie, export en MP3 ou WAV. Créateur de sonneries gratuit.",
+      "h1": "Couper un audio – Coupez et rognez un audio en ligne",
+      "steps": [
+        "Sélectionnez un fichier audio.",
+        "Cliquez sur la forme d'onde pour définir le début et la fin.",
+        "Téléchargez l'extrait."
+      ],
+      "faq": [],
+      "guide": {
+        "intro": "Supprimez les silences, retirez les erreurs ou gardez le meilleur passage d'une chanson pour une sonnerie ou une alarme. La forme d'onde montre exactement où couper.",
+        "uses": [
+          "Créer une sonnerie ou un son de notification.",
+          "Supprimer le silence au début et à la fin des enregistrements.",
+          "Couper un extrait de podcast pour les réseaux sociaux."
+        ],
+        "tips": [
+          "Ajoutez un court fondu de sortie pour une fin en douceur.",
+          "Les sonneries fonctionnent généralement mieux en dessous de 30 secondes."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je ajouter des fondus ?",
+            "a": "Oui, il y a un fondu d'entrée et un fondu de sortie."
+          },
+          {
+            "q": "Quels formats de sortie sont disponibles ?",
+            "a": "MP3 et WAV."
+          }
+        ],
+        "more": [
+          [
+            "Des coupes précises",
+            "Zoomez sur la forme d'onde pour couper pile entre deux mots ou deux temps. De courts fondus de 0,5 à 1 seconde suppriment les clics aux points de coupe et donnent un rendu professionnel."
+          ],
+          [
+            "Formats et compatibilité",
+            "Ouvre les MP3, WAV, M4A, OGG et presque tous les audios que votre navigateur sait lire, y compris la piste son des fichiers vidéo. Exportez en MP3 pour des fichiers plus légers et une compatibilité maximale, ou en WAV si vous comptez retravailler l'extrait dans une STAN."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Couper un audio – Coupez des MP3 en ligne, onde, fondus",
+        "desc": "Coupeur audio : coupez des MP3, WAV, M4A et plus sur une forme d'onde. Gardez ou retirez une partie, fondus, volume, précision de 0,1 s, MP3 ou WAV.",
+        "compareTitle": "{tool} : {brand} et mp3cut.net, Clideo, VEED",
+        "compareCols": [
+          "mp3cut.net",
+          "Clideo",
+          "VEED"
+        ],
+        "sections": [
+          [
+            "Coupez n'importe quel fichier audio en quelques secondes",
+            "Le coupeur audio de {brand} coupe chansons, podcasts, mémos vocaux, interviews et enregistrements directement dans votre navigateur. Déposez un fichier, cliquez sur la forme d'onde pour marquer le début et la fin, puis gardez uniquement cette partie, ou retirez-la et gardez tout le reste. Ajoutez des fondus d'entrée et de sortie, réglez le volume et téléchargez en MP3 ou WAV.",
+            "Votre audio n'est pas envoyé : le fichier est décodé et coupé sur votre propre appareil. Les enregistrements privés restent privés, et même les longs fichiers (une réunion d'une heure ou un set de DJ complet) sont prêts à couper dès que vous les déposez, sans attendre aucun envoi.",
+            "Pas d'offre premium, pas d'inscription, pas de limite au nombre de fichiers. Toutes les fonctions (forme d'onde, suppression de parties, fondus, volume et MP3 à 320 kbit/s) sont accessibles à tous, sur tout appareil doté d'un navigateur récent."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Affichage de la forme d'onde :** repérez les passages forts et faibles, et cliquez pour définir le début et la fin.",
+              "**Garder ou retirer :** enregistrez la sélection, ou coupez-la au milieu et recollez le reste.",
+              "**Temps précis :** saisissez m:ss ou m:ss.s (ex. 1:23.4) pour une précision au dixième de seconde.",
+              "**Fondu d'entrée et de sortie** séparés, de 0,5 à 5 secondes.",
+              "**Volume** de 10 % à 300 %.",
+              "**MP3 de 128 à 320 kbit/s** ou **WAV** sans perte.",
+              "**Lecteur intégré** pour vérifier le point de départ et le résultat.",
+              "**Accepte** MP3, WAV, M4A, AAC, OGG, Opus, FLAC et l'audio des vidéos MP4, MOV, WebM et MKV."
+            ]
+          ],
+          [
+            "Comment couper un fichier audio",
+            [
+              "Déposez le fichier audio (ou une vidéo) sur la page.",
+              "Cliquez sur la forme d'onde pour définir le début, puis cliquez à nouveau (ou Maj+clic) pour définir la fin. Vous pouvez aussi saisir les temps.",
+              "Choisissez « Garder la sélection » ou « Retirer la sélection ».",
+              "Si vous le souhaitez, réglez les fondus, le volume, le format et la qualité.",
+              "Cliquez sur Couper, écoutez le résultat et téléchargez."
+            ]
+          ],
+          [
+            "Garder ou retirer : deux façons de couper",
+            "**Garder la sélection** enregistre seulement la partie surlignée : idéal pour les sonneries, les extraits de chansons, une citation d'interview ou une intro propre pour une vidéo. **Retirer la sélection** supprime la partie surlignée et recolle ce qui précède et ce qui suit : idéal pour enlever une toux, une coupure pub, une erreur dans une voix off ou un long silence au milieu d'un enregistrement. Le fondu d'entrée s'applique alors au début du fichier et le fondu de sortie à la fin.",
+            "Les deux modes affichent la durée du résultat après la coupe, pour vérifier d'un coup d'œil que vous avez retiré ou gardé exactement ce que vous vouliez, et le lecteur intégré vous permet de l'écouter avant d'enregistrer."
+          ],
+          [
+            "Créer une sonnerie",
+            "L'idéal pour une sonnerie est 20 à 30 secondes. Sélectionnez le refrain ou le passage le plus reconnaissable, ajoutez un fondu d'entrée de 1 seconde et un fondu de sortie de 2 secondes, puis enregistrez en MP3. Les téléphones Android acceptent directement les sonneries MP3 : copiez le fichier sur le téléphone et choisissez-le dans Paramètres › Son. Pour l'iPhone, qui exige le format M4R, utilisez notre [Créateur de sonneries](/ringtone-maker/) ou importez le MP3 dans GarageBand et exportez-le comme sonnerie."
+          ],
+          [
+            "Choisir le format et la qualité",
+            {
+              "table": [
+                [
+                  "Usage",
+                  "Format",
+                  "Qualité"
+                ],
+                [
+                  "Sonnerie, extrait musical",
+                  "MP3",
+                  "192 kbit/s"
+                ],
+                [
+                  "Podcast ou voix",
+                  "MP3",
+                  "128 kbit/s"
+                ],
+                [
+                  "Musique en qualité maximale",
+                  "MP3",
+                  "320 kbit/s"
+                ],
+                [
+                  "Continuer le montage dans une STAN",
+                  "WAV",
+                  "Sans perte"
+                ],
+                [
+                  "Archiver un master",
+                  "WAV",
+                  "Sans perte"
+                ]
+              ]
+            },
+            "Couper un MP3 et le réenregistrer en MP3 réencode l'audio. À 192 kbit/s ou plus, c'est inaudible sur presque tout. Si vous comptez retravailler le fichier, enregistrez-le en WAV pour ne pas cumuler la compression."
+          ],
+          [
+            "Conseils pour des coupes nettes",
+            [
+              "Coupez pendant un silence (entre deux mots ou deux temps) pour éviter les clics. La forme d'onde montre les silences sous forme de lignes plates.",
+              "Utilisez un court fondu (0,5 s) même si vous ne voulez pas de fondu audible : il supprime les clics aux points de coupe.",
+              "Écoutez à partir de quelques secondes avant le point de départ pour vérifier que vous n'avez pas coupé le premier mot.",
+              "En musique, coupez sur le premier temps de la mesure pour que la boucle ou la sonnerie sonne naturellement.",
+              "Si l'enregistrement est faible, montez le volume à 150–200 % ; s'il est très fort, 80 % évite la distorsion."
+            ]
+          ],
+          [
+            "Usages courants",
+            [
+              "Sonneries et sons de notification.",
+              "Supprimer silences et faux départs des mémos vocaux et des podcasts.",
+              "Extraire une citation d'interview pour les réseaux sociaux.",
+              "Raccourcir des chansons pour le sport, une chorégraphie, une présentation ou une vidéo.",
+              "Retirer les publicités ou les interruptions des enregistrements.",
+              "Préparer des extraits audio pour des cours de langue.",
+              "Couper l'intro d'une chanson pour un diaporama."
+            ]
+          ],
+          [
+            "Fichiers pris en charge",
+            "Tout format que votre navigateur sait décoder fonctionne : MP3, WAV, M4A/AAC (y compris les mémos vocaux de l'iPhone), OGG Vorbis, Opus (messages vocaux WhatsApp), FLAC et les pistes audio des vidéos MP4, MOV, WebM et MKV. Si un fichier ne s'ouvre pas, convertissez-le d'abord avec notre convertisseur audio ou essayez un autre navigateur : Chrome et Edge acceptent le plus de formats."
+          ],
+          [
+            "Couper des mémos vocaux et des audios WhatsApp",
+            "Les mémos vocaux de l'iPhone sont des fichiers M4A ; les messages vocaux WhatsApp et Telegram sont généralement des fichiers Opus en .opus ou .ogg. Les deux s'ouvrent directement. Coupez le silence au début et à la fin, retirez les passages hors sujet avec « Retirer la sélection », montez le volume si l'enregistrement est faible et enregistrez en MP3 à 128 kbit/s : léger et lisible partout. C'est aussi un moyen rapide de transformer un message vocal en MP3 standard."
+          ],
+          [
+            "Couper des podcasts et des interviews",
+            "Pour la voix, cherchez sur la forme d'onde les pauses entre les phrases : elles apparaissent comme des passages fins et plats. Couper à ces endroits rend les coupes invisibles. Pour retirer plusieurs passages, coupez-en un, téléchargez, rechargez le résultat et coupez le suivant. Utilisez le MP3 à 128 kbit/s pour la voix ; enregistrez en WAV si vous continuez dans un éditeur multipiste."
+          ],
+          [
+            "Utiliser la forme d'onde",
+            "La forme d'onde montre le volume de l'audio dans le temps : les pics hauts sont les passages forts et les lignes plates le silence. Cliquez n'importe où pour placer le début et y amener le lecteur ; cliquez à nouveau pour placer la fin. La zone sélectionnée est surlignée en bleu. Vous pouvez toujours affiner en saisissant les temps dans les cases Début et Fin, qui acceptent les minutes et les secondes avec décimales (ex. 2:07.35). Appuyez sur lecture pour entendre où vous êtes et servez-vous du temps actuel du lecteur pour ajuster la sélection."
+          ],
+          [
+            "Glossaire",
+            [
+              "**Forme d'onde :** une image du volume de l'audio dans le temps.",
+              "**Fondu d'entrée / de sortie :** une montée ou une baisse progressive du volume au début ou à la fin.",
+              "**Débit :** données par seconde en kbit/s ; plus il est élevé, meilleure est la qualité et plus le fichier est lourd.",
+              "**Sans perte :** aucune information n'est supprimée (WAV, FLAC) ; les formats avec perte (MP3, AAC) suppriment les détails inaudibles."
+            ]
+          ],
+          [
+            "Couper l'audio d'une vidéo",
+            "Vous pouvez déposer une vidéo (MP4, MOV, WebM ou MKV) directement dans le coupeur audio. Sa piste son est décodée et affichée en forme d'onde, et la partie coupée est enregistrée comme fichier audio. C'est le moyen le plus rapide de récupérer une chanson d'un extrait de concert, une citation d'une conférence enregistrée ou un effet sonore de vos propres vidéos, sans convertir d'abord toute la vidéo. Pour des extractions plus longues, par lots et avec tags, utilisez [MP4 en MP3](/mp4-to-mp3/)."
+          ],
+          [
+            "Pourquoi ne pas utiliser un éditeur audio de bureau ?",
+            "Des logiciels comme Audacity sont excellents pour les montages complexes (mixage multipiste, réduction de bruit, effets), mais pour une coupe rapide il faut télécharger, installer et apprendre une application. Le coupeur audio s'ouvre instantanément dans n'importe quel navigateur, sur tout ordinateur ou téléphone, y compris les ordinateurs professionnels où vous ne pouvez rien installer. Et comme il fonctionne en local, il est aussi privé qu'une application de bureau : votre fichier n'est jamais envoyé à un serveur."
+          ],
+          [
+            "Volume et intensité sonore",
+            "Le réglage du volume multiplie le signal : 200 % double l'amplitude (environ +6 dB) et 50 % la divise par deux. Trop amplifier un enregistrement faible peut provoquer de l'écrêtage : une distorsion rêche quand les pics dépassent le niveau maximal. Si vous entendez des craquements dans les passages forts après avoir monté le volume, essayez une hausse plus faible. Pour une intensité homogène entre épisodes de podcast, réglez le volume pour que les parties les plus fortes de la forme d'onde remplissent presque, mais pas tout à fait, la hauteur."
+          ],
+          [
+            "Couper de la musique pour vidéos, diaporamas et séances de sport",
+            "Les éditeurs vidéo et les applications de diaporama ont souvent besoin d'une bande son d'une durée exacte. Sélectionnez à partir d'un bon point de départ (le premier temps d'un couplet ou du refrain) jusqu'à la durée voulue, ajoutez un fondu de sortie de 2 à 3 secondes pour que la musique se termine naturellement et enregistrez en MP3 à 192 kbit/s. Pour une séance de sport ou une chorégraphie, utilisez « Retirer la sélection » pour supprimer un pont lent ou une longue intro et garder le rythme. Pour une musique de fond sous une voix, baissez le volume à 50–70 % pour que les voix restent claires. N'utilisez que de la musique dont vous avez les droits, surtout si vous publiez la vidéo en ligne."
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. Le fichier est lu depuis votre disque, décodé et réencodé sur votre propre appareil avec le moteur multimédia intégré du navigateur (WebCodecs et Web Audio) et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : vidéos de famille, interviews, mémos vocaux, réunions et contenus inédits ne quittent jamais votre ordinateur ou votre téléphone. La vitesse d'envoi ne ralentit pas non plus les gros fichiers : une vidéo de 1 Go commence à être traitée immédiatement, et non après dix minutes d'envoi."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Créateur de sonneries](/ringtone-maker/) : sonneries pour iPhone et Android.",
+              "[MP4 en MP3](/mp4-to-mp3/) : l'audio d'une vidéo.",
+              "[Couper une vidéo](/trim-video/) : raccourcissez vos vidéos.",
+              "[Compresser une vidéo](/compress-video/) : des vidéos plus légères.",
+              "[Vidéo en GIF](/video-to-gif/) : des GIF à partir d'extraits."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Sélection sur forme d'onde",
+            "Oui",
+            "Oui",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Retirer une partie au milieu",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "« Couper, diviser, réorganiser »"
+          ],
+          [
+            "Fondu d'entrée / de sortie",
+            "Oui (séparés)",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Offre premium",
+            "Aucune : tout est gratuit",
+            "6 $/mois (premium, fichiers de 10 Go)",
+            "Voir le site",
+            "Offres Basic et Pro"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment couper un MP3 gratuitement ?",
+            "a": "Déposez le fichier, cliquez sur la forme d'onde pour définir le début et la fin, cliquez sur Couper et téléchargez."
+          },
+          {
+            "q": "Mon audio est-il envoyé ?",
+            "a": "Non. Il est coupé dans votre navigateur."
+          },
+          {
+            "q": "Puis-je retirer une partie au milieu ?",
+            "a": "Oui. Choisissez « Retirer la sélection » ; les parties avant et après sont recollées."
+          },
+          {
+            "q": "Avec quelle précision puis-je couper ?",
+            "a": "Au dixième de seconde ou mieux : saisissez des temps comme 1:23.4."
+          },
+          {
+            "q": "Puis-je ajouter un fondu d'entrée et de sortie ?",
+            "a": "Oui, séparément, de 0,5 à 5 secondes."
+          },
+          {
+            "q": "Quels formats puis-je ouvrir ?",
+            "a": "MP3, WAV, M4A, AAC, OGG, Opus, FLAC et l'audio des MP4, MOV, WebM et MKV."
+          },
+          {
+            "q": "Dans quels formats puis-je enregistrer ?",
+            "a": "MP3 (128–320 kbit/s) ou WAV."
+          },
+          {
+            "q": "Puis-je créer une sonnerie pour iPhone ?",
+            "a": "Utilisez le Créateur de sonneries pour le M4R ; le coupeur audio enregistre en MP3/WAV."
+          },
+          {
+            "q": "Couper réduit-il la qualité ?",
+            "a": "La sortie MP3 est réencodée ; à 192 kbit/s ou plus, c'est inaudible. Le WAV est sans perte."
+          },
+          {
+            "q": "Ça marche sur mobile ?",
+            "a": "Oui, dans les navigateurs mobiles récents."
+          }
+        ],
+        "related": [
+          "ringtone-maker",
+          "mp4-to-mp3",
+          "trim-video",
+          "compress-video",
+          "video-to-gif"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment couper un audio en ligne gratuitement ?",
+            "a": "Déposez un fichier MP3, WAV ou M4A, faites glisser les poignées de la forme d'onde pour sélectionner une partie, gardez-la ou retirez-la, ajoutez des fondus et téléchargez en MP3 ou WAV."
+          },
+          {
+            "q": "Quel est le meilleur coupeur audio gratuit ?",
+            "a": "Cherchez l'édition sur forme d'onde, les fondus, des temps précis et l'absence d'envoi. Ce coupeur audio offre tout cela avec une précision de 0,1 seconde, dans votre navigateur."
+          }
+        ]
+      }
+    }
+  }
+}

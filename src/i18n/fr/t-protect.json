@@ -1,0 +1,255 @@
+{
+  "tools": {
+    "protect": {
+      "name": "Protéger un PDF",
+      "short": "Ajoutez un mot de passe à votre PDF.",
+      "title": "Protéger un PDF par mot de passe en ligne gratuit – Chiffrer | {brand}",
+      "desc": "Chiffrez un PDF avec un mot de passe en AES-256. Gratuit et sûr : ni le fichier ni le mot de passe ne quittent votre appareil.",
+      "h1": "Protéger un PDF par mot de passe",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Saisissez et confirmez un mot de passe.",
+        "Cliquez sur Démarrer et téléchargez le PDF chiffré."
+      ],
+      "faq": [
+        {
+          "q": "Quel niveau de chiffrement est utilisé ?",
+          "a": "Les fichiers sont chiffrés en AES-256, le chiffrement PDF standard le plus fort."
+        }
+      ],
+      "guide": {
+        "intro": "Ajouter un mot de passe empêche toute personne qui ne le connaît pas d'ouvrir votre PDF. {brand} chiffre les fichiers en AES-256 en local : ni le fichier ni le mot de passe ne transitent jamais par internet.",
+        "uses": [
+          "Envoyer par e-mail fiches de paie, relevés bancaires ou comptes rendus médicaux en toute sécurité.",
+          "Partager des pièces d'identité en envoyant le mot de passe séparément.",
+          "Protéger des propositions commerciales et des contrats."
+        ],
+        "tips": [
+          "Utilisez un mot de passe long : essayez notre Générateur de mots de passe.",
+          "Partagez le mot de passe par un autre canal que le fichier."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Comment fonctionne le chiffrement PDF",
+            "L'AES-256 est le chiffrement le plus fort défini par la norme PDF et il est pris en charge par Adobe Reader, Chrome, Edge, Firefox, Aperçu de macOS et les lecteurs mobiles actuels. Sans le mot de passe, le contenu est illisible."
+          ],
+          [
+            "Comment choisir un mot de passe robuste",
+            "Utilisez au moins 12–16 caractères en combinant mots, chiffres et symboles. Une phrase de passe comme « Cafe-Fenetre-42-Orbite » est robuste et facile à retenir. N'envoyez jamais le mot de passe dans le même e-mail que le fichier."
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Le chiffrement se fait dans votre navigateur : vous pouvez protéger des fichiers même sans connexion internet une fois la page chargée."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Protéger un PDF par mot de passe – AES-256, sans envoi",
+        "desc": "Protégez un PDF en AES-256. Contrôlez impression, copie et modification, ajoutez un mot de passe propriétaire, plusieurs fichiers. Gratuit, privé.",
+        "sections": [
+          [
+            "Verrouillez votre PDF avec un chiffrement fort",
+            "Un PDF protégé par mot de passe ne peut être ouvert que par ceux qui le connaissent. {brand} chiffre votre fichier en **AES-256**, le chiffrement PDF standard le plus fort et celui recommandé par défaut par la spécification PDF actuelle (ISO 32000-2). Certains outils en ligne populaires annoncent de l'AES-128 ; l'AES-256 est pris en charge par tous les lecteurs modernes, dont Adobe Acrobat, Chrome, Edge, Firefox, Aperçu de macOS et les applications mobiles. Si vous avez besoin de compatibilité avec de très vieux logiciels, vous pouvez passer en AES-128.",
+            "Le chiffrement a lieu dans votre navigateur. Le document non protégé et le mot de passe ne quittent jamais votre appareil : aucun serveur ne peut les enregistrer et il n'y a rien à supprimer au bout d'une heure."
+          ],
+          [
+            "Choisissez ce que les lecteurs peuvent faire",
+            [
+              "**Mot de passe d'ouverture** : nécessaire pour afficher le document.",
+              "**Autoriser l'impression** : décochez pour bloquer l'impression dans les lecteurs compatibles.",
+              "**Autoriser la copie** : décochez pour empêcher la copie du texte et des images.",
+              "**Autoriser la modification** : décochez pour empêcher les changements et la réorganisation des pages.",
+              "**Autoriser les commentaires et le remplissage de formulaires** : gardez les formulaires utilisables tout en bloquant le reste.",
+              "**Mot de passe propriétaire** : un second mot de passe qui lève les restrictions pour vous, tandis que les destinataires gardent des droits limités.",
+              "**Indicateur de robustesse** : vérifiez instantanément si votre mot de passe est faible ou robuste ; générez-en un avec notre [Générateur de mots de passe](/password-generator/).",
+              "**Par lots** : protégez plusieurs PDF avec les mêmes réglages et téléchargez-les dans un ZIP."
+            ]
+          ],
+          [
+            "Comment fonctionne la protection d'un PDF par mot de passe",
+            "Quand vous protégez un PDF, chaque flux de texte, d'image et de police du fichier est chiffré avec une clé dérivée de votre mot de passe. Sans le mot de passe, le contenu n'est qu'une suite d'octets illisibles. Les autorisations (imprimer, copier, modifier) sont enregistrées à côté et respectées par les lecteurs PDF standard ; ce sont des règles plus qu'une protection inviolable : pour un contenu vraiment confidentiel, comptez sur le mot de passe d'ouverture et gardez-le secret.",
+            {
+              "table": [
+                [
+                  "Réglage",
+                  "Ce qui est protégé"
+                ],
+                [
+                  "Mot de passe d'ouverture (utilisateur)",
+                  "Personne ne peut voir le fichier sans lui"
+                ],
+                [
+                  "Mot de passe propriétaire",
+                  "Vous permet de modifier ou de lever les restrictions"
+                ],
+                [
+                  "Autorisations",
+                  "Indiquent aux lecteurs si l'impression, la copie ou la modification sont permises"
+                ]
+              ]
+            }
+          ],
+          [
+            "Comment choisir un bon mot de passe",
+            [
+              "Utilisez au moins 12 caractères mêlant majuscules, minuscules, chiffres et symboles, ou quatre mots au hasard.",
+              "Ne réutilisez jamais le mot de passe de votre messagerie ou de votre banque.",
+              "Envoyez le mot de passe par un autre canal que le fichier : par exemple, le PDF par e-mail et le mot de passe par SMS ou par téléphone.",
+              "Conservez-le dans un gestionnaire de mots de passe ; personne ne peut récupérer un mot de passe perdu, pas même nous."
+            ]
+          ],
+          [
+            "Comment protéger un PDF par mot de passe",
+            [
+              "Déposez votre PDF (ou plusieurs).",
+              "Saisissez le mot de passe deux fois et vérifiez l'indicateur de robustesse.",
+              "Si vous le souhaitez, ouvrez Autorisations pour limiter l'impression, la copie ou la modification et définir un mot de passe propriétaire.",
+              "Cliquez sur Protéger et téléchargez le PDF chiffré."
+            ]
+          ],
+          [
+            "Usages courants",
+            [
+              "Envoyer par e-mail fiches de paie, déclarations d'impôts et relevés bancaires.",
+              "Partager contrats et documents RH avec des candidats.",
+              "Diffuser des examens ou des corrigés.",
+              "Protéger des rapports clients et des dossiers médicaux.",
+              "Protéger des livres numériques terminés contre la copie facile."
+            ]
+          ],
+          [
+            "Outils associés",
+            "Besoin de retirer un mot de passe que vous connaissez ? Utilisez [Déverrouiller un PDF](/unlock-pdf/). Vous voulez masquer définitivement des parties d'une page plutôt que verrouiller tout le fichier ? Utilisez [Caviarder un PDF](/redact-pdf/). Vous voulez ajouter une mention visible « Confidentiel » ? Essayez [Ajouter un filigrane](/add-watermark-to-pdf/)."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Niveau de chiffrement",
+            "AES-256 (AES-128 en option)",
+            "Voir le site",
+            "AES 128 bits",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Autorisations d'impression / copie / modification",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Mot de passe propriétaire séparé",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Protéger par lots",
+            "Gratuit, en ZIP",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Dans la limite de tâches"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Quelle sécurité offre la protection d'un PDF par mot de passe ?",
+            "a": "Avec l'AES-256 et un mot de passe robuste, le contenu est en pratique illisible sans le mot de passe. Utilisez 12 caractères ou plus et gardez-le secret."
+          },
+          {
+            "q": "Mon mot de passe est-il envoyé quelque part ?",
+            "a": "Non. Le chiffrement s'exécute dans votre navigateur ; le mot de passe et le fichier ne quittent jamais votre appareil."
+          },
+          {
+            "q": "Puis-je empêcher l'impression ou la copie de mon PDF ?",
+            "a": "Oui. Décochez Autoriser l'impression ou Autoriser la copie dans Autorisations. Les lecteurs standard respectent ces réglages."
+          },
+          {
+            "q": "Qu'est-ce qu'un mot de passe propriétaire ?",
+            "a": "Un second mot de passe qui lève les restrictions. Les destinataires ouvrent le fichier avec le mot de passe normal et ont des droits limités ; vous gardez le contrôle total."
+          },
+          {
+            "q": "Puis-je protéger un PDF par mot de passe sans rien installer ?",
+            "a": "Oui. Cet outil fonctionne dans tout navigateur sous Windows, Mac, Linux, Android et iPhone."
+          },
+          {
+            "q": "Comment partager par e-mail un PDF protégé par mot de passe ?",
+            "a": "Joignez le PDF protégé et envoyez le mot de passe séparément, par exemple par SMS ou par téléphone."
+          },
+          {
+            "q": "Et si j'oublie le mot de passe ?",
+            "a": "Il ne peut pas être récupéré : conservez-le dans un gestionnaire de mots de passe. Gardez un original non protégé en lieu sûr."
+          },
+          {
+            "q": "Tous les lecteurs PDF l'ouvriront-ils ?",
+            "a": "Oui. L'AES-256 est pris en charge par Acrobat, les navigateurs, Aperçu et les applications mobiles. Choisissez l'AES-128 seulement pour de très vieux logiciels."
+          },
+          {
+            "q": "Puis-je protéger plusieurs PDF à la fois ?",
+            "a": "Oui. Déposez plusieurs fichiers ; ils reçoivent tous le même mot de passe et les mêmes réglages, et se téléchargent dans un ZIP."
+          },
+          {
+            "q": "Que devient mon fichier ensuite ?",
+            "a": "Rien n'est conservé. À la fermeture de l'onglet, tout est effacé."
+          }
+        ],
+        "related": [
+          "unlock-pdf",
+          "password-generator",
+          "redact-pdf",
+          "add-watermark-to-pdf",
+          "sign-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment mettre un mot de passe sur un PDF ?",
+            "a": "Déposez le PDF, saisissez un mot de passe, choisissez les actions autorisées (imprimer, copier, modifier) et téléchargez. Le fichier est chiffré en AES-256 et le mot de passe sera demandé à quiconque l'ouvre."
+          },
+          {
+            "q": "Comment protéger un PDF contre la modification et la copie ?",
+            "a": "Définissez un mot de passe propriétaire et décochez modification et copie. Les lecteurs peuvent toujours ouvrir le fichier (ou devront saisir le mot de passe d'ouverture si vous en mettez un), mais les applications PDF compatibles bloqueront les changements et la copie du texte."
+          }
+        ]
+      }
+    }
+  }
+}
