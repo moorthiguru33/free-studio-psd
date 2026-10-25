@@ -1478,5 +1478,257 @@
    "from": "UTC",
    "to": "Asia/Kolkata,Europe/London,America/New_York"
   }
+ },
+ {
+  "id": "summarize",
+  "impl": "pdfai",
+  "slug": "summarize-pdf",
+  "cat": "ai",
+  "icon": "📝",
+  "accept": ".pdf,.docx,.txt,.md",
+  "vars": {
+   "mode": "summary"
+  }
+ },
+ {
+  "id": "chatpdf",
+  "impl": "pdfai",
+  "slug": "chat-with-pdf",
+  "cat": "ai",
+  "icon": "💬",
+  "accept": ".pdf,.docx,.txt,.md",
+  "vars": {
+   "mode": "chat"
+  }
+ },
+ {
+  "id": "quizgen",
+  "impl": "pdfai",
+  "slug": "pdf-question-generator",
+  "cat": "ai",
+  "icon": "❓",
+  "accept": ".pdf,.docx,.txt,.md",
+  "vars": {
+   "mode": "quiz"
+  }
+ },
+ {
+  "id": "extractfacts",
+  "impl": "pdfai",
+  "slug": "extract-data-from-pdf",
+  "cat": "ai",
+  "icon": "🔍",
+  "accept": ".pdf,.docx,.txt,.md",
+  "vars": {
+   "mode": "facts"
+  }
+ },
+ {
+  "id": "poster",
+  "slug": "pdf-poster",
+  "cat": "organize",
+  "icon": "🧩",
+  "accept": ".pdf,image/*",
+  "multiple": false
+ },
+ {
+  "id": "cleanpdf",
+  "slug": "pdf-cleaner",
+  "cat": "security",
+  "icon": "🧹",
+  "accept": ".pdf",
+  "multiple": true
+ },
+ {
+  "id": "repair",
+  "slug": "repair-pdf",
+  "cat": "optimize",
+  "icon": "🛠",
+  "accept": ".pdf",
+  "multiple": true
+ },
+ {
+  "id": "pdfacheck",
+  "slug": "validate-pdfa",
+  "cat": "optimize",
+  "icon": "✔",
+  "accept": ".pdf",
+  "multiple": true
+ },
+ {
+  "id": "pdf2epub",
+  "slug": "pdf-to-epub",
+  "cat": "convert",
+  "icon": "📖",
+  "accept": ".pdf",
+  "multiple": false
+ },
+ {
+  "id": "epub2pdf",
+  "slug": "epub-to-pdf",
+  "cat": "convert",
+  "icon": "📕",
+  "accept": ".epub",
+  "multiple": true
+ },
+ {
+  "id": "pdfspeech",
+  "slug": "pdf-to-speech",
+  "cat": "ai",
+  "icon": "🔊",
+  "accept": ".pdf,.docx,.txt,.md",
+  "multiple": false
+ },
+ {
+  "id": "formfill",
+  "slug": "fill-pdf-form",
+  "cat": "edit",
+  "icon": "🖊",
+  "accept": ".pdf",
+  "multiple": false
+ },
+ {
+  "id": "formcreate",
+  "impl": "formfill",
+  "slug": "create-fillable-pdf",
+  "cat": "edit",
+  "icon": "☑",
+  "accept": ".pdf",
+  "multiple": false,
+  "vars": {
+   "mode": "create"
+  }
+ },
+ {
+  "id": "viewer",
+  "slug": "pdf-reader",
+  "cat": "more",
+  "icon": "👁",
+  "accept": ".pdf",
+  "multiple": false
+ },
+ {
+  "id": "anypdf",
+  "slug": "convert-to-pdf",
+  "cat": "convert",
+  "icon": "⇪",
+  "accept": ".pdf,.docx,.odt,.xlsx,.xls,.ods,.csv,.tsv,.txt,.md,.html,.htm,.zip,.jpg,.jpeg,.png,.webp,.gif,.bmp,.avif,.svg",
+  "multiple": true,
+  "maxmb": 200
+ },
+ {
+  "id": "zip2pdf",
+  "impl": "anypdf",
+  "slug": "zip-to-pdf",
+  "cat": "convert",
+  "icon": "🗜",
+  "accept": ".zip",
+  "multiple": true,
+  "vars": {
+   "only": "zip"
+  }
+ },
+ {
+  "id": "excel2pdf",
+  "impl": "anypdf",
+  "slug": "excel-to-pdf",
+  "cat": "convert",
+  "icon": "📊",
+  "accept": ".xlsx,.xls,.ods,.csv,.tsv",
+  "multiple": true,
+  "vars": {
+   "only": "sheet"
+  }
+ },
+ {
+  "id": "csv2pdf",
+  "impl": "anypdf",
+  "slug": "csv-to-pdf",
+  "cat": "convert",
+  "icon": "🧾",
+  "accept": ".csv,.tsv",
+  "multiple": true,
+  "vars": {
+   "only": "csv"
+  }
+ },
+ {
+  "id": "odt2pdf",
+  "impl": "anypdf",
+  "slug": "odt-to-pdf",
+  "cat": "convert",
+  "icon": "📄",
+  "accept": ".odt,.ott",
+  "multiple": true,
+  "vars": {
+   "only": "odt"
+  }
+ },
+ {
+  "id": "pdf2excel",
+  "slug": "pdf-to-excel",
+  "cat": "convert",
+  "icon": "📈",
+  "accept": ".pdf",
+  "multiple": false
+ },
+ {
+  "id": "pdf2csv",
+  "impl": "pdf2excel",
+  "slug": "pdf-to-csv",
+  "cat": "convert",
+  "icon": "🧮",
+  "accept": ".pdf",
+  "multiple": false,
+  "vars": {
+   "to": "csv"
+  }
+ },
+ {
+  "id": "docscan",
+  "slug": "pdf-scanner",
+  "cat": "convert",
+  "icon": "📸",
+  "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.webp",
+  "multiple": true,
+  "maxmb": 60
+ },
+ {
+  "id": "printready",
+  "slug": "print-ready-pdf",
+  "cat": "organize",
+  "icon": "🖨",
+  "accept": ".pdf",
+  "multiple": false
+ },
+ {
+  "id": "pdf2png",
+  "impl": "pdf2jpg",
+  "slug": "pdf-to-png",
+  "cat": "convert",
+  "icon": "🖼",
+  "accept": ".pdf",
+  "multiple": false,
+  "vars": {
+   "to": "png"
+  }
+ },
+ {
+  "id": "compresspng",
+  "impl": "imgcompress",
+  "slug": "compress-png",
+  "cat": "image",
+  "icon": "🗜️",
+  "accept": ".png,image/png",
+  "multiple": true
+ },
+ {
+  "id": "compressjpg",
+  "impl": "imgcompress",
+  "slug": "compress-jpg",
+  "cat": "image",
+  "icon": "🗜️",
+  "accept": ".jpg,.jpeg,image/jpeg",
+  "multiple": true
  }
 ]

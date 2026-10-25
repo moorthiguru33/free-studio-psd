@@ -1,0 +1,19 @@
+// Print Poster: enlarge one PDF page (or an image) and tile it across A4/Letter sheets with overlap, cut marks and assembly labels.
+const SH={a4:[595.28,841.89],letter:[612,792],a3:[841.89,1190.55],legal:[612,1008]};const MM=72/25.4;
+TOOLS.poster={opts:()=>sel('ptiles',T.o_pTiles||'Poster size',[['2x2','2 × 2 sheets'],['1x2','1 × 2'],['2x1','2 × 1'],['3x3','3 × 3'],['4x4','4 × 4'],['scale','By scale (%)']])+inp('pscale',T.o_pScale||'Scale % (if "By scale")','number','200','min="110" max="1000"')+sel('psheet',T.o_pSheet||'Paper',[['a4','A4'],['letter','Letter'],['a3','A3'],['legal','Legal']])+sel('porient',T.o_orient||'Sheet orientation',[['auto','Auto (fewest sheets)'],['portrait','Portrait'],['landscape','Landscape']])+inp('poverlap',T.o_pOverlap||'Overlap (mm)','number','10','min="0" max="40"')+inp('ppage',T.o_pPage||'Page number','number','1','min="1"')+chk('pmarks',T.o_pMarks||'Cut marks & labels (A1, A2…)',true),
+ async run([f],status){const {PDFDocument,rgb,StandardFonts}=await L.pdflib();const out=await PDFDocument.create();let emb,W,H;
+  if(/pdf$/i.test(f.name)||f.type==='application/pdf'){const src=await PDFDocument.load(await buf(f),{ignoreEncryption:true});const n=Math.max(1,Math.min(src.getPageCount(),+v('ppage')||1));const sp=src.getPage(n-1);[emb]=await out.embedPdf(src,[n-1]);({width:W,height:H}=emb);emb._pdf=true;}
+  else{const c=document.createElement('canvas');const im=await createImageBitmap(f);c.width=im.width;c.height=im.height;c.getContext('2d').drawImage(im,0,0);const b=new Uint8Array(await (await toBlob(c,'image/jpeg',.92)).arrayBuffer());emb=await out.embedJpg(b);W=im.width*.75;H=im.height*.75;}
+  const ov=Math.max(0,+v('poverlap')||0)*MM;const mk=vb('pmarks');const mg=mk?18:6;const [a,b]=SH[v('psheet')]||SH.a4;
+  const plan=(sw,sh)=>{const uw=sw-2*mg,uh=sh-2*mg;let cols,rows,s;const t=v('ptiles');if(t==='scale'){s=(+v('pscale')||200)/100;cols=Math.ceil((W*s-ov)/(uw-ov));rows=Math.ceil((H*s-ov)/(uh-ov));}else{[cols,rows]=t.split('x').map(Number);if(W>H&&cols<rows)[cols,rows]=[rows,cols];s=Math.min((cols*(uw-ov)+ov)/W,(rows*(uh-ov)+ov)/H);}return {sw,sh,uw,uh,cols:Math.max(1,cols),rows:Math.max(1,rows),s};};
+  const P=v('porient')==='portrait'?plan(a,b):v('porient')==='landscape'?plan(b,a):[plan(a,b),plan(b,a)].sort((x,y)=>x.cols*x.rows-y.cols*y.rows||y.s-x.s)[0];
+  const {sw,sh,uw,uh,cols,rows,s}=P;const tw=W*s,th=H*s;const totW=cols*(uw-ov)+ov,totH=rows*(uh-ov)+ov;const ox=(totW-tw)/2,oy=(totH-th)/2;const font=await out.embedFont(StandardFonts.Helvetica);
+  for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){status(`${T.working} ${r*cols+c+1}/${rows*cols}`);const pg=out.addPage([sw,sh]);const x0=mg-(c*(uw-ov))+ox,y0=mg-((rows-1-r)*(uh-ov))+oy;
+   const ops=PDFLib;pg.pushOperators(ops.pushGraphicsState(),ops.rectangle(mg,mg,uw,uh),ops.clip(),ops.endPath());
+   if(emb._pdf)pg.drawPage(emb,{x:x0,y:y0,xScale:s,yScale:s});
+   else pg.drawImage(emb,{x:x0,y:y0,width:tw,height:th});
+   pg.pushOperators(ops.popGraphicsState());
+   if(mk){const col=rgb(.45,.45,.45);const L2=10;for(const [x,y] of [[mg,mg],[mg+uw,mg],[mg,mg+uh],[mg+uw,mg+uh]]){pg.drawLine({start:{x:x-(x===mg?L2:-2),y},end:{x:x+(x===mg?-2:L2),y},thickness:.5,color:col});pg.drawLine({start:{x,y:y-(y===mg?L2:-2)},end:{x,y:y+(y===mg?-2:L2)},thickness:.5,color:col});}
+    if(ov>0){const dash={thickness:.4,color:rgb(.7,.7,.7),dashArray:[3,3]};if(c>0)pg.drawLine({start:{x:mg+ov,y:mg},end:{x:mg+ov,y:mg+uh},...dash});if(r<rows-1)pg.drawLine({start:{x:mg,y:mg+ov},end:{x:mg+uw,y:mg+ov},...dash});}
+    pg.drawText(`${String.fromCharCode(65+r)}${c+1}  (row ${r+1}/${rows}, col ${c+1}/${cols})`,{x:mg,y:5,size:7,font,color:col});}}
+  const bytes=await out.save();const cm=x=>(x/MM/10).toFixed(1);return {blob:pdfBlob(bytes),name:base(f.name)+'-poster.pdf',info:`${cols} × ${rows} = ${cols*rows} sheets · poster ≈ ${cm(tw)} × ${cm(th)} cm`};}};

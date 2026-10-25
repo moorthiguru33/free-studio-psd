@@ -1,0 +1,30 @@
+// @needs pdfx
+// PDF -> EPUB 3 (reflowable): text layer -> headings/paragraphs/lists (font-size heuristics, hyphen joins, header/footer removal),
+// chapters split at big headings, real nav TOC from the PDF's bookmarks or detected headings, optional page images for scans/figures.
+const EX=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function pageBlocks(pt){const lines=[];let cur=null;for(const it of pt.items){const y=it.transform[5],h=Math.abs(it.transform[3])||10;if(!cur||Math.abs(cur.y-y)>h*.5){cur={y,h,t:''};lines.push(cur);}cur.t+=it.str;cur.h=Math.max(cur.h,h);if(it.hasEOL)cur=null;}
+ return lines.map(l=>({...l,t:l.t.replace(/\s+/g,' ').trim()})).filter(l=>l.t);}
+TOOLS.pdf2epub={opts:()=>inp('etitle',T.o_eTitle||'Book title (blank = from PDF)','text','')+inp('eauthor',T.o_eAuthor||'Author','text','')+chk('ehf',T.o_eHf||'Remove repeating headers, footers & page numbers',true)+chk('eimg',T.o_eImg||'Include page images when a page has little text (scans, figures)',true)+sel('esplit',T.o_eSplit||'Chapters',[['h1','At big headings'],['page','One per page'],['none','Single chapter']]),
+ async run([f],status){const data=await buf(f);const pj=await openPdfjs(data);const pts=await pageTexts(pj);const meta=(await pj.getMetadata().catch(()=>({})))||{};const title=v('etitle').trim()||meta.info?.Title||base(f.name);const author=v('eauthor').trim()||meta.info?.Author||'Unknown';
+  const P=pts.map(pageBlocks);const freq={};if(vb('ehf'))P.forEach(ls=>[...ls.slice(0,2),...ls.slice(-2)].forEach(l=>{const k=l.t.replace(/\d+/g,'#');freq[k]=(freq[k]||0)+1;}));
+  const drop=l=>vb('ehf')&&(/^(page\s*)?\d{1,4}(\s*(of|\/)\s*\d+)?$/i.test(l.t)||(P.length>2&&freq[l.t.replace(/\d+/g,'#')]>=Math.max(3,P.length*.5)));
+  const all=P.flat().map(l=>Math.round(l.h)).sort((a,b)=>a-b);const body=all[Math.floor(all.length/2)]||10;
+  const JSZip=await L.zip();const z=new JSZip();const chs=[];let ch=null;const newCh=t=>{ch={title:t||`${T.o_eChapter||'Part'} ${chs.length+1}`,html:''};chs.push(ch);};const imgs=[];
+  for(let i=0;i<P.length;i++){status(`${T.working} ${i+1}/${P.length}`);if(v('esplit')==='page'||!ch)newCh(v('esplit')==='page'?`${T.o_page||'Page'} ${i+1}`:null);const ls=P[i].filter(l=>!drop(l));let para=null,list=false;
+   const close=()=>{if(para){ch.html+=`<p>${EX(para.t)}</p>\n`;para=null;}if(list){ch.html+='</ul>\n';list=false;}};
+   for(const l of ls){const k=l.h>body*1.6?'h1':l.h>body*1.2&&l.t.length<120?'h2':/^([•●▪◦\-–*]|\d+[.)])\s+/.test(l.t)?'li':'p';
+    if(k==='h1'||k==='h2'){close();if(k==='h1'&&v('esplit')==='h1'&&ch.html.trim()){newCh(l.t);}else if(k==='h1'&&!ch.html.trim()&&v('esplit')==='h1')ch.title=l.t;ch.html+=`<${k}>${EX(l.t)}</${k}>\n`;continue;}
+    if(k==='li'){if(para){ch.html+=`<p>${EX(para.t)}</p>\n`;para=null;}if(!list){ch.html+='<ul>\n';list=true;}ch.html+=`<li>${EX(l.t.replace(/^([•●▪◦\-–*]|\d+[.)])\s+/,''))}</li>\n`;continue;}
+    if(list){ch.html+='</ul>\n';list=false;}if(para&&Math.abs(para.y-l.y)<l.h*1.9&&!/[.!?:]$/.test(para.t)||para&&Math.abs(para.y-l.y)<l.h*1.5){para.t=para.t.endsWith('-')?para.t.slice(0,-1)+l.t:para.t+' '+l.t;para.y=l.y;}else{if(para)ch.html+=`<p>${EX(para.t)}</p>\n`;para={t:l.t,y:l.y};}}
+   close();const chars=ls.reduce((a,l)=>a+l.t.length,0);
+   if(vb('eimg')&&chars<200){const c=await renderPage(pj,i+1,1.5);const b=await toBlob(c,'image/jpeg',.82);const nm=`img/p${i+1}.jpg`;imgs.push(nm);z.file('OEBPS/'+nm,b);ch.html+=`<p class="pgimg"><img src="${nm}" alt="Page ${i+1}"/></p>\n`;c.width=0;}}
+  const xh=(t,b)=>`<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head><meta charset="utf-8"/><title>${EX(t)}</title><link rel="stylesheet" href="style.css"/></head><body>${b}</body></html>`;
+  const fin=chs.filter(c=>c.html.trim());if(!fin.length)throw Object.assign(new Error(T.o_noText||'No text found in this PDF. Run OCR PDF first.'),{soft:true});
+  const uid='urn:uuid:'+(crypto.randomUUID?crypto.randomUUID():Date.now());z.file('mimetype','application/epub+zip',{compression:'STORE'});
+  z.file('META-INF/container.xml','<?xml version="1.0"?><container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container"><rootfiles><rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/></rootfiles></container>');
+  z.file('OEBPS/style.css','body{font-family:serif;line-height:1.5;margin:0 4%}h1,h2{font-family:sans-serif;line-height:1.2}p{margin:0 0 .8em;text-align:justify}.pgimg{text-align:center}.pgimg img{max-width:100%}');
+  fin.forEach((c,i)=>z.file(`OEBPS/c${i+1}.xhtml`,xh(c.title,c.html)));
+  z.file('OEBPS/nav.xhtml',xh(title,`<nav epub:type="toc" id="toc"><h1>${EX(T.o_eToc||'Contents')}</h1><ol>${fin.map((c,i)=>`<li><a href="c${i+1}.xhtml">${EX(c.title)}</a></li>`).join('')}</ol></nav>`));
+  const now=new Date().toISOString().replace(/\.\d+Z$/,'Z');
+  z.file('OEBPS/content.opf',`<?xml version="1.0" encoding="utf-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="uid">${uid}</dc:identifier><dc:title>${EX(title)}</dc:title><dc:creator>${EX(author)}</dc:creator><dc:language>en</dc:language><meta property="dcterms:modified">${now}</meta></metadata><manifest><item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/><item id="css" href="style.css" media-type="text/css"/>${fin.map((c,i)=>`<item id="c${i+1}" href="c${i+1}.xhtml" media-type="application/xhtml+xml"/>`).join('')}${imgs.map((m,i)=>`<item id="i${i}" href="${m}" media-type="image/jpeg"/>`).join('')}</manifest><spine>${fin.map((c,i)=>`<itemref idref="c${i+1}"/>`).join('')}</spine></package>`);
+  const blob=await z.generateAsync({type:'blob',mimeType:'application/epub+zip'});return {blob,name:base(f.name)+'.epub',info:`${fin.length} chapter(s)${imgs.length?`, ${imgs.length} page image(s)`:''}`};}};
