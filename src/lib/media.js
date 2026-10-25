@@ -17,3 +17,12 @@ const secs=s=>{s=String(s||'').trim();if(!s)return null;const p=s.split(':').map
 const fmtT=t=>{const m=Math.floor(t/60),s=(t%60).toFixed(1);return m+':'+(s<10?'0':'')+s;};
 function waveform(buf,W=600,H=80){const c=newCanvas0(W,H);const x=c.getContext('2d');x.fillStyle='#e9eef7';x.fillRect(0,0,W,H);x.fillStyle='#1f7ae0';const d=buf.getChannelData(0);const step=Math.ceil(d.length/W);for(let i=0;i<W;i++){let mn=1,mx=-1;for(let j=i*step;j<Math.min(d.length,(i+1)*step);j+=8){const v=d[j];if(v<mn)mn=v;if(v>mx)mx=v;}x.fillRect(i,(1+mn)*H/2,1,Math.max(1,(mx-mn)*H/2));}return c;}
 const newCanvas0=(w,h)=>{const c=document.createElement('canvas');c.width=w;c.height=h;return c;};
+
+// Minimal ID3v2.3 writer (title/artist/album/year + optional JPEG/PNG cover)
+async function id3Tag({title='',artist='',album='',year='',cover=null}={}){const fr=[];const enc=new TextEncoder();
+ const tf=(id,t)=>{if(!t)return;const u=new Uint8Array(1+t.length*2+2);u[0]=1;const b=[0xFF,0xFE];u.set(b,1);for(let i=0;i<t.length;i++){const c=t.charCodeAt(i);u[3+i*2]=c&255;u[4+i*2]=c>>8;}fr.push([id,u.subarray(0,3+t.length*2)]);};
+ tf('TIT2',title);tf('TPE1',artist);tf('TALB',album);tf('TYER',year);
+ if(cover){const img=new Uint8Array(await cover.arrayBuffer());const mime=enc.encode(cover.type==='image/png'?'image/png':'image/jpeg');const u=new Uint8Array(1+mime.length+1+1+1+img.length);u[0]=0;u.set(mime,1);let o=1+mime.length;u[o++]=0;u[o++]=3;u[o++]=0;u.set(img,o);fr.push(['APIC',u]);}
+ if(!fr.length)return null;const size=fr.reduce((a,[,d])=>a+10+d.length,0);const out=new Uint8Array(10+size);out.set([73,68,51,3,0,0],0);const ss=[(size>>21)&127,(size>>14)&127,(size>>7)&127,size&127];out.set(ss,6);let o=10;
+ for(const [id,d] of fr){out.set(enc.encode(id),o);const n=d.length;out.set([n>>>24&255,n>>16&255,n>>8&255,n&255,0,0],o+4);out.set(d,o+10);o+=10+n;}return out;}
+function joinAudio(a,b){return {rate:a.rate,data:a.data.map((x,i)=>{const y=b.data[i]||b.data[0];const o=new Float32Array(x.length+y.length);o.set(x);o.set(y,x.length);return o;})};}
