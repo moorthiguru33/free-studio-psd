@@ -1,5 +1,7 @@
 // Shared PDF helpers: multi-script Noto text, rasterize, text extraction, diff
-const SCRIPTS=[[/[\u0B80-\u0BFF]/,'Tamil'],[/[\u0900-\u097F]/,'Devanagari'],[/[\u0980-\u09FF]/,'Bengali'],[/[\u0C00-\u0C7F]/,'Telugu'],[/[\u0C80-\u0CFF]/,'Kannada'],[/[\u0D00-\u0D7F]/,'Malayalam'],[/[\u0A80-\u0AFF]/,'Gujarati'],[/[\u0A00-\u0A7F]/,'Gurmukhi'],[/[\u0E00-\u0E7F]/,'Thai'],[/[\u0590-\u05FF\uFB1D-\uFB4F]/,'Hebrew'],[/[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/,'Arabic']];
+const SCRIPTS=[[/[\u0B80-\u0BFF]/,'Tamil'],[/[\u0900-\u097F]/,'Devanagari'],[/[\u0980-\u09FF]/,'Bengali'],[/[\u0C00-\u0C7F]/,'Telugu'],[/[\u0C80-\u0CFF]/,'Kannada'],[/[\u0D00-\u0D7F]/,'Malayalam'],[/[\u0A80-\u0AFF]/,'Gujarati'],[/[\u0A00-\u0A7F]/,'Gurmukhi'],[/[\u0E00-\u0E7F]/,'Thai'],[/[\u0590-\u05FF\uFB1D-\uFB4F]/,'Hebrew'],[/[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/,'Arabic'],[/[\u0530-\u058F]/,'Armenian'],[/[\u10A0-\u10FF\u1C90-\u1CBF]/,'Georgian'],[/[\u1200-\u139F\u2D80-\u2DDF]/,'Ethiopic'],[/[\u1780-\u17FF\u19E0-\u19FF]/,'Khmer'],[/[\u0E80-\u0EFF]/,'Lao'],[/[\u1000-\u109F\uAA60-\uAA7F]/,'Myanmar'],[/[\u0D80-\u0DFF]/,'Sinhala'],[/[\u0B00-\u0B7F]/,'Oriya'],[/[\u0F00-\u0FFF]/,'Tibetan'],[/[\u0780-\u07BF]/,'Thaana'],[/[\u1800-\u18AF]/,'Mongolian'],[/[\u3040-\u30FF\u31F0-\u31FF\uFF66-\uFF9F]/,'JP'],[/[\u1100-\u11FF\u3130-\u318F\uAC00-\uD7AF]/,'KR'],[/[\u2E80-\u2FDF\u3000-\u303F\u3100-\u312F\u31A0-\u31BF\u3200-\u9FFF\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFF65\uFFE0-\uFFEF]|[\uD840-\uD87F][\uDC00-\uDFFF]/,'CJK']];
+// Han characters use the Japanese/Korean font when the text has kana/hangul, Traditional for zh-TW/HK/MO, else Simplified
+const cjkKey=t=>/[\u3040-\u30FF\u31F0-\u31FF]/.test(t)?'JP':/[\uAC00-\uD7AF\u1100-\u11FF]/.test(t)?'KR':/^zh-(TW|HK|MO|Hant)/i.test((document.documentElement.lang&&document.documentElement.lang.startsWith('zh')?document.documentElement.lang:'')||navigator.language||'')?'TC':'SC';
 const WINANSI_EXTRA='€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ';
 const NEUTRAL=/[\s\d.,:;!?'"()\[\]\-–—\/+*%&@#]/;
 const fontBytes={};const fetchFont=n=>fontBytes[n]||(fontBytes[n]=fetch('/fonts/'+n+'.ttf').then(r=>{if(!r.ok)throw new Error('Font '+n);return r.arrayBuffer();}));
@@ -8,10 +10,16 @@ async function getFont(doc,key,bold){let c=docFonts.get(doc);if(!c){c={};docFont
   if(key==='std'){const {StandardFonts}=window.PDFLib;c[id]=doc.embedFont(bold?StandardFonts.HelveticaBold:StandardFonts.Helvetica);}
   else{c[id]=(async()=>{const fk=await L.fontkit();doc.registerFontkit(fk);const n=key==='Latin'?(bold?'NotoSans-Bold':'NotoSans-Regular'):`NotoSans${key}-Regular`;return doc.embedFont(await fetchFont(n),{subset:true});})();}
   return c[id];}
+const cjkHint=(doc,text)=>{let c=docFonts.get(doc);if(!c){c={};docFonts.set(doc,c);}if(!c.cjk&&/[\u2E80-\u9FFF\uAC00-\uD7AF]/.test(text))c.cjk=cjkKey(text);};
 const scriptKey=ch=>{for(const [re,k] of SCRIPTS)if(re.test(ch))return k;return 'std';};
 async function textRuns(doc,text,bold){text=String(text).replace(/[\r\n\t]+/g,' ');const enc=ch=>{const c=ch.codePointAt(0);return (c>=32&&c<127)||(c>=160&&c<=255)||WINANSI_EXTRA.includes(ch);};
   const runs=[];for(const ch of text){let k=NEUTRAL.test(ch)&&runs.length?runs[runs.length-1].k:scriptKey(ch);if(k==='std'&&!enc(ch))k='Latin';const last=runs[runs.length-1];if(last&&last.k===k)last.t+=ch;else runs.push({k,t:ch});}
-  for(const r of runs)r.font=await getFont(doc,r.k,bold);return runs;}
+  const dc=docFonts.get(doc)||{};const CJ=['SC','TC','JP','KR'];const has=(f,ch)=>{const ff=f.embedder&&f.embedder.font;return !ff||!ff.hasGlyphForCodePoint||ff.hasGlyphForCodePoint(ch.codePointAt(0));};const out=[];
+  for(const r of runs){if(r.k==='CJK')r.k=dc.cjk||cjkKey(text);r.font=await getFont(doc,r.k,bold);
+   if(!CJ.includes(r.k)||[...r.t].every(ch=>has(r.font,ch))){out.push(r);continue;}
+   // a CJK font lacks some characters (e.g. Simplified-only Han in a Japanese document): fall back per character to the other CJK fonts
+   for(const ch of r.t){let k=r.k,f=r.font;if(!has(f,ch)&&!NEUTRAL.test(ch))for(const k2 of CJ){if(k2===r.k)continue;const f2=await getFont(doc,k2,bold);if(has(f2,ch)){k=k2;f=f2;break;}}const l=out[out.length-1];if(l&&l.k===k)l.t+=ch;else out.push({k,t:ch,font:f});}}
+  return out;}
 const runsWidth=(runs,size)=>runs.reduce((a,r)=>a+r.font.widthOfTextAtSize(r.t,size),0);
 function drawRuns(page,runs,{x,y,size,color,opacity=1,rotate=0}){const {degrees}=window.PDFLib;const a=rotate*Math.PI/180;for(const r of runs){page.drawText(r.t,{x,y,size,font:r.font,color,opacity,rotate:degrees(rotate)});const w=r.font.widthOfTextAtSize(r.t,size);x+=w*Math.cos(a);y+=w*Math.sin(a);}}
 async function drawText(doc,page,text,o){const runs=await textRuns(doc,text,o.bold);drawRuns(page,runs,o);return runsWidth(runs,o.size);}

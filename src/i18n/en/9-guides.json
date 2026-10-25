@@ -1137,7 +1137,7 @@
 "faq": [
 {
 "q": "What exactly is removed?",
-"a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and page piece data."
+"a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and PieceInfo – private editing data that apps such as Adobe Illustrator store in the file and on its pages."
 }
 ],
 "more": [
@@ -1320,7 +1320,7 @@
 "faq": [
 {
 "q": "Which languages are supported?",
-"a": "Latin, Cyrillic, Greek, Indic, Arabic, Hebrew and Thai scripts are embedded with Noto fonts. CJK is not yet supported."
+"a": "Yes. The matching Noto font loads automatically for Latin, Greek, Cyrillic, Arabic, Hebrew, Indic scripts, Thai, Chinese, Japanese, Korean, Armenian, Georgian, Ethiopic, Khmer, Lao, Myanmar, Sinhala, Tibetan and more. Complex scripts are drawn without full ligature shaping, so some conjuncts may look simplified."
 }
 ],
 "more": [

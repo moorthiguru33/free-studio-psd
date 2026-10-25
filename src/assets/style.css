@@ -106,7 +106,7 @@ ul.files .nm{font-size:.82rem;font-weight:600;white-space:nowrap;overflow:hidden
 .fff:focus{background:#fff;outline:2px solid #3b82f6}input[type=checkbox].fff,input[type=radio].fff{accent-color:#2563eb}.ffx{background:#fff7c299;border-color:#e0b100}
 .vbar{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin-bottom:.4rem}.vbar input[type=search]{flex:1;min-width:10em}
 .vpages{display:flex;flex-direction:column;align-items:center;gap:10px;max-height:78vh;overflow:auto;background:#e9eaee;padding:10px;border-radius:10px}
-.vpage{background:#fff;box-shadow:0 1px 4px #0003;max-width:100%}.vpages.night{background:#111}.vpages.night canvas{filter:invert(.92) hue-rotate(180deg)}
+.vpage{position:relative;background:#fff;box-shadow:0 1px 4px #0003;max-width:100%}.vpages.night{background:#111}.vpages.night canvas{filter:invert(.92) hue-rotate(180deg)}
 #vhits{margin:.3rem 0;line-height:1.7}
 .dsgrid{display:flex;flex-wrap:wrap;gap:12px}.dscard{position:relative;display:inline-block;touch-action:none}.dscard canvas{display:block;max-width:100%;border-radius:6px}
 .dsov{position:absolute;inset:0;width:100%;height:100%}.dsov polygon{fill:#3b82f633;stroke:#2563eb;stroke-width:2}.dsov circle{fill:#fff;stroke:#2563eb;stroke-width:3;cursor:grab}
@@ -159,3 +159,5 @@ h2.h3{font-size:1.07rem;margin:1em 0 .4em}
 .tw{overflow-x:auto;-webkit-overflow-scrolling:touch}.tw table{width:100%;border-collapse:collapse;font-size:.95rem;min-width:520px}.tw th,.tw td{border:1px solid #ddd;padding:.5rem;text-align:left;vertical-align:top}.tw thead th{background:#f6f6f6}
 .cmp .note,.upd{font-size:.85rem;color:#555}.priv{margin:2rem 0;padding:1rem 1.2rem;border:1px solid #cfe8d6;background:#f3fbf5;border-radius:12px}.priv ul{padding-left:1.2rem;line-height:1.6}.relx ul{padding-left:1.2rem;line-height:1.8}.seo p{line-height:1.65}
 
+
+.vpage .textLayer{position:absolute;inset:0;overflow:hidden;line-height:1;text-align:initial;-webkit-text-size-adjust:none;text-size-adjust:none;forced-color-adjust:none;transform-origin:0 0;z-index:2}.vpage .textLayer span,.vpage .textLayer br{color:transparent;position:absolute;white-space:pre;cursor:text;transform-origin:0 0}.vpage .textLayer ::selection{background:#2563eb55}.vpage .textLayer .endOfContent{display:block;position:absolute;inset:100% 0 0;z-index:-1;cursor:default;user-select:none}.vpage .textLayer .endOfContent.active{top:0}.vpw{padding:1rem;border:1px solid #ddd;border-radius:8px}

@@ -639,7 +639,7 @@
      },
      {
       "q": "Does it support password-protected PDFs?",
-      "a": "Unlock the file with Unlock PDF first."
+      "a": "Yes. It asks for the password and decrypts the file only in your browser. Saved pages are written without the password."
      }
     ]
    }

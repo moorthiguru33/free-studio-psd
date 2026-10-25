@@ -1303,7 +1303,7 @@
 ],
 [
 "File types and limits",
-"The reader opens standard PDFs from version 1.0 to 2.0, including files with forms, annotations, layers and embedded fonts. Very large scans (hundreds of megabytes) depend on your device's memory; a modern phone comfortably reads files of 50–100 MB. Password-protected PDFs need the password – remove it permanently with [Unlock PDF](/unlock-pdf/) if you are allowed to."
+"The reader opens standard PDFs from version 1.0 to 2.0, including files with forms, annotations, layers and embedded fonts. Very large scans (hundreds of megabytes) depend on your device's memory; a modern phone comfortably reads files of 50–100 MB. Password-protected PDFs open after you enter the password; remove it permanently with [Unlock PDF](/unlock-pdf/) if you are allowed to."
 ],
 [
 "Reader vs editor",
@@ -1371,7 +1371,7 @@
 ],
 [
 "Works with almost any PDF",
-"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password open after you type the password in the reader (to remove it permanently, use [Unlock PDF](/unlock-pdf/)); files that only have permission restrictions open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
 ],
 [
 "Windows, Mac, iPhone and Android",
@@ -1381,7 +1381,7 @@
 "Common problems and fixes",
 {
 "list": [
-"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**\"Wrong password\"** – passwords are case-sensitive; check Caps Lock and try again.",
 "**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
 "**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
 "**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",

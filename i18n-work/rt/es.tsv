@@ -389,3 +389,8 @@ Today’s date	Fecha de hoy
 e.g. Approved	p. ej., Aprobado
 e.g. {}[]	p. ej., {}[]
 SVG (trace)	SVG (vectorizado)
+Same as original (each page keeps its size)	Igual que el original (cada página conserva su tamaño)
+Wrong password. Try again.	Contraseña incorrecta. Inténtalo de nuevo.
+This PDF is password-protected. Enter its password to open it.	Este PDF está protegido con contraseña. Introdúcela para abrirlo.
+Open	Abrir
+The password is used only in your browser to decrypt the file.	La contraseña solo se usa en tu navegador para descifrar el archivo.

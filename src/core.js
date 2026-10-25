@@ -110,7 +110,7 @@ document.readyState==='complete'?start():document.addEventListener('DOMContentLo
 // Runtime translation of tool UI strings that are hard-coded in English (exact matches + fragments)
 (()=>{const R=window.I18N_RT;if(!R)return;const X=R.x||{},F=Object.entries(R.f||{}).sort((a,b)=>b[0].length-a[0].length);
 const tr=s=>{if(!s||!/[A-Za-z]/.test(s))return s;const t=s.trim();if(Object.prototype.hasOwnProperty.call(X,t))return s.replace(t,X[t]);const m=t.match(/^([^A-Za-z(]*?)\s*([A-Za-z(].*?)\s*([→↻…]?)$/);if(m&&m[2]!==t&&Object.prototype.hasOwnProperty.call(X,m[2]))return s.replace(m[2],X[m[2]]);let o=s;for(const[a,b]of F)if(o.includes(a))o=o.split(a).join(b);return o;};
-const skip=n=>n.closest&&n.closest('textarea,[contenteditable="true"],.ptxt,.edl,script,style');
+const skip=n=>n.closest&&n.closest('textarea,[contenteditable="true"],.ptxt,.edl,.textLayer,.vpages,script,style');
 const at=['placeholder','title','aria-label','data-none'];
 const walk=n=>{if(n.nodeType===3){const p=n.parentElement;if(p&&skip(p))return;const v=tr(n.nodeValue);if(v!==n.nodeValue)n.nodeValue=v;return;}if(n.nodeType!==1||skip(n))return;for(const a of at){const v=n.getAttribute(a);if(v){const w=tr(v);if(w!==v)n.setAttribute(a,w);}}if(n.tagName==='INPUT'&&/^(button|submit)$/.test(n.type)&&n.value)n.value=tr(n.value);for(const c of [...n.childNodes])walk(c);};
 const go=()=>{const root=document.getElementById('tool')||document.body;walk(root);new MutationObserver(ms=>{for(const m of ms){if(m.type==='characterData')walk(m.target);else if(m.type==='attributes')walk(m.target);else m.addedNodes.forEach(walk);}}).observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:at});};
