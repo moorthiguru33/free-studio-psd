@@ -18,7 +18,7 @@ async function renderPage(doc,n,scale){const p=await doc.getPage(n);const vp=p.g
 const toBlob=(c,type,q)=>new Promise(r=>c.toBlob(r,type,q));
 function parseRanges(s,max){const out=[];for(const part of s.split(/[,;\s]+/).filter(Boolean)){const m=part.match(/^(\d+)?\s*-\s*(\d+)?$|^(\d+)$/);if(!m)throw new Error('Invalid range: '+part);let a,b;if(m[3]){a=b=+m[3];}else{a=m[1]?+m[1]:1;b=m[2]?+m[2]:max;}if(a<1||b>max||a>b)throw new Error('Range out of bounds: '+part+' (1-'+max+')');const r=[];for(let i=a;i<=b;i++)r.push(i-1);out.push({label:a===b?''+a:a+'-'+b,idx:r});}return out;}
 async function zipOrOne(items,zipName){return items.length===1?items[0]:{blob:await zipBlobs(items),name:zipName};}
-async function zipBlobs(items){const JSZip=await L.zip();const z=new JSZip();for(const it of items)z.file(it.name,it.blob);return z.generateAsync({type:'blob'});}
+async function zipBlobs(items){const JSZip=await L.zip();const z=new JSZip();const used=new Set();for(const it of items){let n=it.name,k=2;while(used.has(n.toLowerCase())){n=it.name.replace(/(\.[^.\/]+)?$/,m=>` (${k})`+m);k++;}used.add(n.toLowerCase());z.file(n,it.blob);}return z.generateAsync({type:'blob'});}
 // helper: select element
 const sel=(id,label,opts)=>`<label>${esc(label)}<select id="${id}">${opts.map(o=>`<option value="${o[0]}">${esc(o[1])}</option>`).join('')}</select></label>`;
 const inp=(id,label,type='text',val='',extra='')=>`<label>${esc(label)}<input id="${id}" type="${type}" value="${esc(val)}" ${extra}></label>`;

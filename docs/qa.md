@@ -47,3 +47,15 @@ All tested with big.pdf / scan10.pdf / 15 MB JPG + 10 MB PNG (batch of 2), phone
 | imgcompress (25 MB → 6.2 MB), imgresize, imgcrop, imgrotate, imgconvert | PASS | PASS | |
 | png2jpg, jpg2png, webp2jpg, webp2png, jpg2webp, png2webp, avif2jpg, tiff2jpg, jpg2tiff, bmp2jpg, png2ico | PASS | PASS | |
 | jpg2avif | PASS | PASS | slow on 12 MP + 6 MP photos (37 s) but works |
+
+## Batch 3 (tools 51–75: image/graphic tools, PDF page tools, text→PDF)
+| Tool | Phone | Desktop | Notes |
+|---|---|---|---|
+| svg2png, gif2png, heic2jpg, imgwatermark, gifmaker, img2gif, favicon, colorpicker, collage | PASS | PASS | |
+| png2svg | PASS | PASS | **Fixed**: tracing a 12 MP photo took 152 s and gave a 29 MB SVG. Images are now traced at ≤1000 px with the original width/height kept: 5 s, 2.9 MB |
+| meme, blurface | INPUT | INPUT | ask for text / face boxes (correct) |
+| booklet, halve, overlay, pagesize, resizepdf, rasterize, webopt, removemeta, viewerprefs | PASS | PASS | halve doubles file size (each half keeps the full page image), as expected |
+| searchpdf | INPUT | INPUT | asks for search term |
+| txt2pdf, md2pdf, rtf2pdf | PASS | PASS | |
+
+**Site-wide bug fixed (found here):** when several input files shared a base name (e.g. `photo.jpg` + `photo.png`), the ZIP silently kept only one output. This affected every multi-file converter in batch 2. ZIP entries are now de-duplicated (`photo.jpg`, `photo (2).jpg`).
