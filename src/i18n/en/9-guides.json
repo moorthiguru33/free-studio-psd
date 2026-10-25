@@ -1,0 +1,278 @@
+{
+"ui": {
+"crumbHome": "Home",
+"whyTitle": "Why use {brand} for {tool}?",
+"cmpCol1": "",
+"cmpUs": "{brand}",
+"cmpThem": "Typical upload-based sites",
+"cmpRow1": "Files uploaded to a server",
+"cmpRow1us": "No – processed on your device",
+"cmpRow1them": "Yes",
+"cmpRow2": "Sign-up required",
+"cmpRow2us": "Never",
+"cmpRow2them": "Often for bigger jobs",
+"cmpRow3": "Hourly / daily task limits",
+"cmpRow3us": "None",
+"cmpRow3them": "Common on free plans",
+"cmpRow4": "Watermark on output",
+"cmpRow4us": "Never",
+"cmpRow4them": "Sometimes",
+"cmpRow5": "Works offline after loading",
+"cmpRow5us": "Yes, for most tools",
+"cmpRow5them": "No",
+"usesTitle": "Common uses",
+"tipsTitle": "Tips for best results",
+"aboutLink": "About",
+"privacyLink": "Privacy",
+"termsLink": "Terms",
+"contactLink": "Contact",
+"popular": "Popular tools",
+"allToolsLink": "See all tools"
+},
+"tools": {
+"merge": {
+"title": "Merge PDF – Combine PDF Files Online Free, No Upload | {brand}",
+"desc": "Merge PDF files into one document in seconds. Free, no sign-up, no file limits and no watermark. Files are combined in your browser and never uploaded.",
+"guide": {
+"intro": "Merging PDFs is the quickest way to turn scattered documents – scans, invoices, chapters, forms – into one tidy file that is easy to share, print and archive. {brand} joins your files right inside your browser, so even confidential contracts or ID scans never touch a server.",
+"uses": [
+"Combine a scanned passport, ID and application form into one PDF for an online application.",
+"Join monthly invoices or bank statements into a single file for your accountant.",
+"Put together chapters, a cover page and an appendix into one report or thesis.",
+"Merge several signed pages back into the full contract."
+],
+"tips": [
+"Sort files into the right order before you click Start – use the Up/Down buttons.",
+"If the final file is too large for email, run it through Compress PDF afterwards.",
+"Need only some pages from each file? Split or Extract pages first, then merge."
+],
+"faq": [
+{
+"q": "Will merging reduce the quality of my PDFs?",
+"a": "No. Pages are copied as they are, so text stays selectable and images keep their original quality."
+},
+{
+"q": "Can I merge password-protected PDFs?",
+"a": "Unlock them first with Unlock PDF (you need the password), then merge."
+}
+]
+}
+},
+"compress": {
+"title": "Compress PDF – Reduce PDF File Size Online Free | {brand}",
+"desc": "Compress PDF to reduce file size for email, WhatsApp and upload portals. Free, no limits, no sign-up – your PDF is compressed in your browser, never uploaded.",
+"guide": {
+"intro": "Large PDFs are rejected by email (often 20–25 MB limits) and by many government, job and college portals that accept only 1–2 MB. {brand} shrinks PDFs on your own device, so you can compress private documents without uploading them anywhere.",
+"uses": [
+"Make a scanned PDF small enough for an online form with a 1 MB or 2 MB limit.",
+"Send a large report by email or WhatsApp.",
+"Save storage space on your phone or cloud drive."
+],
+"tips": [
+"Try Lossless first – it keeps text selectable. Use Strong for scanned or photo-heavy files.",
+"For text-based PDFs that are already small, large savings may not be possible.",
+"Compress after merging, not before, to get one optimised file."
+],
+"faq": [
+{
+"q": "How much smaller will my PDF be?",
+"a": "It depends on the content. Scanned and image-heavy PDFs often shrink by 50–90% in Strong mode; text-only PDFs shrink less."
+},
+{
+"q": "Can I compress a PDF to under 1 MB or 100 KB?",
+"a": "Often yes for scans using Strong mode. Very long documents may still be larger; splitting them can help."
+}
+]
+}
+},
+"split": {
+"title": "Split PDF – Extract Pages or Split by Range Online Free | {brand}",
+"desc": "Split a PDF into single pages or custom ranges like 1-3,5. Free, unlimited and private – your PDF is split in your browser and never uploaded.",
+"guide": {
+"intro": "Splitting lets you pull out just the pages you need – one chapter, one invoice, one signed page – instead of sending a whole document. With {brand} the split happens locally, so large or sensitive PDFs stay on your device.",
+"uses": [
+"Send only the relevant pages of a long contract or report.",
+"Break a scanned bundle of receipts into one file per page.",
+"Separate chapters of an e-book or study material."
+],
+"tips": [
+"Use ranges like 1-3,7,10-12 to create several files at once.",
+"Leave the field empty to split every page into its own PDF.",
+"Want one file with chosen pages only? Use Extract pages instead."
+],
+"faq": [
+{
+"q": "Will the split pages keep links and quality?",
+"a": "Yes. Pages are copied without re-rendering, so text, images and quality are unchanged."
+}
+]
+}
+},
+"pdf2word": {
+"title": "PDF to Word Converter – Convert PDF to DOCX Free | {brand}",
+"desc": "Convert PDF to an editable Word (DOCX) file for free. No sign-up, no limits, and your document is converted in your browser, never uploaded.",
+"guide": {
+"intro": "Converting a PDF to Word lets you reuse and edit the text in Microsoft Word, Google Docs or LibreOffice. {brand} extracts the text of each page into a DOCX file directly on your device. It works best for text-based PDFs such as letters, articles and reports.",
+"uses": [
+"Reuse text from an old report or letter without retyping.",
+"Edit a document when you no longer have the original Word file.",
+"Copy paragraphs into a new document or presentation."
+],
+"tips": [
+"This beta focuses on text; complex tables, columns and images may need manual touch-up.",
+"Scanned PDF? Built-in OCR (Auto mode) reads pages that have no text layer.",
+"If you only need plain text, PDF to Text is even faster."
+],
+"faq": [
+{
+"q": "Can I open the result in Google Docs?",
+"a": "Yes. DOCX files open in Microsoft Word, Google Docs, LibreOffice and WPS Office."
+}
+]
+},
+"faq": [
+{
+"q": "Is the layout preserved?",
+"a": "The converter extracts text paragraphs page by page, with OCR for scanned pages. Complex layouts, tables and images are not yet fully preserved."
+}
+]
+},
+"jpg2pdf": {
+"title": "JPG to PDF – Convert Images to PDF Online Free | {brand}",
+"desc": "Convert JPG, PNG and WebP images to one PDF. Choose page size and margins. Free, no watermark, no upload – images are converted in your browser.",
+"guide": {
+"intro": "Turning photos into a PDF is the easiest way to submit documents, homework or receipts as a single file. {brand} builds the PDF on your phone or computer, so personal photos and ID scans are never uploaded.",
+"uses": [
+"Turn phone photos of documents into one PDF for an application.",
+"Combine receipts into a PDF for expense claims.",
+"Send homework or handwritten notes as a single file."
+],
+"tips": [
+"Choose A4 or Letter page size for documents that will be printed.",
+"Rotate or crop photos first with the image tools for a neater result.",
+"If the PDF is too big, use Compress PDF afterwards."
+],
+"faq": [
+{
+"q": "Can I convert many images at once?",
+"a": "Yes. Select as many images as you like; each becomes a page in one PDF, in the order you choose."
+}
+]
+}
+},
+"pdf2jpg": {
+"guide": {
+"intro": "Converting PDF pages to images makes them easy to share on social media, insert into slides or view on any device. {brand} renders each page in your browser at the resolution you choose.",
+"uses": [
+"Share a single page of a PDF on WhatsApp or Instagram.",
+"Insert PDF pages into PowerPoint or Google Slides.",
+"Create thumbnails or previews of a document."
+],
+"tips": [
+"Choose PNG for sharp text and diagrams, JPG for smaller photo pages.",
+"Use 2x or 3x resolution if the images will be printed or zoomed."
+],
+"faq": []
+}
+},
+"word2pdf": {
+"guide": {
+"intro": "PDF keeps your document looking the same on every device, which is why most forms and portals ask for it. {brand} converts DOCX files to PDF inside your browser, so CVs and letters never leave your device.",
+"uses": [
+"Turn your CV or cover letter into a PDF before applying for jobs.",
+"Send letters or reports that must not be edited.",
+"Prepare documents for printing."
+],
+"tips": [
+"This beta keeps text, headings, bold, italic and lists; check documents with images or complex layout.",
+"For full-fidelity layout, Word's own Save as PDF is also an option."
+],
+"faq": []
+}
+},
+"edit": {
+"guide": {
+"intro": "Need to fill in a field, fix a typo or add a note to a PDF? {brand} lets you add text and white-out boxes on any page without installing software or uploading your file.",
+"uses": [
+"Fill in a simple form that has no fillable fields.",
+"Cover a mistake with white-out and type the correct text.",
+"Add a date, name or note to a document."
+],
+"tips": [
+"Zoom the preview to place text precisely.",
+"To hide sensitive information permanently, use Redact PDF instead of white-out."
+],
+"faq": []
+}
+},
+"sign": {
+"guide": {
+"intro": "Sign documents in under a minute without printing and scanning. Draw your signature with a finger, mouse or stylus, or type it, and place it anywhere on the page – all on your device.",
+"uses": [
+"Sign rental agreements, offer letters and consent forms.",
+"Approve invoices or delivery notes.",
+"Add initials to every page of a contract."
+],
+"tips": [
+"Draw slowly on a phone for a smoother signature.",
+"After signing, use Flatten PDF so the signature cannot be moved."
+],
+"faq": []
+}
+},
+"protect": {
+"guide": {
+"intro": "Adding a password stops anyone without it from opening your PDF. {brand} encrypts files with AES-256 locally, so neither the file nor the password is ever sent over the internet.",
+"uses": [
+"Email salary slips, bank statements or medical reports safely.",
+"Share ID documents with a password sent separately.",
+"Protect business proposals and contracts."
+],
+"tips": [
+"Use a long password – try our Password Generator.",
+"Share the password through a different channel than the file."
+],
+"faq": []
+}
+},
+"unlock": {
+"guide": {
+"intro": "Bank statements and e-bills often arrive password-protected. If you know the password, {brand} can remove it so you can open, print or merge the file freely – done locally in your browser.",
+"uses": [
+"Remove the password from bank or credit-card statements you own.",
+"Prepare protected PDFs for merging or compressing."
+],
+"tips": [
+"You must know the password; this tool does not crack passwords."
+],
+"faq": []
+}
+},
+"rotate": {
+"guide": {
+"intro": "Scans and phone photos often end up sideways or upside down. Rotate PDF fixes the orientation permanently so the file opens correctly everywhere.",
+"uses": [
+"Fix sideways scanned pages.",
+"Turn landscape pages for easier reading."
+],
+"tips": [
+"To rotate only some pages, use Organize PDF."
+],
+"faq": []
+}
+},
+"organize": {
+"guide": {
+"intro": "Organize PDF shows every page as a thumbnail so you can reorder, rotate and delete pages visually – ideal for fixing scanned bundles.",
+"uses": [
+"Fix pages scanned in the wrong order.",
+"Remove blank or duplicate pages."
+],
+"tips": [
+"On mobile use the arrow buttons on each thumbnail."
+],
+"faq": []
+}
+}
+}
+}

@@ -2,6 +2,8 @@
 const fs=require('fs'),path=require('path');
 const R=p=>path.join(__dirname,'..',p);
 const site=JSON.parse(fs.readFileSync(R('src/site.json')));
+// SITE_URL env overrides src/site.json baseUrl (switch to the real domain there or via env)
+site.baseUrl=(process.env.SITE_URL||site.baseUrl).replace(/\/+$/,'');
 const tools=JSON.parse(fs.readFileSync(R('src/tools.json')));
 const langs=JSON.parse(fs.readFileSync(R('src/languages.json')));
 const enabled=langs.filter(l=>l.enabled&&fs.existsSync(R(`src/i18n/${l.code}.json`)));
@@ -21,56 +23,60 @@ const abs=u=>site.baseUrl+u;
 const ver=Date.now().toString(36);
 const write=(u,html)=>{const f=path.join(OUT,u,'index.html');fs.mkdirSync(path.dirname(f),{recursive:true});fs.writeFileSync(f,html);};
 const ad=(id,t)=>`<aside class="ad-slot" data-ad-slot="${id}" aria-label="${esc(t.ui.ad)}"><span>${esc(t.ui.ad)}</span></aside>`;
-function layout({t,lang,slug,title,desc,body,jsonld,cat}){
+function layout({t,lang,slug,title,desc,body,jsonld,cat,og,alts:A=true}){
   const L=langs.find(l=>l.code===lang);
-  const alts=enabled.map(l=>`<link rel="alternate" hreflang="${l.code}" href="${abs(url(l.code,slug))}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${abs(url(site.defaultLang,slug))}">`;
-  const langSel=enabled.map(l=>`<a href="${url(l.code,slug)}" hreflang="${l.code}" lang="${l.code}"${l.code===lang?' aria-current="true"':''}>${esc(l.name)}</a>`).join('');
+  const alts=!A?'':enabled.map(l=>`<link rel="alternate" hreflang="${l.code}" href="${abs(url(l.code,slug))}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${abs(url(site.defaultLang,slug))}">`;
+  const langSel=enabled.map(l=>`<a href="${url(l.code,A?slug:"")}" hreflang="${l.code}" lang="${l.code}"${l.code===lang?' aria-current="true"':''}>${esc(l.name)}</a>`).join('');
   const nav=tools.map(x=>`<a href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('');
   return `<!doctype html><html lang="${lang}" dir="${L.dir}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${abs(url(lang,slug))}">${alts}
-<meta property="og:type" content="website"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${abs(url(lang,slug))}"><meta property="og:site_name" content="${esc(site.brand)}"><meta property="og:locale" content="${lang}"><meta name="twitter:card" content="summary">
+<meta property="og:type" content="website"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${abs(url(lang,slug))}"><meta property="og:site_name" content="${esc(site.brand)}"><meta property="og:locale" content="${lang}"><meta property="og:image" content="${abs('/og/'+(og||'home')+'.jpg')}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${abs('/og/'+(og||'home')+'.jpg')}">
 <meta name="theme-color" content="#e5322d"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" href="/assets/style.css?v=${ver}">
 ${jsonld.map(j=>`<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('')}
 </head><body class="${site.adsEnabled?'ads-on':''} ${cat?'cat-'+cat:''}">
 <header class="top"><div class="wrap"><a class="logo" href="${prefix(lang)}">${esc(site.brand)}</a>
 <details class="menu"><summary aria-label="${esc(t.ui.allTools)}">☰ <span class="mt">${esc(t.ui.allTools)}</span></summary><nav class="toolnav">${nav}</nav></details>
-<details class="langs"><summary aria-label="${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details></div></header>
+<details class="langs"><summary aria-label="${esc(L.name)} – ${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details></div></header>
 <nav class="toptools"><div class="wrap">${TOP.map(id=>tools.find(x=>x.id===id)).filter(Boolean).map(x=>`<a class="c-${x.cat}" href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('')}</div></nav>
 <main class="wrap">${body}</main>
-<footer class="foot"><div class="wrap"><nav class="toolnav">${nav}</nav><p>${esc(t.ui.footer)}</p><p>© ${new Date().getFullYear()} ${esc(site.brand)}</p></div></footer>
+<footer class="foot"><div class="wrap"><nav class="toolnav" aria-label="${esc(t.ui.popular)}">${FOOT.map(id=>tools.find(x=>x.id===id)).filter(Boolean).map(x=>`<a href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('')}<a href="${prefix(lang)}#all">${esc(t.ui.allToolsLink)}</a></nav><nav class="legal">${['about','privacy','terms','contact'].map(k=>`<a href="/${k}/">${esc(EN.ui[k+'Link'])}</a>`).join(' · ')}</nav><p>${esc(t.ui.footer)}</p><p>© ${new Date().getFullYear()} ${esc(site.brand)}</p></div></footer>
 </body></html>`;
 }
 const fmtList=a=>{if(!a)return '';const m=a.split(',').map(z=>z.trim()).map(z=>z==='image/*'?'JPG, PNG, WEBP, GIF':z.startsWith('.')?z.slice(1).toUpperCase():z.includes('/')?z.split('/')[1].replace(/^\*$/,'').toUpperCase():z).filter(Boolean);return [...new Set(m.join(', ').split(', '))].join(', ');};
 const FOLLOW={pdf:['compress','merge','split','protect','pagenumbers','pdf2word'],image:['imgcompress','imgresize','jpg2pdf','imgconvert']};
 const nextOf=x=>{const out=x.accept&&/pdf/.test(x.accept)||['jpg2pdf','word2pdf','txt2pdf','invoice','camera2pdf'].includes(x.id)?FOLLOW.pdf:x.cat==='image'?FOLLOW.image:[];return [...out.map(id=>tools.find(y=>y.id===id)).filter(Boolean),...tools.filter(y=>y.cat===x.cat)].filter((y,i,a)=>y.id!==x.id&&a.indexOf(y)===i).slice(0,6);};
+const FOOT=['merge','compress','split','pdf2word','word2pdf','jpg2pdf','pdf2jpg','edit','sign','protect','unlock','rotate','organize','ocrpdf','imgcompress','imgresize','qr','bgremove'];
 const TOP=['merge','compress','split','pdf2word','jpg2pdf','edit','ocr','qr'];
-const pages=[];
+const pages=[];let TEN;
 for(const L of enabled){
-  const t=merge(EN,load(L.code));for(const x of tools)t.tools[x.id]=toolText(t,x);const lang=L.code;const V={brand:site.brand};
+  const t=merge(EN,load(L.code));for(const x of tools)t.tools[x.id]=toolText(t,x);if(L.code==="en")TEN=t;const lang=L.code;const V={brand:site.brand};
   // Home
   const card=x=>`<a class="card c-${x.cat}" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`;
   const cats=['organize','edit','convert','optimize','security','image','qr','ai','media','data','units','more'];
   const cards=cats.filter(c=>tools.some(x=>x.cat===c)).map(c=>`<h2 class="cat">${esc(t.ui['cat_'+c]||c)}</h2><div class="grid">${tools.filter(x=>x.cat===c).map(card).join('')}</div>`).join('');
   const homeBody=`<section class="hero"><h1>${esc(t.home.h1)}</h1><p class="lead">${esc(t.ui.heroSub)}</p></section>
-<section aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
+<section id="all" aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
 <section class="feats"><div><h2>${esc(t.ui.f1t)}</h2><p>${esc(t.ui.f1d)}</p></div><div><h2>${esc(t.ui.f2t)}</h2><p>${esc(t.ui.f2d)}</p></div><div><h2>${esc(t.ui.f3t)}</h2><p>${esc(t.ui.f3d)}</p></div></section>`;
   write(url(lang,''),layout({t,lang,slug:'',title:fill(t.home.title,V),desc:fill(t.home.desc,V),body:homeBody,jsonld:[{"@context":"https://schema.org","@type":"WebSite",name:site.brand,url:abs(url(lang,'')),inLanguage:lang},{"@context":"https://schema.org","@type":"Organization",name:site.brand,url:site.baseUrl,logo:site.baseUrl+'/favicon.svg'}]}));
   pages.push('');
   // Tools
   for(const x of tools){
     const tt=t.tools[x.id];const v={...V,tool:tt.name};
-    const faq=[...tt.faq,...t.commonFaq].map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
+    const G=lang==='en'&&tt.guide?tt.guide:null;const faq=[...tt.faq,...(G?G.faq:[]),...t.commonFaq].map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
     const steps=tt.steps.map(s=>fill(s,v));
     const rel=[...tools.filter(y=>y.id!==x.id&&y.cat===x.cat),...tools.filter(y=>y.cat!==x.cat)].slice(0,14).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
-    const body=`<section class="hero small"><h1>${esc(tt.h1)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</h1><p class="lead">${esc(fill(tt.desc,v))}</p></section>
+    const crumbs=`<nav class="crumbs" aria-label="Breadcrumb"><a href="${prefix(lang)}">${esc(t.ui.crumbHome||'Home')}</a> › <a href="${prefix(lang)}#all">${esc(t.ui['cat_'+x.cat]||x.cat)}</a> › <span aria-current="page">${esc(tt.name)}</span></nav>`;
+    const guide=G?`<section class="guide"><p>${esc(fill(G.intro,v))}</p><h2>${esc(t.ui.usesTitle)}</h2><ul>${G.uses.map(u=>`<li>${esc(fill(u,v))}</li>`).join('')}</ul><h2>${esc(t.ui.tipsTitle)}</h2><ul>${G.tips.map(u=>`<li>${esc(fill(u,v))}</li>`).join('')}</ul></section>`:'';
+    const cmp=lang==='en'?`<section class="cmp"><h2>${esc(fill(t.ui.whyTitle,v))}</h2><table><thead><tr><th></th><th scope="col">${esc(site.brand)}</th><th scope="col">${esc(t.ui.cmpThem)}</th></tr></thead><tbody>${[1,2,3,4,5].map(i=>`<tr><th scope="row">${esc(t.ui['cmpRow'+i])}</th><td>${esc(t.ui['cmpRow'+i+'us'])}</td><td>${esc(t.ui['cmpRow'+i+'them'])}</td></tr>`).join('')}</tbody></table></section>`:'';
+    const body=`${crumbs}<section class="hero small"><h1>${esc(tt.h1)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</h1><p class="lead">${esc(fill(tt.desc,v))}</p></section>
 <section class="tool" id="tool" data-tool="${x.impl||x.id}" data-step="1" data-next="${esc(JSON.stringify(nextOf(x).map(y=>({n:t.tools[y.id].name,u:url(lang,y.slug)}))))}" data-preset="${x.preset||''}" data-vars="${esc(JSON.stringify(x.vars||{}))}" data-accept="${x.accept||''}" data-multiple="${!!x.multiple}" data-nofile="${!!x.nofile}" data-maxmb="${x.maxmb||''}">
 <ol class="stepper"><li class="s1">${esc(t.ui.stepUpload)}</li><li class="s2">${esc(t.ui.stepOptions)}</li><li class="s3">${esc(t.ui.stepDownload)}</li></ol>
 ${x.nofile?'':`<label class="drop"><input type="file" accept="${x.accept}" ${x.multiple?'multiple':''} hidden><span class="btn huge">⬆ ${esc(x.multiple?t.ui.selectMany:t.ui.select)}</span><span class="or">${esc(t.ui.orDrop)}</span><span class="fmts">${esc(fmtList(x.accept))}${x.maxmb?` · max ${x.maxmb} MB`:''}</span></label>`}
 <ul class="trust"><li>✓ ${esc(t.ui.tFree)}</li><li>✓ ${esc(t.ui.tNoSign)}</li><li>✓ ${esc(t.ui.tNoLimit)}</li><li>🔒 ${esc(t.ui.tLocal)}</li></ul>
 <div class="work" hidden></div></section>
 <section class="howto"><h2>${esc(t.ui.howTo)}: ${esc(tt.name)}</h2><ol>${steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></section>
-<section class="faq"><h2>${esc(t.ui.faq)}</h2>${faq.map(f=>`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>
+${guide}${cmp}<section class="faq"><h2>${esc(t.ui.faq)}</h2>${faq.map(f=>`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>
 ${ad('tool-below',t)}
 <section class="rel"><h2>${esc(t.ui.related)}</h2>${rel}</section>
 <script>window.I18N=${JSON.stringify(t.ui)};</script><script src="/assets/core.js?v=${ver}" defer></script><script src="/assets/t/${x.impl||x.id}.js?v=${ver}" defer></script>`;
@@ -78,16 +84,21 @@ ${ad('tool-below',t)}
       {"@context":"https://schema.org","@type":"SoftwareApplication",name:`${tt.name} – ${site.brand}`,applicationCategory:"UtilitiesApplication",operatingSystem:"Any (web browser)",url:abs(url(lang,x.slug)),inLanguage:lang,description:fill(tt.desc,v),offers:{"@type":"Offer",price:"0",priceCurrency:"USD"}},
       {"@context":"https://schema.org","@type":"HowTo",name:`${t.ui.howTo}: ${tt.name}`,inLanguage:lang,step:steps.map((s,i)=>({"@type":"HowToStep",position:i+1,text:s}))},
       {"@context":"https://schema.org","@type":"FAQPage",inLanguage:lang,mainEntity:faq.map(f=>({"@type":"Question",name:f.q,acceptedAnswer:{"@type":"Answer",text:f.a}}))},
-      {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:site.brand,item:abs(prefix(lang))},{"@type":"ListItem",position:2,name:tt.name,item:abs(url(lang,x.slug))}]}
+      {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:site.brand,item:abs(prefix(lang))},{"@type":"ListItem",position:2,name:t.ui['cat_'+x.cat]||x.cat,item:abs(prefix(lang))+'#all'},{"@type":"ListItem",position:3,name:tt.name,item:abs(url(lang,x.slug))}]}
     ];
-    write(url(lang,x.slug),layout({t,lang,slug:x.slug,title:fill(tt.title,v),desc:fill(tt.desc,v),body,jsonld,cat:x.cat}));
+    write(url(lang,x.slug),layout({t,lang,slug:x.slug,title:fill(tt.title,v),desc:fill(tt.desc,v),body,jsonld,cat:x.cat,og:x.slug}));
     if(lang===site.defaultLang)pages.push(x.slug);
   }
 }
+// static info pages (English)
+{const t=TEN;const P=JSON.parse(fs.readFileSync(R('src/pages.json')));for(const k in P){const pg=P[k];const body=`<article class="page"><h1>${esc(fill(pg.h1,{brand:site.brand}))}</h1>${pg.html.replace(/\{brand\}/g,esc(site.brand)).replace(/\{email\}/g,esc(site.email))}</article>`;
+  write('/'+k+'/',layout({t,lang:'en',slug:k,title:fill(pg.title,{brand:site.brand}),desc:fill(pg.desc,{brand:site.brand}),body,jsonld:[{"@context":"https://schema.org","@type":k==='about'?'AboutPage':k==='contact'?'ContactPage':'WebPage',name:fill(pg.title,{brand:site.brand}),url:abs('/'+k+'/')}],alts:false}));}
+ var STATIC=Object.keys(P);}
 // sitemap with hreflang alternates
 const today=new Date().toISOString().slice(0,10);
 const sm=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'];
 for(const slug of pages)for(const L of enabled){sm.push(`<url><loc>${abs(url(L.code,slug))}</loc><lastmod>${today}</lastmod>${enabled.map(l=>`<xhtml:link rel="alternate" hreflang="${l.code}" href="${abs(url(l.code,slug))}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${abs(url(site.defaultLang,slug))}"/></url>`);}
+for(const k of STATIC)sm.push(`<url><loc>${abs('/'+k+'/')}</loc><lastmod>${today}</lastmod></url>`);
 sm.push('</urlset>');fs.writeFileSync(path.join(OUT,'sitemap.xml'),sm.join('\n'));
 fs.writeFileSync(path.join(OUT,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${site.baseUrl}/sitemap.xml\n`);
 // assets
@@ -113,6 +124,7 @@ if(fs.existsSync(R('models')))for(const f of fs.readdirSync(R('models'),{recursi
 // ESM-only libraries are bundled into small IIFE globals
 for(const f of fs.readdirSync(R('scripts/vendor')))esbuild.buildSync({entryPoints:[R('scripts/vendor/'+f)],bundle:true,minify:true,format:'iife',outfile:path.join(OUT,'vendor',f),logLevel:'error',platform:'browser'});
 for(const k in V)cp(V[k],'vendor/'+k);
+for(const f of fs.readdirSync(R('src/og')))cp('src/og/'+f,'og/'+f);
 for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);
 const n=fs.readdirSync(OUT,{recursive:true}).filter(f=>f.endsWith('.html')).length;
 console.log(`Built ${n} HTML pages for ${enabled.map(l=>l.code).join(', ')} -> dist/`);

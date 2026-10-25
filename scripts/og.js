@@ -1,0 +1,8 @@
+// Generates 1200x630 Open Graph images into src/og/ (committed). node scripts/og.js
+const {chromium}=require('playwright-core');const fs=require('fs'),path=require('path');
+const R=p=>path.join(__dirname,'..',p);const site=JSON.parse(fs.readFileSync(R('src/site.json')));
+(async()=>{const html=fs.readFileSync(R('dist/index.html'),'utf8');const items=[['home','Free PDF Tools','Merge, compress, convert & edit — in your browser']];
+for(const d of fs.readdirSync(R('dist'))){const f=R(`dist/${d}/index.html`);if(!fs.existsSync(f)||d.length<3)continue;const h=fs.readFileSync(f,'utf8');const m=h.match(/<h1>([^<]*)/);if(m&&/data-tool=/.test(h))items.push([d,m[1].replace(/&amp;/g,'&'),'Free · No upload · No sign-up · No limits']);}
+fs.mkdirSync(R('src/og'),{recursive:true});const b=await chromium.launch({executablePath:process.env.CHROME||'/usr/bin/google-chrome',args:['--no-sandbox']});const p=await b.newPage({viewport:{width:1200,height:630}});
+for(const [slug,h,sub] of items){await p.setContent(`<body style="margin:0;width:1200px;height:630px;display:flex;flex-direction:column;justify-content:center;padding:0 90px;box-sizing:border-box;background:linear-gradient(135deg,#e5322d,#a3171a);color:#fff;font-family:Noto Sans,Arial,sans-serif"><div style="font-size:38px;opacity:.9;font-weight:700">${site.brand}</div><div style="font-size:84px;font-weight:800;line-height:1.1;margin:24px 0">${h}</div><div style="font-size:36px;opacity:.95">${sub}</div><div style="margin-top:40px;font-size:28px;opacity:.8">🔒 Files stay on your device</div></body>`);await p.screenshot({path:R(`src/og/${slug}.jpg`),type:'jpeg',quality:80});}
+await b.close();console.log('og images:',items.length);})();
