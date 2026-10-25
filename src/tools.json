@@ -48,6 +48,14 @@
   "cat": "convert"
  },
  {
+  "id": "pdf2ppt",
+  "slug": "pdf-to-powerpoint",
+  "accept": ".pdf",
+  "multiple": false,
+  "icon": "📽",
+  "cat": "convert"
+ },
+ {
   "id": "compress",
   "slug": "compress-pdf",
   "accept": ".pdf",
