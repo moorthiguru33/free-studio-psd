@@ -92,3 +92,24 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 - jpg2avif is slow on large photos (~37 s for 18 MP total).
 - pdf2txt/html/md give no text for image-only pages (use OCR PDF first).
 - halve-pages doubles file size for image pages.
+
+## Edit PDF – true content-stream editing (Oct 2026)
+
+### Milestone 1 – remove original text (commit 8eed16e)
+- Editing an existing text line removes its glyphs from the page content stream (Tj/TJ/'/", Form XObjects, Flate streams, Type0/CID Identity-H/V, simple TrueType/Type1, Type3). Neighbouring glyphs in the same TJ are kept via kerning numbers.
+- New text reuses the original embedded font when every glyph is available (non-Type3, unchanged font/style); otherwise standard/Noto font.
+- Verified (`test/edit-remove.js`, samples in `test/samples/real/`): invoice, type0, article, word, flyer – old line absent from `pdftotext`, new text present, render diff confined to the line. Live verified.
+- Fallback to sampled cover patch: OCR lines, invisible text (Tr 3/7), non-Identity CID encodings, low glyph-match ratio.
+
+### Milestone 2 – existing images & shapes
+- New mode "◧ Images & shapes": overlays for Image XObjects, inline images (BI/ID/EI) and filled/stroked vector paths (clip paths and full-page backgrounds >97% skipped).
+- Move/resize: span wrapped in `q (C·U·C⁻¹) cm … Q`; delete: operators removed; replace image: new XObject added to the stream's Resources and the Do/inline image rewritten to `/EdImN Do`; shape fill/stroke: `rg`/`RG` set before the path. No cover patches.
+- Live preview re-renders the page from an edited single-page copy (debounced 250 ms).
+- Verified with `test/edit-objects.js` on flyer (raster banner + circle + bars), design.pdf (inline image, line, rect, Form XObject rects), word.pdf (Image XObject + table rules), invoice.pdf: text identical before/after, renders checked.
+- Overflow helper: when edited existing text grows past its original box, a warning appears; it samples the page where the text spills and flags low contrast, with "Shrink to fit" and "Use dark/light text" + colour picker (`test/edit-overflow.js`).
+
+### Known limits
+- An image moved outside its original clip path (e.g. Word figures wrapped in `re W n`) is clipped by that clip.
+- Text drawn on top of a deleted shape remains (e.g. white text on a deleted bar becomes invisible on white).
+- Objects inside a Form XObject shared by several pages are changed on all those pages; same for text removal inside shared forms.
+- Shading (`sh`) fills, patterns and annotations are not listed as objects; images with soft masks keep the original mask only when not replaced.
