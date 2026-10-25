@@ -74,7 +74,7 @@ for(const L of enabled){
   // Tools
   for(const x of tools){if(!forLang(lang).includes(x))continue;const altOK=!x.enOnly&&enabled.every(l=>forLang(l.code).includes(x));
     const tt=t.tools[x.id];const v={...V,tool:tt.name};
-    const LG=RAW[lang]||(RAW[lang]=load(lang));const G=tt.guide&&(lang==='en'||(LG.tools&&LG.tools[x.id]&&LG.tools[x.id].guide))?tt.guide:null;const S=lang==='en'&&tt.seo?tt.seo:null;const faq=(S?(()=>{const seen=new Set();return [...tt.faq,...S.faq,...(G?G.faq:[]),...t.commonFaq].filter(f=>{const k=f.q.toLowerCase().replace(/\W/g,'');if(seen.has(k))return false;seen.add(k);return true;}).slice(0,10)})():[...tt.faq,...(G?G.faq:[]),...t.commonFaq]).map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
+    const LG=RAW[lang]||(RAW[lang]=load(lang));const G=tt.guide&&(lang==='en'||(LG.tools&&LG.tools[x.id]&&LG.tools[x.id].guide))?tt.guide:null;const S=lang==='en'&&tt.seo?tt.seo:null;const faq=(S?(()=>{const seen=new Set();return [...tt.faq,...(S.faqKw||[]),...S.faq,...(G?G.faq:[]),...t.commonFaq].filter(f=>{const k=f.q.toLowerCase().replace(/\W/g,'');if(seen.has(k))return false;seen.add(k);return true;}).slice(0,10)})():[...tt.faq,...(G?G.faq:[]),...t.commonFaq]).map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
     const steps=tt.steps.map(s=>fill(s,v));
     const rel=[...LT.filter(y=>y.id!==x.id&&y.cat===x.cat),...LT.filter(y=>y.cat!==x.cat)].slice(0,14).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
     const crumbs=`<nav class="crumbs" aria-label="Breadcrumb"><a href="${prefix(lang)}">${esc(t.ui.crumbHome||'Home')}</a> › <a href="${url(lang,catSlug(x.cat))}">${esc(t.ui['cat_'+x.cat]||x.cat)}</a> › <span aria-current="page">${esc(tt.name)}</span></nav>`;

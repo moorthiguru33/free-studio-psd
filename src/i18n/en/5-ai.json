@@ -22,7 +22,7 @@
  },
  "tools": {
   "bgremove": {
-   "name": "Remove Background",
+   "name": "Remove Image Background",
    "short": "Cut out people and products automatically.",
    "title": "Remove Background from Image – Free AI, No Upload | {brand}",
    "desc": "Remove image backgrounds automatically with on-device AI. Get a transparent PNG or a white, colour or blurred background. Free, no sign-up, photos never leave your device.",
