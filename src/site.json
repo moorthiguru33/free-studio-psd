@@ -1,9 +1,12 @@
 {
  "brand": "Fileopia",
- "baseUrl": "https://freepdf-tools-9u1.pages.dev",
+ "baseUrl": "https://fileopia.com",
  "email": "contact@example.com",
  "defaultLang": "en",
  "adsEnabled": false,
- "legacyHosts": [],
+ "legacyHosts": [
+  "freepdf-tools-9u1.pages.dev",
+  "www.fileopia.com"
+ ],
  "indexNowKey": "3d77a3279c7d7ef895057aac7239f979"
 }
