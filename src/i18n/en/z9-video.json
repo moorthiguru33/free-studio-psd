@@ -1,0 +1,764 @@
+{
+"tools": {
+"vmov2mp4": {
+"name": "MOV to MP4 Converter",
+"short": "Convert MOV videos to MP4 in your browser.",
+"title": "MOV to MP4 Converter – Free, No Upload | {brand}",
+"desc": "Convert MOV to MP4 free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MOV to MP4",
+"steps": [
+"Select one or more MOV videos.",
+"Keep MP4 and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MOV to MP4 conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MOV is Apple’s QuickTime container used by iPhones, Macs and many cameras. MP4 is the universal video container that plays on every phone, TV, browser and editor. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MOV recordings play on TVs, phones and editors that expect MP4.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the MOV container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MP4 without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vmkv2mp4": {
+"name": "MKV to MP4 Converter",
+"short": "Convert MKV videos to MP4 in your browser.",
+"title": "MKV to MP4 Converter – Free, No Upload | {brand}",
+"desc": "Convert MKV to MP4 free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MKV to MP4",
+"steps": [
+"Select one or more MKV videos.",
+"Keep MP4 and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MKV to MP4 conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MKV is the open Matroska container popular for films, OBS recordings and anime releases. MP4 is the universal video container that plays on every phone, TV, browser and editor. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MKV recordings play on TVs, phones and editors that expect MP4.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the MKV container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MP4 without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vwebm2mp4": {
+"name": "WEBM to MP4 Converter",
+"short": "Convert WEBM videos to MP4 in your browser.",
+"title": "WEBM to MP4 Converter – Free, No Upload | {brand}",
+"desc": "Convert WEBM to MP4 free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert WEBM to MP4",
+"steps": [
+"Select one or more WEBM videos.",
+"Keep MP4 and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is WEBM to MP4 conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "WEBM is Google’s open web video format used by browsers, screen recorders and YouTube downloads. MP4 is the universal video container that plays on every phone, TV, browser and editor. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make WEBM recordings play on TVs, phones and editors that expect MP4.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the WEBM container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MP4 without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vts2mp4": {
+"name": "TS to MP4 Converter",
+"short": "Convert TS videos to MP4 in your browser.",
+"title": "TS to MP4 Converter – Free, No Upload | {brand}",
+"desc": "Convert TS to MP4 free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert TS to MP4",
+"steps": [
+"Select one or more TS videos.",
+"Keep MP4 and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is TS to MP4 conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "TS is the MPEG transport stream used by camcorders (MTS/M2TS), TV recordings and HLS streams. MP4 is the universal video container that plays on every phone, TV, browser and editor. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make TS recordings play on TVs, phones and editors that expect MP4.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the TS container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MP4 without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vmp42webm": {
+"name": "MP4 to WEBM Converter",
+"short": "Convert MP4 videos to WEBM in your browser.",
+"title": "MP4 to WEBM Converter – Free, No Upload | {brand}",
+"desc": "Convert MP4 to WEBM free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MP4 to WEBM",
+"steps": [
+"Select one or more MP4 videos.",
+"Keep WEBM and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MP4 to WEBM conversion lossless?",
+"a": "No – WebM needs different codecs, so the video is re-encoded at high quality."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MP4 is the universal video container that plays on every phone, TV, browser and editor. WEBM is Google’s open web video format used by browsers, screen recorders and YouTube downloads. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MP4 recordings play on TVs, phones and editors that expect WEBM.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"WebM requires VP8/VP9/AV1 video and Opus/Vorbis audio, so {brand} decodes the MP4 and re-encodes it to VP9 + Opus with your browser’s WebCodecs encoder. Speed depends on your device; a 1080p minute takes roughly 30–90 seconds on a modern laptop."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vmov2webm": {
+"name": "MOV to WEBM Converter",
+"short": "Convert MOV videos to WEBM in your browser.",
+"title": "MOV to WEBM Converter – Free, No Upload | {brand}",
+"desc": "Convert MOV to WEBM free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MOV to WEBM",
+"steps": [
+"Select one or more MOV videos.",
+"Keep WEBM and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MOV to WEBM conversion lossless?",
+"a": "No – WebM needs different codecs, so the video is re-encoded at high quality."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MOV is Apple’s QuickTime container used by iPhones, Macs and many cameras. WEBM is Google’s open web video format used by browsers, screen recorders and YouTube downloads. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MOV recordings play on TVs, phones and editors that expect WEBM.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"WebM requires VP8/VP9/AV1 video and Opus/Vorbis audio, so {brand} decodes the MOV and re-encodes it to VP9 + Opus with your browser’s WebCodecs encoder. Speed depends on your device; a 1080p minute takes roughly 30–90 seconds on a modern laptop."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vmp42mov": {
+"name": "MP4 to MOV Converter",
+"short": "Convert MP4 videos to MOV in your browser.",
+"title": "MP4 to MOV Converter – Free, No Upload | {brand}",
+"desc": "Convert MP4 to MOV free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MP4 to MOV",
+"steps": [
+"Select one or more MP4 videos.",
+"Keep MOV and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MP4 to MOV conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MP4 is the universal video container that plays on every phone, TV, browser and editor. MOV is Apple’s QuickTime container used by iPhones, Macs and many cameras. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MP4 recordings play on TVs, phones and editors that expect MOV.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the MP4 container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MOV without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vmp42mkv": {
+"name": "MP4 to MKV Converter",
+"short": "Convert MP4 videos to MKV in your browser.",
+"title": "MP4 to MKV Converter – Free, No Upload | {brand}",
+"desc": "Convert MP4 to MKV free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MP4 to MKV",
+"steps": [
+"Select one or more MP4 videos.",
+"Keep MKV and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MP4 to MKV conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MP4 is the universal video container that plays on every phone, TV, browser and editor. MKV is the open Matroska container popular for films, OBS recordings and anime releases. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MP4 recordings play on TVs, phones and editors that expect MKV.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the MP4 container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MKV without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vwebm2mov": {
+"name": "WEBM to MOV Converter",
+"short": "Convert WEBM videos to MOV in your browser.",
+"title": "WEBM to MOV Converter – Free, No Upload | {brand}",
+"desc": "Convert WEBM to MOV free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert WEBM to MOV",
+"steps": [
+"Select one or more WEBM videos.",
+"Keep MOV and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is WEBM to MOV conversion lossless?",
+"a": "When the codecs are compatible, yes – the streams are copied without re-encoding."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "WEBM is Google’s open web video format used by browsers, screen recorders and YouTube downloads. MOV is Apple’s QuickTime container used by iPhones, Macs and many cameras. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make WEBM recordings play on TVs, phones and editors that expect MOV.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"{brand} reads the WEBM container with Mediabunny (MPL-2.0) and, when the video is already H.264/H.265 and the audio AAC, simply re-wraps the streams into MOV without re-encoding – lossless and many times faster than real time. Otherwise it re-encodes with your browser’s hardware WebCodecs encoder."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+},
+"vmkv2webm": {
+"name": "MKV to WEBM Converter",
+"short": "Convert MKV videos to WEBM in your browser.",
+"title": "MKV to WEBM Converter – Free, No Upload | {brand}",
+"desc": "Convert MKV to WEBM free in your browser. Lossless re-wrap when possible, hardware encoding otherwise. No upload, no watermark, no size paywall.",
+"h1": "Convert MKV to WEBM",
+"steps": [
+"Select one or more MKV videos.",
+"Keep WEBM and “Keep” resolution for the fastest, lossless result, or pick a smaller size.",
+"Click Start and download your video."
+],
+"faq": [
+{
+"q": "Is MKV to WEBM conversion lossless?",
+"a": "No – WebM needs different codecs, so the video is re-encoded at high quality."
+},
+{
+"q": "Are my videos uploaded?",
+"a": "No. Everything runs on your device with WebCodecs; nothing is sent to a server."
+},
+{
+"q": "Is there a size limit?",
+"a": "Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+},
+{
+"q": "Is there a watermark?",
+"a": "Never. No sign-up, no watermark and no daily limits."
+},
+{
+"q": "Can I make the file smaller at the same time?",
+"a": "Yes – choose 1080p, 720p or 480p and a lower quality level, or use Compress Video."
+},
+{
+"q": "Why does my browser say it cannot encode?",
+"a": "Some browsers lack certain encoders (e.g. H.264 on Linux Chromium builds). Try Chrome or Edge, or pick WebM output."
+}
+],
+"guide": {
+"intro": "MKV is the open Matroska container popular for films, OBS recordings and anime releases. WEBM is Google’s open web video format used by browsers, screen recorders and YouTube downloads. Converting lets you play, edit or upload the video anywhere – and {brand} does it without uploading gigabytes to a server.",
+"uses": [
+"Make MKV recordings play on TVs, phones and editors that expect WEBM.",
+"Upload videos to sites that reject your current format.",
+"Re-wrap camera or screen recordings without losing quality.",
+"Batch convert a folder of clips."
+],
+"tips": [
+"Leave resolution on Keep and quality High for a fast, lossless re-wrap when possible.",
+"Plug in your laptop – hardware encoding is faster on mains power.",
+"Use Trim Video first if you only need part of the clip."
+],
+"more": [
+[
+"How it works",
+"WebM requires VP8/VP9/AV1 video and Opus/Vorbis audio, so {brand} decodes the MKV and re-encodes it to VP9 + Opus with your browser’s WebCodecs encoder. Speed depends on your device; a 1080p minute takes roughly 30–90 seconds on a modern laptop."
+],
+[
+"Honest limits",
+"Files are processed in memory, so practical size is about 1–2 GB on desktop and 300–500 MB on phones. AVI, WMV and FLV inputs are not supported. Chrome, Edge and Safari 16.4+ have the required WebCodecs; Firefox 130+ works for most files."
+],
+[
+"Compared with other converters",
+"CloudConvert, Convertio and FreeConvert upload your file, cap free use (often 1 GB or a few conversions per day) and queue jobs. Here conversion starts instantly, offline, with no account."
+]
+],
+"faq": [
+{
+"q": "Does it keep subtitles and multiple audio tracks?",
+"a": "The primary video and audio tracks are converted; extra subtitle tracks are dropped."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes on iOS 16.4+ in Safari, for files up to a few hundred MB."
+}
+]
+}
+}
+}
+}

@@ -1,0 +1,5 @@
+const {chromium}=require('playwright-core');const B=process.env.BASE||'http://localhost:8099';
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});
+const steps=[['mov-to-mp4','/tmp/vid/s.mov'],['mkv-to-mp4','/tmp/vid/s.mkv'],['webm-to-mp4','/tmp/vid/s.webm'],['ts-to-mp4','/tmp/vid/s.ts'],['mp4-to-webm','/tmp/vid/s.mp4'],['mov-to-webm','/tmp/vid/s.mov'],['mp4-to-mov','/tmp/vid/s.mp4'],['mp4-to-mkv','/tmp/vid/s.mp4'],['webm-to-mov','/tmp/vid/s.webm'],['mkv-to-webm','/tmp/vid/s.mkv']];require('fs').mkdirSync('/tmp/vo',{recursive:true});
+for(const [slug,f] of steps){const p=await ctx.newPage();try{await p.goto(`${B}/${slug}/`);await p.setInputFiles('#tool input[type=file]',f);await p.waitForSelector('#go');await p.click('#go');await p.waitForSelector('#dl,.err',{timeout:180000});const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const fp='/tmp/vo/'+slug+'_'+dl.suggestedFilename();await dl.saveAs(fp);console.log(slug,'->',fp,require('fs').statSync(fp).size);}catch(e){console.log(slug,'ERR',e.message.slice(0,120))}await p.close();}
+await b.close()})();

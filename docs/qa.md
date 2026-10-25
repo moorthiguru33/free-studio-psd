@@ -139,3 +139,7 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 | dng-to-jpg | Pentax K-5 DNG | ✅ 4928×3264 |
 | tga-to-png / tga-to-jpg | PIL 24-bit, RLE, 32-bit alpha | ✅ pixel-exact |
 | EPS→PNG | — | ⏭ skipped: needs Ghostscript (AGPL) |
+
+### Video converters (2026-10-25)
+10 pages (mov/mkv/webm/ts→mp4, mp4/mov/mkv→webm, mp4→mov, mp4→mkv, webm→mov) via existing videoedit impl (mediabunny MPL-2.0 + WebCodecs). Test: 6 s 720p H.264/AAC sample in MOV/MKV/TS/MP4 and VP9/Opus WebM → 10/10 outputs valid (ffprobe), H.264 re-wrapped without re-encode, AAC kept when source is AAC; Opus fallback when browser has no AAC encoder (Linux Chromium).
+Skipped: AVI/WMV/FLV input – no permissive browser demuxer (ffmpeg.wasm core includes GPL parts). Limit: in-memory, ~1–2 GB desktop.
