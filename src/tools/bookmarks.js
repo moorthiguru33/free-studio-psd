@@ -1,0 +1,20 @@
+// @needs txt
+// PDF bookmark (outline) editor: read existing outline with pdf.js, edit as indented text, write a new /Outlines tree with pdf-lib.
+TOOLS.bookmarks={goLabel:()=>'Save bookmarks',
+ opts:()=>chk('bkopen','Show bookmarks panel when the PDF opens',true),
+ async setup(files){const f=files[0];const pj=await openPdfjs(await buf(f));this.np=pj.numPages;let lines=[];
+  const ol=await pj.getOutline().catch(()=>null);const walk=async(items,lv)=>{for(const it of items||[]){let pg=1;try{let dest=it.dest;if(typeof dest==='string')dest=await pj.getDestination(dest);if(dest&&dest[0])pg=(typeof dest[0]==='number'?dest[0]:await pj.getPageIndex(dest[0]))+1;}catch(e){}lines.push('  '.repeat(lv)+(it.title||'Untitled').replace(/\s*\|\s*/g,' / ')+' | '+pg);await walk(it.items,lv+1);}};await walk(ol,0);
+  if(!lines.length)lines=['Introduction | 1'];this.had=!!(ol&&ol.length);
+  return box(`<p class="hint">${this.had?'Existing bookmarks loaded.':'This PDF has no bookmarks yet – a starter entry was added.'} One bookmark per line: <code>Title | page</code>. Indent with two spaces to nest a bookmark under the one above. The PDF has <b>${this.np}</b> pages.</p>${area('bktext','Bookmarks',lines.join('\n'),Math.min(18,Math.max(6,lines.length+2)))}<p><button type="button" class="btn ghost mini" id="bkauto">Add one bookmark per page</button> <button type="button" class="btn ghost mini" id="bkclear">Clear all</button></p>`);},
+ async run([f]){const {PDFDocument,PDFName,PDFHexString,PDFNumber,PDFNull}=await L.pdflib();const d=await PDFDocument.load(await buf(f),{ignoreEncryption:true});const pages=d.getPages();
+  const src=String(v('bktext')||'');const items=[];const root={kids:[],lv:-1};const stack=[root];
+  for(const [ln,raw] of src.split('\n').entries()){if(!raw.trim())continue;const lv=Math.floor((raw.match(/^\s*/)[0].replace(/\t/g,'  ').length)/2);const m=raw.trim().match(/^(.*?)\s*\|\s*(\d+)\s*$/);const title=(m?m[1]:raw.trim())||'Untitled';const pg=m?+m[2]:1;
+   if(pg<1||pg>pages.length)throw new Error(`Line ${ln+1}: page ${pg} is out of range (1–${pages.length}).`);const node={title,pg,kids:[],lv};while(stack.length>1&&stack[stack.length-1].lv>=lv)stack.pop();stack[stack.length-1].kids.push(node);stack.push(node);items.push(node);}
+  const ctx=d.context;const outRef=ctx.nextRef();
+  const build=(par,parRef)=>{const refs=par.kids.map(()=>ctx.nextRef());let count=0;par.kids.forEach((k,i)=>{const dict=ctx.obj({});dict.set(PDFName.of('Title'),PDFHexString.fromText(k.title));dict.set(PDFName.of('Parent'),parRef);if(i>0)dict.set(PDFName.of('Prev'),refs[i-1]);if(i<refs.length-1)dict.set(PDFName.of('Next'),refs[i+1]);
+    dict.set(PDFName.of('Dest'),ctx.obj([pages[k.pg-1].ref,PDFName.of('XYZ'),PDFNull,PDFNull,PDFNull]));const c=build(k,refs[i]);if(k.kids.length){dict.set(PDFName.of('First'),c.first);dict.set(PDFName.of('Last'),c.last);dict.set(PDFName.of('Count'),PDFNumber.of(c.count));}ctx.assign(refs[i],dict);count+=1+c.count;});
+   return {first:refs[0],last:refs[refs.length-1],count};};
+  if(items.length){const r=build(root,outRef);const o=ctx.obj({});o.set(PDFName.of('Type'),PDFName.of('Outlines'));o.set(PDFName.of('First'),r.first);o.set(PDFName.of('Last'),r.last);o.set(PDFName.of('Count'),PDFNumber.of(r.count));ctx.assign(outRef,o);d.catalog.set(PDFName.of('Outlines'),outRef);if(vb('bkopen'))d.catalog.set(PDFName.of('PageMode'),PDFName.of('UseOutlines'));}
+  else{d.catalog.delete(PDFName.of('Outlines'));if(String(d.catalog.get(PDFName.of('PageMode')))==='/UseOutlines')d.catalog.delete(PDFName.of('PageMode'));}
+  const out=await d.save();return {blob:pdfBlob(out),name:base(f.name)+'-bookmarks.pdf',info:items.length?`${items.length} bookmark${items.length>1?'s':''} saved`:'All bookmarks removed'};}};
+document.addEventListener('click',e=>{const t=e.target;if(!t.id||!/^bk(auto|clear)$/.test(t.id))return;const ta=document.getElementById('bktext');if(!ta)return;if(t.id==='bkclear')ta.value='';else{const n=TOOLS.bookmarks.np||1;ta.value=Array.from({length:n},(_,i)=>`Page ${i+1} | ${i+1}`).join('\n');}});

@@ -1,0 +1,17 @@
+[
+{"id":"passport","slug":"passport-photo-maker","cat":"image","icon":"🪪","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":false,"enOnly":true},
+{"id":"circlecrop","slug":"circle-crop-image","cat":"image","icon":"⭕","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":false,"enOnly":true},
+{"id":"textimg","slug":"add-text-to-image","cat":"image","icon":"🅣","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":false,"enOnly":true},
+{"id":"filters","slug":"photo-filters","cat":"image","icon":"🎞","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":false,"enOnly":true},
+{"id":"img2b64","slug":"image-to-base64","cat":"image","icon":"64","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"maxmb":20,"enOnly":true},
+{"id":"social","slug":"social-media-image-resizer","cat":"image","icon":"📱","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"enOnly":true},
+{"id":"mockup","slug":"screenshot-mockup","cat":"image","icon":"🖥","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":false,"enOnly":true},
+{"id":"signature","slug":"signature-maker","cat":"image","icon":"✒","nofile":true,"enOnly":true},
+{"id":"pagecount","slug":"pdf-page-counter","cat":"organize","icon":"🔢","accept":".pdf","multiple":true,"maxmb":500,"enOnly":true},
+{"id":"pdfimage","slug":"add-image-to-pdf","cat":"edit","icon":"🖼","accept":".pdf","multiple":false,"enOnly":true},
+{"id":"bookmarks","slug":"pdf-bookmark-editor","cat":"edit","icon":"🔖","accept":".pdf","multiple":false,"enOnly":true},
+{"id":"rmlinks","slug":"remove-links-from-pdf","cat":"edit","icon":"⛓","accept":".pdf","multiple":false,"enOnly":true},
+{"id":"darkpdf","slug":"dark-mode-pdf","cat":"convert","icon":"🌙","accept":".pdf","multiple":false,"enOnly":true},
+{"id":"resume","slug":"resume-builder","cat":"convert","icon":"📄","nofile":true,"enOnly":true},
+{"id":"receipt","slug":"receipt-maker","cat":"convert","icon":"🧾","nofile":true,"enOnly":true}
+]

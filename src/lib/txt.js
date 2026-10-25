@@ -8,3 +8,8 @@ const stats=rows=>`<dl class="stats">${rows.map(([k,v])=>`<div><dt>${esc(k)}</dt
 const nf=(n,d=2)=>Number.isFinite(n)?n.toLocaleString('en-US',{maximumFractionDigits:d}):'–';
 const num=id=>{const s=String(v(id)??'').replace(/,/g,'').trim();return s===''?NaN:+s;};
 const setHTML=(id,h)=>{const e=$('#'+id,work);if(e)e.innerHTML=h;};
+
+// PDF text helpers (pdf-lib standard fonts)
+const WA=s=>String(s||'').normalize('NFC').replace(/[\u2018\u2019]/g,"'").replace(/[\u201C\u201D]/g,'"').replace(/[\u2013\u2014]/g,'-').replace(/\u2022/g,'-').replace(/[^\x09\x0A\x0D\x20-\x7E\xA0-\xFF\u20AC\u0152\u0153\u0160\u0161\u0178\u017D\u017E\u0192\u2026\u2122]/g,c=>c.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x20-\x7E]/g,'?'));
+function wrapT(font,text,size,maxW){const out=[];for(const para of String(text).split('\n')){let line='';for(const w of para.split(/\s+/)){const t=line?line+' '+w:w;if(font.widthOfTextAtSize(t,size)>maxW&&line){out.push(line);line=w;}else line=t;}out.push(line);}return out;}
+const hex2rgb=(h,rgb)=>rgb(parseInt(h.slice(1,3),16)/255,parseInt(h.slice(3,5),16)/255,parseInt(h.slice(5,7),16)/255);

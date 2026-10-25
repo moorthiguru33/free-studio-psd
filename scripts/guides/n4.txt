@@ -1,0 +1,255 @@
+@passport
+name: Passport Photo Maker
+short: Make passport, visa and ID photos in official sizes.
+title: Passport Photo Maker – Free Passport & Visa Photo Online | {brand}
+desc: Create passport, visa and ID photos in official sizes for the US, UK, EU, Canada, Australia, China and 15+ more. Print-ready 4×6 and A4 sheets, free and private in your browser.
+h1: Passport Photo Maker
+steps: Upload a clear, front-facing photo on a plain background. | Choose your country or document, then zoom and move until your head fits the guide. | Download a single 300 DPI photo or a print sheet with several copies.
+faq: Which sizes are included?=Presets cover the US 2×2 inch photo, the common 35×45 mm format used by the UK, Schengen countries, Australia and many others, Canada 50×70 mm, China 33×48 mm, Malaysia 35×50 mm, UAE 43×55 mm and a small ID or licence size. You can also enter any custom size in millimetres. || Will my photo be accepted?=The tool crops and sizes your photo correctly, but acceptance also depends on lighting, expression, glasses and background. Always check the current rules published by the passport office or embassy before you print or upload.
+intro: Passport studios charge a surprising amount for a few seconds of work, and online services often want your face on their servers. This maker turns any well-lit phone photo into a correctly sized passport, visa or ID picture at 300 DPI. Choose a country preset, line your head up with the guide, and download a single digital photo or a sheet ready to print at a pharmacy, photo kiosk or at home.
+uses: Renew a passport without paying for studio photos. | Prepare a visa photo for an online application such as a Schengen, US or Chinese visa. | Print several copies on a 4×6 inch sheet for driving licences, student cards or gym memberships. | Make a consistent headshot for company ID badges.
+tips: Stand about a metre from a plain white or light grey wall and face a window for even light. | Ask someone else to take the photo at eye level rather than taking a selfie, which distorts the face. | Keep a neutral expression, both eyes open and hair away from your face. | Print sheets at “actual size” or 100% scale – never “fit to page”.
+## Getting the head size right
+Most authorities measure the head from the chin to the top of the hair. For 35×45 mm photos the head usually needs to be 29–34 mm tall, and for the US 2×2 inch format it must be between 1 and 1 3/8 inches. The red dashed oval on the preview marks a typical head area. Use the zoom slider until your face fills the oval, then nudge the photo up or down so the eyes sit roughly in the upper half. The guide is not saved in the download.
+## Digital uploads versus printed photos
+Online applications, such as the UK passport service or many e-visa portals, ask for a digital file instead of prints. The single-photo option gives you a high-quality JPG at 300 DPI, which you can upload directly or resize if the portal sets a pixel limit. For printed photos choose a 4×6 inch sheet, the standard size at photo kiosks worldwide, or A4 / Letter for home printers. Thin grey guides help you cut the copies straight.
+## Privacy for identity photos
+Your face is biometric data. Everything here – decoding, cropping and building the print sheet – happens in your browser, so the photo is never uploaded or stored. Close the tab and nothing remains.
+@circlecrop
+name: Circle Crop Image
+short: Crop any photo into a circle or rounded square.
+title: Circle Crop Image – Make Round Profile Pictures Online | {brand}
+desc: Crop photos into a perfect circle, rounded square or squircle with transparent corners. Add a border, choose the size and download PNG. Free, private and instant in your browser.
+h1: Circle Crop Image
+steps: Upload a photo or logo. | Choose the shape, then zoom and move the image to frame it. | Download a round PNG with transparent corners.
+faq: Why are the corners transparent?=PNG and WEBP support transparency, so everything outside the circle is see-through. The image then sits neatly on any coloured background, website or slide. Choose JPG if you need a filled background instead. || What is a squircle?=A squircle is a shape between a square and a circle with smooth, continuous corners. It is the shape used for app icons on modern phones and looks softer than a simple rounded rectangle.
+intro: Round photos are everywhere – profile pictures, team pages, speaker cards, email signatures and presentation slides. Instead of opening a full image editor, upload your picture, pick circle, rounded square or squircle, frame it with the zoom and position sliders and download. Corners are transparent, so the result drops straight into any design.
+uses: Create round profile pictures for websites, forums and online CVs. | Make headshots for “meet the team” pages and conference speaker lists. | Prepare circular logos and avatars for email signatures. | Produce rounded icons and thumbnails for apps and slides.
+tips: Choose 400 px for most profile photos – social networks resize larger images anyway. | Use a thin white border to separate the photo from dark backgrounds. | Zoom in a little so the face fills most of the circle. | Pick JPG only if the destination does not support transparency.
+## Framing the subject
+The crop always uses a square taken from your photo. At 100% zoom the square is as large as the shortest side of the image; increasing the zoom picks a smaller square, so the subject appears bigger. The left-right and up-down sliders move the square within the photo, and the live preview on a checkerboard shows exactly which pixels will be transparent.
+## Sizes for popular platforms
+Platforms crop avatars into circles themselves, but many show a square version in some places, so uploading an already round image keeps the look consistent. Typical sizes are 400×400 px for X and LinkedIn, 320 px for Instagram, 500 px for WhatsApp and 800 px for YouTube. For print, keep the original size for maximum sharpness.
+## Works offline and privately
+The image is processed with the HTML canvas on your own device, so personal photos never leave your computer or phone.
+@textimg
+name: Add Text to Image
+short: Write captions, titles or quotes on a photo.
+title: Add Text to Image – Free Online Photo Text Editor | {brand}
+desc: Add captions, titles and quotes to photos with outline, shadow, background box and handwriting fonts. Position and rotate text, then download JPG or PNG. Free and private.
+h1: Add Text to Image
+steps: Upload a photo. | Type your text and choose font, size, colour and position. | Download the image with your text.
+faq: Can I add several lines?=Yes. Press Enter in the text box to start a new line. Lines are aligned left, centre or right depending on the position you choose. || Will the image lose quality?=The text is drawn onto a copy at the original resolution. Choose PNG to keep every pixel or JPG for a smaller file; JPG at high quality is fine for photos.
+intro: Sometimes you just need a few words on a picture – a caption for a social post, a title for a blog header, a date on a holiday photo or a quote on a background. This editor writes text directly onto your image with a live preview. Outline and shadow keep words readable on busy photos, and a semi-transparent box works well for longer captions.
+uses: Add captions and calls to action to social media images. | Put titles on blog headers, thumbnails and presentation backgrounds. | Label product photos, screenshots and diagrams. | Write quotes or greetings on photos for cards and invitations.
+tips: White text with a black outline is readable on almost any photo. | Keep captions short – three to eight words read best on mobile. | Use the background box for long sentences over busy areas. | Leave space at the edges because some apps crop images into squares.
+## Making text readable
+Contrast is the key to legible text on photos. The outline option draws a dark stroke around each letter, the shadow adds a soft halo, and the background box places a coloured panel behind the words with adjustable opacity. Size is set as a percentage of the image width, so the text looks the same on a small phone photo and a large camera image.
+## Fonts and styles
+Choose a clean sans-serif for captions, a serif for elegant titles, Impact for bold headlines, or one of the handwriting fonts for invitations and personal notes. Handwriting fonts are open-licensed and load only when selected. Rotation up to 45 degrees is useful for stamp-like labels and playful designs.
+## Your photo stays on your device
+The text is rendered with the browser canvas, so the picture is never uploaded. This is handy for private family photos and unreleased marketing images.
+@filters
+name: Photo Filters
+short: Apply vintage, black & white and other photo filters.
+title: Photo Filters Online – Free Vintage, B&W & Sepia Effects | {brand}
+desc: Apply photo filters such as vintage, black & white, sepia, warm, noir and lomo, then fine-tune brightness, contrast, saturation, warmth and vignette. Free, no sign-up, nothing uploaded.
+h1: Photo Filters
+steps: Upload a photo. | Pick a filter and adjust its strength and the sliders. | Download the edited photo in full resolution.
+faq: Is the download full resolution?=Yes. The preview is scaled down so sliders respond quickly, but the downloaded file is processed at the original size of your photo. || Can I edit without a preset?=Choose “None” and use the brightness, contrast, saturation, warmth, hue and vignette sliders on their own, like a basic photo editor.
+intro: A good filter can rescue a dull phone photo or give a set of pictures a consistent look. Choose from presets such as vintage, noir, sepia, warm, cool, matte, lomo and dramatic, set how strong the effect should be, and refine the result with sliders for brightness, contrast, saturation, warmth, hue and vignette. The live preview updates as you move each slider.
+uses: Give holiday or event photos a consistent style before sharing. | Convert portraits to black and white or sepia for a classic look. | Warm up cold indoor photos or cool down overly yellow lighting. | Create moody images for posters, album covers and blog headers.
+tips: Start with a preset at 60–80% strength for natural-looking results. | Add a light vignette to draw the eye to the centre. | Use warmth to correct white balance before applying a creative filter. | Save as PNG if you plan to edit the photo again later.
+## How the filters work
+Each filter is a mix of simple adjustments applied to every pixel: brightness shifts all values up or down, contrast stretches them away from the middle grey, saturation moves colours towards or away from grey, and warmth adds red while removing blue. Sepia uses the classic colour matrix from film photography, and vignette darkens pixels gradually towards the corners. Because the maths runs directly on the pixels, results look identical in every modern browser.
+## Black and white done well
+For black and white the tool uses perceptual weights for red, green and blue, so skies and skin tones convert with natural brightness. Noir adds stronger contrast and a vignette for a cinematic look. If a monochrome image looks flat, raise the contrast slider a little.
+## Private editing
+Your photo is edited inside your browser and never sent to a server.
+@img2b64
+name: Image to Base64
+short: Convert images to Base64 data URIs and code snippets.
+title: Image to Base64 Converter – Data URI, HTML & CSS | {brand}
+desc: Convert PNG, JPG, SVG, WEBP and GIF images to Base64 data URIs, raw Base64, HTML img tags, CSS backgrounds, Markdown or JSON. Batch convert and copy instantly – nothing is uploaded.
+h1: Image to Base64 Converter
+steps: Upload one or more images. | Choose the output format: data URI, raw Base64, HTML, CSS, Markdown or JSON. | Copy each result or download all as a text file.
+faq: Why is Base64 larger than the image?=Base64 represents every 3 bytes of the file with 4 text characters, so the encoded text is about 33% larger than the original image. That is the trade-off for embedding images directly in code. || When should I avoid Base64 images?=Large photos are better served as normal image files, which browsers can cache separately. Base64 works best for small icons, logos, email images and single-file HTML documents.
+intro: Embedding an image as Base64 puts the picture directly inside HTML, CSS, JSON or Markdown, so there is no separate file to host. Developers use it for small icons, email templates, test fixtures and API payloads. Drop in any number of images and get a ready-to-paste snippet for each, together with the size increase, so you can decide whether embedding makes sense.
+uses: Inline small icons and logos in CSS to save HTTP requests. | Embed images in HTML email templates and single-file reports. | Send images in JSON API requests or store them in configuration files. | Create test fixtures and placeholders for unit tests.
+tips: Optimise or compress the image first – Base64 adds a third to its size. | Prefer SVG for icons; it is often smaller even after encoding. | Use the CSS output to embed backgrounds in stylesheets. | Use raw Base64 when an API expects only the encoded data without the data: prefix.
+## Anatomy of a data URI
+A data URI has three parts: the data: prefix, the MIME type such as image/png, and the Base64 text after ;base64,. Browsers treat it exactly like an image URL, so it can go anywhere a link to an image would – the src of an img tag, a CSS url() or a Markdown image. The MIME type comes from your file, so the browser knows how to decode it.
+## Batch conversion
+Upload several images at once to convert a whole icon set. Each image gets its own copy button and preview, and the download contains all snippets separated by blank lines, ready for documentation or code reviews.
+## Safe for private assets
+Encoding uses the browser's FileReader, so unreleased designs and internal screenshots never leave your machine.
+@social
+name: Social Media Image Resizer
+short: Resize photos for Instagram, Facebook, X, LinkedIn and YouTube.
+title: Social Media Image Resizer – Instagram, Facebook, X, YouTube Sizes | {brand}
+desc: Resize images to the right size for Instagram posts and stories, Facebook covers, X headers, LinkedIn banners, YouTube thumbnails, Pinterest pins and more. Blur-fit or crop, batch, free.
+h1: Social Media Image Resizer
+steps: Upload one or more images. | Pick the platform and format, then choose blurred fit, colour fit or crop. | Download images sized exactly for that platform.
+faq: What is blurred-background fit?=Instead of cutting off parts of your photo, the whole image is placed in the centre and the empty space is filled with a soft, blurred version of the same photo – the look you see on many Stories and Reels. || Are the sizes up to date?=The presets follow the recommended dimensions published by each platform in 2025–2026, such as 1080×1350 for Instagram portrait posts and 1280×720 for YouTube thumbnails. Platforms change their layouts occasionally, so check their help pages for new formats.
+intro: Every social network wants a different shape. A landscape photo that looks great on X gets cropped awkwardly in an Instagram Story, and a Facebook cover needs a very wide banner. Choose a preset and this resizer delivers an image at exactly the right pixel size – keeping the whole picture with a blurred or coloured background, or filling the frame and letting you choose which part is kept.
+uses: Turn one photo into versions for Instagram, Facebook, LinkedIn and X in minutes. | Make YouTube thumbnails and channel banners at the right resolution. | Create Story and Reel backgrounds from landscape photos. | Prepare Open Graph share images for websites and blogs.
+tips: Use portrait 1080×1350 on Instagram – it takes up more space in the feed than square. | Turn on the safe-zone guide to keep text away from areas covered by buttons. | Use “Fill frame” for photos with the subject in the centre. | Export JPG for photos and PNG for graphics with text.
+## Why exact sizes matter
+When you upload an image that does not match the expected shape, the platform crops or shrinks it automatically, often cutting off heads or text. Uploading at the recommended size also avoids extra compression on some networks, which keeps photos sharper. All presets are listed with their pixel dimensions so you know exactly what you get.
+## Safe zones for Stories and banners
+Stories, Reels and TikTok videos show the profile name at the top and reply buttons at the bottom, and channel banners are cropped differently on TV, desktop and phone. The optional safe-zone guide on the preview marks the central area that stays visible everywhere; the guide is not included in the download.
+## Batch and private
+Resize a whole set of images to the same format in one go and download them as a ZIP. Nothing is uploaded – resizing runs on your own device.
+@mockup
+name: Screenshot Mockup Generator
+short: Put screenshots in browser, phone or window frames.
+title: Screenshot Mockup Generator – Browser & Phone Frames | {brand}
+desc: Turn screenshots into polished mockups with browser windows, macOS windows, phone and tablet frames, gradient backgrounds, rounded corners and shadows. Free and private.
+h1: Screenshot Mockup Generator
+steps: Upload a screenshot. | Choose a frame, background, padding and shadow. | Download a polished PNG for slides, docs or social posts.
+faq: Can I change the address bar text?=Yes. Type any domain or path in the address bar field and it appears in the browser frame, so the mockup matches the site you are presenting. || Which format should I download?=PNG keeps text in screenshots crisp and supports transparent backgrounds. Use JPG or WEBP for smaller files when you share on social media.
+intro: A raw screenshot looks unfinished in a presentation, landing page or tweet. Placing it in a browser window or device frame on a soft gradient instantly makes it look professional. Upload a screenshot, pick a frame and background, adjust padding, corner radius and shadow, and download a high-resolution image ready to share.
+uses: Present new features in product updates, changelogs and release notes. | Add screenshots to landing pages, pitch decks and case studies. | Share app or website designs on X, LinkedIn and Product Hunt. | Create clean visuals for documentation and tutorials.
+tips: Take screenshots at a high resolution (or on a Retina screen) for crisp mockups. | Use the phone frame for tall mobile screenshots and the browser frame for desktop ones. | Choose a transparent background to place the mockup on your own slide design. | Keep padding around 6–10% for social posts.
+## Frames and backgrounds
+Browser frames come in light and dark versions with window controls and an address bar, the macOS frame shows only the familiar coloured buttons, and phone and tablet frames add a dark bezel with rounded corners. Backgrounds include several gradients, plain white, grey or transparent. Frame details scale with the screenshot size, so they look right on small and very large images.
+## Shadows and corners
+A soft drop shadow lifts the screenshot off the background and gives depth, while rounded corners match modern operating systems. Set the corner radius to zero for a sharper, technical look or turn the shadow off for flat designs.
+## Confidential screenshots stay local
+Unreleased interfaces and dashboards with real data should not be uploaded to random websites. This generator draws everything with the canvas in your browser.
+@signature
+name: Signature Maker
+short: Draw or type a signature and download a transparent PNG.
+title: Signature Maker – Create an Online Signature Free | {brand}
+desc: Create a handwritten signature by drawing with a mouse, finger or stylus, or type your name in a signature font. Download a transparent PNG, JPG or SVG. Free and private.
+h1: Signature Maker
+steps: Draw your signature in the box or switch to “Type your name”. | Choose ink colour, pen width and style. | Download a transparent PNG, JPG or vector SVG.
+faq: Is an image signature legally binding?=In many countries, including under the US ESIGN Act and the EU eIDAS regulation, a simple electronic signature can be valid for everyday agreements if the parties intend to sign. Some documents, such as wills or property deeds, may need stronger signatures or witnesses – check local rules. || How do I add it to a PDF?=Download the PNG, then open Sign PDF on this site and place the image on the page. Transparent corners mean only the ink appears on the document.
+intro: Signing documents digitally is much easier with a clean image of your signature. Draw it with a mouse, trackpad, finger or stylus and the strokes are smoothed automatically; or type your name and choose one of six handwriting fonts. The result is trimmed to the ink and saved with a transparent background, ready for PDFs, Word documents, contracts and email footers.
+uses: Sign PDF contracts, forms and letters without printing. | Add a signature to invoices, quotes and receipts. | Include a handwritten touch in email signatures and newsletters. | Create a consistent signature for document templates.
+tips: Draw larger than you need – the image is trimmed and scales down sharply. | Dark blue ink looks more natural on documents than pure black. | Use a stylus or finger on a phone for the most natural strokes. | Download SVG if you need a vector signature for design software.
+## Drawing versus typing
+A drawn signature is unique and closest to your pen signature, which is what most people expect on contracts. A typed signature in a script font is quicker and looks neat, and it is commonly accepted for informal documents. You can switch between the two modes at any time; drawn strokes are kept while you try fonts.
+## Transparent PNG and SVG
+The PNG has a transparent background, so it can be placed over lines and text without a white box. The JPG option adds a white background for systems that do not accept transparency. The SVG export saves drawn strokes as vector paths, which stay sharp at any size.
+## Your signature is never uploaded
+Signatures are sensitive. The drawing pad, fonts and export all run inside your browser, and nothing is stored on a server.
+@pagecount
+name: PDF Page Counter
+short: Count pages in one or many PDF files at once.
+title: PDF Page Counter – Count Pages in Multiple PDFs | {brand}
+desc: Count the pages of one or hundreds of PDF files at once, see page sizes such as A4 and Letter, and export the totals to CSV. Free, fast and nothing is uploaded.
+h1: PDF Page Counter
+steps: Select one or more PDF files. | See the number of pages and page sizes for each file and the grand total. | Download the results as a CSV spreadsheet.
+faq: Why would I need a page count?=Print shops, translators, legal teams and scanning services often charge per page, and many submission portals set page limits. Counting dozens of files by opening each one is slow; this tool gives the total in seconds. || Can it count password-protected PDFs?=Files that need a password to open are listed as protected and are not counted. Remove the password with Unlock PDF first if you know it.
+intro: Need to know how many pages are in a batch of PDFs before printing, quoting a translation or uploading to a portal? Select all the files at once and the counter reads each document, shows its page count, file size and page formats, and adds everything up. Export the table to CSV to paste into a quote, invoice or spreadsheet.
+uses: Estimate printing costs for a stack of documents. | Prepare quotes for translation, transcription or scanning per page. | Check page limits before submitting theses, applications or court filings. | Audit a folder of scanned documents.
+tips: Select a whole folder of PDFs at once with Ctrl+A or Cmd+A in the file picker. | Turn off page sizes for very large batches to make counting faster. | Use the CSV in Excel or Google Sheets to calculate costs per page. | Mixed sizes in one file often indicate inserted scans or fold-outs.
+## How pages are counted
+The counter opens each PDF with the same engine used by Firefox's built-in viewer and reads the page tree, so the number matches what any PDF reader shows. Page sizes are measured in millimetres from each page's media box and recognised as A4, US Letter or Legal when they match within a few millimetres.
+## Large batches
+Files are processed one at a time to keep memory use low, and progress is shown as each file is counted. Hundreds of PDFs can be counted in a single run on a normal laptop.
+## Private by design
+Documents are read locally in your browser and never uploaded, which makes the counter safe for confidential contracts and records.
+@pdfimage
+name: Add Image to PDF
+short: Place a logo, stamp or picture on PDF pages.
+title: Add Image to PDF – Insert Logo or Stamp on PDF Pages | {brand}
+desc: Add a logo, stamp, signature or picture to any PDF. Choose position, size, opacity, rotation and pages. Free online tool that works in your browser – no upload.
+h1: Add Image to PDF
+steps: Select your PDF and choose the image or logo to add. | Set position, width, margin, opacity and which pages. | Download the PDF with the image placed.
+faq: Which image formats can I add?=PNG, JPG, WEBP, GIF, SVG, BMP and HEIC images are supported. Transparent PNG and SVG logos keep their transparency on the page. || Can I put the image behind the text?=Yes. Tick “Place behind page content” to draw the image underneath existing text – useful for faint background logos. Pages with a solid white background may hide images placed behind them.
+intro: Adding a company logo to a report, a “Paid” stamp to an invoice or a photo to a form normally needs a paid PDF editor. Here you choose a PDF and an image, set where the image goes and how big it should be, and apply it to all pages or just the ones you need. The original text stays selectable because the image is added as a new layer.
+uses: Brand reports, proposals and price lists with your logo. | Stamp invoices or documents as Paid, Approved or Copy. | Add a photo to application forms and certificates. | Place a QR code on flyers, menus or tickets.
+tips: Use a transparent PNG logo for the cleanest result. | Width is a percentage of page width – 15–25% suits most logos. | Lower opacity to 20–30% for a subtle background mark. | Use page ranges such as 1 or 2-10 to skip cover pages.
+## Positioning and sizing
+Choose one of seven positions – corners, top or bottom centre, or the centre of the page – and a margin in millimetres from the edge. Height is calculated from the image's proportions, so it never looks stretched. Pages of different sizes in the same PDF each get the image at the same relative position.
+## Rotation and opacity
+Rotate the image for diagonal stamps and reduce opacity for watermark-style logos. For text watermarks, use Add Watermark to PDF instead.
+## Private processing
+The PDF is edited with pdf-lib inside your browser, so confidential documents stay on your device.
+@bookmarks
+name: PDF Bookmark Editor
+short: Add, edit, nest and remove PDF bookmarks.
+title: PDF Bookmark Editor – Add & Edit PDF Bookmarks Online | {brand}
+desc: Add, edit, rename, nest and remove bookmarks (outline) in a PDF with a simple text editor. Create a clickable table of contents for long documents. Free and private.
+h1: PDF Bookmark Editor
+steps: Select a PDF – existing bookmarks are loaded as text. | Edit lines as “Title | page” and indent with two spaces to nest. | Save and download the PDF with the new bookmarks.
+faq: What are PDF bookmarks?=Bookmarks, also called the outline, are the clickable table of contents shown in the sidebar of PDF readers such as Adobe Acrobat, Preview, Chrome and Edge. Each bookmark jumps to a page. || Does editing bookmarks change the pages?=No. Only the outline is replaced; page content, links, forms and text stay exactly as they were.
+intro: Long reports, e-books, manuals and scanned documents are much easier to navigate with bookmarks, but most free tools cannot create them. This editor shows the bookmarks of your PDF as plain text, one per line with its page number. Rename entries, change pages, indent to create chapters and sections, add new ones or clear them all, then save.
+uses: Add a navigable table of contents to scanned books and reports. | Fix wrong or missing bookmarks after merging PDFs. | Create chapter bookmarks for e-books, theses and manuals. | Remove messy auto-generated bookmarks before sharing.
+tips: Use “Add one bookmark per page” as a quick start, then rename the important pages. | Indent with two spaces per level; three levels are usually enough. | Keep titles short so they fit in the reader's sidebar. | Use Split PDF by Bookmarks afterwards to split chapters into files.
+## The text format
+Each line is one bookmark: the title, a vertical bar, then the page number, for example “Chapter 2 – Methods | 14”. Two leading spaces make a bookmark a child of the line above, four spaces a grandchild, and so on. Blank lines are ignored, and the editor reports the line number if a page is outside the document.
+## Opening with the bookmarks panel
+When the option is ticked, the PDF asks readers to show the bookmarks panel automatically when the file opens, so readers notice the navigation immediately.
+## Nothing leaves your device
+Reading and writing the outline happens in your browser with pdf.js and pdf-lib.
+@rmlinks
+name: Remove Links from PDF
+short: Delete hyperlinks and clickable areas from a PDF.
+title: Remove Links from PDF – Delete Hyperlinks Online Free | {brand}
+desc: Remove all hyperlinks from a PDF, only external web and email links, or only internal links. Also strips auto-open actions and JavaScript. Free and private in your browser.
+h1: Remove Links from PDF
+steps: Select a PDF. | Choose which links to remove. | Download the PDF without clickable links.
+faq: Will the link text disappear?=No. The visible text or blue underline stays on the page because it is part of the page content. Only the clickable area (the link annotation) is removed, so nothing happens when you click it. || Why remove links from a PDF?=Common reasons are removing tracking or affiliate links before sharing, preventing accidental clicks on outdated URLs, meeting submission rules that forbid external links, and reducing phishing risk in documents sent to clients.
+intro: PDFs often contain clickable links you may not want: tracking URLs from marketing tools, links to internal systems, outdated addresses or affiliate links. This tool removes link annotations from every page while leaving the document's appearance unchanged. Keep internal table-of-contents links if you like, and optionally strip actions that run automatically when the file opens.
+uses: Clean tracking and affiliate links from documents before sharing. | Remove links to intranet or private systems from exported reports. | Prepare exam papers or submissions that must not contain web links. | Make printed-and-scanned style PDFs without clickable areas.
+tips: Choose “Web & email links only” to keep clickable tables of contents. | Use PDF Cleaner as well to remove metadata and hidden content. | Check the summary – it tells you how many links were removed. | Flatten forms first if links are part of form fields.
+## How PDF links work
+A link in a PDF is an invisible rectangle called a link annotation placed over text or an image. It holds either an internal destination (another page) or an action such as opening a web address. Removing the annotation removes the behaviour but not the visible content, which is why the text remains.
+## Open actions and JavaScript
+Some PDFs run an action as soon as they open, for example jumping to a page, launching a website or executing JavaScript. The extra option removes these automatic actions and document-level scripts, a useful precaution for documents received from unknown sources.
+## Local and private
+The document is edited in your browser with pdf-lib and never uploaded.
+@darkpdf
+name: Dark Mode PDF
+short: Convert a PDF to dark, night or sepia mode for easy reading.
+title: Dark Mode PDF – Convert PDF to Dark or Night Mode | {brand}
+desc: Convert any PDF to dark mode, OLED black, night (amber) or sepia for comfortable reading at night. Keeps photos in natural colours. Free, private, works in your browser.
+h1: Dark Mode PDF
+steps: Select a PDF. | Choose dark, black, night, sepia or grey theme and quality. | Download a dark-mode copy to read on any device.
+faq: Can I still select text?=No. Each page is recoloured as an image, so the dark copy is for reading only. Keep the original for searching, copying or printing. || Why not just use my reader's dark mode?=Many PDF readers, e-readers and phone apps have no dark mode, and some only darken the interface, not the pages. A dark-mode copy looks the same in every app and on every device.
+intro: Bright white PDF pages are tiring to read at night or in a dark room. This converter creates a dark-mode copy of your document: text becomes light on a dark background while colours keep their hue, so charts and highlights stay recognisable. Photos can be kept in natural colours, and themes for OLED black, warm night reading, sepia paper and soft grey are included.
+uses: Read e-books, papers and reports at night without eye strain. | Put a dark copy on an e-reader or tablet that lacks a dark mode. | Reduce screen brightness glare on long study sessions. | Save battery on OLED phones with the pure black theme.
+tips: Use “Night” for late reading – amber light has less blue. | Choose “Standard” quality for text-heavy books to keep files small. | Convert only the chapters you need with a page range. | Keep the original PDF for printing.
+## Smart colour inversion
+A simple negative turns red into cyan and blue into orange. This tool inverts lightness instead: dark text becomes light, the white page becomes near-black, but each colour keeps its hue, so a red heading stays red and a blue link stays blue. The dark theme uses a very dark grey rather than pure black, which many people find more comfortable.
+## Keeping photos natural
+Inverted photos look strange. When “Keep photos in natural colours” is ticked, the tool finds the area of each embedded image on the page and restores its original colours after recolouring the page.
+## Private conversion
+Pages are rendered and recoloured with pdf.js in your browser. The PDF is never uploaded.
+@resume
+name: Resume Builder
+short: Create a professional resume or CV as a PDF.
+title: Resume Builder – Free CV Maker with PDF Download | {brand}
+desc: Build a professional resume or CV and download a PDF – classic ATS-friendly, modern sidebar or minimal templates, A4 or US Letter. Free, no sign-up, no watermark, nothing uploaded.
+h1: Resume Builder
+steps: Fill in your details, experience, education and skills. | Choose a template, paper size and accent colour. | Download your resume as a PDF.
+faq: Are the resumes ATS-friendly?=The classic and minimal templates use a single column, standard headings and real text, which applicant tracking systems read reliably. The modern template uses a sidebar; most modern ATS read it, but choose classic when an employer requires strict ATS formatting. || Is there a watermark or paywall?=No. The PDF is generated in your browser for free, with no watermark, account or subscription.
+intro: Many “free” resume builders ask you to pay before downloading or add a watermark. This one creates a clean, professional PDF instantly. Enter your contact details, a short profile, jobs and education using a simple format, list your skills and languages, choose a template and download. The text in the PDF is real, selectable text, so recruiters and applicant tracking systems can read it.
+uses: Create a resume for job applications in any country. | Write an academic or international CV on A4 paper. | Update a resume quickly for different roles. | Make a one-page profile for freelancing platforms and networking events.
+tips: Start each bullet with an action verb and include a result or number. | Keep it to one page for less than ten years of experience. | Use US Letter for the US and Canada and A4 almost everywhere else. | Leave out photos, age and marital status for UK, US and Canadian applications.
+## Resume or CV?
+In the United States and Canada a resume is a short summary of experience, usually one or two pages, while a CV is a longer academic record. In the UK, Ireland, Australia, India and much of Europe, “CV” is the everyday word for what Americans call a resume. The builder works for both – add sections as needed and choose the right paper size.
+## Writing the experience section
+Type each job as one block: the first line holds the role, company and dates separated by vertical bars, followed by bullet lines that start with a dash. Leave a blank line between jobs. The builder lays out titles in bold, dates on the right and bullets with consistent spacing, and moves to a new page when needed.
+## Private by default
+Your personal data stays in your browser. The PDF is built locally with pdf-lib.
+@receipt
+name: Receipt Maker
+short: Create printable receipts for sales and payments.
+title: Receipt Maker – Free Printable Receipt Generator (PDF) | {brand}
+desc: Make professional receipts with items, tax or VAT, discount and tip. Print on 80 mm or 58 mm thermal rolls or A4/Letter paper. Free PDF receipt generator, no sign-up.
+h1: Receipt Maker
+steps: Enter business details, receipt number and payment method. | Add items as “2 x Item @ 3.50” and set tax, discount and tip. | Download a PDF receipt for printing or email.
+faq: What is the difference between a receipt and an invoice?=An invoice asks for payment and shows what is owed, while a receipt confirms that payment has been received. Use the Invoice Generator for bills and this tool after the customer has paid. || Can I print on a thermal receipt printer?=Yes. Choose the 80 mm or 58 mm roll size; the PDF page is exactly that width and as long as the receipt, which most thermal printers handle when printing at 100% scale.
+intro: Small businesses, freelancers, landlords, market sellers and event organisers often need to give a receipt on the spot. This maker produces a clean, itemised receipt with subtotal, discount, tax or VAT, tip and total, in the currency you choose. Print on a thermal roll like a till receipt or on A4 and US Letter paper for formal records.
+uses: Give customers receipts at markets, pop-up shops and events. | Confirm rent, deposit or tuition payments. | Provide proof of payment for freelance or repair work. | Replace lost receipts for your own expense records, using your genuine details.
+tips: Number receipts sequentially – tax authorities expect unique numbers. | Include your tax or VAT ID in the address box where required. | Tick “Prices already include tax” for VAT-inclusive pricing common in Europe and Australia. | Email the PDF to customers to save paper.
+## Tax, VAT and GST
+Enter the tax rate as a percentage. If your prices exclude tax, the tool adds it on top of the discounted subtotal, which is typical for US sales tax. If your prices already include VAT or GST, tick the option and the receipt shows how much of the total is tax without changing the price. A discount percentage is applied before tax, and a tip or service charge is added at the end.
+## Item format
+Write one item per line as quantity, x, description, @ and unit price – for example “3 x Notebook @ 4.25”. A line such as “Delivery 5.00” counts as one item. The tool calculates line totals and shows the grand total live.
+## Honest use only
+Receipts must reflect real transactions. Creating fake receipts to claim expenses or refunds is fraud in every country.

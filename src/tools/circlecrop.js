@@ -1,0 +1,12 @@
+// @needs img
+TOOLS.circlecrop={live:true,
+ opts:()=>sel('ccs','Shape',[['circle','Circle'],['rounded','Rounded square'],['squircle','Squircle (app icon)']])+inp('ccz','Zoom (%)','range','100','min="100" max="300"')+`<div class="row2">${inp('ccx','Move left / right','range','0','min="-50" max="50"')}${inp('ccy','Move up / down','range','0','min="-50" max="50"')}</div>`+sel('ccsize','Output size',[['0','Original (shortest side)'],['1024','1024 px'],['512','512 px'],['400','400 px (profile picture)'],['256','256 px'],['128','128 px']])+inp('ccb','Border width (% of size)','range','0','min="0" max="15"')+'<label>Border colour<input id="ccbc" type="color" value="#ffffff"></label>'+sel('ccf','Format',[['png','PNG (transparent corners)'],['webp','WEBP (transparent corners)'],['jpg','JPG (corners filled)']])+'<label>Fill colour for JPG<input id="ccbg" type="color" value="#ffffff"></label>',
+ setup(){const d=document.createElement('div');d.innerHTML='<div id="ccpv" style="text-align:center"></div>';return d;},
+ async run(files){const f=files[0];if(!this.c||this.cf!==f){this.c=await fileToCanvas(f);this.cf=f;}const c=this.c;const m=Math.min(c.width,c.height);const S=+v('ccsize')||m;
+  const o=newCanvas(S,S),x=o.getContext('2d');const fmt=v('ccf');const shp=v('ccs');
+  const path=()=>{x.beginPath();if(shp==='circle')x.arc(S/2,S/2,S/2,0,Math.PI*2);else if(shp==='rounded')x.roundRect(0,0,S,S,S*0.18);else{const n=4,r=S/2;for(let i=0;i<=360;i++){const t=i*Math.PI/180,ct=Math.cos(t),st=Math.sin(t);const px=r+r*Math.sign(ct)*Math.abs(ct)**(2/n),py=r+r*Math.sign(st)*Math.abs(st)**(2/n);i?x.lineTo(px,py):x.moveTo(px,py);}x.closePath();}};
+  if(fmt==='jpg'){x.fillStyle=v('ccbg');x.fillRect(0,0,S,S);}
+  x.save();path();x.clip();const z=(+v('ccz')||100)/100;const src=m/z;const cx=(c.width-src)/2*(1+(+v('ccx')||0)/50),cy=(c.height-src)/2*(1+(+v('ccy')||0)/50);x.imageSmoothingQuality='high';x.drawImage(c,cx,cy,src,src,0,0,S,S);x.restore();
+  const bw=(+v('ccb')||0)/100*S;if(bw>0){x.save();path();x.clip();x.lineWidth=bw*2;x.strokeStyle=v('ccbc');path();x.stroke();x.restore();}
+  const pv=newCanvas(S,S);pv.getContext('2d').drawImage(o,0,0);pv.style.cssText='max-width:220px;background:repeating-conic-gradient(#ddd 0 25%,#fff 0 50%) 0 0/16px 16px';const el=document.getElementById('ccpv');if(el){el.innerHTML='';el.appendChild(pv);}
+  return {name:imgName(f,'-'+shp,fmt),blob:await encodeCanvas(o,fmt,.92),info:`${S}×${S} px ${shp}`};}};

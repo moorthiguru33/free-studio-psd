@@ -1,0 +1,16 @@
+// @needs img
+const MBG={sunset:['#ff9a8b','#ff6a88','#ff99ac'],ocean:['#2193b0','#6dd5ed'],violet:['#7f53ac','#647dee'],mint:['#43e97b','#38f9d7'],night:['#0f2027','#2c5364'],peach:['#ffecd2','#fcb69f'],grey:['#e9ecef','#ced4da'],white:['#ffffff','#ffffff'],none:null};
+TOOLS.mockup={live:true,
+ opts:()=>sel('mkf','Frame',[['browser','Browser window (light)'],['browserd','Browser window (dark)'],['mac','macOS window'],['phone','Phone'],['tablet','Tablet'],['plain','No frame – rounded with shadow']])+inp('mku','Address bar text','text','example.com')+sel('mkb','Background',Object.keys(MBG).map(k=>[k,k==='none'?'Transparent':k[0].toUpperCase()+k.slice(1)]))+inp('mkp','Padding (%)','range','8','min="0" max="25"')+inp('mkr','Corner radius','range','12','min="0" max="40"')+chk('mks','Drop shadow',true)+sel('mkfmt','Format',[['png','PNG'],['jpg','JPG'],['webp','WEBP']]),
+ setup(){const d=document.createElement('div');d.innerHTML='<div id="mkpv" style="text-align:center"></div>';return d;},
+ async run(files){const f=files[0];if(!this.c||this.cf!==f){this.c=await fileToCanvas(f);this.cf=f;}let c=this.c;const fr=v('mkf');const sc=Math.max(1,c.width/1400);const R=(+v('mkr')||0)*sc;
+  const dev=fr==='phone'||fr==='tablet';const bar=fr.startsWith('browser')||fr==='mac'?Math.round(44*sc):0;const bez=dev?Math.round((fr==='phone'?0.045:0.04)*c.width)+Math.round(8*sc):0;
+  const fw=c.width+bez*2,fh=c.height+bar+bez*2;const pad=Math.round((+v('mkp')||0)/100*Math.max(fw,fh));const W=fw+pad*2,H=fh+pad*2;const o=newCanvas(W,H),x=o.getContext('2d');
+  const bg=MBG[v('mkb')];if(bg){const g=x.createLinearGradient(0,0,W,H);bg.forEach((col,i)=>g.addColorStop(bg.length>1?i/(bg.length-1):0,col));x.fillStyle=g;x.fillRect(0,0,W,H);}
+  const fr2=dev?Math.max(R,fw*0.08):R;x.save();if(vb('mks')){x.shadowColor='rgba(0,0,0,.35)';x.shadowBlur=40*sc;x.shadowOffsetY=16*sc;}x.beginPath();x.roundRect(pad,pad,fw,fh,fr2);x.fillStyle=dev?'#111':fr==='browserd'?'#202124':'#f1f3f4';x.fill();x.restore();
+  if(bar){x.fillStyle=fr==='browserd'?'#35363a':fr==='mac'?'#e8e8e8':'#dee1e6';x.beginPath();x.roundRect(pad,pad,fw,bar,[R,R,0,0]);x.fill();['#ff5f57','#febc2e','#28c840'].forEach((col,i)=>{x.fillStyle=col;x.beginPath();x.arc(pad+20*sc+i*20*sc,pad+bar/2,6*sc,0,Math.PI*2);x.fill();});
+   if(fr!=='mac'){const ux=pad+90*sc,uw=fw-120*sc;x.fillStyle=fr==='browserd'?'#202124':'#fff';x.beginPath();x.roundRect(ux,pad+bar*0.2,uw,bar*0.6,bar*0.3);x.fill();x.fillStyle=fr==='browserd'?'#e8eaed':'#3c4043';x.font=`${Math.round(14*sc)}px system-ui, sans-serif`;x.textBaseline='middle';x.fillText('🔒 '+String(v('mku')||''),ux+14*sc,pad+bar/2);}}
+  x.save();x.beginPath();const ix=pad+bez,iy=pad+bar+bez;x.roundRect(ix,iy,c.width,c.height,dev?Math.max(R,fw*0.06):bar?[0,0,R,R]:R);x.clip();x.drawImage(c,ix,iy);x.restore();
+  if(fr==='phone'){x.fillStyle='#111';x.beginPath();x.roundRect(pad+fw/2-fw*0.12,pad+bez,fw*0.24,Math.max(10,bez*0.9),bez*0.45);x.fill();}
+  const pv=newCanvas(W,H);pv.getContext('2d').drawImage(o,0,0);pv.style.cssText='max-width:100%;max-height:420px';const el=document.getElementById('mkpv');if(el){el.innerHTML='';el.appendChild(pv);}
+  return {name:imgName(f,'-mockup',v('mkfmt')),blob:await encodeCanvas(o,v('mkfmt'),.92),info:`${W}×${H} px`};}};
