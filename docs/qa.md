@@ -125,3 +125,5 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 | Compress PDF to KB/MB (+100KB/200KB/300KB/500KB/1MB/2MB presets) | 2.83 MB 3-page scan (test/pdfkb.js), local + live | 100KB→37 KB, 500KB→255 KB, 1MB→682 KB, 200KB no-raster→114 KB; all 3 pages intact |
 | FLAC/OGG/M4A/AAC/OPUS → MP3/WAV (10 pages, impl audioconv) | 4 s stereo samples made with ffmpeg (test/aud.js), ffprobe on output | all 10 OK in Chrome |
 | WMA → MP3/WAV | – | Skipped: no browser decodes WMA; only ffmpeg.wasm could, and the stock @ffmpeg/core build bundles GPL codecs |
+| Extract RAR (v4, v5) / 7Z / TAR / TAR.GZ / TAR.XZ / single .gz (libarchive.js MIT + libarchive BSD-2, 1 MB wasm lazy-loaded on Start) | test/arch.js with libarchive's own RAR test files + tar/xz/7z made locally | all extract OK; encrypted 7z shows a clear "not supported" message (libarchive can't decrypt 7z/RAR) |
+| Create TAR.GZ / TAR / TAR.XZ / TAR.BZ2 / 7Z | 2 files → archive.tar.gz, verified with `tar tzf` | OK |

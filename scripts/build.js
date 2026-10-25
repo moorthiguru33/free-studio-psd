@@ -154,6 +154,7 @@ if(fs.existsSync(R('models')))for(const f of fs.readdirSync(R('models'),{recursi
 // ESM-only libraries are bundled into small IIFE globals
 for(const f of fs.readdirSync(R('scripts/vendor')))esbuild.buildSync({entryPoints:[R('scripts/vendor/'+f)],bundle:true,minify:true,format:'iife',outfile:path.join(OUT,'vendor',f),logLevel:'error',platform:'browser'});
 for(const k in V)cp(V[k],'vendor/'+k);
+for(const f of ['libarchive.js','worker-bundle.js','libarchive.wasm'])cp('node_modules/libarchive.js/dist/'+f,'vendor/libarchive/'+f);
 for(const f of fs.readdirSync(R('src/og')))cp('src/og/'+f,'og/'+f);
 for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);
 const n=fs.readdirSync(OUT,{recursive:true}).filter(f=>f.endsWith('.html')).length;
