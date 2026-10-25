@@ -1,0 +1,76 @@
+0	Word to PDF
+1	Convert DOCX documents to PDF.
+2	Word to PDF Converter Online Free – DOCX to PDF | {brand}
+3	Convert Word DOCX documents to PDF in your browser. Free, no upload, no watermark.
+4	Convert Word to PDF
+5	Select your DOCX file.
+6	Click Start.
+7	Download the PDF.
+8	Is formatting preserved?
+9	This beta keeps text, headings, bold/italic and lists (Latin-script text for now). Images and complex layouts are coming soon.
+10	PDF keeps your document looking the same on every device, which is why most forms and portals ask for it. {brand} converts DOCX files to PDF inside your browser, so CVs and letters never leave your device.
+11	Turn your CV or cover letter into a PDF before applying for jobs.
+12	Send letters or reports that must not be edited.
+13	Prepare documents for printing.
+14	This beta keeps text, headings, bold, italic and lists; check documents with images or complex layout.
+15	For full-fidelity layout, Word's own Save as PDF is also an option.
+16	Why send PDF instead of Word
+17	Word documents can look different on another computer because of missing fonts or different software versions. A PDF preserves the layout, is harder to modify accidentally and is accepted by virtually every job portal and organisation.
+18	Compatibility
+19	DOCX files from Microsoft Word, Google Docs (downloaded as DOCX), LibreOffice and Pages exports are supported.
+20	Word to PDF Converter – Free, Batch, No Upload
+21	Convert Word (DOCX, DOC) to PDF free in your browser. Batch convert to a ZIP, keep fonts, tables and images. No upload, no sign-up, no watermark.
+22	Why convert Word to PDF here
+23	A Word document looks different on every computer: fonts get substituted, page breaks move and images drift. A PDF freezes the layout so that what you send is exactly what the reader sees – on Windows, macOS, a phone or a printer. That is why CVs, invoices, assignments, contracts and government forms are almost always requested as PDF.
+24	{brand} converts the .docx file inside your browser. The document is unzipped and laid out on your own device, and the finished PDF is produced locally. Your file never travels to a server, so confidential HR letters, client proposals or exam answers stay on your machine.
+25	**Free batch conversion** – drop several DOCX files at once and get one ZIP of PDFs. Smallpdf reserves batch processing for paid plans; here it is free and unlimited.
+26	**Keeps the important parts** – paragraphs, headings, bold/italic, lists, tables, images, page size and margins are carried across.
+27	**No watermark, no daily limit** – convert one file or a hundred, today and tomorrow.
+28	**Works offline** – once the page has loaded you can switch off Wi‑Fi and keep converting.
+29	How to save a Word document as PDF without any website
+30	If you have Microsoft Word installed, you can also choose **File → Save As → PDF** (Windows) or **File → Export → PDF** (Mac). Google Docs offers **File → Download → PDF document**, and LibreOffice has **File → Export as PDF**. Those are good options when the program is already open.
+31	This tool is useful when you are on a computer without Office, on a Chromebook or phone, when you need to convert a whole folder of files in one go, or when you were sent a DOCX and just want a PDF quickly without installing anything.
+32	Tips for a perfect PDF
+33	**Use common fonts** – Calibri, Arial, Times New Roman and similar fonts convert most faithfully. Rare decorative fonts may be replaced with a close match.
+34	**Accept tracked changes first** – comments and revision marks are not printed, so finalise the document in Word before converting.
+35	**Check page size** – A4 and US Letter are both supported; the PDF uses the size set in the document.
+36	**Large images** – very high-resolution photos make big PDFs. Run the result through [Compress PDF](/compress-pdf/) to shrink it for e-mail.
+37	**Old .doc files** – Word 97–2003 .doc files are supported too. Their text and paragraphs are converted in your browser; for complex layouts with images, save as .docx first for the most faithful result.
+38	Common uses
+39	Sending a CV or cover letter that looks identical for every recruiter.
+40	Submitting assignments and theses to portals that only accept PDF.
+41	Turning a batch of generated letters or invoices into PDFs in one go.
+42	Archiving signed-off documents so nobody can accidentally edit them.
+43	Preparing a document for signing with [Sign PDF](/sign-pdf/) or combining it with others using [Merge PDF](/merge-pdf/).
+44	What happens to your document
+45	Everything runs in JavaScript inside the browser tab. The DOCX is read from your disk into memory, converted, and the PDF is offered as a download. Closing the tab discards everything. There is no account, no cookie-based tracking of your files and no copy kept anywhere – you can verify this by disconnecting from the internet after the page loads.
+46	Word to PDF on Windows, Mac, Chromebook and phone
+47	Because the converter is a web page, it behaves the same everywhere. On a Windows PC or Mac it saves you opening Word just to export. On a Chromebook, where Microsoft Office desktop apps are not available, it gives you a faithful PDF in seconds. On Android or iPhone, open the DOCX from your e-mail or Files app, convert it here, and share the PDF straight back – handy when a portal or recruiter insists on PDF and you are away from your desk.
+48	Is this Word to PDF converter really free?
+49	Yes. There is no trial, no watermark and no limit on the number of files or conversions.
+50	Can I convert several Word files at once?
+51	Yes. Select or drop multiple DOCX files and you get a ZIP containing one PDF per document.
+52	Are my documents uploaded?
+53	No. Conversion happens in your browser, so the file never leaves your device. It even works offline after the page loads.
+54	Will the formatting stay the same?
+55	Paragraphs, headings, fonts, lists, tables, images and margins are preserved. Very unusual fonts may be replaced by a similar font.
+56	Does it support .doc files?
+57	Yes. Word 97–2003 .doc files convert directly in your browser (text and paragraphs). For documents with many images or complex tables, saving as .docx first gives the most faithful result.
+58	How do I save a Word document as PDF in Word itself?
+59	In Word use File → Save As and choose PDF (Windows) or File → Export → PDF (Mac). This tool is handy when Word is not installed.
+60	Can I convert Word to PDF on my phone?
+61	Yes. The tool runs in mobile browsers on Android and iPhone without installing an app.
+62	Can I convert the PDF back to Word later?
+63	Yes – use our PDF to Word converter, which also includes free OCR for scanned files.
+64	Is there a file size limit?
+65	No fixed limit. Very large documents depend on your device's memory; most modern phones and laptops handle long reports fine.
+66	How do I convert Word to PDF for free?
+67	Drop one or more .docx files and press Convert. Each document is rendered to PDF in your browser and downloaded individually or as a ZIP – no account and no watermark.
+68	Can I convert Word to PDF on a phone?
+69	Yes, the converter runs in mobile browsers. Pick the DOCX from your files app, convert, and save the PDF. Very long or complex documents convert faster on a computer.
+70	How do I convert Word to PDF without losing formatting?
+71	Fonts, tables and images are kept, but a font that is not embedded and not available in your browser is replaced with a similar one. For exact results, use common fonts or export from Word itself; this tool is in beta and best for everyday documents.
+C	Batch conversion
+C	Free – many files to ZIP
+C	Pro plans
+C	Watermark on output

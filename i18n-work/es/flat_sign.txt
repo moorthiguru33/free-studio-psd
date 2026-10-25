@@ -1,0 +1,116 @@
+0	Sign PDF
+1	Draw or type your signature and place it on a PDF.
+2	Sign PDF Online Free – Add Signature to PDF | {brand}
+3	Draw or type your signature and add it to any page of a PDF. Free, no account, and your document stays on your device.
+4	Sign PDF
+5	Select your PDF.
+6	Draw or type your signature and choose a page.
+7	Click the preview to place it, then Start and download.
+8	Is this a legally binding signature?
+9	It adds a visual electronic signature, which is accepted in many situations. For certificate-based digital signatures, check your local requirements.
+10	Sign documents in under a minute without printing and scanning. Draw your signature with a finger, mouse or stylus, or type it, and place it anywhere on the page – all on your device.
+11	Sign rental agreements, offer letters and consent forms.
+12	Approve invoices or delivery notes.
+13	Add initials to every page of a contract.
+14	Draw slowly on a phone for a smoother signature.
+15	After signing, use Flatten PDF so the signature cannot be moved.
+16	Electronic signatures
+17	Visual e-signatures are widely accepted for everyday agreements in many countries. Some documents, such as certain legal or government filings, may require certificate-based digital signatures – check local rules when in doubt.
+18	Signing on a phone
+19	Draw your signature with a finger, place it on the right page and resize it to fit the signature line.
+20	Sign PDF Free – Draw, Type or Upload Your Signature
+21	Sign PDFs free: draw, type or upload a signature, add initials and date, place on many pages. Saved on your device only. No upload, no account.
+22	Sign a PDF in under a minute – privately
+23	Whether it is a rental agreement, an offer letter, a school permission slip or a supplier contract, signing used to mean print, sign, scan. With {brand} you add your signature straight onto the PDF in your browser. The document is never uploaded, there is no account to create, and you do not need to send the file to yourself through an e-signature platform.
+24	**Three ways to create a signature** – draw it with a mouse, trackpad, finger or stylus; type your name and pick a handwriting style; or upload a photo of your signature. A white background is made transparent automatically.
+25	**Initials, date and custom text** – place your initials, today's date or any text (such as your printed name or 'Approved') with the same tool.
+26	**Many placements, many pages** – click to place as often as you need; switch pages to initial every page and sign the last one. Undo removes the last placement.
+27	**Remember my signature** – optionally store your signature in this browser only (local storage), so next time it is ready instantly. Nothing is saved on a server.
+28	**Colour and size** – blue or black ink, and any width.
+29	It also means there is nothing to wait for. Large scanned contracts open instantly, signing works on a train or plane with no connection once the page has loaded, and you can sign as many documents as you like in a day. There are no credits, no free-trial countdown and no prompts to create an account before you can download your own signed file.
+30	How to sign a PDF
+31	**Open your PDF** by dropping it on the page.
+32	**Create your signature** – draw, type or upload. Tick 'Remember my signature' if you want it saved on this device.
+33	**Choose what to place** – Signature, Initials, Today's date or Custom text.
+34	**Click on the page** where it should go. Each click adds a copy centred on the spot you clicked.
+35	**Switch pages** to sign or initial other pages. Use Undo if you misplace one.
+36	**Download** the signed PDF.
+37	Electronic signature vs digital signature
+38	These two terms are often confused. An **electronic signature** is any electronic indication that a person agrees to a document – a drawn or typed signature, a scanned image, even ticking a box. That is what this tool creates. In many countries electronic signatures are legally recognised for most everyday agreements: in the United States under the ESIGN Act and UETA, and in the European Union as 'simple electronic signatures' under the eIDAS regulation.
+39	A **digital signature** is a specific technology: a cryptographic seal based on a certificate issued to you, which proves who signed and that the file has not been changed since. Some documents – certain government filings, notarised deeds or 'qualified' signatures under eIDAS – require that level. If a recipient specifically asks for a certificate-based digital signature, use the tool or service they specify.
+40	This is general information, not legal advice. Check requirements for important contracts in your country.
+41	What makes a signed PDF more trustworthy
+42	Sign every page with initials when the document is long, so pages cannot be swapped unnoticed.
+43	Add the date next to your signature.
+44	Keep a copy of the signed PDF and the e-mail you sent it with.
+45	After signing, use [Flatten PDF](/flatten-pdf/) to merge everything into the page, or [Protect PDF](/protect-pdf/) to restrict further editing.
+46	Uploading a signature photo
+47	Sign your name on plain white paper with a dark pen, take a well-lit photo or scan, and upload it. The tool removes the white background so only the ink remains, then you can scale it to fit the signature line. For a reusable transparent PNG you can also use our [Signature Maker](/signature-maker/).
+48	Why signing locally matters
+49	Documents you sign are among the most sensitive you handle – they contain names, addresses, salaries, bank details and identity numbers. Online signing services typically upload the file to their servers. Here, the PDF, your signature image and the result stay on your device the whole time. The optional saved signature lives only in your browser's local storage and can be removed by unticking the option or clearing site data.
+50	Common uses
+51	Rental and lease agreements.
+52	Job offer letters and NDAs.
+53	School and medical consent forms.
+54	Invoices, delivery notes and purchase orders.
+55	Freelance contracts and statements of work.
+56	Signing on a phone or tablet
+57	Signing with a finger often looks more natural than with a mouse. Open the PDF on your phone, choose Draw, and sign in the box – the stroke is smoothed so it looks like ink. Then tap the page where the signature belongs. On an iPad or Android tablet with a stylus the result is practically identical to pen on paper. The signed PDF downloads to your Files or Downloads folder, ready to attach to an e-mail or upload to a portal.
+58	Typed, drawn or uploaded – which looks best?
+59	Method
+60	Best when
+61	Draw
+62	You want a natural, handwritten look and have a touch screen or trackpad
+63	Type
+64	You need something neat and quick, e.g. for internal approvals
+65	Upload
+66	You want your exact pen signature on every document
+67	All three are equally valid as electronic signatures. Pick whichever you are comfortable with and use it consistently, so your signature is recognisable across documents.
+68	Signing documents for other people
+69	This tool is designed for you to sign a document yourself. If several people must sign, each person can open the PDF, add their signature and pass the file on – the earlier signatures are preserved because they are written into the page. For forms with labelled fields, try [Fill PDF Form](/fill-pdf-form/) first to type in names and addresses, then sign. When a document has to go through a formal workflow with audit trails, reminders and certificates, a dedicated e-signature platform chosen by the organisation requesting the signature is the right choice.
+70	Checklist before you send a signed PDF
+71	Read the whole document once more – signing confirms you agree to every page.
+72	Make sure the signature sits on the signature line and does not cover any text.
+73	Initial each page if the other party asked for it.
+74	Add the date in the format the recipient expects.
+75	Open the downloaded PDF to check every placement before sending.
+76	Compress it with [Compress PDF](/compress-pdf/) if it is too large for e-mail.
+77	Troubleshooting
+78	**Signature looks jagged** – draw a little slower, or increase the width setting; uploaded images should be at least 600 px wide.
+79	**Grey box around an uploaded signature** – photograph it on bright white paper in good light so the background can be removed cleanly.
+80	**Signature too big or small** – change the width before clicking; use Undo and place it again.
+81	**PDF is password-protected** – open it with [Unlock PDF](/unlock-pdf/) using the password you were given, then sign.
+82	**Saved signature missing** – it is stored per browser, so it will not appear in a different browser, in private windows or after clearing site data.
+83	**Recipient says the PDF is editable** – flatten it after signing so the signature is merged into the page content.
+84	**Scanned contract** – that is fine: signatures are placed on top of the scanned page just like on a digital one.
+85	Is it free to sign a PDF here?
+86	Yes. There are no limits, no watermark and no account.
+87	Is my document uploaded?
+88	No. The PDF and your signature never leave your browser.
+89	Is an electronic signature legally binding?
+90	For many everyday agreements, yes – e.g. under the US ESIGN Act and UETA and as simple electronic signatures under EU eIDAS. Some documents require a certificate-based digital signature. This is not legal advice.
+91	What's the difference between an electronic and a digital signature?
+92	An electronic signature is any electronic mark of agreement, like a drawn signature. A digital signature uses a certificate and cryptography to prove identity and detect changes.
+93	Can I sign on my phone?
+94	Yes. Draw your signature with your finger on any phone or tablet browser.
+95	Can I add initials and the date?
+96	Yes. Choose Initials, Today's date or Custom text and click where they should go.
+97	Can I sign multiple pages?
+98	Yes. Each click places another copy; switch pages to sign or initial every page.
+99	Can I upload an image of my signature?
+100	Yes. Upload a photo or scan; the white background is removed automatically.
+101	Where is my saved signature stored?
+102	Only in this browser's local storage on your device, and only if you tick 'Remember my signature'.
+103	Can I remove a misplaced signature?
+104	Yes. Click Undo to remove the last placement.
+105	How do I sign a PDF on my computer?
+106	Open the PDF, create a signature by drawing with the mouse or touchpad, typing your name in a handwriting font, or uploading a photo of your signature, then place it on the page and download. Nothing is installed or uploaded.
+107	Is a signature added this way legally valid?
+108	A drawn or typed signature is an electronic signature, which many jurisdictions accept for everyday agreements. It is not a certificate-based digital signature. For contracts with special requirements, check what the other party or your local law needs.
+C	Draw / type / upload signature
+C	Initials and date
+C	Initials: yes
+C	Saved signature
+C	On your device only
+C	Account
+C	Multiple placements on many pages

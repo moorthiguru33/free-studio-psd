@@ -1,0 +1,135 @@
+0	Organize PDF
+1	Reorder, rotate, delete and extract pages visually.
+2	Organize PDF Pages Online Free – Reorder, Rotate & Delete | {brand}
+3	Rearrange PDF pages with drag and drop, rotate or delete pages and extract selections. Free, private, no upload.
+4	Organize PDF pages
+5	Select your PDF to see page thumbnails.
+6	Drag pages to reorder; rotate, delete or select pages.
+7	Click Start and download the new PDF.
+8	Can I reorder pages on my phone?
+9	Yes. Use the ← and → buttons on each thumbnail; drag and drop works on desktop.
+10	Organize PDF shows every page as a thumbnail so you can reorder, rotate and delete pages visually – ideal for fixing scanned bundles.
+11	Fix pages scanned in the wrong order.
+12	Remove blank or duplicate pages.
+13	On mobile use the arrow buttons on each thumbnail.
+14	One tool for page clean-up
+15	Instead of using separate tools to rotate, delete and reorder pages, Organize PDF shows the whole document as a page grid. Make all changes at once and export a single clean PDF.
+16	Typical clean-up workflow
+17	Scan a batch of documents, delete blank pages, rotate sideways ones, drag pages into order and export. Then compress the result if you need to email it.
+18	Works on any device
+19	Thumbnails are generated in your browser, so even large PDFs can be reorganised on a laptop, tablet or phone without uploading them to a server.
+20	Organize PDF Pages – Reorder, Rotate, Delete Free
+21	Organize PDF pages free: drag thumbnails to reorder, rotate, delete, duplicate, insert blank pages or reverse order. No upload, no sign-up.
+22	{tool}: {brand} vs iLovePDF, Smallpdf and Sejda
+23	Organize PDF pages visually
+24	Organize PDF lets you rearrange the pages of a document the way you would shuffle sheets of paper on a desk. Drop a PDF and every page appears as a thumbnail. Drag a page to a new position, rotate it, delete it, duplicate it or insert a blank page after it, then save a new PDF with the pages in exactly the order you want. The original file is never changed – you always download a fresh copy.
+25	It is the quickest fix for the most common PDF annoyances: a scanner that fed pages in the wrong order, a report where the appendix landed in the middle, a sideways page in an otherwise upright contract, or a file that needs a blank page before each new section so it prints correctly double-sided.
+26	What you can do with each page
+27	**Move** – drag the thumbnail, or use the ← and → buttons for precise one-step moves on touch screens.
+28	**Rotate** – turn a page 90° at a time; the rotation is saved into the file permanently.
+29	**Delete** – mark a page with ✕ to leave it out of the result (tap again to restore it).
+30	**Select** – tick pages, then duplicate them or save only the selection.
+31	**Duplicate selected** – make a copy of a page right after it, useful for forms you need twice.
+32	**Insert blank page** – adds an empty page the same size as your first page after the first selected page (or at the end).
+33	**Reverse order** – flips the whole document, ideal for scans fed last-page-first.
+34	**Rotate all** – turns every page at once when a whole scan came out sideways.
+35	How to organize PDF pages for free
+36	Drop your PDF on the page or tap to choose it. Thumbnails are rendered on your device.
+37	Drag pages into the new order. Use Reverse order or Rotate all for quick whole-document fixes.
+38	Delete, rotate, duplicate or insert blank pages as needed.
+39	Choose whether to save all kept pages or only the selected ones, then press the button and download the organized PDF.
+40	Sorting a scanned document
+41	Double-sided documents scanned on a single-sided feeder are a classic problem: you get all the front pages first, then all the back pages in reverse. To sort a PDF like this, use Reverse order on a copy containing the back pages, then merge and interleave – or simply drag the pages into place here if the document is short. For long scans, the [Merge PDF](/merge-pdf/) tool combined with this organizer is the fastest route.
+42	If some pages came out upside-down, rotate them 180°. If a page is skewed rather than rotated, [Deskew PDF](/deskew-pdf/) straightens it automatically.
+43	Organize PDF vs other page tools
+44	Task
+45	Best tool
+46	Change page order, rotate, delete in one go
+47	Organize PDF (this page)
+48	Remove many pages by number
+49	[Delete PDF pages](/delete-pdf-pages/)
+50	Keep only certain pages
+51	[Extract PDF pages](/extract-pdf-pages/)
+52	Cut one PDF into several files
+53	[Split PDF](/split-pdf/)
+54	Combine several PDFs
+55	[Merge PDF](/merge-pdf/)
+56	Rotate pages permanently by rule (odd/even/landscape)
+57	[Rotate PDF](/rotate-pdf/)
+58	Blank pages for double-sided printing
+59	When you print double-sided, each chapter should usually start on a right-hand (odd) page. If a section ends on an odd page, insert a blank page after it so the next section starts on the front of a new sheet. The blank page uses the size of your first page, so it matches the document. Blank pages also help when you need room for handwritten notes or a stamp.
+60	Quality and what is preserved
+61	Pages are copied, not re-rendered. Text stays selectable and searchable, images keep their original resolution and fonts remain embedded, so the organized PDF looks exactly like the source. Links and form fields on copied pages are kept by most viewers; document-level bookmarks that pointed to the old page order are not rebuilt, so add new ones with [Edit bookmarks](/pdf-bookmark-editor/) if you need them.
+62	Large documents
+63	Thumbnails are drawn at low resolution to keep things fast, so a 200-page PDF is still comfortable on a laptop. On phones, very long files take longer to render; if you only need to reorder a few pages near the start, that is no problem, but for big jobs a computer is more convenient. There is no page limit and no file-size cap other than your device's memory.
+64	Password-protected PDFs
+65	If a PDF asks for a password when you open it, unlock it first with [Unlock PDF](/unlock-pdf/) – you need to know the password – then organize the unlocked copy. Files that only restrict printing or editing usually open normally.
+66	Worked example: fixing a jumbled 12-page report
+67	Say a colleague scanned a 12-page report and the pages came out as 1, 2, 3, 7, 8, 9, 4, 5, 6, 10, 11, 12, with page 8 upside down. Drop the file and the thumbnails make the problem obvious at a glance. Drag the block of pages 4–6 so they sit after page 3 – on a computer, drag each thumbnail onto the position you want; on a phone, tap the ← button on page 4 three times, then repeat for 5 and 6. Tap ↻ twice on page 8 to turn it 180°. Finally, if the report needs a blank back page so it prints evenly double-sided, select page 12 and press *Insert blank page*. Save, and you have a clean, correctly ordered PDF in under a minute without installing anything.
+68	Tips for working quickly
+69	Zoom out in your browser (Ctrl/Cmd and −) to see more thumbnails at once when reordering long files.
+70	Use Reverse order first when a scan is completely backwards, then fine-tune a few pages by dragging.
+71	Rotate all is faster than rotating each page when a whole scan is sideways; then rotate back the few pages that were already correct.
+72	Tick pages and switch the output to *Selected pages only* if you want to build a short excerpt in a new order – for example, pages 9, 2 and 5, in that sequence.
+73	Deleted pages stay visible with a ✕ until you save, so you can change your mind; tap again to restore.
+74	Common questions about page order in PDFs
+75	A PDF stores pages as an ordered list, and reorganizing simply writes that list in a new order. That is why the operation is lossless and fast. Page labels (the custom numbering some viewers show, such as *i, ii, iii* for front matter) are not changed, and printed page numbers that are part of the page content stay as they were – if you move page 7 to the front, it still shows *7* in its footer. To renumber, run [Add page numbers](/add-page-numbers/) after organizing, ideally on a version without the old printed numbers.
+76	Organizing several PDFs together
+77	This tool works on one PDF at a time. To combine pages from different files into one ordered document, first join them with [Merge PDF](/merge-pdf/) – it accepts PDFs and images – and then open the merged file here to drag individual pages into their final order. This two-step approach is the most flexible way to assemble application packs, portfolios and evidence bundles from many sources.
+78	Who uses a PDF page organizer
+79	**Office staff** sorting scanned contracts, delivery notes and HR forms before filing.
+80	**Students and teachers** reordering lecture notes, worksheets and exam papers.
+81	**Lawyers and paralegals** arranging exhibits in the order they are referenced.
+82	**Designers and printers** inserting blank pages so spreads and sections fall on the correct side.
+83	**Anyone** cleaning up a phone scan where a page was photographed twice or out of sequence.
+84	Organize PDF pages online vs in desktop software
+85	Desktop editors such as paid PDF suites can reorder pages too, but they need installing, often a subscription, and admin rights on work computers. Online organizers are quicker for one-off jobs, but most upload your document to a server for processing. This page combines the convenience of a website with the privacy of desktop software: it loads in a browser tab, then does all the work locally. You can even disconnect from the internet after the page has loaded and it keeps working.
+86	Mobile and touch tips
+87	Dragging thumbnails on a phone can scroll the page instead of moving the page, so each thumbnail has small ← and → buttons that move it one place. To move a page a long way, it is often faster to delete it and use *Duplicate selected* on a page next to the target position – or open the file on a tablet in landscape for more room. Rotate, delete and select buttons are large enough to tap accurately.
+88	Checking the result
+89	After downloading, open the PDF and scroll through quickly: the page count shown in the result message tells you how many pages were kept. If something is wrong, you can drop the original again and redo it – nothing was changed in the source file. For a quick visual check of a long document, [N-up PDF](/n-up-pdf/) at 16 pages per sheet gives a one-glance overview of page order.
+90	Glossary
+91	Term
+92	Meaning
+93	Reorder
+94	Change the position of pages in the document
+95	Rotate
+96	Turn a page by 90°, 180° or 270°; stored in the page's /Rotate setting
+97	Blank page
+98	An empty page inserted to separate sections or fix duplex printing
+99	Duplex
+100	Printing on both sides of the paper
+101	Thumbnail
+102	A small preview image of a page
+103	Accessibility
+104	All buttons have text labels or titles, the page can be used with a keyboard, and it respects your browser's zoom level. Screen-reader users can use the range box in the delete and extract modes as an alternative to clicking thumbnails.
+105	Privacy
+106	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+107	Related tools
+108	[Delete PDF pages](/delete-pdf-pages/)
+109	[Extract PDF pages](/extract-pdf-pages/)
+110	[Merge PDF](/merge-pdf/)
+111	[Split PDF](/split-pdf/)
+112	[Rotate PDF](/rotate-pdf/)
+113	How do I organize PDF pages?
+114	Drop the PDF, drag thumbnails into the new order, rotate or delete pages, then download the new PDF.
+115	How can I organize PDF pages for free?
+116	This tool is free with no sign-up, watermark or page limit because it runs in your browser.
+117	Can I sort a PDF file?
+118	Yes, drag pages into any order or use Reverse order to flip the whole document.
+119	Can I add a blank page to a PDF?
+120	Yes, select a page and press Insert blank page; it is added after it.
+121	Can I duplicate a page?
+122	Yes, tick it and press Duplicate selected.
+123	Will the quality change?
+124	No, pages are copied without re-rendering, so text and images stay identical.
+125	Is my PDF uploaded?
+126	No, everything happens on your device.
+127	Does it work on a phone?
+128	Yes; use the arrow buttons if dragging is awkward on a small screen.
+C	Their servers (upload)
+C	Account needed
+C	Drag-and-drop reorder
+C	Insert blank page
+C	Duplicate pages
+C	Reverse whole document

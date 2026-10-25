@@ -1,0 +1,134 @@
+0	Edit PDF
+1	Add text and white-out boxes to a PDF.
+2	Edit PDF Online Free – Add Text to PDF | {brand}
+3	Edit PDF text, add images, shapes, highlights, links and white-out free in your browser. Find & replace, OCR, undo/redo. No upload or hourly limits.
+4	Edit PDF
+5	Select your PDF.
+6	Choose Add text or White-out and click the preview to place items.
+7	Click Start and download the edited PDF.
+8	Can I edit existing text?
+9	You can cover existing text with a white-out box and type new text on top. Direct text editing is coming soon.
+10	Need to fill in a field, fix a typo or add a note to a PDF? {brand} lets you add text and white-out boxes on any page without installing software or uploading your file.
+11	Fill in a simple form that has no fillable fields.
+12	Cover a mistake with white-out and type the correct text.
+13	Add a date, name or note to a document.
+14	Zoom the preview to place text precisely.
+15	To hide sensitive information permanently, use Redact PDF instead of white-out.
+16	What you can edit
+17	Add new text anywhere – names, dates, notes, answers on forms – choose its size and colour, and cover unwanted content with white-out boxes. It is ideal for quick fixes when you do not have the original document.
+18	Limitations
+19	Existing text is not directly editable; cover it and type over it. For permanent removal of sensitive information, use Redact PDF.
+20	Free PDF Editor – Edit Text, Add Images & Shapes Online
+21	Edit PDF text, add text, images, shapes, highlights, links and white-out free in your browser. Find & replace, OCR, undo/redo. No upload or hourly limits.
+22	A full PDF editor that never uploads your file
+23	Most free online PDF editors are really annotation tools: they let you draw boxes on top of the page but not change the words that are already there. Others do edit text but send your document to a server and limit you to a few tasks an hour – Sejda, for example, allows 3 tasks per hour and 50 MB per file on its free tier. {brand} is different on both counts. You can change existing text directly, and the whole editor runs inside your browser tab, so the document stays on your device and there is no hourly limit.
+24	The editor opens your PDF with PDF.js, finds every text run along with its font, size and colour, and lets you click on any of them to type. When you save, the original text is removed and your new text is written back in a matching font, at the same position. Images, vector graphics and the rest of the page are left untouched, so the file looks just like it did – only with your changes.
+25	What you can do
+26	**Edit existing text** – click any line, retype it, change font, size, colour, bold or italic.
+27	**Add text** – click anywhere to place a new text box; drag to move it.
+28	**Find & replace** – change a name, date, price or typo everywhere in the document in one go.
+29	**White-out** – drag a box to cover and permanently remove content such as an old address or a phone number.
+30	**Add images** – insert logos, stamps, photos or a scanned signature, then move and resize them.
+31	**Select / move existing objects** – reposition, resize or delete images that were already in the PDF.
+32	**Highlight & shapes** – highlighter, rectangle, ellipse, line, arrow and freehand pen with adjustable colour and line width.
+33	**Links** – drag a box and link it to a web address, an e-mail (mailto:) or another page in the same document.
+34	**OCR** – make scanned pages editable by recognising their text first.
+35	**Undo and redo** – every change can be undone (Ctrl+Z) and redone (Ctrl+Y or Ctrl+Shift+Z).
+36	**Multi-page** – move between pages freely; all edits are saved together into one PDF.
+37	How to edit text in a PDF, step by step
+38	**Open the file.** Drop your PDF onto the page or click to choose it. It opens instantly because nothing is uploaded.
+39	**Make sure 'Edit existing text' is selected.** Text runs show a faint outline when you hover over them.
+40	**Click the text you want to change.** It becomes an editable box with the original font, size and colour already set.
+41	**Type your changes.** Use the toolbar to adjust font, size, colour, bold or italic. Press Escape or click elsewhere to finish.
+42	**Repeat on other pages** using the page selector. Use Find & replace for changes that occur many times.
+43	**Click the save button** and download your edited PDF. The original file on your disk is not modified.
+44	How to add a text box, image or signature
+45	Choose **Add text** and click where the new text should go. Type, then drag the box to fine-tune its position. For logos or photos choose the image option, pick a PNG or JPG and drag the corners to resize. A transparent PNG works best for stamps and signatures because the page shows through around it.
+46	If you need a proper signature with initials and today's date on several pages, our dedicated [Sign PDF](/sign-pdf/) tool is quicker: draw, type or upload a signature once and click to place it as many times as you need.
+47	How to highlight, draw shapes and arrows
+48	Choose **Highlight & shapes**, pick the shape from the list and drag on the page. Highlights are semi-transparent so the text underneath stays readable. Rectangles and ellipses are useful for drawing attention to a figure; arrows and lines point to details in drawings or screenshots; the freehand pen lets you circle, underline or annotate by hand – on a touch screen it works with a finger or stylus. Set the colour and line width before drawing. Every shape is written into the page as vector graphics, so it stays sharp at any zoom and prints exactly as you see it.
+49	How to add clickable links
+50	Choose **Link**, drag a rectangle over the words or image that should be clickable, and enter a web address such as https://example.com, an e-mail such as mailto:name@example.com, or a page number to jump inside the document. The link is saved as a standard PDF link annotation, so it works in Adobe Reader, Chrome, Edge, Firefox, macOS Preview and mobile PDF viewers. This is handy for adding a booking link to a menu, a website to a flyer, or a table of contents to a long report.
+51	How to remove or hide content
+52	Use **White-out** to drag a white rectangle over anything you want gone – an old price, a personal number, a watermark-free area for new text. The covered content is removed from the page's text layer when saving, so it is not just visually hidden. For sensitive documents that must be redacted with black boxes, use our [Redact PDF](/redact-pdf/) tool, which also removes the underlying text and images.
+53	Editing scanned PDFs with OCR
+54	A scanned page is a picture, so there is no text to click on. Run OCR from the editor first: it recognises the words on the page in your chosen language and turns them into editable text boxes positioned over the original. You can then correct, replace or white-out text as with any other PDF. For a searchable but otherwise unchanged copy of a scan, use [OCR PDF](/ocr-pdf/).
+55	Real-world things people use it for
+56	**Fixing a typo in a contract or CV** without hunting for the original Word file.
+57	**Updating prices, dates or phone numbers** on menus, flyers and price lists.
+58	**Filling in a form** that has no fillable fields – just add text where needed.
+59	**Marking up drawings and screenshots** with arrows, boxes and comments for a colleague.
+60	**Adding a logo and contact links** to a quotation or brochure.
+61	**Removing personal details** before sharing a document publicly.
+62	**Correcting OCR mistakes** in a scanned letter.
+63	Fonts and how close the match is
+64	When you edit existing text, the editor tries to use the same font that is embedded in the PDF. If the PDF only contains a subset of a font (only the letters that were used), new letters may not exist in it; in that case the editor falls back to the closest standard font – serif, sans-serif or monospace – in the same weight and style. For most business documents in Arial, Helvetica, Times or Calibri the result is indistinguishable. You can always choose a different font from the toolbar.
+65	Why a browser editor is safer
+66	PDFs that people edit tend to be personal: tenancy agreements, salary slips, tax forms, medical reports, legal letters. Uploading them to a free website means trusting a company you know nothing about with that data. With {brand}, the editor code is downloaded once and then works on your file locally. You can disconnect from the internet after the page loads and keep editing – proof that nothing is being sent. There is no account to create and no history stored on a server.
+67	Tips for best results
+68	Edit one line at a time – PDFs store text as separate lines, so long paragraphs are edited line by line.
+69	Keep replacements about the same length as the original to avoid overlapping neighbouring text.
+70	Use Find & replace for names and dates that appear on many pages.
+71	Want to rearrange or delete whole pages? Use [Organize PDF](/organize-pdf/) after editing.
+72	Large file after adding photos? Run it through [Compress PDF](/compress-pdf/).
+73	Need a Word document to rewrite large sections? Convert with [PDF to Word](/pdf-to-word/), edit, then convert back with [Word to PDF](/word-to-pdf/).
+74	Editing PDFs on a phone or tablet
+75	The editor is fully touch-friendly. On an iPhone, iPad or Android device, tap a line of text to edit it with the on-screen keyboard, pinch to zoom, and use your finger or an Apple Pencil with the freehand pen to annotate. Because nothing is uploaded, editing works even on slow mobile data once the page has loaded. Download the result to Files or share it directly to e-mail or a messaging app.
+76	Editing vs annotating vs converting
+77	You want to…
+78	Best approach
+79	Fix a few words or numbers
+80	Edit existing text here
+81	Comment or mark up for review
+82	Highlight, shapes, arrows and pen
+83	Rewrite whole sections or reflow paragraphs
+84	Convert to Word, edit, convert back
+85	Hide sensitive information permanently
+86	Redact PDF
+87	Fill in a form with fields
+88	Fill PDF Form
+89	Change page order or remove pages
+90	Organize PDF
+91	Choosing the right approach saves time: direct editing is perfect for targeted fixes and keeps the original design intact, while converting to Word is better when the text has to flow differently, for example when adding several new paragraphs.
+92	Keyboard shortcuts
+93	**Ctrl/Cmd + Z** – undo the last change.
+94	**Ctrl/Cmd + Y** or **Ctrl/Cmd + Shift + Z** – redo.
+95	**Delete / Backspace** – remove the selected text box, image or shape.
+96	**Escape** – finish editing the current text box.
+97	Troubleshooting
+98	**Text won't highlight when hovered** – the page is probably a scan; run OCR first.
+99	**New letters look slightly different** – the embedded font is a subset; pick a similar font from the toolbar.
+100	**Shape was drawn in the wrong place** – press Ctrl+Z, or switch to Select / move and drag it.
+101	**Link doesn't open** – make sure it starts with https:// or mailto:, and test in a PDF reader rather than an image viewer.
+102	**File is password-protected** – unlock it with [Unlock PDF](/unlock-pdf/) if you know the password, then edit.
+103	**Very slow on a huge file** – split it with [Split PDF](/split-pdf/), edit the part you need, then merge again.
+104	Can I edit the existing text in a PDF for free?
+105	Yes. Click any line of text, retype it and save. Font, size and colour are matched automatically.
+106	Is my PDF uploaded to a server?
+107	No. The editor runs entirely in your browser. You can even disconnect from the internet after the page loads.
+108	Are there hourly or file size limits?
+109	No. Unlike tools that allow only a few tasks per hour, you can edit as many PDFs as you like; size depends only on your device.
+110	Can I add images, shapes and highlights?
+111	Yes – images, highlighter, rectangles, ellipses, lines, arrows and a freehand pen with any colour and line width.
+112	Can I add clickable links to a PDF?
+113	Yes. Drag a box in Link mode and enter a URL, an e-mail address or a page number.
+114	Can I edit a scanned PDF?
+115	Yes. Run OCR first to turn the scanned text into editable text, then edit as usual.
+116	How do I edit a PDF without Adobe Acrobat?
+117	Open it here in any browser – Chrome, Edge, Safari or Firefox – on Windows, Mac, Linux, Android or iPhone. No installation is needed.
+118	Can I undo a mistake?
+119	Yes. Use the undo and redo buttons or Ctrl+Z and Ctrl+Y.
+120	Will my edited PDF have a watermark?
+121	No. The saved PDF is clean, with no watermark or branding.
+122	Can I password-protect the edited PDF?
+123	Yes. After saving, use Protect PDF to add a password.
+124	How do I edit a PDF for free?
+125	Open the PDF on this page, then click to add or change text, insert images and shapes, highlight, white-out or add links. Press Save to download the edited PDF. It is free, with no watermark or hourly limits.
+126	Can I edit existing text in a PDF?
+127	Yes. Click on a line of text to edit it; the original is covered and replaced with your new text in a matching font where possible. For scanned pages, run OCR first so the text becomes editable.
+C	Edit existing text
+C	Shapes, arrows, freehand pen
+C	Add links
+C	Find & replace
+C	OCR for scans
+C	Undo / redo
