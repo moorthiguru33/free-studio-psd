@@ -108,7 +108,7 @@
   "id": "word2pdf",
   "slug": "word-to-pdf",
   "accept": ".docx",
-  "multiple": false,
+  "multiple": true,
   "icon": "⇄",
   "cat": "convert",
   "beta": true

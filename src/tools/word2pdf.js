@@ -1,5 +1,6 @@
 // @needs pdfx
-TOOLS.word2pdf={async run([f]){const mammoth=await L.mammoth();const {value:html}=await mammoth.convertToHtml({arrayBuffer:await buf(f)});const {PDFDocument,StandardFonts,rgb}=await L.pdflib();const d=await PDFDocument.create();
+TOOLS.word2pdf={async run(files,status){if(files.length===1)return this.run1(files[0]);const items=[];let k=0;for(const f of files){status(`${T.working} ${++k}/${files.length}`);const r=await this.run1(f);items.push({name:r.name,blob:r.blob});}return {blob:await zipBlobs(items),name:'word-to-pdf.zip',links:items,info:items.length+' PDFs'};},
+ async run1(f){const mammoth=await L.mammoth();const {value:html}=await mammoth.convertToHtml({arrayBuffer:await buf(f)});const {PDFDocument,StandardFonts,rgb}=await L.pdflib();const d=await PDFDocument.create();
    const F={r:await d.embedFont(StandardFonts.Helvetica),b:await d.embedFont(StandardFonts.HelveticaBold),i:await d.embedFont(StandardFonts.HelveticaOblique),bi:await d.embedFont(StandardFonts.HelveticaBoldOblique)};const safe=mkSafe(F.r);
    const W=595.28,H=841.89,M=56;let page=d.addPage([W,H]),y=H-M;const newPage=()=>{page=d.addPage([W,H]);y=H-M;};
    const dom=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html').body.firstChild;
@@ -10,7 +11,7 @@ TOOLS.word2pdf={async run([f]){const mammoth=await L.mammoth();const {value:html
     if(line.length)flush();y-=size*0.5;};
    const walk=(node,depth=0)=>{for(const el of node.children){const tg=el.tagName;if(/^H[1-6]$/.test(tg)){const s=[22,18,15,13,12,11][+tg[1]-1];y-=s*0.4;block(el,s,0,'',true);}else if(tg==='P')block(el,11,0,'');else if(tg==='UL'||tg==='OL'){let k=1;for(const li of el.children){const sub=[...li.children].filter(c=>c.tagName==='UL'||c.tagName==='OL');sub.forEach(s=>s.remove());block(li,11,18+depth*18,tg==='OL'?`${k++}. `:'• ');sub.forEach(s=>walk({children:[s]},depth+1));}}else if(tg==='TABLE'){for(const tr of el.querySelectorAll('tr')){const p=document.createElement('p');p.textContent=[...tr.children].map(c=>c.textContent.trim()).join('   |   ');block(p,10,0,'');}}else walk(el,depth);}};
    walk(dom);return {blob:pdfBlob(await d.save()),name:base(f.name)+'.pdf'};}};
-TOOLS.word2pdf.run=async function([f]){const mammoth=await L.mammoth();const {value:html}=await mammoth.convertToHtml({arrayBuffer:await buf(f)});const {PDFDocument,rgb}=await L.pdflib();const d=await PDFDocument.create();
+TOOLS.word2pdf.run1=async function(f){const mammoth=await L.mammoth();const {value:html}=await mammoth.convertToHtml({arrayBuffer:await buf(f)});const {PDFDocument,rgb}=await L.pdflib();const d=await PDFDocument.create();
  const W=595.28,H=841.89,M=56;let page=d.addPage([W,H]),y=H-M;const newPage=()=>{page=d.addPage([W,H]);y=H-M;};
  const dom=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html').body.firstChild;
  const runsOf=(node,st={b:false},acc=[])=>{for(const n of node.childNodes){if(n.nodeType===3)acc.push({t:n.textContent,...st});else if(n.nodeType===1){if(n.tagName==='BR'){acc.push({br:true});continue;}if(n.tagName==='IMG')continue;runsOf(n,{b:st.b||n.tagName==='STRONG'||n.tagName==='B'},acc);}}return acc;};

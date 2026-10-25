@@ -1,0 +1,1046 @@
+{
+"tools": {
+"word2pdf": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Word to PDF Converter – Free, Batch, No Upload",
+"desc": "Convert Word (DOCX) to PDF free in your browser. Batch convert many files to a ZIP, keep fonts, tables and images. No upload, no sign-up, no watermark.",
+"sections": [
+[
+"Why convert Word to PDF here",
+"A Word document looks different on every computer: fonts get substituted, page breaks move and images drift. A PDF freezes the layout so that what you send is exactly what the reader sees – on Windows, macOS, a phone or a printer. That is why CVs, invoices, assignments, contracts and government forms are almost always requested as PDF.",
+"{brand} converts the .docx file inside your browser. The document is unzipped and laid out on your own device, and the finished PDF is produced locally. Your file never travels to a server, so confidential HR letters, client proposals or exam answers stay on your machine.",
+[
+"**Free batch conversion** – drop several DOCX files at once and get one ZIP of PDFs. Smallpdf reserves batch processing for paid plans; here it is free and unlimited.",
+"**Keeps the important parts** – paragraphs, headings, bold/italic, lists, tables, images, page size and margins are carried across.",
+"**No watermark, no daily limit** – convert one file or a hundred, today and tomorrow.",
+"**Works offline** – once the page has loaded you can switch off Wi‑Fi and keep converting."
+]
+],
+[
+"How to save a Word document as PDF without any website",
+"If you have Microsoft Word installed, you can also choose **File → Save As → PDF** (Windows) or **File → Export → PDF** (Mac). Google Docs offers **File → Download → PDF document**, and LibreOffice has **File → Export as PDF**. Those are good options when the program is already open.",
+"This tool is useful when you are on a computer without Office, on a Chromebook or phone, when you need to convert a whole folder of files in one go, or when you were sent a DOCX and just want a PDF quickly without installing anything."
+],
+[
+"Tips for a perfect PDF",
+[
+"**Use common fonts** – Calibri, Arial, Times New Roman and similar fonts convert most faithfully. Rare decorative fonts may be replaced with a close match.",
+"**Accept tracked changes first** – comments and revision marks are not printed, so finalise the document in Word before converting.",
+"**Check page size** – A4 and US Letter are both supported; the PDF uses the size set in the document.",
+"**Large images** – very high-resolution photos make big PDFs. Run the result through [Compress PDF](/compress-pdf/) to shrink it for e-mail.",
+"**Old .doc files** – open them in Word, Google Docs or LibreOffice and save as .docx first; this converter reads the modern DOCX format."
+]
+],
+[
+"Common uses",
+[
+"Sending a CV or cover letter that looks identical for every recruiter.",
+"Submitting assignments and theses to portals that only accept PDF.",
+"Turning a batch of generated letters or invoices into PDFs in one go.",
+"Archiving signed-off documents so nobody can accidentally edit them.",
+"Preparing a document for signing with [Sign PDF](/sign-pdf/) or combining it with others using [Merge PDF](/merge-pdf/)."
+]
+],
+[
+"What happens to your document",
+"Everything runs in JavaScript inside the browser tab. The DOCX is read from your disk into memory, converted, and the PDF is offered as a download. Closing the tab discards everything. There is no account, no cookie-based tracking of your files and no copy kept anywhere – you can verify this by disconnecting from the internet after the page loads."
+],
+[
+"Word to PDF on Windows, Mac, Chromebook and phone",
+"Because the converter is a web page, it behaves the same everywhere. On a Windows PC or Mac it saves you opening Word just to export. On a Chromebook, where Microsoft Office desktop apps are not available, it gives you a faithful PDF in seconds. On Android or iPhone, open the DOCX from your e-mail or Files app, convert it here, and share the PDF straight back – handy when a portal or recruiter insists on PDF and you are away from your desk."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Batch conversion",
+"Free – many files to ZIP",
+"See site",
+"Pro plans",
+"See site",
+"Within task limits"
+],
+[
+"Watermark on output",
+"Never",
+"No",
+"No",
+"No",
+"No"
+]
+],
+"faq": [
+{
+"q": "Is this Word to PDF converter really free?",
+"a": "Yes. There is no trial, no watermark and no limit on the number of files or conversions."
+},
+{
+"q": "Can I convert several Word files at once?",
+"a": "Yes. Select or drop multiple DOCX files and you get a ZIP containing one PDF per document."
+},
+{
+"q": "Are my documents uploaded?",
+"a": "No. Conversion happens in your browser, so the file never leaves your device. It even works offline after the page loads."
+},
+{
+"q": "Will the formatting stay the same?",
+"a": "Paragraphs, headings, fonts, lists, tables, images and margins are preserved. Very unusual fonts may be replaced by a similar font."
+},
+{
+"q": "Does it support .doc files?",
+"a": "It reads DOCX. Open an old .doc file in Word, Google Docs or LibreOffice and save it as DOCX first."
+},
+{
+"q": "How do I save a Word document as PDF in Word itself?",
+"a": "In Word use File → Save As and choose PDF (Windows) or File → Export → PDF (Mac). This tool is handy when Word is not installed."
+},
+{
+"q": "Can I convert Word to PDF on my phone?",
+"a": "Yes. The tool runs in mobile browsers on Android and iPhone without installing an app."
+},
+{
+"q": "Can I convert the PDF back to Word later?",
+"a": "Yes – use our PDF to Word converter, which also includes free OCR for scanned files."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No fixed limit. Very large documents depend on your device's memory; most modern phones and laptops handle long reports fine."
+}
+],
+"related": [
+"pdf-to-word",
+"merge-pdf",
+"compress-pdf",
+"excel-to-pdf",
+"sign-pdf"
+]
+}
+},
+"split": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Split PDF – Extract Pages or Ranges Free, No Upload",
+"desc": "Split a PDF into single pages, page ranges, every X pages or even/odd pages – or click to cut. Free, private, in your browser. No upload, no sign-up.",
+"sections": [
+[
+"Every way to split a PDF, in one place",
+"Splitting sounds simple, but people mean very different things by it: pulling out one chapter, separating a scanned stack into individual invoices, sending only the signed page, or breaking a huge file into e-mail-sized parts. {brand} covers all of these, and does it in your browser so the document is never uploaded.",
+[
+"**Every page** – one PDF per page, delivered as a ZIP.",
+"**Where I click the scissors** – look at page thumbnails and click between pages to cut the document exactly where you want.",
+"**Select page ranges** – type ranges such as 1-3, 7, 10-12 to extract just those pages (one file per range or merged into one).",
+"**Every X pages** – split a 100-page scan into 2-page or 5-page documents in one step.",
+"**Even / odd pages** – separate front and back sides of a duplex scan.",
+"**By file size** – use [Split PDF by size](/split-pdf-by-size/) to get parts under an e-mail limit such as 10 MB.",
+"**By bookmarks or chapters** – [Split PDF by bookmarks](/split-pdf-by-bookmarks/) creates one file per chapter automatically.",
+"**By text** – [Split PDF by text](/split-pdf-by-text/) starts a new file whenever a word like 'Invoice' appears.",
+"**Pages in half** – [Split pages in half](/split-pdf-pages-in-half/) cuts two-up scanned book spreads into single pages."
+]
+],
+[
+"Which mode should I use?",
+{
+"table": [
+[
+"Goal",
+"Best mode"
+],
+[
+"Send one or two pages",
+"Select page ranges"
+],
+[
+"Separate a stack of scanned receipts",
+"Every X pages or click to cut"
+],
+[
+"Fit a file under an e-mail limit",
+"Split by size"
+],
+[
+"One file per chapter",
+"Split by bookmarks"
+],
+[
+"Duplex scan with fronts and backs mixed",
+"Even / odd pages"
+],
+[
+"Every page as its own file",
+"Every page"
+]
+]
+}
+],
+[
+"Lossless and private",
+"Splitting copies the original page objects into new PDFs – nothing is re-rendered or re-compressed, so text stays selectable, vector graphics stay sharp and images keep their quality. Links, form fields and fonts on the copied pages are kept.",
+"Because the work happens locally, there is no waiting for an upload of a 200 MB scan, no hourly task limit like Sejda's 3 tasks per hour, and no copy of your bank statement or medical record on somebody else's server."
+],
+[
+"Tips",
+[
+"Page numbers in ranges refer to the physical page position (1 = first page), not to numbers printed on the page.",
+"Want to remove pages instead of extracting them? Use [Delete PDF pages](/delete-pdf-pages/). To reorder, use [Organize PDF](/organize-pdf/).",
+"Got the pieces and need some of them together again? [Merge PDF](/merge-pdf/) joins them in any order.",
+"Password-protected file? Unlock it first with [Unlock PDF](/unlock-pdf/) if you know the password."
+]
+],
+[
+"Common uses",
+[
+"Sending only the relevant pages of a contract or report.",
+"Separating a scanned batch of invoices into one file per invoice.",
+"Extracting a single chapter of an e-book or textbook for study.",
+"Breaking a large portfolio into smaller parts that upload portals accept.",
+"Sharing just the signature page for countersigning."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Split by ranges / fixed pages",
+"Yes",
+"Yes",
+"Yes",
+"Yes",
+"Yes"
+],
+[
+"Click-to-cut on thumbnails",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+],
+[
+"Even / odd pages",
+"Yes",
+"Not offered on page",
+"See site",
+"See site",
+"See site"
+],
+[
+"Split by size, bookmarks, text",
+"Yes (free, separate tools)",
+"Size: yes",
+"See site",
+"See site",
+"Yes"
+]
+],
+"faq": [
+{
+"q": "How do I extract just a few pages from a PDF?",
+"a": "Choose 'Select page ranges', type the pages such as 2-4, 9 and click Split. You can get each range as its own file or all together."
+},
+{
+"q": "Does splitting reduce quality?",
+"a": "No. Pages are copied as they are, without re-compressing, so text and images look identical to the original."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No. The split runs in your browser and the file never leaves your device."
+},
+{
+"q": "Can I split a PDF into equal parts?",
+"a": "Yes. Use 'Every X pages' and enter how many pages each part should have."
+},
+{
+"q": "How do I split a PDF to fit an e-mail size limit?",
+"a": "Use Split PDF by size and set a maximum such as 10 MB; each part will stay under it."
+},
+{
+"q": "Can I split by chapters?",
+"a": "Yes. Split PDF by bookmarks creates one file per bookmark (chapter) automatically."
+},
+{
+"q": "Is there a page or file limit?",
+"a": "No. There are no hourly limits; very large files only depend on your device's memory."
+},
+{
+"q": "Will links and form fields still work?",
+"a": "Yes, links and form fields on the copied pages are kept."
+},
+{
+"q": "Can I split a password-protected PDF?",
+"a": "If you know the password, unlock it with Unlock PDF first, then split."
+}
+],
+"related": [
+"merge-pdf",
+"split-pdf-by-size",
+"split-pdf-by-bookmarks",
+"delete-pdf-pages",
+"organize-pdf"
+]
+}
+},
+"pdf2excel": {
+"seo": {
+"updated": "2026-10-25",
+"title": "PDF to Excel Converter – Free OCR for Scanned Tables",
+"desc": "Convert PDF tables to Excel (XLSX) or CSV free. Free OCR reads scanned PDFs in 12 languages. Sheet per page or per table. No upload, no sign-up.",
+"sections": [
+[
+"Turn PDF tables into real spreadsheets",
+"Bank statements, price lists, invoices, timetables and financial reports usually arrive as PDFs – but you need the numbers in Excel to sort, filter and add them up. Copy-and-paste from a PDF typically produces one long column of jumbled text. {brand} detects the rows and columns on each page and writes them into proper spreadsheet cells, with numbers stored as numbers.",
+[
+"**Free OCR for scanned PDFs** – iLovePDF lists OCR as a Premium feature. Here, scanned and photographed pages are read on your device with Tesseract in 12 languages, at no cost.",
+"**Automatic mode** – pages that already contain text are converted directly; only image-only pages go through OCR, which keeps conversion fast.",
+"**Choose your sheet layout** – one sheet per page, one sheet per table, or everything on a single sheet.",
+"**XLSX or CSV** – Excel workbooks for Excel, Google Sheets and LibreOffice, or CSV for databases and scripts.",
+"**Private** – financial data never leaves your browser."
+]
+],
+[
+"How table detection works",
+"For digital PDFs the converter reads every text fragment with its exact position. Fragments on the same baseline become a row; consistent gaps between fragments become column boundaries. Ruled lines, when present, help confirm the grid. Numbers with thousands separators, currency symbols, percentages and negative values in brackets are recognised and stored as numeric cells so formulas work immediately.",
+"For scanned pages the page is rendered at 300 DPI, OCR returns every word with its bounding box, and the same row/column logic is applied. The result screen tells you how many pages were read with OCR so you know which ones to double-check."
+],
+[
+"Getting the cleanest result",
+[
+"**Pick the right OCR language** for scans – accents and non-Latin scripts depend on it.",
+"**Straight, sharp scans** work best. If a scan is skewed or dark, try [PDF Scanner](/pdf-scanner/) to clean it up first.",
+"**One sheet per table** is ideal for reports with several tables per page; **one sheet** is ideal for long statements spanning many pages.",
+"**Check merged headers** – multi-line column titles may land in two rows; merge them in Excel in seconds.",
+"Need only the text? [PDF to Text](/pdf-to-text/) is faster. Need an editable document? Use [PDF to Word](/pdf-to-word/)."
+]
+],
+[
+"XLS vs XLSX vs CSV",
+{
+"table": [
+[
+"Format",
+"Best for"
+],
+[
+"XLSX",
+"Modern Excel, Google Sheets, LibreOffice – keeps multiple sheets and number types"
+],
+[
+"CSV",
+"Importing into databases, accounting software or Python/R scripts – one table, plain text"
+],
+[
+"XLS",
+"Very old Excel versions only; open the XLSX and save as XLS if you truly need it"
+]
+]
+}
+],
+[
+"Common uses",
+[
+"Reconciling bank and credit-card statements.",
+"Importing supplier price lists into inventory systems.",
+"Analysing financial statements and annual reports.",
+"Digitising old printed tables with OCR.",
+"Converting timetables and schedules into editable sheets."
+]
+],
+[
+"Step by step: PDF to Excel",
+[
+"**Drop your PDF** onto the page – digital or scanned.",
+"**Choose the format** – XLSX for Excel and Google Sheets, or CSV.",
+"**Choose the sheet layout** – per page, per table, or one sheet.",
+"**Leave OCR on Auto** so scanned pages are recognised automatically, and pick the document language.",
+"**Convert and download**, then open the file in Excel, Google Sheets, Numbers or LibreOffice Calc. Spot-check totals against the PDF before relying on the figures."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"OCR for scanned PDFs",
+"Free, 12 languages",
+"Premium",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV output",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+],
+[
+"Sheet per page / per table / single",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Can it convert scanned PDFs to Excel?",
+"a": "Yes. Free OCR reads scanned or photographed pages in 12 languages and rebuilds the table rows and columns."
+},
+{
+"q": "Is PDF to Excel free?",
+"a": "Yes, completely – including OCR, which some services charge for."
+},
+{
+"q": "Are my bank statements uploaded?",
+"a": "No. Everything is processed in your browser; nothing is sent to a server."
+},
+{
+"q": "Will numbers be real numbers in Excel?",
+"a": "Yes. Values with separators, currency symbols, percentages and bracketed negatives are stored as numeric cells."
+},
+{
+"q": "What's the difference between XLS and XLSX?",
+"a": "XLSX is the modern Excel format used since 2007. XLS is the legacy format; you can save the XLSX as XLS in Excel if needed."
+},
+{
+"q": "Can I put all pages on one sheet?",
+"a": "Yes. Choose 'Everything on one sheet' – ideal for long statements."
+},
+{
+"q": "Does it work with Google Sheets?",
+"a": "Yes. Upload the XLSX to Google Drive or use File → Import in Sheets."
+},
+{
+"q": "Why are some columns merged or split?",
+"a": "Tables without clear spacing or lines can be ambiguous. Try the 'one sheet per table' layout or adjust the few cells in Excel."
+},
+{
+"q": "Can I convert to CSV instead?",
+"a": "Yes. Choose CSV as the format for a plain-text table."
+}
+],
+"related": [
+"excel-to-pdf",
+"pdf-to-word",
+"ocr-pdf",
+"pdf-to-text",
+"pdf-to-csv"
+]
+}
+},
+"edit": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Free PDF Editor – Edit Text, Add Images & Shapes Online",
+"desc": "Edit PDF text, add text, images, shapes, highlights, links and white-out free in your browser. Find & replace, OCR, undo/redo. No upload or hourly limits.",
+"sections": [
+[
+"A full PDF editor that never uploads your file",
+"Most free online PDF editors are really annotation tools: they let you draw boxes on top of the page but not change the words that are already there. Others do edit text but send your document to a server and limit you to a few tasks an hour – Sejda, for example, allows 3 tasks per hour and 50 MB per file on its free tier. {brand} is different on both counts. You can change existing text directly, and the whole editor runs inside your browser tab, so the document stays on your device and there is no hourly limit.",
+"The editor opens your PDF with PDF.js, finds every text run along with its font, size and colour, and lets you click on any of them to type. When you save, the original text is removed and your new text is written back in a matching font, at the same position. Images, vector graphics and the rest of the page are left untouched, so the file looks just like it did – only with your changes."
+],
+[
+"What you can do",
+[
+"**Edit existing text** – click any line, retype it, change font, size, colour, bold or italic.",
+"**Add text** – click anywhere to place a new text box; drag to move it.",
+"**Find & replace** – change a name, date, price or typo everywhere in the document in one go.",
+"**White-out** – drag a box to cover and permanently remove content such as an old address or a phone number.",
+"**Add images** – insert logos, stamps, photos or a scanned signature, then move and resize them.",
+"**Select / move existing objects** – reposition, resize or delete images that were already in the PDF.",
+"**Highlight & shapes** – highlighter, rectangle, ellipse, line, arrow and freehand pen with adjustable colour and line width.",
+"**Links** – drag a box and link it to a web address, an e-mail (mailto:) or another page in the same document.",
+"**OCR** – make scanned pages editable by recognising their text first.",
+"**Undo and redo** – every change can be undone (Ctrl+Z) and redone (Ctrl+Y or Ctrl+Shift+Z).",
+"**Multi-page** – move between pages freely; all edits are saved together into one PDF."
+]
+],
+[
+"How to edit text in a PDF, step by step",
+[
+"**Open the file.** Drop your PDF onto the page or click to choose it. It opens instantly because nothing is uploaded.",
+"**Make sure 'Edit existing text' is selected.** Text runs show a faint outline when you hover over them.",
+"**Click the text you want to change.** It becomes an editable box with the original font, size and colour already set.",
+"**Type your changes.** Use the toolbar to adjust font, size, colour, bold or italic. Press Escape or click elsewhere to finish.",
+"**Repeat on other pages** using the page selector. Use Find & replace for changes that occur many times.",
+"**Click the save button** and download your edited PDF. The original file on your disk is not modified."
+]
+],
+[
+"How to add a text box, image or signature",
+"Choose **Add text** and click where the new text should go. Type, then drag the box to fine-tune its position. For logos or photos choose the image option, pick a PNG or JPG and drag the corners to resize. A transparent PNG works best for stamps and signatures because the page shows through around it.",
+"If you need a proper signature with initials and today's date on several pages, our dedicated [Sign PDF](/sign-pdf/) tool is quicker: draw, type or upload a signature once and click to place it as many times as you need."
+],
+[
+"How to highlight, draw shapes and arrows",
+"Choose **Highlight & shapes**, pick the shape from the list and drag on the page. Highlights are semi-transparent so the text underneath stays readable. Rectangles and ellipses are useful for drawing attention to a figure; arrows and lines point to details in drawings or screenshots; the freehand pen lets you circle, underline or annotate by hand – on a touch screen it works with a finger or stylus. Set the colour and line width before drawing. Every shape is written into the page as vector graphics, so it stays sharp at any zoom and prints exactly as you see it."
+],
+[
+"How to add clickable links",
+"Choose **Link**, drag a rectangle over the words or image that should be clickable, and enter a web address such as https://example.com, an e-mail such as mailto:name@example.com, or a page number to jump inside the document. The link is saved as a standard PDF link annotation, so it works in Adobe Reader, Chrome, Edge, Firefox, macOS Preview and mobile PDF viewers. This is handy for adding a booking link to a menu, a website to a flyer, or a table of contents to a long report."
+],
+[
+"How to remove or hide content",
+"Use **White-out** to drag a white rectangle over anything you want gone – an old price, a personal number, a watermark-free area for new text. The covered content is removed from the page's text layer when saving, so it is not just visually hidden. For sensitive documents that must be redacted with black boxes, use our [Redact PDF](/redact-pdf/) tool, which also removes the underlying text and images."
+],
+[
+"Editing scanned PDFs with OCR",
+"A scanned page is a picture, so there is no text to click on. Run OCR from the editor first: it recognises the words on the page in your chosen language and turns them into editable text boxes positioned over the original. You can then correct, replace or white-out text as with any other PDF. For a searchable but otherwise unchanged copy of a scan, use [OCR PDF](/ocr-pdf/)."
+],
+[
+"Real-world things people use it for",
+[
+"**Fixing a typo in a contract or CV** without hunting for the original Word file.",
+"**Updating prices, dates or phone numbers** on menus, flyers and price lists.",
+"**Filling in a form** that has no fillable fields – just add text where needed.",
+"**Marking up drawings and screenshots** with arrows, boxes and comments for a colleague.",
+"**Adding a logo and contact links** to a quotation or brochure.",
+"**Removing personal details** before sharing a document publicly.",
+"**Correcting OCR mistakes** in a scanned letter."
+]
+],
+[
+"Fonts and how close the match is",
+"When you edit existing text, the editor tries to use the same font that is embedded in the PDF. If the PDF only contains a subset of a font (only the letters that were used), new letters may not exist in it; in that case the editor falls back to the closest standard font – serif, sans-serif or monospace – in the same weight and style. For most business documents in Arial, Helvetica, Times or Calibri the result is indistinguishable. You can always choose a different font from the toolbar."
+],
+[
+"Why a browser editor is safer",
+"PDFs that people edit tend to be personal: tenancy agreements, salary slips, tax forms, medical reports, legal letters. Uploading them to a free website means trusting a company you know nothing about with that data. With {brand}, the editor code is downloaded once and then works on your file locally. You can disconnect from the internet after the page loads and keep editing – proof that nothing is being sent. There is no account to create and no history stored on a server."
+],
+[
+"Tips for best results",
+[
+"Edit one line at a time – PDFs store text as separate lines, so long paragraphs are edited line by line.",
+"Keep replacements about the same length as the original to avoid overlapping neighbouring text.",
+"Use Find & replace for names and dates that appear on many pages.",
+"Want to rearrange or delete whole pages? Use [Organize PDF](/organize-pdf/) after editing.",
+"Large file after adding photos? Run it through [Compress PDF](/compress-pdf/).",
+"Need a Word document to rewrite large sections? Convert with [PDF to Word](/pdf-to-word/), edit, then convert back with [Word to PDF](/word-to-pdf/)."
+]
+],
+[
+"Editing PDFs on a phone or tablet",
+"The editor is fully touch-friendly. On an iPhone, iPad or Android device, tap a line of text to edit it with the on-screen keyboard, pinch to zoom, and use your finger or an Apple Pencil with the freehand pen to annotate. Because nothing is uploaded, editing works even on slow mobile data once the page has loaded. Download the result to Files or share it directly to e-mail or a messaging app."
+],
+[
+"Editing vs annotating vs converting",
+{
+"table": [
+[
+"You want to…",
+"Best approach"
+],
+[
+"Fix a few words or numbers",
+"Edit existing text here"
+],
+[
+"Comment or mark up for review",
+"Highlight, shapes, arrows and pen"
+],
+[
+"Rewrite whole sections or reflow paragraphs",
+"Convert to Word, edit, convert back"
+],
+[
+"Hide sensitive information permanently",
+"Redact PDF"
+],
+[
+"Fill in a form with fields",
+"Fill PDF Form"
+],
+[
+"Change page order or remove pages",
+"Organize PDF"
+]
+]
+},
+"Choosing the right approach saves time: direct editing is perfect for targeted fixes and keeps the original design intact, while converting to Word is better when the text has to flow differently, for example when adding several new paragraphs."
+],
+[
+"Keyboard shortcuts",
+[
+"**Ctrl/Cmd + Z** – undo the last change.",
+"**Ctrl/Cmd + Y** or **Ctrl/Cmd + Shift + Z** – redo.",
+"**Delete / Backspace** – remove the selected text box, image or shape.",
+"**Escape** – finish editing the current text box."
+]
+],
+[
+"Troubleshooting",
+[
+"**Text won't highlight when hovered** – the page is probably a scan; run OCR first.",
+"**New letters look slightly different** – the embedded font is a subset; pick a similar font from the toolbar.",
+"**Shape was drawn in the wrong place** – press Ctrl+Z, or switch to Select / move and drag it.",
+"**Link doesn't open** – make sure it starts with https:// or mailto:, and test in a PDF reader rather than an image viewer.",
+"**File is password-protected** – unlock it with [Unlock PDF](/unlock-pdf/) if you know the password, then edit.",
+"**Very slow on a huge file** – split it with [Split PDF](/split-pdf/), edit the part you need, then merge again."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Edit existing text",
+"Yes",
+"See site",
+"Yes",
+"Yes",
+"Yes"
+],
+[
+"Shapes, arrows, freehand pen",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+],
+[
+"Add links",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+],
+[
+"Find & replace",
+"Yes",
+"Not offered on page",
+"See site",
+"See site",
+"See site"
+],
+[
+"OCR for scans",
+"Free",
+"Premium",
+"See site",
+"See site",
+"See site"
+],
+[
+"Undo / redo",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Can I edit the existing text in a PDF for free?",
+"a": "Yes. Click any line of text, retype it and save. Font, size and colour are matched automatically."
+},
+{
+"q": "Is my PDF uploaded to a server?",
+"a": "No. The editor runs entirely in your browser. You can even disconnect from the internet after the page loads."
+},
+{
+"q": "Are there hourly or file size limits?",
+"a": "No. Unlike tools that allow only a few tasks per hour, you can edit as many PDFs as you like; size depends only on your device."
+},
+{
+"q": "Can I add images, shapes and highlights?",
+"a": "Yes – images, highlighter, rectangles, ellipses, lines, arrows and a freehand pen with any colour and line width."
+},
+{
+"q": "Can I add clickable links to a PDF?",
+"a": "Yes. Drag a box in Link mode and enter a URL, an e-mail address or a page number."
+},
+{
+"q": "Can I edit a scanned PDF?",
+"a": "Yes. Run OCR first to turn the scanned text into editable text, then edit as usual."
+},
+{
+"q": "How do I edit a PDF without Adobe Acrobat?",
+"a": "Open it here in any browser – Chrome, Edge, Safari or Firefox – on Windows, Mac, Linux, Android or iPhone. No installation is needed."
+},
+{
+"q": "Can I undo a mistake?",
+"a": "Yes. Use the undo and redo buttons or Ctrl+Z and Ctrl+Y."
+},
+{
+"q": "Will my edited PDF have a watermark?",
+"a": "No. The saved PDF is clean, with no watermark or branding."
+},
+{
+"q": "Can I password-protect the edited PDF?",
+"a": "Yes. After saving, use Protect PDF to add a password."
+}
+],
+"related": [
+"sign-pdf",
+"redact-pdf",
+"ocr-pdf",
+"organize-pdf",
+"protect-pdf"
+]
+}
+},
+"sign": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Sign PDF Free – Draw, Type or Upload Your Signature",
+"desc": "Sign PDFs free: draw, type or upload a signature, add initials and date, place on many pages. Saved on your device only. No upload, no account.",
+"sections": [
+[
+"Sign a PDF in under a minute – privately",
+"Whether it is a rental agreement, an offer letter, a school permission slip or a supplier contract, signing used to mean print, sign, scan. With {brand} you add your signature straight onto the PDF in your browser. The document is never uploaded, there is no account to create, and you do not need to send the file to yourself through an e-signature platform.",
+[
+"**Three ways to create a signature** – draw it with a mouse, trackpad, finger or stylus; type your name and pick a handwriting style; or upload a photo of your signature. A white background is made transparent automatically.",
+"**Initials, date and custom text** – place your initials, today's date or any text (such as your printed name or 'Approved') with the same tool.",
+"**Many placements, many pages** – click to place as often as you need; switch pages to initial every page and sign the last one. Undo removes the last placement.",
+"**Remember my signature** – optionally store your signature in this browser only (local storage), so next time it is ready instantly. Nothing is saved on a server.",
+"**Colour and size** – blue or black ink, and any width."
+],
+"It also means there is nothing to wait for. Large scanned contracts open instantly, signing works on a train or plane with no connection once the page has loaded, and you can sign as many documents as you like in a day. There are no credits, no free-trial countdown and no prompts to create an account before you can download your own signed file."
+],
+[
+"How to sign a PDF",
+[
+"**Open your PDF** by dropping it on the page.",
+"**Create your signature** – draw, type or upload. Tick 'Remember my signature' if you want it saved on this device.",
+"**Choose what to place** – Signature, Initials, Today's date or Custom text.",
+"**Click on the page** where it should go. Each click adds a copy centred on the spot you clicked.",
+"**Switch pages** to sign or initial other pages. Use Undo if you misplace one.",
+"**Download** the signed PDF."
+]
+],
+[
+"Electronic signature vs digital signature",
+"These two terms are often confused. An **electronic signature** is any electronic indication that a person agrees to a document – a drawn or typed signature, a scanned image, even ticking a box. That is what this tool creates. In many countries electronic signatures are legally recognised for most everyday agreements: in the United States under the ESIGN Act and UETA, and in the European Union as 'simple electronic signatures' under the eIDAS regulation.",
+"A **digital signature** is a specific technology: a cryptographic seal based on a certificate issued to you, which proves who signed and that the file has not been changed since. Some documents – certain government filings, notarised deeds or 'qualified' signatures under eIDAS – require that level. If a recipient specifically asks for a certificate-based digital signature, use the tool or service they specify.",
+"This is general information, not legal advice. Check requirements for important contracts in your country."
+],
+[
+"What makes a signed PDF more trustworthy",
+[
+"Sign every page with initials when the document is long, so pages cannot be swapped unnoticed.",
+"Add the date next to your signature.",
+"Keep a copy of the signed PDF and the e-mail you sent it with.",
+"After signing, use [Flatten PDF](/flatten-pdf/) to merge everything into the page, or [Protect PDF](/protect-pdf/) to restrict further editing."
+]
+],
+[
+"Uploading a signature photo",
+"Sign your name on plain white paper with a dark pen, take a well-lit photo or scan, and upload it. The tool removes the white background so only the ink remains, then you can scale it to fit the signature line. For a reusable transparent PNG you can also use our [Signature Maker](/signature-maker/)."
+],
+[
+"Why signing locally matters",
+"Documents you sign are among the most sensitive you handle – they contain names, addresses, salaries, bank details and identity numbers. Online signing services typically upload the file to their servers. Here, the PDF, your signature image and the result stay on your device the whole time. The optional saved signature lives only in your browser's local storage and can be removed by unticking the option or clearing site data."
+],
+[
+"Common uses",
+[
+"Rental and lease agreements.",
+"Job offer letters and NDAs.",
+"School and medical consent forms.",
+"Invoices, delivery notes and purchase orders.",
+"Freelance contracts and statements of work."
+]
+],
+[
+"Signing on a phone or tablet",
+"Signing with a finger often looks more natural than with a mouse. Open the PDF on your phone, choose Draw, and sign in the box – the stroke is smoothed so it looks like ink. Then tap the page where the signature belongs. On an iPad or Android tablet with a stylus the result is practically identical to pen on paper. The signed PDF downloads to your Files or Downloads folder, ready to attach to an e-mail or upload to a portal."
+],
+[
+"Typed, drawn or uploaded – which looks best?",
+{
+"table": [
+[
+"Method",
+"Best when"
+],
+[
+"Draw",
+"You want a natural, handwritten look and have a touch screen or trackpad"
+],
+[
+"Type",
+"You need something neat and quick, e.g. for internal approvals"
+],
+[
+"Upload",
+"You want your exact pen signature on every document"
+]
+]
+},
+"All three are equally valid as electronic signatures. Pick whichever you are comfortable with and use it consistently, so your signature is recognisable across documents."
+],
+[
+"Signing documents for other people",
+"This tool is designed for you to sign a document yourself. If several people must sign, each person can open the PDF, add their signature and pass the file on – the earlier signatures are preserved because they are written into the page. For forms with labelled fields, try [Fill PDF Form](/fill-pdf-form/) first to type in names and addresses, then sign. When a document has to go through a formal workflow with audit trails, reminders and certificates, a dedicated e-signature platform chosen by the organisation requesting the signature is the right choice."
+],
+[
+"Checklist before you send a signed PDF",
+[
+"Read the whole document once more – signing confirms you agree to every page.",
+"Make sure the signature sits on the signature line and does not cover any text.",
+"Initial each page if the other party asked for it.",
+"Add the date in the format the recipient expects.",
+"Open the downloaded PDF to check every placement before sending.",
+"Compress it with [Compress PDF](/compress-pdf/) if it is too large for e-mail."
+]
+],
+[
+"Troubleshooting",
+[
+"**Signature looks jagged** – draw a little slower, or increase the width setting; uploaded images should be at least 600 px wide.",
+"**Grey box around an uploaded signature** – photograph it on bright white paper in good light so the background can be removed cleanly.",
+"**Signature too big or small** – change the width before clicking; use Undo and place it again.",
+"**PDF is password-protected** – open it with [Unlock PDF](/unlock-pdf/) using the password you were given, then sign.",
+"**Saved signature missing** – it is stored per browser, so it will not appear in a different browser, in private windows or after clearing site data.",
+"**Recipient says the PDF is editable** – flatten it after signing so the signature is merged into the page content.",
+"**Scanned contract** – that is fine: signatures are placed on top of the scanned page just like on a digital one."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Draw / type / upload signature",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+],
+[
+"Initials and date",
+"Yes",
+"Initials: yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Saved signature",
+"On your device only",
+"Account",
+"Account",
+"Account",
+"See site"
+],
+[
+"Multiple placements on many pages",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Is it free to sign a PDF here?",
+"a": "Yes. There are no limits, no watermark and no account."
+},
+{
+"q": "Is my document uploaded?",
+"a": "No. The PDF and your signature never leave your browser."
+},
+{
+"q": "Is an electronic signature legally binding?",
+"a": "For many everyday agreements, yes – e.g. under the US ESIGN Act and UETA and as simple electronic signatures under EU eIDAS. Some documents require a certificate-based digital signature. This is not legal advice."
+},
+{
+"q": "What's the difference between an electronic and a digital signature?",
+"a": "An electronic signature is any electronic mark of agreement, like a drawn signature. A digital signature uses a certificate and cryptography to prove identity and detect changes."
+},
+{
+"q": "Can I sign on my phone?",
+"a": "Yes. Draw your signature with your finger on any phone or tablet browser."
+},
+{
+"q": "Can I add initials and the date?",
+"a": "Yes. Choose Initials, Today's date or Custom text and click where they should go."
+},
+{
+"q": "Can I sign multiple pages?",
+"a": "Yes. Each click places another copy; switch pages to sign or initial every page."
+},
+{
+"q": "Can I upload an image of my signature?",
+"a": "Yes. Upload a photo or scan; the white background is removed automatically."
+},
+{
+"q": "Where is my saved signature stored?",
+"a": "Only in this browser's local storage on your device, and only if you tick 'Remember my signature'."
+},
+{
+"q": "Can I remove a misplaced signature?",
+"a": "Yes. Click Undo to remove the last placement."
+}
+],
+"related": [
+"signature-maker",
+"edit-pdf",
+"flatten-pdf",
+"protect-pdf",
+"fill-pdf-form"
+]
+}
+}
+}
+}
