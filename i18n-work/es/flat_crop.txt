@@ -1,0 +1,101 @@
+0	Crop PDF
+1	Trim margins from PDF pages.
+2	Crop PDF Online Free – Trim PDF Margins | {brand}
+3	Crop PDF pages by exact millimetres to remove white margins or focus on content. All pages or selected pages. Free and private.
+4	Crop PDF
+5	Select your PDF.
+6	Enter how much to trim from each side.
+7	Click Start and download.
+8	Is cropped content deleted?
+9	Cropping hides content outside the new page box. Use Redact PDF to remove sensitive content permanently.
+10	Scanned pages and exported slides often have wide margins or unwanted borders. Cropping trims the visible page area, making documents easier to read on phones and e-readers and tidier when printed.
+11	Remove wide white margins for easier reading on a phone or tablet.
+12	Cut off scanner borders and shadows.
+13	Focus on a chart or figure for a presentation.
+14	Measure on one page and apply to all if pages share the same layout.
+15	Cropping hides content but does not delete it – use Redact PDF for sensitive content.
+16	After cropping, Change Page Size can fit content back to A4 or Letter.
+17	Is cropped content deleted?
+18	No. It is hidden outside the new page box. Use Redact PDF to permanently remove sensitive content.
+19	Crop for e-readers
+20	Removing wide margins makes the text larger on small screens, which is especially useful for academic papers and scanned books read on phones, tablets and e-readers.
+21	Crop PDF – Auto Crop White Margins or Set mm, Free
+22	Crop PDF pages free: auto crop white margins with padding, or trim exact mm from each side, on all or selected pages. No upload, no sign-up.
+23	{tool}: {brand} vs iLovePDF, Smallpdf and Sejda
+24	Crop PDF pages online, automatically or precisely
+25	Crop PDF trims the edges of PDF pages. Use **Auto crop** to remove white margins around the content automatically, with a little padding so nothing feels cramped, or switch to **Manual** to cut an exact number of millimetres from the top, right, bottom and left. You can crop every page or only a range such as 2-10, and the result is a new PDF – your original file is not changed.
+26	Cropping is ideal for reading PDFs on a phone or e-reader (wide margins waste screen space), preparing figures and diagrams for slides, removing scanner borders and black edges, cutting printer's marks from print-ready files, and tidying screenshots that were saved as PDF.
+27	Auto crop: trim white margins
+28	Auto crop renders each page on your device, finds the outermost non-white pixels, and sets the crop box just outside them plus the padding you choose (3 mm by default). With **Same crop box on every page** ticked, the tool uses the smallest margin found across all selected pages, so every page keeps the same size and content never jumps around when you flip pages – best for books and reports. Untick it to crop each page tightly to its own content, which suits figure collections and scanned receipts of different sizes.
+29	Pages that are rotated in the file are left as they are in auto mode, and completely blank pages are skipped.
+30	Manual crop in millimetres
+31	You want to…
+32	Set
+33	Remove a 1 cm scanner border
+34	10 mm on every side
+35	Cut printer's crop marks from an A4 file with 3 mm bleed
+36	Measure the marks; often 10–15 mm per side
+37	Keep only the top half of a page
+38	Bottom = half the page height (148 mm for A4)
+39	Remove a header band
+40	Top = height of the header
+41	One millimetre is about 2.83 PDF points. If the margins you enter add up to more than the page width or height, you will see an error naming the page, so nothing is cropped by mistake.
+42	How to crop a PDF for free
+43	Drop the PDF on this page.
+44	Choose Auto crop (and padding) or Manual margins in mm.
+45	Optionally type a page range such as 1-3,5.
+46	Press Crop and download the cropped PDF.
+47	Is cropping permanent?
+48	PDF cropping works by changing the page's visible area – the crop box, media box, trim box and bleed box are all set to the new size, so every viewer and printer shows the cropped page. The content outside the box is hidden, not erased, which keeps quality perfect and the operation lossless. If you need hidden content to be truly gone (for example, confidential notes in a margin), use [Redact PDF](/redact-pdf/) or [Flatten PDF](/flatten-pdf/) in *all content* mode afterwards.
+49	Crop PDF to JPG
+50	To get a cropped picture rather than a PDF – a figure for a presentation or a website – crop here first, then convert the result with [PDF to JPG](/pdf-to-jpg/) or [PDF to PNG](/pdf-to-png/). Because the crop box is respected, the images contain only the area you kept.
+51	Crop vs resize
+52	Cropping removes edges and makes the page smaller. [Resize PDF](/resize-pdf/) changes the paper size – for example, from Letter to A4 – by scaling the content to fit. If a document must be a specific paper size after cropping, crop first and then resize.
+53	Tips for the best result
+54	For books, keep *same crop box* on so pages line up; for mixed documents, turn it off.
+55	Add 2–5 mm padding to avoid text touching the edge on e-readers.
+56	Scanned pages with grey backgrounds or dark borders may not count as ‘white’; use manual crop or clean the scan first.
+57	Crop only the pages that need it by entering a range – covers often have different margins.
+58	Check the first and last page after cropping: page numbers in the footer are content too and will be kept.
+59	Crop PDF online vs desktop software
+60	Desktop editors can crop pages, but usually require a paid licence. Most online croppers upload your file to a server. This tool gives you auto and manual cropping for free, entirely in your browser – useful for contracts, drawings and other files you would rather not upload.
+61	Glossary
+62	Term
+63	Meaning
+64	Crop box
+65	The visible area of a page in a PDF
+66	Media box
+67	The full size of the page's ‘paper’
+68	Bleed / trim box
+69	Print-production areas; set to the crop size here
+70	Padding
+71	Extra space kept around content in auto crop
+72	Privacy
+73	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+74	Related tools
+75	[Resize PDF](/resize-pdf/)
+76	[PDF to JPG](/pdf-to-jpg/)
+77	[Redact PDF](/redact-pdf/)
+78	[Split PDF pages in half](/split-pdf-pages-in-half/)
+79	[Rotate PDF](/rotate-pdf/)
+80	How do I crop a PDF?
+81	Drop the PDF, choose auto crop or manual margins in mm, and download the cropped file.
+82	Can I crop PDF pages for free?
+83	Yes, with no sign-up, watermark or limit.
+84	Can I auto crop a PDF?
+85	Yes, auto crop removes white margins automatically with optional padding.
+86	Can I crop only some pages?
+87	Yes, type a range such as 2-10.
+88	Does cropping reduce quality?
+89	No, it only changes the visible area; content is not re-rendered.
+90	Is cropped content deleted?
+91	It is hidden. Use Redact PDF to remove it permanently.
+92	How do I crop a PDF to JPG?
+93	Crop here, then convert with PDF to JPG.
+94	Is my PDF uploaded?
+95	No, cropping runs in your browser.
+C	Their servers (upload)
+C	Account needed
+C	Auto crop white margins
+C	Exact margins in mm
+C	Same box on all pages option

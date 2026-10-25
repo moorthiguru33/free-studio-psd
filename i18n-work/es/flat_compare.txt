@@ -1,0 +1,100 @@
+0	Compare PDF
+1	See text differences between two PDFs side by side.
+2	Compare PDF Online Free – Find Differences Between Two PDFs | {brand}
+3	Compare two PDF versions and highlight added, removed and changed text side by side. Free, private, no upload.
+4	Compare two PDFs
+5	Select the two PDF versions.
+6	Click Start.
+7	Review the highlighted differences or download the report.
+8	Does it compare images?
+9	This version compares text. Visual comparison is planned.
+10	Contract revisions, policy updates and new document versions often arrive without tracked changes. Compare PDF shows exactly which words were added, deleted or changed between two versions, so nothing slips through.
+11	Check what changed between two versions of a contract.
+12	Review edits to terms and conditions or policies.
+13	Verify that a final print file matches the approved proof.
+14	Put the older version first so additions and removals read naturally.
+15	Scanned PDFs need OCR before their text can be compared.
+16	Does it compare images and layout?
+17	This version compares text. Visual comparison is planned.
+18	When to compare PDFs
+19	Use Compare PDF whenever you receive a “final” version of a contract, policy, specification or academic paper. Small changes in numbers, dates or liability clauses are easy to miss when reading.
+20	Reading the results
+21	Removed text is marked in one colour and added text in another, side by side, so you can review each change and ask about anything unexpected before signing.
+22	Compare PDF – Find Differences Between Two PDFs
+23	Compare two PDF files side by side and highlight added, deleted and changed text word by word. Download the report. Free, no upload, no sign-up.
+24	{tool}: {brand} vs iLovePDF, Smallpdf and Sejda
+25	Compare two PDF documents for differences
+26	Compare PDF shows exactly what changed between two versions of a document. Drop the original and the revised PDF, and the text of both is lined up side by side: deleted lines are highlighted red on the left, added lines green on the right, and changed lines yellow with the exact words struck through or inserted. A summary shows the number of deletions, additions and changes, and you can download the comparison as an HTML report to share or archive.
+27	It is the quickest way to check a contract redline, confirm that only the agreed clauses were changed in a new policy, review edits to a thesis, or spot differences between two invoices or quotes.
+28	How to compare two PDF files
+29	Drop both PDFs (original first, then revised).
+30	Press Compare.
+31	Read the side-by-side table: red = removed, green = added, yellow = changed.
+32	Download the HTML report if you need to keep or send it.
+33	What is compared
+34	The tool compares the **text** of the documents line by line, then word by word within changed lines, and shows the page number of every line. That makes it ideal for contracts, reports, policies and other text documents. Formatting changes (font, colour, layout) and image changes are not detected, and scanned PDFs need [OCR PDF](/ocr-pdf/) first so they contain text.
+35	Reading the result
+36	Colour
+37	Meaning
+38	Red, left column
+39	Line exists only in the first PDF (deleted)
+40	Green, right column
+41	Line exists only in the second PDF (added)
+42	Yellow, both columns
+43	Line changed; struck-through words were removed, highlighted words added
+44	No colour
+45	Unchanged
+46	Can I compare a PDF and a Word document?
+47	Convert the Word file to PDF first with [Word to PDF](/word-to-pdf/), then compare the two PDFs. Alternatively convert the PDF to Word with [PDF to Word](/pdf-to-word/) and use Word's built-in compare feature.
+48	Tips for accurate comparisons
+49	Compare documents produced the same way – two exports from Word compare more cleanly than a Word export against a scan.
+50	Re-flowed text (a paragraph that moves to a new page) still matches, because comparison follows the text, not the page.
+51	Headers and footers appear as lines too; changed page numbers can show as small changes.
+52	For long documents, use your browser's find (Ctrl+F) in the report to jump to a clause.
+53	Compare PDF online vs desktop software
+54	Professional PDF suites and dedicated comparison apps offer visual comparison in paid plans, and online tools typically upload both documents. Here, both files are read in your browser and never leave your device – important when comparing confidential contracts.
+55	Glossary
+56	Term
+57	Meaning
+58	Diff
+59	A list of differences between two texts
+60	Redline
+61	A marked-up version showing changes
+62	Word-level diff
+63	Highlighting exactly which words changed in a line
+64	Worked example
+65	A supplier sends back a revised contract and says only the payment terms changed. Drop the original and the revision: highlighted differences show exactly which words were added or removed on each page, so you can confirm that nothing else – a liability cap, a date, a notice period – was quietly altered. Save the comparison for your records.
+66	Tips for accurate comparisons
+67	Compare text-based PDFs for word-level results; run [OCR](/ocr-pdf/) on scans first. If pages were inserted, differences after that point may be shifted – compare sections with [Extract pages](/extract-pages-from-pdf/) when needed.
+68	What the comparison does not cover
+69	Text is compared word by word; changes to images, colours, fonts and layout are not highlighted. For visual changes, open both files side by side, or convert pages with [PDF to JPG](/pdf-to-jpg/) and inspect them. Metadata and hidden content are not compared either. Use it as a fast first check, then review key clauses yourself.
+70	Privacy
+71	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+72	Related tools
+73	[PDF to Word](/pdf-to-word/)
+74	[Word to PDF](/word-to-pdf/)
+75	[OCR PDF](/ocr-pdf/)
+76	[Find and replace in PDF](/find-and-replace-pdf/)
+77	[Merge PDF](/merge-pdf/)
+78	How can I compare two PDF files?
+79	Drop both PDFs and press Compare to see differences side by side.
+80	Can I compare two PDF documents for differences for free?
+81	Yes, free and without sign-up.
+82	Does it highlight changes?
+83	Yes: red removed, green added, yellow changed with word-level marks.
+84	Can it compare scanned PDFs?
+85	Run OCR first so the pages contain text.
+86	Are images compared?
+87	No, only text is compared.
+88	Can I save the comparison?
+89	Yes, download the HTML report.
+90	Can I compare a PDF with a Word file?
+91	Convert the Word file to PDF first.
+92	Are my files uploaded?
+93	No, comparison runs locally.
+C	Their servers (upload)
+C	Account needed
+C	Word-level highlighting
+C	Downloadable report
+C	Yes (HTML)
+C	Page numbers per line

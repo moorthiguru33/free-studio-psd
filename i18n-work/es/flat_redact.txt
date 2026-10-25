@@ -1,0 +1,105 @@
+0	Redact PDF
+1	Permanently remove sensitive text and areas.
+2	Redact PDF Online Free – Permanently Black Out Text | {brand}
+3	Permanently redact words and areas in a PDF. Redacted pages are rebuilt so hidden text cannot be copied or recovered. Free, private.
+4	Redact PDF
+5	Select your PDF.
+6	Enter words to redact and/or draw boxes on the preview.
+7	Click Start and download the redacted PDF.
+8	Is the redaction permanent?
+9	Yes. Every page with a redaction is rebuilt as an image with the areas blacked out, so the underlying text is gone. Other pages are kept unchanged.
+10	Drawing a black box over text in many editors leaves the text underneath – anyone can copy it out. True redaction removes it. {brand} rebuilds every redacted page so the hidden content is gone, and because it runs locally, the sensitive document never leaves your device.
+11	Hide account numbers, ID numbers and signatures before sharing.
+12	Remove personal data from documents released under privacy or freedom-of-information requests.
+13	Black out client names in case studies or court filings.
+14	Search for a word to redact every occurrence at once, then add boxes for images or signatures.
+15	Check the result by trying to select and copy text in the redacted areas.
+16	Also run Remove PDF Metadata – author names and titles can reveal information.
+17	Can redacted text be recovered?
+18	No. Every page with a redaction is rebuilt as an image with the areas blacked out, so the underlying text is gone. Other pages are kept unchanged.
+19	Redact PDF Free – Black Out Text Permanently
+20	Redact PDF free: black out (or white out) text by search, e-mails, phone numbers or drawn boxes. Content is permanently removed, not hidden. No upload.
+21	{tool}: {brand} vs iLovePDF, Smallpdf and Sejda
+22	Redact a PDF for free – real removal, not a black box on top
+23	Redaction means permanently removing sensitive information – names, account numbers, addresses, signatures – before you share a document. The most common mistake is drawing black rectangles in an ordinary PDF editor: the text underneath is still there and can be copied out. This tool does real redaction. Every page that contains a redaction is rebuilt as an image with the boxes burned in, so the hidden text, its font data and any selectable layer underneath are gone. Pages without redactions are copied untouched, and document metadata is cleared.
+24	You can redact by **searching** for words or phrases (comma-separated, e.g. *John Smith, 4111 1111*), by automatically finding **all e-mail addresses** and **phone numbers**, or by **drawing boxes** over anything – photos, signatures, stamps, handwriting – on the page preview.
+25	How to black out text on a PDF
+26	Drop the PDF.
+27	Type words to redact, and/or tick e-mails and phone numbers.
+28	Draw boxes on the preview for anything else; use the page buttons to move between pages.
+29	Choose black or white boxes and press Redact.
+30	Download and check the redacted copy.
+31	Black or white redaction?
+32	Black boxes are the convention for legal and government documents because they make it obvious that something was removed. White boxes (sometimes called *white-out redaction*) blend into the page and are used when a clean look matters, for example in published examples or templates. Both remove the content equally.
+33	Is there a way to redact text in a PDF without Adobe Pro?
+34	Yes – that is exactly what this page does, free and in your browser. Professional suites offer the same kind of true redaction in their paid editions; free viewers and many basic editors only offer drawing shapes, which is not redaction.
+35	What happens to redacted pages
+36	
+37	Pages with redactions
+38	Other pages
+39	Content
+40	Rendered at high resolution (≈180 dpi) with boxes burned in
+41	Copied exactly
+42	Text selectable
+43	No (run OCR if needed)
+44	Yes
+45	Hidden text recoverable
+46	No
+47	—
+48	Metadata
+49	Cleared for the whole document
+50	Cleared
+51	If you need the redacted pages to be searchable again, run [OCR PDF](/ocr-pdf/) on the result – the redacted areas contain no text, so nothing sensitive comes back.
+52	Search tips
+53	Separate several terms with commas.
+54	Leave *Match case* off to catch SMITH, Smith and smith.
+55	Search finds real text only; for scanned pages, draw boxes or run OCR first.
+56	Numbers formatted differently (4111-1111 vs 4111 1111) need each format listed.
+57	Always review every page of the result before sharing.
+58	Can I redact a PDF that has been signed?
+59	You can, but redacting changes the document, so any digital signature becomes invalid. Redact first, then sign the final version.
+60	Other places sensitive data hides
+61	Comments, form fields, attachments, bookmarks and layers can also contain personal data. Redacted pages are rebuilt without them; for the rest of the document, consider [Flatten PDF](/flatten-pdf/) and [Remove PDF metadata](/remove-pdf-metadata/).
+62	Glossary
+63	Term
+64	Meaning
+65	Redaction
+66	Permanent removal of information from a document
+67	Burn in
+68	Make a mark part of the page image itself
+69	OCR
+70	Recognising text in an image to make it searchable
+71	PII
+72	Personally identifiable information
+73	Worked example
+74	Before sharing a bank statement with a landlord, tick *Auto-redact e-mail addresses* and *phone numbers*, add your account number as search text, and press Redact. Every match is covered with a solid box and removed from the text layer, so searching the output for the number finds nothing.
+75	Privacy
+76	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+77	Related tools
+78	[Remove PDF metadata](/remove-pdf-metadata/)
+79	[Flatten PDF](/flatten-pdf/)
+80	[OCR PDF](/ocr-pdf/)
+81	[Protect PDF](/protect-pdf/)
+82	[Edit PDF](/edit-pdf/)
+83	How can I redact a PDF for free?
+84	Drop it here, search for terms or draw boxes, and download the redacted PDF – no sign-up.
+85	How do I black out text on a PDF?
+86	Type the text or draw a box over it and press Redact; the text is permanently removed.
+87	What does redact PDF mean?
+88	Permanently removing sensitive content so it cannot be recovered.
+89	Is the redaction permanent?
+90	Yes, affected pages are rebuilt as images without the hidden text.
+91	Can I redact e-mail addresses automatically?
+92	Yes, tick the e-mail and phone number options.
+93	Can I use white instead of black?
+94	Yes, choose white boxes.
+95	Will redacted pages be searchable?
+96	Not until you run OCR on them.
+97	Is my document uploaded?
+98	No, redaction happens on your device.
+C	Their servers (upload)
+C	Account needed
+C	True removal (not overlay)
+C	Auto-find e-mails & phone numbers
+C	Black or white boxes
+C	Draw boxes on any page

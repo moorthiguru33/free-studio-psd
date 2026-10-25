@@ -1,0 +1,89 @@
+0	Eliminar páginas de un PDF
+1	Quita las páginas que no quieres de un PDF.
+2	Eliminar páginas de un PDF online gratis – Quitar páginas | {brand}
+3	Quita páginas de un PDF tocando sus miniaturas. Gratis, sin subidas ni marca de agua: se crea un PDF nuevo y limpio en tu dispositivo.
+4	Eliminar páginas de un PDF
+5	Selecciona tu PDF.
+6	Toca las páginas que quieras quitar.
+7	Haz clic en Empezar y descarga el PDF.
+8	¿Se modifica el archivo original?
+9	No. Se crea un PDF nuevo en tu dispositivo; el original queda intacto.
+10	Los escaneos en blanco, las páginas duplicadas, los anexos desfasados o las páginas con datos personales a menudo deben desaparecer antes de compartir un documento. {brand} muestra cada página como miniatura para que veas exactamente qué quitas, y crea el nuevo archivo en local.
+11	Quitar las páginas en blanco que deja un escáner a doble cara.
+12	Eliminar páginas de publicidad o portadas de un informe descargado.
+13	Quitar páginas con información personal antes de enviar un documento a terceros.
+14	Recortar un manual largo y dejar solo las secciones que de verdad necesitas.
+15	Amplía las miniaturas cuando las páginas se parezcan.
+16	Tu archivo original nunca se modifica: consérvalo hasta haber revisado el resultado.
+17	Si quieres quedarte con unas pocas páginas en lugar de borrar muchas, Extraer páginas de un PDF es más rápido.
+18	¿Eliminar páginas reduce el tamaño del archivo?
+19	Normalmente sí, porque el contenido de las páginas eliminadas no se copia en el nuevo archivo. Pasa después Comprimir PDF para ahorrar aún más.
+20	Una sola herramienta para limpiar páginas
+21	En lugar de usar herramientas distintas para girar, eliminar y reordenar páginas, Organizar PDF muestra todo el documento como una cuadrícula de páginas. Haz todos los cambios a la vez y exporta un único PDF limpio.
+22	Flujo de limpieza típico
+23	Escanea un lote de documentos, elimina las páginas en blanco, endereza las que están de lado, arrastra las páginas para ordenarlas y exporta. Después, comprime el resultado si tienes que enviarlo por correo.
+24	Funciona en cualquier dispositivo
+25	Las miniaturas se generan en tu navegador, así que incluso los PDF grandes se pueden reorganizar en un portátil, una tableta o un móvil sin subirlos a ningún servidor.
+26	Eliminar páginas de un PDF – Gratis y sin subir el archivo
+27	Elimina páginas de un PDF: haz clic en miniaturas, escribe rangos como 2,5-8 o marca las páginas en blanco automáticamente. Deshacer. Gratis y privado.
+28	Quita las páginas que sobran en unos pocos clics
+29	Pilas escaneadas con dorsos en blanco, informes con un anexo desfasado, un contrato que debe salir sin la portada interna: quitar páginas es una de las tareas de PDF más habituales. {brand} muestra cada página como miniatura para que veas exactamente qué eliminas, y funciona por completo en tu navegador, así que el documento nunca se sube.
+30	Tres formas de elegir páginas
+31	**Haz clic en las miniaturas**: toca cualquier página para marcarla para eliminar; vuelve a tocarla para conservarla.
+32	**Escribe un rango**: introduce 2,5-8 y haz clic en Marcar páginas para seleccionar muchas páginas a la vez.
+33	**Marcar páginas en blanco**: busca automáticamente las páginas vacías (habituales en escaneos a doble cara) y las marca.
+34	**Deshacer**: vuelve atrás en tus marcas si cambias de idea.
+35	**Girar o reordenar a la vez**: cada miniatura tiene botones para girar y mover, así que puedes ordenar el documento en el mismo paso.
+36	Cómo eliminar páginas de un PDF
+37	Suelta tu PDF en la página y espera a que aparezcan las miniaturas.
+38	Haz clic en las páginas que quieras quitar, escribe un rango o haz clic en Marcar páginas en blanco.
+39	Revisa el contador que muestra cuántas páginas están marcadas.
+40	Haz clic en Eliminar páginas y descarga el nuevo PDF. El original de tu disco no cambia.
+41	Sin pérdida y seguro
+42	Las páginas que quedan se copian sin cambios en un PDF nuevo: sin volver a renderizar, sin pérdida de calidad, con texto seleccionable y enlaces que funcionan. Las páginas eliminadas desaparecen de verdad del nuevo archivo, no se ocultan, así que puedes compartirlo sin filtrar el contenido borrado.
+43	Cómo se detectan las páginas en blanco
+44	Se analizan los píxeles oscuros de la miniatura de cada página. Se marcan las páginas en las que casi no hay nada impreso: totalmente blancas o con solo polvo del escáner. Las páginas con un encabezado tenue o un número de página se conservan, para no borrar páginas que están casi vacías a propósito. Echa siempre un vistazo a las miniaturas marcadas antes de guardar.
+45	¿Eliminar, extraer o dividir?
+46	Quieres…
+47	Usa
+48	Quitar unas pocas páginas y conservar el resto
+49	Eliminar páginas de un PDF (esta herramienta)
+50	Quedarte solo con unas pocas páginas
+51	[Extraer páginas de un PDF](/extract-pdf-pages/)
+52	Cortar el documento en varios archivos
+53	[Dividir PDF](/split-pdf/)
+54	Reordenar, girar y eliminar a la vez
+55	[Organizar PDF](/organize-pdf/)
+56	Usos habituales
+57	Quitar los dorsos en blanco de los escaneos a doble cara.
+58	Sacar las notas internas antes de enviar un documento a un cliente.
+59	Eliminar anexos desfasados de los informes.
+60	Quitar páginas de publicidad de extractos descargados.
+61	Reducir un archivo quitando páginas que nadie necesita, antes de [Comprimir PDF](/compress-pdf/).
+62	Trabajar con documentos grandes
+63	Las miniaturas se generan en tu dispositivo, así que unos cientos de páginas se cargan en segundos en un portátil moderno. Escribir un rango es la forma más rápida de quitar bloques grandes, como 120-180, sin recorrer todas las miniaturas.
+64	¿Cómo elimino páginas de un PDF?
+65	Suelta el PDF, haz clic en las páginas que quieras quitar (o escribe un rango) y después haz clic en Eliminar páginas y descarga.
+66	¿Puedo eliminar varias páginas a la vez?
+67	Sí. Escribe un rango como 2,5-8 o haz clic en tantas miniaturas como quieras.
+68	¿Puede quitar automáticamente las páginas en blanco?
+69	Sí. Haz clic en Marcar páginas en blanco para seleccionar las páginas vacías, revísalas y elimínalas.
+70	¿Puedo deshacer?
+71	Sí. Usa Deshacer para recuperar marcas anteriores o haz clic en una miniatura marcada para conservarla.
+72	¿Eliminar páginas reduce la calidad?
+73	No. Las páginas que quedan se copian sin cambios.
+74	¿Se sube mi PDF?
+75	No. Todo ocurre en tu navegador.
+76	¿Es gratis?
+77	Sí, sin marca de agua, límites ni registro.
+78	¿Puedo eliminar páginas desde el móvil?
+79	Sí. Toca las miniaturas en el navegador de cualquier móvil o tableta.
+80	¿Las páginas eliminadas desaparecen de verdad?
+81	Sí. No se incluyen en absoluto en el nuevo archivo.
+82	¿Cómo quito páginas de un PDF?
+83	Abre el PDF, toca las miniaturas de las páginas que no quieras (o escribe rangos como 2,5-8) y descarga el nuevo archivo. Las páginas en blanco se pueden marcar automáticamente.
+84	¿Puedo eliminar páginas de un PDF gratis?
+85	Sí, sin cuenta, marca de agua ni límite de páginas; las páginas se eliminan en tu dispositivo.
+C	Clic en miniaturas + rangos escritos
+C	Detección automática de páginas en blanco
+C	Deshacer

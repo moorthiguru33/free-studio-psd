@@ -1,0 +1,116 @@
+0	Crop Image
+1	Cut images to any area or ratio.
+2	Crop Image Online Free – Square, 16:9, 4:3 and Story Sizes
+3	Crop photos visually or by exact pixels, with presets for square, 16:9, 4:3 and 9:16 stories. Free, private, no upload.
+4	Crop Image
+5	Select an image.
+6	Drag on the image or enter exact pixel values; pick an aspect ratio if you like.
+7	Click Start and download the cropped image.
+8	Can I crop to a perfect square for social media?
+9	Yes. Choose the 1:1 ratio and the selection is centred automatically; drag to adjust.
+10	A good crop removes distractions and fits the frame each platform expects – square for profile pictures, 16:9 for video thumbnails, 9:16 for stories. Crop visually or enter exact pixels.
+11	Make square profile pictures.
+12	Crop thumbnails to 16:9 for YouTube or presentations.
+13	Cut a photo to 9:16 for Instagram or TikTok stories.
+14	Remove unwanted edges from screenshots.
+15	Use the rule of thirds: place the subject off-centre for a natural look.
+16	Crop before compressing for the smallest file.
+17	Can I crop to a perfect square?
+18	Yes. Choose the 1:1 ratio and the selection is centred automatically; drag to adjust.
+19	Cropping for social media
+20	Common sizes: square 1080 × 1080 for feeds, 1080 × 1350 for portrait posts, 1080 × 1920 for stories and 1280 × 720 for video thumbnails.
+21	Crop Image Online Free – Exact Ratio, Batch, No Upload
+22	Crop photos free in your browser: drag a box or pick 1:1, 4:3, 3:2, 16:9, 9:16 or 4:5. Keep full quality, batch crop, JPG/PNG/WebP. No upload.
+23	{tool}: {brand} vs Canva, Adobe Express and iLoveIMG
+24	Crop images online, free
+25	Cut away the parts of a photo you do not want, straighten the composition, or make a picture fit an exact shape. Drag the crop box, or lock it to a common aspect ratio – square 1:1 for profile pictures, 4:5 for Instagram, 16:9 for YouTube and presentations, 9:16 for stories – and download the result at full quality. No account, no watermark, no upload.
+26	How to use it
+27	Drop one or more images on the page.
+28	Choose an aspect ratio, or leave it free.
+29	Drag the crop box and its handles over the part you want to keep.
+30	Download the cropped image (a ZIP for several).
+31	Which aspect ratio should I use?
+32	Ratio
+33	Use
+34	1:1
+35	Profile photos, Instagram square posts, product thumbnails
+36	4:5
+37	Instagram and Threads portrait posts
+38	4:3
+39	Classic camera and tablet photos, slides
+40	3:2
+41	DSLR prints – 6×4 in and 15×10 cm photo paper
+42	16:9
+43	YouTube thumbnails, widescreen slides, desktop wallpapers
+44	9:16
+45	Stories, Reels, TikTok and phone wallpapers
+46	For an exact pixel size after cropping use [Resize Image](/resize-image/); for every social network preset in one place try the [Social Media Image Resizer](/social-media-image-resizer/).
+47	Composition tips
+48	Follow the rule of thirds: put eyes or the horizon on an imaginary line one third in from the edge.
+49	Leave a little space in the direction a person is looking or moving.
+50	Crop out distracting edges – bins, cables, half-visible people – rather than the subject.
+51	Avoid cutting people at the joints (wrists, knees, ankles).
+52	Cropping removes pixels: start from the largest original so the crop stays sharp when printed.
+53	Crop vs resize vs trim
+54	Cropping removes part of the picture and changes its shape; resizing keeps the whole picture and changes its pixel dimensions; *trimming* usually means removing plain borders automatically. To make a round profile picture use [Circle Crop Image](/circle-crop-image/); to split one image into pieces use [Image Splitter](/image-splitter/).
+55	Photo formats at a glance
+56	Format
+57	Compression
+58	Transparency
+59	Best for
+60	JPG
+61	Lossy
+62	No
+63	Photos, e-mail, social media
+64	PNG
+65	Lossless
+66	Yes
+67	Screenshots, logos, graphics with text
+68	WebP
+69	Lossy or lossless
+70	Yes
+71	Websites – smaller than JPG and PNG
+72	AVIF
+73	Lossy or lossless
+74	Yes
+75	Smallest files, newer browsers
+76	GIF
+77	Lossless, 256 colours
+78	1-bit
+79	Simple animations
+80	The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first.
+81	Works on any device
+82	It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps.
+83	Quality and file size
+84	Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/).
+85	Common problems and fixes
+86	**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.
+87	**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.
+88	**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.
+89	**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.
+90	**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time.
+91	Privacy
+92	Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material.
+93	How do I crop an image online for free?
+94	Drop the image here, drag the crop box or pick a ratio, and download. No sign-up or watermark.
+95	Does cropping reduce quality?
+96	No – the remaining pixels are kept exactly; only the cut-away area is removed.
+97	Can I crop several images at once?
+98	Yes. Drop several and they are downloaded together as a ZIP.
+99	How do I crop a photo to a square?
+100	Choose the 1:1 ratio and move the box over the part you want.
+101	How do I crop an image for Instagram?
+102	Use 4:5 for portrait posts or 1:1 for square, then download.
+103	Can I crop a PNG and keep transparency?
+104	Yes. PNG and WebP keep transparent areas.
+105	Does it work on iPhone?
+106	Yes, in Safari. HEIC photos are supported.
+107	Are my photos uploaded?
+108	No, cropping happens in your browser.
+109	How do I crop to an exact pixel size?
+110	Crop to the right ratio, then set the exact width in Resize Image.
+111	Can I crop a screenshot?
+112	Yes – drop or paste the screenshot file and crop as usual.
+C	Batch / multiple images
+C	Aspect-ratio presets
+C	Works offline

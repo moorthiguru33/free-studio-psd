@@ -1,0 +1,100 @@
+0	Aplanar PDF
+1	Haz permanentes los campos de formulario y las anotaciones.
+2	Aplanar PDF online gratis – Bloquear campos de formulario | {brand}
+3	Aplana formularios PDF rellenables y anotaciones para que sus valores ya no se puedan cambiar, o convierte cada página en imagen. Gratis y privado.
+4	Aplanar PDF
+5	Selecciona tu PDF.
+6	Elige solo formularios o todo.
+7	Haz clic en Empezar y descarga.
+8	¿El texto seguirá siendo buscable?
+9	Sí con Solo campos de formulario. El modo Todo convierte las páginas en imágenes.
+10	Cuando envías un formulario rellenado, el destinatario normalmente todavía puede editar sus campos. Aplanar integra los valores de los campos y las anotaciones en la página, de modo que el formulario se ve igual en todas partes y no se puede cambiar fácilmente.
+11	Bloquear una solicitud o un formulario fiscal rellenado antes de presentarlo.
+12	Asegurarte de que los comentarios y sellos se ven en cualquier visor.
+13	Arreglar formularios cuyos campos aparecen vacíos en el móvil o en algunas impresoras.
+14	Usa «Solo campos de formulario» para mantener el texto seleccionable.
+15	El modo «Todo» convierte las páginas en imágenes: es más fuerte, pero el texto no se puede seleccionar.
+16	Guarda una copia sin aplanar por si necesitas editarla más adelante.
+17	¿El texto seguirá siendo buscable?
+18	Sí en el modo Solo campos de formulario. El modo Todo convierte las páginas en imágenes.
+19	Por qué aplanar formularios
+20	Los campos de formulario interactivos pueden verse distintos según el visor y pueden editarse después de enviarlos. Aplanar fija los valores en la página para que lo que envías sea exactamente lo que ve el destinatario.
+21	Aplanar PDF – Bloquear campos y anotaciones gratis
+22	Aplana formularios y anotaciones de un PDF para que no se editen: solo los campos de formulario o todo el contenido como imagen. Gratis y sin subidas.
+23	{tool}: {brand} frente a iLovePDF, Smallpdf y Sejda
+24	¿Qué significa aplanar un PDF?
+25	Aplanar integra en la propia página las partes interactivas o en capas de un PDF: campos de formulario rellenables, casillas, listas desplegables, comentarios, sellos y dibujos. El documento se ve igual, pero esos elementos dejan de ser objetos editables independientes. Un formulario aplanado muestra las respuestas como contenido normal de la página que no se puede cambiar haciendo clic en un campo, y se imprime y se ve igual en cualquier visor.
+26	La gente aplana PDF antes de enviar solicitudes, contratos o formularios fiscales rellenados, antes de archivarlos, cuando un portal rechaza archivos con campos de formulario y cuando las respuestas rellenadas desaparecen o se ven distintas en otra app.
+27	Dos modos de aplanado
+28	Modo
+29	Qué ocurre
+30	¿Texto seleccionable?
+31	Ideal para
+32	Campos de formulario
+33	El valor actual de cada campo se dibuja en la página y el campo se elimina
+34	Sí
+35	Formularios rellenados, solicitudes
+36	Todo el contenido
+37	Cada página se renderiza y se guarda como imagen
+38	No (pasa OCR para recuperarlo)
+39	Bloqueo máximo, anotaciones mixtas, problemas raros con visores
+40	Empieza por *Campos de formulario*: mantiene el archivo pequeño y el texto buscable. Usa *Todo el contenido* cuando las anotaciones, las capas o tecnologías de formulario poco habituales sigan pareciendo editables o se vean distintas según la app.
+41	Cómo aplanar un PDF gratis
+42	Rellena primero el formulario, en cualquier app de PDF o con [Rellenar formulario PDF](/fill-pdf-form/).
+43	Suelta aquí el PDF.
+44	Elige Campos de formulario o Todo el contenido.
+45	Pulsa Aplanar y descarga.
+46	Cómo aplanar un PDF para que no se pueda editar
+47	Después de aplanar, las respuestas del formulario ya no se pueden cambiar escribiendo en los campos. Ten en cuenta que cualquier PDF se puede seguir modificando con un editor: aplanar evita los cambios accidentales y casuales, no la manipulación decidida. Para una protección más fuerte, añade una contraseña con la edición desactivada usando [Proteger PDF](/protect-pdf/) y, como prueba de integridad, usa una firma digital basada en certificado.
+48	¿Aplanar reduce la calidad?
+49	El modo *Campos de formulario* no toca el resto de la página, así que la calidad es idéntica. El modo *Todo el contenido* renderiza las páginas a unos 144 ppp con alta calidad JPEG, que se ve nítido en pantalla y en la impresión normal, pero el texto pasa a formar parte de una imagen y el archivo puede crecer en documentos con mucho texto. Úsalo cuando el aspecto importe más que el tamaño o poder buscar texto.
+50	Aplanar un PDF grande
+51	El aplanado de campos de formulario es rápido incluso en documentos largos. El modo de todo el contenido renderiza cada página, así que un archivo de 200 páginas tarda más y el resultado puede ser más grande; puedes pasar después [Comprimir PDF](/compress-pdf/). Un contador de progreso muestra qué página se está procesando.
+52	Por qué desaparecen las respuestas si no aplanas
+53	Algunos visores, apps móviles y controladores de impresora no muestran bien los valores de los campos de formulario, sobre todo cuando los campos usan fuentes o scripts personalizados. Quien recibe tu formulario puede ver casillas vacías. Aplanar dibuja los valores en la página para que todo el mundo vea lo mismo.
+54	Aplanar PDF online frente a programas de escritorio
+55	Los editores de escritorio pueden aplanar mediante imprimir a PDF o herramientas de comprobación previa, a menudo en versiones de pago. Los servicios online suelen exigir subir tu formulario rellenado, con datos personales como números de identidad y direcciones. Esta herramienta aplana en tu dispositivo, gratis.
+56	Glosario
+57	Término
+58	Significado
+59	Campo de formulario
+60	Un cuadro, casilla o lista interactivos en un formulario PDF
+61	Anotación
+62	Un comentario, resaltado, sello o dibujo superpuesto en una página
+63	Flujo de apariencia
+64	El dibujo visual del valor de un campo
+65	Rasterizar
+66	Convertir el contenido de la página en una imagen de píxeles
+67	Ejemplo práctico
+68	Un formulario de solicitud de empleo rellenado tiene campos que se ven distintos en cada visor y que cualquiera puede cambiar. Suéltalo aquí, aplánalo y envía el resultado: las respuestas se ven idénticas en todas partes, se imprimen bien y ya no se pueden editar por error. Conserva el original rellenable por si necesitas actualizar una respuesta más adelante.
+69	Cuándo no aplanar
+70	No aplanes un formulario que otra persona todavía tenga que rellenar, ni un documento que vayas a volver a editar. Aplanar es un paso final, como imprimir en papel: hazlo en una copia, justo antes de enviar o archivar.
+71	Privacidad
+72	Todo ocurre dentro de la pestaña del navegador con pdf-lib y PDF.js. El PDF se lee de tu disco a la memoria, se procesa allí y se guarda directamente en tu dispositivo. Nunca se sube, se almacena ni se registra, y la herramienta sigue funcionando sin conexión una vez cargada la página, por lo que sirve para contratos, historiales médicos, expedientes de RR. HH., extractos bancarios y cualquier cosa que no enviarías por correo a un desconocido.
+73	Herramientas relacionadas
+74	[Rellenar formulario PDF](/fill-pdf-form/)
+75	[Proteger PDF](/protect-pdf/)
+76	[Firmar PDF](/sign-pdf/)
+77	[Comprimir PDF](/compress-pdf/)
+78	[OCR a PDF](/ocr-pdf/)
+79	¿Qué significa aplanar un PDF?
+80	Integra los campos de formulario y las anotaciones en la página para que ya no se puedan editar.
+81	¿Cómo aplano un PDF?
+82	Suéltalo aquí, elige un modo y descarga el archivo aplanado.
+83	¿Puedo aplanar un PDF gratis?
+84	Sí, sin registro ni marca de agua.
+85	¿Aplanar reduce la calidad?
+86	El modo de campos de formulario mantiene la calidad idéntica; el modo de todo el contenido renderiza las páginas como imágenes.
+87	¿El texto seguirá siendo buscable?
+88	Sí en el modo de campos de formulario; no en el de todo el contenido, salvo que pases OCR.
+89	¿Se puede desaplanar un PDF aplanado?
+90	No; conserva el original si quizá necesites volver a editar el formulario.
+91	¿Debo aplanar antes de firmar?
+92	Rellena y aplana primero y después firma, para que la firma cubra el contenido definitivo.
+93	¿Se sube mi archivo?
+94	No, el aplanado se ejecuta en tu navegador.
+C	Sus servidores (subida)
+C	Cuenta necesaria
+C	Aplanar campos de formulario (conserva el texto)
+C	Aplanar página completa
+C	Indica cuántos campos se han aplanado

@@ -1,0 +1,89 @@
+0	Delete PDF Pages
+1	Remove unwanted pages from a PDF.
+2	Delete Pages from PDF Online Free – Remove PDF Pages | {brand}
+3	Remove unwanted pages from a PDF by tapping thumbnails. Free, no upload, no watermark – a clean new PDF is created on your device.
+4	Delete pages from PDF
+5	Select your PDF.
+6	Tap the pages you want to remove.
+7	Click Start and download the PDF.
+8	Is the original file changed?
+9	No. A new PDF is created on your device; the original stays untouched.
+10	Blank scans, duplicate pages, outdated appendices or pages with personal details often need to go before you share a document. {brand} shows every page as a thumbnail so you can see exactly what you are removing, and builds the new file locally.
+11	Remove blank pages left by a double-sided scanner.
+12	Drop advert or cover pages from a downloaded report.
+13	Remove pages with personal information before sending a document to a third party.
+14	Trim a long manual down to the sections you actually need.
+15	Zoom in on thumbnails when pages look similar.
+16	Your original file is never modified – keep it until you have checked the result.
+17	To keep a few pages rather than delete many, Extract PDF Pages is quicker.
+18	Does deleting pages reduce file size?
+19	Usually yes, because the content of removed pages is not copied into the new file. Run Compress PDF afterwards for further savings.
+20	One tool for page clean-up
+21	Instead of using separate tools to rotate, delete and reorder pages, Organize PDF shows the whole document as a page grid. Make all changes at once and export a single clean PDF.
+22	Typical clean-up workflow
+23	Scan a batch of documents, delete blank pages, rotate sideways ones, drag pages into order and export. Then compress the result if you need to email it.
+24	Works on any device
+25	Thumbnails are generated in your browser, so even large PDFs can be reorganised on a laptop, tablet or phone without uploading them to a server.
+26	Delete Pages from PDF – Remove PDF Pages Free, No Upload
+27	Delete pages from a PDF: click thumbnails, type ranges like 2,5-8, or auto-mark blank pages. Undo anytime. Free, private, in your browser.
+28	Remove unwanted pages in a few clicks
+29	Scanned stacks with blank backs, reports with an outdated appendix, a contract that should go out without the internal cover sheet – removing pages is one of the most common PDF jobs. {brand} shows every page as a thumbnail so you can see exactly what you are deleting, and it works entirely in your browser so the document is never uploaded.
+30	Three ways to choose pages
+31	**Click thumbnails** – tap any page to mark it for deletion; tap again to keep it.
+32	**Type a range** – enter 2,5-8 and click Mark pages to select many pages at once.
+33	**Mark blank pages** – automatically finds empty pages (common in duplex scans) and marks them.
+34	**Undo** – step back through your marking if you change your mind.
+35	**Rotate or reorder too** – each thumbnail has rotate and move buttons, so you can tidy the document in the same step.
+36	How to delete pages from a PDF
+37	Drop your PDF onto the page and wait for thumbnails to appear.
+38	Click the pages to remove, type a range, or click Mark blank pages.
+39	Check the counter showing how many pages are marked.
+40	Click Delete pages and download the new PDF. The original on your disk stays unchanged.
+41	Lossless and safe
+42	The remaining pages are copied unchanged into a new PDF – no re-rendering, no quality loss, selectable text and working links. The removed pages are genuinely gone from the new file, not hidden, so you can share it without leaking the deleted content.
+43	How blank page detection works
+44	Each page thumbnail is analysed for dark pixels. Pages where almost nothing is printed – fully white or with only scanner dust – are marked. Pages with a faint header or a page number are kept, which avoids deleting intentionally sparse pages. Always glance at the marked thumbnails before saving.
+45	Delete, extract or split?
+46	You want to…
+47	Use
+48	Remove a few pages and keep the rest
+49	Delete PDF pages (this tool)
+50	Keep only a few pages
+51	[Extract PDF pages](/extract-pdf-pages/)
+52	Cut the document into several files
+53	[Split PDF](/split-pdf/)
+54	Reorder, rotate and delete together
+55	[Organize PDF](/organize-pdf/)
+56	Common uses
+57	Removing blank backs from duplex scans.
+58	Taking out internal notes before sending a document to a client.
+59	Dropping outdated appendices from reports.
+60	Removing advertising pages from downloaded statements.
+61	Shrinking a file by removing pages nobody needs, before [Compress PDF](/compress-pdf/).
+62	Working with large documents
+63	Thumbnails are rendered on your device, so a few hundred pages load in seconds on a modern laptop. Typing a range is the fastest way to remove big blocks, such as 120-180, without scrolling through every thumbnail.
+64	How do I delete pages from a PDF?
+65	Drop the PDF, click the pages to remove (or type a range), then click Delete pages and download.
+66	Can I delete several pages at once?
+67	Yes. Type a range such as 2,5-8, or click as many thumbnails as you like.
+68	Can it remove blank pages automatically?
+69	Yes. Click Mark blank pages to select empty pages, check them, then delete.
+70	Can I undo?
+71	Yes. Use Undo to restore earlier markings, or click a marked thumbnail to keep it.
+72	Does deleting pages reduce quality?
+73	No. Remaining pages are copied unchanged.
+74	Is my PDF uploaded?
+75	No. Everything happens in your browser.
+76	Is it free?
+77	Yes, with no watermark, limits or sign-up.
+78	Can I delete pages on my phone?
+79	Yes. Tap thumbnails on any phone or tablet browser.
+80	Are the deleted pages really gone?
+81	Yes. They are not included in the new file at all.
+82	How do I delete pages from a PDF?
+83	Open the PDF, tap the thumbnails of the pages you do not want (or type ranges such as 2,5-8), and download the new file. Blank pages can be marked automatically.
+84	Can I delete pages from a PDF for free?
+85	Yes, with no account, watermark or page limit; the pages are removed on your device.
+C	Click thumbnails + type ranges
+C	Auto-detect blank pages
+C	Undo
