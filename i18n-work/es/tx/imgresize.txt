@@ -1,0 +1,146 @@
+0	Redimensionar imagen
+1	Cambia las dimensiones de una imagen en píxeles o %.
+2	Redimensionar imagen online gratis – Píxeles o % | {brand}
+3	Redimensiona JPG, PNG, WEBP y más a píxeles exactos o a un porcentaje manteniendo la proporción. Redimensiona por lotes en tu navegador, gratis.
+4	Redimensionar imágenes
+5	Selecciona tus imágenes.
+6	Introduce un ancho/alto en píxeles o un porcentaje.
+7	Haz clic en Empezar y descarga las imágenes redimensionadas.
+8	¿Se verá estirada la imagen?
+9	No: con «Mantener proporción» activado, la imagen cabe dentro del tamaño que indiques sin deformarse.
+10	Cada plataforma pide un tamaño distinto: fotos de perfil, banners web, anuncios en marketplaces, fotos de pasaporte. Redimensionar imagen escala tus fotos a dimensiones exactas sin deformarlas, por lotes y en tu dispositivo.
+11	Dar a las fotos de producto un ancho uniforme para una tienda online.
+12	Preparar imágenes para publicaciones y portadas en redes sociales.
+13	Reducir fotos de cámara para enviarlas por correo y subirlas más rápido.
+14	Cumplir requisitos exactos de píxeles en formularios de solicitud.
+15	Mantén activada la «proporción» para evitar estiramientos.
+16	Reducir conserva la calidad; ampliar imágenes pequeñas puede verse borroso: prueba Ampliar imagen.
+17	Combínalo con Comprimir imagen para obtener los archivos más pequeños.
+18	¿Redimensionar estirará mi imagen?
+19	No: con «Mantener proporción» activado, la imagen cabe dentro del tamaño que indiques sin deformarse.
+20	Redimensionar para la web
+21	La mayoría de webs muestran imágenes de no más de 1200–2000 px de ancho. Redimensionar fotos grandes de cámara a ese ancho puede reducir el peso entre un 70 y un 90 % antes de cualquier compresión.
+22	Redimensionar imagen – Píxeles, cm, pulgadas y KB, gratis
+23	Redimensiona imágenes por píxeles, %, cm, mm o pulgadas con DPI. Preajustes de pasaporte, Instagram y YouTube, recorte, KB máx. y lotes. Gratis.
+24	{tool}: {brand} frente a iLoveIMG, ImageResizer.com y Adobe Express
+25	Redimensiona cualquier imagen al tamaño exacto que necesitas
+26	Cada plataforma quiere las imágenes a un tamaño distinto. Una foto de pasaporte debe medir 35×45 mm, una miniatura de YouTube 1280×720 píxeles, un banner de LinkedIn 1584×396, una publicación vertical de Instagram 1080×1350, y un formulario de examen puede pedir 200×230 píxeles y menos de 50 KB. El redimensionador de imágenes de {brand} cubre todo esto desde una sola pantalla: escribe el tamaño en píxeles, porcentaje, centímetros, milímetros o pulgadas, o elige un preajuste, y descarga una imagen con el tamaño perfecto en segundos.
+27	Redimensiona una imagen o cientos a la vez, mantiene la proporción salvo que le digas lo contrario y puede recortar o rellenar hasta una forma exacta para que nada se estire. Todo se ejecuta en tu navegador, así que tus fotos nunca se suben.
+28	Funciones
+29	**Unidades:** píxeles, porcentaje, cm, mm y pulgadas con ajuste de DPI (300 DPI por defecto para imprimir).
+30	**Preajustes:** pasaporte 35×45 mm, Instagram cuadrado, vertical e historia, miniatura de YouTube, banner de LinkedIn, portada de Facebook, cabecera de X, Full HD y A4 a 300 DPI.
+31	**Formas exactas sin deformación:** encajar dentro, rellenar y recortar al tamaño exacto, rellenar con un color de fondo o estirar si de verdad lo quieres.
+32	**No ampliar:** deja intactas las imágenes que ya son más pequeñas que el objetivo.
+33	**Tamaño máximo de archivo:** fija un límite en KB para la salida JPG o WebP y el redimensionador encuentra la mejor calidad por debajo.
+34	**Reducción de alta calidad:** las reducciones grandes se hacen en varios pasos a la mitad para obtener resultados nítidos sin bordes dentados.
+35	**Por lotes:** redimensiona una carpeta entera de una vez y descarga un ZIP.
+36	**Elección de formato:** mantén el original o guarda como JPG, PNG, WebP o AVIF.
+37	Cómo redimensionar una imagen
+38	Suelta una o varias imágenes (JPG, PNG, WebP, HEIC, GIF, BMP, TIFF, AVIF).
+39	Elige un preajuste, o elige una unidad y escribe el ancho y/o el alto.
+40	Si fijas ancho y alto, elige qué hacer cuando la forma no coincide: encajar, rellenar y recortar, rellenar con color o estirar.
+41	Si quieres, fija un formato de salida y un tamaño máximo en KB.
+42	Haz clic en Redimensionar y descarga la imagen o el ZIP.
+43	Píxeles, centímetros y DPI explicados
+44	Las imágenes digitales se miden en píxeles. Los tamaños físicos, como centímetros o pulgadas, solo tienen sentido junto con una resolución, medida en puntos (píxeles) por pulgada. A 300 DPI, el estándar habitual para imprimir fotos, una pulgada son 300 píxeles y un centímetro unos 118. Así, una foto de pasaporte de 35×45 mm a 300 DPI mide 413×531 píxeles, y una copia de 10×15 cm (4×6 in) mide 1200×1800 píxeles.
+45	Tamaño
+46	A 300 DPI
+47	A 150 DPI
+48	35×45 mm (pasaporte)
+49	413×531 px
+50	207×266 px
+51	2×2 in (pasaporte/visado de EE. UU.)
+52	600×600 px
+53	300×300 px
+54	Foto de 4×6 in (10×15 cm)
+55	1200×1800 px
+56	600×900 px
+57	Página A4
+58	2480×3508 px
+59	1240×1754 px
+60	Folleto A5
+61	1748×2480 px
+62	874×1240 px
+63	Cuando elijas cm, mm o pulgadas, introduce los DPI que espera la impresora o el formulario; el redimensionador convierte el tamaño a píxeles por ti.
+64	¿Encajar, rellenar, añadir bordes o estirar?
+65	Modo
+66	Qué ocurre
+67	Úsalo para
+68	Encajar dentro
+69	La imagen se escala para caber en el recuadro; un lado puede quedar más pequeño
+70	Conservar la imagen entera, p. ej. fotos de producto
+71	Rellenar y recortar
+72	La imagen llena el recuadro exactamente; lo que sobra se recorta desde el centro
+73	Publicaciones en redes, miniaturas, fotos de pasaporte
+74	Añadir bordes
+75	La imagen cabe dentro y el resto se rellena con un color
+76	Marketplaces que exigen imágenes cuadradas con bordes blancos
+77	Estirar
+78	La imagen se fuerza al tamaño exacto y puede verse deformada
+79	Solo cuando la deformación no importa
+80	Los preajustes usan rellenar y recortar automáticamente, para que el resultado tenga siempre exactamente el tamaño que espera la plataforma.
+81	Tamaños de imagen habituales en 2026
+82	Plataforma
+83	Tamaño recomendado
+84	Publicación cuadrada de Instagram
+85	1080×1080
+86	Publicación vertical de Instagram
+87	1080×1350
+88	Historia de Instagram / Facebook, Reels, TikTok
+89	1080×1920
+90	Miniatura de YouTube
+91	1280×720
+92	Banner de perfil de LinkedIn
+93	1584×396
+94	Portada de página de Facebook
+95	820×312
+96	Cabecera de X (Twitter)
+97	1500×500
+98	Imagen principal de una web
+99	1920×1080 o más ancha
+100	Las plataformas cambian sus recomendaciones de vez en cuando; si una imagen subida aparece recortada, consulta la página de ayuda de la plataforma e introduce el tamaño a mano.
+101	Redimensionar para formularios online
+102	Los portales de exámenes, empleo y visados suelen especificar tanto las dimensiones en píxeles como un tamaño máximo, por ejemplo «200×230 píxeles, 20–50 KB, JPG». Elige «Personalizado», introduce 200 y 230 píxeles, selecciona Rellenar y recortar para que la cara quede centrada sin deformarse, fija el formato en JPG y escribe 50 en la casilla «Tamaño máximo de archivo». Un clic te da un archivo que cumple los requisitos. Para firmas, haz lo mismo con las dimensiones de la firma y un límite de 20 KB.
+103	¿Redimensionar reduce la calidad?
+104	Hacer una imagen más pequeña siempre elimina píxeles, pero bien hecho se ve nítida. El redimensionador reduce las imágenes grandes en varios pasos a la mitad con suavizado de alta calidad, lo que evita los bordes dentados y el efecto moiré de una sola reducción grande. Hacer una imagen más grande no puede añadir detalle real; para ampliaciones de 2× o más, [Ampliar imagen](/upscale-image/) usa remuestreo Lanczos y enfoque para un mejor resultado.
+105	Privacidad
+106	Cada paso ocurre dentro de la pestaña del navegador. La imagen se decodifica, se edita y se vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, los documentos de identidad, las capturas con datos personales y las fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el wifi una vez cargada la página y la herramienta sigue funcionando.
+107	Herramientas relacionadas
+108	[Comprimir imagen](/compress-image/): reduce el peso a un objetivo exacto en KB.
+109	[Recortar imagen](/crop-image/): elige exactamente qué parte de la foto conservar.
+110	[Creador de fotos de pasaporte](/passport-photo-maker/): fotos de pasaporte y visado con hojas para imprimir.
+111	[Convertidor de imágenes](/image-converter/): cambia el formato sin redimensionar.
+112	¿Cómo redimensiono una imagen sin perder calidad?
+113	Mantén la proporción y solo reduce el tamaño. La herramienta reduce en varios pasos para obtener resultados nítidos. Ampliar no añade detalle; para eso usa Ampliar imagen.
+114	¿Cómo redimensiono una imagen a 35×45 mm para el pasaporte?
+115	Elige el preajuste «Pasaporte 35×45 mm @300 DPI». Obtienes una imagen de 413×531 px recortada desde el centro.
+116	¿Puedo redimensionar a un tamaño exacto en cm o pulgadas?
+117	Sí. Elige cm, mm o pulgadas, introduce el tamaño y fija los DPI que espera la impresora o el formulario.
+118	¿Cómo redimensiono una imagen y la dejo por debajo de 50 KB?
+119	Fija el tamaño, elige salida JPG o WebP y escribe 50 en la casilla «Tamaño máximo de archivo».
+120	¿Puedo redimensionar muchas imágenes a la vez?
+121	Sí. Suéltalas todas; obtienes un ZIP con todas las imágenes redimensionadas.
+122	¿Cómo hago una imagen cuadrada sin recortarla?
+123	Introduce el mismo ancho y alto y elige «Añadir bordes hasta el tamaño exacto» con tu color de fondo.
+124	¿Se suben mis fotos?
+125	No. El redimensionado se hace en tu navegador y no se envía nada a ningún servidor.
+126	¿Qué tamaños usan los preajustes de redes sociales?
+127	Instagram 1080×1080 y 1080×1350, historias 1080×1920, YouTube 1280×720, LinkedIn 1584×396, portada de Facebook 820×312 y cabecera de X 1500×500.
+128	¿Funciona en iPhone y Android?
+129	Sí. Funciona en Safari y Chrome para móvil, incluidas las fotos HEIC del iPhone.
+130	¿Cómo redimensiono una imagen?
+131	Suelta la imagen e introduce un nuevo ancho o alto en píxeles, un porcentaje o un tamaño de impresión en cm, mm o pulgadas con DPI. Mantén activado «bloquear proporción» para evitar estiramientos y descarga.
+C	Dónde se procesa tu imagen
+C	Unidades
+C	px, %, cm, mm, pulgadas + DPI
+C	Píxeles o porcentaje
+C	Preajustes de redes / pasaporte
+C	Sí (10 preajustes)
+C	Recortar para rellenar o añadir bordes al tamaño exacto
+C	KB máximos de salida
+C	Redimensionar por lotes
+C	Sí, en ZIP
+C	Sí («varias imágenes a la vez»)
+C	Conservación de archivos
+C	Nunca se suben
+C	Se borran en 6 horas

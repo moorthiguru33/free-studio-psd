@@ -1,0 +1,143 @@
+0	HEIC a JPG
+1	Convierte fotos HEIC del iPhone a JPG.
+2	Convertir HEIC a JPG online gratis – Fotos de iPhone | {brand}
+3	Convierte fotos HEIC/HEIF de iPhone y iPad a JPG, PNG o WEBP. Conversión por lotes privada en tu navegador: las fotos nunca se suben.
+4	Convertidor de HEIC a JPG
+5	Selecciona tus fotos .heic o .heif.
+6	Elige JPG, PNG o WEBP y la calidad.
+7	Haz clic en Empezar y descarga.
+8	¿Por qué no puedo abrir archivos HEIC en Windows?
+9	HEIC es el formato de alta eficiencia de Apple y muchas apps y webs no lo admiten. Convertir a JPG permite ver las fotos en cualquier sitio.
+10	¿Se suben mis fotos privadas?
+11	No. La conversión se ejecuta por completo en tu dispositivo.
+12	Los iPhone guardan las fotos en HEIC para ahorrar espacio, pero los PC con Windows, muchas webs y las apps antiguas de Android no pueden abrirlas. Convertir a JPG permite ver tus fotos en cualquier sitio y, como {brand} funciona en local, las fotos personales se quedan en tu dispositivo.
+13	Abrir fotos del iPhone en Windows o Android.
+14	Subir fotos a webs que no aceptan HEIC.
+15	Compartir fotos con amigos y familia en cualquier dispositivo.
+16	Convierte un álbum entero de una vez y descarga un ZIP.
+17	Con calidad 90 las fotos se ven como el original.
+18	¿Por qué mis fotos del iPhone están en HEIC?
+19	HEIC es el formato de alta eficiencia de Apple. Muchas apps y webs no lo admiten, así que convertir a JPG permite ver las fotos en cualquier sitio.
+20	Convertir HEIC a JPG – Fotos de iPhone, lotes, gratis
+21	Convierte fotos HEIC/HEIF del iPhone a JPG, PNG, WebP o un PDF. Control de calidad, redimensión, ZIP por lotes y sin GPS. Gratis y sin subidas.
+22	{tool}: {brand} frente a CloudConvert, FreeConvert y heictojpg.com
+23	Abre las fotos de tu iPhone en cualquier sitio
+24	Los iPhone y muchos móviles Android recientes guardan las fotos en formato HEIC (High Efficiency Image Container). Es excelente para ahorrar espacio en el móvil, pero buena parte del mundo sigue esperando JPG: PC con Windows antiguos, muchas webs y formularios de subida, quioscos de impresión, destinatarios de correo con software antiguo y bastantes editores de fotos rechazan los archivos HEIC o los muestran como iconos en blanco. {brand} convierte fotos HEIC y HEIF a JPG estándar (o a PNG, WebP o un único PDF) directamente en tu navegador.
+25	Suelta una foto o una exportación entera del carrete. Tú eliges la calidad y, si quieres, un ancho máximo, y las fotos vuelven como archivos sueltos o en un ZIP. Tus fotos nunca se suben, algo importante para fotos familiares, documentos fotografiados y cualquier cosa con datos de ubicación.
+26	Funciones
+27	**Salida JPG, PNG, WebP o PDF**: PDF pone cada foto en su propia página dentro de un archivo, práctico para enviar recibos o documentos fotografiados con el iPhone.
+28	**Control de calidad**: 92 por defecto para una calidad casi original; bájalo para archivos más pequeños.
+29	**Redimensiona al convertir**: fija un ancho máximo, como 1600 o 2048 píxeles, para el correo y la web.
+30	**Conversión por lotes**: cientos de fotos de una vez, descargadas en un ZIP.
+31	**Orientación correcta**: las fotos se guardan derechas.
+32	**Privacidad por defecto**: la ubicación GPS y otros metadatos no se copian al archivo convertido.
+33	**Sin límites**: sin tope de 200 fotos, sin cuota diaria, sin cuenta y sin marca de agua.
+34	Cómo convertir HEIC a JPG
+35	Suelta tus archivos .heic o .heif en la página (en el iPhone, toca y elige desde Fotos o Archivos).
+36	Elige la salida: JPG, PNG, WebP o PDF.
+37	Ajusta la calidad y, si quieres, un ancho máximo.
+38	Haz clic en Convertir y descarga los archivos o el ZIP.
+39	¿Qué es un archivo HEIC?
+40	HEIC es el nombre que da Apple a las imágenes guardadas en el contenedor HEIF con compresión HEVC (H.265), la misma tecnología que se usa en el vídeo 4K. Apple lo convirtió en el formato de cámara por defecto en iOS 11, en 2017, porque guarda las fotos con aproximadamente la mitad de tamaño que un JPG equivalente y la misma calidad visual. Un archivo HEIC también puede contener datos adicionales: mapas de profundidad para el modo Retrato, varias imágenes para ráfagas y Live Photos, información HDR y transparencia.
+41	El problema es la compatibilidad. HEVC está cubierto por patentes y licencias, así que la compatibilidad fuera del ecosistema de Apple llegó despacio. Windows necesita una extensión de Microsoft Store para mostrar miniaturas HEIC, muchos formularios web solo aceptan JPG o PNG, y algunos móviles Android y editores de fotos antiguos no pueden abrirlos en absoluto.
+42	HEIC en Mac
+43	En un Mac, Vista Previa abre los archivos HEIC y puede exportarlos uno a uno desde Archivo → Exportar, eligiendo JPEG. Fotos para macOS también puede exportar las imágenes seleccionadas como JPG. Ambos funcionan, pero son lentos con lotes grandes y es fácil equivocarse; este convertidor procesa una carpeta entera de una vez y te da un ZIP, con el mismo resultado en un Mac, un PC con Windows o un Chromebook.
+44	HEIC frente a JPG
+45	
+46	HEIC
+47	JPG
+48	Tamaño con calidad similar
+49	Aproximadamente la mitad
+50	Referencia
+51	Compatibilidad
+52	Dispositivos Apple, Windows/Android recientes con códecs
+53	En todas partes
+54	Transparencia, profundidad, ráfagas
+55	Admitidas
+56	No
+57	Profundidad de color
+58	Hasta 16 bits
+59	8 bits
+60	Ideal para
+61	Guardar fotos en el móvil
+62	Compartir, imprimir, subir
+63	Convertir HEIC a JPG con calidad 90–95 da archivos más grandes que el HEIC pero visualmente idénticos. Si el tamaño importa más que la compatibilidad con software muy antiguo, WebP es un buen punto intermedio: más pequeño que JPG y compatible con todos los navegadores actuales.
+64	Cómo hacer que tu iPhone deje de guardar en HEIC
+65	Si prefieres que tu iPhone haga siempre fotos en JPG, abre Ajustes → Cámara → Formatos y elige «Más compatible». Las fotos nuevas se guardarán en JPG (y los vídeos en H.264). Las fotos que ya hiciste siguen en HEIC: conviértelas aquí.
+66	Otra opción es mantener HEIC para guardar y dejar que el iPhone convierta automáticamente al compartir: Ajustes → Fotos → Transferir a Mac o PC → Automático. Ten en cuenta que esto solo se aplica a algunos métodos de transferencia; AirDrop, el correo y las subidas a la nube pueden seguir enviando archivos HEIC.
+67	Color y HDR
+68	Los iPhone recientes capturan fotos con una gama de color P3 amplia e información HDR. La salida JPG se convierte al espacio de color estándar sRGB que usan la web y la mayoría de impresoras, así que los colores se ven coherentes en cualquier pantalla. Los rojos y verdes extremadamente saturados pueden verse algo menos vivos que en la propia pantalla del iPhone: es una limitación de sRGB, no de la conversión.
+69	Abrir archivos HEIC en Windows y Android
+70	En Windows 10 y 11, las «Extensiones de imagen HEIF» y las «Extensiones de vídeo HEVC» de Microsoft Store permiten a la app Fotos mostrar archivos HEIC; la extensión HEVC puede tener un pequeño coste. Muchos móviles Android a partir de 2019 pueden mostrar HEIC en su galería. Si solo necesitas un JPG para un formulario o un compañero, convertir aquí es más rápido que instalar códecs.
+71	Live Photos y ráfagas
+72	Una Live Photo consta de una imagen HEIC fija y un breve vídeo MOV. Este convertidor transforma la imagen fija en JPG; la parte en movimiento es un archivo de vídeo aparte que puedes convertir con [MOV a MP4](/mov-to-mp4/) si lo necesitas. En archivos HEIC con varias imágenes, como las ráfagas, se convierte la imagen principal.
+73	Convertir documentos fotografiados a PDF
+74	Si fotografiaste recibos, contratos o deberes con tu iPhone, elige salida PDF: todas las fotos se convierten en páginas de un PDF en el orden en que las añadiste. Puedes reordenarlas antes en la lista de archivos y después comprimir el PDF con [Comprimir PDF](/compress-pdf/) o hacerlo buscable con [OCR a PDF](/ocr-pdf/).
+75	Ajustes de calidad y tamaño
+76	Objetivo
+77	Ajustes
+78	Mantener la máxima calidad
+79	JPG, calidad 92–95, sin redimensionar
+80	Correo o WhatsApp
+81	JPG, calidad 80, ancho máximo 1600
+82	Web o blog
+83	WebP, calidad 75, ancho máximo 1600
+84	Impresión
+85	JPG, calidad 95, sin redimensionar
+86	Formularios online con límite en KB
+87	Convierte y luego usa Comprimir imagen con un objetivo en KB
+88	Por qué fallan las subidas de HEIC
+89	Si una web rechaza tu foto con «tipo de archivo no admitido» o muestra una vista previa rota, casi siempre significa que el sitio espera JPG o PNG y has seleccionado un archivo HEIC. Algunos sitios convierten automáticamente cuando subes desde Safari en el propio iPhone, pero la misma foto copiada a un PC con Windows o subida desde Google Drive sigue siendo HEIC. Convertir antes a JPG es la solución fiable. Si el sitio también indica «máximo 2 MB» o «menos de 500 KB», pasa el JPG por [Comprimir imagen](/compress-image/) con un tamaño objetivo.
+90	Fotos HEIC en Google Fotos, iCloud y OneDrive
+91	Los servicios en la nube tratan HEIC de forma distinta. Fotos de iCloud conserva los HEIC originales y solo convierte al descargar en algunas situaciones. Google Fotos guarda los HEIC tal como se subieron y los muestra en el navegador, pero al descargarlos obtienes de nuevo el HEIC. OneDrive y Dropbox guardan lo que subas. Si descargas un conjunto de fotos de cualquiera de ellos y necesitas JPG, suelta aquí los archivos descargados: la conversión se hace en local, así que no subes tus fotos a otro servicio más.
+92	¿Es HEIC mejor que JPG?
+93	Para guardar, sí: HEIC mantiene la misma calidad visual con aproximadamente la mitad de tamaño, admite color de 10 bits y HDR, y puede contener datos de profundidad para editar en modo Retrato. Para compartir, JPG sigue siendo mejor porque cualquier dispositivo, programa y web puede abrirlo. Un flujo sensato es guardar los originales en HEIC en el móvil o en iCloud y convertir copias a JPG solo cuando necesites enviarlas, imprimirlas o subirlas.
+94	Volver a convertir de JPG a HEIC no recupera nada: solo vuelve a codificar el JPG ya comprimido. Conserva siempre el HEIC original si más adelante puedes querer la máxima calidad.
+95	Imprimir fotos del iPhone
+96	Muchos quioscos de impresión y tiendas de impresión online solo aceptan JPG. Para imprimir, elige JPG con calidad 95 y sin ancho máximo, para conservar los 12, 24 o 48 megapíxeles completos de la cámara del iPhone. Una foto de 12 megapíxeles (4032×3024 píxeles) se imprime nítida hasta unos 34×25 cm a 300 DPI, y aceptablemente más grande si se ve de lejos.
+97	Privacidad
+98	Cada paso ocurre dentro de la pestaña del navegador. La imagen se decodifica, se edita y se vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, los documentos de identidad, las capturas con datos personales y las fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el wifi una vez cargada la página y la herramienta sigue funcionando.
+99	Las fotos del iPhone suelen contener coordenadas GPS que muestran exactamente dónde se hicieron, a veces en tu casa. Los archivos convertidos no llevan esos metadatos, así que es más seguro compartirlos.
+100	Herramientas relacionadas
+101	[Comprimir imagen](/compress-image/): reduce los JPG convertidos a un tamaño exacto en KB.
+102	[Redimensionar imagen](/resize-image/): cambia las dimensiones con preajustes.
+103	[JPG a PDF](/jpg-to-pdf/): más opciones de diseño de página para PDF de fotos.
+104	[Convertidor de imágenes](/image-converter/): convierte entre todos los formatos de imagen habituales.
+105	¿Cómo convierto HEIC a JPG gratis?
+106	Suelta aquí tus fotos HEIC, deja JPG seleccionado y haz clic en Convertir. Es gratis y sin límites.
+107	¿Se suben las fotos de mi iPhone?
+108	No. La conversión se ejecuta en tu navegador; las fotos nunca salen de tu dispositivo.
+109	¿Perderé calidad al convertir HEIC a JPG?
+110	Con la calidad por defecto de 92 la diferencia no se ve. Los JPG pesan más que los HEIC porque el formato es menos eficiente.
+111	¿Puedo convertir muchos archivos HEIC a la vez?
+112	Sí. Suéltalos todos y descarga un ZIP.
+113	¿Puedo convertir fotos HEIC en un solo PDF?
+114	Sí. Elige salida PDF; cada foto se convierte en una página de un mismo PDF.
+115	¿Conserva la ubicación GPS?
+116	No. La ubicación y otros metadatos no se copian, lo que hace más seguro compartir las fotos.
+117	¿Cómo hago que mi iPhone haga fotos en JPG en lugar de HEIC?
+118	Ve a Ajustes → Cámara → Formatos y elige Más compatible.
+119	¿Por qué Windows no abre archivos HEIC?
+120	Windows necesita las extensiones HEIF y HEVC de Microsoft Store. Convertir a JPG evita necesitarlas.
+121	¿Funciona en el propio iPhone?
+122	Sí. Abre la página en Safari, toca para elegir fotos y los JPG se guardan en Archivos o Descargas.
+123	¿Qué diferencia hay entre HEIC y HEIF?
+124	HEIF es el formato contenedor; HEIC es HEIF con compresión HEVC, el que usan los iPhone. Ambos son compatibles.
+125	¿Cómo convierto HEIC a JPG?
+126	Suelta fotos HEIC o HEIF del iPhone, elige JPG (o PNG, WebP, PDF) y la calidad, y descárgalas por separado o en un ZIP.
+127	¿Es seguro convertir HEIC a JPG online?
+128	En este sitio las fotos se decodifican en tu navegador y nunca se suben, y la ubicación GPS se elimina de la salida por defecto.
+C	Dónde se procesa tu imagen
+C	Sin cuenta (según su página)
+C	Formatos de salida
+C	JPG, PNG, WebP, PDF
+C	JPG (esta página)
+C	JPG
+C	Tamaño del lote
+C	Sin límite fijo
+C	Hasta 200 fotos
+C	Redimensionar al convertir
+C	Sí (ajustes avanzados)
+C	Metadatos
+C	No se copian (sin GPS)
+C	Opción «Eliminar metadatos»
