@@ -127,3 +127,4 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 | WMA → MP3/WAV | – | Skipped: no browser decodes WMA; only ffmpeg.wasm could, and the stock @ffmpeg/core build bundles GPL codecs |
 | Extract RAR (v4, v5) / 7Z / TAR / TAR.GZ / TAR.XZ / single .gz (libarchive.js MIT + libarchive BSD-2, 1 MB wasm lazy-loaded on Start) | test/arch.js with libarchive's own RAR test files + tar/xz/7z made locally | all extract OK; encrypted 7z shows a clear "not supported" message (libarchive can't decrypt 7z/RAR) |
 | Create TAR.GZ / TAR / TAR.XZ / TAR.BZ2 / 7Z | 2 files → archive.tar.gz, verified with `tar tzf` | OK |
+| Fonts: TTF/OTF ↔ WOFF/WOFF2 (6 pages; WOFF1 via pako, WOFF2 via wawoff2/Google woff2, both MIT, 1.2 MB lazy) | NotoSans TTF + Pretendard OTF round-trips (test/font.js), checked with fontTools | lossless: TTF glyph coords identical, OTF glyph count + GSUB identical; CFF stays .otf (no lossy curve conversion) |
