@@ -9,7 +9,7 @@
   "code": "es",
   "name": "Español",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "pt",
