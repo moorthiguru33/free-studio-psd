@@ -16,7 +16,7 @@ const langs=JSON.parse(fs.readFileSync(R('src/languages.json')));
 const enabled=langs.filter(l=>l.enabled&&fs.existsSync(R(`src/i18n/${l.code}.json`)));
 
 // tools generated from i18n templates (e.g. "PNG to JPG") get their texts from t.templates[tpl] with {from}/{to} vars
-const toolText=(t,x)=>{if(!x.tpl)return x.impl&&t.tools[x.impl]?merge(t.tools[x.impl],t.tools[x.id]||{}):t.tools[x.id];const fillDeep=o=>Array.isArray(o)?o.map(fillDeep):typeof o==='object'?Object.fromEntries(Object.entries(o).map(([k,v])=>[k,fillDeep(v)])):fill(o,x.vars||{});return merge(fillDeep(t.templates[x.tpl]),t.tools[x.id]||{});};
+const toolText=(t,x)=>{if(!x.tpl){if(x.impl&&t.tools[x.impl]){const base=merge(t.tools[x.impl],{});delete base.seo;return merge(base,t.tools[x.id]||{});}return t.tools[x.id];}const fillDeep=o=>Array.isArray(o)?o.map(fillDeep):typeof o==='object'?Object.fromEntries(Object.entries(o).map(([k,v])=>[k,fillDeep(v)])):fill(o,x.vars||{});return merge(fillDeep(t.templates[x.tpl]),t.tools[x.id]||{});};
 // deep merge so missing keys fall back to English
 const merge=(a,b)=>{if(Array.isArray(a)||typeof a!=='object')return b===undefined?a:b;const o={...a};for(const k in b)o[k]=merge(a[k],b[k]);return o;};
 const load=c=>{let o=JSON.parse(fs.readFileSync(R(`src/i18n/${c}.json`)));const d=R(`src/i18n/${c}`);if(fs.existsSync(d))for(const f of fs.readdirSync(d).sort())o=merge(o,JSON.parse(fs.readFileSync(path.join(d,f))));return o;};
@@ -108,7 +108,7 @@ ${upd}${ad('tool-below',t)}
     if(lang===site.defaultLang)pages.push(x.slug);
   }
   // category hub pages
-  for(const c of cats){const list=LT.filter(x=>x.cat===c);if(!list.length)continue;const cn=t.ui['cat_'+c]||c;const vv={...V,cat:cn,n:list.length,list:list.slice(0,4).map(x=>t.tools[x.id].name).join(', ')};const slug=catSlug(c);const onlyEn=list.every(x=>x.enOnly);if(onlyEn&&lang!=='en')continue;
+  for(const c of cats){const list=LT.filter(x=>x.cat===c);if(!list.length)continue;const cn=t.ui['cat_'+c]||c;const cnT=lang==='en'?cn.replace(/\s*tools$/i,''):cn;const vv={...V,cat:cnT,n:list.length,list:''};for(let k=4;k>=1;k--){vv.list=list.slice(0,k).map(x=>t.tools[x.id].name).join(', ');if(fill(t.ui.catDesc,vv).length<=155)break;}const slug=catSlug(c);const onlyEn=list.every(x=>x.enOnly);if(onlyEn&&lang!=='en')continue;
    const others=cats.filter(o=>o!==c&&LT.some(x=>x.cat===o)).map(o=>`<a class="chip" href="${url(lang,catSlug(o))}">${esc(t.ui['cat_'+o]||o)}</a>`).join('');
    const body=`<nav class="crumbs" aria-label="Breadcrumb"><a href="${prefix(lang)}">${esc(t.ui.crumbHome||'Home')}</a> › <span aria-current="page">${esc(cn)}</span></nav><section class="hero small"><h1>${esc(cn)}</h1><p class="lead">${esc(fill(t.ui.catLead,vv))}</p></section><div class="grid">${list.map(card).join('')}</div><section class="rel"><h2>${esc(t.ui.catOther)}</h2>${others}</section>`;
    write(url(lang,slug),layout({t,lang,slug,title:fill(t.ui.catTitle,vv),desc:fill(t.ui.catDesc,vv),body,cat:c,alts:enabled.every(l=>forLang(l.code).some(x=>x.cat===c)),jsonld:[{"@context":"https://schema.org","@type":"CollectionPage",name:cn,url:abs(url(lang,slug)),inLanguage:lang,hasPart:list.map(x=>({"@type":"SoftwareApplication",name:t.tools[x.id].name,url:abs(url(lang,x.slug)),applicationCategory:"UtilitiesApplication",operatingSystem:"Any (web browser)"}))},{"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:t.ui.crumbHome||'Home',item:abs(prefix(lang))},{"@type":"ListItem",position:2,name:cn,item:abs(url(lang,slug))}]}]}));

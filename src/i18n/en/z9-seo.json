@@ -1,1 +1,11 @@
-{"ui":{"catTitle":"{cat} Tools – Free Online, No Sign-up | {brand}","catDesc":"All free {cat} tools from {brand}: {list} and more. Runs in your browser, no sign-up, files stay on your device.","catLead":"{n} free {cat} tools that work right in your browser – no uploads, no accounts, no watermarks.","catAll":"All tools","catOther":"Other categories","e404t":"Page not found","e404d":"This page doesn't exist (or moved). Try one of the popular tools below."}}
+{
+ "ui": {
+  "catTitle": "{cat} Tools – Free Online | {brand}",
+  "catDesc": "Free online {cat} tools: {list} and more. No sign-up, runs in your browser, files stay on your device.",
+  "catLead": "{n} free {cat} tools that work right in your browser – no uploads, no accounts, no watermarks.",
+  "catAll": "All tools",
+  "catOther": "Other categories",
+  "e404t": "Page not found",
+  "e404d": "This page doesn't exist (or moved). Try one of the popular tools below."
+ }
+}

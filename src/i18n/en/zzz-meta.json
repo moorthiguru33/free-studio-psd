@@ -1,0 +1,542 @@
+{
+ "tools": {
+  "colorpicker": {
+   "title": "Image Color Picker Online Free – Get HEX, RGB from Image"
+  },
+  "receipt": {
+   "title": "Receipt Maker – Free Printable Receipt Generator (PDF)",
+   "desc": "Make professional receipts with items, tax or VAT, discount and tip. Print on 80 mm or 58 mm thermal rolls or A4/Letter paper."
+  },
+  "imgwatermark": {
+   "title": "Watermark Image Online Free – Add Text or Logo to Photos"
+  },
+  "rasterize": {
+   "title": "Rasterize PDF Online Free – Convert PDF Pages to Images"
+  },
+  "ringtone": {
+   "title": "Ringtone Maker – Make Ringtones for iPhone & Android Free",
+   "desc": "Turn any song or audio file into a ringtone: pick the start point, length (up to 40 s) and fade, then save as MP3 for Android or M4R for iPhone."
+  },
+  "wordcount": {
+   "title": "Word Counter – Free Online Word & Character Count Tool",
+   "desc": "Count words, characters, sentences, paragraphs and reading time instantly."
+  },
+  "barcode": {
+   "title": "Barcode Generator Free – Code 128, EAN-13, UPC"
+  },
+  "csv2pdf": {
+   "title": "CSV to PDF – Convert CSV to PDF Table Free, No Upload"
+  },
+  "signature": {
+   "desc": "Create a handwritten signature by drawing with a mouse, finger or stylus, or type your name in a signature font. Download a transparent PNG, JPG or SVG."
+  },
+  "video2frames": {
+   "title": "Video to Frames – Extract Images from Video Online",
+   "desc": "Extract frames from MP4, MOV and WEBM videos as JPG, PNG or WEBP – one frame every few seconds, N frames per second or evenly spaced shots."
+  },
+  "qrscan": {
+   "title": "QR Code Scanner Online – Scan from Image or Camera, Free"
+  },
+  "palette": {
+   "title": "Color Palette Extractor – Get HEX Colors from an Image",
+   "desc": "Upload a photo, logo or screenshot and extract its dominant colours as HEX, RGB and HSL with percentages."
+  },
+  "myip": {
+   "title": "What Is My IP? – IP Address, User Agent & Browser Info",
+   "desc": "See your public IPv4 and IPv6 address, user agent, browser, OS, screen size, language and time zone – everything your browser shares with sites."
+  },
+  "currency": {
+   "title": "Currency Converter – Free Exchange Rates, USD EUR GBP INR",
+   "desc": "Convert between US dollars, euros, pounds, rupees, yen and 30+ other currencies using the European Central Bank’s daily reference rates."
+  },
+  "hashtag": {
+   "title": "Hashtag Generator – Instagram, TikTok & LinkedIn Hashtags",
+   "desc": "Turn a caption or topic into relevant hashtags for Instagram, TikTok, X, LinkedIn and YouTube."
+  },
+  "voicerec": {
+   "desc": "Record your voice from any microphone and save it as MP3, WAV or WEBM. Pause and resume, live level meter, noise suppression."
+  },
+  "pdfimage": {
+   "title": "Add Image to PDF – Insert Logo or Stamp on PDF Pages",
+   "desc": "Add a logo, stamp, signature or picture to any PDF. Choose position, size, opacity, rotation and pages."
+  },
+  "webcam": {
+   "title": "Webcam Photo – Take a Picture with Your Webcam Online",
+   "desc": "Take photos with your webcam or phone camera in the browser. Mirror, countdown timer, filters, multiple shots and JPG or PNG download."
+  },
+  "lorem": {
+   "desc": "Generate lorem ipsum placeholder text by paragraphs, sentences, words or list items, with optional HTML tags."
+  },
+  "love": {
+   "title": "Love Calculator – Name Compatibility Test (Just for Fun)",
+   "desc": "Enter two names to get a playful love compatibility percentage and a FLAMES result. Same names always give the same score."
+  },
+  "tarx": {
+   "title": "Extract TAR Files Online – Free TAR Opener, No Upload"
+  },
+  "imgconvert": {
+   "title": "Image Converter Online Free – JPG, PNG, WebP, HEIC"
+  },
+  "gifcompress": {
+   "title": "Compress GIF – Reduce Animated GIF Size Online Free",
+   "desc": "Make animated GIFs smaller by reducing colours, size and frames, with a lossy option that merges similar pixels between frames."
+  },
+  "discount": {
+   "desc": "Calculate the sale price and savings for any percent off, including stacked discounts and sales tax or VAT."
+  },
+  "audiospeed": {
+   "title": "Change Audio Speed & Pitch – Speed Up or Slow Down MP3",
+   "desc": "Speed up or slow down MP3, WAV, M4A and other audio files without changing pitch, or shift the pitch by semitones. Save as MP3 or WAV."
+  },
+  "extractimages": {
+   "title": "Extract Images from PDF Online Free – Save All Pictures"
+  },
+  "audioconv": {
+   "title": "Audio Converter Online Free – M4A, FLAC, OGG to MP3 or WAV"
+  },
+  "uarea": {
+   "title": "Area Converter – Acre, Cent, Hectare, Sq Ft, Ground"
+  },
+  "rmlinks": {
+   "title": "Remove Links from PDF – Delete Hyperlinks Online Free",
+   "desc": "Remove all hyperlinks from a PDF, only external web and email links, or only internal links. Also strips auto-open actions and JavaScript."
+  },
+  "kwdensity": {
+   "title": "Keyword Density Checker – Word & Phrase Frequency for SEO",
+   "desc": "Check keyword density for words and 2–3 word phrases, test a target keyword, filter stop words and spot over-optimisation. Free, private, no limit."
+  },
+  "pdf2svg": {
+   "title": "PDF to SVG Converter Online Free – Vector Graphics"
+  },
+  "calendar": {
+   "title": "Printable Calendar Maker 2026 & 2027 – Free PDF Calendar",
+   "desc": "Make a printable calendar PDF for any year or month: A4 or Letter, Monday or Sunday start, week numbers, notes, your own events and colours. Free."
+  },
+  "zipcreate": {
+   "title": "Create ZIP File Online Free – Compress Files to ZIP"
+  },
+  "pdf2txt": {
+   "title": "PDF to Text Converter Online Free – Extract Text from PDF"
+  },
+  "bmi": {
+   "desc": "Calculate your body mass index with metric or imperial units. See WHO categories, an optional Asian cut-off scale, healthy weight range and BMI Prime."
+  },
+  "units": {
+   "title": "Unit Converter Online Free – Length, Weight, Temp"
+  },
+  "darkpdf": {
+   "desc": "Convert any PDF to dark mode, OLED black, night (amber) or sepia for comfortable reading at night. Keeps photos in natural colours."
+  },
+  "txt2pdf": {
+   "title": "Text to PDF Converter Online Free – TXT to PDF Any Language"
+  },
+  "gifmaker": {
+   "title": "GIF Maker Online Free – Create Animated GIFs from Images"
+  },
+  "screenrec": {
+   "title": "Online Screen Recorder – Record Screen with Audio Free",
+   "desc": "Record your entire screen, an app window or a browser tab with system audio and microphone narration."
+  },
+  "printready": {
+   "title": "Print-Ready PDF – Add Bleed & Crop Marks Online Free",
+   "desc": "Make PDFs print-shop ready: add 3 mm bleed with mirrored edges, crop marks, registration marks and correct TrimBox/BleedBox."
+  },
+  "anypdf": {
+   "title": "Convert to PDF – Word, Excel, Images & More Free",
+   "desc": "Convert many files to PDF at once: DOCX, ODT, XLSX, CSV, images, TXT, Markdown, HTML and even ZIP archives."
+  },
+  "pdf2epub": {
+   "title": "PDF to EPUB – Convert PDF to eBook Free, No Upload"
+  },
+  "picker": {
+   "desc": "Pick one or more random names from a list, draw giveaway winners, split people into teams or generate random numbers in a range."
+  },
+  "ogpreview": {
+   "title": "Open Graph Preview – Facebook, X & LinkedIn Cards",
+   "desc": "Preview how your page will appear when shared on Facebook, X, LinkedIn, WhatsApp, Slack and Discord."
+  },
+  "typing": {
+   "title": "Typing Speed Test – Check Your WPM & Accuracy Free",
+   "desc": "Take a free typing test: 15, 30, 60 or 120 seconds on varied passages, common words or your own text."
+  },
+  "robots": {
+   "title": "Robots.txt Generator – Block AI Crawlers, Add Sitemap",
+   "desc": "Create a valid robots.txt: allow or block crawlers, disallow folders, block AI bots like GPTBot, add your sitemap and test URLs against the rules."
+  },
+  "instagrid": {
+   "title": "Instagram Grid Maker – Split Photo into 9 Grid Posts",
+   "desc": "Split one photo into a 3×3, 3×2 or 3×4 Instagram grid with 4:5 tiles, numbered in posting order, downloaded as a ZIP. Free, no app, no upload."
+  },
+  "odt2pdf": {
+   "title": "ODT to PDF – Convert OpenDocument Text to PDF Free"
+  },
+  "loan": {
+   "title": "Loan & Mortgage Calculator – Monthly Payment & Schedule",
+   "desc": "Calculate monthly loan or mortgage payments, total interest and payoff time, with extra payments and a downloadable amortisation schedule."
+  },
+  "imgsplit": {
+   "title": "Image Splitter – Split Image into Grid Tiles Online",
+   "desc": "Split any image into equal tiles: 3×3 Instagram grid, 3×1 panorama carousel, or any custom rows and columns."
+  },
+  "pagesize": {
+   "title": "Change PDF Page Size Online Free – A4, Letter, Legal, A3"
+  },
+  "tts": {
+   "title": "Text to Speech – Free Online Reader with Natural Voices",
+   "desc": "Paste text and hear it read aloud with natural voices in dozens of languages. Adjust speed and pitch, follow word highlighting. Free, unlimited."
+  },
+  "passport": {
+   "title": "Passport Photo Maker – Free Passport & Visa Photo Online",
+   "desc": "Create passport, visa and ID photos in official sizes for the US, UK, EU, Canada, Australia, China and 15+ more."
+  },
+  "countdown": {
+   "title": "Countdown Timer – Online Timer with Alarm & Full Screen",
+   "desc": "Set a countdown for any number of minutes and seconds, or count down to a date and time."
+  },
+  "tgzc": {
+   "title": "Create TAR.GZ, TAR or 7Z Archive Online – No Upload"
+  },
+  "pdfa": {
+   "title": "PDF to PDF/A Converter Online Free – Archive-Ready PDF/A-2b"
+  },
+  "numpicker": {
+   "title": "Random Number Generator – Pick Numbers 1–100 or Any Range",
+   "desc": "Generate one or many random numbers between any minimum and maximum, with or without repeats, sorted or unsorted."
+  },
+  "dataconv": {
+   "title": "Data Converter Online Free – CSV, JSON, Excel, TSV, ODS"
+  },
+  "pdf2tiff": {
+   "title": "PDF to TIFF Converter Online Free – Multi-page TIFF"
+  },
+  "webopt": {
+   "title": "Optimize PDF for Web Online Free – Faster Loading PDFs"
+  },
+  "uuid": {
+   "title": "UUID Generator – Random v4 & v7 UUIDs/GUIDs Online",
+   "desc": "Generate random UUID v4 or time-ordered UUID v7 identifiers in bulk – up to 1,000 at once, with uppercase, braces and no-hyphen options."
+  },
+  "rarx": {
+   "title": "Extract RAR Files Online – Free RAR Opener, No Upload"
+  },
+  "epub2pdf": {
+   "title": "EPUB to PDF – Convert eBook to PDF Free, No Upload"
+  },
+  "formfill": {
+   "title": "Fill PDF Form Online Free – Type on Any PDF, No Upload",
+   "desc": "Fill in PDF forms directly on the page: text fields, checkboxes, radio buttons and dropdowns. Non-fillable PDF?"
+  },
+  "timezone": {
+   "title": "Time Zone Converter – Convert Time Between Any Cities"
+  },
+  "removemeta": {
+   "title": "Remove PDF Metadata Online Free – Clean Hidden Data"
+  },
+  "exifrm": {
+   "title": "Remove EXIF Data – Delete Photo Metadata & GPS Online",
+   "desc": "Remove EXIF, GPS location, camera details and other metadata from JPG, PNG and WEBP photos without re-compressing."
+  },
+  "pdfacheck": {
+   "title": "Validate PDF/A – Free PDF/A Checker Online, No Upload",
+   "desc": "Check PDF/A-1b, 2b and 3b compliance: fonts, XMP metadata, ICC output intent, encryption, JavaScript, transparency and more. Clear pass/fail report."
+  },
+  "imgkb": {
+   "title": "Compress Image to KB – Reduce Photo to Exact Size Online",
+   "desc": "Compress JPG, PNG, HEIC or WEBP images to an exact size in KB – 20 KB, 50 KB, 100 KB, 500 KB or any target. Ideal for online forms and portals."
+  },
+  "kb50": {
+   "title": "Compress Image to 50 KB – Reduce Photo Size Under 50KB",
+   "desc": "Reduce JPG, PNG, HEIC and WEBP photos to 50 KB or less while keeping them sharp. Preset for application forms, ID uploads and email."
+  },
+  "roman": {
+   "title": "Roman Numeral Converter – Numbers ⇄ Roman Numerals",
+   "desc": "Convert any number from 1 to 3,999,999 into Roman numerals and decode numerals like MCMXCIV."
+  },
+  "filters": {
+   "title": "Photo Filters Online – Free Vintage, B&W & Sepia Effects",
+   "desc": "Apply photo filters such as vintage, black & white, sepia, warm, noir and lomo, then fine-tune brightness, contrast, saturation, warmth and vignette."
+  },
+  "handwriting": {
+   "desc": "Convert typed text into realistic handwriting on lined, plain or grid paper. Choose pen colour and style, then download a PNG or multi-page PDF."
+  },
+  "base64": {
+   "title": "Base64 Encode & Decode Online – Free Base64 Converter",
+   "desc": "Encode text to Base64 or decode Base64 back to text with full UTF-8 support and URL-safe mode."
+  },
+  "searchpdf": {
+   "title": "Search in Multiple PDFs Online Free – Find Text Across Files"
+  },
+  "enlarge": {
+   "title": "Image Enlarger Online Free – Enlarge Photos 2×, 3×, 4×"
+  },
+  "social": {
+   "title": "Social Media Image Resizer – All Sizes for 2026",
+   "desc": "Resize images to the right size for Instagram posts and stories, Facebook covers, X headers, LinkedIn banners, YouTube thumbnails, Pinterest pins and more."
+  },
+  "numbase": {
+   "title": "Binary to Decimal to Hex Converter – Any Base 2–36",
+   "desc": "Convert numbers between binary, octal, decimal, hexadecimal and any base from 2 to 36."
+  },
+  "pomodoro": {
+   "desc": "A free Pomodoro timer: 25-minute focus sessions, 5-minute short breaks and longer breaks every four rounds – all adjustable."
+  },
+  "textdiff": {
+   "desc": "Compare two versions of text side by side and see added, removed and changed lines with word-level highlighting."
+  },
+  "bookmarks": {
+   "title": "PDF Bookmark Editor – Add & Edit PDF Bookmarks Online",
+   "desc": "Add, edit, rename, nest and remove bookmarks (outline) in a PDF with a simple text editor. Create a clickable table of contents for long documents."
+  },
+  "pdf2long": {
+   "title": "PDF to Long Image – Combine PDF Pages into One JPG",
+   "desc": "Convert a PDF into one long vertical image with all pages stacked – perfect for sharing on WhatsApp, Instagram, Slack or websites."
+  },
+  "minify": {
+   "desc": "Minify HTML, CSS and JavaScript online to reduce file size and speed up websites. JavaScript is compressed with Terser."
+  },
+  "resume": {
+   "desc": "Build a professional resume or CV and download a PDF – classic ATS-friendly, modern sidebar or minimal templates, A4 or US Letter."
+  },
+  "collage": {
+   "title": "Collage Maker Online Free – Photo Grid, No Watermark"
+  },
+  "video2audio": {
+   "title": "Video to Audio Converter – Extract MP3 from MP4 Online",
+   "desc": "Extract audio from MP4, MOV, WebM and other videos and save it as MP3 or WAV."
+  },
+  "camera2pdf": {
+   "title": "Camera to PDF – Scan Documents with Your Phone Free"
+  },
+  "emoji": {
+   "desc": "Find and copy emoji fast: search 1,300+ emoji by name, browse categories, build a string of several emoji and keep your recently used ones."
+  },
+  "7zx": {
+   "title": "Extract 7Z Files Online – Free 7Z Opener, No Upload"
+  },
+  "repair": {
+   "title": "Repair PDF – Fix Corrupted or Damaged PDF Files Free"
+  },
+  "zip2pdf": {
+   "title": "ZIP to PDF – Convert ZIP Archive to PDF Free, No Upload"
+  },
+  "summarize": {
+   "desc": "Summarize PDF, Word or text files in seconds. Get the key sentences, keywords and a short summary with page references."
+  },
+  "kb100": {
+   "title": "Compress Image to 100 KB – Reduce JPG Size to 100KB Online",
+   "desc": "Compress photos and scans to 100 KB or less with minimal visible quality loss. Perfect for websites, email, forms and marketplaces."
+  },
+  "username": {
+   "title": "Username Generator – Cool, Unique Usernames & Gamertags",
+   "desc": "Generate creative usernames, gamertags and handles from your name or keywords."
+  },
+  "fancytext": {
+   "desc": "Turn plain text into 𝗯𝗼𝗹𝗱, 𝘪𝘵𝘢𝘭𝘪𝘤, 𝓈𝒸𝓇𝒾𝓅𝓉, 𝔣𝔯𝔞𝔨𝔱𝔲𝔯, ⓒⓘⓡⓒⓛⓔⓓ, sᴍᴀʟʟ ᴄᴀᴘs and more Unicode styles to copy and paste."
+  },
+  "pdfspeech": {
+   "title": "PDF to Speech – Read PDF Aloud Online Free (Text to Speech)",
+   "desc": "Listen to any PDF, Word or text file read aloud with your device's natural voices. Sentence highlighting, speed control, page ranges."
+  },
+  "cleanpdf": {
+   "title": "PDF Cleaner – Remove JavaScript, Metadata & Hidden Data Free",
+   "desc": "Sanitize PDFs: remove JavaScript, auto-run actions, embedded files, metadata, comments, XFA and private data. See exactly what was removed."
+  },
+  "audiojoin": {
+   "title": "Audio Joiner – Merge MP3 Files Online, with Crossfade",
+   "desc": "Combine several audio files – MP3, WAV, M4A, OGG and more – into one track."
+  },
+  "umass": {
+   "title": "Weight Converter – Kg, Pounds, Grams, Ounces, Tola",
+   "desc": "Convert kg to lbs, grams, ounces, stone, tola and quintal instantly, with a handy conversion chart and exact factors. Free and private."
+  },
+  "utemp": {
+   "title": "Temperature Converter – Celsius, Fahrenheit, Kelvin",
+   "desc": "Convert Celsius, Fahrenheit and Kelvin instantly with exact formulas, a quick reference chart and cooking and weather examples. Free."
+  },
+  "img2b64": {
+   "desc": "Convert PNG, JPG, SVG, WEBP and GIF images to Base64 data URIs, raw Base64, HTML img tags, CSS backgrounds, Markdown or JSON."
+  },
+  "regex": {
+   "desc": "Test JavaScript regular expressions with live match highlighting, capture groups, named groups and replace preview. Includes a cheat sheet."
+  },
+  "poster": {
+   "title": "Print PDF as Poster – Tile PDF Across Multiple Pages Free",
+   "desc": "Enlarge any PDF page or image and split it across A4 or Letter sheets with overlap, cut marks and assembly labels. Print a poster on a home printer."
+  },
+  "kb20": {
+   "title": "Compress Image to 20 KB – Photo & Signature Under 20KB",
+   "desc": "Compress a photo or signature to 20 KB or less for online application forms. Keeps the best possible quality, works with JPG, PNG and phone photos."
+  },
+  "videocrop": {
+   "title": "Crop Video Online Free – 9:16, 1:1, 16:9 for Social Media"
+  },
+  "favicon": {
+   "title": "Favicon Generator Online Free – ICO, PNG, Apple Touch Icon"
+  },
+  "caseconv": {
+   "title": "Case Converter – Change Text to Upper, Lower, Title Case",
+   "desc": "Convert text to UPPERCASE, lowercase, Title Case, Sentence case, camelCase, snake_case, kebab-case and more."
+  },
+  "docscan": {
+   "title": "PDF Scanner Online – Scan Documents to PDF Free (Auto Crop)",
+   "desc": "Turn photos of paper documents into clean PDF scans: automatic edge detection, perspective correction, adjustable corners and B&W photocopy mode."
+  },
+  "mockup": {
+   "title": "Screenshot Mockup Generator – Browser & Phone Frames",
+   "desc": "Turn screenshots into polished mockups with browser windows, macOS windows, phone and tablet frames, gradient backgrounds, rounded corners and shadows."
+  },
+  "pdf2html": {
+   "title": "PDF to HTML Converter Online Free – Clean Responsive HTML"
+  },
+  "imgjoin": {
+   "title": "Image Joiner – Combine Images Side by Side or Vertically",
+   "desc": "Join two or more images into one: side by side, stacked vertically or in a grid. Match sizes, add gaps and a background colour, choose JPG, PNG or WebP."
+  },
+  "kb200": {
+   "title": "Compress Image to 200 KB – Reduce Photo Size Under 200KB",
+   "desc": "Compress large photos and scans to 200 KB or less with high visual quality. For forms, CMS uploads, email and documents."
+  },
+  "circlecrop": {
+   "title": "Circle Crop Image – Make Round Profile Pictures Online",
+   "desc": "Crop photos into a perfect circle, rounded square or squircle with transparent corners. Add a border, choose the size and download PNG."
+  },
+  "ascii": {
+   "title": "Image to ASCII Art Converter – Photo to Text Art Online",
+   "desc": "Turn any photo or logo into ASCII art with adjustable width, character sets, contrast, invert and colour HTML output. Copy or download as text or HTML."
+  },
+  "ulength": {
+   "title": "Length Converter – Meters, Feet, Inches, Km, Miles"
+  },
+  "viewer": {
+   "title": "PDF Reader Online – Open & View PDF Files Free, No Upload",
+   "desc": "Open PDF files in your browser: fast scrolling, zoom, page jump, full-text search and night mode. Save selected pages as a new PDF."
+  },
+  "imgcrop": {
+   "title": "Crop Image Online Free – Square, 16:9, 4:3 and Story Sizes"
+  },
+  "tgzx": {
+   "title": "Extract TAR.GZ Files Online – Free TAR.GZ Opener, No Upload"
+  },
+  "pwcheck": {
+   "title": "Password Strength Checker – How Secure Is My Password?",
+   "desc": "Test how strong your password is: detects common passwords, words, patterns and dates, estimates crack time and suggests fixes. 100% in your browser."
+  },
+  "formcreate": {
+   "title": "Create Fillable PDF Form Free – Auto-Detect Form Fields"
+  },
+  "halve": {
+   "title": "Split PDF Pages in Half Online Free – Scanned Books"
+  },
+  "extractfacts": {
+   "title": "Extract Data from PDF – Dates, Amounts, Emails, Phones Free"
+  },
+  "stopwatch": {
+   "title": "Online Stopwatch – Free Stopwatch with Laps & Full Screen",
+   "desc": "A free, accurate online stopwatch with lap and split times, big digits, full-screen mode and downloadable lap list."
+  },
+  "numwords": {
+   "title": "Number to Words Converter – Spell Numbers for Cheques",
+   "desc": "Convert numbers to words instantly: 1,250.75 becomes “one thousand two hundred fifty and 75/100”."
+  },
+  "metatags": {
+   "title": "Meta Tag Generator – SEO, Open Graph & Twitter Card Tags",
+   "desc": "Generate title, meta description, canonical, robots, Open Graph and X/Twitter Card tags with a live Google snippet preview and length checks."
+  },
+  "sitemap": {
+   "title": "XML Sitemap Generator – Create sitemap.xml from URLs",
+   "desc": "Paste your page URLs and get a valid XML sitemap with lastmod, changefreq and priority."
+  },
+  "overlay": {
+   "title": "Overlay PDF Online Free – Add Letterhead or Stamp to PDF"
+  },
+  "textimg": {
+   "desc": "Add captions, titles and quotes to photos with outline, shadow, background box and handwriting fonts. Position and rotate text, then download JPG or PNG."
+  },
+  "img2gif": {
+   "title": "Image to GIF Converter – JPG/PNG to Animated GIF Free"
+  },
+  "chatpdf": {
+   "title": "Chat with PDF – Ask Questions to Any PDF Free, Private"
+  },
+  "blurface": {
+   "title": "Blur Face in Photos Online Free – Automatic & Private"
+  },
+  "exif": {
+   "title": "EXIF Viewer – Check Photo Metadata & GPS Location Online",
+   "desc": "View EXIF metadata in JPG, PNG and WEBP photos: camera, lens, settings, date taken, software and GPS location on a map. Export to CSV."
+  },
+  "videotrim": {
+   "title": "Trim Video Online Free – Cut MP4 Without Watermark"
+  },
+  "quizgen": {
+   "title": "PDF Question Generator – Make Quiz Questions from PDF Free"
+  },
+  "notepad": {
+   "desc": "A clean online notepad that autosaves to your browser’s local storage."
+  },
+  "unixtime": {
+   "title": "Unix Timestamp Converter – Epoch to Date & Date to Epoch",
+   "desc": "Convert Unix timestamps (seconds, milliseconds, micro- or nanoseconds) to human dates in any time zone, and dates back to epoch time."
+  },
+  "booklet": {
+   "title": "Create Booklet PDF Online Free – Print, Fold and Staple"
+  },
+  "fakeaddr": {
+   "title": "Fake Address Generator – Test Data for US, UK, India & More",
+   "desc": "Generate clearly fictional test addresses, names, phone numbers and emails in US, UK, Canadian, Australian, German, Indian and French formats."
+  },
+  "invoice": {
+   "title": "Free Invoice Generator – Printable PDF Invoices"
+  },
+  "pagecount": {
+   "desc": "Count the pages of one or hundreds of PDF files at once, see page sizes such as A4 and Letter, and export the totals to CSV."
+  },
+  "charcount": {
+   "title": "Character Counter – Count Characters & Check Limits Online",
+   "desc": "Free character counter with live limits for X (Twitter), SMS, Instagram, LinkedIn and Google title and meta descriptions."
+  },
+  "dedupe": {
+   "title": "Remove Duplicate Lines – Free Online Dedupe & Sort Tool",
+   "desc": "Remove duplicate lines from any list instantly. Ignore case, trim spaces, remove empty lines and sort A–Z or numerically."
+  },
+  "hash": {
+   "desc": "Generate MD5, SHA-1, SHA-256, SHA-384, SHA-512 and CRC32 hashes or HMACs for text and files, and verify checksums."
+  },
+  "jsonfmt": {
+   "desc": "Format, beautify, minify and validate JSON instantly. Shows the exact line and column of errors and runs in your browser, so API data stays private."
+  },
+  "videomerge": {
+   "desc": "Combine video clips into one MP4 or WebM in your browser. Pick size, frame rate and fit – including vertical 1080×1920 for Reels. No upload, no watermark."
+  },
+  "todo": {
+   "desc": "A fast, private online to-do list: priorities, due dates, filters and sorting, export to Markdown, text or CSV. Saved in your browser – no account."
+  },
+  "age": {
+   "desc": "Calculate exact age in years, months and days from a date of birth, plus total weeks and days, your birth weekday and a next-birthday countdown."
+  },
+  "wheel": {
+   "desc": "Type your choices and spin a colourful wheel to pick a random winner. Remove winners, set spin time, go full screen. Free, secure randomness, offline."
+  },
+  "datediff": {
+   "desc": "Calculate days, weeks, months and years between two dates, count working days excluding weekends and holidays, and add or subtract days."
+  },
+  "percent": {
+   "desc": "Free percentage calculator: X% of Y, what percent X is of Y, percentage change, increase or decrease by a percent, reverse percentages and points."
+  },
+  "udata": {
+   "desc": "Convert bytes, KB, MB, GB, TB and binary MiB/GiB, plus Mbit/Gbit – decimal and binary units explained. Free, instant, works offline."
+  },
+  "ist2pst": {
+   "desc": "Convert India Standard Time to US Pacific Time (PST/PDT) with daylight saving handled automatically. Plan calls between India and California."
+  },
+  "videomute": {
+   "desc": "Remove the audio track from MP4, MOV and WEBM videos in your browser. Fast, free, no watermark and nothing is uploaded to a server."
+  },
+  "utc2ist": {
+   "desc": "Convert UTC/GMT to India Standard Time (UTC+05:30) and back. Live clock, any date and time, no daylight saving to worry about. Free."
+  },
+  "edit": {
+   "desc": "Edit PDF text, add images, shapes, highlights, links and white-out free in your browser. Find & replace, OCR, undo/redo. No upload or hourly limits."
+  }
+ }
+}

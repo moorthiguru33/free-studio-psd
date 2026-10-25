@@ -1,0 +1,985 @@
+{
+"tools": {
+"txt2pdf": {
+"seo": {
+"title": "Text to PDF Converter Free – TXT, Markdown, RTF to PDF",
+"desc": "Convert TXT, Markdown and RTF files to PDF free in your browser. Page size, font size, margins, monospace layout, line and page numbers. No upload.",
+"compareTitle": "{tool}: {brand} vs Smallpdf, iLovePDF and Online2PDF",
+"compareCols": [
+"Smallpdf",
+"iLovePDF",
+"Online2PDF"
+],
+"sections": [
+[
+"Convert text to PDF online, free",
+"This free text to PDF converter turns plain .txt files, Markdown (.md) and Rich Text (.rtf) into clean, searchable PDF documents directly in your browser. Drop one file or a whole batch, pick the page size, font size, margins and orientation, and download a single PDF or a ZIP. There is no upload, no sign-up, no watermark and no daily limit, and it works on Windows, Mac, Linux, ChromeOS, iPhone and Android."
+],
+[
+"How to convert a TXT file to PDF",
+{
+"steps": [
+"Drop your .txt, .md or .rtf files on the page, or tap to choose them.",
+"Open the options: choose A4, US Letter, Legal or A5, portrait or landscape, the font size (6–24 pt) and the margin in millimetres.",
+"For code, logs or text tables pick *Keep exact lines – monospace* and, if you like, turn on line numbers.",
+"Leave *Page numbers in footer* on for documents you will print or share.",
+"Press Convert and download the PDF – or a ZIP when you converted several files."
+]
+}
+],
+[
+"Two layouts: reflowed paragraphs or exact lines",
+"Plain text has no formatting of its own, so the converter offers two ways to lay it out. *Reflow paragraphs* treats blank lines as paragraph breaks and wraps the words to the page width in a proportional font – ideal for notes, letters, essays, e-mails and exported chat logs, because the PDF reads like a normal document. *Keep exact lines – monospace* keeps every line break and space exactly as typed in a Courier-style font, which is what you want for source code, configuration files, server logs, ASCII art and column-aligned tables. Lines that are wider than the page are wrapped onto the next line instead of being cut off, so nothing is lost."
+],
+[
+"Markdown and RTF are converted with their formatting",
+"Markdown files are rendered with GitHub-flavoured Markdown: headings, bold and italic text, bullet and numbered lists, task-list check boxes, block quotes, code blocks, horizontal rules, tables and images embedded as data URIs. RTF files from WordPad, TextEdit and older word processors keep their paragraphs, bold text and special characters. If you want more control over Markdown output, the dedicated [Markdown to PDF](/markdown-to-pdf/) tool has extra options."
+],
+[
+"Which page size and font size should I choose?",
+{
+"table": [
+[
+"Use",
+"Page size",
+"Font size",
+"Margin"
+],
+[
+"Printing in Europe, India, Asia, Australia",
+"A4",
+"11 pt",
+"20 mm"
+],
+[
+"Printing in the US and Canada",
+"US Letter",
+"11–12 pt",
+"20–25 mm"
+],
+[
+"Code listings and logs",
+"A4 or Letter, landscape",
+"8–9 pt monospace",
+"10–15 mm"
+],
+[
+"Reading on a phone or e-reader",
+"A5",
+"10–11 pt",
+"10 mm"
+],
+[
+"Legal documents (US)",
+"Legal",
+"12 pt",
+"25 mm"
+],
+[
+"Large print for easy reading",
+"A4 or Letter",
+"14–16 pt",
+"20 mm"
+]
+]
+},
+"Landscape helps with wide log lines and tables because more characters fit on each line before wrapping; at 8 pt monospace on landscape A4 roughly 150 characters fit across the page."
+],
+[
+"Unicode, accents and other scripts",
+"The converter embeds Noto fonts on demand, so accented Latin letters, Greek, Cyrillic, Arabic, Hebrew, Devanagari, Tamil, Thai, Chinese, Japanese and Korean text appear correctly in the PDF instead of as empty boxes. Text files should be saved as UTF-8 – the default in Notepad, TextEdit, VS Code and most editors today. If a very old file shows strange characters, open it in an editor, choose *Save as… UTF-8* and convert again."
+],
+[
+"Is the PDF searchable?",
+"Yes. The text is written into the PDF as real text, not as a picture, so you can search it with Ctrl+F, select and copy it, and screen readers can read it aloud. File sizes stay tiny – a 100-page text document is typically well under a megabyte. To combine the result with other documents use [Merge PDF](/merge-pdf/); to shrink a PDF that contains images use [Compress PDF](/compress-pdf/)."
+],
+[
+"Text to PDF on iPhone, Android and Mac",
+"On a phone, open this page in Safari or Chrome, tap the drop area and pick a .txt file from Files or Downloads. The PDF is saved to your downloads and can be shared straight to e-mail or WhatsApp. On a Mac you can also print from TextEdit to PDF, but that gives you no control over line numbers, monospace layout or batch conversion; on Windows, *Microsoft Print to PDF* works for one file at a time. This tool converts dozens of files in one go and names each PDF after its source file."
+],
+[
+"Common uses",
+{
+"list": [
+"Turn meeting notes, journals and to-do lists into printable PDFs.",
+"Archive server logs or exported chat transcripts in a format anyone can open.",
+"Print source code with line numbers for a code review or an exam submission.",
+"Submit README or Markdown documentation as a PDF attachment.",
+"Convert old RTF letters into PDFs before you retire a computer.",
+"Make a PDF of a plain-text e-book or a lyrics file to read on a tablet."
+]
+}
+],
+[
+"Tips for the best result",
+{
+"list": [
+"Separate paragraphs with a blank line – single line breaks are kept as line breaks inside a paragraph in reflow mode.",
+"For tab-aligned columns use the monospace layout; tabs are expanded to four spaces.",
+"Very long single lines (for example minified JSON) are easier to read after formatting them with [JSON Formatter](/json-formatter/).",
+"Need the opposite? [PDF to Text](/pdf-to-text/) extracts text from any PDF."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. They are never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – so it is safe for private notes, logs, contracts, code and anything else you would not hand to a stranger's server."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"TXT, Markdown and RTF",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Monospace layout with line numbers",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page numbers, orientation, margins",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a text file to PDF for free?",
+"a": "Drop the .txt file on this page, adjust page size, font size and margins if you want, and press Convert. The PDF downloads immediately – no account or watermark."
+},
+{
+"q": "Can I convert several TXT files to PDF at once?",
+"a": "Yes. Select or drop as many files as you like; each becomes its own PDF and they are downloaded together as a ZIP."
+},
+{
+"q": "Does it keep my line breaks and spacing?",
+"a": "Choose *Keep exact lines – monospace* to keep every line break and space exactly. The default reflow layout keeps paragraphs and line breaks but uses a proportional font."
+},
+{
+"q": "Can I add line numbers to a code listing?",
+"a": "Yes. Pick the monospace layout and tick *Line numbers*. Numbers are right-aligned so the code stays in a straight column."
+},
+{
+"q": "Does it support Markdown and RTF?",
+"a": "Yes. Markdown is rendered with headings, lists, tables, code blocks and images; RTF keeps paragraphs, bold text and special characters."
+},
+{
+"q": "Will Chinese, Arabic or Hindi text work?",
+"a": "Yes. Fonts for most of the world's scripts are embedded automatically, provided the text file is saved as UTF-8."
+},
+{
+"q": "Is the PDF text searchable and selectable?",
+"a": "Yes. The text is real PDF text, so you can search, select and copy it and screen readers can read it."
+},
+{
+"q": "How do I convert a TXT to PDF on iPhone?",
+"a": "Open this page in Safari, tap the drop area, choose the file from the Files app and tap Convert. The PDF is saved to Downloads."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The conversion runs entirely in your browser and the files never leave your device."
+},
+{
+"q": "Is there a file size or page limit?",
+"a": "There is no fixed limit; very large files are limited only by your device's memory. Text files of several megabytes convert in seconds."
+}
+],
+"related": [
+"markdown-to-pdf",
+"word-to-pdf",
+"pdf-to-text",
+"merge-pdf",
+"html-to-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"social": {
+"seo": {
+"title": "Social Media Image Resizer – All Sizes for 2026",
+"desc": "Resize photos for Instagram, Facebook, X, LinkedIn, YouTube, TikTok and Pinterest: 24 presets, custom sizes, blur-fill or crop. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and Kapwing",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"Kapwing"
+],
+"sections": [
+[
+"Resize images for every social network, free",
+"This social media image resizer turns any photo, screenshot or graphic into the exact pixel size each platform expects – Instagram posts, stories and Reels, Facebook covers, X headers, LinkedIn banners, YouTube thumbnails and channel art, TikTok covers, Pinterest pins, WhatsApp and Threads. Pick a preset (or type a custom size), choose whether to fit the whole picture or fill the frame, and download JPG, PNG or WebP. It runs in your browser, so there is no upload, no account and no watermark."
+],
+[
+"How to resize a photo for Instagram, Facebook or YouTube",
+{
+"steps": [
+"Drop one or more images on the page (JPG, PNG, WebP, HEIC, AVIF, TIFF and more).",
+"Choose the platform and format – for example *Instagram post – portrait 1080×1350*.",
+"Pick a fit: blurred background, solid colour background, or fill the frame and crop the edges.",
+"If you crop, move the focus sliders so faces and text stay in view; tick the safe-zone guide to check.",
+"Press Resize and download the image – or a ZIP for several photos or sizes."
+]
+}
+],
+[
+"Social media image sizes cheat sheet (2026)",
+{
+"table": [
+[
+"Placement",
+"Size (px)",
+"Aspect ratio"
+],
+[
+"Instagram post – square",
+"1080 × 1080",
+"1:1"
+],
+[
+"Instagram post – portrait",
+"1080 × 1350",
+"4:5"
+],
+[
+"Instagram post – landscape",
+"1080 × 566",
+"1.91:1"
+],
+[
+"Instagram story / Reel",
+"1080 × 1920",
+"9:16"
+],
+[
+"Instagram profile photo",
+"320 × 320",
+"1:1"
+],
+[
+"Facebook post / link image",
+"1200 × 630",
+"1.91:1"
+],
+[
+"Facebook cover photo",
+"851 × 315",
+"2.7:1"
+],
+[
+"Facebook story",
+"1080 × 1920",
+"9:16"
+],
+[
+"Facebook event cover",
+"1920 × 1005",
+"1.91:1"
+],
+[
+"X (Twitter) post",
+"1600 × 900",
+"16:9"
+],
+[
+"X (Twitter) header",
+"1500 × 500",
+"3:1"
+],
+[
+"X (Twitter) profile",
+"400 × 400",
+"1:1"
+],
+[
+"LinkedIn post",
+"1200 × 627",
+"1.91:1"
+],
+[
+"LinkedIn profile banner",
+"1584 × 396",
+"4:1"
+],
+[
+"LinkedIn company cover",
+"1128 × 191",
+"5.9:1"
+],
+[
+"LinkedIn profile photo",
+"400 × 400",
+"1:1"
+],
+[
+"YouTube thumbnail",
+"1280 × 720",
+"16:9"
+],
+[
+"YouTube channel banner",
+"2560 × 1440",
+"16:9"
+],
+[
+"YouTube profile",
+"800 × 800",
+"1:1"
+],
+[
+"TikTok video cover",
+"1080 × 1920",
+"9:16"
+],
+[
+"Pinterest pin",
+"1000 × 1500",
+"2:3"
+],
+[
+"WhatsApp profile",
+"500 × 500",
+"1:1"
+],
+[
+"Threads post",
+"1080 × 1350",
+"4:5"
+],
+[
+"Website share image (Open Graph)",
+"1200 × 630",
+"1.91:1"
+]
+]
+},
+"Platforms change their layouts from time to time, so treat these as the recommended upload sizes at the time of writing. Uploading at these sizes means the network does less re-compression and your image stays sharper."
+],
+[
+"Fit, blur-fill or crop – which to choose?",
+{
+"table": [
+[
+"Mode",
+"What happens",
+"Best for"
+],
+[
+"Blurred background",
+"The whole photo is shown; empty space is filled with a soft, darkened blur of the same photo",
+"Portrait photos in landscape slots, product shots, screenshots"
+],
+[
+"Colour background",
+"The whole photo is shown on a solid colour you pick",
+"Logos, graphics, brand-coloured posts"
+],
+[
+"Fill frame – crop edges",
+"The photo covers the frame and the overflow is cropped; focus sliders choose which part stays",
+"Landscape photos, faces, scenery"
+]
+]
+},
+"Blur-fill is the popular \"no crop\" look on Instagram: you keep the whole picture without plain white bars."
+],
+[
+"Export every size for a platform at once",
+"Tick *Export every size for this platform* and the tool produces all presets for the chosen network in one ZIP – for example every Instagram size (square, portrait, landscape, story and profile) or the full LinkedIn set (post, banner, company cover and profile photo). It is a quick way to prepare a campaign or refresh all of your profile images after a rebrand. Combined with several input photos you can produce dozens of correctly sized files in a few seconds."
+],
+[
+"Custom sizes",
+"Need a size that is not in the list – a Discord banner, a newsletter header, an Etsy shop banner or an ad slot? Choose *Custom size* and type any width and height from 16 to 8,000 pixels. The same fit, blur and crop options apply. For general resizing by percentage or to a target file size, use [Resize Image](/resize-image/) or [Compress Image](/compress-image/)."
+],
+[
+"Safe zones for stories, Reels and covers",
+"Stories and Reels place the profile name at the top and reply boxes, captions and buttons at the bottom, so text placed near the edges can be hidden. Turn on *Show safe-zone guide* to draw a dashed rectangle on the preview: keep faces, prices and headlines inside it. Profile photos on most networks are shown as a circle – check yours with [Circle Crop Image](/circle-crop-image/) – and cover photos are cropped differently on phones and desktops, so keep the important part near the centre."
+],
+[
+"JPG, PNG or WebP?",
+"JPG is the safest choice for photos and is accepted everywhere. PNG keeps sharp edges on text, logos and screenshots and supports transparency, but files are larger. WebP gives the smallest files at similar quality and is ideal for your own website's Open Graph image; most social networks accept it but some convert it on upload. If an upload is rejected because a file is too large, re-export as JPG."
+],
+[
+"Tips for sharper social images",
+{
+"list": [
+"Start from the largest original you have; upscaling a tiny image makes it blurry – try [Image Enlarger](/image-enlarger/) first if you must.",
+"Use portrait 4:5 for Instagram and Threads feed posts – it takes up more screen space than square.",
+"Keep text large; a thumbnail is often viewed at the size of a postage stamp.",
+"Check YouTube thumbnails at small size: bold faces and three to five words work best.",
+"For a 3×3 profile grid use [Instagram Grid Maker](/instagram-grid-maker/)."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. They are never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – so it is safe for private notes, logs, contracts, code and anything else you would not hand to a stranger's server."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"24 platform presets + custom size",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Blur-fill, colour fill or crop with focus",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"All sizes for a platform in one ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch photos",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What size should an Instagram post be?",
+"a": "1080 × 1350 px (4:5 portrait) uses the most feed space; 1080 × 1080 px square and 1080 × 566 px landscape also work. Stories and Reels are 1080 × 1920 px."
+},
+{
+"q": "What is the YouTube thumbnail size?",
+"a": "1280 × 720 pixels, a 16:9 ratio. Keep the file under 2 MB; JPG is usually the best format."
+},
+{
+"q": "How do I resize a photo for Instagram without cropping?",
+"a": "Choose an Instagram preset and the *Fit whole image – blurred background* or colour background mode. The whole photo is kept and the empty space is filled."
+},
+{
+"q": "What size is a Facebook cover photo?",
+"a": "Use 851 × 315 px. Keep important content near the centre because phones show a narrower crop than desktops."
+},
+{
+"q": "What is the LinkedIn banner size?",
+"a": "A personal profile banner is 1584 × 396 px; a company page cover is 1128 × 191 px."
+},
+{
+"q": "Can I resize many photos at once?",
+"a": "Yes. Drop several images and they are all resized to the chosen size and downloaded as a ZIP. You can also export every size for a platform at once."
+},
+{
+"q": "Can I enter my own size?",
+"a": "Yes. Pick *Custom size* and type any width and height between 16 and 8,000 pixels."
+},
+{
+"q": "Does resizing reduce quality?",
+"a": "Downscaling keeps images sharp. Enlarging a small image cannot add detail, so start from the largest original available."
+},
+{
+"q": "Are my photos uploaded?",
+"a": "No. Resizing happens in your browser and nothing is sent to a server."
+},
+{
+"q": "Which format should I download?",
+"a": "JPG for photos, PNG for graphics with text or transparency, WebP for the smallest files on your own website."
+}
+],
+"related": [
+"resize-image",
+"instagram-grid-maker",
+"circle-crop-image",
+"crop-image",
+"compress-image"
+],
+"updated": "2026-10-25"
+}
+},
+"md2pdf": {
+"seo": {
+"title": "Markdown to PDF Converter – Free, GitHub Style, No Upload",
+"desc": "Convert Markdown (.md) to PDF free: headings, tables, code blocks, task lists and images. Page size, margins, page numbers. Runs in your browser.",
+"compareTitle": "{tool}: {brand} vs Dillinger, md2pdf and CloudConvert",
+"compareCols": [
+"Dillinger",
+"md2pdf",
+"CloudConvert"
+],
+"sections": [
+[
+"Convert Markdown to PDF online, free",
+"This Markdown to PDF converter renders .md files – READMEs, documentation, notes from Obsidian, Joplin or Typora, and AI-generated answers – into clean, printable PDF documents in your browser. Drop one file or a batch, choose page size, font size, margins and orientation, and download a PDF or ZIP. No upload, no sign-up, no watermark."
+],
+[
+"How to convert Markdown to PDF",
+{
+"steps": [
+"Drop your .md or .markdown files on the page.",
+"Pick A4, US Letter, Legal or A5, portrait or landscape, and the base font size.",
+"Keep *Page numbers in footer* on for printing.",
+"Press Convert and download the PDF, or a ZIP for several files."
+]
+}
+],
+[
+"What Markdown is supported?",
+{
+"table": [
+[
+"Element",
+"Syntax",
+"In the PDF"
+],
+[
+"Headings",
+"# to ######",
+"Six sizes, rules under H1/H2"
+],
+[
+"Bold, italic, code",
+"**b**, *i*, `code`",
+"Bold text and monospace code"
+],
+[
+"Lists",
+"- item, 1. item",
+"Bullets and numbers, nested"
+],
+[
+"Task lists",
+"- [ ] / - [x]",
+"☐ and ☑ check boxes"
+],
+[
+"Tables",
+"| a | b |",
+"Bordered table with header row"
+],
+[
+"Code blocks",
+"``` fences",
+"Shaded monospace block, long lines wrapped"
+],
+[
+"Block quotes",
+"> quote",
+"Indented with a side bar"
+],
+[
+"Horizontal rule",
+"---",
+"Thin divider"
+],
+[
+"Links",
+"[text](url)",
+"Blue link text"
+],
+[
+"Images",
+"![alt](data:…)",
+"Embedded when given as data URIs; otherwise alt text"
+]
+]
+},
+"Parsing uses the open-source *marked* library with GitHub-flavoured Markdown enabled, so files written for GitHub or GitLab look the way you expect."
+],
+[
+"Why convert Markdown to PDF?",
+{
+"list": [
+"Share documentation with people who do not use Markdown editors.",
+"Attach a README, changelog or spec to an e-mail or ticket.",
+"Print lecture notes and study guides written in Obsidian or Notion exports.",
+"Submit assignments written in Markdown as a PDF.",
+"Archive AI chat answers, which are usually Markdown, in a readable format."
+]
+}
+],
+[
+"Images in Markdown",
+"Images referenced by a local path or a web address cannot be read by a browser tool without uploading or fetching them, so they are shown as their alt text. To include an image, embed it as a data URI – [Image to Base64](/image-to-base64/) creates the exact Markdown snippet – or convert the PDF first and then add pictures with [Add Image to PDF](/add-image-to-pdf/)."
+],
+[
+"Unicode, emoji and other scripts",
+"Noto fonts are embedded on demand, so accented letters, Greek, Cyrillic, Arabic, Hebrew, Indic scripts, Thai, Chinese, Japanese and Korean render correctly. Save files as UTF-8, which nearly every Markdown editor does by default."
+],
+[
+"Markdown to PDF vs Pandoc and VS Code",
+"Pandoc with LaTeX produces beautiful typesetting but needs a multi-gigabyte install and command-line knowledge; VS Code extensions need a Chromium download. This page needs nothing installed, works on phones and Chromebooks, and converts a batch at once. For plain text with exact line layout use [Text to PDF](/text-to-pdf/); for web pages use [HTML to PDF](/html-to-pdf/)."
+],
+[
+"Page setup for documentation",
+"For printed documentation A4 or US Letter at 11 pt with 20 mm margins reads comfortably and matches most corporate templates. Switch to landscape when a document has wide tables or long code samples, and reduce the font size to 9–10 pt if code lines still wrap. Choose A5 for booklets or for reading on a small tablet. Page numbers in the footer help reviewers refer to sections in comments, and each heading starts with extra space so sections are easy to scan. The PDF title is set from the file name, so the tab and the document properties show a meaningful name instead of *Untitled*."
+],
+[
+"Tips",
+{
+"list": [
+"Leave a blank line before lists and tables – standard Markdown requires it.",
+"Use landscape for wide tables.",
+"Very long code lines are wrapped; reduce font size to keep them on one line.",
+"Merge several converted files with [Merge PDF](/merge-pdf/)."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. They are never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – so it is safe for private notes, logs, contracts, code and anything else you would not hand to a stranger's server."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"GitHub-flavoured Markdown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Tables, task lists, code blocks",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page numbers and margins",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a Markdown file to PDF?",
+"a": "Drop the .md file here, choose page size and margins and press Convert. The PDF downloads immediately."
+},
+{
+"q": "Does it support GitHub-flavoured Markdown?",
+"a": "Yes – tables, task lists, fenced code blocks and strikethrough are supported."
+},
+{
+"q": "Are tables converted?",
+"a": "Yes. Tables become bordered PDF tables with a shaded header row; cell text wraps."
+},
+{
+"q": "Why are my images missing?",
+"a": "Images linked by path or URL are not fetched for privacy; embed them as data URIs or add them to the PDF afterwards."
+},
+{
+"q": "Can I convert several .md files at once?",
+"a": "Yes. Each file becomes its own PDF and they download together as a ZIP."
+},
+{
+"q": "Is the text in the PDF searchable?",
+"a": "Yes, it is real text you can search, select and copy."
+},
+{
+"q": "Does it work on iPhone or Android?",
+"a": "Yes, in Safari or Chrome. Pick the file from Files or Downloads."
+},
+{
+"q": "Is syntax highlighting supported?",
+"a": "Code blocks are shown in a shaded monospace box without colours."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No, conversion runs entirely in your browser."
+},
+{
+"q": "Can I convert Obsidian or Notion notes?",
+"a": "Yes – export or copy them as .md files and drop them here. Wiki-style [[links]] appear as plain text."
+}
+],
+"related": [
+"text-to-pdf",
+"html-to-pdf",
+"word-to-pdf",
+"merge-pdf",
+"pdf-to-text"
+],
+"updated": "2026-10-25"
+}
+},
+"rtf2pdf": {
+"seo": {
+"title": "RTF to PDF Converter – Free, Batch, No Upload",
+"desc": "Convert RTF (Rich Text Format) files to PDF free in your browser: keeps paragraphs, bold and accented characters. Batch convert, no upload.",
+"compareTitle": "{tool}: {brand} vs Zamzar, Convertio and CloudConvert",
+"compareCols": [
+"Zamzar",
+"Convertio",
+"CloudConvert"
+],
+"sections": [
+[
+"Convert RTF to PDF online, free",
+"RTF (Rich Text Format) is the document format of WordPad, Apple TextEdit and many older word processors and legal or medical systems. This free RTF to PDF converter reads .rtf files in your browser and produces searchable PDFs that open on any device – no upload, no sign-up, no watermark."
+],
+[
+"How to convert RTF to PDF",
+{
+"steps": [
+"Drop one or more .rtf files on the page.",
+"Choose page size, orientation, font size and margins.",
+"Press Convert and download the PDF, or a ZIP for several files."
+]
+}
+],
+[
+"What is kept from the RTF?",
+{
+"table": [
+[
+"Feature",
+"Kept?"
+],
+[
+"Paragraphs and line breaks",
+"Yes"
+],
+[
+"Bold text",
+"Yes"
+],
+[
+"Accented letters and symbols (\\'xx and \\u escapes)",
+"Yes"
+],
+[
+"Fonts, colours, font sizes",
+"No – a clean standard font is used"
+],
+[
+"Embedded pictures",
+"No"
+],
+[
+"Tables",
+"Text is kept, layout is not"
+],
+[
+"Headers and footers",
+"Skipped; page numbers can be added"
+]
+]
+},
+"The converter is built for text-heavy RTF – letters, notes, reports and exported records. For a layout-perfect copy of a complex RTF with tables and pictures, open it in Word or LibreOffice and use *Save as PDF*, or convert to DOCX first and use [Word to PDF](/word-to-pdf/)."
+],
+[
+"What is an RTF file?",
+"Rich Text Format was introduced by Microsoft in 1987 as a way to exchange formatted text between programs. An RTF file is plain text with control words such as \\b for bold and \\par for a new paragraph, which is why almost every editor can open it. It is still used by medical and legal software, macOS TextEdit, and as an export format from e-mail and note apps. PDF is better for sharing because it looks the same everywhere and cannot be edited by accident."
+],
+[
+"RTF to PDF on Mac, Windows and phones",
+"On Windows, WordPad (removed from new Windows 11 installs) could print to PDF one file at a time; on Mac, TextEdit can *Export as PDF*. This page converts a whole folder of RTF files at once on any system, including Chromebooks, iPhones and Android phones where no RTF editor is installed."
+],
+[
+"Unicode and other languages",
+"Accented Latin, Greek, Cyrillic and other scripts stored with RTF Unicode escapes are decoded and drawn with embedded Noto fonts, so characters do not turn into question marks."
+],
+[
+"Archiving old RTF documents",
+"Many offices still hold years of letters, reports and patient or case notes saved as RTF by older software. Converting them to PDF before an old PC is retired makes them readable on any phone, tablet or computer without a word processor, and PDF files are accepted by document-management systems, court portals and e-mail clients alike. Convert a folder at once, keep the original file names, and store the RTF originals alongside the PDFs if you may need to edit them later. Because nothing is uploaded, confidential letters never leave your computer during the conversion."
+],
+[
+"Tips",
+{
+"list": [
+"If the result looks empty, open the file in a text editor: some \".rtf\" files are really Word .doc files – use [Word to PDF](/word-to-pdf/).",
+"Plain .txt files work too; see [Text to PDF](/text-to-pdf/).",
+"Combine converted letters with [Merge PDF](/merge-pdf/)."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. They are never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – so it is safe for private notes, logs, contracts, code and anything else you would not hand to a stranger's server."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch RTF conversion with ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Unicode and accented characters",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page numbers and margins",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert RTF to PDF for free?",
+"a": "Drop the .rtf file on this page and press Convert. The PDF downloads straight away – no account needed."
+},
+{
+"q": "Does it keep formatting?",
+"a": "Paragraphs, line breaks, bold text and special characters are kept; fonts, colours and pictures are replaced by a clean standard layout."
+},
+{
+"q": "Can I convert many RTF files at once?",
+"a": "Yes, drop them all; you get one PDF per file in a ZIP."
+},
+{
+"q": "How do I convert RTF to PDF on a Mac?",
+"a": "Use this page in Safari or Chrome, or open the file in TextEdit and choose File → Export as PDF."
+},
+{
+"q": "Does WordPad still exist for RTF?",
+"a": "Microsoft has removed WordPad from new Windows 11 installs, so a browser converter is a handy replacement."
+},
+{
+"q": "Is the PDF searchable?",
+"a": "Yes, the text is real PDF text."
+},
+{
+"q": "Why does my RTF show strange characters?",
+"a": "Some files use a code page other than Windows-1252. Re-save the file as RTF from a current editor and convert again."
+},
+{
+"q": "Are tables and images converted?",
+"a": "Table text is kept but not the grid, and pictures are skipped."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs in your browser."
+},
+{
+"q": "Can I convert RTF to Word instead?",
+"a": "Open the RTF in Word, LibreOffice or Google Docs and save as .docx."
+}
+],
+"related": [
+"text-to-pdf",
+"word-to-pdf",
+"markdown-to-pdf",
+"merge-pdf",
+"odt-to-pdf"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}
