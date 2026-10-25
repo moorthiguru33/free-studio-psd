@@ -166,6 +166,7 @@ for(const f of fs.readdirSync(R('scripts/vendor')))esbuild.buildSync({entryPoint
 for(const k in V)cp(V[k],'vendor/'+k);
 {const rd=f=>fs.readFileSync(R('node_modules/wawoff2/build/'+f),'utf8');fs.writeFileSync(path.join(OUT,'vendor/woff2.js'),`/* wawoff2 (MIT) – Google woff2 (MIT) */window.Woff2=(()=>{const c=(function(){${rd('compress_binding.js')};return Module})();const d=(function(){${rd('decompress_binding.js')};return Module})();const ready=m=>new Promise(r=>{if(m.calledRun)return r();const t=setInterval(()=>{if(m.calledRun){clearInterval(t);r()}},30)});return {async compress(b){await ready(c);const r=c.compress(b);if(r===false)throw new Error('WOFF2 compression failed');return r},async decompress(b){await ready(d);const r=d.decompress(b);if(r===false)throw new Error('WOFF2 decompression failed');return r}}})();`);}
 cp('src/lib/rawimg.js','vendor/rawimg.js');cp('src/lib/slides.js','vendor/slides.js');cp('src/lib/ebook.js','vendor/ebook.js');cp('node_modules/opentype.js/LICENSE','vendor/opentype.LICENSE.txt');
+for(const f of ['index.mjs','harfbuzz.js','harfbuzz.wasm'])cp('node_modules/harfbuzzjs/dist/'+f,'vendor/hb/'+f);cp('node_modules/harfbuzzjs/LICENSE','vendor/hb/LICENSE.txt');
 for(const f of ['libarchive.js','worker-bundle.js','libarchive.wasm'])cp('node_modules/libarchive.js/dist/'+f,'vendor/libarchive/'+f);
 for(const f of fs.readdirSync(R('src/og')))cp('src/og/'+f,'og/'+f);
 for(const f of fs.readdirSync(R('src/fonts')))cp('src/fonts/'+f,'fonts/'+f);

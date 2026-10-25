@@ -3,7 +3,7 @@ const SCRIPTS=[[/[\u0B80-\u0BFF]/,'Tamil'],[/[\u0900-\u097F]/,'Devanagari'],[/[\
 // Han characters use the Japanese/Korean font when the text has kana/hangul, Traditional for zh-TW/HK/MO, else Simplified
 const cjkKey=t=>/[\u3040-\u30FF\u31F0-\u31FF]/.test(t)?'JP':/[\uAC00-\uD7AF\u1100-\u11FF]/.test(t)?'KR':/^zh-(TW|HK|MO|Hant)/i.test((document.documentElement.lang&&document.documentElement.lang.startsWith('zh')?document.documentElement.lang:'')||navigator.language||'')?'TC':'SC';
 const WINANSI_EXTRA='€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ';
-const NEUTRAL=/[\s\d.,:;!?'"()\[\]\-–—\/+*%&@#]/;
+const NEUTRAL=/[\u200C\u200D\s\d.,:;!?'"()\[\]\-–—\/+*%&@#]/;
 const fontBytes={};const fetchFont=n=>fontBytes[n]||(fontBytes[n]=fetch('/fonts/'+n+'.ttf').then(r=>{if(!r.ok)throw new Error('Font '+n);return r.arrayBuffer();}));
 const docFonts=new WeakMap();
 async function getFont(doc,key,bold){let c=docFonts.get(doc);if(!c){c={};docFonts.set(doc,c);}const id=key+(bold?'B':'');if(c[id])return c[id];
@@ -19,9 +19,33 @@ async function textRuns(doc,text,bold){text=String(text).replace(/[\r\n\t]+/g,' 
    if(!CJ.includes(r.k)||[...r.t].every(ch=>has(r.font,ch))){out.push(r);continue;}
    // a CJK font lacks some characters (e.g. Simplified-only Han in a Japanese document): fall back per character to the other CJK fonts
    for(const ch of r.t){let k=r.k,f=r.font;if(!has(f,ch)&&!NEUTRAL.test(ch))for(const k2 of CJ){if(k2===r.k)continue;const f2=await getFont(doc,k2,bold);if(has(f2,ch)){k=k2;f=f2;break;}}const l=out[out.length-1];if(l&&l.k===k)l.t+=ch;else out.push({k,t:ch,font:f});}}
-  return out;}
-const runsWidth=(runs,size)=>runs.reduce((a,r)=>a+r.font.widthOfTextAtSize(r.t,size),0);
-function drawRuns(page,runs,{x,y,size,color,opacity=1,rotate=0}){const {degrees}=window.PDFLib;const a=rotate*Math.PI/180;for(const r of runs){page.drawText(r.t,{x,y,size,font:r.font,color,opacity,rotate:degrees(rotate)});const w=r.font.widthOfTextAtSize(r.t,size);x+=w*Math.cos(a);y+=w*Math.sin(a);}}
+  // characters missing from a script font (e.g. ':' in Thai/Bengali/Hebrew) are drawn with the Latin Noto font
+  const fin=[];for(const r of out){if(r.k==='std'||r.k==='Latin'||CJ.includes(r.k)||[...r.t].every(ch=>has(r.font,ch))){fin.push(r);continue;}let cur=null;for(const ch of r.t){const k=has(r.font,ch)||/[\u200C\u200D]/.test(ch)?r.k:'Latin';if(!cur||cur.k!==k){cur={k,t:'',font:k===r.k?r.font:await getFont(doc,'Latin',bold)};fin.push(cur);}cur.t+=ch;}}
+  await shapeRuns(fin);return fin;}
+// ---- complex-script shaping (HarfBuzz, lazy-loaded wasm): conjuncts/ligatures, mark positioning, Arabic joining, RTL ----
+const COMPLEX=new Set(['Devanagari','Bengali','Tamil','Telugu','Kannada','Malayalam','Gujarati','Gurmukhi','Oriya','Sinhala','Thai','Lao','Khmer','Myanmar','Tibetan','Arabic','Hebrew','Thaana','Mongolian']);
+const RTLK=new Set(['Arabic','Hebrew','Thaana']);
+const hbLib=()=>window.__hb||(window.__hb=import('/vendor/hb/index.mjs'));const hbFonts={};
+const hbFont=k=>hbFonts[k]||(hbFonts[k]=(async()=>{const hb=await hbLib();const face=new hb.Face(new hb.Blob(await fetchFont(`NotoSans${k}-Regular`)));return {hb,font:new hb.Font(face),upem:face.upem};})());
+function hbShape(H,text,rtl){const {hb,font}=H;const b=new hb.Buffer();b.addText(text);b.guessSegmentProperties();if(rtl!=null)b.setDirection(rtl?hb.Direction.RTL:hb.Direction.LTR);hb.shape(font,b);const inf=b.getGlyphInfos(),pos=b.getGlyphPositions();
+  const cls=[...new Set(inf.map(g=>g.cluster))].sort((a,b)=>a-b);const seen=new Set();
+  return inf.map((g,i)=>{let cps=[];if(!seen.has(g.cluster)){seen.add(g.cluster);const j=cls.indexOf(g.cluster);cps=[...text.slice(g.cluster,j+1<cls.length?cls[j+1]:text.length)].map(c=>c.codePointAt(0));}return {g:g.codepoint,ax:pos[i].xAdvance,dx:pos[i].xOffset,dy:pos[i].yOffset,cps};});}
+async function shapeRuns(runs){for(const r of runs){if(!COMPLEX.has(r.k))continue;try{const H=await hbFont(r.k);r.upem=H.upem;r.rtl=RTLK.has(r.k);
+   if(!r.rtl){r.glyphs=hbShape(H,r.t);continue;}
+   // inside RTL text, digit groups stay left-to-right: shape segments separately, then lay them out right-to-left
+   const segs=r.t.match(/[0-9\u0660-\u0669\u06F0-\u06F9]+(?:[.,:\/][0-9\u0660-\u0669\u06F0-\u06F9]+)*|[^0-9\u0660-\u0669\u06F0-\u06F9]+/g)||[];r.glyphs=segs.reverse().flatMap(t=>hbShape(H,t,!/^[0-9\u0660-\u0669\u06F0-\u06F9]/.test(t)));}catch(e){console.warn('shaping',e);delete r.glyphs;}}}
+const runW=(r,size)=>r.glyphs?r.glyphs.reduce((a,g)=>a+g.ax,0)*size/r.upem:r.font.widthOfTextAtSize(r.t,size);
+const runsWidth=(runs,size)=>runs.reduce((a,r)=>a+runW(r,size),0);
+// visual order of runs: reverse right-to-left sequences (base direction from the first strong run)
+function visualRuns(runs,forceBase){const strong=r=>r.rtl?1:/[^\s\d.,:;!?'"()\[\]\-–—\/+*%&@#]/.test(r.t)?0:-1;const base=forceBase!=null?forceBase:runs.map(strong).find(x=>x>=0)===1;
+  const out=base?[...runs].reverse():[...runs];const want=base?0:1;for(let i=0;i<out.length;){if(strong(out[i])!==want){i++;continue;}let j=i;while(j+1<out.length&&strong(out[j+1])!==(1-want))j++;while(j>i&&strong(out[j])!==want)j--;out.splice(i,j-i+1,...out.slice(i,j+1).reverse());i=j+1;}return out;}
+function drawShaped(page,r,{x,y,size,color,opacity=1,rotate=0}){const P=window.PDFLib;const emb=r.font.embedder;const k=size/r.upem,a=rotate*Math.PI/180,c=Math.cos(a),s=Math.sin(a);
+  page.setFont(r.font);const key=page.fontKey;const ops=[P.pushGraphicsState()];if(opacity<1){const gs=page.maybeEmbedGraphicsState({opacity});if(gs)ops.push(P.setGraphicsState(gs));}
+  ops.push(P.setFillingColor(color||P.rgb(0,0,0)),P.beginText(),P.setFontAndSize(key,size));let pen=0;
+  for(const g of r.glyphs){const fg=emb.font.getGlyph(g.g,g.cps);if(!fg.codePoints.length&&g.cps.length)fg.codePoints=g.cps;const sid=emb.subset.includeGlyph(fg);emb.glyphs[sid-1]=fg;emb.glyphIdMap.set(fg.id,sid);
+   const gx=(pen+g.dx)*k,gy=g.dy*k;ops.push(P.setTextMatrix(c,s,-s,c,x+gx*c-gy*s,y+gx*s+gy*c),P.showText(P.PDFHexString.of(sid.toString(16).padStart(4,'0'))));pen+=g.ax;}
+  emb.glyphCache.invalidate();ops.push(P.endText(),P.popGraphicsState());page.pushOperators(...ops);}
+function drawRuns(page,runs,{x,y,size,color,opacity=1,rotate=0}){const {degrees}=window.PDFLib;const a=rotate*Math.PI/180;for(const r of visualRuns(runs)){if(r.glyphs)drawShaped(page,r,{x,y,size,color,opacity,rotate});else page.drawText(r.t,{x,y,size,font:r.font,color,opacity,rotate:degrees(rotate)});const w=runW(r,size);x+=w*Math.cos(a);y+=w*Math.sin(a);}}
 async function drawText(doc,page,text,o){const runs=await textRuns(doc,text,o.bold);drawRuns(page,runs,o);return runsWidth(runs,o.size);}
 const hex2rgb=h=>{const {rgb}=window.PDFLib;const c=(h||'#000000').match(/\w\w/g).map(x=>parseInt(x,16)/255);return rgb(...c);};
 const POS=()=>[['bc','Bottom center'],['br','Bottom right'],['bl','Bottom left'],['tc','Top center'],['tr','Top right'],['tl','Top left']];

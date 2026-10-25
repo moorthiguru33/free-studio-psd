@@ -359,7 +359,7 @@
    "faq": [
     {
      "q": "Does it support Tamil, Hindi, Arabic, Chinese text?",
-     "a": "Yes. The matching Noto font loads automatically for Latin, Greek, Cyrillic, Arabic, Hebrew, Indic scripts, Thai, Chinese, Japanese, Korean, Armenian, Georgian, Ethiopic, Khmer, Lao, Myanmar, Sinhala, Tibetan and more. Complex scripts are drawn without full ligature shaping, so some conjuncts may look simplified."
+     "a": "Yes. The matching Noto font loads automatically for Latin, Greek, Cyrillic, Arabic, Hebrew, Indic scripts, Thai, Chinese, Japanese, Korean, Armenian, Georgian, Ethiopic, Khmer, Lao, Myanmar, Sinhala, Tibetan and more. Complex scripts are shaped with HarfBuzz, so conjuncts, ligatures and Arabic letter joining render correctly, and right-to-left lines are right-aligned."
     }
    ]
   },

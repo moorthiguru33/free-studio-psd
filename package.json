@@ -25,6 +25,7 @@
     "ag-psd": "^33.0.0",
     "gifenc": "^1.0.3",
     "gifuct-js": "^2.1.2",
+    "harfbuzzjs": "^1.6.4",
     "heic2any": "^0.0.4",
     "imagetracerjs": "^1.2.6",
     "jsbarcode": "^3.12.3",
