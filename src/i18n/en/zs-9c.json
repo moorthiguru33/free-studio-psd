@@ -1993,7 +1993,7 @@
 },
 "findreplace": {
 "seo": {
-"title": "Find and Replace Text in PDF Online Free",
+"title": "Find and Replace Text in PDF Free – Keeps Font",
 "desc": "Find and replace text in a PDF free: replace a word, name or date everywhere, several pairs at once, match case. Runs in your browser, no upload.",
 "compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
 "compareCols": [
@@ -2021,7 +2021,7 @@
 [
 "How it works – and why PDFs are different from Word",
 "A Word document stores text as flowing paragraphs. A PDF stores the *final layout*: each piece of text is placed at exact coordinates, often split into small runs, in a font that may contain only the characters used in the document. There is no paragraph that can reflow. That is why genuine find-and-replace inside a PDF is hard and why many tools do not offer it at all.",
-"This tool takes a practical, visual approach. It reads the text and its positions with PDF.js, finds every match, covers the original characters with a white box exactly the size of the match, and writes the replacement text in the same position and size. The page looks updated, prints correctly and the new text is selectable and searchable."
+"This tool edits the page content itself. It parses each page's content stream, decodes every glyph with its font, position, size and colour, finds the matches, and **removes the original characters from the content stream** – the old text is genuinely gone, not hidden. It then writes the replacement at the same position, in the **same embedded font, size and colour** whenever that font contains all the characters you typed. If the original font is a subset that lacks a needed letter (common with embedded fonts), the closest standard font – sans, serif or mono, regular or bold – is used at the same size and colour."
 ],
 [
 "What it handles well",
@@ -2029,7 +2029,7 @@
 "list": [
 "Names, numbers, dates, codes and short phrases.",
 "Replacements of similar length – *2025* → *2026*, *Ltd* → *LLC*.",
-"Text on plain white backgrounds.",
+"Text on any background – nothing is painted over it, so coloured boxes and images stay intact.",
 "Horizontal text in common fonts.",
 "Many occurrences across many pages, in one pass."
 ]
@@ -2050,11 +2050,6 @@
 "Keep length similar, or use [Edit PDF](/edit-pdf/) to adjust"
 ],
 [
-"Coloured or image background",
-"White box is visible behind the new text",
-"Edit that page manually in Edit PDF"
-],
-[
 "Rotated or vertical text",
 "Skipped",
 "Edit manually"
@@ -2070,13 +2065,13 @@
 "Run [OCR PDF](/ocr-pdf/) first, then edit"
 ],
 [
-"Special decorative fonts",
-"Replacement uses a standard font",
-"Accept, or edit manually"
+"Subset font lacks a letter you typed",
+"Closest standard font is used",
+"Use letters already in the document, or accept"
 ]
 ]
 },
-"The original text is covered, not deleted from the file. For confidential text that must be gone, use [Redact PDF](/redact-pdf/) instead."
+"The old text is removed from the page content, so copying, searching or extracting the edited PDF finds only the new text. Note that other copies of the document, earlier versions or metadata are not touched; for legal-grade removal of sensitive content including images, use [Redact PDF](/redact-pdf/)."
 ],
 [
 "Can you Ctrl+F in a PDF?",
@@ -2100,7 +2095,7 @@
 ],
 [
 "Getting the best match on fonts",
-"Replacement text is drawn in a standard sans-serif font at the size of the original text, in black. For documents set in a similar font – Arial, Helvetica, Calibri, many corporate fonts – the change is barely noticeable. For serif or decorative typefaces, the new word will look slightly different; for headlines or logos, editing in the original design file gives the best result. Non-Latin characters in the replacement are supported via an automatically loaded Unicode font."
+"The replacement reuses the original embedded font, size and colour whenever that font contains every character you typed – so the change is usually invisible. Embedded fonts are often *subsets* holding only the letters used in the document (sometimes as ligatures like *ti* or *fi*); if a letter is missing, the closest standard font – sans, serif or mono, regular or bold – is used at the same size and colour. The result message tells you how many replacements used the original font. Non-Latin characters are supported via an automatically loaded Unicode font."
 ],
 [
 "Typical uses",
@@ -2129,7 +2124,7 @@
 ],
 [
 "Is it safe for confidential documents?",
-"Yes, in the sense that the file never leaves your device. But remember that replaced text is visually covered rather than removed from the file's content stream, so someone with a PDF editor could still find the old text. For anything sensitive – names in legal documents, account numbers, personal data – use [Redact PDF](/redact-pdf/), which permanently removes content."
+"Yes. The file never leaves your device, and replaced text is removed from the content stream rather than covered, so it cannot be recovered by selecting or extracting text. For removing images, signatures or whole areas, use [Redact PDF](/redact-pdf/)."
 ],
 [
 "Glossary",
@@ -2164,12 +2159,12 @@
 ],
 [
 "Worked example: updating a price list for the new year",
-"A café has a two-page PDF menu exported years ago; the designer is gone and only the PDF remains. Prices are unchanged, but the footer says *Menu 2025* on both pages and the phone number changed. Drop the PDF, type *2025* in Find and *2026* in Replace, then add one line in the extra pairs box: *0161 496 0000 => 0161 496 0999*. Keep Match case on and press the button. The result reports, for example, *4 replacements*: two years and two phone numbers. Open the file, zoom in on the footer and you will see the new text sitting exactly where the old one was, in a matching size. Print a test page; the white cover boxes are invisible on the white paper background.",
+"A café has a two-page PDF menu exported years ago; the designer is gone and only the PDF remains. Prices are unchanged, but the footer says *Menu 2025* on both pages and the phone number changed. Drop the PDF, type *2025* in Find and *2026* in Replace, then add one line in the extra pairs box: *0161 496 0000 => 0161 496 0999*. Keep Match case on and press the button. The result reports, for example, *4 replacements*: two years and two phone numbers. Open the file, zoom in on the footer and you will see the new text exactly where the old one was, in the same font, size and colour – and searching the file for *2025* finds nothing.",
 "The same approach works for a training handout that names last year's trainer, a product sheet with an old model number or a certificate template where *[NAME]* needs replacing with a real name."
 ],
 [
 "Worked example: anonymising a sample document",
-"Suppose you want to share a sample report with a supplier but replace the client name *Northwind Traders* with *Client A*. Find *Northwind Traders*, replace with *Client A*, and add a second pair for the short form, *Northwind => Client A*. Order matters: the longer phrase is listed first so it is replaced as a whole before the shorter word is searched. Because covered text is still present underneath, this is fine for a casual sample but not for genuine confidentiality – for that, redact the names with [Redact PDF](/redact-pdf/), which removes them from the file entirely, and then add replacement labels if needed."
+"Suppose you want to share a sample report with a supplier but replace the client name *Northwind Traders* with *Client A*. Find *Northwind Traders*, replace with *Client A*, and add a second pair for the short form, *Northwind => Client A*. Order matters: the longer phrase is listed first so it is replaced as a whole before the shorter word is searched. The original names are removed from the page content, so a search for *Northwind* in the output finds nothing. Bookmarks, metadata and images are not changed – check those, or use [Redact PDF](/redact-pdf/) for logos and signatures."
 ],
 [
 "Step-by-step troubleshooting",
@@ -2196,14 +2191,9 @@
 "Shorten it or use an abbreviation"
 ],
 [
-"White rectangle visible",
-"Page background is coloured or an image",
-"Edit that spot manually in Edit PDF"
-],
-[
-"Replacement looks bolder/thinner",
-"Original used a different font weight",
-"Usually acceptable; edit headlines manually"
+"Replacement in a slightly different font",
+"Embedded subset font lacks a letter you typed",
+"Use letters present in the document, or accept the closest standard font"
 ],
 [
 "Strange characters in original",
@@ -2239,7 +2229,7 @@
 "list": [
 "Compare the replacement count with the number of occurrences you expected.",
 "Zoom to 200% on two or three changed spots and check alignment.",
-"Search the output for the old text with Ctrl+F – covered text may still be found; if that matters, redact instead.",
+"Search the output for the old text with Ctrl+F – it should no longer be found.",
 "Print one page if the document is going to be printed.",
 "Keep the original PDF unchanged in case you need to redo the edit.",
 "If the document is signed, remember that any edit invalidates the digital signature."
@@ -2317,7 +2307,7 @@
 ],
 [
 "Is find and replace in PDF reliable enough for business documents?",
-"For short, factual changes – years, prices, names, phone numbers, references – yes, provided you review the result. It is a visual edit that leaves the rest of the page exactly as it was, so there is no risk of the layout being rebuilt or fonts being substituted across the whole document, which can happen when converting to Word and back. For legal or regulated documents, treat the edited PDF as a new version: record what changed and, where required, have it re-approved or re-signed."
+"For short, factual changes – years, prices, names, phone numbers, references – yes, provided you review the result. It changes only the matched characters and leaves the rest of the page exactly as it was, so there is no risk of the layout being rebuilt or fonts being substituted across the whole document, which can happen when converting to Word and back. For legal or regulated documents, treat the edited PDF as a new version: record what changed and, where required, have it re-approved or re-signed."
 ],
 [
 "Quick reference",
@@ -2437,15 +2427,15 @@
 },
 {
 "q": "Does it keep the same font?",
-"a": "It uses a standard font at the original size; similar sans-serif fonts look almost identical."
+"a": "Yes, it reuses the embedded font, size and colour when the font contains every character; otherwise the closest standard font at the same size and colour."
 },
 {
 "q": "Does it work on scanned PDFs?",
 "a": "Run OCR first; scanned pages contain no text to find."
 },
 {
-"q": "Is the old text deleted?",
-"a": "It is covered. Use Redact PDF to remove sensitive text permanently."
+"q": "Is the old text really deleted?",
+"a": "Yes, it is removed from the page content, not just covered."
 },
 {
 "q": "Can I remove text instead of replacing it?",
@@ -2467,7 +2457,7 @@
 "faqKw": [
 {
 "q": "How do I replace text in a PDF with the same font?",
-"a": "Exact font matching is only possible when the PDF embeds the full font. This tool writes replacements in a clean sans-serif at the original size, which closely matches common fonts like Arial and Helvetica."
+"a": "This tool removes the old text and redraws the new text with the same embedded font, size and colour whenever the font contains all the needed letters; otherwise it uses the closest standard font at the same size and colour."
 }
 ]
 }

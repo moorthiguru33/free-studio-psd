@@ -678,7 +678,7 @@
 "faq": [
 {
 "q": "Is the old text really gone?",
-"a": "This beta covers the old text visually and writes the new text on top. Use Redact PDF if it must be removed permanently."
+"a": "The old text is removed from the page content and the new text is drawn in the same font, size and colour where possible."
 }
 ]
 }

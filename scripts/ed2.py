@@ -1,17 +1,17 @@
 X={}
 X["findreplace"]=[
  ["Worked example: updating a price list for the new year",
-  "A café has a two-page PDF menu exported years ago; the designer is gone and only the PDF remains. Prices are unchanged, but the footer says *Menu 2025* on both pages and the phone number changed. Drop the PDF, type *2025* in Find and *2026* in Replace, then add one line in the extra pairs box: *0161 496 0000 => 0161 496 0999*. Keep Match case on and press the button. The result reports, for example, *4 replacements*: two years and two phone numbers. Open the file, zoom in on the footer and you will see the new text sitting exactly where the old one was, in a matching size. Print a test page; the white cover boxes are invisible on the white paper background.",
+  "A café has a two-page PDF menu exported years ago; the designer is gone and only the PDF remains. Prices are unchanged, but the footer says *Menu 2025* on both pages and the phone number changed. Drop the PDF, type *2025* in Find and *2026* in Replace, then add one line in the extra pairs box: *0161 496 0000 => 0161 496 0999*. Keep Match case on and press the button. The result reports, for example, *4 replacements*: two years and two phone numbers. Open the file, zoom in on the footer and you will see the new text exactly where the old one was, in the same font, size and colour – and searching the file for *2025* finds nothing.",
   "The same approach works for a training handout that names last year's trainer, a product sheet with an old model number or a certificate template where *[NAME]* needs replacing with a real name."],
  ["Worked example: anonymising a sample document",
-  "Suppose you want to share a sample report with a supplier but replace the client name *Northwind Traders* with *Client A*. Find *Northwind Traders*, replace with *Client A*, and add a second pair for the short form, *Northwind => Client A*. Order matters: the longer phrase is listed first so it is replaced as a whole before the shorter word is searched. Because covered text is still present underneath, this is fine for a casual sample but not for genuine confidentiality – for that, redact the names with [Redact PDF](/redact-pdf/), which removes them from the file entirely, and then add replacement labels if needed."],
+  "Suppose you want to share a sample report with a supplier but replace the client name *Northwind Traders* with *Client A*. Find *Northwind Traders*, replace with *Client A*, and add a second pair for the short form, *Northwind => Client A*. Order matters: the longer phrase is listed first so it is replaced as a whole before the shorter word is searched. The original names are removed from the page content, so a search for *Northwind* in the output finds nothing. Bookmarks, metadata and images are not changed – check those, or use [Redact PDF](/redact-pdf/) for logos and signatures."],
  ["Step-by-step troubleshooting",
   {"table":[["Problem","Likely cause","Fix"],
    ["“Text not found”","The PDF is a scan, or the phrase spans two text runs","Try a shorter word; run OCR on scans"],
    ["Only some occurrences replaced","Different capitalisation","Turn Match case off"],
    ["New text overlaps the next word","Replacement is longer than the original","Shorten it or use an abbreviation"],
-   ["White rectangle visible","Page background is coloured or an image","Edit that spot manually in Edit PDF"],
-   ["Replacement looks bolder/thinner","Original used a different font weight","Usually acceptable; edit headlines manually"],
+   
+   ["Replacement in a slightly different font","Embedded subset font lacks a letter you typed","Use letters present in the document, or accept the closest standard font"],
    ["Strange characters in original","The PDF font has no Unicode mapping","Search for the visible text using OCR output"]]}],
  ["Why some PDFs cannot be searched",
   "Finding text depends on the PDF containing a text layer with a proper mapping from glyphs to characters. Scanned documents and photos converted to PDF contain only images: there is nothing to search until you run [OCR PDF](/ocr-pdf/), which recognises the characters and adds an invisible text layer. Some PDFs created by older design or printing software embed fonts without a Unicode map, so copying text produces gibberish; search fails on those too. A quick test: open the PDF in your browser, press Ctrl+F and search for the word. If the viewer finds it, this tool will almost always find it as well."],
@@ -26,7 +26,7 @@ X["findreplace"]=[
  ["Checklist before you send an edited PDF",
   {"list":["Compare the replacement count with the number of occurrences you expected.",
    "Zoom to 200% on two or three changed spots and check alignment.",
-   "Search the output for the old text with Ctrl+F – covered text may still be found; if that matters, redact instead.",
+   "Search the output for the old text with Ctrl+F – it should no longer be found.",
    "Print one page if the document is going to be printed.",
    "Keep the original PDF unchanged in case you need to redo the edit.",
    "If the document is signed, remember that any edit invalidates the digital signature."]}],
@@ -67,7 +67,7 @@ X["findreplace"]+=[
  ["Languages and special characters",
   "Search works with any language whose text is stored as Unicode in the PDF, including accented European languages, Cyrillic, Greek, Arabic and many Asian scripts. Replacement text in non-Latin scripts is drawn using a Unicode font that loads automatically when needed. Right-to-left text and complex scripts that join letters are matched as stored in the PDF, which can differ from how they appear; if a phrase is not found, try searching for a single word. Ligatures in some fonts (for example *fi* drawn as one glyph) can also prevent matches – search for a part of the word that avoids them."],
  ["Is find and replace in PDF reliable enough for business documents?",
-  "For short, factual changes – years, prices, names, phone numbers, references – yes, provided you review the result. It is a visual edit that leaves the rest of the page exactly as it was, so there is no risk of the layout being rebuilt or fonts being substituted across the whole document, which can happen when converting to Word and back. For legal or regulated documents, treat the edited PDF as a new version: record what changed and, where required, have it re-approved or re-signed."]]
+  "For short, factual changes – years, prices, names, phone numbers, references – yes, provided you review the result. It changes only the matched characters and leaves the rest of the page exactly as it was, so there is no risk of the layout being rebuilt or fonts being substituted across the whole document, which can happen when converting to Word and back. For legal or regulated documents, treat the edited PDF as a new version: record what changed and, where required, have it re-approved or re-signed."]]
 X["findreplace"].append(["Quick reference",
  {"table":[["Want to…","Do this"],["Change one word everywhere","Find + Replace boxes"],["Change several things","Add old => new lines"],["Delete a word","Leave Replace empty"],["Catch all capitalisations","Match case off"],["Avoid changing parts of words","Include a space or punctuation"],["Replace in a scan","OCR PDF first"],["Remove sensitive text for good","Redact PDF"],["Check the edits","Compare PDF with the original"]]},
  "Keep this table in mind and most edits take under a minute: drop, type, check the count, download, review. If the first attempt is not perfect, adjust the search text and run again on the untouched original – nothing is lost, and nothing ever leaves your device."])
