@@ -31,7 +31,7 @@ const write=(u,html)=>{const f=path.join(OUT,u,'index.html');fs.mkdirSync(path.d
 const ad=(id,t)=>`<aside class="ad-slot" data-ad-slot="${id}" aria-label="${esc(t.ui.ad)}"><span>${esc(t.ui.ad)}</span></aside>`;
 function layout({t,lang,slug,title,desc,body,jsonld,cat,og,alts:A=true}){
   const L=langs.find(l=>l.code===lang);
-  const alts=!A?'':enabled.map(l=>`<link rel="alternate" hreflang="${l.code}" href="${abs(url(l.code,slug))}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${abs(url(site.defaultLang,slug))}">`;
+  const alts=!A||enabled.length<2?'':enabled.map(l=>`<link rel="alternate" hreflang="${l.code}" href="${abs(url(l.code,slug))}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${abs(url(site.defaultLang,slug))}">`;
   const langSel=enabled.map(l=>`<a href="${url(l.code,A?slug:"")}" hreflang="${l.code}" lang="${l.code}"${l.code===lang?' aria-current="true"':''}>${esc(l.name)}</a>`).join('');
   const nav=forLang(lang).map(x=>`<a href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('');
   return `<!doctype html><html lang="${lang}" dir="${L.dir}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -43,7 +43,7 @@ ${jsonld.map(j=>`<script type="application/ld+json">${JSON.stringify(j)}</script
 </head><body class="${site.adsEnabled?'ads-on':''} ${cat?'cat-'+cat:''}">
 <header class="top"><div class="wrap"><a class="logo" href="${prefix(lang)}">${esc(site.brand)}</a>
 <details class="menu"><summary aria-label="${esc(t.ui.allTools)}">☰ <span class="mt">${esc(t.ui.allTools)}</span></summary><nav class="toolnav">${nav}</nav></details>
-<details class="langs"><summary aria-label="${esc(L.name)} – ${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details></div></header>
+${enabled.length>1?`<details class="langs"><summary aria-label="${esc(L.name)} – ${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details>`:''}</div></header>
 <nav class="toptools"><div class="wrap">${TOP.map(id=>tools.find(x=>x.id===id)).filter(Boolean).map(x=>`<a class="c-${x.cat}" href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('')}</div></nav>
 <main class="wrap">${body}</main>
 <footer class="foot"><div class="wrap"><nav class="toolnav" aria-label="${esc(t.ui.popular)}">${FOOT.map(id=>tools.find(x=>x.id===id)).filter(Boolean).map(x=>`<a href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('')}<a href="${prefix(lang)}#all">${esc(t.ui.allToolsLink)}</a></nav><nav class="legal">${['about','privacy','terms','contact'].map(k=>`<a href="/${k}/">${esc(EN.ui[k+'Link'])}</a>`).join(' · ')}</nav><p>${esc(t.ui.footer)}</p><p>© ${new Date().getFullYear()} ${esc(site.brand)}</p></div></footer>
@@ -115,7 +115,7 @@ for(const L of enabled){const sm=['<?xml version="1.0" encoding="UTF-8"?>','<url
  sm.push('</urlset>');const fn=`sitemap-${L.code}.xml`;fs.writeFileSync(path.join(OUT,fn),sm.join('\n'));SMS.push(fn);}
 fs.writeFileSync(path.join(OUT,'sitemap.xml'),['<?xml version="1.0" encoding="UTF-8"?>','<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',...SMS.map(f=>`<sitemap><loc>${abs('/'+f)}</loc><lastmod>${today}</lastmod></sitemap>`),'</sitemapindex>'].join('\n'));
 // 301s for pages no longer built in a language (untranslated tools) -> English page
-{const rd=[];for(const L of enabled)if(L.code!=='en')for(const x of tools)if(!x.enOnly&&UNTR[L.code]?.has(x.id))rd.push(`${url(L.code,x.slug)} ${url('en',x.slug)} 301`);fs.writeFileSync(path.join(OUT,'_redirects'),rd.join('\n')+'\n');}
+{const rd=[];for(const L of enabled)if(L.code!=='en')for(const x of tools)if(!x.enOnly&&UNTR[L.code]?.has(x.id))rd.push(`${url(L.code,x.slug)} ${url('en',x.slug)} 301`);for(const L of langs)if(!enabled.includes(L)&&L.code!=='en'&&fs.existsSync(R(`src/i18n/${L.code}.json`)))rd.push(`/${L.code} / 301`,`/${L.code}/* /:splat 301`);fs.writeFileSync(path.join(OUT,'_redirects'),rd.join('\n')+'\n');}
 // 404 page: full layout (nav, popular tools), noindex, no canonical/hreflang
 {const t=TEN;const pop=FOOT.map(id=>tools.find(x=>x.id===id)).filter(Boolean);const body=`<section class="hero"><h1>${esc(t.ui.e404t)}</h1><p class="lead">${esc(t.ui.e404d)}</p></section><div class="grid">${pop.map(x=>`<a class="card c-${x.cat}" href="${url('en',x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}</b><span>${esc(t.tools[x.id].short)}</span></a>`).join('')}</div><p><a class="btn" href="/#all">${esc(t.ui.catAll)}</a></p>`;
  let h=layout({t,lang:'en',slug:'',title:t.ui.e404t+' | '+site.brand,desc:t.ui.e404d,body,jsonld:[],alts:false});h=h.replace(/<link rel="canonical"[^>]*>/,'<meta name="robots" content="noindex">').replace(/<meta property="og:url"[^>]*>/,'');fs.writeFileSync(path.join(OUT,'404.html'),h);}

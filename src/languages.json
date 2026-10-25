@@ -75,7 +75,8 @@
   "code": "hi",
   "name": "हिन्दी",
   "dir": "ltr",
-  "enabled": true
+  "enabled": false,
+  "removedNote": "Removed 2026-10-25 by owner; /hi/* 301 to English"
  },
  {
   "code": "id",
@@ -165,7 +166,8 @@
   "code": "ta",
   "name": "தமிழ்",
   "dir": "ltr",
-  "enabled": true
+  "enabled": false,
+  "removedNote": "Removed 2026-10-25 by owner; /ta/* 301 to English"
  },
  {
   "code": "te",
