@@ -1,0 +1,260 @@
+0	Generador de códigos QR
+1	Códigos QR gratis para enlaces, wifi, contactos y más.
+2	Generador de códigos QR gratis – Logo, colores, SVG y PDF, sin caducidad | {brand}
+3	Crea códigos QR estáticos gratis para URL, wifi, vCard, correo, SMS, ubicación y eventos. Añade logo y colores; descarga PNG, SVG o PDF. No caducan.
+4	Generador de códigos QR
+5	Elige un tipo (URL, wifi, vCard…) y rellena los datos.
+6	Personaliza los colores y el estilo de los puntos y añade un logo.
+7	Descarga en PNG, SVG o PDF.
+8	¿Los códigos QR son gratis para siempre?
+9	Sí. Son códigos estáticos que nunca caducan y no necesitan cuenta. No se rastrea nada.
+10	¿Un logo estropeará mi código QR?
+11	Al añadir un logo, la corrección de errores pasa automáticamente a alta (30 %), así que el código se sigue leyendo. Pruébalo siempre antes de imprimir.
+12	¿Se suben mis datos?
+13	No. El código QR se genera en tu navegador.
+14	Muchos generadores QR «gratuitos» crean códigos dinámicos que redirigen a través de sus servidores y dejan de funcionar cuando termina la prueba. {brand} crea códigos estáticos: el contenido está dentro del propio código, así que funciona para siempre, sin cuenta y sin rastreo.
+15	Enlazar menús, folletos y carteles a tu web.
+16	Compartir el wifi con los invitados.
+17	Poner tus datos de contacto en tarjetas de visita.
+18	Añadir códigos QR a envases de productos y entradas de eventos.
+19	Prueba el código con varios móviles antes de imprimir.
+20	Mantén un contraste fuerte: código oscuro sobre fondo claro.
+21	Descarga SVG o PDF para imprimir y que se vea nítido a cualquier tamaño.
+22	¿Caducan estos códigos QR?
+23	No. Son códigos estáticos que nunca caducan y no necesitan cuenta. No se rastrea nada.
+24	Generador de QR gratis – Con logo, sin registro, no caduca
+25	Generador de QR gratis: códigos estáticos para URL, wifi, vCard, SMS y más. Logo, colores, degradado, esquinas y marcos. PNG, SVG, PDF. Sin registro.
+26	{tool}: {brand} frente a QR Code Generator, QRCode Monkey y Adobe Express
+27	Códigos QR gratis que siguen funcionando para siempre
+28	El generador de códigos QR de {brand} crea códigos para webs, redes wifi, tarjetas de contacto, números de teléfono, mensajes de texto, correos, ubicaciones, eventos de calendario, perfiles sociales, pagos en Bitcoin y texto simple. Personalízalos con tus colores, un degradado, tu logo, módulos redondeados o de puntos, «ojos» de esquina personalizados y un marco con una llamada a la acción como «Escanéame», y descárgalos en PNG, SVG o PDF, listos para pantalla e impresión.
+29	Cada código es **estático**: la información se guarda en el propio patrón, no en un servidor. Eso significa que nunca caduca, no tiene límite de escaneos, no depende de que ninguna empresa siga existiendo y no se puede desactivar tras un muro de pago. No hay cuenta, ni prueba, ni marca de agua. El código se genera en tu navegador, así que ni siquiera tu contraseña wifi o tus datos de contacto se envían a ningún sitio.
+30	Como no se guarda nada en un servidor, también puedes generar códigos sin conexión una vez cargada la página: práctico en eventos, en tiendas con mala cobertura o en un portátil sin internet. Crea todos los que quieras: uno por mesa, producto o cartel, todos gratis.
+31	Funciones
+32	**12 tipos de contenido:** URL, texto, correo, teléfono, SMS, wifi, vCard, MeCard, ubicación, evento, Bitcoin y perfil social.
+33	**Colores y degradado:** cualquier color de primer plano y de fondo, o un degradado de dos colores.
+34	**Logo en el centro:** sube cualquier imagen; la corrección de errores se eleva automáticamente para que el código se siga leyendo.
+35	**Estilos de módulo:** cuadrado, redondeado o puntos.
+36	**Ojos de esquina:** cuadrados, redondeados o circulares, con su propio color.
+37	**Marcos:** etiqueta debajo o recuadro con etiqueta; escribe tu propia llamada a la acción.
+38	**Corrección de errores:** L, M, Q o H (recuperación del 7–30 %).
+39	**Alta resolución:** PNG de hasta 4000×4000 píxeles.
+40	**SVG vectorial** para escalar sin límite en impresión, y **PDF** para imprimir directamente.
+41	**Vista previa en directo** que se actualiza mientras escribes.
+42	Cómo crear un código QR
+43	Elige el tipo, por ejemplo URL o wifi.
+44	Rellena los datos: la dirección web, el nombre de la red y la contraseña, los campos de contacto, etc.
+45	Personaliza: colores, degradado, logo, estilo de módulo, estilo de esquinas y marco.
+46	Revisa la vista previa y pruébala con la cámara de tu móvil.
+47	Descarga PNG para uso digital, y SVG o PDF para imprimir.
+48	Códigos QR estáticos frente a dinámicos
+49	Hay dos tipos de códigos QR en el mercado. Un código **estático** codifica tu contenido directamente (la URL, los datos del wifi) en el patrón blanco y negro. Un código **dinámico** codifica un enlace corto al servidor del proveedor, que luego redirige a tu URL real. Los códigos dinámicos permiten cambiar el destino más tarde y contar escaneos, pero solo funcionan mientras sigas pagando al proveedor: si la suscripción vence o el proveedor cierra, todos los códigos impresos dejan de funcionar. Muchos generadores «gratuitos» crean códigos dinámicos por defecto y los desactivan tras un periodo de prueba, una fuente frecuente de frustración para restaurantes y pequeños negocios cuyos menús dejaron de leerse de repente.
+50	
+51	Estático ({brand})
+52	Dinámico (servicios de suscripción)
+53	Caduca
+54	Nunca
+55	Cuando termina la suscripción o la prueba
+56	Límite de escaneos
+57	Ninguno
+58	Depende del plan
+59	Funciona sin conexión
+60	Sí (wifi, vCard, texto)
+61	Necesita internet y el servidor del proveedor
+62	Cambiar el destino después
+63	No: crea un código nuevo
+64	Sí
+65	Estadísticas de escaneo
+66	No (usa etiquetas UTM en tu URL)
+67	Sí
+68	Privacidad
+69	No se rastrea nada
+70	El proveedor registra cada escaneo
+71	Coste
+72	Gratis
+73	Normalmente cuota mensual
+74	Consejo: para tener a la vez permanencia y posibilidad de editar, apunta un código estático a una URL que controles, como tusitio.com/menu, y cambia lo que muestra esa página. Para medir escaneos, añade parámetros UTM (por ejemplo ?utm_source=cartel) y consúltalos en tu propia analítica.
+75	Los tipos de código QR explicados
+76	Tipo
+77	Qué pasa al escanearlo
+78	Uso típico
+79	URL
+80	Abre la página web
+81	Webs, menús, páginas de producto
+82	Texto
+83	Muestra el texto
+84	Números de serie, notas breves
+85	Correo
+86	Abre un correo nuevo con dirección, asunto y cuerpo
+87	Solicitudes de soporte, opiniones
+88	Teléfono
+89	Ofrece llamar al número
+90	Tarjetas de visita, letreros
+91	SMS
+92	Abre un mensaje de texto con número y mensaje
+93	Concursos, suscripciones
+94	Wifi
+95	Conecta a la red sin escribir la contraseña
+96	Cafeterías, oficinas, Airbnb, invitados en casa
+97	vCard
+98	Guarda una tarjeta de contacto completa
+99	Tarjetas de visita, acreditaciones
+100	MeCard
+101	Guarda un contacto compacto
+102	Códigos cortos para impresiones pequeñas
+103	Ubicación
+104	Abre el mapa en las coordenadas
+105	Lugares de eventos, tiendas
+106	Evento
+107	Añade el evento al calendario
+108	Invitaciones, carteles de congresos
+109	Bitcoin
+110	Abre un monedero con dirección e importe
+111	Donaciones, pagos
+112	Social
+113	Abre el perfil
+114	Instagram, LinkedIn, YouTube y más
+115	Diseñar un código QR que siempre se lea
+116	**Mantén un contraste fuerte.** Módulos oscuros sobre fondo claro. Algunos lectores antiguos no leen los códigos claros sobre oscuro (invertidos).
+117	**No te pases con el estilo.** Los puntos y degradados quedan genial; comprueba que los colores más oscuro y más claro sigan siendo claramente distintos.
+118	**Respeta la zona de silencio.** El margen blanco alrededor del código (al menos cuatro módulos) ayuda a las cámaras a encontrarlo: no lo recortes.
+119	**Logos de hasta un 20–25 % del área.** Los logos más grandes tapan demasiados módulos incluso con nivel H.
+120	**Menos contenido = módulos más grandes.** Una URL corta produce un código más sencillo que se lee desde más lejos.
+121	**Prueba siempre** con dos o tres móviles (cámara del iPhone, cámara de Android y una app lectora) antes de imprimir miles de copias.
+122	Niveles de corrección de errores
+123	Los códigos QR contienen datos redundantes para seguir funcionando cuando parte del código está dañada, sucia o tapada por un logo. Hay cuatro niveles: L recupera alrededor del 7 % de los datos dañados, M alrededor del 15 %, Q alrededor del 25 % y H alrededor del 30 %. Los niveles más altos hacen el código más denso. Usa M para uso digital limpio, Q para impresión en exteriores y H cuando añadas un logo: {brand} cambia a H automáticamente cuando subes uno.
+124	Tamaño de impresión y distancia de escaneo
+125	Una regla práctica es que un código QR se puede escanear desde unas diez veces su ancho: un código de 2 cm desde 20 cm, uno de 10 cm en un cartel desde aproximadamente 1 metro y uno de 1 m en una pancarta desde unos 10 metros. En tarjetas de visita, 2–2,5 cm es el mínimo práctico. Para imprimir, usa SVG o PDF para que los bordes queden perfectamente nítidos a cualquier tamaño, o PNG de 2000 píxeles o más.
+126	Ubicación
+127	Tamaño mínimo recomendado
+128	Tarjeta de visita
+129	2–2,5 cm
+130	Folleto / menú
+131	3–4 cm
+132	Expositor de mesa
+133	4–5 cm
+134	Cartel A4
+135	8–10 cm
+136	Escaparate
+137	15–20 cm
+138	Valla publicitaria
+139	Ancho ≈ distancia de visión ÷ 10
+140	Códigos QR de wifi
+141	Un código wifi permite a los invitados conectarse a tu red apuntando la cámara, sin deletrear contraseñas largas. Introduce el nombre de la red (SSID) exactamente como aparece, la contraseña y el tipo de seguridad (WPA/WPA2/WPA3 en casi todos los routers modernos, WEP en los muy antiguos, o ninguno en redes abiertas). Marca «oculta» si tu red no emite su nombre. Los iPhone (iOS 11 y posteriores) y los móviles Android (10 y posteriores) leen códigos wifi desde la cámara integrada. Para una página específica con consejos, consulta [Generador de QR para wifi](/wifi-qr-code-generator/).
+142	Códigos QR vCard para tarjetas de visita
+143	Un código vCard contiene tu nombre, empresa, cargo, teléfonos, correo, web y dirección. Al escanearlo, el móvil ofrece guardar el contacto: sin teclear y sin correos mal escritos. Mantenlo compacto: cada campo extra añade datos y hace el código más denso, así que en una tarjeta pequeña incluye solo lo que la gente realmente necesita. Consulta [Generador de QR vCard](/vcard-qr-code-generator/) para un formulario específico.
+144	Privacidad
+145	El código QR se genera por completo en tu navegador. Lo que escribes (direcciones web, contraseñas wifi, números de teléfono, datos de contacto) nunca se envía a {brand} ni a nadie más. El código estático resultante no redirige a través de ningún servidor, así que nadie rastrea quién lo escanea, cuándo ni dónde.
+146	Los proveedores de códigos dinámicos, en cambio, se sitúan entre cada persona que escanea tu código y tu web, y registran los datos de escaneo. Puede ser útil para marketing, pero conviene saberlo antes de imprimir.
+147	Cómo funciona un código QR
+148	QR significa «Quick Response» (respuesta rápida). El formato lo inventó en 1994 Denso Wave, una empresa del grupo Toyota, para seguir piezas de coches, y hoy es una norma internacional (ISO/IEC 18004). Un código QR es una cuadrícula de módulos cuadrados. Los tres cuadrados grandes de las esquinas (los patrones de localización u «ojos») permiten a la cámara localizar el código y calcular su ángulo. Unos patrones de alineación más pequeños corrigen la perspectiva, unas líneas de temporización fijan la cuadrícula y la información de formato indica al lector qué nivel de corrección de errores y qué máscara se usan. El resto de la cuadrícula contiene tus datos, codificados con corrección de errores Reed–Solomon, las mismas matemáticas que permiten reproducir CD rayados.
+149	Los códigos tienen 40 versiones, desde 21×21 módulos (versión 1) hasta 177×177 (versión 40). Cuantos más datos codifiques y mayor sea la corrección de errores, mayor será la versión; por eso una URL larga con logo produce un código más denso que un enlace corto sin él. Un código de versión 40 puede contener hasta unos 4296 caracteres alfanuméricos, pero para que se lea bien con el móvil es prudente quedarse muy por debajo de unos pocos cientos de caracteres.
+150	Elegir colores
+151	Combinación
+152	¿Se lee?
+153	Nota
+154	Negro sobre blanco
+155	Excelente
+156	El clásico; la opción más segura
+157	Color de marca oscuro sobre blanco
+158	Excelente
+159	Azul marino, verde oscuro, granate, morado oscuro
+160	Degradado entre dos colores oscuros
+161	Muy bien
+162	Mantén oscuros ambos extremos
+163	Oscuro sobre pastel claro
+164	Bien
+165	Comprueba el contraste en impresión
+166	Tono medio sobre blanco (p. ej., naranja, azul claro)
+167	Arriesgado
+168	El contraste suele ser demasiado bajo
+169	Blanco sobre negro (invertido)
+170	Variable
+171	Muchas cámaras modernas lo leen; algunas apps no
+172	Color claro sobre fondo claro
+173	Mal
+174	Evítalo
+175	Una prueba sencilla: imagina tu diseño en escala de grises; si los módulos y el fondo serían tonos de gris claramente distintos, se leerá. La impresión también puede alterar los colores, sobre todo en papel sin estucar o de color, así que imprime antes una copia de prueba.
+176	¿PNG, SVG o PDF?
+177	**PNG** es una imagen de píxeles, perfecta para webs, diapositivas, publicaciones en redes y correo. Elige un tamaño suficiente para el uso: 1000 píxeles para pantallas, 2000–4000 para imprimir. **SVG** es un formato vectorial: el código se guarda como formas, así que se puede ampliar a cualquier tamaño, de una pegatina a una lona de edificio, sin desenfoque. Los diseñadores pueden abrirlo en Illustrator, Inkscape, Figma o Affinity y cambiar los colores. **PDF** está listo para enviar a imprenta o colocar en un documento; si usas degradados, marcos o un logo, el PDF contiene una imagen en alta resolución de tu código personalizado.
+178	Códigos QR para restaurantes y cafeterías
+179	Los códigos de menú en las mesas son uno de los usos más populares. Enlaza a una página de menú de tu propia web, o a un menú en PDF alojado en tu sitio, en lugar de a un enlace dinámico de terceros que puede caducar. Imprime los códigos a 4–5 cm de ancho en expositores de mesa, añade un marco con el texto «Escanea para ver el menú» y plastifícalos contra derrames. Pon un código wifi al lado para que los clientes se conecten al instante. Si actualizas el menú, actualiza la página o sustituye el PDF en la misma dirección: los códigos impresos siguen funcionando.
+180	Envases, productos y etiquetas
+181	En los envases, los códigos QR enlazan a instrucciones, listas de ingredientes, registro de garantía, vídeos o páginas de recompra. Usa una URL corta para que el código sea pequeño y sencillo, aléjalo de pliegues y bordes curvos, y usa SVG para que la imprenta obtenga bordes perfectamente nítidos. En etiquetas pequeñas, elige corrección de errores M sin logo para que los módulos sean lo más grandes posible.
+182	Eventos, folletos y carteles
+183	Los códigos de evento pueden añadir la fecha, la hora y el lugar directamente al calendario del móvil. Los códigos de ubicación abren el lugar en la app de mapas. En carteles, coloca el código a la altura del pecho, añade en el marco una llamada a la acción clara («Escanea para entradas») y asegúrate de que haya suficiente luz donde cuelgue el cartel. Los códigos detrás de un cristal funcionan, pero evita plastificados brillantes que provoquen reflejos.
+184	Seguridad: estafas con códigos QR
+185	Como las personas no pueden leer un código QR a simple vista, los delincuentes a veces pegan códigos falsos sobre los reales en parquímetros, carteles o mesas de restaurantes para llevar a la gente a páginas de phishing, una estafa conocida a veces como «quishing». Si colocas códigos en lugares públicos, revísalos con frecuencia, plantéate usar pegatinas antimanipulación e imprime tu dominio debajo del código para que se vea adónde lleva. Cuando escanees un código, revisa la vista previa de la URL que muestra el móvil antes de abrirla, y nunca introduzcas contraseñas ni datos de pago en una página a la que llegaste desde un código inesperado. Puedes comprobar el contenido de cualquier código de forma segura con nuestro [Lector de códigos QR](/qr-code-scanner/).
+186	Lista de comprobación antes de imprimir
+187	Escanéalo con al menos dos móviles distintos desde la distancia prevista.
+188	Comprueba que el enlace abre la página correcta en el móvil y que carga rápido.
+189	Deja una zona de silencio de al menos cuatro módulos por cada lado.
+190	Usa SVG o PDF para la impresión profesional.
+191	Imprime una copia de prueba en el papel final y pruébala con la iluminación final.
+192	Añade una breve llamada a la acción para que la gente sepa por qué debería escanear.
+193	Guarda una copia del contenido (URL, contraseña wifi) por si necesitas volver a crear el código.
+194	Glosario
+195	**Módulo:** cada «píxel» cuadrado de la cuadrícula del código QR.
+196	**Patrón de localización / ojo:** los tres cuadrados grandes de las esquinas.
+197	**Zona de silencio:** el margen vacío alrededor del código.
+198	**Corrección de errores (L/M/Q/H):** redundancia que permite leer códigos dañados.
+199	**Código estático:** datos guardados directamente en el código; nunca caduca.
+200	**Código dinámico:** un enlace corto de redirección gestionado por un proveedor; se puede editar y rastrear.
+201	**Versión:** el tamaño de la cuadrícula, de 21×21 a 177×177 módulos.
+202	Cómo escanear un código QR
+203	En un **iPhone**, abre la app Cámara y apunta al código; aparece un aviso con el enlace: tócalo. También puedes añadir el Escáner de códigos al Centro de control. En **Android**, abre la cámara (la mayoría de móviles desde Android 9 escanean automáticamente) o usa Google Lens desde la barra de búsqueda o la app de cámara. En un **ordenador**, sube una captura o foto del código a nuestro [Lector de códigos QR](/qr-code-scanner/). Los códigos de wifi, contacto y evento activan la acción correspondiente (conectarse a la red, guardar el contacto, añadir al calendario) en lugar de abrir un enlace.
+204	Usar bien un logo
+205	Un logo hace que un código se reconozca al instante y aumenta la confianza, pero tapa parte de los datos. Usa una versión sencilla y de alto contraste de tu logo (un icono o monograma mejor que el logotipo completo con texto) en una imagen cuadrada o circular, idealmente con fondo blanco o transparente. Mantenlo en torno a una quinta parte del ancho del código. Como el código depende de la corrección de errores para funcionar alrededor del logo, evita combinar un logo grande con un contenido muy largo, que hace los módulos pequeños y deja menos margen de error. Si solo tienes un logo con un fondo recargado, recórtalo antes con [Quitar fondo](/remove-background/).
+206	Marcos y llamadas a la acción
+207	Un código QR sin más no dice nada sobre lo que se obtendrá; una breve instrucción al lado da a la gente un motivo para sacar el móvil. Usa la opción de marco para añadir una etiqueta como «Escanea para ver el menú», «Escanea para conectarte al wifi», «Escanea para un 10 % de descuento» o «Mira el vídeo». El marco «etiqueta debajo» añade una franja de texto bajo el código; «recuadro con etiqueta» rodea el código con un borde de color, lo que además garantiza una zona de silencio limpia cuando el código se coloca sobre fondos recargados o fotografías. Limita la etiqueta a dos a cuatro palabras para que siga siendo legible en tamaños pequeños.
+208	Accesibilidad
+209	No todo el mundo puede escanear un código: algunas personas tienen móviles antiguos, discapacidad visual o simplemente prefieren no hacerlo. Siempre que haya espacio, imprime al lado del código una URL corta y legible o un número de teléfono como alternativa, y usa un texto alternativo descriptivo cuando pongas una imagen QR en una web. En pantalla, un código QR sirve sobre todo para pasar del ordenador al móvil; en el propio móvil, un enlace normal siempre es más fácil que un código.
+210	Códigos QR en documentos y presentaciones
+211	Añadir un código QR a una diapositiva permite al público abrir tus recursos, tu encuesta o tu página de contacto mientras sigues hablando. Colócalo en una esquina de la última diapositiva, con al menos una quinta parte de su altura, y déjalo en pantalla el tiempo suficiente para que lo escaneen desde el fondo de la sala. En informes, currículos y folletos impresos, un código pequeño junto a un enlace evita a los lectores teclear direcciones largas. Descarga PNG a 1000 píxeles para PowerPoint, Google Slides o Keynote, o SVG para maquetas de Word e InDesign donde deba seguir nítido. También puedes poner un código en un PDF existente (un folleto o una entrada) con [Añadir imagen a PDF](/add-image-to-pdf/). En documentos de varias páginas, valora usar un código distinto en cada sección para que los lectores vayan directamente al material online relevante en lugar de a una página de inicio general.
+212	Herramientas relacionadas
+213	[Lector de códigos QR](/qr-code-scanner/): lee un código QR desde una imagen o la cámara.
+214	[Generador de QR para wifi](/wifi-qr-code-generator/): comparte tu red.
+215	[Generador de QR vCard](/vcard-qr-code-generator/): tarjeta de visita digital.
+216	[URL a código QR](/url-to-qr-code/): códigos rápidos para enlaces.
+217	[Quitar fondo](/remove-background/): prepara un logo transparente.
+218	¿Este generador de códigos QR es realmente gratis?
+219	Sí. Códigos ilimitados, todas las opciones de diseño y todos los formatos de descarga, sin cuenta y sin marca de agua.
+220	¿Caducan los códigos QR?
+221	No. Son estáticos: el contenido está en el propio código, así que funciona para siempre.
+222	¿Puedo añadir mi logo?
+223	Sí. Sube una imagen; la corrección de errores pasa automáticamente a H para que el código se siga leyendo.
+224	¿Puedo usar los códigos con fines comerciales?
+225	Sí. Úsalos en productos, envases, menús y publicidad sin necesidad de atribución.
+226	¿Puedo cambiar el enlace después de imprimir?
+227	No en un código estático. Apúntalo a una página que controles y cambia esa página.
+228	¿Puedo saber cuántas personas lo escanean?
+229	Los códigos estáticos no tienen seguimiento integrado. Añade parámetros UTM a la URL y consulta tu propia analítica.
+230	¿Qué formato es mejor para imprimir?
+231	SVG o PDF: son formatos vectoriales que se mantienen nítidos a cualquier tamaño.
+232	¿Por qué no se lee mi código QR?
+233	Normalmente por poco contraste, un logo demasiado grande, una zona de silencio recortada o una impresión demasiado pequeña. Prueba un estilo más sencillo y vuelve a probar.
+234	¿Se envía mi contraseña wifi a algún sitio?
+235	No. El código se genera en tu navegador.
+236	¿Qué tamaño debe tener un código QR?
+237	Al menos 2 cm en tarjetas de visita; en general, alrededor de una décima parte de la distancia de escaneo.
+238	¿Cómo creo un código QR gratis?
+239	Elige el tipo (URL, wifi, vCard, SMS y más), introduce los datos, personaliza colores, logo o marco y descarga PNG, SVG o PDF. Sin registro.
+240	¿Caducan estos códigos QR?
+241	No. Son códigos estáticos: los datos se guardan en el propio patrón, no detrás de una redirección, así que siguen funcionando para siempre.
+C	Dónde se procesa tu imagen
+C	Tipo de código por defecto
+C	Estático (nunca caduca)
+C	Códigos dinámicos con registro / prueba
+C	Estático, «vida ilimitada con escaneos ilimitados»
+C	Registro necesario
+C	Se sugiere registrarse
+C	Logo
+C	Sí (máx. 2 MB)
+C	Degradado, estilos de ojos, marcos
+C	Marcos y colores
+C	Colores y opciones de diseño
+C	Descargas
+C	PNG, SVG, PDF
+C	PNG/JPEG/SVG indicados
+C	PNG y formatos vectoriales gratis
+C	Procesamiento
+C	En tu navegador

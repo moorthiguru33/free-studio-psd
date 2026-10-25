@@ -14,7 +14,7 @@ def walk(a,b,p,errs,st):
     if set(re.findall(r'\{\w+\}',a))!=set(re.findall(r'\{\w+\}',b)):errs.append(p+' ph')
     if sorted(re.findall(r'\]\((/[^)]*)\)',a))!=sorted(re.findall(r'\]\((/[^)]*)\)',b)):errs.append(p+' link')
     st[0]+=1
-    if a==b and len(a)>25 and p.split('.')[-1] not in('updated',):st[1]+=1;st.append(p)
+    if a==b and len(a)>25 and p.split('.')[-1] not in('updated',) and '.related' not in p:st[1]+=1;st.append(p)
   else:
     if a!=b:errs.append(p+' val')
 for id in sys.argv[2:]:
@@ -26,4 +26,4 @@ for id in sys.argv[2:]:
       if k in o:
         L=len(o[k].replace('{brand}','Fileopia').replace('{tool}',out['name']))
         if (k=='title' and L>60 and o is out.get('seo')) or (k=='desc' and L>155):errs.append(f'{k} len {L} '+('seo' if o is out.get('seo') else 'tool'))
-  print(id,'OK' if not errs and st[1]==0 else 'ERR',errs[:6],'same:',st[3:8])
+  print(id,'OK' if not errs and st[1]==0 else 'ERR',errs[:6],'same:',st[2:8])

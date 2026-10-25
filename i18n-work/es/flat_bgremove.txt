@@ -1,0 +1,119 @@
+0	Remove Image Background
+1	Cut out people and products automatically.
+2	Remove Background from Image Free – AI, Transparent PNG | {brand}
+3	Remove image backgrounds automatically with on-device AI. Get a transparent PNG or a white, colour or blurred background. Free, no sign-up.
+4	Remove Background from Image
+5	Select photos (JPG, PNG, WEBP, HEIC).
+6	Choose transparent, white, colour or blurred background.
+7	Download the cut-out image.
+8	Is my photo uploaded?
+9	No. The AI model (4.6 MB) is downloaded once and runs in your browser.
+10	What works best?
+11	Clear subjects – people, products, animals – with good contrast to the background. Fine hair may be softened.
+12	Clean cut-outs are essential for product listings, profile pictures, presentations and designs. Most background removers upload your photo to a server and limit free downloads to low resolution; {brand} runs the AI in your browser at full resolution.
+13	Create white-background product photos for online marketplaces.
+14	Make professional profile pictures and ID-style photos.
+15	Cut out objects for presentations, posters and thumbnails.
+16	Clear subjects with good contrast give the best results.
+17	Choose a white background for marketplace listings.
+18	Fine hair may be softened – zoom in to check.
+19	Is my photo uploaded?
+20	No. The AI model (4.6 MB) is downloaded once and runs in your browser.
+21	What works best?
+22	Clear subjects – people, products, animals – with good contrast to the background.
+23	Remove Background from Image – Free HD, No Upload
+24	Remove background from image free with on-device AI. Full-resolution transparent PNG, or swap in white, colour, blur or your own photo. Batch, no upload.
+25	{tool}: {brand} vs remove.bg, Photoroom and Adobe Express
+26	Cut out people, products and pets in one click
+27	Removing a background used to mean twenty minutes with the pen tool in Photoshop. {brand}'s background remover does it in seconds: drop a photo and an AI model finds the main subject – a person, a product, a pet, a car – and separates it from everything behind it. Download the cut-out as a transparent PNG, or put it straight onto a clean white background, a brand colour, a blurred version of the original, or a completely different photo of your choice.
+28	The difference from the well-known services is where the work happens. The segmentation model runs inside your browser using WebAssembly, so your photo is never uploaded. That makes it suitable for ID photos, pictures of children, confidential product prototypes and anything else you would not post to a public server – and it means there are no credits, no paid 'HD download' and no account.
+29	Features
+30	**Transparent PNG** at up to 4096 pixels on the long side – no low-resolution preview limit.
+31	**Replace the background** with white (for marketplaces), any solid colour, a soft blur of the original scene, or your own background image.
+32	**Soft or sharp edges** – soft edges look natural on hair and fur; sharp edges are cleaner for products with hard outlines.
+33	**Batch processing** – drop dozens of product photos and get one ZIP.
+34	**On-device AI** – a compact U²-Net model (about 4.6 MB) is downloaded once and cached; after that it works offline.
+35	**Instant preview** on a checkerboard so you can see transparency before downloading.
+36	**No watermark, no sign-up, no credits.**
+37	How to remove the background from an image
+38	Drop one or more photos (JPG, PNG, WebP, HEIC and more) or paste one with Ctrl+V.
+39	Choose what should replace the background: transparent, white, a colour, blurred original or your own image.
+40	Choose soft or sharp edges.
+41	Click Remove background. The first run loads the AI model; later images are faster.
+42	Download the PNG (transparent) or JPG (with a new background), or the ZIP for a batch.
+43	How the AI background remover works
+44	The tool uses U²-Net, a neural network designed for 'salient object detection' – finding the thing in a photo that a person would naturally look at. The image is scaled to 320×320 pixels and passed through the network, which outputs a probability for every pixel of being foreground. That low-resolution mask is then scaled back up to the full size of your photo with smooth interpolation, so the final cut-out keeps the full detail of the original image, not the size the network saw.
+45	With soft edges, the mask is lightly feathered so semi-transparent pixels at the boundary blend smoothly into any new background – important for hair, fur and motion blur. With sharp edges, every pixel is either fully kept or fully removed, which gives crisp outlines for boxes, bottles and electronics.
+46	Because the model runs on your device, speed depends on your hardware: a modern laptop processes a photo in one to three seconds, a phone in a few seconds more.
+47	Best uses
+48	**E-commerce product photos** – white backgrounds for Amazon, Flipkart, eBay and Etsy listings, or consistent brand-colour backgrounds for your own shop.
+49	**Profile pictures** – a clean, professional look for LinkedIn, CVs and company websites.
+50	**ID and visa photos** – replace a cluttered room with a plain white or light blue background, then size it with [Passport Photo Maker](/passport-photo-maker/).
+51	**Design and marketing** – cut-outs for posters, thumbnails, presentations and social media graphics.
+52	**Stickers and memes** – transparent PNGs for chat stickers and [Meme Generator](/meme-generator/).
+53	**Real estate and cars** – isolate a car or a piece of furniture for a listing.
+54	Tips for the cleanest cut-out
+55	Use a photo where the subject is clearly separated from the background – some distance and contrast helps.
+56	Good, even lighting avoids shadows being treated as part of the subject.
+57	Keep the whole subject in frame; cut-off edges are fine but the model works best when the main object is obvious.
+58	For group photos, the model keeps everything it considers the main subject; crop first if you want just one person.
+59	For fine hair against a busy background, choose soft edges and a background colour close to the original for the most natural result.
+60	If a small area is wrong, open the PNG in an editor and touch it up – the hard work is already done.
+61	Transparent PNG or JPG?
+62	A transparent PNG keeps the subject on its own with no background, ready to place in a design, presentation or website. Choose it when you will combine the image with something else later. When you pick white, colour, blur or image backgrounds, the result is flattened and saved as JPG, which is smaller and accepted by every marketplace and form. To make the PNG smaller afterwards, use [Compress Image](/compress-image/), which keeps transparency.
+63	Replace background with your own photo
+64	Choose 'Your own image…' and pick a background picture – a studio backdrop, an office, a beach, a brand pattern. The background is scaled to cover the whole frame and centred, then your subject is placed on top with the same edge blending as the transparent version. For product photos, a subtle gradient or texture often looks more premium than pure white; for profile photos, a softly blurred office or outdoor scene looks natural.
+65	Free full resolution
+66	Many background removal services give you a small preview for free and charge credits or a subscription for the full-resolution file. Here the output is the same resolution as your photo (up to 4096 pixels on the long side) every time, because there is no server cost to recover – your own device does the work.
+67	Limits and what to expect
+68	No automatic tool is perfect. Very fine details such as individual strands of hair against a similar-coloured background, transparent objects like glasses of water, and subjects that blend into the background may need touching up. The model is designed for a single clear subject; it is not meant for removing small objects from a scene – use [Blur Face](/blur-face/) or an editor for that. Images larger than 4096 pixels are scaled down to that size to keep memory use reasonable on phones.
+69	Marketplace background rules
+70	Most large marketplaces ask for product images on a pure white background. Amazon's main product image, for example, must use a pure white background (RGB 255, 255, 255) with the product filling most of the frame; Flipkart, eBay and Google Shopping have similar recommendations. Choosing 'White' here produces exactly RGB 255 white, not an off-white that some editors create. After removing the background, use [Resize Image](/resize-image/) with 'Pad to exact size' to make the image square with white borders and the product centred, which is the layout most marketplaces prefer.
+71	For your own shop, consistent backgrounds across a whole catalogue make category pages look calm and professional. Process all product photos in one batch with the same colour, so every item sits on an identical background.
+72	Background remover for profile and ID photos
+73	Many official photos require a plain white or off-white background with no shadows or patterns. Take the photo facing a window for even light, remove the background here with 'White' or 'Colour' (for light blue, a common visa background, pick a pale blue), then use [Passport Photo Maker](/passport-photo-maker/) to crop to the right head size and print layout. Check the exact rules for your country – some authorities do not accept digitally edited backgrounds, while others explicitly allow them.
+74	For LinkedIn and company directories, try 'Blurred original': it keeps a natural sense of place but removes the distraction of a cluttered room, like a portrait shot with a fast lens.
+75	Using cut-outs in designs
+76	Transparent PNGs drop straight into Canva, Figma, PowerPoint, Google Slides, Keynote and every major design tool. Place the subject over a gradient or shape, add a drop shadow in your design tool for depth, and the result looks like a studio shot. For YouTube thumbnails, a large cut-out of a face with a bold colour behind it is a classic, high-click design.
+77	Privacy
+78	Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.
+79	The AI model file is served from our own site and cached by your browser; no third-party AI service is called and no copy of your image is created anywhere else.
+80	Related tools
+81	[Passport Photo Maker](/passport-photo-maker/) – size the cut-out for official documents.
+82	[Resize Image](/resize-image/) – square or platform-specific sizes for marketplaces.
+83	[Compress Image](/compress-image/) – smaller PNGs with transparency kept.
+84	[JPG to PNG](/jpg-to-png/) – simple white-to-transparent conversion for logos.
+85	[Collage Maker](/collage-maker/) – combine several cut-outs into one image.
+86	Is this background remover really free?
+87	Yes. There are no credits, no paid HD downloads, no watermark and no account.
+88	Are my photos uploaded?
+89	No. The AI model runs in your browser, so photos never leave your device.
+90	What resolution is the result?
+91	The same as your photo, up to 4096 pixels on the long side.
+92	How do I make the background white?
+93	Choose 'White' under Background before you click Remove background. The result is a JPG with a pure white background.
+94	Can I put a different picture behind the subject?
+95	Yes. Choose 'Your own image…' and select the background photo.
+96	Does it work for products as well as people?
+97	Yes. It detects the main subject, whether a person, product, animal or vehicle. Use sharp edges for hard-edged products.
+98	Can I remove backgrounds from many images at once?
+99	Yes. Drop several images and download them all in one ZIP.
+100	Why is the first image slower?
+101	The first run downloads the 4.6 MB AI model. It is cached, so later images are much faster and it then works offline.
+102	Why are some hair edges not perfect?
+103	Fine hair against a similar background is hard for any automatic tool. Soft edges help; a quick touch-up in an editor fixes the rest.
+104	Does it work on my phone?
+105	Yes, in current Safari and Chrome. Processing takes a few seconds longer on older phones.
+106	How do I remove the background from an image for free?
+107	Drop the photo; an AI model running on your device separates the subject and gives you a transparent PNG. You can replace the background with white, a colour, a blur or another photo. Free, with no upload or credits.
+108	Does background removal work for products and people?
+109	Yes, it is trained on both. Fine hair and transparent objects are the hardest parts – zoom in and check edges before using the result.
+C	Where your image is processed
+C	Model runs on your device
+C	No (cloud)
+C	Full-resolution download free
+C	Yes, up to 4096 px
+C	Replace with colour / blur / own image
+C	Yes, ZIP
+C	Sign-up
+C	'No signup required' (their page)

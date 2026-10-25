@@ -1,0 +1,180 @@
+0	Image to Text (OCR)
+1	Extract text from photos and screenshots.
+2	Image to Text (OCR) Online Free – Copy Text from Photos | {brand}
+3	Extract text from images, photos, screenshots and scans with OCR in 12 languages. Get plain text or a searchable PDF. Private – runs in your browser.
+4	Image to Text (OCR)
+5	Select images (JPG, PNG, HEIC…).
+6	Choose language and output.
+7	Copy or download the text.
+8	Which languages are supported?
+9	English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese.
+10	Is my image uploaded?
+11	No – OCR runs entirely on your device.
+12	Retyping text from a photo, screenshot or scanned page is slow and error-prone. OCR reads the text for you, ready to copy, edit or translate. Unlike cloud OCR services, {brand} processes images on your device.
+13	Copy text from a screenshot or photo of a sign, slide or whiteboard.
+14	Digitise printed recipes, letters and receipts.
+15	Extract quotes from book pages for research.
+16	Translate text in an image by copying it into a translator.
+17	Use a sharp, well-lit photo taken straight on.
+18	Choose the right language for best accuracy.
+19	Crop to the text area to avoid noise.
+20	Which languages are supported?
+21	English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese.
+22	Are images uploaded?
+23	No – OCR runs entirely on your device.
+24	Image to Text – Free OCR in 12 Languages, No Upload
+25	Extract text from images, screenshots and photos with on-device OCR. 12 languages, two at once, paste with Ctrl+V, batch, TXT or searchable PDF. Free.
+26	{tool}: {brand} vs imagetotext.info, OnlineOCR.net and Prepostseo
+27	Copy text out of any picture
+28	A photo of a notice board, a screenshot of a chat, a scanned letter, a slide from a lecture, a receipt, a page of a book – they all contain text you cannot select or search. {brand}'s Image to Text tool reads that text with optical character recognition (OCR) and gives it back as plain, editable text you can copy, paste, search, translate or save. It handles printed text in twelve languages, including Hindi, Tamil, Arabic, Chinese and Japanese, and can read two languages in the same image.
+29	Everything happens in your browser. The OCR engine and language models are loaded into the page and run on your device, so your images – ID cards, bank letters, medical reports, private messages – are never uploaded. There is no daily limit, no 'premium' accuracy tier and no account.
+30	Unlike many 'free' OCR websites, there are no adverts between steps, no CAPTCHA, no e-mail address required to download your text, and no limit on the number or size of images – the only limit is your device's memory.
+31	Features
+32	**12 languages:** English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese.
+33	**Two languages at once** for mixed documents, such as English with Hindi or French with Arabic.
+34	**Paste from the clipboard:** press Ctrl+V (Cmd+V on Mac) to OCR a screenshot without saving it.
+35	**Batch OCR:** drop many images and get all the text in one go.
+36	**Output as text or searchable PDF:** copy the text, download a .txt file, or create a PDF with an invisible text layer over the image.
+37	**Adjustable resolution:** raise the DPI for small print.
+38	**Automatic layout analysis** that keeps lines and paragraphs in reading order.
+39	**Works offline** after the language model has loaded once.
+40	**No watermark, no sign-up:** the text you extract is yours, with nothing added.
+41	How to extract text from an image
+42	Drop one or more images (JPG, PNG, WebP, HEIC, BMP, TIFF), or paste a screenshot with Ctrl+V.
+43	Choose the language of the text, and optionally a second language.
+44	Choose output: plain text or searchable PDF.
+45	Click Extract text. The first run downloads the language model (a few MB); later runs start instantly.
+46	Copy the text or download the file.
+47	How OCR works
+48	OCR turns pixels into characters in several stages. First the image is converted to black and white with adaptive thresholding, which copes with uneven lighting and coloured backgrounds. Then the page layout is analysed: the engine finds blocks of text, separates columns, and splits blocks into lines and words. Finally each line is fed to a neural network – an LSTM model trained on hundreds of thousands of lines of text in the chosen language – which predicts the most likely sequence of characters, using its knowledge of the language to choose between look-alikes like 'rn' and 'm' or '0' and 'O'.
+49	{brand} uses Tesseract, the open-source OCR engine originally developed at HP and later maintained with Google's support, compiled to WebAssembly so it runs in the browser at near-native speed. The same engine powers many desktop and server OCR products.
+50	Getting the most accurate results
+51	**Use a sharp, well-lit image.** Blur and shadows are the main causes of errors. Photograph documents flat, in daylight, without the flash glare.
+52	**Fill the frame with the text.** Crop away tables, hands and backgrounds with [Crop Image](/crop-image/).
+53	**Choose the right language.** A French text read with the English model loses accents and misreads words.
+54	**Increase DPI for small print.** If the text is small in the image, raise the resolution setting so letters are at least 20–30 pixels tall.
+55	**Straighten the image.** Slight tilts are handled, but strongly rotated photos should be rotated first with [Rotate Image](/rotate-image/).
+56	**Higher contrast helps.** Dark text on a light background gives the best results; light text on dark backgrounds usually works too.
+57	What kinds of images work?
+58	Image
+59	Expected result
+60	Screenshots of text, web pages, chats
+61	Excellent – near-perfect
+62	Scanned printed documents
+63	Excellent
+64	Phone photos of printed pages
+65	Very good with good light
+66	Receipts and invoices
+67	Good; faded thermal paper is harder
+68	Signs, posters, menus
+69	Good for clear fonts
+70	Stylised or decorative fonts
+71	Variable
+72	Handwriting
+73	Limited – neat block capitals sometimes work, cursive rarely
+74	Text over photos or patterns
+75	Variable
+76	Be honest with yourself about handwriting: classic OCR engines, including this one, are trained on printed text. Neat handwritten capitals may be read partly correctly, but joined-up handwriting will produce mostly errors. Dedicated handwriting recognition requires much larger AI models that currently run on servers.
+77	Languages and scripts
+78	Each language has its own trained model, which knows the alphabet and common words. Latin-script languages (English, Spanish, French, German, Portuguese, Italian) share most letters but differ in accents and vocabulary, so choosing the right one improves accuracy noticeably. Russian uses Cyrillic. Arabic is written right to left with letters that change shape depending on their position; the Arabic model handles this and outputs text in the correct logical order. Hindi uses Devanagari with its characteristic headline and conjunct letters, and Tamil has its own script with vowel signs around consonants – both have dedicated models. Chinese (Simplified) and Japanese have thousands of characters and larger models, so their first load takes a little longer.
+79	For documents mixing two languages, choose both: every word is then matched against both models, which avoids, for example, English words being mangled in a Hindi document.
+80	Text or searchable PDF?
+81	Plain text is the most flexible: paste it into a document, e-mail, spreadsheet or translator. A searchable PDF keeps the image exactly as it looks and places the recognised text invisibly on top, so you can search it with Ctrl+F, select and copy passages, and let document management systems index it. Choose PDF when the original layout matters – a signed letter, an ID or a form – and text when you want to reuse the words. For multi-page scanned PDFs, use [OCR PDF](/ocr-pdf/), which adds a text layer to every page and can straighten crooked scans.
+82	Common uses
+83	Copying text from screenshots of messages, slides or videos.
+84	Digitising printed letters and notes for search and archiving.
+85	Grabbing a quote, address or phone number from a photo.
+86	Extracting text from receipts for expense reports.
+87	Translating signs and menus: OCR the photo, then paste into a translator.
+88	Making notes from textbook pages or lecture slides.
+89	Accessibility – turning image-only content into text a screen reader can read aloud, or into audio with [Text to Speech](/text-to-speech/).
+90	Tables and layout
+91	OCR output keeps the reading order of lines and paragraphs, but complex layouts such as multi-column newspapers and tables are linearised: columns are read one after another and table cells become lines of text separated by spaces. For tables in PDFs, [PDF to Excel](/pdf-to-excel/) reconstructs rows and columns, including for scanned pages.
+92	Troubleshooting poor results
+93	Symptom
+94	Likely cause
+95	Fix
+96	Random symbols instead of words
+97	Wrong language chosen, or image very blurry
+98	Choose the correct language; retake the photo
+99	Missing accents (é, ü, ñ)
+100	English model used for a European language
+101	Select French, German, Spanish etc.
+102	Only part of the text found
+103	Low contrast or tiny print
+104	Raise DPI; crop closer to the text
+105	Lines out of order
+106	Multi-column or mixed layout
+107	Crop each column separately
+108	'l', '1' and 'I' confused
+109	Sans-serif font with identical glyphs
+110	Proof-read numbers and codes manually
+111	Nothing recognised
+112	Text is handwritten or artistic
+113	OCR is designed for printed text
+114	As with any OCR tool, always proof-read important details such as amounts, account numbers, dates and names. Even a 99% accurate result contains one wrong character in every hundred, and the engine cannot know that a misread digit in an IBAN matters more than a misread letter in a word.
+115	Screenshots: the easiest case
+116	Screenshots are ideal for OCR because the text is perfectly sharp, straight and evenly lit. To grab text from a video, a locked PDF, an app that does not allow copying, or an image in a chat, take a screenshot (Windows: Win+Shift+S; Mac: Cmd+Shift+4; Android and iPhone: the usual button combination), then open this page and press Ctrl+V. The screenshot is read straight from the clipboard; you never need to save it as a file. On high-resolution displays, screenshots already have enough pixels per letter, so the default DPI is fine.
+117	Extracting text from social media and memes
+118	Images shared on social networks are usually compressed and may have text over busy backgrounds or coloured gradients. OCR still works well on large captions and on screenshots of posts, tweets and comments. For meme-style white text with black outlines, the engine reads the letters as long as they are big and clear; crop away the picture underneath to reduce noise. Very small text in compressed images – such as a watermark or a username in the corner – may need a higher DPI setting or a cleaner source image. If a post is still online, taking a fresh full-resolution screenshot gives better results than re-saving an already compressed copy several times.
+119	Photos taken with a phone
+120	Phone photos of documents vary much more than scans. For best results hold the phone parallel to the page so the text is not distorted in perspective, make sure the whole page is in focus by tapping on the text before shooting, and avoid your own shadow by standing to the side of the light source. Turn off the flash for glossy paper, which reflects light and creates white patches with no text. If you shoot in HEIC on an iPhone, you can upload the HEIC directly; it is decoded in the browser. A modern phone camera produces 12 megapixels or more, which is plenty – there is no need to raise the DPI setting for photos.
+121	Receipts and invoices
+122	Receipts are often printed on thermal paper, which fades over time and has low contrast. Photograph them soon after purchase, on a dark background so the edges are clear, and flatten curled paper. The OCR output will give you the shop name, items and totals as text you can paste into an expense spreadsheet. Because amounts are critical, check the totals by eye before submitting a claim.
+123	OCR versus copying text from a PDF
+124	If a PDF was created from a word processor, it already contains real text, and you can simply select and copy it or use [PDF to Text](/pdf-to-text/) – faster and 100% accurate. OCR is only needed when the PDF is a scan or a picture of text. A quick test: try to select a word in your PDF viewer. If you can highlight individual words, the text is already there; if the whole page highlights as one image, you need OCR.
+125	Glossary
+126	**OCR (optical character recognition):** converting images of text into machine-readable characters.
+127	**DPI (dots per inch):** how many pixels are used per inch of the original; higher values make small letters larger for the engine.
+128	**Text layer:** invisible text placed over an image in a PDF so it can be searched and copied.
+129	**LSTM:** the type of neural network used by modern Tesseract to recognise whole lines of text.
+130	**Binarisation:** converting the image to pure black and white before recognition.
+131	Privacy
+132	Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.
+133	Many online OCR services upload your image to a server and process it there, and some keep a history of conversions in an account. Here, the only thing downloaded is the language model – from our own site – and the only thing produced is text on your screen.
+134	Related tools
+135	[OCR PDF](/ocr-pdf/) – searchable PDFs from scanned documents.
+136	[PDF to Excel](/pdf-to-excel/) – tables from PDFs, including scans.
+137	[Text to Speech](/text-to-speech/) – listen to the extracted text.
+138	[Crop Image](/crop-image/) – isolate the text before OCR.
+139	[QR Code Scanner](/qr-code-scanner/) – read QR codes from images.
+140	How do I extract text from an image for free?
+141	Drop the image or paste a screenshot, choose the language and click Extract text. Copy the result or download it.
+142	Is my image uploaded?
+143	No. OCR runs in your browser; your image stays on your device.
+144	Which languages are supported?
+145	English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese. You can combine two.
+146	Can it read handwriting?
+147	Only to a limited degree. Neat block capitals may work; cursive handwriting is not reliably recognised.
+148	How accurate is it?
+149	For clear screenshots and scans, typically over 98% of characters are correct. Blurry or dim photos and decorative fonts reduce accuracy.
+150	Can I OCR several images at once?
+151	Yes. Drop several images and get all the text together.
+152	Can I paste a screenshot directly?
+153	Yes. Press Ctrl+V (Cmd+V on Mac) on the page.
+154	Can I convert a scanned PDF to text?
+155	Use OCR PDF for multi-page PDFs; it creates a searchable PDF and can also output text.
+156	Why is the first run slower?
+157	The language model (a few MB) is downloaded once and cached; later runs start straight away.
+158	Does it work on my phone?
+159	Yes. Take a photo or choose one from your gallery in mobile Safari or Chrome.
+160	How do I convert an image to text?
+161	Drop or paste (Ctrl+V) a screenshot or photo, choose the language, and the text is recognised on your device. Copy it, or save it as TXT or a searchable PDF.
+C	Where your image is processed
+C	Processing
+C	On your device
+C	Upload
+C	Languages
+C	12 (two at once)
+C	'Multiple languages'
+C	Many (list on page)
+C	'20+ languages'
+C	Max file size
+C	None (device memory)
+C	15 MB
+C	Searchable PDF output
+C	'Searchable PDF' use case
+C	Paid tier for more use
+C	$8/$10/$40 monthly plans listed
+C	Free for 'Guest' use; paid plans
+C	Premium for higher limits

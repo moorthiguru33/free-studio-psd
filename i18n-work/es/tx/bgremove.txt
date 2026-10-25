@@ -1,0 +1,119 @@
+0	Quitar fondo de imagen
+1	Recorta personas y productos automáticamente.
+2	Quitar fondo de imagen gratis – IA, PNG transparente | {brand}
+3	Quita el fondo de tus imágenes automáticamente con IA en tu dispositivo. Obtén un PNG transparente o un fondo blanco, de color o desenfocado. Gratis.
+4	Quitar el fondo de una imagen
+5	Selecciona fotos (JPG, PNG, WEBP, HEIC).
+6	Elige fondo transparente, blanco, de color o desenfocado.
+7	Descarga la imagen recortada.
+8	¿Se sube mi foto?
+9	No. El modelo de IA (4,6 MB) se descarga una vez y se ejecuta en tu navegador.
+10	¿Qué funciona mejor?
+11	Sujetos claros (personas, productos, animales) con buen contraste respecto al fondo. El pelo fino puede quedar suavizado.
+12	Los recortes limpios son esenciales para fichas de producto, fotos de perfil, presentaciones y diseños. La mayoría de herramientas para quitar fondos suben tu foto a un servidor y limitan las descargas gratuitas a baja resolución; {brand} ejecuta la IA en tu navegador a resolución completa.
+13	Crear fotos de producto con fondo blanco para marketplaces.
+14	Hacer fotos de perfil profesionales y fotos tipo documento.
+15	Recortar objetos para presentaciones, carteles y miniaturas.
+16	Los sujetos claros con buen contraste dan los mejores resultados.
+17	Elige fondo blanco para anuncios en marketplaces.
+18	El pelo fino puede quedar suavizado: amplía para comprobarlo.
+19	¿Se sube mi foto?
+20	No. El modelo de IA (4,6 MB) se descarga una vez y se ejecuta en tu navegador.
+21	¿Qué funciona mejor?
+22	Sujetos claros (personas, productos, animales) con buen contraste respecto al fondo.
+23	Quitar fondo de imagen – Gratis en HD, sin subidas
+24	Quita el fondo de una imagen gratis con IA local. PNG transparente a resolución completa, o fondo blanco, de color, desenfocado o propio. Por lotes.
+25	{tool}: {brand} frente a remove.bg, Photoroom y Adobe Express
+26	Recorta personas, productos y mascotas con un clic
+27	Quitar un fondo solía significar veinte minutos con la herramienta pluma de Photoshop. El eliminador de fondos de {brand} lo hace en segundos: suelta una foto y un modelo de IA encuentra el sujeto principal (una persona, un producto, una mascota, un coche) y lo separa de todo lo que tiene detrás. Descarga el recorte como PNG transparente o colócalo directamente sobre un fondo blanco limpio, un color de marca, una versión desenfocada del original o una foto completamente distinta que elijas.
+28	La diferencia con los servicios conocidos es dónde se hace el trabajo. El modelo de segmentación se ejecuta dentro de tu navegador con WebAssembly, así que tu foto nunca se sube. Eso lo hace adecuado para fotos de documentos, fotos de niños, prototipos de producto confidenciales y cualquier cosa que no publicarías en un servidor público, y significa que no hay créditos, ni «descarga HD» de pago, ni cuenta.
+29	Funciones
+30	**PNG transparente** de hasta 4096 píxeles en el lado largo, sin límite de vista previa en baja resolución.
+31	**Sustituye el fondo** por blanco (para marketplaces), cualquier color sólido, un suave desenfoque de la escena original o tu propia imagen de fondo.
+32	**Bordes suaves o nítidos**: los bordes suaves quedan naturales en pelo y pelaje; los nítidos son más limpios para productos con contornos duros.
+33	**Procesamiento por lotes**: suelta decenas de fotos de producto y obtén un ZIP.
+34	**IA en el dispositivo**: un modelo U²-Net compacto (unos 4,6 MB) se descarga una vez y queda en caché; después funciona sin conexión.
+35	**Vista previa instantánea** sobre un fondo de cuadros para ver la transparencia antes de descargar.
+36	**Sin marca de agua, sin registro y sin créditos.**
+37	Cómo quitar el fondo de una imagen
+38	Suelta una o varias fotos (JPG, PNG, WebP, HEIC y más) o pega una con Ctrl+V.
+39	Elige qué sustituirá al fondo: transparente, blanco, un color, el original desenfocado o tu propia imagen.
+40	Elige bordes suaves o nítidos.
+41	Haz clic en Quitar fondo. La primera vez se carga el modelo de IA; las imágenes siguientes van más rápido.
+42	Descarga el PNG (transparente) o el JPG (con fondo nuevo), o el ZIP si es un lote.
+43	Cómo funciona el eliminador de fondos con IA
+44	La herramienta usa U²-Net, una red neuronal diseñada para la «detección de objetos destacados»: encontrar en una foto aquello que una persona miraría de forma natural. La imagen se escala a 320×320 píxeles y pasa por la red, que da para cada píxel una probabilidad de ser primer plano. Esa máscara de baja resolución se vuelve a escalar al tamaño completo de tu foto con una interpolación suave, así que el recorte final conserva todo el detalle de la imagen original, no el tamaño que vio la red.
+45	Con bordes suaves, la máscara se difumina ligeramente para que los píxeles semitransparentes del contorno se fundan con suavidad con cualquier fondo nuevo, algo importante en el pelo, el pelaje y el desenfoque de movimiento. Con bordes nítidos, cada píxel se conserva o se elimina por completo, lo que da contornos limpios para cajas, botellas y aparatos electrónicos.
+46	Como el modelo se ejecuta en tu dispositivo, la velocidad depende de tu hardware: un portátil moderno procesa una foto en uno a tres segundos, y un móvil en unos segundos más.
+47	Mejores usos
+48	**Fotos de producto para e-commerce**: fondos blancos para anuncios en Amazon, Mercado Libre, eBay y Etsy, o fondos del color de tu marca para tu propia tienda.
+49	**Fotos de perfil**: un aspecto limpio y profesional para LinkedIn, currículos y webs de empresa.
+50	**Fotos de documento y visado**: sustituye una habitación desordenada por un fondo liso blanco o azul claro y después ajusta el tamaño con [Creador de fotos de pasaporte](/passport-photo-maker/).
+51	**Diseño y marketing**: recortes para carteles, miniaturas, presentaciones y gráficos para redes sociales.
+52	**Stickers y memes**: PNG transparentes para stickers de chat y el [Generador de memes](/meme-generator/).
+53	**Inmobiliaria y coches**: aísla un coche o un mueble para un anuncio.
+54	Consejos para un recorte más limpio
+55	Usa una foto en la que el sujeto esté claramente separado del fondo: algo de distancia y contraste ayuda.
+56	Una iluminación buena y uniforme evita que las sombras se traten como parte del sujeto.
+57	Mantén todo el sujeto dentro del encuadre; los bordes cortados no son un problema, pero el modelo funciona mejor cuando el objeto principal es evidente.
+58	En fotos de grupo, el modelo conserva todo lo que considera sujeto principal; recorta antes si solo quieres a una persona.
+59	Para pelo fino sobre un fondo recargado, elige bordes suaves y un color de fondo parecido al original para el resultado más natural.
+60	Si una zona pequeña sale mal, abre el PNG en un editor y retócala: el trabajo duro ya está hecho.
+61	¿PNG transparente o JPG?
+62	Un PNG transparente deja el sujeto solo, sin fondo, listo para colocarlo en un diseño, una presentación o una web. Elígelo cuando vayas a combinar la imagen con otra cosa más adelante. Si eliges fondo blanco, de color, desenfocado o de imagen, el resultado se aplana y se guarda en JPG, que es más pequeño y lo aceptan todos los marketplaces y formularios. Para reducir el PNG después, usa [Comprimir imagen](/compress-image/), que conserva la transparencia.
+63	Sustituye el fondo por tu propia foto
+64	Elige «Tu propia imagen…» y selecciona una imagen de fondo: un fondo de estudio, una oficina, una playa, un patrón de marca. El fondo se escala para cubrir todo el encuadre y se centra, y después tu sujeto se coloca encima con la misma fusión de bordes que la versión transparente. En fotos de producto, un degradado o una textura sutiles suelen verse más premium que el blanco puro; en fotos de perfil, una oficina o un exterior suavemente desenfocados quedan naturales.
+65	Resolución completa gratis
+66	Muchos servicios para quitar fondos te dan gratis una vista previa pequeña y cobran créditos o una suscripción por el archivo a resolución completa. Aquí el resultado tiene siempre la misma resolución que tu foto (hasta 4096 píxeles en el lado largo), porque no hay costes de servidor que recuperar: el trabajo lo hace tu propio dispositivo.
+67	Límites y qué esperar
+68	Ninguna herramienta automática es perfecta. Los detalles muy finos, como mechones sueltos de pelo sobre un fondo de color parecido, los objetos transparentes como vasos de agua y los sujetos que se confunden con el fondo pueden necesitar retoques. El modelo está diseñado para un único sujeto claro; no sirve para eliminar objetos pequeños de una escena: para eso usa [Difuminar caras](/blur-face/) o un editor. Las imágenes de más de 4096 píxeles se reducen a ese tamaño para que el uso de memoria sea razonable en móviles.
+69	Normas de fondo de los marketplaces
+70	La mayoría de grandes marketplaces piden imágenes de producto sobre fondo blanco puro. La imagen principal de un producto en Amazon, por ejemplo, debe usar un fondo blanco puro (RGB 255, 255, 255) con el producto ocupando la mayor parte del encuadre; Mercado Libre, eBay y Google Shopping tienen recomendaciones parecidas. Elegir «Blanco» aquí produce exactamente blanco RGB 255, no un blanco roto como el que generan algunos editores. Después de quitar el fondo, usa [Redimensionar imagen](/resize-image/) con «Añadir bordes hasta el tamaño exacto» para dejar la imagen cuadrada con bordes blancos y el producto centrado, que es la composición que prefieren la mayoría de marketplaces.
+71	Para tu propia tienda, unos fondos coherentes en todo el catálogo hacen que las páginas de categoría se vean ordenadas y profesionales. Procesa todas las fotos de producto en un solo lote con el mismo color, para que cada artículo quede sobre un fondo idéntico.
+72	Quitar fondos en fotos de perfil y de documentos
+73	Muchas fotos oficiales exigen un fondo liso blanco o blanco roto sin sombras ni dibujos. Haz la foto de cara a una ventana para tener luz uniforme, quita aquí el fondo con «Blanco» o «Color» (para el azul claro, un fondo habitual en visados, elige un azul pálido) y después usa [Creador de fotos de pasaporte](/passport-photo-maker/) para recortar al tamaño de cabeza y la plantilla de impresión correctos. Comprueba las normas exactas de tu país: algunas autoridades no aceptan fondos editados digitalmente y otras los permiten expresamente.
+74	Para LinkedIn y directorios de empresa, prueba «Original desenfocado»: mantiene una sensación natural de lugar pero elimina la distracción de una habitación desordenada, como un retrato hecho con un objetivo luminoso.
+75	Usar recortes en diseños
+76	Los PNG transparentes se colocan directamente en Canva, Figma, PowerPoint, Google Slides, Keynote y cualquier herramienta de diseño importante. Pon el sujeto sobre un degradado o una forma, añade una sombra en tu herramienta de diseño para dar profundidad y el resultado parece una foto de estudio. Para miniaturas de YouTube, un recorte grande de una cara con un color llamativo detrás es un diseño clásico que atrae clics.
+77	Privacidad
+78	Cada paso ocurre dentro de la pestaña del navegador. La imagen se decodifica, se edita y se vuelve a codificar en tu propio dispositivo con el motor de imágenes integrado del navegador y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que las fotos privadas, los documentos de identidad, las capturas con datos personales y las fotos de productos no lanzados nunca salen de tu ordenador o móvil. Incluso puedes desconectar el wifi una vez cargada la página y la herramienta sigue funcionando.
+79	El archivo del modelo de IA se sirve desde nuestro propio sitio y tu navegador lo guarda en caché; no se llama a ningún servicio de IA de terceros y no se crea ninguna copia de tu imagen en otro lugar.
+80	Herramientas relacionadas
+81	[Creador de fotos de pasaporte](/passport-photo-maker/): ajusta el recorte para documentos oficiales.
+82	[Redimensionar imagen](/resize-image/): tamaños cuadrados o específicos de cada plataforma para marketplaces.
+83	[Comprimir imagen](/compress-image/): PNG más pequeños conservando la transparencia.
+84	[JPG a PNG](/jpg-to-png/): conversión sencilla de blanco a transparente para logotipos.
+85	[Creador de collages](/collage-maker/): combina varios recortes en una sola imagen.
+86	¿Este eliminador de fondos es realmente gratis?
+87	Sí. No hay créditos, ni descargas HD de pago, ni marca de agua, ni cuenta.
+88	¿Se suben mis fotos?
+89	No. El modelo de IA se ejecuta en tu navegador, así que las fotos nunca salen de tu dispositivo.
+90	¿Qué resolución tiene el resultado?
+91	La misma que tu foto, hasta 4096 píxeles en el lado largo.
+92	¿Cómo pongo el fondo blanco?
+93	Elige «Blanco» en Fondo antes de hacer clic en Quitar fondo. El resultado es un JPG con fondo blanco puro.
+94	¿Puedo poner otra imagen detrás del sujeto?
+95	Sí. Elige «Tu propia imagen…» y selecciona la foto de fondo.
+96	¿Funciona con productos además de personas?
+97	Sí. Detecta el sujeto principal, ya sea una persona, un producto, un animal o un vehículo. Usa bordes nítidos para productos de contornos duros.
+98	¿Puedo quitar el fondo de muchas imágenes a la vez?
+99	Sí. Suelta varias imágenes y descárgalas todas en un ZIP.
+100	¿Por qué la primera imagen va más lenta?
+101	La primera vez se descarga el modelo de IA de 4,6 MB. Queda en caché, así que las imágenes siguientes van mucho más rápido y después funciona sin conexión.
+102	¿Por qué algunos bordes del pelo no quedan perfectos?
+103	El pelo fino sobre un fondo parecido es difícil para cualquier herramienta automática. Los bordes suaves ayudan; un retoque rápido en un editor arregla el resto.
+104	¿Funciona en mi móvil?
+105	Sí, en las versiones actuales de Safari y Chrome. En móviles antiguos el proceso tarda unos segundos más.
+106	¿Cómo quito el fondo de una imagen gratis?
+107	Suelta la foto; un modelo de IA que se ejecuta en tu dispositivo separa el sujeto y te da un PNG transparente. Puedes sustituir el fondo por blanco, un color, un desenfoque u otra foto. Gratis, sin subidas ni créditos.
+108	¿Quitar el fondo funciona con productos y personas?
+109	Sí, está entrenado con ambos. El pelo fino y los objetos transparentes son lo más difícil: amplía y revisa los bordes antes de usar el resultado.
+C	Dónde se procesa tu imagen
+C	El modelo se ejecuta en tu dispositivo
+C	No (en la nube)
+C	Descarga gratis a resolución completa
+C	Sí, hasta 4096 px
+C	Sustituir por color / desenfoque / imagen propia
+C	Sí, en ZIP
+C	Registro
+C	«No requiere registro» (según su página)
