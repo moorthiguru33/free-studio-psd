@@ -1,0 +1,528 @@
+Kostenlose Online-Tools für PDF, Bilder und mehr. Privat, in Ihrem Browser.
+PDFs zusammenfügen, teilen, komprimieren, umwandeln, unterschreiben und bearbeiten. Ohne Anmeldung, ohne Limits, ohne Wasserzeichen – Ihre Dateien verlassen nie Ihr Gerät.
+Alle PDF-Tools
+Dateien auswählen
+oder Dateien hier ablegen
+Starten
+Herunterladen
+Wird verarbeitet …
+Fertig! Ihre Datei ist bereit.
+Etwas ist schiefgelaufen:
+Neu beginnen
+Dateien werden lokal in Ihrem Browser verarbeitet und nie hochgeladen.
+Anleitung
+Häufige Fragen
+Weitere Tools
+Sprache
+Kostenlose PDF-Tools online. Alles wird in Ihrem Browser verarbeitet – Datenschutz von Grund auf.
+Werbung
+Beta
+Seiten
+Entfernen
+Nach oben
+Nach unten
+Völlig kostenlos
+Keine Bezahlschranken, keine Tageslimits, keine Wasserzeichen. Niemals.
+Privat von Grund auf
+Alles läuft auf Ihrem Gerät. Ihre Dateien werden nie hochgeladen.
+Schnell und überall nutzbar
+Funktioniert auf Smartphones, Tablets und Computern – ohne Installation.
+Seitenbereiche (z. B. 1-3,5,8-10). Leer lassen, um jede Seite einzeln zu trennen.
+Drehung
+Position
+Start (m:ss)
+Original (verlustfrei, am kleinsten)
+Format
+Qualität
+Auflösung
+Kompression
+Verlustfrei (Text bleibt erhalten)
+Stark (Seiten werden zu Bildern)
+Passwort
+Passwort wiederholen
+Die Passwörter stimmen nicht überein
+Seite
+Text
+Schriftgröße
+Klicken Sie in die Seitenvorschau, um es zu platzieren.
+Zeichnen Sie Ihre Unterschrift
+Löschen
+… oder geben Sie Ihren Namen ein
+Seitenformat
+Wie das Bild
+Rand
+Weißes Feld (Korrektur)
+Text hinzufügen
+Gesparte Größe
+Modus
+Organisieren
+Bearbeiten und kommentieren
+Umwandeln
+Optimieren
+Sicherheit und Prüfung
+Ziehen Sie Seiten, um sie neu anzuordnen (oder nutzen Sie ← →). ↻ dreht, ✕ löscht, ☐ wählt aus.
+Tippen Sie auf die Seiten, die Sie löschen möchten.
+Tippen Sie auf die Seiten, die Sie extrahieren möchten.
+Ergebnis
+Alle verbleibenden Seiten
+Nur die ausgewählten Seiten
+Es bleiben keine Seiten übrig
+Maximale Größe pro Datei (MB)
+Neue Datei bei Seiten beginnen, die Folgendes enthalten
+Groß-/Kleinschreibung beachten
+Lesezeichenebene
+Nicht gefunden
+Dieses PDF hat keine Lesezeichen
+Seiten pro Blatt
+Rahmen zeichnen
+Deckkraft (%)
+Anordnung
+Zentriert
+Gekachelt
+Kopfzeile links
+Kopfzeile Mitte
+Kopfzeile rechts
+Fußzeile links
+Fußzeile Mitte
+Fußzeile rechts
+Präfix
+Suffix
+Stellen
+Oben
+Rechts
+Unten
+Links
+Seiten (leer = alle)
+Titel
+Autor
+Betreff
+Stichwörter
+Ersteller-Anwendung
+Produzent
+Alle Metadaten entfernen
+Nur Formularfelder (Text bleibt erhalten)
+Alles (Seiten werden zu Bildern)
+Maximal zu erkennender Winkel (°)
+Zu schwärzende Wörter (durch Kommas getrennt)
+… und/oder ziehen Sie in der Vorschau, um Schwärzungsfelder zu zeichnen.
+Wählen Sie zwei PDFs zum Vergleichen.
+Bildbasiertes PDF/A-2b (maximale Kompatibilität)
+PDF/A-2b-Metadaten, Text bleibt erhalten (bestmöglich)
+Mindestgröße (px)
+Keine Bilder gefunden
+Suchen
+Ersetzen durch
+Bild-Tools
+Wie das Original
+Maximale Breite (px)
+EXIF/Metadaten entfernen
+Nach Pixeln
+Nach Prozent
+Breite
+Höhe
+Seitenverhältnis beibehalten
+Seitenverhältnis
+Frei
+Ziehen Sie über das Bild, um den Bereich zu wählen, den Sie behalten möchten.
+Zusätzlicher Winkel (°)
+Horizontal spiegeln
+Vertikal spiegeln
+Hintergrund
+Logobild (optional)
+Größe (% des Bildes)
+Schatten
+Text oben
+Text unten
+GROSSBUCHSTABEN
+Weichzeichnen
+Verpixeln
+Schwarzer Balken
+Stärke
+Gesichter automatisch erkennen
+Ziehen Sie über das Bild, um Gesichter, Kennzeichen oder andere zu verbergende Bereiche zu markieren.
+Bereich(e) ausgewählt
+Gesicht(er) gefunden
+Verzögerung zwischen Bildern (ms)
+Endlos wiederholen
+Innenabstand (%)
+Transparenter Hintergrund
+Abgerundete Ecken
+Farbliste herunterladen
+Klicken Sie auf eine beliebige Stelle im Bild, um eine Farbe auszuwählen.
+Dominante Farben
+Ausgewählte Farben
+Spalten
+Abstand (px)
+Bildanpassung
+Füllen (zuschneiden)
+SEO- und Web-Tools
+Produktivität
+Generatoren und Spaß
+Text
+E-Mail
+Betreff
+Nachricht
+Telefonnummer
+Netzwerkname (SSID)
+Passwort
+Verschlüsselung
+Keine
+Verstecktes Netzwerk
+Vorname
+Nachname
+Firma
+Position
+Website
+Adresse
+Breitengrad
+Längengrad
+Titel des Termins
+Beginn
+Ende
+Ort
+Beschreibung
+Bitcoin-Adresse
+Betrag (BTC)
+Bezeichnung
+Plattform
+Benutzername oder Nummer
+QR-Code erstellen
+QR-Code-Typ
+Vordergrundfarbe
+Punktstil
+Quadrate
+Abgerundet
+Punkte
+Fehlerkorrektur
+Größe (px)
+Ruhezone (Module)
+Logo (optional)
+Füllen Sie die Felder aus, um Ihren QR-Code zu sehen.
+Zu viele Daten für einen einzigen QR-Code – bitte kürzen.
+Codierter Inhalt
+Ergebnisse herunterladen
+Bild scannen
+Kamera verwenden
+Wählen Sie ein Bild mit einem QR- oder Barcode oder scannen Sie ihn mit der Kamera.
+Code(s) gefunden
+Kopieren
+Kein Code gefunden – versuchen Sie ein schärferes, näheres Bild.
+Die Kamera ist nicht verfügbar oder der Zugriff wurde verweigert.
+Barcode erstellen
+Barcode-Typ
+Wert
+Balkenbreite
+Höhe
+Text darunter anzeigen
+Ungültiger Wert für diesen Barcode-Typ.
+QR- und Barcodes
+Website-URL
+Text
+E-Mail
+Telefon
+SMS
+WLAN
+vCard-Kontakt
+MeCard-Kontakt
+Standort
+Kalendertermin
+Bitcoin
+Soziale Netzwerke
+Automatisch
+Von rechts nach links (Arabisch, Hebräisch …)
+Schwarzweiß
+Farbe
+PDF erstellen
+Wie das Foto
+Aussehen
+Nehmen oder wählen Sie mindestens ein Foto.
+Fotos auswählen
+Gescanntes Dokument
+Foto aufnehmen
+DPI (Qualität)
+Größe beibehalten
+Passend skalieren
+Schriftgröße
+Graustufen
+Oben / unten
+Links / rechts
+Erste Seite (Deckblatt) ganz lassen
+Schnittrichtung
+Betrag
+PDF-Rechnung erstellen
+Währung
+Rechnungsdatum
+Beschreibung
+Rabatt
+Fälligkeitsdatum
+Aussteller (Ihre Daten)
+Rechnung an
+Positionen
+Eine Position pro Zeile: Beschreibung | Menge | Einzelpreis
+Zeilen
+Rechnungsnummer
+Hinweise
+Einzelpreis
+Menge
+Zwischensumme
+Steuern
+Gesamt
+Rechnung
+Querformat
+Sprache des Dokuments
+Zweite Sprache (optional)
+OCR-Engine wird geladen
+Text wird gelesen
+Ergebnis
+Reiner Text (.txt)
+Durchsuchbares PDF
+Ausrichtung
+Darunter (Hintergrund)
+Zyklisch wiederholen
+Darüber (Vordergrund)
+Nur die erste Seite, auf allen Seiten
+Die letzte Seite wird wiederholt
+Seiten des zweiten PDFs
+Seiten nur einmal überlagern
+Fügen Sie zwei PDFs hinzu: zuerst das Dokument, dann die Überlagerung (Briefkopf, Stempel …).
+Seite für Seite
+Anzahl der Passwörter
+Liste herunterladen
+Länge
+Wählen Sie mindestens einen Zeichentyp.
+Akzeptabel
+Neu erzeugen
+Ähnliche Zeichen vermeiden (I l 1 O 0)
+Stark
+Sehr stark
+Schwach
+Hochformat
+Auch Anhänge und Skripte entfernen
+Keine Metadaten gefunden; die Datei wurde trotzdem bereinigt.
+Entfernt:
+Blattseiten
+Groß-/Kleinschreibung beachten
+Treffer
+Keine Treffer gefunden.
+Suchen
+Suchen
+Nur ganze Wörter
+Lesezeichenleiste
+Fenster auf dem Bildschirm zentrieren
+Fenster an die erste Seite anpassen
+Vollbild
+Menüleiste ausblenden
+Symbolleiste ausblenden
+Seitenlayout
+Öffnen mit Leiste
+Keine
+Einzelseite
+Fortlaufend scrollen
+Dokumenttitel statt Dateinamen anzeigen
+Zwei Seiten nebeneinander
+Zwei Seiten, Deckblatt separat
+Zwei Seiten, fortlaufend
+JavaScript und automatische Aktionen entfernen
+Titel- und Autor-Metadaten entfernen
+Zeichen
+Kein Text gefunden – das sieht nach einem Scan aus. Nutzen Sie zuerst OCR PDF.
+Seitenumbrüche markieren
+Miniaturansichten
+Weitere Tools
+Hochladen
+Optionen
+Herunterladen
+Dateien auswählen
+oder Dateien hier ablegen
+100 % kostenlos
+Ohne Anmeldung
+Ohne Limits
+Dateien verlassen nie Ihr Gerät
+Erweitert (optional)
+Weitere hinzufügen
+Neu beginnen
+Mit einem anderen Tool weitermachen
+Dateiname
+gespart
+Erneut versuchen
+Das hat leider nicht geklappt.
+Dateien
+Seiten
+Drehen
+Empfohlen
+Gute Qualität, kleinere Datei. Text bleibt scharf.
+Extrem
+Kleinste Datei. Seiten werden zu Bildern (Text nicht auswählbar).
+Gering
+Höchste Qualität, weniger Ersparnis. Nichts geht verloren.
+Bereits optimiert – das Original wird beibehalten.
+Benutzerdefiniert (mm)
+Klein
+Kein Rand
+Groß
+Teilungsmodus
+Jede Seite
+Wo ich auf die Schere klicke
+Seitenbereiche wählen
+Alle X Seiten
+Gerade / ungerade Seiten
+Seiten pro Datei
+Dateiname
+Klicken Sie auf die Schere zwischen Seiten, um dort zu teilen.
+OCR für gescannte Seiten (kostenlos)
+Automatisch: nur Seiten ohne Text
+Aus
+Alle Seiten
+Privat von Grund auf
+Ihre Dateien verlassen nie Ihr Gerät
+Alles, was Sie eingeben, wird mit JavaScript in diesem Tab berechnet. Nichts wird an {brand} oder an Dritte gesendet, und es gibt keine Konten oder Tracking-Cookies, die mit Ihren Eingaben verknüpft sind.
+{tool} läuft vollständig in Ihrem Browser mit JavaScript und WebAssembly. Ihre Dateien werden in diesem Tab von Ihrer Festplatte gelesen, im Arbeitsspeicher verarbeitet und direkt in Ihrem Download-Ordner gespeichert – sie werden nie zu {brand} oder Dritten hochgeladen.
+Prüfen Sie es selbst:
+Sobald die Seite geladen ist, schalten Sie WLAN oder mobile Daten aus und nutzen Sie das Tool – es funktioniert weiter.
+Netzwerk prüfen:
+Öffnen Sie während der Verarbeitung die Entwicklertools Ihres Browsers (F12 → Netzwerk); Sie sehen keine Datei-Uploads.
+Nichts zu löschen:
+Schließen Sie den Tab, und die Daten sind weg – keine Kopie auf einem Server, keine Aufbewahrungsfrist, kein Konto.
+Zuletzt aktualisiert:
+Verfasst und getestet vom {brand}-Team
+{tool}: {brand} im Vergleich zu iLovePDF, Smallpdf, Adobe und Sejda
+Angaben zu Mitbewerbern laut deren öffentlichen Seiten, geprüft am 25. Oktober 2026. Der kostenlose Web-Tarif von Sejda nennt 3 Aufgaben pro Stunde und 50 MB pro Datei. Angebote ändern sich – die aktuellen Bedingungen finden Sie auf den jeweiligen Websites.
+Hintergrund
+Transparent (PNG)
+Weiß
+Farbe …
+Unscharfes Original
+Kanten
+Weich
+Scharf
+KI-Modell wird geladen …
+Hintergrund wird entfernt …
+Fokus
+Mittel
+Aus
+Stark
+KI-Tools
+Audio und Video
+Daten und Archive
+Umrechner und Rechner
+Qualität (Bitrate)
+Standard
+hoch
+maximal
+kleinere Datei
+kleinste Datei
+Kanäle
+Stereo beibehalten
+Mono (kleiner)
+Abtastrate
+Beibehalten
+Ende (m:ss)
+Ein-/Ausblenden
+Audio wird gelesen …
+Klicken Sie in die Wellenform, um den Start zu setzen, und erneut (oder Umschalt+Klick), um das Ende zu setzen.
+Dauer
+Das Ende muss nach dem Start liegen.
+Der Ton dieser Datei konnte nicht gelesen werden.
+Ihr Browser unterstützt keine Videoverarbeitung (WebCodecs). Nutzen Sie ein aktuelles Chrome, Edge oder Safari 17 oder neuer.
+Zuschneiden auf
+quadratisch
+Hohe Qualität
+Empfohlen (kleiner)
+Starke Kompression
+Extrem (am kleinsten)
+Auflösung
+Ton
+Ton entfernen
+Start hier setzen
+Ende hier setzen
+In dieser Datei wurde keine Videospur gefunden.
+Dieser Browser kann dieses Video nicht codieren.
+Dauer (Sekunden)
+Bilder pro Sekunde
+Wiederholen
+CSV-Trennzeichen
+Zahlen und Boolesche Werte erkennen
+JSON: verschachtelte Objekte aus schlüsseln.mit.punkten wiederherstellen
+Formatiertes JSON
+Name des ZIP
+Kompression
+Normal
+Maximal (langsamer)
+Keine (am schnellsten)
+Kein gültiges ZIP (verschlüsselte ZIPs werden nicht unterstützt).
+Das ZIP ist leer.
+Kategorie
+Wert
+Von
+Nach
+Tauschen
+Geben Sie einen Wert ein
+Länge
+Gewicht / Masse
+Temperatur
+Fläche
+Volumen
+Geschwindigkeit
+Zeit
+Datenspeicher
+Druck
+Energie
+Zahlen (Lakh, Crore, Million)
+Datum und Uhrzeit
+In der Zeitzone
+Umrechnen in
+Jetzt
+Startseite
+Warum {brand} für {tool}?
+
+{brand}
+Typische Websites mit Upload
+Dateien werden auf einen Server hochgeladen
+Nein – Verarbeitung auf Ihrem Gerät
+Ja
+Anmeldung erforderlich
+Nie
+Oft, bei großen Aufträgen
+Limits pro Stunde oder Tag
+Keine
+Bei kostenlosen Tarifen üblich
+Wasserzeichen im Ergebnis
+Nie
+Manchmal
+Funktioniert nach dem Laden offline
+Ja, bei den meisten Tools
+Nein
+Typische Einsatzbereiche
+Tipps für die besten Ergebnisse
+Über uns
+Datenschutz
+Nutzungsbedingungen
+Kontakt
+Beliebte Tools
+Alle Tools ansehen
+Ihre Eingaben werden an einen Server gesendet
+Nein – sie bleiben in Ihrem Browser
+Oft
+Text-Tools
+Entwickler-Tools
+Rechner
+{cat} – kostenlos und online | {brand}
+{cat} kostenlos: {list} und mehr. Ohne Anmeldung, im Browser, Ihre Dateien bleiben auf Ihrem Gerät.
+{n} kostenlose {cat}-Tools, die in Ihrem Browser laufen – ohne Upload, ohne Konto und ohne Wasserzeichen.
+Alle Tools
+Weitere Kategorien
+Seite nicht gefunden
+Diese Seite existiert nicht (oder wurde verschoben). Probieren Sie eines der beliebten Tools unten.
+Tools suchen …
+Keine Tools gefunden
+Tools suchen
+Durchsuchen Sie alle kostenlosen PDF-, Bild-, Video- und Text-Tools. Alles läuft in Ihrem Browser.
+Kostenlose Datei-Tools: PDF, Bilder und mehr | {brand}
+Kostenlose Datei-Tools im Browser: PDFs zusammenfügen, komprimieren und umwandeln, Bilder bearbeiten und mehr – ohne Anmeldung, Limits oder Wasserzeichen.
+Kostenlose Datei-Tools, die Ihre Privatsphäre respektieren
+Ist {tool} wirklich kostenlos?
+Ja. Alle Tools von {brand} sind 100 % kostenlos – ohne Dateilimits, ohne Anmeldung und ohne Wasserzeichen. Die Website finanziert sich durch dezente Werbung.
+Werden meine Dateien auf einen Server hochgeladen?
+Nein. {brand} verarbeitet Ihre Dateien direkt in Ihrem Browser mit JavaScript. Ihre Dokumente verlassen nie Ihr Gerät und bleiben vollständig privat.
+Funktioniert es auf dem Smartphone?
+Ja. {brand} funktioniert in jedem modernen Browser unter Android, auf iPhone, iPad sowie unter Windows, Mac und Linux.

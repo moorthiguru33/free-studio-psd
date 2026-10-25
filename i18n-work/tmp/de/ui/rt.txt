@@ -1,0 +1,417 @@
+x	(deleted)	(eliminado)
+x	(no tables found)	(no se encontraron tablas)
+x	(text pt / image % of page width)	(texto en pt / imagen en % del ancho de página)
+x	10 MB (Discord free)	10 MB (Discord gratis)
+x	16 (default)	16 (predeterminado)
+x	16 MB (WhatsApp/messengers)	16 MB (WhatsApp/mensajería)
+x	1x (72 DPI)	1x (72 DPI)
+x	2 – black & white / Cricut	2 – blanco y negro / Cricut
+x	22 kHz (voice)	22 kHz (voz)
+x	25 MB (e-mail attachments)	25 MB (adjuntos de correo)
+x	300 DPI (print)	300 DPI (impresión)
+x	64 – most detail	64 – máximo detalle
+x	: no slides found.	: no se encontraron diapositivas.
+x	: old binary .ppt files are not supported – open it in PowerPoint, Keynote, Google Slides or LibreOffice and save as .pptx first.	: los archivos .ppt binarios antiguos no son compatibles; ábrelo en PowerPoint, Keynote, Google Slides o LibreOffice y guárdalo antes como .pptx.
+x	: unsupported image	: imagen no compatible
+x	AES-128 (older readers)	AES-128 (lectores antiguos)
+x	AES-256 (recommended)	AES-256 (recomendado)
+x	Action	Acción
+x	Add a bookmark for each file (uses the file name)	Añadir un marcador por archivo (usa el nombre del archivo)
+x	Add a number	Añadir un número
+x	Add at least one edit first: tap the page to add text or a white-out box.	Añade antes al menos una edición: toca la página para añadir texto o un recuadro blanco.
+x	Add text	Añadir texto
+x	Advanced (optional)	Avanzado (opcional)
+x	After	Después
+x	All pages	Todas las páginas
+x	Allow comments & form filling	Permitir comentarios y rellenar formularios
+x	Allow copying text & images	Permitir copiar texto e imágenes
+x	Allow editing	Permitir edición
+x	Allow printing	Permitir impresión
+x	Already optimized — original kept.	Ya estaba optimizado: se conserva el original.
+x	Also redact all e-mail addresses	Censurar también todas las direcciones de correo
+x	Also redact all phone numbers	Censurar también todos los números de teléfono
+x	Arrow	Flecha
+x	Attachments	Adjuntos
+x	Auto	Auto
+x	Auto (landscape for wide sheets)	Auto (horizontal para hojas anchas)
+x	Auto crop – trim white margins	Recorte automático: quitar márgenes blancos
+x	Auto – only pages without text	Auto: solo páginas sin texto
+x	Auto-fit columns to page width	Ajustar columnas al ancho de página
+x	Auto-rotate sideways / upside-down pages	Girar automáticamente páginas de lado o al revés
+x	Auto: same crop box on every page	Auto: el mismo recorte en todas las páginas
+x	Background	Fondo
+x	Before	Antes
+x	Best quality, smaller gains. Nothing is lost.	Máxima calidad, menor reducción. No se pierde nada.
+x	Black	Negro
+x	Black & white (pure, for text scans)	Blanco y negro (puro, para escaneos de texto)
+x	Black & white threshold (0–255)	Umbral de blanco y negro (0–255)
+x	Blurred original	Original desenfocado
+x	Bottom centre	Abajo centro
+x	Bottom left	Abajo izquierda
+x	Bottom right	Abajo derecha
+x	Box colour	Color del recuadro
+x	Box with label	Recuadro con etiqueta
+x	Cancel	Cancelar
+x	Capitalise words	Palabras con mayúscula inicial
+x	Channels	Canales
+x	Choose a background image	Elige una imagen de fondo
+x	Choose an image	Elige una imagen
+x	Click the page to place. Each click adds another copy – switch pages to sign every page. Use Undo to remove the last one.	Haz clic en la página para colocarla. Cada clic añade otra copia; cambia de página para firmar todas. Usa Deshacer para quitar la última.
+x	Color	Color
+x	Colour	Color
+x	Colour mode	Modo de color
+x	Colour…	Color…
+x	Combine into one PDF (bookmark per file)	Combinar en un PDF (un marcador por archivo)
+x	Compare	Comparar
+x	Convert numbers (1,234.50 → 1234.5)	Convertir números (1,234.50 → 1234.5)
+x	Convert to grayscale (images and scanned pages)	Convertir a escala de grises (imágenes y páginas escaneadas)
+x	Corner colour	Color de las esquinas
+x	Crop larger than page	Recorte mayor que la página
+x	Crop to	Recortar a
+x	Custom (mm)	Personalizado (mm)
+x	Custom settings	Ajustes personalizados
+x	Custom size (KB)	Tamaño personalizado (KB)
+x	Custom…	Personalizado…
+x	Data	Datos
+x	Delete	Eliminar
+x	Denoise / JPEG cleanup	Reducción de ruido / limpieza JPEG
+x	Detecting text in the image (OCR)…	Detectando texto en la imagen (OCR)…
+x	Do not enlarge smaller images	No ampliar imágenes más pequeñas
+x	Download	Descargar
+x	Drag a box over the area that should be clickable, then enter a web address, e-mail or page number.	Dibuja un recuadro sobre la zona que debe ser clicable y escribe una dirección web, un correo o un número de página.
+x	Drag on the page to cover something with a white box.	Arrastra sobre la página para tapar algo con un recuadro blanco.
+x	Drag to resize	Arrastra para cambiar el tamaño
+x	Edges	Bordes
+x	Edit existing text	Editar texto existente
+x	Editable text boxes on page background	Cuadros de texto editables sobre la página de fondo
+x	Ellipse	Elipse
+x	Encryption	Cifrado
+x	End must be after start.	El final debe ser posterior al inicio.
+x	Enlarge by	Ampliar
+x	Enter pages	Indica las páginas
+x	Even / odd pages	Páginas pares / impares
+x	Even pages	Páginas pares
+x	Every X pages	Cada X páginas
+x	Every page	Todas las páginas
+x	Everything on one sheet	Todo en una hoja
+x	Exact layout – looks identical, text in movable boxes	Diseño exacto: idéntico, texto en cuadros movibles
+x	Exclude characters	Excluir caracteres
+x	Extract images – save the photos inside the PDF	Extraer imágenes: guarda las fotos del PDF
+x	Extreme	Extrema
+x	Extreme (smallest)	Extrema (la más pequeña)
+x	Facebook cover 820×312	Portada de Facebook 820×312
+x	Facing pages (mirror left/right on even pages)	Páginas enfrentadas (izquierda/derecha invertidas en pares)
+x	Failed to load	No se pudo cargar
+x	Fair	Aceptable
+x	File	Archivo
+x	File name	Nombre del archivo
+x	Fill & crop to exact size	Rellenar y recortar al tamaño exacto
+x	Filter	Filtro
+x	Find	Buscar
+x	Fit	Ajustar
+x	Fit inside (no crop)	Encajar dentro (sin recortar)
+x	Flowing text – normal paragraphs, tables & columns	Texto fluido: párrafos, tablas y columnas normales
+x	Font	Fuente
+x	Frame	Marco
+x	Frame label	Etiqueta del marco
+x	Freehand pen	Lápiz a mano alzada
+x	Good	Buena
+x	Good quality, smaller size. Text stays sharp.	Buena calidad, menor tamaño. El texto sigue nítido.
+x	Gradient	Degradado
+x	Gradient end colour	Color final del degradado
+x	Grayscale (shades of grey)	Escala de grises (tonos de gris)
+x	High	Alta
+x	High (144 DPI)	Alta (144 DPI)
+x	High (larger file)	Alta (archivo más grande)
+x	High quality	Alta calidad
+x	Highlight	Resaltar
+x	Highlight & shapes	Resaltado y formas
+x	Image	Imagen
+x	Image / logo	Imagen / logotipo
+x	Image resolution	Resolución de imagen
+x	Image – click to select	Imagen: haz clic para seleccionar
+x	Image-only page: OCR found	Página solo de imagen: el OCR encontró
+x	Images & shapes	Imágenes y formas
+x	Insert a blank page between files	Insertar una página en blanco entre archivos
+x	Instagram portrait 1080×1350	Instagram vertical 1080×1350
+x	Instagram post 1080×1080	Publicación de Instagram 1080×1080
+x	Invalid range:	Intervalo no válido:
+x	JPEG quality	Calidad JPEG
+x	Keep	Conservar
+x	Keep exact lines – monospace (code, logs, tables)	Mantener líneas exactas: monoespaciado (código, registros, tablas)
+x	Keep the selection	Conservar la selección
+x	Label below	Etiqueta debajo
+x	Landscape	Horizontal
+x	Landscape pages only	Solo páginas horizontales
+x	Language	Idioma
+x	Large text	Texto grande
+x	Layout	Diseño
+x	Less	Menos
+x	Letter	Carta
+x	Line	Línea
+x	Line numbers (monospace layout)	Números de línea (diseño monoespaciado)
+x	Link	Enlace
+x	Link to (https://…, mailto:…, or a page number):	Enlazar a (https://…, mailto:… o un número de página):
+x	LinkedIn banner 1584×396	Banner de LinkedIn 1584×396
+x	Loading AI model…	Cargando modelo de IA…
+x	MB limit (browser memory)	Límite en MB (memoria del navegador)
+x	MP3 tags (title, artist, album, cover)	Etiquetas MP3 (título, artista, álbum, portada)
+x	Make white background transparent (PNG/WebP)	Hacer transparente el fondo blanco (PNG/WebP)
+x	Manual margins (mm)	Márgenes manuales (mm)
+x	Margin (pt)	Margen (pt)
+x	Mask	Máscara
+x	Max file size KB (JPG/WebP)	Tamaño máximo en KB (JPG/WebP)
+x	Medium	Media
+x	Metadata	Metadatos
+x	Middle left	Centro izquierda
+x	Middle right	Centro derecha
+x	Mode	Modo
+x	Mono (Courier)	Mono (Courier)
+x	Names	Nombres
+x	Need a strong password? Try the	¿Necesitas una contraseña segura? Prueba el
+x	Next	Siguiente
+x	Next page	Página siguiente
+x	No WordDocument stream – not a Word .doc file	Sin flujo WordDocument: no es un archivo .doc de Word
+x	No images or vector shapes found on this page.	No se encontraron imágenes ni formas vectoriales en esta página.
+x	No matches	Sin coincidencias
+x	No text found, even with OCR. Check the OCR language or scan quality.	No se encontró texto, ni siquiera con OCR. Revisa el idioma del OCR o la calidad del escaneo.
+x	No video track found in this file.	No se encontró ninguna pista de vídeo en este archivo.
+x	None	Ninguno
+x	None of these files could be converted:	No se pudo convertir ninguno de estos archivos:
+x	Normal	Normal
+x	Not a Word 97-2003 .doc file	No es un archivo .doc de Word 97-2003
+x	OCR for scanned pages (free)	OCR para páginas escaneadas (gratis)
+x	OCR found	El OCR encontró
+x	OCR language	Idioma del OCR
+x	Odd pages	Páginas impares
+x	Off	Desactivado
+x	One PDF per file (ZIP)	Un PDF por archivo (ZIP)
+x	One sheet per page	Una hoja por página
+x	One sheet per table	Una hoja por tabla
+x	Only these pages (e.g. 3-20)	Solo estas páginas (p. ej., 3-20)
+x	Orientation	Orientación
+x	Original (lossless)	Original (sin pérdida)
+x	Output	Salida
+x	Owner password (optional, unlocks permissions)	Contraseña de propietario (opcional, desbloquea los permisos)
+x	PDF (all photos in one file)	PDF (todas las fotos en un archivo)
+x	PIN (digits)	PIN (dígitos)
+x	Pad colour	Color de relleno
+x	Pad each file to an even page count (for double-sided printing)	Completar cada archivo hasta un número par de páginas (impresión a doble cara)
+x	Pad to exact size	Rellenar hasta el tamaño exacto
+x	Padding for auto crop (mm)	Margen para el recorte automático (mm)
+x	Page	Página
+x	Page 1	Página 1
+x	Page 1 of N	Página 1 de N
+x	Page images only (exact look)	Solo imágenes de página (aspecto exacto)
+x	Page numbers in footer	Números de página en el pie
+x	Page range…	Intervalo de páginas…
+x	Page to image – every page becomes an image	Página a imagen: cada página se convierte en imagen
+x	Pages (e.g. 1,3-5)	Páginas (p. ej., 1,3-5)
+x	Pages to delete	Páginas que eliminar
+x	Passphrase (words)	Frase de contraseña (palabras)
+x	Passport 35×45 mm @300 DPI	Pasaporte 35×45 mm a 300 DPI
+x	Pick a colour for that text	Elige un color para ese texto
+x	Pick text colour	Elegir color del texto
+x	Plain-text layout	Diseño del texto sin formato
+x	Portrait	Vertical
+x	Portrait pages only	Solo páginas verticales
+x	Preset	Ajuste predefinido
+x	Prev	Anterior
+x	Previous page	Página anterior
+x	Print (200 dpi)	Impresión (200 dpi)
+x	QR code	Código QR
+x	Quality	Calidad
+x	Quality (bitrate)	Calidad (tasa de bits)
+x	Random password	Contraseña aleatoria
+x	Range out of bounds:	Intervalo fuera de rango:
+x	Recognise text in images on this page	Reconocer texto en las imágenes de esta página
+x	Recommended	Recomendada
+x	Recommended (smaller)	Recomendada (más pequeña)
+x	Rectangle	Rectángulo
+x	Reflow paragraphs (documents, notes)	Reajustar párrafos (documentos, notas)
+x	Remember my signature on this device	Recordar mi firma en este dispositivo
+x	Remove sound	Quitar el sonido
+x	Remove the selection (cut middle out)	Eliminar la selección (cortar la parte central)
+x	Removing background…	Quitando el fondo…
+x	Replace with	Reemplazar por
+x	Replaced	Reemplazado
+x	Resolution	Resolución
+x	Reverse order	Orden inverso
+x	Rotate all ↻	Rotar todo ↻
+x	Rotate which pages	Qué páginas rotar
+x	SVG detail	Detalle SVG
+x	SVG trace colours	Colores de trazado SVG
+x	Sans (Helvetica)	Sans (Helvetica)
+x	Save each selected page as a separate PDF (ZIP)	Guardar cada página seleccionada como un PDF aparte (ZIP)
+x	Save selected pages	Guardar páginas seleccionadas
+x	Saved	Guardado
+x	Search text…	Buscar texto…
+x	Searchable PDF + TXT	PDF con búsqueda + TXT
+x	Searching page	Buscando en la página
+x	Select / move	Seleccionar / mover
+x	Select an image or shape	Selecciona una imagen o forma
+x	Select page ranges	Seleccionar intervalos de páginas
+x	Select pages	Seleccionar páginas
+x	Select, move, resize, delete or recolour images, logos and shapes already on the page	Selecciona, mueve, redimensiona, elimina o cambia el color de imágenes, logotipos y formas que ya están en la página
+x	Separator	Separador
+x	Serif (Times)	Serif (Times)
+x	Shape	Forma
+x	Shape – click to select	Forma: haz clic para seleccionar
+x	Sharpen	Enfoque
+x	Sheets	Hojas
+x	Shrink to fit	Reducir para encajar
+x	Signature	Firma
+x	Skip first pages (no number)	Omitir primeras páginas (sin número)
+x	Skip pages that already contain text	Omitir páginas que ya contienen texto
+x	Slides	Diapositivas
+x	Small	Pequeño
+x	Small file	Archivo pequeño
+x	Small text (fit more columns)	Texto pequeño (caben más columnas)
+x	Smaller file (100 DPI)	Archivo más pequeño (100 DPI)
+x	Smallest file. Pages become images (text not selectable).	El archivo más pequeño. Las páginas se convierten en imágenes (texto no seleccionable).
+x	Smooth (smaller file)	Suave (archivo más pequeño)
+x	Sort files by name	Ordenar archivos por nombre
+x	Sound	Sonido
+x	Split here	Dividir aquí
+x	Split mode	Modo de división
+x	Standard	Estándar
+x	Story / Reel 1080×1920	Historia / Reel 1080×1920
+x	Straighten crooked scans (deskew)	Enderezar escaneos torcidos
+x	Stretch	Estirar
+x	Strong	Fuerte
+x	Strong compression	Compresión fuerte
+x	Tables only (skip paragraphs)	Solo tablas (omitir párrafos)
+x	Tap an image, logo or shape on the page to select it: drag to move, corner ● to resize, or use the bar above to recolour, replace or delete.	Toca una imagen, logotipo o forma de la página para seleccionarla: arrastra para mover, usa la esquina ● para redimensionar o la barra superior para cambiar el color, reemplazar o eliminar.
+x	Tap an item to select it, drag to move.	Toca un elemento para seleccionarlo y arrástralo para moverlo.
+x	Tap any existing text on the page to edit it (scanned pages are read with OCR automatically).	Toca cualquier texto de la página para editarlo (las páginas escaneadas se leen con OCR automáticamente).
+x	Tap/click anywhere on the page to add text there, then type. Start unlocks after your first edit.	Toca o haz clic en cualquier punto de la página para añadir texto y escribe. Iniciar se activa tras tu primera edición.
+x	Target file size	Tamaño de archivo objetivo
+x	Text	Texto
+x	Text (.txt)	Texto (.txt)
+x	Text body	Cuerpo del texto
+x	That would remove the whole file.	Eso eliminaría todo el archivo.
+x	This .doc is encrypted – open it in Word and save without a password first	Este .doc está cifrado: ábrelo en Word y guárdalo sin contraseña primero
+x	This browser cannot encode this video.	Este navegador no puede codificar este vídeo.
+x	Title	Título
+x	Top centre	Arriba centro
+x	Top left	Arriba izquierda
+x	Top right	Arriba derecha
+x	Transparent (PNG)	Transparente (PNG)
+x	Type	Tipo
+x	Undo last placement	Deshacer la última colocación
+x	Upload signature image	Subir imagen de firma
+x	Use light text	Usar texto claro
+x	Very high (216 DPI)	Muy alta (216 DPI)
+x	Very strong	Muy fuerte
+x	Very weak	Muy débil
+x	Volume (%)	Volumen (%)
+x	Watermark type	Tipo de marca de agua
+x	Weak	Débil
+x	When both sides are set	Cuando ambos lados están definidos
+x	Where I click the scissors	Donde haga clic con las tijeras
+x	White	Blanco
+x	Width (%)	Ancho (%)
+x	Words	Palabras
+x	Working…	Procesando…
+x	X header 1500×500	Cabecera de X 1500×500
+x	YouTube thumbnail 1280×720	Miniatura de YouTube 1280×720
+x	Your own image…	Tu propia imagen…
+x	Click the scissors between pages to split there.	Haz clic en las tijeras entre páginas para dividir ahí.
+x	Pages per file	Páginas por archivo
+x	Pages (blank = all)	Páginas (vacío = todas)
+x	Pages to save (blank = all)	Páginas que guardar (vacío = todas)
+x	Rounded	Redondeado
+x	Square	Cuadrado
+x	Circle	Círculo
+x	Corner (eye) shape	Forma de las esquinas (ojos)
+x	Something went wrong.	Algo salió mal.
+x	Try again	Reintentar
+x	Continue with another tool	Continuar con otra herramienta
+x	Options	Opciones
+x	Please fill in	Rellena
+x	Rotate	Rotar
+x	Strength:	Seguridad:
+x	Permissions & owner password	Permisos y contraseña de propietario
+x	Check the strength of your own password	Comprueba la seguridad de tu propia contraseña
+x	Type a password – it never leaves this page	Escribe una contraseña: nunca sale de esta página
+x	Rough estimate; checked on your device only.	Estimación aproximada; se comprueba solo en tu dispositivo.
+x	Copy all	Copiar todo
+x	Use saved signature	Usar la firma guardada
+x	Initials (from typed name)	Iniciales (del nombre escrito)
+x	Image (PNG/JPG)	Imagen (PNG/JPG)
+x	Off — use quality	Desactivado: usar calidad
+x	Off – use quality setting	Desactivado: usar el ajuste de calidad
+x	Start (m:ss)	Inicio (m:ss)
+x	Fade in	Fundido de entrada
+x	Fade out	Fundido de salida
+x	Cover image (JPG/PNG)	Imagen de portada (JPG/PNG)
+x	Sample rate	Frecuencia de muestreo
+x	Reading audio…	Leyendo audio…
+x	Removed	Eliminado
+x	Max width (px)	Ancho máximo (px)
+x	Max 16384 px	Máx. 16384 px
+x	Full HD 1920×1080	Full HD 1920×1080
+x	space	espacio
+x	none	ninguno
+x	random digit	dígito aleatorio
+x	Custom text ({n} = number, {N} = total)	Texto personalizado ({n} = número, {N} = total)
+x	Custom text	Texto personalizado
+x	Pages (blank = all, e.g. 1,3-5)	Páginas (vacío = todas, p. ej., 1,3-5)
+x	all	todas
+x	Custom size (MB)	Tamaño personalizado (MB)
+x	Custom	Personalizado
+x	Mark pages	Marcar páginas
+x	Mark blank pages	Marcar páginas en blanco
+x	Select range	Seleccionar intervalo
+x	Insert blank page	Insertar página en blanco
+x	Merge all images into one PDF	Unir todas las imágenes en un PDF
+x	One PDF per image (ZIP)	Un PDF por imagen (ZIP)
+x	Replace image	Reemplazar imagen
+x	Replace all	Reemplazar todo
+x	OCR this page	OCR de esta página
+x	Font size (pt)	Tamaño de fuente (pt)
+x	Font size	Tamaño de fuente
+x	Text color	Color del texto
+x	Line width (pt)	Grosor de línea (pt)
+x	Line width	Grosor de línea
+x	Click to edit this text	Haz clic para editar este texto
+x	Sheets (blank = all; names or numbers, comma-separated)	Hojas (vacío = todas; nombres o números separados por comas)
+x	Background image	Imagen de fondo
+x	Leave blank to remove print/copy/edit restrictions from PDFs that open without a password.	Déjalo vacío para quitar las restricciones de impresión, copia y edición de PDF que se abren sin contraseña.
+x	More options	Más opciones
+x	Delete selected	Eliminar selección
+x	Clear selection	Borrar selección
+x	Duplicate selected	Duplicar selección
+x	Today’s date	Fecha de hoy
+x	e.g. Approved	p. ej., Aprobado
+x	e.g. {}[]	p. ej., {}[]
+x	SVG (trace)	SVG (vectorizado)
+x	Strength: 	Seguridad: 
+x	Same as original (each page keeps its size)	Igual que el original (cada página conserva su tamaño)
+x	Wrong password. Try again.	Contraseña incorrecta. Inténtalo de nuevo.
+x	This PDF is password-protected. Enter its password to open it.	Este PDF está protegido con contraseña. Introdúcela para abrirlo.
+x	Open	Abrir
+x	The password is used only in your browser to decrypt the file.	La contraseña solo se usa en tu navegador para descifrar el archivo.
+f	page(s) already had text	página(s) ya tenían texto
+f	page(s) numbered	página(s) numeradas
+f	page(s) rotated	página(s) rotadas
+f	scanned page(s) read with OCR	página(s) escaneadas leídas con OCR
+f	text line(s). Tap one to edit, drag ✥ to move.	línea(s) de texto. Toca una para editarla, arrastra ✥ para moverla.
+f	text line(s). Tap one to edit.	línea(s) de texto. Toca una para editarla.
+f	edit(s) added. Drag to move, corner ● to resize. Press Start when done.	edición(es) añadida(s). Arrastra para mover, usa la esquina ● para redimensionar. Pulsa Iniciar al terminar.
+f	occurrence(s). Press Start to save.	coincidencia(s). Pulsa Iniciar para guardar.
+f	form fields flattened	campos de formulario aplanados
+f	area(s) on	zona(s) en
+f	is not supported (skipped).	no es compatible (omitido).
+f	” not found.	” no encontrado.
+f	million years	millones de años
+f	billion years	miles de millones de años
+f	thousand years	miles de años
+f	repeated characters	caracteres repetidos
+f	keyboard or number sequence	secuencia de teclado o numérica
+f	– where it spills it is hard to read (low contrast)	: donde se sale es difícil de leer (bajo contraste)
+f	Failed to load 	No se pudo cargar 
+f	Invalid range: 	Intervalo no válido: 
+f	Range out of bounds: 	Intervalo fuera de rango: 
+f	password generator	generador de contraseñas
+f	wrong or missing password	contraseña incorrecta o ausente

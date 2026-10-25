@@ -1,0 +1,528 @@
+0	Herramientas online gratis para PDF, imágenes y más. Privadas y en tu navegador.
+1	Une, divide, comprime, convierte, firma y edita PDF. Sin registro, sin límites y sin marcas de agua: tus archivos nunca salen de tu dispositivo.
+2	Todas las herramientas PDF
+3	Seleccionar archivos
+4	o suelta los archivos aquí
+5	Empezar
+6	Descargar
+7	Procesando…
+8	¡Listo! Tu archivo está preparado.
+9	Algo salió mal:
+10	Empezar de nuevo
+11	Los archivos se procesan localmente en tu navegador y nunca se suben.
+12	Cómo usar
+13	Preguntas frecuentes
+14	Otras herramientas
+15	Idioma
+16	Herramientas PDF online gratis. Todo se procesa en tu navegador: privacidad desde el diseño.
+17	Publicidad
+18	Beta
+19	páginas
+20	Quitar
+21	Subir
+22	Bajar
+23	Totalmente gratis
+24	Sin muros de pago, sin límites diarios y sin marcas de agua. Nunca.
+25	Privado por diseño
+26	Todo se ejecuta en tu dispositivo. Tus archivos nunca se suben.
+27	Rápido y funciona en cualquier lugar
+28	Funciona en móviles, tabletas y ordenadores, sin instalar nada.
+29	Rangos de páginas (p. ej. 1-3,5,8-10). Déjalo vacío para separar cada página.
+30	Rotación
+31	Posición
+32	Inicio (m:ss)
+33	Original (sin pérdida, el más pequeño)
+34	Formato
+35	Calidad
+36	Ampliar
+37	Compresión
+38	Sin pérdida (conserva el texto)
+39	Fuerte (convierte las páginas en imágenes)
+40	Contraseña
+41	Repite la contraseña
+42	Las contraseñas no coinciden
+43	Página
+44	Texto
+45	Tamaño de letra
+46	Haz clic en la vista previa de la página para colocarlo.
+47	Dibuja tu firma
+48	Borrar
+49	…o escribe tu nombre
+50	Tamaño de página
+51	Igual que la imagen
+52	Margen
+53	Recuadro blanco (corrector)
+54	Añadir texto
+55	Tamaño ahorrado
+56	Modo
+57	Organizar
+58	Editar y anotar
+59	Convertir
+60	Optimizar
+61	Seguridad y revisión
+62	Arrastra las páginas para reordenarlas (o usa ← →). ↻ gira, ✕ elimina, ☐ selecciona.
+63	Toca las páginas que quieres eliminar.
+64	Toca las páginas que quieres extraer.
+65	Resultado
+66	Todas las páginas restantes
+67	Solo las páginas seleccionadas
+68	No quedan páginas
+69	Tamaño máximo por archivo (MB)
+70	Empezar un archivo nuevo en las páginas que contengan
+71	Distinguir mayúsculas
+72	Nivel de marcador
+73	No encontrado
+74	Este PDF no tiene marcadores
+75	Páginas por hoja
+76	Dibujar borde
+77	Opacidad (%)
+78	Diseño
+79	Centrado
+80	En mosaico
+81	Encabezado izquierda
+82	Encabezado centro
+83	Encabezado derecha
+84	Pie izquierda
+85	Pie centro
+86	Pie derecha
+87	Prefijo
+88	Sufijo
+89	Dígitos
+90	Arriba
+91	Derecha
+92	Abajo
+93	Izquierda
+94	Páginas (vacío = todas)
+95	Título
+96	Autor
+97	Asunto
+98	Palabras clave
+99	Aplicación de origen
+100	Productor
+101	Eliminar todos los metadatos
+102	Solo campos de formulario (conserva el texto)
+103	Todo (las páginas pasan a ser imágenes)
+104	Ángulo máximo a detectar (°)
+105	Palabras que censurar (separadas por comas)
+106	…y/o arrastra sobre la vista previa para dibujar recuadros de censura.
+107	Selecciona dos PDF para comparar.
+108	PDF/A-2b basado en imagen (máxima compatibilidad)
+109	Metadatos PDF/A-2b, conservando el texto (mejor esfuerzo)
+110	Tamaño mínimo (px)
+111	No se encontraron imágenes
+112	Buscar
+113	Reemplazar por
+114	Herramientas de imagen
+115	Igual que el original
+116	Ancho máximo (px)
+117	Eliminar EXIF/metadatos
+118	Por píxeles
+119	Por porcentaje
+120	Ancho
+121	Alto
+122	Mantener proporción
+123	Proporción
+124	Libre
+125	Arrastra sobre la imagen para elegir la zona que quieres conservar.
+126	Ángulo adicional (°)
+127	Voltear horizontalmente
+128	Voltear verticalmente
+129	Fondo
+130	Imagen de logotipo (opcional)
+131	Tamaño (% de la imagen)
+132	Sombra
+133	Texto superior
+134	Texto inferior
+135	MAYÚSCULAS
+136	Desenfocar
+137	Pixelar
+138	Recuadro negro
+139	Intensidad
+140	Detectar caras automáticamente
+141	Arrastra sobre la imagen para marcar caras, matrículas u otras zonas que ocultar.
+142	zona(s) seleccionada(s)
+143	cara(s) encontrada(s)
+144	Retardo entre fotogramas (ms)
+145	Repetir sin fin
+146	Relleno (%)
+147	Fondo transparente
+148	Esquinas redondeadas
+149	Descargar lista de colores
+150	Haz clic en cualquier punto de la imagen para elegir un color.
+151	Colores dominantes
+152	Colores elegidos
+153	Columnas
+154	Separación (px)
+155	Ajuste de imagen
+156	Rellenar (recortar)
+157	Herramientas SEO y web
+158	Productividad
+159	Generadores y diversión
+160	Texto
+161	Correo electrónico
+162	Asunto
+163	Mensaje
+164	Número de teléfono
+165	Nombre de la red (SSID)
+166	Contraseña
+167	Cifrado
+168	Ninguno
+169	Red oculta
+170	Nombre
+171	Apellidos
+172	Empresa
+173	Cargo
+174	Sitio web
+175	Dirección
+176	Latitud
+177	Longitud
+178	Título del evento
+179	Inicio
+180	Fin
+181	Lugar
+182	Descripción
+183	Dirección de Bitcoin
+184	Importe (BTC)
+185	Etiqueta
+186	Plataforma
+187	Usuario o número
+188	Crear código QR
+189	Tipo de código QR
+190	Color principal
+191	Estilo de puntos
+192	Cuadrados
+193	Redondeados
+194	Puntos
+195	Corrección de errores
+196	Tamaño (px)
+197	Zona de silencio (módulos)
+198	Logotipo (opcional)
+199	Rellena los campos para ver tu código QR.
+200	Demasiados datos para un solo código QR: acórtalos.
+201	Contenido codificado
+202	Descargar resultados
+203	Escanear imagen
+204	Usar la cámara
+205	Elige una imagen con un código QR o de barras, o escanéalo con la cámara.
+206	código(s) encontrado(s)
+207	Copiar
+208	No se encontró ningún código: prueba con una imagen más nítida y cercana.
+209	La cámara no está disponible o se denegó el permiso.
+210	Crear código de barras
+211	Tipo de código de barras
+212	Valor
+213	Ancho de barra
+214	Altura
+215	Mostrar texto debajo
+216	Valor no válido para este tipo de código de barras.
+217	QR y códigos de barras
+218	URL de sitio web
+219	Texto
+220	Correo
+221	Teléfono
+222	SMS
+223	Wi‑Fi
+224	Contacto vCard
+225	Contacto MeCard
+226	Ubicación
+227	Evento de calendario
+228	Bitcoin
+229	Redes sociales
+230	Automático
+231	De derecha a izquierda (árabe, hebreo…)
+232	Blanco y negro
+233	Color
+234	Crear PDF
+235	Igual que la foto
+236	Aspecto
+237	Haz o elige al menos una foto.
+238	Elegir fotos
+239	Documento escaneado
+240	Hacer foto
+241	PPP (calidad)
+242	Mantener tamaño
+243	Escalar para ajustar
+244	Tamaño de letra
+245	Escala de grises
+246	Arriba / abajo
+247	Izquierda / derecha
+248	Mantener entera la primera página (portada)
+249	Dirección del corte
+250	Importe
+251	Crear factura en PDF
+252	Moneda
+253	Fecha de la factura
+254	Descripción
+255	Descuento
+256	Fecha de vencimiento
+257	Emisor (tus datos)
+258	Facturar a
+259	Conceptos
+260	Un concepto por línea: descripción | cantidad | precio unitario
+261	líneas
+262	Número de factura
+263	Notas
+264	Precio unitario
+265	Cant.
+266	Subtotal
+267	Impuestos
+268	Total
+269	Factura
+270	Horizontal
+271	Idioma del documento
+272	Segundo idioma (opcional)
+273	Cargando el motor OCR
+274	Leyendo el texto
+275	Resultado
+276	Texto sin formato (.txt)
+277	PDF con texto buscable
+278	Orientación
+279	Debajo (fondo)
+280	Repetir en ciclo
+281	Encima (primer plano)
+282	Solo la primera página, en todas las páginas
+283	Se repite la última página
+284	Páginas del segundo PDF
+285	Superponer las páginas una sola vez
+286	Añade dos PDF: primero el documento y después la superposición (membrete, sello…).
+287	Página a página
+288	Número de contraseñas
+289	Descargar lista
+290	Longitud
+291	Elige al menos un tipo de carácter.
+292	Aceptable
+293	Generar otra vez
+294	Evitar caracteres parecidos (I l 1 O 0)
+295	Fuerte
+296	Muy fuerte
+297	Débil
+298	Vertical
+299	Eliminar también adjuntos y scripts
+300	No se encontraron metadatos; el archivo se ha limpiado igualmente.
+301	Eliminado:
+302	caras de hoja
+303	Distinguir mayúsculas
+304	coincidencias
+305	No se encontraron coincidencias.
+306	Buscar
+307	Buscar
+308	Solo palabras completas
+309	Panel de marcadores
+310	Centrar la ventana en la pantalla
+311	Ajustar la ventana a la primera página
+312	Pantalla completa
+313	Ocultar barra de menús
+314	Ocultar barra de herramientas
+315	Diseño de página
+316	Abrir con panel
+317	Ninguno
+318	Página única
+319	Desplazamiento continuo
+320	Mostrar el título del documento en lugar del nombre de archivo
+321	Dos páginas lado a lado
+322	Dos páginas, portada aparte
+323	Dos páginas, continuo
+324	Eliminar JavaScript y acciones automáticas
+325	Eliminar metadatos de título y autor
+326	caracteres
+327	No se encontró texto: parece un escaneo. Usa primero OCR PDF.
+328	Marcar saltos de página
+329	Panel de miniaturas
+330	Más herramientas
+331	Subir
+332	Opciones
+333	Descargar
+334	Seleccionar archivos
+335	o suelta los archivos aquí
+336	100 % gratis
+337	Sin registro
+338	Sin límites
+339	Los archivos no salen de tu dispositivo
+340	Avanzado (opcional)
+341	Añadir más
+342	Empezar de nuevo
+343	Continuar con otra herramienta
+344	Nombre del archivo
+345	ahorrado
+346	Reintentar
+347	Lo sentimos, no ha funcionado.
+348	archivos
+349	páginas
+350	Girar
+351	Recomendada
+352	Buena calidad y menor tamaño. El texto sigue nítido.
+353	Extrema
+354	El archivo más pequeño. Las páginas pasan a ser imágenes (el texto no se puede seleccionar).
+355	Baja
+356	Máxima calidad, menos ahorro. No se pierde nada.
+357	Ya estaba optimizado: se conserva el original.
+358	Personalizado (mm)
+359	Pequeño
+360	Sin margen
+361	Grande
+362	Modo de división
+363	Cada página
+364	Donde haga clic en las tijeras
+365	Seleccionar rangos de páginas
+366	Cada X páginas
+367	Páginas pares / impares
+368	Páginas por archivo
+369	Nombre del archivo
+370	Haz clic en las tijeras entre páginas para dividir ahí.
+371	OCR para páginas escaneadas (gratis)
+372	Automático: solo páginas sin texto
+373	Desactivado
+374	Todas las páginas
+375	Privado por diseño
+376	Tus archivos nunca salen de tu dispositivo
+377	Todo lo que escribes se calcula con JavaScript en esta pestaña. No se envía nada a {brand} ni a nadie más, y no hay cuentas ni cookies de seguimiento vinculadas a lo que introduces.
+378	{tool} funciona por completo en tu navegador con JavaScript y WebAssembly. Tus archivos se leen desde tu disco en esta pestaña, se procesan en memoria y se guardan directamente en tu carpeta de descargas: nunca se suben a {brand} ni a terceros.
+379	Compruébalo tú mismo:
+380	cuando la página haya cargado, desactiva el wifi o los datos móviles y usa la herramienta: sigue funcionando.
+381	Revisa la red:
+382	abre las herramientas para desarrolladores del navegador (F12 → Red) mientras procesas; no verás ninguna petición de subida de archivos.
+383	Nada que borrar:
+384	cierra la pestaña y los datos desaparecen: no hay copia en un servidor, ni periodo de conservación, ni cuenta.
+385	Última actualización:
+386	Redactado y probado por el equipo de {brand}
+387	{tool}: {brand} frente a iLovePDF, Smallpdf, Adobe y Sejda
+388	Datos de la competencia tomados de sus páginas públicas, revisados el 25 de octubre de 2026. El plan web gratuito de Sejda indica 3 tareas por hora y 50 MB por archivo. Las ofertas cambian: consulta sus sitios para ver las condiciones actuales.
+389	Fondo
+390	Transparente (PNG)
+391	Blanco
+392	Color…
+393	Original desenfocado
+394	Bordes
+395	Suaves
+396	Nítidos
+397	Cargando el modelo de IA…
+398	Quitando el fondo…
+399	Enfocar
+400	Medio
+401	Desactivado
+402	Fuerte
+403	Herramientas de IA
+404	Audio y vídeo
+405	Datos y archivos
+406	Conversores y calculadoras
+407	Calidad (tasa de bits)
+408	estándar
+409	alta
+410	máxima
+411	menor tamaño
+412	mínimo tamaño
+413	Canales
+414	Mantener estéreo
+415	Mono (más pequeño)
+416	Frecuencia de muestreo
+417	Mantener
+418	Fin (m:ss)
+419	Fundido de entrada/salida
+420	Leyendo el audio…
+421	Haz clic en la forma de onda para fijar el inicio y vuelve a hacer clic (o Mayús+clic) para fijar el final.
+422	Duración
+423	El final debe ir después del inicio.
+424	No se pudo leer el audio de este archivo.
+425	Tu navegador no admite el procesamiento de vídeo (WebCodecs). Usa una versión reciente de Chrome, Edge o Safari 17 o posterior.
+426	Recortar a
+427	cuadrado
+428	Alta calidad
+429	Recomendada (más pequeño)
+430	Compresión fuerte
+431	Extrema (lo más pequeño)
+432	Resolución
+433	Sonido
+434	Quitar el sonido
+435	Fijar inicio aquí
+436	Fijar final aquí
+437	No se encontró pista de vídeo en este archivo.
+438	Este navegador no puede codificar este vídeo.
+439	Duración (segundos)
+440	Fotogramas por segundo
+441	Repetir
+442	Delimitador CSV
+443	Detectar números y booleanos
+444	JSON: reconstruir objetos anidados a partir de claves.con.puntos
+445	JSON con formato legible
+446	Nombre del ZIP
+447	Compresión
+448	Normal
+449	Máxima (más lenta)
+450	Ninguna (la más rápida)
+451	No es un ZIP válido (no se admiten ZIP cifrados).
+452	El ZIP está vacío.
+453	Categoría
+454	Valor
+455	De
+456	A
+457	Intercambiar
+458	Introduce un valor
+459	Longitud
+460	Peso / masa
+461	Temperatura
+462	Superficie
+463	Volumen
+464	Velocidad
+465	Tiempo
+466	Almacenamiento de datos
+467	Presión
+468	Energía
+469	Números (lakh, crore, millón)
+470	Fecha y hora
+471	En la zona horaria
+472	Convertir a
+473	Ahora
+474	Inicio
+475	¿Por qué usar {brand} para {tool}?
+476	
+477	{brand}
+478	Sitios típicos que suben archivos
+479	Archivos subidos a un servidor
+480	No: se procesan en tu dispositivo
+481	Sí
+482	Registro obligatorio
+483	Nunca
+484	A menudo, para trabajos grandes
+485	Límites de tareas por hora o día
+486	Ninguno
+487	Habituales en los planes gratuitos
+488	Marca de agua en el resultado
+489	Nunca
+490	A veces
+491	Funciona sin conexión tras cargar
+492	Sí, en la mayoría de herramientas
+493	No
+494	Usos habituales
+495	Consejos para obtener los mejores resultados
+496	Acerca de
+497	Privacidad
+498	Condiciones
+499	Contacto
+500	Herramientas populares
+501	Ver todas las herramientas
+502	Lo que escribes se envía a un servidor
+503	No: se queda en tu navegador
+504	A menudo
+505	Herramientas de texto
+506	Herramientas para desarrolladores
+507	Calculadoras
+508	{cat}: gratis y online | {brand}
+509	{cat} gratis: {list} y más. Sin registro, en tu navegador y con los archivos en tu dispositivo.
+510	{n} herramientas gratuitas de {cat} que funcionan en tu navegador: sin subidas, sin cuentas y sin marcas de agua.
+511	Todas las herramientas
+512	Otras categorías
+513	Página no encontrada
+514	Esta página no existe (o se ha movido). Prueba una de las herramientas populares de abajo.
+515	Buscar herramientas…
+516	No se encontraron herramientas
+517	Buscar herramientas
+518	Busca entre todas las herramientas gratuitas de PDF, imagen, vídeo y texto. Todo funciona en tu navegador.
+519	Archivos online gratis: PDF, imágenes y más | {brand}
+520	Herramientas de archivos gratis en tu navegador: une, comprime y convierte PDF, edita imágenes y más, sin registro, límites ni marcas de agua.
+521	Herramientas de archivos gratis que respetan tu privacidad
+522	¿{tool} es realmente gratis?
+523	Sí. Todas las herramientas de {brand} son 100 % gratuitas, sin límites de archivos, sin registro y sin marcas de agua. El sitio se financia con anuncios discretos.
+524	¿Se suben mis archivos a un servidor?
+525	No. {brand} procesa tus archivos directamente en tu navegador con JavaScript. Tus documentos nunca salen de tu dispositivo, así que se mantienen totalmente privados.
+526	¿Funciona en el móvil?
+527	Sí. {brand} funciona en cualquier navegador moderno de Android, iPhone, iPad, Windows, Mac y Linux.

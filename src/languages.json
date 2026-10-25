@@ -27,7 +27,7 @@
   "code": "de",
   "name": "Deutsch",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "it",

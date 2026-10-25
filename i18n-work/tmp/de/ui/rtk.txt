@@ -1,0 +1,417 @@
+0	(deleted)
+1	(no tables found)
+2	(text pt / image % of page width)
+3	10 MB (Discord free)
+4	16 (default)
+5	16 MB (WhatsApp/messengers)
+6	1x (72 DPI)
+7	2 – black & white / Cricut
+8	22 kHz (voice)
+9	25 MB (e-mail attachments)
+10	300 DPI (print)
+11	64 – most detail
+12	: no slides found.
+13	: old binary .ppt files are not supported – open it in PowerPoint, Keynote, Google Slides or LibreOffice and save as .pptx first.
+14	: unsupported image
+15	AES-128 (older readers)
+16	AES-256 (recommended)
+17	Action
+18	Add a bookmark for each file (uses the file name)
+19	Add a number
+20	Add at least one edit first: tap the page to add text or a white-out box.
+21	Add text
+22	Advanced (optional)
+23	After
+24	All pages
+25	Allow comments & form filling
+26	Allow copying text & images
+27	Allow editing
+28	Allow printing
+29	Already optimized — original kept.
+30	Also redact all e-mail addresses
+31	Also redact all phone numbers
+32	Arrow
+33	Attachments
+34	Auto
+35	Auto (landscape for wide sheets)
+36	Auto crop – trim white margins
+37	Auto – only pages without text
+38	Auto-fit columns to page width
+39	Auto-rotate sideways / upside-down pages
+40	Auto: same crop box on every page
+41	Background
+42	Before
+43	Best quality, smaller gains. Nothing is lost.
+44	Black
+45	Black & white (pure, for text scans)
+46	Black & white threshold (0–255)
+47	Blurred original
+48	Bottom centre
+49	Bottom left
+50	Bottom right
+51	Box colour
+52	Box with label
+53	Cancel
+54	Capitalise words
+55	Channels
+56	Choose a background image
+57	Choose an image
+58	Click the page to place. Each click adds another copy – switch pages to sign every page. Use Undo to remove the last one.
+59	Color
+60	Colour
+61	Colour mode
+62	Colour…
+63	Combine into one PDF (bookmark per file)
+64	Compare
+65	Convert numbers (1,234.50 → 1234.5)
+66	Convert to grayscale (images and scanned pages)
+67	Corner colour
+68	Crop larger than page
+69	Crop to
+70	Custom (mm)
+71	Custom settings
+72	Custom size (KB)
+73	Custom…
+74	Data
+75	Delete
+76	Denoise / JPEG cleanup
+77	Detecting text in the image (OCR)…
+78	Do not enlarge smaller images
+79	Download
+80	Drag a box over the area that should be clickable, then enter a web address, e-mail or page number.
+81	Drag on the page to cover something with a white box.
+82	Drag to resize
+83	Edges
+84	Edit existing text
+85	Editable text boxes on page background
+86	Ellipse
+87	Encryption
+88	End must be after start.
+89	Enlarge by
+90	Enter pages
+91	Even / odd pages
+92	Even pages
+93	Every X pages
+94	Every page
+95	Everything on one sheet
+96	Exact layout – looks identical, text in movable boxes
+97	Exclude characters
+98	Extract images – save the photos inside the PDF
+99	Extreme
+100	Extreme (smallest)
+101	Facebook cover 820×312
+102	Facing pages (mirror left/right on even pages)
+103	Failed to load
+104	Fair
+105	File
+106	File name
+107	Fill & crop to exact size
+108	Filter
+109	Find
+110	Fit
+111	Fit inside (no crop)
+112	Flowing text – normal paragraphs, tables & columns
+113	Font
+114	Frame
+115	Frame label
+116	Freehand pen
+117	Good
+118	Good quality, smaller size. Text stays sharp.
+119	Gradient
+120	Gradient end colour
+121	Grayscale (shades of grey)
+122	High
+123	High (144 DPI)
+124	High (larger file)
+125	High quality
+126	Highlight
+127	Highlight & shapes
+128	Image
+129	Image / logo
+130	Image resolution
+131	Image – click to select
+132	Image-only page: OCR found
+133	Images & shapes
+134	Insert a blank page between files
+135	Instagram portrait 1080×1350
+136	Instagram post 1080×1080
+137	Invalid range:
+138	JPEG quality
+139	Keep
+140	Keep exact lines – monospace (code, logs, tables)
+141	Keep the selection
+142	Label below
+143	Landscape
+144	Landscape pages only
+145	Language
+146	Large text
+147	Layout
+148	Less
+149	Letter
+150	Line
+151	Line numbers (monospace layout)
+152	Link
+153	Link to (https://…, mailto:…, or a page number):
+154	LinkedIn banner 1584×396
+155	Loading AI model…
+156	MB limit (browser memory)
+157	MP3 tags (title, artist, album, cover)
+158	Make white background transparent (PNG/WebP)
+159	Manual margins (mm)
+160	Margin (pt)
+161	Mask
+162	Max file size KB (JPG/WebP)
+163	Medium
+164	Metadata
+165	Middle left
+166	Middle right
+167	Mode
+168	Mono (Courier)
+169	Names
+170	Need a strong password? Try the
+171	Next
+172	Next page
+173	No WordDocument stream – not a Word .doc file
+174	No images or vector shapes found on this page.
+175	No matches
+176	No text found, even with OCR. Check the OCR language or scan quality.
+177	No video track found in this file.
+178	None
+179	None of these files could be converted:
+180	Normal
+181	Not a Word 97-2003 .doc file
+182	OCR for scanned pages (free)
+183	OCR found
+184	OCR language
+185	Odd pages
+186	Off
+187	One PDF per file (ZIP)
+188	One sheet per page
+189	One sheet per table
+190	Only these pages (e.g. 3-20)
+191	Orientation
+192	Original (lossless)
+193	Output
+194	Owner password (optional, unlocks permissions)
+195	PDF (all photos in one file)
+196	PIN (digits)
+197	Pad colour
+198	Pad each file to an even page count (for double-sided printing)
+199	Pad to exact size
+200	Padding for auto crop (mm)
+201	Page
+202	Page 1
+203	Page 1 of N
+204	Page images only (exact look)
+205	Page numbers in footer
+206	Page range…
+207	Page to image – every page becomes an image
+208	Pages (e.g. 1,3-5)
+209	Pages to delete
+210	Passphrase (words)
+211	Passport 35×45 mm @300 DPI
+212	Pick a colour for that text
+213	Pick text colour
+214	Plain-text layout
+215	Portrait
+216	Portrait pages only
+217	Preset
+218	Prev
+219	Previous page
+220	Print (200 dpi)
+221	QR code
+222	Quality
+223	Quality (bitrate)
+224	Random password
+225	Range out of bounds:
+226	Recognise text in images on this page
+227	Recommended
+228	Recommended (smaller)
+229	Rectangle
+230	Reflow paragraphs (documents, notes)
+231	Remember my signature on this device
+232	Remove sound
+233	Remove the selection (cut middle out)
+234	Removing background…
+235	Replace with
+236	Replaced
+237	Resolution
+238	Reverse order
+239	Rotate all ↻
+240	Rotate which pages
+241	SVG detail
+242	SVG trace colours
+243	Sans (Helvetica)
+244	Save each selected page as a separate PDF (ZIP)
+245	Save selected pages
+246	Saved
+247	Search text…
+248	Searchable PDF + TXT
+249	Searching page
+250	Select / move
+251	Select an image or shape
+252	Select page ranges
+253	Select pages
+254	Select, move, resize, delete or recolour images, logos and shapes already on the page
+255	Separator
+256	Serif (Times)
+257	Shape
+258	Shape – click to select
+259	Sharpen
+260	Sheets
+261	Shrink to fit
+262	Signature
+263	Skip first pages (no number)
+264	Skip pages that already contain text
+265	Slides
+266	Small
+267	Small file
+268	Small text (fit more columns)
+269	Smaller file (100 DPI)
+270	Smallest file. Pages become images (text not selectable).
+271	Smooth (smaller file)
+272	Sort files by name
+273	Sound
+274	Split here
+275	Split mode
+276	Standard
+277	Story / Reel 1080×1920
+278	Straighten crooked scans (deskew)
+279	Stretch
+280	Strong
+281	Strong compression
+282	Tables only (skip paragraphs)
+283	Tap an image, logo or shape on the page to select it: drag to move, corner ● to resize, or use the bar above to recolour, replace or delete.
+284	Tap an item to select it, drag to move.
+285	Tap any existing text on the page to edit it (scanned pages are read with OCR automatically).
+286	Tap/click anywhere on the page to add text there, then type. Start unlocks after your first edit.
+287	Target file size
+288	Text
+289	Text (.txt)
+290	Text body
+291	That would remove the whole file.
+292	This .doc is encrypted – open it in Word and save without a password first
+293	This browser cannot encode this video.
+294	Title
+295	Top centre
+296	Top left
+297	Top right
+298	Transparent (PNG)
+299	Type
+300	Undo last placement
+301	Upload signature image
+302	Use light text
+303	Very high (216 DPI)
+304	Very strong
+305	Very weak
+306	Volume (%)
+307	Watermark type
+308	Weak
+309	When both sides are set
+310	Where I click the scissors
+311	White
+312	Width (%)
+313	Words
+314	Working…
+315	X header 1500×500
+316	YouTube thumbnail 1280×720
+317	Your own image…
+318	Click the scissors between pages to split there.
+319	Pages per file
+320	Pages (blank = all)
+321	Pages to save (blank = all)
+322	Rounded
+323	Square
+324	Circle
+325	Corner (eye) shape
+326	Something went wrong.
+327	Try again
+328	Continue with another tool
+329	Options
+330	Please fill in
+331	Rotate
+332	Strength:
+333	Permissions & owner password
+334	Check the strength of your own password
+335	Type a password – it never leaves this page
+336	Rough estimate; checked on your device only.
+337	Copy all
+338	Use saved signature
+339	Initials (from typed name)
+340	Image (PNG/JPG)
+341	Off — use quality
+342	Off – use quality setting
+343	Start (m:ss)
+344	Fade in
+345	Fade out
+346	Cover image (JPG/PNG)
+347	Sample rate
+348	Reading audio…
+349	Removed
+350	Max width (px)
+351	Max 16384 px
+352	Full HD 1920×1080
+353	space
+354	none
+355	random digit
+356	Custom text ({n} = number, {N} = total)
+357	Custom text
+358	Pages (blank = all, e.g. 1,3-5)
+359	all
+360	Custom size (MB)
+361	Custom
+362	Mark pages
+363	Mark blank pages
+364	Select range
+365	Insert blank page
+366	Merge all images into one PDF
+367	One PDF per image (ZIP)
+368	Replace image
+369	Replace all
+370	OCR this page
+371	Font size (pt)
+372	Font size
+373	Text color
+374	Line width (pt)
+375	Line width
+376	Click to edit this text
+377	Sheets (blank = all; names or numbers, comma-separated)
+378	Background image
+379	Leave blank to remove print/copy/edit restrictions from PDFs that open without a password.
+380	More options
+381	Delete selected
+382	Clear selection
+383	Duplicate selected
+384	Today’s date
+385	e.g. Approved
+386	e.g. {}[]
+387	SVG (trace)
+388	Strength: 
+389	Same as original (each page keeps its size)
+390	Wrong password. Try again.
+391	This PDF is password-protected. Enter its password to open it.
+392	Open
+393	The password is used only in your browser to decrypt the file.
+394	page(s) already had text
+395	page(s) numbered
+396	page(s) rotated
+397	scanned page(s) read with OCR
+398	text line(s). Tap one to edit, drag ✥ to move.
+399	text line(s). Tap one to edit.
+400	edit(s) added. Drag to move, corner ● to resize. Press Start when done.
+401	occurrence(s). Press Start to save.
+402	form fields flattened
+403	area(s) on
+404	is not supported (skipped).
+405	” not found.
+406	million years
+407	billion years
+408	thousand years
+409	repeated characters
+410	keyboard or number sequence
+411	– where it spills it is hard to read (low contrast)
+412	Failed to load 
+413	Invalid range: 
+414	Range out of bounds: 
+415	password generator
+416	wrong or missing password

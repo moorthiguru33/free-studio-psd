@@ -1,0 +1,417 @@
+(gelöscht)
+(keine Tabellen gefunden)
+(Text in pt / Bild in % der Seitenbreite)
+10 MB (Discord kostenlos)
+16 (Standard)
+16 MB (WhatsApp/Messenger)
+1x (72 DPI)
+2 – Schwarzweiß / Cricut
+22 kHz (Sprache)
+25 MB (E-Mail-Anhänge)
+300 DPI (Druck)
+64 – meiste Details
+: keine Folien gefunden.
+: alte binäre .ppt-Dateien werden nicht unterstützt – öffnen Sie sie in PowerPoint, Keynote, Google Präsentationen oder LibreOffice und speichern Sie sie zuerst als .pptx.
+: nicht unterstütztes Bild
+AES-128 (ältere Reader)
+AES-256 (empfohlen)
+Aktion
+Für jede Datei ein Lesezeichen hinzufügen (mit dem Dateinamen)
+Zahl hinzufügen
+Fügen Sie zuerst mindestens eine Änderung hinzu: Tippen Sie auf die Seite, um Text oder ein weißes Feld hinzuzufügen.
+Text hinzufügen
+Erweitert (optional)
+Nachher
+Alle Seiten
+Kommentare und Ausfüllen von Formularen erlauben
+Kopieren von Text und Bildern erlauben
+Bearbeiten erlauben
+Drucken erlauben
+Bereits optimiert – Original beibehalten.
+Auch alle E-Mail-Adressen schwärzen
+Auch alle Telefonnummern schwärzen
+Pfeil
+Anhänge
+Automatisch
+Automatisch (Querformat für breite Tabellen)
+Automatisch zuschneiden – weiße Ränder entfernen
+Automatisch – nur Seiten ohne Text
+Spalten automatisch an die Seitenbreite anpassen
+Quer liegende / auf dem Kopf stehende Seiten automatisch drehen
+Automatisch: gleicher Zuschnitt auf jeder Seite
+Hintergrund
+Vorher
+Beste Qualität, geringere Ersparnis. Nichts geht verloren.
+Schwarz
+Schwarzweiß (rein, für Textscans)
+Schwarzweiß-Schwellenwert (0–255)
+Unscharfes Original
+Unten Mitte
+Unten links
+Unten rechts
+Feldfarbe
+Feld mit Beschriftung
+Abbrechen
+Wörter großschreiben
+Kanäle
+Hintergrundbild auswählen
+Bild auswählen
+Klicken Sie auf die Seite, um zu platzieren. Jeder Klick fügt eine weitere Kopie hinzu – wechseln Sie die Seite, um jede Seite zu unterschreiben. Mit „Rückgängig“ entfernen Sie die letzte.
+Farbe
+Farbe
+Farbmodus
+Farbe …
+Zu einem PDF kombinieren (Lesezeichen pro Datei)
+Vergleichen
+Zahlen umwandeln (1,234.50 → 1234.5)
+In Graustufen umwandeln (Bilder und gescannte Seiten)
+Eckfarbe
+Zuschnitt größer als die Seite
+Zuschneiden auf
+Benutzerdefiniert (mm)
+Eigene Einstellungen
+Eigene Größe (KB)
+Benutzerdefiniert …
+Daten
+Löschen
+Entrauschen / JPEG-Bereinigung
+Text im Bild wird erkannt (OCR) …
+Kleinere Bilder nicht vergrößern
+Herunterladen
+Ziehen Sie ein Feld über den Bereich, der anklickbar sein soll, und geben Sie dann eine Webadresse, E-Mail oder Seitenzahl ein.
+Ziehen Sie auf der Seite, um etwas mit einem weißen Feld abzudecken.
+Zum Ändern der Größe ziehen
+Kanten
+Vorhandenen Text bearbeiten
+Bearbeitbare Textfelder auf dem Seitenhintergrund
+Ellipse
+Verschlüsselung
+Das Ende muss nach dem Start liegen.
+Vergrößern um
+Seiten eingeben
+Gerade / ungerade Seiten
+Gerade Seiten
+Alle X Seiten
+Jede Seite
+Alles auf einem Blatt
+Exaktes Layout – sieht identisch aus, Text in verschiebbaren Feldern
+Zeichen ausschließen
+Bilder extrahieren – die Fotos im PDF speichern
+Extrem
+Extrem (am kleinsten)
+Facebook-Titelbild 820×312
+Gegenüberliegende Seiten (links/rechts auf geraden Seiten spiegeln)
+Laden fehlgeschlagen
+Mittel
+Datei
+Dateiname
+Füllen und auf exakte Größe zuschneiden
+Filter
+Suchen
+Einpassen
+Einpassen (ohne Zuschnitt)
+Fließtext – normale Absätze, Tabellen und Spalten
+Schrift
+Rahmen
+Rahmenbeschriftung
+Freihandstift
+Gut
+Gute Qualität, kleinere Datei. Text bleibt scharf.
+Verlauf
+Endfarbe des Verlaufs
+Graustufen (Grautöne)
+Hoch
+Hoch (144 DPI)
+Hoch (größere Datei)
+Hohe Qualität
+Hervorheben
+Hervorheben und Formen
+Bild
+Bild / Logo
+Bildauflösung
+Bild – zum Auswählen klicken
+Reine Bildseite: OCR hat gefunden
+Bilder und Formen
+Leere Seite zwischen den Dateien einfügen
+Instagram-Hochformat 1080×1350
+Instagram-Beitrag 1080×1080
+Ungültiger Bereich:
+JPEG-Qualität
+Behalten
+Exakte Zeilen behalten – Festbreitenschrift (Code, Logs, Tabellen)
+Auswahl behalten
+Beschriftung darunter
+Querformat
+Nur Seiten im Querformat
+Sprache
+Großer Text
+Layout
+Weniger
+Letter
+Linie
+Zeilennummern (Festbreiten-Layout)
+Link
+Link zu (https://…, mailto:… oder eine Seitenzahl):
+LinkedIn-Banner 1584×396
+KI-Modell wird geladen …
+MB Limit (Browserspeicher)
+MP3-Tags (Titel, Interpret, Album, Cover)
+Weißen Hintergrund transparent machen (PNG/WebP)
+Manuelle Ränder (mm)
+Rand (pt)
+Maske
+Max. Dateigröße KB (JPG/WebP)
+Mittel
+Metadaten
+Mitte links
+Mitte rechts
+Modus
+Mono (Courier)
+Namen
+Brauchen Sie ein starkes Passwort? Probieren Sie den
+Weiter
+Nächste Seite
+Kein WordDocument-Stream – keine Word-.doc-Datei
+Auf dieser Seite wurden keine Bilder oder Vektorformen gefunden.
+Keine Treffer
+Kein Text gefunden, auch nicht mit OCR. Prüfen Sie die OCR-Sprache oder die Scanqualität.
+In dieser Datei wurde keine Videospur gefunden.
+Keine
+Keine dieser Dateien konnte umgewandelt werden:
+Normal
+Keine Word-97-2003-.doc-Datei
+OCR für gescannte Seiten (kostenlos)
+OCR hat gefunden
+OCR-Sprache
+Ungerade Seiten
+Aus
+Ein PDF pro Datei (ZIP)
+Ein Blatt pro Seite
+Ein Blatt pro Tabelle
+Nur diese Seiten (z. B. 3-20)
+Ausrichtung
+Original (verlustfrei)
+Ausgabe
+Besitzerpasswort (optional, schaltet Berechtigungen frei)
+PDF (alle Fotos in einer Datei)
+PIN (Ziffern)
+Füllfarbe
+Jede Datei auf eine gerade Seitenzahl auffüllen (für beidseitigen Druck)
+Auf exakte Größe auffüllen
+Abstand beim automatischen Zuschnitt (mm)
+Seite
+Seite 1
+Seite 1 von N
+Nur Seitenbilder (exaktes Aussehen)
+Seitenzahlen in der Fußzeile
+Seitenbereich …
+Seite als Bild – jede Seite wird zu einem Bild
+Seiten (z. B. 1,3-5)
+Zu löschende Seiten
+Passphrase (Wörter)
+Passfoto 35×45 mm @300 DPI
+Farbe für diesen Text wählen
+Textfarbe wählen
+Reintext-Layout
+Hochformat
+Nur Seiten im Hochformat
+Voreinstellung
+Zurück
+Vorherige Seite
+Druck (200 dpi)
+QR-Code
+Qualität
+Qualität (Bitrate)
+Zufälliges Passwort
+Bereich außerhalb der Grenzen:
+Text in Bildern auf dieser Seite erkennen
+Empfohlen
+Empfohlen (kleiner)
+Rechteck
+Absätze neu umbrechen (Dokumente, Notizen)
+Meine Unterschrift auf diesem Gerät merken
+Ton entfernen
+Auswahl entfernen (Mitte herausschneiden)
+Hintergrund wird entfernt …
+Ersetzen durch
+Ersetzt
+Auflösung
+Umgekehrte Reihenfolge
+Alle drehen ↻
+Welche Seiten drehen
+SVG-Detailgrad
+SVG-Nachzeichnungsfarben
+Serifenlos (Helvetica)
+Jede ausgewählte Seite als separates PDF speichern (ZIP)
+Ausgewählte Seiten speichern
+Gespeichert
+Text suchen …
+Durchsuchbares PDF + TXT
+Seite wird durchsucht
+Auswählen / verschieben
+Bild oder Form auswählen
+Seitenbereiche wählen
+Seiten auswählen
+Bilder, Logos und Formen auf der Seite auswählen, verschieben, skalieren, löschen oder umfärben
+Trennzeichen
+Serif (Times)
+Form
+Form – zum Auswählen klicken
+Schärfen
+Tabellenblätter
+Verkleinern zum Einpassen
+Unterschrift
+Erste Seiten überspringen (ohne Nummer)
+Seiten überspringen, die bereits Text enthalten
+Folien
+Klein
+Kleine Datei
+Kleiner Text (mehr Spalten)
+Kleinere Datei (100 DPI)
+Kleinste Datei. Seiten werden zu Bildern (Text nicht auswählbar).
+Glatt (kleinere Datei)
+Dateien nach Namen sortieren
+Ton
+Hier teilen
+Teilungsmodus
+Standard
+Story / Reel 1080×1920
+Schiefe Scans begradigen
+Strecken
+Stark
+Starke Kompression
+Nur Tabellen (Absätze überspringen)
+Tippen Sie auf ein Bild, Logo oder eine Form auf der Seite, um es auszuwählen: ziehen zum Verschieben, Ecke ● zum Skalieren, oder nutzen Sie die Leiste oben zum Umfärben, Ersetzen oder Löschen.
+Tippen Sie auf ein Element, um es auszuwählen, ziehen Sie zum Verschieben.
+Tippen Sie auf vorhandenen Text auf der Seite, um ihn zu bearbeiten (gescannte Seiten werden automatisch per OCR gelesen).
+Tippen/klicken Sie auf eine beliebige Stelle der Seite, um dort Text hinzuzufügen, und tippen Sie los. „Starten“ wird nach Ihrer ersten Änderung aktiv.
+Zieldateigröße
+Text
+Text (.txt)
+Textkörper
+Damit würde die gesamte Datei entfernt.
+Diese .doc ist verschlüsselt – öffnen Sie sie in Word und speichern Sie sie zuerst ohne Passwort
+Dieser Browser kann dieses Video nicht codieren.
+Titel
+Oben Mitte
+Oben links
+Oben rechts
+Transparent (PNG)
+Typ
+Letzte Platzierung rückgängig
+Unterschriftsbild hochladen
+Hellen Text verwenden
+Sehr hoch (216 DPI)
+Sehr stark
+Sehr schwach
+Lautstärke (%)
+Art des Wasserzeichens
+Schwach
+Wenn beide Seiten festgelegt sind
+Wo ich auf die Schere klicke
+Weiß
+Breite (%)
+Wörter
+Wird bearbeitet …
+X-Header 1500×500
+YouTube-Thumbnail 1280×720
+Eigenes Bild …
+Klicken Sie auf die Schere zwischen Seiten, um dort zu teilen.
+Seiten pro Datei
+Seiten (leer = alle)
+Zu speichernde Seiten (leer = alle)
+Abgerundet
+Quadratisch
+Kreis
+Form der Ecken (Augen)
+Etwas ist schiefgelaufen.
+Erneut versuchen
+Mit einem anderen Tool weitermachen
+Optionen
+Bitte ausfüllen
+Drehen
+Stärke:
+Berechtigungen und Besitzerpasswort
+Prüfen Sie die Stärke Ihres eigenen Passworts
+Geben Sie ein Passwort ein – es verlässt diese Seite nie
+Grobe Schätzung; nur auf Ihrem Gerät geprüft.
+Alles kopieren
+Gespeicherte Unterschrift verwenden
+Initialen (aus dem eingegebenen Namen)
+Bild (PNG/JPG)
+Aus – Qualität verwenden
+Aus – Qualitätseinstellung verwenden
+Start (m:ss)
+Einblenden
+Ausblenden
+Coverbild (JPG/PNG)
+Abtastrate
+Audio wird gelesen …
+Entfernt
+Max. Breite (px)
+Max. 16384 px
+Full HD 1920×1080
+Leerzeichen
+keine
+zufällige Ziffer
+Eigener Text ({n} = Nummer, {N} = gesamt)
+Eigener Text
+Seiten (leer = alle, z. B. 1,3-5)
+alle
+Eigene Größe (MB)
+Benutzerdefiniert
+Seiten markieren
+Leere Seiten markieren
+Bereich auswählen
+Leere Seite einfügen
+Alle Bilder zu einem PDF zusammenfügen
+Ein PDF pro Bild (ZIP)
+Bild ersetzen
+Alle ersetzen
+OCR für diese Seite
+Schriftgröße (pt)
+Schriftgröße
+Textfarbe
+Linienstärke (pt)
+Linienstärke
+Klicken, um diesen Text zu bearbeiten
+Tabellenblätter (leer = alle; Namen oder Nummern, durch Kommas getrennt)
+Hintergrundbild
+Leer lassen, um Druck-/Kopier-/Bearbeitungssperren bei PDFs zu entfernen, die sich ohne Passwort öffnen.
+Weitere Optionen
+Auswahl löschen
+Auswahl aufheben
+Auswahl duplizieren
+Heutiges Datum
+z. B. Genehmigt
+z. B. {}[]
+SVG (Nachzeichnen)
+Stärke: 
+Wie das Original (jede Seite behält ihre Größe)
+Falsches Passwort. Bitte erneut versuchen.
+Dieses PDF ist passwortgeschützt. Geben Sie das Passwort ein, um es zu öffnen.
+Öffnen
+Das Passwort wird nur in Ihrem Browser zum Entschlüsseln der Datei verwendet.
+Seite(n) hatten bereits Text
+Seite(n) nummeriert
+Seite(n) gedreht
+gescannte Seite(n) per OCR gelesen
+Textzeile(n). Tippen Sie auf eine, um sie zu bearbeiten; ziehen Sie ✥ zum Verschieben.
+Textzeile(n). Tippen Sie auf eine, um sie zu bearbeiten.
+Änderung(en) hinzugefügt. Ziehen zum Verschieben, Ecke ● zum Skalieren. Klicken Sie danach auf „Starten“.
+Vorkommen. Klicken Sie auf „Starten“, um zu speichern.
+Formularfelder reduziert
+Bereich(e) auf
+wird nicht unterstützt (übersprungen).
+“ nicht gefunden.
+Millionen Jahre
+Milliarden Jahre
+tausend Jahre
+wiederholte Zeichen
+Tastatur- oder Zahlenfolge
+– wo er überläuft, ist er schwer lesbar (geringer Kontrast)
+Laden fehlgeschlagen 
+Ungültiger Bereich: 
+Bereich außerhalb der Grenzen: 
+Passwortgenerator
+falsches oder fehlendes Passwort
