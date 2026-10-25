@@ -1,0 +1,5 @@
+const {chromium}=require('playwright-core');const B=process.env.BASE||'https://fileopia.com';
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});
+for(const ext of (process.argv[2]||'flac,ogg,m4a,aac,opus,wma').split(',')){for(const to of ['mp3','wav']){const p=await ctx.newPage();try{await p.goto(`${B}/${process.argv[3]||'audio-converter'}/`);await p.setInputFiles('#tool input[type=file]','/tmp/aud/s.'+ext);await p.waitForSelector('#go');await p.selectOption('#aofmt',to);await p.click('#go');
+ await p.waitForSelector('#dl,.err,[role=alert]',{timeout:60000});const ok=await p.$('#dl');if(!ok){console.log(ext,to,'FAIL',(await p.innerText('#tool')).slice(0,120).replace(/\n/g,' '));}else{const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const fp='/tmp/aud/out-'+ext+'.'+to;await dl.saveAs(fp);const d=require('child_process').execSync(`ffprobe -v error -show_entries format=duration,format_name -of csv=p=0 ${fp}`).toString().trim();console.log(ext,to,'OK',d);}}catch(e){console.log(ext,to,'ERR',e.message.slice(0,100))}await p.close();}}
+await b.close()})();

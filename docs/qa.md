@@ -118,3 +118,10 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 - Form XObject shapes: design.pdf rects inside /Fm1 recoloured, moved and deleted correctly (form stream rewritten in place).
 - Test: `test/edit-objects2.js`.
 - Remaining: clips shared by several elements are not moved; edits inside a Form XObject reused on several pages affect all of them.
+
+## 2026-10-25 – New tool batches
+| Tool | Test | Result |
+|---|---|---|
+| Compress PDF to KB/MB (+100KB/200KB/300KB/500KB/1MB/2MB presets) | 2.83 MB 3-page scan (test/pdfkb.js), local + live | 100KB→37 KB, 500KB→255 KB, 1MB→682 KB, 200KB no-raster→114 KB; all 3 pages intact |
+| FLAC/OGG/M4A/AAC/OPUS → MP3/WAV (10 pages, impl audioconv) | 4 s stereo samples made with ffmpeg (test/aud.js), ffprobe on output | all 10 OK in Chrome |
+| WMA → MP3/WAV | – | Skipped: no browser decodes WMA; only ffmpeg.wasm could, and the stock @ffmpeg/core build bundles GPL codecs |
