@@ -1,0 +1,110 @@
+ui.cat_text: Text tools
+ui.cat_dev: Developer tools
+ui.cat_calc: Calculators
+@wordcount
+name: Word Counter
+short: Count words, characters, sentences and reading time.
+title: Word Counter – Free Online Word & Character Count Tool | {brand}
+desc: Count words, characters, sentences, paragraphs and reading time instantly. Free online word counter with keyword density – your text never leaves your browser.
+h1: Word Counter
+steps: Type or paste your text into the box. | Counts update instantly as you type. | Copy the numbers or download a summary.
+faq: How are words counted?=Any run of letters or numbers counts as a word, including hyphenated words and contractions such as “don't”. Chinese, Japanese and Korean characters are counted one character per word, the usual convention for those languages. || Is my text stored or uploaded?=No. Counting runs in your browser with JavaScript, so drafts, essays and confidential documents stay on your device.
+intro: Whether you are writing an essay with a 1,500-word limit, a cover letter that must fit on one page or a blog post aimed at a particular length, an accurate word count saves time. This counter shows words, characters, sentences, paragraphs, average word and sentence length, reading time and speaking time as you type, and lists the keywords you use most.
+uses: Check essays, assignments and personal statements against word limits. | Estimate how long a speech, podcast script or presentation will take to deliver. | Keep blog posts, product descriptions and newsletters at a target length. | Spot overused words with the keyword density list before you publish.
+tips: Paste plain text for the most accurate count; formatting from word processors is ignored anyway. | Adjust reading speed for your audience – technical readers are slower than casual readers. | Use the average sentence length to judge readability; 15–20 words is comfortable for most readers. | Check keyword density to avoid stuffing the same phrase into SEO copy.
+## Reading and speaking time explained
+Reading time uses an average silent reading speed of about 238 words per minute, the figure found in a large 2019 review of reading studies for adult readers of English non-fiction. Speaking time uses about 140 words per minute, a typical pace for presentations and podcasts. Both speeds can be changed in the options, so you can match a slower conference talk, a fast-paced video script or readers working in a second language.
+## Word limits around the world
+Academic systems treat limits differently. UK universities often allow 10% over or under the stated count, many US college application essays have hard caps (the Common App personal statement allows 650 words), and journals in Europe and Asia usually count abstracts separately. Footnotes, references and headings may or may not be included, so always check the guidance you were given. Paste only the parts that count to see exactly where you stand.
+## Keyword density for writers and SEO
+The keyword list ignores common short words such as “the” and “and” and shows how often each meaningful word appears as a percentage of the total. Search engines reward natural writing, so if one keyword makes up more than 2–3% of a short article, try synonyms or rephrasing. The list is also useful for editors who want to catch repetition.
+@charcount
+name: Character Counter
+short: Count characters and check X, SMS and SEO limits.
+title: Character Counter – Count Characters & Check Limits Online | {brand}
+desc: Free character counter with live limits for X (Twitter), SMS, Instagram, LinkedIn and Google title and meta descriptions. Counts emoji correctly; works offline in your browser.
+h1: Character Counter
+steps: Type or paste your text. | See characters with and without spaces, bytes and SMS segments. | Check each platform limit bar before you post.
+faq: Do emoji count as one character?=Here yes – the counter uses grapheme clusters, so a family emoji or a flag counts as one visible character. Some platforms count emoji as two, so leave a little margin on tight limits. || Why does my SMS need several messages?=A standard SMS holds 160 GSM-7 characters. One accented or non-Latin character outside that alphabet switches the whole message to Unicode, which holds only 70 characters per segment.
+intro: Many places that accept text have strict length limits: posts on X, SMS messages, app store descriptions, Google titles and meta descriptions, form fields and ad copy. This character counter shows the exact count as you type, with and without spaces and line breaks, plus UTF-8 byte size and the number of SMS segments, so you can fit your message first time.
+uses: Write X (Twitter) posts and Mastodon toots that fit without being cut off. | Keep page titles under about 60 characters and meta descriptions under about 160 for search results. | Plan SMS campaigns and know exactly how many segments each message will use. | Check database field limits, usernames and form inputs measured in bytes.
+tips: Put the most important words first; search engines and feeds truncate long text from the end. | Avoid curly quotes and special dashes in SMS if you want to stay within GSM-7. | Count bytes rather than characters for databases or APIs with byte limits. | Turn off counting spaces when a limit is defined “excluding spaces”, as some academic forms are.
+## Characters, bytes and graphemes
+Computers can count text in different ways. A grapheme is what a reader sees as one character, such as “é” or “👍🏽”. Under the hood that may be several code points, and in UTF-8 each code point takes one to four bytes. Latin letters use one byte, most European accented letters two, and Chinese, Japanese, Hindi or Arabic characters usually three. This is why a 255-byte database field may hold far fewer than 255 characters of non-English text.
+## Platform limits at a glance
+The limit bars cover common targets: 280 characters for a standard X post, 2,200 for an Instagram caption, 3,000 for a LinkedIn post, 100 for a YouTube title and 125 characters before Facebook shows “See more”. Google does not use a fixed character limit for titles and snippets; it truncates by pixel width, so 50–60 and 150–160 characters are safe guides rather than rules.
+@caseconv
+name: Case Converter
+short: UPPERCASE, lowercase, Title Case, camelCase and more.
+title: Case Converter – Change Text to Upper, Lower, Title Case | {brand}
+desc: Convert text to UPPERCASE, lowercase, Title Case, Sentence case, camelCase, snake_case, kebab-case and more. Free, instant and private – runs in your browser.
+h1: Case Converter
+steps: Paste your text. | Choose the case you want. | Copy the result or download it as a text file.
+faq: Which title case style is used?=A headline style close to AP and Chicago: major words are capitalised, while short articles, conjunctions and prepositions (a, an, the, and, of, in, on…) stay lowercase unless they start the title. || Does it work with accented letters?=Yes. Upper- and lowercase conversion follows Unicode rules, so letters such as é, ß, ñ, ç and Greek or Cyrillic characters convert correctly.
+intro: Accidentally typed a paragraph with Caps Lock on? Need headline-style capitalisation for a blog title, or variable names in camelCase for code? This case converter changes text between twelve styles instantly, keeping line breaks and punctuation, so you never have to retype anything.
+uses: Fix text typed in ALL CAPS or with Caps Lock accidentally on. | Format headlines, book titles and email subject lines in Title Case. | Create variable, function and file names in camelCase, snake_case, kebab-case or CONSTANT_CASE. | Clean up spreadsheet columns of names or product titles with inconsistent capitalisation.
+tips: Sentence case is usually easier to read than Title Case for long headings and buttons. | Check proper nouns after converting to lowercase or sentence case – names and brands need capitals. | For code, convert one identifier per line; each line is converted separately. | Use kebab-case for URLs and CSS classes and snake_case for Python and database columns.
+## Case styles for writers
+Style guides differ: American publications often use Title Case for headlines, while many British and European newspapers and most UX writing guides prefer Sentence case. Whatever you choose, apply it consistently across headings, navigation and buttons. Title Case here keeps small words like “of” and “the” lowercase in the middle of a title, which matches the most common English headline rules.
+## Case styles for developers
+Programming communities have strong conventions: camelCase for JavaScript and Java variables, PascalCase for classes and React components, snake_case for Python, Ruby and SQL, CONSTANT_CASE for constants and environment variables, and kebab-case for URLs, CSS and command-line flags. The converter splits words at spaces, punctuation and existing case changes, so “userProfileID”, “user_profile_id” and “User Profile ID” all convert cleanly.
+@textdiff
+name: Text Diff Checker
+short: Compare two texts and highlight the differences.
+title: Text Diff Checker – Compare Two Texts Online Free | {brand}
+desc: Compare two versions of text side by side and see added, removed and changed lines with word-level highlighting. Free diff checker that runs in your browser – nothing is uploaded.
+h1: Text Diff Checker
+steps: Paste the original text on the left. | Paste the changed text on the right. | Review highlighted differences and download a diff file.
+faq: Can I compare code?=Yes. The checker works line by line like developer diff tools and keeps indentation, so it is suitable for source code, configuration files, CSV data and logs. || How do I ignore formatting changes?=Tick “Ignore whitespace differences” to treat extra spaces and tabs as equal, and “Ignore upper/lower case” to ignore capitalisation changes.
+intro: Spotting what changed between two versions of a document by eye is slow and error-prone. Paste both versions here and the diff checker shows removed lines in red, added lines in green and changed lines in yellow with the exact words highlighted. It is useful for contracts, essays, translations, code and any text that has been edited by someone else.
+uses: See what a colleague or client changed in a contract, policy or proposal. | Compare two drafts of an essay, article or translation. | Check configuration files, code snippets or SQL before deploying. | Compare lists of names, emails or product codes exported at different times.
+tips: Turn off “Show unchanged lines” to see only the differences in long texts. | For PDFs, extract the text first with PDF to Text or use Compare PDF for a visual report. | Sort both lists first with Remove Duplicate Lines if the order does not matter. | Download the diff to keep a record of what changed and when.
+## How the comparison works
+The tool uses a longest-common-subsequence algorithm, the same family of methods behind Git and the Unix diff command. It first finds the lines the two texts share, then marks everything else as added or removed. When a removed line is directly followed by an added one, it treats them as a changed line and runs a second, word-level comparison so you can see the exact edit – a changed date, a new clause, or a corrected spelling.
+## Privacy for sensitive comparisons
+Many online diff tools send both texts to a server. Here the comparison runs entirely in your browser, which matters for legal drafts, HR documents, unreleased code and personal data covered by regulations such as GDPR. You can even disconnect from the internet after the page loads and the tool will keep working.
+@lorem
+name: Lorem Ipsum Generator
+short: Placeholder text in paragraphs, sentences or words.
+title: Lorem Ipsum Generator – Free Placeholder Text | {brand}
+desc: Generate lorem ipsum placeholder text by paragraphs, sentences, words or list items, with optional HTML tags. Free dummy text generator for designers and developers.
+h1: Lorem Ipsum Generator
+steps: Choose how many paragraphs, sentences, words or list items. | Optionally wrap the text in HTML tags. | Copy the text or download it.
+faq: Where does lorem ipsum come from?=It is scrambled Latin derived from Cicero's “De finibus bonorum et malorum” (45 BC), used by typesetters since at least the 1500s and popularised in desktop publishing in the 1980s. || Why do designers use it instead of real text?=Meaningless text lets reviewers judge layout, typography and spacing without being distracted by the content.
+intro: Designers, developers and publishers need realistic-looking filler text to see how a layout will look before the real copy is ready. This generator creates as much lorem ipsum as you need – paragraphs for articles, sentences for cards, a few words for buttons or list items for menus – and can wrap it in HTML ready to paste into a prototype.
+uses: Fill website and app mock-ups in Figma, Sketch or HTML prototypes. | Test how templates handle long and short content before launch. | Create sample content for print layouts, brochures and magazine pages. | Populate databases and CMS staging sites with dummy entries.
+tips: Use the seed value to get different but repeatable text for each section of a mock-up. | Test with both short and very long content to catch overflow bugs. | Replace placeholder text with real copy as early as possible – real words often change the design. | Remember to search for “lorem” before publishing so no filler text goes live.
+## Choosing the right amount
+A typical blog paragraph is 3–5 sentences, a product card description 1–2 sentences, and a hero heading 4–8 words. Generating the amount you actually expect helps you design for reality. If your audience reads German, Finnish or other languages with long words, also test with real translated text, because lorem ipsum's word lengths are closer to English and Latin.
+## HTML output for developers
+With “Wrap in HTML tags” ticked, paragraphs come wrapped in p elements and list items in a ul list, ready to paste into a component, email template or static page. Combine it with the HTML minifier if you need a compact single-line string for tests or fixtures.
+@dedupe
+name: Remove Duplicate Lines
+short: Delete repeated lines, trim and sort lists.
+title: Remove Duplicate Lines – Free Online Dedupe & Sort Tool | {brand}
+desc: Remove duplicate lines from any list instantly. Ignore case, trim spaces, remove empty lines and sort A–Z or numerically. Free and private – runs in your browser.
+h1: Remove Duplicate Lines
+steps: Paste your list, one item per line. | Choose options such as ignore case and sorting. | Copy the cleaned list or download it.
+faq: Is the original order kept?=Yes, by default the first occurrence of each line stays where it was. Choose a sort option if you want the result alphabetised or ordered numerically. || Can I find which lines were duplicated?=Yes. Set “Show” to “Only lines that were duplicated” to list the repeated values, or “Only lines that appear once” to find unique entries.
+intro: Lists copied from spreadsheets, emails, logs or exports often contain repeated entries. This tool removes duplicate lines in one click, with options to ignore capitalisation, trim stray spaces, drop blank lines and sort the result. It handles tens of thousands of lines instantly in your browser.
+uses: Clean email lists and contact exports before importing them into a newsletter or CRM. | Remove repeated keywords, hashtags or URLs collected from several sources. | Deduplicate product codes, order numbers or IDs from spreadsheet columns. | Tidy log files and find which error messages repeat.
+tips: Turn on “Ignore upper/lower case” for emails and domains, which are not case sensitive. | Keep “Trim spaces” on – invisible trailing spaces are the most common reason duplicates are missed. | Use numeric sorting for numbers so 10 comes after 9, not after 1. | To compare two lists, use the Text Diff Checker after cleaning both.
+## Why duplicates sneak in
+Copying the same column twice, merging exports from different systems and differences in spacing or capitalisation all create near-duplicates. For example “Anna@Example.com ” and “anna@example.com” look different to a computer but are the same address. Trimming and case-insensitive comparison solve most of these cases.
+## Working with spreadsheets
+To clean a column from Excel, Google Sheets or Numbers, copy the column, paste it here, remove duplicates and paste the result back. Each line becomes one cell. For multi-column data, consider the CSV tools so whole rows stay together.
+@handwriting
+name: Text to Handwriting
+short: Turn typed text into realistic handwriting on paper.
+title: Text to Handwriting Converter – Free, Realistic | {brand}
+desc: Convert typed text into realistic handwriting on lined, plain or grid paper. Choose pen colour and style, then download a PNG or multi-page PDF. Free and runs in your browser.
+h1: Text to Handwriting Converter
+steps: Type or paste your text. | Pick a handwriting style, ink colour and paper. | Download as a PDF or PNG.
+faq: Are the fonts free to use?=Yes. All six handwriting styles are open-source fonts (SIL Open Font License or Apache 2.0) that may be used in personal and commercial projects. || Can I print the result?=Yes. Pages are sized for A4 or US Letter, so the PDF prints at the right size on standard paper.
+intro: Typed text can feel impersonal. This converter turns it into natural-looking handwriting on ruled notebook paper, plain sheets, squared paper or a yellow legal pad. Small random variations in position, angle and ink density make it look less like a font and more like a pen.
+uses: Create handwritten-style notes, letters and greeting cards. | Make worksheets and classroom materials that feel friendly. | Design invitations, journal pages and scrapbook elements. | Add a personal touch to social media posts and presentations.
+tips: Use blue or black ink on lined paper for the most realistic look. | Increase line spacing for Homemade Apple and Great Vibes, which have tall letters. | Set variation to 1–2 for neat handwriting or 4–5 for a quick-note feel. | Use the PDF option for long texts; it adds pages automatically.
+## Choosing a handwriting style
+Caveat and Kalam look like everyday print handwriting and are very readable. Indie Flower is rounder and playful, good for school and kids' materials. Dancing Script and Great Vibes are cursive and suit invitations and cards, while Homemade Apple looks like quick joined-up writing. The fonts cover Latin letters used by English and most Western European languages.
+## Use it honestly
+The tool is meant for creative, personal and educational projects. Submitting generated pages as handwritten work where real handwriting is required, such as exams or assignments that ask for it, may break your school's rules. Your text is rendered entirely in your browser and is never uploaded.

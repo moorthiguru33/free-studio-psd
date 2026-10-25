@@ -35,6 +35,7 @@
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^3.11.174",
     "qrcode-generator": "^2.0.4",
+    "terser": "^5.51.2",
     "tesseract.js": "^7.0.0",
     "tesseract.js-core": "^7.0.0",
     "upng-js": "^2.1.0",

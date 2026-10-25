@@ -1,0 +1,1021 @@
+{
+"tools": {
+"wordcount": {
+"guide": {
+"more": [
+[
+"Reading and speaking time explained",
+"Reading time uses an average silent reading speed of about 238 words per minute, the figure found in a large 2019 review of reading studies for adult readers of English non-fiction. Speaking time uses about 140 words per minute, a typical pace for presentations and podcasts. Both speeds can be changed in the options, so you can match a slower conference talk, a fast-paced video script or readers working in a second language."
+],
+[
+"Word limits around the world",
+"Academic systems treat limits differently. UK universities often allow 10% over or under the stated count, many US college application essays have hard caps (the Common App personal statement allows 650 words), and journals in Europe and Asia usually count abstracts separately. Footnotes, references and headings may or may not be included, so always check the guidance you were given. Paste only the parts that count to see exactly where you stand."
+],
+[
+"Keyword density for writers and SEO",
+"The keyword list ignores common short words such as “the” and “and” and shows how often each meaningful word appears as a percentage of the total. Search engines reward natural writing, so if one keyword makes up more than 2–3% of a short article, try synonyms or rephrasing. The list is also useful for editors who want to catch repetition."
+]
+],
+"intro": "Whether you are writing an essay with a 1,500-word limit, a cover letter that must fit on one page or a blog post aimed at a particular length, an accurate word count saves time. This counter shows words, characters, sentences, paragraphs, average word and sentence length, reading time and speaking time as you type, and lists the keywords you use most.",
+"uses": [
+"Check essays, assignments and personal statements against word limits.",
+"Estimate how long a speech, podcast script or presentation will take to deliver.",
+"Keep blog posts, product descriptions and newsletters at a target length.",
+"Spot overused words with the keyword density list before you publish."
+],
+"tips": [
+"Paste plain text for the most accurate count; formatting from word processors is ignored anyway.",
+"Adjust reading speed for your audience – technical readers are slower than casual readers.",
+"Use the average sentence length to judge readability; 15–20 words is comfortable for most readers.",
+"Check keyword density to avoid stuffing the same phrase into SEO copy."
+],
+"faq": []
+},
+"name": "Word Counter",
+"short": "Count words, characters, sentences and reading time.",
+"title": "Word Counter – Free Online Word & Character Count Tool | {brand}",
+"desc": "Count words, characters, sentences, paragraphs and reading time instantly. Free online word counter with keyword density – your text never leaves your browser.",
+"h1": "Word Counter",
+"steps": [
+"Type or paste your text into the box.",
+"Counts update instantly as you type.",
+"Copy the numbers or download a summary."
+],
+"faq": [
+{
+"q": "How are words counted",
+"a": "Any run of letters or numbers counts as a word, including hyphenated words and contractions such as “don't”. Chinese, Japanese and Korean characters are counted one character per word, the usual convention for those languages."
+},
+{
+"q": "Is my text stored or uploaded",
+"a": "No. Counting runs in your browser with JavaScript, so drafts, essays and confidential documents stay on your device."
+}
+]
+},
+"charcount": {
+"guide": {
+"more": [
+[
+"Characters, bytes and graphemes",
+"Computers can count text in different ways. A grapheme is what a reader sees as one character, such as “é” or “👍🏽”. Under the hood that may be several code points, and in UTF-8 each code point takes one to four bytes. Latin letters use one byte, most European accented letters two, and Chinese, Japanese, Hindi or Arabic characters usually three. This is why a 255-byte database field may hold far fewer than 255 characters of non-English text."
+],
+[
+"Platform limits at a glance",
+"The limit bars cover common targets: 280 characters for a standard X post, 2,200 for an Instagram caption, 3,000 for a LinkedIn post, 100 for a YouTube title and 125 characters before Facebook shows “See more”. Google does not use a fixed character limit for titles and snippets; it truncates by pixel width, so 50–60 and 150–160 characters are safe guides rather than rules."
+]
+],
+"intro": "Many places that accept text have strict length limits: posts on X, SMS messages, app store descriptions, Google titles and meta descriptions, form fields and ad copy. This character counter shows the exact count as you type, with and without spaces and line breaks, plus UTF-8 byte size and the number of SMS segments, so you can fit your message first time.",
+"uses": [
+"Write X (Twitter) posts and Mastodon toots that fit without being cut off.",
+"Keep page titles under about 60 characters and meta descriptions under about 160 for search results.",
+"Plan SMS campaigns and know exactly how many segments each message will use.",
+"Check database field limits, usernames and form inputs measured in bytes."
+],
+"tips": [
+"Put the most important words first; search engines and feeds truncate long text from the end.",
+"Avoid curly quotes and special dashes in SMS if you want to stay within GSM-7.",
+"Count bytes rather than characters for databases or APIs with byte limits.",
+"Turn off counting spaces when a limit is defined “excluding spaces”, as some academic forms are."
+],
+"faq": []
+},
+"name": "Character Counter",
+"short": "Count characters and check X, SMS and SEO limits.",
+"title": "Character Counter – Count Characters & Check Limits Online | {brand}",
+"desc": "Free character counter with live limits for X (Twitter), SMS, Instagram, LinkedIn and Google title and meta descriptions. Counts emoji correctly; works offline in your browser.",
+"h1": "Character Counter",
+"steps": [
+"Type or paste your text.",
+"See characters with and without spaces, bytes and SMS segments.",
+"Check each platform limit bar before you post."
+],
+"faq": [
+{
+"q": "Do emoji count as one character",
+"a": "Here yes – the counter uses grapheme clusters, so a family emoji or a flag counts as one visible character. Some platforms count emoji as two, so leave a little margin on tight limits."
+},
+{
+"q": "Why does my SMS need several messages",
+"a": "A standard SMS holds 160 GSM-7 characters. One accented or non-Latin character outside that alphabet switches the whole message to Unicode, which holds only 70 characters per segment."
+}
+]
+},
+"caseconv": {
+"guide": {
+"more": [
+[
+"Case styles for writers",
+"Style guides differ: American publications often use Title Case for headlines, while many British and European newspapers and most UX writing guides prefer Sentence case. Whatever you choose, apply it consistently across headings, navigation and buttons. Title Case here keeps small words like “of” and “the” lowercase in the middle of a title, which matches the most common English headline rules."
+],
+[
+"Case styles for developers",
+"Programming communities have strong conventions: camelCase for JavaScript and Java variables, PascalCase for classes and React components, snake_case for Python, Ruby and SQL, CONSTANT_CASE for constants and environment variables, and kebab-case for URLs, CSS and command-line flags. The converter splits words at spaces, punctuation and existing case changes, so “userProfileID”, “user_profile_id” and “User Profile ID” all convert cleanly."
+]
+],
+"intro": "Accidentally typed a paragraph with Caps Lock on? Need headline-style capitalisation for a blog title, or variable names in camelCase for code? This case converter changes text between twelve styles instantly, keeping line breaks and punctuation, so you never have to retype anything.",
+"uses": [
+"Fix text typed in ALL CAPS or with Caps Lock accidentally on.",
+"Format headlines, book titles and email subject lines in Title Case.",
+"Create variable, function and file names in camelCase, snake_case, kebab-case or CONSTANT_CASE.",
+"Clean up spreadsheet columns of names or product titles with inconsistent capitalisation."
+],
+"tips": [
+"Sentence case is usually easier to read than Title Case for long headings and buttons.",
+"Check proper nouns after converting to lowercase or sentence case – names and brands need capitals.",
+"For code, convert one identifier per line; each line is converted separately.",
+"Use kebab-case for URLs and CSS classes and snake_case for Python and database columns."
+],
+"faq": []
+},
+"name": "Case Converter",
+"short": "UPPERCASE, lowercase, Title Case, camelCase and more.",
+"title": "Case Converter – Change Text to Upper, Lower, Title Case | {brand}",
+"desc": "Convert text to UPPERCASE, lowercase, Title Case, Sentence case, camelCase, snake_case, kebab-case and more. Free, instant and private – runs in your browser.",
+"h1": "Case Converter",
+"steps": [
+"Paste your text.",
+"Choose the case you want.",
+"Copy the result or download it as a text file."
+],
+"faq": [
+{
+"q": "Which title case style is used",
+"a": "A headline style close to AP and Chicago: major words are capitalised, while short articles, conjunctions and prepositions (a, an, the, and, of, in, on…) stay lowercase unless they start the title."
+},
+{
+"q": "Does it work with accented letters",
+"a": "Yes. Upper- and lowercase conversion follows Unicode rules, so letters such as é, ß, ñ, ç and Greek or Cyrillic characters convert correctly."
+}
+]
+},
+"textdiff": {
+"guide": {
+"more": [
+[
+"How the comparison works",
+"The tool uses a longest-common-subsequence algorithm, the same family of methods behind Git and the Unix diff command. It first finds the lines the two texts share, then marks everything else as added or removed. When a removed line is directly followed by an added one, it treats them as a changed line and runs a second, word-level comparison so you can see the exact edit – a changed date, a new clause, or a corrected spelling."
+],
+[
+"Privacy for sensitive comparisons",
+"Many online diff tools send both texts to a server. Here the comparison runs entirely in your browser, which matters for legal drafts, HR documents, unreleased code and personal data covered by regulations such as GDPR. You can even disconnect from the internet after the page loads and the tool will keep working."
+]
+],
+"intro": "Spotting what changed between two versions of a document by eye is slow and error-prone. Paste both versions here and the diff checker shows removed lines in red, added lines in green and changed lines in yellow with the exact words highlighted. It is useful for contracts, essays, translations, code and any text that has been edited by someone else.",
+"uses": [
+"See what a colleague or client changed in a contract, policy or proposal.",
+"Compare two drafts of an essay, article or translation.",
+"Check configuration files, code snippets or SQL before deploying.",
+"Compare lists of names, emails or product codes exported at different times."
+],
+"tips": [
+"Turn off “Show unchanged lines” to see only the differences in long texts.",
+"For PDFs, extract the text first with PDF to Text or use Compare PDF for a visual report.",
+"Sort both lists first with Remove Duplicate Lines if the order does not matter.",
+"Download the diff to keep a record of what changed and when."
+],
+"faq": []
+},
+"name": "Text Diff Checker",
+"short": "Compare two texts and highlight the differences.",
+"title": "Text Diff Checker – Compare Two Texts Online Free | {brand}",
+"desc": "Compare two versions of text side by side and see added, removed and changed lines with word-level highlighting. Free diff checker that runs in your browser – nothing is uploaded.",
+"h1": "Text Diff Checker",
+"steps": [
+"Paste the original text on the left.",
+"Paste the changed text on the right.",
+"Review highlighted differences and download a diff file."
+],
+"faq": [
+{
+"q": "Can I compare code",
+"a": "Yes. The checker works line by line like developer diff tools and keeps indentation, so it is suitable for source code, configuration files, CSV data and logs."
+},
+{
+"q": "How do I ignore formatting changes",
+"a": "Tick “Ignore whitespace differences” to treat extra spaces and tabs as equal, and “Ignore upper/lower case” to ignore capitalisation changes."
+}
+]
+},
+"lorem": {
+"guide": {
+"more": [
+[
+"Choosing the right amount",
+"A typical blog paragraph is 3–5 sentences, a product card description 1–2 sentences, and a hero heading 4–8 words. Generating the amount you actually expect helps you design for reality. If your audience reads German, Finnish or other languages with long words, also test with real translated text, because lorem ipsum's word lengths are closer to English and Latin."
+],
+[
+"HTML output for developers",
+"With “Wrap in HTML tags” ticked, paragraphs come wrapped in p elements and list items in a ul list, ready to paste into a component, email template or static page. Combine it with the HTML minifier if you need a compact single-line string for tests or fixtures."
+]
+],
+"intro": "Designers, developers and publishers need realistic-looking filler text to see how a layout will look before the real copy is ready. This generator creates as much lorem ipsum as you need – paragraphs for articles, sentences for cards, a few words for buttons or list items for menus – and can wrap it in HTML ready to paste into a prototype.",
+"uses": [
+"Fill website and app mock-ups in Figma, Sketch or HTML prototypes.",
+"Test how templates handle long and short content before launch.",
+"Create sample content for print layouts, brochures and magazine pages.",
+"Populate databases and CMS staging sites with dummy entries."
+],
+"tips": [
+"Use the seed value to get different but repeatable text for each section of a mock-up.",
+"Test with both short and very long content to catch overflow bugs.",
+"Replace placeholder text with real copy as early as possible – real words often change the design.",
+"Remember to search for “lorem” before publishing so no filler text goes live."
+],
+"faq": []
+},
+"name": "Lorem Ipsum Generator",
+"short": "Placeholder text in paragraphs, sentences or words.",
+"title": "Lorem Ipsum Generator – Free Placeholder Text | {brand}",
+"desc": "Generate lorem ipsum placeholder text by paragraphs, sentences, words or list items, with optional HTML tags. Free dummy text generator for designers and developers.",
+"h1": "Lorem Ipsum Generator",
+"steps": [
+"Choose how many paragraphs, sentences, words or list items.",
+"Optionally wrap the text in HTML tags.",
+"Copy the text or download it."
+],
+"faq": [
+{
+"q": "Where does lorem ipsum come from",
+"a": "It is scrambled Latin derived from Cicero's “De finibus bonorum et malorum” (45 BC), used by typesetters since at least the 1500s and popularised in desktop publishing in the 1980s."
+},
+{
+"q": "Why do designers use it instead of real text",
+"a": "Meaningless text lets reviewers judge layout, typography and spacing without being distracted by the content."
+}
+]
+},
+"dedupe": {
+"guide": {
+"more": [
+[
+"Why duplicates sneak in",
+"Copying the same column twice, merging exports from different systems and differences in spacing or capitalisation all create near-duplicates. For example “Anna@Example.com ” and “anna@example.com” look different to a computer but are the same address. Trimming and case-insensitive comparison solve most of these cases."
+],
+[
+"Working with spreadsheets",
+"To clean a column from Excel, Google Sheets or Numbers, copy the column, paste it here, remove duplicates and paste the result back. Each line becomes one cell. For multi-column data, consider the CSV tools so whole rows stay together."
+]
+],
+"intro": "Lists copied from spreadsheets, emails, logs or exports often contain repeated entries. This tool removes duplicate lines in one click, with options to ignore capitalisation, trim stray spaces, drop blank lines and sort the result. It handles tens of thousands of lines instantly in your browser.",
+"uses": [
+"Clean email lists and contact exports before importing them into a newsletter or CRM.",
+"Remove repeated keywords, hashtags or URLs collected from several sources.",
+"Deduplicate product codes, order numbers or IDs from spreadsheet columns.",
+"Tidy log files and find which error messages repeat."
+],
+"tips": [
+"Turn on “Ignore upper/lower case” for emails and domains, which are not case sensitive.",
+"Keep “Trim spaces” on – invisible trailing spaces are the most common reason duplicates are missed.",
+"Use numeric sorting for numbers so 10 comes after 9, not after 1.",
+"To compare two lists, use the Text Diff Checker after cleaning both."
+],
+"faq": []
+},
+"name": "Remove Duplicate Lines",
+"short": "Delete repeated lines, trim and sort lists.",
+"title": "Remove Duplicate Lines – Free Online Dedupe & Sort Tool | {brand}",
+"desc": "Remove duplicate lines from any list instantly. Ignore case, trim spaces, remove empty lines and sort A–Z or numerically. Free and private – runs in your browser.",
+"h1": "Remove Duplicate Lines",
+"steps": [
+"Paste your list, one item per line.",
+"Choose options such as ignore case and sorting.",
+"Copy the cleaned list or download it."
+],
+"faq": [
+{
+"q": "Is the original order kept",
+"a": "Yes, by default the first occurrence of each line stays where it was. Choose a sort option if you want the result alphabetised or ordered numerically."
+},
+{
+"q": "Can I find which lines were duplicated",
+"a": "Yes. Set “Show” to “Only lines that were duplicated” to list the repeated values, or “Only lines that appear once” to find unique entries."
+}
+]
+},
+"handwriting": {
+"guide": {
+"more": [
+[
+"Choosing a handwriting style",
+"Caveat and Kalam look like everyday print handwriting and are very readable. Indie Flower is rounder and playful, good for school and kids' materials. Dancing Script and Great Vibes are cursive and suit invitations and cards, while Homemade Apple looks like quick joined-up writing. The fonts cover Latin letters used by English and most Western European languages."
+],
+[
+"Use it honestly",
+"The tool is meant for creative, personal and educational projects. Submitting generated pages as handwritten work where real handwriting is required, such as exams or assignments that ask for it, may break your school's rules. Your text is rendered entirely in your browser and is never uploaded."
+]
+],
+"intro": "Typed text can feel impersonal. This converter turns it into natural-looking handwriting on ruled notebook paper, plain sheets, squared paper or a yellow legal pad. Small random variations in position, angle and ink density make it look less like a font and more like a pen.",
+"uses": [
+"Create handwritten-style notes, letters and greeting cards.",
+"Make worksheets and classroom materials that feel friendly.",
+"Design invitations, journal pages and scrapbook elements.",
+"Add a personal touch to social media posts and presentations."
+],
+"tips": [
+"Use blue or black ink on lined paper for the most realistic look.",
+"Increase line spacing for Homemade Apple and Great Vibes, which have tall letters.",
+"Set variation to 1–2 for neat handwriting or 4–5 for a quick-note feel.",
+"Use the PDF option for long texts; it adds pages automatically."
+],
+"faq": []
+},
+"name": "Text to Handwriting",
+"short": "Turn typed text into realistic handwriting on paper.",
+"title": "Text to Handwriting Converter – Free, Realistic | {brand}",
+"desc": "Convert typed text into realistic handwriting on lined, plain or grid paper. Choose pen colour and style, then download a PNG or multi-page PDF. Free and runs in your browser.",
+"h1": "Text to Handwriting Converter",
+"steps": [
+"Type or paste your text.",
+"Pick a handwriting style, ink colour and paper.",
+"Download as a PDF or PNG."
+],
+"faq": [
+{
+"q": "Are the fonts free to use",
+"a": "Yes. All six handwriting styles are open-source fonts (SIL Open Font License or Apache 2.0) that may be used in personal and commercial projects."
+},
+{
+"q": "Can I print the result",
+"a": "Yes. Pages are sized for A4 or US Letter, so the PDF prints at the right size on standard paper."
+}
+]
+},
+"jsonfmt": {
+"guide": {
+"more": [
+[
+"JSON rules in one minute",
+"JSON (RFC 8259) supports objects, arrays, strings, numbers, true, false and null. Keys and strings must use double quotes, there are no comments, and the last item in an object or array must not have a trailing comma. Text should be UTF-8. These rules make JSON easy for every language to parse, from JavaScript and Python to Go, Rust and Swift."
+],
+[
+"Minify or beautify?",
+"Beautified JSON is for humans: code reviews, documentation and debugging. Minified JSON removes all optional whitespace and is typically 10–30% smaller, which helps with storage, caching and network transfers, although gzip or Brotli compression on web servers narrows the gap. Keep a formatted copy in version control and minify at build time."
+]
+],
+"intro": "JSON is the language of APIs, configuration files and logs, but machine-generated JSON usually arrives as one long unreadable line. This formatter pretty-prints it with clean indentation, tells you instantly whether it is valid and points to the line and column of any error. It can also minify JSON for production and sort keys alphabetically to make two objects easier to compare.",
+"uses": [
+"Read and debug REST and GraphQL API responses.",
+"Validate package.json, tsconfig, composer.json and other configuration files.",
+"Minify JSON payloads to reduce size before sending or storing them.",
+"Sort keys to compare two JSON documents with the Text Diff Checker."
+],
+"tips": [
+"Use 2-space indentation for web projects and 4 spaces for many Python and Java code bases.",
+"If you see “Unexpected token”, look just before the reported position – the real mistake is often a missing comma on the previous line.",
+"Large numbers above 2^53 lose precision in JavaScript; keep IDs as strings.",
+"Convert JSON to a spreadsheet with JSON to Excel or JSON to CSV."
+],
+"faq": []
+},
+"name": "JSON Formatter & Validator",
+"short": "Beautify, minify and validate JSON with error lines.",
+"title": "JSON Formatter & Validator – Beautify JSON Online | {brand}",
+"desc": "Format, beautify, minify and validate JSON instantly. Shows the exact line and column of errors, sorts keys and runs entirely in your browser, so API data stays private.",
+"h1": "JSON Formatter & Validator",
+"steps": [
+"Paste your JSON.",
+"Choose format or minify, indentation and key sorting.",
+"Copy the result or download a .json file."
+],
+"faq": [
+{
+"q": "Why is my JSON invalid",
+"a": "The most common causes are trailing commas, single quotes instead of double quotes, unquoted keys and comments. Standard JSON allows none of these, even though JavaScript does."
+},
+{
+"q": "Is it safe to paste API responses with tokens",
+"a": "Yes. Formatting and validation run in your browser; nothing is sent to a server or logged."
+}
+]
+},
+"base64": {
+"guide": {
+"more": [
+[
+"How Base64 works",
+"Every three bytes of input (24 bits) are split into four groups of six bits, and each group is mapped to one of 64 characters: A–Z, a–z, 0–9, + and /. When the input is not a multiple of three bytes, = signs pad the end. Because text is converted to UTF-8 bytes first, “é” becomes two bytes and “👍” four, which is why short non-English strings can produce longer Base64."
+],
+[
+"Common pitfalls",
+"Many simple tools use the browser's btoa function directly, which fails on any character outside Latin-1. This encoder converts text to UTF-8 first, matching how servers and most programming languages behave. If decoded text looks garbled, the original data was probably binary (an image or a zip) or used a different character set, such as Windows-1252 or Shift_JIS."
+]
+],
+"intro": "Base64 turns any data into plain ASCII letters, digits and a few symbols, so it can travel safely through systems built for text, such as email, JSON, XML and HTTP headers. This tool encodes and decodes text with correct UTF-8 handling, so accented letters, emoji and non-Latin scripts survive the round trip.",
+"uses": [
+"Decode the payload of a JSON Web Token (JWT) to inspect its claims.",
+"Encode credentials for HTTP Basic authentication headers while testing.",
+"Decode Base64 strings found in emails, logs, API responses or configuration.",
+"Encode small snippets for data URIs, Kubernetes secrets or environment variables."
+],
+"tips": [
+"Data grows by about 33% when Base64-encoded – keep large files as binary where possible.",
+"Decoding ignores whitespace and line breaks, so you can paste wrapped MIME text.",
+"Use URL-safe mode for anything placed in a URL or file name.",
+"For images and files, use the Image to Base64 tool, which creates data URIs."
+],
+"faq": []
+},
+"name": "Base64 Encode & Decode",
+"short": "Encode text to Base64 or decode it back (UTF-8).",
+"title": "Base64 Encode & Decode Online – Free Base64 Converter | {brand}",
+"desc": "Encode text to Base64 or decode Base64 back to text with full UTF-8 support and URL-safe mode. Free, instant and private – conversion happens in your browser.",
+"h1": "Base64 Encoder & Decoder",
+"steps": [
+"Choose encode or decode.",
+"Paste your text or Base64 string.",
+"Copy the result or download it."
+],
+"faq": [
+{
+"q": "Is Base64 encryption",
+"a": "No. Base64 is an encoding, not encryption – anyone can decode it. Never use it to protect passwords or secrets."
+},
+{
+"q": "What is URL-safe Base64",
+"a": "A variant (RFC 4648 §5) that uses - and _ instead of + and / and usually omits = padding, so the result can be used in URLs, file names and JSON Web Tokens."
+}
+]
+},
+"urlenc": {
+"guide": {
+"more": [
+[
+"Percent-encoding explained",
+"Each unsafe byte is written as % followed by two hexadecimal digits. Text is first converted to UTF-8, so “café” becomes caf%C3%A9 and “東京” becomes %E6%9D%B1%E4%BA%AC. Letters, digits and - _ . ~ are never encoded. Reserved characters such as : / ? # [ ] @ ! $ & ' ( ) * + , ; = have special meaning and must be encoded when used as data."
+],
+[
+"Internationalised links",
+"Modern browsers display Unicode in the address bar, but the underlying request always uses percent-encoded paths and Punycode for domain names. When you share links in emails, documents or QR codes, the encoded form is the most reliable and works with every app and device."
+]
+],
+"intro": "URLs may only contain a limited set of ASCII characters. Spaces, accented letters, emoji and symbols such as & or # must be percent-encoded, otherwise links break or parameters are misread. This tool encodes and decodes text using the same rules as browsers and shows each part of a URL, including every query parameter.",
+"uses": [
+"Build tracking links with UTM parameters that contain spaces or special characters.",
+"Decode long redirect or affiliate URLs to see where they really go.",
+"Debug API requests with encoded query strings.",
+"Encode non-English search terms and file names for links."
+],
+"tips": [
+"Encode each query value separately rather than the whole URL.",
+"Decode suspicious links before clicking to check the real destination.",
+"Remember that # starts a fragment – encode it as %23 inside values.",
+"Use the parts table to spot duplicated or missing parameters."
+],
+"faq": []
+},
+"name": "URL Encode & Decode",
+"short": "Percent-encode or decode URLs and query strings.",
+"title": "URL Encoder & Decoder – Percent-Encode Online | {brand}",
+"desc": "Encode or decode URLs and query strings with percent-encoding. Shows URL parts and query parameters. Free, instant and private – runs in your browser.",
+"h1": "URL Encoder & Decoder",
+"steps": [
+"Paste a URL or text.",
+"Choose encode, encode full URL or decode.",
+"Copy the result."
+],
+"faq": [
+{
+"q": "What is the difference between encoding a component and a full URL",
+"a": "Component encoding escapes every reserved character, including / ? & =, and is used for single query values. Full-URL encoding keeps those characters so the URL structure stays intact."
+},
+{
+"q": "Why do spaces become %20 or +",
+"a": "%20 is the standard for URLs; + means a space only in HTML form data (application/x-www-form-urlencoded)."
+}
+]
+},
+"hash": {
+"guide": {
+"more": [
+[
+"How hashes are calculated here",
+"SHA-1 and the SHA-2 family use your browser's built-in Web Crypto API, the same audited code used for HTTPS. MD5 and CRC32 are implemented in JavaScript because browsers do not provide them. Text is converted to UTF-8 bytes first, which matches the output of command-line tools such as sha256sum on Linux and macOS or Get-FileHash in Windows PowerShell."
+],
+[
+"HMAC for APIs",
+"An HMAC combines a secret key with the message, so only someone with the key can produce the same value. Payment providers, chat platforms and cloud services use HMAC-SHA256 to sign webhooks. Enter the key in the options to generate HMACs for SHA-1, SHA-256, SHA-384 and SHA-512 and compare them with the signature your server receives."
+]
+],
+"intro": "A hash is a short fingerprint of data: change even one bit and the hash changes completely. Hashes are used to verify downloads, detect duplicate files, store passwords securely (with special slow algorithms) and sign API requests. This generator calculates the common algorithms for any text or file and can confirm that a file matches the checksum published by its author.",
+"uses": [
+"Verify that a downloaded installer or ISO matches the SHA-256 checksum on the official site.",
+"Generate HMAC-SHA256 signatures to test webhook and API authentication.",
+"Find duplicate files by comparing their hashes.",
+"Create cache keys and ETags during development."
+],
+"tips": [
+"Copy the expected checksum into the compare box – a green row confirms the match.",
+"Hashes of text depend on exact bytes; a trailing space or line break gives a different result.",
+"Never store passwords as plain MD5 or SHA hashes; use bcrypt, scrypt or Argon2.",
+"CRC32 is for detecting accidental errors only, not tampering."
+],
+"faq": []
+},
+"name": "Hash Generator",
+"short": "MD5, SHA-1, SHA-256, SHA-512 and CRC32 for text or files.",
+"title": "Hash Generator – MD5, SHA-256, SHA-512 Online | {brand}",
+"desc": "Generate MD5, SHA-1, SHA-256, SHA-384, SHA-512 and CRC32 hashes or HMACs for text and files, and verify checksums. Files are hashed locally and never uploaded.",
+"h1": "Hash Generator (MD5, SHA-256, SHA-512)",
+"steps": [
+"Type text or choose a file.",
+"All hashes are calculated instantly.",
+"Paste an expected hash to verify a download."
+],
+"faq": [
+{
+"q": "Which hash should I use",
+"a": "Use SHA-256 or SHA-512 for integrity checks and security. MD5 and SHA-1 are broken for security purposes but are still used to match legacy checksums."
+},
+{
+"q": "Can I hash large files",
+"a": "Yes, files of several hundred megabytes work on most computers because hashing happens locally in your browser; very large files depend on available memory."
+}
+]
+},
+"uuid": {
+"guide": {
+"more": [
+[
+"v4 or v7?",
+"Version 4 UUIDs are completely random, which is ideal when you do not want identifiers to reveal anything. Version 7, standardised in RFC 9562 in 2024, starts with a 48-bit Unix timestamp in milliseconds followed by random bits. Records created later get larger IDs, so B-tree indexes in PostgreSQL, MySQL and SQL Server stay compact, and you can roughly tell when a record was created."
+],
+[
+"Format variations",
+"The canonical form is 32 lowercase hexadecimal digits in groups of 8-4-4-4-12. Some systems want them without hyphens (32 characters), in uppercase, or wrapped in braces. The nil UUID, all zeros, is used as a placeholder for “no value”."
+]
+],
+"intro": "A UUID (universally unique identifier) is a 128-bit value such as 3f2b8c1e-9d4a-4f6b-a2c7-1e5d9b0f7a42 that can be created anywhere without coordination and still be unique. This generator creates version 4 (random) and version 7 (time-ordered) UUIDs using the browser's cryptographically secure random generator.",
+"uses": [
+"Create primary keys for databases and distributed systems.",
+"Generate IDs for test data, fixtures and API mocks.",
+"Create unique file names, session IDs and correlation IDs for logs.",
+"Produce GUIDs for Windows, .NET and COM registrations."
+],
+"tips": [
+"Prefer UUID v7 for database primary keys – they sort by creation time, which keeps indexes efficient.",
+"Store UUIDs as native UUID or 16-byte binary types rather than 36-character strings when possible.",
+"Do not use UUIDs as secrets or password reset tokens; use a dedicated random token.",
+"Use uppercase with braces for Windows registry and Visual Studio project files."
+],
+"faq": []
+},
+"name": "UUID Generator",
+"short": "Random v4 and time-ordered v7 UUIDs in bulk.",
+"title": "UUID Generator – Random v4 & v7 UUIDs/GUIDs Online | {brand}",
+"desc": "Generate random UUID v4 or time-ordered UUID v7 identifiers in bulk – up to 1,000 at once, with uppercase, braces and no-hyphen options. Uses your browser's secure random generator.",
+"h1": "UUID / GUID Generator",
+"steps": [
+"Choose the UUID version and how many.",
+"Pick a format: hyphens, uppercase or braces.",
+"Copy all or download the list."
+],
+"faq": [
+{
+"q": "Are the UUIDs really unique",
+"a": "Version 4 UUIDs have 122 random bits. Generating a billion per second for about 85 years would give a 50% chance of a single collision, so in practice they are unique."
+},
+{
+"q": "Is a GUID the same as a UUID",
+"a": "Yes. GUID is Microsoft's name for the same 128-bit identifier; Windows often writes them in uppercase inside braces."
+}
+]
+},
+"regex": {
+"guide": {
+"more": [
+[
+"Flags explained",
+"g finds all matches instead of only the first, i ignores case, m makes ^ and $ match at line breaks, s lets . match newlines, u enables full Unicode support including \\p{…} classes, and y (sticky) matches only at the current position. The tester always searches globally for highlighting, but respects your flags for the replace preview."
+],
+[
+"Validating international data",
+"Real-world data is global. Names include accents and non-Latin scripts, postcodes vary from 3 to 10 characters, and phone numbers have many formats. Use \\p{L} for letters in any language, avoid overly strict patterns for names and addresses, and for phone numbers consider the international E.164 format: a plus sign followed by up to 15 digits."
+]
+],
+"intro": "Regular expressions are powerful but easy to get wrong. This tester highlights every match as you type, lists capture groups and their positions, and previews search-and-replace results, so you can build and debug patterns for validation, parsing and text clean-up with confidence.",
+"uses": [
+"Build validation patterns for emails, phone numbers, postcodes and IDs.",
+"Extract data such as dates, prices or URLs from logs and documents.",
+"Test find-and-replace patterns before using them in VS Code, Sublime or a script.",
+"Learn regex step by step with the built-in cheat sheet."
+],
+"tips": [
+"Start simple and add complexity one piece at a time.",
+"Use ^ and $ with the m flag to match whole lines.",
+"Escape special characters such as . ? + * ( ) [ ] with a backslash when you mean them literally.",
+"Prefer specific character classes such as [^,]+ over .* to avoid matching too much."
+],
+"faq": []
+},
+"name": "Regex Tester",
+"short": "Test regular expressions with live highlighting.",
+"title": "Regex Tester – Test Regular Expressions Online | {brand}",
+"desc": "Test JavaScript regular expressions with live match highlighting, capture groups, named groups and replace preview. Includes a cheat sheet. Free and runs in your browser.",
+"h1": "Regex Tester",
+"steps": [
+"Enter a pattern and flags.",
+"Paste your test text – matches are highlighted live.",
+"Inspect groups or preview a replacement."
+],
+"faq": [
+{
+"q": "Which regex flavour is used",
+"a": "JavaScript (ECMAScript 2024), which supports lookbehind, named groups, Unicode property escapes like \\p{L} and the s (dotAll) flag. Most patterns also work in Python, PCRE, Java and .NET with small differences."
+},
+{
+"q": "Why does my pattern match empty strings",
+"a": "Patterns using * or ? can match zero characters. Use + instead of * when at least one character is required."
+}
+]
+},
+"minify": {
+"guide": {
+"more": [
+[
+"What each minifier does",
+"The CSS minifier removes comments and whitespace, drops the last semicolon in each block and shortens colours such as #ffffff to #fff. The HTML minifier collapses whitespace between tags and removes comments, while leaving pre, textarea, script and style blocks untouched unless you choose to minify inline code. JavaScript is parsed into a syntax tree by Terser, compressed and printed without comments."
+],
+[
+"Minification and Core Web Vitals",
+"Smaller files load and parse faster, which helps Largest Contentful Paint and Interaction to Next Paint, two of Google's Core Web Vitals. For large sites, a build tool such as Vite or esbuild is the best long-term option; for small sites, landing pages and quick fixes, this minifier gets you most of the benefit in seconds."
+]
+],
+"intro": "Every byte a visitor downloads slows your site a little, especially on mobile networks. Minifying removes comments, whitespace and unnecessary characters from HTML, CSS and JavaScript, often cutting file size by 20–60%. This tool uses Terser, the same JavaScript minifier used by popular build tools, plus fast CSS and HTML minifiers, all running in your browser.",
+"uses": [
+"Shrink CSS and JavaScript for small sites without a build pipeline.",
+"Minify HTML email templates and landing pages.",
+"Prepare compact code snippets for widgets, bookmarklets and embeds.",
+"Check how much smaller your files could be before setting up a bundler."
+],
+"tips": [
+"Keep the original, readable source – minified code is hard to edit.",
+"Turn off mangling if other scripts call your global variable names.",
+"Combine minification with gzip or Brotli on your server for the best results.",
+"Use the JSON formatter's minify mode for JSON files."
+],
+"faq": []
+},
+"name": "HTML, CSS & JS Minifier",
+"short": "Minify HTML, CSS and JavaScript to shrink files.",
+"title": "HTML, CSS & JavaScript Minifier – Free Online | {brand}",
+"desc": "Minify HTML, CSS and JavaScript online to reduce file size and speed up websites. JavaScript is compressed with Terser. Free, private and runs in your browser.",
+"h1": "HTML, CSS & JavaScript Minifier",
+"steps": [
+"Paste HTML, CSS or JavaScript.",
+"The language is detected automatically, or choose it.",
+"Copy the minified code or download the file."
+],
+"faq": [
+{
+"q": "Will minifying break my code",
+"a": "Minification removes whitespace and comments and shortens local variable names without changing behaviour. Test the result, especially for HTML with whitespace-sensitive inline elements."
+},
+{
+"q": "Which JavaScript features are supported",
+"a": "Modern ES2023 syntax, including modules, classes, async/await and optional chaining, via the Terser engine."
+}
+]
+},
+"colorconv": {
+"guide": {
+"more": [
+[
+"Colour models in brief",
+"RGB mixes red, green and blue light and is how screens work. HEX is simply RGB written in hexadecimal. HSL and HSV describe colour by hue (0–360°), saturation and lightness or brightness, which is more intuitive for adjusting colours. CMYK describes cyan, magenta, yellow and black inks for print. Conversions between RGB-based models are exact; CMYK is an approximation without a colour profile."
+],
+[
+"Accessible colour choices",
+"Around 1 in 12 men and 1 in 200 women have some form of colour vision deficiency, and many people read screens in bright sunlight. Good contrast helps everyone. The contrast ratios here follow the WCAG formula based on relative luminance, the same method used by Lighthouse and accessibility checkers, and they are required by laws and standards such as the European Accessibility Act and the ADA."
+]
+],
+"intro": "Designers, developers and marketers juggle colour formats all the time: HEX in CSS, RGB in design apps, HSL for theming, CMYK for print. Type any colour – a hex code, an rgb() or hsl() value, a CMYK value or a CSS colour name such as “tomato” – and get every format at once, plus an accessibility contrast check and a palette of tints and shades.",
+"uses": [
+"Convert brand colours from a style guide into CSS-ready codes.",
+"Check that text colours pass WCAG contrast requirements.",
+"Create lighter and darker variants for hover states and themes.",
+"Translate screen colours into approximate CMYK for print briefs."
+],
+"tips": [
+"Use HSL when building themes – changing only lightness keeps the same hue.",
+"Check contrast for both light and dark mode backgrounds.",
+"Click any swatch to copy its HEX code.",
+"For colours taken from a photo, use the Color Picker from Image tool."
+],
+"faq": []
+},
+"name": "Color Converter",
+"short": "HEX, RGB, HSL, HSV and CMYK with contrast check.",
+"title": "Color Converter – HEX to RGB, HSL, CMYK Online | {brand}",
+"desc": "Convert colours between HEX, RGB, HSL, HSV/HSB and CMYK, check WCAG contrast on white and black, and get tints and shades. Free colour code converter.",
+"h1": "Color Converter (HEX, RGB, HSL, CMYK)",
+"steps": [
+"Enter a colour in any format or pick one.",
+"See every format instantly.",
+"Copy the code or click a tint or shade."
+],
+"faq": [
+{
+"q": "Is the CMYK value print-accurate",
+"a": "It is a simple mathematical conversion. Real print colours depend on the printer, paper and colour profile (such as FOGRA39 in Europe or GRACoL in the US), so ask your printer for a proof for brand-critical work."
+},
+{
+"q": "What contrast ratio do I need",
+"a": "WCAG 2.2 level AA needs 4.5:1 for normal text and 3:1 for large text; level AAA needs 7:1."
+}
+]
+},
+"percent": {
+"guide": {
+"more": [
+[
+"Percent vs percentage points",
+"If an interest rate rises from 4% to 5%, it has gone up by 1 percentage point – but by 25% in relative terms. News reports and financial statements mix these up surprisingly often. The calculator shows both, so you can quote figures correctly in reports, presentations and articles."
+],
+[
+"Mental shortcuts",
+"10% of any number moves the decimal point one place left; 5% is half of that; 1% moves it two places. So 15% of 80 is 8 + 4 = 12. Also, X% of Y always equals Y% of X: 8% of 50 is the same as 50% of 8, which is 4. These tricks help you check that the calculator's answer is in the right ballpark."
+]
+],
+"intro": "Percentages appear everywhere – discounts, tips, exam marks, interest rates, inflation, election results and business reports. This calculator answers the eight most common percentage questions and, for the numbers you enter, shows the results of all the other questions too, so you can quickly sanity-check your thinking.",
+"uses": [
+"Work out tips, service charges and sales tax.",
+"Calculate exam scores and grade percentages.",
+"Measure growth in revenue, followers, prices or population.",
+"Find the original price before a discount or tax was applied."
+],
+"tips": [
+"For “what is the original amount”, use “X is Y% of what?” rather than adding the percentage back.",
+"Use percentage points when comparing two percentages, such as interest rates.",
+"Percentage difference is symmetric and is used in science; percentage change depends on the starting value.",
+"Commas in large numbers are ignored, so 1,250 works."
+],
+"faq": []
+},
+"name": "Percentage Calculator",
+"short": "X% of Y, percentage change, increase and decrease.",
+"title": "Percentage Calculator – % of, % Change, Increase | {brand}",
+"desc": "Free percentage calculator: find X% of Y, what percent X is of Y, percentage change, increase or decrease by a percent, reverse percentages and percentage points.",
+"h1": "Percentage Calculator",
+"steps": [
+"Choose the type of calculation.",
+"Enter the two numbers.",
+"Read the answer and the related results below."
+],
+"faq": [
+{
+"q": "How do I calculate percentage change",
+"a": "Subtract the old value from the new value, divide by the old value and multiply by 100. From 80 to 100 is (100 − 80) ÷ 80 × 100 = 25% increase."
+},
+{
+"q": "Why is a 50% drop not reversed by a 50% rise",
+"a": "Percentages apply to different bases. 100 falls 50% to 50, but 50 must rise 100% to get back to 100."
+}
+]
+},
+"age": {
+"guide": {
+"more": [
+[
+"How age is calculated",
+"The calculator counts full years first, then full months, then remaining days, borrowing days from the previous month when needed – the same method used on official forms. For example, from 31 January to 1 March is 1 month and 1 day in a non-leap year. Totals such as days and weeks are exact counts of calendar days between the two dates."
+],
+[
+"Age conventions around the world",
+"Most countries use the international age system shown here, where you are 0 at birth and gain a year on each birthday. South Korea officially switched to this system in 2023, replacing its traditional counting; parts of East Asia still use traditional reckoning informally. When forms ask for age, use the international system unless told otherwise."
+]
+],
+"intro": "Calculating an exact age by hand is fiddly because months have different lengths and leap years add an extra day. This age calculator gives the precise age in years, months and days, plus totals in months, weeks, days and hours, the day of the week someone was born, and how many days remain until their next birthday.",
+"uses": [
+"Check eligibility for school entry, sports categories, visas, pensions or competitions on a cut-off date.",
+"Fill in forms that ask for age in years and months.",
+"Find out how many days old you are for a fun milestone like 10,000 days.",
+"Calculate the age of a company, building, pet or relationship."
+],
+"tips": [
+"Always use the cut-off date stated by the organisation, not today's date.",
+"Ages are calculated from calendar dates, so time zones do not matter.",
+"For age in another calendar system, convert the date first.",
+"Use the Date Difference Calculator for working days between dates."
+],
+"faq": []
+},
+"name": "Age Calculator",
+"short": "Exact age in years, months and days.",
+"title": "Age Calculator – Exact Age in Years, Months, Days | {brand}",
+"desc": "Calculate exact age in years, months and days from a date of birth, plus total weeks, days, hours, the weekday you were born and a countdown to your next birthday.",
+"h1": "Age Calculator",
+"steps": [
+"Enter the date of birth.",
+"Optionally change the “age on” date.",
+"See age in years, months, days and totals."
+],
+"faq": [
+{
+"q": "How are leap-year birthdays handled",
+"a": "For people born on 29 February, the next birthday in non-leap years is shown as 1 March, the rule used in many countries' laws. Some places use 28 February instead."
+},
+{
+"q": "Can I calculate age on a past or future date",
+"a": "Yes. Change “Age on date” to find how old someone was or will be on a specific day, for example an exam cut-off date."
+}
+]
+},
+"bmi": {
+"guide": {
+"more": [
+[
+"The formula",
+"BMI equals weight in kilograms divided by height in metres squared. For imperial units, the calculator converts pounds to kilograms (× 0.4536) and inches to centimetres (× 2.54) first. For example, 70 kg and 1.75 m gives 70 ÷ (1.75 × 1.75) = 22.9. BMI Prime is your BMI divided by the upper limit of the normal range, so values above 1.0 indicate overweight."
+],
+[
+"Asian cut-off points",
+"A WHO expert consultation found that people of Asian descent often have higher health risks at lower BMI values. Many countries in Asia therefore use 23 as the threshold for overweight and 27.5 for higher risk. Tick the option to apply these cut-offs. The calculator gives information only and is not medical advice; your data never leaves your device."
+]
+],
+"intro": "Body mass index is a quick screening measure that relates weight to height. It is used by doctors, insurers and health services worldwide as a first indication of whether weight might affect health. This calculator works in kilograms and centimetres or pounds, feet and inches, and shows your category, the healthy weight range for your height and BMI Prime.",
+"uses": [
+"Check your BMI as part of a general health review.",
+"Track changes over time during a fitness or weight plan.",
+"Find a healthy target weight range for your height.",
+"Compare metric and imperial measurements easily."
+],
+"tips": [
+"Measure height without shoes and weight at the same time of day for consistency.",
+"Use the Asian cut-offs if you are of Asian descent; risk rises at lower BMI.",
+"Do not use adult BMI categories for children and teenagers – they need age- and sex-specific charts.",
+"Treat BMI as a starting point and talk to a health professional for advice."
+],
+"faq": []
+},
+"name": "BMI Calculator",
+"short": "Body mass index in metric or imperial units.",
+"title": "BMI Calculator – Body Mass Index (kg/cm or lb/ft) | {brand}",
+"desc": "Calculate your body mass index with metric or imperial units. See WHO categories, an optional Asian cut-off scale, healthy weight range and BMI Prime. Free and private.",
+"h1": "BMI Calculator",
+"steps": [
+"Choose metric or imperial units.",
+"Enter weight and height.",
+"See BMI, category and healthy weight range."
+],
+"faq": [
+{
+"q": "What is a healthy BMI",
+"a": "For adults, the World Health Organization classes 18.5–24.9 as normal weight, 25–29.9 as overweight and 30 or more as obesity."
+},
+{
+"q": "Is BMI accurate for athletes",
+"a": "Not always. BMI cannot tell muscle from fat, so very muscular people may be classed as overweight. Waist measurement and body composition give extra information."
+}
+]
+},
+"loan": {
+"guide": {
+"more": [
+[
+"The amortisation formula",
+"The regular payment is P × r ÷ (1 − (1 + r)^−n), where P is the amount borrowed, r is the interest rate per period and n is the number of payments. Early payments are mostly interest because the balance is high; over time, more of each payment goes towards the principal. The year-by-year table makes this shift easy to see."
+],
+[
+"Mortgages in different countries",
+"Loan structures vary. Thirty-year fixed mortgages are common in the United States, while the UK, Canada and Australia typically fix the rate for 2–5 years within a 25–30-year term, and many European and Asian loans use variable rates. Use the current rate for the whole term to estimate payments, then rerun the numbers with a higher rate to test whether you could afford a rise."
+]
+],
+"intro": "Before you take out a mortgage, car loan or personal loan, it helps to know exactly what you will pay each month and in total. This calculator uses the standard amortisation formula used by banks worldwide to show your regular payment, the split between principal and interest, the total cost of borrowing and a year-by-year schedule you can download as a CSV spreadsheet.",
+"uses": [
+"Compare mortgage offers with different rates and terms.",
+"Decide between a 15-, 20-, 25- or 30-year mortgage.",
+"Work out car or student loan repayments.",
+"See how much faster you could be debt-free with extra payments."
+],
+"tips": [
+"Small rate differences matter: 0.5% on a large mortgage can mean tens of thousands in interest.",
+"A shorter term has higher payments but far lower total interest.",
+"Check whether your lender charges early repayment fees before overpaying.",
+"Compare offers using the annual percentage rate (APR), which includes fees."
+],
+"faq": []
+},
+"name": "Loan & Mortgage Calculator",
+"short": "Monthly payment, total interest and amortisation.",
+"title": "Loan & Mortgage Calculator – Monthly Payment & Schedule | {brand}",
+"desc": "Calculate monthly loan or mortgage payments, total interest and payoff time, with extra payments and a downloadable amortisation schedule. Works with any currency.",
+"h1": "Loan & Mortgage Calculator",
+"steps": [
+"Enter the loan amount, interest rate and term.",
+"Choose payment frequency and optional extra payments.",
+"See the payment, total interest and download the schedule as CSV."
+],
+"faq": [
+{
+"q": "Does the payment include tax and insurance",
+"a": "No. It shows principal and interest only. Mortgages may also include property tax, home insurance or mortgage insurance, which vary by country and lender."
+},
+{
+"q": "How much do extra payments save",
+"a": "Even small extra payments reduce the balance earlier, so less interest builds up. Enter an extra amount to see the interest saved and the shorter payoff time."
+}
+]
+},
+"discount": {
+"guide": {
+"more": [
+[
+"Stacked discounts explained",
+"When a store offers an extra discount on sale items, each discount applies to the result of the previous one. 40% off followed by an extra 20% off means you pay 60% × 80% = 48% of the original price, a 52% discount rather than 60%. The calculator shows this effective discount so there are no surprises at the till."
+],
+[
+"Tax added or included",
+"Prices in North America usually exclude sales tax, which varies by state, province or city. Most other countries show prices including VAT or GST, often 5–27%. Choose “already included” to see how much of the price is tax – useful for business expense claims and VAT refunds for tourists."
+]
+],
+"intro": "Sales, coupons and promotions are designed to sound generous, but stacked discounts and taxes make the real price hard to judge. This calculator shows exactly what you will pay and how much you save, handles “extra 10% off sale prices”, and adds sales tax at checkout or works out the VAT already included in a price.",
+"uses": [
+"Check the real price during Black Friday, Boxing Day and seasonal sales.",
+"Compare a percentage discount with a fixed coupon.",
+"Set sale prices for your shop or online store.",
+"Work out VAT or GST included in a receipt total."
+],
+"tips": [
+"Compare the final price, not the percentage – a bigger discount on a higher price can still cost more.",
+"In the US and Canada tax is usually added at checkout; in the UK, EU, Australia and India it is typically included.",
+"Use the reverse calculation to check whether a “was/now” price is really a bargain.",
+"Track prices over time; some retailers raise prices before a sale."
+],
+"faq": []
+},
+"name": "Discount Calculator",
+"short": "Sale price, savings, stacked discounts and tax.",
+"title": "Discount Calculator – Sale Price & Percent Off | {brand}",
+"desc": "Calculate the sale price and savings for any percent off, including stacked discounts and sales tax or VAT. Also find the discount percentage from two prices.",
+"h1": "Discount Calculator",
+"steps": [
+"Enter the original price and discount.",
+"Add an extra discount or tax if needed.",
+"See the final price and how much you save."
+],
+"faq": [
+{
+"q": "Is 20% off plus 10% off the same as 30% off",
+"a": "No. Stacked discounts multiply: 20% then 10% gives 28% off, because the second discount applies to the already reduced price."
+},
+{
+"q": "How do I find the discount percentage",
+"a": "Use the reverse section: divide the sale price by the original price, subtract from 1 and multiply by 100."
+}
+]
+},
+"datediff": {
+"guide": {
+"more": [
+[
+"Working days around the world",
+"Most of the world uses a Saturday–Sunday weekend, but some countries in the Middle East use Friday–Saturday, others have a Friday-only or Sunday-only weekend, and many businesses work six days a week. Choose the pattern that matches your workplace, then list holidays as dates separated by commas, such as 2026-12-25, 2026-12-26."
+],
+[
+"Adding days to a date",
+"Payment terms, delivery estimates and legal deadlines are often expressed as “within 30 days”. Enter a number of days in “Add / subtract days” to see the resulting date and weekday. Use a negative number to go backwards, for example to find when a 90-day window started."
+]
+],
+"intro": "How many days until a deadline, a holiday or a due date? How many working days does a project have? This calculator counts the exact time between two dates in days, weeks, months and years, counts business days while excluding weekends and public holidays, and can add or subtract days from a date to find a future or past deadline.",
+"uses": [
+"Plan project timelines and count working days to a deadline.",
+"Calculate notice periods, contract terms and payment terms such as net 30.",
+"Count days until a wedding, exam, trip or product launch.",
+"Work out leave days or the length of a stay for visa rules."
+],
+"tips": [
+"Add your country's public holidays to get accurate working days.",
+"Use “Include the end date” for hotel nights versus days of leave appropriately.",
+"For age calculations, use the Age Calculator.",
+"Results use calendar dates, so daylight saving changes do not affect them."
+],
+"faq": []
+},
+"name": "Date Difference Calculator",
+"short": "Days, weeks, months and working days between dates.",
+"title": "Date Difference Calculator – Days Between Dates | {brand}",
+"desc": "Calculate the number of days, weeks, months and years between two dates, count working days excluding weekends and holidays, and add or subtract days from a date.",
+"h1": "Date Difference Calculator",
+"steps": [
+"Choose a start and end date.",
+"Set weekend days and optional holidays.",
+"See total days, working days and more."
+],
+"faq": [
+{
+"q": "Is the end date included",
+"a": "By default no – from Monday to Friday is 4 days. Tick “Include the end date” to count both days, which gives 5, as is common for leave and booking periods."
+},
+{
+"q": "Can I use Friday–Saturday weekends",
+"a": "Yes. Choose the weekend days used in your country, such as Friday–Saturday in parts of the Middle East or Sunday only in some countries."
+}
+]
+}
+},
+"ui": {
+"cat_text": "Text tools",
+"cat_dev": "Developer tools",
+"cat_calc": "Calculators"
+}
+}

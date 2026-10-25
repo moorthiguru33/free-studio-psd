@@ -1,0 +1,23 @@
+[
+{"id":"wordcount","slug":"word-counter","cat":"text","icon":"🔢","nofile":true,"enOnly":true},
+{"id":"charcount","slug":"character-counter","cat":"text","icon":"🔤","nofile":true,"enOnly":true},
+{"id":"caseconv","slug":"case-converter","cat":"text","icon":"Aa","nofile":true,"enOnly":true},
+{"id":"textdiff","slug":"text-diff-checker","cat":"text","icon":"≠","nofile":true,"enOnly":true},
+{"id":"lorem","slug":"lorem-ipsum-generator","cat":"text","icon":"¶","nofile":true,"enOnly":true},
+{"id":"dedupe","slug":"remove-duplicate-lines","cat":"text","icon":"☰","nofile":true,"enOnly":true},
+{"id":"handwriting","slug":"text-to-handwriting","cat":"text","icon":"✍","nofile":true,"enOnly":true},
+{"id":"jsonfmt","slug":"json-formatter","cat":"dev","icon":"{ }","nofile":true,"enOnly":true},
+{"id":"base64","slug":"base64-encode-decode","cat":"dev","icon":"64","nofile":true,"enOnly":true},
+{"id":"urlenc","slug":"url-encode-decode","cat":"dev","icon":"%","nofile":true,"enOnly":true},
+{"id":"hash","slug":"hash-generator","cat":"dev","icon":"#","nofile":true,"enOnly":true},
+{"id":"uuid","slug":"uuid-generator","cat":"dev","icon":"🆔","nofile":true,"enOnly":true},
+{"id":"regex","slug":"regex-tester","cat":"dev","icon":".*","nofile":true,"enOnly":true},
+{"id":"minify","slug":"html-css-js-minifier","cat":"dev","icon":"⇲","nofile":true,"enOnly":true},
+{"id":"colorconv","slug":"color-converter","cat":"dev","icon":"🎨","nofile":true,"enOnly":true},
+{"id":"percent","slug":"percentage-calculator","cat":"calc","icon":"%","nofile":true,"enOnly":true},
+{"id":"age","slug":"age-calculator","cat":"calc","icon":"🎂","nofile":true,"enOnly":true},
+{"id":"bmi","slug":"bmi-calculator","cat":"calc","icon":"⚖","nofile":true,"enOnly":true},
+{"id":"loan","slug":"loan-calculator","cat":"calc","icon":"🏠","nofile":true,"enOnly":true},
+{"id":"discount","slug":"discount-calculator","cat":"calc","icon":"🏷","nofile":true,"enOnly":true},
+{"id":"datediff","slug":"date-difference-calculator","cat":"calc","icon":"📅","nofile":true,"enOnly":true}
+]

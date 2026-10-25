@@ -1,0 +1,120 @@
+@jsonfmt
+name: JSON Formatter & Validator
+short: Beautify, minify and validate JSON with error lines.
+title: JSON Formatter & Validator – Beautify JSON Online | {brand}
+desc: Format, beautify, minify and validate JSON instantly. Shows the exact line and column of errors, sorts keys and runs entirely in your browser, so API data stays private.
+h1: JSON Formatter & Validator
+steps: Paste your JSON. | Choose format or minify, indentation and key sorting. | Copy the result or download a .json file.
+faq: Why is my JSON invalid?=The most common causes are trailing commas, single quotes instead of double quotes, unquoted keys and comments. Standard JSON allows none of these, even though JavaScript does. || Is it safe to paste API responses with tokens?=Yes. Formatting and validation run in your browser; nothing is sent to a server or logged.
+intro: JSON is the language of APIs, configuration files and logs, but machine-generated JSON usually arrives as one long unreadable line. This formatter pretty-prints it with clean indentation, tells you instantly whether it is valid and points to the line and column of any error. It can also minify JSON for production and sort keys alphabetically to make two objects easier to compare.
+uses: Read and debug REST and GraphQL API responses. | Validate package.json, tsconfig, composer.json and other configuration files. | Minify JSON payloads to reduce size before sending or storing them. | Sort keys to compare two JSON documents with the Text Diff Checker.
+tips: Use 2-space indentation for web projects and 4 spaces for many Python and Java code bases. | If you see “Unexpected token”, look just before the reported position – the real mistake is often a missing comma on the previous line. | Large numbers above 2^53 lose precision in JavaScript; keep IDs as strings. | Convert JSON to a spreadsheet with JSON to Excel or JSON to CSV.
+## JSON rules in one minute
+JSON (RFC 8259) supports objects, arrays, strings, numbers, true, false and null. Keys and strings must use double quotes, there are no comments, and the last item in an object or array must not have a trailing comma. Text should be UTF-8. These rules make JSON easy for every language to parse, from JavaScript and Python to Go, Rust and Swift.
+## Minify or beautify?
+Beautified JSON is for humans: code reviews, documentation and debugging. Minified JSON removes all optional whitespace and is typically 10–30% smaller, which helps with storage, caching and network transfers, although gzip or Brotli compression on web servers narrows the gap. Keep a formatted copy in version control and minify at build time.
+@base64
+name: Base64 Encode & Decode
+short: Encode text to Base64 or decode it back (UTF-8).
+title: Base64 Encode & Decode Online – Free Base64 Converter | {brand}
+desc: Encode text to Base64 or decode Base64 back to text with full UTF-8 support and URL-safe mode. Free, instant and private – conversion happens in your browser.
+h1: Base64 Encoder & Decoder
+steps: Choose encode or decode. | Paste your text or Base64 string. | Copy the result or download it.
+faq: Is Base64 encryption?=No. Base64 is an encoding, not encryption – anyone can decode it. Never use it to protect passwords or secrets. || What is URL-safe Base64?=A variant (RFC 4648 §5) that uses - and _ instead of + and / and usually omits = padding, so the result can be used in URLs, file names and JSON Web Tokens.
+intro: Base64 turns any data into plain ASCII letters, digits and a few symbols, so it can travel safely through systems built for text, such as email, JSON, XML and HTTP headers. This tool encodes and decodes text with correct UTF-8 handling, so accented letters, emoji and non-Latin scripts survive the round trip.
+uses: Decode the payload of a JSON Web Token (JWT) to inspect its claims. | Encode credentials for HTTP Basic authentication headers while testing. | Decode Base64 strings found in emails, logs, API responses or configuration. | Encode small snippets for data URIs, Kubernetes secrets or environment variables.
+tips: Data grows by about 33% when Base64-encoded – keep large files as binary where possible. | Decoding ignores whitespace and line breaks, so you can paste wrapped MIME text. | Use URL-safe mode for anything placed in a URL or file name. | For images and files, use the Image to Base64 tool, which creates data URIs.
+## How Base64 works
+Every three bytes of input (24 bits) are split into four groups of six bits, and each group is mapped to one of 64 characters: A–Z, a–z, 0–9, + and /. When the input is not a multiple of three bytes, = signs pad the end. Because text is converted to UTF-8 bytes first, “é” becomes two bytes and “👍” four, which is why short non-English strings can produce longer Base64.
+## Common pitfalls
+Many simple tools use the browser's btoa function directly, which fails on any character outside Latin-1. This encoder converts text to UTF-8 first, matching how servers and most programming languages behave. If decoded text looks garbled, the original data was probably binary (an image or a zip) or used a different character set, such as Windows-1252 or Shift_JIS.
+@urlenc
+name: URL Encode & Decode
+short: Percent-encode or decode URLs and query strings.
+title: URL Encoder & Decoder – Percent-Encode Online | {brand}
+desc: Encode or decode URLs and query strings with percent-encoding. Shows URL parts and query parameters. Free, instant and private – runs in your browser.
+h1: URL Encoder & Decoder
+steps: Paste a URL or text. | Choose encode, encode full URL or decode. | Copy the result.
+faq: What is the difference between encoding a component and a full URL?=Component encoding escapes every reserved character, including / ? & =, and is used for single query values. Full-URL encoding keeps those characters so the URL structure stays intact. || Why do spaces become %20 or +?=%20 is the standard for URLs; + means a space only in HTML form data (application/x-www-form-urlencoded).
+intro: URLs may only contain a limited set of ASCII characters. Spaces, accented letters, emoji and symbols such as & or # must be percent-encoded, otherwise links break or parameters are misread. This tool encodes and decodes text using the same rules as browsers and shows each part of a URL, including every query parameter.
+uses: Build tracking links with UTM parameters that contain spaces or special characters. | Decode long redirect or affiliate URLs to see where they really go. | Debug API requests with encoded query strings. | Encode non-English search terms and file names for links.
+tips: Encode each query value separately rather than the whole URL. | Decode suspicious links before clicking to check the real destination. | Remember that # starts a fragment – encode it as %23 inside values. | Use the parts table to spot duplicated or missing parameters.
+## Percent-encoding explained
+Each unsafe byte is written as % followed by two hexadecimal digits. Text is first converted to UTF-8, so “café” becomes caf%C3%A9 and “東京” becomes %E6%9D%B1%E4%BA%AC. Letters, digits and - _ . ~ are never encoded. Reserved characters such as : / ? # [ ] @ ! $ & ' ( ) * + , ; = have special meaning and must be encoded when used as data.
+## Internationalised links
+Modern browsers display Unicode in the address bar, but the underlying request always uses percent-encoded paths and Punycode for domain names. When you share links in emails, documents or QR codes, the encoded form is the most reliable and works with every app and device.
+@hash
+name: Hash Generator
+short: MD5, SHA-1, SHA-256, SHA-512 and CRC32 for text or files.
+title: Hash Generator – MD5, SHA-256, SHA-512 Online | {brand}
+desc: Generate MD5, SHA-1, SHA-256, SHA-384, SHA-512 and CRC32 hashes or HMACs for text and files, and verify checksums. Files are hashed locally and never uploaded.
+h1: Hash Generator (MD5, SHA-256, SHA-512)
+steps: Type text or choose a file. | All hashes are calculated instantly. | Paste an expected hash to verify a download.
+faq: Which hash should I use?=Use SHA-256 or SHA-512 for integrity checks and security. MD5 and SHA-1 are broken for security purposes but are still used to match legacy checksums. || Can I hash large files?=Yes, files of several hundred megabytes work on most computers because hashing happens locally in your browser; very large files depend on available memory.
+intro: A hash is a short fingerprint of data: change even one bit and the hash changes completely. Hashes are used to verify downloads, detect duplicate files, store passwords securely (with special slow algorithms) and sign API requests. This generator calculates the common algorithms for any text or file and can confirm that a file matches the checksum published by its author.
+uses: Verify that a downloaded installer or ISO matches the SHA-256 checksum on the official site. | Generate HMAC-SHA256 signatures to test webhook and API authentication. | Find duplicate files by comparing their hashes. | Create cache keys and ETags during development.
+tips: Copy the expected checksum into the compare box – a green row confirms the match. | Hashes of text depend on exact bytes; a trailing space or line break gives a different result. | Never store passwords as plain MD5 or SHA hashes; use bcrypt, scrypt or Argon2. | CRC32 is for detecting accidental errors only, not tampering.
+## How hashes are calculated here
+SHA-1 and the SHA-2 family use your browser's built-in Web Crypto API, the same audited code used for HTTPS. MD5 and CRC32 are implemented in JavaScript because browsers do not provide them. Text is converted to UTF-8 bytes first, which matches the output of command-line tools such as sha256sum on Linux and macOS or Get-FileHash in Windows PowerShell.
+## HMAC for APIs
+An HMAC combines a secret key with the message, so only someone with the key can produce the same value. Payment providers, chat platforms and cloud services use HMAC-SHA256 to sign webhooks. Enter the key in the options to generate HMACs for SHA-1, SHA-256, SHA-384 and SHA-512 and compare them with the signature your server receives.
+@uuid
+name: UUID Generator
+short: Random v4 and time-ordered v7 UUIDs in bulk.
+title: UUID Generator – Random v4 & v7 UUIDs/GUIDs Online | {brand}
+desc: Generate random UUID v4 or time-ordered UUID v7 identifiers in bulk – up to 1,000 at once, with uppercase, braces and no-hyphen options. Uses your browser's secure random generator.
+h1: UUID / GUID Generator
+steps: Choose the UUID version and how many. | Pick a format: hyphens, uppercase or braces. | Copy all or download the list.
+faq: Are the UUIDs really unique?=Version 4 UUIDs have 122 random bits. Generating a billion per second for about 85 years would give a 50% chance of a single collision, so in practice they are unique. || Is a GUID the same as a UUID?=Yes. GUID is Microsoft's name for the same 128-bit identifier; Windows often writes them in uppercase inside braces.
+intro: A UUID (universally unique identifier) is a 128-bit value such as 3f2b8c1e-9d4a-4f6b-a2c7-1e5d9b0f7a42 that can be created anywhere without coordination and still be unique. This generator creates version 4 (random) and version 7 (time-ordered) UUIDs using the browser's cryptographically secure random generator.
+uses: Create primary keys for databases and distributed systems. | Generate IDs for test data, fixtures and API mocks. | Create unique file names, session IDs and correlation IDs for logs. | Produce GUIDs for Windows, .NET and COM registrations.
+tips: Prefer UUID v7 for database primary keys – they sort by creation time, which keeps indexes efficient. | Store UUIDs as native UUID or 16-byte binary types rather than 36-character strings when possible. | Do not use UUIDs as secrets or password reset tokens; use a dedicated random token. | Use uppercase with braces for Windows registry and Visual Studio project files.
+## v4 or v7?
+Version 4 UUIDs are completely random, which is ideal when you do not want identifiers to reveal anything. Version 7, standardised in RFC 9562 in 2024, starts with a 48-bit Unix timestamp in milliseconds followed by random bits. Records created later get larger IDs, so B-tree indexes in PostgreSQL, MySQL and SQL Server stay compact, and you can roughly tell when a record was created.
+## Format variations
+The canonical form is 32 lowercase hexadecimal digits in groups of 8-4-4-4-12. Some systems want them without hyphens (32 characters), in uppercase, or wrapped in braces. The nil UUID, all zeros, is used as a placeholder for “no value”.
+@regex
+name: Regex Tester
+short: Test regular expressions with live highlighting.
+title: Regex Tester – Test Regular Expressions Online | {brand}
+desc: Test JavaScript regular expressions with live match highlighting, capture groups, named groups and replace preview. Includes a cheat sheet. Free and runs in your browser.
+h1: Regex Tester
+steps: Enter a pattern and flags. | Paste your test text – matches are highlighted live. | Inspect groups or preview a replacement.
+faq: Which regex flavour is used?=JavaScript (ECMAScript 2024), which supports lookbehind, named groups, Unicode property escapes like \p{L} and the s (dotAll) flag. Most patterns also work in Python, PCRE, Java and .NET with small differences. || Why does my pattern match empty strings?=Patterns using * or ? can match zero characters. Use + instead of * when at least one character is required.
+intro: Regular expressions are powerful but easy to get wrong. This tester highlights every match as you type, lists capture groups and their positions, and previews search-and-replace results, so you can build and debug patterns for validation, parsing and text clean-up with confidence.
+uses: Build validation patterns for emails, phone numbers, postcodes and IDs. | Extract data such as dates, prices or URLs from logs and documents. | Test find-and-replace patterns before using them in VS Code, Sublime or a script. | Learn regex step by step with the built-in cheat sheet.
+tips: Start simple and add complexity one piece at a time. | Use ^ and $ with the m flag to match whole lines. | Escape special characters such as . ? + * ( ) [ ] with a backslash when you mean them literally. | Prefer specific character classes such as [^,]+ over .* to avoid matching too much.
+## Flags explained
+g finds all matches instead of only the first, i ignores case, m makes ^ and $ match at line breaks, s lets . match newlines, u enables full Unicode support including \p{…} classes, and y (sticky) matches only at the current position. The tester always searches globally for highlighting, but respects your flags for the replace preview.
+## Validating international data
+Real-world data is global. Names include accents and non-Latin scripts, postcodes vary from 3 to 10 characters, and phone numbers have many formats. Use \p{L} for letters in any language, avoid overly strict patterns for names and addresses, and for phone numbers consider the international E.164 format: a plus sign followed by up to 15 digits.
+@minify
+name: HTML, CSS & JS Minifier
+short: Minify HTML, CSS and JavaScript to shrink files.
+title: HTML, CSS & JavaScript Minifier – Free Online | {brand}
+desc: Minify HTML, CSS and JavaScript online to reduce file size and speed up websites. JavaScript is compressed with Terser. Free, private and runs in your browser.
+h1: HTML, CSS & JavaScript Minifier
+steps: Paste HTML, CSS or JavaScript. | The language is detected automatically, or choose it. | Copy the minified code or download the file.
+faq: Will minifying break my code?=Minification removes whitespace and comments and shortens local variable names without changing behaviour. Test the result, especially for HTML with whitespace-sensitive inline elements. || Which JavaScript features are supported?=Modern ES2023 syntax, including modules, classes, async/await and optional chaining, via the Terser engine.
+intro: Every byte a visitor downloads slows your site a little, especially on mobile networks. Minifying removes comments, whitespace and unnecessary characters from HTML, CSS and JavaScript, often cutting file size by 20–60%. This tool uses Terser, the same JavaScript minifier used by popular build tools, plus fast CSS and HTML minifiers, all running in your browser.
+uses: Shrink CSS and JavaScript for small sites without a build pipeline. | Minify HTML email templates and landing pages. | Prepare compact code snippets for widgets, bookmarklets and embeds. | Check how much smaller your files could be before setting up a bundler.
+tips: Keep the original, readable source – minified code is hard to edit. | Turn off mangling if other scripts call your global variable names. | Combine minification with gzip or Brotli on your server for the best results. | Use the JSON formatter's minify mode for JSON files.
+## What each minifier does
+The CSS minifier removes comments and whitespace, drops the last semicolon in each block and shortens colours such as #ffffff to #fff. The HTML minifier collapses whitespace between tags and removes comments, while leaving pre, textarea, script and style blocks untouched unless you choose to minify inline code. JavaScript is parsed into a syntax tree by Terser, compressed and printed without comments.
+## Minification and Core Web Vitals
+Smaller files load and parse faster, which helps Largest Contentful Paint and Interaction to Next Paint, two of Google's Core Web Vitals. For large sites, a build tool such as Vite or esbuild is the best long-term option; for small sites, landing pages and quick fixes, this minifier gets you most of the benefit in seconds.
+@colorconv
+name: Color Converter
+short: HEX, RGB, HSL, HSV and CMYK with contrast check.
+title: Color Converter – HEX to RGB, HSL, CMYK Online | {brand}
+desc: Convert colours between HEX, RGB, HSL, HSV/HSB and CMYK, check WCAG contrast on white and black, and get tints and shades. Free colour code converter.
+h1: Color Converter (HEX, RGB, HSL, CMYK)
+steps: Enter a colour in any format or pick one. | See every format instantly. | Copy the code or click a tint or shade.
+faq: Is the CMYK value print-accurate?=It is a simple mathematical conversion. Real print colours depend on the printer, paper and colour profile (such as FOGRA39 in Europe or GRACoL in the US), so ask your printer for a proof for brand-critical work. || What contrast ratio do I need?=WCAG 2.2 level AA needs 4.5:1 for normal text and 3:1 for large text; level AAA needs 7:1.
+intro: Designers, developers and marketers juggle colour formats all the time: HEX in CSS, RGB in design apps, HSL for theming, CMYK for print. Type any colour – a hex code, an rgb() or hsl() value, a CMYK value or a CSS colour name such as “tomato” – and get every format at once, plus an accessibility contrast check and a palette of tints and shades.
+uses: Convert brand colours from a style guide into CSS-ready codes. | Check that text colours pass WCAG contrast requirements. | Create lighter and darker variants for hover states and themes. | Translate screen colours into approximate CMYK for print briefs.
+tips: Use HSL when building themes – changing only lightness keeps the same hue. | Check contrast for both light and dark mode backgrounds. | Click any swatch to copy its HEX code. | For colours taken from a photo, use the Color Picker from Image tool.
+## Colour models in brief
+RGB mixes red, green and blue light and is how screens work. HEX is simply RGB written in hexadecimal. HSL and HSV describe colour by hue (0–360°), saturation and lightness or brightness, which is more intuitive for adjusting colours. CMYK describes cyan, magenta, yellow and black inks for print. Conversions between RGB-based models are exact; CMYK is an approximation without a colour profile.
+## Accessible colour choices
+Around 1 in 12 men and 1 in 200 women have some form of colour vision deficiency, and many people read screens in bright sunlight. Good contrast helps everyone. The contrast ratios here follow the WCAG formula based on relative luminance, the same method used by Lighthouse and accessibility checkers, and they are required by laws and standards such as the European Accessibility Act and the ADA.

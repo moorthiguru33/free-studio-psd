@@ -1,0 +1,90 @@
+@percent
+name: Percentage Calculator
+short: X% of Y, percentage change, increase and decrease.
+title: Percentage Calculator – % of, % Change, Increase | {brand}
+desc: Free percentage calculator: find X% of Y, what percent X is of Y, percentage change, increase or decrease by a percent, reverse percentages and percentage points.
+h1: Percentage Calculator
+steps: Choose the type of calculation. | Enter the two numbers. | Read the answer and the related results below.
+faq: How do I calculate percentage change?=Subtract the old value from the new value, divide by the old value and multiply by 100. From 80 to 100 is (100 − 80) ÷ 80 × 100 = 25% increase. || Why is a 50% drop not reversed by a 50% rise?=Percentages apply to different bases. 100 falls 50% to 50, but 50 must rise 100% to get back to 100.
+intro: Percentages appear everywhere – discounts, tips, exam marks, interest rates, inflation, election results and business reports. This calculator answers the eight most common percentage questions and, for the numbers you enter, shows the results of all the other questions too, so you can quickly sanity-check your thinking.
+uses: Work out tips, service charges and sales tax. | Calculate exam scores and grade percentages. | Measure growth in revenue, followers, prices or population. | Find the original price before a discount or tax was applied.
+tips: For “what is the original amount”, use “X is Y% of what?” rather than adding the percentage back. | Use percentage points when comparing two percentages, such as interest rates. | Percentage difference is symmetric and is used in science; percentage change depends on the starting value. | Commas in large numbers are ignored, so 1,250 works.
+## Percent vs percentage points
+If an interest rate rises from 4% to 5%, it has gone up by 1 percentage point – but by 25% in relative terms. News reports and financial statements mix these up surprisingly often. The calculator shows both, so you can quote figures correctly in reports, presentations and articles.
+## Mental shortcuts
+10% of any number moves the decimal point one place left; 5% is half of that; 1% moves it two places. So 15% of 80 is 8 + 4 = 12. Also, X% of Y always equals Y% of X: 8% of 50 is the same as 50% of 8, which is 4. These tricks help you check that the calculator's answer is in the right ballpark.
+@age
+name: Age Calculator
+short: Exact age in years, months and days.
+title: Age Calculator – Exact Age in Years, Months, Days | {brand}
+desc: Calculate exact age in years, months and days from a date of birth, plus total weeks, days, hours, the weekday you were born and a countdown to your next birthday.
+h1: Age Calculator
+steps: Enter the date of birth. | Optionally change the “age on” date. | See age in years, months, days and totals.
+faq: How are leap-year birthdays handled?=For people born on 29 February, the next birthday in non-leap years is shown as 1 March, the rule used in many countries' laws. Some places use 28 February instead. || Can I calculate age on a past or future date?=Yes. Change “Age on date” to find how old someone was or will be on a specific day, for example an exam cut-off date.
+intro: Calculating an exact age by hand is fiddly because months have different lengths and leap years add an extra day. This age calculator gives the precise age in years, months and days, plus totals in months, weeks, days and hours, the day of the week someone was born, and how many days remain until their next birthday.
+uses: Check eligibility for school entry, sports categories, visas, pensions or competitions on a cut-off date. | Fill in forms that ask for age in years and months. | Find out how many days old you are for a fun milestone like 10,000 days. | Calculate the age of a company, building, pet or relationship.
+tips: Always use the cut-off date stated by the organisation, not today's date. | Ages are calculated from calendar dates, so time zones do not matter. | For age in another calendar system, convert the date first. | Use the Date Difference Calculator for working days between dates.
+## How age is calculated
+The calculator counts full years first, then full months, then remaining days, borrowing days from the previous month when needed – the same method used on official forms. For example, from 31 January to 1 March is 1 month and 1 day in a non-leap year. Totals such as days and weeks are exact counts of calendar days between the two dates.
+## Age conventions around the world
+Most countries use the international age system shown here, where you are 0 at birth and gain a year on each birthday. South Korea officially switched to this system in 2023, replacing its traditional counting; parts of East Asia still use traditional reckoning informally. When forms ask for age, use the international system unless told otherwise.
+@bmi
+name: BMI Calculator
+short: Body mass index in metric or imperial units.
+title: BMI Calculator – Body Mass Index (kg/cm or lb/ft) | {brand}
+desc: Calculate your body mass index with metric or imperial units. See WHO categories, an optional Asian cut-off scale, healthy weight range and BMI Prime. Free and private.
+h1: BMI Calculator
+steps: Choose metric or imperial units. | Enter weight and height. | See BMI, category and healthy weight range.
+faq: What is a healthy BMI?=For adults, the World Health Organization classes 18.5–24.9 as normal weight, 25–29.9 as overweight and 30 or more as obesity. || Is BMI accurate for athletes?=Not always. BMI cannot tell muscle from fat, so very muscular people may be classed as overweight. Waist measurement and body composition give extra information.
+intro: Body mass index is a quick screening measure that relates weight to height. It is used by doctors, insurers and health services worldwide as a first indication of whether weight might affect health. This calculator works in kilograms and centimetres or pounds, feet and inches, and shows your category, the healthy weight range for your height and BMI Prime.
+uses: Check your BMI as part of a general health review. | Track changes over time during a fitness or weight plan. | Find a healthy target weight range for your height. | Compare metric and imperial measurements easily.
+tips: Measure height without shoes and weight at the same time of day for consistency. | Use the Asian cut-offs if you are of Asian descent; risk rises at lower BMI. | Do not use adult BMI categories for children and teenagers – they need age- and sex-specific charts. | Treat BMI as a starting point and talk to a health professional for advice.
+## The formula
+BMI equals weight in kilograms divided by height in metres squared. For imperial units, the calculator converts pounds to kilograms (× 0.4536) and inches to centimetres (× 2.54) first. For example, 70 kg and 1.75 m gives 70 ÷ (1.75 × 1.75) = 22.9. BMI Prime is your BMI divided by the upper limit of the normal range, so values above 1.0 indicate overweight.
+## Asian cut-off points
+A WHO expert consultation found that people of Asian descent often have higher health risks at lower BMI values. Many countries in Asia therefore use 23 as the threshold for overweight and 27.5 for higher risk. Tick the option to apply these cut-offs. The calculator gives information only and is not medical advice; your data never leaves your device.
+@loan
+name: Loan & Mortgage Calculator
+short: Monthly payment, total interest and amortisation.
+title: Loan & Mortgage Calculator – Monthly Payment & Schedule | {brand}
+desc: Calculate monthly loan or mortgage payments, total interest and payoff time, with extra payments and a downloadable amortisation schedule. Works with any currency.
+h1: Loan & Mortgage Calculator
+steps: Enter the loan amount, interest rate and term. | Choose payment frequency and optional extra payments. | See the payment, total interest and download the schedule as CSV.
+faq: Does the payment include tax and insurance?=No. It shows principal and interest only. Mortgages may also include property tax, home insurance or mortgage insurance, which vary by country and lender. || How much do extra payments save?=Even small extra payments reduce the balance earlier, so less interest builds up. Enter an extra amount to see the interest saved and the shorter payoff time.
+intro: Before you take out a mortgage, car loan or personal loan, it helps to know exactly what you will pay each month and in total. This calculator uses the standard amortisation formula used by banks worldwide to show your regular payment, the split between principal and interest, the total cost of borrowing and a year-by-year schedule you can download as a CSV spreadsheet.
+uses: Compare mortgage offers with different rates and terms. | Decide between a 15-, 20-, 25- or 30-year mortgage. | Work out car or student loan repayments. | See how much faster you could be debt-free with extra payments.
+tips: Small rate differences matter: 0.5% on a large mortgage can mean tens of thousands in interest. | A shorter term has higher payments but far lower total interest. | Check whether your lender charges early repayment fees before overpaying. | Compare offers using the annual percentage rate (APR), which includes fees.
+## The amortisation formula
+The regular payment is P × r ÷ (1 − (1 + r)^−n), where P is the amount borrowed, r is the interest rate per period and n is the number of payments. Early payments are mostly interest because the balance is high; over time, more of each payment goes towards the principal. The year-by-year table makes this shift easy to see.
+## Mortgages in different countries
+Loan structures vary. Thirty-year fixed mortgages are common in the United States, while the UK, Canada and Australia typically fix the rate for 2–5 years within a 25–30-year term, and many European and Asian loans use variable rates. Use the current rate for the whole term to estimate payments, then rerun the numbers with a higher rate to test whether you could afford a rise.
+@discount
+name: Discount Calculator
+short: Sale price, savings, stacked discounts and tax.
+title: Discount Calculator – Sale Price & Percent Off | {brand}
+desc: Calculate the sale price and savings for any percent off, including stacked discounts and sales tax or VAT. Also find the discount percentage from two prices.
+h1: Discount Calculator
+steps: Enter the original price and discount. | Add an extra discount or tax if needed. | See the final price and how much you save.
+faq: Is 20% off plus 10% off the same as 30% off?=No. Stacked discounts multiply: 20% then 10% gives 28% off, because the second discount applies to the already reduced price. || How do I find the discount percentage?=Use the reverse section: divide the sale price by the original price, subtract from 1 and multiply by 100.
+intro: Sales, coupons and promotions are designed to sound generous, but stacked discounts and taxes make the real price hard to judge. This calculator shows exactly what you will pay and how much you save, handles “extra 10% off sale prices”, and adds sales tax at checkout or works out the VAT already included in a price.
+uses: Check the real price during Black Friday, Boxing Day and seasonal sales. | Compare a percentage discount with a fixed coupon. | Set sale prices for your shop or online store. | Work out VAT or GST included in a receipt total.
+tips: Compare the final price, not the percentage – a bigger discount on a higher price can still cost more. | In the US and Canada tax is usually added at checkout; in the UK, EU, Australia and India it is typically included. | Use the reverse calculation to check whether a “was/now” price is really a bargain. | Track prices over time; some retailers raise prices before a sale.
+## Stacked discounts explained
+When a store offers an extra discount on sale items, each discount applies to the result of the previous one. 40% off followed by an extra 20% off means you pay 60% × 80% = 48% of the original price, a 52% discount rather than 60%. The calculator shows this effective discount so there are no surprises at the till.
+## Tax added or included
+Prices in North America usually exclude sales tax, which varies by state, province or city. Most other countries show prices including VAT or GST, often 5–27%. Choose “already included” to see how much of the price is tax – useful for business expense claims and VAT refunds for tourists.
+@datediff
+name: Date Difference Calculator
+short: Days, weeks, months and working days between dates.
+title: Date Difference Calculator – Days Between Dates | {brand}
+desc: Calculate the number of days, weeks, months and years between two dates, count working days excluding weekends and holidays, and add or subtract days from a date.
+h1: Date Difference Calculator
+steps: Choose a start and end date. | Set weekend days and optional holidays. | See total days, working days and more.
+faq: Is the end date included?=By default no – from Monday to Friday is 4 days. Tick “Include the end date” to count both days, which gives 5, as is common for leave and booking periods. || Can I use Friday–Saturday weekends?=Yes. Choose the weekend days used in your country, such as Friday–Saturday in parts of the Middle East or Sunday only in some countries.
+intro: How many days until a deadline, a holiday or a due date? How many working days does a project have? This calculator counts the exact time between two dates in days, weeks, months and years, counts business days while excluding weekends and public holidays, and can add or subtract days from a date to find a future or past deadline.
+uses: Plan project timelines and count working days to a deadline. | Calculate notice periods, contract terms and payment terms such as net 30. | Count days until a wedding, exam, trip or product launch. | Work out leave days or the length of a stay for visa rules.
+tips: Add your country's public holidays to get accurate working days. | Use “Include the end date” for hotel nights versus days of leave appropriately. | For age calculations, use the Age Calculator. | Results use calendar dates, so daylight saving changes do not affect them.
+## Working days around the world
+Most of the world uses a Saturday–Sunday weekend, but some countries in the Middle East use Friday–Saturday, others have a Friday-only or Sunday-only weekend, and many businesses work six days a week. Choose the pattern that matches your workplace, then list holidays as dates separated by commas, such as 2026-12-25, 2026-12-26.
+## Adding days to a date
+Payment terms, delivery estimates and legal deadlines are often expressed as “within 30 days”. Enter a number of days in “Add / subtract days” to see the resulting date and weekday. Use a negative number to go backwards, for example to find when a 90-day window started.
