@@ -1,0 +1,10 @@
+const {chromium}=require('playwright-core');const {PDFDocument,StandardFonts}=require('pdf-lib');const fs=require('fs');const B=process.env.BASE||'http://localhost:8099';
+(async()=>{const d=await PDFDocument.create();const f=await d.embedFont(StandardFonts.Helvetica);for(let i=1;i<=4;i++){const p=d.addPage([400,500]);p.drawText('Page '+i+' mail a.b@ex.com call +1 555 123 4567 in 2025',{x:60,y:300,size:10,font:f});}fs.writeFileSync('/tmp/c4.pdf',await d.save());
+const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});const p=await ctx.newPage();p.on('pageerror',e=>console.log('PAGEERR',e.message));
+const go=async(slug,prep)=>{try{await p.goto(`${B}/${slug}/`);await p.setInputFiles('input[type=file]','/tmp/c4.pdf');await p.waitForTimeout(2000);await p.$$eval('#tool details',d=>d.forEach(x=>x.open=true));if(prep)await prep();await p.click('#go');await p.waitForSelector('#dl',{state:'visible',timeout:40000});const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const buf=fs.readFileSync(await dl.path());const pd=await PDFDocument.load(buf);const pg=pd.getPage(0);console.log(slug,'OK pages',pd.getPageCount(),'size',Math.round(pg.getWidth()),Math.round(pg.getHeight()),'|',(await p.textContent('#status').catch(()=>'')||'').slice(0,80));}catch(e){console.log(slug,'FAIL',e.message.slice(0,150))}};
+await go('crop-pdf',async()=>{await p.selectOption('#cmode','auto');});
+await go('grayscale-pdf',async()=>{await p.selectOption('#gmode',{index:1});});
+await go('redact-pdf',async()=>{await p.check('#remail');await p.check('#rphone');});
+await go('pdf-header-footer',async()=>{await p.fill('#hfskip','1');});
+await go('find-and-replace-pdf',async()=>{await p.fill('#frfind','2025');await p.fill('#frrep','2026');await p.fill('#frlist','Page => Pg');});
+await b.close();})();

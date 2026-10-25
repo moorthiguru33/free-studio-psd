@@ -1,0 +1,2476 @@
+{
+"tools": {
+"crop": {
+"seo": {
+"title": "Crop PDF – Auto Crop White Margins or Set mm, Free",
+"desc": "Crop PDF pages free: auto crop white margins with padding, or trim exact mm from each side, on all or selected pages. No upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Crop PDF pages online, automatically or precisely",
+"Crop PDF trims the edges of PDF pages. Use **Auto crop** to remove white margins around the content automatically, with a little padding so nothing feels cramped, or switch to **Manual** to cut an exact number of millimetres from the top, right, bottom and left. You can crop every page or only a range such as 2-10, and the result is a new PDF – your original file is not changed.",
+"Cropping is ideal for reading PDFs on a phone or e-reader (wide margins waste screen space), preparing figures and diagrams for slides, removing scanner borders and black edges, cutting printer's marks from print-ready files, and tidying screenshots that were saved as PDF."
+],
+[
+"Auto crop: trim white margins",
+"Auto crop renders each page on your device, finds the outermost non-white pixels, and sets the crop box just outside them plus the padding you choose (3 mm by default). With **Same crop box on every page** ticked, the tool uses the smallest margin found across all selected pages, so every page keeps the same size and content never jumps around when you flip pages – best for books and reports. Untick it to crop each page tightly to its own content, which suits figure collections and scanned receipts of different sizes.",
+"Pages that are rotated in the file are left as they are in auto mode, and completely blank pages are skipped."
+],
+[
+"Manual crop in millimetres",
+{
+"table": [
+[
+"You want to…",
+"Set"
+],
+[
+"Remove a 1 cm scanner border",
+"10 mm on every side"
+],
+[
+"Cut printer's crop marks from an A4 file with 3 mm bleed",
+"Measure the marks; often 10–15 mm per side"
+],
+[
+"Keep only the top half of a page",
+"Bottom = half the page height (148 mm for A4)"
+],
+[
+"Remove a header band",
+"Top = height of the header"
+]
+]
+},
+"One millimetre is about 2.83 PDF points. If the margins you enter add up to more than the page width or height, you will see an error naming the page, so nothing is cropped by mistake."
+],
+[
+"How to crop a PDF for free",
+{
+"steps": [
+"Drop the PDF on this page.",
+"Choose Auto crop (and padding) or Manual margins in mm.",
+"Optionally type a page range such as 1-3,5.",
+"Press Crop and download the cropped PDF."
+]
+}
+],
+[
+"Is cropping permanent?",
+"PDF cropping works by changing the page's visible area – the crop box, media box, trim box and bleed box are all set to the new size, so every viewer and printer shows the cropped page. The content outside the box is hidden, not erased, which keeps quality perfect and the operation lossless. If you need hidden content to be truly gone (for example, confidential notes in a margin), use [Redact PDF](/redact-pdf/) or [Flatten PDF](/flatten-pdf/) in *all content* mode afterwards."
+],
+[
+"Crop PDF to JPG",
+"To get a cropped picture rather than a PDF – a figure for a presentation or a website – crop here first, then convert the result with [PDF to JPG](/pdf-to-jpg/) or [PDF to PNG](/pdf-to-png/). Because the crop box is respected, the images contain only the area you kept."
+],
+[
+"Crop vs resize",
+"Cropping removes edges and makes the page smaller. [Resize PDF](/resize-pdf/) changes the paper size – for example, from Letter to A4 – by scaling the content to fit. If a document must be a specific paper size after cropping, crop first and then resize."
+],
+[
+"Tips for the best result",
+{
+"list": [
+"For books, keep *same crop box* on so pages line up; for mixed documents, turn it off.",
+"Add 2–5 mm padding to avoid text touching the edge on e-readers.",
+"Scanned pages with grey backgrounds or dark borders may not count as ‘white’; use manual crop or clean the scan first.",
+"Crop only the pages that need it by entering a range – covers often have different margins.",
+"Check the first and last page after cropping: page numbers in the footer are content too and will be kept."
+]
+}
+],
+[
+"Crop PDF online vs desktop software",
+"Desktop editors can crop pages, but usually require a paid licence. Most online croppers upload your file to a server. This tool gives you auto and manual cropping for free, entirely in your browser – useful for contracts, drawings and other files you would rather not upload."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Crop box",
+"The visible area of a page in a PDF"
+],
+[
+"Media box",
+"The full size of the page's ‘paper’"
+],
+[
+"Bleed / trim box",
+"Print-production areas; set to the crop size here"
+],
+[
+"Padding",
+"Extra space kept around content in auto crop"
+]
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Resize PDF](/resize-pdf/)",
+"[PDF to JPG](/pdf-to-jpg/)",
+"[Redact PDF](/redact-pdf/)",
+"[Split PDF pages in half](/split-pdf-pages-in-half/)",
+"[Rotate PDF](/rotate-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Auto crop white margins",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact margins in mm",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page range",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Same box on all pages option",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I crop a PDF?",
+"a": "Drop the PDF, choose auto crop or manual margins in mm, and download the cropped file."
+},
+{
+"q": "Can I crop PDF pages for free?",
+"a": "Yes, with no sign-up, watermark or limit."
+},
+{
+"q": "Can I auto crop a PDF?",
+"a": "Yes, auto crop removes white margins automatically with optional padding."
+},
+{
+"q": "Can I crop only some pages?",
+"a": "Yes, type a range such as 2-10."
+},
+{
+"q": "Does cropping reduce quality?",
+"a": "No, it only changes the visible area; content is not re-rendered."
+},
+{
+"q": "Is cropped content deleted?",
+"a": "It is hidden. Use Redact PDF to remove it permanently."
+},
+{
+"q": "How do I crop a PDF to JPG?",
+"a": "Crop here, then convert with PDF to JPG."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, cropping runs in your browser."
+}
+],
+"related": [
+"resize-pdf",
+"pdf-to-jpg",
+"redact-pdf",
+"split-pdf-pages-in-half",
+"rotate-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"grayscale": {
+"seo": {
+"title": "Convert PDF to Grayscale or Black & White Free",
+"desc": "Convert PDF to grayscale or pure black and white with an adjustable threshold. Three quality levels. Free, no upload, no sign-up, works offline.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Convert a PDF to grayscale or black and white",
+"This tool removes colour from a PDF. **Grayscale** turns every colour into a matching shade of grey – the look of a good black-and-white photocopy, keeping photos and charts readable. **Black & white** goes further and turns every pixel pure black or pure white using a threshold you control, which gives crisp, high-contrast pages for text documents, forms and signatures, and the smallest files for scans.",
+"Common reasons: a print shop or court filing system requires grayscale, you want to print without using colour ink, a coloured background makes a scan hard to read, or you need to shrink a colourful scanned document."
+],
+[
+"Grayscale vs black and white",
+{
+"table": [
+[
+"",
+"Grayscale",
+"Black & white"
+],
+[
+"Colours",
+"256 shades of grey",
+"Only black and white"
+],
+[
+"Photos",
+"Keep detail",
+"Become harsh, posterised"
+],
+[
+"Text scans",
+"Good",
+"Sharpest, removes paper tint"
+],
+[
+"File size",
+"Smaller than colour",
+"Usually smallest"
+],
+[
+"Best for",
+"Mixed documents, reports",
+"Contracts, forms, letters, receipts"
+]
+]
+},
+"If you are unsure, start with grayscale. Use black and white when the pages are mostly text and you want them to look like a clean fax or laser print."
+],
+[
+"Choosing the black & white threshold",
+"Each pixel's brightness (0 = black, 255 = white) is compared with the threshold. The default of 160 works for most office documents. Raise it (180–200) if light or thin text disappears; lower it (120–140) if grey paper, stains or a coloured background turn into black speckles. Run it once, check the result, and adjust – it only takes seconds."
+],
+[
+"Quality levels",
+{
+"table": [
+[
+"Level",
+"Render scale",
+"Use"
+],
+[
+"High",
+"2× (≈144 dpi)",
+"Printing, small text"
+],
+[
+"Medium",
+"1.5× (≈108 dpi)",
+"Screen reading, e-mail"
+],
+[
+"Small file",
+"1× (72 dpi)",
+"Smallest size; large text only"
+]
+]
+}
+],
+[
+"How to convert a PDF to grayscale",
+{
+"steps": [
+"Drop the PDF.",
+"Choose Grayscale or Black & white (and threshold).",
+"Pick a quality level.",
+"Convert and download."
+]
+}
+],
+[
+"What happens to text",
+"To guarantee every colour is removed – including colours inside images, gradients, transparency and embedded graphics – each page is rendered and saved as an image. The pages look exactly like the original in grey, but text is no longer selectable or searchable. If you need searchable text, run [OCR PDF](/ocr-pdf/) on the result, which adds an invisible text layer back. Keep your colour original for editing."
+],
+[
+"Printing in grayscale without converting",
+"Most print dialogs have a *grayscale* or *black and white* option, which is enough for one-off printing at home. Converting the file is better when you send it to someone else, upload it to a portal that rejects colour, want consistent results on any printer, or need a smaller file."
+],
+[
+"Can a grayscale PDF be turned back into colour?",
+"No – the colour information is removed. There is no reliable way to restore the original colours from a grey version, so always keep the colour original."
+],
+[
+"Convert PDF to grayscale online vs desktop software",
+"Desktop PDF suites offer colour conversion in their print-production tools, usually in paid editions. Most online converters upload your document first. Here, conversion runs in your browser, is free, and includes a true black-and-white mode that many tools lack."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Grayscale",
+"Image made only of shades of grey"
+],
+[
+"Black & white / monochrome",
+"Image with only pure black and pure white pixels"
+],
+[
+"Threshold",
+"Brightness level that decides black or white"
+],
+[
+"DPI",
+"Dots per inch; higher means sharper and larger files"
+]
+]
+}
+],
+[
+"Worked example",
+"A 30-page colour report costs a lot to print in colour. Convert it here with *Print* quality to get crisp grey text and images at 200 dpi, or choose *B&W* with the default threshold for pure black text on white paper – ideal for laser printers and for faxes. Compare file sizes in the result message."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[OCR PDF](/ocr-pdf/)",
+"[Compress PDF](/compress-pdf/)",
+"[Deskew PDF](/deskew-pdf/)",
+"[Flatten PDF](/flatten-pdf/)",
+"[PDF to JPG](/pdf-to-jpg/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"True black & white mode",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Adjustable threshold",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Quality levels incl. 200 dpi",
+"4",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a PDF to grayscale?",
+"a": "Drop the PDF, choose Grayscale, pick a quality and download."
+},
+{
+"q": "How do I convert a PDF to black and white, not grayscale?",
+"a": "Choose Black & white and adjust the threshold."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no sign-up or watermark."
+},
+{
+"q": "Will text stay selectable?",
+"a": "No, pages are rendered as images; run OCR to make them searchable again."
+},
+{
+"q": "Does grayscale make the file smaller?",
+"a": "Usually, especially for colour scans; black & white is often smallest."
+},
+{
+"q": "Can I convert grayscale back to colour?",
+"a": "No, the colour information is gone."
+},
+{
+"q": "What threshold should I use?",
+"a": "Start at 160; raise it if text vanishes, lower it if backgrounds turn black."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, conversion runs on your device."
+}
+],
+"related": [
+"ocr-pdf",
+"compress-pdf",
+"deskew-pdf",
+"flatten-pdf",
+"pdf-to-jpg"
+],
+"updated": "2026-10-25",
+"faqKw": [
+{
+"q": "How can I convert a PDF file to 200 dpi grayscale?",
+"a": "Choose Grayscale and the Print (200 dpi) quality level. Every page is rendered at 200 dpi in shades of grey and saved as a new PDF."
+}
+]
+}
+},
+"flatten": {
+"seo": {
+"title": "Flatten PDF – Lock Form Fields & Annotations Free",
+"desc": "Flatten PDF forms and annotations so they cannot be edited: flatten form fields only, or all content into page images. Free, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"What does it mean to flatten a PDF?",
+"Flattening merges interactive or layered parts of a PDF – fillable form fields, check boxes, drop-downs, comments, stamps and drawings – into the page itself. The document looks the same, but those elements stop being separate editable objects. A flattened form shows the answers as ordinary page content that cannot be changed by clicking into a field, and it prints and displays the same in every viewer.",
+"People flatten PDFs before sending completed applications, contracts or tax forms, before archiving, when a portal rejects files with form fields, and when filled-in answers disappear or look different in another app."
+],
+[
+"Two flatten modes",
+{
+"table": [
+[
+"Mode",
+"What happens",
+"Text selectable?",
+"Best for"
+],
+[
+"Form fields",
+"Each field's current value is drawn into the page and the field is removed",
+"Yes",
+"Completed forms, applications"
+],
+[
+"All content",
+"Every page is rendered and saved as an image",
+"No (run OCR to restore)",
+"Maximum lock-down, mixed annotations, odd viewer issues"
+]
+]
+},
+"Start with *Form fields*: it keeps the file small and text searchable. Use *All content* when annotations, layers or unusual form technology still appear editable or render differently across apps."
+],
+[
+"How to flatten a PDF for free",
+{
+"steps": [
+"Fill in the form first, in any PDF app or with [Fill PDF form](/fill-pdf-form/).",
+"Drop the PDF here.",
+"Choose Form fields or All content.",
+"Press Flatten and download."
+]
+}
+],
+[
+"How to flatten a PDF so it cannot be edited",
+"After flattening, form answers can no longer be changed by typing into fields. Bear in mind that any PDF can still be modified with an editor – flattening prevents accidental and casual changes, not determined tampering. For stronger protection, add a password with editing disabled using [Protect PDF](/protect-pdf/), and for proof of integrity use a certificate-based digital signature."
+],
+[
+"Does flattening decrease quality?",
+"*Form fields* mode does not touch the rest of the page, so quality is identical. *All content* mode renders pages at about 144 dpi with high JPEG quality, which looks sharp on screen and in normal printing, but text becomes part of an image and the file can grow for text-heavy documents. Use it when appearance matters more than size or searchability."
+],
+[
+"Flattening a large PDF",
+"Form-field flattening is quick even for long documents. All-content mode renders every page, so a 200-page file takes longer and the output may be larger; you can run [Compress PDF](/compress-pdf/) afterwards. A progress counter shows which page is being processed."
+],
+[
+"Why answers vanish without flattening",
+"Some viewers, mobile apps and print drivers do not display form field values correctly, especially when fields use custom fonts or scripts. The person receiving your form may see empty boxes. Flattening draws the values into the page so everyone sees the same thing."
+],
+[
+"Flatten PDF online vs desktop software",
+"Desktop editors can flatten through print-to-PDF or preflight tools, often in paid versions. Online services usually require uploading your completed form – including personal details like ID numbers and addresses. This tool flattens on your device, for free."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Form field",
+"An interactive box, check box or list in a PDF form"
+],
+[
+"Annotation",
+"A comment, highlight, stamp or drawing layered on a page"
+],
+[
+"Appearance stream",
+"The visual drawing of a field's value"
+],
+[
+"Rasterise",
+"Convert page content into a pixel image"
+]
+]
+}
+],
+[
+"Worked example",
+"A completed job application form has fields that look different on every viewer and can be changed by anyone. Drop it here, flatten, and send the result: the answers now look identical everywhere, print reliably, and can no longer be edited by mistake. Keep your fillable original in case you need to update an answer later."
+],
+[
+"When not to flatten",
+"Do not flatten a form that someone else still needs to fill in, or a document you will edit again. Flattening is a final step, like printing to paper: do it on a copy, just before sending or archiving."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Fill PDF form](/fill-pdf-form/)",
+"[Protect PDF](/protect-pdf/)",
+"[Sign PDF](/sign-pdf/)",
+"[Compress PDF](/compress-pdf/)",
+"[OCR PDF](/ocr-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Form-field flatten (keeps text)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Full-page flatten",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Reports number of fields flattened",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What does flatten PDF mean?",
+"a": "It merges form fields and annotations into the page so they can no longer be edited."
+},
+{
+"q": "How do I flatten a PDF?",
+"a": "Drop it here, choose a mode and download the flattened file."
+},
+{
+"q": "Can I flatten a PDF for free?",
+"a": "Yes, with no sign-up or watermark."
+},
+{
+"q": "Does flattening reduce quality?",
+"a": "Form-field mode keeps quality identical; all-content mode renders pages as images."
+},
+{
+"q": "Will text remain searchable?",
+"a": "Yes in form-field mode; no in all-content mode unless you run OCR."
+},
+{
+"q": "Can a flattened PDF be unflattened?",
+"a": "No, keep the original if you may need to edit the form again."
+},
+{
+"q": "Should I flatten before signing?",
+"a": "Fill and flatten first, then sign, so the signature covers the final content."
+},
+{
+"q": "Is my file uploaded?",
+"a": "No, flattening runs in your browser."
+}
+],
+"related": [
+"fill-pdf-form",
+"protect-pdf",
+"sign-pdf",
+"compress-pdf",
+"ocr-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"metadata": {
+"seo": {
+"title": "Edit PDF Metadata – Title, Author, Keywords Free",
+"desc": "Edit PDF metadata free: change title, author, subject, keywords, creator and producer, or strip all metadata for privacy. No upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Edit PDF metadata online",
+"Every PDF carries hidden document properties: a title, author, subject, keywords, the app that created it (creator), the library that wrote it (producer), and creation and modification dates. This tool shows the current values as soon as you open a file, lets you change any of them, and saves a new copy. You can also tick *Strip metadata* to blank every field and remove the XMP metadata block for privacy.",
+"Good metadata matters more than people think. The title is what browsers, PDF viewers and search engines show instead of the file name; the author field can reveal a person's name or a company account; and keywords help document management systems find files."
+],
+[
+"Fields you can change",
+{
+"table": [
+[
+"Field",
+"What it is",
+"Tip"
+],
+[
+"Title",
+"Name shown in viewer title bars and search results",
+"Use a clear, descriptive title, not ‘Microsoft Word – Doc1’"
+],
+[
+"Author",
+"Person or organisation",
+"Clear it before publishing if it shows a personal account"
+],
+[
+"Subject",
+"Short description",
+"One sentence summary"
+],
+[
+"Keywords",
+"Search terms, separated by commas",
+"5–10 relevant terms"
+],
+[
+"Creator",
+"App that made the original",
+"Often ‘Microsoft Word’"
+],
+[
+"Producer",
+"Software that wrote the PDF",
+"Shows the converter used"
+]
+]
+},
+"The modification date is set to the moment you save. Creation date is kept."
+],
+[
+"How to edit PDF metadata for free",
+{
+"steps": [
+"Drop the PDF – current values appear in the boxes.",
+"Edit any field, or tick Strip metadata.",
+"Press Save and download the updated PDF."
+]
+}
+],
+[
+"Why strip metadata?",
+"Metadata is a common source of accidental leaks: a contract sent to a client with the author set to a competitor's name, a published report whose properties reveal an employee's username, or a CV that shows the template's original owner. Stripping blanks the title, author, subject, keywords, creator and producer and removes the XMP metadata stream, which often duplicates them. It does not change the visible content – check headers, footers and comments separately, and use [Redact PDF](/redact-pdf/) for sensitive text on the pages."
+],
+[
+"Metadata and SEO",
+"Search engines index PDFs and often use the document title from metadata as the result headline. A clear title and subject can improve how your PDF appears in search results and in browser tabs. The keywords field is ignored by major search engines but is used by many document management and library systems."
+],
+[
+"Can PDF metadata be edited?",
+"Yes – metadata is just a set of text fields in the file, and changing them does not affect the pages. The only exceptions are PDFs that are encrypted (unlock them first with [Unlock PDF](/unlock-pdf/)) and digitally signed files, where any change, including metadata, invalidates the signature."
+],
+[
+"Edit PDF metadata online vs desktop software",
+"Desktop PDF editors and command-line tools such as ExifTool can edit metadata, but they need installing. Most online editors upload the file. Here, the PDF is read and saved in your browser – handy on a work computer where you cannot install software, and safe for confidential files."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Metadata",
+"Information about a document, stored separately from its pages"
+],
+[
+"XMP",
+"An XML metadata format embedded in many PDFs"
+],
+[
+"Document Info dictionary",
+"The classic place PDF metadata is stored"
+],
+[
+"Producer",
+"Software that generated the PDF file"
+]
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Remove PDF metadata](/remove-pdf-metadata/)",
+"[Redact PDF](/redact-pdf/)",
+"[Protect PDF](/protect-pdf/)",
+"[Compress PDF](/compress-pdf/)",
+"[PDF to PDF/A](/pdf-to-pdfa/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Shows current values",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Strip all metadata",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Edit creator & producer",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I edit PDF metadata?",
+"a": "Drop the PDF, change the fields shown and save."
+},
+{
+"q": "Can I edit PDF metadata for free?",
+"a": "Yes, free and without sign-up."
+},
+{
+"q": "How do I change the title of a PDF?",
+"a": "Edit the Title field; it is what viewers and search engines display."
+},
+{
+"q": "Can I remove the author from a PDF?",
+"a": "Yes, clear the Author field or tick Strip metadata."
+},
+{
+"q": "Can I change the creation date?",
+"a": "The creation date is kept; the modification date is updated automatically."
+},
+{
+"q": "Does editing metadata change the content?",
+"a": "No, the pages are untouched."
+},
+{
+"q": "Does it work on signed PDFs?",
+"a": "Changing metadata breaks a digital signature."
+},
+{
+"q": "Is my file uploaded?",
+"a": "No, editing runs locally."
+}
+],
+"related": [
+"remove-pdf-metadata",
+"redact-pdf",
+"protect-pdf",
+"compress-pdf",
+"pdf-to-pdfa"
+],
+"updated": "2026-10-25",
+"faqKw": [
+{
+"q": "Can PDF metadata be edited?",
+"a": "Yes. Metadata fields such as title and author are stored separately from the pages, so you can change them without affecting the content – except in digitally signed files."
+}
+]
+}
+},
+"redact": {
+"seo": {
+"title": "Redact PDF Free – Black Out Text Permanently",
+"desc": "Redact PDF free: black out (or white out) text by search, e-mails, phone numbers or drawn boxes. Content is permanently removed, not hidden. No upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Redact a PDF for free – real removal, not a black box on top",
+"Redaction means permanently removing sensitive information – names, account numbers, addresses, signatures – before you share a document. The most common mistake is drawing black rectangles in an ordinary PDF editor: the text underneath is still there and can be copied out. This tool does real redaction. Every page that contains a redaction is rebuilt as an image with the boxes burned in, so the hidden text, its font data and any selectable layer underneath are gone. Pages without redactions are copied untouched, and document metadata is cleared.",
+"You can redact by **searching** for words or phrases (comma-separated, e.g. *John Smith, 4111 1111*), by automatically finding **all e-mail addresses** and **phone numbers**, or by **drawing boxes** over anything – photos, signatures, stamps, handwriting – on the page preview."
+],
+[
+"How to black out text on a PDF",
+{
+"steps": [
+"Drop the PDF.",
+"Type words to redact, and/or tick e-mails and phone numbers.",
+"Draw boxes on the preview for anything else; use the page buttons to move between pages.",
+"Choose black or white boxes and press Redact.",
+"Download and check the redacted copy."
+]
+}
+],
+[
+"Black or white redaction?",
+"Black boxes are the convention for legal and government documents because they make it obvious that something was removed. White boxes (sometimes called *white-out redaction*) blend into the page and are used when a clean look matters, for example in published examples or templates. Both remove the content equally."
+],
+[
+"Is there a way to redact text in a PDF without Adobe Pro?",
+"Yes – that is exactly what this page does, free and in your browser. Professional suites offer the same kind of true redaction in their paid editions; free viewers and many basic editors only offer drawing shapes, which is not redaction."
+],
+[
+"What happens to redacted pages",
+{
+"table": [
+[
+"",
+"Pages with redactions",
+"Other pages"
+],
+[
+"Content",
+"Rendered at high resolution (≈180 dpi) with boxes burned in",
+"Copied exactly"
+],
+[
+"Text selectable",
+"No (run OCR if needed)",
+"Yes"
+],
+[
+"Hidden text recoverable",
+"No",
+"—"
+],
+[
+"Metadata",
+"Cleared for the whole document",
+"Cleared"
+]
+]
+},
+"If you need the redacted pages to be searchable again, run [OCR PDF](/ocr-pdf/) on the result – the redacted areas contain no text, so nothing sensitive comes back."
+],
+[
+"Search tips",
+{
+"list": [
+"Separate several terms with commas.",
+"Leave *Match case* off to catch SMITH, Smith and smith.",
+"Search finds real text only; for scanned pages, draw boxes or run OCR first.",
+"Numbers formatted differently (4111-1111 vs 4111 1111) need each format listed.",
+"Always review every page of the result before sharing."
+]
+}
+],
+[
+"Can I redact a PDF that has been signed?",
+"You can, but redacting changes the document, so any digital signature becomes invalid. Redact first, then sign the final version."
+],
+[
+"Other places sensitive data hides",
+"Comments, form fields, attachments, bookmarks and layers can also contain personal data. Redacted pages are rebuilt without them; for the rest of the document, consider [Flatten PDF](/flatten-pdf/) and [Remove PDF metadata](/remove-pdf-metadata/)."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Redaction",
+"Permanent removal of information from a document"
+],
+[
+"Burn in",
+"Make a mark part of the page image itself"
+],
+[
+"OCR",
+"Recognising text in an image to make it searchable"
+],
+[
+"PII",
+"Personally identifiable information"
+]
+]
+}
+],
+[
+"Worked example",
+"Before sharing a bank statement with a landlord, tick *Auto-redact e-mail addresses* and *phone numbers*, add your account number as search text, and press Redact. Every match is covered with a solid box and removed from the text layer, so searching the output for the number finds nothing."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Remove PDF metadata](/remove-pdf-metadata/)",
+"[Flatten PDF](/flatten-pdf/)",
+"[OCR PDF](/ocr-pdf/)",
+"[Protect PDF](/protect-pdf/)",
+"[Edit PDF](/edit-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"True removal (not overlay)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Auto-find e-mails & phone numbers",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Black or white boxes",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Draw boxes on any page",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How can I redact a PDF for free?",
+"a": "Drop it here, search for terms or draw boxes, and download the redacted PDF – no sign-up."
+},
+{
+"q": "How do I black out text on a PDF?",
+"a": "Type the text or draw a box over it and press Redact; the text is permanently removed."
+},
+{
+"q": "What does redact PDF mean?",
+"a": "Permanently removing sensitive content so it cannot be recovered."
+},
+{
+"q": "Is the redaction permanent?",
+"a": "Yes, affected pages are rebuilt as images without the hidden text."
+},
+{
+"q": "Can I redact e-mail addresses automatically?",
+"a": "Yes, tick the e-mail and phone number options."
+},
+{
+"q": "Can I use white instead of black?",
+"a": "Yes, choose white boxes."
+},
+{
+"q": "Will redacted pages be searchable?",
+"a": "Not until you run OCR on them."
+},
+{
+"q": "Is my document uploaded?",
+"a": "No, redaction happens on your device."
+}
+],
+"related": [
+"remove-pdf-metadata",
+"flatten-pdf",
+"ocr-pdf",
+"protect-pdf",
+"edit-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"compare": {
+"seo": {
+"title": "Compare PDF – Find Differences Between Two PDFs",
+"desc": "Compare two PDF files side by side and highlight added, deleted and changed text word by word. Download the report. Free, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Compare two PDF documents for differences",
+"Compare PDF shows exactly what changed between two versions of a document. Drop the original and the revised PDF, and the text of both is lined up side by side: deleted lines are highlighted red on the left, added lines green on the right, and changed lines yellow with the exact words struck through or inserted. A summary shows the number of deletions, additions and changes, and you can download the comparison as an HTML report to share or archive.",
+"It is the quickest way to check a contract redline, confirm that only the agreed clauses were changed in a new policy, review edits to a thesis, or spot differences between two invoices or quotes."
+],
+[
+"How to compare two PDF files",
+{
+"steps": [
+"Drop both PDFs (original first, then revised).",
+"Press Compare.",
+"Read the side-by-side table: red = removed, green = added, yellow = changed.",
+"Download the HTML report if you need to keep or send it."
+]
+}
+],
+[
+"What is compared",
+"The tool compares the **text** of the documents line by line, then word by word within changed lines, and shows the page number of every line. That makes it ideal for contracts, reports, policies and other text documents. Formatting changes (font, colour, layout) and image changes are not detected, and scanned PDFs need [OCR PDF](/ocr-pdf/) first so they contain text."
+],
+[
+"Reading the result",
+{
+"table": [
+[
+"Colour",
+"Meaning"
+],
+[
+"Red, left column",
+"Line exists only in the first PDF (deleted)"
+],
+[
+"Green, right column",
+"Line exists only in the second PDF (added)"
+],
+[
+"Yellow, both columns",
+"Line changed; struck-through words were removed, highlighted words added"
+],
+[
+"No colour",
+"Unchanged"
+]
+]
+}
+],
+[
+"Can I compare a PDF and a Word document?",
+"Convert the Word file to PDF first with [Word to PDF](/word-to-pdf/), then compare the two PDFs. Alternatively convert the PDF to Word with [PDF to Word](/pdf-to-word/) and use Word's built-in compare feature."
+],
+[
+"Tips for accurate comparisons",
+{
+"list": [
+"Compare documents produced the same way – two exports from Word compare more cleanly than a Word export against a scan.",
+"Re-flowed text (a paragraph that moves to a new page) still matches, because comparison follows the text, not the page.",
+"Headers and footers appear as lines too; changed page numbers can show as small changes.",
+"For long documents, use your browser's find (Ctrl+F) in the report to jump to a clause."
+]
+}
+],
+[
+"Compare PDF online vs desktop software",
+"Professional PDF suites and dedicated comparison apps offer visual comparison in paid plans, and online tools typically upload both documents. Here, both files are read in your browser and never leave your device – important when comparing confidential contracts."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Diff",
+"A list of differences between two texts"
+],
+[
+"Redline",
+"A marked-up version showing changes"
+],
+[
+"Word-level diff",
+"Highlighting exactly which words changed in a line"
+]
+]
+}
+],
+[
+"Worked example",
+"A supplier sends back a revised contract and says only the payment terms changed. Drop the original and the revision: highlighted differences show exactly which words were added or removed on each page, so you can confirm that nothing else – a liability cap, a date, a notice period – was quietly altered. Save the comparison for your records."
+],
+[
+"Tips for accurate comparisons",
+"Compare text-based PDFs for word-level results; run [OCR](/ocr-pdf/) on scans first. If pages were inserted, differences after that point may be shifted – compare sections with [Extract pages](/extract-pages-from-pdf/) when needed."
+],
+[
+"What the comparison does not cover",
+"Text is compared word by word; changes to images, colours, fonts and layout are not highlighted. For visual changes, open both files side by side, or convert pages with [PDF to JPG](/pdf-to-jpg/) and inspect them. Metadata and hidden content are not compared either. Use it as a fast first check, then review key clauses yourself."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[PDF to Word](/pdf-to-word/)",
+"[Word to PDF](/word-to-pdf/)",
+"[OCR PDF](/ocr-pdf/)",
+"[Find and replace in PDF](/find-and-replace-pdf/)",
+"[Merge PDF](/merge-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Word-level highlighting",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Downloadable report",
+"Yes (HTML)",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page numbers per line",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How can I compare two PDF files?",
+"a": "Drop both PDFs and press Compare to see differences side by side."
+},
+{
+"q": "Can I compare two PDF documents for differences for free?",
+"a": "Yes, free and without sign-up."
+},
+{
+"q": "Does it highlight changes?",
+"a": "Yes: red removed, green added, yellow changed with word-level marks."
+},
+{
+"q": "Can it compare scanned PDFs?",
+"a": "Run OCR first so the pages contain text."
+},
+{
+"q": "Are images compared?",
+"a": "No, only text is compared."
+},
+{
+"q": "Can I save the comparison?",
+"a": "Yes, download the HTML report."
+},
+{
+"q": "Can I compare a PDF with a Word file?",
+"a": "Convert the Word file to PDF first."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No, comparison runs locally."
+}
+],
+"related": [
+"pdf-to-word",
+"word-to-pdf",
+"ocr-pdf",
+"find-and-replace-pdf",
+"merge-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"deskew": {
+"seo": {
+"title": "Deskew PDF – Straighten Scanned Pages Free",
+"desc": "Deskew scanned PDFs automatically: detects the tilt of each page and straightens it, leaving straight pages untouched. Free, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"What does deskew mean?",
+"A skewed page is one that was scanned or photographed slightly crooked – tilted by a degree or two, so lines of text slope across the page. Deskewing detects that angle and rotates the page back so text runs perfectly horizontal. Deskew PDF does this automatically for every page of a scanned document, measuring each page separately, and reports the angle it found for each one.",
+"Straight pages are easier to read, look more professional, print better, compress smaller and – importantly – give much more accurate OCR results."
+],
+[
+"How to deskew a scanned PDF",
+{
+"steps": [
+"Drop the scanned PDF.",
+"Optionally change the maximum angle to look for (default 10°).",
+"Press Deskew.",
+"Download the straightened PDF; the result lists the angle corrected on each page."
+]
+}
+],
+[
+"How the angle is detected",
+"Each page is rendered and analysed with a projection-profile method: the tool tries small rotation angles and measures how sharply the rows of dark pixels line up. Text lines produce the strongest, most regular pattern when they are perfectly horizontal, so the best-scoring angle is the skew. This works for typed documents, forms and books. Pages whose detected tilt is below 0.15° are considered straight and are copied untouched, keeping their original quality and selectable text."
+],
+[
+"Deskew vs rotate",
+{
+"table": [
+[
+"Problem",
+"Tool"
+],
+[
+"Page tilted a few degrees",
+"Deskew PDF"
+],
+[
+"Page sideways or upside down (90°/180°)",
+"[Rotate PDF](/rotate-pdf/)"
+],
+[
+"Pages in the wrong order",
+"[Organize PDF](/organize-pdf/)"
+],
+[
+"Extra borders after straightening",
+"[Crop PDF](/crop-pdf/)"
+]
+]
+}
+],
+[
+"What happens to straightened pages",
+"Tilted pages are re-rendered at high resolution (≈144 dpi) and rotated, with white filling the corners that the rotation reveals. Because they become images, any existing text layer on those pages is not kept – run [OCR PDF](/ocr-pdf/) afterwards to make them searchable, which will now be more accurate. Straight pages are copied without change."
+],
+[
+"Maximum angle",
+"The default search range of ±10° covers almost every scanner and phone photo. Lower it to 3–5° for speed on long documents that are only slightly crooked; raise it (up to 20°) for badly placed photos. Pages that are mostly pictures or have little text may not have a clear line pattern and can be left as they are."
+],
+[
+"Tips for better scans",
+{
+"list": [
+"Align paper against the scanner glass edge.",
+"Use the feeder guides snugly.",
+"Photograph documents from directly above.",
+"Scan at 200–300 dpi for text documents.",
+"After deskewing, crop and compress to tidy up the file."
+]
+}
+],
+[
+"Deskew PDF online vs desktop software",
+"Deskewing is found in scanner software and paid OCR suites. Online services upload your scans – often personal documents like IDs and bank letters. Here it runs in your browser, for free."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Skew",
+"A small tilt of the page content"
+],
+[
+"Deskew",
+"Rotate to remove the tilt"
+],
+[
+"Projection profile",
+"Sum of dark pixels per row, used to detect text lines"
+],
+[
+"OCR",
+"Recognising text in a page image"
+]
+]
+}
+],
+[
+"Worked example",
+"You scanned a 10-page contract on a sheet-fed scanner and pages 3 and 7 came out tilted by a couple of degrees. Drop the PDF here: the tool measures the angle of the text lines on each page and rotates only the pages that need it. Pages already straight are left as they are. Check the preview, and if a page still looks off, rotate it manually with [Rotate PDF](/rotate-pdf/)."
+],
+[
+"Tips for straighter scans",
+"Place pages flush against the scanner glass edge, use the document feeder guides, and scan at 200–300 dpi. Good contrast helps the angle detection: avoid very light pencil or faint copies. Deskew before running OCR, as recognition is more accurate on straight lines. Very skewed pages, beyond about 10 degrees, are best rescanned. Straight pages also look more professional when shared."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[OCR PDF](/ocr-pdf/)",
+"[Rotate PDF](/rotate-pdf/)",
+"[Crop PDF](/crop-pdf/)",
+"[Compress PDF](/compress-pdf/)",
+"[PDF scanner](/pdf-scanner/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Automatic per-page angle",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Straight pages left untouched",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Reports angle per page",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What does deskew mean?",
+"a": "Straightening a page that was scanned at a slight angle."
+},
+{
+"q": "How do I deskew a scanned PDF?",
+"a": "Drop it here and press Deskew; each page is straightened automatically."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no sign-up."
+},
+{
+"q": "Does it work on photos of documents?",
+"a": "Yes, if the page contains lines of text."
+},
+{
+"q": "Will text stay selectable?",
+"a": "Straightened pages become images; run OCR to make them searchable."
+},
+{
+"q": "Can it fix upside-down pages?",
+"a": "Use Rotate PDF for 90° and 180° turns."
+},
+{
+"q": "Does deskewing improve OCR?",
+"a": "Yes, straight text is recognised much more accurately."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, all processing is local."
+}
+],
+"related": [
+"ocr-pdf",
+"rotate-pdf",
+"crop-pdf",
+"compress-pdf",
+"pdf-scanner"
+],
+"updated": "2026-10-25"
+}
+},
+"headerfooter": {
+"seo": {
+"title": "Add Header and Footer to PDF – Free, Page X of Y",
+"desc": "Add headers and footers to PDF: left, centre and right text with page numbers, total, date and file name, skip first pages, colour. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Add a header and footer to a PDF",
+"This tool adds text to the top and bottom of every page of a PDF – six positions in all: header left, centre and right, and footer left, centre and right. Type plain text such as *Confidential* or a company name, or use placeholders that change on each page: **{page}** for the page number, **{total}** for the page count, **{date}** for today's date and **{file}** for the file name. The default footer *{page} / {total}* gives you ‘Page X of Y’ numbering instantly.",
+"Headers and footers make documents easier to navigate and cite, mark drafts and confidential files, and add branding to reports and proposals – without going back to the original Word or design file."
+],
+[
+"How to add a header and footer to a PDF for free",
+{
+"steps": [
+"Drop one or more PDFs.",
+"Type text into any of the six boxes, using placeholders if you like.",
+"Set font size, margin, colour, pages to skip and the first page number.",
+"Press the button and download (several files come as a ZIP)."
+]
+}
+],
+[
+"Placeholder examples",
+{
+"table": [
+[
+"You type",
+"Page 3 of 10 shows"
+],
+[
+"{page} / {total}",
+"3 / 10"
+],
+[
+"Page {page} of {total}",
+"Page 3 of 10"
+],
+[
+"{file} – {date}",
+"report.pdf – 2026-10-25"
+],
+[
+"Draft v2 – {date}",
+"Draft v2 – 2026-10-25"
+],
+[
+"Confidential",
+"Confidential"
+]
+]
+}
+],
+[
+"Skip the cover and start numbering where you want",
+"Set *Skip first pages* to leave the cover (or cover and contents) without a header or footer. *First page number* sets the number printed on the first page that receives one – so with 2 pages skipped and first number 1, page 3 of the file shows ‘1’. The {total} placeholder counts only the numbered pages, so ‘Page 1 of 8’ stays consistent."
+],
+[
+"Fonts, size and colour",
+"Text is drawn in a clean sans-serif font. Characters outside the basic Latin set – accents, Cyrillic, Greek and many other scripts – are rendered with a matching Unicode font loaded on demand. Choose a size from 6 to 36 pt, the distance from the page edge (margin) in points, and any text colour; dark grey is the default because it looks less heavy than pure black."
+],
+[
+"Header/footer vs page numbers vs Bates",
+{
+"table": [
+[
+"Need",
+"Best tool"
+],
+[
+"Text plus page numbers in any position",
+"Add header and footer (this page)"
+],
+[
+"Only page numbers, roman numerals, facing pages",
+"[Add page numbers](/add-page-numbers/)"
+],
+[
+"Legal sequential IDs across many files",
+"[Bates numbering](/bates-numbering/)"
+],
+[
+"Diagonal ‘DRAFT’ across the page",
+"[Add watermark](/add-watermark-to-pdf/)"
+]
+]
+}
+],
+[
+"Can I remove or edit an existing header?",
+"Headers that were added to a PDF become part of the page content, so they cannot be switched off like in Word. To hide an old header, crop it away with [Crop PDF](/crop-pdf/) or cover it with white-out in [Edit PDF](/edit-pdf/), then add a new header here."
+],
+[
+"Add header and footer online vs desktop software",
+"Paid PDF editors include header/footer tools, and Word can add them before export – if you still have the source file. Online alternatives upload your document. This tool works on the finished PDF, in your browser, free."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Header",
+"Text at the top of every page"
+],
+[
+"Footer",
+"Text at the bottom of every page"
+],
+[
+"Placeholder",
+"A code such as {page} replaced with a value on each page"
+],
+[
+"Point (pt)",
+"1/72 inch; the unit for font size and margins"
+]
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Add page numbers](/add-page-numbers/)",
+"[Bates numbering](/bates-numbering/)",
+"[Add watermark](/add-watermark-to-pdf/)",
+"[Edit PDF](/edit-pdf/)",
+"[Crop PDF](/crop-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Six positions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"{page} {total} {date} {file}",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Skip first pages / start number",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Text colour",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch files",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I add a header and footer to a PDF?",
+"a": "Type text in the header or footer boxes, set size and margin, and download."
+},
+{
+"q": "Can I add page X of Y?",
+"a": "Yes, use {page} / {total} or Page {page} of {total}."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no sign-up or watermark."
+},
+{
+"q": "Can I skip the first page?",
+"a": "Yes, set Skip first pages to 1."
+},
+{
+"q": "Can I add the date?",
+"a": "Yes, use {date}."
+},
+{
+"q": "Can I change the colour?",
+"a": "Yes, pick any text colour."
+},
+{
+"q": "Can I process several PDFs?",
+"a": "Yes, drop multiple files to get a ZIP."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, it is processed in your browser."
+}
+],
+"related": [
+"add-page-numbers",
+"bates-numbering",
+"add-watermark-to-pdf",
+"edit-pdf",
+"crop-pdf"
+],
+"updated": "2026-10-25",
+"faqKw": [
+{
+"q": "How do I insert a header and footer in a PDF without Word?",
+"a": "Use this tool on the finished PDF: type the header and footer text, choose positions, and download – no need for the original Word file."
+}
+]
+}
+},
+"bates": {
+"seo": {
+"title": "Bates Numbering PDF Free – Prefix, Digits, Batch",
+"desc": "Add Bates numbers to PDFs free: prefix, start number, digits, suffix and position, numbered continuously across many files. No upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"What is Bates numbering?",
+"Bates numbering gives every page in a set of legal or business documents a unique, sequential identifier – for example **ABC000001**, **ABC000002**, and so on. It is used in litigation discovery, regulatory submissions, audits and large document productions so that any page can be cited and found precisely (‘see ABC004187’). The name comes from the Bates automatic numbering machine, a mechanical stamper patented in the 1890s that advanced one number with every press.",
+"This tool stamps Bates numbers digitally on PDFs. Drop one or many files, set the prefix, starting number, number of digits, optional suffix and position, and every page is numbered in sequence – continuing from one file to the next."
+],
+[
+"Bates numbering example",
+{
+"table": [
+[
+"Setting",
+"Value"
+],
+[
+"Prefix",
+"SMITH-"
+],
+[
+"Start",
+"1"
+],
+[
+"Digits",
+"6"
+],
+[
+"Suffix",
+"-CONF"
+],
+[
+"Result, first page",
+"SMITH-000001-CONF"
+],
+[
+"Result, page 250",
+"SMITH-000250-CONF"
+]
+]
+},
+"If the first file has 120 pages, the second file starts at 000121 automatically. The result message shows the full range applied, e.g. *SMITH-000001 – SMITH-000534*."
+],
+[
+"How to add Bates numbers to a PDF for free",
+{
+"steps": [
+"Drop the PDFs in the order they should be numbered.",
+"Enter prefix, start number, digits and optional suffix.",
+"Choose the position (bottom right is the convention) and font size.",
+"Press the button and download the numbered PDF or ZIP."
+]
+}
+],
+[
+"Continuing a previous production",
+"Productions often come in several batches. Note the last number you used (shown in the result), and next time set *Start* to the following number. Keep the same prefix and digit count so the numbering stays consistent across the whole case."
+],
+[
+"Best practice",
+{
+"list": [
+"Use a short, meaningful prefix – a party or case code.",
+"Use 6–8 digits so numbers sort correctly and never run out.",
+"Bottom right is customary; make sure it does not cover existing content, and use a smaller font if needed.",
+"Number final versions only – redact first with [Redact PDF](/redact-pdf/), then apply Bates numbers.",
+"Keep a log of ranges per production."
+]
+}
+],
+[
+"Can you remove Bates numbering from a PDF?",
+"Bates numbers added here become part of the page content, as they would with a physical stamp, so they are not a separate layer you can turn off. Keep un-numbered originals. If you must hide a number, crop or white it out, but in legal contexts altering produced documents is usually not acceptable."
+],
+[
+"Bates numbering vs page numbers",
+"Page numbers restart in each document and describe position within it. Bates numbers are unique across an entire collection, never repeat, and identify a specific page in a production. For ordinary page numbering use [Add page numbers](/add-page-numbers/)."
+],
+[
+"Bates numbering online vs desktop software",
+"Bates stamping is usually found in paid professional PDF software and litigation-support tools. Online services require uploading privileged documents. This tool numbers files in your browser for free, without anything leaving your computer."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Bates number",
+"Unique sequential page identifier"
+],
+[
+"Production",
+"A set of documents handed over in litigation"
+],
+[
+"Prefix / suffix",
+"Fixed text before or after the number"
+],
+[
+"Discovery",
+"Exchange of evidence between parties"
+]
+]
+}
+],
+[
+"Worked example",
+"A paralegal must produce three PDFs – 120, 300 and 114 pages – as one numbered set with prefix SMITH. Drop the files in order, set prefix SMITH-, start 1, digits 6, and press the button. The result reports SMITH-000001 – SMITH-000534; the second file starts at SMITH-000121 and the third at SMITH-000421. Record this range in the production log."
+],
+[
+"Before you number",
+"Put files in their final order, remove duplicates, and apply redactions first, because numbers should be the very last change."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Add page numbers](/add-page-numbers/)",
+"[Redact PDF](/redact-pdf/)",
+"[Add header and footer](/pdf-header-footer/)",
+"[Merge PDF](/merge-pdf/)",
+"[Flatten PDF](/flatten-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Continuous across files",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Prefix, suffix, digits",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Shows range applied",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What is Bates numbering?",
+"a": "A unique sequential number on every page of a document set, used in legal work."
+},
+{
+"q": "How can I add Bates numbers to a PDF for free?",
+"a": "Drop the PDFs, set prefix, start and digits, and download."
+},
+{
+"q": "Does numbering continue across files?",
+"a": "Yes, the next file continues the sequence."
+},
+{
+"q": "What is a Bates numbering example?",
+"a": "ABC000001, ABC000002 … with prefix ABC and 6 digits."
+},
+{
+"q": "Where should Bates numbers go?",
+"a": "Bottom right is the usual convention."
+},
+{
+"q": "Can I remove Bates numbers?",
+"a": "They become part of the page; keep un-numbered originals."
+},
+{
+"q": "Can I add a suffix like CONFIDENTIAL?",
+"a": "Yes, use the suffix field."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No, numbering happens on your device."
+}
+],
+"related": [
+"add-page-numbers",
+"redact-pdf",
+"pdf-header-footer",
+"merge-pdf",
+"flatten-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"findreplace": {
+"seo": {
+"title": "Find and Replace Text in PDF Online Free",
+"desc": "Find and replace text in a PDF free: replace a word, name or date everywhere, several pairs at once, match case. Runs in your browser, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Find and replace text in a PDF",
+"Find and replace in PDF searches every page of a document for a word or phrase and replaces each occurrence with new text – the same thing you would do with Ctrl+H in Word, but on a finished PDF. It is ideal for fixing a misspelt name throughout a brochure, updating a year in a price list from 2025 to 2026, changing a phone number on a flyer, or swapping a placeholder like *[CLIENT]* in a template. Add extra pairs, one per line (*old => new*), to make several replacements in one pass.",
+"Leave the *Replace* box empty to simply remove the matching text, and keep *Match case* on to avoid changing words that only look similar."
+],
+[
+"How to find and replace text in a PDF file",
+{
+"steps": [
+"Drop the PDF on this page.",
+"Type the text to find and the replacement.",
+"Optionally add more pairs, one per line, such as 2025 => 2026.",
+"Choose Match case, press the button, and download the edited PDF. The result shows how many replacements were made."
+]
+}
+],
+[
+"How it works – and why PDFs are different from Word",
+"A Word document stores text as flowing paragraphs. A PDF stores the *final layout*: each piece of text is placed at exact coordinates, often split into small runs, in a font that may contain only the characters used in the document. There is no paragraph that can reflow. That is why genuine find-and-replace inside a PDF is hard and why many tools do not offer it at all.",
+"This tool takes a practical, visual approach. It reads the text and its positions with PDF.js, finds every match, covers the original characters with a white box exactly the size of the match, and writes the replacement text in the same position and size. The page looks updated, prints correctly and the new text is selectable and searchable."
+],
+[
+"What it handles well",
+{
+"list": [
+"Names, numbers, dates, codes and short phrases.",
+"Replacements of similar length – *2025* → *2026*, *Ltd* → *LLC*.",
+"Text on plain white backgrounds.",
+"Horizontal text in common fonts.",
+"Many occurrences across many pages, in one pass."
+]
+}
+],
+[
+"Limitations to know about",
+{
+"table": [
+[
+"Situation",
+"What happens",
+"What to do"
+],
+[
+"Replacement much longer than original",
+"New text may overlap the following words",
+"Keep length similar, or use [Edit PDF](/edit-pdf/) to adjust"
+],
+[
+"Coloured or image background",
+"White box is visible behind the new text",
+"Edit that page manually in Edit PDF"
+],
+[
+"Rotated or vertical text",
+"Skipped",
+"Edit manually"
+],
+[
+"Text split across lines or runs",
+"Phrase may not be found",
+"Search for a shorter part"
+],
+[
+"Scanned PDF (image of text)",
+"Nothing found",
+"Run [OCR PDF](/ocr-pdf/) first, then edit"
+],
+[
+"Special decorative fonts",
+"Replacement uses a standard font",
+"Accept, or edit manually"
+]
+]
+},
+"The original text is covered, not deleted from the file. For confidential text that must be gone, use [Redact PDF](/redact-pdf/) instead."
+],
+[
+"Can you Ctrl+F in a PDF?",
+"Yes – every PDF viewer, including your browser, can *find* text with Ctrl+F (Cmd+F on Mac), as long as the PDF has real text and not just scanned images. Finding is easy; *replacing* is what most viewers cannot do, because it requires changing the page content. This tool adds that missing step."
+],
+[
+"How to overtype text in a PDF",
+"For a single change in one spot, [Edit PDF](/edit-pdf/) is often better: click the text, type over it, and adjust font, size and position by eye. Use find and replace when the same change is needed in many places, or when you want to be sure you caught every occurrence."
+],
+[
+"Replacing several terms at once",
+"The extra pairs box accepts one replacement per line in the form *old => new*. For example:",
+{
+"list": [
+"*Acme Ltd => Acme LLC*",
+"*2025 => 2026*",
+"*+44 20 7946 0000 => +44 20 7946 0999*"
+]
+},
+"Each pair is applied to every page. The main Find/Replace boxes count as the first pair. Lines without *=>* are ignored."
+],
+[
+"Getting the best match on fonts",
+"Replacement text is drawn in a standard sans-serif font at the size of the original text, in black. For documents set in a similar font – Arial, Helvetica, Calibri, many corporate fonts – the change is barely noticeable. For serif or decorative typefaces, the new word will look slightly different; for headlines or logos, editing in the original design file gives the best result. Non-Latin characters in the replacement are supported via an automatically loaded Unicode font."
+],
+[
+"Typical uses",
+{
+"list": [
+"**Price lists and menus** – update years, prices or product names.",
+"**Brochures and flyers** – change a phone number, address or website.",
+"**Templates** – fill placeholders like [NAME] or [DATE].",
+"**Certificates** – correct a misspelt name before printing.",
+"**Reports** – update a company name after a rebrand.",
+"**Forms** – fix a typo in a label without the source file."
+]
+}
+],
+[
+"When you have the original document",
+"If you have the source Word, Excel or InDesign file, edit there and export a new PDF – that always gives perfect typography and reflowing text. Find and replace in PDF is for when you only have the PDF, need a quick fix, or the source file is lost. You can also convert to Word with [PDF to Word](/pdf-to-word/), use Word's own replace, and convert back with [Word to PDF](/word-to-pdf/); that works well for text documents but may change complex layouts."
+],
+[
+"Checking your result",
+"The result tells you how many replacements were made. Open the PDF and check a few: look at line ends where a longer replacement might overlap following words, and pages with coloured backgrounds. If something looks wrong, adjust the text and run again on the original file – your source PDF is never modified. You can also [compare](/compare-pdf/) the original and edited versions to see every change side by side."
+],
+[
+"Find and replace in PDF online vs desktop editors",
+"Professional PDF editors offer find-and-replace with true text editing, usually in paid editions. Free viewers do not offer replacement at all, and online editors generally upload your file. This tool gives you multi-pair replacement for free, in your browser, with nothing uploaded – useful for contracts, price lists and internal documents."
+],
+[
+"Is it safe for confidential documents?",
+"Yes, in the sense that the file never leaves your device. But remember that replaced text is visually covered rather than removed from the file's content stream, so someone with a PDF editor could still find the old text. For anything sensitive – names in legal documents, account numbers, personal data – use [Redact PDF](/redact-pdf/), which permanently removes content."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Text run",
+"A piece of text placed at one position in a PDF"
+],
+[
+"Content stream",
+"The instructions that draw a PDF page"
+],
+[
+"Reflow",
+"Text moving to fit after edits; PDFs do not reflow"
+],
+[
+"Match case",
+"Only match identical capitalisation"
+],
+[
+"Subset font",
+"Font embedded with only the characters used"
+]
+]
+}
+],
+[
+"Worked example: updating a price list for the new year",
+"A café has a two-page PDF menu exported years ago; the designer is gone and only the PDF remains. Prices are unchanged, but the footer says *Menu 2025* on both pages and the phone number changed. Drop the PDF, type *2025* in Find and *2026* in Replace, then add one line in the extra pairs box: *0161 496 0000 => 0161 496 0999*. Keep Match case on and press the button. The result reports, for example, *4 replacements*: two years and two phone numbers. Open the file, zoom in on the footer and you will see the new text sitting exactly where the old one was, in a matching size. Print a test page; the white cover boxes are invisible on the white paper background.",
+"The same approach works for a training handout that names last year's trainer, a product sheet with an old model number or a certificate template where *[NAME]* needs replacing with a real name."
+],
+[
+"Worked example: anonymising a sample document",
+"Suppose you want to share a sample report with a supplier but replace the client name *Northwind Traders* with *Client A*. Find *Northwind Traders*, replace with *Client A*, and add a second pair for the short form, *Northwind => Client A*. Order matters: the longer phrase is listed first so it is replaced as a whole before the shorter word is searched. Because covered text is still present underneath, this is fine for a casual sample but not for genuine confidentiality – for that, redact the names with [Redact PDF](/redact-pdf/), which removes them from the file entirely, and then add replacement labels if needed."
+],
+[
+"Step-by-step troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Likely cause",
+"Fix"
+],
+[
+"“Text not found”",
+"The PDF is a scan, or the phrase spans two text runs",
+"Try a shorter word; run OCR on scans"
+],
+[
+"Only some occurrences replaced",
+"Different capitalisation",
+"Turn Match case off"
+],
+[
+"New text overlaps the next word",
+"Replacement is longer than the original",
+"Shorten it or use an abbreviation"
+],
+[
+"White rectangle visible",
+"Page background is coloured or an image",
+"Edit that spot manually in Edit PDF"
+],
+[
+"Replacement looks bolder/thinner",
+"Original used a different font weight",
+"Usually acceptable; edit headlines manually"
+],
+[
+"Strange characters in original",
+"The PDF font has no Unicode mapping",
+"Search for the visible text using OCR output"
+]
+]
+}
+],
+[
+"Why some PDFs cannot be searched",
+"Finding text depends on the PDF containing a text layer with a proper mapping from glyphs to characters. Scanned documents and photos converted to PDF contain only images: there is nothing to search until you run [OCR PDF](/ocr-pdf/), which recognises the characters and adds an invisible text layer. Some PDFs created by older design or printing software embed fonts without a Unicode map, so copying text produces gibberish; search fails on those too. A quick test: open the PDF in your browser, press Ctrl+F and search for the word. If the viewer finds it, this tool will almost always find it as well."
+],
+[
+"Case sensitivity, whole words and partial matches",
+"With *Match case* on, *Ltd* does not match *LTD* or *ltd*. Turn it off to catch every variant – but be aware that the replacement is written exactly as you typed it. The search matches text inside longer words too: replacing *cat* would also change *category* and *concatenate*. To avoid this, include surrounding characters, such as a space or punctuation (*cat.* or *cat *), or use a longer, unique phrase. When in doubt, check the replacement count against what you expect."
+],
+[
+"Keeping the layout tidy",
+"Because PDFs do not reflow, the best results come from replacements that are about the same width as the original. Digits, dates and codes are easy. Names of different lengths need a little care: *Jo Smith → Jonathan Smithson* will run past the original space. Options are to abbreviate, to use a slightly smaller wording, or to fix that one place by hand in [Edit PDF](/edit-pdf/), where you can move and resize text boxes freely. For whole paragraphs that need rewriting, convert with [PDF to Word](/pdf-to-word/) instead."
+],
+[
+"Find and replace on a phone or tablet",
+"The tool runs in mobile browsers, including Safari on iPhone and iPad and Chrome on Android. Typing pairs on a phone is easiest in the main boxes; for several pairs, paste a prepared list into the extra pairs box. Processing happens on the device, so very large PDFs (hundreds of pages) take longer on older phones. The download is saved to Files or Downloads and can be shared straight from there."
+],
+[
+"Privacy and how your file is processed",
+"Many online PDF editors upload the whole document to a server, process it there and keep it for a period. Here, the PDF is opened by JavaScript in your own browser tab. Text extraction uses the open-source PDF.js library; the edited PDF is written with pdf-lib. Nothing is sent to a server, nothing is stored, and you can even disconnect from the internet after the page has loaded and the tool still works. Closing the tab clears the document from memory."
+],
+[
+"Checklist before you send an edited PDF",
+{
+"list": [
+"Compare the replacement count with the number of occurrences you expected.",
+"Zoom to 200% on two or three changed spots and check alignment.",
+"Search the output for the old text with Ctrl+F – covered text may still be found; if that matters, redact instead.",
+"Print one page if the document is going to be printed.",
+"Keep the original PDF unchanged in case you need to redo the edit.",
+"If the document is signed, remember that any edit invalidates the digital signature."
+]
+}
+],
+[
+"Digital signatures and form fields",
+"Editing a digitally signed PDF changes its content, so the signature will show as invalid in viewers – which is the purpose of a signature. Make the edits before signing, or ask the signer for an updated version. Form field values are not page text and are not changed by this tool; to change them, open the form in [Fill PDF form](/fill-pdf-form/), or flatten the form first with [Flatten PDF](/flatten-pdf/) to turn field values into regular page text that can be found."
+],
+[
+"Find and replace vs other editing options",
+{
+"table": [
+[
+"Goal",
+"Best approach"
+],
+[
+"Same change in many places",
+"Find and replace (this page)"
+],
+[
+"One-off edit, move or restyle text",
+"[Edit PDF](/edit-pdf/)"
+],
+[
+"Rewrite paragraphs",
+"PDF to Word, edit, Word to PDF"
+],
+[
+"Remove sensitive information",
+"[Redact PDF](/redact-pdf/)"
+],
+[
+"Add new text everywhere, like a header",
+"[Add header and footer](/pdf-header-footer/)"
+],
+[
+"Check what changed",
+"[Compare PDF](/compare-pdf/)"
+]
+]
+}
+],
+[
+"Worked example: filling a certificate template",
+"Training providers often keep a single certificate PDF with placeholders such as *[NAME]*, *[COURSE]* and *[DATE]*. To produce one certificate, enter *[NAME]* → *Priya Sharma* in the main boxes and add two pairs: *[COURSE] => First Aid at Work* and *[DATE] => 25 October 2026*. Because placeholders are written in square brackets, they never clash with ordinary words, so you can safely turn Match case off. Save the result under the participant's name and repeat for the next person, always starting from the clean template. For many certificates, keep a text file with the pairs ready to paste."
+],
+[
+"Who uses find and replace in PDF",
+{
+"list": [
+"**Small businesses** updating menus, price lists, catalogues and flyers without a designer.",
+"**Administrators** correcting names, dates and reference numbers in letters and notices.",
+"**Teachers** reusing worksheets and exam papers with a new date or class name.",
+"**Event organisers** changing venue details or times on posters and programmes.",
+"**Freelancers** reusing proposals and quotes for a new client.",
+"**Job seekers** fixing a typo in a CV when the Word version is lost."
+]
+}
+],
+[
+"Good habits for reliable replacements",
+"Write down exactly what you want to change before you start, including variants: *Ltd*, *Ltd.*, *Limited*. Search for the most specific phrases first and the general ones last. Keep replacements in the same style as the original – if a heading is in capitals, type the replacement in capitals. Use unique placeholders in your own templates so that future replacements are effortless. And always keep the untouched original next to the edited copy; since every run starts from the file you drop, you can try again as often as you like until the result is perfect.",
+"If the document will be edited regularly, it is worth recreating it once in an editable format – for example via [PDF to Word](/pdf-to-word/) – and exporting fresh PDFs from that source in future. Find and replace is the quick fix; a maintained source file is the long-term solution."
+],
+[
+"Understanding the result message",
+"After processing, the tool tells you how many replacements were made across the document. If you listed several pairs, the total combines them. A count of zero means none of the search texts were found – check spelling, try Match case off, or search for a shorter fragment. A count higher than expected usually means the search text appears inside other words; make it more specific and run again on the original file. The edited PDF keeps the same page count, page size, images, links and bookmarks as the original; only the matched text areas change."
+],
+[
+"Languages and special characters",
+"Search works with any language whose text is stored as Unicode in the PDF, including accented European languages, Cyrillic, Greek, Arabic and many Asian scripts. Replacement text in non-Latin scripts is drawn using a Unicode font that loads automatically when needed. Right-to-left text and complex scripts that join letters are matched as stored in the PDF, which can differ from how they appear; if a phrase is not found, try searching for a single word. Ligatures in some fonts (for example *fi* drawn as one glyph) can also prevent matches – search for a part of the word that avoids them."
+],
+[
+"Is find and replace in PDF reliable enough for business documents?",
+"For short, factual changes – years, prices, names, phone numbers, references – yes, provided you review the result. It is a visual edit that leaves the rest of the page exactly as it was, so there is no risk of the layout being rebuilt or fonts being substituted across the whole document, which can happen when converting to Word and back. For legal or regulated documents, treat the edited PDF as a new version: record what changed and, where required, have it re-approved or re-signed."
+],
+[
+"Quick reference",
+{
+"table": [
+[
+"Want to…",
+"Do this"
+],
+[
+"Change one word everywhere",
+"Find + Replace boxes"
+],
+[
+"Change several things",
+"Add old => new lines"
+],
+[
+"Delete a word",
+"Leave Replace empty"
+],
+[
+"Catch all capitalisations",
+"Match case off"
+],
+[
+"Avoid changing parts of words",
+"Include a space or punctuation"
+],
+[
+"Replace in a scan",
+"OCR PDF first"
+],
+[
+"Remove sensitive text for good",
+"Redact PDF"
+],
+[
+"Check the edits",
+"Compare PDF with the original"
+]
+]
+},
+"Keep this table in mind and most edits take under a minute: drop, type, check the count, download, review. If the first attempt is not perfect, adjust the search text and run again on the untouched original – nothing is lost, and nothing ever leaves your device. For recurring jobs, save your list of pairs in a text file so the same set of corrections can be pasted and applied to every new version of the document."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Edit PDF](/edit-pdf/)",
+"[Redact PDF](/redact-pdf/)",
+"[Compare PDF](/compare-pdf/)",
+"[PDF to Word](/pdf-to-word/)",
+"[OCR PDF](/ocr-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Multiple replacement pairs at once",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Match case",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Reports replacement count",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I find and replace text in a PDF?",
+"a": "Type the text to find and the replacement, press the button and download the edited PDF."
+},
+{
+"q": "Can I find and replace in a PDF for free?",
+"a": "Yes, free with no sign-up or watermark."
+},
+{
+"q": "Can I replace several words at once?",
+"a": "Yes, add pairs one per line as old => new."
+},
+{
+"q": "Does it keep the same font?",
+"a": "It uses a standard font at the original size; similar sans-serif fonts look almost identical."
+},
+{
+"q": "Does it work on scanned PDFs?",
+"a": "Run OCR first; scanned pages contain no text to find."
+},
+{
+"q": "Is the old text deleted?",
+"a": "It is covered. Use Redact PDF to remove sensitive text permanently."
+},
+{
+"q": "Can I remove text instead of replacing it?",
+"a": "Yes, leave the Replace box empty."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, the edit runs in your browser."
+}
+],
+"related": [
+"edit-pdf",
+"redact-pdf",
+"compare-pdf",
+"pdf-to-word",
+"ocr-pdf"
+],
+"updated": "2026-10-25",
+"faqKw": [
+{
+"q": "How do I replace text in a PDF with the same font?",
+"a": "Exact font matching is only possible when the PDF embeds the full font. This tool writes replacements in a clean sans-serif at the original size, which closely matches common fonts like Arial and Helvetica."
+}
+]
+}
+}
+}
+}
