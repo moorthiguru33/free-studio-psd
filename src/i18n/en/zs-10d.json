@@ -1,0 +1,2530 @@
+{
+"tools": {
+"dataconv": {
+"seo": {
+"title": "Data Converter – CSV, JSON, Excel, TSV Online Free",
+"desc": "Convert data between CSV, TSV, JSON and Excel (XLSX, XLS, ODS) free in your browser: delimiters, types, nested JSON, pretty print. No upload.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert CSV, JSON and Excel in any direction",
+"One converter for everyday data work: turn spreadsheets into JSON for an app, JSON API responses into Excel for colleagues, or CSV exports into clean XLSX files. Choose the output, the CSV delimiter and how numbers and nested objects are handled, preview the result and download."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop a CSV, TSV, JSON, XLSX, XLS or ODS file (or paste data).",
+"Choose the output format.",
+"Set the delimiter, type detection, nesting and pretty-print options.",
+"Download the converted file."
+]
+}
+],
+[
+"Which format when?",
+{
+"table": [
+[
+"Format",
+"Best for"
+],
+[
+"CSV",
+"Universal import/export: databases, CRMs, Google Sheets, mail merges"
+],
+[
+"TSV",
+"Data with lots of commas, copying to and from spreadsheets"
+],
+[
+"JSON",
+"APIs, web and mobile apps, NoSQL databases, config"
+],
+[
+"XLSX",
+"Sharing with people who use Excel, formatting, formulas"
+]
+]
+}
+],
+[
+"JSON structure",
+{
+"table": [
+[
+"CSV",
+"JSON (array of records)"
+],
+[
+"name,age\\nAsha,31",
+"[{\"name\":\"Asha\",\"age\":31}]"
+],
+[
+"address.city → Pune",
+"{\"address\":{\"city\":\"Pune\"}}"
+]
+]
+},
+"Each row becomes one object; the header row supplies the keys. This *array of objects* is what most APIs, databases (MongoDB, Firebase), JavaScript apps and no-code tools expect."
+],
+[
+"Excel details",
+"XLSX output contains one sheet with a bold header row; numbers stay numbers so you can sum and sort immediately, and text that looks like a number with leading zeros is kept as text. Reading Excel, formulas are converted to their last calculated values, a merged cell's value goes into its first cell, and dates become ISO text (2026-10-25) in CSV/JSON so they sort correctly. Hidden rows and columns are included, so unhide and delete anything you do not want exported, and remove charts or images – they are not part of the data."
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert CSV to JSON?",
+"a": "Drop the CSV, choose JSON and download."
+},
+{
+"q": "Can I convert JSON to Excel?",
+"a": "Yes, choose Excel."
+},
+{
+"q": "Does it support semicolon CSV?",
+"a": "Yes."
+},
+{
+"q": "Are nested JSON objects supported?",
+"a": "Yes, they become dot.key columns and back."
+},
+{
+"q": "Can I convert XLS and ODS?",
+"a": "Yes."
+},
+{
+"q": "Will leading zeros be kept?",
+"a": "Yes."
+},
+{
+"q": "How big can the file be?",
+"a": "Tens of megabytes work in seconds."
+},
+{
+"q": "Can I pretty-print JSON?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"csv-to-json",
+"json-to-csv",
+"csv-to-excel",
+"excel-to-csv",
+"json-formatter"
+],
+"updated": "2026-10-25"
+}
+},
+"csv2json": {
+"seo": {
+"title": "CSV to JSON Converter – Array of Objects, Nested Keys",
+"desc": "Convert CSV to JSON free: array of objects, auto-detect delimiter, numbers and booleans typed, dot.keys to nested JSON, pretty print. No upload.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert CSV to JSON",
+"Turn a spreadsheet export into JSON for your app, API test, database import or no-code tool. The header row becomes the keys, each row becomes an object, numbers and true/false are typed, and columns like *user.email* can become nested objects."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the CSV file or paste the data.",
+"Keep JSON as the output and check the options.",
+"Preview the result.",
+"Download the converted file."
+]
+}
+],
+[
+"JSON structure",
+{
+"table": [
+[
+"CSV",
+"JSON (array of records)"
+],
+[
+"name,age\\nAsha,31",
+"[{\"name\":\"Asha\",\"age\":31}]"
+],
+[
+"address.city → Pune",
+"{\"address\":{\"city\":\"Pune\"}}"
+]
+]
+},
+"Each row becomes one object; the header row supplies the keys. This *array of objects* is what most APIs, databases (MongoDB, Firebase), JavaScript apps and no-code tools expect."
+],
+[
+"Typing values",
+"With *Detect numbers & booleans* on, 42 becomes a number, true/false become booleans and empty cells become empty strings. Turn it off when IDs, phone numbers or codes must stay strings – for example 00123 or +91 98…. Leading zeros are always kept as text."
+],
+[
+"Using the JSON",
+{
+"list": [
+"Import into MongoDB with mongoimport --jsonArray.",
+"Seed Firebase, Supabase or a mock API.",
+"Paste into Postman or a test fixture.",
+"Load in JavaScript with fetch().then(r => r.json()).",
+"Validate and tidy it with the [JSON Formatter](/json-formatter/)."
+]
+}
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert CSV to JSON?",
+"a": "Drop the CSV, keep JSON and download."
+},
+{
+"q": "What JSON structure do I get?",
+"a": "An array of objects, one per row."
+},
+{
+"q": "Can I create nested JSON?",
+"a": "Yes, from dot.key column names."
+},
+{
+"q": "Are numbers converted?",
+"a": "Yes, if Detect numbers is on."
+},
+{
+"q": "Semicolon or tab CSV?",
+"a": "Auto-detected, or choose manually."
+},
+{
+"q": "Can I minify the output?",
+"a": "Turn pretty-print off."
+},
+{
+"q": "Large CSVs?",
+"a": "Hundreds of thousands of rows work."
+},
+{
+"q": "Excel to JSON?",
+"a": "Use Excel to JSON."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"data-converter",
+"json-formatter",
+"csv-to-pdf",
+"excel-to-pdf",
+"json-to-csv"
+],
+"updated": "2026-10-25"
+}
+},
+"json2csv": {
+"seo": {
+"title": "JSON to CSV Converter – Flatten Nested JSON Free",
+"desc": "Convert JSON to CSV free: arrays of objects become rows, nested objects flatten to dot.keys, choose comma, semicolon or tab. Opens in Excel. No upload.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert JSON to CSV",
+"Turn API responses, exports and JSON files into a CSV you can open in Excel or Google Sheets, import into a CRM, or analyse with a pivot table. Every object becomes a row; all keys found in any object become columns; nested objects are flattened into dot.key columns."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the JSON file or paste the data.",
+"Keep CSV as the output and check the options.",
+"Preview the result.",
+"Download the converted file."
+]
+}
+],
+[
+"How nested JSON is flattened",
+{
+"table": [
+[
+"JSON",
+"CSV columns"
+],
+[
+"{\"id\":1,\"user\":{\"name\":\"Ravi\",\"city\":\"Chennai\"}}",
+"id, user.name, user.city"
+],
+[
+"{\"tags\":[\"a\",\"b\"]}",
+"tags (as JSON text)"
+]
+]
+},
+"Arrays of simple values are written as JSON text in one cell so no data is lost; convert back to JSON with nesting on to rebuild the original structure."
+],
+[
+"Open in Excel correctly",
+"Excel in many European locales expects semicolons – choose the ; delimiter for those users. The CSV is UTF-8 with a BOM so accents, ₹, € and non-Latin scripts display correctly in Excel. For a file that opens with no import step at all, convert to [Excel](/json-to-excel/) directly."
+],
+[
+"Where JSON comes from",
+"REST and GraphQL API responses, Firebase and MongoDB exports, Shopify and Stripe exports, browser DevTools copies, and app log files. If the file has an outer object such as {\"data\":[…]}, the converter finds the array of records inside it."
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert JSON to CSV?",
+"a": "Drop the JSON file and download the CSV."
+},
+{
+"q": "What about nested objects?",
+"a": "They become dot.key columns."
+},
+{
+"q": "What about arrays?",
+"a": "Stored as JSON text in a cell."
+},
+{
+"q": "Will Excel open it?",
+"a": "Yes, UTF-8 with BOM."
+},
+{
+"q": "Can I use semicolons?",
+"a": "Yes."
+},
+{
+"q": "My JSON has an outer object – OK?",
+"a": "Yes, the record array is found."
+},
+{
+"q": "Can I paste JSON?",
+"a": "Yes."
+},
+{
+"q": "Large files?",
+"a": "Yes, tens of MB."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"data-converter",
+"json-formatter",
+"csv-to-pdf",
+"excel-to-pdf",
+"csv-to-json"
+],
+"updated": "2026-10-25"
+}
+},
+"csv2excel": {
+"seo": {
+"title": "CSV to Excel Converter – CSV to XLSX Free, Keep Zeros",
+"desc": "Convert CSV to Excel XLSX free: correct delimiters, UTF-8 characters, leading zeros kept, numbers typed. Opens cleanly in Excel. No upload.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert CSV to Excel",
+"Opening a CSV directly in Excel often goes wrong: everything lands in one column, accents turn into gibberish, and leading zeros vanish from phone numbers and PIN codes. Converting the CSV to a proper XLSX file avoids all three problems and gives you a spreadsheet that opens correctly everywhere."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the CSV file or paste the data.",
+"Keep Excel as the output and check the options.",
+"Preview the result.",
+"Download the converted file."
+]
+}
+],
+[
+"Excel details",
+"XLSX output contains one sheet with a bold header row; numbers stay numbers so you can sum and sort immediately, and text that looks like a number with leading zeros is kept as text. Reading Excel, formulas are converted to their last calculated values, a merged cell's value goes into its first cell, and dates become ISO text (2026-10-25) in CSV/JSON so they sort correctly. Hidden rows and columns are included, so unhide and delete anything you do not want exported, and remove charts or images – they are not part of the data."
+],
+[
+"Why not just rename to .xlsx?",
+"A CSV is plain text and an XLSX is a zipped XML package – renaming does not convert it, and Excel will complain the file is corrupt. Converting builds a real workbook with typed cells."
+],
+[
+"After converting",
+{
+"list": [
+"Freeze the header row and add filters for quick browsing.",
+"Format date columns (Excel stores them as numbers).",
+"Create a pivot table for totals by category.",
+"Share with colleagues who double-click files rather than importing."
+]
+}
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert CSV to Excel?",
+"a": "Drop the CSV, keep Excel and download the XLSX."
+},
+{
+"q": "Are leading zeros kept?",
+"a": "Yes."
+},
+{
+"q": "Does it fix semicolon CSV?",
+"a": "Yes, auto-detected."
+},
+{
+"q": "Are accents kept?",
+"a": "Yes, UTF-8 is read correctly."
+},
+{
+"q": "Is it XLSX or XLS?",
+"a": "XLSX."
+},
+{
+"q": "Are numbers real numbers?",
+"a": "Yes, so you can sum them."
+},
+{
+"q": "Large files?",
+"a": "Excel's limit is 1,048,576 rows."
+},
+{
+"q": "Google Sheets?",
+"a": "Import the XLSX or CSV."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"data-converter",
+"json-formatter",
+"csv-to-pdf",
+"excel-to-pdf",
+"csv-to-json"
+],
+"updated": "2026-10-25"
+}
+},
+"excel2csv": {
+"seo": {
+"title": "Excel to CSV Converter – XLSX, XLS, ODS to CSV Free",
+"desc": "Convert Excel XLSX, XLS or ODS to CSV free: choose comma, semicolon or tab, UTF-8, every sheet, formulas as values. No upload, no Excel needed.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert Excel to CSV",
+"CSV is the import format for almost every database, CRM, e-commerce platform, mailing tool and programming language. Convert an Excel workbook to clean UTF-8 CSV with the delimiter your system expects – no Excel installation needed."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the Excel file or paste the data.",
+"Keep CSV as the output and check the options.",
+"Preview the result.",
+"Download the converted file."
+]
+}
+],
+[
+"Excel details",
+"XLSX output contains one sheet with a bold header row; numbers stay numbers so you can sum and sort immediately, and text that looks like a number with leading zeros is kept as text. Reading Excel, formulas are converted to their last calculated values, a merged cell's value goes into its first cell, and dates become ISO text (2026-10-25) in CSV/JSON so they sort correctly. Hidden rows and columns are included, so unhide and delete anything you do not want exported, and remove charts or images – they are not part of the data."
+],
+[
+"Multiple sheets",
+"Each sheet is a separate table. The converter exports every sheet; when there are several, you get one CSV per sheet in a ZIP, named after the sheets."
+],
+[
+"Delimiter by destination",
+{
+"table": [
+[
+"Destination",
+"Delimiter"
+],
+[
+"Most systems, Google Sheets, Python, databases",
+"Comma"
+],
+[
+"Excel in Germany, France, Italy, Spain…",
+"Semicolon"
+],
+[
+"Data with many commas, copy-paste",
+"Tab (TSV)"
+]
+]
+}
+],
+[
+"Encoding",
+"The CSV is UTF-8 – the standard for web apps and databases – so names in Hindi, Tamil, Arabic, Chinese or with accents survive the trip."
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert Excel to CSV?",
+"a": "Drop the XLSX and download the CSV."
+},
+{
+"q": "Does it work with XLS and ODS?",
+"a": "Yes."
+},
+{
+"q": "What about multiple sheets?",
+"a": "One CSV per sheet in a ZIP."
+},
+{
+"q": "Are formulas kept?",
+"a": "Their calculated values are exported."
+},
+{
+"q": "Which delimiter?",
+"a": "Comma, semicolon or tab."
+},
+{
+"q": "Is it UTF-8?",
+"a": "Yes."
+},
+{
+"q": "Do I need Excel?",
+"a": "No."
+},
+{
+"q": "Are dates readable?",
+"a": "Yes, as ISO dates."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"data-converter",
+"json-formatter",
+"csv-to-pdf",
+"excel-to-pdf",
+"csv-to-json"
+],
+"updated": "2026-10-25"
+}
+},
+"excel2json": {
+"seo": {
+"title": "Excel to JSON Converter – XLSX to JSON Free, Nested",
+"desc": "Convert Excel (XLSX, XLS, ODS) to JSON: rows become objects, headers become keys, typed numbers, nested dot.keys, every sheet. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert Excel to JSON",
+"Turn a spreadsheet maintained by non-developers – a product list, translations, prices, a quiz – into JSON your website or app can load. Headers become keys, rows become objects, numbers and booleans are typed, and columns like *price.inr* can be nested."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the Excel file or paste the data.",
+"Keep JSON as the output and check the options.",
+"Preview the result.",
+"Download the converted file."
+]
+}
+],
+[
+"JSON structure",
+{
+"table": [
+[
+"CSV",
+"JSON (array of records)"
+],
+[
+"name,age\\nAsha,31",
+"[{\"name\":\"Asha\",\"age\":31}]"
+],
+[
+"address.city → Pune",
+"{\"address\":{\"city\":\"Pune\"}}"
+]
+]
+},
+"Each row becomes one object; the header row supplies the keys. This *array of objects* is what most APIs, databases (MongoDB, Firebase), JavaScript apps and no-code tools expect."
+],
+[
+"Excel details",
+"XLSX output contains one sheet with a bold header row; numbers stay numbers so you can sum and sort immediately, and text that looks like a number with leading zeros is kept as text. Reading Excel, formulas are converted to their last calculated values, a merged cell's value goes into its first cell, and dates become ISO text (2026-10-25) in CSV/JSON so they sort correctly. Hidden rows and columns are included, so unhide and delete anything you do not want exported, and remove charts or images – they are not part of the data."
+],
+[
+"Spreadsheets as a mini CMS",
+"Many teams keep content in Excel or Google Sheets and convert it to JSON at build time: menu items, store locations, FAQ entries, translation strings. Keep one header row, avoid merged cells, and use dot.keys for grouped fields."
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert Excel to JSON?",
+"a": "Drop the XLSX and download the JSON."
+},
+{
+"q": "What structure is produced?",
+"a": "An array of objects per sheet."
+},
+{
+"q": "Multiple sheets?",
+"a": "Each sheet is converted."
+},
+{
+"q": "Can I nest fields?",
+"a": "Yes, with dot.key headers."
+},
+{
+"q": "Are numbers typed?",
+"a": "Yes, optionally."
+},
+{
+"q": "XLS and ODS?",
+"a": "Yes."
+},
+{
+"q": "Formulas?",
+"a": "Calculated values are used."
+},
+{
+"q": "Pretty-printed?",
+"a": "Optional."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"data-converter",
+"json-formatter",
+"csv-to-pdf",
+"excel-to-pdf",
+"csv-to-json"
+],
+"updated": "2026-10-25"
+}
+},
+"json2excel": {
+"seo": {
+"title": "JSON to Excel Converter – JSON to XLSX Free, Flatten",
+"desc": "Convert JSON to Excel XLSX free: arrays of objects become rows, nested objects become dot.key columns, numbers stay numbers. No upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs ConvertCSV, CSVJSON and TableConvert",
+"compareCols": [
+"ConvertCSV.com",
+"CSVJSON",
+"TableConvert"
+],
+"sections": [
+[
+"Convert JSON to Excel",
+"Give colleagues an API export, analytics dump or app data as a spreadsheet they can sort, filter and chart. Each object becomes a row, every key becomes a column, and nested objects are flattened, producing an XLSX that opens directly in Excel, Numbers or Google Sheets."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the JSON file or paste the data.",
+"Keep Excel as the output and check the options.",
+"Preview the result.",
+"Download the converted file."
+]
+}
+],
+[
+"Excel details",
+"XLSX output contains one sheet with a bold header row; numbers stay numbers so you can sum and sort immediately, and text that looks like a number with leading zeros is kept as text. Reading Excel, formulas are converted to their last calculated values, a merged cell's value goes into its first cell, and dates become ISO text (2026-10-25) in CSV/JSON so they sort correctly. Hidden rows and columns are included, so unhide and delete anything you do not want exported, and remove charts or images – they are not part of the data."
+],
+[
+"Nested data",
+"Nested objects become dot.key columns such as *customer.address.city*. Arrays of simple values are joined into one cell as JSON text. For very deep structures, consider exporting only the array of records you need."
+],
+[
+"Typical sources",
+"Stripe, Shopify and WooCommerce exports; Google Analytics and ads APIs; Firebase; survey tools; application logs. Converting locally keeps customer and financial data off third-party converters."
+],
+[
+"Options explained",
+{
+"table": [
+[
+"Option",
+"What it does"
+],
+[
+"Convert to",
+"CSV, TSV, JSON or Excel (XLSX), whichever direction you need"
+],
+[
+"CSV delimiter",
+"Auto-detect, comma, semicolon, tab or pipe – European Excel uses semicolons"
+],
+[
+"Detect numbers & booleans",
+"Turns \"42\" into 42 and \"true\" into true in JSON; off keeps every value as text"
+],
+[
+"Rebuild nested objects",
+"Columns named address.city become {\"address\":{\"city\":…}} in JSON, and nested JSON is flattened to dot.keys for CSV/Excel"
+],
+[
+"Pretty-print JSON",
+"Indented, readable JSON instead of one compact line"
+]
+]
+}
+],
+[
+"Reliable parsing",
+"CSV is parsed with PapaParse and spreadsheets with SheetJS, two of the most widely used open-source data libraries. Quoted fields with commas, line breaks inside cells, UTF-8 and BOM-prefixed files, and leading zeros (phone numbers, PIN and ZIP codes) are handled correctly. Excel files are read as XLSX, XLS or ODS; every sheet can be converted."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**Everything ends up in one column** – the file uses semicolons; choose the ; delimiter or Auto.",
+"**Strange characters (Ã©)** – the CSV was saved in an old Windows encoding; re-save it as UTF-8 from Excel (*CSV UTF-8*).",
+"**Leading zeros disappear in Excel** – open the CSV via Data → From Text and set the column to Text, or convert to XLSX here, which keeps them as text.",
+"**Dates look like numbers** – Excel stores dates as serial numbers; format the column as a date after converting.",
+"**JSON is an object, not an array** – the converter looks for the first array of records inside it; wrap single objects in [ ]."
+]
+}
+],
+[
+"Works offline, handles big files",
+"Files are converted on your device, so a 50 MB export with hundreds of thousands of rows converts in seconds on a laptop without any upload wait. It works on Windows, macOS, Linux, ChromeOS, Android and iPhone."
+],
+[
+"Clean data before converting",
+{
+"list": [
+"Keep exactly one header row with unique column names.",
+"Remove totals rows, notes and blank rows from the bottom of exports.",
+"Avoid merged cells and multiple tables on one sheet.",
+"Use ISO dates (2026-10-25) so they sort and parse everywhere.",
+"Keep IDs, phone numbers and postcodes as text so they are never rounded."
+]
+},
+"Five minutes of tidying in the spreadsheet saves hours of fixing imports later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your data files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV ⇄ JSON ⇄ Excel all directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nested JSON ⇄ dot.keys",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert JSON to Excel?",
+"a": "Drop the JSON and download the XLSX."
+},
+{
+"q": "Nested JSON?",
+"a": "Flattened to dot.key columns."
+},
+{
+"q": "Do numbers stay numbers?",
+"a": "Yes."
+},
+{
+"q": "Can I convert JSON Lines?",
+"a": "Convert to an array first."
+},
+{
+"q": "Outer object with data array?",
+"a": "The array is found automatically."
+},
+{
+"q": "Max rows?",
+"a": "Excel allows 1,048,576."
+},
+{
+"q": "Does it open in Google Sheets?",
+"a": "Yes."
+},
+{
+"q": "Paste JSON?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"data-converter",
+"json-formatter",
+"csv-to-pdf",
+"excel-to-pdf",
+"csv-to-json"
+],
+"updated": "2026-10-25"
+}
+},
+"zipcreate": {
+"seo": {
+"title": "Create ZIP File Online – Zip Files & Folders Free",
+"desc": "Create a ZIP file from any files in your browser: choose the name and compression level (store, normal, maximum). No upload, no software, free.",
+"compareTitle": "{tool}: {brand} vs WinRAR, 7-Zip and ezyZip",
+"compareCols": [
+"WinRAR",
+"7-Zip",
+"ezyZip"
+],
+"sections": [
+[
+"Create a ZIP file online",
+"Bundle several files into one ZIP to e-mail, upload or archive them. Drop the files, name the ZIP, pick a compression level and download – no WinZip, WinRAR or 7-Zip required, and nothing is uploaded, which makes it safe for private documents."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the files you want to zip.",
+"Type a name for the ZIP file.",
+"Choose compression: None (fastest), Normal or Maximum.",
+"Press Start and download the ZIP."
+]
+}
+],
+[
+"Compression levels",
+{
+"table": [
+[
+"Level",
+"Speed",
+"Best for"
+],
+[
+"None (store)",
+"Fastest",
+"Photos, videos, MP3s, PDFs – already compressed"
+],
+[
+"Normal",
+"Fast",
+"Mixed documents (default)"
+],
+[
+"Maximum",
+"Slower",
+"Text, CSV, code, Word/Excel XML, logs"
+]
+]
+},
+"JPG, MP4, MP3 and most PDFs barely shrink in a ZIP because they are already compressed; zipping them is about bundling, not saving space. Text-heavy files can shrink by 70–90 %."
+],
+[
+"Why zip files?",
+{
+"list": [
+"Send many attachments as one file.",
+"Keep folder structure when uploading to portals that accept one file.",
+"Reduce the size of text-heavy data.",
+"Archive a project at a point in time.",
+"Prevent e-mail clients from altering files."
+]
+}
+],
+[
+"E-mail limits",
+"Gmail and Outlook limit attachments to about 20–25 MB in total. If your ZIP is bigger, compress the content first – [Compress PDF](/compress-pdf/), [Compress Image](/compress-image/), [Compress Video](/compress-video/) – or share through cloud storage."
+],
+[
+"Organising files before zipping",
+"Give files clear names before zipping – *2026-10-invoice-acme.pdf* is far more useful to the recipient than *scan0042.pdf*. Put a short README.txt in the ZIP when sending many files to explain what is inside. Avoid characters such as / \\ : * ? \" < > | in names, which Windows cannot use. If you will send the ZIP again later, include the date in its name so versions are easy to tell apart."
+],
+[
+"Compatibility",
+"The ZIP is standard and opens natively on Windows (Extract All), macOS (double-click), Linux, Android and iOS Files. File names with accents and non-Latin scripts are stored in UTF-8. For better compression of large archives consider 7Z via [Create TAR.GZ](/create-tar-gz/) options."
+],
+[
+"Works everywhere",
+"No WinRAR, 7-Zip or app needed: it runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone. On iPhone and iPad, extracted files go to the Files app; on Android, to Downloads. Large archives are limited only by your device's memory – a few gigabytes on a laptop, less on phones."
+],
+[
+"Security tips",
+{
+"list": [
+"Only open archives from people and sites you trust; extracting a file is safe, but running an unknown .exe, .bat or .js inside it is not.",
+"Watch for double extensions such as invoice.pdf.exe.",
+"Scan downloaded executables with your antivirus before running them.",
+"Password-protected archives from unknown senders are a common way to slip malware past e-mail filters – be careful."
+]
+}
+],
+[
+"ZIP basics",
+"A ZIP file is a container that holds one or more files and folders, each compressed individually with the Deflate algorithm. Because each file is stored separately, a ZIP can be opened and a single file extracted quickly without reading the whole archive. ZIP has been the most widely supported archive format since the 1990s: Windows, macOS, Linux, Android and iOS all open it natively, which is why it is the safest choice when sending files to people whose software you do not know. Newer formats such as 7Z and TAR.XZ compress better, but the recipient may need extra software to open them. ZIP also stores each file's name, date and folder path, so the structure you send is exactly the structure that arrives."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Store / normal / maximum",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I create a ZIP file?",
+"a": "Drop the files, name the ZIP and press Start."
+},
+{
+"q": "Can I zip folders?",
+"a": "Drop the folder's files; on desktop browsers you can select many files at once."
+},
+{
+"q": "Which compression should I choose?",
+"a": "Normal for most files; None for photos and videos."
+},
+{
+"q": "Can I password-protect the ZIP?",
+"a": "No; protect PDFs with Protect PDF instead."
+},
+{
+"q": "Is there a size limit?",
+"a": "Your device's memory."
+},
+{
+"q": "Will it open on Mac and Windows?",
+"a": "Yes."
+},
+{
+"q": "Why didn't my photos get smaller?",
+"a": "JPGs are already compressed."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Can I unzip too?",
+"a": "Use Unzip Files."
+}
+],
+"related": [
+"unzip-files",
+"create-tar-gz",
+"compress-pdf",
+"compress-image",
+"extract-rar"
+],
+"updated": "2026-10-25"
+}
+},
+"unzip": {
+"seo": {
+"title": "Unzip Files Online – Open & Extract ZIP Free, No Upload",
+"desc": "Open and extract ZIP files online: browse the contents, download single files or everything. Works on iPhone, Android, Chromebook. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs WinRAR, 7-Zip and ezyZip",
+"compareCols": [
+"WinRAR",
+"7-Zip",
+"ezyZip"
+],
+"sections": [
+[
+"Unzip files online",
+"Open a ZIP without installing anything – handy on Chromebooks, work computers where you cannot install software, and phones. Every file is listed with its folder path and size, so you can download just the ones you need. The archive is read on your device."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the ZIP file.",
+"The files are extracted in your browser and listed with their folder paths and sizes.",
+"Click any file to download it.",
+"Done – nothing was uploaded."
+]
+}
+],
+[
+"Supported archive formats",
+{
+"table": [
+[
+"Format",
+"Extract",
+"Create"
+],
+[
+"ZIP",
+"Yes ([Unzip Files](/unzip-files/))",
+"Yes ([Create ZIP](/create-zip/))"
+],
+[
+"RAR (v4 and v5)",
+"Yes",
+"No (proprietary)"
+],
+[
+"7Z",
+"Yes",
+"Yes"
+],
+[
+"TAR, TAR.GZ, TGZ",
+"Yes",
+"Yes ([Create TAR.GZ](/create-tar-gz/))"
+],
+[
+"GZ, BZ2, XZ",
+"Yes",
+"TAR.XZ"
+],
+[
+"ISO",
+"Yes",
+"No"
+]
+]
+},
+"Extraction uses libarchive, the open-source engine behind bsdtar, compiled to WebAssembly and loaded only when you press Start."
+],
+[
+"Common uses",
+"Open a set of photos a friend sent from Google Photos or WeTransfer, read documents from a client's ZIP on a work laptop where you cannot install software, check the contents of a download before saving it, or pull one file out of a large project archive on a Chromebook. School and university portals often deliver assignments and results as ZIPs, and many shops send e-invoices and statements the same way. Extracting in the browser means none of these private files pass through a third-party server at any point."
+],
+[
+"Limitations",
+"Password-protected (encrypted) ZIPs are not supported – use your computer's built-in extractor or 7-Zip with the password. Split archives (.z01, .zip.001) must be joined first. Extremely large archives may exceed a phone's memory."
+],
+[
+"Unzipping on iPhone and Android",
+"iOS Files can preview ZIPs, and Android's Files app can extract them, but both struggle with large archives, RAR/7Z and non-Latin file names. This tool lists exactly what is inside with sizes, so you save only the files you want."
+],
+[
+"Mac ZIPs",
+"ZIPs created on a Mac often contain a hidden __MACOSX folder of resource-fork files that clutter Windows extractions. They are skipped automatically, so you only see the real files."
+],
+[
+"Works everywhere",
+"No WinRAR, 7-Zip or app needed: it runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone. On iPhone and iPad, extracted files go to the Files app; on Android, to Downloads. Large archives are limited only by your device's memory – a few gigabytes on a laptop, less on phones."
+],
+[
+"Security tips",
+{
+"list": [
+"Only open archives from people and sites you trust; extracting a file is safe, but running an unknown .exe, .bat or .js inside it is not.",
+"Watch for double extensions such as invoice.pdf.exe.",
+"Scan downloaded executables with your antivirus before running them.",
+"Password-protected archives from unknown senders are a common way to slip malware past e-mail filters – be careful."
+]
+}
+],
+[
+"ZIP basics",
+"A ZIP file is a container that holds one or more files and folders, each compressed individually with the Deflate algorithm. Because each file is stored separately, a ZIP can be opened and a single file extracted quickly without reading the whole archive. ZIP has been the most widely supported archive format since the 1990s: Windows, macOS, Linux, Android and iOS all open it natively, which is why it is the safest choice when sending files to people whose software you do not know. Newer formats such as 7Z and TAR.XZ compress better, but the recipient may need extra software to open them. ZIP also stores each file's name, date and folder path, so the structure you send is exactly the structure that arrives."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Browse before extracting",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I unzip a file online?",
+"a": "Drop the ZIP and download the files."
+},
+{
+"q": "Can I extract just one file?",
+"a": "Yes, click it in the list."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes."
+},
+{
+"q": "Can I open RAR or 7Z?",
+"a": "Use Extract RAR or Extract 7Z."
+},
+{
+"q": "Password-protected ZIP?",
+"a": "Not supported."
+},
+{
+"q": "Is it safe?",
+"a": "Files are read locally; be careful running executables."
+},
+{
+"q": "Large ZIPs?",
+"a": "Up to your device's memory."
+},
+{
+"q": "Are folder names kept?",
+"a": "Yes, as paths."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"create-zip",
+"extract-rar",
+"extract-7z",
+"extract-tar",
+"extract-tar-gz"
+],
+"updated": "2026-10-25"
+}
+},
+"rarx": {
+"seo": {
+"title": "Extract RAR Online – Open RAR Files Free, No WinRAR",
+"desc": "Open and extract RAR files (RAR4 and RAR5) online without WinRAR: list contents, download files one by one or all. Free, no upload, works on phones.",
+"compareTitle": "{tool}: {brand} vs WinRAR, 7-Zip and ezyZip",
+"compareCols": [
+"WinRAR",
+"7-Zip",
+"ezyZip"
+],
+"sections": [
+[
+"Open RAR files online",
+"RAR is a popular proprietary archive format created by WinRAR. Windows (until recently), Chromebooks, iPhones and Android phones cannot open RAR files without extra software. Drop a .rar here to see what is inside and extract the files in your browser – no WinRAR licence or app needed."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the .rar archive.",
+"Press Start – the extractor loads and lists the contents.",
+"Download single files or everything as a ZIP."
+]
+}
+],
+[
+"Supported archive formats",
+{
+"table": [
+[
+"Format",
+"Extract",
+"Create"
+],
+[
+"ZIP",
+"Yes ([Unzip Files](/unzip-files/))",
+"Yes ([Create ZIP](/create-zip/))"
+],
+[
+"RAR (v4 and v5)",
+"Yes",
+"No (proprietary)"
+],
+[
+"7Z",
+"Yes",
+"Yes"
+],
+[
+"TAR, TAR.GZ, TGZ",
+"Yes",
+"Yes ([Create TAR.GZ](/create-tar-gz/))"
+],
+[
+"GZ, BZ2, XZ",
+"Yes",
+"TAR.XZ"
+],
+[
+"ISO",
+"Yes",
+"No"
+]
+]
+},
+"Extraction uses libarchive, the open-source engine behind bsdtar, compiled to WebAssembly and loaded only when you press Start."
+],
+[
+"RAR4 vs RAR5",
+"RAR5 (WinRAR 5.0+, 2013) is now the default; RAR4 is older. Both are supported. Multi-volume archives (part1.rar, part2.rar…) should be extracted on a desktop with all parts together."
+],
+[
+"Why can't I create RAR files?",
+"The RAR compression format is proprietary; only RARLAB's own software may create RAR archives. Use [Create ZIP](/create-zip/) or 7Z instead – both are open and compress as well or better."
+],
+[
+"Encrypted RAR",
+"Encrypted (password-protected) RAR and 7Z archives cannot be opened here; use 7-Zip, WinRAR, Keka or The Unarchiver with the password."
+],
+[
+"Download as ZIP",
+"Choosing *download all* re-packs the extracted files as a standard ZIP, which every computer and phone opens natively – a convenient way to convert RAR, 7Z or TAR archives to ZIP."
+],
+[
+"Works everywhere",
+"No WinRAR, 7-Zip or app needed: it runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone. On iPhone and iPad, extracted files go to the Files app; on Android, to Downloads. Large archives are limited only by your device's memory – a few gigabytes on a laptop, less on phones."
+],
+[
+"Security tips",
+{
+"list": [
+"Only open archives from people and sites you trust; extracting a file is safe, but running an unknown .exe, .bat or .js inside it is not.",
+"Watch for double extensions such as invoice.pdf.exe.",
+"Scan downloaded executables with your antivirus before running them.",
+"Password-protected archives from unknown senders are a common way to slip malware past e-mail filters – be careful."
+]
+}
+],
+[
+"ZIP basics",
+"A ZIP file is a container that holds one or more files and folders, each compressed individually with the Deflate algorithm. Because each file is stored separately, a ZIP can be opened and a single file extracted quickly without reading the whole archive. ZIP has been the most widely supported archive format since the 1990s: Windows, macOS, Linux, Android and iOS all open it natively, which is why it is the safest choice when sending files to people whose software you do not know. Newer formats such as 7Z and TAR.XZ compress better, but the recipient may need extra software to open them. ZIP also stores each file's name, date and folder path, so the structure you send is exactly the structure that arrives."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"RAR, 7Z, TAR, GZ, XZ, ISO",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I open a RAR file?",
+"a": "Drop it here and press Start."
+},
+{
+"q": "Do I need WinRAR or 7-Zip?",
+"a": "No."
+},
+{
+"q": "Can I extract a single file?",
+"a": "Yes."
+},
+{
+"q": "Does it work on Mac and iPhone?",
+"a": "Yes."
+},
+{
+"q": "Password-protected archives?",
+"a": "Encrypted RAR/7Z are not supported."
+},
+{
+"q": "Can I convert RAR to ZIP?",
+"a": "Yes, download all as ZIP."
+},
+{
+"q": "Multi-part archives?",
+"a": "Use a desktop extractor with all parts."
+},
+{
+"q": "Is it safe?",
+"a": "Extraction is local; do not run unknown programs."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"unzip-files",
+"extract-7z",
+"extract-tar-gz",
+"create-zip",
+"create-tar-gz"
+],
+"updated": "2026-10-25"
+}
+},
+"7zx": {
+"seo": {
+"title": "Extract 7Z Online – Open 7-Zip Files Free, No Install",
+"desc": "Open and extract 7Z (7-Zip) archives online: browse contents, download single files or all. LZMA/LZMA2 supported. Free, no upload, works on Mac and phones.",
+"compareTitle": "{tool}: {brand} vs WinRAR, 7-Zip and ezyZip",
+"compareCols": [
+"WinRAR",
+"7-Zip",
+"ezyZip"
+],
+"sections": [
+[
+"Open 7Z files online",
+"7Z is the open archive format of 7-Zip, known for very high compression with LZMA2. It is common for software, game mods, datasets and backups – but macOS, iOS, Android and Chromebooks cannot open it natively. Extract 7Z files right in your browser."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the .7z archive.",
+"Press Start – the extractor loads and lists the contents.",
+"Download single files or everything as a ZIP."
+]
+}
+],
+[
+"Supported archive formats",
+{
+"table": [
+[
+"Format",
+"Extract",
+"Create"
+],
+[
+"ZIP",
+"Yes ([Unzip Files](/unzip-files/))",
+"Yes ([Create ZIP](/create-zip/))"
+],
+[
+"RAR (v4 and v5)",
+"Yes",
+"No (proprietary)"
+],
+[
+"7Z",
+"Yes",
+"Yes"
+],
+[
+"TAR, TAR.GZ, TGZ",
+"Yes",
+"Yes ([Create TAR.GZ](/create-tar-gz/))"
+],
+[
+"GZ, BZ2, XZ",
+"Yes",
+"TAR.XZ"
+],
+[
+"ISO",
+"Yes",
+"No"
+]
+]
+},
+"Extraction uses libarchive, the open-source engine behind bsdtar, compiled to WebAssembly and loaded only when you press Start."
+],
+[
+"Why 7Z files are smaller",
+"7Z uses LZMA/LZMA2 compression with large dictionaries and 'solid' compression, treating many files as one stream. That often makes archives 30–70 % smaller than ZIP for text and software, at the cost of slower compression."
+],
+[
+"Solid archives",
+"In a solid 7Z, extracting one file may require decompressing those before it, so even a single file can take a moment in large archives. This is normal."
+],
+[
+"Encrypted 7Z",
+"Encrypted (password-protected) RAR and 7Z archives cannot be opened here; use 7-Zip, WinRAR, Keka or The Unarchiver with the password."
+],
+[
+"Download as ZIP",
+"Choosing *download all* re-packs the extracted files as a standard ZIP, which every computer and phone opens natively – a convenient way to convert RAR, 7Z or TAR archives to ZIP."
+],
+[
+"Works everywhere",
+"No WinRAR, 7-Zip or app needed: it runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone. On iPhone and iPad, extracted files go to the Files app; on Android, to Downloads. Large archives are limited only by your device's memory – a few gigabytes on a laptop, less on phones."
+],
+[
+"Security tips",
+{
+"list": [
+"Only open archives from people and sites you trust; extracting a file is safe, but running an unknown .exe, .bat or .js inside it is not.",
+"Watch for double extensions such as invoice.pdf.exe.",
+"Scan downloaded executables with your antivirus before running them.",
+"Password-protected archives from unknown senders are a common way to slip malware past e-mail filters – be careful."
+]
+}
+],
+[
+"ZIP basics",
+"A ZIP file is a container that holds one or more files and folders, each compressed individually with the Deflate algorithm. Because each file is stored separately, a ZIP can be opened and a single file extracted quickly without reading the whole archive. ZIP has been the most widely supported archive format since the 1990s: Windows, macOS, Linux, Android and iOS all open it natively, which is why it is the safest choice when sending files to people whose software you do not know. Newer formats such as 7Z and TAR.XZ compress better, but the recipient may need extra software to open them. ZIP also stores each file's name, date and folder path, so the structure you send is exactly the structure that arrives."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"RAR, 7Z, TAR, GZ, XZ, ISO",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I open a 7Z file?",
+"a": "Drop it here and press Start."
+},
+{
+"q": "Do I need WinRAR or 7-Zip?",
+"a": "No."
+},
+{
+"q": "Can I extract a single file?",
+"a": "Yes."
+},
+{
+"q": "Does it work on Mac and iPhone?",
+"a": "Yes."
+},
+{
+"q": "Password-protected archives?",
+"a": "Encrypted RAR/7Z are not supported."
+},
+{
+"q": "Can I convert 7Z to ZIP?",
+"a": "Yes, download all as ZIP."
+},
+{
+"q": "Multi-part archives?",
+"a": "Use a desktop extractor with all parts."
+},
+{
+"q": "Is it safe?",
+"a": "Extraction is local; do not run unknown programs."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"unzip-files",
+"extract-rar",
+"extract-tar-gz",
+"create-zip",
+"create-tar-gz"
+],
+"updated": "2026-10-25"
+}
+},
+"tarx": {
+"seo": {
+"title": "Extract TAR Online – Open TAR, TAR.GZ, TGZ Files Free",
+"desc": "Open and extract TAR, TAR.GZ, TGZ, TAR.BZ2 and TAR.XZ archives online. Browse, download files or all. Free, no upload, no command line needed.",
+"compareTitle": "{tool}: {brand} vs WinRAR, 7-Zip and ezyZip",
+"compareCols": [
+"WinRAR",
+"7-Zip",
+"ezyZip"
+],
+"sections": [
+[
+"Open TAR files online",
+"TAR archives – often compressed as .tar.gz, .tgz, .tar.bz2 or .tar.xz – are the standard way to package source code, Linux software, server backups and datasets. Windows users and phone users usually cannot open them easily. Extract them in your browser without a terminal."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the .tar archive.",
+"Press Start – the extractor loads and lists the contents.",
+"Download single files or everything as a ZIP."
+]
+}
+],
+[
+"Supported archive formats",
+{
+"table": [
+[
+"Format",
+"Extract",
+"Create"
+],
+[
+"ZIP",
+"Yes ([Unzip Files](/unzip-files/))",
+"Yes ([Create ZIP](/create-zip/))"
+],
+[
+"RAR (v4 and v5)",
+"Yes",
+"No (proprietary)"
+],
+[
+"7Z",
+"Yes",
+"Yes"
+],
+[
+"TAR, TAR.GZ, TGZ",
+"Yes",
+"Yes ([Create TAR.GZ](/create-tar-gz/))"
+],
+[
+"GZ, BZ2, XZ",
+"Yes",
+"TAR.XZ"
+],
+[
+"ISO",
+"Yes",
+"No"
+]
+]
+},
+"Extraction uses libarchive, the open-source engine behind bsdtar, compiled to WebAssembly and loaded only when you press Start."
+],
+[
+"TAR and compression",
+"TAR (tape archive) only bundles files and keeps Unix permissions and folder structure; it does not compress. The bundle is then compressed with gzip (.gz), bzip2 (.bz2) or xz (.xz). This tool unpacks both layers in one step."
+],
+[
+"Command-line equivalent",
+"On Linux and macOS you would run tar -xzf file.tar.gz. Windows 10/11 also include tar in the command prompt. This page does the same without typing commands – ideal when you only need one file from a backup."
+],
+[
+"Create TAR.GZ",
+"To make your own archive, use [Create TAR.GZ](/create-tar-gz/)."
+],
+[
+"Download as ZIP",
+"Choosing *download all* re-packs the extracted files as a standard ZIP, which every computer and phone opens natively – a convenient way to convert RAR, 7Z or TAR archives to ZIP."
+],
+[
+"Works everywhere",
+"No WinRAR, 7-Zip or app needed: it runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone. On iPhone and iPad, extracted files go to the Files app; on Android, to Downloads. Large archives are limited only by your device's memory – a few gigabytes on a laptop, less on phones."
+],
+[
+"Security tips",
+{
+"list": [
+"Only open archives from people and sites you trust; extracting a file is safe, but running an unknown .exe, .bat or .js inside it is not.",
+"Watch for double extensions such as invoice.pdf.exe.",
+"Scan downloaded executables with your antivirus before running them.",
+"Password-protected archives from unknown senders are a common way to slip malware past e-mail filters – be careful."
+]
+}
+],
+[
+"ZIP basics",
+"A ZIP file is a container that holds one or more files and folders, each compressed individually with the Deflate algorithm. Because each file is stored separately, a ZIP can be opened and a single file extracted quickly without reading the whole archive. ZIP has been the most widely supported archive format since the 1990s: Windows, macOS, Linux, Android and iOS all open it natively, which is why it is the safest choice when sending files to people whose software you do not know. Newer formats such as 7Z and TAR.XZ compress better, but the recipient may need extra software to open them. ZIP also stores each file's name, date and folder path, so the structure you send is exactly the structure that arrives."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"RAR, 7Z, TAR, GZ, XZ, ISO",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I open a TAR file?",
+"a": "Drop it here and press Start."
+},
+{
+"q": "Do I need WinRAR or 7-Zip?",
+"a": "No."
+},
+{
+"q": "Can I extract a single file?",
+"a": "Yes."
+},
+{
+"q": "Does it work on Mac and iPhone?",
+"a": "Yes."
+},
+{
+"q": "Password-protected archives?",
+"a": "Encrypted RAR/7Z are not supported."
+},
+{
+"q": "Can I convert TAR to ZIP?",
+"a": "Yes, download all as ZIP."
+},
+{
+"q": "Multi-part archives?",
+"a": "Use a desktop extractor with all parts."
+},
+{
+"q": "Is it safe?",
+"a": "Extraction is local; do not run unknown programs."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"unzip-files",
+"extract-rar",
+"extract-tar-gz",
+"create-zip",
+"create-tar-gz"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}
