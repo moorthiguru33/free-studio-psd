@@ -1,6 +1,6 @@
 // Static QR code generator: content types, colours, logo, dot style; PNG / SVG / PDF. Landing pages preset vars.type
 const QT=['url','text','email','phone','sms','wifi','vcard','mecard','location','event','bitcoin','social'];
-const SOC={x:'https://x.com/{u}',instagram:'https://instagram.com/{u}',facebook:'https://facebook.com/{u}',linkedin:'https://www.linkedin.com/in/{u}',youtube:'https://youtube.com/@{u}',tiktok:'https://www.tiktok.com/@{u}',whatsapp:'https://wa.me/{u}',telegram:'https://t.me/{u}',github:'https://github.com/{u}'};
+const SOC={x:'https://x.com/{u}',instagram:'https://instagram.com/{u}',facebook:'https://facebook.com/{u}',linkedin:'https://www.linkedin.com/in/{u}',youtube:'https://youtube.com/@{u}',tiktok:'https://www.tiktok.com/@{u}',whatsapp:'https://wa.me/{u}',telegram:'https://t.me/{u}',github:'https://github.com/{u}',threads:'https://www.threads.net/@{u}',pinterest:'https://www.pinterest.com/{u}',snapchat:'https://www.snapchat.com/add/{u}',twitch:'https://www.twitch.tv/{u}',reddit:'https://www.reddit.com/user/{u}'};
 const qe=s=>String(s||'').replace(/([\\;,:"])/g,'\\$1');// WiFi/MeCard escaping
 const ve=s=>String(s||'').replace(/([\\;,])/g,'\\$1').replace(/\n/g,'\\n');// vCard/iCal escaping
 const dt=s=>s?s.replace(/[-:]/g,'').slice(0,13)+'00':'';
