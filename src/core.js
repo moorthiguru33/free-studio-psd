@@ -1,4 +1,4 @@
-/* FreePDF – all processing happens in the browser. No uploads. */
+/* Fileopia – all processing happens in the browser. No uploads. */
 (()=>{'use strict';
 const T=window.I18N||{};const $=(s,r=document)=>r.querySelector(s);
 const root=$('#tool');if(!root)return;

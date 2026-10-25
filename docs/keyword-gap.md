@@ -1,8 +1,8 @@
-# Keyword gap: FreePDF vs iLovePDF and Smallpdf (checked 25 Oct 2026, IST)
+# Keyword gap: Fileopia vs iLovePDF and Smallpdf (checked 25 Oct 2026, IST)
 
 Method: I fetched live `<title>` and `<h1>` text from ilovepdf.com and smallpdf.com and compared it with our built pages (dist/). The rule was to put the head keyword first, add one natural secondary keyword, and avoid stuffing.
 
-| # | Keyword | iLovePDF title / H1 | Smallpdf title / H1 | FreePDF title / H1 | Status |
+| # | Keyword | iLovePDF title / H1 | Smallpdf title / H1 | Fileopia title / H1 | Status |
 |---|---|---|---|---|---|
 | 1 | merge pdf | Merge PDF files online… / Merge PDF files | Merge PDF: Combine PDF Files… / Merge PDF | Merge PDF – Combine PDF Files Online Free, No Upload / Merge PDF files | ✅ parity + privacy angle |
 | 2 | compress pdf | Compress PDF online… / Compress PDF file | Compress PDF: Reduce PDF File Size… | Compress PDF – Reduce PDF File Size Online Free / Compress PDF | ✅ |

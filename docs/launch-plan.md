@@ -1,4 +1,4 @@
-# FreePDF launch plan
+# Fileopia launch plan
 
 The examples below use `https://www.example.com`. Replace it with the real domain.
 
@@ -38,10 +38,10 @@ Space these out over 2–3 weeks. Do not paste the same text everywhere; rotate 
 
 **Short description (≤ 60 characters):** Free PDF tools that run in your browser – no uploads.
 
-**Medium description (≈ 160 characters):** FreePDF: 100+ free PDF, image and document tools, including merge, compress, edit, sign, OCR and convert. Everything runs in your browser, so files never leave your device.
+**Medium description (≈ 160 characters):** Fileopia: 100+ free PDF, image and document tools, including merge, compress, edit, sign, OCR and convert. Everything runs in your browser, so files never leave your device.
 
 **Long description:**
-> FreePDF is a free, privacy-first alternative to iLovePDF and Smallpdf. It has more than 100 tools: merge, split, compress, edit (including real text removal), sign, OCR, PDF to Word/Excel/PowerPoint/JPG, watermark, page numbers, PDF/A, plus image tools such as compress, resize and background removal. Every tool runs locally in your browser with WebAssembly and JavaScript. Files are never uploaded, there is no account, no daily limit and no watermark. It is available in English, Hindi and Tamil.
+> Fileopia is a free, privacy-first alternative to iLovePDF and Smallpdf. It has more than 100 tools: merge, split, compress, edit (including real text removal), sign, OCR, PDF to Word/Excel/PowerPoint/JPG, watermark, page numbers, PDF/A, plus image tools such as compress, resize and background removal. Every tool runs locally in your browser with WebAssembly and JavaScript. Files are never uploaded, there is no account, no daily limit and no watermark. It is available in English, Hindi and Tamil.
 
 **Tags:** pdf, pdf editor, merge pdf, compress pdf, privacy, productivity, open web, ilovepdf alternative, smallpdf alternative
 

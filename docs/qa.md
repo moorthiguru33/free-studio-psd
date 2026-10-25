@@ -1,4 +1,4 @@
-# FreePDF QA log
+# Fileopia QA log
 
 Method: every tool tested on the LIVE site (https://freepdf-tools-9u1.pages.dev) in headless Chrome at phone (390×844) and desktop (1366×900).
 - Functional suites: `test/e2e*.js` (~270 cases with output assertions, incl. no-upload check).

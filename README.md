@@ -1,4 +1,4 @@
-# FreePDF – free, private, in-browser file tools
+# Fileopia – free, private, in-browser file tools
 
 141 tools (PDF, image, OCR, AI, audio/video, data, converters) × 3 languages (en default, ta, hi) = static pages with hreflang.
 **All processing is client-side.** No uploads, no accounts, no watermarks. Nothing is deployed from this repo automatically.
@@ -65,7 +65,7 @@ No GPL or AGPL code is shipped. Compliance notes for the weak-copyleft items:
 - MP3 encoding is done on the main thread (lamejs); long files take a while.
 - jsQR cannot read some QR codes with large logos; no PDF linearization; CJK fonts not bundled (missing glyphs in PDF text tools).
 - Encrypted ZIPs are not supported.
-- The brand "FreePDF" now covers more than PDF – consider a broader name/domain before launch.
+- The brand "Fileopia" now covers more than PDF – consider a broader name/domain before launch.
 
 ## Custom domain switch
 

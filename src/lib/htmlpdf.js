@@ -1,6 +1,6 @@
 // Simple HTML -> PDF flow layout (headings, paragraphs, lists, quotes, code, tables, hr) with multi-script Noto text. Needs pdfx.
 const PSZ={a4:[595.28,841.89],letter:[612,792],legal:[612,1008],a3:[841.89,1190.55],a5:[419.53,595.28]};
-async function htmlToPdf(html,{size='a4',margin=56,base=11,title}={}){const {PDFDocument,rgb,StandardFonts}=await L.pdflib();const d=await PDFDocument.create();if(title)d.setTitle(title);d.setProducer('FreePDF');
+async function htmlToPdf(html,{size='a4',margin=56,base=11,title}={}){const {PDFDocument,rgb,StandardFonts}=await L.pdflib();const d=await PDFDocument.create();if(title)d.setTitle(title);d.setProducer('Fileopia');
  const [W,H]=PSZ[size]||PSZ.a4,M=margin;let page=d.addPage([W,H]),y=H-M;const newPage=()=>{page=d.addPage([W,H]);y=H-M;};const mono=await d.embedFont(StandardFonts.Courier);
  const dom=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html').body.firstChild;
  const runsOf=(node,st={b:false,c:false},acc=[])=>{for(const n of node.childNodes){if(n.nodeType===3)acc.push({t:n.textContent,...st});else if(n.nodeType===1){const tg=n.tagName;if(tg==='BR'){acc.push({br:true});continue;}if(tg==='IMG'){if(n.alt)acc.push({t:`[${n.alt}]`,...st});continue;}if(/^(UL|OL)$/.test(tg))continue;runsOf(n,{b:st.b||tg==='STRONG'||tg==='B'||tg==='TH',c:st.c||tg==='CODE',a:st.a||tg==='A'},acc);}}return acc;};
