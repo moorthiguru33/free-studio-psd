@@ -87,9 +87,9 @@ function showErr(e,retry){console.error(e);const s=$('.status',work)||(()=>{work
 function progress(m){const pg=$('.prog',work);if(!pg)return;pg.hidden=false;let f=null;if(typeof m==='number')f=m;else{const a=String(m).match(/(\d+)\s*%/),b=String(m).match(/(\d+)\s*\/\s*(\d+)/);if(a)f=+a[1]/100;else if(b&&+b[2])f=+b[1]/+b[2];}
   pg.classList.toggle('ind',f===null);if(f!==null){f=Math.max(0,Math.min(1,f));$('.bar i',pg).style.width=(f*100).toFixed(0)+'%';$('.pct',pg).textContent=(f*100).toFixed(0)+'%';}else $('.pct',pg).textContent='';}
 let liveUrls=[];
-async function go(live){const btn=$('#go',work),st=$('.status',work);if(!live){btn.disabled=true;st.className='status';st.textContent=T.working;progress(0.02);}
+let goSeq=0;async function go(live){const seq=++goSeq;const btn=$('#go',work),st=$('.status',work);if(!live){btn.disabled=true;st.className='status';st.textContent=T.working;progress(0.02);}
   const inSize=files.reduce((a,f)=>a+f.size,0);
-  try{const r=await tool.run.call(tool,files,m=>{st.textContent=m;if(!live)progress(m);});window.__lastResult=r;const urls=[];const mk=b=>{const u=URL.createObjectURL(b);urls.push(u);return u;};
+  try{const r=await tool.run.call(tool,files,m=>{st.textContent=m;if(!live)progress(m);});if(live&&seq!==goSeq)return;window.__lastResult=r;const urls=[];const mk=b=>{const u=URL.createObjectURL(b);urls.push(u);return u;};
    const extra=(r.extra||[]).map((x,k)=>`<a class="btn ghost dlx" id="dl${k+2}" href="${mk(x.blob)}" download="${esc(x.name)}">⬇ ${esc(x.label||x.name)}</a>`).join('');
    if(live){liveUrls.forEach(u=>URL.revokeObjectURL(u));liveUrls=urls;$('.actions',work).innerHTML=`<button type="button" class="btn big" id="go" hidden></button>${r.blob?`<a class="btn big" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}`;st.className='status';st.textContent=r.info||'';setStep(3);return;}
    setStep(3);const ext=(r.name||'').match(/\.[^.]+$/)?.[0]||'';const out=r.blob?r.blob.size:0;const saved=inSize&&out&&out<inSize?Math.round((1-out/inSize)*100):0;
@@ -103,7 +103,7 @@ async function go(live){const btn=$('#go',work),st=$('.status',work);if(!live){b
    if(r.view||r.links){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=(r.view||'')+(r.links?`<ul class="links">${r.links.map(x=>`<li><a href="${mk(x.blob)}" download="${esc(x.name.split('/').pop())}">${esc(x.name)}</a> <small>${fmtSize(x.blob.size)}</small></li>`).join('')}</ul>`:'');res.appendChild(vw);if(r.mount)r.mount(vw);}
    $('#again',res).onclick=()=>{urls.forEach(u=>URL.revokeObjectURL(u));files=[];render();};
    res.scrollIntoView({block:'start',behavior:'smooth'});
-  }catch(e){if(btn)btn.disabled=false;if(live)work.querySelectorAll('#dl,.dlx').forEach(a=>a.remove());if(live&&e&&e.soft){st.className='status';st.textContent=e.message;return;}showErr(e,live?null:()=>go());}}
+  }catch(e){if(live&&seq!==goSeq)return;if(btn)btn.disabled=false;if(live)work.querySelectorAll('#dl,.dlx').forEach(a=>a.remove());if(live&&e&&e.soft){st.className='status';st.textContent=e.message;return;}showErr(e,live?null:()=>go());}}
 window.FP={progress,T,$,esc,load,L,buf,base,pdfBlob,fmtSize,openPdfjs,renderPage,toBlob,parseRanges,zipBlobs,zipOrOne,sel,inp,v,setupPreview,mkSafe,chk,vb,TOOLS,work,root,toolId};
 document.readyState==='complete'?start():document.addEventListener('DOMContentLoaded',start);
 })();
