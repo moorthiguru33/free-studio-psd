@@ -10,6 +10,9 @@ const newCanvas=(w,h)=>{const c=document.createElement('canvas');c.width=Math.ma
 async function isHeic(f){const b=new Uint8Array(await f.slice(0,32).arrayBuffer());const s=String.fromCharCode(...b.slice(4,12));return /ftyp(heic|heix|hevc|hevx|mif1|msf1|heim|heis)/.test(s);}
 // Decode any supported image file into a canvas (EXIF orientation applied).
 async function fileToCanvas(f){const e=extOf(f.name);
+ if(/^(cr2|cr3|nef|nrw|arw|srf|sr2|dng|orf|rw2|pef|raf|srw|raw|rwl|3fr|erf|kdc|mrw|x3f)$/.test(e)){await load('rawimg.js');return rawToCanvas(f);}
+ if(e==='tga'||e==='icb'||e==='vda'){await load('rawimg.js');return tgaToCanvas(await f.arrayBuffer());}
+ if(e==='psd'||e==='psb'){await load('agpsd.js');const p=window.agPsd.readPsd(await f.arrayBuffer(),{skipLayerImageData:true,skipThumbnail:true,useImageData:false});if(!p.canvas)throw new Error(f.name+': this PSD has no composite image (save it with “Maximize compatibility” in Photoshop).');return p.canvas;}
  if(/tiff?/.test(e)||f.type==='image/tiff'){const U=await IL.utif();const ab=await f.arrayBuffer();const ifds=U.decode(ab);U.decodeImage(ab,ifds[0]);const rgba=U.toRGBA8(ifds[0]);const c=newCanvas(ifds[0].width,ifds[0].height);c.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(rgba.buffer),c.width,c.height),0,0);return c;}
  if(/heic|heif/.test(e)||await isHeic(f)){const h2a=await IL.heic();let b=await h2a({blob:f,toType:'image/png'});if(Array.isArray(b))b=b[0];f=b;}
  if(e==='svg'||f.type==='image/svg+xml'){const u=URL.createObjectURL(f);try{const im=new Image();im.src=u;await im.decode();const w=im.naturalWidth||1024,h=im.naturalHeight||1024;const sc=Math.max(1,1024/Math.max(w,h));const c=newCanvas(w*sc,h*sc);c.getContext('2d').drawImage(im,0,0,c.width,c.height);return c;}finally{URL.revokeObjectURL(u);}}

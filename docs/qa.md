@@ -128,3 +128,14 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 | Extract RAR (v4, v5) / 7Z / TAR / TAR.GZ / TAR.XZ / single .gz (libarchive.js MIT + libarchive BSD-2, 1 MB wasm lazy-loaded on Start) | test/arch.js with libarchive's own RAR test files + tar/xz/7z made locally | all extract OK; encrypted 7z shows a clear "not supported" message (libarchive can't decrypt 7z/RAR) |
 | Create TAR.GZ / TAR / TAR.XZ / TAR.BZ2 / 7Z | 2 files → archive.tar.gz, verified with `tar tzf` | OK |
 | Fonts: TTF/OTF ↔ WOFF/WOFF2 (6 pages; WOFF1 via pako, WOFF2 via wawoff2/Google woff2, both MIT, 1.2 MB lazy) | NotoSans TTF + Pretendard OTF round-trips (test/font.js), checked with fontTools | lossless: TTF glyph coords identical, OTF glyph count + GSUB identical; CFF stays .otf (no lossy curve conversion) |
+
+### Image formats batch (2026-10-25)
+| Tool | Sample | Result |
+|---|---|---|
+| psd-to-jpg / psd-to-png | ag-psd test PSD | ✅ 200×200 composite (ag-psd, MIT) |
+| cr2-to-jpg | Canon 550D CR2 (raw.pixls.us) | ✅ 5184×3456 embedded preview |
+| nef-to-jpg / raw-to-jpg | Nikon D3200 NEF | ✅ 6016×4000 |
+| arw-to-jpg | Sony A6000 ARW | ✅ 1616×1080 (camera only embeds 1616px preview) |
+| dng-to-jpg | Pentax K-5 DNG | ✅ 4928×3264 |
+| tga-to-png / tga-to-jpg | PIL 24-bit, RLE, 32-bit alpha | ✅ pixel-exact |
+| EPS→PNG | — | ⏭ skipped: needs Ghostscript (AGPL) |

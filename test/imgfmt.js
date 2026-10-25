@@ -1,0 +1,5 @@
+const {chromium}=require('playwright-core');const B=process.env.BASE||'http://localhost:8099';
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});
+const steps=[['psd-to-jpg','/tmp/t.psd'],['psd-to-png','/tmp/t.psd'],['cr2-to-jpg','/tmp/raw/s.cr2'],['nef-to-jpg','/tmp/raw/s.nef'],['arw-to-jpg','/tmp/raw/s.arw'],['dng-to-jpg','/tmp/raw/s.dng'],['raw-to-jpg','/tmp/raw/s.nef'],['tga-to-png','/tmp/t.tga'],['tga-to-png','/tmp/t-rle.tga'],['tga-to-jpg','/tmp/t32.tga']];require('fs').mkdirSync('/tmp/io',{recursive:true});
+for(const [slug,f] of steps){const p=await ctx.newPage();try{await p.goto(`${B}/${slug}/`);await p.setInputFiles('#tool input[type=file]',f);await p.waitForSelector('#go');await p.click('#go');await p.waitForSelector('#dl,.err',{timeout:90000});const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const fp='/tmp/io/'+slug+'_'+dl.suggestedFilename();await dl.saveAs(fp);console.log(slug,'->',fp,require('fs').statSync(fp).size);}catch(e){console.log(slug,'ERR',e.message.slice(0,120))}await p.close();}
+await b.close()})();

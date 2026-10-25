@@ -22,6 +22,7 @@
     "@cantoo/pdf-lib": "^2.11.1",
     "@jsquash/avif": "^2.1.1",
     "@vladmandic/face-api": "^1.7.15",
+    "ag-psd": "^33.0.0",
     "gifenc": "^1.0.3",
     "gifuct-js": "^2.1.2",
     "heic2any": "^0.0.4",
