@@ -1,0 +1,517 @@
+{
+"tools": {
+"pdfkb": {
+"name": "Compress PDF to Exact Size",
+"short": "Shrink a PDF to a target size like 100 KB, 200 KB or 1 MB.",
+"title": "Compress PDF to KB or MB – Exact Target Size | {brand}",
+"desc": "Compress a PDF to an exact size such as 100 KB, 200 KB, 500 KB or 1 MB. Free, no upload, no sign-up – it runs in your browser.",
+"h1": "Compress PDF to a target size",
+"steps": [
+"Choose the PDF you need to make smaller.",
+"Enter the target size and pick KB or MB.",
+"Click Start – the tool tries the gentlest method first and downloads the largest file that fits."
+],
+"faq": [
+{
+"q": "How does it hit an exact size?",
+"a": "It works in stages. First a lossless rebuild, then images are recompressed at steadily lower resolution and quality while text stays vector. Only if that is not enough does it turn pages into images, searching resolution and quality until the file is just under your limit."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No. Everything happens on your device, so confidential documents never leave it. You can even switch off Wi-Fi after the page loads."
+},
+{
+"q": "What if the target is impossible?",
+"a": "You get the smallest file that could be produced and a clear warning, so you can split the PDF or remove pages instead."
+},
+{
+"q": "Will text still be selectable?",
+"a": "Yes whenever image recompression alone reaches the target. If pages have to be rasterized, untick the option to keep text and accept a larger file."
+},
+{
+"q": "KB or kB?",
+"a": "The tool uses 1 KB = 1024 bytes, which matches how Windows and most portals measure. Enter a slightly lower number if a portal uses 1000."
+},
+{
+"q": "Is there a page or file limit?",
+"a": "No hourly or daily limits. Very large PDFs are limited only by your device memory."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, on Android and iPhone browsers. Big scans are faster on a laptop."
+},
+{
+"q": "Is it really free?",
+"a": "Yes – no watermark, no account, no trial."
+}
+],
+"guide": {
+"intro": "Most PDF compressors give you vague levels like ‘low’ or ‘high’ and leave you to guess whether the result will pass a portal’s size check. {brand} lets you type the limit itself – 100 KB, 250 KB, 1 MB – and does the trial and error for you, entirely in your browser.",
+"uses": [
+"Meet upload limits on job, exam, visa and admission portals.",
+"Fit attachments under email and helpdesk limits.",
+"Shrink scanned documents from phone scanner apps.",
+"Prepare court, tax and insurance e-filing documents."
+],
+"tips": [
+"Remove blank or unnecessary pages first with Delete pages.",
+"Scan in grayscale – it is much smaller than colour.",
+"Aim 5–10% below the limit to allow for how a portal counts bytes.",
+"If you must keep text selectable, set a slightly larger target."
+],
+"more": [
+[
+"The three stages",
+"Stage one rebuilds the file losslessly and removes junk. Stage two decodes every photo or scan inside the PDF and re-encodes it as JPEG, stepping from 2000 px at high quality down to about 400 px, checking the size each time. Stage three renders every page as an image and searches combinations of resolution (from about 144 dpi down to about 30 dpi) and JPEG quality, keeping the largest result that fits, so you get the best quality the limit allows."
+],
+[
+"Why some PDFs barely shrink",
+"A PDF made purely of text and vector graphics is already compact; most of its size is fonts. Such files rarely need compressing, and rasterizing them can even make them bigger. Scans and photo-heavy files, on the other hand, can usually shrink by 80–95%."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+},
+"pdf100kb": {
+"name": "Compress PDF to 100 KB",
+"short": "Reduce a PDF to under 100 KB for upload forms.",
+"title": "Compress PDF to 100 KB Online Free – No Upload | {brand}",
+"desc": "Reduce PDF size to under 100 KB in seconds. Keeps text sharp when possible, works offline in your browser – free, no sign-up, no watermark.",
+"h1": "Compress PDF to 100 KB",
+"steps": [
+"Select the PDF you need to upload.",
+"The target is preset to 100 KB – change it if your form needs a different size.",
+"Click Start and download a PDF under the limit."
+],
+"faq": [
+{
+"q": "How do I compress a PDF to 100 KB?",
+"a": "Open the file here and press Start. The size box is already set to 100 KB; the tool tries image recompression first and rasterizes pages only if needed, then shows the final size."
+},
+{
+"q": "Will a 100 KB PDF still be readable?",
+"a": "At 100 KB a multi-page scan usually needs page rasterizing at around 70–100 dpi; one or two text pages often fit with text kept sharp."
+},
+{
+"q": "Is my document uploaded anywhere?",
+"a": "No. Compression runs on your device; nothing is sent to a server."
+},
+{
+"q": "What if it cannot reach the size?",
+"a": "You will get the smallest version possible and a warning. Split the PDF or remove pages, then try again."
+},
+{
+"q": "Does the portal count 1 KB as 1000 or 1024 bytes?",
+"a": "Most count 1024. If yours rejects the file, set the target a few KB lower."
+},
+{
+"q": "Is there a daily limit?",
+"a": "No limits, no watermark, no account."
+}
+],
+"guide": {
+"intro": "Many job, exam and visa portals cap uploads at 100 KB – a single scanned page from a phone is often 1–3 MB. {brand} is preset to 100 KB, so you choose the file, press Start and get a PDF that passes the size check – compressed on your own device, never uploaded.",
+"uses": [
+"Scanned certificates, ID cards, mark sheets and one-page application forms for government and recruitment portals.",
+"Email attachments to offices with strict mailbox limits.",
+"Re-uploading documents after a portal rejected the original."
+],
+"tips": [
+"Crop scans to the paper edge before converting to PDF.",
+"Grayscale scans are 2–3× smaller than colour.",
+"Delete blank back pages from duplex scans.",
+"Keep the original – compression is one-way."
+],
+"more": [
+[
+"What fits in 100 KB",
+"At 100 KB a multi-page scan usually needs page rasterizing at around 70–100 dpi; one or two text pages often fit with text kept sharp. The result panel shows the exact final size and the method used, so you know whether text is still selectable."
+],
+[
+"Other sizes",
+"Need a different number? Type it into the target box or use the general Compress PDF to KB tool. For the gentlest compression without a fixed target, use Compress PDF with its three levels."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+},
+"pdf200kb": {
+"name": "Compress PDF to 200 KB",
+"short": "Reduce a PDF to under 200 KB for upload forms.",
+"title": "Compress PDF to 200 KB Online Free – No Upload | {brand}",
+"desc": "Reduce PDF size to under 200 KB in seconds. Keeps text sharp when possible, works offline in your browser – free, no sign-up, no watermark.",
+"h1": "Compress PDF to 200 KB",
+"steps": [
+"Select the PDF you need to upload.",
+"The target is preset to 200 KB – change it if your form needs a different size.",
+"Click Start and download a PDF under the limit."
+],
+"faq": [
+{
+"q": "How do I compress a PDF to 200 KB?",
+"a": "Open the file here and press Start. The size box is already set to 200 KB; the tool tries image recompression first and rasterizes pages only if needed, then shows the final size."
+},
+{
+"q": "Will a 200 KB PDF still be readable?",
+"a": "At 200 KB most 2–4 page scans fit at a readable 100–120 dpi."
+},
+{
+"q": "Is my document uploaded anywhere?",
+"a": "No. Compression runs on your device; nothing is sent to a server."
+},
+{
+"q": "What if it cannot reach the size?",
+"a": "You will get the smallest version possible and a warning. Split the PDF or remove pages, then try again."
+},
+{
+"q": "Does the portal count 1 KB as 1000 or 1024 bytes?",
+"a": "Most count 1024. If yours rejects the file, set the target a few KB lower."
+},
+{
+"q": "Is there a daily limit?",
+"a": "No limits, no watermark, no account."
+}
+],
+"guide": {
+"intro": "200 KB is a frequent limit for university admissions, scholarship forms and bank KYC uploads. {brand} is preset to 200 KB, so you choose the file, press Start and get a PDF that passes the size check – compressed on your own device, never uploaded.",
+"uses": [
+"Two- to five-page scans such as transcripts, address proofs and income certificates.",
+"Email attachments to offices with strict mailbox limits.",
+"Re-uploading documents after a portal rejected the original."
+],
+"tips": [
+"Crop scans to the paper edge before converting to PDF.",
+"Grayscale scans are 2–3× smaller than colour.",
+"Delete blank back pages from duplex scans.",
+"Keep the original – compression is one-way."
+],
+"more": [
+[
+"What fits in 200 KB",
+"At 200 KB most 2–4 page scans fit at a readable 100–120 dpi. The result panel shows the exact final size and the method used, so you know whether text is still selectable."
+],
+[
+"Other sizes",
+"Need a different number? Type it into the target box or use the general Compress PDF to KB tool. For the gentlest compression without a fixed target, use Compress PDF with its three levels."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+},
+"pdf300kb": {
+"name": "Compress PDF to 300 KB",
+"short": "Reduce a PDF to under 300 KB for upload forms.",
+"title": "Compress PDF to 300 KB Online Free – No Upload | {brand}",
+"desc": "Reduce PDF size to under 300 KB in seconds. Keeps text sharp when possible, works offline in your browser – free, no sign-up, no watermark.",
+"h1": "Compress PDF to 300 KB",
+"steps": [
+"Select the PDF you need to upload.",
+"The target is preset to 300 KB – change it if your form needs a different size.",
+"Click Start and download a PDF under the limit."
+],
+"faq": [
+{
+"q": "How do I compress a PDF to 300 KB?",
+"a": "Open the file here and press Start. The size box is already set to 300 KB; the tool tries image recompression first and rasterizes pages only if needed, then shows the final size."
+},
+{
+"q": "Will a 300 KB PDF still be readable?",
+"a": "300 KB gives enough room for 3–6 scanned pages at good readability."
+},
+{
+"q": "Is my document uploaded anywhere?",
+"a": "No. Compression runs on your device; nothing is sent to a server."
+},
+{
+"q": "What if it cannot reach the size?",
+"a": "You will get the smallest version possible and a warning. Split the PDF or remove pages, then try again."
+},
+{
+"q": "Does the portal count 1 KB as 1000 or 1024 bytes?",
+"a": "Most count 1024. If yours rejects the file, set the target a few KB lower."
+},
+{
+"q": "Is there a daily limit?",
+"a": "No limits, no watermark, no account."
+}
+],
+"guide": {
+"intro": "300 KB limits appear on many passport, visa and state-government portals. {brand} is preset to 300 KB, so you choose the file, press Start and get a PDF that passes the size check – compressed on your own device, never uploaded.",
+"uses": [
+"Multi-page identity documents, affidavits and signed forms.",
+"Email attachments to offices with strict mailbox limits.",
+"Re-uploading documents after a portal rejected the original."
+],
+"tips": [
+"Crop scans to the paper edge before converting to PDF.",
+"Grayscale scans are 2–3× smaller than colour.",
+"Delete blank back pages from duplex scans.",
+"Keep the original – compression is one-way."
+],
+"more": [
+[
+"What fits in 300 KB",
+"300 KB gives enough room for 3–6 scanned pages at good readability. The result panel shows the exact final size and the method used, so you know whether text is still selectable."
+],
+[
+"Other sizes",
+"Need a different number? Type it into the target box or use the general Compress PDF to KB tool. For the gentlest compression without a fixed target, use Compress PDF with its three levels."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+},
+"pdf500kb": {
+"name": "Compress PDF to 500 KB",
+"short": "Reduce a PDF to under 500 KB for upload forms.",
+"title": "Compress PDF to 500 KB Online Free – No Upload | {brand}",
+"desc": "Reduce PDF size to under 500 KB in seconds. Keeps text sharp when possible, works offline in your browser – free, no sign-up, no watermark.",
+"h1": "Compress PDF to 500 KB",
+"steps": [
+"Select the PDF you need to upload.",
+"The target is preset to 500 KB – change it if your form needs a different size.",
+"Click Start and download a PDF under the limit."
+],
+"faq": [
+{
+"q": "How do I compress a PDF to 500 KB?",
+"a": "Open the file here and press Start. The size box is already set to 500 KB; the tool tries image recompression first and rasterizes pages only if needed, then shows the final size."
+},
+{
+"q": "Will a 500 KB PDF still be readable?",
+"a": "Most text PDFs with a few images reach 500 KB without rasterizing, so text stays selectable."
+},
+{
+"q": "Is my document uploaded anywhere?",
+"a": "No. Compression runs on your device; nothing is sent to a server."
+},
+{
+"q": "What if it cannot reach the size?",
+"a": "You will get the smallest version possible and a warning. Split the PDF or remove pages, then try again."
+},
+{
+"q": "Does the portal count 1 KB as 1000 or 1024 bytes?",
+"a": "Most count 1024. If yours rejects the file, set the target a few KB lower."
+},
+{
+"q": "Is there a daily limit?",
+"a": "No limits, no watermark, no account."
+}
+],
+"guide": {
+"intro": "500 KB is a common ceiling for HR systems, insurance claims and older email gateways. {brand} is preset to 500 KB, so you choose the file, press Start and get a PDF that passes the size check – compressed on your own device, never uploaded.",
+"uses": [
+"Resumes with photos, claim documents, invoices with logos and short reports.",
+"Email attachments to offices with strict mailbox limits.",
+"Re-uploading documents after a portal rejected the original."
+],
+"tips": [
+"Crop scans to the paper edge before converting to PDF.",
+"Grayscale scans are 2–3× smaller than colour.",
+"Delete blank back pages from duplex scans.",
+"Keep the original – compression is one-way."
+],
+"more": [
+[
+"What fits in 500 KB",
+"Most text PDFs with a few images reach 500 KB without rasterizing, so text stays selectable. The result panel shows the exact final size and the method used, so you know whether text is still selectable."
+],
+[
+"Other sizes",
+"Need a different number? Type it into the target box or use the general Compress PDF to KB tool. For the gentlest compression without a fixed target, use Compress PDF with its three levels."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+},
+"pdf1mb": {
+"name": "Compress PDF to 1 MB",
+"short": "Reduce a PDF to under 1 MB for upload forms.",
+"title": "Compress PDF to 1 MB Online Free – No Upload | {brand}",
+"desc": "Reduce PDF size to under 1 MB in seconds. Keeps text sharp when possible, works offline in your browser – free, no sign-up, no watermark.",
+"h1": "Compress PDF to 1 MB",
+"steps": [
+"Select the PDF you need to upload.",
+"The target is preset to 1 MB – change it if your form needs a different size.",
+"Click Start and download a PDF under the limit."
+],
+"faq": [
+{
+"q": "How do I compress a PDF to 1 MB?",
+"a": "Open the file here and press Start. The size box is already set to 1 MB; the tool tries image recompression first and rasterizes pages only if needed, then shows the final size."
+},
+{
+"q": "Will a 1 MB PDF still be readable?",
+"a": "1 MB is usually reachable by recompressing images only, keeping all text as crisp vectors."
+},
+{
+"q": "Is my document uploaded anywhere?",
+"a": "No. Compression runs on your device; nothing is sent to a server."
+},
+{
+"q": "What if it cannot reach the size?",
+"a": "You will get the smallest version possible and a warning. Split the PDF or remove pages, then try again."
+},
+{
+"q": "Does the portal count 1 KB as 1000 or 1024 bytes?",
+"a": "Most count 1024. If yours rejects the file, set the target a few KB lower."
+},
+{
+"q": "Is there a daily limit?",
+"a": "No limits, no watermark, no account."
+}
+],
+"guide": {
+"intro": "1 MB limits are everywhere: job portals, court e-filing, school assignment systems and support tickets. {brand} is preset to 1 MB, so you choose the file, press Start and get a PDF that passes the size check – compressed on your own device, never uploaded.",
+"uses": [
+"Reports, portfolios, scanned booklets and presentations exported to PDF.",
+"Email attachments to offices with strict mailbox limits.",
+"Re-uploading documents after a portal rejected the original."
+],
+"tips": [
+"Crop scans to the paper edge before converting to PDF.",
+"Grayscale scans are 2–3× smaller than colour.",
+"Delete blank back pages from duplex scans.",
+"Keep the original – compression is one-way."
+],
+"more": [
+[
+"What fits in 1 MB",
+"1 MB is usually reachable by recompressing images only, keeping all text as crisp vectors. The result panel shows the exact final size and the method used, so you know whether text is still selectable."
+],
+[
+"Other sizes",
+"Need a different number? Type it into the target box or use the general Compress PDF to KB tool. For the gentlest compression without a fixed target, use Compress PDF with its three levels."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+},
+"pdf2mb": {
+"name": "Compress PDF to 2 MB",
+"short": "Reduce a PDF to under 2 MB for upload forms.",
+"title": "Compress PDF to 2 MB Online Free – No Upload | {brand}",
+"desc": "Reduce PDF size to under 2 MB in seconds. Keeps text sharp when possible, works offline in your browser – free, no sign-up, no watermark.",
+"h1": "Compress PDF to 2 MB",
+"steps": [
+"Select the PDF you need to upload.",
+"The target is preset to 2 MB – change it if your form needs a different size.",
+"Click Start and download a PDF under the limit."
+],
+"faq": [
+{
+"q": "How do I compress a PDF to 2 MB?",
+"a": "Open the file here and press Start. The size box is already set to 2 MB; the tool tries image recompression first and rasterizes pages only if needed, then shows the final size."
+},
+{
+"q": "Will a 2 MB PDF still be readable?",
+"a": "2 MB normally needs only light image recompression – quality loss is hard to see."
+},
+{
+"q": "Is my document uploaded anywhere?",
+"a": "No. Compression runs on your device; nothing is sent to a server."
+},
+{
+"q": "What if it cannot reach the size?",
+"a": "You will get the smallest version possible and a warning. Split the PDF or remove pages, then try again."
+},
+{
+"q": "Does the portal count 1 KB as 1000 or 1024 bytes?",
+"a": "Most count 1024. If yours rejects the file, set the target a few KB lower."
+},
+{
+"q": "Is there a daily limit?",
+"a": "No limits, no watermark, no account."
+}
+],
+"guide": {
+"intro": "2 MB is the default limit of many web forms, LMS platforms and messaging apps. {brand} is preset to 2 MB, so you choose the file, press Start and get a PDF that passes the size check – compressed on your own device, never uploaded.",
+"uses": [
+"Long reports, theses chapters, image-heavy brochures and catalogues.",
+"Email attachments to offices with strict mailbox limits.",
+"Re-uploading documents after a portal rejected the original."
+],
+"tips": [
+"Crop scans to the paper edge before converting to PDF.",
+"Grayscale scans are 2–3× smaller than colour.",
+"Delete blank back pages from duplex scans.",
+"Keep the original – compression is one-way."
+],
+"more": [
+[
+"What fits in 2 MB",
+"2 MB normally needs only light image recompression – quality loss is hard to see. The result panel shows the exact final size and the method used, so you know whether text is still selectable."
+],
+[
+"Other sizes",
+"Need a different number? Type it into the target box or use the general Compress PDF to KB tool. For the gentlest compression without a fixed target, use Compress PDF with its three levels."
+]
+],
+"faq": [
+{
+"q": "Can I compress several PDFs to this size?",
+"a": "Run each file in turn – there is no queue or wait, and no limit on how many."
+},
+{
+"q": "Should I use this or the regular Compress PDF tool?",
+"a": "Use this page when a form states a maximum size. Use Compress PDF when you just want a smaller file with the best quality."
+}
+]
+}
+}
+}
+}
