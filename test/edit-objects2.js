@@ -1,0 +1,19 @@
+// gaps: clip moves with image (word.pdf), delete-shape text warning (flyer footer), Form XObject shapes (design.pdf)
+const {chromium}=require('playwright-core');const path=require('path');const {execFileSync:x}=require('child_process');const fs=require('fs');
+const BASE=process.env.BASE||'http://localhost:8788';const S=f=>path.join(__dirname,'samples/real',f);
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});const ctx=await b.newContext({acceptDownloads:true,viewport:{width:1366,height:900}});
+ const open=async f=>{const p=await ctx.newPage();await p.goto(BASE+'/edit-pdf/');await p.setInputFiles('#tool input[type=file]',S(f));await p.waitForSelector('.psrc',{timeout:60000});await p.click('[data-m=obj]');await p.waitForSelector('.pobj');await p.waitForTimeout(400);return p;};
+ const box=async(p,k)=>{const el=p.locator(`.pobj[data-k="${k}"]`);await el.scrollIntoViewIfNeeded();return el.boundingBox();};
+ const save=async(p,n)=>{await p.waitForTimeout(800);await p.click('#go');await p.waitForSelector('#dl',{timeout:60000});const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const o='/tmp/g-'+n;await dl.saveAs(o);return o;};
+ const px=(f,xpt,ypt)=>{x('pdftoppm',['-r','72','-f','1','-l','1','-png','-singlefile',f,'/tmp/gp']);return x('python3',['-c',`from PIL import Image;print(Image.open('/tmp/gp.png').convert('RGB').getpixel((${xpt},${ypt})))`]).toString().trim();};
+ // 1 word figure: move 60px right+40 down; the far-right/bottom of moved image must be visible (clip moved too)
+ let p=await open('word.pdf');let bb=await box(p,0);const sc=bb.width/360;await p.mouse.move(bb.x+bb.width/2,bb.y+bb.height/2);await p.mouse.down();await p.mouse.move(bb.x+bb.width/2+60,bb.y+bb.height/2+40,{steps:6});await p.mouse.up();
+ let o=await save(p,'word.pdf');// original image spans x 99..459pt, y(top) 351..621; moved by 60/sc,40/sc pt
+ const dx=60/sc,dy=40/sc;console.log('1 clip: pixel inside moved-out strip',px(o,Math.round(459+dx/2),Math.round(621+dy/2)),'orig there',px(S('word.pdf'),Math.round(459+dx/2),Math.round(621+dy/2)));await p.close();
+ // 2 flyer: delete footer bar -> warning -> make text dark
+ p=await open('flyer.pdf');const objs=await p.$$eval('.pobj',a=>a.map(e=>({k:e.dataset.k,c:e.className,w:e.offsetWidth,h:e.offsetHeight})));const bar=objs.filter(o=>/path/.test(o.c)).sort((a,b)=>a.h-b.h)[0];bb=await box(p,bar.k);await p.mouse.click(bb.x+5,bb.y+bb.height/2);await p.click('#podel');await p.waitForSelector('#pwarn:not([hidden])',{timeout:8000}).catch(()=>{});
+ const wt=await p.textContent('#pwarn');console.log('2 warn:',await p.isVisible('#pwarn'),wt.slice(0,120));if(await p.isVisible('#pwarn [data-w=dk]'))await p.click('#pwarn [data-w=dk]');o=await save(p,'flyer.pdf');const t=x('pdftotext',[o,'-']).toString();console.log('   footer text kept:',/jlvtraders/.test(t));x('pdftoppm',['-r','40','-png','-singlefile',o,'/tmp/g-flyer']);await p.close();
+ // 3 design: recolour + move form rect k=3, delete form rect k=4
+ p=await open('design.pdf');const pw=(await p.locator('.ppage').boundingBox()).width;bb=await box(p,3);await p.mouse.click(bb.x+bb.width/2,bb.y+bb.height/2);await p.$eval('#pofill',e=>{e.value='#ff00ff';e.dispatchEvent(new Event('input',{bubbles:true}))});await p.waitForTimeout(500);bb=await p.locator('.pit.obj.sel').boundingBox();await p.mouse.move(bb.x+bb.width/2,bb.y+bb.height/2);await p.mouse.down();await p.mouse.move(bb.x+bb.width/2,bb.y+bb.height/2+80,{steps:6});await p.mouse.up();
+ bb=await box(p,4);await p.mouse.click(bb.x+bb.width/2,bb.y+bb.height/2);await p.click('#podel');o=await save(p,'design.pdf');x('pdftoppm',['-r','40','-png','-singlefile',o,'/tmp/g-design']);
+ console.log('3 form: rect1 old spot',px(o,135,342),'moved spot',px(o,135,342+Math.round(80*612/pw)),'rect2',px(o,335,342));await b.close();})();

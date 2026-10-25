@@ -116,7 +116,7 @@ function walk(d,X,P,content,res,ctm0,path,acc,depth=0){if(depth>8)return;const N
    case 'EI':{acc.objs.push({kind:'img',inline:1,path,oi,s:O[oi-2]?.op==='BI'?O[oi-2].s:o.s,e:o.e,ctm:gs.ctm.slice(),bb:bbox(gs.ctm,[[0,0],[1,0],[0,1],[1,1]]),res,depth});break;}
    case 'm':case 'l':case 'c':case 'v':case 'y':case 're':case 'h':{if(!pth)pth={s:o.s,oi,pts:[]};const a=o.args.map(x=>x.v);if(op==='re'){pth.pts.push([a[0],a[1]],[a[0]+a[2],a[1]+a[3]]);}else for(let k=0;k+1<a.length;k+=2)pth.pts.push([a[k],a[k+1]]);break;}
    case 'W':case 'W*':if(pth)pth.clip=1;break;
-   case 'f':case 'F':case 'f*':case 'B':case 'B*':case 'b':case 'b*':case 'S':case 's':case 'n':{if(pth&&op!=='n'&&!pth.clip&&pth.pts.length){acc.objs.push({kind:'path',path,oi0:pth.oi,oi,s:pth.s,e:o.e,ctm:gs.ctm.slice(),bb:bbox(gs.ctm,pth.pts),fill:/[fFBb]/.test(op)?gs.fill:null,stroke:/[SsBb]/.test(op)?gs.stroke:null,lw:1,res,depth,paint:op});}pth=null;break;}
+   case 'f':case 'F':case 'f*':case 'B':case 'B*':case 'b':case 'b*':case 'S':case 's':case 'n':{if(pth&&pth.clip)(acc.clips=acc.clips||[]).push({path,oi0:pth.oi,oi,s:pth.s,e:o.e,ctm:gs.ctm.slice()});if(pth&&op!=='n'&&!pth.clip&&pth.pts.length){acc.objs.push({kind:'path',path,oi0:pth.oi,oi,s:pth.s,e:o.e,ctm:gs.ctm.slice(),bb:bbox(gs.ctm,pth.pts),fill:/[fFBb]/.test(op)?gs.fill:null,stroke:/[SsBb]/.test(op)?gs.stroke:null,lw:1,res,depth,paint:op});}pth=null;break;}
   }}}
 function bbox(m,pts){let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;for(const [x,y] of pts){const p=ap(m,x,y);x0=Math.min(x0,p[0]);y0=Math.min(y0,p[1]);x1=Math.max(x1,p[0]);y1=Math.max(y1,p[1]);}return [x0,y0,x1,y1];}
 let STDW=null;function stdW(name,code){if(!STDW)return 500;const t=STDW[name.replace(/,.*$/,'')]||STDW.Helvetica;const ch=WINANSI[code];return (ch&&t?t(ch):500);}
@@ -185,6 +185,11 @@ function edObjList(d,P,pn){const p=d.getPage(pn-1);const um=edUnmap(p);const acc
  out.sort((a,b)=>b.fw*b.fh-a.fw*a.fh);return out;}
 const edHexRgb=h=>{const n=parseInt(h.slice(1),16);return [(n>>16&255)/255,(n>>8&255)/255,(n&255)/255].map(EDCS.num).join(' ');};
 const edObjChanged=it=>it.del||it.fill||it.stroke||it.rep||['fx','fy','fw','fh'].some(k=>Math.abs(it[k]-it.o[k])>1e-4);
+// clip path that only affects this image: `q [marked/gs/cm] <clip W n> [q cm gs] IMG [Q] ... Q`
+function edOwnClip(acc,o){const st=acc.streams[o.path];const O=st.O;const i0=o.inline?o.oi-2:o.oi;const cl=(acc.clips||[]).filter(c=>c.path===o.path&&c.oi<i0).pop();if(!cl)return null;
+ const neutral=new Set(['BDC','BMC','EMC','MP','DP','gs','cm','w','J','j','M','d','ri','i']);let k=0;for(let i=cl.oi+1;i<i0;i++){const op=O[i].op;if(op==='q')k++;else if(op==='Q'){if(--k<0)return null;}else if(!neutral.has(op))return null;}
+ let j=(o.inline?o.oi:o.oi)+1;for(;j<O.length;j++){const op=O[j].op;if(op==='Q'){if(k===0)break;k--;}else if(op==='q'||!neutral.has(op))return null;}
+ for(let i=cl.oi0-1;i>=0;i--){const op=O[i].op;if(op==='q')return cl;if(!neutral.has(op))return null;}return cl;}
 // apply object edits for one page directly in the content streams
 async function edObjApply(d,P,items,pn,imgs,cache){const its=items.filter(x=>x.type==='obj'&&x.page===pn&&edObjChanged(x));if(!its.length)return 0;
  const p=d.getPage(pn-1);const mp=edMap(p);const acc=EDCS.analyse(d,P,pn-1);const N=n=>P.PDFName.of(n);const reps=[];let nimg=0;
@@ -193,7 +198,8 @@ async function edObjApply(d,P,items,pn,imgs,cache){const its=items.filter(x=>x.t
   if(it.del){reps.push({path:o.path,s:o.s,e:o.e,rep:' '});continue;}
   let pre='',body=span;
   if(['fx','fy','fw','fh'].some(k=>Math.abs(it[k]-it.o[k])>1e-4)){const A=ubox(it.o.fx,it.o.fy,it.o.fw,it.o.fh),B=ubox(it.fx,it.fy,it.fw,it.fh);const sx=(B[2]-B[0])/((A[2]-A[0])||1),sy=(B[3]-B[1])/((A[3]-A[1])||1);
-   const U=[sx,0,0,sy,B[0]-sx*A[0],B[1]-sy*A[1]];const C=o.ctm;const M=EDCS.mul(EDCS.mul(C,U),EDCS.inv(C));pre+=M.map(EDCS.num).join(' ')+' cm ';}
+   const U=[sx,0,0,sy,B[0]-sx*A[0],B[1]-sy*A[1]];const C=o.ctm;const M=EDCS.mul(EDCS.mul(C,U),EDCS.inv(C));pre+=M.map(EDCS.num).join(' ')+' cm ';
+   if(o.kind==='img'){const cl=edOwnClip(acc,o);if(cl){const Mc=EDCS.mul(EDCS.mul(cl.ctm,U),EDCS.inv(cl.ctm));reps.push({path:o.path,s:cl.s,e:cl.e,rep:' '+Mc.map(EDCS.num).join(' ')+' cm '+st.content.slice(cl.s,cl.e)+' '+EDCS.inv(Mc).map(EDCS.num).join(' ')+' cm '});it._clip=1;}}}
   if(o.kind==='path'){if(it.fill)pre+=edHexRgb(it.fill)+' rg ';if(it.stroke)pre+=edHexRgb(it.stroke)+' RG ';}
   if(o.kind==='img'&&it.rep&&imgs[it.rep]){let im=cache[it.rep];if(!im){const b=imgs[it.rep].blob;let bytes=await b.arrayBuffer();const isJ=/jpe?g/.test(b.type);if(!isJ&&!/png/.test(b.type)){const c=document.createElement('canvas');const ii=new Image();ii.src=imgs[it.rep].url;await ii.decode();c.width=ii.naturalWidth;c.height=ii.naturalHeight;c.getContext('2d').drawImage(ii,0,0);bytes=await (await toBlob(c,'image/png')).arrayBuffer();}im=cache[it.rep]=isJ?await d.embedJpg(bytes):await d.embedPng(bytes);}
    let res=o.res;if(!res){res=d.context.obj({});p.node.set(N('Resources'),res);}let xd=res.get(N('XObject'));xd=xd instanceof P.PDFRef?d.context.lookup(xd):xd;if(!xd){xd=d.context.obj({});res.set(N('XObject'),xd);}
@@ -228,7 +234,7 @@ TOOLS.edit={noAdv:true,
    const cssW=Math.max(260,Math.min(stage.clientWidth||document.querySelector('#tool .custom')?.clientWidth||800,1100));const dpr=Math.min(2,window.devicePixelRatio||1);let sc=cssW*dpr/vp1.width;const maxPx=14e6;if(vp1.width*vp1.height*sc*sc>maxPx)sc=Math.sqrt(maxPx/(vp1.width*vp1.height));
    const vp=p.getViewport({scale:sc});const c=document.createElement('canvas');c.width=Math.ceil(vp.width);c.height=Math.ceil(vp.height);const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);await p.render({canvasContext:ctx,viewport:vp}).promise;
    if(my!==busy)return;cv.width=c.width;cv.height=c.height;cv.getContext('2d').drawImage(c,0,0);c.width=0;
-   pg.style.width=cssW+'px';pg.style.aspectRatio=vp1.width+'/'+vp1.height;pxpt=cssW/vp1.width;q('#pnum').textContent=`${T.o_page||'Page'} ${page} / ${N}`;q('#pprev').disabled=page<=1;q('#pnext').disabled=page>=N;draw();if(mode==='obj'&&!S.objs[page]){const pp=page;loadObjs(pp).then(()=>{if(page===pp)draw();});}if(!S.src[page]){const pp=page;loadSrc(pp).then(()=>{if(page===pp)draw();}).catch(e=>console.warn(e));}}
+   pg.style.width=cssW+'px';pg.style.aspectRatio=vp1.width+'/'+vp1.height;pxpt=cssW/vp1.width;q('#pnum').textContent=`${T.o_page||'Page'} ${page} / ${N}`;q('#pprev').disabled=page<=1;q('#pnext').disabled=page>=N;draw();if(S._post){const f=S._post;S._post=null;f();}if(mode==='obj'&&!S.objs[page]){const pp=page;loadObjs(pp).then(()=>{if(page===pp)draw();});}if(!S.src[page]){const pp=page;loadSrc(pp).then(()=>{if(page===pp)draw();}).catch(e=>console.warn(e));}}
   function styleText(el,it){el.style.fontSize=it.fs*pxpt+'px';el.style.color=it.color;el.style.fontFamily=ED_CSS[it.font];el.style.fontWeight=it.bold?'700':'400';el.style.fontStyle=it.italic?'italic':'normal';}
   function draw(){const ae=document.activeElement;const fid=ae&&ae.classList&&ae.classList.contains('ptxt')?+ae.parentNode.dataset.id:0;lay.innerHTML='';
    for(const it of S.items.filter(x=>x.page===page&&x.cov)){const c=document.createElement('div');c.className='pcov';Object.assign(c.style,{left:it.cov.fx*100+'%',top:it.cov.fy*100+'%',width:it.cov.fw*100+'%',height:it.cov.fh*100+'%',background:it.cov.bg});lay.appendChild(c);}
@@ -289,7 +295,12 @@ TOOLS.edit={noAdv:true,
    q('#poinfo').textContent=(it.kind==='img'?(it.inline?'Inline image':'Image'):'Shape')+(it.del?' (deleted)':'');q('#pofl').hidden=it.kind!=='path'||!it.canFill;q('#postl').hidden=it.kind!=='path'||!it.canStroke;q('#porep').hidden=it.kind!=='img';q('#podel').hidden=q('#poreset').hidden=false;q('#podel').textContent=it.del?'↺ Restore':'🗑 Delete';if(it.fill)q('#pofill').value=it.fill;if(it.stroke)q('#postr').value=it.stroke;}
   const objSet=(k,v)=>{const it=cur();if(!it||it.type!=='obj')return;snap();it[k]=v;syncObj();draw();repaint();};
   q('#pofill').oninput=e=>objSet('fill',e.target.value);q('#postr').oninput=e=>objSet('stroke',e.target.value);
-  q('#podel').onclick=()=>{const it=cur();if(it&&it.type==='obj')objSet('del',!it.del);};
+  q('#podel').onclick=async()=>{const it=cur();if(!(it&&it.type==='obj'))return;objSet('del',!it.del);q('#pwarn').hidden=true;if(!it.del||it.kind!=='path')return;
+   await loadSrc(page);const L=(S.src[page]||[]).map((l,k)=>({l,k})).filter(({l,k})=>{const c=l.cov,cx=c.fx+c.fw/2,cy=c.fy+c.fh/2;return cx>=it.fx&&cx<=it.fx+it.fw&&cy>=it.fy&&cy<=it.fy+it.fh&&!S.items.some(x=>x.page===page&&x.srcK===k);});if(!L.length)return;
+   S._post=()=>{const g=cv.getContext('2d');const bad=L.filter(({l})=>{const c=l.cov;let best=99;for(const [ax,ay] of [[-0.004,0.5],[1.004,0.5],[0.5,-0.15],[0.5,1.15]]){const x=Math.round((c.fx+c.fw*ax+(ax<0?-0.002:ax>1?0.002:0))*cv.width),y=Math.round((c.fy+c.fh*ay)*cv.height);let px=[255,255,255];try{px=[...g.getImageData(Math.max(0,Math.min(cv.width-1,x)),Math.max(0,Math.min(cv.height-1,y)),1,1).data].slice(0,3);}catch(e){}const a=lum(hx(l.color)),b=lum(px);const cc=(Math.max(a,b)+0.05)/(Math.min(a,b)+0.05);if(cc<best){best=cc;l._bgHex='#'+px.map(v=>v.toString(16).padStart(2,'0')).join('');}}l._bgL=best;return best<2.5;});
+    if(!bad.length)return;const W=q('#pwarn');W.hidden=false;W.innerHTML=`⚠ ${bad.length} text line(s) sat on this shape and are now hard to read: “${esc(bad[0].l.text.slice(0,40))}”${bad.length>1?'…':''} <button type="button" class="btn ghost mini" data-w="dk">Make that text dark</button> <input type="color" value="#111111" title="Pick a colour for that text" data-w="pk"> <button type="button" class="btn ghost mini" data-w="x">Keep</button>`;
+    const apply=col=>{for(const {k} of bad){const t=convert(page,k);t.color=col;if(S.src[page][k]._bgHex)t.cov.bg=S.src[page][k]._bgHex;}draw();W.hidden=true;hint();};
+    W.onclick=e=>{const k=e.target.dataset.w;if(k==='dk')apply('#111111');if(k==='x')W.hidden=true;};W.querySelector('[data-w=pk]').onchange=e=>apply(e.target.value);};repaint();};
   q('#poreset').onclick=()=>{const it=cur();if(!it||it.type!=='obj')return;snap();S.items=S.items.filter(x=>x!==it);selId=null;draw();syncObj();repaint();};
   q('#porep').onclick=()=>q('#porepf').click();q('#porepf').onchange=async e=>{const f=e.target.files[0];e.target.value='';const it=cur();if(!f||!it||it.type!=='obj')return;const url=URL.createObjectURL(f);const im=new Image();im.src=url;await im.decode();const key='r'+uid++;S.imgs[key]={blob:f,url,w:im.naturalWidth,h:im.naturalHeight};objSet('rep',key);};
   syncObj();

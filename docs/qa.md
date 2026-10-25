@@ -109,7 +109,12 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 - Overflow helper: when edited existing text grows past its original box, a warning appears; it samples the page where the text spills and flags low contrast, with "Shrink to fit" and "Use dark/light text" + colour picker (`test/edit-overflow.js`).
 
 ### Known limits
-- An image moved outside its original clip path (e.g. Word figures wrapped in `re W n`) is clipped by that clip.
-- Text drawn on top of a deleted shape remains (e.g. white text on a deleted bar becomes invisible on white).
 - Objects inside a Form XObject shared by several pages are changed on all those pages; same for text removal inside shared forms.
 - Shading (`sh`) fills, patterns and annotations are not listed as objects; images with soft masks keep the original mask only when not replaced.
+
+### Gap fixes (Oct 2026)
+- Clip that belongs only to an image (`q [marked/gs] clip W n [q cm] IMG [Q] … Q`, the Word/LibreOffice figure pattern) is moved/scaled with the image (`Mc cm clip Mc⁻¹ cm`). Shared clips are left alone. Verified: word.pdf figure moved right/down renders fully (pixel in moved-out strip is image colour, was white).
+- Deleting a shape checks text lines lying on it against the re-rendered page; if contrast < 2.5 a warning offers "Make that text dark" or a colour picker, which re-colours those lines through the text-removal path (no patches). Verified: flyer footer bar deleted -> footer text redrawn dark and still extractable.
+- Form XObject shapes: design.pdf rects inside /Fm1 recoloured, moved and deleted correctly (form stream rewritten in place).
+- Test: `test/edit-objects2.js`.
+- Remaining: clips shared by several elements are not moved; edits inside a Form XObject reused on several pages affect all of them.
