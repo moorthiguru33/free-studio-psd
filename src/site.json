@@ -1,7 +1,7 @@
 {
  "brand": "Fileopia",
  "baseUrl": "https://fileopia.com",
- "email": "contact@example.com",
+ "email": "admin@fileopia.com",
  "defaultLang": "en",
  "adsEnabled": false,
  "legacyHosts": [
