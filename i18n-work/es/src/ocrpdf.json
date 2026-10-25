@@ -1,0 +1,272 @@
+{
+ "name": "OCR PDF",
+ "short": "Make scanned PDFs searchable.",
+ "title": "OCR PDF Online Free – Make Scanned PDF Searchable | {brand}",
+ "desc": "Recognise text in scanned PDFs and add an invisible text layer so you can search, select and copy. Many languages, runs on your device.",
+ "h1": "OCR PDF – Searchable PDF",
+ "steps": [
+  "Select your scanned PDF.",
+  "Choose the document language(s).",
+  "Download the searchable PDF."
+ ],
+ "faq": [
+  {
+   "q": "Does the page look change?",
+   "a": "No – the original page stays, an invisible text layer is added on top."
+  },
+  {
+   "q": "How long does it take?",
+   "a": "About 2–6 seconds per page on a modern device. The first run downloads the language model (1–4 MB)."
+  }
+ ],
+ "guide": {
+  "intro": "A scanned PDF is just pictures of pages – you cannot search it or copy text. OCR (optical character recognition) reads the text and adds an invisible layer, so the PDF looks the same but becomes searchable. Unlike most OCR services, {brand} does this on your device.",
+  "uses": [
+   "Make scanned contracts and archives searchable.",
+   "Copy text from scanned books or articles.",
+   "Prepare scans for PDF to Word or Split by Text."
+  ],
+  "tips": [
+   "Choose the correct document language for best accuracy.",
+   "Straighten tilted pages with Deskew PDF first.",
+   "Clean, 300 DPI scans give the best results."
+  ],
+  "faq": [
+   {
+    "q": "Does OCR change how my pages look?",
+    "a": "No – the original page stays, an invisible text layer is added on top."
+   },
+   {
+    "q": "How long does it take?",
+    "a": "About 2–6 seconds per page on a modern device. The first run downloads the language model (1–4 MB)."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "OCR PDF – Make Scanned PDFs Searchable, Free",
+  "desc": "Turn scanned PDFs into searchable, copyable PDFs with free OCR in 12 languages incl. Hindi, Tamil, Arabic. Page range, TXT export. No upload.",
+  "sections": [
+   [
+    "Make scans searchable and copyable",
+    "A scanned PDF is a stack of pictures: you cannot search it, copy a sentence from it or have a screen reader read it aloud. OCR (optical character recognition) reads the letters in those pictures and adds an invisible text layer exactly over them. The page looks the same, but now Ctrl+F finds words, text can be selected and copied, and the document can be indexed by your computer or a document management system.",
+    "{brand} runs OCR with the Tesseract engine inside your browser. The language models are downloaded once and cached; your scans are never uploaded. That makes it suitable for medical records, legal files, invoices and ID documents."
+   ],
+   [
+    "Features",
+    [
+     "**12 languages**, combinable two at a time – see the table below.",
+     "**Searchable PDF output** – original pages kept, invisible text added.",
+     "**TXT export** – get the recognised text as a plain-text file, or both PDF and TXT together.",
+     "**Page range** – OCR only the pages you need.",
+     "**Skip pages that already have text** – mixed documents are processed faster, and existing digital text is not duplicated.",
+     "**Adjustable resolution** – 200 DPI is a good default; raise it to 300 for small print."
+    ]
+   ],
+   [
+    "Supported OCR languages",
+    {
+     "table": [
+      [
+       "Language",
+       "Script"
+      ],
+      [
+       "English, Spanish, French, German, Portuguese, Italian",
+       "Latin"
+      ],
+      [
+       "Russian",
+       "Cyrillic"
+      ],
+      [
+       "Arabic",
+       "Arabic (right-to-left)"
+      ],
+      [
+       "Hindi",
+       "Devanagari"
+      ],
+      [
+       "Tamil",
+       "Tamil"
+      ],
+      [
+       "Chinese (Simplified)",
+       "Han"
+      ],
+      [
+       "Japanese",
+       "Kanji / Kana"
+      ]
+     ]
+    },
+    "Choose a second language for bilingual documents, such as English + Hindi or French + Arabic."
+   ],
+   [
+    "How to OCR a PDF",
+    [
+     "Drop your scanned PDF.",
+     "Choose the document's language (and optionally a second one).",
+     "Pick the output: searchable PDF, TXT, or both.",
+     "Optionally enter a page range and keep 'Skip pages that already contain text' ticked.",
+     "Click Start and wait – each page takes a few seconds depending on your device.",
+     "Download and test it: press Ctrl+F in your PDF reader and search for a word."
+    ]
+   ],
+   [
+    "Getting the best accuracy",
+    [
+     "Scan at 300 DPI in greyscale or colour; 200 DPI is fine for normal-size print.",
+     "Straight pages recognise better – fix crooked scans with [Deskew PDF](/deskew-pdf/) and sideways pages with [Rotate PDF](/rotate-pdf/).",
+     "Choose the correct language; accents and non-Latin letters depend on it.",
+     "Very light, faded or handwritten text is hard for any OCR – handwriting is generally not supported.",
+     "For phone photos, [PDF Scanner](/pdf-scanner/) crops and enhances pages before OCR."
+    ]
+   ],
+   [
+    "What can I do with an OCR'd PDF?",
+    [
+     "Search large archives of scanned letters and contracts.",
+     "Copy quotes and figures into reports.",
+     "Convert to editable formats with [PDF to Word](/pdf-to-word/) or tables with [PDF to Excel](/pdf-to-excel/).",
+     "Make documents accessible to screen-reader users.",
+     "Edit text with [Edit PDF](/edit-pdf/)."
+    ]
+   ],
+   [
+    "Searchable PDF vs text file",
+    "A searchable PDF keeps the exact look of the original scan with selectable text underneath – ideal for archives and sharing. A TXT file contains only the words, without layout – ideal for pasting into other programs, translation or analysis. Choose 'both' if you need each."
+   ],
+   [
+    "Privacy of OCR in the browser",
+    "Many online OCR services send your scans to a server for processing. Here, the OCR engine and language data run on your own computer or phone. Once the page and language model have loaded, you can even disconnect from the internet and keep processing."
+   ],
+   [
+    "Speed and large documents",
+    "OCR is computationally heavy. A modern laptop typically handles a page in a few seconds; phones take longer. For a 200-page scan, use the page range to process it in chunks, or leave the tab open while it works – progress is shown per page."
+   ],
+   [
+    "OCR for right-to-left and Indian scripts",
+    "Arabic is recognised right-to-left and the text layer keeps the correct reading order, so search and copy work in Arabic-language readers. Hindi (Devanagari) and Tamil are supported with their own trained models, including conjunct characters and vowel signs. For mixed documents – an English form with Hindi names, for example – choose both languages so each word is matched against the right alphabet."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "OCR languages incl. Hindi, Tamil, Arabic",
+    "12, free",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Searchable PDF + TXT",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page range / skip text pages",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "What does OCR PDF do?",
+    "a": "It recognises text in scanned pages and adds an invisible text layer, so you can search, select and copy text while the page looks the same."
+   },
+   {
+    "q": "Is OCR free here?",
+    "a": "Yes, completely – all languages, no page limits."
+   },
+   {
+    "q": "Which languages are supported?",
+    "a": "English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Simplified Chinese and Japanese; two can be combined."
+   },
+   {
+    "q": "Are my scans uploaded?",
+    "a": "No. OCR runs in your browser."
+   },
+   {
+    "q": "Can I get the text as a file?",
+    "a": "Yes. Choose TXT or 'Searchable PDF + TXT'."
+   },
+   {
+    "q": "Can I OCR only some pages?",
+    "a": "Yes. Enter a page range, e.g. 1-5."
+   },
+   {
+    "q": "Does it work on handwriting?",
+    "a": "Handwriting is generally not recognised reliably; printed text works best."
+   },
+   {
+    "q": "Why is OCR slow?",
+    "a": "Text recognition is heavy computing done on your device. Use a page range or higher-powered device for big scans."
+   },
+   {
+    "q": "How accurate is it?",
+    "a": "For clean printed scans at 200–300 DPI accuracy is typically very high. Low-quality or skewed scans reduce accuracy."
+   },
+   {
+    "q": "Will the file look different?",
+    "a": "No. The original page images are kept; only an invisible text layer is added."
+   }
+  ],
+  "related": [
+   "pdf-to-word",
+   "pdf-to-excel",
+   "deskew-pdf",
+   "pdf-scanner",
+   "image-to-text"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I OCR a PDF for free?",
+    "a": "Drop the scanned PDF, choose the document language (or two languages), optionally a page range, and run OCR. You get a searchable PDF with an invisible text layer, and you can also export the recognised text as TXT."
+   },
+   {
+    "q": "What does OCR PDF mean?",
+    "a": "OCR (optical character recognition) reads the letters in a scanned image. An OCR PDF looks the same as the scan but lets you search, select and copy its text."
+   }
+  ]
+ }
+}

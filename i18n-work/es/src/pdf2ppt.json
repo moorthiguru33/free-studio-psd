@@ -1,0 +1,226 @@
+{
+ "name": "PDF to PowerPoint",
+ "short": "Turn every PDF page into a PowerPoint slide (PPTX).",
+ "title": "PDF to PowerPoint – Convert PDF to PPT Slides Free | {brand}",
+ "desc": "Convert PDF to PowerPoint (PPTX) online for free: every page becomes a crisp slide that keeps the exact layout. No sign-up, files never leave your device.",
+ "h1": "Convert PDF to PowerPoint",
+ "steps": [
+  "Select your PDF.",
+  "Pick the image quality and, if you like, which pages to include.",
+  "Click Start and download your .pptx presentation."
+ ],
+ "faq": [
+  {
+   "q": "Will the slides look exactly like my PDF?",
+   "a": "Yes. Each page is placed on its own slide as a high-resolution image, so fonts, colours and layout stay identical. The slide size follows your PDF's page shape."
+  },
+  {
+   "q": "Can I edit the text in PowerPoint?",
+   "a": "The page content is an image, so text is not directly editable. You can add new text boxes, notes and animations on top, reorder or delete slides. For editable text, use PDF to Word first."
+  },
+  {
+   "q": "Does it open in Google Slides and Keynote?",
+   "a": "Yes. The file is a standard PPTX that opens in PowerPoint, Google Slides, Keynote and LibreOffice Impress."
+  }
+ ],
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "PDF to PowerPoint – Editable Slides, Free, No Upload",
+  "desc": "Convert PDF to PowerPoint (PPTX) with editable text boxes over the original design, or exact page images. Page range, HD quality. Free, no upload.",
+  "sections": [
+   [
+    "Turn a PDF into slides you can actually edit",
+    "Many PDF to PowerPoint converters simply paste a picture of each page onto a slide – it looks right, but you cannot change a single word. {brand} offers **editable text boxes**: each line of text in the PDF becomes a real PowerPoint text box, with its original position, size and colour, placed over a clean background image of the page's graphics. Change headings, update figures or translate a deck directly in PowerPoint, Keynote or Google Slides.",
+    "If you just need to present the PDF exactly as it is, choose **Page images only** for a pixel-perfect copy. Either way, conversion happens in your browser and the PDF is never uploaded."
+   ],
+   [
+    "Features",
+    [
+     "**Editable text** – text lines become PowerPoint text boxes with matching colour and size.",
+     "**Design preserved** – backgrounds, images, logos and shapes are kept as a high-resolution picture behind the text.",
+     "**Slide size follows the PDF** – 16:9, 4:3, A4 or anything else.",
+     "**Quality** – 100, 144 or 216 DPI backgrounds.",
+     "**Page range** – convert only the pages you need, e.g. 1-3,5.",
+     "**Opens everywhere** – PowerPoint, Keynote, Google Slides and LibreOffice Impress."
+    ]
+   ],
+   [
+    "How to convert PDF to PowerPoint",
+    [
+     "Drop your PDF.",
+     "Choose 'Editable text boxes' or 'Page images only'.",
+     "Pick quality and optionally a page range.",
+     "Click Convert and open the PPTX in your presentation software."
+    ]
+   ],
+   [
+    "Editable or images – which should I choose?",
+    {
+     "table": [
+      [
+       "Choose",
+       "When"
+      ],
+      [
+       "Editable text boxes",
+       "You need to change words, numbers or translate the deck"
+      ],
+      [
+       "Page images only",
+       "You only present it and need exact fidelity, or the PDF uses unusual fonts"
+      ]
+     ]
+    },
+    "In editable mode fonts are mapped to Arial, Times New Roman or Courier New based on the PDF's font family, so lines may be very slightly wider or narrower than the original. Bold and italic styles from embedded fonts may need a quick touch-up."
+   ],
+   [
+    "Scanned PDFs",
+    "If the PDF is a scan, it has no text layer – so the converter reads the page with built-in OCR (automatic by default, 12 languages) and still produces editable text boxes. You can also run [OCR PDF](/ocr-pdf/) first if you want a searchable PDF as well."
+   ],
+   [
+    "Tips",
+    [
+     "Use the High (144 DPI) setting for normal screens and Very high for big projectors.",
+     "Group text boxes in PowerPoint (select and Ctrl+G) to move blocks together.",
+     "For heavy text editing, [PDF to Word](/pdf-to-word/) gives flowing paragraphs that are easier to rewrite.",
+     "Going back? Export from PowerPoint or use [PowerPoint to PDF](/powerpoint-to-pdf/)."
+    ]
+   ],
+   [
+    "Common uses",
+    [
+     "Reusing slides from a conference PDF in your own talk.",
+     "Updating an old presentation when only the PDF survives.",
+     "Translating a deck into another language.",
+     "Turning reports into slides for a meeting.",
+     "Presenting a PDF in PowerPoint's presenter view with notes."
+    ]
+   ],
+   [
+    "Privacy",
+    "Presentations are often confidential – investor decks, internal strategy, unreleased products. All processing is done on your device, so the file never leaves it."
+   ],
+   [
+    "How editable conversion works",
+    "For each page, the converter renders the full page at the chosen resolution, then reads every text line with its position, size and font family. It samples the colour of each line from the rendered page, paints that area of the background with the surrounding colour, and places a PowerPoint text box with the same text, colour and size in exactly the same spot. The result looks like the original slide but every word can be selected, retyped, restyled or deleted – and the clean background means there is no ghost copy of the old text behind your edits."
+   ],
+   [
+    "Fonts, bold and italic",
+    "The converter reads each text run's font from the PDF and keeps bold, italic and bold-italic styling in the PowerPoint text boxes. Serif fonts are mapped to Times New Roman and monospaced fonts to Courier New, so the slides keep the character of the original even when the exact font is not installed. For scanned pages read with OCR, text is set in a standard sans-serif font."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Editable text boxes",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "OCR for scanned PDFs",
+    "Free, built in (12 languages)",
+    "Premium",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page range",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Can I edit the text after converting PDF to PowerPoint?",
+    "a": "Yes. In 'Editable text boxes' mode every line of text becomes a PowerPoint text box."
+   },
+   {
+    "q": "Will the design be preserved?",
+    "a": "Yes. Backgrounds, images and shapes are kept as a high-resolution image behind the editable text."
+   },
+   {
+    "q": "Is my PDF uploaded?",
+    "a": "No. Conversion happens in your browser."
+   },
+   {
+    "q": "Does it work with Google Slides and Keynote?",
+    "a": "Yes. The PPTX opens in PowerPoint, Google Slides, Keynote and LibreOffice Impress."
+   },
+   {
+    "q": "Can I convert only some pages?",
+    "a": "Yes. Enter a page range such as 1-3,5."
+   },
+   {
+    "q": "What about scanned PDFs?",
+    "a": "Scanned pages are read automatically with built-in OCR in 12 languages, so you still get editable text boxes. Choose the document language for best accuracy."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes, with no limits or watermark."
+   },
+   {
+    "q": "Why do fonts look slightly different?",
+    "a": "Text is set in a standard font (Arial, Times or Courier) matching the original style. Choose 'Page images only' for an exact look."
+   },
+   {
+    "q": "What slide size is used?",
+    "a": "The slide size matches the PDF page shape, e.g. 16:9 for slide decks or A4 for documents."
+   }
+  ],
+  "related": [
+   "powerpoint-to-pdf",
+   "pdf-to-word",
+   "ocr-pdf",
+   "pdf-to-jpg",
+   "compress-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I convert a PDF to PowerPoint?",
+    "a": "Drop the PDF, choose editable mode (text boxes over the original design) or exact page images, pick a page range if you need one, and convert. Open the PPTX in PowerPoint, Keynote or Google Slides."
+   },
+   {
+    "q": "How do I convert PDF to PowerPoint without losing formatting?",
+    "a": "Exact mode places each page as a high-resolution image, so it looks identical but text is not editable. Editable mode keeps the look by using the page as a background and adds real, editable text boxes on top – bold and italic are preserved."
+   }
+  ]
+ }
+}

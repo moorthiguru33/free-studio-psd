@@ -1,0 +1,268 @@
+{
+ "name": "PDF to PNG",
+ "short": "Convert PDF pages to high-quality PNG images.",
+ "title": "PDF to PNG – Convert PDF to PNG Images Free, High Quality | {brand}",
+ "desc": "Convert PDF pages to sharp PNG images up to 300 DPI. Choose pages, get one PNG or a ZIP. Free, no sign-up, no upload.",
+ "h1": "Convert PDF to PNG",
+ "steps": [
+  "Select a PDF.",
+  "Pick resolution and pages.",
+  "Download PNG images."
+ ],
+ "faq": [
+  {
+   "q": "PNG or JPG?",
+   "a": "PNG is lossless – best for text, diagrams and screenshots with sharp edges. JPG is smaller for photos."
+  },
+  {
+   "q": "What resolution should I use?",
+   "a": "2x (144 DPI) for screens, 300 DPI for printing."
+  }
+ ],
+ "guide": {
+  "intro": "PNG keeps text and line art perfectly crisp, which makes it the best image format for slides, documentation and social posts made from PDF pages. {brand} renders each page in your browser at up to 300 DPI and packs multiple pages into a ZIP.",
+  "uses": [
+   "Use a PDF page in a presentation or blog post.",
+   "Share a single page on social media or chat.",
+   "Create crisp images of diagrams and charts.",
+   "Make thumbnails of documents."
+  ],
+  "tips": [
+   "Use page ranges like 1,3-5 to convert only what you need.",
+   "Compress results with Compress PNG if files are large."
+  ],
+  "faq": [
+   {
+    "q": "Is transparency kept?",
+    "a": "Pages are rendered on white, like printed paper."
+   },
+   {
+    "q": "Is my file uploaded?",
+    "a": "No."
+   }
+  ],
+  "more": [
+   [
+    "JPG or PNG?",
+    "JPG gives smaller files for pages with photos. PNG keeps text and line art perfectly sharp and supports lossless quality. For screenshots of documents shared in chats, PNG at 2x is usually the best balance."
+   ],
+   [
+    "Resolution guide",
+    "1x is good for previews, 2x for most screens and documents, 3x for printing or zooming into details."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "PDF to PNG – Convert PDF Pages to PNG Images, 300 DPI",
+  "desc": "Convert every PDF page to a sharp PNG at up to 300 DPI, or just a page range. Lossless, transparent-ready, ZIP download. Runs in your browser.",
+  "compareTitle": "{tool}: {brand} vs Smallpdf, iLovePDF and PDF24",
+  "compareCols": [
+   "Smallpdf",
+   "iLovePDF",
+   "PDF24"
+  ],
+  "sections": [
+   [
+    "Lossless images of your PDF pages",
+    "PNG is a lossless image format, which makes it the best choice when you need page images with crisp text, thin lines and flat colours – diagrams, slides, charts, forms, sheet music or UI mockups. This tool renders each page of your PDF at the resolution you choose and saves it as PNG, without the blurry halos JPEG adds around text."
+   ],
+   [
+    "Choosing a resolution",
+    {
+     "table": [
+      [
+       "DPI",
+       "Size of an A4 page",
+       "Use"
+      ],
+      [
+       "72",
+       "595 × 842 px",
+       "Quick previews, thumbnails"
+      ],
+      [
+       "144 (2×)",
+       "1191 × 1684 px",
+       "Screens, slides, web pages"
+      ],
+      [
+       "216 (3×)",
+       "1786 × 2526 px",
+       "Documentation, sharp on high-DPI screens"
+      ],
+      [
+       "300",
+       "2480 × 3508 px",
+       "Printing, OCR, archiving"
+      ]
+     ]
+    },
+    "Higher DPI means larger files. PNG files of text pages are usually small because of their flat colours; pages with photos produce large PNGs, so for those [PDF to JPG](/pdf-to-jpg/) may be a better choice."
+   ],
+   [
+    "PNG vs JPG for PDF pages",
+    {
+     "table": [
+      [
+       "",
+       "PNG",
+       "JPG"
+      ],
+      [
+       "Compression",
+       "Lossless",
+       "Lossy"
+      ],
+      [
+       "Text and line sharpness",
+       "Perfect",
+       "Slight artefacts"
+      ],
+      [
+       "Photos",
+       "Large files",
+       "Small files"
+      ],
+      [
+       "Transparency",
+       "Supported",
+       "Not supported"
+      ],
+      [
+       "Best for",
+       "Diagrams, slides, documents",
+       "Photo-heavy pages, e-mail"
+      ]
+     ]
+    }
+   ],
+   [
+    "How to convert PDF to PNG",
+    [
+     "Drop the PDF onto the page.",
+     "Choose the DPI and, if you like, a page range such as 1-3,7.",
+     "Press **Convert**.",
+     "Download a single PNG or all pages as a ZIP."
+    ]
+   ],
+   [
+    "Why rendered PNGs look sharper than screenshots",
+    "Taking a screenshot of a PDF viewer captures the page at your screen's resolution, typically around 96–150 DPI, and includes any zoom blur. Rendering the PDF directly at 216 or 300 DPI draws text and vectors from the original outlines, so letters stay crisp even when the image is enlarged or printed."
+   ],
+   [
+    "Common uses",
+    [
+     "Insert a PDF page into a presentation, document or design tool that doesn't import PDFs.",
+     "Post a page on social media or a website.",
+     "Create thumbnails for a document library.",
+     "Feed pages into image-based workflows such as annotation tools or machine-learning datasets."
+    ]
+   ],
+   [
+    "Large and protected PDFs",
+    "Long documents are rendered one page at a time to keep memory use low, so even hundreds of pages convert in a normal browser – the progress is shown as each page is finished. If a PDF is password-protected, remove the password first with [Unlock PDF](/unlock-pdf/) (you need to know the password), then convert it here."
+   ],
+   [
+    "Extract the original images instead",
+    "Rendering a page captures everything on it – text, vector drawings and images – as one picture. If you only want the photos embedded in a PDF at their original resolution, switch the mode to *Extract images*. The tool then saves each embedded image as its own file without re-rendering, which is faster and keeps the original quality of photos in brochures, catalogues and reports."
+   ],
+   [
+    "Transparent backgrounds",
+    "PDF pages normally have a white background, and the renderer fills it white so the PNG looks exactly like the page. If you need a logo or drawing on a transparent background, extract it with *Extract images* (when it is an embedded image) or convert the page to [SVG](/pdf-to-svg/) and remove the background shape in a vector editor."
+   ],
+   [
+    "Privacy",
+    "Pages are rendered by PDF.js inside your browser and saved directly to your device. The PDF is never uploaded, and the tool works offline after the page loads – suitable for contracts, drawings and confidential reports."
+   ],
+   [
+    "Related tools",
+    [
+     "[PDF to JPG](/pdf-to-jpg/)",
+     "[PDF to SVG](/pdf-to-svg/)",
+     "[PDF to TIFF](/pdf-to-tiff/)",
+     "[Extract images from PDF](/extract-images-from-pdf/)",
+     "[JPG to PDF](/jpg-to-pdf/)"
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Choose DPI up to 300",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page range",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "ZIP of all pages",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I convert a PDF to PNG?",
+    "a": "Drop the PDF, choose a DPI and press Convert. Download each PNG or a ZIP of all pages."
+   },
+   {
+    "q": "What DPI should I use?",
+    "a": "144 DPI (2×) for screens, 300 DPI for printing or OCR."
+   },
+   {
+    "q": "Is PDF to PNG lossless?",
+    "a": "Yes, PNG keeps every rendered pixel without compression artefacts."
+   },
+   {
+    "q": "Can I convert only some pages?",
+    "a": "Yes, enter a page range such as 1-3,7."
+   },
+   {
+    "q": "Is my PDF uploaded?",
+    "a": "No, it is rendered in your browser."
+   },
+   {
+    "q": "PNG or JPG – which is better?",
+    "a": "PNG for text and diagrams, JPG for photo-heavy pages."
+   },
+   {
+    "q": "Can I convert a password-protected PDF?",
+    "a": "Unlock it first with Unlock PDF (you need the password), then convert."
+   },
+   {
+    "q": "Is there a page limit?",
+    "a": "No fixed limit; very long documents just take longer."
+   }
+  ],
+  "related": [
+   "pdf-to-jpg",
+   "pdf-to-svg",
+   "pdf-to-tiff",
+   "extract-images-from-pdf",
+   "jpg-to-pdf"
+  ]
+ }
+}

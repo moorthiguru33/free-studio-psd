@@ -1,0 +1,324 @@
+{
+ "name": "Extract PDF Pages",
+ "short": "Pick pages and save them as a new PDF.",
+ "title": "Extract Pages from PDF Online Free – Save Selected Pages | {brand}",
+ "desc": "Pick the pages you need and save them as a new PDF. Visual page selection, free, unlimited and private – nothing is uploaded.",
+ "h1": "Extract pages from PDF",
+ "steps": [
+  "Select your PDF.",
+  "Tap the pages you want to keep.",
+  "Click Start and download the new PDF."
+ ],
+ "faq": [
+  {
+   "q": "Can I change the order of extracted pages?",
+   "a": "Yes. Drag them (or use ← →) before clicking Start."
+  }
+ ],
+ "guide": {
+  "intro": "Often you only need part of a document: one signed page, a single chapter or the pages that mention a project. Extract Pages lets you select those pages visually and save them as a new, smaller PDF without touching the original.",
+  "uses": [
+   "Send only the signature page of a contract back to a client.",
+   "Share one chapter of a book or course pack with a study group.",
+   "Pull a single statement or invoice out of a combined monthly file.",
+   "Collect key slides from a long presentation exported as PDF."
+  ],
+  "tips": [
+   "Select pages in any order, then reorder them before clicking Start.",
+   "For fixed ranges like 1-5, Split PDF with a page range is faster.",
+   "Extracted pages keep their original quality and selectable text."
+  ],
+  "faq": [
+   {
+    "q": "Can I extract non-consecutive pages?",
+    "a": "Yes. Tap any combination of pages, for example 2, 7 and 15, and they are saved together in one PDF."
+   }
+  ],
+  "more": [
+   [
+    "One tool for page clean-up",
+    "Instead of using separate tools to rotate, delete and reorder pages, Organize PDF shows the whole document as a page grid. Make all changes at once and export a single clean PDF."
+   ],
+   [
+    "Typical clean-up workflow",
+    "Scan a batch of documents, delete blank pages, rotate sideways ones, drag pages into order and export. Then compress the result if you need to email it."
+   ],
+   [
+    "Works on any device",
+    "Thumbnails are generated in your browser, so even large PDFs can be reorganised on a laptop, tablet or phone without uploading them to a server."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "Extract PDF Pages – Save Selected Pages Free",
+  "desc": "Extract pages from a PDF: tick thumbnails or type ranges like 1-3,8, save one new PDF or each page as its own file. Free, no upload, no sign-up.",
+  "compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+  "compareCols": [
+   "iLovePDF",
+   "Smallpdf",
+   "Sejda"
+  ],
+  "sections": [
+   [
+    "Extract PDF pages into a new file",
+    "Extract PDF pages copies just the pages you need from a larger document into a new PDF. Tick thumbnails or type page ranges such as 1-3,8,12-15, then save them as one combined PDF or as separate files – one PDF per page, bundled in a ZIP. The original document stays untouched.",
+    "Typical uses: pulling the signature page out of a contract, sending only the relevant chapter of a manual, saving a single invoice from a monthly statement, or separating each page of a scanned batch into its own file."
+   ],
+   [
+    "Two ways to choose pages",
+    {
+     "list": [
+      "**Click thumbnails** – every page is shown; tap the ones you want and they are highlighted.",
+      "**Type a range** – enter 2-5,9 and press Select range. Ranges and single pages can be mixed, and you can combine typing with clicking.",
+      "**Clear selection** starts again without reloading the file."
+     ]
+    }
+   ],
+   [
+    "One PDF or separate files",
+    "By default the selected pages are saved together in their original order as one PDF named *yourfile-extracted.pdf*. Tick *Save each selected page as a separate PDF* to get one file per page, named with its page number (for example *report-page7.pdf*) and delivered as a ZIP. Separate files are handy when each page is a different form, receipt or certificate that needs to be filed or e-mailed on its own."
+   ],
+   [
+    "How to extract pages from a PDF for free",
+    {
+     "steps": [
+      "Drop the PDF on this page.",
+      "Tick the pages you want, or type ranges and press Select range.",
+      "Optionally tick the option to save each page separately.",
+      "Press Extract and download the new PDF or ZIP."
+     ]
+    }
+   ],
+   [
+    "Extract vs split vs delete",
+    {
+     "table": [
+      [
+       "Goal",
+       "Use"
+      ],
+      [
+       "Keep a few pages, discard the rest",
+       "Extract PDF pages"
+      ],
+      [
+       "Remove a few pages, keep the rest",
+       "[Delete PDF pages](/delete-pdf-pages/)"
+      ],
+      [
+       "Cut the whole document into parts",
+       "[Split PDF](/split-pdf/)"
+      ],
+      [
+       "Split at every chapter bookmark",
+       "[Split PDF by bookmarks](/split-pdf-by-bookmarks/)"
+      ],
+      [
+       "Get pages as images",
+       "[PDF to JPG](/pdf-to-jpg/)"
+      ]
+     ]
+    }
+   ],
+   [
+    "What is kept",
+    "Extracted pages are exact copies: selectable text, fonts, vector graphics and images at full resolution. Page size and rotation are preserved. Comments and annotations that belong to a page travel with it in most cases. Bookmarks from the original document are not copied, because they would point to pages that may no longer exist."
+   ],
+   [
+    "Extract pages as images instead",
+    "If you need a picture of a page rather than a PDF – for a slide, a website or a chat message – use [PDF to JPG](/pdf-to-jpg/) or [PDF to PNG](/pdf-to-png/) and enter the same page range. To pull out only the photos embedded in a PDF at their original quality, use [Extract images from PDF](/extract-images-from-pdf/)."
+   ],
+   [
+    "Large and protected files",
+    "There is no page or size limit beyond your device's memory; thumbnails are rendered at low resolution so even long documents are quick to browse. If the PDF needs a password to open, unlock it with [Unlock PDF](/unlock-pdf/) first (you must know the password)."
+   ],
+   [
+    "Worked example: pulling three invoices out of a statement",
+    "Imagine a 40-page supplier statement where you only need the invoices on pages 6, 14 and 15. Drop the PDF, type *6,14-15* in the range box and press *Select range* – the three thumbnails light up. To file each invoice separately, tick *Save each selected page as a separate PDF*. Press Extract, and you get a ZIP containing *statement-page6.pdf*, *statement-page14.pdf* and *statement-page15.pdf*. Without the tick, you would get one three-page PDF instead. The whole job takes a few seconds and the statement is never uploaded anywhere."
+   ],
+   [
+    "Page range syntax",
+    {
+     "table": [
+      [
+       "You type",
+       "Pages selected"
+      ],
+      [
+       "5",
+       "Page 5 only"
+      ],
+      [
+       "1-3",
+       "Pages 1, 2 and 3"
+      ],
+      [
+       "2,4,6",
+       "Pages 2, 4 and 6"
+      ],
+      [
+       "1-3,10-12",
+       "Pages 1–3 and 10–12"
+      ],
+      [
+       "8-8",
+       "Page 8 (same as 8)"
+      ]
+     ]
+    },
+    "Spaces are ignored, and pages outside the document are reported as an error so you can correct the range. Selecting by range adds to any pages you have already clicked; use *Clear selection* to start over."
+   ],
+   [
+    "Extracting pages on a phone",
+    "On small screens, typing a range is usually quicker than tapping thumbnails. The page works in mobile Chrome, Safari, Firefox and Samsung Internet. When you download a single PDF it goes to your Downloads folder or Files app; ZIP files can be opened with the Files app on iPhone and most Android file managers. If you plan to share the result straight away, a single combined PDF is easiest."
+   ],
+   [
+    "Extracting pages with comments or form fields",
+    "Annotations such as highlights, sticky notes and drawn markup are stored on the page they belong to and are carried over to the extracted file in most viewers. Fillable form fields are copied with their pages, but if a form uses scripts that reference fields on other pages, those scripts may stop working once the pages are separated. If you need a fixed, non-editable copy, run [Flatten PDF](/flatten-pdf/) before extracting."
+   ],
+   [
+    "Reasons to extract rather than share the whole file",
+    {
+     "list": [
+      "**Privacy** – send only the page someone needs, not the full document with personal details on other pages.",
+      "**Size** – a two-page extract is far smaller than a 300-page manual, so it fits in e-mail and chat limits.",
+      "**Clarity** – reviewers see exactly the section they must sign or comment on.",
+      "**Filing** – store each receipt, certificate or form under its own name in your records."
+     ]
+    }
+   ],
+   [
+    "Select odd or even pages",
+    "The *Odd* and *Even* buttons select every odd-numbered (1, 3, 5…) or even-numbered (2, 4, 6…) page in one click. That is useful for separating the fronts and backs of a double-sided scan, or for pulling out only the right-hand pages of a book scan. Combine them with typed ranges and thumbnail clicks to fine-tune the selection."
+   ],
+   [
+    "Extract pages online vs desktop software",
+    "Paid desktop PDF editors offer page extraction, and many online services do too – usually by uploading your file to their servers and sometimes with hourly limits for free users. Here, the PDF is opened in your browser and the new file is created on your device, with no limits on how often you use it. That makes it fast for large files on slow connections, and safe for confidential documents."
+   ],
+   [
+    "Glossary",
+    {
+     "table": [
+      [
+       "Term",
+       "Meaning"
+      ],
+      [
+       "Extract",
+       "Copy selected pages into a new document"
+      ],
+      [
+       "Page range",
+       "A list of pages such as 1-3,8"
+      ],
+      [
+       "ZIP",
+       "A single archive file containing several files"
+      ],
+      [
+       "Flatten",
+       "Merge form fields and annotations into the page content"
+      ]
+     ]
+    }
+   ],
+   [
+    "Checking the result",
+    "The result message shows how many pages were extracted. Open the file to confirm, and if you picked the wrong pages simply change the selection and press Extract again – the original file stays loaded until you choose another one."
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+   ],
+   [
+    "Related tools",
+    [
+     "[Split PDF](/split-pdf/)",
+     "[Delete PDF pages](/delete-pdf-pages/)",
+     "[Organize PDF](/organize-pdf/)",
+     "[PDF to JPG](/pdf-to-jpg/)",
+     "[Merge PDF](/merge-pdf/)"
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Select by typed range",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Each page as separate PDF",
+    "Yes (ZIP)",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Thumbnail selection",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I extract pages from a PDF?",
+    "a": "Drop the PDF, tick pages or type a range, and press Extract to download a new PDF."
+   },
+   {
+    "q": "How do I extract PDF pages into separate files?",
+    "a": "Tick 'Save each selected page as a separate PDF'; you get a ZIP with one PDF per page."
+   },
+   {
+    "q": "Can I extract pages for free?",
+    "a": "Yes, with no sign-up, watermark or page limit."
+   },
+   {
+    "q": "Can I separate PDF pages?",
+    "a": "Yes, select all pages and save each as a separate PDF, or use Split PDF."
+   },
+   {
+    "q": "Does extracting reduce quality?",
+    "a": "No, pages are copied exactly."
+   },
+   {
+    "q": "Can I extract non-consecutive pages?",
+    "a": "Yes, e.g. 1,4,7-9."
+   },
+   {
+    "q": "Is my file uploaded?",
+    "a": "No, extraction runs in your browser."
+   },
+   {
+    "q": "Are bookmarks kept?",
+    "a": "No; add new ones with the bookmarks tool if needed."
+   }
+  ],
+  "related": [
+   "split-pdf",
+   "delete-pdf-pages",
+   "organize-pdf",
+   "pdf-to-jpg",
+   "merge-pdf"
+  ],
+  "updated": "2026-10-25"
+ }
+}

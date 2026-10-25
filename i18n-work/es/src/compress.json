@@ -1,0 +1,228 @@
+{
+ "name": "Compress PDF",
+ "short": "Reduce the file size of your PDF.",
+ "title": "Compress PDF – Reduce PDF File Size Online Free | {brand}",
+ "desc": "Compress PDF to reduce file size for email, WhatsApp and upload portals. Free, no limits, no sign-up – your PDF is compressed in your browser, never uploaded.",
+ "h1": "Compress PDF",
+ "steps": [
+  "Select the PDF you want to shrink.",
+  "Choose lossless or strong compression.",
+  "Click Start and download the smaller PDF."
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between the modes?",
+   "a": "Lossless keeps text selectable and restructures the file. Strong turns each page into a compressed image for much smaller scanned or image-heavy files, but text is no longer selectable."
+  }
+ ],
+ "guide": {
+  "intro": "Large PDFs are rejected by email (often 20–25 MB limits) and by many government, job and college portals that accept only 1–2 MB. {brand} shrinks PDFs on your own device, so you can compress private documents without uploading them anywhere.",
+  "uses": [
+   "Make a scanned PDF small enough for an online form with a 1 MB or 2 MB limit.",
+   "Send a large report by email or WhatsApp.",
+   "Save storage space on your phone or cloud drive."
+  ],
+  "tips": [
+   "Try Lossless first – it keeps text selectable. Use Strong for scanned or photo-heavy files.",
+   "For text-based PDFs that are already small, large savings may not be possible.",
+   "Compress after merging, not before, to get one optimised file."
+  ],
+  "faq": [
+   {
+    "q": "How much smaller will my PDF be?",
+    "a": "It depends on the content. Scanned and image-heavy PDFs often shrink by 50–90% in Strong mode; text-only PDFs shrink less."
+   },
+   {
+    "q": "Can I compress a PDF to under 1 MB or 100 KB?",
+    "a": "Often yes for scans using Strong mode. Very long documents may still be larger; splitting them can help."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Compress PDF – Reduce PDF File Size Free, No Upload",
+  "desc": "Compress PDF file size free in your browser. Three levels with size estimates, text stays sharp, no upload, no sign-up, no hourly limits. Works offline.",
+  "sections": [
+   [
+    "How PDF compression works",
+    "A PDF is a container. Text and vector drawings are small; what makes most PDFs large is embedded images – scanned pages, photos and screenshots – plus duplicated fonts and unused objects left over from editing. {brand} looks inside your PDF, measures every embedded image and then applies the level you choose. Before you even click, each level card shows an estimated output size so you can pick the trade-off that suits you.",
+    [
+     "**Recommended** – re-encodes oversized photos as efficient JPEGs at a sensible resolution, removes unused objects and rewrites the file compactly. Text and vector graphics are untouched, so they stay perfectly sharp and searchable.",
+     "**Extreme** – renders every page as an image at reduced resolution. This gives the smallest possible file, ideal for e-mail limits and upload portals, but text is no longer selectable.",
+     "**Custom settings** – open *Custom settings* to set image resolution (72–300 DPI), JPEG quality (30–90%) and convert images and scanned pages to grayscale.",
+     "**Less** – a lossless rebuild. Nothing visual changes; you gain space only from cleaning up the file structure. Useful for documents where every pixel matters."
+    ],
+    "If a result would be bigger than your original – which happens with files that are already optimised – {brand} keeps the original and tells you, so you never download a worse file."
+   ],
+   [
+    "Need an exact size such as 100 KB or 1 MB?",
+    "Government forms, job portals and university applications often enforce a hard limit. Use the target-size tools – [Compress PDF to 100 KB](/compress-pdf-to-100kb/), [200 KB](/compress-pdf-to-200kb/), [500 KB](/compress-pdf-to-500kb/), [1 MB](/compress-pdf-to-1mb/) or [any size in KB](/compress-pdf-to-kb/). They try progressively stronger settings and stop as soon as the file fits, keeping as much quality as possible."
+   ],
+   [
+    "Will compression affect fonts or quality?",
+    "At the Recommended and Less levels fonts are never rasterised, so text prints and zooms exactly as before. Photos are resampled to a resolution that still looks sharp on screen and in normal office printing. Only Extreme converts pages to images; choose it when size matters more than editability.",
+    "For scanned documents – which are just images already – Recommended usually gives the biggest gains with almost no visible difference, often reducing a 10 MB scan to 1–2 MB."
+   ],
+   [
+    "Common uses",
+    [
+     "**CVs and résumés** – many applicant tracking systems cap uploads at 2 MB or less; a compressed CV uploads instantly and keeps its text searchable for keyword matching.",
+     "**Posters and brochures** – design exports with full-resolution photos can be 50 MB or more; Recommended brings them down to e-mail size.",
+     "**Scanned paperwork** – bank statements, invoices and ID copies for online forms.",
+     "**Team sharing** – smaller files sync faster to shared drives and chat apps, and because nothing is uploaded here, confidential team documents stay private."
+    ]
+   ],
+   [
+    "Tips for the smallest PDF",
+    [
+     "Remove pages you don’t need first with [Delete PDF Pages](/delete-pdf-pages/).",
+     "Colour scans of black-and-white text? Tick *Convert to grayscale* in Custom settings – it often saves another 20–40%.",
+     "Combine several documents with [Merge PDF](/merge-pdf/) and compress once, rather than compressing each part."
+    ]
+   ],
+   [
+    "Compression levels compared",
+    {
+     "table": [
+      [
+       "Level",
+       "What it does",
+       "Typical saving",
+       "Text selectable",
+       "Best for"
+      ],
+      [
+       "Less",
+       "Lossless rebuild: removes unused objects, rewrites the file compactly",
+       "5–20%",
+       "Yes",
+       "Archiving, legal documents"
+      ],
+      [
+       "Recommended",
+       "Re-encodes oversized photos, keeps text and vectors",
+       "40–80% on image-heavy files",
+       "Yes",
+       "E-mail, sharing, uploads"
+      ],
+      [
+       "Extreme",
+       "Renders pages as compressed images",
+       "80–95%",
+       "No",
+       "Strict upload limits"
+      ]
+     ]
+    },
+    "Savings depend entirely on what is inside the PDF. A file that is mostly typed text may only shrink by a few per cent, because there is little to remove; a phone-camera scan can shrink by ten times or more."
+   ],
+   [
+    "Why compress in the browser instead of online?",
+    "Online compressors are convenient, but every one of them requires you to send the file to a server you don’t control, often with retention periods measured in hours. Many also limit free users – Sejda’s free web plan, for example, allows 3 tasks per hour and files up to 50 MB. {brand} has none of those constraints: the compression engine is downloaded once as part of this page and then runs on your processor. Large files are limited only by your device’s memory, and you can compress as many documents as you like, one after another, without waiting or creating an account.",
+    "It is also faster for big files on slow connections – there is no 30 MB upload followed by a 30 MB download, just local processing.",
+    "Compression is also repeatable: try Recommended, compare the result with the original side by side, and if you need it smaller, run Extreme on the original – each attempt takes seconds."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Grayscale and custom DPI/quality",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Compression levels",
+    "3, with live size estimates",
+    "3",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Compress to an exact size (KB)",
+    "Yes – dedicated tools",
+    "Not offered on page",
+    "Not offered on page",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I reduce a scanned PDF file size?",
+    "a": "Use the Recommended level. Scans are made of images, so re-encoding them gives large savings – often 70–90% – while staying readable. For a hard limit use a target-size tool such as Compress PDF to 200 KB."
+   },
+   {
+    "q": "Can I compress PDFs with my whole team?",
+    "a": "Yes. There are no accounts or seats – anyone on your team can open the page and compress files. Because files never leave each person’s device, it also suits confidential material."
+   },
+   {
+    "q": "Will compression make text blurry?",
+    "a": "No, unless you choose Extreme. Recommended and Less keep text and vector graphics exactly as they are; only embedded photos are optimised."
+   },
+   {
+    "q": "Why is my compressed PDF not much smaller?",
+    "a": "The file is probably mostly text, or already optimised. Text-only PDFs are small by nature. Try Extreme if you only need a viewable copy, or remove unneeded pages."
+   },
+   {
+    "q": "How do I compress a PDF for e-mail?",
+    "a": "Use Recommended. Most e-mail services accept attachments up to 20–25 MB; if your file is still too large, use Compress PDF to 1 MB or split it into parts."
+   },
+   {
+    "q": "Is compressing a PDF safe for confidential documents?",
+    "a": "Yes. The file is processed in your browser and never uploaded, so nothing is stored on any server."
+   }
+  ],
+  "related": [
+   "compress-pdf-to-kb",
+   "compress-pdf-to-100kb",
+   "grayscale-pdf",
+   "merge-pdf",
+   "compress-image"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I compress a PDF file size?",
+    "a": "Drop the PDF, choose a compression level – each shows an estimated result size – and download the smaller file. Images inside the PDF are re-encoded at a lower resolution while text and vector graphics stay sharp."
+   },
+   {
+    "q": "How can I compress a PDF to a smaller size, such as under 1 MB?",
+    "a": "Use the strongest level first. If the file is still too large, it is usually because of many high-resolution scanned pages; splitting the PDF or converting the scan to grayscale reduces it further. Text-only PDFs are already small and shrink less."
+   }
+  ]
+ }
+}

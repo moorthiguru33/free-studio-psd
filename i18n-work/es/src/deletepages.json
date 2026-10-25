@@ -1,0 +1,244 @@
+{
+ "name": "Delete PDF Pages",
+ "short": "Remove unwanted pages from a PDF.",
+ "title": "Delete Pages from PDF Online Free – Remove PDF Pages | {brand}",
+ "desc": "Remove unwanted pages from a PDF by tapping thumbnails. Free, no upload, no watermark – a clean new PDF is created on your device.",
+ "h1": "Delete pages from PDF",
+ "steps": [
+  "Select your PDF.",
+  "Tap the pages you want to remove.",
+  "Click Start and download the PDF."
+ ],
+ "faq": [
+  {
+   "q": "Is the original file changed?",
+   "a": "No. A new PDF is created on your device; the original stays untouched."
+  }
+ ],
+ "guide": {
+  "intro": "Blank scans, duplicate pages, outdated appendices or pages with personal details often need to go before you share a document. {brand} shows every page as a thumbnail so you can see exactly what you are removing, and builds the new file locally.",
+  "uses": [
+   "Remove blank pages left by a double-sided scanner.",
+   "Drop advert or cover pages from a downloaded report.",
+   "Remove pages with personal information before sending a document to a third party.",
+   "Trim a long manual down to the sections you actually need."
+  ],
+  "tips": [
+   "Zoom in on thumbnails when pages look similar.",
+   "Your original file is never modified – keep it until you have checked the result.",
+   "To keep a few pages rather than delete many, Extract PDF Pages is quicker."
+  ],
+  "faq": [
+   {
+    "q": "Does deleting pages reduce file size?",
+    "a": "Usually yes, because the content of removed pages is not copied into the new file. Run Compress PDF afterwards for further savings."
+   }
+  ],
+  "more": [
+   [
+    "One tool for page clean-up",
+    "Instead of using separate tools to rotate, delete and reorder pages, Organize PDF shows the whole document as a page grid. Make all changes at once and export a single clean PDF."
+   ],
+   [
+    "Typical clean-up workflow",
+    "Scan a batch of documents, delete blank pages, rotate sideways ones, drag pages into order and export. Then compress the result if you need to email it."
+   ],
+   [
+    "Works on any device",
+    "Thumbnails are generated in your browser, so even large PDFs can be reorganised on a laptop, tablet or phone without uploading them to a server."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Delete Pages from PDF – Remove PDF Pages Free, No Upload",
+  "desc": "Delete pages from a PDF: click thumbnails, type ranges like 2,5-8, or auto-mark blank pages. Undo anytime. Free, private, in your browser.",
+  "sections": [
+   [
+    "Remove unwanted pages in a few clicks",
+    "Scanned stacks with blank backs, reports with an outdated appendix, a contract that should go out without the internal cover sheet – removing pages is one of the most common PDF jobs. {brand} shows every page as a thumbnail so you can see exactly what you are deleting, and it works entirely in your browser so the document is never uploaded."
+   ],
+   [
+    "Three ways to choose pages",
+    [
+     "**Click thumbnails** – tap any page to mark it for deletion; tap again to keep it.",
+     "**Type a range** – enter 2,5-8 and click Mark pages to select many pages at once.",
+     "**Mark blank pages** – automatically finds empty pages (common in duplex scans) and marks them.",
+     "**Undo** – step back through your marking if you change your mind.",
+     "**Rotate or reorder too** – each thumbnail has rotate and move buttons, so you can tidy the document in the same step."
+    ]
+   ],
+   [
+    "How to delete pages from a PDF",
+    [
+     "Drop your PDF onto the page and wait for thumbnails to appear.",
+     "Click the pages to remove, type a range, or click Mark blank pages.",
+     "Check the counter showing how many pages are marked.",
+     "Click Delete pages and download the new PDF. The original on your disk stays unchanged."
+    ]
+   ],
+   [
+    "Lossless and safe",
+    "The remaining pages are copied unchanged into a new PDF – no re-rendering, no quality loss, selectable text and working links. The removed pages are genuinely gone from the new file, not hidden, so you can share it without leaking the deleted content."
+   ],
+   [
+    "How blank page detection works",
+    "Each page thumbnail is analysed for dark pixels. Pages where almost nothing is printed – fully white or with only scanner dust – are marked. Pages with a faint header or a page number are kept, which avoids deleting intentionally sparse pages. Always glance at the marked thumbnails before saving."
+   ],
+   [
+    "Delete, extract or split?",
+    {
+     "table": [
+      [
+       "You want to…",
+       "Use"
+      ],
+      [
+       "Remove a few pages and keep the rest",
+       "Delete PDF pages (this tool)"
+      ],
+      [
+       "Keep only a few pages",
+       "[Extract PDF pages](/extract-pdf-pages/)"
+      ],
+      [
+       "Cut the document into several files",
+       "[Split PDF](/split-pdf/)"
+      ],
+      [
+       "Reorder, rotate and delete together",
+       "[Organize PDF](/organize-pdf/)"
+      ]
+     ]
+    }
+   ],
+   [
+    "Common uses",
+    [
+     "Removing blank backs from duplex scans.",
+     "Taking out internal notes before sending a document to a client.",
+     "Dropping outdated appendices from reports.",
+     "Removing advertising pages from downloaded statements.",
+     "Shrinking a file by removing pages nobody needs, before [Compress PDF](/compress-pdf/)."
+    ]
+   ],
+   [
+    "Working with large documents",
+    "Thumbnails are rendered on your device, so a few hundred pages load in seconds on a modern laptop. Typing a range is the fastest way to remove big blocks, such as 120-180, without scrolling through every thumbnail."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Click thumbnails + type ranges",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Auto-detect blank pages",
+    "Yes",
+    "Not offered on page",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Undo",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I delete pages from a PDF?",
+    "a": "Drop the PDF, click the pages to remove (or type a range), then click Delete pages and download."
+   },
+   {
+    "q": "Can I delete several pages at once?",
+    "a": "Yes. Type a range such as 2,5-8, or click as many thumbnails as you like."
+   },
+   {
+    "q": "Can it remove blank pages automatically?",
+    "a": "Yes. Click Mark blank pages to select empty pages, check them, then delete."
+   },
+   {
+    "q": "Can I undo?",
+    "a": "Yes. Use Undo to restore earlier markings, or click a marked thumbnail to keep it."
+   },
+   {
+    "q": "Does deleting pages reduce quality?",
+    "a": "No. Remaining pages are copied unchanged."
+   },
+   {
+    "q": "Is my PDF uploaded?",
+    "a": "No. Everything happens in your browser."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes, with no watermark, limits or sign-up."
+   },
+   {
+    "q": "Can I delete pages on my phone?",
+    "a": "Yes. Tap thumbnails on any phone or tablet browser."
+   },
+   {
+    "q": "Are the deleted pages really gone?",
+    "a": "Yes. They are not included in the new file at all."
+   }
+  ],
+  "related": [
+   "extract-pdf-pages",
+   "organize-pdf",
+   "split-pdf",
+   "merge-pdf",
+   "compress-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I delete pages from a PDF?",
+    "a": "Open the PDF, tap the thumbnails of the pages you do not want (or type ranges such as 2,5-8), and download the new file. Blank pages can be marked automatically."
+   },
+   {
+    "q": "Can I delete pages from a PDF for free?",
+    "a": "Yes, with no account, watermark or page limit; the pages are removed on your device."
+   }
+  ]
+ }
+}

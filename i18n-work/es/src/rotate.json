@@ -1,0 +1,210 @@
+{
+ "name": "Rotate PDF",
+ "short": "Rotate all pages of your PDFs.",
+ "title": "Rotate PDF Online Free – Turn PDF Pages | {brand}",
+ "desc": "Rotate PDF pages 90°, 180° or 270° and save permanently. Free, fast and private — works in your browser.",
+ "h1": "Rotate PDF",
+ "steps": [
+  "Select one or more PDF files.",
+  "Choose the rotation angle.",
+  "Click Start and download the rotated PDF."
+ ],
+ "faq": [
+  {
+   "q": "Is the rotation permanent?",
+   "a": "Yes. The rotation is saved in the PDF so it opens correctly in every viewer."
+  }
+ ],
+ "guide": {
+  "intro": "Scans and phone photos often end up sideways or upside down. Rotate PDF fixes the orientation permanently so the file opens correctly everywhere.",
+  "uses": [
+   "Fix sideways scanned pages.",
+   "Turn landscape pages for easier reading."
+  ],
+  "tips": [
+   "To rotate only some pages, use Organize PDF."
+  ],
+  "faq": [],
+  "more": [
+   [
+    "Rotating vs re-scanning",
+    "Re-scanning a sideways document wastes time and can reduce quality. Rotating a PDF only changes the page orientation instruction stored in the file, so text, images and file size stay exactly the same. The result opens correctly in Adobe Reader, browsers, Preview, phone viewers and printers."
+   ],
+   [
+    "Mixed orientations",
+    "Reports often mix portrait text pages with landscape tables or charts. Rotate only the landscape pages with Organize PDF so each page reads naturally on screen, then print with “auto-rotate” enabled."
+   ],
+   [
+    "Batch rotation",
+    "Select several PDFs at once and apply the same rotation to all of them – useful when a scanner fed a whole stack of pages in the wrong orientation."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Rotate PDF – Turn Pages Permanently, Free & Private",
+  "desc": "Rotate PDF pages 90°, 180° or 270° and save permanently. All, odd, even, landscape-only or a page range. Batch files. Free, no upload, no sign-up.",
+  "sections": [
+   [
+    "Fix sideways and upside-down pages for good",
+    "Scanners, phones and fax machines regularly produce PDFs with pages turned the wrong way: a landscape table lying on its side, a receipt upside down, every second page of a duplex scan rotated. Turning the page in your PDF viewer only changes the view on your screen – the next person who opens the file sees it sideways again. {brand} writes the new orientation into the PDF itself, so the file opens the right way up everywhere: in Acrobat, Chrome, Preview, on phones and when printed.",
+    "It runs entirely in your browser. The PDF is opened on your device, the page rotation is updated and the result is downloaded – nothing is uploaded, which matters for contracts, ID scans and medical letters."
+   ],
+   [
+    "Rotate exactly the pages you need",
+    [
+     "**All pages** – the classic fix for a whole document scanned the wrong way.",
+     "**Odd or even pages** – correct duplex scans where only the back sides are upside down.",
+     "**Landscape pages only / portrait pages only** – straighten mixed documents where only the wide tables or drawings are sideways.",
+     "**A page range** – type 2, 5-7 to turn just those pages.",
+     "**90° clockwise, 180° or 90° counter-clockwise** in one click.",
+     "**Batch** – drop several PDFs and get them all back rotated in one ZIP."
+    ]
+   ],
+   [
+    "Lossless rotation",
+    "Rotation in a PDF is a property of each page. Changing it does not re-render or re-compress anything, so text stays selectable and searchable, links and form fields keep working, and images keep their full quality. The file size barely changes. This is different from tools that convert pages to images and back, which can blur text and bloat the file."
+   ],
+   [
+    "How to rotate a PDF",
+    [
+     "Drop one or more PDFs onto the page.",
+     "Choose the angle: 90° clockwise, 180° or 270° (90° counter-clockwise).",
+     "Choose which pages: all, odd, even, landscape, portrait or a range.",
+     "Click Rotate and download. The result tells you how many pages were turned."
+    ]
+   ],
+   [
+    "Rotating on Mac, Windows and phones",
+    "On a Mac, Preview can rotate pages and save the change; on Windows, the free PDF readers generally only rotate the view. This tool works the same on every system, including Chromebooks, Android phones and iPhones, without installing anything. For individual pages that need different angles, use [Organize PDF](/organize-pdf/), where every thumbnail has its own rotate button."
+   ],
+   [
+    "Common uses",
+    [
+     "Straightening scanned contracts before e-mailing them.",
+     "Fixing landscape spreadsheets printed into a portrait report.",
+     "Correcting phone photos of documents converted with [JPG to PDF](/jpg-to-pdf/).",
+     "Preparing files for printing or for [Merge PDF](/merge-pdf/), so every page faces the same way.",
+     "Making scanned books readable on tablets."
+    ]
+   ],
+   [
+    "Tips",
+    [
+     "If a page looks right in one viewer but wrong in another, the PDF may have an unusual rotation flag – rotating 360° (90° four times) normalises it.",
+     "Scanned pages that are slightly crooked (a few degrees) need straightening, not rotation – try [Deskew PDF](/deskew-pdf/).",
+     "Password-protected PDF? Open it with [Unlock PDF](/unlock-pdf/) first if you know the password."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Rotate odd/even/landscape-only pages",
+    "Yes",
+    "Landscape/portrait filter",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Rotate a page range",
+    "Yes",
+    "See site",
+    "Single pages",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch rotate",
+    "Free, ZIP",
+    "Yes",
+    "See site",
+    "See site",
+    "Within task limits"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Will the rotation be saved permanently?",
+    "a": "Yes. The new orientation is written into the PDF, so it opens the right way in every viewer and when printed."
+   },
+   {
+    "q": "Can I rotate just one page?",
+    "a": "Yes. Choose 'Page range…' and enter the page number, or use Organize PDF to rotate individual thumbnails."
+   },
+   {
+    "q": "Can I rotate only landscape pages?",
+    "a": "Yes. Choose 'Landscape pages only' to turn just the wide pages and leave the others untouched."
+   },
+   {
+    "q": "Does rotating reduce quality?",
+    "a": "No. Only the page's rotation setting changes; text, images and links are untouched."
+   },
+   {
+    "q": "Can I rotate several PDFs at once?",
+    "a": "Yes. Drop multiple files and download them together as a ZIP."
+   },
+   {
+    "q": "Is my file uploaded?",
+    "a": "No. Rotation happens in your browser and works offline after the page loads."
+   },
+   {
+    "q": "How do I rotate a PDF on Mac or Windows?",
+    "a": "Use this page in any browser – it works the same on Mac, Windows, Linux, Chromebook, Android and iPhone."
+   },
+   {
+    "q": "Is there a file size limit?",
+    "a": "No fixed limit; very large files depend only on your device's memory."
+   },
+   {
+    "q": "How do I fix every second page of a duplex scan?",
+    "a": "Choose 'Even pages' (or 'Odd pages') and 180°."
+   }
+  ],
+  "related": [
+   "organize-pdf",
+   "deskew-pdf",
+   "merge-pdf",
+   "split-pdf",
+   "compress-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I rotate a PDF and save it that way?",
+    "a": "Choose the angle and which pages to turn (all, odd, even, landscape-only or a range), then download. The rotation is written into the file, so it opens the right way in every viewer – unlike the temporary rotate button in many PDF readers."
+   }
+  ]
+ }
+}

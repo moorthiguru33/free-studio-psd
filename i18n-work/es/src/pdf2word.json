@@ -1,0 +1,223 @@
+{
+ "name": "PDF to Word",
+ "short": "Convert PDF text to an editable Word document.",
+ "title": "PDF to Word Converter – Convert PDF to DOCX Free | {brand}",
+ "desc": "Convert PDF to an editable Word (DOCX) file for free. No sign-up, no limits, and your document is converted in your browser, never uploaded.",
+ "h1": "Convert PDF to Word",
+ "steps": [
+  "Select your PDF.",
+  "Click Start.",
+  "Download your editable DOCX file."
+ ],
+ "faq": [
+  {
+   "q": "Is the layout preserved?",
+   "a": "The converter extracts text paragraphs page by page, with OCR for scanned pages. Complex layouts, tables and images are not yet fully preserved."
+  }
+ ],
+ "guide": {
+  "intro": "Converting a PDF to Word lets you reuse and edit the text in Microsoft Word, Google Docs or LibreOffice. {brand} extracts the text of each page into a DOCX file directly on your device. It works best for text-based PDFs such as letters, articles and reports.",
+  "uses": [
+   "Reuse text from an old report or letter without retyping.",
+   "Edit a document when you no longer have the original Word file.",
+   "Copy paragraphs into a new document or presentation."
+  ],
+  "tips": [
+   "This beta focuses on text; complex tables, columns and images may need manual touch-up.",
+   "Scanned PDF? Built-in OCR (Auto mode) reads pages that have no text layer.",
+   "If you only need plain text, PDF to Text is even faster."
+  ],
+  "faq": [
+   {
+    "q": "Can I open the result in Google Docs?",
+    "a": "Yes. DOCX files open in Microsoft Word, Google Docs, LibreOffice and WPS Office."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "PDF to Word Converter – Free, Private, OCR Included",
+  "desc": "Convert PDF to editable Word (DOCX) free in your browser. Free OCR for scanned PDFs, flowing or exact layout, 12 OCR languages. No upload, no sign-up.",
+  "sections": [
+   [
+    "Why this PDF to Word converter is different",
+    "Most PDF to Word converters ask you to upload your document to a remote server, wait in a queue and then download the result. That is fine for a flyer, but not for a contract, a payslip, a medical letter or a thesis draft. {brand} does the whole conversion inside your browser tab. The PDF is parsed with PDF.js, the text runs, fonts, images and tables are rebuilt into a real .docx file, and the file is handed straight back to you. Nothing is sent anywhere.",
+    "Being local also removes the usual limits. There is no daily task counter, no 'upgrade to convert more pages' banner and no watermark. The only limit is the memory of the device you are using – a modern laptop handles documents of several hundred pages comfortably.",
+    [
+     "**Free OCR for scanned PDFs** – iLovePDF marks OCR as a Premium option; here it is included and runs on your device.",
+     "**Two layout modes** – *Flowing text* rebuilds normal paragraphs, columns and tables you can edit freely; *Exact layout* reproduces each page precisely using positioned text boxes.",
+     "**12 OCR languages** including English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Simplified Chinese and Japanese.",
+     "**Page ranges and batches** – convert only pages like 2-5, or drop several PDFs at once and get a ZIP of Word files.",
+     "**Other formats** – need RTF or ODT for LibreOffice, WordPad or older software? Use [PDF to RTF](/pdf-to-rtf/) or [PDF to ODT](/pdf-to-odt/)."
+    ]
+   ],
+   [
+    "Flowing text or exact layout – which should I pick?",
+    "Choose **Flowing text** when you want to edit the document: rewrite paragraphs, fix a CV, update a report or copy sections into another file. Lines are joined into paragraphs, headings are detected from font size and weight, multi-column pages are read in the right order and ruled tables become real Word tables. Text reflows naturally as you type.",
+    "Choose **Exact layout** when the document must look identical to the PDF – forms, brochures, certificates or anything with a designed layout. Every line is placed at its original position, so the page looks the same in Word, but editing large blocks of text is less convenient because each line lives in its own box.",
+    "If you are unsure, try Flowing text first; the conversion takes seconds, so comparing both costs nothing."
+   ],
+   [
+    "Converting scanned PDFs with OCR",
+    "A scanned PDF contains pictures of pages rather than text, so an ordinary converter produces an empty Word file or a document full of images. With OCR set to **Auto**, {brand} checks each page: pages that already have a text layer are converted directly, and image-only pages are recognised with Tesseract running in WebAssembly. Choose **All pages** to force recognition everywhere, for example on a PDF that has a poor hidden text layer.",
+    "For the best OCR results scan at 300 DPI, keep pages straight and pick the document language before you start. Recognition happens on your device, so a 20-page scan may take a minute on a phone – but your document never leaves it."
+   ],
+   [
+    "Tips for a cleaner Word document",
+    [
+     "Use the original digital PDF when you can – exported PDFs convert far more accurately than scans or photos.",
+     "If a PDF is password-protected, remove the password first with [Unlock PDF](/unlock-pdf/) (you need to know it).",
+     "Only need some pages? Type a range such as 3-7 in the Pages box instead of converting the whole document.",
+     "After editing, turn the document back into a PDF with [Word to PDF](/word-to-pdf/)."
+    ]
+   ],
+   [
+    "What gets converted",
+    {
+     "table": [
+      [
+       "Element",
+       "Flowing text",
+       "Exact layout"
+      ],
+      [
+       "Paragraphs and headings",
+       "Rebuilt as editable paragraphs",
+       "Positioned lines"
+      ],
+      [
+       "Bold, italic, font size, colour",
+       "Kept",
+       "Kept"
+      ],
+      [
+       "Tables with ruled lines",
+       "Real Word tables",
+       "Positioned text"
+      ],
+      [
+       "Images and photos",
+       "Embedded",
+       "Embedded at original position"
+      ],
+      [
+       "Multi-column pages",
+       "Read in column order",
+       "Columns kept visually"
+      ],
+      [
+       "Scanned pages",
+       "OCR text",
+       "OCR text"
+      ]
+     ]
+    }
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "OCR for scanned PDFs",
+    "Free, on-device",
+    "Premium only",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Output formats",
+    "DOCX, RTF, ODT",
+    "DOCX",
+    "DOCX",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page range and batch conversion",
+    "Both, free",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Is this PDF to Word converter really free?",
+    "a": "Yes. There are no daily limits, no watermark and no paid tier. Because the conversion runs on your own device, it costs us nothing extra when you convert more files."
+   },
+   {
+    "q": "Can I convert a scanned PDF to Word?",
+    "a": "Yes. Leave OCR on Auto and image-only pages are recognised automatically in 12 languages. Pick the document language for the best accuracy."
+   },
+   {
+    "q": "Does it work on Mac, iPhone and Android?",
+    "a": "Yes. It runs in any modern browser – Chrome, Edge, Firefox or Safari on Windows, macOS, Linux, iOS and Android. Nothing needs installing."
+   },
+   {
+    "q": "Can I convert PDF to Word offline?",
+    "a": "Yes. Load this page once, then disconnect from the internet – the converter keeps working because all the code is already in your browser."
+   },
+   {
+    "q": "How do I convert a very large PDF?",
+    "a": "Large files work as long as your device has enough memory. On a phone, splitting a 500-page PDF into parts with Split PDF and converting them one by one is faster and more reliable."
+   },
+   {
+    "q": "Will my fonts and formatting be kept?",
+    "a": "Bold, italic, sizes and colours are kept. If a font is not installed on your computer, Word substitutes a similar one; Exact layout keeps positions identical."
+   },
+   {
+    "q": "Can I convert PDF to Word in other languages?",
+    "a": "Yes. Text-based PDFs in any script convert directly, and OCR supports 12 languages including Arabic, Hindi, Tamil, Chinese and Japanese."
+   }
+  ],
+  "related": [
+   "word-to-pdf",
+   "ocr-pdf",
+   "pdf-to-rtf",
+   "pdf-to-text",
+   "unlock-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I convert a PDF to a Word document for free?",
+    "a": "Drop the PDF on this page, choose flowing text (easy to edit) or exact layout, and press Convert. You get a .docx file you can open in Word, Google Docs or LibreOffice. There is no sign-up, watermark or page limit, and scanned PDFs are handled by the built-in free OCR."
+   },
+   {
+    "q": "How do I convert PDF to Word without losing formatting?",
+    "a": "Choose the exact-layout mode: it positions text boxes where they were on the page, so columns, headings and spacing stay close to the original. Flowing mode rebuilds the text as normal paragraphs, which edits more easily but may change the layout. Complex designs can need small fixes in Word either way."
+   }
+  ]
+ }
+}

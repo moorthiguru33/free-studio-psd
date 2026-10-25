@@ -1,0 +1,213 @@
+{
+ "name": "Unlock PDF",
+ "short": "Remove the password from a PDF you own.",
+ "title": "Unlock PDF Online Free – Remove PDF Password | {brand}",
+ "desc": "Remove password protection from a PDF when you know the password. Free and private, processed in your browser.",
+ "h1": "Unlock PDF",
+ "steps": [
+  "Select the protected PDF.",
+  "Enter its password.",
+  "Click Start and download the unlocked PDF."
+ ],
+ "faq": [
+  {
+   "q": "Can you crack an unknown password?",
+   "a": "No. You must know the password. Only unlock files you are authorized to access."
+  }
+ ],
+ "guide": {
+  "intro": "Bank statements and e-bills often arrive password-protected. If you know the password, {brand} can remove it so you can open, print or merge the file freely – done locally in your browser.",
+  "uses": [
+   "Remove the password from bank or credit-card statements you own.",
+   "Prepare protected PDFs for merging or compressing."
+  ],
+  "tips": [
+   "You must know the password; this tool does not crack passwords."
+  ],
+  "faq": [],
+  "more": [
+   [
+    "Owner vs user passwords",
+    "PDFs can have an open password (needed to view) and permissions passwords that restrict printing, copying or editing. When you know the password, unlocking removes the protection so you can work with the file normally."
+   ],
+   [
+    "Legal and safe use",
+    "Only unlock documents you own or are authorised to access, such as your own bank statements, utility bills or payslips. After unlocking, store the file securely – it no longer has protection."
+   ],
+   [
+    "After unlocking",
+    "Once the password is removed, you can merge the file with other documents, compress it, add page numbers or print it without being asked for the password each time."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Unlock PDF – Remove Password & Restrictions Free",
+  "desc": "Remove a PDF password you know, or strip print/copy/edit restrictions. Batch unlock, no upload, works offline. Free PDF unlocker in your browser.",
+  "sections": [
+   [
+    "Remove a PDF password in seconds",
+    "Typing a password every time you open your own bank statement or payslip gets old fast. {brand} removes the password so the file opens directly – provided you know it. The PDF is decrypted inside your browser and saved as a normal, unprotected copy. Neither the file nor the password is uploaded.",
+    "Many PDFs also have an **owner password** that does not stop you opening the file but blocks printing, copying text or editing. Those restrictions can usually be removed without entering any password: just leave the field blank."
+   ],
+   [
+    "What this unlocker does",
+    [
+     "**Removes the open password** when you enter it correctly.",
+     "**Removes print, copy and edit restrictions** from files that open without a password.",
+     "**Keeps everything else** – pages, text, images, links, title and author are copied into the new file.",
+     "**Batch** – unlock several PDFs that share a password in one go and download a ZIP.",
+     "**Clear errors** – if a password is wrong, you are told which file failed."
+    ]
+   ],
+   [
+    "Only unlock files you are allowed to",
+    "Use this tool for your own documents or files whose owner has given you the password. It does not crack or guess unknown passwords. Removing protection from documents you are not authorised to access may break the law or a contract, so please respect the wishes of the document's author."
+   ],
+   [
+    "How to unlock a PDF",
+    [
+     "Drop the protected PDF (or several).",
+     "Enter the password, or leave it blank for restriction-only files.",
+     "Click Unlock and download the unprotected copy.",
+     "Store the unlocked file somewhere safe – it is now readable by anyone who has it."
+    ]
+   ],
+   [
+    "Unlocking on different devices",
+    "Because the tool runs in a web page, it works on Windows, macOS, Linux, Chromebooks, Android and iPhone in the same way. On a Mac you can also open a PDF in Preview, enter the password and export without encryption; in Chrome you can open the PDF, enter the password and 'Print → Save as PDF', though that may flatten links and forms. This tool keeps the original structure intact."
+   ],
+   [
+    "Read-only and restricted PDFs",
+    "A 'read-only' PDF usually has an owner password with editing disabled. Leave the password blank and unlock it to edit with [Edit PDF](/edit-pdf/), fill it with [Fill PDF Form](/fill-pdf-form/) or reorganise it with [Organize PDF](/organize-pdf/). If a file is 'read-only' because it is a scan, it has no text to edit – run [OCR PDF](/ocr-pdf/) first."
+   ],
+   [
+    "Common uses",
+    [
+     "Removing the password from monthly bank, card and utility statements.",
+     "Unlocking payslips and tax forms for archiving.",
+     "Enabling printing on documents where it was disabled.",
+     "Preparing files for merging, compressing or editing, which need unprotected PDFs.",
+     "Re-protecting with a new password using [Protect PDF](/protect-pdf/)."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Remove restrictions without password",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch unlock",
+    "Free, ZIP",
+    "See site",
+    "See site",
+    "See site",
+    "Within task limits"
+   ],
+   [
+    "Password sent to a server",
+    "Never",
+    "Yes (with file)",
+    "Yes (with file)",
+    "Yes (with file)",
+    "Yes (with file)"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I remove a password from a PDF?",
+    "a": "Drop the PDF here, type the password and click Unlock. You get a copy that opens without a password."
+   },
+   {
+    "q": "Can I unlock a PDF for free?",
+    "a": "Yes, with no limits, watermark or sign-up."
+   },
+   {
+    "q": "Is it safe?",
+    "a": "Yes. The file and password stay in your browser; nothing is uploaded."
+   },
+   {
+    "q": "Can I unlock a PDF without the password?",
+    "a": "If it only has restrictions (print/copy/edit), yes – leave the field blank. If it needs a password to open, you must know it; this tool does not crack passwords."
+   },
+   {
+    "q": "Can I unlock a read-only PDF?",
+    "a": "Yes. Read-only PDFs usually only have editing restrictions, which can be removed without a password."
+   },
+   {
+    "q": "Can I remove a PDF password on Mac, iPhone or Android?",
+    "a": "Yes. The tool works in any modern browser on any device."
+   },
+   {
+    "q": "Can I unlock several PDFs at once?",
+    "a": "Yes, if they share the same password. Results are downloaded as a ZIP."
+   },
+   {
+    "q": "Will the content change?",
+    "a": "No. Pages, text, images and links are kept exactly."
+   },
+   {
+    "q": "Is it legal to unlock a PDF?",
+    "a": "Unlocking your own files or files you have permission for is fine. Do not remove protection from documents you are not authorised to access."
+   }
+  ],
+  "related": [
+   "protect-pdf",
+   "edit-pdf",
+   "merge-pdf",
+   "compress-pdf",
+   "ocr-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I unlock a PDF?",
+    "a": "Drop the PDF. If it only has restrictions (no printing or copying), they are removed immediately. If it needs a password to open, type the password you know and download an unlocked copy."
+   },
+   {
+    "q": "Can I unlock a PDF without the password?",
+    "a": "You can remove permission restrictions without a password. A PDF that needs a password to open is encrypted, and this tool will not crack or guess unknown passwords – you need the password from the person who sent the file."
+   },
+   {
+    "q": "How do I unlock a PDF for editing?",
+    "a": "Restrictions that block editing, copying or printing are removed by unlocking. Afterwards you can open the file in the PDF editor or any other app."
+   }
+  ]
+ }
+}

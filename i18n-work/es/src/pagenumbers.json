@@ -1,0 +1,266 @@
+{
+ "name": "Add Page Numbers",
+ "short": "Number the pages of your PDF.",
+ "title": "Add Page Numbers to PDF Online Free – Custom Position & Start | {brand}",
+ "desc": "Number the pages of any PDF: choose position, font size and starting number. Free, no watermark, no sign-up – numbering happens in your browser.",
+ "h1": "Add page numbers to PDF",
+ "steps": [
+  "Select your PDF.",
+  "Choose the position and starting number.",
+  "Click Start and download the numbered PDF."
+ ],
+ "faq": [
+  {
+   "q": "Can I start from a number other than 1?",
+   "a": "Yes, set any starting number in the options."
+  }
+ ],
+ "guide": {
+  "intro": "Page numbers make long documents easier to navigate, cite and print – reviewers can say \"see page 14\" instead of scrolling. {brand} stamps numbers directly onto each page on your own device, so manuscripts, legal bundles and reports stay private.",
+  "uses": [
+   "Number a thesis, dissertation or manuscript before submission.",
+   "Prepare court bundles or contract exhibits that must be referenced by page.",
+   "Add numbers to a merged report so readers can follow the table of contents.",
+   "Number printed handouts so loose pages can be put back in order."
+  ],
+  "tips": [
+   "Start at a different number (for example 3) if your cover and contents pages should not be counted.",
+   "Bottom-centre is the most readable choice for printed documents; bottom-right suits double-sided binding less well, so test a page.",
+   "Merge all parts first, then number once so the sequence is continuous.",
+   "Need \"Page 3 of 20\" or dates? Use Header & Footer instead."
+  ],
+  "faq": [
+   {
+    "q": "Can I skip numbering on the cover page?",
+    "a": "Set the starting number so the count matches your layout, or split off the cover, number the rest and merge again."
+   },
+   {
+    "q": "Will the numbers be editable later?",
+    "a": "They are drawn into the page content, so they print reliably everywhere; to change them, number the original file again."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Add Page Numbers to PDF – Free, Custom Format",
+  "desc": "Add page numbers to PDF: 6 positions, 'Page 1 of N', roman numerals, custom text, skip first pages, page range, facing pages. Free, no upload.",
+  "sections": [
+   [
+    "Number your PDF pages exactly the way you need",
+    "Page numbers make long documents usable: readers can refer to 'page 14', printed copies can be put back in order, and tables of contents finally mean something. {brand} adds real text page numbers to any PDF in your browser – no upload, no watermark, no account. You decide where they go, what they look like and which pages get them."
+   ],
+   [
+    "All the options",
+    [
+     "**Six positions** – top or bottom, left, centre or right.",
+     "**Formats** – 1, 1 / N, Page 1, Page 1 of N, - 1 -, roman numerals (i, ii, iii) or completely custom text using {n} for the number and {N} for the total, e.g. 'Report 2026 – {n}/{N}'.",
+     "**Start number** – begin at 0, 1 or any number to continue the numbering of a previous volume.",
+     "**Skip first pages** – leave the cover and title page unnumbered; numbering starts after them.",
+     "**Page range** – number only, say, pages 3-20.",
+     "**Facing pages** – mirror left/right positions on even pages for printed, bound documents.",
+     "**Font, size, colour and margin** – Helvetica, Times, Courier or Helvetica Bold in any colour."
+    ]
+   ],
+   [
+    "How to add page numbers to a PDF",
+    [
+     "Drop your PDF onto the page.",
+     "Choose a position and format, and set the starting number.",
+     "Open 'More options' to skip the cover, limit the range, change font, colour or margin, or enable facing pages.",
+     "Click Add page numbers and download. The result reports how many pages were numbered."
+    ]
+   ],
+   [
+    "Which format should I use?",
+    {
+     "table": [
+      [
+       "Document",
+       "Suggested format"
+      ],
+      [
+       "Reports, theses, manuals",
+       "Page 1 of N, bottom centre or right"
+      ],
+      [
+       "Legal bundles and exhibits",
+       "Custom text such as 'Exhibit A – {n}' (or use Bates numbering)"
+      ],
+      [
+       "Front matter (preface, contents)",
+       "Roman numerals i, ii, iii"
+      ],
+      [
+       "Printed booklets",
+       "Facing pages, bottom outside corner"
+      ],
+      [
+       "Slides exported to PDF",
+       "1 / N, bottom right"
+      ]
+     ]
+    }
+   ],
+   [
+    "Skipping the cover and numbering front matter separately",
+    "Academic and professional documents often number the preface with roman numerals and the main text with arabic numbers starting from 1. Do it in two passes: first number the front-matter pages with the roman format and a page range (e.g. 2-6); then run the tool again on the result with the arabic format, a range starting at the first chapter (e.g. 7-) and start number 1. Because both passes happen in your browser, this takes seconds."
+   ],
+   [
+    "Facing pages for printing",
+    "In a bound document, odd pages are on the right and even pages on the left. Numbers look best on the outer edge: right on odd pages, left on even pages. Tick **Facing pages** and choose a right-hand position – even pages automatically get the mirrored left position. This matches how professionally typeset books are numbered."
+   ],
+   [
+    "Why add numbers in the PDF rather than the source file?",
+    "Often you no longer have the Word or InDesign file, or the PDF is a combination of several sources – a scanned annex, a spreadsheet, a signed letter. After you [Merge PDF](/merge-pdf/) files together, adding numbers to the final PDF is the only way to get one continuous sequence. Numbers are added as real text, so they are searchable, print sharply and do not affect the rest of the page."
+   ],
+   [
+    "Legal numbering: Bates stamps",
+    "Law firms and courts often require Bates numbers – a prefix plus a zero-padded sequence such as ABC000123 – across all documents in a case. For that, use our dedicated [Bates numbering](/bates-numbering/) tool, which handles prefixes, suffixes and continuous numbering across many files."
+   ],
+   [
+    "Tips",
+    [
+     "Check the margin if your document already has a footer, so the numbers do not overlap it.",
+     "Use a grey colour for subtle numbers that do not distract from the content.",
+     "For headers and footers with dates, titles or other text, use [Header & Footer](/pdf-header-footer/).",
+     "Scanned pages? Numbers work the same way; run [OCR PDF](/ocr-pdf/) too if you want the document searchable."
+    ]
+   ],
+   [
+    "Common uses",
+    [
+     "Numbering theses, dissertations and assignments to university requirements.",
+     "Preparing court bundles and exhibits.",
+     "Adding numbers to merged reports and board packs.",
+     "Numbering manuals, catalogues and printed booklets.",
+     "Making scanned archives easier to reference."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Custom format text",
+    "Yes ({n}, {N})",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Skip first pages / page range",
+    "Yes",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Facing pages",
+    "Yes",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Roman numerals",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I add page numbers to a PDF?",
+    "a": "Drop the PDF here, choose a position and format and click Add page numbers. Download the numbered file."
+   },
+   {
+    "q": "Can I add 'Page 1 of 10' style numbers?",
+    "a": "Yes. Choose 'Page 1 of N' or create your own text with {n} and {N}."
+   },
+   {
+    "q": "Can I skip the cover page?",
+    "a": "Yes. Under More options set 'Skip first pages' to 1 (or more)."
+   },
+   {
+    "q": "Can I start numbering at a different number?",
+    "a": "Yes. Set the start number to any value, e.g. 25 to continue a previous volume."
+   },
+   {
+    "q": "Can I number only some pages?",
+    "a": "Yes. Enter a page range such as 3-20."
+   },
+   {
+    "q": "Can I use roman numerals?",
+    "a": "Yes. Choose the 'i, ii, iii' format."
+   },
+   {
+    "q": "What are facing pages?",
+    "a": "For bound documents the number is placed on the outside edge: right on odd pages and left on even pages."
+   },
+   {
+    "q": "Is my document uploaded?",
+    "a": "No. Numbers are added in your browser; the file never leaves your device."
+   },
+   {
+    "q": "Can I change font and colour?",
+    "a": "Yes – Helvetica, Times, Courier or Helvetica Bold, any colour and size."
+   },
+   {
+    "q": "Will it add a watermark?",
+    "a": "No. The output is clean."
+   }
+  ],
+  "related": [
+   "bates-numbering",
+   "pdf-header-footer",
+   "merge-pdf",
+   "add-watermark-to-pdf",
+   "organize-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I add page numbers to a PDF for free?",
+    "a": "Drop the PDF, choose a position and format such as ‘Page 1 of N’, optionally skip a cover page or set the starting number, and download. Free, no watermark."
+   },
+   {
+    "q": "How do I start page numbers on page 3?",
+    "a": "Set ‘skip first pages’ to 2, and choose whether numbering starts at 1 or continues from 3."
+   }
+  ]
+ }
+}

@@ -1,0 +1,338 @@
+{
+ "name": "Resize Image",
+ "short": "Change image dimensions in pixels or %.",
+ "title": "Resize Image Online Free – Change Image Size in Pixels or % | {brand}",
+ "desc": "Resize JPG, PNG, WEBP and more to exact pixels or a percentage while keeping the aspect ratio. Batch resize in your browser, free.",
+ "h1": "Resize Images",
+ "steps": [
+  "Select your images.",
+  "Enter a width/height in pixels or a percentage.",
+  "Click Start and download the resized images."
+ ],
+ "faq": [
+  {
+   "q": "Will the image look stretched?",
+   "a": "No – with “Keep aspect ratio” on, the image fits inside the size you enter without distortion."
+  }
+ ],
+ "guide": {
+  "intro": "Every platform wants a different size: profile pictures, website banners, marketplace listings, passport-photo uploads. Resize Image scales your photos to exact dimensions without distortion, in bulk, on your device.",
+  "uses": [
+   "Make product photos a uniform width for an online shop.",
+   "Prepare images for social media posts and covers.",
+   "Shrink camera photos for email and faster upload.",
+   "Meet exact pixel requirements for application forms."
+  ],
+  "tips": [
+   "Keep \"aspect ratio\" on to avoid stretching.",
+   "Downscaling keeps quality; upscaling small images can look soft – try Upscale Image.",
+   "Combine with Compress Image for the smallest files."
+  ],
+  "faq": [
+   {
+    "q": "Will resizing stretch my image?",
+    "a": "No – with \"Keep aspect ratio\" on, the image fits inside the size you enter without distortion."
+   }
+  ],
+  "more": [
+   [
+    "Resizing for the web",
+    "Most websites display images no wider than 1200–2000 px. Resizing large camera photos to that width can reduce file size by 70–90% before any compression."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Resize Image – Pixels, cm, Inches, Presets & KB, Free",
+  "desc": "Resize images by pixels, percent, cm, mm or inches with DPI. Passport, Instagram, YouTube presets, crop-to-fill, max KB, batch. Free, no upload.",
+  "compareTitle": "{tool}: {brand} vs iLoveIMG, ImageResizer.com and Adobe Express",
+  "compareCols": [
+   "iLoveIMG",
+   "ImageResizer.com",
+   "Adobe Express"
+  ],
+  "sections": [
+   [
+    "Resize any image to the exact size you need",
+    "Every platform wants images at a different size. A passport photo must be 35×45 mm, a YouTube thumbnail 1280×720 pixels, a LinkedIn banner 1584×396, an Instagram portrait post 1080×1350, and an exam form might want 200×230 pixels under 50 KB. {brand}'s image resizer handles all of these from one screen: type the size in pixels, percent, centimetres, millimetres or inches, or pick a ready-made preset, and download a perfectly sized image in seconds.",
+    "It resizes one image or hundreds at once, keeps the aspect ratio unless you tell it otherwise, and can crop or pad to an exact shape so nothing gets stretched. Everything runs in your browser, so your photos are never uploaded."
+   ],
+   [
+    "Features",
+    [
+     "**Units:** pixels, percent, cm, mm and inches with a DPI setting (300 DPI by default for print).",
+     "**Presets:** passport 35×45 mm, Instagram square, portrait and story, YouTube thumbnail, LinkedIn banner, Facebook cover, X header, Full HD and A4 at 300 DPI.",
+     "**Exact shapes without distortion:** fit inside, fill and crop to the exact size, pad with a background colour, or stretch if you really want to.",
+     "**Do not enlarge:** leave images that are already smaller than the target untouched.",
+     "**Maximum file size:** set a KB limit for JPG or WebP output and the resizer finds the best quality under it.",
+     "**High-quality downscaling:** large reductions are done in several halving steps for sharp results without jagged edges.",
+     "**Batch:** resize a whole folder in one go and download a ZIP.",
+     "**Format choice:** keep the original or save as JPG, PNG, WebP or AVIF."
+    ]
+   ],
+   [
+    "How to resize an image",
+    [
+     "Drop one or more images (JPG, PNG, WebP, HEIC, GIF, BMP, TIFF, AVIF).",
+     "Pick a preset, or choose a unit and type the width and/or height.",
+     "If you set both width and height, choose how to handle a different shape: fit, fill & crop, pad or stretch.",
+     "Optionally set an output format and a maximum file size in KB.",
+     "Click Resize and download the image or the ZIP."
+    ]
+   ],
+   [
+    "Pixels, centimetres and DPI explained",
+    "Digital images are measured in pixels. Physical sizes such as centimetres or inches only make sense together with a resolution, measured in dots (pixels) per inch. At 300 DPI – the usual standard for photo prints – one inch is 300 pixels and one centimetre is about 118 pixels. So a 35×45 mm passport photo at 300 DPI is 413×531 pixels, and a 4×6 inch print is 1200×1800 pixels.",
+    {
+     "table": [
+      [
+       "Size",
+       "At 300 DPI",
+       "At 150 DPI"
+      ],
+      [
+       "35×45 mm (passport)",
+       "413×531 px",
+       "207×266 px"
+      ],
+      [
+       "2×2 in (US passport/visa)",
+       "600×600 px",
+       "300×300 px"
+      ],
+      [
+       "4×6 in photo",
+       "1200×1800 px",
+       "600×900 px"
+      ],
+      [
+       "A4 page",
+       "2480×3508 px",
+       "1240×1754 px"
+      ],
+      [
+       "A5 flyer",
+       "1748×2480 px",
+       "874×1240 px"
+      ]
+     ]
+    },
+    "When you choose cm, mm or inches, enter the DPI the printer or form expects; the resizer converts the size to pixels for you."
+   ],
+   [
+    "Fit, fill, pad or stretch?",
+    {
+     "table": [
+      [
+       "Mode",
+       "What happens",
+       "Use it for"
+      ],
+      [
+       "Fit inside",
+       "Image is scaled to fit within the box; one side may be smaller",
+       "Keeping the whole picture, e.g. product photos"
+      ],
+      [
+       "Fill & crop",
+       "Image fills the box exactly; overflow is trimmed from the centre",
+       "Social media posts, thumbnails, passport photos"
+      ],
+      [
+       "Pad",
+       "Image fits inside and the rest is filled with a colour",
+       "Marketplaces that require square images with white borders"
+      ],
+      [
+       "Stretch",
+       "Image is forced to the exact size and may look distorted",
+       "Only when distortion does not matter"
+      ]
+     ]
+    },
+    "Presets use fill & crop automatically so the output is always exactly the size the platform expects."
+   ],
+   [
+    "Common image sizes in 2026",
+    {
+     "table": [
+      [
+       "Platform",
+       "Recommended size"
+      ],
+      [
+       "Instagram square post",
+       "1080×1080"
+      ],
+      [
+       "Instagram portrait post",
+       "1080×1350"
+      ],
+      [
+       "Instagram / Facebook story, Reels, TikTok",
+       "1080×1920"
+      ],
+      [
+       "YouTube thumbnail",
+       "1280×720"
+      ],
+      [
+       "LinkedIn profile banner",
+       "1584×396"
+      ],
+      [
+       "Facebook page cover",
+       "820×312"
+      ],
+      [
+       "X (Twitter) header",
+       "1500×500"
+      ],
+      [
+       "Website hero image",
+       "1920×1080 or wider"
+      ]
+     ]
+    },
+    "Platforms change their recommendations from time to time; if an upload looks cropped, check the platform's help page and enter the size manually."
+   ],
+   [
+    "Resizing for online forms",
+    "Exam, recruitment and visa portals often specify both pixel dimensions and a maximum file size, for example '200×230 pixels, 20–50 KB, JPG'. Choose 'Custom', enter 200 and 230 pixels, select Fill & crop so the face is centred without distortion, set the format to JPG and type 50 in the 'Max file size' box. One click gives you a compliant file. For signatures, use the same approach with the signature dimensions and a 20 KB limit."
+   ],
+   [
+    "Will resizing reduce quality?",
+    "Making an image smaller always removes pixels, but done properly it looks sharp. The resizer reduces large images in several halving steps with high-quality smoothing, which avoids the jagged edges and moiré you get from a single big reduction. Making an image larger cannot add real detail; for enlargements of 2× or more, [Upscale Image](/upscale-image/) uses Lanczos resampling and sharpening for a better result."
+   ],
+   [
+    "Privacy",
+    "Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working."
+   ],
+   [
+    "Related tools",
+    [
+     "[Compress Image](/compress-image/) – shrink file size to an exact KB target.",
+     "[Crop Image](/crop-image/) – choose exactly which part of the picture to keep.",
+     "[Passport Photo Maker](/passport-photo-maker/) – passport and visa photos with print sheets.",
+     "[Image Converter](/image-converter/) – change format without resizing."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your image is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Adobe cloud"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "See site"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Units",
+    "px, %, cm, mm, inches + DPI",
+    "Pixels or percentage",
+    "See site",
+    "See site"
+   ],
+   [
+    "Social / passport presets",
+    "Yes (10 presets)",
+    "Not offered on page",
+    "See site",
+    "See site"
+   ],
+   [
+    "Crop-to-fill or pad to exact size",
+    "Yes",
+    "Not offered on page",
+    "See site",
+    "See site"
+   ],
+   [
+    "Maximum KB for output",
+    "Yes",
+    "Not offered on page",
+    "Not offered on page",
+    "See site"
+   ],
+   [
+    "Batch resize",
+    "Yes, ZIP",
+    "Yes ('multiple images at once')",
+    "See site",
+    "See site"
+   ],
+   [
+    "File retention",
+    "Never uploaded",
+    "See site",
+    "Deleted within 6 hours",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I resize an image without losing quality?",
+    "a": "Keep the aspect ratio and only reduce size. The tool downsamples in several steps for sharp results. Enlarging adds no detail; use Upscale Image for that."
+   },
+   {
+    "q": "How do I resize an image to 35×45 mm for a passport?",
+    "a": "Choose the 'Passport 35×45 mm @300 DPI' preset. You get a 413×531 px image cropped from the centre."
+   },
+   {
+    "q": "Can I resize to an exact size in cm or inches?",
+    "a": "Yes. Choose cm, mm or inches, enter the size and set the DPI the printer or form expects."
+   },
+   {
+    "q": "How do I resize an image and keep it under 50 KB?",
+    "a": "Set the size, choose JPG or WebP output and type 50 in the 'Max file size' box."
+   },
+   {
+    "q": "Can I resize many images at once?",
+    "a": "Yes. Drop them all; you get one ZIP with every resized image."
+   },
+   {
+    "q": "How do I make an image square without cropping?",
+    "a": "Enter equal width and height and choose 'Pad to exact size' with your background colour."
+   },
+   {
+    "q": "Are my photos uploaded?",
+    "a": "No. Resizing happens in your browser and nothing is sent to a server."
+   },
+   {
+    "q": "Which sizes do the social media presets use?",
+    "a": "Instagram 1080×1080 and 1080×1350, stories 1080×1920, YouTube 1280×720, LinkedIn 1584×396, Facebook cover 820×312 and X header 1500×500."
+   },
+   {
+    "q": "Does it work on iPhone and Android?",
+    "a": "Yes. It works in mobile Safari and Chrome, including iPhone HEIC photos."
+   }
+  ],
+  "related": [
+   "compress-image",
+   "crop-image",
+   "passport-photo-maker",
+   "image-converter",
+   "upscale-image"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I resize an image?",
+    "a": "Drop the image and enter a new width or height in pixels, a percentage, or a print size in cm, mm or inches with DPI. Keep ‘lock aspect ratio’ on to avoid stretching, then download."
+   }
+  ]
+ }
+}

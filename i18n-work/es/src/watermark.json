@@ -1,0 +1,251 @@
+{
+ "name": "Add Watermark",
+ "short": "Stamp text over your PDF pages.",
+ "title": "Add Watermark to PDF Online Free – Text Watermark Any Language | {brand}",
+ "desc": "Stamp a text watermark such as CONFIDENTIAL, DRAFT or your company name on PDF pages. Set size, opacity, angle and colour. Free, no upload.",
+ "h1": "Add a watermark to PDF",
+ "steps": [
+  "Select your PDF files.",
+  "Type the watermark and set style and layout.",
+  "Click Start and download."
+ ],
+ "faq": [
+  {
+   "q": "Can I use non-English text?",
+   "a": "Yes. Arabic, Hebrew, Hindi, Tamil, Thai, Cyrillic, Greek and more are supported via Noto fonts."
+  }
+ ],
+ "guide": {
+  "intro": "A watermark tells readers a document's status or owner at a glance and discourages unauthorised copying. {brand} adds watermarks in your browser, supports many scripts – Latin, Cyrillic, Greek, Arabic, Hebrew, Devanagari, Thai and more – and never uploads your file.",
+  "uses": [
+   "Mark drafts as DRAFT before circulating them for review.",
+   "Label sensitive documents as CONFIDENTIAL.",
+   "Brand quotes, portfolios or reports with your company name.",
+   "Mark copies of ID documents with \"Copy – for rental application only\"."
+  ],
+  "tips": [
+   "Low opacity (15–30%) keeps the document readable.",
+   "A 45° diagonal watermark is hardest to crop out.",
+   "Combine with Flatten PDF or Rasterize PDF if you want the watermark harder to remove."
+  ],
+  "faq": [
+   {
+    "q": "Can someone remove the watermark?",
+    "a": "A text watermark can be removed by determined users with editing software. Rasterizing the PDF afterwards makes removal much harder."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Add Watermark to PDF – Text or Logo, Free & Private",
+  "desc": "Add a watermark to PDF: text or your logo, opacity, rotation, colour, tile or 9 positions, page range, batch files. Free, no upload, no sign-up.",
+  "sections": [
+   [
+    "Stamp your PDFs with text or a logo",
+    "A watermark tells everyone who sees a document where it came from or how it may be used: CONFIDENTIAL, DRAFT, COPY, SAMPLE, your company logo or a website address. {brand} adds text or image watermarks to PDFs directly in your browser, so drafts, quotes and client deliverables never pass through a third-party server."
+   ],
+   [
+    "Options",
+    [
+     "**Text or image** – type any text, or upload a PNG or JPG logo (transparent PNGs look best).",
+     "**Size** – font size for text, or width as a percentage of the page for images.",
+     "**Opacity** – from a faint 5% to fully solid.",
+     "**Rotation** – any angle; 45° diagonal is classic for DRAFT stamps, 0° for logos.",
+     "**Colour** – any colour for text watermarks.",
+     "**Layout** – centred, tiled across the whole page, or placed in one of nine positions (corners, edges, centre).",
+     "**Page range** – watermark only selected pages, e.g. 1 or 2-10.",
+     "**Batch** – watermark many PDFs in one go and download a ZIP.",
+     "**Any language** – text watermarks support non-Latin scripts."
+    ]
+   ],
+   [
+    "How to add a watermark to a PDF",
+    [
+     "Drop one or more PDFs.",
+     "Choose Text and type your watermark, or choose Image / logo and pick a file.",
+     "Set size, opacity, angle, colour and layout.",
+     "Optionally enter a page range.",
+     "Click Add watermark and download."
+    ]
+   ],
+   [
+    "Choosing the right watermark",
+    {
+     "table": [
+      [
+       "Purpose",
+       "Suggested settings"
+      ],
+      [
+       "Draft / confidential",
+       "Text, 45°, 20–30% opacity, centred"
+      ],
+      [
+       "Deter copying of previews",
+       "Text, tiled, 15–20% opacity"
+      ],
+      [
+       "Branding",
+       "Logo, 0°, 60–100% opacity, top right or bottom right"
+      ],
+      [
+       "Sample / proof for clients",
+       "Text 'SAMPLE', tiled, 25% opacity"
+      ],
+      [
+       "Copyright notice",
+       "Small text, bottom centre, 50% opacity"
+      ]
+     ]
+    }
+   ],
+   [
+    "How strong is a watermark?",
+    "A watermark is drawn onto the page as text or an image. It is a clear visual statement of ownership or status and deters casual misuse, but a determined person with a PDF editor can remove objects from a page. For stronger protection combine a tiled watermark with [Protect PDF](/protect-pdf/) and disable editing and copying, or flatten the document with [Flatten PDF](/flatten-pdf/)."
+   ],
+   [
+    "Logo watermarks",
+    "Upload your logo as a PNG with a transparent background for the cleanest result. Set rotation to 0°, choose a corner position, and set the width to around 15–25% of the page. For a subtle background logo, choose centre, 50–60% width and 10–15% opacity. The image is embedded once and reused on every page, so the file size grows only a little."
+   ],
+   [
+    "Common uses",
+    [
+     "Marking drafts and internal documents as CONFIDENTIAL.",
+     "Branding proposals, reports and price lists with a logo.",
+     "Protecting photography and design proofs sent to clients.",
+     "Stamping 'COPY' on scanned certificates.",
+     "Adding a website address to e-books and handouts."
+    ]
+   ],
+   [
+    "Watermarking images instead?",
+    "For photos and graphics use [Watermark Image](/watermark-image/), which works on JPG, PNG and WebP files in the same private, in-browser way."
+   ],
+   [
+    "Watermark in other languages and scripts",
+    "Text watermarks are drawn with fonts that cover many writing systems, so you can stamp 'गोपनीय', 'سري', '機密' or 'ரகசியம்' just as easily as 'CONFIDENTIAL'. This is useful for regional offices, government forms and multilingual teams that need status labels readers understand at a glance."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Text and image watermarks",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Tile + 9 positions",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page range",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch",
+    "Free, ZIP",
+    "See site",
+    "See site",
+    "See site",
+    "Within task limits"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I add a watermark to a PDF?",
+    "a": "Drop the PDF, type text or choose a logo, set opacity and position, and click Add watermark."
+   },
+   {
+    "q": "Can I use my logo as a watermark?",
+    "a": "Yes. Choose Image / logo and upload a PNG or JPG. Transparent PNGs look best."
+   },
+   {
+    "q": "Can I watermark only some pages?",
+    "a": "Yes. Enter a page range such as 1 or 3-10."
+   },
+   {
+    "q": "Can I make the watermark transparent?",
+    "a": "Yes. Set opacity anywhere from 5% to 100%."
+   },
+   {
+    "q": "Can I repeat the watermark across the page?",
+    "a": "Yes. Choose the Tile layout."
+   },
+   {
+    "q": "Is my document uploaded?",
+    "a": "No. The watermark is added in your browser."
+   },
+   {
+    "q": "Can I watermark several PDFs at once?",
+    "a": "Yes. Drop multiple files and download a ZIP."
+   },
+   {
+    "q": "Can watermarks be removed?",
+    "a": "A watermark is a visual mark; someone with an editor could remove it. Combine it with password protection and disabled editing for stronger protection."
+   },
+   {
+    "q": "Does it support other languages?",
+    "a": "Yes. Text watermarks work with non-Latin scripts too."
+   }
+  ],
+  "related": [
+   "watermark-image",
+   "protect-pdf",
+   "add-page-numbers",
+   "flatten-pdf",
+   "sign-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I add a watermark to a PDF for free?",
+    "a": "Drop the PDF, type your text (for example DRAFT or CONFIDENTIAL) or upload a logo, set opacity, rotation, colour and position or tiling, and download. Free, with no sign-up and no extra branding."
+   },
+   {
+    "q": "Can I add a DRAFT or CONFIDENTIAL watermark to a PDF?",
+    "a": "Yes. Type the word, rotate it 45°, set opacity around 20–30% so the content stays readable, and apply it to all pages or a range."
+   }
+  ]
+ }
+}

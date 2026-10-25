@@ -1,0 +1,239 @@
+{
+ "name": "Split PDF",
+ "short": "Extract pages or split a PDF into several files.",
+ "title": "Split PDF – Extract Pages or Split by Range Online Free | {brand}",
+ "desc": "Split a PDF into single pages or custom ranges like 1-3,5. Free, unlimited and private – your PDF is split in your browser and never uploaded.",
+ "h1": "Split PDF",
+ "steps": [
+  "Select the PDF you want to split.",
+  "Enter page ranges like 1-3,5 or leave empty to split every page.",
+  "Click Start and download the resulting PDF(s) as a ZIP."
+ ],
+ "faq": [
+  {
+   "q": "Can I extract just a few pages?",
+   "a": "Yes. Enter a single range such as 2-4 to get one PDF containing only those pages."
+  }
+ ],
+ "guide": {
+  "intro": "Splitting lets you pull out just the pages you need – one chapter, one invoice, one signed page – instead of sending a whole document. With {brand} the split happens locally, so large or sensitive PDFs stay on your device.",
+  "uses": [
+   "Send only the relevant pages of a long contract or report.",
+   "Break a scanned bundle of receipts into one file per page.",
+   "Separate chapters of an e-book or study material."
+  ],
+  "tips": [
+   "Use ranges like 1-3,7,10-12 to create several files at once.",
+   "Leave the field empty to split every page into its own PDF.",
+   "Want one file with chosen pages only? Use Extract pages instead."
+  ],
+  "faq": [
+   {
+    "q": "Will the split pages keep links and quality?",
+    "a": "Yes. Pages are copied without re-rendering, so text, images and quality are unchanged."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Split PDF – Extract Pages or Ranges Free, No Upload",
+  "desc": "Split a PDF into single pages, page ranges, every X pages or even/odd pages – or click to cut. Free, private, in your browser. No upload, no sign-up.",
+  "sections": [
+   [
+    "Every way to split a PDF, in one place",
+    "Splitting sounds simple, but people mean very different things by it: pulling out one chapter, separating a scanned stack into individual invoices, sending only the signed page, or breaking a huge file into e-mail-sized parts. {brand} covers all of these, and does it in your browser so the document is never uploaded.",
+    [
+     "**Every page** – one PDF per page, delivered as a ZIP.",
+     "**Where I click the scissors** – look at page thumbnails and click between pages to cut the document exactly where you want.",
+     "**Select page ranges** – type ranges such as 1-3, 7, 10-12 to extract just those pages (one file per range or merged into one).",
+     "**Every X pages** – split a 100-page scan into 2-page or 5-page documents in one step.",
+     "**Even / odd pages** – separate front and back sides of a duplex scan.",
+     "**By file size** – use [Split PDF by size](/split-pdf-by-size/) to get parts under an e-mail limit such as 10 MB.",
+     "**By bookmarks or chapters** – [Split PDF by bookmarks](/split-pdf-by-bookmarks/) creates one file per chapter automatically.",
+     "**By text** – [Split PDF by text](/split-pdf-by-text/) starts a new file whenever a word like 'Invoice' appears.",
+     "**Pages in half** – [Split pages in half](/split-pdf-pages-in-half/) cuts two-up scanned book spreads into single pages."
+    ]
+   ],
+   [
+    "Which mode should I use?",
+    {
+     "table": [
+      [
+       "Goal",
+       "Best mode"
+      ],
+      [
+       "Send one or two pages",
+       "Select page ranges"
+      ],
+      [
+       "Separate a stack of scanned receipts",
+       "Every X pages or click to cut"
+      ],
+      [
+       "Fit a file under an e-mail limit",
+       "Split by size"
+      ],
+      [
+       "One file per chapter",
+       "Split by bookmarks"
+      ],
+      [
+       "Duplex scan with fronts and backs mixed",
+       "Even / odd pages"
+      ],
+      [
+       "Every page as its own file",
+       "Every page"
+      ]
+     ]
+    }
+   ],
+   [
+    "Lossless and private",
+    "Splitting copies the original page objects into new PDFs – nothing is re-rendered or re-compressed, so text stays selectable, vector graphics stay sharp and images keep their quality. Links, form fields and fonts on the copied pages are kept.",
+    "Because the work happens locally, there is no waiting for an upload of a 200 MB scan, no hourly task limit like Sejda's 3 tasks per hour, and no copy of your bank statement or medical record on somebody else's server."
+   ],
+   [
+    "Tips",
+    [
+     "Page numbers in ranges refer to the physical page position (1 = first page), not to numbers printed on the page.",
+     "Want to remove pages instead of extracting them? Use [Delete PDF pages](/delete-pdf-pages/). To reorder, use [Organize PDF](/organize-pdf/).",
+     "Got the pieces and need some of them together again? [Merge PDF](/merge-pdf/) joins them in any order.",
+     "Password-protected file? Unlock it first with [Unlock PDF](/unlock-pdf/) if you know the password."
+    ]
+   ],
+   [
+    "Common uses",
+    [
+     "Sending only the relevant pages of a contract or report.",
+     "Separating a scanned batch of invoices into one file per invoice.",
+     "Extracting a single chapter of an e-book or textbook for study.",
+     "Breaking a large portfolio into smaller parts that upload portals accept.",
+     "Sharing just the signature page for countersigning."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Split by ranges / fixed pages",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+   ],
+   [
+    "Click-to-cut on thumbnails",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Even / odd pages",
+    "Yes",
+    "Not offered on page",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Split by size, bookmarks, text",
+    "Yes (free, separate tools)",
+    "Size: yes",
+    "See site",
+    "See site",
+    "Yes"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I extract just a few pages from a PDF?",
+    "a": "Choose 'Select page ranges', type the pages such as 2-4, 9 and click Split. You can get each range as its own file or all together."
+   },
+   {
+    "q": "Does splitting reduce quality?",
+    "a": "No. Pages are copied as they are, without re-compressing, so text and images look identical to the original."
+   },
+   {
+    "q": "Is my PDF uploaded?",
+    "a": "No. The split runs in your browser and the file never leaves your device."
+   },
+   {
+    "q": "Can I split a PDF into equal parts?",
+    "a": "Yes. Use 'Every X pages' and enter how many pages each part should have."
+   },
+   {
+    "q": "How do I split a PDF to fit an e-mail size limit?",
+    "a": "Use Split PDF by size and set a maximum such as 10 MB; each part will stay under it."
+   },
+   {
+    "q": "Can I split by chapters?",
+    "a": "Yes. Split PDF by bookmarks creates one file per bookmark (chapter) automatically."
+   },
+   {
+    "q": "Is there a page or file limit?",
+    "a": "No. There are no hourly limits; very large files only depend on your device's memory."
+   },
+   {
+    "q": "Will links and form fields still work?",
+    "a": "Yes, links and form fields on the copied pages are kept."
+   },
+   {
+    "q": "Can I split a password-protected PDF?",
+    "a": "If you know the password, unlock it with Unlock PDF first, then split."
+   }
+  ],
+  "related": [
+   "merge-pdf",
+   "split-pdf-by-size",
+   "split-pdf-by-bookmarks",
+   "delete-pdf-pages",
+   "organize-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I split a PDF into multiple files?",
+    "a": "Drop the PDF and choose how to split: every page as its own file, custom ranges such as 1-3,4-9, every X pages, or odd/even pages. You can also click between thumbnails to cut. The parts download as a ZIP."
+   },
+   {
+    "q": "Can I split a PDF in half?",
+    "a": "Yes. Use a range such as 1-10,11-20 for a 20-page file, or ‘every X pages’ with half the page count. To cut each physical page down the middle (two scanned pages per sheet), use the Split PDF pages in half tool instead."
+   }
+  ]
+ }
+}

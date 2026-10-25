@@ -1,0 +1,321 @@
+{
+ "name": "Audio Cutter",
+ "short": "Trim songs and make ringtones.",
+ "title": "Audio Cutter Online Free – Trim MP3 & Make Ringtones | {brand}",
+ "desc": "Cut MP3, WAV, M4A and more with a visual waveform. Add fade in/out and export MP3 or WAV. Free ringtone maker.",
+ "h1": "Audio Cutter – Cut & Trim Audio Online",
+ "steps": [
+  "Select an audio file.",
+  "Click the waveform to set start and end.",
+  "Download the clip."
+ ],
+ "faq": [],
+ "guide": {
+  "intro": "Trim silence, remove mistakes or cut the best part of a song for a ringtone or alarm. The waveform shows exactly where to cut.",
+  "uses": [
+   "Make a ringtone or notification sound.",
+   "Trim silence from the start and end of recordings.",
+   "Cut a clip from a podcast for social media."
+  ],
+  "tips": [
+   "Add a short fade-out for a smooth ending.",
+   "Ringtones usually work best under 30 seconds."
+  ],
+  "faq": [
+   {
+    "q": "Can I add fades?",
+    "a": "Yes, fade-in and fade-out are available."
+   },
+   {
+    "q": "Which output formats are available?",
+    "a": "MP3 and WAV."
+   }
+  ],
+  "more": [
+   [
+    "Precise cuts",
+    "Zoom into the waveform to cut exactly between words or beats. Short fades of 0.5–1 second remove clicks at the cut points and make clips sound professional."
+   ],
+   [
+    "Formats and compatibility",
+    "Load MP3, WAV, M4A, OGG and most audio your browser can play, including the soundtrack of video files. Export MP3 for the smallest files and widest compatibility, or WAV when you will edit the clip further in a DAW."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Audio Cutter – Trim MP3 Online Free, Waveform, Fades",
+  "desc": "Audio cutter: trim MP3, WAV, M4A and more on a waveform. Keep or remove a section, fade in/out, volume, 0.1 s precision, MP3 or WAV. Free, no upload.",
+  "compareTitle": "{tool}: {brand} vs mp3cut.net, Clideo and VEED",
+  "compareCols": [
+   "mp3cut.net",
+   "Clideo",
+   "VEED"
+  ],
+  "sections": [
+   [
+    "Cut any audio file in seconds",
+    "{brand}'s Audio Cutter trims songs, podcasts, voice memos, interviews and recordings right in your browser. Drop a file, click the waveform to mark the start and end, and save just that part – or remove it and keep everything else. Add smooth fade-ins and fade-outs, adjust the volume, and download as MP3 or WAV.",
+    "Your audio is not uploaded: the file is decoded and cut on your own device. That keeps private recordings private, and it means even long files – an hour-long meeting or a full DJ set – are ready to cut the moment you drop them, without waiting for an upload.",
+    "There is no premium tier, no sign-up and no limit on the number of files you cut. Every feature – waveform, removing sections, fades, volume and 320 kbps MP3 – is available to everyone, on any device with a modern browser."
+   ],
+   [
+    "Features",
+    [
+     "**Waveform view:** see the loud and quiet parts and click to set start and end.",
+     "**Keep or remove:** save the selection, or cut it out of the middle and join the rest.",
+     "**Precise times:** type m:ss or m:ss.s (e.g. 1:23.4) for tenth-of-a-second accuracy.",
+     "**Fade in and fade out** separately, from 0.5 to 5 seconds.",
+     "**Volume** from 10% to 300%.",
+     "**MP3 at 128–320 kbps** or lossless **WAV**.",
+     "**Built-in player** to check the start point and the result.",
+     "**Accepts** MP3, WAV, M4A, AAC, OGG, Opus, FLAC and the audio of MP4, MOV, WebM and MKV videos."
+    ]
+   ],
+   [
+    "How to cut an audio file",
+    [
+     "Drop the audio file (or a video) onto the page.",
+     "Click the waveform to set the start, then click again (or Shift+click) to set the end. Or type the times.",
+     "Choose 'Keep the selection' or 'Remove the selection'.",
+     "Optionally set fade in/out, volume, format and quality.",
+     "Click Cut, listen to the result and download."
+    ]
+   ],
+   [
+    "Keep vs remove: two ways to cut",
+    "**Keep the selection** saves only the highlighted part – ideal for ringtones, song snippets, a quote from an interview, or a clean intro for a video. **Remove the selection** deletes the highlighted part and joins what comes before and after – ideal for cutting out a cough, an advert break, a mistake in a voice-over or a long silence in the middle of a recording. Fade-in then applies to the start of the file and fade-out to the end.",
+    "Both modes show the length of the result after cutting, so you can check at a glance that you removed or kept exactly what you intended, and the built-in player lets you listen before saving."
+   ],
+   [
+    "Making a ringtone",
+    "Ringtones are best kept to about 20–30 seconds. Select the chorus or the most recognisable part, add a 1-second fade-in and a 2-second fade-out, and save as MP3. Android phones accept MP3 ringtones directly: copy the file to the phone and choose it in Settings › Sound. For iPhone, which needs the M4R format, use our [Ringtone Maker](/ringtone-maker/) or import the MP3 into GarageBand and export it as a ringtone."
+   ],
+   [
+    "Choosing a format and quality",
+    {
+     "table": [
+      [
+       "Use",
+       "Format",
+       "Quality"
+      ],
+      [
+       "Ringtone, music snippet",
+       "MP3",
+       "192 kbps"
+      ],
+      [
+       "Podcast or speech",
+       "MP3",
+       "128 kbps"
+      ],
+      [
+       "Highest-quality music",
+       "MP3",
+       "320 kbps"
+      ],
+      [
+       "Further editing in a DAW",
+       "WAV",
+       "Lossless"
+      ],
+      [
+       "Archiving a master",
+       "WAV",
+       "Lossless"
+      ]
+     ]
+    },
+    "Cutting an MP3 and saving it as MP3 again re-encodes the audio. At 192 kbps or higher this is inaudible for almost all material. If you plan to edit the file further, save as WAV to avoid stacking compression."
+   ],
+   [
+    "Tips for clean cuts",
+    [
+     "Cut in quiet moments – between words or beats – to avoid clicks. The waveform shows silences as flat lines.",
+     "Use a short fade (0.5 s) even when you don't want an obvious fade; it removes clicks at the cut points.",
+     "Listen from a few seconds before the start point to make sure you haven't clipped the first word.",
+     "For music, cut on the downbeat – the first beat of a bar – for a natural-sounding loop or ringtone.",
+     "If the recording is quiet, raise the volume to 150–200%; for loud ones, 80% prevents distortion."
+    ]
+   ],
+   [
+    "Typical uses",
+    [
+     "Ringtones and notification sounds.",
+     "Trimming silence and false starts from voice memos and podcasts.",
+     "Extracting a quote from an interview for social media.",
+     "Shortening songs for workouts, dance routines, presentations or videos.",
+     "Removing adverts or interruptions from recordings.",
+     "Preparing audio clips for language lessons.",
+     "Cutting a song's intro for a slideshow."
+    ]
+   ],
+   [
+    "Supported files",
+    "Any format your browser can decode works: MP3, WAV, M4A/AAC (including iPhone voice memos), OGG Vorbis, Opus (WhatsApp voice messages), FLAC, and the audio tracks of MP4, MOV, WebM and MKV videos. If a file does not open, convert it first with our audio converter, or try another browser – Chrome and Edge support the widest range of formats."
+   ],
+   [
+    "Cutting voice memos and WhatsApp audio",
+    "iPhone voice memos are M4A files; WhatsApp and Telegram voice messages are usually Opus files with .opus or .ogg extensions. Both open directly. Trim the silence at the start and end, cut out off-topic parts with 'Remove the selection', raise the volume if the recording is quiet, and save as MP3 at 128 kbps – small, and playable on any device. This is also a quick way to convert a voice message into a standard MP3."
+   ],
+   [
+    "Cutting podcasts and interviews",
+    "For spoken audio, look for the gaps between sentences in the waveform – they appear as thin flat sections. Cutting there makes edits inaudible. To remove several parts, cut one, download, then load the result and cut the next. Keep MP3 at 128 kbps for speech; save as WAV if you will continue editing in a multitrack editor."
+   ],
+   [
+    "Using the waveform",
+    "The waveform shows the loudness of the audio over time: tall peaks are loud passages, flat lines are silence. Click anywhere to place the start and jump the player there; click again to place the end. The selected area is highlighted in blue. You can always fine-tune by typing times into the Start and End boxes, which accept minutes and seconds with decimals (e.g. 2:07.35). Press play in the player to hear where you are, and use the player's current time to refine the selection."
+   ],
+   [
+    "Glossary",
+    [
+     "**Waveform:** a picture of the audio's loudness over time.",
+     "**Fade in / fade out:** a gradual increase or decrease of volume at the start or end.",
+     "**Bitrate:** data per second in kbps; higher means better quality and larger files.",
+     "**Lossless:** no information removed (WAV, FLAC); lossy formats (MP3, AAC) remove inaudible detail."
+    ]
+   ],
+   [
+    "Cutting audio from videos",
+    "You can drop a video – MP4, MOV, WebM or MKV – straight into the Audio Cutter. Its soundtrack is decoded and shown as a waveform, and the cut part is saved as an audio file. This is the quickest way to grab a song from a concert clip, a quote from a recorded talk, or a sound effect from your own footage, without converting the whole video first. For longer extractions with batch processing and tags, use [MP4 to MP3](/mp4-to-mp3/)."
+   ],
+   [
+    "Why not use a desktop audio editor?",
+    "Programs like Audacity are excellent for complex editing – multitrack mixing, noise reduction, effects – but for a quick trim they mean downloading, installing and learning an application. The Audio Cutter opens instantly in any browser, on any computer or phone, including work computers where you can't install software. And because it runs locally, it is just as private as a desktop app: your file is never sent to a server."
+   ],
+   [
+    "Volume and loudness",
+    "The volume control multiplies the signal: 200% doubles the amplitude (about +6 dB), 50% halves it. Raising a quiet recording too far can cause clipping – a harsh distortion when peaks exceed the maximum level. If you hear crackling at loud moments after boosting, try a smaller increase. For consistent podcast loudness across episodes, set the volume so the loudest parts of the waveform nearly, but not completely, fill the height."
+   ],
+   [
+    "Cutting music for videos, slideshows and workouts",
+    "Video editors and slideshow apps often need a soundtrack of an exact length. Select from a strong starting point – the first beat of a verse or chorus – to the length you need, add a 2–3 second fade-out so the music ends naturally, and save as MP3 at 192 kbps. For a workout or dance routine, use 'Remove the selection' to take out a slow bridge or a long intro, keeping the energy high. For background music behind speech, lower the volume to 50–70% so voices stay clear. Remember to use only music you have the rights to, especially if you publish the video online."
+   ],
+   [
+    "Privacy",
+    "Every step happens inside your browser tab. The file is read from your disk, decoded and re-encoded on your own device using the browser's built-in media engine (WebCodecs and Web Audio) and WebAssembly, and the result goes straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue – so family videos, interviews, voice memos, meetings and unreleased content never leave your computer or phone. Large files are not slowed down by your upload speed either: a 1 GB video starts processing instantly instead of after a ten-minute upload."
+   ],
+   [
+    "Related tools",
+    [
+     "[Ringtone Maker](/ringtone-maker/) – iPhone and Android ringtones.",
+     "[MP4 to MP3](/mp4-to-mp3/) – audio from video.",
+     "[Trim Video](/trim-video/) – cut videos.",
+     "[Compress Video](/compress-video/) – smaller videos.",
+     "[Video to GIF](/video-to-gif/) – GIFs from clips."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Waveform selection",
+    "Yes",
+    "Yes",
+    "See site",
+    "See site"
+   ],
+   [
+    "Remove a middle section",
+    "Yes",
+    "See site",
+    "See site",
+    "'Cut, split, rearrange'"
+   ],
+   [
+    "Fade in / out",
+    "Yes (separate)",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Premium plan",
+    "None – everything free",
+    "$6/month (premium, 10 GB files)",
+    "See site",
+    "Basic and Pro plans"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I cut an MP3 for free?",
+    "a": "Drop the file, click the waveform to set start and end, click Cut and download."
+   },
+   {
+    "q": "Is my audio uploaded?",
+    "a": "No. It is cut in your browser."
+   },
+   {
+    "q": "Can I remove a section from the middle?",
+    "a": "Yes. Choose 'Remove the selection'; the parts before and after are joined."
+   },
+   {
+    "q": "How precise can I cut?",
+    "a": "To a tenth of a second or better – type times like 1:23.4."
+   },
+   {
+    "q": "Can I add fade in and fade out?",
+    "a": "Yes, separately, from 0.5 to 5 seconds."
+   },
+   {
+    "q": "Which formats can I open?",
+    "a": "MP3, WAV, M4A, AAC, OGG, Opus, FLAC and audio from MP4, MOV, WebM and MKV."
+   },
+   {
+    "q": "Which formats can I save?",
+    "a": "MP3 (128–320 kbps) or WAV."
+   },
+   {
+    "q": "Can I make an iPhone ringtone?",
+    "a": "Use Ringtone Maker for M4R; Audio Cutter saves MP3/WAV."
+   },
+   {
+    "q": "Will cutting reduce quality?",
+    "a": "MP3 output is re-encoded; at 192 kbps or more it is inaudible. WAV is lossless."
+   },
+   {
+    "q": "Does it work on phones?",
+    "a": "Yes, in current mobile browsers."
+   }
+  ],
+  "related": [
+   "ringtone-maker",
+   "mp4-to-mp3",
+   "trim-video",
+   "compress-video",
+   "video-to-gif"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I cut audio online for free?",
+    "a": "Drop an MP3, WAV or M4A file, drag the handles on the waveform to select a part, then keep or remove it, add fades and download MP3 or WAV."
+   },
+   {
+    "q": "What is the best free audio cutter?",
+    "a": "Look for waveform editing, fades, precise timing and no upload. This audio cutter offers all of those with 0.1-second precision, in your browser."
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "name": "Password Generator",
+ "short": "Strong random passwords, made on your device.",
+ "title": "Password Generator – Strong Random Passwords Free | {brand}",
+ "desc": "Generate strong random passwords with your chosen length and character types. Uses your device's secure random generator; nothing is sent anywhere.",
+ "h1": "Strong Password Generator",
+ "steps": [
+  "Choose length and character types.",
+  "Passwords appear instantly – copy one.",
+  "Optionally download the list."
+ ],
+ "faq": [
+  {
+   "q": "Are these passwords safe?",
+   "a": "They are created with the browser's cryptographic random generator and never leave your device."
+  },
+  {
+   "q": "How long should a password be?",
+   "a": "At least 16 characters with all character types (~100 bits) is very strong."
+  }
+ ],
+ "guide": {
+  "intro": "Weak and reused passwords are the most common cause of hacked accounts. This generator uses the browser's cryptographic random number generator, so passwords are unpredictable and never leave your device.",
+  "uses": [
+   "Create a unique password for every new account.",
+   "Generate a strong password for an encrypted PDF or ZIP.",
+   "Create Wi-Fi passwords that are hard to guess."
+  ],
+  "tips": [
+   "16 or more characters with mixed types is a good default.",
+   "Store passwords in a password manager rather than a document.",
+   "Never reuse a password across sites."
+  ],
+  "faq": [
+   {
+    "q": "Is it safe to generate passwords online?",
+    "a": "Here yes – they are created with the browser's cryptographic random generator and never leave your device."
+   }
+  ],
+  "more": [
+   [
+    "What makes a password strong",
+    "Length matters most: each extra character multiplies the number of possible passwords. A random 16-character password with letters, numbers and symbols would take an attacker longer than the age of the universe to guess by brute force."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Password Generator – Strong Passwords & Passphrases",
+  "desc": "Password generator: strong random passwords, passphrases or PINs created locally with crypto.getRandomValues. Strength meter, crack time, bulk. Free.",
+  "compareTitle": "{tool}: {brand} vs LastPass, Bitwarden and 1Password",
+  "compareCols": [
+   "LastPass",
+   "Bitwarden",
+   "1Password"
+  ],
+  "sections": [
+   [
+    "Strong passwords, generated on your device",
+    "{brand}'s Password Generator creates random passwords, memorable word passphrases and numeric PINs in one click. Every character is chosen by your browser's cryptographically secure random number generator (the Web Crypto API's crypto.getRandomValues), using rejection sampling so that every character is exactly equally likely. Nothing is sent to a server: the passwords exist only on your screen and in your clipboard, and the page keeps working with your internet connection switched off.",
+    "Each result comes with its entropy in bits, a plain-language strength rating and an estimate of how long a brute-force attack would take. You can generate up to 500 at once, copy them one by one or all together, or download them as a text file. There is no account, no e-mail address and no upsell to a password manager."
+   ],
+   [
+    "What you can generate",
+    [
+     "**Random password** – 4 to 128 characters from lowercase letters, capitals, digits and symbols. Every enabled set is guaranteed to appear at least once, which satisfies most website password rules.",
+     "**Passphrase** – 3 to 12 random words from the EFF long wordlist of 7,776 words, with a choice of separator (hyphen, space, dot, underscore, none, or a random digit between words), optional capitals and an optional number. Easy to type on a phone and easy to remember.",
+     "**PIN** – random digits for phone unlocks, cards, door codes and two-factor backup codes.",
+     "**Avoid look-alikes** – removes I, l, 1, O, 0, o and | so passwords you read aloud or type from paper are not misread.",
+     "**Exclude characters** – drop any symbols a website rejects, such as quotes, brackets or spaces.",
+     "**Bulk generation** – up to 500 passwords at once for provisioning accounts or test data, downloadable as TXT.",
+     "**Strength checker** – type an existing password to see a rough strength estimate; it flags the most common passwords, dictionary words, years and keyboard sequences. It never leaves the page."
+    ]
+   ],
+   [
+    "How to create a strong password",
+    [
+     "Choose **Random password** for accounts you store in a password manager, or **Passphrase** for the few passwords you must remember (your computer login, your password manager's master password).",
+     "Set the length: 16 characters or 5–6 words is a good default.",
+     "Leave all character sets on unless a site restricts them; tick *Avoid look-alikes* if you will type it by hand.",
+     "Click a password's **Copy** button and paste it into the sign-up form – then save it in your password manager or browser.",
+     "Click **Regenerate** for a fresh batch, or **Download list** for many at once."
+    ]
+   ],
+   [
+    "How strong is strong enough?",
+    "Password strength is measured in bits of **entropy** – the number of guesses an attacker would need, expressed as a power of two. Each extra bit doubles the work. A random password's entropy is its length × log₂(size of the character set). With all 94 printable characters, each character adds about 6.55 bits; with digits only, each adds 3.32 bits. Each word chosen at random from the 7,776-word EFF list adds 12.9 bits.",
+    "The table below assumes an attacker who has stolen a database of password hashes and can try 10 billion guesses per second – realistic for a fast, unsalted hash on modern graphics cards. Slow hashes such as bcrypt or Argon2 cut that rate by a factor of thousands or millions, and online attacks against a login page are slower still. The times are averages (half the search space).",
+    {
+     "table": [
+      [
+       "Type",
+       "Example length",
+       "Entropy",
+       "Time to brute-force at 10 billion guesses/s"
+      ],
+      [
+       "PIN, digits only",
+       "4 characters",
+       "13 bits",
+       "instantly"
+      ],
+      [
+       "PIN, digits only",
+       "6 characters",
+       "20 bits",
+       "instantly"
+      ],
+      [
+       "Lowercase only",
+       "8 characters",
+       "38 bits",
+       "10 seconds"
+      ],
+      [
+       "Lower + upper + digits",
+       "8 characters",
+       "48 bits",
+       "3.0 hours"
+      ],
+      [
+       "All 4 sets",
+       "8 characters",
+       "52 bits",
+       "3.5 days"
+      ],
+      [
+       "All 4 sets",
+       "12 characters",
+       "79 bits",
+       "754 thousand years"
+      ],
+      [
+       "All 4 sets",
+       "16 characters",
+       "105 bits",
+       ">1,000 billion years"
+      ],
+      [
+       "All 4 sets",
+       "20 characters",
+       "131 bits",
+       ">1,000 billion years"
+      ],
+      [
+       "Passphrase, EFF words",
+       "4 words",
+       "52 bits",
+       "2.1 days"
+      ],
+      [
+       "Passphrase, EFF words",
+       "5 words",
+       "65 bits",
+       "45 years"
+      ],
+      [
+       "Passphrase, EFF words",
+       "6 words",
+       "78 bits",
+       "350 thousand years"
+      ],
+      [
+       "Passphrase, EFF words",
+       "7 words",
+       "90 bits",
+       "2.7 billion years"
+      ]
+     ]
+    },
+    "As a rule of thumb, **72 bits or more is strong** for almost any account, and **100 bits or more is very strong**. That means a 12-character password using all character sets, a 16-character password for extra margin, or a passphrase of six words."
+   ],
+   [
+    "Passwords versus passphrases",
+    "A random 16-character password like `Ut)9NwMw/zt?KMH2` is very strong but almost impossible to remember – which is fine, because a password manager remembers it for you. A passphrase like `Quarry-Subsystem-Flashback-Atom-Patriot` has similar strength per keystroke on a phone keyboard and can be memorised after a few uses. The words must be chosen at random by the generator, not by you: people pick predictable phrases, song lyrics and quotes, which attackers try first.",
+    {
+     "table": [
+      [
+       "",
+       "Random password",
+       "Passphrase"
+      ],
+      [
+       "Best for",
+       "Accounts saved in a password manager",
+       "Master password, device login, Wi-Fi"
+      ],
+      [
+       "Typical length",
+       "16 characters",
+       "5–6 words"
+      ],
+      [
+       "Strength",
+       "≈105 bits (16 chars, all sets)",
+       "≈65–78 bits (5–6 words)"
+      ],
+      [
+       "Easy to type on a phone",
+       "No",
+       "Yes"
+      ],
+      [
+       "Easy to remember",
+       "No",
+       "Yes"
+      ],
+      [
+       "Meets 'must contain a symbol' rules",
+       "Yes",
+       "Add a number and choose a symbol separator"
+      ]
+     ]
+    }
+   ],
+   [
+    "Why your passwords must be unique",
+    "The biggest danger is not that an attacker will guess one strong password; it is that a password you reused is leaked by one website and then tried everywhere else – a technique called **credential stuffing**. Billions of leaked username and password pairs circulate online. If your shopping-site password is the same as your e-mail password, a breach of the shop hands over your e-mail – and with it, password resets for everything else. Generate a different password for every account and let a password manager or your browser store them."
+   ],
+   [
+    "Patterns that make passwords weak",
+    [
+     "**Dictionary words with small changes** – Summer2024!, P@ssw0rd, Mumbai123. Cracking tools try every word with common substitutions, capitals and years first.",
+     "**Personal information** – names, birthdays, pet names, phone numbers, vehicle numbers and cricket teams are easy to find on social media.",
+     "**Keyboard patterns and sequences** – qwerty, 1q2w3e4r, asdfgh, 123456, abcd.",
+     "**Short length** – an 8-character password, even with symbols, can be brute-forced in hours by a determined attacker with a stolen hash.",
+     "**Reuse with a counter** – Password1, Password2, Password3 when forced to change.",
+     "**Human-chosen 'random' strings** – people favour certain letters and positions; real randomness comes from a generator."
+    ]
+   ],
+   [
+    "How the generator works",
+    "When you click *Regenerate*, the page asks the browser's Web Crypto API for random 32-bit numbers. To pick a character from a set of, say, 70 characters, it discards any number in the small leftover range above the largest multiple of 70 and draws again. This **rejection sampling** removes the 'modulo bias' that simple generators have, where some characters come up slightly more often. One character from each enabled set is placed first, the rest are filled from the combined set, and the whole string is shuffled with a Fisher–Yates shuffle using the same unbiased random source.",
+    "Passphrases pick words the same way from the EFF long wordlist, which was designed by the Electronic Frontier Foundation for dice-based passphrases: 7,776 common, distinct, easy-to-spell English words, so each word gives exactly log₂(7776) ≈ 12.9 bits. The list is loaded from this site only when you choose passphrase mode.",
+    "You can check this yourself: open the browser's developer tools, look at the network tab and generate passwords – no requests are made. Or disconnect from the internet and keep generating."
+   ],
+   [
+    "Website password rules",
+    "Many sites demand at least one capital, one digit and one symbol, and some reject certain symbols or limit length. With all four sets enabled, every generated password contains at least one character from each set. If a site refuses a symbol, type it in *Exclude characters*. If a site limits length to, for example, 12 or 20 characters, set the length accordingly – then keep at least 12 characters for good strength. Current guidance from the US National Institute of Standards and Technology (NIST SP 800-63B) recommends that sites allow long passwords and passphrases, check new passwords against lists of breached passwords, and avoid forcing arbitrary composition rules and periodic changes – but many sites still have them, so the generator supports both styles."
+   ],
+   [
+    "Storing passwords safely",
+    [
+     "Use a **password manager** – Bitwarden, 1Password, KeePassXC, the one built into your browser, or your phone's keychain. You then need to remember only one strong passphrase.",
+     "Turn on **two-factor authentication** (an authenticator app or a security key) for e-mail, banking, social media and your password manager.",
+     "Do not store passwords in plain text files, e-mail drafts or chat messages. If you download a list from this page, move the passwords into a manager and delete the file.",
+     "Write your master passphrase on paper and keep it somewhere safe at home if you fear forgetting it – paper cannot be hacked remotely.",
+     "Change a password immediately if a site tells you it has been breached, and anywhere you used the same one."
+    ]
+   ],
+   [
+    "PINs and codes",
+    "A 4-digit PIN has only 10,000 possibilities and a 6-digit PIN a million. That is acceptable only because phones and bank cards lock or wipe after a few wrong tries. Avoid 1234, 0000, years of birth and repeated digits, which together make up a large share of real-world PINs. The PIN mode picks every digit uniformly at random. For anything that can be attacked offline – an encrypted file or a backup – use a long password or passphrase instead."
+   ],
+   [
+    "Bulk passwords for teams and testing",
+    "Administrators setting up accounts for a class, an office or a test environment can generate up to 500 unique passwords at once and download them as a plain text file, one per line, ready to paste into a spreadsheet next to the user names. Ask each person to change their initial password at first login. Because everything is generated locally, the list is never stored on any server."
+   ],
+   [
+    "Privacy",
+    "Passwords are generated in your browser and are never transmitted, logged or stored by {brand}. The page does not use cookies or analytics on the values you create or check. The strength checker runs on the text you type entirely within the page and does not send it anywhere – it does not query breach databases, because that would require sending data off your device."
+   ],
+   [
+    "Related tools",
+    [
+     "[Hash generator](/hash-generator/)",
+     "[Protect PDF](/protect-pdf/)",
+     "[QR code generator](/qr-code-generator/)",
+     "[UUID generator](/uuid-generator/)",
+     "[Base64 encoder](/base64-encode-decode/)"
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Generated locally with crypto.getRandomValues",
+    "Yes (stated, open to inspect)",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Passphrase mode",
+    "Yes (EFF 7,776-word list)",
+    "See site",
+    "Yes",
+    "Yes ('Use full words')"
+   ],
+   [
+    "PIN mode",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Entropy and crack-time estimate",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Avoid look-alike characters / exclude list",
+    "Yes / Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Bulk generate + TXT download",
+    "Up to 500",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Account or app needed",
+    "No",
+    "No (page promotes manager)",
+    "No",
+    "No (page promotes trial)"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How does the random password generator work?",
+    "a": "It uses your browser's Web Crypto API (crypto.getRandomValues) with rejection sampling, so each character is equally likely, then shuffles the result. Nothing is sent to a server."
+   },
+   {
+    "q": "How long should a password be?",
+    "a": "At least 12 characters with all character sets, 16 for extra margin, or a passphrase of 5–6 random words."
+   },
+   {
+    "q": "Is it safe to use an online password generator?",
+    "a": "It is safe when generation happens in your browser, as here. You can verify that no network requests are made, or use the page offline."
+   },
+   {
+    "q": "What is a passphrase?",
+    "a": "Several random words joined together, like Quarry-Subsystem-Flashback-Atom. Easier to remember and type, and strong when the words are chosen randomly."
+   },
+   {
+    "q": "What makes a password strong?",
+    "a": "Length, randomness and uniqueness. Avoid words, names, dates and patterns, and never reuse a password."
+   },
+   {
+    "q": "What does 'bits of entropy' mean?",
+    "a": "How many guesses are needed, as a power of two. 72 bits is strong; each extra bit doubles the attacker's work."
+   },
+   {
+    "q": "Are the crack-time estimates exact?",
+    "a": "No – they assume 10 billion guesses per second against a stolen hash. Real attacks may be faster or much slower depending on the hashing method."
+   },
+   {
+    "q": "Does the strength checker send my password anywhere?",
+    "a": "No. It runs inside the page and does not contact any server or breach database."
+   },
+   {
+    "q": "What is the easiest way to manage strong passwords?",
+    "a": "Use a password manager or your browser's built-in one, protect it with a strong passphrase and two-factor authentication."
+   },
+   {
+    "q": "Can I generate many passwords at once?",
+    "a": "Yes – up to 500, copied together or downloaded as a TXT file."
+   }
+  ],
+  "related": [
+   "hash-generator",
+   "protect-pdf",
+   "qr-code-generator",
+   "uuid-generator",
+   "base64-encode-decode"
+  ],
+  "faqKw": [
+   {
+    "q": "Can I trust a password generator?",
+    "a": "Only if it creates passwords locally with a cryptographic random source. This one uses crypto.getRandomValues in your browser; nothing is sent or stored."
+   },
+   {
+    "q": "What is the best password length?",
+    "a": "At least 16 random characters, or a passphrase of 5–6 words, for important accounts."
+   }
+  ]
+ }
+}

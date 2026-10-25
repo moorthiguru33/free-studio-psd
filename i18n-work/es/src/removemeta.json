@@ -1,0 +1,208 @@
+{
+ "name": "Remove PDF Metadata",
+ "short": "Strip author, title and hidden data.",
+ "title": "Remove PDF Metadata Online Free – Clean Hidden Data",
+ "desc": "Strip author, software, dates, XMP and other hidden metadata from PDFs before sharing. Optionally remove attachments and scripts. Free.",
+ "h1": "Remove PDF Metadata",
+ "steps": [
+  "Select your PDF.",
+  "Choose whether to also remove attachments and scripts.",
+  "Download the clean PDF."
+ ],
+ "faq": [
+  {
+   "q": "What is removed?",
+   "a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and page piece data."
+  }
+ ],
+ "guide": {
+  "intro": "PDFs can reveal more than you think: the author's name, the software used, creation dates and sometimes attachments. Removing metadata is a simple privacy step before sending documents to clients, publishing them or submitting anonymous work.",
+  "uses": [
+   "Anonymise documents for blind peer review.",
+   "Remove your name from files created on a work computer.",
+   "Clean leaked internal details before publishing a PDF."
+  ],
+  "tips": [
+   "Also check visible content – metadata removal does not change page text.",
+   "Use Redact PDF for sensitive text on the page."
+  ],
+  "faq": [
+   {
+    "q": "What exactly is removed?",
+    "a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and page piece data."
+   }
+  ],
+  "more": [
+   [
+    "Hidden data in PDFs",
+    "Metadata can reveal the author's name, organisation, software versions, editing times and original file paths. Journalists, lawyers and researchers remove it before publishing or submitting documents for anonymous review."
+   ],
+   [
+    "What stays the same",
+    "Page content, text, images, links and layout are not changed – only the hidden descriptive data is removed, so the document looks identical."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "Remove PDF Metadata – Delete Author, Title & XMP Free",
+  "desc": "Remove hidden PDF metadata – author, title, subject, keywords, creator software, dates and XMP – plus attachments and scripts. Free, private, instant.",
+  "compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+  "compareCols": [
+   "iLovePDF",
+   "Smallpdf",
+   "Adobe Acrobat online"
+  ],
+  "sections": [
+   [
+    "Remove metadata from a PDF",
+    "Every PDF can carry hidden information: the author's name, the company, the software and version used, creation and modification dates, keywords and a full XMP metadata packet. Before you publish or send a document to people outside your organisation, strip it out. Optionally remove attachments and scripts too."
+   ],
+   [
+    "How to use it",
+    {
+     "steps": [
+      "Drop the PDF.",
+      "Tick Also remove attachments & scripts for maximum clean-up.",
+      "Download the cleaned PDF – the report shows what was removed."
+     ]
+    }
+   ],
+   [
+    "What PDF metadata can reveal",
+    {
+     "list": [
+      "**Author** – often your full name or Windows user name.",
+      "**Creator / Producer** – e.g. Microsoft Word 2021 or a scanner model.",
+      "**Dates** – when the document was really created and last changed.",
+      "**Title and subject** – sometimes an old internal title or draft name.",
+      "**XMP packet** – may include editing history, document IDs and company information.",
+      "**Attachments** – embedded source files or spreadsheets you forgot about."
+     ]
+    }
+   ],
+   [
+    "When to remove metadata",
+    "Before publishing on a website, submitting a tender or job application, sending documents to opposing counsel, anonymous peer review, whistle-blowing, or sharing marketplace documents. Journalists and lawyers routinely strip metadata as part of their document-hygiene routine. Remember that metadata is only one layer: visible text, comments and hidden layers can leak information too – use [PDF Cleaner](/pdf-cleaner/) for a deeper sanitise and [Redact PDF](/redact-pdf/) to remove visible content."
+   ],
+   [
+    "Edit instead of delete",
+    "If you want to replace metadata with your own values – for example a proper title for SEO – use [Edit PDF Metadata](/edit-pdf-metadata/). For photos, the equivalent is [Remove EXIF Data](/remove-exif-data/)."
+   ],
+   [
+    "Works with almost any PDF",
+    "The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+   ],
+   [
+    "Windows, Mac, iPhone and Android",
+    "There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+   ],
+   [
+    "Common problems and fixes",
+    {
+     "list": [
+      "**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+      "**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+      "**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+      "**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+      "**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+     ]
+    }
+   ],
+   [
+    "Combine it with other PDF tools",
+    "Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "No upload – runs on your device",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Report of removed items",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Free without sign-up",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I remove metadata from a PDF?",
+    "a": "Drop it here and download the cleaned file."
+   },
+   {
+    "q": "What metadata is removed?",
+    "a": "Author, title, subject, keywords, creator, producer, dates and XMP."
+   },
+   {
+    "q": "Does it change the content?",
+    "a": "No, pages are untouched."
+   },
+   {
+    "q": "Can I remove attachments too?",
+    "a": "Yes, tick the option."
+   },
+   {
+    "q": "How do I check the metadata first?",
+    "a": "Open Edit PDF Metadata to view it."
+   },
+   {
+    "q": "Is it the same as redaction?",
+    "a": "No, redaction removes visible content."
+   },
+   {
+    "q": "Does it remove comments?",
+    "a": "Use PDF Cleaner for comments and other hidden data."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes."
+   },
+   {
+    "q": "Are files uploaded?",
+    "a": "No – important for confidential documents."
+   },
+   {
+    "q": "Does it work on iPhone?",
+    "a": "Yes."
+   }
+  ],
+  "related": [
+   "pdf-cleaner",
+   "edit-pdf-metadata",
+   "redact-pdf",
+   "remove-exif-data",
+   "optimize-pdf-for-web"
+  ],
+  "updated": "2026-10-25"
+ }
+}

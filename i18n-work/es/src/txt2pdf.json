@@ -1,0 +1,269 @@
+{
+ "name": "Text to PDF",
+ "short": "Convert TXT files to PDF.",
+ "title": "Text to PDF Converter Online Free – TXT to PDF Any Language",
+ "desc": "Convert plain text (.txt) files to neatly formatted PDF with your choice of page size, font size and margins. Many scripts supported.",
+ "h1": "Convert Text to PDF",
+ "steps": [
+  "Select one or more .txt files.",
+  "Pick page size, font size and margins.",
+  "Download the PDF (ZIP for several)."
+ ],
+ "faq": [
+  {
+   "q": "Does it support Tamil, Hindi, Arabic, Chinese text?",
+   "a": "Latin, Cyrillic, Greek, Indic, Arabic, Hebrew and Thai scripts are embedded with Noto fonts. CJK is not yet supported."
+  }
+ ],
+ "guide": {
+  "intro": "Plain text files open everywhere but look unpolished and print inconsistently. Converting to PDF fixes the layout, page size (A4 or Letter) and font for sharing or printing.",
+  "uses": [
+   "Turn notes, logs or code snippets into a printable PDF.",
+   "Share lyrics, scripts or poems in a fixed format.",
+   "Archive text records in a standard document format."
+  ],
+  "tips": [
+   "Choose a monospaced look for code or logs.",
+   "Pick A4 or Letter to match your printer."
+  ],
+  "faq": [
+   {
+    "q": "Which languages are supported?",
+    "a": "Latin, Cyrillic, Greek, Indic, Arabic, Hebrew and Thai scripts are embedded with Noto fonts. CJK is not yet supported."
+   }
+  ],
+  "more": [
+   [
+    "Fonts and scripts",
+    "The converter embeds Noto fonts so text in many languages and scripts displays correctly on any device, even if the reader does not have those fonts installed."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "Text to PDF Converter Free – TXT, Markdown, RTF to PDF",
+  "desc": "Convert TXT, Markdown and RTF files to PDF free in your browser. Page size, font size, margins, monospace layout, line and page numbers. No upload.",
+  "compareTitle": "{tool}: {brand} vs Smallpdf, iLovePDF and Online2PDF",
+  "compareCols": [
+   "Smallpdf",
+   "iLovePDF",
+   "Online2PDF"
+  ],
+  "sections": [
+   [
+    "Convert text to PDF online, free",
+    "This free text to PDF converter turns plain .txt files, Markdown (.md) and Rich Text (.rtf) into clean, searchable PDF documents directly in your browser. Drop one file or a whole batch, pick the page size, font size, margins and orientation, and download a single PDF or a ZIP. There is no upload, no sign-up, no watermark and no daily limit, and it works on Windows, Mac, Linux, ChromeOS, iPhone and Android."
+   ],
+   [
+    "How to convert a TXT file to PDF",
+    {
+     "steps": [
+      "Drop your .txt, .md or .rtf files on the page, or tap to choose them.",
+      "Open the options: choose A4, US Letter, Legal or A5, portrait or landscape, the font size (6–24 pt) and the margin in millimetres.",
+      "For code, logs or text tables pick *Keep exact lines – monospace* and, if you like, turn on line numbers.",
+      "Leave *Page numbers in footer* on for documents you will print or share.",
+      "Press Convert and download the PDF – or a ZIP when you converted several files."
+     ]
+    }
+   ],
+   [
+    "Two layouts: reflowed paragraphs or exact lines",
+    "Plain text has no formatting of its own, so the converter offers two ways to lay it out. *Reflow paragraphs* treats blank lines as paragraph breaks and wraps the words to the page width in a proportional font – ideal for notes, letters, essays, e-mails and exported chat logs, because the PDF reads like a normal document. *Keep exact lines – monospace* keeps every line break and space exactly as typed in a Courier-style font, which is what you want for source code, configuration files, server logs, ASCII art and column-aligned tables. Lines that are wider than the page are wrapped onto the next line instead of being cut off, so nothing is lost."
+   ],
+   [
+    "Markdown and RTF are converted with their formatting",
+    "Markdown files are rendered with GitHub-flavoured Markdown: headings, bold and italic text, bullet and numbered lists, task-list check boxes, block quotes, code blocks, horizontal rules, tables and images embedded as data URIs. RTF files from WordPad, TextEdit and older word processors keep their paragraphs, bold text and special characters. If you want more control over Markdown output, the dedicated [Markdown to PDF](/markdown-to-pdf/) tool has extra options."
+   ],
+   [
+    "Which page size and font size should I choose?",
+    {
+     "table": [
+      [
+       "Use",
+       "Page size",
+       "Font size",
+       "Margin"
+      ],
+      [
+       "Printing in Europe, India, Asia, Australia",
+       "A4",
+       "11 pt",
+       "20 mm"
+      ],
+      [
+       "Printing in the US and Canada",
+       "US Letter",
+       "11–12 pt",
+       "20–25 mm"
+      ],
+      [
+       "Code listings and logs",
+       "A4 or Letter, landscape",
+       "8–9 pt monospace",
+       "10–15 mm"
+      ],
+      [
+       "Reading on a phone or e-reader",
+       "A5",
+       "10–11 pt",
+       "10 mm"
+      ],
+      [
+       "Legal documents (US)",
+       "Legal",
+       "12 pt",
+       "25 mm"
+      ],
+      [
+       "Large print for easy reading",
+       "A4 or Letter",
+       "14–16 pt",
+       "20 mm"
+      ]
+     ]
+    },
+    "Landscape helps with wide log lines and tables because more characters fit on each line before wrapping; at 8 pt monospace on landscape A4 roughly 150 characters fit across the page."
+   ],
+   [
+    "Unicode, accents and other scripts",
+    "The converter embeds Noto fonts on demand, so accented Latin letters, Greek, Cyrillic, Arabic, Hebrew, Devanagari, Tamil, Thai, Chinese, Japanese and Korean text appear correctly in the PDF instead of as empty boxes. Text files should be saved as UTF-8 – the default in Notepad, TextEdit, VS Code and most editors today. If a very old file shows strange characters, open it in an editor, choose *Save as… UTF-8* and convert again."
+   ],
+   [
+    "Is the PDF searchable?",
+    "Yes. The text is written into the PDF as real text, not as a picture, so you can search it with Ctrl+F, select and copy it, and screen readers can read it aloud. File sizes stay tiny – a 100-page text document is typically well under a megabyte. To combine the result with other documents use [Merge PDF](/merge-pdf/); to shrink a PDF that contains images use [Compress PDF](/compress-pdf/)."
+   ],
+   [
+    "Text to PDF on iPhone, Android and Mac",
+    "On a phone, open this page in Safari or Chrome, tap the drop area and pick a .txt file from Files or Downloads. The PDF is saved to your downloads and can be shared straight to e-mail or WhatsApp. On a Mac you can also print from TextEdit to PDF, but that gives you no control over line numbers, monospace layout or batch conversion; on Windows, *Microsoft Print to PDF* works for one file at a time. This tool converts dozens of files in one go and names each PDF after its source file."
+   ],
+   [
+    "Common uses",
+    {
+     "list": [
+      "Turn meeting notes, journals and to-do lists into printable PDFs.",
+      "Archive server logs or exported chat transcripts in a format anyone can open.",
+      "Print source code with line numbers for a code review or an exam submission.",
+      "Submit README or Markdown documentation as a PDF attachment.",
+      "Convert old RTF letters into PDFs before you retire a computer.",
+      "Make a PDF of a plain-text e-book or a lyrics file to read on a tablet."
+     ]
+    }
+   ],
+   [
+    "Tips for the best result",
+    {
+     "list": [
+      "Separate paragraphs with a blank line – single line breaks are kept as line breaks inside a paragraph in reflow mode.",
+      "For tab-aligned columns use the monospace layout; tabs are expanded to four spaces.",
+      "Very long single lines (for example minified JSON) are easier to read after formatting them with [JSON Formatter](/json-formatter/).",
+      "Need the opposite? [PDF to Text](/pdf-to-text/) extracts text from any PDF."
+     ]
+    }
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab. Your files are read from your disk into memory, processed there and saved straight back to your device. They are never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – so it is safe for private notes, logs, contracts, code and anything else you would not hand to a stranger's server."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "TXT, Markdown and RTF",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Monospace layout with line numbers",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page numbers, orientation, margins",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch conversion with ZIP",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Works offline",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I convert a text file to PDF for free?",
+    "a": "Drop the .txt file on this page, adjust page size, font size and margins if you want, and press Convert. The PDF downloads immediately – no account or watermark."
+   },
+   {
+    "q": "Can I convert several TXT files to PDF at once?",
+    "a": "Yes. Select or drop as many files as you like; each becomes its own PDF and they are downloaded together as a ZIP."
+   },
+   {
+    "q": "Does it keep my line breaks and spacing?",
+    "a": "Choose *Keep exact lines – monospace* to keep every line break and space exactly. The default reflow layout keeps paragraphs and line breaks but uses a proportional font."
+   },
+   {
+    "q": "Can I add line numbers to a code listing?",
+    "a": "Yes. Pick the monospace layout and tick *Line numbers*. Numbers are right-aligned so the code stays in a straight column."
+   },
+   {
+    "q": "Does it support Markdown and RTF?",
+    "a": "Yes. Markdown is rendered with headings, lists, tables, code blocks and images; RTF keeps paragraphs, bold text and special characters."
+   },
+   {
+    "q": "Will Chinese, Arabic or Hindi text work?",
+    "a": "Yes. Fonts for most of the world's scripts are embedded automatically, provided the text file is saved as UTF-8."
+   },
+   {
+    "q": "Is the PDF text searchable and selectable?",
+    "a": "Yes. The text is real PDF text, so you can search, select and copy it and screen readers can read it."
+   },
+   {
+    "q": "How do I convert a TXT to PDF on iPhone?",
+    "a": "Open this page in Safari, tap the drop area, choose the file from the Files app and tap Convert. The PDF is saved to Downloads."
+   },
+   {
+    "q": "Are my files uploaded?",
+    "a": "No. The conversion runs entirely in your browser and the files never leave your device."
+   },
+   {
+    "q": "Is there a file size or page limit?",
+    "a": "There is no fixed limit; very large files are limited only by your device's memory. Text files of several megabytes convert in seconds."
+   }
+  ],
+  "related": [
+   "markdown-to-pdf",
+   "word-to-pdf",
+   "pdf-to-text",
+   "merge-pdf",
+   "html-to-pdf"
+  ],
+  "updated": "2026-10-25"
+ }
+}

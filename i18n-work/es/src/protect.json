@@ -1,0 +1,251 @@
+{
+ "name": "Protect PDF",
+ "short": "Add a password to your PDF.",
+ "title": "Protect PDF with Password Online Free – Encrypt PDF | {brand}",
+ "desc": "Encrypt a PDF with a password using AES-256. Free and secure — your file and password never leave your device.",
+ "h1": "Protect PDF with a password",
+ "steps": [
+  "Select your PDF.",
+  "Enter and confirm a password.",
+  "Click Start and download the encrypted PDF."
+ ],
+ "faq": [
+  {
+   "q": "How strong is the encryption?",
+   "a": "Files are encrypted with AES-256, the strongest standard PDF encryption."
+  }
+ ],
+ "guide": {
+  "intro": "Adding a password stops anyone without it from opening your PDF. {brand} encrypts files with AES-256 locally, so neither the file nor the password is ever sent over the internet.",
+  "uses": [
+   "Email salary slips, bank statements or medical reports safely.",
+   "Share ID documents with a password sent separately.",
+   "Protect business proposals and contracts."
+  ],
+  "tips": [
+   "Use a long password – try our Password Generator.",
+   "Share the password through a different channel than the file."
+  ],
+  "faq": [],
+  "more": [
+   [
+    "How PDF encryption works",
+    "AES-256 is the strongest encryption defined in the PDF standard and is supported by Adobe Reader, Chrome, Edge, Firefox, macOS Preview and modern mobile viewers. Without the password, the content cannot be read."
+   ],
+   [
+    "Choosing a strong password",
+    "Use at least 12–16 characters mixing words, numbers and symbols. A passphrase like “Coffee-Window-42-Orbit” is both strong and memorable. Never send the password in the same email as the file."
+   ],
+   [
+    "Works offline",
+    "Encryption happens in your browser, so you can protect files even without an internet connection once the page has loaded."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Protect PDF with Password – AES-256, Free, No Upload",
+  "desc": "Password-protect PDFs with AES-256 encryption. Control printing, copying and editing, set an owner password, batch files. Free, private, in your browser.",
+  "sections": [
+   [
+    "Lock your PDF with strong encryption",
+    "A password-protected PDF can only be opened by someone who knows the password. {brand} encrypts your file with **AES-256**, the strongest standard PDF encryption and the default recommended by the current PDF specification (ISO 32000-2). Some popular online tools advertise AES-128; AES-256 is supported by every modern reader, including Adobe Acrobat, Chrome, Edge, Firefox, macOS Preview and mobile apps. If you must support very old software, you can switch to AES-128.",
+    "Encryption happens inside your browser. The unprotected document and the password never leave your device – there is no server that could log them, and nothing to delete after an hour."
+   ],
+   [
+    "Choose what readers may do",
+    [
+     "**Open password** – required to view the document at all.",
+     "**Allow printing** – untick to block printing in compliant readers.",
+     "**Allow copying** – untick to stop text and images being copied out.",
+     "**Allow editing** – untick to prevent changes and page reorganisation.",
+     "**Allow comments & form filling** – keep forms usable while locking everything else.",
+     "**Owner password** – a second password that unlocks the restrictions for you, while recipients keep the limited rights.",
+     "**Strength meter** – see instantly whether your password is weak or strong; generate one with our [Password Generator](/password-generator/).",
+     "**Batch** – protect several PDFs with the same settings and download a ZIP."
+    ]
+   ],
+   [
+    "How PDF password protection works",
+    "When you protect a PDF, every text, image and font stream in the file is encrypted with a key derived from your password. Without the password the content is unreadable bytes. Permission settings (print, copy, edit) are stored alongside and honoured by standard PDF readers; they are a policy rather than unbreakable protection, so for truly confidential material rely on the open password and keep it secret.",
+    {
+     "table": [
+      [
+       "Setting",
+       "What it protects"
+      ],
+      [
+       "Open (user) password",
+       "Nobody can view the file without it"
+      ],
+      [
+       "Owner password",
+       "Lets you change or remove restrictions"
+      ],
+      [
+       "Permissions",
+       "Tell readers whether printing, copying or editing is allowed"
+      ]
+     ]
+    }
+   ],
+   [
+    "Choosing a good password",
+    [
+     "Use at least 12 characters, mixing upper and lower case, numbers and symbols – or four random words.",
+     "Never reuse a password from your e-mail or bank.",
+     "Send the password through a different channel than the file – for example, the PDF by e-mail and the password by SMS or phone.",
+     "Store it in a password manager; a lost password cannot be recovered by anyone, including us."
+    ]
+   ],
+   [
+    "How to password-protect a PDF",
+    [
+     "Drop your PDF (or several).",
+     "Type the password twice and check the strength indicator.",
+     "Optionally open Permissions to restrict printing, copying or editing and set an owner password.",
+     "Click Protect and download the encrypted PDF."
+    ]
+   ],
+   [
+    "Common uses",
+    [
+     "Sending payslips, tax returns and bank statements by e-mail.",
+     "Sharing contracts and HR documents with candidates.",
+     "Distributing exam papers or answer keys.",
+     "Protecting client reports and medical records.",
+     "Locking finished e-books against easy copying."
+    ]
+   ],
+   [
+    "Related tools",
+    "Need to remove a password you know? Use [Unlock PDF](/unlock-pdf/). Want to hide parts of a page permanently rather than lock the whole file? Use [Redact PDF](/redact-pdf/). Adding a visible 'Confidential' stamp? Try [Add Watermark](/add-watermark-to-pdf/)."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Encryption strength",
+    "AES-256 (AES-128 optional)",
+    "See site",
+    "AES 128-bit",
+    "See site",
+    "See site"
+   ],
+   [
+    "Print / copy / edit permissions",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Separate owner password",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch protect",
+    "Free, ZIP",
+    "See site",
+    "See site",
+    "See site",
+    "Within task limits"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How secure is PDF password protection?",
+    "a": "With AES-256 and a strong password, the content cannot practically be read without the password. Use 12+ characters and keep it secret."
+   },
+   {
+    "q": "Is my password sent anywhere?",
+    "a": "No. Encryption runs in your browser; the password and file never leave your device."
+   },
+   {
+    "q": "Can I stop people printing or copying my PDF?",
+    "a": "Yes. Untick Allow printing or Allow copying under Permissions. Standard readers respect these settings."
+   },
+   {
+    "q": "What is an owner password?",
+    "a": "A second password that removes the restrictions. Recipients open the file with the normal password and get limited rights; you keep full control."
+   },
+   {
+    "q": "Can I password-protect a PDF without installing software?",
+    "a": "Yes. This tool runs in any browser on Windows, Mac, Linux, Android and iPhone."
+   },
+   {
+    "q": "How do I share a password-protected PDF by e-mail?",
+    "a": "Attach the protected PDF and send the password separately, e.g. by text message or phone call."
+   },
+   {
+    "q": "What if I forget the password?",
+    "a": "It cannot be recovered – keep it in a password manager. Keep an unprotected original in a safe place."
+   },
+   {
+    "q": "Will every PDF reader open it?",
+    "a": "Yes. AES-256 is supported by Acrobat, browsers, Preview and mobile apps. Choose AES-128 only for very old software."
+   },
+   {
+    "q": "Can I protect several PDFs at once?",
+    "a": "Yes. Drop multiple files; all get the same password and settings, delivered as a ZIP."
+   },
+   {
+    "q": "What happens to my file afterwards?",
+    "a": "Nothing is stored. Closing the tab discards everything."
+   }
+  ],
+  "related": [
+   "unlock-pdf",
+   "password-generator",
+   "redact-pdf",
+   "add-watermark-to-pdf",
+   "sign-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I protect a PDF with a password?",
+    "a": "Drop the PDF, type a password, choose which actions to allow (printing, copying, editing) and download. The file is encrypted with AES-256 and anyone opening it is asked for the password."
+   },
+   {
+    "q": "How do I protect a PDF from editing and copying?",
+    "a": "Set an owner password and untick editing and copying. Readers can still open the file (or need an open password if you set one), but compliant PDF apps will block changes and text copying."
+   }
+  ]
+ }
+}

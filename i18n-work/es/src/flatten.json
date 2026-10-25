@@ -1,0 +1,245 @@
+{
+ "name": "Flatten PDF",
+ "short": "Make form fields and annotations permanent.",
+ "title": "Flatten PDF Online Free – Make Form Fields Non-Editable | {brand}",
+ "desc": "Flatten fillable PDF forms and annotations so values can no longer be changed, or flatten every page into an image. Free and private.",
+ "h1": "Flatten PDF",
+ "steps": [
+  "Select your PDF.",
+  "Choose forms only or everything.",
+  "Click Start and download."
+ ],
+ "faq": [
+  {
+   "q": "Will text remain searchable?",
+   "a": "Yes with Form fields only. Everything mode turns pages into images."
+  }
+ ],
+ "guide": {
+  "intro": "When you send a completed form, the recipient can usually still edit its fields. Flattening merges field values and annotations into the page so the form looks the same everywhere and cannot be casually changed.",
+  "uses": [
+   "Lock a completed application or tax form before submitting it.",
+   "Make sure comments and stamps display in every viewer.",
+   "Fix forms whose fields show blank on phones or in some printers."
+  ],
+  "tips": [
+   "Use \"Form fields only\" to keep text selectable.",
+   "\"Everything\" mode turns pages into images – stronger, but text cannot be selected.",
+   "Keep an unflattened copy in case you need to edit later."
+  ],
+  "faq": [
+   {
+    "q": "Will text remain searchable?",
+    "a": "Yes in Form fields only mode. Everything mode converts pages to images."
+   }
+  ],
+  "more": [
+   [
+    "Why flatten forms",
+    "Interactive form fields can display differently between viewers and can be edited after you submit them. Flattening locks the values into the page so what you send is exactly what the recipient sees."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "Flatten PDF – Lock Form Fields & Annotations Free",
+  "desc": "Flatten PDF forms and annotations so they cannot be edited: flatten form fields only, or all content into page images. Free, no upload, no sign-up.",
+  "compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+  "compareCols": [
+   "iLovePDF",
+   "Smallpdf",
+   "Sejda"
+  ],
+  "sections": [
+   [
+    "What does it mean to flatten a PDF?",
+    "Flattening merges interactive or layered parts of a PDF – fillable form fields, check boxes, drop-downs, comments, stamps and drawings – into the page itself. The document looks the same, but those elements stop being separate editable objects. A flattened form shows the answers as ordinary page content that cannot be changed by clicking into a field, and it prints and displays the same in every viewer.",
+    "People flatten PDFs before sending completed applications, contracts or tax forms, before archiving, when a portal rejects files with form fields, and when filled-in answers disappear or look different in another app."
+   ],
+   [
+    "Two flatten modes",
+    {
+     "table": [
+      [
+       "Mode",
+       "What happens",
+       "Text selectable?",
+       "Best for"
+      ],
+      [
+       "Form fields",
+       "Each field's current value is drawn into the page and the field is removed",
+       "Yes",
+       "Completed forms, applications"
+      ],
+      [
+       "All content",
+       "Every page is rendered and saved as an image",
+       "No (run OCR to restore)",
+       "Maximum lock-down, mixed annotations, odd viewer issues"
+      ]
+     ]
+    },
+    "Start with *Form fields*: it keeps the file small and text searchable. Use *All content* when annotations, layers or unusual form technology still appear editable or render differently across apps."
+   ],
+   [
+    "How to flatten a PDF for free",
+    {
+     "steps": [
+      "Fill in the form first, in any PDF app or with [Fill PDF form](/fill-pdf-form/).",
+      "Drop the PDF here.",
+      "Choose Form fields or All content.",
+      "Press Flatten and download."
+     ]
+    }
+   ],
+   [
+    "How to flatten a PDF so it cannot be edited",
+    "After flattening, form answers can no longer be changed by typing into fields. Bear in mind that any PDF can still be modified with an editor – flattening prevents accidental and casual changes, not determined tampering. For stronger protection, add a password with editing disabled using [Protect PDF](/protect-pdf/), and for proof of integrity use a certificate-based digital signature."
+   ],
+   [
+    "Does flattening decrease quality?",
+    "*Form fields* mode does not touch the rest of the page, so quality is identical. *All content* mode renders pages at about 144 dpi with high JPEG quality, which looks sharp on screen and in normal printing, but text becomes part of an image and the file can grow for text-heavy documents. Use it when appearance matters more than size or searchability."
+   ],
+   [
+    "Flattening a large PDF",
+    "Form-field flattening is quick even for long documents. All-content mode renders every page, so a 200-page file takes longer and the output may be larger; you can run [Compress PDF](/compress-pdf/) afterwards. A progress counter shows which page is being processed."
+   ],
+   [
+    "Why answers vanish without flattening",
+    "Some viewers, mobile apps and print drivers do not display form field values correctly, especially when fields use custom fonts or scripts. The person receiving your form may see empty boxes. Flattening draws the values into the page so everyone sees the same thing."
+   ],
+   [
+    "Flatten PDF online vs desktop software",
+    "Desktop editors can flatten through print-to-PDF or preflight tools, often in paid versions. Online services usually require uploading your completed form – including personal details like ID numbers and addresses. This tool flattens on your device, for free."
+   ],
+   [
+    "Glossary",
+    {
+     "table": [
+      [
+       "Term",
+       "Meaning"
+      ],
+      [
+       "Form field",
+       "An interactive box, check box or list in a PDF form"
+      ],
+      [
+       "Annotation",
+       "A comment, highlight, stamp or drawing layered on a page"
+      ],
+      [
+       "Appearance stream",
+       "The visual drawing of a field's value"
+      ],
+      [
+       "Rasterise",
+       "Convert page content into a pixel image"
+      ]
+     ]
+    }
+   ],
+   [
+    "Worked example",
+    "A completed job application form has fields that look different on every viewer and can be changed by anyone. Drop it here, flatten, and send the result: the answers now look identical everywhere, print reliably, and can no longer be edited by mistake. Keep your fillable original in case you need to update an answer later."
+   ],
+   [
+    "When not to flatten",
+    "Do not flatten a form that someone else still needs to fill in, or a document you will edit again. Flattening is a final step, like printing to paper: do it on a copy, just before sending or archiving."
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+   ],
+   [
+    "Related tools",
+    [
+     "[Fill PDF form](/fill-pdf-form/)",
+     "[Protect PDF](/protect-pdf/)",
+     "[Sign PDF](/sign-pdf/)",
+     "[Compress PDF](/compress-pdf/)",
+     "[OCR PDF](/ocr-pdf/)"
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Form-field flatten (keeps text)",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Full-page flatten",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Reports number of fields flattened",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "What does flatten PDF mean?",
+    "a": "It merges form fields and annotations into the page so they can no longer be edited."
+   },
+   {
+    "q": "How do I flatten a PDF?",
+    "a": "Drop it here, choose a mode and download the flattened file."
+   },
+   {
+    "q": "Can I flatten a PDF for free?",
+    "a": "Yes, with no sign-up or watermark."
+   },
+   {
+    "q": "Does flattening reduce quality?",
+    "a": "Form-field mode keeps quality identical; all-content mode renders pages as images."
+   },
+   {
+    "q": "Will text remain searchable?",
+    "a": "Yes in form-field mode; no in all-content mode unless you run OCR."
+   },
+   {
+    "q": "Can a flattened PDF be unflattened?",
+    "a": "No, keep the original if you may need to edit the form again."
+   },
+   {
+    "q": "Should I flatten before signing?",
+    "a": "Fill and flatten first, then sign, so the signature covers the final content."
+   },
+   {
+    "q": "Is my file uploaded?",
+    "a": "No, flattening runs in your browser."
+   }
+  ],
+  "related": [
+   "fill-pdf-form",
+   "protect-pdf",
+   "sign-pdf",
+   "compress-pdf",
+   "ocr-pdf"
+  ],
+  "updated": "2026-10-25"
+ }
+}

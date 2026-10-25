@@ -1,0 +1,526 @@
+{
+ "name": "QR Code Generator",
+ "short": "Free QR codes for links, WiFi, contacts and more.",
+ "title": "Free QR Code Generator – Logo, Colours, SVG & PDF, No Expiry | {brand}",
+ "desc": "Create free static QR codes for URLs, Wi-Fi, vCard, email, SMS, location and events. Add a logo and colours, download PNG, SVG or PDF. Never expires.",
+ "h1": "QR Code Generator",
+ "steps": [
+  "Choose a type (URL, WiFi, vCard…) and fill in the details.",
+  "Customise colours, dot style and add a logo.",
+  "Download PNG, SVG or PDF."
+ ],
+ "faq": [
+  {
+   "q": "Are the QR codes free forever?",
+   "a": "Yes. They are static codes that never expire and need no account. Nothing is tracked."
+  },
+  {
+   "q": "Will a logo break my QR code?",
+   "a": "A logo automatically switches error correction to high (30%), so the code still scans. Always test before printing."
+  },
+  {
+   "q": "Is my data uploaded?",
+   "a": "No. The QR code is generated in your browser."
+  }
+ ],
+ "guide": {
+  "intro": "Many \"free\" QR generators create dynamic codes that redirect through their servers and stop working when a trial ends. {brand} creates static codes: the content is inside the code itself, so it works forever, with no account and no tracking.",
+  "uses": [
+   "Link menus, flyers and posters to your website.",
+   "Share Wi-Fi with guests.",
+   "Put contact details on business cards.",
+   "Add QR codes to product packaging and event tickets."
+  ],
+  "tips": [
+   "Test the code with several phones before printing.",
+   "Keep strong contrast – dark code on a light background.",
+   "Download SVG or PDF for print to stay sharp at any size."
+  ],
+  "faq": [
+   {
+    "q": "Do these QR codes expire?",
+    "a": "No. They are static codes that never expire and need no account. Nothing is tracked."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "QR Code Generator – Free, Logo, No Sign-up, Never Expires",
+  "desc": "Free QR code generator: static codes for URLs, Wi-Fi, vCards, SMS and more. Logo, colours, gradient, eye shapes, frames. PNG, SVG, PDF. No sign-up.",
+  "compareTitle": "{tool}: {brand} vs QR Code Generator, QRCode Monkey and Adobe Express",
+  "compareCols": [
+   "qr-code-generator.com",
+   "QRCode Monkey",
+   "Adobe Express"
+  ],
+  "sections": [
+   [
+    "Free QR codes that keep working – forever",
+    "{brand}'s QR Code Generator makes QR codes for websites, Wi-Fi networks, contact cards, phone numbers, text messages, e-mails, locations, calendar events, social profiles, Bitcoin payments and plain text. Customise them with your colours, a gradient, your logo, rounded or dotted modules, custom corner 'eyes' and a frame with a call to action like 'Scan me', then download as PNG, SVG or PDF – ready for screens and print.",
+    "Every code is **static**: the information is stored in the pattern itself, not on a server. That means it never expires, has no scan limit, does not depend on any company staying in business, and cannot be switched off behind a paywall. There is no account, no trial and no watermark. The code is generated in your browser, so even your Wi-Fi password or contact details are never sent anywhere.",
+    "Because nothing is stored on a server, you can also generate codes offline once the page has loaded – handy at events, in shops with patchy signal, or on a laptop without internet access. Make as many as you like: one per table, product or poster, all free."
+   ],
+   [
+    "Features",
+    [
+     "**12 content types:** URL, text, e-mail, phone, SMS, Wi-Fi, vCard, MeCard, location, event, Bitcoin and social profile.",
+     "**Colours and gradient:** any foreground and background colour, or a two-colour gradient.",
+     "**Logo in the centre:** upload any image; error correction is raised automatically so the code still scans.",
+     "**Module styles:** square, rounded or dots.",
+     "**Corner eyes:** square, rounded or circle, in their own colour.",
+     "**Frames:** label below or box with label – write your own call to action.",
+     "**Error correction:** L, M, Q or H (7–30% recovery).",
+     "**High resolution:** up to 4000×4000 pixels PNG.",
+     "**Vector SVG** for unlimited scaling in print, and **PDF** for direct printing.",
+     "**Live preview** that updates as you type."
+    ]
+   ],
+   [
+    "How to create a QR code",
+    [
+     "Choose the type – for example URL or Wi-Fi.",
+     "Fill in the details: the web address, network name and password, contact fields, etc.",
+     "Customise: colours, gradient, logo, module style, corner style and frame.",
+     "Check the preview, and test it with your phone camera.",
+     "Download PNG for digital use, SVG or PDF for print."
+    ]
+   ],
+   [
+    "Static vs dynamic QR codes",
+    "There are two kinds of QR codes on the market. A **static** code encodes your content directly – the URL, the Wi-Fi details – in the black and white pattern. A **dynamic** code encodes a short link to the provider's server, which then redirects to your real URL. Dynamic codes let you change the destination later and count scans, but they only work while you keep paying the provider: if the subscription lapses, or the provider closes, every printed code stops working. Many 'free' generators create dynamic codes by default and deactivate them after a trial period – a frequent source of frustration for restaurants and small businesses whose menus suddenly stopped scanning.",
+    {
+     "table": [
+      [
+       "",
+       "Static ({brand})",
+       "Dynamic (subscription services)"
+      ],
+      [
+       "Expires",
+       "Never",
+       "When subscription or trial ends"
+      ],
+      [
+       "Scan limit",
+       "None",
+       "Depends on plan"
+      ],
+      [
+       "Works offline",
+       "Yes (Wi-Fi, vCard, text)",
+       "Needs internet and provider server"
+      ],
+      [
+       "Edit destination later",
+       "No – create a new code",
+       "Yes"
+      ],
+      [
+       "Scan statistics",
+       "No (use UTM tags in your URL)",
+       "Yes"
+      ],
+      [
+       "Privacy",
+       "Nothing tracked",
+       "Provider logs every scan"
+      ],
+      [
+       "Cost",
+       "Free",
+       "Usually monthly fee"
+      ]
+     ]
+    },
+    "Tip: to get both permanence and editability, point a static code at a URL you control, such as yoursite.com/menu, and change what that page shows. To measure scans, add UTM parameters (for example ?utm_source=poster) and read them in your own analytics."
+   ],
+   [
+    "The QR code types explained",
+    {
+     "table": [
+      [
+       "Type",
+       "What happens when scanned",
+       "Typical use"
+      ],
+      [
+       "URL",
+       "Opens the web page",
+       "Websites, menus, product pages"
+      ],
+      [
+       "Text",
+       "Shows the text",
+       "Serial numbers, short notes"
+      ],
+      [
+       "E-mail",
+       "Opens a new e-mail with address, subject and body",
+       "Support requests, feedback"
+      ],
+      [
+       "Phone",
+       "Offers to call the number",
+       "Business cards, signs"
+      ],
+      [
+       "SMS",
+       "Opens a text message with number and message",
+       "Competitions, opt-ins"
+      ],
+      [
+       "Wi-Fi",
+       "Joins the network without typing the password",
+       "Cafés, offices, Airbnb, home guests"
+      ],
+      [
+       "vCard",
+       "Saves a full contact card",
+       "Business cards, name badges"
+      ],
+      [
+       "MeCard",
+       "Saves a compact contact",
+       "Short codes for small prints"
+      ],
+      [
+       "Location",
+       "Opens the map at the coordinates",
+       "Event venues, shops"
+      ],
+      [
+       "Event",
+       "Adds the event to the calendar",
+       "Invitations, conference posters"
+      ],
+      [
+       "Bitcoin",
+       "Opens a wallet with address and amount",
+       "Donations, payments"
+      ],
+      [
+       "Social",
+       "Opens the profile",
+       "Instagram, LinkedIn, YouTube and more"
+      ]
+     ]
+    }
+   ],
+   [
+    "Designing a QR code that always scans",
+    [
+     "**Keep strong contrast.** Dark modules on a light background. Light-on-dark (inverted) codes are not read by some older scanners.",
+     "**Don't over-style.** Dots and gradients look great; check that the darkest and lightest colours still differ clearly.",
+     "**Keep the quiet zone.** The white margin around the code (at least four modules) helps cameras find it – don't crop it away.",
+     "**Logos up to about 20–25% of the area.** Larger logos hide too many modules even at level H.",
+     "**Shorter content = bigger modules.** A short URL produces a simpler code that scans from further away.",
+     "**Always test** with two or three phones – iPhone camera, Android camera and a scanner app – before printing thousands of copies."
+    ]
+   ],
+   [
+    "Error correction levels",
+    "QR codes contain redundant data so they still work when part of the code is damaged, dirty or covered by a logo. There are four levels: L recovers about 7% of damaged data, M about 15%, Q about 25% and H about 30%. Higher levels make the code denser. Use M for clean digital use, Q for outdoor print, and H when you add a logo – {brand} switches to H automatically when you upload one."
+   ],
+   [
+    "Print size and scanning distance",
+    "A useful rule of thumb is that a QR code can be scanned from about ten times its width: a 2 cm code from 20 cm, a 10 cm code on a poster from about 1 metre, and a 1 m code on a banner from about 10 metres. For business cards, 2–2.5 cm is the practical minimum. For printing, use SVG or PDF so the edges stay perfectly sharp at any size, or PNG at 2000 pixels or more.",
+    {
+     "table": [
+      [
+       "Placement",
+       "Recommended minimum size"
+      ],
+      [
+       "Business card",
+       "2–2.5 cm"
+      ],
+      [
+       "Flyer / menu",
+       "3–4 cm"
+      ],
+      [
+       "Table tent",
+       "4–5 cm"
+      ],
+      [
+       "A4 poster",
+       "8–10 cm"
+      ],
+      [
+       "Shop window",
+       "15–20 cm"
+      ],
+      [
+       "Billboard",
+       "Width ≈ viewing distance ÷ 10"
+      ]
+     ]
+    }
+   ],
+   [
+    "Wi-Fi QR codes",
+    "A Wi-Fi code lets guests join your network by pointing their camera at it – no spelling out long passwords. Enter the network name (SSID) exactly as it appears, the password, and the security type (WPA/WPA2/WPA3 for almost all modern routers, WEP for very old ones, or none for open networks). Tick 'hidden' if your network does not broadcast its name. iPhones (iOS 11 and later) and Android phones (10 and later) support Wi-Fi codes from the built-in camera. For a dedicated page with tips, see [Wi-Fi QR Code Generator](/wifi-qr-code-generator/)."
+   ],
+   [
+    "vCard QR codes for business cards",
+    "A vCard code holds your name, company, job title, phones, e-mail, website and address. When scanned, the phone offers to save the contact – no typing, no misspelled e-mail addresses. Keep it compact: every extra field adds data and makes the code denser, so on a small business card include only what people really need. See [vCard QR Code Generator](/vcard-qr-code-generator/) for a dedicated form."
+   ],
+   [
+    "Privacy",
+    "The QR code is generated entirely in your browser. What you type – web addresses, Wi-Fi passwords, phone numbers, contact details – is never sent to {brand} or anyone else. The resulting static code does not redirect through any server, so no one tracks who scans it, when or where.",
+    "Dynamic-code providers, by contrast, sit between every person who scans your code and your website and record scan data. That can be useful for marketing, but it is worth knowing before you print."
+   ],
+   [
+    "How a QR code works",
+    "QR stands for 'Quick Response'. The format was invented in 1994 by Denso Wave, a Toyota group company, to track car parts, and is now an international standard (ISO/IEC 18004). A QR code is a grid of square modules. The three large squares in the corners – the finder patterns or 'eyes' – let the camera locate the code and work out its angle. Smaller alignment patterns correct for perspective, timing lines set the grid, and format information tells the reader which error-correction level and mask are used. The rest of the grid holds your data, encoded with Reed–Solomon error correction, the same mathematics that lets scratched CDs play.",
+    "Codes come in 40 versions, from 21×21 modules (version 1) to 177×177 (version 40). The more data you encode and the higher the error correction, the larger the version – which is why a long URL with a logo produces a denser code than a short link without one. A version 40 code can hold up to about 4,296 alphanumeric characters, but for reliable scanning on phones, staying well below a few hundred characters is wise."
+   ],
+   [
+    "Choosing colours",
+    {
+     "table": [
+      [
+       "Combination",
+       "Scans?",
+       "Note"
+      ],
+      [
+       "Black on white",
+       "Excellent",
+       "The classic; safest choice"
+      ],
+      [
+       "Dark brand colour on white",
+       "Excellent",
+       "Navy, dark green, burgundy, dark purple"
+      ],
+      [
+       "Gradient between two dark colours",
+       "Very good",
+       "Keep both ends dark"
+      ],
+      [
+       "Dark on light pastel",
+       "Good",
+       "Check contrast in print"
+      ],
+      [
+       "Mid-tone on white (e.g. orange, light blue)",
+       "Risky",
+       "Contrast often too low"
+      ],
+      [
+       "White on black (inverted)",
+       "Varies",
+       "Many modern cameras read it; some apps don't"
+      ],
+      [
+       "Light colour on light background",
+       "Poor",
+       "Avoid"
+      ]
+     ]
+    },
+    "A simple test: convert your design to greyscale in your head – if the modules and background would be clearly different shades of grey, it will scan. Printing can also shift colours, particularly on uncoated or coloured paper, so print a test copy first."
+   ],
+   [
+    "PNG, SVG or PDF?",
+    "**PNG** is a pixel image, perfect for websites, slides, social posts and e-mail. Choose a size large enough for the use – 1000 pixels for screens, 2000–4000 for print. **SVG** is a vector format: the code is stored as shapes, so it can be enlarged to any size, from a sticker to a building wrap, without blur. Designers can open it in Illustrator, Inkscape, Figma or Affinity and change colours. **PDF** is ready to send to a printer or to place in a document; when you use gradients, frames or a logo, the PDF contains a high-resolution image of your styled code."
+   ],
+   [
+    "QR codes for restaurants and cafés",
+    "Menu codes on tables are one of the most popular uses. Link to a menu page on your own website, or to a PDF menu hosted on your site, rather than to a third-party dynamic link that may expire. Print codes 4–5 cm wide on table tents, add a frame with the text 'Scan for menu', and laminate them against spills. Put a Wi-Fi code next to it so guests can join your network instantly. If you update the menu, update the page or replace the PDF at the same address – the printed codes keep working."
+   ],
+   [
+    "Packaging, products and labels",
+    "On product packaging, QR codes link to instructions, ingredient lists, warranty registration, videos or reorder pages. Use a short URL so the code stays small and simple, keep it away from folds and curved edges, and use SVG so the printer gets perfectly sharp edges. On small labels, choose error correction M without a logo to keep modules as large as possible."
+   ],
+   [
+    "Events, flyers and posters",
+    "Event codes can add the date, time and place directly to a phone's calendar. Location codes open the venue in the map app. On posters, put the code at chest height, add a clear call to action ('Scan for tickets') in the frame, and make sure there is enough light where the poster hangs. Codes behind glass work, but avoid reflective lamination that creates glare."
+   ],
+   [
+    "Safety: QR code scams",
+    "Because people cannot read a QR code by eye, criminals sometimes stick fake codes over real ones on parking meters, posters or restaurant tables to send people to phishing pages – a scam sometimes called 'quishing'. If you place codes in public, check them regularly, consider tamper-evident stickers, and print your domain name under the code so people can see where it leads. When you scan a code yourself, check the URL preview your phone shows before opening it, and never enter passwords or payment details on a page reached from an unexpected code. You can check any code's contents safely with our [QR Code Scanner](/qr-code-scanner/)."
+   ],
+   [
+    "Pre-print checklist",
+    [
+     "Scan with at least two different phones from the intended distance.",
+     "Check that the link opens the right page on mobile – and that the page loads quickly.",
+     "Keep a quiet zone of at least four modules on every side.",
+     "Use SVG or PDF for professional printing.",
+     "Print a test copy on the final paper and test in the final lighting.",
+     "Add a short call to action so people know why they should scan.",
+     "Keep a copy of the content (URL, Wi-Fi password) in case you need to recreate the code."
+    ]
+   ],
+   [
+    "Glossary",
+    [
+     "**Module:** one square 'pixel' of the QR code grid.",
+     "**Finder pattern / eye:** the three large squares in the corners.",
+     "**Quiet zone:** the empty margin around the code.",
+     "**Error correction (L/M/Q/H):** redundancy that lets damaged codes still scan.",
+     "**Static code:** data stored directly in the code; never expires.",
+     "**Dynamic code:** a short redirect link managed by a provider; can be edited and tracked.",
+     "**Version:** the size of the grid, from 21×21 to 177×177 modules."
+    ]
+   ],
+   [
+    "How to scan a QR code",
+    "On an **iPhone**, open the Camera app and point it at the code; a banner with the link appears – tap it. You can also add the Code Scanner to Control Centre. On **Android**, open the camera (most phones since Android 9 scan automatically) or use Google Lens from the search bar or camera app. On a **computer**, upload a screenshot or photo of the code to our [QR Code Scanner](/qr-code-scanner/). Wi-Fi, contact and event codes trigger the matching action – join network, save contact, add to calendar – instead of opening a link."
+   ],
+   [
+    "Using a logo well",
+    "A logo makes a code instantly recognisable and increases trust, but it covers part of the data. Use a simple, high-contrast version of your logo – an icon or monogram rather than a full wordmark – on a square or circular image, ideally with a white or transparent background. Keep it to roughly a fifth of the code's width. Since the code relies on error correction to work around the logo, avoid combining a large logo with very long content, which makes modules small and leaves less margin for error. If you only have a logo with a busy background, cut it out first with [Remove Background](/remove-background/)."
+   ],
+   [
+    "Frames and calls to action",
+    "A bare QR code tells people nothing about what they will get; a short instruction next to it gives them a reason to pick up their phone. Use the frame option to add a label such as 'Scan for menu', 'Scan to join Wi-Fi', 'Scan for 10% off' or 'Watch the video'. The 'label below' frame adds a text strip under the code; 'box with label' surrounds the code with a coloured border, which also guarantees a clean quiet zone when the code is placed on busy backgrounds or photographs. Keep the label to two to four words so it stays readable at small sizes."
+   ],
+   [
+    "Accessibility",
+    "Not everyone can scan a code – some people have older phones, visual impairments or simply prefer not to. Whenever space allows, print a short, readable URL or phone number next to the code as an alternative, and use descriptive alt text when you place a QR image on a website. On screens, a QR code is mainly useful for moving from a desktop to a phone; on the phone itself, a normal link is always easier than a code."
+   ],
+   [
+    "QR codes in documents and presentations",
+    "Adding a QR code to a slide lets the audience open your resources, survey or contact page while you are still speaking. Place it in a corner of the final slide, at least a fifth of the slide height, and leave it on screen long enough for people at the back to scan. In reports, CVs and printed handouts, a small code beside a link saves readers from typing long addresses. Download PNG at 1000 pixels for PowerPoint, Google Slides or Keynote, or SVG for Word and InDesign layouts where it must stay crisp. You can also put a code into an existing PDF – such as a flyer or ticket – with [Add Image to PDF](/add-image-to-pdf/). For multi-page documents, consider a different code on each section page so readers jump straight to the relevant online material instead of a general homepage."
+   ],
+   [
+    "Related tools",
+    [
+     "[QR Code Scanner](/qr-code-scanner/) – read a QR code from an image or camera.",
+     "[Wi-Fi QR Code Generator](/wifi-qr-code-generator/) – share your network.",
+     "[vCard QR Code Generator](/vcard-qr-code-generator/) – digital business card.",
+     "[URL to QR Code](/url-to-qr-code/) – quick link codes.",
+     "[Remove Background](/remove-background/) – prepare a transparent logo."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your image is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Code type by default",
+    "Static (never expires)",
+    "Dynamic codes with sign-up / trial",
+    "Static, 'endless lifetime with unlimited scans'",
+    "See site"
+   ],
+   [
+    "Sign-up needed",
+    "No",
+    "Sign-up prompted",
+    "No",
+    "See site"
+   ],
+   [
+    "Logo",
+    "Yes",
+    "Yes",
+    "Yes (max 2 MB)",
+    "See site"
+   ],
+   [
+    "Gradient, eye styles, frames",
+    "Yes",
+    "Frames and colours",
+    "Colours and design options",
+    "See site"
+   ],
+   [
+    "Downloads",
+    "PNG, SVG, PDF",
+    "PNG/JPEG/SVG listed",
+    "PNG and free vector formats",
+    "See site"
+   ],
+   [
+    "Processing",
+    "In your browser",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Is this QR code generator really free?",
+    "a": "Yes. Unlimited codes, all design options and all download formats, with no account and no watermark."
+   },
+   {
+    "q": "Do the QR codes expire?",
+    "a": "No. They are static: the content is in the code itself, so it works forever."
+   },
+   {
+    "q": "Can I add my logo?",
+    "a": "Yes. Upload an image; error correction is set to H automatically so the code still scans."
+   },
+   {
+    "q": "Can I use the codes commercially?",
+    "a": "Yes. Use them on products, packaging, menus and advertising with no attribution required."
+   },
+   {
+    "q": "Can I change the link after printing?",
+    "a": "Not for a static code. Point it at a page you control, and change that page instead."
+   },
+   {
+    "q": "Can I track how many people scan it?",
+    "a": "Static codes have no built-in tracking. Add UTM parameters to the URL and check your own analytics."
+   },
+   {
+    "q": "Which format is best for printing?",
+    "a": "SVG or PDF – they are vector formats that stay sharp at any size."
+   },
+   {
+    "q": "Why doesn't my QR code scan?",
+    "a": "Usually too little contrast, an oversized logo, a cropped quiet zone or too small a print. Try simpler styling and test again."
+   },
+   {
+    "q": "Is my Wi-Fi password sent anywhere?",
+    "a": "No. The code is generated in your browser."
+   },
+   {
+    "q": "How big should a QR code be?",
+    "a": "At least 2 cm for business cards; in general about one tenth of the scanning distance."
+   }
+  ],
+  "related": [
+   "qr-code-scanner",
+   "wifi-qr-code-generator",
+   "vcard-qr-code-generator",
+   "url-to-qr-code",
+   "remove-background"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I create a QR code for free?",
+    "a": "Choose the type (URL, Wi-Fi, vCard, SMS and more), enter the details, customise colours, a logo or a frame, and download PNG, SVG or PDF. No sign-up."
+   },
+   {
+    "q": "Do these QR codes expire?",
+    "a": "No. They are static codes: the data is stored in the pattern itself, not behind a redirect, so they keep working forever."
+   }
+  ]
+ }
+}

@@ -1,0 +1,340 @@
+{
+ "name": "Collage Maker",
+ "short": "Combine photos into a grid collage.",
+ "title": "Collage Maker Online Free – Photo Grid, No Watermark",
+ "desc": "Create a photo collage from multiple images with adjustable columns, spacing and background. Free, private, no watermark.",
+ "h1": "Photo Collage Maker",
+ "steps": [
+  "Select two or more photos.",
+  "Choose columns, spacing, width and background.",
+  "Click Start and download your collage."
+ ],
+ "faq": [
+  {
+   "q": "Can I change the order?",
+   "a": "Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom."
+  }
+ ],
+ "guide": {
+  "intro": "A collage shows many photos in one image – perfect for social posts, event recaps, mood boards and family memories.",
+  "uses": [
+   "Share holiday highlights in one post.",
+   "Create a mood board for a project.",
+   "Make a product grid for an online store."
+  ],
+  "tips": [
+   "Use photos with similar aspect ratios for a neat grid.",
+   "Add spacing and a background colour that suits your photos."
+  ],
+  "faq": [
+   {
+    "q": "Can I change the order?",
+    "a": "Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom."
+   }
+  ],
+  "more": [
+   [
+    "Layout ideas",
+    "Two columns work well for before-and-after pairs, three or four for event highlights, and larger grids for product catalogues or mood boards. A thin white or dark gap gives a clean, modern look."
+   ],
+   [
+    "Sizes for social media",
+    "Square (1080 × 1080) and portrait 4:5 (1080 × 1350) collages display best in social feeds; landscape suits presentations and blogs."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "Collage Maker Online Free – Photo Grid, No Watermark",
+  "desc": "Make photo collages and grids free: choose columns, spacing, background and fit, then download JPG, PNG or WebP. No watermark, no sign-up, no upload.",
+  "compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+  "compareCols": [
+   "Canva",
+   "Adobe Express",
+   "iLoveIMG"
+  ],
+  "sections": [
+   [
+    "Free photo collage maker",
+    "Combine your favourite photos into one picture for Instagram, Facebook, a family album, a mood board or a product sheet. Drop the photos, choose the number of columns, spacing and background colour, decide whether photos are cropped to fill their cells or shown whole, and download a high-resolution JPG, PNG or WebP. No watermark, no account and no upload."
+   ],
+   [
+    "How to use it",
+    {
+     "steps": [
+      "Drop 2 to 50 photos.",
+      "Add them in the order you want them placed.",
+      "Set columns, output width, spacing and background.",
+      "Pick Fill (crop to cells) or Fit (show whole photos).",
+      "Download the collage."
+     ]
+    }
+   ],
+   [
+    "Layouts that work",
+    {
+     "table": [
+      [
+       "Photos",
+       "Columns",
+       "Looks like"
+      ],
+      [
+       "2",
+       "2",
+       "Side-by-side before/after"
+      ],
+      [
+       "3",
+       "3",
+       "Triptych / panorama strip"
+      ],
+      [
+       "4",
+       "2",
+       "Classic 2 × 2 grid"
+      ],
+      [
+       "6",
+       "3",
+       "3 × 2 grid for Facebook"
+      ],
+      [
+       "9",
+       "3",
+       "3 × 3 Instagram-style grid"
+      ],
+      [
+       "12–20",
+       "4",
+       "Mood board or contact sheet"
+      ]
+     ]
+    },
+    "For two images joined edge to edge without a grid, the [Image Joiner](/image-joiner/) is quicker."
+   ],
+   [
+    "Fill or fit?",
+    "*Fill* crops each photo to the same cell shape, giving a tidy, magazine-like grid – faces near the edges may be cut. *Fit* shows every photo whole and adds background around it – better for documents, screenshots and artwork. A white or soft-grey background with 10–20 px spacing looks clean; black works well for night photos and dramatic images."
+   ],
+   [
+    "Best output size",
+    {
+     "list": [
+      "Instagram: 1080 px wide (square or 4:5).",
+      "Facebook: 2048 px wide for sharp display.",
+      "Printing A4/Letter at 300 dpi: about 2480–2550 px wide.",
+      "Web pages: 1200–1600 px wide, then [Compress Image](/compress-image/)."
+     ]
+    }
+   ],
+   [
+    "Ideas",
+    {
+     "list": [
+      "Year-in-review or holiday highlights.",
+      "Wedding and baby milestone boards.",
+      "Real-estate listings with several rooms in one image.",
+      "Product variants and colour options for online shops.",
+      "Recipe step photos and DIY progress.",
+      "Mood boards for designers and stylists."
+     ]
+    }
+   ],
+   [
+    "Collage vs grid split",
+    "A collage combines many photos into one image. The opposite – splitting one photo into several posts that form a profile grid – is done by the [Instagram Grid Maker](/instagram-grid-maker/)."
+   ],
+   [
+    "Printing your collage",
+    "For a printed poster or photo book page, set the width from the print size: inches × 300 for sharp prints (an 8 × 10 in print needs 2400 px across), or centimetres × 118. Choose PNG or high-quality JPG, leave at least 20 px spacing so the cut lines between photos stay even, and keep important faces away from the outer edge in case the printer trims a few millimetres. Most photo labs accept JPG files up to 25–50 MB."
+   ],
+   [
+    "A 3 × 3 Instagram collage step by step",
+    {
+     "steps": [
+      "Pick nine photos with a common theme – a trip, a season, a product line.",
+      "Drop them in the order you want them read, left to right and top to bottom.",
+      "Set 3 columns, 1080 px width, 8–12 px spacing and a white background.",
+      "Choose Fill so every cell is a neat square.",
+      "Download as JPG and post it as a single square or 4:5 image."
+     ]
+    }
+   ],
+   [
+    "Colour and layout harmony",
+    "A collage looks deliberate when the photos share something: a dominant colour, similar brightness, or the same subject at different moments. Alternate close-ups with wide shots so the eye has places to rest, and avoid placing two very busy pictures next to each other. If one photo is much darker, brighten it with [Photo Filters](/photo-filters/) before combining. Even spacing and a neutral background make mixed photos feel like a set."
+   ],
+   [
+    "Collages for business",
+    "Online shops use collages to show every colour of a product in one image; estate agents combine rooms into one listing picture; event organisers share highlights the next morning; teachers make visual timetables and classroom displays. Because the tool runs offline in the browser, staff can use it on locked-down work computers without installing software or uploading customer photos to a third-party service."
+   ],
+   [
+    "Choosing the right photos",
+    "Start with more pictures than you need and cut ruthlessly: a collage of six strong images beats one of twenty average ones. Mix orientations carefully – in Fill mode portrait photos lose their top and bottom, and landscape photos lose their sides, so check that heads and key details stay inside each cell. Group photos look best in larger cells, so for a feature image use fewer columns. When telling a story, such as a trip or a renovation, order the photos in time so viewers read them naturally from the first cell to the last. If two photos are nearly identical, keep only the sharper one; repetition weakens a grid more than an empty cell would, and fewer, larger photos are easier to read on a small phone screen."
+   ],
+   [
+    "Spacing and background explained",
+    "Spacing is the gap in pixels between photos and around the outer edge. 0 px gives a seamless mosaic where photos touch; 5–10 px looks modern and tidy on phones; 20–40 px gives a gallery or scrapbook feel and leaves room for printing. The background colour fills the gaps and – in Fit mode – the space around photos that do not match the cell shape. Pick a colour taken from the photos themselves with the [Image Color Picker](/image-color-picker/) for a coordinated, designed look."
+   ],
+   [
+    "Quality tips",
+    "Use photos with similar lighting and colour for a calm result, or apply the same look with [Photo Filters](/photo-filters/) first. Put the strongest image in the top-left or centre cell, where eyes land first. HEIC photos from iPhones are converted automatically."
+   ],
+   [
+    "Photo formats at a glance",
+    {
+     "table": [
+      [
+       "Format",
+       "Compression",
+       "Transparency",
+       "Best for"
+      ],
+      [
+       "JPG",
+       "Lossy",
+       "No",
+       "Photos, e-mail, social media"
+      ],
+      [
+       "PNG",
+       "Lossless",
+       "Yes",
+       "Screenshots, logos, graphics with text"
+      ],
+      [
+       "WebP",
+       "Lossy or lossless",
+       "Yes",
+       "Websites – smaller than JPG and PNG"
+      ],
+      [
+       "AVIF",
+       "Lossy or lossless",
+       "Yes",
+       "Smallest files, newer browsers"
+      ],
+      [
+       "GIF",
+       "Lossless, 256 colours",
+       "1-bit",
+       "Simple animations"
+      ]
+     ]
+    },
+    "The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+   ],
+   [
+    "Works on any device",
+    "It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+   ],
+   [
+    "Quality and file size",
+    "Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+   ],
+   [
+    "Common problems and fixes",
+    {
+     "list": [
+      "**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+      "**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+      "**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+      "**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+      "**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+     ]
+    }
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch / multiple images",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Columns, spacing, fill/fit",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Works offline",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I make a photo collage for free?",
+    "a": "Drop your photos, choose columns and spacing, and download – no watermark."
+   },
+   {
+    "q": "How many photos can I add?",
+    "a": "Up to about 50; more cells make each photo smaller."
+   },
+   {
+    "q": "Is there a watermark?",
+    "a": "No."
+   },
+   {
+    "q": "Can I change the background colour?",
+    "a": "Yes, any colour."
+   },
+   {
+    "q": "Can I make a collage for Instagram?",
+    "a": "Yes, set 1080 px width and 2 or 3 columns."
+   },
+   {
+    "q": "Can photos be shown uncropped?",
+    "a": "Choose Fit mode."
+   },
+   {
+    "q": "In what order are photos placed?",
+    "a": "Left to right, top to bottom, in the order you add them."
+   },
+   {
+    "q": "What format is the collage?",
+    "a": "JPG, PNG or WebP."
+   },
+   {
+    "q": "Are my photos uploaded?",
+    "a": "No, the collage is built in your browser."
+   },
+   {
+    "q": "Does it work on iPhone?",
+    "a": "Yes, HEIC photos included."
+   }
+  ],
+  "related": [
+   "image-joiner",
+   "instagram-grid-maker",
+   "photo-filters",
+   "resize-image",
+   "compress-image"
+  ],
+  "updated": "2026-10-25"
+ }
+}

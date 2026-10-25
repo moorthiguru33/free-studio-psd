@@ -1,0 +1,264 @@
+{
+ "name": "Resize PDF",
+ "short": "Scale PDF pages to a new paper size.",
+ "title": "Resize PDF Pages Online Free – Uniform Paper Size | {brand}",
+ "desc": "Resize all PDF pages to one standard paper size (A4, Letter and more). Mixed page sizes become uniform. Free, no upload.",
+ "h1": "Resize PDF Pages",
+ "steps": [
+  "Select your PDF.",
+  "Pick the target size.",
+  "Download."
+ ],
+ "faq": [
+  {
+   "q": "Is this the same as compressing?",
+   "a": "No – this changes the paper size. To reduce file size use Compress PDF."
+  }
+ ],
+ "guide": {
+  "intro": "PDFs assembled from different sources often have pages of different sizes, which looks messy and prints badly. Resizing makes every page the same paper size while keeping content sharp.",
+  "uses": [
+   "Make a merged PDF consistent before printing or binding.",
+   "Fit phone scans and receipts onto standard pages.",
+   "Normalise pages before creating a booklet."
+  ],
+  "tips": [
+   "This changes paper size, not file size.",
+   "Check landscape pages – they are fitted into the new size."
+  ],
+  "faq": [
+   {
+    "q": "Will this reduce my PDF's file size?",
+    "a": "No – this changes the paper size. To reduce file size use Compress PDF."
+   }
+  ],
+  "more": [
+   [
+    "Common paper sizes",
+    "A4 (210 × 297 mm) is standard in most of the world; US Letter (8.5 × 11 in) and Legal (8.5 × 14 in) are used in North America. A3 is common for drawings and A5 for booklets."
+   ],
+   [
+    "Resize vs compress",
+    "Resizing changes the physical page dimensions; it does not shrink file size. To reduce megabytes, use Compress PDF."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "Resize PDF Pages – Scale to A4 or Letter Online Free",
+  "desc": "Resize PDF pages to A4, Letter, Legal, A3 or a custom size with margins. Mixed page sizes become uniform for printing. Free, no upload, no sign-up.",
+  "compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+  "compareCols": [
+   "iLovePDF",
+   "Smallpdf",
+   "Adobe Acrobat online"
+  ],
+  "sections": [
+   [
+    "Resize PDF pages to one size",
+    "Make every page of a PDF the size you need – A4 for Europe and Asia, US Letter for North America, Legal, A3, A5 or a custom size – in portrait or landscape. Content is scaled proportionally and centred so nothing is stretched or cut, and you can add a margin so printers do not clip the edges."
+   ],
+   [
+    "How to use it",
+    {
+     "steps": [
+      "Drop the PDF.",
+      "Choose the target page size and orientation (or Same as original).",
+      "Set a margin in millimetres if you want white space around the content.",
+      "Download the resized PDF."
+     ]
+    }
+   ],
+   [
+    "Common page sizes",
+    {
+     "table": [
+      [
+       "Size",
+       "Millimetres",
+       "Inches",
+       "Used in"
+      ],
+      [
+       "A4",
+       "210 × 297",
+       "8.27 × 11.69",
+       "Most of the world"
+      ],
+      [
+       "US Letter",
+       "216 × 279",
+       "8.5 × 11",
+       "USA, Canada"
+      ],
+      [
+       "US Legal",
+       "216 × 356",
+       "8.5 × 14",
+       "US legal documents"
+      ],
+      [
+       "A3",
+       "297 × 420",
+       "11.7 × 16.5",
+       "Posters, drawings"
+      ],
+      [
+       "A5",
+       "148 × 210",
+       "5.8 × 8.3",
+       "Booklets, notebooks"
+      ]
+     ]
+    },
+    "PDF measures pages in points: 72 points = 1 inch, so A4 is 595 × 842 pt and Letter 612 × 792 pt."
+   ],
+   [
+    "Scaling without distortion",
+    "Each page's content is placed as a vector form on the new page, scaled by the same factor horizontally and vertically, then centred. Text stays selectable and sharp; nothing is rasterised. If the original and target shapes differ – for example Letter to A4 – there will be slightly wider white space on two sides, which is better than stretching the content."
+   ],
+   [
+    "Printing a Letter PDF on A4 (and back)",
+    "Printing a US Letter document on A4 paper without resizing often cuts off the bottom lines or leaves uneven margins. Converting it to A4 here first gives a clean result on any printer. Similarly, convert A4 documents to Letter before sending them to North American printers and courts."
+   ],
+   [
+    "Resize pages vs reduce file size",
+    "'Resize PDF' can mean two things. This tool changes the *physical page dimensions* – for example from Letter to A4, or making a PDF with mixed page sizes uniform. If you want a smaller *file* in megabytes, use [Compress PDF](/compress-pdf/) or one of the target-size tools such as [Compress PDF to 1 MB](/compress-pdf-to-1mb/). Changing page size does not by itself make the file noticeably smaller, because the content is kept as vectors."
+   ],
+   [
+    "Mixed page sizes",
+    "Scans from different machines, merged documents and phone captures often produce PDFs where every page is a slightly different size, which looks messy and confuses printers. Resizing to one size centres every page's content on identical sheets, so the document prints consistently, binds neatly and looks professional when scrolled on screen."
+   ],
+   [
+    "Typical jobs",
+    {
+     "list": [
+      "Convert a US Letter contract to A4 for a European client, or vice versa.",
+      "Make a merged scan uniform before printing or e-filing.",
+      "Shrink A3 drawings onto A4 for a report appendix.",
+      "Add white margins so a printer does not clip edge-to-edge content.",
+      "Prepare pages for binding with an extra inner margin."
+     ]
+    }
+   ],
+   [
+    "Margins for binding and printing",
+    "Office printers cannot print to the very edge; a 5 mm margin keeps content safe. For ring or comb binding add 10–15 mm. Commercial printers need bleed rather than margin – see [Print-Ready PDF](/print-ready-pdf/). The margin setting here is applied on every side, and content is scaled down evenly to fit inside it."
+   ],
+   [
+    "Works with almost any PDF",
+    "The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+   ],
+   [
+    "Windows, Mac, iPhone and Android",
+    "There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+   ],
+   [
+    "Common problems and fixes",
+    {
+     "list": [
+      "**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+      "**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+      "**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+      "**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+      "**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+     ]
+    }
+   ],
+   [
+    "Combine it with other PDF tools",
+    "Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "No upload – runs on your device",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Vector scaling + margins",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Free without sign-up",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I change a PDF to A4?",
+    "a": "Drop it, choose A4 and download."
+   },
+   {
+    "q": "Will the content be stretched?",
+    "a": "No, it is scaled proportionally and centred."
+   },
+   {
+    "q": "Can I convert Letter to A4?",
+    "a": "Yes."
+   },
+   {
+    "q": "Can I make all pages the same size?",
+    "a": "Yes, every page gets the chosen size."
+   },
+   {
+    "q": "Can I add margins?",
+    "a": "Yes, in millimetres."
+   },
+   {
+    "q": "Does text stay selectable?",
+    "a": "Yes, nothing is rasterised."
+   },
+   {
+    "q": "Does this reduce file size?",
+    "a": "No – use Compress PDF for that."
+   },
+   {
+    "q": "Can I switch to landscape?",
+    "a": "Yes, choose the orientation."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes."
+   },
+   {
+    "q": "Are files uploaded?",
+    "a": "No."
+   }
+  ],
+  "related": [
+   "compress-pdf",
+   "crop-pdf",
+   "print-ready-pdf",
+   "n-up-pdf",
+   "rotate-pdf"
+  ],
+  "updated": "2026-10-25"
+ }
+}

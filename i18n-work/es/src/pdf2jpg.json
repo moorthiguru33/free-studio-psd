@@ -1,0 +1,241 @@
+{
+ "name": "PDF to JPG",
+ "short": "Turn every PDF page into a JPG or PNG image.",
+ "title": "PDF to JPG Converter Online Free – High Quality | {brand}",
+ "desc": "Convert each page of a PDF into high-quality JPG or PNG images. Free, no limits, done in your browser.",
+ "h1": "Convert PDF to JPG",
+ "steps": [
+  "Select your PDF.",
+  "Choose the image format and resolution.",
+  "Click Start and download the images as a ZIP."
+ ],
+ "faq": [
+  {
+   "q": "What resolution are the images?",
+   "a": "You can choose from standard (1x) up to high resolution (3x, about 216 DPI)."
+  }
+ ],
+ "guide": {
+  "intro": "Converting PDF pages to images makes them easy to share on social media, insert into slides or view on any device. {brand} renders each page in your browser at the resolution you choose.",
+  "uses": [
+   "Share a single page of a PDF on WhatsApp or Instagram.",
+   "Insert PDF pages into PowerPoint or Google Slides.",
+   "Create thumbnails or previews of a document."
+  ],
+  "tips": [
+   "Choose PNG for sharp text and diagrams, JPG for smaller photo pages.",
+   "Use 2x or 3x resolution if the images will be printed or zoomed."
+  ],
+  "faq": [],
+  "more": [
+   [
+    "JPG or PNG?",
+    "JPG gives smaller files for pages with photos. PNG keeps text and line art perfectly sharp and supports lossless quality. For screenshots of documents shared in chats, PNG at 2x is usually the best balance."
+   ],
+   [
+    "Resolution guide",
+    "1x is good for previews, 2x for most screens and documents, 3x for printing or zooming into details."
+   ]
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "PDF to JPG – Convert PDF Pages to Images Free, No Upload",
+  "desc": "Convert every PDF page to JPG, PNG or WebP at up to 300 DPI, or pick a page range. Free in your browser – no upload, no sign-up, works offline.",
+  "sections": [
+   [
+    "Convert PDF pages to high-quality images",
+    "{brand} renders each page of your PDF with PDF.js – the same engine Firefox uses to display PDFs – and saves it as an image. You choose the format and resolution, optionally limit the conversion to certain pages, and download a single image or a ZIP of all pages. The PDF is never uploaded, so even confidential documents can be converted safely.",
+    [
+     "**Formats** – JPG for small files, PNG for lossless text and diagrams, or WebP for the best size-to-quality ratio on the web.",
+     "**Resolution** – 72 DPI (screen), 144 DPI (default, sharp on most displays), 216 DPI or 300 DPI for printing.",
+     "**Page range** – convert just ‘1-3,5’ instead of a 200-page document.",
+     "**Extract images mode** – switch Mode to *Extract images* to save the original photos embedded in the PDF at full quality instead of rendering whole pages (choose *Original* to keep JPEGs byte-for-byte)."
+    ]
+   ],
+   [
+    "Which DPI should I choose?",
+    {
+     "table": [
+      [
+       "Use",
+       "Recommended setting",
+       "Why"
+      ],
+      [
+       "Slides, social media, web",
+       "144 DPI",
+       "Sharp on screens, small files"
+      ],
+      [
+       "Thumbnails, previews",
+       "72 DPI",
+       "Smallest files"
+      ],
+      [
+       "Zoomable detail, OCR",
+       "216 DPI",
+       "Fine text stays readable"
+      ],
+      [
+       "Printing",
+       "300 DPI",
+       "Print-shop standard"
+      ]
+     ]
+    },
+    "Higher DPI produces larger images and takes longer on phones. A typical A4 page is about 1190 × 1684 pixels at 144 DPI and 2480 × 3508 pixels at 300 DPI."
+   ],
+   [
+    "Will image quality be affected?",
+    "Pages are rendered from the original vector data, so text and drawings are crisp at whatever resolution you pick – there is no quality loss from the PDF itself. JPG uses high quality compression; if you need pixel-perfect text edges, choose PNG."
+   ],
+   [
+    "Converting PDF to JPG on Mac, Windows or mobile",
+    "Everything happens in the browser, so the steps are identical everywhere: open the page, choose the PDF, pick format and DPI and press Convert. On iPhone the images can be saved to Photos from the Files app; on Android they land in Downloads. And because the code is already loaded, you can convert PDFs offline once the page is open."
+   ],
+   [
+    "Does the original PDF stay unchanged?",
+    "Yes. {brand} only reads your file; the original PDF on your device is never modified, and no copy is kept anywhere – closing the tab discards everything. Converting the same file again later gives identical results."
+   ],
+   [
+    "JPG, PNG or WebP?",
+    {
+     "table": [
+      [
+       "Format",
+       "File size",
+       "Quality",
+       "Best for"
+      ],
+      [
+       "JPG",
+       "Small",
+       "Very good for photos, slight softening of text edges",
+       "Sharing, e-mail, social media"
+      ],
+      [
+       "PNG",
+       "Largest",
+       "Lossless, perfect text edges",
+       "Diagrams, text-heavy pages, editing"
+      ],
+      [
+       "WebP",
+       "Smallest",
+       "Very good",
+       "Websites, blogs"
+      ]
+     ]
+    },
+    "If you are unsure, use JPG at 144 DPI – it is universally supported and looks sharp on screens. For printing or OCR, use PNG or JPG at 300 DPI."
+   ],
+   [
+    "Step-by-step: turn a PDF into images",
+    "1. Choose or drop your PDF. 2. Pick JPG, PNG or WebP. 3. Choose a resolution – 144 DPI for screens or 300 DPI for print. 4. Optionally enter pages like 2-4. 5. Press Convert and download a single image or a ZIP with every page, named in page order so they sort correctly in any folder.",
+    "Big documents are processed page by page with progress shown, so a 100-page PDF at 144 DPI typically finishes in well under a minute on a laptop. Memory is freed after each page, which keeps phones and tablets responsive."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Output formats",
+    "JPG, PNG, WebP",
+    "JPG",
+    "JPG",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page to image and Extract images modes",
+    "Both",
+    "Both",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Choose resolution (DPI)",
+    "72–300 DPI",
+    "See site",
+    "Not offered on page",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I convert PDF to JPG for free with no sign-up?",
+    "a": "Choose your PDF on this page and click Convert. There is no account, no e-mail and no watermark – ever."
+   },
+   {
+    "q": "Can I extract individual images from a PDF?",
+    "a": "Yes – set Mode to Extract images and the photos embedded in the PDF are saved in their original quality, rather than rendering whole pages."
+   },
+   {
+    "q": "Will my image quality be affected?",
+    "a": "No. Pages are rendered from vector data at the DPI you choose. For print, choose 300 DPI; for lossless output, choose PNG."
+   },
+   {
+    "q": "Can I convert only some pages?",
+    "a": "Yes. Enter a page range such as 1-3,5 in the Pages box. Leave it blank to convert every page."
+   },
+   {
+    "q": "Can I convert PDF to JPG offline?",
+    "a": "Yes. After the page loads, switch off your connection – conversion still works, because it runs entirely in your browser."
+   },
+   {
+    "q": "How do I convert a PDF to JPG on iPhone?",
+    "a": "Open this page in Safari, tap to choose the PDF from Files, convert, then save the images from the download to Photos."
+   },
+   {
+    "q": "What is the difference between PDF to JPG and Extract Images?",
+    "a": "PDF to JPG renders whole pages, including text. Extract Images saves only the pictures embedded inside the PDF, at their original resolution."
+   }
+  ],
+  "related": [
+   "jpg-to-pdf",
+   "pdf-to-png",
+   "extract-images-from-pdf",
+   "compress-image",
+   "split-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I convert PDF to JPG or PNG?",
+    "a": "Drop the PDF, choose JPG, PNG or WebP and a resolution (up to 300 DPI), optionally enter a page range, then convert. Download single images or a ZIP of every page."
+   }
+  ]
+ }
+}

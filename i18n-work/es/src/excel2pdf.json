@@ -1,0 +1,235 @@
+{
+ "name": "Excel to PDF",
+ "short": "Convert spreadsheets to clean PDF tables.",
+ "title": "Excel to PDF – Convert XLSX, XLS, ODS to PDF Free, No Upload | {brand}",
+ "desc": "Convert Excel spreadsheets (XLSX, XLS, ODS, CSV) to PDF with readable tables, one section per sheet and repeated headers. Free, private, no sign-up.",
+ "h1": "Convert Excel to PDF",
+ "steps": [
+  "Select spreadsheets.",
+  "Choose page size.",
+  "Download the PDF."
+ ],
+ "faq": [
+  {
+   "q": "Are all sheets included?",
+   "a": "Yes, every non-empty sheet becomes its own section with the sheet name as heading."
+  },
+  {
+   "q": "Will formulas show?",
+   "a": "The calculated values are shown, as formatted in the file."
+  }
+ ],
+ "guide": {
+  "intro": "Sharing a spreadsheet as PDF ensures everyone sees the same numbers without editing them. {brand} turns every sheet into a clean PDF table with the first row as a header, wrapping long cells and splitting big sheets across pages – without Excel installed and without uploading your financial data.",
+  "uses": [
+   "Send a price list or quotation as a PDF.",
+   "Print a timetable or attendance sheet.",
+   "Archive monthly reports as PDF.",
+   "Share data with people who do not have Excel."
+  ],
+  "tips": [
+   "Wide sheets fit better on A3 or Legal.",
+   "Delete unneeded columns before converting for a tidier table.",
+   "Need the reverse? Use PDF to Excel."
+  ],
+  "faq": [
+   {
+    "q": "Does it keep colours and charts?",
+    "a": "It focuses on data: cell values in clean tables. Charts and cell colours are not reproduced."
+   },
+   {
+    "q": "Is my data uploaded?",
+    "a": "No – conversion happens in your browser."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Excel to PDF Converter – Free, Fit to Page, No Upload",
+  "desc": "Convert Excel (XLSX, XLS, ODS, CSV) to PDF free. Auto landscape for wide sheets, fit columns, choose sheets, batch files. No upload, no sign-up.",
+  "sections": [
+   [
+    "Turn spreadsheets into clean, shareable PDFs",
+    "Spreadsheets are great for working with numbers but awkward to share: columns get cut off, the recipient may not have Excel, and formulas can be changed by accident. A PDF freezes the table in a readable layout that opens on any device. {brand} converts XLSX, XLS, ODS, CSV and TSV files to PDF right in your browser, so price lists, payroll sheets and financial reports never leave your computer."
+   ],
+   [
+    "Options that make the table fit",
+    [
+     "**Auto orientation** – wide sheets automatically switch to landscape; or force portrait or landscape.",
+     "**Fit columns to page width** – text size adapts to the number of columns; choose small text to squeeze in more columns or large text for readability.",
+     "**Choose sheets** – convert all sheets or only those you list by name or number (e.g. 1, Summary).",
+     "**Page size** – A4, Letter, Legal or A3.",
+     "**Batch** – convert many workbooks at once into one PDF with bookmarks or a ZIP of separate PDFs.",
+     "**Every common format** – XLSX, XLS (Excel 97–2003), ODS (LibreOffice), CSV and TSV."
+    ]
+   ],
+   [
+    "How to convert Excel to PDF",
+    [
+     "Drop one or more spreadsheet files.",
+     "Choose orientation, fit and page size; list sheets if you only want some.",
+     "Choose one combined PDF or one PDF per file.",
+     "Click Convert and download."
+    ]
+   ],
+   [
+    "Tips for perfect results",
+    [
+     "Wide sheets with many columns read best in landscape on A3 or with 'small text'.",
+     "Hide or delete helper columns before converting – everything with data is included.",
+     "Empty rows are skipped automatically to save pages.",
+     "Each sheet starts with its name as a heading when a workbook has several sheets.",
+     "Very long sheets continue across pages; the header row starts the table.",
+     "Need the opposite direction? [PDF to Excel](/pdf-to-excel/) turns PDF tables back into spreadsheets."
+    ]
+   ],
+   [
+    "Excel's own 'Save as PDF' vs this tool",
+    "Excel on Windows and Mac can export to PDF via File → Save As / Export, and Google Sheets via File → Download → PDF. Those respect print areas and page setup you have defined. This tool is handy when you do not have Excel, are on a phone or Chromebook, need to convert many files at once, or received a CSV that you simply want to read as a neat table."
+   ],
+   [
+    "Common uses",
+    [
+     "Sending invoices, quotes and price lists to customers.",
+     "Sharing budgets and reports with people who do not use Excel.",
+     "Archiving monthly payroll and accounting exports.",
+     "Printing timetables, rosters and inventory lists.",
+     "Turning CSV exports from apps and banks into readable documents."
+    ]
+   ],
+   [
+    "Privacy",
+    "Spreadsheets often hold the most sensitive numbers in a company – salaries, margins, customer lists. Because conversion happens in your browser, they are never uploaded, logged or stored. Close the tab and everything is gone."
+   ],
+   [
+    "What happens to formulas and formatting",
+    "The PDF shows the values your formulas calculated when the workbook was last saved, not the formulas themselves – exactly what a printed copy would show. Dates and numbers appear as formatted in the sheet. Cell colours, merged cells and charts are simplified into a clean table so the data stays readable at any size."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "XLS, XLSX, ODS, CSV, TSV input",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Auto landscape / fit columns",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Choose sheets",
+    "Yes",
+    "See site",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch",
+    "Free",
+    "See site",
+    "See site",
+    "See site",
+    "Within task limits"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I convert Excel to PDF?",
+    "a": "Drop the XLSX, XLS, ODS or CSV file here, choose orientation and fit, and click Convert."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes, with no limits, watermark or sign-up."
+   },
+   {
+    "q": "Is my spreadsheet uploaded?",
+    "a": "No. Conversion happens entirely in your browser."
+   },
+   {
+    "q": "How do I stop columns being cut off?",
+    "a": "Leave orientation on Auto (wide sheets become landscape) and choose 'Small text', or use A3 page size."
+   },
+   {
+    "q": "Can I convert only one sheet?",
+    "a": "Yes. Type the sheet name or number in 'Sheets'."
+   },
+   {
+    "q": "Can I convert several workbooks at once?",
+    "a": "Yes. Combine them into one PDF with bookmarks or get one PDF per file."
+   },
+   {
+    "q": "Does it support CSV?",
+    "a": "Yes, CSV and TSV are converted into formatted tables."
+   },
+   {
+    "q": "Are charts and images included?",
+    "a": "The converter focuses on cell data. For charts, export them from Excel as images or use Excel's own Save as PDF."
+   },
+   {
+    "q": "Can I convert on my phone?",
+    "a": "Yes. It works in any modern mobile browser."
+   }
+  ],
+  "related": [
+   "pdf-to-excel",
+   "word-to-pdf",
+   "powerpoint-to-pdf",
+   "merge-pdf",
+   "csv-to-excel"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I convert Excel to PDF on one page?",
+    "a": "Turn on fit-to-width: the columns are scaled to fit the page, and wide sheets switch to landscape automatically, so nothing is cut off at the edge."
+   },
+   {
+    "q": "How do I convert Excel to PDF without losing formatting?",
+    "a": "Cell values, column widths, bold text and borders are kept. Charts and complex conditional formatting may not be reproduced – check the preview, or export from Excel when a sheet depends on them."
+   },
+   {
+    "q": "Can I convert Excel to PDF in landscape?",
+    "a": "Yes. Choose landscape, or leave orientation on automatic and wide sheets will be laid out in landscape."
+   }
+  ]
+ }
+}

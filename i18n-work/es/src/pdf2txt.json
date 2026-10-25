@@ -1,0 +1,211 @@
+{
+ "name": "PDF to Text",
+ "short": "Extract plain text from a PDF.",
+ "title": "PDF to Text Converter Online Free – Extract Text from PDF",
+ "desc": "Extract all text from a PDF into a .txt file, in reading order with paragraphs joined. Free, no upload, no sign-up.",
+ "h1": "PDF to Text",
+ "steps": [
+  "Select your PDF.",
+  "Choose whether to mark page breaks.",
+  "Download the text file."
+ ],
+ "faq": [
+  {
+   "q": "My PDF is a scan – no text?",
+   "a": "Use OCR PDF first to recognize the text."
+  }
+ ],
+ "guide": {
+  "intro": "Plain text is the easiest format to search, analyse, translate or paste into another app. PDF to Text pulls out every word in reading order without the formatting.",
+  "uses": [
+   "Paste document text into a translator or AI assistant.",
+   "Analyse text in a spreadsheet or script.",
+   "Make a document accessible to screen readers or plain-text tools."
+  ],
+  "tips": [
+   "For headings and lists, PDF to Markdown keeps more structure.",
+   "Scanned PDFs need OCR."
+  ],
+  "faq": [
+   {
+    "q": "What if my PDF is scanned?",
+    "a": "Use OCR PDF first to recognise the text."
+   }
+  ],
+  "more": [
+   [
+    "Plain text use cases",
+    "Text files are tiny, open on any device and are ideal for word counts, translation, search indexing, data analysis or pasting into AI assistants. Removing formatting also helps screen readers and accessibility tools."
+   ],
+   [
+    "Reading order",
+    "Text is extracted in reading order and lines are joined into paragraphs, but multi-column layouts may need small corrections."
+   ]
+  ]
+ },
+ "seo": {
+  "title": "PDF to Text – Extract Plain Text from PDF (TXT) Free",
+  "desc": "Convert PDF to plain text (.txt) in your browser: clean lines and paragraphs, optional page-break markers, Unicode. Free, no upload, no sign-up.",
+  "compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Adobe",
+  "compareCols": [
+   "iLovePDF",
+   "Smallpdf",
+   "Adobe Acrobat online"
+  ],
+  "sections": [
+   [
+    "Convert PDF to plain text",
+    "Get all the text out of a PDF as a simple .txt file – ideal for copying into other programs, feeding to analysis or AI tools, translation, accessibility, search indexing or just reading on any device. Lines and paragraphs are rebuilt from the PDF layout; all languages and scripts are kept as Unicode."
+   ],
+   [
+    "How to use it",
+    {
+     "steps": [
+      "Drop the PDF.",
+      "Tick Mark page breaks if you want page separators.",
+      "Press Convert and download the .txt file."
+     ]
+    }
+   ],
+   [
+    "Scanned PDFs",
+    "Extraction reads the PDF's text layer. Scanned pages are pictures without text, so they produce empty pages. Run [OCR PDF](/ocr-pdf/) first, then extract."
+   ],
+   [
+    "Why spacing or order can look odd",
+    "PDFs store text as positioned fragments, not paragraphs. The extractor rebuilds lines and paragraphs from their positions. Multi-column layouts, tables, footnotes and sidebars may come out in a different order than you read them, and hyphenated line breaks stay hyphenated. Tables are best extracted with [PDF to Excel](/pdf-to-excel/) or [PDF to CSV](/pdf-to-csv/)."
+   ],
+   [
+    "Mark page breaks",
+    "Tick *Mark page breaks* to insert a clear separator at each page, so you can find where page 12 starts or quote with page numbers."
+   ],
+   [
+    "Plain text uses",
+    {
+     "list": [
+      "Paste into ChatGPT, translation tools or a word counter – see [Word Counter](/word-counter/).",
+      "Import into a spreadsheet, database or search index.",
+      "Read on old e-readers and screen readers.",
+      "Compare two versions with the [Text Diff Checker](/text-diff-checker/).",
+      "Keep a lightweight, future-proof archive copy."
+     ]
+    }
+   ],
+   [
+    "Works with almost any PDF",
+    "The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+   ],
+   [
+    "Windows, Mac, iPhone and Android",
+    "There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+   ],
+   [
+    "Common problems and fixes",
+    {
+     "list": [
+      "**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+      "**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+      "**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+      "**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+      "**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+     ]
+    }
+   ],
+   [
+    "Combine it with other PDF tools",
+    "Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "No upload – runs on your device",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Page-break markers, UTF-8",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Free without sign-up",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I convert PDF to text?",
+    "a": "Drop the PDF and download the .txt."
+   },
+   {
+    "q": "Does it keep formatting?",
+    "a": "No – plain text has no fonts or layout; use PDF to Word for that."
+   },
+   {
+    "q": "Why is my text file empty?",
+    "a": "The PDF is scanned; run OCR first."
+   },
+   {
+    "q": "Does it support Hindi, Arabic or Chinese?",
+    "a": "Yes, as Unicode if the PDF has proper text mapping."
+   },
+   {
+    "q": "Can I mark page numbers?",
+    "a": "Yes, tick Mark page breaks."
+   },
+   {
+    "q": "Is the encoding UTF-8?",
+    "a": "Yes."
+   },
+   {
+    "q": "Can I extract tables?",
+    "a": "Use PDF to Excel or CSV."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes."
+   },
+   {
+    "q": "Are files uploaded?",
+    "a": "No."
+   },
+   {
+    "q": "Does it work on phones?",
+    "a": "Yes."
+   }
+  ],
+  "related": [
+   "pdf-to-word",
+   "ocr-pdf",
+   "pdf-to-markdown",
+   "word-counter",
+   "pdf-to-html"
+  ],
+  "updated": "2026-10-25"
+ }
+}

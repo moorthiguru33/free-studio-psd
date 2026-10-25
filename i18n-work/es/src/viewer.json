@@ -1,0 +1,318 @@
+{
+ "name": "PDF Reader",
+ "short": "Open and read PDFs online with search and zoom.",
+ "title": "PDF Reader Online – Open & View PDF Files Free, No Upload",
+ "desc": "Open PDF files in your browser: fast scrolling, zoom, page jump, full-text search and night mode. Save selected pages as a new PDF.",
+ "h1": "Online PDF Reader",
+ "steps": [
+  "Select a PDF.",
+  "Scroll, zoom, search or jump to a page.",
+  "Optionally save selected pages as a new PDF."
+ ],
+ "faq": [
+  {
+   "q": "Do I need to install anything?",
+   "a": "No. It works in any modern browser on phone, tablet or computer."
+  },
+  {
+   "q": "Is the file uploaded?",
+   "a": "No, it is opened locally – perfect for private documents on shared computers."
+  }
+ ],
+ "guide": {
+  "intro": "Sometimes you just need to read a PDF – on a library computer, a work laptop without Acrobat, or a phone whose viewer cannot search. {brand}'s reader renders pages on demand for fast scrolling even in long documents, searches the full text with result snippets, and offers a night mode for comfortable reading.",
+  "uses": [
+   "Read a PDF on a computer without a PDF app.",
+   "Search a long manual for every mention of a term.",
+   "Read at night with dark mode.",
+   "Pull a few pages out as a separate PDF."
+  ],
+  "tips": [
+   "Type at least two letters to search; click a result to jump to its page.",
+   "Use + / − to zoom; pages re-render sharply at each zoom level.",
+   "Enter page ranges like 1-3,7 to save just those pages."
+  ],
+  "faq": [
+   {
+    "q": "Can I annotate?",
+    "a": "Use Edit PDF for text, drawings and highlights."
+   },
+   {
+    "q": "Does it support password-protected PDFs?",
+    "a": "Unlock the file with Unlock PDF first."
+   }
+  ]
+ },
+ "seo": {
+  "title": "PDF Reader Online – Open, Search & Read PDFs Free",
+  "desc": "Open and read PDFs in your browser: fast continuous scrolling, zoom, fit width, page jump, full-text search with hit list, night mode. No upload.",
+  "compareTitle": "{tool}: {brand} vs Acrobat Reader, Chrome viewer and Smallpdf",
+  "compareCols": [
+   "Adobe Acrobat Reader",
+   "Chrome PDF viewer",
+   "Smallpdf reader"
+  ],
+  "sections": [
+   [
+    "Free online PDF reader",
+    "Open any PDF instantly on any device – no Adobe Reader install, no account, no upload. The reader renders pages as you scroll so even 1,000-page manuals open quickly, and gives you the essentials: zoom and fit-to-width, jump to a page, full-text search with a list of every match, a night mode for reading in the dark and a document information panel. When you need only part of the document, save the pages you choose as a new PDF."
+   ],
+   [
+    "How to use it",
+    {
+     "steps": [
+      "Drop or open the PDF.",
+      "Scroll to read; zoom or fit width.",
+      "Search for words and jump between matches; switch on night mode.",
+      "Optionally enter pages and save them as a new PDF."
+     ]
+    }
+   ],
+   [
+    "Features at a glance",
+    {
+     "table": [
+      [
+       "Feature",
+       "What it does"
+      ],
+      [
+       "Continuous scroll with lazy rendering",
+       "Pages draw as they come into view, so huge files open fast and use little memory"
+      ],
+      [
+       "Zoom and fit width",
+       "Read comfortably on phones, tablets and wide monitors"
+      ],
+      [
+       "Page jump",
+       "Type a page number to go straight there"
+      ],
+      [
+       "Full-text search with hit list",
+       "Every match listed with context; click to jump"
+      ],
+      [
+       "Night mode",
+       "Dark pages with light text for low-light reading"
+      ],
+      [
+       "Document info",
+       "Page count, file size, PDF version, title and outline"
+      ],
+      [
+       "Save selected pages",
+       "Export, for example, 3-7, 12 as a new PDF"
+      ]
+     ]
+    }
+   ],
+   [
+    "Why read PDFs in the browser?",
+    "Desktop PDF software is often large, asks for updates and sign-ins, and opens files with features (scripts, forms, plug-ins) you rarely need. A browser-based reader is sandboxed by the browser's security model, starts instantly and works the same on Windows, macOS, Linux, ChromeOS, Android and iOS. Because Fileopia renders the file locally with Mozilla's PDF.js engine – the same engine behind Firefox's built-in viewer – confidential documents never leave your device."
+   ],
+   [
+    "Searching a PDF",
+    {
+     "list": [
+      "Type a word or phrase; the hit list shows each occurrence with the surrounding text and page number.",
+      "Click a hit to jump to it; matches are highlighted on the page.",
+      "Search is case-insensitive and works across the whole document.",
+      "Scanned PDFs have no text layer, so search finds nothing – make the file searchable with [OCR PDF](/ocr-pdf/) first."
+     ]
+    }
+   ],
+   [
+    "Reading comfortably on a phone",
+    "Use *fit width* so lines fill the screen, then scroll vertically. Pinch-zoom works as usual. Night mode reduces glare at bedtime. For books, a reflowable format is easier on small screens – convert with [PDF to EPUB](/pdf-to-epub/), or listen instead with [PDF to Speech](/pdf-to-speech/)."
+   ],
+   [
+    "Saving only some pages",
+    "Type page numbers and ranges such as 1-3, 8, 10-12 and press *Save selected pages* to get a smaller PDF with just those pages – handy for sending one chapter, a single invoice from a statement or the signature page of a contract. For more page operations see [Split PDF](/split-pdf/), [Extract Pages](/extract-pdf-pages/) and [Organize PDF](/organize-pdf/)."
+   ],
+   [
+    "File types and limits",
+    "The reader opens standard PDFs from version 1.0 to 2.0, including files with forms, annotations, layers and embedded fonts. Very large scans (hundreds of megabytes) depend on your device's memory; a modern phone comfortably reads files of 50–100 MB. Password-protected PDFs need the password – remove it permanently with [Unlock PDF](/unlock-pdf/) if you are allowed to."
+   ],
+   [
+    "Reader vs editor",
+    "This page is for reading. To change the document use the dedicated tools: [Edit PDF](/edit-pdf/) for text and images, [Sign PDF](/sign-pdf/) to sign, [Fill PDF Form](/fill-pdf-form/) for forms, [Merge PDF](/merge-pdf/) to combine, [Compress PDF](/compress-pdf/) to shrink and [Rotate PDF](/rotate-pdf/) for sideways pages. Each one works the same way – locally in your browser."
+   ],
+   [
+    "Opening PDFs from e-mail and cloud storage",
+    "On a phone, tap the drop area and choose *Browse* or *Files* to pick a PDF saved from Gmail, Outlook, WhatsApp, Google Drive, iCloud Drive or OneDrive. Cloud files must be downloaded to the device first; files that are still \"online only\" placeholders cannot be read. On a computer, drag the attachment from your downloads folder onto the page."
+   ],
+   [
+    "Accessibility",
+    "Text is rendered with a selectable text layer, so you can copy passages and use your browser's own tools. Zoom up to large sizes for low vision, use night mode to reduce glare, and have pages read aloud with [PDF to Speech](/pdf-to-speech/). Tagged PDFs keep their reading order in the text layer."
+   ],
+   [
+    "Keyboard shortcuts",
+    "Use your browser's normal keys: Page Up/Page Down or the space bar to scroll, Ctrl/Cmd + and − to zoom the whole page, Home and End for the first and last page, and Ctrl/Cmd+F focuses the browser search, while the reader's own search box gives the full hit list."
+   ],
+   [
+    "Set as your everyday reader",
+    "Bookmark the page or add it to your home screen. Once loaded it also works offline, so you can read downloaded documents on a flight or in an area with poor signal."
+   ],
+   [
+    "Common questions about opening PDFs",
+    {
+     "list": [
+      "**\"Failed to load PDF\"** – the file may be incomplete or damaged; try [Repair PDF](/repair-pdf/).",
+      "**Blank or grey pages** – very complex vector drawings can take a few seconds; wait or zoom out.",
+      "**Strange characters** – the PDF uses unembedded fonts; text is still searchable if a text layer exists.",
+      "**Sideways pages** – rotate them permanently with Rotate PDF.",
+      "**Huge file on a phone** – compress it first or save only the pages you need."
+     ]
+    }
+   ],
+   [
+    "Comparing PDF readers",
+    "Adobe Acrobat Reader is the reference desktop app and supports every PDF feature, including XFA forms and certificate signatures, but it is large and pushes a subscription. Browser built-in viewers in Chrome, Edge and Firefox are quick but have limited search lists and no page export. Fileopia sits in between: instant, private, with a hit list, night mode and page export, and nothing to install."
+   ],
+   [
+    "Reading long documents efficiently",
+    {
+     "list": [
+      "Skim the outline (bookmarks) in the document info panel to see the structure before you start.",
+      "Search for key terms – a name, clause number or figure – and use the hit list as a mini index.",
+      "Read at *fit width* on a laptop, and switch to a larger zoom for dense tables or footnotes.",
+      "Note page numbers of important passages, then save just those pages as a short extract to share.",
+      "For a quick overview of a report, run it through [Summarize PDF](/summarize-pdf/) first and read the full sections that matter."
+     ]
+    }
+   ],
+   [
+    "Students and researchers",
+    "Lecture slides, journal articles and e-books are mostly PDFs. Open them here on a library computer or a borrowed laptop without signing in to anything, search for the concepts you are revising, and export the chapter you need for printing. Because nothing is stored on the computer or uploaded, there is no risk of leaving your files behind on a shared machine. Ask questions about a paper with [Chat with PDF](/chat-with-pdf/) or quiz yourself with the [PDF Question Generator](/pdf-question-generator/)."
+   ],
+   [
+    "Business and legal documents",
+    "Contracts, invoices, statements, tenders and HR policies often contain personal or commercially sensitive data, and many companies forbid uploading them to online converters. A local reader avoids that problem entirely: the file is read from your disk into the browser tab and disappears when you close it. Use search to check clauses quickly – \"termination\", \"indemnity\", \"payment\" – and save the relevant pages as an extract for a colleague."
+   ],
+   [
+    "Older and unusual PDFs",
+    "Files produced by old scanners, fax software and legacy publishing systems sometimes use rare compression or fonts. PDF.js supports nearly all standard filters (Flate, LZW, DCT/JPEG, JBIG2, JPEG 2000, CCITT fax) and Type 1, TrueType, OpenType and CID fonts, so even decades-old archives usually display correctly. If a page looks wrong, try [Repair PDF](/repair-pdf/), which rebuilds the file structure."
+   ],
+   [
+    "Printing from the reader",
+    "To print, open the PDF in your browser's built-in viewer or download the selected pages and print them from there; choose *Actual size* to keep the original scale, or *Fit* for documents with wide margins. Printing only the pages you need saves paper and toner, especially with long manuals and statements where only a few pages matter. For double-sided booklets use Create Booklet PDF, and for large wall charts use PDF Poster. Duplex printers can print the extract on both sides automatically; choose *flip on long edge* for portrait documents so the back pages are not upside down, and check the preview before sending a long job to a shared office printer."
+   ],
+   [
+    "Works with almost any PDF",
+    "The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+   ],
+   [
+    "Windows, Mac, iPhone and Android",
+    "There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+   ],
+   [
+    "Common problems and fixes",
+    {
+     "list": [
+      "**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+      "**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+      "**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+      "**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+      "**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+     ]
+    }
+   ],
+   [
+    "Combine it with other PDF tools",
+    "Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "No upload – runs on your device",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Search hit list, night mode, page export",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Free without sign-up",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I open a PDF online?",
+    "a": "Drop it on the page; it opens instantly."
+   },
+   {
+    "q": "Is the PDF uploaded?",
+    "a": "No, it is rendered on your device."
+   },
+   {
+    "q": "Can I search inside the PDF?",
+    "a": "Yes, with a list of all matches."
+   },
+   {
+    "q": "Is there a dark mode?",
+    "a": "Yes, night mode."
+   },
+   {
+    "q": "Can I save only some pages?",
+    "a": "Yes, enter pages and save."
+   },
+   {
+    "q": "Does it work on iPhone and Android?",
+    "a": "Yes."
+   },
+   {
+    "q": "Can it open password-protected PDFs?",
+    "a": "With the password."
+   },
+   {
+    "q": "Why can't I search a scanned PDF?",
+    "a": "It has no text; run OCR first."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Yes."
+   },
+   {
+    "q": "Does it work offline?",
+    "a": "Yes, once loaded."
+   }
+  ],
+  "related": [
+   "edit-pdf",
+   "ocr-pdf",
+   "split-pdf",
+   "pdf-to-speech",
+   "compress-pdf"
+  ],
+  "updated": "2026-10-25"
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "name": "Merge PDF",
+ "short": "Combine multiple PDFs into one document.",
+ "title": "Merge PDF – Combine PDF Files Online Free, No Upload | {brand}",
+ "desc": "Merge PDF files into one document in seconds. Free, no sign-up, no file limits and no watermark. Files are combined in your browser and never uploaded.",
+ "h1": "Merge PDF files",
+ "steps": [
+  "Select or drop the PDF files you want to combine.",
+  "Reorder them with the Up/Down buttons.",
+  "Click Start and download your merged PDF."
+ ],
+ "faq": [
+  {
+   "q": "How many PDFs can I merge?",
+   "a": "As many as your device's memory can handle — there is no artificial limit."
+  }
+ ],
+ "guide": {
+  "intro": "Merging PDFs is the quickest way to turn scattered documents – scans, invoices, chapters, forms – into one tidy file that is easy to share, print and archive. {brand} joins your files right inside your browser, so even confidential contracts or ID scans never touch a server.",
+  "uses": [
+   "Combine a scanned passport, ID and application form into one PDF for an online application.",
+   "Join monthly invoices or bank statements into a single file for your accountant.",
+   "Put together chapters, a cover page and an appendix into one report or thesis.",
+   "Merge several signed pages back into the full contract."
+  ],
+  "tips": [
+   "Sort files into the right order before you click Start – use the Up/Down buttons.",
+   "If the final file is too large for email, run it through Compress PDF afterwards.",
+   "Need only some pages from each file? Split or Extract pages first, then merge."
+  ],
+  "faq": [
+   {
+    "q": "Will merging reduce the quality of my PDFs?",
+    "a": "No. Pages are copied as they are, so text stays selectable and images keep their original quality."
+   },
+   {
+    "q": "Can I merge password-protected PDFs?",
+    "a": "Unlock them first with Unlock PDF (you need the password), then merge."
+   }
+  ]
+ },
+ "seo": {
+  "updated": "2026-10-25",
+  "title": "Merge PDF – Combine PDF Files & Images Free, No Upload",
+  "desc": "Merge PDF files and JPG/PNG images into one PDF free in your browser. Drag to reorder, bookmarks per file, blank-page separators. No upload, no sign-up.",
+  "sections": [
+   [
+    "Combine PDF files in the order you want",
+    "Add two or more PDFs, drag the file cards into the order you need – or use the sort button to order them alphabetically – and press Merge. {brand} copies every page into a new document without re-encoding anything, so text, links, fonts and image quality are preserved exactly. The merge happens inside your browser, which means a 300-page bundle of confidential contracts never touches a server.",
+    [
+     "**Mix PDFs and images** – JPG, PNG, WebP, HEIC, AVIF, GIF and BMP files are added as pages, so you can append a photographed receipt to an expense report in one go.",
+     "**A bookmark for each file** – the merged PDF gets an outline entry named after each source file, so readers can jump straight to ‘Invoice‑March’ or ‘Chapter 3’ in any PDF viewer.",
+     "**Blank-page separators** – optionally insert an empty page between files, handy for printing sections.",
+     "**Even page padding for duplex printing** – pads each file to an even page count so every document starts on a new sheet when printed double-sided."
+    ]
+   ],
+   [
+    "How to merge PDFs offline",
+    "Once this page has loaded you can disconnect from the internet and keep merging – the pdf-lib engine that does the work is already in your browser. That makes {brand} a practical offline PDF merger on a train, in a secure office network or anywhere connectivity is poor, without installing software."
+   ],
+   [
+    "Merging on Mac, Windows, iPhone and Android",
+    "Because it is a web page, the same tool works in Safari on macOS and iOS, Chrome or Edge on Windows, and Chrome on Android. On a phone, tap the upload area to choose files from Files, Photos or Google Drive; the merged PDF is saved to your downloads. macOS users can also merge in Preview, but {brand} is quicker when the files come from different folders or include images."
+   ],
+   [
+    "Can I merge files stored in Google Drive?",
+    "Yes – download them first, or on Android and iOS pick them directly from the Drive provider in the file picker. The files are read locally; {brand} never asks for access to your Drive account."
+   ],
+   [
+    "Reducing the size of a merged PDF",
+    "Merging adds sizes together: three 4 MB scans make a 12 MB PDF. If that is too large for e-mail, run the result through [Compress PDF](/compress-pdf/) or a fixed-size tool like [Compress PDF to 1 MB](/compress-pdf-to-1mb/). Compressing once after merging is faster than compressing every part."
+   ],
+   [
+    "Merging Word, Excel or PowerPoint files",
+    "Convert them to PDF first with [Word to PDF](/word-to-pdf/), [Excel to PDF](/excel-to-pdf/) or [PowerPoint to PDF](/powerpoint-to-pdf/) – all of which also run locally – and then merge the PDFs here. Need to reorder or remove individual pages after merging? Use [Organize PDF](/organize-pdf/)."
+   ],
+   [
+    "Tips for a tidy merged document",
+    [
+     "Name files before merging – the names become bookmarks, so ‘01 Cover’, ‘02 Report’ is better than ‘scan0043’.",
+     "Use the A–Z sort when files are numbered, then fine-tune by dragging.",
+     "Rotate sideways pages afterwards with [Rotate PDF](/rotate-pdf/), and add [page numbers](/add-page-numbers/) once the final order is set.",
+     "Turn on even page padding before printing double-sided bundles."
+    ]
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers",
+    "Their servers",
+    "Adobe cloud",
+    "Their servers"
+   ],
+   [
+    "Works with Wi‑Fi switched off",
+    "Yes, after the page loads",
+    "No",
+    "No",
+    "No",
+    "No"
+   ],
+   [
+    "Account or e-mail needed",
+    "Never",
+    "Not for basic use",
+    "Not for basic use",
+    "Sign-in for some actions",
+    "Not for basic use"
+   ],
+   [
+    "Free usage caps",
+    "None – limited only by your device",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "Free tier; Premium for more",
+    "3 tasks/hour, 50 MB per file"
+   ],
+   [
+    "Add images (JPG/PNG/HEIC) as pages",
+    "Yes",
+    "Separate tool",
+    "Yes (PDF, Office, JPG, PNG)",
+    "See site",
+    "See site"
+   ],
+   [
+    "Bookmarks per file",
+    "Yes",
+    "Not offered on page",
+    "Not offered on page",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Can I merge PDF and JPG files together?",
+    "a": "Yes. Add images alongside PDFs and each image becomes a page in the order shown. HEIC photos from iPhones work too."
+   },
+   {
+    "q": "How can I merge PDF files on a Mac?",
+    "a": "Open this page in Safari or Chrome, add the files, drag them into order and click Merge. Nothing to install, and the files stay on your Mac."
+   },
+   {
+    "q": "How do I reduce the size of a merged PDF?",
+    "a": "Run the merged file through Compress PDF. The Recommended level usually cuts scanned documents by more than half while keeping text sharp."
+   },
+   {
+    "q": "Can I combine password-protected PDFs?",
+    "a": "Encrypted PDFs must be unlocked first with Unlock PDF, using the password you know. Then merge them normally."
+   },
+   {
+    "q": "What is the best way to combine PDF files offline?",
+    "a": "Open this page once, then go offline – merging keeps working in the browser with no installation. Your files never leave your device."
+   }
+  ],
+  "related": [
+   "split-pdf",
+   "organize-pdf",
+   "compress-pdf",
+   "jpg-to-pdf",
+   "word-to-pdf"
+  ],
+  "faqKw": [
+   {
+    "q": "How do I merge PDF files into one?",
+    "a": "Drop all your PDFs (and JPG or PNG images if you like) on this page, drag the cards into the order you want, and press Merge. You download a single PDF that contains every page, optionally with a bookmark for each file."
+   },
+   {
+    "q": "Can I merge PDFs for free without signing up?",
+    "a": "Yes. The PDF merger is free with no account, no watermark and no daily limit, because the files are combined on your own device rather than on a server."
+   }
+  ]
+ }
+}

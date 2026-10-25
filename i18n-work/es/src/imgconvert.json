@@ -1,0 +1,275 @@
+{
+ "name": "Image Converter",
+ "short": "Convert between JPG, PNG, WEBP, AVIF, GIF, TIFF, ICO.",
+ "title": "Image Converter Online Free – JPG, PNG, WebP, HEIC",
+ "desc": "Convert images between JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC and SVG. Batch convert in your browser, no upload.",
+ "h1": "Image Converter",
+ "steps": [
+  "Select images in any common format (HEIC and TIFF too).",
+  "Choose the output format and quality.",
+  "Click Start and download the converted files."
+ ],
+ "faq": [
+  {
+   "q": "Which formats are supported?",
+   "a": "Input: JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG and HEIC/HEIF. Output: JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO and SVG (vector tracing)."
+  }
+ ],
+ "guide": {
+  "intro": "Different formats suit different jobs: JPG for photos, PNG for graphics and transparency, WEBP and AVIF for small web images, ICO for icons. One converter handles them all, in bulk, without uploading your pictures.",
+  "uses": [
+   "Convert iPhone HEIC photos to JPG.",
+   "Turn PNG screenshots into compact WEBP for a website.",
+   "Create ICO icons from PNG.",
+   "Convert old BMP or TIFF scans to JPG."
+  ],
+  "tips": [
+   "Choose PNG when you need transparency.",
+   "For the web, WEBP is supported by all modern browsers.",
+   "Quality 85–92 is visually identical for most photos."
+  ],
+  "faq": [
+   {
+    "q": "Which formats are supported?",
+    "a": "Input: JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG and HEIC/HEIF. Output: JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO and SVG (vector tracing)."
+   }
+  ]
+ },
+ "seo": {
+  "title": "Image Converter Online Free – JPG, PNG, WebP, HEIC, SVG",
+  "desc": "Convert images between JPG, PNG, WebP, AVIF, GIF, BMP, ICO and SVG free. Batch, max width, transparency, HEIC input. No upload, no watermark.",
+  "compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+  "compareCols": [
+   "Canva",
+   "Adobe Express",
+   "iLoveIMG"
+  ],
+  "sections": [
+   [
+    "Free online image converter",
+    "Convert any picture to the format you need: JPG for photos, PNG for graphics, WebP or AVIF for fast websites, ICO for icons, or SVG vector traces for cutting machines and logos. Drop a whole folder – HEIC iPhone photos, PSD previews, TIFF scans, BMP, GIF – choose the output and download a ZIP. No upload, no account."
+   ],
+   [
+    "How to use it",
+    {
+     "steps": [
+      "Drop your images (any mix of formats).",
+      "Choose the output format.",
+      "Optionally set a maximum width and, for PNG/WebP, make a white background transparent.",
+      "For SVG choose the number of trace colours and detail.",
+      "Press Convert and download."
+     ]
+    }
+   ],
+   [
+    "Which output format should I choose?",
+    {
+     "table": [
+      [
+       "You want…",
+       "Choose"
+      ],
+      [
+       "Maximum compatibility for photos",
+       "JPG"
+      ],
+      [
+       "Sharp text, logos, transparency",
+       "PNG"
+      ],
+      [
+       "Smallest files for a website",
+       "WebP or AVIF"
+      ],
+      [
+       "Favicon or Windows icon",
+       "ICO"
+      ],
+      [
+       "Scalable vector for Cricut, laser or print",
+       "SVG (traced)"
+      ],
+      [
+       "Simple animation",
+       "GIF"
+      ]
+     ]
+    }
+   ],
+   [
+    "Convert HEIC to JPG",
+    "iPhones save photos as HEIC to save space, but many websites and Windows programs cannot open them. Drop HEIC files here and choose JPG – or use the dedicated [HEIC to JPG](/heic-to-jpg/) page. The conversion happens on your device, so private photos are never uploaded."
+   ],
+   [
+    "Raster to SVG tracing",
+    "Choosing SVG traces the picture into coloured vector shapes. Use 2 colours for black-and-white logos and Cricut or Silhouette cut files, 8–16 for flat illustrations, and 32–64 for detailed artwork. Photos do not trace well – the result is a posterised look. See [PNG to SVG](/png-to-svg/) for tips."
+   ],
+   [
+    "Make a background transparent",
+    "Ticking *Make white background transparent* turns pure-white pixels into transparency for PNG and WebP output – handy for logos and signatures scanned on white paper. For photos with complex backgrounds use [Remove Image Background](/remove-background/)."
+   ],
+   [
+    "Photo formats at a glance",
+    {
+     "table": [
+      [
+       "Format",
+       "Compression",
+       "Transparency",
+       "Best for"
+      ],
+      [
+       "JPG",
+       "Lossy",
+       "No",
+       "Photos, e-mail, social media"
+      ],
+      [
+       "PNG",
+       "Lossless",
+       "Yes",
+       "Screenshots, logos, graphics with text"
+      ],
+      [
+       "WebP",
+       "Lossy or lossless",
+       "Yes",
+       "Websites – smaller than JPG and PNG"
+      ],
+      [
+       "AVIF",
+       "Lossy or lossless",
+       "Yes",
+       "Smallest files, newer browsers"
+      ],
+      [
+       "GIF",
+       "Lossless, 256 colours",
+       "1-bit",
+       "Simple animations"
+      ]
+     ]
+    },
+    "The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+   ],
+   [
+    "Works on any device",
+    "It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+   ],
+   [
+    "Quality and file size",
+    "Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+   ],
+   [
+    "Common problems and fixes",
+    {
+     "list": [
+      "**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+      "**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+      "**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+      "**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+      "**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+     ]
+    }
+   ],
+   [
+    "Privacy",
+    "Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+   ]
+  ],
+  "compare": [
+   [
+    "Where your file is processed",
+    "In your browser – never uploaded",
+    "Their servers (upload)",
+    "Their servers (upload)",
+    "Their servers (upload)"
+   ],
+   [
+    "Account needed",
+    "Never",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Batch / multiple images",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "SVG tracing",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "HEIC input",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ],
+   [
+    "Works offline",
+    "Yes",
+    "See site",
+    "See site",
+    "See site"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "How do I convert an image to JPG?",
+    "a": "Drop it here, pick JPG and press Convert."
+   },
+   {
+    "q": "Can I convert many images at once?",
+    "a": "Yes, mixed formats too; you get a ZIP."
+   },
+   {
+    "q": "Does it convert HEIC?",
+    "a": "Yes, HEIC/HEIF photos from iPhones are supported."
+   },
+   {
+    "q": "Which is smaller, WebP or JPG?",
+    "a": "WebP is typically 25–35 % smaller at similar quality."
+   },
+   {
+    "q": "Can I convert PNG to SVG?",
+    "a": "Yes, choose SVG to trace the image into vector shapes."
+   },
+   {
+    "q": "Will converting to PNG improve quality?",
+    "a": "No. PNG is lossless from now on but cannot restore detail lost in a JPG."
+   },
+   {
+    "q": "Can I resize while converting?",
+    "a": "Yes, set a maximum width."
+   },
+   {
+    "q": "Does it keep transparency?",
+    "a": "PNG, WebP, AVIF, GIF and ICO keep it; JPG fills transparent areas with white."
+   },
+   {
+    "q": "Are my images uploaded?",
+    "a": "No."
+   },
+   {
+    "q": "Is there a size limit?",
+    "a": "Only your device's memory; images up to around 50 megapixels convert comfortably."
+   }
+  ],
+  "related": [
+   "compress-image",
+   "resize-image",
+   "heic-to-jpg",
+   "png-to-svg",
+   "webp-to-png"
+  ],
+  "updated": "2026-10-25"
+ }
+}
