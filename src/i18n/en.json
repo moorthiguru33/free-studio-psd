@@ -1,6 +1,6 @@
 {
  "ui": {
-  "tagline": "Every PDF tool you need. 100% free, private, in your browser.",
+  "tagline": "Free online file tools for PDFs, images and more. Private, in your browser.",
   "heroSub": "Merge, split, compress, convert, sign and edit PDFs. No sign-up, no limits, no watermarks — your files never leave your device.",
   "allTools": "All PDF tools",
   "select": "Select files",
@@ -116,9 +116,9 @@
   "o_replace": "Replace with"
  },
  "home": {
-  "title": "Free PDF Tools Online – Merge, Split, Compress | {brand}",
-  "desc": "100% free online PDF tools that run in your browser. Merge, split, compress, convert, sign and edit PDFs – no sign-up, no limits, no watermarks.",
-  "h1": "Free PDF tools that respect your privacy"
+  "title": "Free Online File Tools – PDF, Image & More | {brand}",
+  "desc": "Free online file tools that run in your browser: merge, compress and convert PDFs, edit images and more – no sign-up, no limits, no watermarks.",
+  "h1": "Free online file tools that respect your privacy"
  },
  "commonFaq": [
   {
