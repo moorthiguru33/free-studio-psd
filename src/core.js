@@ -33,7 +33,7 @@ async function setupPreview(file,onPlace,password){
   pv.innerHTML=`<label style="display:inline-flex;gap:6px;align-items:center;font-weight:600">${esc(T.o_page)} <select id="pgsel">${Array.from({length:doc.numPages},(_,i)=>`<option value="${i+1}">${i+1}</option>`).join('')}</select></label><p class="hint">${esc(T.o_clickPlace)}</p><div class="preview"></div>`;
   const box=$('.preview',pv);
   const state={page:1,marks:[]};
-  async function show(){box.innerHTML='';const c=await renderPage(doc,state.page,1.2);box.appendChild(c);drawMarks();}
+  async function show(){const pg=await doc.getPage(state.page);const w1=pg.getViewport({scale:1}).width;const cw=Math.max(260,Math.min(pv.clientWidth||document.querySelector('#tool .custom')?.clientWidth||700,900));const dpr=Math.min(2,window.devicePixelRatio||1);box.innerHTML='';const c=await renderPage(doc,state.page,cw*dpr/w1);c.style.width=cw+'px';box.appendChild(c);drawMarks();}
   function drawMarks(){box.querySelectorAll('.mark').forEach(m=>m.remove());for(const m of state.marks.filter(m=>m.page===state.page)){const d=document.createElement('div');d.className='mark';d.style.left=m.fx*100+'%';d.style.top=m.fy*100+'%';d.style.width=(m.fw||0.02)*100+'%';d.style.height=(m.fh||0.02)*100+'%';d.textContent=m.label||'';box.appendChild(d);}}
   box.addEventListener('click',e=>{const c=box.querySelector('canvas');const r=c.getBoundingClientRect();const fx=(e.clientX-r.left)/r.width,fy=(e.clientY-r.top)/r.height;const m=onPlace(state.page,fx,fy,r);if(m){state.marks.push(m);drawMarks();}});
   $('#pgsel',pv).onchange=e=>{state.page=+e.target.value;show();};
