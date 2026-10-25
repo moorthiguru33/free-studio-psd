@@ -5,7 +5,7 @@ const BASE=process.env.BASE||'http://localhost:8788';const f=process.argv[2]||'f
  await p.goto(BASE+'/edit-pdf/');await p.setInputFiles('#tool input[type=file]',path.join(__dirname,'samples/real',f));await p.waitForSelector('.psrc',{timeout:60000});
  await p.click('[data-m=obj]');await p.waitForSelector('.pobj',{timeout:30000});
  const objs=await p.$$eval('.pobj',a=>a.map(e=>({k:e.dataset.k,c:e.className,w:e.offsetWidth,h:e.offsetHeight})));console.log('objects',objs.length,JSON.stringify(objs.slice(0,12)));
- const log=[];const pick=async sel=>{const el=p.locator(sel).last();await el.scrollIntoViewIfNeeded();const bb=await el.boundingBox();return bb;};
+ const log=[];const pick=async sel=>{await p.waitForTimeout(500);const el=p.locator(sel).last();await el.scrollIntoViewIfNeeded();const bb=await el.boundingBox();return bb;};
  // 3) delete another shape
  const sh2=objs.filter(o=>/path/.test(o.c)&&o.w>8).sort((a,b)=>a.w*a.h-b.w*b.h)[0];objs.splice(objs.indexOf(sh2),1);
  if(sh2){const bb=await pick(`.pobj[data-k="${sh2.k}"]`);await p.mouse.click(bb.x+bb.width/2,bb.y+bb.height/2);await p.click('#podel');log.push('deleted '+sh2.k);}
