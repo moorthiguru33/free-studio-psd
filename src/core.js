@@ -54,7 +54,7 @@ function start(){tool=TOOLS[toolId];if(!tool){console.error('tool missing',toolI
   if(input){input.addEventListener('change',()=>{addFiles(input.files);input.value='';});
    ['dragenter','dragover'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.add('over');}));
    ['dragleave','drop'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.remove('over');}));
-   drop.addEventListener('drop',ev=>addFiles(ev.dataTransfer.files));}
+   drop.addEventListener('drop',ev=>addFiles(ev.dataTransfer.files));document.addEventListener('paste',ev=>{const fs=[...(ev.clipboardData?.files||[])];if(fs.length&&!/INPUT|TEXTAREA/.test(document.activeElement?.tagName||'')){ev.preventDefault();addFiles(fs);}});}
   if(nofile)render();}
 const NEXT=(()=>{try{return JSON.parse(root.dataset.next||'[]');}catch(e){return [];}})();
 const setStep=n=>{root.dataset.step=n;};

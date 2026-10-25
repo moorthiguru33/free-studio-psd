@@ -1738,7 +1738,7 @@
 ],
 [
 "Scanned PDFs",
-"If the PDF is a scan, it contains no text to extract – every slide will be an image. Run [OCR PDF](/ocr-pdf/) first to add a text layer, then convert to get editable text boxes."
+"If the PDF is a scan, it has no text layer – so the converter reads the page with built-in OCR (automatic by default, 12 languages) and still produces editable text boxes. You can also run [OCR PDF](/ocr-pdf/) first if you want a searchable PDF as well."
 ],
 [
 "Tips",
@@ -1766,6 +1766,10 @@
 [
 "How editable conversion works",
 "For each page, the converter renders the full page at the chosen resolution, then reads every text line with its position, size and font family. It samples the colour of each line from the rendered page, paints that area of the background with the surrounding colour, and places a PowerPoint text box with the same text, colour and size in exactly the same spot. The result looks like the original slide but every word can be selected, retyped, restyled or deleted – and the clean background means there is no ghost copy of the old text behind your edits."
+],
+[
+"Fonts, bold and italic",
+"The converter reads each text run's font from the PDF and keeps bold, italic and bold-italic styling in the PowerPoint text boxes. Serif fonts are mapped to Times New Roman and monospaced fonts to Courier New, so the slides keep the character of the original even when the exact font is not installed. For scanned pages read with OCR, text is set in a standard sans-serif font."
 ]
 ],
 "compare": [
@@ -1811,7 +1815,7 @@
 ],
 [
 "OCR for scanned PDFs",
-"Free (via OCR PDF)",
+"Free, built in (12 languages)",
 "Premium",
 "See site",
 "See site",
@@ -1849,7 +1853,7 @@
 },
 {
 "q": "What about scanned PDFs?",
-"a": "Scans have no text layer. Run OCR PDF first to get editable text."
+"a": "Scanned pages are read automatically with built-in OCR in 12 languages, so you still get editable text boxes. Choose the document language for best accuracy."
 },
 {
 "q": "Is it free?",
