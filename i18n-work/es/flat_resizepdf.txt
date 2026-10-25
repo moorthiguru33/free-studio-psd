@@ -1,0 +1,111 @@
+0	Resize PDF
+1	Scale PDF pages to a new paper size.
+2	Resize PDF Pages Online Free – Uniform Paper Size | {brand}
+3	Resize all PDF pages to one standard paper size (A4, Letter and more). Mixed page sizes become uniform. Free, no upload.
+4	Resize PDF Pages
+5	Select your PDF.
+6	Pick the target size.
+7	Download.
+8	Is this the same as compressing?
+9	No – this changes the paper size. To reduce file size use Compress PDF.
+10	PDFs assembled from different sources often have pages of different sizes, which looks messy and prints badly. Resizing makes every page the same paper size while keeping content sharp.
+11	Make a merged PDF consistent before printing or binding.
+12	Fit phone scans and receipts onto standard pages.
+13	Normalise pages before creating a booklet.
+14	This changes paper size, not file size.
+15	Check landscape pages – they are fitted into the new size.
+16	Will this reduce my PDF's file size?
+17	No – this changes the paper size. To reduce file size use Compress PDF.
+18	Common paper sizes
+19	A4 (210 × 297 mm) is standard in most of the world; US Letter (8.5 × 11 in) and Legal (8.5 × 14 in) are used in North America. A3 is common for drawings and A5 for booklets.
+20	Resize vs compress
+21	Resizing changes the physical page dimensions; it does not shrink file size. To reduce megabytes, use Compress PDF.
+22	Resize PDF Pages – Scale to A4 or Letter Online Free
+23	Resize PDF pages to A4, Letter, Legal, A3 or a custom size with margins. Mixed page sizes become uniform for printing. Free, no upload, no sign-up.
+24	{tool}: {brand} vs iLovePDF, Smallpdf and Adobe
+25	Resize PDF pages to one size
+26	Make every page of a PDF the size you need – A4 for Europe and Asia, US Letter for North America, Legal, A3, A5 or a custom size – in portrait or landscape. Content is scaled proportionally and centred so nothing is stretched or cut, and you can add a margin so printers do not clip the edges.
+27	How to use it
+28	Drop the PDF.
+29	Choose the target page size and orientation (or Same as original).
+30	Set a margin in millimetres if you want white space around the content.
+31	Download the resized PDF.
+32	Common page sizes
+33	Size
+34	Millimetres
+35	Inches
+36	Used in
+37	A4
+38	210 × 297
+39	8.27 × 11.69
+40	Most of the world
+41	US Letter
+42	216 × 279
+43	8.5 × 11
+44	USA, Canada
+45	US Legal
+46	216 × 356
+47	8.5 × 14
+48	US legal documents
+49	A3
+50	297 × 420
+51	11.7 × 16.5
+52	Posters, drawings
+53	A5
+54	148 × 210
+55	5.8 × 8.3
+56	Booklets, notebooks
+57	PDF measures pages in points: 72 points = 1 inch, so A4 is 595 × 842 pt and Letter 612 × 792 pt.
+58	Scaling without distortion
+59	Each page's content is placed as a vector form on the new page, scaled by the same factor horizontally and vertically, then centred. Text stays selectable and sharp; nothing is rasterised. If the original and target shapes differ – for example Letter to A4 – there will be slightly wider white space on two sides, which is better than stretching the content.
+60	Printing a Letter PDF on A4 (and back)
+61	Printing a US Letter document on A4 paper without resizing often cuts off the bottom lines or leaves uneven margins. Converting it to A4 here first gives a clean result on any printer. Similarly, convert A4 documents to Letter before sending them to North American printers and courts.
+62	Resize pages vs reduce file size
+63	'Resize PDF' can mean two things. This tool changes the *physical page dimensions* – for example from Letter to A4, or making a PDF with mixed page sizes uniform. If you want a smaller *file* in megabytes, use [Compress PDF](/compress-pdf/) or one of the target-size tools such as [Compress PDF to 1 MB](/compress-pdf-to-1mb/). Changing page size does not by itself make the file noticeably smaller, because the content is kept as vectors.
+64	Mixed page sizes
+65	Scans from different machines, merged documents and phone captures often produce PDFs where every page is a slightly different size, which looks messy and confuses printers. Resizing to one size centres every page's content on identical sheets, so the document prints consistently, binds neatly and looks professional when scrolled on screen.
+66	Typical jobs
+67	Convert a US Letter contract to A4 for a European client, or vice versa.
+68	Make a merged scan uniform before printing or e-filing.
+69	Shrink A3 drawings onto A4 for a report appendix.
+70	Add white margins so a printer does not clip edge-to-edge content.
+71	Prepare pages for binding with an extra inner margin.
+72	Margins for binding and printing
+73	Office printers cannot print to the very edge; a 5 mm margin keeps content safe. For ring or comb binding add 10–15 mm. Commercial printers need bleed rather than margin – see [Print-Ready PDF](/print-ready-pdf/). The margin setting here is applied on every side, and content is scaled down evenly to fit inside it.
+74	Works with almost any PDF
+75	The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone.
+76	Windows, Mac, iPhone and Android
+77	There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive.
+78	Common problems and fixes
+79	**"File is encrypted"** – remove the open password with Unlock PDF, then try again.
+80	**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.
+81	**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).
+82	**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.
+83	**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari.
+84	Combine it with other PDF tools
+85	Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later.
+86	Privacy
+87	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+88	How do I change a PDF to A4?
+89	Drop it, choose A4 and download.
+90	Will the content be stretched?
+91	No, it is scaled proportionally and centred.
+92	Can I convert Letter to A4?
+93	Yes.
+94	Can I make all pages the same size?
+95	Yes, every page gets the chosen size.
+96	Can I add margins?
+97	Yes, in millimetres.
+98	Does text stay selectable?
+99	Yes, nothing is rasterised.
+100	Does this reduce file size?
+101	No – use Compress PDF for that.
+102	Can I switch to landscape?
+103	Yes, choose the orientation.
+104	Is it free?
+105	Yes.
+106	Are files uploaded?
+107	No.
+C	No upload – runs on your device
+C	Vector scaling + margins
+C	Free without sign-up

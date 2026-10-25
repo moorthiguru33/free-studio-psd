@@ -1,0 +1,119 @@
+0	Grayscale PDF
+1	Convert a color PDF to black and white.
+2	Grayscale PDF Online Free – Convert Color PDF to Black and White | {brand}
+3	Convert a colour PDF to grayscale to save ink and toner or meet black-and-white submission rules. Free, private, done in your browser.
+4	Convert PDF to grayscale
+5	Select your PDF.
+6	Choose a quality level.
+7	Click Start and download.
+8	Is text still selectable?
+9	Pages are converted to grayscale images, so text is not selectable afterwards.
+10	Printing colour documents on a black-and-white printer can make text look faint, and colour ink is expensive. Converting to grayscale shows exactly how the document will print and can cut costs.
+11	Save colour ink when printing long documents at home or the office.
+12	Meet submission rules that require black-and-white documents.
+13	Preview how charts and photos will look on a monochrome printer.
+14	Check charts after conversion – colours that differ only in hue may look identical in grey.
+15	Compress PDF afterwards for an even smaller file.
+16	Is text still selectable?
+17	No, pages are converted to grayscale images, so text is not selectable afterwards. Run OCR PDF if you need searchable text.
+18	Ink and toner savings
+19	Colour cartridges are expensive and many offices default to black-and-white printing. Converting first lets you check readability of charts and highlights before printing, avoiding wasted pages.
+20	Smaller files too
+21	Colour images contain three channels of information; grayscale needs only one, so converting can also reduce file size for image-heavy documents.
+22	Convert PDF to Grayscale or Black & White Free
+23	Convert PDF to grayscale or pure black and white with an adjustable threshold. Three quality levels. Free, no upload, no sign-up, works offline.
+24	{tool}: {brand} vs iLovePDF, Smallpdf and Sejda
+25	Convert a PDF to grayscale or black and white
+26	This tool removes colour from a PDF. **Grayscale** turns every colour into a matching shade of grey – the look of a good black-and-white photocopy, keeping photos and charts readable. **Black & white** goes further and turns every pixel pure black or pure white using a threshold you control, which gives crisp, high-contrast pages for text documents, forms and signatures, and the smallest files for scans.
+27	Common reasons: a print shop or court filing system requires grayscale, you want to print without using colour ink, a coloured background makes a scan hard to read, or you need to shrink a colourful scanned document.
+28	Grayscale vs black and white
+29	
+30	Grayscale
+31	Black & white
+32	Colours
+33	256 shades of grey
+34	Only black and white
+35	Photos
+36	Keep detail
+37	Become harsh, posterised
+38	Text scans
+39	Good
+40	Sharpest, removes paper tint
+41	File size
+42	Smaller than colour
+43	Usually smallest
+44	Best for
+45	Mixed documents, reports
+46	Contracts, forms, letters, receipts
+47	If you are unsure, start with grayscale. Use black and white when the pages are mostly text and you want them to look like a clean fax or laser print.
+48	Choosing the black & white threshold
+49	Each pixel's brightness (0 = black, 255 = white) is compared with the threshold. The default of 160 works for most office documents. Raise it (180–200) if light or thin text disappears; lower it (120–140) if grey paper, stains or a coloured background turn into black speckles. Run it once, check the result, and adjust – it only takes seconds.
+50	Quality levels
+51	Level
+52	Render scale
+53	Use
+54	High
+55	2× (≈144 dpi)
+56	Printing, small text
+57	Medium
+58	1.5× (≈108 dpi)
+59	Screen reading, e-mail
+60	Small file
+61	1× (72 dpi)
+62	Smallest size; large text only
+63	How to convert a PDF to grayscale
+64	Drop the PDF.
+65	Choose Grayscale or Black & white (and threshold).
+66	Pick a quality level.
+67	Convert and download.
+68	What happens to text
+69	To guarantee every colour is removed – including colours inside images, gradients, transparency and embedded graphics – each page is rendered and saved as an image. The pages look exactly like the original in grey, but text is no longer selectable or searchable. If you need searchable text, run [OCR PDF](/ocr-pdf/) on the result, which adds an invisible text layer back. Keep your colour original for editing.
+70	Printing in grayscale without converting
+71	Most print dialogs have a *grayscale* or *black and white* option, which is enough for one-off printing at home. Converting the file is better when you send it to someone else, upload it to a portal that rejects colour, want consistent results on any printer, or need a smaller file.
+72	Can a grayscale PDF be turned back into colour?
+73	No – the colour information is removed. There is no reliable way to restore the original colours from a grey version, so always keep the colour original.
+74	Convert PDF to grayscale online vs desktop software
+75	Desktop PDF suites offer colour conversion in their print-production tools, usually in paid editions. Most online converters upload your document first. Here, conversion runs in your browser, is free, and includes a true black-and-white mode that many tools lack.
+76	Glossary
+77	Term
+78	Meaning
+79	Grayscale
+80	Image made only of shades of grey
+81	Black & white / monochrome
+82	Image with only pure black and pure white pixels
+83	Threshold
+84	Brightness level that decides black or white
+85	DPI
+86	Dots per inch; higher means sharper and larger files
+87	Worked example
+88	A 30-page colour report costs a lot to print in colour. Convert it here with *Print* quality to get crisp grey text and images at 200 dpi, or choose *B&W* with the default threshold for pure black text on white paper – ideal for laser printers and for faxes. Compare file sizes in the result message.
+89	Privacy
+90	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+91	Related tools
+92	[OCR PDF](/ocr-pdf/)
+93	[Compress PDF](/compress-pdf/)
+94	[Deskew PDF](/deskew-pdf/)
+95	[Flatten PDF](/flatten-pdf/)
+96	[PDF to JPG](/pdf-to-jpg/)
+97	How do I convert a PDF to grayscale?
+98	Drop the PDF, choose Grayscale, pick a quality and download.
+99	How do I convert a PDF to black and white, not grayscale?
+100	Choose Black & white and adjust the threshold.
+101	Is it free?
+102	Yes, with no sign-up or watermark.
+103	Will text stay selectable?
+104	No, pages are rendered as images; run OCR to make them searchable again.
+105	Does grayscale make the file smaller?
+106	Usually, especially for colour scans; black & white is often smallest.
+107	Can I convert grayscale back to colour?
+108	No, the colour information is gone.
+109	What threshold should I use?
+110	Start at 160; raise it if text vanishes, lower it if backgrounds turn black.
+111	Is my PDF uploaded?
+112	No, conversion runs on your device.
+113	How can I convert a PDF file to 200 dpi grayscale?
+114	Choose Grayscale and the Print (200 dpi) quality level. Every page is rendered at 200 dpi in shades of grey and saved as a new PDF.
+C	True black & white mode
+C	Adjustable threshold
+C	Quality levels incl. 200 dpi
+C	4

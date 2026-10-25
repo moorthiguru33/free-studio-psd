@@ -1,0 +1,145 @@
+0	Cortar audio
+1	Recorta canciones y crea tonos de llamada.
+2	Cortar audio online gratis – Recorta MP3 y crea tonos | {brand}
+3	Corta MP3, WAV, M4A y más con una forma de onda visual. Añade fundido de entrada y salida y exporta en MP3 o WAV. Creador de tonos de llamada gratis.
+4	Cortar audio – Corta y recorta audio online
+5	Selecciona un archivo de audio.
+6	Haz clic en la forma de onda para fijar el inicio y el final.
+7	Descarga el fragmento.
+8	Elimina silencios, quita errores o corta la mejor parte de una canción para un tono de llamada o una alarma. La forma de onda muestra exactamente dónde cortar.
+9	Crear un tono de llamada o un sonido de notificación.
+10	Quitar el silencio del principio y el final de las grabaciones.
+11	Cortar un fragmento de un pódcast para redes sociales.
+12	Añade un breve fundido de salida para un final suave.
+13	Los tonos de llamada suelen funcionar mejor con menos de 30 segundos.
+14	¿Puedo añadir fundidos?
+15	Sí, hay fundido de entrada y de salida.
+16	¿Qué formatos de salida hay?
+17	MP3 y WAV.
+18	Cortes precisos
+19	Amplía la forma de onda para cortar justo entre palabras o golpes de ritmo. Los fundidos cortos de 0,5–1 segundo eliminan los chasquidos en los puntos de corte y hacen que los fragmentos suenen profesionales.
+20	Formatos y compatibilidad
+21	Abre MP3, WAV, M4A, OGG y casi cualquier audio que pueda reproducir tu navegador, incluida la pista de sonido de archivos de vídeo. Exporta en MP3 para los archivos más pequeños y la máxima compatibilidad, o en WAV si vas a seguir editando el fragmento en un DAW.
+22	Cortar audio – Recorta MP3 online gratis, onda, fundidos
+23	Cortador de audio: recorta MP3, WAV, M4A y más sobre una forma de onda. Conserva o quita una parte, fundidos, volumen, precisión de 0,1 s, MP3 o WAV.
+24	{tool}: {brand} frente a mp3cut.net, Clideo y VEED
+25	Corta cualquier archivo de audio en segundos
+26	El cortador de audio de {brand} recorta canciones, pódcasts, notas de voz, entrevistas y grabaciones directamente en tu navegador. Suelta un archivo, haz clic en la forma de onda para marcar el inicio y el final y guarda solo esa parte, o quítala y quédate con todo lo demás. Añade fundidos de entrada y salida suaves, ajusta el volumen y descarga en MP3 o WAV.
+27	Tu audio no se sube: el archivo se decodifica y se corta en tu propio dispositivo. Así las grabaciones privadas siguen siendo privadas, e incluso los archivos largos (una reunión de una hora o una sesión de DJ completa) están listos para cortar en cuanto los sueltas, sin esperar a ninguna subida.
+28	No hay plan premium, ni registro, ni límite de archivos que puedas cortar. Todas las funciones (forma de onda, quitar partes, fundidos, volumen y MP3 a 320 kbps) están disponibles para todos, en cualquier dispositivo con un navegador moderno.
+29	Funciones
+30	**Vista de forma de onda:** ve las partes fuertes y suaves y haz clic para fijar el inicio y el final.
+31	**Conservar o quitar:** guarda la selección, o córtala del medio y une el resto.
+32	**Tiempos precisos:** escribe m:ss o m:ss.s (p. ej. 1:23.4) para una precisión de una décima de segundo.
+33	**Fundido de entrada y de salida** por separado, de 0,5 a 5 segundos.
+34	**Volumen** del 10 % al 300 %.
+35	**MP3 a 128–320 kbps** o **WAV** sin pérdida.
+36	**Reproductor integrado** para comprobar el punto de inicio y el resultado.
+37	**Acepta** MP3, WAV, M4A, AAC, OGG, Opus, FLAC y el audio de vídeos MP4, MOV, WebM y MKV.
+38	Cómo cortar un archivo de audio
+39	Suelta el archivo de audio (o un vídeo) en la página.
+40	Haz clic en la forma de onda para fijar el inicio y vuelve a hacer clic (o Mayús+clic) para fijar el final. También puedes escribir los tiempos.
+41	Elige «Conservar la selección» o «Quitar la selección».
+42	Si quieres, ajusta los fundidos, el volumen, el formato y la calidad.
+43	Haz clic en Cortar, escucha el resultado y descarga.
+44	Conservar o quitar: dos formas de cortar
+45	**Conservar la selección** guarda solo la parte resaltada: ideal para tonos de llamada, fragmentos de canciones, una cita de una entrevista o una intro limpia para un vídeo. **Quitar la selección** elimina la parte resaltada y une lo que hay antes y después: ideal para quitar una tos, una pausa publicitaria, un error en una locución o un silencio largo en mitad de una grabación. El fundido de entrada se aplica entonces al principio del archivo y el de salida al final.
+46	Ambos modos muestran la duración del resultado tras el corte, para que compruebes de un vistazo que has quitado o conservado exactamente lo que querías, y el reproductor integrado te deja escucharlo antes de guardar.
+47	Crear un tono de llamada
+48	Lo mejor es que los tonos de llamada duren unos 20–30 segundos. Selecciona el estribillo o la parte más reconocible, añade un fundido de entrada de 1 segundo y uno de salida de 2 segundos, y guarda en MP3. Los móviles Android aceptan tonos en MP3 directamente: copia el archivo al móvil y elígelo en Ajustes › Sonido. Para iPhone, que necesita el formato M4R, usa nuestro [Creador de tonos de llamada](/ringtone-maker/) o importa el MP3 en GarageBand y expórtalo como tono.
+49	Elegir formato y calidad
+50	Uso
+51	Formato
+52	Calidad
+53	Tono de llamada, fragmento musical
+54	MP3
+55	192 kbps
+56	Pódcast o voz
+57	MP3
+58	128 kbps
+59	Música de máxima calidad
+60	MP3
+61	320 kbps
+62	Seguir editando en un DAW
+63	WAV
+64	Sin pérdida
+65	Archivar un máster
+66	WAV
+67	Sin pérdida
+68	Cortar un MP3 y volver a guardarlo como MP3 recodifica el audio. A 192 kbps o más es inaudible en casi cualquier material. Si piensas seguir editando el archivo, guárdalo en WAV para no acumular compresión.
+69	Consejos para cortes limpios
+70	Corta en momentos de silencio (entre palabras o golpes de ritmo) para evitar chasquidos. La forma de onda muestra los silencios como líneas planas.
+71	Usa un fundido corto (0,5 s) aunque no quieras un fundido evidente; elimina los chasquidos en los puntos de corte.
+72	Escucha desde unos segundos antes del punto de inicio para asegurarte de no haber cortado la primera palabra.
+73	En música, corta en el primer tiempo del compás para que el bucle o el tono suene natural.
+74	Si la grabación suena baja, sube el volumen al 150–200 %; si suena muy fuerte, un 80 % evita la distorsión.
+75	Usos habituales
+76	Tonos de llamada y sonidos de notificación.
+77	Quitar silencios y arranques en falso de notas de voz y pódcasts.
+78	Extraer una cita de una entrevista para redes sociales.
+79	Acortar canciones para entrenamientos, coreografías, presentaciones o vídeos.
+80	Quitar anuncios o interrupciones de las grabaciones.
+81	Preparar fragmentos de audio para clases de idiomas.
+82	Cortar la intro de una canción para un pase de diapositivas.
+83	Archivos compatibles
+84	Funciona cualquier formato que tu navegador pueda decodificar: MP3, WAV, M4A/AAC (incluidas las notas de voz del iPhone), OGG Vorbis, Opus (mensajes de voz de WhatsApp), FLAC y las pistas de audio de vídeos MP4, MOV, WebM y MKV. Si un archivo no se abre, conviértelo antes con nuestro conversor de audio o prueba otro navegador: Chrome y Edge admiten la mayor variedad de formatos.
+85	Cortar notas de voz y audios de WhatsApp
+86	Las notas de voz del iPhone son archivos M4A; los mensajes de voz de WhatsApp y Telegram suelen ser archivos Opus con extensión .opus u .ogg. Ambos se abren directamente. Recorta el silencio del principio y el final, quita las partes que no vienen al caso con «Quitar la selección», sube el volumen si la grabación suena baja y guarda en MP3 a 128 kbps: pequeño y reproducible en cualquier dispositivo. También es una forma rápida de convertir un mensaje de voz en un MP3 estándar.
+87	Cortar pódcasts y entrevistas
+88	En audio hablado, busca en la forma de onda las pausas entre frases: aparecen como tramos finos y planos. Cortar ahí hace que las ediciones no se noten. Para quitar varias partes, corta una, descarga, carga el resultado y corta la siguiente. Usa MP3 a 128 kbps para voz; guarda en WAV si vas a seguir editando en un editor multipista.
+89	Usar la forma de onda
+90	La forma de onda muestra el volumen del audio a lo largo del tiempo: los picos altos son pasajes fuertes y las líneas planas son silencio. Haz clic en cualquier punto para colocar el inicio y llevar ahí el reproductor; vuelve a hacer clic para colocar el final. La zona seleccionada se resalta en azul. Siempre puedes afinar escribiendo los tiempos en las casillas Inicio y Final, que aceptan minutos y segundos con decimales (p. ej. 2:07.35). Pulsa reproducir para oír dónde estás y usa el tiempo actual del reproductor para ajustar la selección.
+91	Glosario
+92	**Forma de onda:** una imagen del volumen del audio a lo largo del tiempo.
+93	**Fundido de entrada / salida:** un aumento o una disminución gradual del volumen al principio o al final.
+94	**Tasa de bits:** datos por segundo en kbps; más alta significa mejor calidad y archivos más grandes.
+95	**Sin pérdida:** no se elimina información (WAV, FLAC); los formatos con pérdida (MP3, AAC) eliminan detalles inaudibles.
+96	Cortar audio de vídeos
+97	Puedes soltar un vídeo (MP4, MOV, WebM o MKV) directamente en el cortador de audio. Su pista de sonido se decodifica y se muestra como forma de onda, y la parte cortada se guarda como archivo de audio. Es la forma más rápida de sacar una canción de un clip de concierto, una cita de una charla grabada o un efecto de sonido de tus propias grabaciones, sin convertir antes el vídeo entero. Para extracciones más largas, con lotes y etiquetas, usa [MP4 a MP3](/mp4-to-mp3/).
+98	¿Por qué no usar un editor de audio de escritorio?
+99	Programas como Audacity son excelentes para ediciones complejas (mezcla multipista, reducción de ruido, efectos), pero para un recorte rápido suponen descargar, instalar y aprender una aplicación. El cortador de audio se abre al instante en cualquier navegador, en cualquier ordenador o móvil, incluidos los ordenadores del trabajo donde no puedes instalar programas. Y como funciona en local, es igual de privado que una app de escritorio: tu archivo nunca se envía a un servidor.
+100	Volumen y sonoridad
+101	El control de volumen multiplica la señal: 200 % duplica la amplitud (unos +6 dB) y 50 % la reduce a la mitad. Subir demasiado una grabación baja puede causar saturación: una distorsión áspera cuando los picos superan el nivel máximo. Si oyes crujidos en los momentos fuertes tras subir el volumen, prueba con un aumento menor. Para una sonoridad uniforme entre episodios de un pódcast, ajusta el volumen para que las partes más fuertes de la forma de onda casi, pero no del todo, llenen la altura.
+102	Cortar música para vídeos, pases de diapositivas y entrenamientos
+103	Los editores de vídeo y las apps de pases de diapositivas a menudo necesitan una banda sonora de una duración exacta. Selecciona desde un buen punto de partida (el primer tiempo de una estrofa o del estribillo) hasta la duración que necesites, añade un fundido de salida de 2–3 segundos para que la música termine de forma natural y guarda en MP3 a 192 kbps. Para un entrenamiento o una coreografía, usa «Quitar la selección» para eliminar un puente lento o una intro larga y mantener la energía. Para música de fondo bajo una voz, baja el volumen al 50–70 % para que las voces se oigan claras. Recuerda usar solo música sobre la que tengas derechos, sobre todo si publicas el vídeo online.
+104	Privacidad
+105	Cada paso ocurre dentro de la pestaña del navegador. El archivo se lee de tu disco, se decodifica y se vuelve a codificar en tu propio dispositivo con el motor multimedia integrado del navegador (WebCodecs y Web Audio) y WebAssembly, y el resultado va directamente a tu carpeta de descargas. No se sube nada, no se guarda nada en un servidor y no hay cola, así que los vídeos familiares, las entrevistas, las notas de voz, las reuniones y el contenido inédito nunca salen de tu ordenador o móvil. Tampoco la velocidad de subida frena los archivos grandes: un vídeo de 1 GB empieza a procesarse al instante en lugar de tras diez minutos de subida.
+106	Herramientas relacionadas
+107	[Creador de tonos de llamada](/ringtone-maker/): tonos para iPhone y Android.
+108	[MP4 a MP3](/mp4-to-mp3/): audio a partir de vídeo.
+109	[Recortar vídeo](/trim-video/): corta vídeos.
+110	[Comprimir vídeo](/compress-video/): vídeos más pequeños.
+111	[Vídeo a GIF](/video-to-gif/): GIF a partir de clips.
+112	¿Cómo corto un MP3 gratis?
+113	Suelta el archivo, haz clic en la forma de onda para fijar el inicio y el final, haz clic en Cortar y descarga.
+114	¿Se sube mi audio?
+115	No. Se corta en tu navegador.
+116	¿Puedo quitar una parte del medio?
+117	Sí. Elige «Quitar la selección»; las partes de antes y de después se unen.
+118	¿Con qué precisión puedo cortar?
+119	Hasta una décima de segundo o más: escribe tiempos como 1:23.4.
+120	¿Puedo añadir fundido de entrada y de salida?
+121	Sí, por separado, de 0,5 a 5 segundos.
+122	¿Qué formatos puedo abrir?
+123	MP3, WAV, M4A, AAC, OGG, Opus, FLAC y el audio de MP4, MOV, WebM y MKV.
+124	¿En qué formatos puedo guardar?
+125	MP3 (128–320 kbps) o WAV.
+126	¿Puedo crear un tono para iPhone?
+127	Usa el Creador de tonos de llamada para M4R; el cortador de audio guarda en MP3/WAV.
+128	¿Cortar reduce la calidad?
+129	La salida MP3 se recodifica; a 192 kbps o más es inaudible. WAV es sin pérdida.
+130	¿Funciona en móviles?
+131	Sí, en los navegadores móviles actuales.
+132	¿Cómo corto audio online gratis?
+133	Suelta un archivo MP3, WAV o M4A, arrastra los controles de la forma de onda para seleccionar una parte, consérvala o quítala, añade fundidos y descarga en MP3 o WAV.
+134	¿Cuál es el mejor cortador de audio gratis?
+135	Busca edición sobre forma de onda, fundidos, tiempos precisos y que no haya subidas. Este cortador de audio ofrece todo eso con precisión de 0,1 segundos, en tu navegador.
+C	Selección sobre forma de onda
+C	Quitar una parte del medio
+C	«Cortar, dividir, reordenar»
+C	Fundido de entrada / salida
+C	Sí (por separado)
+C	Plan premium
+C	Ninguno: todo gratis
+C	6 $/mes (premium, archivos de 10 GB)
+C	Planes Basic y Pro

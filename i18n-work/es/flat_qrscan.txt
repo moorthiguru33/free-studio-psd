@@ -1,0 +1,175 @@
+0	QR Code Scanner
+1	Read QR codes and barcodes from images or camera.
+2	QR Code Scanner Online – Scan from Image or Camera, Free
+3	Scan QR codes and barcodes from a photo, screenshot or your camera, right in the browser. Nothing is uploaded.
+4	QR Code Scanner
+5	Pick an image or press Use camera.
+6	Decoded codes appear instantly – links are clickable.
+7	Copy them or download all results as text.
+8	Which codes can it read?
+9	QR codes everywhere. In Chrome, Edge and Android, 1D barcodes (EAN, UPC, Code 128…) and Data Matrix are also read via the browser's barcode detector.
+10	Is it safe?
+11	Images and camera frames never leave your device. Check a link before opening it.
+12	Received a QR code in a screenshot or PDF and cannot point a camera at it? Upload the image and read it instantly. You can also use your laptop or phone camera.
+13	Read QR codes in screenshots or emails.
+14	Check where a QR code leads before opening it.
+15	Scan barcodes on products.
+16	Crop around the code if the image has several.
+17	Be careful with unknown codes – check the link before visiting.
+18	Which codes are supported?
+19	QR codes everywhere. In Chrome, Edge and Android, 1D barcodes (EAN, UPC, Code 128…) and Data Matrix are also read.
+20	Safety check
+21	QR codes can hide malicious links. Scanning here shows the full content before you open it, so you can check the destination first.
+22	QR Code Scanner Online – Scan from Image or Camera, Free
+23	Scan QR codes and barcodes from a photo, screenshot or your camera, free in your browser. Paste screenshots, copy results, export CSV. No upload.
+24	{tool}: {brand} vs QRCodeScan.in, ScanQR and Google Lens
+25	Scan a QR code online, free
+26	This QR code scanner reads QR codes – and, in Chromium-based browsers that support it, product barcodes such as EAN, UPC and Code 128 – from an image, a screenshot or your live camera. Results appear instantly with one-click copy; web links open only when you click them. Paste a screenshot with Ctrl+V, scan many images in one go and export everything as TXT or CSV. Nothing is uploaded: decoding happens on your device.
+27	How to scan a QR code from an image
+28	Click *Choose image* and select one or more photos or screenshots – or simply paste a screenshot with Ctrl+V (⌘V on a Mac).
+29	The codes are decoded in a moment and listed with their type.
+30	Copy any result, or click a link to open it after checking the address.
+31	Press Download to save all results as TXT, or choose CSV for a spreadsheet.
+32	How to scan a QR code with your camera
+33	Click *Use camera* and allow camera access when the browser asks.
+34	Point the camera at the code – the rear camera is used on phones.
+35	Each new code is added to the list automatically; click the button again to stop the camera.
+36	Camera access needs a secure (https) page and your permission; the video never leaves your device.
+37	Scan a QR code from a screenshot on your phone or PC
+38	A QR code sent to you on WhatsApp, in an e-mail or on a website cannot be pointed at with the same phone's camera. Take a screenshot, open this page and choose the screenshot from your gallery – or on a computer press PrtScn / Shift+⌘+4 and paste straight into the page. The scanner tries several resolutions and both normal and inverted (light-on-dark) colours, so small or stylised codes in screenshots are usually found.
+39	What the scanner can read
+40	Content
+41	Example
+42	What you see
+43	Web link
+44	https://example.com
+45	Clickable link
+46	Wi-Fi
+47	WIFI:T:WPA;S:Home;P:secret;;
+48	Network name and password text
+49	Contact card
+50	BEGIN:VCARD …
+51	vCard text you can copy into contacts
+52	E-mail / phone / SMS
+53	mailto:, tel:, SMSTO:
+54	Clickable or copyable
+55	Location
+56	geo:48.85,2.29
+57	Coordinates
+58	Calendar event
+59	BEGIN:VEVENT …
+60	Event text
+61	Crypto payment
+62	bitcoin:bc1…
+63	Address and amount
+64	Plain text
+65	Any text
+66	Text
+67	Product barcodes
+68	EAN-13, UPC-A, Code 128
+69	Number (Chrome on Android, macOS and ChromeOS)
+70	QR decoding uses the open-source jsQR library and works in every modern browser. One-dimensional barcodes rely on the browser's built-in Barcode Detection API, which is available in Chromium-based browsers (Chrome, Edge) on Android, macOS and ChromeOS; where it is missing, QR codes still scan.
+71	Stay safe: QR phishing ("quishing")
+72	Fake QR codes stuck over parking meters, sent in e-mails or printed on flyers are a growing scam: they lead to look-alike payment or login pages. This scanner never opens a link automatically. Before you click, read the address: check the spelling of the domain, be wary of URL shorteners and unusual endings, and never enter bank or login details on a page reached from an unexpected code. Payment requests should be paid inside your banking or payment app, not on a web page opened from a sticker.
+73	Why won't my QR code scan?
+74	The image is too blurry or the code is too small – crop closer or take the photo again in good light.
+75	Part of the code is cut off or covered; all three corner squares must be visible.
+76	Very low contrast or coloured backgrounds – the scanner tries inverted colours, but a pale code on a busy photo may still fail.
+77	Heavy logos or damaged print exceed the code's error correction.
+78	It is not a QR code: Data Matrix, Aztec and PDF417 are read only where the browser's barcode API supports them.
+79	Scan many QR codes at once
+80	Select dozens of images – for example photos of event tickets, inventory labels or a stack of screenshots – and every code found is added to one list. Duplicate results are shown once. Download the list as TXT, or as CSV with a *format* and *content* column to open in Excel or Google Sheets for check-in lists and stock counts.
+81	Scanner vs phone camera apps
+82	Most phone cameras scan QR codes natively, which is fine when the code is in front of you. A browser scanner is better when the code is already on your screen, when you need the raw text (for example a Wi-Fi password or vCard), when you want to scan a batch of images, or on a laptop without a camera app. It also shows you exactly what is inside the code before anything opens.
+83	How to scan a QR code on every device
+84	Device
+85	Built-in option
+86	With this page
+87	iPhone / iPad
+88	Camera app or Control Centre Code Scanner
+89	Safari: choose image from Photos, or use camera
+90	Android
+91	Camera app, Google Lens or quick-settings scanner
+92	Chrome: choose image, paste, or use camera – barcodes too
+93	Windows PC
+94	Camera app (Windows 11) with a webcam
+95	Paste a screenshot (Win+Shift+S then Ctrl+V)
+96	Mac
+97	None for on-screen codes
+98	Paste a screenshot (Shift+⌘+4 then ⌘V)
+99	Chromebook
+100	Camera app QR mode
+101	Paste screenshots, barcodes supported
+102	On computers the paste shortcut is usually the fastest route: capture the area of the screen that shows the code and paste it into this page – there is no need to save a file first.
+103	How a QR code stores data
+104	A QR (Quick Response) code is a two-dimensional matrix code invented by Denso Wave in 1994 for tracking car parts. The three large squares in the corners tell the scanner where the code is and which way up it is; the smaller alignment square and the timing patterns help it correct for perspective and curved surfaces. The remaining modules hold the data plus Reed–Solomon error-correction codes, which is why a code can still be read when part of it is dirty, damaged or covered by a logo – up to about 7 %, 15 %, 25 % or 30 % depending on the error-correction level chosen when it was made. A single QR code can store up to 4,296 alphanumeric characters or 7,089 digits, although most codes hold a short web link.
+105	Reading Wi-Fi, contact and event codes
+106	Many QR codes contain structured text rather than a link. A Wi-Fi code looks like WIFI:T:WPA;S:NetworkName;P:password;; – the network name follows S: and the password follows P:, so you can copy the password to a laptop that cannot scan codes itself. Contact codes contain a vCard (BEGIN:VCARD … END:VCARD) or MeCard; copy the text into a .vcf file to import it into your address book. Event codes contain a VEVENT with the title, start and end times that you can paste into a calendar. Payment codes start with a scheme such as bitcoin: or upi: followed by the address and amount – always confirm the recipient inside your wallet or banking app.
+107	Uses for businesses and events
+108	Check in event tickets from screenshots sent by guests and export the list as CSV.
+109	Read inventory or asset labels with a laptop webcam at a stock count.
+110	Verify that printed menus, posters and packaging point to the right address before a print run.
+111	Recover the link from a QR code in a PDF or slide deck by taking a screenshot.
+112	Audit QR codes on public signage for tampering by comparing the decoded address with the official one.
+113	QR codes in PDFs, slides and e-mails
+114	QR codes often arrive inside documents: boarding passes and tickets in PDFs, codes in presentation slides, or images embedded in e-mail newsletters. Open the document, zoom so the code fills a good part of the screen, take a screenshot and paste it here. For a PDF with many pages of codes – for example a batch of tickets – convert the pages to images with [PDF to JPG](/pdf-to-jpg/) and select all the images at once; every code is read and added to the list, ready to export.
+115	Other 2D codes you may see
+116	Code
+117	Looks like
+118	Common use
+119	Read here?
+120	QR code
+121	Square, three corner finder squares
+122	Links, payments, Wi-Fi, tickets
+123	Yes, every browser
+124	Data Matrix
+125	Square or rectangle, L-shaped solid border
+126	Electronics, pharma, postage
+127	Where the browser barcode API supports it
+128	Aztec
+129	Square with a bull's-eye centre
+130	Airline and rail boarding passes
+131	Where the browser barcode API supports it
+132	PDF417
+133	Wide stacked rows
+134	Driving licences, ID cards, shipping
+135	Where the browser barcode API supports it
+136	If a 2D code that is not a QR code fails on your computer, try the same image on an Android phone in Chrome, where support for these formats is widest.
+137	Tips for a clean scan
+138	Fill the frame: the code should cover at least a quarter of the image width.
+139	Avoid glare on glossy paper and screens – tilt slightly or turn off a nearby lamp.
+140	Keep the camera steady for a second; the scanner checks four frames per second.
+141	For codes printed on curved bottles or cans, photograph straight on.
+142	Clean the camera lens – a smudge is the most common cause of failed scans on phones.
+143	Accessibility
+144	Results are listed as text, so screen readers announce the content of each code, and links are ordinary links that can be reached with the keyboard. People who find it hard to aim a phone at a small printed code can photograph it from a comfortable distance and crop or zoom afterwards, then read the result at any text size.
+145	Why use a browser scanner instead of an app?
+146	Many free scanner apps in app stores show full-screen adverts, request access to your contacts or location, and send every scanned link to their own servers for "analytics" or redirect it through a tracking domain. A web page needs no installation and no permissions beyond the camera, which you can grant for a single visit only. Because this page decodes locally and never rewrites links, the address you see is exactly what the code contains, and your scan history exists only in the open tab until you close it.
+147	Create your own QR code
+148	Need to make one rather than read one? Use the free [QR code generator](/qr-code-generator/) for links, or the dedicated [Wi-Fi QR code](/wifi-qr-code-generator/), [vCard QR code](/vcard-qr-code-generator/) and [barcode](/barcode-generator/) generators.
+149	Privacy
+150	Images and camera frames are decoded inside your browser tab. Nothing is uploaded, stored or logged, there is no account, and the scanner keeps working offline once the page has loaded – important when codes contain Wi-Fi passwords, tickets, crypto addresses or personal contact details.
+151	How do I scan a QR code from an image?
+152	Click Choose image and pick the photo or screenshot, or paste it with Ctrl+V. The content appears instantly.
+153	How can I scan a QR code on my own phone screen?
+154	Take a screenshot, open this page and choose the screenshot from your gallery.
+155	Can I scan QR codes with my laptop camera?
+156	Yes. Click Use camera, allow access and hold the code in front of the webcam.
+157	Does it read barcodes too?
+158	Yes, in Chrome and Edge on Android, macOS and ChromeOS, which provide a barcode detection API. QR codes work in every browser.
+159	Is it safe to open the link?
+160	Check the address first – the scanner never opens links automatically. Avoid entering passwords or payment details on pages from unknown codes.
+161	Can I scan multiple QR codes at once?
+162	Yes. Select many images; all codes are listed and can be exported as TXT or CSV.
+163	How do I see a Wi-Fi password from a QR code?
+164	Scan the code; the result shows the network name after S: and the password after P:.
+165	Why can't it read my QR code?
+166	The image may be blurred, cropped or low-contrast. Crop closer, retake it in better light, or try a larger screenshot.
+167	Are my images uploaded?
+168	No. Decoding happens on your device and nothing is sent to a server.
+169	Is the scanner free?
+170	Yes – free, unlimited, with no app or sign-up.
+C	Scan from image, screenshot paste and camera
+C	Batch images, TXT + CSV export
+C	Links never open automatically
+C	Works offline

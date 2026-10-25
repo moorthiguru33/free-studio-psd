@@ -1,0 +1,175 @@
+0	Lector de códigos QR
+1	Lee códigos QR y de barras desde imágenes o la cámara.
+2	Lector de códigos QR online – Escanea imagen o cámara, gratis
+3	Escanea códigos QR y de barras desde una foto, una captura o tu cámara, directamente en el navegador. No se sube nada.
+4	Lector de códigos QR
+5	Elige una imagen o pulsa Usar cámara.
+6	Los códigos decodificados aparecen al instante y los enlaces se pueden pulsar.
+7	Cópialos o descarga todos los resultados como texto.
+8	¿Qué códigos puede leer?
+9	Códigos QR en todos los navegadores. En Chrome, Edge y Android también se leen códigos de barras 1D (EAN, UPC, Code 128…) y Data Matrix mediante el detector de códigos de barras del navegador.
+10	¿Es seguro?
+11	Las imágenes y los fotogramas de la cámara nunca salen de tu dispositivo. Revisa un enlace antes de abrirlo.
+12	¿Te han enviado un código QR en una captura o un PDF y no puedes apuntarle con una cámara? Sube la imagen y léelo al instante. También puedes usar la cámara de tu portátil o tu móvil.
+13	Leer códigos QR en capturas o correos.
+14	Comprobar adónde lleva un código QR antes de abrirlo.
+15	Escanear códigos de barras de productos.
+16	Recorta alrededor del código si la imagen tiene varios.
+17	Ten cuidado con los códigos desconocidos: revisa el enlace antes de visitarlo.
+18	¿Qué códigos son compatibles?
+19	Códigos QR en todos los navegadores. En Chrome, Edge y Android también se leen códigos de barras 1D (EAN, UPC, Code 128…) y Data Matrix.
+20	Comprobación de seguridad
+21	Los códigos QR pueden ocultar enlaces maliciosos. Escanearlos aquí muestra el contenido completo antes de abrirlo, para que puedas comprobar primero el destino.
+22	Lector de QR online – Escanea desde imagen o cámara gratis
+23	Escanea códigos QR y de barras desde una foto, una captura o tu cámara, gratis en tu navegador. Pega capturas, copia resultados, exporta CSV. Sin subidas.
+24	{tool}: {brand} frente a QRCodeScan.in, ScanQR y Google Lens
+25	Escanea un código QR online, gratis
+26	Este lector de códigos QR lee códigos QR (y, en navegadores basados en Chromium que lo admiten, códigos de barras de productos como EAN, UPC y Code 128) desde una imagen, una captura o tu cámara en directo. Los resultados aparecen al instante y se copian con un clic; los enlaces web solo se abren cuando haces clic en ellos. Pega una captura con Ctrl+V, escanea muchas imágenes de una vez y exporta todo en TXT o CSV. No se sube nada: la decodificación ocurre en tu dispositivo.
+27	Cómo escanear un código QR desde una imagen
+28	Haz clic en *Elegir imagen* y selecciona una o varias fotos o capturas, o simplemente pega una captura con Ctrl+V (⌘V en Mac).
+29	Los códigos se decodifican en un momento y se muestran con su tipo.
+30	Copia cualquier resultado o haz clic en un enlace para abrirlo tras comprobar la dirección.
+31	Pulsa Descargar para guardar todos los resultados en TXT, o elige CSV para una hoja de cálculo.
+32	Cómo escanear un código QR con la cámara
+33	Haz clic en *Usar cámara* y permite el acceso a la cámara cuando el navegador te lo pida.
+34	Apunta la cámara al código; en los móviles se usa la cámara trasera.
+35	Cada código nuevo se añade a la lista automáticamente; vuelve a hacer clic en el botón para detener la cámara.
+36	El acceso a la cámara requiere una página segura (https) y tu permiso; el vídeo nunca sale de tu dispositivo.
+37	Escanea un código QR desde una captura en tu móvil o PC
+38	A un código QR que te envían por WhatsApp, por correo o en una web no puedes apuntarle con la cámara del mismo móvil. Haz una captura, abre esta página y elige la captura de tu galería; o en un ordenador pulsa ImpPant / Mayús+⌘+4 y pégala directamente en la página. El lector prueba varias resoluciones y colores normales e invertidos (claro sobre oscuro), así que normalmente encuentra los códigos pequeños o estilizados de las capturas.
+39	Qué puede leer el lector
+40	Contenido
+41	Ejemplo
+42	Lo que ves
+43	Enlace web
+44	https://example.com
+45	Enlace en el que se puede hacer clic
+46	Wifi
+47	WIFI:T:WPA;S:Casa;P:secreto;;
+48	Texto con el nombre de la red y la contraseña
+49	Tarjeta de contacto
+50	BEGIN:VCARD …
+51	Texto vCard que puedes copiar a tus contactos
+52	Correo / teléfono / SMS
+53	mailto:, tel:, SMSTO:
+54	Se puede pulsar o copiar
+55	Ubicación
+56	geo:48.85,2.29
+57	Coordenadas
+58	Evento de calendario
+59	BEGIN:VEVENT …
+60	Texto del evento
+61	Pago con criptomonedas
+62	bitcoin:bc1…
+63	Dirección e importe
+64	Texto sin formato
+65	Cualquier texto
+66	Texto
+67	Códigos de barras de productos
+68	EAN-13, UPC-A, Code 128
+69	Número (Chrome en Android, macOS y ChromeOS)
+70	La decodificación de QR usa la biblioteca de código abierto jsQR y funciona en cualquier navegador moderno. Los códigos de barras unidimensionales dependen de la Barcode Detection API integrada en el navegador, disponible en navegadores basados en Chromium (Chrome, Edge) en Android, macOS y ChromeOS; donde no está, los códigos QR se siguen leyendo.
+71	Protégete: phishing con QR («quishing»)
+72	Los códigos QR falsos pegados sobre parquímetros, enviados por correo o impresos en folletos son una estafa en aumento: llevan a páginas de pago o de inicio de sesión que imitan a las reales. Este lector nunca abre un enlace automáticamente. Antes de hacer clic, lee la dirección: comprueba cómo se escribe el dominio, desconfía de los acortadores de URL y de las terminaciones raras, y nunca introduzcas datos bancarios o de acceso en una página a la que llegaste desde un código inesperado. Las solicitudes de pago deben pagarse dentro de tu app del banco o de pagos, no en una web abierta desde una pegatina.
+73	¿Por qué no se lee mi código QR?
+74	La imagen está demasiado borrosa o el código es demasiado pequeño: recorta más cerca o repite la foto con buena luz.
+75	Una parte del código está cortada o tapada; los tres cuadrados de las esquinas deben verse.
+76	Contraste muy bajo o fondos de color: el lector prueba con colores invertidos, pero un código pálido sobre una foto recargada puede seguir fallando.
+77	Un logo muy grande o una impresión dañada superan la corrección de errores del código.
+78	No es un código QR: Data Matrix, Aztec y PDF417 solo se leen donde los admite la API de códigos de barras del navegador.
+79	Escanea muchos códigos QR a la vez
+80	Selecciona decenas de imágenes (por ejemplo, fotos de entradas, etiquetas de inventario o un montón de capturas) y cada código encontrado se añade a una sola lista. Los resultados duplicados se muestran una vez. Descarga la lista en TXT, o en CSV con una columna *format* y otra *content* para abrirla en Excel o Google Sheets para listas de control de acceso y recuentos de existencias.
+81	Lector web frente a apps de cámara del móvil
+82	La mayoría de cámaras de móvil leen códigos QR de forma nativa, lo que basta cuando tienes el código delante. Un lector en el navegador es mejor cuando el código ya está en tu pantalla, cuando necesitas el texto en bruto (por ejemplo, una contraseña de wifi o una vCard), cuando quieres escanear un lote de imágenes o en un portátil sin app de cámara. Además, te muestra exactamente qué hay dentro del código antes de que se abra nada.
+83	Cómo escanear un código QR en cada dispositivo
+84	Dispositivo
+85	Opción integrada
+86	Con esta página
+87	iPhone / iPad
+88	App Cámara o el Escáner de códigos del Centro de control
+89	Safari: elige una imagen de Fotos o usa la cámara
+90	Android
+91	App de cámara, Google Lens o el lector de los ajustes rápidos
+92	Chrome: elige una imagen, pega o usa la cámara; también códigos de barras
+93	PC con Windows
+94	App Cámara (Windows 11) con una webcam
+95	Pega una captura (Win+Mayús+S y luego Ctrl+V)
+96	Mac
+97	Ninguna para códigos en pantalla
+98	Pega una captura (Mayús+⌘+4 y luego ⌘V)
+99	Chromebook
+100	Modo QR de la app Cámara
+101	Pega capturas; admite códigos de barras
+102	En ordenadores, el atajo de pegar suele ser lo más rápido: captura la zona de la pantalla con el código y pégala en esta página, sin necesidad de guardar antes un archivo.
+103	Cómo guarda los datos un código QR
+104	Un código QR (Quick Response, «respuesta rápida») es un código matricial bidimensional inventado por Denso Wave en 1994 para seguir piezas de automóvil. Los tres cuadrados grandes de las esquinas indican al lector dónde está el código y en qué orientación; el cuadrado de alineación más pequeño y los patrones de sincronización le ayudan a corregir la perspectiva y las superficies curvas. El resto de módulos guardan los datos más códigos de corrección de errores Reed–Solomon, por eso un código se puede leer aunque una parte esté sucia, dañada o tapada por un logo: hasta un 7 %, 15 %, 25 % o 30 % según el nivel de corrección de errores elegido al crearlo. Un solo código QR puede guardar hasta 4296 caracteres alfanuméricos o 7089 dígitos, aunque la mayoría contiene un enlace web corto.
+105	Leer códigos de wifi, contactos y eventos
+106	Muchos códigos QR contienen texto estructurado en lugar de un enlace. Un código de wifi tiene este aspecto: WIFI:T:WPA;S:NombreDeRed;P:contraseña;; (el nombre de la red va tras S: y la contraseña tras P:), así que puedes copiar la contraseña a un portátil que no pueda escanear códigos. Los códigos de contacto contienen una vCard (BEGIN:VCARD … END:VCARD) o una MeCard; copia el texto en un archivo .vcf para importarlo en tu agenda. Los códigos de evento contienen un VEVENT con el título y las horas de inicio y fin que puedes pegar en un calendario. Los códigos de pago empiezan por un esquema como bitcoin: o upi: seguido de la dirección y el importe; confirma siempre el destinatario dentro de tu monedero o app del banco.
+107	Usos para empresas y eventos
+108	Validar entradas de eventos a partir de capturas enviadas por los invitados y exportar la lista en CSV.
+109	Leer etiquetas de inventario o de activos con la webcam de un portátil durante un recuento de existencias.
+110	Comprobar que los menús, carteles y envases impresos apuntan a la dirección correcta antes de una tirada.
+111	Recuperar el enlace de un código QR de un PDF o una presentación haciendo una captura.
+112	Revisar si los códigos QR de la señalización pública han sido manipulados comparando la dirección decodificada con la oficial.
+113	Códigos QR en PDF, presentaciones y correos
+114	Los códigos QR suelen llegar dentro de documentos: tarjetas de embarque y entradas en PDF, códigos en diapositivas o imágenes incrustadas en boletines por correo. Abre el documento, amplía hasta que el código ocupe buena parte de la pantalla, haz una captura y pégala aquí. Para un PDF con muchas páginas de códigos (por ejemplo, un lote de entradas), convierte las páginas en imágenes con [PDF a JPG](/pdf-to-jpg/) y selecciona todas las imágenes a la vez; cada código se lee y se añade a la lista, listo para exportar.
+115	Otros códigos 2D que puedes encontrarte
+116	Código
+117	Aspecto
+118	Uso habitual
+119	¿Se lee aquí?
+120	Código QR
+121	Cuadrado, con tres cuadrados de posición en las esquinas
+122	Enlaces, pagos, wifi, entradas
+123	Sí, en todos los navegadores
+124	Data Matrix
+125	Cuadrado o rectángulo con un borde sólido en forma de L
+126	Electrónica, farmacia, franqueo
+127	Donde lo admite la API de códigos de barras del navegador
+128	Aztec
+129	Cuadrado con una diana en el centro
+130	Tarjetas de embarque de avión y tren
+131	Donde lo admite la API de códigos de barras del navegador
+132	PDF417
+133	Filas anchas apiladas
+134	Permisos de conducir, documentos de identidad, envíos
+135	Donde lo admite la API de códigos de barras del navegador
+136	Si un código 2D que no es QR falla en tu ordenador, prueba la misma imagen en un móvil Android con Chrome, donde la compatibilidad con estos formatos es mayor.
+137	Consejos para un escaneo limpio
+138	Llena el encuadre: el código debe ocupar al menos una cuarta parte del ancho de la imagen.
+139	Evita los reflejos en papel brillante y pantallas: inclina un poco o apaga una lámpara cercana.
+140	Mantén la cámara quieta un segundo; el lector analiza cuatro fotogramas por segundo.
+141	En códigos impresos sobre botellas o latas curvas, fotografía de frente.
+142	Limpia la lente de la cámara: una mancha es la causa más común de escaneos fallidos en móviles.
+143	Accesibilidad
+144	Los resultados se muestran como texto, así que los lectores de pantalla anuncian el contenido de cada código, y los enlaces son enlaces normales a los que se llega con el teclado. Quienes tengan dificultad para apuntar con el móvil a un código impreso pequeño pueden fotografiarlo desde una distancia cómoda, recortar o ampliar después y leer el resultado con cualquier tamaño de texto.
+145	¿Por qué usar un lector en el navegador en vez de una app?
+146	Muchas apps de escaneo gratuitas de las tiendas de aplicaciones muestran anuncios a pantalla completa, piden acceso a tus contactos o tu ubicación y envían cada enlace escaneado a sus propios servidores para «analítica» o lo redirigen a través de un dominio de seguimiento. Una página web no necesita instalación ni más permisos que la cámara, que puedes conceder solo para una visita. Como esta página decodifica en local y nunca reescribe los enlaces, la dirección que ves es exactamente la que contiene el código, y tu historial de escaneos solo existe en la pestaña abierta hasta que la cierres.
+147	Crea tu propio código QR
+148	¿Necesitas crear uno en lugar de leerlo? Usa el [Generador de códigos QR](/qr-code-generator/) gratuito para enlaces, o los generadores específicos de [QR de wifi](/wifi-qr-code-generator/), [QR de vCard](/vcard-qr-code-generator/) y [códigos de barras](/barcode-generator/).
+149	Privacidad
+150	Las imágenes y los fotogramas de la cámara se decodifican dentro de la pestaña del navegador. No se sube, se guarda ni se registra nada, no hay cuenta y el lector sigue funcionando sin conexión una vez cargada la página, algo importante cuando los códigos contienen contraseñas de wifi, entradas, direcciones de criptomonedas o datos de contacto personales.
+151	¿Cómo escaneo un código QR desde una imagen?
+152	Haz clic en Elegir imagen y selecciona la foto o la captura, o pégala con Ctrl+V. El contenido aparece al instante.
+153	¿Cómo escaneo un código QR que está en la pantalla de mi propio móvil?
+154	Haz una captura, abre esta página y elige la captura de tu galería.
+155	¿Puedo escanear códigos QR con la cámara del portátil?
+156	Sí. Haz clic en Usar cámara, permite el acceso y pon el código delante de la webcam.
+157	¿También lee códigos de barras?
+158	Sí, en Chrome y Edge en Android, macOS y ChromeOS, que ofrecen una API de detección de códigos de barras. Los códigos QR funcionan en cualquier navegador.
+159	¿Es seguro abrir el enlace?
+160	Revisa antes la dirección: el lector nunca abre enlaces automáticamente. No introduzcas contraseñas ni datos de pago en páginas de códigos desconocidos.
+161	¿Puedo escanear varios códigos QR a la vez?
+162	Sí. Selecciona muchas imágenes; todos los códigos se listan y se pueden exportar en TXT o CSV.
+163	¿Cómo veo la contraseña de wifi de un código QR?
+164	Escanea el código; el resultado muestra el nombre de la red tras S: y la contraseña tras P:.
+165	¿Por qué no lee mi código QR?
+166	La imagen puede estar borrosa, cortada o tener poco contraste. Recorta más cerca, repite la foto con mejor luz o prueba con una captura más grande.
+167	¿Se suben mis imágenes?
+168	No. La decodificación ocurre en tu dispositivo y no se envía nada a ningún servidor.
+169	¿El lector es gratis?
+170	Sí: gratis, ilimitado, sin app ni registro.
+C	Escanear desde imagen, pegando capturas y con cámara
+C	Lotes de imágenes, exportación TXT + CSV
+C	Los enlaces nunca se abren solos
+C	Funciona sin conexión

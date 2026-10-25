@@ -1,0 +1,91 @@
+0	PDF to Excel
+1	Extract tables from PDF into Excel with smart detection.
+2	PDF to Excel – Convert PDF Tables to XLSX Free, No Upload | {brand}
+3	Convert PDF tables to Excel with automatic table detection, column alignment and real numbers. XLSX, CSV or ODS; sheet per page or per table. Free, private.
+4	Convert PDF to Excel
+5	Select a PDF with tables.
+6	Choose format and how sheets are organised.
+7	Preview the table and download the spreadsheet.
+8	How does table detection work?
+9	Text is grouped into rows, split into cells at wide gaps, and columns are aligned by clustering cell positions across each table – so rows with empty cells still land in the correct columns.
+10	Are numbers usable in formulas?
+11	Yes. '1,234.50', '(500)', '₹2,000' and '15%' are converted to real numbers (turn this off to keep the text exactly).
+12	Re-typing bank statements, price lists or reports from PDF into a spreadsheet is tedious. {brand} detects tables in the text layer, aligns columns intelligently and converts amounts to real numbers so you can sum and sort immediately. Choose one sheet per page, one per table, or everything on one sheet – and nothing is uploaded.
+13	Analyse bank or credit-card statements in Excel.
+14	Import supplier price lists and invoices.
+15	Reuse tables from annual reports or research papers.
+16	Convert timetables and schedules into editable sheets.
+17	'Tables only' drops headings and paragraphs for a cleaner sheet.
+18	Use the page range to skip cover and summary pages.
+19	Scanned PDF? Run OCR PDF first, then convert.
+20	Does it work on scanned statements?
+21	Only after OCR – scans have no text layer. Our OCR PDF tool adds one.
+22	Can I get CSV instead?
+23	Yes, choose CSV in options or use PDF to CSV.
+24	PDF to Excel Converter – Free OCR for Scanned Tables
+25	Convert PDF tables to Excel (XLSX) or CSV free. Free OCR reads scanned PDFs in 12 languages. Sheet per page or per table. No upload, no sign-up.
+26	Turn PDF tables into real spreadsheets
+27	Bank statements, price lists, invoices, timetables and financial reports usually arrive as PDFs – but you need the numbers in Excel to sort, filter and add them up. Copy-and-paste from a PDF typically produces one long column of jumbled text. {brand} detects the rows and columns on each page and writes them into proper spreadsheet cells, with numbers stored as numbers.
+28	**Free OCR for scanned PDFs** – iLovePDF lists OCR as a Premium feature. Here, scanned and photographed pages are read on your device with Tesseract in 12 languages, at no cost.
+29	**Automatic mode** – pages that already contain text are converted directly; only image-only pages go through OCR, which keeps conversion fast.
+30	**Choose your sheet layout** – one sheet per page, one sheet per table, or everything on a single sheet.
+31	**XLSX or CSV** – Excel workbooks for Excel, Google Sheets and LibreOffice, or CSV for databases and scripts.
+32	**Private** – financial data never leaves your browser.
+33	How table detection works
+34	For digital PDFs the converter reads every text fragment with its exact position. Fragments on the same baseline become a row; consistent gaps between fragments become column boundaries. Ruled lines, when present, help confirm the grid. Numbers with thousands separators, currency symbols, percentages and negative values in brackets are recognised and stored as numeric cells so formulas work immediately.
+35	For scanned pages the page is rendered at 300 DPI, OCR returns every word with its bounding box, and the same row/column logic is applied. The result screen tells you how many pages were read with OCR so you know which ones to double-check.
+36	Getting the cleanest result
+37	**Pick the right OCR language** for scans – accents and non-Latin scripts depend on it.
+38	**Straight, sharp scans** work best. If a scan is skewed or dark, try [PDF Scanner](/pdf-scanner/) to clean it up first.
+39	**One sheet per table** is ideal for reports with several tables per page; **one sheet** is ideal for long statements spanning many pages.
+40	**Check merged headers** – multi-line column titles may land in two rows; merge them in Excel in seconds.
+41	Need only the text? [PDF to Text](/pdf-to-text/) is faster. Need an editable document? Use [PDF to Word](/pdf-to-word/).
+42	XLS vs XLSX vs CSV
+43	Format
+44	Best for
+45	XLSX
+46	Modern Excel, Google Sheets, LibreOffice – keeps multiple sheets and number types
+47	CSV
+48	Importing into databases, accounting software or Python/R scripts – one table, plain text
+49	XLS
+50	Very old Excel versions only; open the XLSX and save as XLS if you truly need it
+51	Common uses
+52	Reconciling bank and credit-card statements.
+53	Importing supplier price lists into inventory systems.
+54	Analysing financial statements and annual reports.
+55	Digitising old printed tables with OCR.
+56	Converting timetables and schedules into editable sheets.
+57	Step by step: PDF to Excel
+58	**Drop your PDF** onto the page – digital or scanned.
+59	**Choose the format** – XLSX for Excel and Google Sheets, or CSV.
+60	**Choose the sheet layout** – per page, per table, or one sheet.
+61	**Leave OCR on Auto** so scanned pages are recognised automatically, and pick the document language.
+62	**Convert and download**, then open the file in Excel, Google Sheets, Numbers or LibreOffice Calc. Spot-check totals against the PDF before relying on the figures.
+63	Can it convert scanned PDFs to Excel?
+64	Yes. Free OCR reads scanned or photographed pages in 12 languages and rebuilds the table rows and columns.
+65	Is PDF to Excel free?
+66	Yes, completely – including OCR, which some services charge for.
+67	Are my bank statements uploaded?
+68	No. Everything is processed in your browser; nothing is sent to a server.
+69	Will numbers be real numbers in Excel?
+70	Yes. Values with separators, currency symbols, percentages and bracketed negatives are stored as numeric cells.
+71	What's the difference between XLS and XLSX?
+72	XLSX is the modern Excel format used since 2007. XLS is the legacy format; you can save the XLSX as XLS in Excel if needed.
+73	Can I put all pages on one sheet?
+74	Yes. Choose 'Everything on one sheet' – ideal for long statements.
+75	Does it work with Google Sheets?
+76	Yes. Upload the XLSX to Google Drive or use File → Import in Sheets.
+77	Why are some columns merged or split?
+78	Tables without clear spacing or lines can be ambiguous. Try the 'one sheet per table' layout or adjust the few cells in Excel.
+79	Can I convert to CSV instead?
+80	Yes. Choose CSV as the format for a plain-text table.
+81	How do I convert a PDF to Excel?
+82	Drop the PDF, choose XLSX or CSV and whether you want one sheet per page or per table, then convert. Tables are detected from the position of the text; scanned PDFs are read with the free OCR first.
+83	How do I convert PDF to an Excel spreadsheet without losing formatting?
+84	Tables with clear columns convert most accurately. Cell values are kept as numbers where possible, so you can sum and sort them; visual styling such as colours and merged cells is not reproduced. Check totals after converting a complex statement.
+85	Is this PDF to Excel converter free?
+86	Yes – including OCR for scanned tables, which some other converters reserve for paid plans. There is no sign-up or file limit.
+C	OCR for scanned PDFs
+C	Free, 12 languages
+C	CSV output
+C	Sheet per page / per table / single

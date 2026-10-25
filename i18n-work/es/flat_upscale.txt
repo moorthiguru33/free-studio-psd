@@ -1,0 +1,239 @@
+0	Upscale Image
+1	Increase image resolution.
+2	Upscale Image – Increase Resolution 2×–4× Free | {brand}
+3	Upscale images to a higher resolution (2×, 3×, 4×) in your browser with Lanczos resampling and sharpening. No upload, no watermark.
+4	Upscale Image Resolution
+5	Select images.
+6	Choose the scale.
+7	Download.
+8	Will there be a watermark?
+9	No, never.
+10	Upscaling increases image resolution so it fits larger displays, prints or platform minimum sizes. Everything happens on your device, with no watermark.
+11	Meet a minimum image size for marketplace or ad uploads.
+12	Upscale old digital photos for viewing on modern screens.
+13	Increase screenshot resolution for documents.
+14	Avoid more than 4× – larger factors magnify blur.
+15	Compress Image afterwards to keep files manageable.
+16	Is a watermark added?
+17	No, never.
+18	Which format should I save as?
+19	PNG for graphics and screenshots; high-quality JPG for photos.
+20	Upscaling vs enlarging
+21	Both make an image bigger. Upscaling targets a specific multiple (2×, 3×, 4×) to reach a resolution required by a platform or print size. Quality depends on the source: a sharp 1000 px photo upscaled 2× looks far better than a blurry thumbnail upscaled 4×.
+22	Print size guide
+23	For printing at 300 DPI, a 10 × 15 cm (4 × 6 in) print needs about 1200 × 1800 px; an A4 or Letter print needs about 2500 × 3500 px. Upscaling helps you reach these sizes, though it cannot add true detail that was never captured.
+24	Upscale Image – 2×, 4×, 8× Free, On Your Device
+25	Upscale images 1.5×, 2×, 3×, 4× or 8× with Lanczos resampling, denoise and sharpening. Before/after slider, batch, full-res download. No upload, free.
+26	{tool}: {brand} vs iLoveIMG, ImgUpscaler and Upscale.media
+27	Make small images bigger – without the blocky look
+28	When you stretch a small image in a basic editor, it turns blocky or blurry: each original pixel simply becomes a square of identical pixels, or edges are smeared out. {brand}'s Upscale Image tool enlarges photos, graphics and screenshots by 1.5×, 2×, 3×, 4× or 8× using high-quality Lanczos resampling, optional denoising that cleans up JPEG artefacts before enlarging, and an unsharp mask that restores crispness afterwards. The result is a larger image that looks smooth and sharp at normal viewing distance.
+29	The whole process runs inside your browser. Your images are never uploaded, so it is safe for personal photos, client work and unreleased product images. There are no credits, no watermark and no reduced-resolution 'preview' – the download is the full upscaled image.
+30	You can process as many images as you like, as often as you like – there is no daily quota.
+31	Be clear about what this upscaler does
+32	Some online upscalers use large generative AI models on their servers that 'invent' plausible new detail – skin pores, hair strands, brick texture. {brand} does not do that. It uses a mathematically precise resampling filter (Lanczos-3, the same family of filters used in professional image editors) plus classic cleanup and sharpening. This means it never adds details that were not there, never changes faces or text, and never produces the strange artefacts AI models sometimes create – but it also cannot reconstruct detail that the small image does not contain. For most uses – printing a web image larger, preparing a logo for a slide, enlarging a product photo for a marketplace, making a screenshot readable – careful resampling is exactly what you need, and it is fast and fully private.
+33	Features
+34	**Scale factors:** 1.5×, 2×, 3×, 4× and 8×.
+35	**Lanczos-3 resampling** implemented separately for width and height for smooth, ringing-controlled edges.
+36	**Denoise / JPEG cleanup:** off, light or strong, applied before enlarging so blocks and noise are not magnified.
+37	**Sharpening:** off, medium or strong unsharp mask after enlarging.
+38	**Before/after slider** to compare the original and the result.
+39	**Batch:** upscale many images at once and download a ZIP.
+40	**Output format:** keep the original format or choose JPG, PNG or WebP.
+41	**Large outputs:** up to about 64 megapixels per image; if a factor would exceed that, it is reduced automatically.
+42	**Accepts** JPG, PNG, WebP, HEIC, BMP and TIFF.
+43	How to upscale an image
+44	Drop one or more images onto the page (or paste with Ctrl+V).
+45	Choose the scale: 2× for most uses, 4× or 8× for very small sources.
+46	For JPGs from the web or messaging apps, set Denoise to Light.
+47	Leave Sharpen at Medium, or choose Strong for text and line art.
+48	Click Upscale and compare with the slider, then download.
+49	Which scale should I choose?
+50	Starting size
+51	Goal
+52	Suggested scale
+53	640×480 photo
+54	Full HD wallpaper
+55	3×
+56	800×800 product photo
+57	Marketplace zoom (2000 px)
+58	2.5–3× (use 3×)
+59	300 px logo
+60	Slide or banner
+61	4×
+62	1080 px Instagram image
+63	A4 print at 300 DPI (2480×3508)
+64	2× then crop
+65	Tiny icon or sprite (64 px)
+66	Large display
+67	8×
+68	Screenshot
+69	Readable in a document
+70	2×
+71	Remember that the visual quality of the result is limited by the information in the original. Going from 500 to 1000 pixels usually looks excellent; going from 100 to 800 pixels gives a smooth but soft image.
+72	How Lanczos resampling works
+73	Every pixel in the enlarged image lies between pixels of the original. The simplest method, nearest-neighbour, copies the closest original pixel – fast but blocky. Bilinear interpolation averages the four nearest pixels – smooth but blurry. Bicubic uses sixteen pixels and gives better results. Lanczos goes further: for each new pixel it looks at six original pixels in each direction and weights them by a windowed sinc function, the mathematically ideal reconstruction filter for band-limited signals. In practice this preserves edges and fine textures much better than bilinear or bicubic, while keeping halos small.
+74	Because large upscales with one big step can amplify problems, {brand} applies the filter separately horizontally and vertically, which is both faster and exact for this kind of filter. The optional unsharp mask then increases local contrast at edges, which our eyes perceive as sharpness.
+75	Denoise before you upscale
+76	Images saved as JPG – especially those downloaded from social networks or forwarded through messaging apps – contain compression artefacts: faint 8×8 pixel blocks, ringing around text and colour smudges. Upscaling makes these four or sixteen times bigger and much more visible. The Denoise option applies a gentle blur before enlarging, which smooths the artefacts away; the sharpening step afterwards then restores edges. Use Light for normal web images and Strong for very compressed ones. For clean PNG graphics and photos straight from a camera, leave denoise off.
+77	Use cases
+78	**Printing:** web images are usually 72–150 pixels per inch at print size; upscaling 2–4× gets you closer to the 300 PPI printers like.
+79	**E-commerce:** marketplaces often require a minimum of 1000–2000 pixels on the long side for zoom.
+80	**Presentations:** enlarge logos and charts so they are not blurry on a projector.
+81	**Old photos:** upscale scans of small prints before cropping or restoring.
+82	**Games and pixel art:** 8× with sharpening off for crisp enlargements.
+83	**Wallpapers:** take a favourite photo to Full HD or 4K.
+84	**Social media:** meet the minimum resolution for cover and banner images.
+85	Upscaling for print
+86	Print quality depends on pixels per inch at the final size. A 1200×800 photo printed 10 cm wide has about 300 pixels per inch – excellent. The same photo printed 30 cm wide has only 100 – visibly soft up close. Upscaling 3× before printing does not add real detail, but it gives the printer a smooth image instead of letting it enlarge with its own, usually simpler, interpolation; edges and gradients look cleaner. For posters viewed from a distance, 150 PPI is often enough. After upscaling, use [Resize Image](/resize-image/) with centimetre or inch units to set the exact print size and DPI.
+87	Tips for the best results
+88	Start from the largest, least compressed version of the image you have.
+89	Crop first, so you only enlarge what you need – [Crop Image](/crop-image/).
+90	Use PNG output for graphics and screenshots, JPG at high quality for photos.
+91	For text and logos, choose Strong sharpening; for faces, Medium looks more natural.
+92	Avoid upscaling the same image repeatedly; one larger step is better than several small ones.
+93	If the file becomes too big, compress it afterwards with [Compress Image](/compress-image/).
+94	Comparing enlargement methods
+95	Method
+96	How it works
+97	Look
+98	Best for
+99	Nearest neighbour
+100	Copies the closest pixel
+101	Blocky, hard edges
+102	Pixel art at whole factors
+103	Bilinear
+104	Averages 4 pixels
+105	Smooth but blurry
+106	Quick previews
+107	Bicubic
+108	Weighs 16 pixels with a cubic curve
+109	Good, slightly soft
+110	General editing
+111	Lanczos-3 (used here)
+112	Weighs 36 pixels with a windowed sinc
+113	Sharpest classical result
+114	Photos, graphics, screenshots
+115	Generative AI
+116	Neural network predicts new detail
+117	Very sharp, may invent detail
+118	Heavily degraded images, when accuracy is not critical
+119	Lanczos is often chosen as the reference method in image-processing libraries because it gives the best balance between sharpness and artefacts among classical filters. Combined with light sharpening, the difference from AI upscaling is small for moderate factors such as 2×, and Lanczos has the advantage of being completely predictable.
+120	Upscaling different kinds of images
+121	**Portraits and faces.** Use 2× or 3×, Denoise Light and Sharpen Medium. Strong sharpening on skin exaggerates pores and noise. Because nothing is invented, the person looks exactly like themselves – a common complaint about AI upscalers is that they subtly change facial features.
+122	**Text, documents and screenshots.** Use 2×, Denoise Off and Sharpen Strong, and save as PNG. Letters become smooth and readable, ideal before printing or pasting into a report. If you want to copy the text, use [Image to Text](/image-to-text/) – upscaling small screenshots first can also improve OCR accuracy.
+123	**Logos and icons.** Use 4×, Sharpen Strong, PNG output so transparency is kept. For truly scalable logos, a vector (SVG) version is always better than any upscale; ask the designer or brand owner for it.
+124	**Product photos.** Use 2–3× with Light denoise and Medium sharpening. Combine with [Remove Background](/remove-background/) for a clean white background required by many marketplaces.
+125	**Anime, cartoons and illustrations.** Flat colours and clean lines upscale very well with Lanczos. Use Strong sharpening and PNG.
+126	**Old scanned photos.** Scan at the highest resolution your scanner supports first – that captures far more real detail than any upscaler. Then use Light or Strong denoise to reduce grain before enlarging.
+127	How upscaling affects file size
+128	Doubling width and height multiplies the number of pixels by four; 4× multiplies it by sixteen and 8× by sixty-four. A 1 MB JPG upscaled 4× can become 8–15 MB, and as a PNG it may exceed 50 MB. If you need a smaller file, choose JPG or WebP output, or run the result through [Compress Image](/compress-image/) with a target size. For web use, upscaling beyond the size at which the image is displayed only makes pages slower – resize to the display size instead.
+129	Pixels, DPI and PPI explained
+130	An image file only has pixels – for example 2400×1600. DPI or PPI (dots or pixels per inch) is a separate number that tells printers how large to print it. Changing DPI from 72 to 300 without changing pixels does not improve quality; it only makes the print smaller. To print larger at the same quality, you need more pixels, which is what upscaling gives you. A useful rule: pixels needed = print size in inches × 300 for close viewing, × 150 for posters. An A4 page (8.3×11.7 in) at 300 PPI needs about 2480×3508 pixels.
+131	Troubleshooting
+132	Problem
+133	Fix
+134	Result looks oversharpened, with halos
+135	Set Sharpen to Medium or Off
+136	Blocks or blotches are visible
+137	Set Denoise to Light or Strong
+138	Result is soft
+139	Use a smaller factor, start from a larger source, or set Sharpen to Strong
+140	Scale was reduced automatically
+141	The output would exceed ~64 megapixels; crop or choose a smaller factor
+142	Browser tab crashes on a phone
+143	Use a smaller factor or a computer for very large outputs
+144	Transparent areas turned white
+145	Choose PNG or WebP output, not JPG
+146	When an AI upscaler might be better
+147	If your image is extremely small (for example a 150-pixel thumbnail) and you need to print it large, or it is badly blurred, a generative AI service may produce a more impressive-looking result by hallucinating texture. Keep in mind that such services usually require uploading the image, often limit free use with credits or watermarks, and the added detail is not real – so they are unsuitable for evidence, documents, scientific images or anything where accuracy matters. For everyday enlargement, private on-device resampling is usually the safer and faster choice.
+148	Upscaling on phones and tablets
+149	The tool works in mobile Chrome, Safari and Firefox. Choose a photo from your gallery or take one with the camera. Phones have less memory than computers, so for large photos stay with 2× or 3×; 8× of a 12-megapixel photo would be far beyond the 64-megapixel limit anyway. On iPhone, HEIC photos are accepted directly. Downloads are saved to your Files or Downloads folder, from where you can share them or save them to your photo library.
+150	Recommended minimum sizes for popular uses
+151	Use
+152	Minimum size (pixels)
+153	Instagram post
+154	1080×1080
+155	YouTube thumbnail
+156	1280×720
+157	LinkedIn / Facebook cover
+158	1584×396 / 1640×624 (see each platform)
+159	Full HD wallpaper
+160	1920×1080
+161	4K wallpaper
+162	3840×2160
+163	Amazon-style product zoom
+164	1000+ on the long side
+165	A4 print, 300 PPI
+166	2480×3508
+167	10×15 cm photo print
+168	1200×1800
+169	Platforms change their recommendations from time to time, so check the current guidance before a big campaign. If your image is below the minimum, upscale it to just above the target, then use [Resize Image](/resize-image/) presets to hit the exact dimensions.
+170	Using the before/after slider
+171	After processing, drag the divider across the preview to compare the original (enlarged with simple browser scaling) and the {brand} result at the same size. Look at edges, text and areas of fine texture such as hair or fabric. If you see halos – light or dark outlines around edges – reduce sharpening. If flat areas look grainy, increase denoise. Because processing is local and fast, you can try two or three combinations in under a minute and keep the one you like best.
+172	Common myths about upscaling
+173	**'Upscaling recovers the original detail.'** Only the original camera or file has that detail; resampling reconstructs smooth transitions, and AI guesses texture.
+174	**'Changing DPI to 300 makes it high resolution.'** DPI is only print metadata – pixels are what count.
+175	**'Bigger is always better.'** An image larger than where it will be shown wastes storage and bandwidth.
+176	**'You need a powerful server.'** Modern browsers compute even 64-megapixel results on an ordinary laptop in seconds.
+177	Batch upscaling workflow
+178	To prepare a whole product catalogue or photo album, drop all images at once. Each is enlarged with the same settings and named after the original with a suffix, so you can match them easily; the set is downloaded as one ZIP. Process images of similar type together – photos in one batch, logos and screenshots in another – because they benefit from different denoise and sharpening settings.
+179	Upscaling and transparency
+180	PNG and WebP images with transparent backgrounds – logos, stickers, cut-out product shots – keep their transparency when upscaled, as long as you choose PNG or WebP output. The resampling filter processes the alpha channel together with colour, so edges stay smooth instead of developing a jagged or coloured fringe. Choosing JPG output fills transparent areas with white, which is useful when a marketplace requires a white background but not when you want to place the image over other content. If your cut-out comes from [Remove Background](/remove-background/), upscale it as PNG and then place it on any background you like. For best results with very fine edges like hair, upscale first and then remove the background, so the cut-out works on more pixels.
+181	Glossary
+182	**Upscaling:** increasing an image's pixel dimensions.
+183	**Resampling:** computing new pixel values from the original ones when changing size.
+184	**Lanczos filter:** a high-quality resampling filter based on the sinc function.
+185	**Unsharp mask:** a sharpening technique that boosts the difference between the image and a blurred copy.
+186	**Artefacts:** unwanted patterns such as JPEG blocks, halos or noise.
+187	**Megapixel:** one million pixels; 8000×8000 is 64 megapixels.
+188	Privacy
+189	Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.
+190	Many AI upscalers upload your image to their servers and keep it for a period – often up to 24 hours – before deleting it. Here, there is nothing to delete: the image never leaves your device.
+191	Related tools
+192	[Image Enlarger](/image-enlarger/) – the same engine with enlarging presets.
+193	[Resize Image](/resize-image/) – exact pixel, cm or inch sizes.
+194	[Compress Image](/compress-image/) – shrink the result.
+195	[Remove Background](/remove-background/) – cut out the subject.
+196	[Crop Image](/crop-image/) – crop before upscaling.
+197	How do I upscale an image for free?
+198	Drop the image, choose 2×, 4× or 8×, and click Upscale. Download the full-resolution result.
+199	Is it AI upscaling?
+200	No. It uses high-quality Lanczos resampling with denoising and sharpening. It never invents details, so faces and text are not altered.
+201	Is my image uploaded?
+202	No. Everything runs in your browser.
+203	What is the maximum output size?
+204	About 64 megapixels per image, e.g. 8000×8000. If the chosen factor would exceed this, it is reduced automatically.
+205	Can I upscale several images at once?
+206	Yes. Drop several images; they are downloaded together in a ZIP.
+207	Will upscaling make a blurry photo sharp?
+208	It makes a small image larger and crisper, but it cannot restore detail lost to camera blur.
+209	Which output format should I use?
+210	PNG for graphics, screenshots and pixel art; JPG or WebP for photos.
+211	Is there a watermark?
+212	No. Downloads are clean and full resolution.
+213	Does it work on phones?
+214	Yes, though very large outputs (8× of a big photo) may exceed a phone's memory.
+215	What is the difference between upscale and resize?
+216	Resizing sets any exact size, up or down. Upscaling is optimised for enlarging, with denoise and sharpening.
+217	How do I upscale an image without losing quality?
+218	Choose 2× and keep sharpening moderate. Upscaling cannot invent real detail; Lanczos resampling with denoise gives clean edges without the artefacts of simple stretching.
+219	How do I upscale an image to 4K?
+220	Pick the factor that brings the width to about 3840 px – for example 2× for a 1920 px image – and download the full-resolution result.
+C	Where your image is processed
+C	Processing
+C	On your device
+C	Upload
+C	Scale options
+C	1.5×, 2×, 3×, 4×, 8×
+C	Size multiplier (Premium options shown)
+C	2× and 4×
+C	2×, 4×, 8×
+C	Method
+C	Lanczos + denoise + sharpen (no AI)
+C	AI
+C	AI super-resolution
+C	File retention
+C	Never uploaded
+C	Deleted within 24 hours
+C	Batch upscaling
+C	Bulk (enterprise)

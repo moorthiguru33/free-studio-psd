@@ -1,0 +1,80 @@
+0	PDF to Text
+1	Extract plain text from a PDF.
+2	PDF to Text Converter Online Free – Extract Text from PDF
+3	Extract all text from a PDF into a .txt file, in reading order with paragraphs joined. Free, no upload, no sign-up.
+4	PDF to Text
+5	Select your PDF.
+6	Choose whether to mark page breaks.
+7	Download the text file.
+8	My PDF is a scan – no text?
+9	Use OCR PDF first to recognize the text.
+10	Plain text is the easiest format to search, analyse, translate or paste into another app. PDF to Text pulls out every word in reading order without the formatting.
+11	Paste document text into a translator or AI assistant.
+12	Analyse text in a spreadsheet or script.
+13	Make a document accessible to screen readers or plain-text tools.
+14	For headings and lists, PDF to Markdown keeps more structure.
+15	Scanned PDFs need OCR.
+16	What if my PDF is scanned?
+17	Use OCR PDF first to recognise the text.
+18	Plain text use cases
+19	Text files are tiny, open on any device and are ideal for word counts, translation, search indexing, data analysis or pasting into AI assistants. Removing formatting also helps screen readers and accessibility tools.
+20	Reading order
+21	Text is extracted in reading order and lines are joined into paragraphs, but multi-column layouts may need small corrections.
+22	PDF to Text – Extract Plain Text from PDF (TXT) Free
+23	Convert PDF to plain text (.txt) in your browser: clean lines and paragraphs, optional page-break markers, Unicode. Free, no upload, no sign-up.
+24	{tool}: {brand} vs iLovePDF, Smallpdf and Adobe
+25	Convert PDF to plain text
+26	Get all the text out of a PDF as a simple .txt file – ideal for copying into other programs, feeding to analysis or AI tools, translation, accessibility, search indexing or just reading on any device. Lines and paragraphs are rebuilt from the PDF layout; all languages and scripts are kept as Unicode.
+27	How to use it
+28	Drop the PDF.
+29	Tick Mark page breaks if you want page separators.
+30	Press Convert and download the .txt file.
+31	Scanned PDFs
+32	Extraction reads the PDF's text layer. Scanned pages are pictures without text, so they produce empty pages. Run [OCR PDF](/ocr-pdf/) first, then extract.
+33	Why spacing or order can look odd
+34	PDFs store text as positioned fragments, not paragraphs. The extractor rebuilds lines and paragraphs from their positions. Multi-column layouts, tables, footnotes and sidebars may come out in a different order than you read them, and hyphenated line breaks stay hyphenated. Tables are best extracted with [PDF to Excel](/pdf-to-excel/) or [PDF to CSV](/pdf-to-csv/).
+35	Mark page breaks
+36	Tick *Mark page breaks* to insert a clear separator at each page, so you can find where page 12 starts or quote with page numbers.
+37	Plain text uses
+38	Paste into ChatGPT, translation tools or a word counter – see [Word Counter](/word-counter/).
+39	Import into a spreadsheet, database or search index.
+40	Read on old e-readers and screen readers.
+41	Compare two versions with the [Text Diff Checker](/text-diff-checker/).
+42	Keep a lightweight, future-proof archive copy.
+43	Works with almost any PDF
+44	The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone.
+45	Windows, Mac, iPhone and Android
+46	There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive.
+47	Common problems and fixes
+48	**"File is encrypted"** – remove the open password with Unlock PDF, then try again.
+49	**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.
+50	**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).
+51	**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.
+52	**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari.
+53	Combine it with other PDF tools
+54	Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later.
+55	Privacy
+56	Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger.
+57	How do I convert PDF to text?
+58	Drop the PDF and download the .txt.
+59	Does it keep formatting?
+60	No – plain text has no fonts or layout; use PDF to Word for that.
+61	Why is my text file empty?
+62	The PDF is scanned; run OCR first.
+63	Does it support Hindi, Arabic or Chinese?
+64	Yes, as Unicode if the PDF has proper text mapping.
+65	Can I mark page numbers?
+66	Yes, tick Mark page breaks.
+67	Is the encoding UTF-8?
+68	Yes.
+69	Can I extract tables?
+70	Use PDF to Excel or CSV.
+71	Is it free?
+72	Yes.
+73	Are files uploaded?
+74	No.
+75	Does it work on phones?
+76	Yes.
+C	No upload – runs on your device
+C	Page-break markers, UTF-8
+C	Free without sign-up

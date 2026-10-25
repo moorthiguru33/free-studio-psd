@@ -1,0 +1,86 @@
+0	Excel a PDF
+1	Convierte hojas de cálculo en tablas PDF limpias.
+2	Excel a PDF – Convierte XLSX, XLS y ODS a PDF gratis, sin subidas | {brand}
+3	Convierte hojas de Excel (XLSX, XLS, ODS, CSV) a PDF con tablas legibles, una sección por hoja y encabezados repetidos. Gratis, privado, sin registro.
+4	Convertir Excel a PDF
+5	Selecciona las hojas de cálculo.
+6	Elige el tamaño de página.
+7	Descarga el PDF.
+8	¿Se incluyen todas las hojas?
+9	Sí, cada hoja con contenido se convierte en su propia sección con el nombre de la hoja como título.
+10	¿Se ven las fórmulas?
+11	Se muestran los valores calculados, con el formato que tienen en el archivo.
+12	Compartir una hoja de cálculo como PDF garantiza que todos vean las mismas cifras sin poder editarlas. {brand} convierte cada hoja en una tabla PDF limpia con la primera fila como encabezado, ajustando las celdas largas y repartiendo las hojas grandes en varias páginas, sin tener Excel instalado y sin subir tus datos financieros.
+13	Enviar una lista de precios o un presupuesto en PDF.
+14	Imprimir un horario o una hoja de asistencia.
+15	Archivar informes mensuales en PDF.
+16	Compartir datos con personas que no tienen Excel.
+17	Las hojas anchas caben mejor en A3 o Legal.
+18	Borra las columnas innecesarias antes de convertir para una tabla más ordenada.
+19	¿Necesitas lo contrario? Usa PDF a Excel.
+20	¿Conserva colores y gráficos?
+21	Se centra en los datos: valores de celdas en tablas limpias. Los gráficos y los colores de celda no se reproducen.
+22	¿Se suben mis datos?
+23	No: la conversión se hace en tu navegador.
+24	Convertir Excel a PDF – Gratis, ajustado a la página
+25	Convierte Excel (XLSX, XLS, ODS, CSV) a PDF gratis. Horizontal automático en hojas anchas, ajuste de columnas, elige hojas, lotes. Sin subidas ni registro.
+26	Convierte hojas de cálculo en PDF limpios y fáciles de compartir
+27	Las hojas de cálculo son estupendas para trabajar con números, pero incómodas de compartir: las columnas se cortan, el destinatario puede no tener Excel y las fórmulas pueden cambiarse por accidente. Un PDF congela la tabla en un diseño legible que se abre en cualquier dispositivo. {brand} convierte archivos XLSX, XLS, ODS, CSV y TSV a PDF directamente en tu navegador, así que las listas de precios, las nóminas y los informes financieros nunca salen de tu ordenador.
+28	Opciones para que la tabla quepa
+29	**Orientación automática**: las hojas anchas pasan solas a horizontal; o fuerza vertical u horizontal.
+30	**Ajustar columnas al ancho de página**: el tamaño del texto se adapta al número de columnas; elige texto pequeño para que quepan más columnas o grande para leer mejor.
+31	**Elegir hojas**: convierte todas las hojas o solo las que indiques por nombre o número (p. ej. 1, Resumen).
+32	**Tamaño de página**: A4, Carta, Legal o A3.
+33	**Lotes**: convierte muchos libros de una vez en un solo PDF con marcadores o en un ZIP de PDF separados.
+34	**Todos los formatos habituales**: XLSX, XLS (Excel 97–2003), ODS (LibreOffice), CSV y TSV.
+35	Cómo convertir Excel a PDF
+36	Suelta uno o varios archivos de hoja de cálculo.
+37	Elige orientación, ajuste y tamaño de página; indica las hojas si solo quieres algunas.
+38	Elige un PDF combinado o un PDF por archivo.
+39	Haz clic en Convertir y descarga.
+40	Consejos para un resultado perfecto
+41	Las hojas anchas con muchas columnas se leen mejor en horizontal en A3 o con «texto pequeño».
+42	Oculta o borra las columnas auxiliares antes de convertir: se incluye todo lo que tenga datos.
+43	Las filas vacías se omiten automáticamente para ahorrar páginas.
+44	Cuando un libro tiene varias hojas, cada una empieza con su nombre como título.
+45	Las hojas muy largas continúan en varias páginas; la fila de encabezado abre la tabla.
+46	¿Necesitas la dirección contraria? [PDF a Excel](/pdf-to-excel/) vuelve a convertir las tablas PDF en hojas de cálculo.
+47	«Guardar como PDF» de Excel frente a esta herramienta
+48	Excel en Windows y Mac puede exportar a PDF desde Archivo → Guardar como / Exportar, y Google Sheets desde Archivo → Descargar → PDF. Esas opciones respetan las áreas de impresión y la configuración de página que hayas definido. Esta herramienta es práctica cuando no tienes Excel, estás en un móvil o un Chromebook, necesitas convertir muchos archivos a la vez o has recibido un CSV que solo quieres leer como una tabla ordenada.
+49	Usos habituales
+50	Enviar facturas, presupuestos y listas de precios a clientes.
+51	Compartir presupuestos e informes con personas que no usan Excel.
+52	Archivar las exportaciones mensuales de nóminas y contabilidad.
+53	Imprimir horarios, turnos e inventarios.
+54	Convertir exportaciones CSV de apps y bancos en documentos legibles.
+55	Privacidad
+56	Las hojas de cálculo suelen contener las cifras más sensibles de una empresa: salarios, márgenes, listas de clientes. Como la conversión se hace en tu navegador, nunca se suben, se registran ni se almacenan. Cierra la pestaña y todo desaparece.
+57	Qué pasa con las fórmulas y el formato
+58	El PDF muestra los valores que calcularon tus fórmulas la última vez que se guardó el libro, no las fórmulas en sí: exactamente lo que mostraría una copia impresa. Las fechas y los números aparecen con el formato de la hoja. Los colores de celda, las celdas combinadas y los gráficos se simplifican en una tabla limpia para que los datos sigan siendo legibles a cualquier tamaño.
+59	¿Cómo convierto Excel a PDF?
+60	Suelta aquí el archivo XLSX, XLS, ODS o CSV, elige orientación y ajuste, y haz clic en Convertir.
+61	¿Es gratis?
+62	Sí, sin límites, marca de agua ni registro.
+63	¿Se sube mi hoja de cálculo?
+64	No. La conversión se hace por completo en tu navegador.
+65	¿Cómo evito que se corten las columnas?
+66	Deja la orientación en Automática (las hojas anchas pasan a horizontal) y elige «Texto pequeño», o usa el tamaño A3.
+67	¿Puedo convertir solo una hoja?
+68	Sí. Escribe el nombre o el número de la hoja en «Hojas».
+69	¿Puedo convertir varios libros a la vez?
+70	Sí. Combínalos en un PDF con marcadores u obtén un PDF por archivo.
+71	¿Admite CSV?
+72	Sí, los CSV y TSV se convierten en tablas con formato.
+73	¿Se incluyen gráficos e imágenes?
+74	El conversor se centra en los datos de las celdas. Para los gráficos, expórtalos desde Excel como imágenes o usa la opción Guardar como PDF del propio Excel.
+75	¿Puedo convertir en el móvil?
+76	Sí. Funciona en cualquier navegador móvil actual.
+77	¿Cómo convierto Excel a PDF en una sola página de ancho?
+78	Activa el ajuste al ancho: las columnas se escalan para caber en la página y las hojas anchas pasan a horizontal automáticamente, así que nada se corta en el borde.
+79	¿Cómo convierto Excel a PDF sin perder el formato?
+80	Se conservan los valores de las celdas, el ancho de las columnas, la negrita y los bordes. Los gráficos y el formato condicional complejo pueden no reproducirse: revisa la vista previa o exporta desde Excel cuando una hoja dependa de ellos.
+81	¿Puedo convertir Excel a PDF en horizontal?
+82	Sí. Elige horizontal, o deja la orientación en automática y las hojas anchas se maquetarán en horizontal.
+C	Entrada XLS, XLSX, ODS, CSV, TSV
+C	Horizontal automático / ajustar columnas
+C	Elegir hojas

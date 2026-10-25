@@ -1,0 +1,151 @@
+0	Collage Maker
+1	Combine photos into a grid collage.
+2	Collage Maker Online Free – Photo Grid, No Watermark
+3	Create a photo collage from multiple images with adjustable columns, spacing and background. Free, private, no watermark.
+4	Photo Collage Maker
+5	Select two or more photos.
+6	Choose columns, spacing, width and background.
+7	Click Start and download your collage.
+8	Can I change the order?
+9	Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom.
+10	A collage shows many photos in one image – perfect for social posts, event recaps, mood boards and family memories.
+11	Share holiday highlights in one post.
+12	Create a mood board for a project.
+13	Make a product grid for an online store.
+14	Use photos with similar aspect ratios for a neat grid.
+15	Add spacing and a background colour that suits your photos.
+16	Can I change the order?
+17	Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom.
+18	Layout ideas
+19	Two columns work well for before-and-after pairs, three or four for event highlights, and larger grids for product catalogues or mood boards. A thin white or dark gap gives a clean, modern look.
+20	Sizes for social media
+21	Square (1080 × 1080) and portrait 4:5 (1080 × 1350) collages display best in social feeds; landscape suits presentations and blogs.
+22	Collage Maker Online Free – Photo Grid, No Watermark
+23	Make photo collages and grids free: choose columns, spacing, background and fit, then download JPG, PNG or WebP. No watermark, no sign-up, no upload.
+24	{tool}: {brand} vs Canva, Adobe Express and iLoveIMG
+25	Free photo collage maker
+26	Combine your favourite photos into one picture for Instagram, Facebook, a family album, a mood board or a product sheet. Drop the photos, choose the number of columns, spacing and background colour, decide whether photos are cropped to fill their cells or shown whole, and download a high-resolution JPG, PNG or WebP. No watermark, no account and no upload.
+27	How to use it
+28	Drop 2 to 50 photos.
+29	Add them in the order you want them placed.
+30	Set columns, output width, spacing and background.
+31	Pick Fill (crop to cells) or Fit (show whole photos).
+32	Download the collage.
+33	Layouts that work
+34	Photos
+35	Columns
+36	Looks like
+37	2
+38	2
+39	Side-by-side before/after
+40	3
+41	3
+42	Triptych / panorama strip
+43	4
+44	2
+45	Classic 2 × 2 grid
+46	6
+47	3
+48	3 × 2 grid for Facebook
+49	9
+50	3
+51	3 × 3 Instagram-style grid
+52	12–20
+53	4
+54	Mood board or contact sheet
+55	For two images joined edge to edge without a grid, the [Image Joiner](/image-joiner/) is quicker.
+56	Fill or fit?
+57	*Fill* crops each photo to the same cell shape, giving a tidy, magazine-like grid – faces near the edges may be cut. *Fit* shows every photo whole and adds background around it – better for documents, screenshots and artwork. A white or soft-grey background with 10–20 px spacing looks clean; black works well for night photos and dramatic images.
+58	Best output size
+59	Instagram: 1080 px wide (square or 4:5).
+60	Facebook: 2048 px wide for sharp display.
+61	Printing A4/Letter at 300 dpi: about 2480–2550 px wide.
+62	Web pages: 1200–1600 px wide, then [Compress Image](/compress-image/).
+63	Ideas
+64	Year-in-review or holiday highlights.
+65	Wedding and baby milestone boards.
+66	Real-estate listings with several rooms in one image.
+67	Product variants and colour options for online shops.
+68	Recipe step photos and DIY progress.
+69	Mood boards for designers and stylists.
+70	Collage vs grid split
+71	A collage combines many photos into one image. The opposite – splitting one photo into several posts that form a profile grid – is done by the [Instagram Grid Maker](/instagram-grid-maker/).
+72	Printing your collage
+73	For a printed poster or photo book page, set the width from the print size: inches × 300 for sharp prints (an 8 × 10 in print needs 2400 px across), or centimetres × 118. Choose PNG or high-quality JPG, leave at least 20 px spacing so the cut lines between photos stay even, and keep important faces away from the outer edge in case the printer trims a few millimetres. Most photo labs accept JPG files up to 25–50 MB.
+74	A 3 × 3 Instagram collage step by step
+75	Pick nine photos with a common theme – a trip, a season, a product line.
+76	Drop them in the order you want them read, left to right and top to bottom.
+77	Set 3 columns, 1080 px width, 8–12 px spacing and a white background.
+78	Choose Fill so every cell is a neat square.
+79	Download as JPG and post it as a single square or 4:5 image.
+80	Colour and layout harmony
+81	A collage looks deliberate when the photos share something: a dominant colour, similar brightness, or the same subject at different moments. Alternate close-ups with wide shots so the eye has places to rest, and avoid placing two very busy pictures next to each other. If one photo is much darker, brighten it with [Photo Filters](/photo-filters/) before combining. Even spacing and a neutral background make mixed photos feel like a set.
+82	Collages for business
+83	Online shops use collages to show every colour of a product in one image; estate agents combine rooms into one listing picture; event organisers share highlights the next morning; teachers make visual timetables and classroom displays. Because the tool runs offline in the browser, staff can use it on locked-down work computers without installing software or uploading customer photos to a third-party service.
+84	Choosing the right photos
+85	Start with more pictures than you need and cut ruthlessly: a collage of six strong images beats one of twenty average ones. Mix orientations carefully – in Fill mode portrait photos lose their top and bottom, and landscape photos lose their sides, so check that heads and key details stay inside each cell. Group photos look best in larger cells, so for a feature image use fewer columns. When telling a story, such as a trip or a renovation, order the photos in time so viewers read them naturally from the first cell to the last. If two photos are nearly identical, keep only the sharper one; repetition weakens a grid more than an empty cell would, and fewer, larger photos are easier to read on a small phone screen.
+86	Spacing and background explained
+87	Spacing is the gap in pixels between photos and around the outer edge. 0 px gives a seamless mosaic where photos touch; 5–10 px looks modern and tidy on phones; 20–40 px gives a gallery or scrapbook feel and leaves room for printing. The background colour fills the gaps and – in Fit mode – the space around photos that do not match the cell shape. Pick a colour taken from the photos themselves with the [Image Color Picker](/image-color-picker/) for a coordinated, designed look.
+88	Quality tips
+89	Use photos with similar lighting and colour for a calm result, or apply the same look with [Photo Filters](/photo-filters/) first. Put the strongest image in the top-left or centre cell, where eyes land first. HEIC photos from iPhones are converted automatically.
+90	Photo formats at a glance
+91	Format
+92	Compression
+93	Transparency
+94	Best for
+95	JPG
+96	Lossy
+97	No
+98	Photos, e-mail, social media
+99	PNG
+100	Lossless
+101	Yes
+102	Screenshots, logos, graphics with text
+103	WebP
+104	Lossy or lossless
+105	Yes
+106	Websites – smaller than JPG and PNG
+107	AVIF
+108	Lossy or lossless
+109	Yes
+110	Smallest files, newer browsers
+111	GIF
+112	Lossless, 256 colours
+113	1-bit
+114	Simple animations
+115	The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first.
+116	Works on any device
+117	It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps.
+118	Quality and file size
+119	Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/).
+120	Common problems and fixes
+121	**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.
+122	**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.
+123	**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.
+124	**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.
+125	**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time.
+126	Privacy
+127	Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material.
+128	How do I make a photo collage for free?
+129	Drop your photos, choose columns and spacing, and download – no watermark.
+130	How many photos can I add?
+131	Up to about 50; more cells make each photo smaller.
+132	Is there a watermark?
+133	No.
+134	Can I change the background colour?
+135	Yes, any colour.
+136	Can I make a collage for Instagram?
+137	Yes, set 1080 px width and 2 or 3 columns.
+138	Can photos be shown uncropped?
+139	Choose Fit mode.
+140	In what order are photos placed?
+141	Left to right, top to bottom, in the order you add them.
+142	What format is the collage?
+143	JPG, PNG or WebP.
+144	Are my photos uploaded?
+145	No, the collage is built in your browser.
+146	Does it work on iPhone?
+147	Yes, HEIC photos included.
+C	Batch / multiple images
+C	Columns, spacing, fill/fit
+C	Works offline

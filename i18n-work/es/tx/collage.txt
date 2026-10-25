@@ -1,0 +1,151 @@
+0	Creador de collages
+1	Combina fotos en un collage en cuadrícula.
+2	Hacer collage de fotos online gratis – Cuadrícula sin marca de agua
+3	Crea un collage con varias fotos ajustando columnas, separación y fondo. Gratis, privado y sin marca de agua.
+4	Creador de collages de fotos
+5	Selecciona dos o más fotos.
+6	Elige columnas, separación, ancho y fondo.
+7	Haz clic en Iniciar y descarga tu collage.
+8	¿Puedo cambiar el orden?
+9	Sí: usa las flechas junto a cada archivo; las fotos se colocan de izquierda a derecha y de arriba abajo.
+10	Un collage muestra muchas fotos en una sola imagen: perfecto para publicaciones en redes, resúmenes de eventos, tableros de inspiración y recuerdos familiares.
+11	Compartir lo mejor de las vacaciones en una sola publicación.
+12	Crear un tablero de inspiración para un proyecto.
+13	Hacer una cuadrícula de productos para una tienda online.
+14	Usa fotos con proporciones parecidas para una cuadrícula ordenada.
+15	Añade separación y un color de fondo que vaya con tus fotos.
+16	¿Puedo cambiar el orden?
+17	Sí: usa las flechas junto a cada archivo; las fotos se colocan de izquierda a derecha y de arriba abajo.
+18	Ideas de diseño
+19	Dos columnas funcionan bien para parejas de antes y después, tres o cuatro para lo mejor de un evento, y cuadrículas más grandes para catálogos de productos o tableros de inspiración. Un espacio fino blanco u oscuro da un aspecto limpio y moderno.
+20	Tamaños para redes sociales
+21	Los collages cuadrados (1080 × 1080) y verticales 4:5 (1080 × 1350) son los que mejor se ven en los feeds; el formato horizontal va bien para presentaciones y blogs.
+22	Creador de collages online gratis – Cuadrícula de fotos
+23	Haz collages y cuadrículas de fotos gratis: elige columnas, separación, fondo y ajuste, y descarga en JPG, PNG o WebP. Sin marca de agua, registro ni subidas.
+24	{tool}: {brand} frente a Canva, Adobe Express e iLoveIMG
+25	Creador de collages de fotos gratis
+26	Combina tus fotos favoritas en una sola imagen para Instagram, Facebook, un álbum familiar, un tablero de inspiración o una ficha de producto. Suelta las fotos, elige el número de columnas, la separación y el color de fondo, decide si las fotos se recortan para llenar sus celdas o se muestran enteras, y descarga un JPG, PNG o WebP de alta resolución. Sin marca de agua, sin cuenta y sin subidas.
+27	Cómo usarlo
+28	Suelta de 2 a 50 fotos.
+29	Añádelas en el orden en que quieras colocarlas.
+30	Ajusta columnas, ancho de salida, separación y fondo.
+31	Elige Rellenar (recortar a las celdas) o Ajustar (mostrar las fotos enteras).
+32	Descarga el collage.
+33	Diseños que funcionan
+34	Fotos
+35	Columnas
+36	Resultado
+37	2
+38	2
+39	Antes/después lado a lado
+40	3
+41	3
+42	Tríptico / tira panorámica
+43	4
+44	2
+45	Cuadrícula clásica de 2 × 2
+46	6
+47	3
+48	Cuadrícula de 3 × 2 para Facebook
+49	9
+50	3
+51	Cuadrícula de 3 × 3 estilo Instagram
+52	12–20
+53	4
+54	Tablero de inspiración u hoja de contactos
+55	Para unir dos imágenes borde con borde sin cuadrícula, [Unir imágenes](/image-joiner/) es más rápido.
+56	¿Rellenar o ajustar?
+57	*Rellenar* recorta cada foto con la misma forma de celda y da una cuadrícula ordenada, como de revista; las caras cerca de los bordes pueden quedar cortadas. *Ajustar* muestra cada foto entera y añade fondo alrededor: mejor para documentos, capturas e ilustraciones. Un fondo blanco o gris suave con 10–20 px de separación queda limpio; el negro funciona bien con fotos nocturnas e imágenes dramáticas.
+58	El mejor tamaño de salida
+59	Instagram: 1080 px de ancho (cuadrado o 4:5).
+60	Facebook: 2048 px de ancho para que se vea nítido.
+61	Imprimir en A4/Carta a 300 dpi: unos 2480–2550 px de ancho.
+62	Páginas web: 1200–1600 px de ancho y después [Comprimir imagen](/compress-image/).
+63	Ideas
+64	Resumen del año o lo mejor de las vacaciones.
+65	Tableros de bodas y de los hitos del bebé.
+66	Anuncios inmobiliarios con varias habitaciones en una imagen.
+67	Variantes de producto y opciones de color para tiendas online.
+68	Fotos de los pasos de una receta y progreso de manualidades.
+69	Tableros de inspiración para diseñadores y estilistas.
+70	Collage frente a cuadrícula dividida
+71	Un collage combina muchas fotos en una sola imagen. Lo contrario (dividir una foto en varias publicaciones que forman una cuadrícula en el perfil) se hace con el [Creador de cuadrículas de Instagram](/instagram-grid-maker/).
+72	Imprimir tu collage
+73	Para un póster impreso o una página de fotolibro, fija el ancho según el tamaño de impresión: pulgadas × 300 para impresiones nítidas (una impresión de 8 × 10 in necesita 2400 px de ancho), o centímetros × 118. Elige PNG o JPG de alta calidad, deja al menos 20 px de separación para que las líneas de corte entre fotos queden regulares y aleja las caras importantes del borde exterior por si la imprenta recorta unos milímetros. La mayoría de laboratorios fotográficos aceptan archivos JPG de hasta 25–50 MB.
+74	Un collage de 3 × 3 para Instagram paso a paso
+75	Elige nueve fotos con un tema común: un viaje, una estación, una línea de productos.
+76	Suéltalas en el orden en que quieras que se lean, de izquierda a derecha y de arriba abajo.
+77	Ajusta 3 columnas, 1080 px de ancho, 8–12 px de separación y fondo blanco.
+78	Elige Rellenar para que cada celda sea un cuadrado perfecto.
+79	Descarga en JPG y publícalo como una sola imagen cuadrada o 4:5.
+80	Armonía de color y diseño
+81	Un collage se ve intencionado cuando las fotos comparten algo: un color dominante, un brillo parecido o el mismo tema en distintos momentos. Alterna primeros planos con planos generales para que la vista tenga dónde descansar, y evita poner juntas dos imágenes muy recargadas. Si una foto es mucho más oscura, ilumínala con [Filtros de fotos](/photo-filters/) antes de combinarla. Una separación uniforme y un fondo neutro hacen que fotos variadas parezcan un conjunto.
+82	Collages para negocios
+83	Las tiendas online usan collages para mostrar todos los colores de un producto en una imagen; las inmobiliarias combinan las habitaciones en una sola foto del anuncio; los organizadores de eventos comparten lo mejor a la mañana siguiente; los docentes hacen horarios visuales y murales para el aula. Como la herramienta funciona sin conexión en el navegador, el personal puede usarla en ordenadores de empresa restringidos sin instalar programas ni subir fotos de clientes a un servicio externo.
+84	Elegir las fotos adecuadas
+85	Empieza con más fotos de las que necesitas y descarta sin piedad: un collage de seis imágenes potentes es mejor que uno de veinte normales. Mezcla las orientaciones con cuidado: en el modo Rellenar las fotos verticales pierden la parte de arriba y de abajo, y las horizontales los lados, así que comprueba que las cabezas y los detalles clave queden dentro de cada celda. Las fotos de grupo se ven mejor en celdas grandes, así que para una imagen destacada usa menos columnas. Si cuentas una historia, como un viaje o una reforma, ordena las fotos en el tiempo para que se lean con naturalidad de la primera celda a la última. Si dos fotos son casi idénticas, quédate solo con la más nítida; la repetición debilita una cuadrícula más que una celda vacía, y pocas fotos grandes se leen mejor en la pantalla pequeña de un móvil.
+86	Separación y fondo, explicados
+87	La separación es el espacio en píxeles entre las fotos y alrededor del borde exterior. 0 px da un mosaico continuo en el que las fotos se tocan; 5–10 px se ve moderno y ordenado en el móvil; 20–40 px da un aire de galería o álbum de recortes y deja margen para imprimir. El color de fondo rellena los espacios y, en el modo Ajustar, el espacio alrededor de las fotos que no encajan con la forma de la celda. Elige un color tomado de las propias fotos con el [Selector de color de imagen](/image-color-picker/) para un aspecto coordinado y cuidado.
+88	Consejos de calidad
+89	Usa fotos con iluminación y colores parecidos para un resultado sereno, o aplícales antes el mismo estilo con [Filtros de fotos](/photo-filters/). Pon la imagen más potente en la celda superior izquierda o en la central, donde se posa primero la mirada. Las fotos HEIC del iPhone se convierten automáticamente.
+90	Formatos de foto de un vistazo
+91	Formato
+92	Compresión
+93	Transparencia
+94	Ideal para
+95	JPG
+96	Con pérdida
+97	No
+98	Fotos, correo, redes sociales
+99	PNG
+100	Sin pérdida
+101	Sí
+102	Capturas, logotipos, gráficos con texto
+103	WebP
+104	Con o sin pérdida
+105	Sí
+106	Webs: más ligero que JPG y PNG
+107	AVIF
+108	Con o sin pérdida
+109	Sí
+110	Archivos mínimos, navegadores recientes
+111	GIF
+112	Sin pérdida, 256 colores
+113	1 bit
+114	Animaciones sencillas
+115	La herramienta lee JPG, PNG, WebP, GIF, BMP, AVIF y, mediante decodificadores integrados, fotos HEIC del iPhone, así que rara vez tendrás que convertir antes.
+116	Funciona en cualquier dispositivo
+117	Funciona en Chrome, Edge, Firefox y Safari en Windows, macOS, Linux, ChromeOS, Android e iPhone/iPad. En el móvil, toca la zona para soltar archivos y elige desde tu galería; los resultados se guardan en Descargas o en la app Archivos. Los lotes se procesan uno tras otro y se descargan juntos en un ZIP, así que un álbum de vacaciones entero lleva solo unos toques.
+118	Calidad y tamaño de archivo
+119	Las ediciones se hacen a la resolución completa del original. Los resultados JPG y WebP se codifican con alta calidad (alrededor del 90 %), visualmente idéntica al original en la mayoría de fotos y con archivos compactos; elige PNG si necesitas una salida sin pérdida o transparencia. Para reducir más los archivos después, usa [Comprimir imagen](/compress-image/), y para cambiar las dimensiones, [Redimensionar imagen](/resize-image/).
+120	Problemas habituales y soluciones
+121	**El archivo no se abre**: comprueba que es una imagen real y no un acceso directo o un marcador de posición de la nube; descárgalo antes por completo desde iCloud, Google Fotos u OneDrive.
+122	**El resultado se ve borroso**: parte del original, no de una miniatura enviada por WhatsApp o Messenger, que recomprimen mucho las fotos.
+123	**Los colores se ven algo distintos**: las fotos de gama amplia (Display P3) se muestran en sRGB, el estándar de la web; es normal y coherente en todos los dispositivos.
+124	**La descarga no aparece en el iPhone**: busca en Archivos → Descargas, o mantén pulsada la vista previa y elige Guardar en Fotos.
+125	**Un lote grande va lento**: las fotos muy grandes usan mucha memoria; cierra otras pestañas o procesa 20–30 imágenes cada vez.
+126	Privacidad
+127	Todo ocurre dentro de la pestaña del navegador. Tus imágenes se leen de tu disco a la memoria, se procesan allí y se guardan directamente en tu dispositivo. No se sube, se guarda ni se registra nada, no hay cuenta y la herramienta sigue funcionando sin conexión una vez cargada la página, así que es segura para material privado, confidencial o inédito.
+128	¿Cómo hago un collage de fotos gratis?
+129	Suelta tus fotos, elige columnas y separación, y descarga, sin marca de agua.
+130	¿Cuántas fotos puedo añadir?
+131	Hasta unas 50; cuantas más celdas, más pequeña queda cada foto.
+132	¿Hay marca de agua?
+133	No.
+134	¿Puedo cambiar el color de fondo?
+135	Sí, cualquier color.
+136	¿Puedo hacer un collage para Instagram?
+137	Sí, pon 1080 px de ancho y 2 o 3 columnas.
+138	¿Se pueden mostrar las fotos sin recortar?
+139	Elige el modo Ajustar.
+140	¿En qué orden se colocan las fotos?
+141	De izquierda a derecha y de arriba abajo, en el orden en que las añades.
+142	¿En qué formato sale el collage?
+143	JPG, PNG o WebP.
+144	¿Se suben mis fotos?
+145	No, el collage se crea en tu navegador.
+146	¿Funciona en el iPhone?
+147	Sí, incluidas las fotos HEIC.
+C	Lotes / varias imágenes
+C	Columnas, separación, rellenar/ajustar
+C	Funciona sin conexión
