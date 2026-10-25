@@ -1,0 +1,19 @@
+// Spin the wheel: canvas wheel, secure random winner chosen before the animation, optional remove-winner, PNG export. Offline.
+const WHC=['#e63946','#f4a261','#2a9d8f','#264653','#e9c46a','#8338ec','#3a86ff','#ff006e','#06d6a0','#fb5607','#118ab2','#8ac926'];
+const WHr=n=>{const a=new Uint32Array(1);const lim=Math.floor(4294967296/n)*n;do crypto.getRandomValues(a);while(a[0]>=lim);return a[0]%n;};
+TOOLS.wheel={live:true,noAdv:true,goLabel:()=>T.download,ang:0,hist:[],
+ opts:()=>`<label>Entries (one per line)<textarea id="whlist" rows="8">Pizza\nTacos\nSushi\nBurgers\nCurry\nPasta</textarea></label>`+chk('whrm','Remove the winner after each spin',false)+sel('whdur','Spin time',[['5','5 seconds'],['3','3 seconds'],['8','8 seconds']]),
+ items(){return (v('whlist')||'').split('\n').map(s=>s.trim()).filter(Boolean).slice(0,200);},
+ draw(){const c=this.cv;if(!c)return;const x=c.getContext('2d'),W=c.width,R=W/2-8,it=this.items();x.clearRect(0,0,W,W);if(!it.length)return;const a=2*Math.PI/it.length;
+  it.forEach((s,i)=>{const a0=this.ang+i*a;x.beginPath();x.moveTo(W/2,W/2);x.arc(W/2,W/2,R,a0,a0+a);x.closePath();x.fillStyle=WHC[i%WHC.length]+(it.length%WHC.length===1&&i===it.length-1?'':'');if(it.length>1&&i===it.length-1&&i%WHC.length===0)x.fillStyle=WHC[5];x.fill();x.strokeStyle='#fff';x.lineWidth=2;x.stroke();
+   x.save();x.translate(W/2,W/2);x.rotate(a0+a/2);x.fillStyle='#fff';x.font=`bold ${Math.max(11,Math.min(28,260/Math.max(6,it.length)+8))}px system-ui,sans-serif`;x.textAlign='right';x.textBaseline='middle';const t=s.length>22?s.slice(0,21)+'…':s;x.fillText(t,R-14,0);x.restore();});
+  x.beginPath();x.arc(W/2,W/2,26,0,7);x.fillStyle='#fff';x.fill();x.strokeStyle='#333';x.lineWidth=3;x.stroke();
+  x.beginPath();x.moveTo(W-4,W/2-16);x.lineTo(W-4,W/2+16);x.lineTo(W-40,W/2);x.closePath();x.fillStyle='#222';x.fill();},
+ setup(){const el=document.createElement('div');el.innerHTML='<canvas id="whcv" width="520" height="520" style="width:100%;max-width:460px;display:block;margin:0 auto;cursor:pointer" aria-label="Wheel – click to spin"></canvas><p style="text-align:center"><button type="button" class="btn big" id="whspin">🎡 Spin</button></p><p class="ubig" id="whres" aria-live="polite" style="text-align:center;min-height:1.5em"></p><p class="hint" id="whhist" style="text-align:center"></p>';
+  this.cv=$('#whcv',el);const spin=()=>{if(this.busy)return;const it=this.items();if(it.length<2){$('#whres',work).textContent='Add at least two entries';return;}this.busy=1;const n=it.length,win=WHr(n),seg=2*Math.PI/n;
+   // pointer is at angle 0 (right side); land the winning segment's centre there, with a random offset inside the segment
+   const off=(WHr(1000)/1000-.5)*seg*.7;const target=-(win*seg+seg/2)+off;const cur=this.ang%(2*Math.PI);let delta=((target-cur)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)+2*Math.PI*(5+WHr(3));const start=this.ang,dur=(+v('whdur')||5)*1000,t0=performance.now();
+   const step=t=>{const p=Math.min(1,(t-t0)/dur);const e=1-Math.pow(1-p,4);this.ang=start+delta*e;this.draw();if(p<1)return requestAnimationFrame(step);this.busy=0;const w=it[win];this.hist.unshift(w);$('#whres',work).textContent='🎉 '+w;$('#whhist',work).textContent=this.hist.length>1?'Previous: '+this.hist.slice(1,8).join(' · '):'';
+    if(vb('whrm')){const ta=$('#whlist',work);const ls=ta.value.split('\n');const i=ls.findIndex(s=>s.trim()===w);if(i>=0){ls.splice(i,1);ta.value=ls.join('\n');}}ta_kick();};requestAnimationFrame(step);};
+  const ta_kick=()=>$('#whlist',work).dispatchEvent(new Event('input',{bubbles:true}));this.spin=spin;$('#whspin',el).onclick=spin;this.cv.onclick=spin;setTimeout(()=>this.draw());return el;},
+ async run(){this.draw();const c=this.cv;const blob=await new Promise(r=>c.toBlob(r,'image/png'));return {blob,name:'wheel.png',info:`${this.items().length} entries`+(this.hist[0]?` · last winner: ${this.hist[0]}`:'')};}};

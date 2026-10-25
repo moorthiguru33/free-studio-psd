@@ -56,7 +56,7 @@ for(const L of enabled){
   const t=merge(EN,load(L.code));for(const x of tools)t.tools[x.id]=toolText(t,x);if(L.code==="en")TEN=t;const lang=L.code;const V={brand:site.brand};
   // Home
   const card=x=>`<a class="card c-${x.cat}" href="${url(lang,x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</b><span>${esc(t.tools[x.id].short)}</span></a>`;
-  const cats=['organize','edit','convert','optimize','security','image','qr','ai','media','text','dev','calc','data','units','more'];const LT=forLang(lang);
+  const cats=['organize','edit','convert','optimize','security','image','qr','ai','media','text','dev','calc','web','prod','fun','data','units','more'];const LT=forLang(lang);
   const cards=cats.filter(c=>LT.some(x=>x.cat===c)).map(c=>`<h2 class="cat">${esc(t.ui['cat_'+c]||c)}</h2><div class="grid">${LT.filter(x=>x.cat===c).map(card).join('')}</div>`).join('');
   const homeBody=`<section class="hero"><h1>${esc(t.home.h1)}</h1><p class="lead">${esc(t.ui.heroSub)}</p></section>
 <section id="all" aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}

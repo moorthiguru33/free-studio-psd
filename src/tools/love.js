@@ -1,0 +1,12 @@
+// Love calculator – just for fun: deterministic score from the two names (same names, same result, order-independent), plus the classic FLAMES game. No data leaves the browser.
+const LVh=s=>{let h=2166136261;for(const c of s){h^=c.codePointAt(0);h=Math.imul(h,16777619)>>>0;}return h;};
+const LVn=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\p{L}]/gu,'');
+TOOLS.love={live:true,noAdv:true,goLabel:()=>T.download,
+ opts:()=>inp('lva','Your name','text','Romeo','autocomplete="off"')+inp('lvb','Their name','text','Juliet','autocomplete="off"'),
+ setup(){const el=document.createElement('div');el.innerHTML='<div style="text-align:center"><div id="lvheart" style="font-size:90px;line-height:1;transition:transform .4s">❤️</div><p class="ubig" id="lvpct" style="font-size:2.4em;margin:.1em 0"></p><p id="lvmsg" style="font-size:1.15em"></p><p id="lvflames" class="hint"></p></div><p class="hint" style="text-align:center">💡 For entertainment only – the score comes from the letters of the names, not from science. Real compatibility is about kindness, respect and communication.</p>';return el;},
+ run(){const a=LVn(v('lva')||''),b=LVn(v('lvb')||'');if(!a||!b)throw Object.assign(new Error('Enter both names'),{soft:true});const [x,y]=[a,b].sort();const p=a===b?100:20+LVh(x+'❤'+y)%81;
+  const msg=p>=90?'A match made in heaven! 💞':p>=75?'Great chemistry – this could be something special. 💖':p>=60?'Good potential – give it time. 💗':p>=45?'Friends first? There is a spark to work on. 💛':p>=30?'Opposites attract… sometimes. 🙂':'Better as friends – but who listens to calculators? 😉';
+  // FLAMES: strike common letters, count the rest, eliminate around F-L-A-M-E-S
+  const A=[...a],B=[...b];for(let i=0;i<A.length;i++){const j=B.indexOf(A[i]);if(j>=0){A.splice(i,1);B.splice(j,1);i--;}}const n=A.length+B.length;let F=['Friends','Love','Affection','Marriage','Enemies','Siblings'];if(n){let i=0;while(F.length>1){i=(i+n-1)%F.length;F.splice(i,1);}}const fl=n?F[0]:'Soulmates (same letters!)';
+  $('#lvpct',work).textContent=p+'%';$('#lvmsg',work).textContent=msg;$('#lvflames',work).textContent=`FLAMES says: ${fl} (${n} letters left after crossing out the common ones)`;const h=$('#lvheart',work);h.style.transform='scale(1.25)';setTimeout(()=>h.style.transform=`scale(${.7+p/250})`,350);
+  const nm=`${v('lva').trim()} ❤ ${v('lvb').trim()}`;return {blob:new Blob([`${nm}\nLove score: ${p}%\n${msg}\nFLAMES: ${fl}\n(just for fun)\n`],{type:'text/plain'}),name:'love-result.txt',info:`${nm}: ${p}%`};}};

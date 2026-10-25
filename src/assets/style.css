@@ -129,3 +129,5 @@ ul.files .nm{font-size:.82rem;font-weight:600;white-space:nowrap;overflow:hidden
 .bmibar{height:10px;border-radius:5px;background:linear-gradient(90deg,#e0a800 0 22%,#0b7a43 22% 43%,#e0a800 43% 60%,#e07b00 60% 77%,#c8201b 77%);position:relative;margin:8px 0}.bmibar i{position:absolute;top:-4px;width:4px;height:18px;background:#111;border-radius:2px}
 .lnbar{height:10px;border-radius:5px;background:#f8b4b0;overflow:hidden}.lnbar i{display:block;height:100%;background:#0b7a43}
 .hwprev{max-width:520px;margin:auto}.kw{columns:2;font-size:.95em}
+/* tools4 categories */
+.c-web .ic{background:#e3f2fd;color:#0d47a1}.c-prod .ic{background:#e8f5e9;color:#2e7d32}.c-fun .ic{background:#fff3e0;color:#ef6c00}
