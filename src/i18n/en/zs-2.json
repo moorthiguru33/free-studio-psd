@@ -4,7 +4,7 @@
 "seo": {
 "updated": "2026-10-25",
 "title": "Word to PDF Converter – Free, Batch, No Upload",
-"desc": "Convert Word (DOCX) to PDF free in your browser. Batch convert many files to a ZIP, keep fonts, tables and images. No upload, no sign-up, no watermark.",
+"desc": "Convert Word (DOCX, DOC) to PDF free in your browser. Batch convert to a ZIP, keep fonts, tables and images. No upload, no sign-up, no watermark.",
 "sections": [
 [
 "Why convert Word to PDF here",
@@ -29,7 +29,7 @@
 "**Accept tracked changes first** – comments and revision marks are not printed, so finalise the document in Word before converting.",
 "**Check page size** – A4 and US Letter are both supported; the PDF uses the size set in the document.",
 "**Large images** – very high-resolution photos make big PDFs. Run the result through [Compress PDF](/compress-pdf/) to shrink it for e-mail.",
-"**Old .doc files** – open them in Word, Google Docs or LibreOffice and save as .docx first; this converter reads the modern DOCX format."
+"**Old .doc files** – Word 97–2003 .doc files are supported too. Their text and paragraphs are converted in your browser; for complex layouts with images, save as .docx first for the most faithful result."
 ]
 ],
 [
@@ -120,7 +120,7 @@
 },
 {
 "q": "Does it support .doc files?",
-"a": "It reads DOCX. Open an old .doc file in Word, Google Docs or LibreOffice and save it as DOCX first."
+"a": "Yes. Word 97–2003 .doc files convert directly in your browser (text and paragraphs). For documents with many images or complex tables, saving as .docx first gives the most faithful result."
 },
 {
 "q": "How do I save a Word document as PDF in Word itself?",

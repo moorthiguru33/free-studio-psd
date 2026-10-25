@@ -1,2 +1,4 @@
-TOOLS.unlock={opts:()=>inp('pw',T.o_password,'password','','autocomplete="current-password"'),
-  async run([f]){const {PDFDocument}=await L.pdflib();const s=await PDFDocument.load(await buf(f),{password:v('pw')||''});const d=await PDFDocument.create();(await d.copyPages(s,s.getPageIndices())).forEach(p=>d.addPage(p));try{d.setTitle(s.getTitle()||'');}catch(e){}return {blob:pdfBlob(await d.save()),name:base(f.name)+'-unlocked.pdf'};}};
+TOOLS.unlock={opts:()=>inp('pw',T.o_password,'password','','autocomplete="current-password"')+`<p class="hint">${esc(T.o_unlockHint||'Leave blank to remove print/copy/edit restrictions from PDFs that open without a password.')}</p>`,
+  async run(files){const {PDFDocument}=await L.pdflib();const items=[];for(const f of files){let s;try{s=await PDFDocument.load(await buf(f),{password:v('pw')||''});}catch(e){throw new Error(f.name+': '+(/password/i.test(e.message)?'wrong or missing password':e.message));}
+   const d=await PDFDocument.create();(await d.copyPages(s,s.getPageIndices())).forEach(p=>d.addPage(p));try{d.setTitle(s.getTitle()||'');d.setAuthor(s.getAuthor()||'');}catch(e){}items.push({name:base(f.name)+'-unlocked.pdf',blob:pdfBlob(await d.save())});}
+   return items.length===1?items[0]:{blob:await zipBlobs(items),name:'unlocked.zip',links:items};}};

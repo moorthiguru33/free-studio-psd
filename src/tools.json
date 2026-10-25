@@ -67,7 +67,7 @@
   "id": "protect",
   "slug": "protect-pdf",
   "accept": ".pdf",
-  "multiple": false,
+  "multiple": true,
   "icon": "🔒",
   "cat": "security"
  },
@@ -75,7 +75,7 @@
   "id": "unlock",
   "slug": "unlock-pdf",
   "accept": ".pdf",
-  "multiple": false,
+  "multiple": true,
   "icon": "🔓",
   "cat": "security"
  },
@@ -107,7 +107,7 @@
  {
   "id": "word2pdf",
   "slug": "word-to-pdf",
-  "accept": ".docx",
+  "accept": ".docx,.doc",
   "multiple": true,
   "icon": "⇄",
   "cat": "convert",
