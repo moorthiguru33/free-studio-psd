@@ -153,3 +153,12 @@ Skipped: AVI/WMV/FLV input – no permissive browser demuxer (ffmpeg.wasm core i
 | html-to-pdf | HTML with nav/heading/list/table | ✅ nav removed, text selectable |
 | pdf-to-rtf / pdf-to-odt | br-article.pdf (650 words), br-invoice.pdf (₹, table) | ✅ 650/650 and 86/86 words via LibreOffice re-read; opens in Writer |
 Limits: slide text is rasterised (not selectable); charts/SmartArt/EMF not drawn; legacy .ppt rejected with a clear message.
+
+### E-book converters (2026-10-25)
+| Tool | Sample | Result |
+|---|---|---|
+| fb2-to-epub / fb2-to-pdf | hand-made Windows-1251 FB2 (Cyrillic, epigraph, poem, footnote body, cover binary) | ✅ title/author/lang/cover, 4 chapters + notes; PDF Cyrillic text extractable |
+| mobi-to-epub / mobi-to-pdf | Gutenberg #11 Alice (MOBI6, PalmDOC) | ✅ 29,841 words, images, well-formed XHTML; PDF 112 pages |
+| azw3-to-epub / azw3-to-pdf | Gutenberg #11 Alice (KF8) | ✅ 30,523 words, cover |
+| mobi-to-epub | Gutenberg #1342 Pride & Prejudice (25 MB, 165 images) | ✅ 131,003 words, 165 images |
+Limits: DRM and HUFF/CDIC-compressed Kindle store books are refused with a clear message (src/lib/ebook.js, own code).

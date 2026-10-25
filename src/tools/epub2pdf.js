@@ -14,3 +14,9 @@ TOOLS.epub2pdf={opts:()=>sel('psize',T.o_pagesize||'Page size',[['a5','A5 (book)
     bd.querySelectorAll('script,style,nav[epub\\:type],aside').forEach(e=>e.remove());html+=(si?'<hr/>':'')+[...bd.children].map(e=>e.outerHTML).join('');}
    const d=await htmlToPdf(html,{size:v('psize'),base:+v('efont')||11,margin:v('psize')==='a5'?42:56,title});items.push({blob:pdfBlob(await d.save()),name:base(f.name)+'.pdf'});}
   return zipOrOne(items,'epub-to-pdf.zip');}};
+// ---- FB2 / MOBI / AZW3 -> EPUB or PDF (src/lib/ebook.js parses and rebuilds a clean EPUB; PDF reuses the EPUB->PDF engine above)
+TOOLS.ebookconv={opts(){return (this.vars.to==='pdf'?TOOLS.epub2pdf.opts():'');},
+ async run(files,status){await load('ebook.js');const JSZip=await L.zip();const to=this.vars.to||'epub';const eps=[];
+  for(const [i,f] of files.entries()){status(`${T.working} ${i+1}/${files.length} · ${f.name}`);const {blob,book}=await window.Ebook.toEpub(f,JSZip);eps.push({blob,name:base(f.name.replace(/\.fb2\.zip$/i,'.fb2'))+'.epub',book});}
+  if(to==='epub'){const r=await zipOrOne(eps.map(e=>({blob:e.blob,name:e.name})),'ebooks.zip');r.info=eps.map(e=>`${e.book.title}${e.book.author?' – '+e.book.author:''}: ${e.book.chapters.length} chapter(s), ${Object.keys(e.book.images).length} image(s)`).join(' · ');return r;}
+  return TOOLS.epub2pdf.run(eps.map(e=>new File([e.blob],e.name,{type:'application/epub+zip'})),status);}};

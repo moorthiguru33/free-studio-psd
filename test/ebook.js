@@ -1,0 +1,5 @@
+const {chromium}=require('playwright-core');const B=process.env.BASE||'http://localhost:8099';
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});
+const steps=[['fb2-to-epub','/tmp/eb/pushkin.fb2'],['fb2-to-pdf','/tmp/eb/pushkin.fb2'],['mobi-to-epub','/tmp/eb/alice.mobi'],['mobi-to-pdf','/tmp/eb/alice.mobi'],['azw3-to-epub','/tmp/eb/alice.azw3'],['azw3-to-pdf','/tmp/eb/alice.azw3'],['mobi-to-epub','/tmp/eb/pride.mobi']];require('fs').mkdirSync('/tmp/eo',{recursive:true});
+for(const [slug,f] of steps){const p=await ctx.newPage();try{await p.goto(`${B}/${slug}/`);await p.setInputFiles('#tool input[type=file]',f);await p.waitForSelector('#go');await p.click('#go');await p.waitForSelector('#dl,.err',{timeout:240000});const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const fp='/tmp/eo/'+slug+'_'+dl.suggestedFilename();await dl.saveAs(fp);console.log(slug,'->',fp,require('fs').statSync(fp).size);}catch(e){console.log(slug,'ERR',e.message.slice(0,120))}await p.close();}
+await b.close()})();

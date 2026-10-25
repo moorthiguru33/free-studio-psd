@@ -1,0 +1,436 @@
+{
+"tools": {
+"fb22epub": {
+"name": "FB2 to EPUB Converter",
+"short": "Convert FB2 e-books to EPUB.",
+"title": "FB2 to EPUB Converter – Free, No Upload | {brand}",
+"desc": "Convert FB2 to EPUB free in your browser – chapters, images, cover and metadata kept. Batch convert, no upload, no Calibre needed.",
+"h1": "Convert FB2 to EPUB",
+"steps": [
+"Select one or more FB2 files.",
+"No settings needed – the EPUB is built automatically.",
+"Click Start and download your EPUB."
+],
+"faq": [
+{
+"q": "How do I convert FB2 to EPUB without Calibre?",
+"a": "Drop the file here and press Start. {brand} parses the FB2 in your browser and builds a standards-compliant EPUB."
+},
+{
+"q": "Are my books uploaded?",
+"a": "No – everything happens on your device."
+},
+{
+"q": "What is preserved?",
+"a": "Sections and nested titles, epigraphs, poems and stanzas, citations, footnotes (as a Notes chapter), tables, embedded images, the cover, title, authors, language and annotation."
+},
+{
+"q": "What can’t be converted?",
+"a": "FB2, FB2.ZIP and FBZ are supported, in UTF-8 or Windows-1251/KOI8-R encodings."
+},
+{
+"q": "Does it handle Cyrillic and other scripts?",
+"a": "Yes – text is decoded to Unicode and fonts are chosen per script, so Russian, Ukrainian, Greek, Arabic, Hebrew, Chinese and Indic text display correctly."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select many files and get a ZIP."
+}
+],
+"guide": {
+"intro": "FB2 is FictionBook 2 – the XML e-book format used by Russian and Eastern European libraries (LitRes, Flibusta, Librusec), many Android readers and PocketBook devices. EPUB is the open e-book standard read by Apple Books, Kobo, Google Play Books, Thorium and almost every reader app. {brand} converts between them locally – no software, no account, no upload.",
+"uses": [
+"Read FB2 books on Kobo, Apple Books or Google Play Books.",
+"Move a library between reading apps.",
+"Archive DRM-free books in an open format.",
+"Prepare classics from Project Gutenberg for school."
+],
+"tips": [
+"Check the title and author in the result info line after conversion.",
+"Send the EPUB to Kindle via Send-to-Kindle – Amazon accepts EPUB.",
+"Convert a whole folder at once."
+],
+"more": [
+[
+"How it works",
+"The FB2 XML is parsed with your browser’s XML engine; every element is mapped to clean XHTML and base64 binaries become image files. A valid EPUB 3 (with EPUB 2 NCX for older readers) is assembled with JSZip."
+],
+[
+"Compared with other converters",
+"Online e-book converters (CloudConvert, Convertio, Zamzar, online-convert) upload your book and cap free use per day or by size. Calibre is excellent but a 150 MB install. {brand} runs instantly in a tab and keeps your library private."
+]
+],
+"faq": [
+{
+"q": "Is it legal?",
+"a": "Converting DRM-free books you own for personal use is fine in most countries; removing DRM is not offered."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, after the page has loaded once."
+}
+]
+}
+},
+"fb22pdf": {
+"name": "FB2 to PDF Converter",
+"short": "Convert FB2 e-books to PDF.",
+"title": "FB2 to PDF Converter – Free, No Upload | {brand}",
+"desc": "Convert FB2 to PDF free in your browser – chapters, images, cover and metadata kept. Batch convert, no upload, no Calibre needed.",
+"h1": "Convert FB2 to PDF",
+"steps": [
+"Select one or more FB2 files.",
+"Choose page size and font size.",
+"Click Start and download your PDF."
+],
+"faq": [
+{
+"q": "How do I convert FB2 to PDF without Calibre?",
+"a": "Drop the file here and press Start. {brand} parses the FB2 in your browser and builds a standards-compliant PDF."
+},
+{
+"q": "Are my books uploaded?",
+"a": "No – everything happens on your device."
+},
+{
+"q": "What is preserved?",
+"a": "Sections and nested titles, epigraphs, poems and stanzas, citations, footnotes (as a Notes chapter), tables, embedded images, the cover, title, authors, language and annotation."
+},
+{
+"q": "What can’t be converted?",
+"a": "FB2, FB2.ZIP and FBZ are supported, in UTF-8 or Windows-1251/KOI8-R encodings."
+},
+{
+"q": "Does it handle Cyrillic and other scripts?",
+"a": "Yes – text is decoded to Unicode and fonts are chosen per script, so Russian, Ukrainian, Greek, Arabic, Hebrew, Chinese and Indic text display correctly."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select many files and get a ZIP."
+}
+],
+"guide": {
+"intro": "FB2 is FictionBook 2 – the XML e-book format used by Russian and Eastern European libraries (LitRes, Flibusta, Librusec), many Android readers and PocketBook devices. PDF is the universal document format for printing and reading on any device. {brand} converts between them locally – no software, no account, no upload.",
+"uses": [
+"Read FB2 books on any computer, tablet or phone, or print them.",
+"Move a library between reading apps.",
+"Archive DRM-free books in an open format.",
+"Prepare classics from Project Gutenberg for school."
+],
+"tips": [
+"Check the title and author in the result info line after conversion.",
+"A5 page size gives the most book-like PDF; 14 pt is good for large print.",
+"Convert a whole folder at once."
+],
+"more": [
+[
+"How it works",
+"The FB2 XML is parsed with your browser’s XML engine; every element is mapped to clean XHTML and base64 binaries become image files. An EPUB is assembled in memory and laid out as a PDF with embedded fonts, bookmarks and images."
+],
+[
+"Compared with other converters",
+"Online e-book converters (CloudConvert, Convertio, Zamzar, online-convert) upload your book and cap free use per day or by size. Calibre is excellent but a 150 MB install. {brand} runs instantly in a tab and keeps your library private."
+]
+],
+"faq": [
+{
+"q": "Is it legal?",
+"a": "Converting DRM-free books you own for personal use is fine in most countries; removing DRM is not offered."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, after the page has loaded once."
+}
+]
+}
+},
+"mobi2epub": {
+"name": "MOBI to EPUB Converter",
+"short": "Convert MOBI e-books to EPUB.",
+"title": "MOBI to EPUB Converter – Free, No Upload | {brand}",
+"desc": "Convert MOBI to EPUB free in your browser – chapters, images, cover and metadata kept. Batch convert, no upload, no Calibre needed.",
+"h1": "Convert MOBI to EPUB",
+"steps": [
+"Select one or more MOBI files.",
+"No settings needed – the EPUB is built automatically.",
+"Click Start and download your EPUB."
+],
+"faq": [
+{
+"q": "How do I convert MOBI to EPUB without Calibre?",
+"a": "Drop the file here and press Start. {brand} parses the MOBI in your browser and builds a standards-compliant EPUB."
+},
+{
+"q": "Are my books uploaded?",
+"a": "No – everything happens on your device."
+},
+{
+"q": "What is preserved?",
+"a": "Chapters (split on page breaks / KF8 parts), headings, paragraphs, italics/bold, images, cover, title, author and language."
+},
+{
+"q": "What can’t be converted?",
+"a": "DRM-protected books bought from the Kindle store, and store books using HUFF/CDIC compression, cannot be converted – that is a legal and technical limit, and you will see a clear message. DRM-free files from Project Gutenberg, Calibre, KindleGen and Standard Ebooks work."
+},
+{
+"q": "Does it handle Cyrillic and other scripts?",
+"a": "Yes – text is decoded to Unicode and fonts are chosen per script, so Russian, Ukrainian, Greek, Arabic, Hebrew, Chinese and Indic text display correctly."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select many files and get a ZIP."
+}
+],
+"guide": {
+"intro": "MOBI is Mobipocket – the original Kindle format still produced by Project Gutenberg, Calibre and older KindleGen workflows. EPUB is the open e-book standard read by Apple Books, Kobo, Google Play Books, Thorium and almost every reader app. {brand} converts between them locally – no software, no account, no upload.",
+"uses": [
+"Read MOBI books on Kobo, Apple Books or Google Play Books.",
+"Move a library between reading apps.",
+"Archive DRM-free books in an open format.",
+"Prepare classics from Project Gutenberg for school."
+],
+"tips": [
+"Check the title and author in the result info line after conversion.",
+"Send the EPUB to Kindle via Send-to-Kindle – Amazon accepts EPUB.",
+"Convert a whole folder at once."
+],
+"more": [
+[
+"How it works",
+"The MOBI/AZW3 container (a Palm database) is read record by record: the PalmDOC-compressed text is decompressed, trailing entries stripped, the EXTH metadata read and images matched to their records. A valid EPUB 3 (with EPUB 2 NCX for older readers) is assembled with JSZip."
+],
+[
+"Compared with other converters",
+"Online e-book converters (CloudConvert, Convertio, Zamzar, online-convert) upload your book and cap free use per day or by size. Calibre is excellent but a 150 MB install. {brand} runs instantly in a tab and keeps your library private."
+]
+],
+"faq": [
+{
+"q": "Is it legal?",
+"a": "Converting DRM-free books you own for personal use is fine in most countries; removing DRM is not offered."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, after the page has loaded once."
+}
+]
+}
+},
+"mobi2pdf": {
+"name": "MOBI to PDF Converter",
+"short": "Convert MOBI e-books to PDF.",
+"title": "MOBI to PDF Converter – Free, No Upload | {brand}",
+"desc": "Convert MOBI to PDF free in your browser – chapters, images, cover and metadata kept. Batch convert, no upload, no Calibre needed.",
+"h1": "Convert MOBI to PDF",
+"steps": [
+"Select one or more MOBI files.",
+"Choose page size and font size.",
+"Click Start and download your PDF."
+],
+"faq": [
+{
+"q": "How do I convert MOBI to PDF without Calibre?",
+"a": "Drop the file here and press Start. {brand} parses the MOBI in your browser and builds a standards-compliant PDF."
+},
+{
+"q": "Are my books uploaded?",
+"a": "No – everything happens on your device."
+},
+{
+"q": "What is preserved?",
+"a": "Chapters (split on page breaks / KF8 parts), headings, paragraphs, italics/bold, images, cover, title, author and language."
+},
+{
+"q": "What can’t be converted?",
+"a": "DRM-protected books bought from the Kindle store, and store books using HUFF/CDIC compression, cannot be converted – that is a legal and technical limit, and you will see a clear message. DRM-free files from Project Gutenberg, Calibre, KindleGen and Standard Ebooks work."
+},
+{
+"q": "Does it handle Cyrillic and other scripts?",
+"a": "Yes – text is decoded to Unicode and fonts are chosen per script, so Russian, Ukrainian, Greek, Arabic, Hebrew, Chinese and Indic text display correctly."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select many files and get a ZIP."
+}
+],
+"guide": {
+"intro": "MOBI is Mobipocket – the original Kindle format still produced by Project Gutenberg, Calibre and older KindleGen workflows. PDF is the universal document format for printing and reading on any device. {brand} converts between them locally – no software, no account, no upload.",
+"uses": [
+"Read MOBI books on any computer, tablet or phone, or print them.",
+"Move a library between reading apps.",
+"Archive DRM-free books in an open format.",
+"Prepare classics from Project Gutenberg for school."
+],
+"tips": [
+"Check the title and author in the result info line after conversion.",
+"A5 page size gives the most book-like PDF; 14 pt is good for large print.",
+"Convert a whole folder at once."
+],
+"more": [
+[
+"How it works",
+"The MOBI/AZW3 container (a Palm database) is read record by record: the PalmDOC-compressed text is decompressed, trailing entries stripped, the EXTH metadata read and images matched to their records. An EPUB is assembled in memory and laid out as a PDF with embedded fonts, bookmarks and images."
+],
+[
+"Compared with other converters",
+"Online e-book converters (CloudConvert, Convertio, Zamzar, online-convert) upload your book and cap free use per day or by size. Calibre is excellent but a 150 MB install. {brand} runs instantly in a tab and keeps your library private."
+]
+],
+"faq": [
+{
+"q": "Is it legal?",
+"a": "Converting DRM-free books you own for personal use is fine in most countries; removing DRM is not offered."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, after the page has loaded once."
+}
+]
+}
+},
+"azw32epub": {
+"name": "AZW3 to EPUB Converter",
+"short": "Convert AZW3 e-books to EPUB.",
+"title": "AZW3 to EPUB Converter – Free, No Upload | {brand}",
+"desc": "Convert AZW3 to EPUB free in your browser – chapters, images, cover and metadata kept. Batch convert, no upload, no Calibre needed.",
+"h1": "Convert AZW3 to EPUB",
+"steps": [
+"Select one or more AZW3 files.",
+"No settings needed – the EPUB is built automatically.",
+"Click Start and download your EPUB."
+],
+"faq": [
+{
+"q": "How do I convert AZW3 to EPUB without Calibre?",
+"a": "Drop the file here and press Start. {brand} parses the AZW3 in your browser and builds a standards-compliant EPUB."
+},
+{
+"q": "Are my books uploaded?",
+"a": "No – everything happens on your device."
+},
+{
+"q": "What is preserved?",
+"a": "Chapters (split on page breaks / KF8 parts), headings, paragraphs, italics/bold, images, cover, title, author and language."
+},
+{
+"q": "What can’t be converted?",
+"a": "DRM-protected books bought from the Kindle store, and store books using HUFF/CDIC compression, cannot be converted – that is a legal and technical limit, and you will see a clear message. DRM-free files from Project Gutenberg, Calibre, KindleGen and Standard Ebooks work."
+},
+{
+"q": "Does it handle Cyrillic and other scripts?",
+"a": "Yes – text is decoded to Unicode and fonts are chosen per script, so Russian, Ukrainian, Greek, Arabic, Hebrew, Chinese and Indic text display correctly."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select many files and get a ZIP."
+}
+],
+"guide": {
+"intro": "AZW3 is Kindle Format 8 (KF8) – Amazon’s modern HTML5/CSS3 Kindle format, also produced by Calibre and Gutenberg. EPUB is the open e-book standard read by Apple Books, Kobo, Google Play Books, Thorium and almost every reader app. {brand} converts between them locally – no software, no account, no upload.",
+"uses": [
+"Read AZW3 books on Kobo, Apple Books or Google Play Books.",
+"Move a library between reading apps.",
+"Archive DRM-free books in an open format.",
+"Prepare classics from Project Gutenberg for school."
+],
+"tips": [
+"Check the title and author in the result info line after conversion.",
+"Send the EPUB to Kindle via Send-to-Kindle – Amazon accepts EPUB.",
+"Convert a whole folder at once."
+],
+"more": [
+[
+"How it works",
+"The MOBI/AZW3 container (a Palm database) is read record by record: the PalmDOC-compressed text is decompressed, trailing entries stripped, the EXTH metadata read and images matched to their records. A valid EPUB 3 (with EPUB 2 NCX for older readers) is assembled with JSZip."
+],
+[
+"Compared with other converters",
+"Online e-book converters (CloudConvert, Convertio, Zamzar, online-convert) upload your book and cap free use per day or by size. Calibre is excellent but a 150 MB install. {brand} runs instantly in a tab and keeps your library private."
+]
+],
+"faq": [
+{
+"q": "Is it legal?",
+"a": "Converting DRM-free books you own for personal use is fine in most countries; removing DRM is not offered."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, after the page has loaded once."
+}
+]
+}
+},
+"azw32pdf": {
+"name": "AZW3 to PDF Converter",
+"short": "Convert AZW3 e-books to PDF.",
+"title": "AZW3 to PDF Converter – Free, No Upload | {brand}",
+"desc": "Convert AZW3 to PDF free in your browser – chapters, images, cover and metadata kept. Batch convert, no upload, no Calibre needed.",
+"h1": "Convert AZW3 to PDF",
+"steps": [
+"Select one or more AZW3 files.",
+"Choose page size and font size.",
+"Click Start and download your PDF."
+],
+"faq": [
+{
+"q": "How do I convert AZW3 to PDF without Calibre?",
+"a": "Drop the file here and press Start. {brand} parses the AZW3 in your browser and builds a standards-compliant PDF."
+},
+{
+"q": "Are my books uploaded?",
+"a": "No – everything happens on your device."
+},
+{
+"q": "What is preserved?",
+"a": "Chapters (split on page breaks / KF8 parts), headings, paragraphs, italics/bold, images, cover, title, author and language."
+},
+{
+"q": "What can’t be converted?",
+"a": "DRM-protected books bought from the Kindle store, and store books using HUFF/CDIC compression, cannot be converted – that is a legal and technical limit, and you will see a clear message. DRM-free files from Project Gutenberg, Calibre, KindleGen and Standard Ebooks work."
+},
+{
+"q": "Does it handle Cyrillic and other scripts?",
+"a": "Yes – text is decoded to Unicode and fonts are chosen per script, so Russian, Ukrainian, Greek, Arabic, Hebrew, Chinese and Indic text display correctly."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select many files and get a ZIP."
+}
+],
+"guide": {
+"intro": "AZW3 is Kindle Format 8 (KF8) – Amazon’s modern HTML5/CSS3 Kindle format, also produced by Calibre and Gutenberg. PDF is the universal document format for printing and reading on any device. {brand} converts between them locally – no software, no account, no upload.",
+"uses": [
+"Read AZW3 books on any computer, tablet or phone, or print them.",
+"Move a library between reading apps.",
+"Archive DRM-free books in an open format.",
+"Prepare classics from Project Gutenberg for school."
+],
+"tips": [
+"Check the title and author in the result info line after conversion.",
+"A5 page size gives the most book-like PDF; 14 pt is good for large print.",
+"Convert a whole folder at once."
+],
+"more": [
+[
+"How it works",
+"The MOBI/AZW3 container (a Palm database) is read record by record: the PalmDOC-compressed text is decompressed, trailing entries stripped, the EXTH metadata read and images matched to their records. An EPUB is assembled in memory and laid out as a PDF with embedded fonts, bookmarks and images."
+],
+[
+"Compared with other converters",
+"Online e-book converters (CloudConvert, Convertio, Zamzar, online-convert) upload your book and cap free use per day or by size. Calibre is excellent but a 150 MB install. {brand} runs instantly in a tab and keeps your library private."
+]
+],
+"faq": [
+{
+"q": "Is it legal?",
+"a": "Converting DRM-free books you own for personal use is fine in most countries; removing DRM is not offered."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, after the page has loaded once."
+}
+]
+}
+}
+}
+}
