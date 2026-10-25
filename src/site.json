@@ -1,1 +1,11 @@
-{"brand":"FreePDF","baseUrl":"https://freepdf-tools-9u1.pages.dev","email":"contact@example.com","defaultLang":"en","adsEnabled":false}
+{
+ "brand": "FreePDF",
+ "baseUrl": "https://freepdf-tools-9u1.pages.dev",
+ "email": "contact@example.com",
+ "defaultLang": "en",
+ "adsEnabled": false,
+ "legacyHosts": [
+  "freepdf-tools-9u1.pages.dev"
+ ],
+ "indexNowKey": "3d77a3279c7d7ef895057aac7239f979"
+}

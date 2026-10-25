@@ -66,3 +66,17 @@ No GPL or AGPL code is shipped. Compliance notes for the weak-copyleft items:
 - jsQR cannot read some QR codes with large logos; no PDF linearization; CJK fonts not bundled (missing glyphs in PDF text tools).
 - Encrypted ZIPs are not supported.
 - The brand "FreePDF" now covers more than PDF – consider a broader name/domain before launch.
+
+## Custom domain switch
+
+Everything URL-related (canonical, hreflang, sitemap index + per-language sitemaps, OG/Twitter URLs, robots.txt, JSON-LD) derives from **one value**: `baseUrl` in `src/site.json` (or env `SITE_URL` for a one-off build).
+
+1. Cloudflare dashboard → Pages → `freepdf-tools` → Custom domains → add `www.example.com` (and apex `example.com`; Cloudflare will offer to redirect apex→www or vice-versa via a Redirect Rule / Bulk Redirect).
+2. `npm run domain -- https://www.example.com` – rewrites `baseUrl`, moves the old host to `legacyHosts`, rebuilds and runs the SEO audit.
+3. The build then generates `functions/_middleware.js`, which 301-redirects every `*.freepdf-tools-9u1.pages.dev` request (production and preview hosts) to the same path on the new domain. Pages `_redirects` cannot match on hostname, so a Pages Function is used. It is only generated while `baseUrl` is a non-pages.dev domain.
+4. Deploy: `npm run build:cf && CLOUDFLARE_ACCOUNT_ID=… npx wrangler@3 pages deploy dist --project-name freepdf-tools --branch main` (run from the repo root so `functions/` is picked up).
+5. Verify: `curl -sI https://freepdf-tools-9u1.pages.dev/merge-pdf/` → `301 location: https://www.example.com/merge-pdf/`; `npm run seo`.
+6. Search Console: add the new domain property, submit `/sitemap.xml`, and use *Change of address* from the old pages.dev property if it was verified. Then `npm run indexnow` (Bing/Yandex).
+
+SEO checks: `npm run seo` (unique titles/descriptions, one H1, canonical, hreflang reciprocity + x-default, JSON-LD validity, sitemap URLs exist).
+`dist/_redirects` 301s language pages that are not built (untranslated tools) to the English page.
