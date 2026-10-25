@@ -9,6 +9,9 @@ const tools=JSON.parse(fs.readFileSync(R('src/tools.json')));
 if(fs.existsSync(R('src/tools.d')))for(const f of fs.readdirSync(R('src/tools.d')).sort())if(f.endsWith('.json'))tools.push(...JSON.parse(fs.readFileSync(R('src/tools.d/'+f))));
 const UNTR={};// lang -> Set of tool ids whose page text is not translated (English fallback) – not built in that language to avoid duplicate content
 const forLang=(lang)=>tools.filter(x=>lang==='en'||(!x.enOnly&&!(UNTR[lang]&&UNTR[lang].has(x.id))));
+// Reserved #tool heights (scripts/measure-ui.js) so JS-rendered tool UIs never shift the page (CLS 0)
+const UIH=fs.existsSync(R('src/ui-heights.json'))?JSON.parse(fs.readFileSync(R('src/ui-heights.json'))):{};
+const uiCss=slug=>{const h=UIH[slug];if(!h)return '';const q={s:'(max-width:599px)',m:'(min-width:600px) and (max-width:899px)',l:'(min-width:900px)'};return '<style>'+Object.entries(h).map(([k,v])=>`@media${q[k]}{#tool{min-height:${v}px}}`).join('')+'</style>';};
 const langs=JSON.parse(fs.readFileSync(R('src/languages.json')));
 const enabled=langs.filter(l=>l.enabled&&fs.existsSync(R(`src/i18n/${l.code}.json`)));
 
@@ -40,7 +43,7 @@ function layout({t,lang,slug,title,desc,body,jsonld,cat,og,alts:A=true}){
 <meta name="theme-color" content="#e5322d"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" href="/assets/style.css?v=${ver}">
 ${jsonld.map(j=>`<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('')}
-</head><body class="${site.adsEnabled?'ads-on':''} ${cat?'cat-'+cat:''}">
+${uiCss(slug)}</head><body class="${site.adsEnabled?'ads-on':''} ${cat?'cat-'+cat:''}">
 <header class="top"><div class="wrap"><a class="logo" href="${prefix(lang)}">${esc(site.brand)}</a>
 <details class="menu"><summary aria-label="${esc(t.ui.allTools)}">☰ <span class="mt">${esc(t.ui.allTools)}</span></summary><nav class="toolnav">${nav}</nav></details>
 ${enabled.length>1?`<details class="langs"><summary aria-label="${esc(L.name)} – ${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details>`:''}</div></header>
@@ -115,7 +118,7 @@ for(const L of enabled){const sm=['<?xml version="1.0" encoding="UTF-8"?>','<url
  sm.push('</urlset>');const fn=`sitemap-${L.code}.xml`;fs.writeFileSync(path.join(OUT,fn),sm.join('\n'));SMS.push(fn);}
 fs.writeFileSync(path.join(OUT,'sitemap.xml'),['<?xml version="1.0" encoding="UTF-8"?>','<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',...SMS.map(f=>`<sitemap><loc>${abs('/'+f)}</loc><lastmod>${today}</lastmod></sitemap>`),'</sitemapindex>'].join('\n'));
 // 301s for pages no longer built in a language (untranslated tools) -> English page
-{const rd=[];for(const L of enabled)if(L.code!=='en')for(const x of tools)if(!x.enOnly&&UNTR[L.code]?.has(x.id))rd.push(`${url(L.code,x.slug)} ${url('en',x.slug)} 301`);for(const L of langs)if(!enabled.includes(L)&&L.code!=='en'&&fs.existsSync(R(`src/i18n/${L.code}.json`)))rd.push(`/${L.code} / 301`,`/${L.code}/* /:splat 301`);fs.writeFileSync(path.join(OUT,'_redirects'),rd.join('\n')+'\n');}
+{const rd=[];for(const L of enabled)if(L.code!=='en')for(const x of tools)if(!x.enOnly&&UNTR[L.code]?.has(x.id))rd.push(`${url(L.code,x.slug)} ${url('en',x.slug)} 301`);for(const L of langs)if(!enabled.includes(L)&&L.code!=='en'&&fs.existsSync(R(`src/i18n/${L.code}.json`)))rd.push(`/sitemap-${L.code}.xml /sitemap.xml 301`,`/${L.code} / 301`,`/${L.code}/* /:splat 301`);fs.writeFileSync(path.join(OUT,'_redirects'),rd.join('\n')+'\n');}
 // 404 page: full layout (nav, popular tools), noindex, no canonical/hreflang
 {const t=TEN;const pop=FOOT.map(id=>tools.find(x=>x.id===id)).filter(Boolean);const body=`<section class="hero"><h1>${esc(t.ui.e404t)}</h1><p class="lead">${esc(t.ui.e404d)}</p></section><div class="grid">${pop.map(x=>`<a class="card c-${x.cat}" href="${url('en',x.slug)}"><span class="ic" aria-hidden="true">${x.icon}</span><b>${esc(t.tools[x.id].name)}</b><span>${esc(t.tools[x.id].short)}</span></a>`).join('')}</div><p><a class="btn" href="/#all">${esc(t.ui.catAll)}</a></p>`;
  let h=layout({t,lang:'en',slug:'',title:t.ui.e404t+' | '+site.brand,desc:t.ui.e404d,body,jsonld:[],alts:false});h=h.replace(/<link rel="canonical"[^>]*>/,'<meta name="robots" content="noindex">').replace(/<meta property="og:url"[^>]*>/,'');fs.writeFileSync(path.join(OUT,'404.html'),h);}

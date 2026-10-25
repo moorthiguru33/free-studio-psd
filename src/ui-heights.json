@@ -1,0 +1,407 @@
+{
+ "age-calculator": {
+  "s": 942
+ },
+ "area-converter": {
+  "s": 892,
+  "m": 892,
+  "l": 517
+ },
+ "barcode-generator": {
+  "s": 808,
+  "m": 808,
+  "l": 485
+ },
+ "base64-encode-decode": {
+  "s": 1037,
+  "m": 989,
+  "l": 658
+ },
+ "binary-hex-decimal-converter": {
+  "s": 801,
+  "m": 801
+ },
+ "bitcoin-qr-code-generator": {
+  "s": 998,
+  "m": 945,
+  "l": 622
+ },
+ "bmi-calculator": {
+  "s": 1130,
+  "m": 938,
+  "l": 614
+ },
+ "case-converter": {
+  "s": 855,
+  "m": 855,
+  "l": 589
+ },
+ "celsius-to-fahrenheit": {
+  "s": 848,
+  "m": 848,
+  "l": 517
+ },
+ "character-counter": {
+  "s": 1575,
+  "m": 1232,
+  "l": 980
+ },
+ "cm-to-inches": {
+  "s": 863,
+  "m": 863,
+  "l": 517
+ },
+ "code-39-barcode-generator": {
+  "s": 808,
+  "m": 808,
+  "l": 485
+ },
+ "color-converter": {
+  "s": 1221,
+  "m": 1004,
+  "l": 674
+ },
+ "currency-converter": {
+  "s": 928,
+  "m": 878,
+  "l": 494
+ },
+ "data-storage-converter": {
+  "s": 921,
+  "m": 921,
+  "l": 517
+ },
+ "date-difference-calculator": {
+  "s": 1354,
+  "m": 998,
+  "l": 698
+ },
+ "discount-calculator": {
+  "s": 1212,
+  "m": 1041,
+  "l": 718
+ },
+ "ean-13-barcode-generator": {
+  "s": 808,
+  "m": 808,
+  "l": 485
+ },
+ "email-qr-code-generator": {
+  "s": 1006,
+  "m": 953,
+  "l": 630
+ },
+ "emoji-picker": {
+  "s": 1314,
+  "m": 1264,
+  "l": 864
+ },
+ "event-qr-code-generator": {
+  "s": 1169,
+  "m": 1117,
+  "l": 794
+ },
+ "fake-address-generator": {
+  "s": 1796,
+  "m": 1672,
+  "l": 1239
+ },
+ "fancy-text-generator": {
+  "s": 4005,
+  "m": 1695,
+  "l": 1577
+ },
+ "hash-generator": {
+  "s": 1597,
+  "m": 1281,
+  "l": 932
+ },
+ "hashtag-generator": {
+  "s": 1131,
+  "m": 920,
+  "l": 603
+ },
+ "html-css-js-minifier": {
+  "s": 1137,
+  "m": 1064,
+  "l": 758
+ },
+ "ist-to-est": {
+  "s": 1304,
+  "m": 1140,
+  "l": 751
+ },
+ "ist-to-pst": {
+  "s": 1304,
+  "m": 1140,
+  "l": 751
+ },
+ "json-formatter": {
+  "s": 1195,
+  "m": 1167,
+  "l": 848
+ },
+ "keyword-density-checker": {
+  "s": 1083,
+  "m": 1035,
+  "l": 704
+ },
+ "kg-to-lbs": {
+  "s": 848,
+  "m": 848,
+  "l": 517
+ },
+ "lakh-to-million": {
+  "s": 848,
+  "m": 848,
+  "l": 517
+ },
+ "length-converter": {
+  "s": 863,
+  "m": 863,
+  "l": 517
+ },
+ "loan-calculator": {
+  "s": 1880,
+  "m": 1663,
+  "l": 920
+ },
+ "location-qr-code-generator": {
+  "s": 918,
+  "m": 866,
+  "l": 543
+ },
+ "lorem-ipsum-generator": {
+  "s": 993,
+  "m": 970,
+  "l": 567
+ },
+ "love-calculator": {
+  "s": 847,
+  "m": 797
+ },
+ "mecard-qr-code-generator": {
+  "s": 1237,
+  "m": 1184,
+  "l": 861
+ },
+ "meta-tag-generator": {
+  "s": 1940,
+  "m": 1869,
+  "l": 1107
+ },
+ "number-to-words": {
+  "s": 937,
+  "m": 912,
+  "l": 606
+ },
+ "online-notepad": {
+  "s": 1101,
+  "m": 1066,
+  "l": 643
+ },
+ "open-graph-preview": {
+  "s": 2601,
+  "m": 2394,
+  "l": 1633
+ },
+ "password-generator": {
+  "s": 767,
+  "m": 767
+ },
+ "password-strength-checker": {
+  "s": 1229,
+  "m": 991,
+  "l": 692
+ },
+ "percentage-calculator": {
+  "s": 894,
+  "m": 820
+ },
+ "phone-number-qr-code-generator": {
+  "s": 839,
+  "m": 786
+ },
+ "pomodoro-timer": {
+  "s": 1073,
+  "m": 1011,
+  "l": 568
+ },
+ "printable-calendar-maker": {
+  "s": 1178,
+  "m": 1128,
+  "l": 805
+ },
+ "qr-code-generator": {
+  "s": 854,
+  "m": 801
+ },
+ "random-name-picker": {
+  "s": 956,
+  "m": 911,
+  "l": 580
+ },
+ "random-number-generator": {
+  "s": 865,
+  "m": 842,
+  "l": 511
+ },
+ "receipt-maker": {
+  "s": 1318,
+  "m": 1190,
+  "l": 678
+ },
+ "regex-tester": {
+  "s": 1228,
+  "m": 1083,
+  "l": 613
+ },
+ "remove-duplicate-lines": {
+  "s": 1147,
+  "m": 1122,
+  "l": 679
+ },
+ "resume-builder": {
+  "s": 1550,
+  "m": 1370,
+  "l": 1011
+ },
+ "robots-txt-generator": {
+  "s": 1442,
+  "m": 1250,
+  "l": 828
+ },
+ "screen-recorder": {
+  "s": 826
+ },
+ "signature-maker": {
+  "s": 997,
+  "m": 945,
+  "l": 622
+ },
+ "sitemap-generator": {
+  "s": 1328,
+  "m": 1237,
+  "l": 815
+ },
+ "sms-qr-code-generator": {
+  "s": 926,
+  "m": 874,
+  "l": 551
+ },
+ "social-media-qr-code-generator": {
+  "s": 917,
+  "m": 865,
+  "l": 542
+ },
+ "spin-the-wheel": {
+  "s": 1143,
+  "m": 1143,
+  "l": 681
+ },
+ "temperature-converter": {
+  "s": 848,
+  "m": 848,
+  "l": 517
+ },
+ "text-diff-checker": {
+  "s": 931,
+  "m": 903
+ },
+ "text-to-handwriting": {
+  "s": 1949,
+  "m": 1949,
+  "l": 1154
+ },
+ "text-to-qr-code": {
+  "s": 847,
+  "m": 794
+ },
+ "text-to-speech": {
+  "s": 961,
+  "m": 923,
+  "l": 592
+ },
+ "time-zone-converter": {
+  "s": 1304,
+  "m": 1140,
+  "l": 751
+ },
+ "to-do-list": {
+  "s": 876,
+  "m": 800
+ },
+ "typing-speed-test": {
+  "s": 925,
+  "m": 925,
+  "l": 517
+ },
+ "unit-converter": {
+  "s": 863,
+  "m": 863,
+  "l": 517
+ },
+ "unix-timestamp-converter": {
+  "s": 957,
+  "m": 888
+ },
+ "upc-barcode-generator": {
+  "s": 808,
+  "m": 808,
+  "l": 485
+ },
+ "url-encode-decode": {
+  "s": 833,
+  "m": 810,
+  "l": 511
+ },
+ "url-to-qr-code": {
+  "s": 839,
+  "m": 786
+ },
+ "username-generator": {
+  "s": 1048,
+  "m": 1024,
+  "l": 590
+ },
+ "utc-to-ist": {
+  "s": 1329,
+  "m": 1165,
+  "l": 751
+ },
+ "uuid-generator": {
+  "s": 971,
+  "m": 971,
+  "l": 527
+ },
+ "vcard-qr-code-generator": {
+  "s": 1396,
+  "m": 1343,
+  "l": 1020
+ },
+ "webcam-photo": {
+  "s": 1030,
+  "m": 904,
+  "l": 577
+ },
+ "weight-converter": {
+  "s": 848,
+  "m": 848,
+  "l": 517
+ },
+ "what-is-my-ip": {
+  "s": 1105,
+  "m": 1033,
+  "l": 813
+ },
+ "wifi-qr-code-generator": {
+  "s": 1030,
+  "m": 977,
+  "l": 654
+ },
+ "word-counter": {
+  "s": 1513,
+  "m": 1075,
+  "l": 715
+ }
+}

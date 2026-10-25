@@ -10,4 +10,4 @@ TOOLS.charcount={live:true,noAdv:true,
   const words=(s.match(/[\p{L}\p{N}]+/gu)||[]).length;
   const rows=[['Characters',nf(n)],['Characters (all, incl. spaces)',nf([...seg.segment(s)].length)],['Words',nf(words)],['Letters',nf((s.match(/\p{L}/gu)||[]).length)],['Digits',nf((s.match(/\p{N}/gu)||[]).length)],['Spaces',nf((s.match(/ /g)||[]).length)],['UTF-8 bytes',nf(bytes)],['SMS',`${segs} segment${segs===1?'':'s'} (${gsm?'GSM-7':'Unicode/UCS-2'})`]];
   const lim=LIM.map(([k,m])=>{const p=Math.min(100,n/m*100);return `<li><span>${esc(k)}</span><span class="${n>m?'over':''}">${nf(n)} / ${m}${n>m?` (−${n-m})`:''}</span><i style="--w:${p}%"></i></li>`;}).join('');
-  setHTML('ccout',stats(rows)+`<h3>Platform limits</h3><ul class="lim">${lim}</ul>`);return {...txtOut('character-count.txt',rows.map(r=>r.join(': ')).join('\n')+'\n'),info:`${nf(n)} characters`};}};
+  setHTML('ccout',stats(rows)+`<h2 class="h3">Platform limits</h2><ul class="lim">${lim}</ul>`);return {...txtOut('character-count.txt',rows.map(r=>r.join(': ')).join('\n')+'\n'),info:`${nf(n)} characters`};}};

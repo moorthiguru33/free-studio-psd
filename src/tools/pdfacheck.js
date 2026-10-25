@@ -24,6 +24,6 @@ TOOLS.pdfacheck={opts:()=>sel('pal',T.o_paLevel||'Check against',[['auto','Claim
    const info=d.getTitle();if(info&&xmp&&!xmp.includes(info.replace(/[<&]/g,'')))add(false,'Document title in Info dictionary differs from XMP dc:title',true);
    reports.push({f,R,lvl});}
   let txt='';for(const {f,R,lvl} of reports){const fail=R.filter(r=>!r.ok&&!r.warn).length,warn=R.filter(r=>!r.ok&&r.warn).length;const verdict=fail?`FAILS PDF/A-${lvl} (${fail} problem${fail>1?'s':''})`:`Passes key PDF/A-${lvl} checks${warn?` with ${warn} warning(s)`:''}`;
-   html+=`<h3>${esc(f.name)} — <span class="${fail?'bad':'good'}">${esc(verdict)}</span></h3><ul class="aiout">${R.map(r=>`<li>${r.ok?'✅':r.warn?'⚠️':'❌'} ${esc(r.msg)}</li>`).join('')}</ul>`;txt+=`${f.name}: ${verdict}\n${R.map(r=>`  [${r.ok?'OK':r.warn?'WARN':'FAIL'}] ${r.msg}`).join('\n')}\n\n`;}
+   html+=`<h2 class="h3">${esc(f.name)} — <span class="${fail?'bad':'good'}">${esc(verdict)}</span></h2><ul class="aiout">${R.map(r=>`<li>${r.ok?'✅':r.warn?'⚠️':'❌'} ${esc(r.msg)}</li>`).join('')}</ul>`;txt+=`${f.name}: ${verdict}\n${R.map(r=>`  [${r.ok?'OK':r.warn?'WARN':'FAIL'}] ${r.msg}`).join('\n')}\n\n`;}
   html+=`<p class="hint">${esc(T.o_paFix||'To fix problems, run the file through our PDF to PDF/A converter, then validate again.')}</p>`;
   return {blob:new Blob([txt],{type:'text/plain'}),name:files.length>1?'pdfa-report.txt':base(files[0].name)+'-pdfa-report.txt',view:html,info:reports.map(r=>r.f.name).join(', ')};}};

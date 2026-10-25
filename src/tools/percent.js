@@ -12,5 +12,5 @@ TOOLS.percent={live:true,noAdv:true,
  setup(){const el=box(`<div id="pcout" class="bigres"></div><div id="pcall"></div>`);if(!this.b){this.b=1;work.addEventListener('change',e=>{if(e.target.id==='pcm'){const a=P[e.target.value];$('#pcx',work).previousSibling.textContent=a[1];$('#pcy',work).previousSibling.textContent=a[2];}});}return el;},
  run(){const x=num('pcx'),y=num('pcy');const m=v('pcm');const a=P[m];$('#pcx',work).previousSibling.textContent=a[1];$('#pcy',work).previousSibling.textContent=a[2];if(!Number.isFinite(x)||!Number.isFinite(y))throw soft('Enter two numbers.');
   const [r,txt]=a[3](x,y);if(!Number.isFinite(r))throw soft('Cannot divide by zero.');setHTML('pcout',`<b>${esc(txt)}</b>`);
-  const all=Object.entries(P).filter(([k])=>k!==m).map(([k,b])=>{const [q,t]=b[3](x,y);return Number.isFinite(q)?`<li>${esc(t)}</li>`:'';}).join('');setHTML('pcall',`<h3>Same numbers, other questions</h3><ul>${all}</ul>`);
+  const all=Object.entries(P).filter(([k])=>k!==m).map(([k,b])=>{const [q,t]=b[3](x,y);return Number.isFinite(q)?`<li>${esc(t)}</li>`:'';}).join('');setHTML('pcall',`<h2 class="h3">Same numbers, other questions</h2><ul>${all}</ul>`);
   return {...txtOut('percentage.txt',txt+'\n'),info:txt};}};
