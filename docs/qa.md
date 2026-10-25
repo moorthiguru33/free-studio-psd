@@ -37,3 +37,13 @@ Baseline (before this QA round, live): e2e mobile 271/271, desktop 268/271 (edit
 | findreplace | PASS | PASS | |
 
 Site-wide fix: all validation messages (o_* strings) are now shown as a yellow ℹ hint without "Sorry, that didn't work / Try again".
+
+## Batch 2 (tools 26–50: PDF security/convert + image converters)
+All tested with big.pdf / scan10.pdf / 15 MB JPG + 10 MB PNG (batch of 2), phone + desktop.
+| Tool | Phone | Desktop | Notes |
+|---|---|---|---|
+| metadata, flatten, redact, compare, grayscale (19→3.4 MB), deskew, pdfa | PASS | PASS | |
+| extractimages | PASS | PASS | **Improved**: new default "Original" format writes embedded JPEGs byte-for-byte (lossless). The 17-page file gave 18.8 MB instead of 108 MB of re-encoded PNGs. Other images still decoded to PNG |
+| imgcompress (25 MB → 6.2 MB), imgresize, imgcrop, imgrotate, imgconvert | PASS | PASS | |
+| png2jpg, jpg2png, webp2jpg, webp2png, jpg2webp, png2webp, avif2jpg, tiff2jpg, jpg2tiff, bmp2jpg, png2ico | PASS | PASS | |
+| jpg2avif | PASS | PASS | slow on 12 MP + 6 MP photos (37 s) but works |

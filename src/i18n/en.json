@@ -33,6 +33,7 @@
   "o_angle": "Rotation",
   "o_position": "Position",
   "o_start": "Start number",
+  "o_original": "Original (lossless, smallest)",
   "o_format": "Format",
   "o_quality": "Quality",
   "o_scale": "Resolution",
