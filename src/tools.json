@@ -1432,6 +1432,71 @@
   }
  },
  {
+  "id": "in2cm",
+  "impl": "units",
+  "slug": "inches-to-cm",
+  "cat": "units",
+  "icon": "📏",
+  "nofile": true,
+  "vars": {
+   "cat": "length",
+   "from": "in",
+   "to": "cm"
+  }
+ },
+ {
+  "id": "ft2m",
+  "impl": "units",
+  "slug": "feet-to-meters",
+  "cat": "units",
+  "icon": "📐",
+  "nofile": true,
+  "vars": {
+   "cat": "length",
+   "from": "ft",
+   "to": "m"
+  }
+ },
+ {
+  "id": "lb2kg",
+  "impl": "units",
+  "slug": "lbs-to-kg",
+  "cat": "units",
+  "icon": "⚖️",
+  "nofile": true,
+  "vars": {
+   "cat": "mass",
+   "from": "lb",
+   "to": "kg"
+  }
+ },
+ {
+  "id": "g2oz",
+  "impl": "units",
+  "slug": "grams-to-ounces",
+  "cat": "units",
+  "icon": "🥄",
+  "nofile": true,
+  "vars": {
+   "cat": "mass",
+   "from": "g",
+   "to": "oz"
+  }
+ },
+ {
+  "id": "f2c",
+  "impl": "units",
+  "slug": "fahrenheit-to-celsius",
+  "cat": "units",
+  "icon": "🌡️",
+  "nofile": true,
+  "vars": {
+   "cat": "temp",
+   "from": "°F",
+   "to": "°C"
+  }
+ },
+ {
   "id": "lakh2m",
   "impl": "units",
   "slug": "lakh-to-million",

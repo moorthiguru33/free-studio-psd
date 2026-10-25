@@ -214,6 +214,71 @@
     "Download if needed."
    ],
    "faq": []
+  },
+  "in2cm": {
+   "name": "Inches to CM",
+   "short": "Convert inches to centimetres.",
+   "title": "Inches to CM Converter – Inches to Centimeters | {brand}",
+   "desc": "Convert inches to centimetres instantly.",
+   "h1": "Convert Inches to CM",
+   "steps": [
+    "Type the value in in.",
+    "See it in cm.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "ft2m": {
+   "name": "Feet to Meters",
+   "short": "Convert feet to metres.",
+   "title": "Feet to Meters Converter – ft to m | {brand}",
+   "desc": "Convert feet to metres instantly.",
+   "h1": "Convert Feet to Meters",
+   "steps": [
+    "Type the value in ft.",
+    "See it in m.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "lb2kg": {
+   "name": "LBS to KG",
+   "short": "Convert pounds to kilograms.",
+   "title": "LBS to KG Converter – Pounds to Kilograms | {brand}",
+   "desc": "Convert pounds to kilograms instantly.",
+   "h1": "Convert LBS to KG",
+   "steps": [
+    "Type the value in lb.",
+    "See it in kg.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "g2oz": {
+   "name": "Grams to Ounces",
+   "short": "Convert grams to ounces.",
+   "title": "Grams to Ounces Converter – g to oz | {brand}",
+   "desc": "Convert grams to ounces instantly.",
+   "h1": "Convert Grams to Ounces",
+   "steps": [
+    "Type the value in g.",
+    "See it in oz.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "f2c": {
+   "name": "Fahrenheit to Celsius",
+   "short": "Convert Fahrenheit to Celsius.",
+   "title": "Fahrenheit to Celsius Converter – °F to °C | {brand}",
+   "desc": "Convert Fahrenheit to Celsius instantly.",
+   "h1": "Convert Fahrenheit to Celsius",
+   "steps": [
+    "Type the value in °F.",
+    "See it in °C.",
+    "Copy or download."
+   ],
+   "faq": []
   }
  }
 }
