@@ -1,0 +1,3 @@
+const {chromium}=require('playwright-core');(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});const p=await b.newPage({viewport:{width:412,height:823},deviceScaleFactor:1.75});
+await p.addInitScript(()=>{window.__s=[];new PerformanceObserver(l=>{for(const e of l.getEntries())window.__s.push({v:e.value,t:Math.round(e.startTime),src:e.sources.map(s=>({n:s.node&&(s.node.className||s.node.nodeName),p:JSON.stringify(s.previousRect),c:JSON.stringify(s.currentRect)}))});}).observe({type:'layout-shift',buffered:true});});
+await p.goto(process.argv[2]);await p.waitForTimeout(3000);console.log(JSON.stringify(await p.evaluate(()=>window.__s),null,1));await b.close();})();
