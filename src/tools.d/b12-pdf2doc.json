@@ -1,0 +1,1 @@
+[{"id": "pdf2rtf", "impl": "pdf2doc", "slug": "pdf-to-rtf", "cat": "convert", "icon": "📝", "accept": ".pdf", "multiple": false, "enOnly": true, "vars": {"to": "rtf"}}, {"id": "pdf2odt", "impl": "pdf2doc", "slug": "pdf-to-odt", "cat": "convert", "icon": "📝", "accept": ".pdf", "multiple": false, "enOnly": true, "vars": {"to": "odt"}}]

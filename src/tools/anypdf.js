@@ -16,6 +16,9 @@ async function onePdf(f){const {PDFDocument}=await L.pdflib();const e=AX(f.name)
  if(e==='pdf')return PDFDocument.load(await buf(f),{ignoreEncryption:true});
  if(/^(jpe?g|png|webp|gif|bmp|avif|svg|ico)$/.test(e)){const d=await PDFDocument.create();await imgPdf(d,e==='svg'?new Blob([await f.text()],{type:'image/svg+xml'}):f,f.name);return d;}
  if(e==='docx'){const m=await L.mammoth();return H((await m.convertToHtml({arrayBuffer:await buf(f)})).value);}
+ if(/^(pptx|ppsx|potx|pptm|odp|otp)$/.test(e)){await load('slides.js');const cs=await window.Slides.render(await buf(f),e,1920,await L.zip());if(!cs.length)throw new Error(f.name+': no slides found.');const d=await PDFDocument.create();
+  for(const c of cs){const b=new Uint8Array(await (await toBlob(c,'image/jpeg',.9)).arrayBuffer());const im=await d.embedJpg(b);const W=792,H=W*c.height/c.width;d.addPage([W,H]).drawImage(im,{x:0,y:0,width:W,height:H});}return d;}
+ if(e==='ppt'||e==='pps')throw new Error(f.name+': old binary .ppt files are not supported – open it in PowerPoint, Keynote, Google Slides or LibreOffice and save as .pptx first.');
  if(e==='odt'||e==='ott')return H(await odtHtml(await buf(f)));
  if(/^(xlsx|xls|ods|csv|tsv)$/.test(e))return H(await sheetHtml(f),{base:9,margin:36});
  if(e==='md'||e==='markdown'){const t=await f.text();const md=t.split('\n').map(l=>/^#{1,3}\s/.test(l)?`<h${l.match(/^#+/)[0].length}>${EH(l.replace(/^#+\s*/,''))}</h${l.match(/^#+/)[0].length}>`:/^\s*[-*]\s/.test(l)?`<ul><li>${EH(l.replace(/^\s*[-*]\s/,''))}</li></ul>`:l.trim()?`<p>${EH(l)}</p>`:'').join('');return H(md);}

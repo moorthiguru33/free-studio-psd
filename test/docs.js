@@ -1,0 +1,5 @@
+const {chromium}=require('playwright-core');const B=process.env.BASE||'http://localhost:8099';
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});
+const steps=[['powerpoint-to-pdf','/tmp/doc/deck.pptx'],['pptx-to-pdf','/tmp/doc/deck.pptx'],['odp-to-pdf','/tmp/doc/deck.odp'],['ods-to-pdf','/tmp/doc/s.ods'],['html-to-pdf','/tmp/doc/page.html'],['pdf-to-rtf','/tmp/br-article.pdf'],['pdf-to-odt','/tmp/br-article.pdf'],['pdf-to-rtf','/tmp/br-invoice.pdf'],['pdf-to-odt','/tmp/br-invoice.pdf']];require('fs').mkdirSync('/tmp/do',{recursive:true});
+for(const [slug,f] of steps){const p=await ctx.newPage();try{await p.goto(`${B}/${slug}/`);await p.setInputFiles('#tool input[type=file]',f);await p.waitForSelector('#go');await p.click('#go');await p.waitForSelector('#dl,.err',{timeout:90000});const [dl]=await Promise.all([p.waitForEvent('download'),p.click('#dl')]);const fp='/tmp/do/'+slug+'_'+dl.suggestedFilename();await dl.saveAs(fp);console.log(slug,'->',fp,require('fs').statSync(fp).size);}catch(e){console.log(slug,'ERR',e.message.slice(0,120))}await p.close();}
+await b.close()})();

@@ -1,0 +1,372 @@
+{
+"tools": {
+"pptx2pdf": {
+"name": "PowerPoint to PDF Converter",
+"short": "Convert PowerPoint files to PDF in your browser.",
+"title": "PowerPoint to PDF – Free Converter, No Upload | {brand}",
+"desc": "Convert PowerPoint to PDF free, right in your browser. Batch convert Microsoft PowerPoint (.pptx) presentations into one PDF or separate files. No upload, ",
+"h1": "Convert PowerPoint to PDF",
+"steps": [
+"Select one or more PPTX files (or a ZIP).",
+"Choose one combined PDF or one PDF per file.",
+"Click Start and download the PDF."
+],
+"faq": [
+{
+"q": "How do I convert PowerPoint to PDF without Office?",
+"a": "Drop the file here and press Start – {brand} reads the PPTX inside your browser, so you don’t need PowerPoint, LibreOffice or any install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Conversion runs entirely on your device; confidential decks and sheets never leave it."
+},
+{
+"q": "What is preserved?",
+"a": "Each slide is rendered at 1920 px wide – positions, theme colours, backgrounds, pictures, shapes, tables, bullets and fonts – and placed on a PDF page with the slide’s exact aspect ratio."
+},
+{
+"q": "What are the limits?",
+"a": "Text is drawn into the slide image, so the PDF looks exactly like the slides but text is not selectable – run OCR PDF afterwards for searchable text. Charts, SmartArt, animations, transitions, embedded video and EMF/WMF clip-art are not rendered; gradients are approximated with a solid colour."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes – combine them into one PDF with a bookmark per file, or get one PDF each in a ZIP."
+},
+{
+"q": "Is it free?",
+"a": "Yes – no sign-up, no watermark, no daily task limits."
+},
+{
+"q": "Can I convert old .ppt files?",
+"a": "Not yet – legacy binary .ppt needs to be saved as .pptx first (PowerPoint, Keynote, Google Slides or LibreOffice can do it)."
+}
+],
+"guide": {
+"intro": "{brand} turns Microsoft PowerPoint (.pptx) presentations into PDFs that open identically on every device – ideal for sharing, printing or uploading to portals that only accept PDF. Everything happens locally in your browser.",
+"uses": [
+"Send a deck or report to someone without the original software.",
+"Upload to job, university or government portals that require PDF.",
+"Print handouts reliably without layout shifts.",
+"Archive documents in a format that will open in 20 years."
+],
+"tips": [
+"Embed or use common fonts in the original for the closest match.",
+"Combine several files into one PDF with bookmarks for easy navigation.",
+"Use Compress PDF afterwards if the file must be under an email limit."
+],
+"more": [
+[
+"How it works",
+"Each slide is rendered at 1920 px wide – positions, theme colours, backgrounds, pictures, shapes, tables, bullets and fonts – and placed on a PDF page with the slide’s exact aspect ratio. Text is drawn into the slide image, so the PDF looks exactly like the slides but text is not selectable – run OCR PDF afterwards for searchable text. Charts, SmartArt, animations, transitions, embedded video and EMF/WMF clip-art are not rendered; gradients are approximated with a solid colour."
+],
+[
+"Compared with iLovePDF, Smallpdf and Adobe",
+"Those services upload your file to their servers and limit free use (Smallpdf: a couple of tasks per day; Sejda: 3 tasks per hour and 50 MB; Adobe: sign-in for most conversions). {brand} converts locally with no account and no limits."
+]
+],
+"faq": [
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any modern mobile browser, though big files are faster on a computer."
+},
+{
+"q": "Does it support non-Latin text?",
+"a": "Yes – slides are drawn with your system fonts, so Arabic, Hebrew, Chinese, Japanese, Korean and Indic scripts render correctly."
+}
+]
+}
+},
+"pptx2pdf2": {
+"name": "PPTX to PDF Converter",
+"short": "Convert PPTX files to PDF in your browser.",
+"title": "PPTX to PDF – Free Converter, No Upload | {brand}",
+"desc": "Convert PPTX to PDF free, right in your browser. Batch convert PPTX slide decks into one PDF or separate files. No upload, no watermark.",
+"h1": "Convert PPTX to PDF",
+"steps": [
+"Select one or more PPTX files (or a ZIP).",
+"Choose one combined PDF or one PDF per file.",
+"Click Start and download the PDF."
+],
+"faq": [
+{
+"q": "How do I convert PPTX to PDF without Office?",
+"a": "Drop the file here and press Start – {brand} reads the PPTX inside your browser, so you don’t need PowerPoint, LibreOffice or any install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Conversion runs entirely on your device; confidential decks and sheets never leave it."
+},
+{
+"q": "What is preserved?",
+"a": "Each slide is rendered at 1920 px with its layout and master (logos, backgrounds, placeholder positions and text sizes) and saved as a PDF page."
+},
+{
+"q": "What are the limits?",
+"a": "Text is drawn into the slide image, so the PDF looks exactly like the slides but text is not selectable – run OCR PDF afterwards for searchable text. Charts, SmartArt, animations, transitions, embedded video and EMF/WMF clip-art are not rendered; gradients are approximated with a solid colour."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes – combine them into one PDF with a bookmark per file, or get one PDF each in a ZIP."
+},
+{
+"q": "Is it free?",
+"a": "Yes – no sign-up, no watermark, no daily task limits."
+},
+{
+"q": "Can I convert old .ppt files?",
+"a": "Not yet – legacy binary .ppt needs to be saved as .pptx first (PowerPoint, Keynote, Google Slides or LibreOffice can do it)."
+}
+],
+"guide": {
+"intro": "{brand} turns PPTX slide decks into PDFs that open identically on every device – ideal for sharing, printing or uploading to portals that only accept PDF. Everything happens locally in your browser.",
+"uses": [
+"Send a deck or report to someone without the original software.",
+"Upload to job, university or government portals that require PDF.",
+"Print handouts reliably without layout shifts.",
+"Archive documents in a format that will open in 20 years."
+],
+"tips": [
+"Embed or use common fonts in the original for the closest match.",
+"Combine several files into one PDF with bookmarks for easy navigation.",
+"Use Compress PDF afterwards if the file must be under an email limit."
+],
+"more": [
+[
+"How it works",
+"Each slide is rendered at 1920 px with its layout and master (logos, backgrounds, placeholder positions and text sizes) and saved as a PDF page. Text is drawn into the slide image, so the PDF looks exactly like the slides but text is not selectable – run OCR PDF afterwards for searchable text. Charts, SmartArt, animations, transitions, embedded video and EMF/WMF clip-art are not rendered; gradients are approximated with a solid colour."
+],
+[
+"Compared with iLovePDF, Smallpdf and Adobe",
+"Those services upload your file to their servers and limit free use (Smallpdf: a couple of tasks per day; Sejda: 3 tasks per hour and 50 MB; Adobe: sign-in for most conversions). {brand} converts locally with no account and no limits."
+]
+],
+"faq": [
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any modern mobile browser, though big files are faster on a computer."
+},
+{
+"q": "Does it support non-Latin text?",
+"a": "Yes – slides are drawn with your system fonts, so Arabic, Hebrew, Chinese, Japanese, Korean and Indic scripts render correctly."
+}
+]
+}
+},
+"odp2pdf": {
+"name": "ODP to PDF Converter",
+"short": "Convert ODP files to PDF in your browser.",
+"title": "ODP to PDF – Free Converter, No Upload | {brand}",
+"desc": "Convert ODP to PDF free, right in your browser. Batch convert OpenDocument presentations into one PDF or separate files. No upload, no watermark.",
+"h1": "Convert ODP to PDF",
+"steps": [
+"Select one or more ODP files (or a ZIP).",
+"Choose one combined PDF or one PDF per file.",
+"Click Start and download the PDF."
+],
+"faq": [
+{
+"q": "How do I convert ODP to PDF without Office?",
+"a": "Drop the file here and press Start – {brand} reads the ODP inside your browser, so you don’t need PowerPoint, LibreOffice or any install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Conversion runs entirely on your device; confidential decks and sheets never leave it."
+},
+{
+"q": "What is preserved?",
+"a": "Every page is rendered with its frames, text boxes, images, shapes and background colours, then placed on a PDF page with the presentation’s aspect ratio."
+},
+{
+"q": "What are the limits?",
+"a": "Text is drawn into the slide image, so the PDF looks exactly like the slides but text is not selectable – run OCR PDF afterwards for searchable text. Charts, SmartArt, animations, transitions, embedded video and EMF/WMF clip-art are not rendered; gradients are approximated with a solid colour."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes – combine them into one PDF with a bookmark per file, or get one PDF each in a ZIP."
+},
+{
+"q": "Is it free?",
+"a": "Yes – no sign-up, no watermark, no daily task limits."
+}
+],
+"guide": {
+"intro": "{brand} turns OpenDocument presentations from LibreOffice Impress, OpenOffice and Google Slides exports into PDFs that open identically on every device – ideal for sharing, printing or uploading to portals that only accept PDF. Everything happens locally in your browser.",
+"uses": [
+"Send a deck or report to someone without the original software.",
+"Upload to job, university or government portals that require PDF.",
+"Print handouts reliably without layout shifts.",
+"Archive documents in a format that will open in 20 years."
+],
+"tips": [
+"Embed or use common fonts in the original for the closest match.",
+"Combine several files into one PDF with bookmarks for easy navigation.",
+"Use Compress PDF afterwards if the file must be under an email limit."
+],
+"more": [
+[
+"How it works",
+"Every page is rendered with its frames, text boxes, images, shapes and background colours, then placed on a PDF page with the presentation’s aspect ratio. Text is drawn into the slide image, so the PDF looks exactly like the slides but text is not selectable – run OCR PDF afterwards for searchable text. Charts, SmartArt, animations, transitions, embedded video and EMF/WMF clip-art are not rendered; gradients are approximated with a solid colour."
+],
+[
+"Compared with iLovePDF, Smallpdf and Adobe",
+"Those services upload your file to their servers and limit free use (Smallpdf: a couple of tasks per day; Sejda: 3 tasks per hour and 50 MB; Adobe: sign-in for most conversions). {brand} converts locally with no account and no limits."
+]
+],
+"faq": [
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any modern mobile browser, though big files are faster on a computer."
+},
+{
+"q": "Does it support non-Latin text?",
+"a": "Yes – slides are drawn with your system fonts, so Arabic, Hebrew, Chinese, Japanese, Korean and Indic scripts render correctly."
+}
+]
+}
+},
+"ods2pdf": {
+"name": "ODS to PDF Converter",
+"short": "Convert ODS files to PDF in your browser.",
+"title": "ODS to PDF – Free Converter, No Upload | {brand}",
+"desc": "Convert ODS to PDF free, right in your browser. Batch convert OpenDocument spreadsheets into one PDF or separate files. No upload, no watermark.",
+"h1": "Convert ODS to PDF",
+"steps": [
+"Select one or more ODS files (or a ZIP).",
+"Choose one combined PDF or one PDF per file.",
+"Click Start and download the PDF."
+],
+"faq": [
+{
+"q": "How do I convert ODS to PDF without Office?",
+"a": "Drop the file here and press Start – {brand} reads the ODS inside your browser, so you don’t need PowerPoint, LibreOffice or any install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Conversion runs entirely on your device; confidential decks and sheets never leave it."
+},
+{
+"q": "What is preserved?",
+"a": "Every sheet becomes a titled section with a real, selectable-text table; long sheets are split across pages with the header row kept."
+},
+{
+"q": "What are the limits?",
+"a": "Formulas are exported as their calculated values; charts and embedded images in spreadsheets are skipped."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes – combine them into one PDF with a bookmark per file, or get one PDF each in a ZIP."
+},
+{
+"q": "Is it free?",
+"a": "Yes – no sign-up, no watermark, no daily task limits."
+}
+],
+"guide": {
+"intro": "{brand} turns OpenDocument spreadsheets from LibreOffice Calc and OpenOffice into PDFs that open identically on every device – ideal for sharing, printing or uploading to portals that only accept PDF. Everything happens locally in your browser.",
+"uses": [
+"Send a deck or report to someone without the original software.",
+"Upload to job, university or government portals that require PDF.",
+"Print handouts reliably without layout shifts.",
+"Archive documents in a format that will open in 20 years."
+],
+"tips": [
+"Embed or use common fonts in the original for the closest match.",
+"Combine several files into one PDF with bookmarks for easy navigation.",
+"Use Compress PDF afterwards if the file must be under an email limit."
+],
+"more": [
+[
+"How it works",
+"Every sheet becomes a titled section with a real, selectable-text table; long sheets are split across pages with the header row kept. Formulas are exported as their calculated values; charts and embedded images in spreadsheets are skipped."
+],
+[
+"Compared with iLovePDF, Smallpdf and Adobe",
+"Those services upload your file to their servers and limit free use (Smallpdf: a couple of tasks per day; Sejda: 3 tasks per hour and 50 MB; Adobe: sign-in for most conversions). {brand} converts locally with no account and no limits."
+]
+],
+"faq": [
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any modern mobile browser, though big files are faster on a computer."
+},
+{
+"q": "Does it support non-Latin text?",
+"a": "Latin text is fully supported; for other scripts see our multilingual notes."
+}
+]
+}
+},
+"html2pdf": {
+"name": "HTML to PDF Converter",
+"short": "Convert HTML files to PDF in your browser.",
+"title": "HTML to PDF – Free Converter, No Upload | {brand}",
+"desc": "Convert HTML to PDF free, right in your browser. Batch convert saved web pages and HTML files into one PDF or separate files. No upload, no watermark.",
+"h1": "Convert HTML to PDF",
+"steps": [
+"Select one or more HTML files (or a ZIP).",
+"Choose one combined PDF or one PDF per file.",
+"Click Start and download the PDF."
+],
+"faq": [
+{
+"q": "How do I convert HTML to PDF without Office?",
+"a": "Drop the file here and press Start – {brand} reads the HTML inside your browser, so you don’t need PowerPoint, LibreOffice or any install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Conversion runs entirely on your device; confidential decks and sheets never leave it."
+},
+{
+"q": "What is preserved?",
+"a": "Headings, paragraphs, lists, tables, links and inline formatting are laid out as real PDF text; scripts, navigation and footers are removed for a clean, printable document."
+},
+{
+"q": "What are the limits?",
+"a": "External CSS, web fonts and remote images are not fetched (that would need a server); the page is reflowed as a clean readable document rather than a pixel copy of the website."
+},
+{
+"q": "Can I convert several files at once?",
+"a": "Yes – combine them into one PDF with a bookmark per file, or get one PDF each in a ZIP."
+},
+{
+"q": "Is it free?",
+"a": "Yes – no sign-up, no watermark, no daily task limits."
+}
+],
+"guide": {
+"intro": "{brand} turns saved web pages and HTML files into PDFs that open identically on every device – ideal for sharing, printing or uploading to portals that only accept PDF. Everything happens locally in your browser.",
+"uses": [
+"Send a deck or report to someone without the original software.",
+"Upload to job, university or government portals that require PDF.",
+"Print handouts reliably without layout shifts.",
+"Archive documents in a format that will open in 20 years."
+],
+"tips": [
+"Embed or use common fonts in the original for the closest match.",
+"Combine several files into one PDF with bookmarks for easy navigation.",
+"Use Compress PDF afterwards if the file must be under an email limit."
+],
+"more": [
+[
+"How it works",
+"Headings, paragraphs, lists, tables, links and inline formatting are laid out as real PDF text; scripts, navigation and footers are removed for a clean, printable document. External CSS, web fonts and remote images are not fetched (that would need a server); the page is reflowed as a clean readable document rather than a pixel copy of the website."
+],
+[
+"Compared with iLovePDF, Smallpdf and Adobe",
+"Those services upload your file to their servers and limit free use (Smallpdf: a couple of tasks per day; Sejda: 3 tasks per hour and 50 MB; Adobe: sign-in for most conversions). {brand} converts locally with no account and no limits."
+]
+],
+"faq": [
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any modern mobile browser, though big files are faster on a computer."
+},
+{
+"q": "Does it support non-Latin text?",
+"a": "Latin text is fully supported; for other scripts see our multilingual notes."
+}
+]
+}
+}
+}
+}

@@ -143,3 +143,13 @@ Local e2e after all fixes: 271/271 pass. Live stress: all 132 file tools give PA
 ### Video converters (2026-10-25)
 10 pages (mov/mkv/webm/ts→mp4, mp4/mov/mkv→webm, mp4→mov, mp4→mkv, webm→mov) via existing videoedit impl (mediabunny MPL-2.0 + WebCodecs). Test: 6 s 720p H.264/AAC sample in MOV/MKV/TS/MP4 and VP9/Opus WebM → 10/10 outputs valid (ffprobe), H.264 re-wrapped without re-encode, AAC kept when source is AAC; Opus fallback when browser has no AAC encoder (Linux Chromium).
 Skipped: AVI/WMV/FLV input – no permissive browser demuxer (ffmpeg.wasm core includes GPL parts). Limit: in-memory, ~1–2 GB desktop.
+
+### Document converters (2026-10-25)
+| Tool | Sample | Result |
+|---|---|---|
+| powerpoint-to-pdf / pptx-to-pdf | python-pptx 4-slide 16:9 deck (title, bullets L1/L2, picture, rounded shape with Arabic+Chinese, table) | ✅ 4 pages 792×445.5 pt; layout matches LibreOffice reference visually (new src/lib/slides.js, canvas renderer, own code) |
+| odp-to-pdf | same deck saved as ODP by LibreOffice | ✅ 4 pages, correct aspect, tables rendered |
+| ods-to-pdf | 3-row CSV saved as ODS | ✅ selectable-text table |
+| html-to-pdf | HTML with nav/heading/list/table | ✅ nav removed, text selectable |
+| pdf-to-rtf / pdf-to-odt | br-article.pdf (650 words), br-invoice.pdf (₹, table) | ✅ 650/650 and 86/86 words via LibreOffice re-read; opens in Writer |
+Limits: slide text is rasterised (not selectable); charts/SmartArt/EMF not drawn; legacy .ppt rejected with a clear message.
