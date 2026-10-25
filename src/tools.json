@@ -2,7 +2,7 @@
  {
   "id": "merge",
   "slug": "merge-pdf",
-  "accept": ".pdf",
+  "accept": ".pdf,image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp,.heic,.heif,.avif,.gif,.bmp",
   "multiple": true,
   "icon": "⊕",
   "cat": "organize"
@@ -34,7 +34,7 @@
  {
   "id": "jpg2pdf",
   "slug": "jpg-to-pdf",
-  "accept": "image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp",
+  "accept": "image/*,.jpg,.jpeg,.png,.webp,.heic,.heif,.avif,.gif,.bmp,.tif,.tiff",
   "multiple": true,
   "icon": "🖼",
   "cat": "convert"

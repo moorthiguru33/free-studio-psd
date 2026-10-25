@@ -1,0 +1,786 @@
+{
+"tools": {
+"pdf2word": {
+"seo": {
+"updated": "2026-10-25",
+"title": "PDF to Word Converter – Free, Private, OCR Included",
+"desc": "Convert PDF to editable Word (DOCX) free in your browser. Free OCR for scanned PDFs, flowing or exact layout, 12 OCR languages. No upload, no sign-up.",
+"sections": [
+[
+"Why this PDF to Word converter is different",
+"Most PDF to Word converters ask you to upload your document to a remote server, wait in a queue and then download the result. That is fine for a flyer, but not for a contract, a payslip, a medical letter or a thesis draft. {brand} does the whole conversion inside your browser tab. The PDF is parsed with PDF.js, the text runs, fonts, images and tables are rebuilt into a real .docx file, and the file is handed straight back to you. Nothing is sent anywhere.",
+"Being local also removes the usual limits. There is no daily task counter, no 'upgrade to convert more pages' banner and no watermark. The only limit is the memory of the device you are using – a modern laptop handles documents of several hundred pages comfortably.",
+[
+"**Free OCR for scanned PDFs** – iLovePDF marks OCR as a Premium option; here it is included and runs on your device.",
+"**Two layout modes** – *Flowing text* rebuilds normal paragraphs, columns and tables you can edit freely; *Exact layout* reproduces each page precisely using positioned text boxes.",
+"**12 OCR languages** including English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Simplified Chinese and Japanese.",
+"**Other formats** – need RTF or ODT for LibreOffice, WordPad or older software? Use [PDF to RTF](/pdf-to-rtf/) or [PDF to ODT](/pdf-to-odt/)."
+]
+],
+[
+"Flowing text or exact layout – which should I pick?",
+"Choose **Flowing text** when you want to edit the document: rewrite paragraphs, fix a CV, update a report or copy sections into another file. Lines are joined into paragraphs, headings are detected from font size and weight, multi-column pages are read in the right order and ruled tables become real Word tables. Text reflows naturally as you type.",
+"Choose **Exact layout** when the document must look identical to the PDF – forms, brochures, certificates or anything with a designed layout. Every line is placed at its original position, so the page looks the same in Word, but editing large blocks of text is less convenient because each line lives in its own box.",
+"If you are unsure, try Flowing text first; the conversion takes seconds, so comparing both costs nothing."
+],
+[
+"Converting scanned PDFs with OCR",
+"A scanned PDF contains pictures of pages rather than text, so an ordinary converter produces an empty Word file or a document full of images. With OCR set to **Auto**, {brand} checks each page: pages that already have a text layer are converted directly, and image-only pages are recognised with Tesseract running in WebAssembly. Choose **All pages** to force recognition everywhere, for example on a PDF that has a poor hidden text layer.",
+"For the best OCR results scan at 300 DPI, keep pages straight and pick the document language before you start. Recognition happens on your device, so a 20-page scan may take a minute on a phone – but your document never leaves it."
+],
+[
+"Tips for a cleaner Word document",
+[
+"Use the original digital PDF when you can – exported PDFs convert far more accurately than scans or photos.",
+"If a PDF is password-protected, remove the password first with [Unlock PDF](/unlock-pdf/) (you need to know it).",
+"Only need some pages? Split them out with [Split PDF](/split-pdf/) and convert the smaller file.",
+"After editing, turn the document back into a PDF with [Word to PDF](/word-to-pdf/)."
+]
+],
+[
+"What gets converted",
+{
+"table": [
+[
+"Element",
+"Flowing text",
+"Exact layout"
+],
+[
+"Paragraphs and headings",
+"Rebuilt as editable paragraphs",
+"Positioned lines"
+],
+[
+"Bold, italic, font size, colour",
+"Kept",
+"Kept"
+],
+[
+"Tables with ruled lines",
+"Real Word tables",
+"Positioned text"
+],
+[
+"Images and photos",
+"Embedded",
+"Embedded at original position"
+],
+[
+"Multi-column pages",
+"Read in column order",
+"Columns kept visually"
+],
+[
+"Scanned pages",
+"OCR text",
+"OCR text"
+]
+]
+}
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"OCR for scanned PDFs",
+"Free, on-device",
+"Premium only",
+"See site",
+"See site",
+"See site"
+],
+[
+"Output formats",
+"DOCX, RTF, ODT",
+"DOCX",
+"DOCX",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Is this PDF to Word converter really free?",
+"a": "Yes. There are no daily limits, no watermark and no paid tier. Because the conversion runs on your own device, it costs us nothing extra when you convert more files."
+},
+{
+"q": "Can I convert a scanned PDF to Word?",
+"a": "Yes. Leave OCR on Auto and image-only pages are recognised automatically in 12 languages. Pick the document language for the best accuracy."
+},
+{
+"q": "Does it work on Mac, iPhone and Android?",
+"a": "Yes. It runs in any modern browser – Chrome, Edge, Firefox or Safari on Windows, macOS, Linux, iOS and Android. Nothing needs installing."
+},
+{
+"q": "Can I convert PDF to Word offline?",
+"a": "Yes. Load this page once, then disconnect from the internet – the converter keeps working because all the code is already in your browser."
+},
+{
+"q": "How do I convert a very large PDF?",
+"a": "Large files work as long as your device has enough memory. On a phone, splitting a 500-page PDF into parts with Split PDF and converting them one by one is faster and more reliable."
+},
+{
+"q": "Will my fonts and formatting be kept?",
+"a": "Bold, italic, sizes and colours are kept. If a font is not installed on your computer, Word substitutes a similar one; Exact layout keeps positions identical."
+},
+{
+"q": "Can I convert PDF to Word in other languages?",
+"a": "Yes. Text-based PDFs in any script convert directly, and OCR supports 12 languages including Arabic, Hindi, Tamil, Chinese and Japanese."
+}
+],
+"related": [
+"word-to-pdf",
+"ocr-pdf",
+"pdf-to-rtf",
+"pdf-to-text",
+"unlock-pdf"
+]
+}
+},
+"compress": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Compress PDF – Reduce PDF File Size Free, No Upload",
+"desc": "Shrink PDF file size free in your browser. Three levels with size estimates, text stays sharp, no upload, no sign-up, no hourly limits. Works offline.",
+"sections": [
+[
+"How PDF compression works",
+"A PDF is a container. Text and vector drawings are small; what makes most PDFs large is embedded images – scanned pages, photos and screenshots – plus duplicated fonts and unused objects left over from editing. {brand} looks inside your PDF, measures every embedded image and then applies the level you choose. Before you even click, each level card shows an estimated output size so you can pick the trade-off that suits you.",
+[
+"**Recommended** – re-encodes oversized photos as efficient JPEGs at a sensible resolution, removes unused objects and rewrites the file compactly. Text and vector graphics are untouched, so they stay perfectly sharp and searchable.",
+"**Extreme** – renders every page as an image at reduced resolution. This gives the smallest possible file, ideal for e-mail limits and upload portals, but text is no longer selectable.",
+"**Less** – a lossless rebuild. Nothing visual changes; you gain space only from cleaning up the file structure. Useful for documents where every pixel matters."
+],
+"If a result would be bigger than your original – which happens with files that are already optimised – {brand} keeps the original and tells you, so you never download a worse file."
+],
+[
+"Need an exact size such as 100 KB or 1 MB?",
+"Government forms, job portals and university applications often enforce a hard limit. Use the target-size tools – [Compress PDF to 100 KB](/compress-pdf-to-100kb/), [200 KB](/compress-pdf-to-200kb/), [500 KB](/compress-pdf-to-500kb/), [1 MB](/compress-pdf-to-1mb/) or [any size in KB](/compress-pdf-to-kb/). They try progressively stronger settings and stop as soon as the file fits, keeping as much quality as possible."
+],
+[
+"Will compression affect fonts or quality?",
+"At the Recommended and Less levels fonts are never rasterised, so text prints and zooms exactly as before. Photos are resampled to a resolution that still looks sharp on screen and in normal office printing. Only Extreme converts pages to images; choose it when size matters more than editability.",
+"For scanned documents – which are just images already – Recommended usually gives the biggest gains with almost no visible difference, often reducing a 10 MB scan to 1–2 MB."
+],
+[
+"Common uses",
+[
+"**CVs and résumés** – many applicant tracking systems cap uploads at 2 MB or less; a compressed CV uploads instantly and keeps its text searchable for keyword matching.",
+"**Posters and brochures** – design exports with full-resolution photos can be 50 MB or more; Recommended brings them down to e-mail size.",
+"**Scanned paperwork** – bank statements, invoices and ID copies for online forms.",
+"**Team sharing** – smaller files sync faster to shared drives and chat apps, and because nothing is uploaded here, confidential team documents stay private."
+]
+],
+[
+"Tips for the smallest PDF",
+[
+"Remove pages you don’t need first with [Delete PDF Pages](/delete-pdf-pages/).",
+"Convert colour scans that are really black-and-white text with [Grayscale PDF](/grayscale-pdf/) before compressing.",
+"Combine several documents with [Merge PDF](/merge-pdf/) and compress once, rather than compressing each part."
+]
+],
+[
+"Compression levels compared",
+{
+"table": [
+[
+"Level",
+"What it does",
+"Typical saving",
+"Text selectable",
+"Best for"
+],
+[
+"Less",
+"Lossless rebuild: removes unused objects, rewrites the file compactly",
+"5–20%",
+"Yes",
+"Archiving, legal documents"
+],
+[
+"Recommended",
+"Re-encodes oversized photos, keeps text and vectors",
+"40–80% on image-heavy files",
+"Yes",
+"E-mail, sharing, uploads"
+],
+[
+"Extreme",
+"Renders pages as compressed images",
+"80–95%",
+"No",
+"Strict upload limits"
+]
+]
+},
+"Savings depend entirely on what is inside the PDF. A file that is mostly typed text may only shrink by a few per cent, because there is little to remove; a phone-camera scan can shrink by ten times or more."
+],
+[
+"Why compress in the browser instead of online?",
+"Online compressors are convenient, but every one of them requires you to send the file to a server you don’t control, often with retention periods measured in hours. Many also limit free users – Sejda’s free web plan, for example, allows 3 tasks per hour and files up to 50 MB. {brand} has none of those constraints: the compression engine is downloaded once as part of this page and then runs on your processor. Large files are limited only by your device’s memory, and you can compress as many documents as you like, one after another, without waiting or creating an account.",
+"It is also faster for big files on slow connections – there is no 30 MB upload followed by a 30 MB download, just local processing.",
+"Compression is also repeatable: try Recommended, compare the result with the original side by side, and if you need it smaller, run Extreme on the original – each attempt takes seconds."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Compression levels",
+"3, with live size estimates",
+"3",
+"See site",
+"See site",
+"See site"
+],
+[
+"Compress to an exact size (KB)",
+"Yes – dedicated tools",
+"Not offered on page",
+"Not offered on page",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I reduce a scanned PDF file size?",
+"a": "Use the Recommended level. Scans are made of images, so re-encoding them gives large savings – often 70–90% – while staying readable. For a hard limit use a target-size tool such as Compress PDF to 200 KB."
+},
+{
+"q": "Can I compress PDFs with my whole team?",
+"a": "Yes. There are no accounts or seats – anyone on your team can open the page and compress files. Because files never leave each person’s device, it also suits confidential material."
+},
+{
+"q": "Will compression make text blurry?",
+"a": "No, unless you choose Extreme. Recommended and Less keep text and vector graphics exactly as they are; only embedded photos are optimised."
+},
+{
+"q": "Why is my compressed PDF not much smaller?",
+"a": "The file is probably mostly text, or already optimised. Text-only PDFs are small by nature. Try Extreme if you only need a viewable copy, or remove unneeded pages."
+},
+{
+"q": "How do I compress a PDF for e-mail?",
+"a": "Use Recommended. Most e-mail services accept attachments up to 20–25 MB; if your file is still too large, use Compress PDF to 1 MB or split it into parts."
+},
+{
+"q": "Is compressing a PDF safe for confidential documents?",
+"a": "Yes. The file is processed in your browser and never uploaded, so nothing is stored on any server."
+}
+],
+"related": [
+"compress-pdf-to-kb",
+"compress-pdf-to-100kb",
+"grayscale-pdf",
+"merge-pdf",
+"compress-image"
+]
+}
+},
+"merge": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Merge PDF – Combine PDF Files & Images Free, No Upload",
+"desc": "Combine PDFs and JPG/PNG images into one PDF free in your browser. Drag to reorder, bookmarks per file, blank-page separators. No upload, no sign-up.",
+"sections": [
+[
+"Combine PDF files in the order you want",
+"Add two or more PDFs, drag the file cards into the order you need – or use the sort button to order them alphabetically – and press Merge. {brand} copies every page into a new document without re-encoding anything, so text, links, fonts and image quality are preserved exactly. The merge happens inside your browser, which means a 300-page bundle of confidential contracts never touches a server.",
+[
+"**Mix PDFs and images** – JPG, PNG, WebP, HEIC, AVIF, GIF and BMP files are added as pages, so you can append a photographed receipt to an expense report in one go.",
+"**A bookmark for each file** – the merged PDF gets an outline entry named after each source file, so readers can jump straight to ‘Invoice‑March’ or ‘Chapter 3’ in any PDF viewer.",
+"**Blank-page separators** – optionally insert an empty page between files, handy for printing sections.",
+"**Even page padding for duplex printing** – pads each file to an even page count so every document starts on a new sheet when printed double-sided."
+]
+],
+[
+"How to merge PDFs offline",
+"Once this page has loaded you can disconnect from the internet and keep merging – the pdf-lib engine that does the work is already in your browser. That makes {brand} a practical offline PDF merger on a train, in a secure office network or anywhere connectivity is poor, without installing software."
+],
+[
+"Merging on Mac, Windows, iPhone and Android",
+"Because it is a web page, the same tool works in Safari on macOS and iOS, Chrome or Edge on Windows, and Chrome on Android. On a phone, tap the upload area to choose files from Files, Photos or Google Drive; the merged PDF is saved to your downloads. macOS users can also merge in Preview, but {brand} is quicker when the files come from different folders or include images."
+],
+[
+"Can I merge files stored in Google Drive?",
+"Yes – download them first, or on Android and iOS pick them directly from the Drive provider in the file picker. The files are read locally; {brand} never asks for access to your Drive account."
+],
+[
+"Reducing the size of a merged PDF",
+"Merging adds sizes together: three 4 MB scans make a 12 MB PDF. If that is too large for e-mail, run the result through [Compress PDF](/compress-pdf/) or a fixed-size tool like [Compress PDF to 1 MB](/compress-pdf-to-1mb/). Compressing once after merging is faster than compressing every part."
+],
+[
+"Merging Word, Excel or PowerPoint files",
+"Convert them to PDF first with [Word to PDF](/word-to-pdf/), [Excel to PDF](/excel-to-pdf/) or [PowerPoint to PDF](/powerpoint-to-pdf/) – all of which also run locally – and then merge the PDFs here. Need to reorder or remove individual pages after merging? Use [Organize PDF](/organize-pdf/)."
+],
+[
+"Tips for a tidy merged document",
+[
+"Name files before merging – the names become bookmarks, so ‘01 Cover’, ‘02 Report’ is better than ‘scan0043’.",
+"Use the A–Z sort when files are numbered, then fine-tune by dragging.",
+"Rotate sideways pages afterwards with [Rotate PDF](/rotate-pdf/), and add [page numbers](/add-page-numbers/) once the final order is set.",
+"Turn on even page padding before printing double-sided bundles."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Add images (JPG/PNG/HEIC) as pages",
+"Yes",
+"Separate tool",
+"Yes (PDF, Office, JPG, PNG)",
+"See site",
+"See site"
+],
+[
+"Bookmarks per file",
+"Yes",
+"Not offered on page",
+"Not offered on page",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Can I merge PDF and JPG files together?",
+"a": "Yes. Add images alongside PDFs and each image becomes a page in the order shown. HEIC photos from iPhones work too."
+},
+{
+"q": "How can I merge PDF files on a Mac?",
+"a": "Open this page in Safari or Chrome, add the files, drag them into order and click Merge. Nothing to install, and the files stay on your Mac."
+},
+{
+"q": "How do I reduce the size of a merged PDF?",
+"a": "Run the merged file through Compress PDF. The Recommended level usually cuts scanned documents by more than half while keeping text sharp."
+},
+{
+"q": "Can I combine password-protected PDFs?",
+"a": "Encrypted PDFs must be unlocked first with Unlock PDF, using the password you know. Then merge them normally."
+},
+{
+"q": "What is the best way to combine PDF files offline?",
+"a": "Open this page once, then go offline – merging keeps working in the browser with no installation. Your files never leave your device."
+}
+],
+"related": [
+"split-pdf",
+"organize-pdf",
+"compress-pdf",
+"jpg-to-pdf",
+"word-to-pdf"
+]
+}
+},
+"jpg2pdf": {
+"seo": {
+"updated": "2026-10-25",
+"title": "JPG to PDF – Convert Images to PDF Free, No Upload",
+"desc": "Turn JPG, PNG, HEIC and WebP images into one PDF or one PDF each. A4/Letter/fit, orientation, margins, drag to reorder. Free, private, no sign-up.",
+"sections": [
+[
+"Every option you need, none of the uploading",
+"{brand} matches the page-layout options of the best-known converters and adds a few of its own, while keeping your photos on your device. Choose the page size, orientation and margin, drag images into order, rotate any that are sideways, then download a single PDF – or a ZIP with one PDF per image.",
+[
+"**Page size** – Fit (page matches the image), A4, US Letter, US Legal, A0–A6 or a custom size in millimetres.",
+"**Orientation** – Auto picks portrait or landscape per image so wide photos fill the page; or force one for every page.",
+"**Margins** – none, small (20 pt) or big (40 pt).",
+"**Output** – merge all images into one PDF, or create a separate PDF for each image, delivered as a ZIP.",
+"**Formats** – JPG, JPEG, PNG, WebP, HEIC/HEIF (iPhone photos), AVIF, GIF, BMP and TIFF."
+]
+],
+[
+"Will image quality be affected?",
+"No. JPEG and PNG files are embedded into the PDF byte-for-byte – they are not re-compressed – so the PDF looks exactly as sharp as the originals. Only images in formats PDF cannot store directly (such as HEIC or WebP) or images you rotate are converted, using high quality settings. If the resulting PDF is too big for e-mail, shrink it afterwards with [Compress PDF](/compress-pdf/)."
+],
+[
+"Converting JPG to PDF on Mac, Windows and phones",
+"On Windows you could use ‘Microsoft Print to PDF’ and on a Mac you can export from Preview, but both make arranging many photos awkward and offer limited control over margins. This page works the same on every system: on iPhone or Android, tap the drop zone, select photos from your gallery and the PDF is saved to Files or Downloads. HEIC photos straight from an iPhone camera are supported without converting them first."
+],
+[
+"Popular uses",
+[
+"Submitting scanned ID cards, certificates or receipts to a portal that only accepts PDF.",
+"Turning photos of handwritten notes or a whiteboard into a single document – for camera-straightened pages, try [PDF Scanner](/pdf-scanner/).",
+"Building a simple photo book or portfolio with uniform A4 pages and margins.",
+"Combining screenshots into a bug report or tutorial."
+]
+],
+[
+"Is my data secure?",
+"Your images are processed in memory by JavaScript and never uploaded. Photos of passports, bank cards or medical documents are exactly the kind of file that should not be sent to a stranger’s server – with {brand} they never are."
+],
+[
+"Choosing page size and margins",
+"**Fit** gives each page the exact proportions of its image, ideal for screenshots and artwork. **A4** or **US Letter** with a small margin is best for documents that will be printed or submitted to offices, because every page is the same size. Use **Auto** orientation so landscape photos are placed on landscape pages instead of being shrunk onto a tall page."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"HEIC, AVIF, BMP, TIFF input",
+"Yes",
+"JPG-focused",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page size choices",
+"Fit, A0–A6, Letter, Legal, custom",
+"Fit, A4, Letter",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Can I merge multiple JPGs into one PDF?",
+"a": "Yes – that is the default. Add as many images as you like, drag them into order and they become consecutive pages of one PDF."
+},
+{
+"q": "Can I make a separate PDF for each image?",
+"a": "Yes. Set Output to ‘One PDF per image’ and you get a ZIP file containing one PDF for every image."
+},
+{
+"q": "What image formats can I convert to PDF?",
+"a": "JPG, JPEG, PNG, WebP, HEIC/HEIF, AVIF, GIF, BMP and TIFF."
+},
+{
+"q": "Is this JPG to PDF converter free?",
+"a": "Completely free, with no watermark, no limits and no account."
+},
+{
+"q": "How do I convert JPG to PDF on Windows or Mac?",
+"a": "Open this page in your browser, drop in the images, choose page size and margins and click Convert. It works the same on both systems with nothing to install."
+},
+{
+"q": "Can I change the order of the images?",
+"a": "Yes. Drag the image cards into any order before converting, or sort them by name. You can also rotate individual images."
+}
+],
+"related": [
+"pdf-to-jpg",
+"merge-pdf",
+"heic-to-jpg",
+"compress-pdf",
+"pdf-scanner"
+]
+}
+},
+"pdf2jpg": {
+"seo": {
+"updated": "2026-10-25",
+"title": "PDF to JPG – Convert PDF Pages to Images Free, No Upload",
+"desc": "Convert every PDF page to JPG, PNG or WebP at up to 300 DPI, or pick a page range. Free in your browser – no upload, no sign-up, works offline.",
+"sections": [
+[
+"Convert PDF pages to high-quality images",
+"{brand} renders each page of your PDF with PDF.js – the same engine Firefox uses to display PDFs – and saves it as an image. You choose the format and resolution, optionally limit the conversion to certain pages, and download a single image or a ZIP of all pages. The PDF is never uploaded, so even confidential documents can be converted safely.",
+[
+"**Formats** – JPG for small files, PNG for lossless text and diagrams, or WebP for the best size-to-quality ratio on the web.",
+"**Resolution** – 72 DPI (screen), 144 DPI (default, sharp on most displays), 216 DPI or 300 DPI for printing.",
+"**Page range** – convert just ‘1-3,5’ instead of a 200-page document.",
+"**Extract embedded images instead** – to pull out the original photos inside a PDF at full quality rather than rendering whole pages, use [Extract Images from PDF](/extract-images-from-pdf/)."
+]
+],
+[
+"Which DPI should I choose?",
+{
+"table": [
+[
+"Use",
+"Recommended setting",
+"Why"
+],
+[
+"Slides, social media, web",
+"144 DPI",
+"Sharp on screens, small files"
+],
+[
+"Thumbnails, previews",
+"72 DPI",
+"Smallest files"
+],
+[
+"Zoomable detail, OCR",
+"216 DPI",
+"Fine text stays readable"
+],
+[
+"Printing",
+"300 DPI",
+"Print-shop standard"
+]
+]
+},
+"Higher DPI produces larger images and takes longer on phones. A typical A4 page is about 1190 × 1684 pixels at 144 DPI and 2480 × 3508 pixels at 300 DPI."
+],
+[
+"Will image quality be affected?",
+"Pages are rendered from the original vector data, so text and drawings are crisp at whatever resolution you pick – there is no quality loss from the PDF itself. JPG uses high quality compression; if you need pixel-perfect text edges, choose PNG."
+],
+[
+"Converting PDF to JPG on Mac, Windows or mobile",
+"Everything happens in the browser, so the steps are identical everywhere: open the page, choose the PDF, pick format and DPI and press Convert. On iPhone the images can be saved to Photos from the Files app; on Android they land in Downloads. And because the code is already loaded, you can convert PDFs offline once the page is open."
+],
+[
+"Does the original PDF stay unchanged?",
+"Yes. {brand} only reads your file; the original PDF on your device is never modified, and no copy is kept anywhere – closing the tab discards everything. Converting the same file again later gives identical results."
+],
+[
+"JPG, PNG or WebP?",
+{
+"table": [
+[
+"Format",
+"File size",
+"Quality",
+"Best for"
+],
+[
+"JPG",
+"Small",
+"Very good for photos, slight softening of text edges",
+"Sharing, e-mail, social media"
+],
+[
+"PNG",
+"Largest",
+"Lossless, perfect text edges",
+"Diagrams, text-heavy pages, editing"
+],
+[
+"WebP",
+"Smallest",
+"Very good",
+"Websites, blogs"
+]
+]
+},
+"If you are unsure, use JPG at 144 DPI – it is universally supported and looks sharp on screens. For printing or OCR, use PNG or JPG at 300 DPI."
+],
+[
+"Step-by-step: turn a PDF into images",
+"1. Choose or drop your PDF. 2. Pick JPG, PNG or WebP. 3. Choose a resolution – 144 DPI for screens or 300 DPI for print. 4. Optionally enter pages like 2-4. 5. Press Convert and download a single image or a ZIP with every page, named in page order so they sort correctly in any folder.",
+"Big documents are processed page by page with progress shown, so a 100-page PDF at 144 DPI typically finishes in well under a minute on a laptop. Memory is freed after each page, which keeps phones and tablets responsive."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers",
+"Their servers",
+"Adobe cloud",
+"Their servers"
+],
+[
+"Works with Wi‑Fi switched off",
+"Yes, after the page loads",
+"No",
+"No",
+"No",
+"No"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Sign-in for some actions",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"Free tier; Premium for more",
+"3 tasks/hour, 50 MB per file"
+],
+[
+"Output formats",
+"JPG, PNG, WebP",
+"JPG",
+"JPG",
+"See site",
+"See site"
+],
+[
+"Choose resolution (DPI)",
+"72–300 DPI",
+"See site",
+"Not offered on page",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert PDF to JPG for free with no sign-up?",
+"a": "Choose your PDF on this page and click Convert. There is no account, no e-mail and no watermark – ever."
+},
+{
+"q": "Can I extract individual images from a PDF?",
+"a": "Yes – use Extract Images from PDF to save the embedded photos in their original quality, rather than rendering whole pages."
+},
+{
+"q": "Will my image quality be affected?",
+"a": "No. Pages are rendered from vector data at the DPI you choose. For print, choose 300 DPI; for lossless output, choose PNG."
+},
+{
+"q": "Can I convert only some pages?",
+"a": "Yes. Enter a page range such as 1-3,5 in the Pages box. Leave it blank to convert every page."
+},
+{
+"q": "Can I convert PDF to JPG offline?",
+"a": "Yes. After the page loads, switch off your connection – conversion still works, because it runs entirely in your browser."
+},
+{
+"q": "How do I convert a PDF to JPG on iPhone?",
+"a": "Open this page in Safari, tap to choose the PDF from Files, convert, then save the images from the download to Photos."
+},
+{
+"q": "What is the difference between PDF to JPG and Extract Images?",
+"a": "PDF to JPG renders whole pages, including text. Extract Images saves only the pictures embedded inside the PDF, at their original resolution."
+}
+],
+"related": [
+"jpg-to-pdf",
+"pdf-to-png",
+"extract-images-from-pdf",
+"compress-image",
+"split-pdf"
+]
+}
+}
+}
+}
