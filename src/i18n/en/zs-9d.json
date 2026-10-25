@@ -3070,6 +3070,10 @@
 "[SVG to PNG](/svg-to-png/)",
 "[Crop image](/crop-image/)"
 ]
+],
+[
+"Before you trace",
+"Clean scans trace best: crop away the edges, raise contrast, and remove specks first – a tidy bitmap gives smoother curves, fewer nodes and a smaller SVG file."
 ]
 ],
 "compare": [

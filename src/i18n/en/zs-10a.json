@@ -1,0 +1,3191 @@
+{
+"tools": {
+"imgcrop": {
+"seo": {
+"title": "Crop Image Online Free – Exact Ratio, Batch, No Upload",
+"desc": "Crop photos free in your browser: drag a box or pick 1:1, 4:3, 3:2, 16:9, 9:16 or 4:5. Keep full quality, batch crop, JPG/PNG/WebP. No upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Crop images online, free",
+"Cut away the parts of a photo you do not want, straighten the composition, or make a picture fit an exact shape. Drag the crop box, or lock it to a common aspect ratio – square 1:1 for profile pictures, 4:5 for Instagram, 16:9 for YouTube and presentations, 9:16 for stories – and download the result at full quality. No account, no watermark, no upload."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more images on the page.",
+"Choose an aspect ratio, or leave it free.",
+"Drag the crop box and its handles over the part you want to keep.",
+"Download the cropped image (a ZIP for several)."
+]
+}
+],
+[
+"Which aspect ratio should I use?",
+{
+"table": [
+[
+"Ratio",
+"Use"
+],
+[
+"1:1",
+"Profile photos, Instagram square posts, product thumbnails"
+],
+[
+"4:5",
+"Instagram and Threads portrait posts"
+],
+[
+"4:3",
+"Classic camera and tablet photos, slides"
+],
+[
+"3:2",
+"DSLR prints – 6×4 in and 15×10 cm photo paper"
+],
+[
+"16:9",
+"YouTube thumbnails, widescreen slides, desktop wallpapers"
+],
+[
+"9:16",
+"Stories, Reels, TikTok and phone wallpapers"
+]
+]
+},
+"For an exact pixel size after cropping use [Resize Image](/resize-image/); for every social network preset in one place try the [Social Media Image Resizer](/social-media-image-resizer/)."
+],
+[
+"Composition tips",
+{
+"list": [
+"Follow the rule of thirds: put eyes or the horizon on an imaginary line one third in from the edge.",
+"Leave a little space in the direction a person is looking or moving.",
+"Crop out distracting edges – bins, cables, half-visible people – rather than the subject.",
+"Avoid cutting people at the joints (wrists, knees, ankles).",
+"Cropping removes pixels: start from the largest original so the crop stays sharp when printed."
+]
+}
+],
+[
+"Crop vs resize vs trim",
+"Cropping removes part of the picture and changes its shape; resizing keeps the whole picture and changes its pixel dimensions; *trimming* usually means removing plain borders automatically. To make a round profile picture use [Circle Crop Image](/circle-crop-image/); to split one image into pieces use [Image Splitter](/image-splitter/)."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Aspect-ratio presets",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I crop an image online for free?",
+"a": "Drop the image here, drag the crop box or pick a ratio, and download. No sign-up or watermark."
+},
+{
+"q": "Does cropping reduce quality?",
+"a": "No – the remaining pixels are kept exactly; only the cut-away area is removed."
+},
+{
+"q": "Can I crop several images at once?",
+"a": "Yes. Drop several and they are downloaded together as a ZIP."
+},
+{
+"q": "How do I crop a photo to a square?",
+"a": "Choose the 1:1 ratio and move the box over the part you want."
+},
+{
+"q": "How do I crop an image for Instagram?",
+"a": "Use 4:5 for portrait posts or 1:1 for square, then download."
+},
+{
+"q": "Can I crop a PNG and keep transparency?",
+"a": "Yes. PNG and WebP keep transparent areas."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari. HEIC photos are supported."
+},
+{
+"q": "Are my photos uploaded?",
+"a": "No, cropping happens in your browser."
+},
+{
+"q": "How do I crop to an exact pixel size?",
+"a": "Crop to the right ratio, then set the exact width in Resize Image."
+},
+{
+"q": "Can I crop a screenshot?",
+"a": "Yes – drop or paste the screenshot file and crop as usual."
+}
+],
+"related": [
+"resize-image",
+"circle-crop-image",
+"rotate-image",
+"image-splitter",
+"social-media-image-resizer"
+],
+"updated": "2026-10-25"
+}
+},
+"imgrotate": {
+"seo": {
+"title": "Rotate Image Online Free – 90°, 180°, Any Angle, Flip",
+"desc": "Rotate photos 90°, 180° or any custom angle and flip them horizontally or vertically. Batch rotate JPG, PNG, WebP and HEIC free in your browser.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Rotate and flip images online",
+"Fix sideways phone photos, straighten a tilted horizon or mirror a selfie. Rotate by 90° in either direction, 180°, or type any angle such as 2.5° to level a scan, and flip horizontally or vertically. Every image in a batch gets the same rotation and they download together as a ZIP."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop your images.",
+"Pick 90° clockwise, 180°, 90° anticlockwise, or type a custom angle.",
+"Tick Flip horizontal or Flip vertical if you need a mirror image.",
+"Download the rotated images."
+]
+}
+],
+[
+"Why are my photos sideways?",
+"Phones store photos in the sensor's orientation and add an EXIF *orientation* tag telling apps how to display them. Some websites, printers and older programs ignore the tag, so the picture appears sideways. This tool applies the correct orientation and then your rotation to the pixels themselves, so the image looks right everywhere – the orientation tag is no longer needed."
+],
+[
+"Rotate by any angle",
+"A custom angle rotates around the centre and enlarges the canvas so no corner is cut off; the new corners are transparent in PNG/WebP and white in JPG. Small angles (0.5–3°) are ideal for straightening a horizon or a scanned page. To remove the empty corners afterwards, [crop](/crop-image/) the image."
+],
+[
+"Flip vs rotate",
+"Flipping makes a mirror image – text appears reversed – which is useful for selfies taken with the front camera, iron-on transfers and T-shirt printing. Rotating keeps the picture the right way round. A 180° rotation is not the same as a vertical flip: rotation keeps left and right as they are relative to the picture."
+],
+[
+"Rotate PDFs and videos too",
+"For documents use [Rotate PDF](/rotate-pdf/), which turns pages without re-rendering them."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Custom angle + flip",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I rotate a picture 90 degrees?",
+"a": "Drop it here, choose 90° clockwise or anticlockwise and download."
+},
+{
+"q": "Can I rotate by a custom angle?",
+"a": "Yes, type any angle, including decimals, and the canvas grows so nothing is cut off."
+},
+{
+"q": "How do I mirror an image?",
+"a": "Tick Flip horizontal."
+},
+{
+"q": "Does rotating reduce quality?",
+"a": "90° and 180° rotations are pixel-exact; other angles resample once at high quality."
+},
+{
+"q": "Can I rotate many images at once?",
+"a": "Yes – all are rotated the same way and downloaded as a ZIP."
+},
+{
+"q": "Why does my photo still look sideways in one app?",
+"a": "Old apps may be caching the original; the downloaded file has the rotation applied to the pixels."
+},
+{
+"q": "Does it keep transparency?",
+"a": "Yes for PNG and WebP."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no watermark or limits."
+},
+{
+"q": "Are files uploaded?",
+"a": "No, everything runs in your browser."
+},
+{
+"q": "Can I rotate HEIC photos?",
+"a": "Yes, HEIC from iPhones is supported."
+}
+],
+"related": [
+"crop-image",
+"resize-image",
+"rotate-pdf",
+"image-converter",
+"compress-image"
+],
+"updated": "2026-10-25"
+}
+},
+"imgconvert": {
+"seo": {
+"title": "Image Converter Online Free – JPG, PNG, WebP, HEIC, SVG",
+"desc": "Convert images between JPG, PNG, WebP, AVIF, GIF, BMP, ICO and SVG free. Batch, max width, transparency, HEIC input. No upload, no watermark.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Free online image converter",
+"Convert any picture to the format you need: JPG for photos, PNG for graphics, WebP or AVIF for fast websites, ICO for icons, or SVG vector traces for cutting machines and logos. Drop a whole folder – HEIC iPhone photos, PSD previews, TIFF scans, BMP, GIF – choose the output and download a ZIP. No upload, no account."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop your images (any mix of formats).",
+"Choose the output format.",
+"Optionally set a maximum width and, for PNG/WebP, make a white background transparent.",
+"For SVG choose the number of trace colours and detail.",
+"Press Convert and download."
+]
+}
+],
+[
+"Which output format should I choose?",
+{
+"table": [
+[
+"You want…",
+"Choose"
+],
+[
+"Maximum compatibility for photos",
+"JPG"
+],
+[
+"Sharp text, logos, transparency",
+"PNG"
+],
+[
+"Smallest files for a website",
+"WebP or AVIF"
+],
+[
+"Favicon or Windows icon",
+"ICO"
+],
+[
+"Scalable vector for Cricut, laser or print",
+"SVG (traced)"
+],
+[
+"Simple animation",
+"GIF"
+]
+]
+}
+],
+[
+"Convert HEIC to JPG",
+"iPhones save photos as HEIC to save space, but many websites and Windows programs cannot open them. Drop HEIC files here and choose JPG – or use the dedicated [HEIC to JPG](/heic-to-jpg/) page. The conversion happens on your device, so private photos are never uploaded."
+],
+[
+"Raster to SVG tracing",
+"Choosing SVG traces the picture into coloured vector shapes. Use 2 colours for black-and-white logos and Cricut or Silhouette cut files, 8–16 for flat illustrations, and 32–64 for detailed artwork. Photos do not trace well – the result is a posterised look. See [PNG to SVG](/png-to-svg/) for tips."
+],
+[
+"Make a background transparent",
+"Ticking *Make white background transparent* turns pure-white pixels into transparency for PNG and WebP output – handy for logos and signatures scanned on white paper. For photos with complex backgrounds use [Remove Image Background](/remove-background/)."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"SVG tracing",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"HEIC input",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert an image to JPG?",
+"a": "Drop it here, pick JPG and press Convert."
+},
+{
+"q": "Can I convert many images at once?",
+"a": "Yes, mixed formats too; you get a ZIP."
+},
+{
+"q": "Does it convert HEIC?",
+"a": "Yes, HEIC/HEIF photos from iPhones are supported."
+},
+{
+"q": "Which is smaller, WebP or JPG?",
+"a": "WebP is typically 25–35 % smaller at similar quality."
+},
+{
+"q": "Can I convert PNG to SVG?",
+"a": "Yes, choose SVG to trace the image into vector shapes."
+},
+{
+"q": "Will converting to PNG improve quality?",
+"a": "No. PNG is lossless from now on but cannot restore detail lost in a JPG."
+},
+{
+"q": "Can I resize while converting?",
+"a": "Yes, set a maximum width."
+},
+{
+"q": "Does it keep transparency?",
+"a": "PNG, WebP, AVIF, GIF and ICO keep it; JPG fills transparent areas with white."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No."
+},
+{
+"q": "Is there a size limit?",
+"a": "Only your device's memory; images up to around 50 megapixels convert comfortably."
+}
+],
+"related": [
+"compress-image",
+"resize-image",
+"heic-to-jpg",
+"png-to-svg",
+"webp-to-png"
+],
+"updated": "2026-10-25"
+}
+},
+"imgwatermark": {
+"seo": {
+"title": "Watermark Image Online Free – Text or Logo, Batch",
+"desc": "Add a text or logo watermark to photos free: position, size, opacity, angle, shadow or tiled pattern. Batch watermark in your browser, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Watermark photos online, free",
+"Protect your photography, product shots and artwork before you post them. Add your name, website or © notice as text; set position, size, opacity and angle, add a shadow for legibility, or tile the mark across the whole picture so it is hard to crop out. Watermark a whole folder in one go."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the photos you want to protect.",
+"Type your watermark text.",
+"Choose position – a corner, the centre or tiled – plus size, opacity and rotation.",
+"Download the watermarked images as a ZIP."
+]
+}
+],
+[
+"Visible watermark best practice",
+{
+"list": [
+"Use 20–40 % opacity: visible enough to deter copying, subtle enough not to spoil the photo.",
+"Place it over part of the subject, not in an empty corner that is easy to crop away.",
+"Tile the mark for high-value images such as proofs for clients.",
+"Keep the text short – a name or domain such as yourname.com.",
+"Add a soft shadow so the mark stays readable on both light and dark areas.",
+"Keep an un-watermarked original; you cannot remove a watermark later without editing."
+]
+}
+],
+[
+"Size relative to the photo",
+"The watermark size is set as a percentage of the image width, so the mark looks the same on portrait and landscape photos in a batch, whether they are 1,000 or 6,000 pixels wide. Short text such as © yourname.com stays crisp at any size because it is drawn fresh on each image rather than pasted as a bitmap."
+],
+[
+"Watermarks and copyright",
+"A watermark does not create copyright – you own the copyright in your photos automatically in most countries – but it identifies you as the owner and makes casual copying less attractive. Under the US DMCA and similar laws, removing copyright-management information such as a watermark can itself be unlawful. For PDFs use [Add Watermark to PDF](/add-watermark-to-pdf/)."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Tiled watermark, shadow, angle",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I watermark a photo for free?",
+"a": "Drop the photo, type your text, choose position and opacity, and download."
+},
+{
+"q": "Can I watermark many photos at once?",
+"a": "Yes, the same mark is applied to every image in the batch."
+},
+{
+"q": "Can I use a logo?",
+"a": "This tool adds text marks; for a logo, use a design app."
+},
+{
+"q": "What opacity should a watermark have?",
+"a": "Around 20–40 % for photos."
+},
+{
+"q": "Can I tile the watermark?",
+"a": "Yes, choose the tiled position to repeat it across the image."
+},
+{
+"q": "Is the original changed?",
+"a": "No, you download new watermarked copies."
+},
+{
+"q": "Can a watermark be removed?",
+"a": "Determined editors can remove simple marks; tiled marks over the subject are much harder."
+},
+{
+"q": "Does it reduce quality?",
+"a": "No, the photo keeps its resolution."
+},
+{
+"q": "Are photos uploaded?",
+"a": "No, all processing is local."
+},
+{
+"q": "Is there a watermark from Fileopia?",
+"a": "No, only yours."
+}
+],
+"related": [
+"add-text-to-image",
+"add-watermark-to-pdf",
+"remove-background",
+"compress-image",
+"resize-image"
+],
+"updated": "2026-10-25"
+}
+},
+"meme": {
+"seo": {
+"title": "Meme Generator Free – Add Top & Bottom Text to Any Image",
+"desc": "Make memes free: upload any image, add top and bottom text in classic Impact style, adjust size and caps, download JPG or PNG. No watermark, no app.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Free meme generator, no watermark",
+"Turn any picture into a meme in seconds. Upload your own image or screenshot, type the top and bottom text, adjust the size, and download a JPG or PNG with the classic white text and black outline. There is no watermark, no sign-up and no app to install."
+],
+[
+"How to use it",
+{
+"steps": [
+"Upload an image or screenshot.",
+"Type the top and bottom text.",
+"Adjust text size and choose ALL CAPS if you like.",
+"Download as JPG or PNG and share."
+]
+}
+],
+[
+"The classic meme style",
+"Meme text is traditionally set in the Impact typeface, in white capitals with a thick black outline, so it reads on any background – light sky or dark shadow alike. The generator uses a bold condensed font with an outline scaled to the text size and wraps long lines automatically to keep the words inside the picture."
+],
+[
+"Tips for funnier memes",
+{
+"list": [
+"Keep the setup on top and the punchline at the bottom.",
+"Fewer words are better – aim for under ten per line.",
+"Use a clear, expressive face or a recognisable reaction image.",
+"Crop tight with [Crop Image](/crop-image/) so the subject fills the frame.",
+"Square (1:1) or 4:5 images display best in feeds."
+]
+}
+],
+[
+"Copyright and fair use",
+"Memes usually reuse existing images. Commentary, parody and criticism are often protected as fair use or fair dealing, but using someone's photo to advertise a product is not. Use your own photos or licence-free images for commercial posts, and respect people's privacy. For captions in other positions or fonts use [Add Text to Image](/add-text-to-image/)."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a meme?",
+"a": "Upload an image, add top and bottom text and download."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Can I use my own picture?",
+"a": "Yes, any JPG, PNG, WebP or HEIC image."
+},
+{
+"q": "What font do memes use?",
+"a": "Classically Impact in white with a black outline."
+},
+{
+"q": "Can I make the text smaller?",
+"a": "Yes, use the size slider."
+},
+{
+"q": "Can I make a GIF meme?",
+"a": "This tool makes still images; use GIF Maker for animations."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any mobile browser."
+},
+{
+"q": "Are images uploaded?",
+"a": "No, the meme is made on your device."
+},
+{
+"q": "Can I add text in the middle?",
+"a": "Use Add Text to Image for free positioning."
+},
+{
+"q": "Is it free for commercial use?",
+"a": "The tool is; make sure you have rights to the image."
+}
+],
+"related": [
+"add-text-to-image",
+"gif-maker",
+"crop-image",
+"image-joiner",
+"fancy-text-generator"
+],
+"updated": "2026-10-25"
+}
+},
+"blurface": {
+"seo": {
+"title": "Blur Face in Photo Online Free – Pixelate Faces, No Upload",
+"desc": "Blur or pixelate faces automatically, or any area you choose, to protect privacy before sharing. Adjustable strength, batch photos, free, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Blur faces and private details in photos",
+"Hide faces, number plates, house numbers, screens and documents before you post a photo. Press Detect faces to find them on your device; you can also draw boxes over anything else. Choose blur or pixelation and the strength, then download – your photos never leave your computer or phone."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop a photo.",
+"Press Detect faces, and draw boxes over anything else.",
+"Choose blur, pixelate or black box and set the strength.",
+"Download the anonymised photos."
+]
+}
+],
+[
+"Blur or pixelate?",
+"Gaussian blur looks smoother and more natural; pixelation (mosaic) is the classic newsroom look and makes it obvious that something was hidden. For strong anonymisation use a high strength: light blurs on small faces can sometimes be partially reversed or recognised. For text such as passwords, account numbers or addresses, the black-box mode is the safest – use it or [Redact PDF](/redact-pdf/) for documents."
+],
+[
+"When should you blur faces?",
+{
+"list": [
+"Children in school, sports or party photos shared publicly.",
+"Bystanders in street photography or travel pictures.",
+"Customers and staff in business social-media posts.",
+"Screenshots containing names, avatars or messages.",
+"Photos for online marketplaces that show neighbours' houses or number plates."
+]
+},
+"Privacy laws such as the GDPR treat identifiable faces as personal data, and many platforms require consent before posting images of other people."
+],
+[
+"How the detection works",
+"A lightweight face-detection model runs in your browser. It finds front-facing and moderately turned faces in normal lighting; very small, profile or obscured faces may be missed, so always check the preview and add boxes manually where needed. Because detection is local, it works offline and nothing is sent to a cloud service."
+],
+[
+"Metadata",
+"Photos can also reveal location through EXIF GPS data. Check and strip it with the [EXIF Viewer](/exif-viewer/) before sharing."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Automatic on-device face detection",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I blur a face in a photo?",
+"a": "Drop the photo and press Detect faces. Adjust and download."
+},
+{
+"q": "Can I blur other things?",
+"a": "Yes, draw a box over any area such as a number plate."
+},
+{
+"q": "Can blurred faces be un-blurred?",
+"a": "Strong blur or pixelation cannot be reliably reversed; light blur on small faces may be recognisable, so use high strength."
+},
+{
+"q": "Does it work on group photos?",
+"a": "Yes, all detected faces are blurred."
+},
+{
+"q": "Can I cover areas with a solid box?",
+"a": "Yes, choose the black box mode."
+},
+{
+"q": "Is face detection done online?",
+"a": "No, it runs on your device."
+},
+{
+"q": "Does it blur faces in videos?",
+"a": "No, this tool works on photos."
+},
+{
+"q": "What about EXIF location?",
+"a": "Use EXIF Viewer to check and remove GPS data."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari."
+}
+],
+"related": [
+"redact-pdf",
+"exif-viewer",
+"crop-image",
+"photo-filters",
+"compress-image"
+],
+"updated": "2026-10-25"
+}
+},
+"gifmaker": {
+"seo": {
+"title": "GIF Maker Online Free – Create Animated GIFs from Images",
+"desc": "Make animated GIFs from photos or images free: set frame delay, width and looping, choose a background, download. No watermark, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Make an animated GIF online, free",
+"Combine photos, screenshots or drawings into an animated GIF in seconds. Drop the images, put them in order, choose how long each frame shows and how wide the GIF should be, and download. The GIF is encoded on your device – no watermark, no account and no upload."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop two or more images (JPG, PNG, WebP, HEIC…).",
+"Add the images in the order the frames should play.",
+"Set frame delay in milliseconds, width and loop.",
+"Press Create and download the GIF."
+]
+}
+],
+[
+"GIF size and quality",
+{
+"table": [
+[
+"Setting",
+"Effect on file size"
+],
+[
+"Width",
+"The biggest factor – halving width roughly quarters the size"
+],
+[
+"Number of frames",
+"Linear – twice the frames, about twice the size"
+],
+[
+"Delay",
+"No effect on size, only on speed"
+],
+[
+"Colours",
+"GIF is limited to 256 colours per frame; photos with gradients grow larger"
+]
+]
+},
+"For sharing on chat apps, 480 px wide and under 50 frames usually stays under a few megabytes. Shrink an existing GIF with [Compress GIF](/compress-gif/), or turn it into a much smaller video with [GIF to MP4](/gif-to-mp4/)."
+],
+[
+"Frame delay explained",
+"The delay is how long each frame stays on screen, in milliseconds. 100 ms is 10 frames per second – a smooth slideshow; 500 ms is a calm photo slideshow; 1,000 ms shows each picture for a full second. Browsers clamp very short delays (under about 20 ms) to a slower speed, so extremely fast GIFs may play slower than expected."
+],
+[
+"Loop settings",
+"Most GIFs loop forever, which is what social media, Slack and Discord expect. You can also make a GIF that plays once and stops on the last frame – useful for e-mail signatures and banners that should not distract."
+],
+[
+"Ideas for GIFs",
+{
+"list": [
+"Before-and-after comparisons for renovations, edits or fitness progress.",
+"Product photos spinning through colours or angles.",
+"Step-by-step how-to screenshots for documentation.",
+"Stop-motion animations from a burst of phone photos.",
+"Animated banners and reaction GIFs for chat."
+]
+}
+],
+[
+"Making smooth stop-motion",
+"Shoot on a tripod or lean the phone against something solid, keep the lighting constant, and move the subject only a little between shots. 8–12 frames per second (80–125 ms delay) gives classic stop-motion; add a duplicate of the last frame with a longer delay so viewers notice where the loop restarts. Use the same width as the frames will be shown so the GIF does not need to be scaled again by the platform."
+],
+[
+"GIF vs video",
+"GIF is universally supported and loops silently, but files are large and limited to 256 colours. For long or photographic animations a short MP4 is 5–10× smaller and looks better; most platforms convert GIF uploads to video anyway. To turn a video clip into a GIF use [Video to GIF](/video-to-gif/)."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Frame delay, width, loop",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a GIF from pictures?",
+"a": "Drop the images, set delay and width, then press Create."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "How many frames can I use?",
+"a": "There is no fixed limit; keep it under about 100 for small files."
+},
+{
+"q": "What delay should I choose?",
+"a": "100–200 ms for smooth motion, 500–1,000 ms for slideshows."
+},
+{
+"q": "Can I make a GIF loop forever?",
+"a": "Yes, that is the default."
+},
+{
+"q": "Why is my GIF so large?",
+"a": "Reduce width and frames, or use Compress GIF."
+},
+{
+"q": "Can I make a GIF from a video?",
+"a": "Use Video to GIF."
+},
+{
+"q": "What order are frames used in?",
+"a": "The order you add them; re-add to change it."
+},
+{
+"q": "Are images uploaded?",
+"a": "No, the GIF is created in your browser."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+}
+],
+"related": [
+"image-to-gif",
+"video-to-gif",
+"compress-gif",
+"gif-to-mp4",
+"image-joiner"
+],
+"updated": "2026-10-25"
+}
+},
+"img2gif": {
+"seo": {
+"title": "Image to GIF Converter – JPG or PNG to Animated GIF Free",
+"desc": "Convert JPG, PNG or WebP images to GIF free – a single still GIF or an animated slideshow with custom delay, width and loop. No upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Convert images to GIF",
+"Turn a single JPG, PNG or WebP into a GIF file, or combine several images into an animated GIF slideshow. Choose the delay between frames, the width and whether it loops, then download. Everything happens in your browser."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one image for a still GIF, or several for an animation.",
+"Set the delay, width and loop.",
+"Press Create and download the GIF."
+]
+}
+],
+[
+"GIF size and quality",
+{
+"table": [
+[
+"Setting",
+"Effect on file size"
+],
+[
+"Width",
+"The biggest factor – halving width roughly quarters the size"
+],
+[
+"Number of frames",
+"Linear – twice the frames, about twice the size"
+],
+[
+"Delay",
+"No effect on size, only on speed"
+],
+[
+"Colours",
+"GIF is limited to 256 colours per frame; photos with gradients grow larger"
+]
+]
+},
+"For sharing on chat apps, 480 px wide and under 50 frames usually stays under a few megabytes. Shrink an existing GIF with [Compress GIF](/compress-gif/), or turn it into a much smaller video with [GIF to MP4](/gif-to-mp4/)."
+],
+[
+"Frame delay explained",
+"The delay is how long each frame stays on screen, in milliseconds. 100 ms is 10 frames per second – a smooth slideshow; 500 ms is a calm photo slideshow; 1,000 ms shows each picture for a full second. Browsers clamp very short delays (under about 20 ms) to a slower speed, so extremely fast GIFs may play slower than expected."
+],
+[
+"Loop settings",
+"Most GIFs loop forever, which is what social media, Slack and Discord expect. You can also make a GIF that plays once and stops on the last frame – useful for e-mail signatures and banners that should not distract."
+],
+[
+"Still GIF from one image",
+"Some old forums, e-mail templates and embedded systems only accept GIF. Converting a single image produces a one-frame GIF; note that GIF is limited to 256 colours, so photographs may show banding – PNG or JPG are better for photos where the destination allows them."
+],
+[
+"Transparent GIFs",
+"GIF supports one fully transparent colour but not soft, semi-transparent edges. Logos with anti-aliased edges can look jagged on dark backgrounds; place them on the background colour they will appear on before converting, or use PNG or WebP where possible."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Still or animated output",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a JPG to GIF?",
+"a": "Drop it here and press Create; you get a GIF."
+},
+{
+"q": "Can I make an animated GIF from several images?",
+"a": "Yes, drop them all and set the delay."
+},
+{
+"q": "Will quality drop?",
+"a": "GIF has 256 colours, so photos may lose smooth gradients."
+},
+{
+"q": "Does GIF support transparency?",
+"a": "Yes, one fully transparent colour."
+},
+{
+"q": "Can I set the speed?",
+"a": "Yes, with the frame delay."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no watermark."
+},
+{
+"q": "Can I convert PNG to GIF?",
+"a": "Yes."
+},
+{
+"q": "Are images uploaded?",
+"a": "No."
+},
+{
+"q": "How do I make the GIF smaller?",
+"a": "Lower the width or use Compress GIF."
+},
+{
+"q": "Can I convert GIF back to PNG?",
+"a": "Use GIF to PNG."
+}
+],
+"related": [
+"gif-maker",
+"gif-to-png",
+"compress-gif",
+"video-to-gif",
+"image-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"favicon": {
+"seo": {
+"title": "Favicon Generator – ICO, PNG & Apple Touch Icon from Image",
+"desc": "Create a favicon package from any image: favicon.ico, PNG sizes, Apple touch icon, Android icons, web manifest and HTML code. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Generate a complete favicon set",
+"A favicon is the small icon shown in browser tabs, bookmarks, search results and on phone home screens. Upload a logo or image and get every file a modern website needs – a multi-size favicon.ico, PNG icons, an Apple touch icon, Android/PWA icons and a site.webmanifest – plus the HTML to paste into your page head."
+],
+[
+"How to use it",
+{
+"steps": [
+"Upload a square logo or image (at least 512 × 512 px works best).",
+"Adjust padding, transparent or solid background, and rounded corners.",
+"Enter your app name for the manifest.",
+"Download the ZIP and copy the HTML snippet into your site."
+]
+}
+],
+[
+"Which favicon files do you need?",
+{
+"table": [
+[
+"File",
+"Size",
+"Used by"
+],
+[
+"favicon.ico",
+"16, 32, 48 px inside one file",
+"All browsers, Windows, Google search results"
+],
+[
+"favicon-32x32.png / 16x16",
+"32 / 16 px",
+"Modern browser tabs"
+],
+[
+"apple-touch-icon.png",
+"180 × 180 px",
+"iPhone and iPad home screen"
+],
+[
+"android-chrome-192 / 512",
+"192 / 512 px",
+"Android home screen and PWA install"
+],
+[
+"site.webmanifest",
+"—",
+"App name, theme colour and icon list for Android/Chrome"
+]
+]
+},
+"Google shows favicons next to search results; it requires a square icon that is a multiple of 48 px and accessible to its crawler."
+],
+[
+"Design tips for small sizes",
+{
+"list": [
+"Simplify: a single letter, symbol or the most recognisable part of your logo reads better at 16 px than a full wordmark.",
+"Use strong contrast and few colours.",
+"Leave a little padding so the icon does not touch the edges, especially for Apple touch icons where iOS rounds the corners.",
+"Check it on both light and dark browser themes – a transparent background with a dark logo can disappear in dark mode."
+]
+}
+],
+[
+"Installing the favicon",
+"Upload the files to the root of your website and paste the generated link tags inside the head element. Clear your browser cache or open a private window to see the new icon – browsers cache favicons aggressively. On WordPress, Wix, Shopify and Squarespace you can instead upload the 512 px PNG in the site-icon setting."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Full set + manifest + HTML",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I create a favicon?",
+"a": "Upload your logo, adjust padding and background, and download the ZIP with all sizes and HTML."
+},
+{
+"q": "What size should a favicon be?",
+"a": "Provide a multi-size .ico (16–48 px) plus 180 px Apple and 192/512 px Android icons."
+},
+{
+"q": "Can I convert PNG to ICO?",
+"a": "Yes, the ZIP includes favicon.ico; see also PNG to ICO."
+},
+{
+"q": "Why does my old favicon still show?",
+"a": "Browsers cache favicons; clear the cache or use a private window."
+},
+{
+"q": "Does it make an Apple touch icon?",
+"a": "Yes, 180 × 180 px."
+},
+{
+"q": "Does it create a web manifest?",
+"a": "Yes, with your app name."
+},
+{
+"q": "Can the background be transparent?",
+"a": "Yes, or choose a solid colour."
+},
+{
+"q": "Will Google show my favicon?",
+"a": "If it is square, a multiple of 48 px and linked correctly."
+},
+{
+"q": "Is my logo uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"png-to-ico",
+"image-converter",
+"resize-image",
+"circle-crop-image",
+"meta-tag-generator"
+],
+"updated": "2026-10-25"
+}
+},
+"colorpicker": {
+"seo": {
+"title": "Image Color Picker Online – Get HEX & RGB from Image Free",
+"desc": "Pick any colour from an image to get its HEX, RGB and HSL codes, plus the dominant palette to download. One click, copy-ready. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Pick colours from any image",
+"Find the exact colour of a logo, a product, a photo or a screenshot. Upload the image and click anywhere to get its HEX, RGB and HSL values with one-click copy, and see the dominant colour palette of the whole picture. Ideal for designers, developers, crafters and anyone matching paint, clothes or branding."
+],
+[
+"How to use it",
+{
+"steps": [
+"Upload an image or screenshot.",
+"The preview shows the image at full detail.",
+"Click to pick a colour and copy HEX, RGB or HSL.",
+"Use the palette for the image's dominant colours."
+]
+}
+],
+[
+"HEX, RGB and HSL explained",
+{
+"table": [
+[
+"Format",
+"Example",
+"Used in"
+],
+[
+"HEX",
+"#E5322D",
+"CSS, HTML, Figma, Canva, most design tools"
+],
+[
+"RGB",
+"rgb(229, 50, 45)",
+"CSS, Photoshop, programming"
+],
+[
+"HSL",
+"hsl(2, 78%, 54%)",
+"CSS – easy to make lighter or darker variants"
+]
+]
+},
+"All three describe the same sRGB colour. For print, convert to CMYK in your print software – screen colours cannot always be reproduced exactly with ink."
+],
+[
+"Why does the picked colour look different?",
+"JPG compression, shadows and highlights mean a single pixel may not represent the 'true' colour of an object. Pick from an evenly lit, flat area and compare several points. Screenshots are more accurate than photos for picking interface or brand colours. Your screen's calibration also affects how a colour looks, though the code itself is exact."
+],
+[
+"Build a palette",
+"For a full palette with percentages and export to CSS, JSON or design software use the [Color Palette Extractor](/color-palette-extractor/). To check text contrast between two colours for accessibility, aim for a WCAG contrast ratio of at least 4.5:1 for body text."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Click-to-pick + palette download",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I get the colour code from an image?",
+"a": "Upload it and click the pixel; the HEX, RGB and HSL codes appear."
+},
+{
+"q": "Can I pick a colour from a screenshot?",
+"a": "Yes, screenshots give the most accurate interface colours."
+},
+{
+"q": "What is a HEX colour code?",
+"a": "A six-digit hexadecimal value like #FF0000 for red, used in web and design tools."
+},
+{
+"q": "Can I get the main colours of a picture?",
+"a": "Yes, the dominant palette is shown."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, tap to pick."
+},
+{
+"q": "Is the image uploaded?",
+"a": "No."
+},
+{
+"q": "Can I convert HEX to RGB?",
+"a": "Every pick shows both."
+},
+{
+"q": "How accurate is it?",
+"a": "It reads the exact pixel value of the file."
+},
+{
+"q": "Can I pick from a website?",
+"a": "Take a screenshot and upload it."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"color-palette-extractor",
+"image-converter",
+"screenshot-mockup",
+"crop-image",
+"exif-viewer"
+],
+"updated": "2026-10-25"
+}
+},
+"collage": {
+"seo": {
+"title": "Collage Maker Online Free – Photo Grid, No Watermark",
+"desc": "Make photo collages and grids free: choose columns, spacing, background and fit, then download JPG, PNG or WebP. No watermark, no sign-up, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Free photo collage maker",
+"Combine your favourite photos into one picture for Instagram, Facebook, a family album, a mood board or a product sheet. Drop the photos, choose the number of columns, spacing and background colour, decide whether photos are cropped to fill their cells or shown whole, and download a high-resolution JPG, PNG or WebP. No watermark, no account and no upload."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop 2 to 50 photos.",
+"Add them in the order you want them placed.",
+"Set columns, output width, spacing and background.",
+"Pick Fill (crop to cells) or Fit (show whole photos).",
+"Download the collage."
+]
+}
+],
+[
+"Layouts that work",
+{
+"table": [
+[
+"Photos",
+"Columns",
+"Looks like"
+],
+[
+"2",
+"2",
+"Side-by-side before/after"
+],
+[
+"3",
+"3",
+"Triptych / panorama strip"
+],
+[
+"4",
+"2",
+"Classic 2 × 2 grid"
+],
+[
+"6",
+"3",
+"3 × 2 grid for Facebook"
+],
+[
+"9",
+"3",
+"3 × 3 Instagram-style grid"
+],
+[
+"12–20",
+"4",
+"Mood board or contact sheet"
+]
+]
+},
+"For two images joined edge to edge without a grid, the [Image Joiner](/image-joiner/) is quicker."
+],
+[
+"Fill or fit?",
+"*Fill* crops each photo to the same cell shape, giving a tidy, magazine-like grid – faces near the edges may be cut. *Fit* shows every photo whole and adds background around it – better for documents, screenshots and artwork. A white or soft-grey background with 10–20 px spacing looks clean; black works well for night photos and dramatic images."
+],
+[
+"Best output size",
+{
+"list": [
+"Instagram: 1080 px wide (square or 4:5).",
+"Facebook: 2048 px wide for sharp display.",
+"Printing A4/Letter at 300 dpi: about 2480–2550 px wide.",
+"Web pages: 1200–1600 px wide, then [Compress Image](/compress-image/)."
+]
+}
+],
+[
+"Ideas",
+{
+"list": [
+"Year-in-review or holiday highlights.",
+"Wedding and baby milestone boards.",
+"Real-estate listings with several rooms in one image.",
+"Product variants and colour options for online shops.",
+"Recipe step photos and DIY progress.",
+"Mood boards for designers and stylists."
+]
+}
+],
+[
+"Collage vs grid split",
+"A collage combines many photos into one image. The opposite – splitting one photo into several posts that form a profile grid – is done by the [Instagram Grid Maker](/instagram-grid-maker/)."
+],
+[
+"Printing your collage",
+"For a printed poster or photo book page, set the width from the print size: inches × 300 for sharp prints (an 8 × 10 in print needs 2400 px across), or centimetres × 118. Choose PNG or high-quality JPG, leave at least 20 px spacing so the cut lines between photos stay even, and keep important faces away from the outer edge in case the printer trims a few millimetres. Most photo labs accept JPG files up to 25–50 MB."
+],
+[
+"A 3 × 3 Instagram collage step by step",
+{
+"steps": [
+"Pick nine photos with a common theme – a trip, a season, a product line.",
+"Drop them in the order you want them read, left to right and top to bottom.",
+"Set 3 columns, 1080 px width, 8–12 px spacing and a white background.",
+"Choose Fill so every cell is a neat square.",
+"Download as JPG and post it as a single square or 4:5 image."
+]
+}
+],
+[
+"Colour and layout harmony",
+"A collage looks deliberate when the photos share something: a dominant colour, similar brightness, or the same subject at different moments. Alternate close-ups with wide shots so the eye has places to rest, and avoid placing two very busy pictures next to each other. If one photo is much darker, brighten it with [Photo Filters](/photo-filters/) before combining. Even spacing and a neutral background make mixed photos feel like a set."
+],
+[
+"Collages for business",
+"Online shops use collages to show every colour of a product in one image; estate agents combine rooms into one listing picture; event organisers share highlights the next morning; teachers make visual timetables and classroom displays. Because the tool runs offline in the browser, staff can use it on locked-down work computers without installing software or uploading customer photos to a third-party service."
+],
+[
+"Choosing the right photos",
+"Start with more pictures than you need and cut ruthlessly: a collage of six strong images beats one of twenty average ones. Mix orientations carefully – in Fill mode portrait photos lose their top and bottom, and landscape photos lose their sides, so check that heads and key details stay inside each cell. Group photos look best in larger cells, so for a feature image use fewer columns. When telling a story, such as a trip or a renovation, order the photos in time so viewers read them naturally from the first cell to the last. If two photos are nearly identical, keep only the sharper one; repetition weakens a grid more than an empty cell would, and fewer, larger photos are easier to read on a small phone screen."
+],
+[
+"Spacing and background explained",
+"Spacing is the gap in pixels between photos and around the outer edge. 0 px gives a seamless mosaic where photos touch; 5–10 px looks modern and tidy on phones; 20–40 px gives a gallery or scrapbook feel and leaves room for printing. The background colour fills the gaps and – in Fit mode – the space around photos that do not match the cell shape. Pick a colour taken from the photos themselves with the [Image Color Picker](/image-color-picker/) for a coordinated, designed look."
+],
+[
+"Quality tips",
+"Use photos with similar lighting and colour for a calm result, or apply the same look with [Photo Filters](/photo-filters/) first. Put the strongest image in the top-left or centre cell, where eyes land first. HEIC photos from iPhones are converted automatically."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Columns, spacing, fill/fit",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a photo collage for free?",
+"a": "Drop your photos, choose columns and spacing, and download – no watermark."
+},
+{
+"q": "How many photos can I add?",
+"a": "Up to about 50; more cells make each photo smaller."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Can I change the background colour?",
+"a": "Yes, any colour."
+},
+{
+"q": "Can I make a collage for Instagram?",
+"a": "Yes, set 1080 px width and 2 or 3 columns."
+},
+{
+"q": "Can photos be shown uncropped?",
+"a": "Choose Fit mode."
+},
+{
+"q": "In what order are photos placed?",
+"a": "Left to right, top to bottom, in the order you add them."
+},
+{
+"q": "What format is the collage?",
+"a": "JPG, PNG or WebP."
+},
+{
+"q": "Are my photos uploaded?",
+"a": "No, the collage is built in your browser."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, HEIC photos included."
+}
+],
+"related": [
+"image-joiner",
+"instagram-grid-maker",
+"photo-filters",
+"resize-image",
+"compress-image"
+],
+"updated": "2026-10-25"
+}
+},
+"enlarge": {
+"seo": {
+"title": "Image Enlarger – Upscale Photos 2×, 4×, 8× Free, No Upload",
+"desc": "Enlarge images 1.5× to 8× free with smart upscaling, denoise and sharpening. Fix small or blurry photos for print and web. Runs in your browser.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Enlarge images without making them blurry",
+"Make small images bigger for printing, presentations, product pages or wallpapers. Choose 1.5×, 2×, 3×, 4× or 8×; the enlarger uses edge-aware resampling with optional JPEG clean-up and sharpening so edges stay crisp instead of turning soft and blocky. Everything happens on your device."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the image.",
+"Pick the enlargement factor.",
+"Turn on denoise for JPEG artefacts and sharpen for crisper edges.",
+"Download the enlarged image and compare."
+]
+}
+],
+[
+"How big can I go?",
+{
+"table": [
+[
+"Original",
+"2×",
+"4×",
+"Good for"
+],
+[
+"640 × 480",
+"1280 × 960",
+"2560 × 1920",
+"Web, A6 print at 300 dpi after 4×"
+],
+[
+"1024 × 768",
+"2048 × 1536",
+"4096 × 3072",
+"A4 print after 4×"
+],
+[
+"1920 × 1080",
+"3840 × 2160",
+"7680 × 4320",
+"4K and 8K wallpapers"
+]
+]
+},
+"Print size in inches = pixels ÷ 300 for high quality, or ÷ 150 for posters viewed from a distance."
+],
+[
+"What enlarging can and cannot do",
+"Upscaling estimates new pixels between the existing ones. It makes edges smoother and removes the blocky look of simple stretching, but it cannot invent real detail that the camera never captured – a face in a tiny thumbnail will not become a sharp portrait. For AI-based detail reconstruction try [Upscale Image](/upscale-image/), which uses a neural network in your browser."
+],
+[
+"Tips",
+{
+"list": [
+"Start from the original file, not a screenshot or a re-compressed copy from a chat app.",
+"Use denoise for JPEGs with visible blocks or halos.",
+"Do not over-sharpen: white halos around edges are a sign to turn it down.",
+"Enlarge in one step (for example 4×) rather than 2× twice.",
+"Save as PNG if you will edit further, JPG for sharing."
+]
+}
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Denoise + sharpen",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I enlarge an image without losing quality?",
+"a": "Use 2× or 4× with denoise and sharpen; some softness is unavoidable at large factors."
+},
+{
+"q": "What is the maximum enlargement?",
+"a": "8×; very large results are limited by your device's memory."
+},
+{
+"q": "Is this AI upscaling?",
+"a": "It is edge-aware resampling; for AI reconstruction use Upscale Image."
+},
+{
+"q": "Can I enlarge a photo for printing?",
+"a": "Yes, aim for 300 pixels per inch of print."
+},
+{
+"q": "Does it work on logos?",
+"a": "For logos consider tracing to SVG with PNG to SVG."
+},
+{
+"q": "Is it free?",
+"a": "Yes, without watermark."
+},
+{
+"q": "Are images uploaded?",
+"a": "No."
+},
+{
+"q": "Can I batch enlarge?",
+"a": "Yes."
+},
+{
+"q": "Does it fix blurry photos?",
+"a": "Sharpening helps slightly; it cannot fix motion blur."
+},
+{
+"q": "Which format is saved?",
+"a": "The same format, or choose PNG/JPG."
+}
+],
+"related": [
+"upscale-image",
+"resize-image",
+"png-to-svg",
+"compress-image",
+"photo-filters"
+],
+"updated": "2026-10-25"
+}
+},
+"psd2jpg": {
+"seo": {
+"title": "PSD to JPG Converter – Open Photoshop Files Free Online",
+"desc": "Convert Photoshop PSD files to JPG, PNG or WebP free in your browser – no Photoshop needed. Batch convert, keep transparency in PNG, no upload.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Convert PSD to JPG without Photoshop",
+"Open and convert Adobe Photoshop .psd files on any computer or phone – no Photoshop, GIMP or subscription required. Drop the PSDs and get the flattened image as JPG, PNG (with transparency) or WebP. Ideal for clients and colleagues who receive design files but only need to view or share them."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more .psd files.",
+"Choose JPG, PNG or WebP and an optional max width.",
+"Press Convert and download."
+]
+}
+],
+[
+"How PSD conversion works",
+"A PSD file contains every layer, mask and effect plus – when *Maximise compatibility* was on when it was saved, which is Photoshop's default – a flattened composite image. The converter reads that composite so the result looks exactly as it did in Photoshop, including effects and adjustment layers. Files saved without the composite are rebuilt from the raster layers, which may not reproduce every effect."
+],
+[
+"Limitations",
+{
+"list": [
+"Individual layers are not exported separately – you get the flattened picture.",
+"CMYK and 16-bit PSDs are converted to 8-bit sRGB for screen use; check colours before printing.",
+"Large Document Format (.psb) files are not supported.",
+"Very large PSDs (hundreds of megabytes) need a device with plenty of memory."
+]
+}
+],
+[
+"JPG or PNG?",
+"Choose JPG for photos and mock-ups you will e-mail or post. Choose PNG when the design has transparent areas – logos, stickers, icons – or sharp text. WebP gives small files for websites. To edit further without Photoshop, free editors such as Photopea, GIMP and Krita open PSD files."
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No Photoshop needed",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I open a PSD file without Photoshop?",
+"a": "Drop it here and convert it to JPG or PNG to view and share."
+},
+{
+"q": "Does it keep layers?",
+"a": "No, it produces the flattened image."
+},
+{
+"q": "Is transparency kept?",
+"a": "Yes, if you choose PNG or WebP."
+},
+{
+"q": "Can I convert several PSDs at once?",
+"a": "Yes, you get a ZIP."
+},
+{
+"q": "Does it support PSB?",
+"a": "No, only PSD."
+},
+{
+"q": "Why do colours look different?",
+"a": "CMYK files are converted to RGB; print colours may differ."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No – useful for confidential designs."
+},
+{
+"q": "Does it work on Mac and iPhone?",
+"a": "Yes, in any modern browser."
+},
+{
+"q": "Can I convert PSD to PDF?",
+"a": "Convert to JPG here, then use JPG to PDF."
+}
+],
+"related": [
+"image-converter",
+"jpg-to-pdf",
+"compress-image",
+"resize-image",
+"raw-to-jpg"
+],
+"updated": "2026-10-25"
+}
+},
+"raw2jpg": {
+"seo": {
+"title": "RAW to JPG Converter – CR2, NEF, ARW, DNG to JPG Free",
+"desc": "Convert camera RAW photos (CR2, CR3, NEF, ARW, DNG, ORF, RAF, RW2) to JPG, PNG or WebP free in your browser. Batch, no upload, no software.",
+"compareTitle": "{tool}: {brand} vs Canva, Adobe Express and iLoveIMG",
+"compareCols": [
+"Canva",
+"Adobe Express",
+"iLoveIMG"
+],
+"sections": [
+[
+"Convert RAW photos to JPG online",
+"Camera RAW files hold the unprocessed sensor data from DSLRs, mirrorless cameras and some phones. They are great for editing but too big to share and cannot be opened by many apps. Drop your RAW files and get JPG, PNG or WebP versions you can e-mail, post or print – no Lightroom or camera software needed."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop RAW files from your camera or card.",
+"Choose JPG (or PNG/WebP) and an optional max width.",
+"Press Convert and download the photos."
+]
+}
+],
+[
+"Supported RAW formats",
+{
+"table": [
+[
+"Brand",
+"Extensions"
+],
+[
+"Canon",
+"CR2, CR3, CRW"
+],
+[
+"Nikon",
+"NEF, NRW"
+],
+[
+"Sony",
+"ARW, SRF, SR2"
+],
+[
+"Fujifilm",
+"RAF"
+],
+[
+"Olympus / OM System",
+"ORF"
+],
+[
+"Panasonic / Leica",
+"RW2, RWL"
+],
+[
+"Pentax",
+"PEF"
+],
+[
+"Adobe / phones",
+"DNG"
+]
+]
+}
+],
+[
+"Embedded preview vs full development",
+"Most RAW files contain a full-size JPEG preview rendered by the camera with its own colour settings. The converter uses that preview when it is large enough – it matches what you saw on the camera screen and converts in a fraction of a second. If a file has only a small thumbnail, the result may be smaller than the sensor resolution; for full control over exposure, white balance and noise, use a RAW developer such as darktable, RawTherapee or Lightroom."
+],
+[
+"RAW vs JPG",
+{
+"list": [
+"RAW: 12–14 bits per channel, adjustable white balance and exposure, 20–60 MB per photo.",
+"JPG: 8 bits, settings baked in, 3–10 MB, opens everywhere.",
+"Keep your RAW originals as the digital negative and share JPG copies."
+]
+}
+],
+[
+"Photo formats at a glance",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Transparency",
+"Best for"
+],
+[
+"JPG",
+"Lossy",
+"No",
+"Photos, e-mail, social media"
+],
+[
+"PNG",
+"Lossless",
+"Yes",
+"Screenshots, logos, graphics with text"
+],
+[
+"WebP",
+"Lossy or lossless",
+"Yes",
+"Websites – smaller than JPG and PNG"
+],
+[
+"AVIF",
+"Lossy or lossless",
+"Yes",
+"Smallest files, newer browsers"
+],
+[
+"GIF",
+"Lossless, 256 colours",
+"1-bit",
+"Simple animations"
+]
+]
+},
+"The tool reads JPG, PNG, WebP, GIF, BMP, AVIF and – via built-in decoders – HEIC photos from iPhones, so you rarely need to convert first."
+],
+[
+"Works on any device",
+"It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iPhone/iPad. On a phone, tap the drop area to pick from your gallery; results are saved to Downloads or the Files app. Batches are processed one after another and downloaded together as a ZIP, so a whole holiday album takes only a few taps."
+],
+[
+"Quality and file size",
+"Edits are made at the full resolution of the original. JPG and WebP results are encoded at high quality (about 90 %), which is visually identical to the original for most photos while keeping files compact; choose PNG when you need lossless output or transparency. To shrink files further afterwards use [Compress Image](/compress-image/), and to change dimensions use [Resize Image](/resize-image/)."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**The file will not open** – check it is a real image and not a shortcut or a cloud placeholder; download it fully from iCloud, Google Photos or OneDrive first.",
+"**The result looks blurry** – start from the original, not a thumbnail sent through WhatsApp or Messenger, which recompress photos heavily.",
+"**Colours look slightly different** – wide-gamut (Display P3) photos are shown in sRGB, the standard for the web; this is normal and consistent across devices.",
+"**The download does not appear on iPhone** – look in Files → Downloads, or long-press the preview and choose Save to Photos.",
+"**A big batch is slow** – very large photos use a lot of memory; close other tabs or process 20–30 images at a time."
+]
+}
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your images are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch / multiple images",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Canon/Nikon/Sony/Fuji RAW",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a RAW file to JPG?",
+"a": "Drop the RAW file, keep JPG and press Convert."
+},
+{
+"q": "Which cameras are supported?",
+"a": "Canon, Nikon, Sony, Fujifilm, Olympus, Panasonic, Pentax and DNG files."
+},
+{
+"q": "Is the JPG full resolution?",
+"a": "Usually – it uses the camera's embedded full-size preview where present."
+},
+{
+"q": "Can I adjust white balance?",
+"a": "Not here; use a RAW developer for that."
+},
+{
+"q": "Can I batch convert a memory card?",
+"a": "Yes, drop many files."
+},
+{
+"q": "Does it support iPhone ProRAW?",
+"a": "ProRAW DNG files are supported."
+},
+{
+"q": "Are photos uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Why is the JPG smaller than expected?",
+"a": "The file may contain only a reduced preview."
+},
+{
+"q": "Can I convert to PNG?",
+"a": "Yes."
+}
+],
+"related": [
+"image-converter",
+"compress-image",
+"resize-image",
+"exif-viewer",
+"psd-to-jpg"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}
