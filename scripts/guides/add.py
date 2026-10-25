@@ -1,7 +1,8 @@
 # usage: python3 add.py batchfile.txt  -> merges into src/i18n/en/9-guides.json
 # batch format: blocks separated by blank line; lines: id / title / desc / intro / uses (|) / tips (|) / faq (Q?=A ||)
 import json,sys
-p='/workspace/freepdf-site/src/i18n/en/9-guides.json';d=json.load(open(p))
+import os
+p=sys.argv[2] if len(sys.argv)>2 else '/workspace/freepdf-site/src/i18n/en/9-guides.json';d=json.load(open(p)) if os.path.exists(p) else {'ui':{},'tools':{}}
 for b in open(sys.argv[1]).read().strip().split('\n\n'):
     L=[l.strip() for l in b.strip().split('\n')];i=L[0];o=d['tools'].setdefault(i,{})
     if L[1]!='-':o['title']=L[1]

@@ -48,7 +48,7 @@ const FOLLOW={pdf:['compress','merge','split','protect','pagenumbers','pdf2word'
 const nextOf=x=>{const out=x.accept&&/pdf/.test(x.accept)||['jpg2pdf','word2pdf','txt2pdf','invoice','camera2pdf'].includes(x.id)?FOLLOW.pdf:x.cat==='image'?FOLLOW.image:[];return [...out.map(id=>tools.find(y=>y.id===id)).filter(Boolean),...tools.filter(y=>y.cat===x.cat)].filter((y,i,a)=>y.id!==x.id&&a.indexOf(y)===i).slice(0,6);};
 const FOOT=['merge','compress','split','pdf2word','word2pdf','jpg2pdf','pdf2jpg','edit','sign','protect','unlock','rotate','organize','ocrpdf','imgcompress','imgresize','qr','bgremove'];
 const TOP=['merge','compress','split','pdf2word','jpg2pdf','edit','ocr','qr'];
-const pages=[];let TEN;
+const pages=[];let TEN;const RAW={};
 for(const L of enabled){
   const t=merge(EN,load(L.code));for(const x of tools)t.tools[x.id]=toolText(t,x);if(L.code==="en")TEN=t;const lang=L.code;const V={brand:site.brand};
   // Home
@@ -63,12 +63,12 @@ for(const L of enabled){
   // Tools
   for(const x of tools){
     const tt=t.tools[x.id];const v={...V,tool:tt.name};
-    const G=lang==='en'&&tt.guide?tt.guide:null;const faq=[...tt.faq,...(G?G.faq:[]),...t.commonFaq].map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
+    const LG=RAW[lang]||(RAW[lang]=load(lang));const G=tt.guide&&(lang==='en'||(LG.tools&&LG.tools[x.id]&&LG.tools[x.id].guide))?tt.guide:null;const faq=[...tt.faq,...(G?G.faq:[]),...t.commonFaq].map(f=>({q:fill(f.q,v),a:fill(f.a,v)}));
     const steps=tt.steps.map(s=>fill(s,v));
     const rel=[...tools.filter(y=>y.id!==x.id&&y.cat===x.cat),...tools.filter(y=>y.cat!==x.cat)].slice(0,14).map(y=>`<a class="chip" href="${url(lang,y.slug)}">${esc(t.tools[y.id].name)}</a>`).join('');
     const crumbs=`<nav class="crumbs" aria-label="Breadcrumb"><a href="${prefix(lang)}">${esc(t.ui.crumbHome||'Home')}</a> › <a href="${prefix(lang)}#all">${esc(t.ui['cat_'+x.cat]||x.cat)}</a> › <span aria-current="page">${esc(tt.name)}</span></nav>`;
     const guide=G?`<section class="guide"><p>${esc(fill(G.intro,v))}</p><h2>${esc(t.ui.usesTitle)}</h2><ul>${G.uses.map(u=>`<li>${esc(fill(u,v))}</li>`).join('')}</ul><h2>${esc(t.ui.tipsTitle)}</h2><ul>${G.tips.map(u=>`<li>${esc(fill(u,v))}</li>`).join('')}</ul></section>`:'';
-    const cmp=G?`<section class="cmp"><h2>${esc(fill(t.ui.whyTitle,v))}</h2><table><thead><tr><th></th><th scope="col">${esc(site.brand)}</th><th scope="col">${esc(t.ui.cmpThem)}</th></tr></thead><tbody>${(x.nofile?[6,2,3,5]:[1,2,3,4,5]).map(i=>`<tr><th scope="row">${esc(t.ui['cmpRow'+i])}</th><td>${esc(t.ui['cmpRow'+i+'us'])}</td><td>${esc(t.ui['cmpRow'+i+'them'])}</td></tr>`).join('')}</tbody></table></section>`:'';
+    const cmp=(lang==='en'||LG.ui.cmpRow1)?`<section class="cmp"><h2>${esc(fill(t.ui.whyTitle,v))}</h2><table><thead><tr><th></th><th scope="col">${esc(site.brand)}</th><th scope="col">${esc(t.ui.cmpThem)}</th></tr></thead><tbody>${(x.nofile?[6,2,3,5]:[1,2,3,4,5]).map(i=>`<tr><th scope="row">${esc(t.ui['cmpRow'+i])}</th><td>${esc(t.ui['cmpRow'+i+'us'])}</td><td>${esc(t.ui['cmpRow'+i+'them'])}</td></tr>`).join('')}</tbody></table></section>`:'';
     const body=`${crumbs}<section class="hero small"><h1>${esc(tt.h1)}${x.beta?` <small class="beta">${esc(t.ui.beta)}</small>`:''}</h1><p class="lead">${esc(fill(tt.desc,v))}</p></section>
 <section class="tool" id="tool" data-tool="${x.impl||x.id}" data-step="1" data-next="${esc(JSON.stringify(nextOf(x).map(y=>({n:t.tools[y.id].name,u:url(lang,y.slug)}))))}" data-preset="${x.preset||''}" data-vars="${esc(JSON.stringify(x.vars||{}))}" data-accept="${x.accept||''}" data-multiple="${!!x.multiple}" data-nofile="${!!x.nofile}" data-maxmb="${x.maxmb||''}">
 <ol class="stepper"><li class="s1">${esc(t.ui.stepUpload)}</li><li class="s2">${esc(t.ui.stepOptions)}</li><li class="s3">${esc(t.ui.stepDownload)}</li></ol>
