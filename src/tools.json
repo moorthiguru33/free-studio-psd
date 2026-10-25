@@ -99,7 +99,7 @@
   "id": "pdf2word",
   "slug": "pdf-to-word",
   "accept": ".pdf",
-  "multiple": false,
+  "multiple": true,
   "icon": "W",
   "cat": "convert",
   "beta": true

@@ -14,6 +14,7 @@
 "**Free OCR for scanned PDFs** – iLovePDF marks OCR as a Premium option; here it is included and runs on your device.",
 "**Two layout modes** – *Flowing text* rebuilds normal paragraphs, columns and tables you can edit freely; *Exact layout* reproduces each page precisely using positioned text boxes.",
 "**12 OCR languages** including English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Simplified Chinese and Japanese.",
+"**Page ranges and batches** – convert only pages like 2-5, or drop several PDFs at once and get a ZIP of Word files.",
 "**Other formats** – need RTF or ODT for LibreOffice, WordPad or older software? Use [PDF to RTF](/pdf-to-rtf/) or [PDF to ODT](/pdf-to-odt/)."
 ]
 ],
@@ -33,7 +34,7 @@
 [
 "Use the original digital PDF when you can – exported PDFs convert far more accurately than scans or photos.",
 "If a PDF is password-protected, remove the password first with [Unlock PDF](/unlock-pdf/) (you need to know it).",
-"Only need some pages? Split them out with [Split PDF](/split-pdf/) and convert the smaller file.",
+"Only need some pages? Type a range such as 3-7 in the Pages box instead of converting the whole document.",
 "After editing, turn the document back into a PDF with [Word to PDF](/word-to-pdf/)."
 ]
 ],
@@ -128,6 +129,14 @@
 "DOCX",
 "See site",
 "See site"
+],
+[
+"Page range and batch conversion",
+"Both, free",
+"See site",
+"See site",
+"See site",
+"See site"
 ]
 ],
 "faq": [
@@ -181,6 +190,7 @@
 [
 "**Recommended** – re-encodes oversized photos as efficient JPEGs at a sensible resolution, removes unused objects and rewrites the file compactly. Text and vector graphics are untouched, so they stay perfectly sharp and searchable.",
 "**Extreme** – renders every page as an image at reduced resolution. This gives the smallest possible file, ideal for e-mail limits and upload portals, but text is no longer selectable.",
+"**Custom settings** – open *Custom settings* to set image resolution (72–300 DPI), JPEG quality (30–90%) and convert images and scanned pages to grayscale.",
 "**Less** – a lossless rebuild. Nothing visual changes; you gain space only from cleaning up the file structure. Useful for documents where every pixel matters."
 ],
 "If a result would be bigger than your original – which happens with files that are already optimised – {brand} keeps the original and tells you, so you never download a worse file."
@@ -207,7 +217,7 @@
 "Tips for the smallest PDF",
 [
 "Remove pages you don’t need first with [Delete PDF Pages](/delete-pdf-pages/).",
-"Convert colour scans that are really black-and-white text with [Grayscale PDF](/grayscale-pdf/) before compressing.",
+"Colour scans of black-and-white text? Tick *Convert to grayscale* in Custom settings – it often saves another 20–40%.",
 "Combine several documents with [Merge PDF](/merge-pdf/) and compress once, rather than compressing each part."
 ]
 ],
@@ -286,6 +296,14 @@
 "Free tier; Premium for more",
 "Free tier; Premium for more",
 "3 tasks/hour, 50 MB per file"
+],
+[
+"Grayscale and custom DPI/quality",
+"Yes",
+"See site",
+"See site",
+"See site",
+"See site"
 ],
 [
 "Compression levels",
@@ -607,7 +625,7 @@
 "**Formats** – JPG for small files, PNG for lossless text and diagrams, or WebP for the best size-to-quality ratio on the web.",
 "**Resolution** – 72 DPI (screen), 144 DPI (default, sharp on most displays), 216 DPI or 300 DPI for printing.",
 "**Page range** – convert just ‘1-3,5’ instead of a 200-page document.",
-"**Extract embedded images instead** – to pull out the original photos inside a PDF at full quality rather than rendering whole pages, use [Extract Images from PDF](/extract-images-from-pdf/)."
+"**Extract images mode** – switch Mode to *Extract images* to save the original photos embedded in the PDF at full quality instead of rendering whole pages (choose *Original* to keep JPEGs byte-for-byte)."
 ]
 ],
 [
@@ -735,6 +753,14 @@
 "See site"
 ],
 [
+"Page to image and Extract images modes",
+"Both",
+"Both",
+"See site",
+"See site",
+"See site"
+],
+[
 "Choose resolution (DPI)",
 "72–300 DPI",
 "See site",
@@ -750,7 +776,7 @@
 },
 {
 "q": "Can I extract individual images from a PDF?",
-"a": "Yes – use Extract Images from PDF to save the embedded photos in their original quality, rather than rendering whole pages."
+"a": "Yes – set Mode to Extract images and the photos embedded in the PDF are saved in their original quality, rather than rendering whole pages."
 },
 {
 "q": "Will my image quality be affected?",
