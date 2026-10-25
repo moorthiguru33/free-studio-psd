@@ -437,6 +437,75 @@
 }
 ]
 }
+},
+"otf2ttf": {
+"name": "OTF to TTF Converter",
+"short": "Convert OpenType CFF fonts to TrueType in your browser.",
+"title": "OTF to TTF Converter – Free Font Converter | {brand}",
+"desc": "Convert OTF (CFF) fonts to TTF with real TrueType outlines, in your browser. Keeps kerning, glyph names and OpenType features. Batch, no upload.",
+"h1": "Convert OTF to TTF",
+"steps": [
+"Select one or more OTF (or WOFF/WOFF2) font files.",
+"Keep TTF selected.",
+"Click Start and download the TrueType fonts plus an @font-face snippet."
+],
+"faq": [
+{
+"q": "Does it really convert the outlines?",
+"a": "Yes. CFF cubic curves are converted to TrueType quadratic curves within about 1/1000 of an em – visually identical."
+},
+{
+"q": "Is anything lost?",
+"a": "PostScript hints are dropped, so the TTF is unhinted; kerning, OpenType features, names and metrics are kept."
+},
+{
+"q": "Are my fonts uploaded?",
+"a": "No. Conversion runs on your device."
+},
+{
+"q": "Can I convert variable OTF fonts?",
+"a": "Variable CFF2 fonts are not supported."
+},
+{
+"q": "Is converting a font legal?",
+"a": "Check your font licence; open-source fonts (OFL, Apache) can be converted freely."
+}
+],
+"guide": {
+"intro": "OpenType fonts come in two flavours: CFF (.otf, PostScript cubic curves) and TrueType (.ttf, quadratic curves). Some apps, game engines, embroidery and cutting software, older Windows tools and PDF workflows accept only TrueType. {brand} redraws every glyph as TrueType curves in your browser, keeps all other font tables, and writes the @font-face CSS for you.",
+"uses": [
+"Use a CFF font in software that accepts only TrueType (some game engines, embroidery, vinyl-cutting and CAD tools).",
+"Prepare fonts for apps and older Windows programs that render OTF poorly.",
+"Get a .ttf for tools that convert fonts to bitmap or SDF atlases.",
+"Convert a whole family in one batch."
+],
+"tips": [
+"Keep the original OTF – it contains PostScript hints that TrueType output does not.",
+"Test the TTF at small sizes on Windows; unhinted fonts can look softer below 12 px.",
+"For websites you do not need TTF – serve WOFF2 instead.",
+"Variable (CFF2) fonts are not supported; use a static instance."
+],
+"more": [
+[
+"How the conversion works",
+"Every glyph's CFF outline is read with the open-source opentype.js library. Each cubic Bézier curve is approximated by one or more quadratic curves until the error is below about 1/1000 of an em, contours are reversed to TrueType's clockwise direction, and new glyf, loca and maxp tables are written. cmap, metrics, kerning, GSUB/GPOS features, names and glyph names are copied unchanged."
+],
+[
+"Compared with online converters",
+"Sites like CloudConvert, Convertio and FontSquirrel upload your font to a server. Here the font never leaves your device, conversion takes seconds and is unlimited."
+]
+],
+"faq": [
+{
+"q": "Can I convert TTF to OTF?",
+"a": "Not to CFF outlines; TTF files are kept as TrueType."
+},
+{
+"q": "What about large CJK fonts?",
+"a": "They work, but a 20 MB font can take 10–30 seconds and needs plenty of memory."
+}
+]
+}
 }
 }
 }

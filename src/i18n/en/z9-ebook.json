@@ -431,6 +431,61 @@
 }
 ]
 }
+},
+"epubread": {
+"name": "EPUB Reader",
+"short": "Read EPUB, MOBI and FB2 e-books in your browser.",
+"title": "EPUB Reader Online – Read E-books Free, No Upload | {brand}",
+"desc": "Read EPUB books online in your browser: contents, chapters, text size, night mode and search. Also opens DRM-free MOBI, AZW3 and FB2. No upload.",
+"h1": "Read EPUB books online",
+"steps": [
+"Open an EPUB (or DRM-free MOBI, AZW3 or FB2) file.",
+"Use the contents list or ‹ › to move between chapters.",
+"Adjust the text size, switch night mode or search the book."
+],
+"faq": [
+{
+"q": "Is the book uploaded?",
+"a": "No. It is opened and displayed entirely on your device."
+},
+{
+"q": "Can I read Kindle books?",
+"a": "DRM-free MOBI and AZW3 files open; books with DRM from the Kindle store do not."
+},
+{
+"q": "Does it remember where I stopped?",
+"a": "Yes, the last chapter is remembered in this browser."
+},
+{
+"q": "Can I search the book?",
+"a": "Yes, across all chapters."
+},
+{
+"q": "Do scripts in the EPUB run?",
+"a": "No. Chapters are shown in a sandbox with scripts disabled."
+}
+],
+"guide": {
+"intro": "EPUB is the open e-book format used by Apple Books, Google Play Books, Kobo and libraries. {brand}'s reader opens it directly in your browser – on a Chromebook, a work PC or a phone – with the book's own styles, images and table of contents, and nothing to install.",
+"uses": [
+"Read a DRM-free e-book on a computer without installing an app.",
+"Preview an EPUB you created before publishing it.",
+"Open MOBI or FB2 books on any device.",
+"Check a book's contents and images quickly."
+],
+"tips": [
+"Use night mode for reading in the dark.",
+"Increase the text size on small screens.",
+"Download the converted EPUB for MOBI/FB2 books to keep it in your library app."
+],
+"more": [
+[
+"How it works",
+"The EPUB (a ZIP of XHTML chapters) is unpacked in memory. The package file gives the reading order and the navigation document or NCX gives the table of contents; images, styles and fonts are served from temporary local URLs so the chapters look as the publisher intended."
+]
+],
+"faq": []
+}
 }
 }
 }

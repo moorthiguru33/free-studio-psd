@@ -1,0 +1,433 @@
+{
+"tools": {
+"otf2ttf": {
+"seo": {
+"title": "OTF to TTF Converter – Convert OpenType CFF Fonts Free",
+"desc": "Convert OTF (CFF/PostScript outline) fonts to TrueType TTF in your browser: curves converted, names and metrics kept. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs FontForge, CloudConvert and Transfonter",
+"compareCols": [
+"FontForge",
+"CloudConvert",
+"Transfonter"
+],
+"sections": [
+[
+"Convert OTF to TTF",
+"OpenType fonts come in two flavours. Files ending in .otf usually contain PostScript-style outlines stored in a CFF table, drawn with cubic Bézier curves. Files ending in .ttf contain TrueType outlines stored in a glyf table, drawn with quadratic curves. Most modern systems accept both, but plenty of software still insists on TrueType: older versions of Windows applications, some embroidery, CNC, laser-cutting and vinyl-cutter programs, game engines, microcontroller and e-reader font tools, certain PDF generators, Office add-ins and a number of web font pipelines. This converter rebuilds the outlines of an OTF font as real TrueType contours, so the result is a genuine TTF rather than an OTF with a renamed extension."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more .otf font files.",
+"Keep the output set to TTF (convert CFF outlines to TrueType).",
+"Press Convert.",
+"Download the .ttf files and install or use them as usual."
+]
+}
+],
+[
+"What the converter does",
+{
+"table": [
+[
+"Step",
+"Detail"
+],
+[
+"Read outlines",
+"Every glyph's CFF path is read, with subroutines expanded"
+],
+[
+"Convert curves",
+"Each cubic curve is approximated by quadratic segments within about one thousandth of the em – far below anything visible at any size"
+],
+[
+"Fix direction",
+"Contours are reversed, because TrueType expects clockwise outer contours while CFF uses the opposite convention"
+],
+[
+"Write tables",
+"New glyf, loca, maxp and post tables are written; the CFF table is removed"
+],
+[
+"Keep the rest",
+"Names, metrics, character map, kerning and OpenType layout features (GPOS/GSUB) are copied unchanged"
+]
+]
+}
+],
+[
+"Why the file must really be converted",
+"Renaming font.otf to font.ttf does nothing to the data inside. Programs that only understand TrueType outlines look for a glyf table; when they find CFF data instead they show empty boxes, refuse to install the font or crash. Converting the outlines is the only way to produce a font those programs read. Going the other way – TTF to OTF – is rarely needed, because a TrueType font is already a valid OpenType font."
+],
+[
+"Is there any quality loss?",
+"Quadratic curves cannot reproduce every cubic curve exactly, so each cubic is split into a few quadratic pieces that follow it within a very small tolerance – roughly half a unit on a 1000-unit em. At 12 pt on a 300 dpi printer one unit is smaller than a hundredth of a pixel, so the shapes are visually identical at text and display sizes. The file typically grows by 10–40 % because quadratic outlines need more points. Spacing, kerning and line height do not change, since the metrics tables are copied as they are."
+],
+[
+"Hinting",
+{
+"list": [
+"CFF fonts carry PostScript hints; TrueType uses its own instruction language. The converter does not translate hints, so the TTF is **unhinted**.",
+"On macOS, iOS, Android, modern Windows with ClearType/DirectWrite and in browsers this makes no visible difference at normal sizes, because the rasterisers rely on anti-aliasing and their own auto-hinting.",
+"On very old Windows systems with grayscale or black-and-white rendering, small sizes may look slightly softer than with a hand-hinted TrueType font. If that matters, use the vendor's TTF release if one exists."
+]
+}
+],
+[
+"Fonts that cannot be converted",
+"Variable OpenType fonts with a CFF2 table (and some colour fonts built on it) cannot be turned into a static TrueType font this way, so the tool stops with a clear message instead of producing a broken file. Fonts that already contain TrueType outlines but carry the .otf extension are simply copied, because they are TTFs in everything but name. Very large CJK fonts with tens of thousands of glyphs work, but conversion takes longer and the output is large; the post table then stores no glyph names, which is normal for big fonts."
+],
+[
+"Licences and embedding",
+"Converting the format does not change the licence. Many commercial fonts allow format conversion for your own use but not redistribution of the converted file; open fonts under the SIL Open Font License may be converted, but a modified font under a Reserved Font Name may have to be renamed before you share it. The embedding permissions (fsType) in the OS/2 table are kept as they were, so applications that respect them still see the original rules."
+],
+[
+"Using the TTF",
+{
+"steps": [
+"Windows: right-click the .ttf and choose Install or Install for all users.",
+"macOS: double-click it and press Install Font in Font Book.",
+"Linux: copy it to ~/.local/share/fonts and run fc-cache.",
+"Cutting machines and design software: import the TTF from the program's font or text dialogue, or install it in the system first and restart the program.",
+"Web: convert the TTF to [WOFF2](/ttf-to-woff2/) for faster loading, or go straight from the original with [OTF to WOFF2](/otf-to-woff2/)."
+]
+}
+],
+[
+"Checking the result",
+"After converting, type a sample containing accented letters, figures and punctuation in a word processor and compare it with the original OTF. You can also open both files in a font viewer: glyph count, names, ascender and descender values should match. The converter was tested with Latin, Cyrillic, Greek and CJK fonts, and output was checked with the OpenType Sanitizer used by Chrome and Firefox and with fontTools."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Real CFF→TrueType outline conversion in the browser",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert OTF to TTF?",
+"a": "Drop the .otf, keep TTF selected and press Convert."
+},
+{
+"q": "Is it a real conversion or just a rename?",
+"a": "A real one: CFF outlines are rebuilt as TrueType glyf outlines."
+},
+{
+"q": "Will the font look different?",
+"a": "No visible difference; curves are matched within about 1/1000 em."
+},
+{
+"q": "Are kerning and ligatures kept?",
+"a": "Yes, GPOS and GSUB features are copied."
+},
+{
+"q": "Is the TTF hinted?",
+"a": "No, hinting is not converted."
+},
+{
+"q": "Can I convert variable fonts?",
+"a": "CFF2 variable fonts are not supported."
+},
+{
+"q": "Can I convert several fonts?",
+"a": "Yes, drop as many as you like."
+},
+{
+"q": "Are my fonts uploaded?",
+"a": "No, conversion runs in your browser."
+},
+{
+"q": "Does it change the licence?",
+"a": "No; check your font's licence before sharing converted files."
+}
+],
+"related": [
+"ttf-to-woff2",
+"otf-to-woff2",
+"woff-to-ttf",
+"woff2-to-ttf"
+],
+"updated": "2026-10-25"
+}
+},
+"epubread": {
+"seo": {
+"title": "EPUB Reader Online – Read E-books Free, No Upload",
+"desc": "Read EPUB books in your browser with contents, chapters, text size, night mode and search. Also opens DRM-free MOBI, AZW3 and FB2. No upload.",
+"compareTitle": "{tool}: {brand} vs Calibre, Google Play Books and Apple Books",
+"compareCols": [
+"Calibre",
+"Google Play Books",
+"Apple Books"
+],
+"sections": [
+[
+"Read EPUB books online",
+"EPUB is the open standard for e-books, used by Apple Books, Google Play Books, Kobo, Nook, public-library apps and countless free sources such as Project Gutenberg and Standard Ebooks. Normally you need a reading app to open one. This reader opens an EPUB right in the browser tab on a Windows PC, Mac, Chromebook, Linux machine, tablet or phone, with the book's own layout, fonts and images, a table of contents and the controls you expect from an e-reader – and the file never leaves your device."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop an EPUB file (or a DRM-free MOBI, AZW3 or FB2).",
+"Pick a chapter from the contents list or page through with ‹ and ›.",
+"Change the text size, turn on night mode or search the whole book.",
+"Optionally download the book as EPUB to keep it in your library app."
+]
+}
+],
+[
+"Reader features",
+{
+"table": [
+[
+"Feature",
+"How it works"
+],
+[
+"Table of contents",
+"Read from the EPUB 3 navigation document or the EPUB 2 NCX, so chapter titles appear as the publisher named them"
+],
+[
+"Chapter navigation",
+"Previous / next buttons follow the book's reading order (spine)"
+],
+[
+"Text size",
+"A− and A+ scale the text from small to very large"
+],
+[
+"Night mode",
+"Light text on a dark background for reading in the evening"
+],
+[
+"Search",
+"Finds a word or phrase in every chapter and lists the matches with context; click one to jump there"
+],
+[
+"Resume",
+"The last chapter you opened is remembered in this browser for that book"
+]
+]
+}
+],
+[
+"Formats it opens",
+{
+"list": [
+"**EPUB 2 and EPUB 3** – reflowable books from any publisher or converter.",
+"**MOBI and AZW3 (KF8)** – DRM-free Kindle-format books are converted to EPUB in the browser first, then shown in the reader.",
+"**FB2 and FBZ** – FictionBook files popular for Russian and Eastern European literature.",
+"Books protected with DRM (Adobe ADEPT, Kindle store, Apple FairPlay) cannot be opened, because the text is encrypted for authorised apps only."
+]
+}
+],
+[
+"Why read in the browser",
+"A browser reader is handy when you cannot install software – on a work or school computer, a library PC, a borrowed laptop or a Chromebook – or when you just want to check a file before importing it. Authors and self-publishers can preview an EPUB they built in Sigil, Calibre, Vellum, Pages or Word to make sure the chapters, images and table of contents look right before uploading it to a store. Teachers can open course texts without asking students to install apps."
+],
+[
+"Privacy and safety",
+"The EPUB is unpacked in memory on your device. Chapters are displayed in a sandboxed frame with scripts disabled, so a book cannot run code, track you or reach other pages; images, stylesheets and embedded fonts are loaded from temporary local addresses that disappear when you close the tab. Nothing is uploaded, and no copy of the book is stored on a server."
+],
+[
+"How an EPUB is built",
+"An EPUB is a ZIP archive. A small file called container.xml points to the package document (OPF), which lists every file in the book (the manifest), the reading order (the spine) and metadata such as title, author and language. The chapters themselves are XHTML pages styled with CSS, much like a website. The reader follows the same steps an e-reader does: it opens the archive, reads the package, builds the table of contents and displays the chapters in order."
+],
+[
+"Tips for comfortable reading",
+{
+"list": [
+"Use full screen (F11 on Windows and Linux, Ctrl+Cmd+F on Mac) to remove distractions.",
+"Increase the text size on phones, or zoom the page with pinch gestures.",
+"Night mode reduces glare in the dark; combine it with your device's night light.",
+"Search for a character's name to find where they first appear.",
+"For long books, keep the tab open – your position is remembered if you come back to the same book in this browser."
+]
+}
+],
+[
+"Limitations",
+"Fixed-layout EPUBs (children's picture books, comics and some textbooks) are shown, but pages may not scale as precisely as in a dedicated app. Audio and video overlays are not played, and scripted interactive content is disabled for safety. Some MOBI files contain images in Kindle-only formats that cannot be shown; their text still appears. Annotations and highlights are not saved."
+],
+[
+"Related conversions",
+"To turn the book into a printable document, convert it with [EPUB to PDF](/epub-to-pdf/). If you have a Kindle book you want in a different format, use [MOBI to EPUB](/mobi-to-epub/), and for AZW3 files use [AZW3 to EPUB](/azw3-to-epub/). To read a PDF instead, open the [PDF Reader](/pdf-reader/)."
+],
+[
+"Works with almost any PDF",
+"The tool opens PDFs from Word, Google Docs, LibreOffice, scanners, phones and design software, including PDF 1.0–2.0 files with forms, annotations and embedded fonts. Files protected with an *open* password must be unlocked first with [Unlock PDF](/unlock-pdf/) (you need the password); files that only have permission restrictions usually open directly. Large documents with hundreds of pages work too – the limit is your device's memory, typically several hundred megabytes on a laptop and around 100 MB on a phone."
+],
+[
+"Windows, Mac, iPhone and Android",
+"There is nothing to install. It runs in Chrome, Edge, Firefox and Safari on Windows, macOS, Linux, ChromeOS, Android and iOS. On a phone, tap the drop area and pick the file from Files, Google Drive or your e-mail downloads; the result is saved to Downloads or the Files app and can be shared straight to WhatsApp, Gmail or Drive."
+],
+[
+"Common problems and fixes",
+{
+"list": [
+"**\"File is encrypted\"** – remove the open password with Unlock PDF, then try again.",
+"**The file is a cloud placeholder** – download it fully from OneDrive, iCloud or Drive first.",
+"**A damaged or truncated download** – run it through [Repair PDF](/repair-pdf/).",
+"**Very slow on a phone** – large scanned PDFs need lots of memory; close other tabs or split the file with [Split PDF](/split-pdf/) first.",
+"**The download did not start** – some in-app browsers (Instagram, Facebook) block downloads; open the page in Chrome or Safari."
+]
+}
+],
+[
+"Combine it with other PDF tools",
+"Most jobs take more than one step, and every Fileopia tool works the same way, so you can chain them without uploading anything. A typical workflow: scan or convert the pages, [merge](/merge-pdf/) them into one file, put them in order with [Organize PDF](/organize-pdf/), make scanned text searchable with OCR, add [page numbers](/add-page-numbers/), and finally [compress](/compress-pdf/) the result for e-mail. Each step downloads a new file and leaves your original untouched, so you can always go back and try different settings. Tip: give each output a clear name such as *contract-signed-compressed.pdf* so you can tell the versions apart later."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Reads EPUB, MOBI, AZW3 and FB2 without upload",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I open an EPUB file online?",
+"a": "Drop it on this page; it opens in the reader immediately."
+},
+{
+"q": "Is the book uploaded?",
+"a": "No, it is read entirely on your device."
+},
+{
+"q": "Can I read Kindle books?",
+"a": "DRM-free MOBI and AZW3 files, yes; store-bought DRM books, no."
+},
+{
+"q": "Does it have a table of contents?",
+"a": "Yes, from the book's navigation or NCX."
+},
+{
+"q": "Can I change the font size?",
+"a": "Yes, with A− and A+."
+},
+{
+"q": "Is there a dark mode?",
+"a": "Yes, night mode."
+},
+{
+"q": "Can I search the book?",
+"a": "Yes, across all chapters."
+},
+{
+"q": "Does it remember my place?",
+"a": "The last chapter is remembered in this browser."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, in any modern mobile browser."
+}
+],
+"related": [
+"epub-to-pdf",
+"mobi-to-epub",
+"azw3-to-epub",
+"pdf-reader"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}
