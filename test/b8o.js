@@ -1,0 +1,10 @@
+const {chromium}=require('playwright-core');const {PDFDocument,StandardFonts}=require('pdf-lib');const fs=require('fs');const B=process.env.BASE||'http://localhost:8099';
+(async()=>{const d=await PDFDocument.create();const f=await d.embedFont(StandardFonts.Helvetica);for(let i=1;i<=6;i++){const p=d.addPage([300,400]);p.drawText((i==1||i==4?'Chapter ':'Text ')+i,{x:40,y:300,size:20,font:f});}fs.writeFileSync('/tmp/s6.pdf',await d.save());
+const b=await chromium.launch({executablePath:'/usr/bin/google-chrome'});const ctx=await b.newContext({acceptDownloads:true});const p=await ctx.newPage();p.on('pageerror',e=>console.log('PAGEERR',e.message));
+const go=async(slug,prep)=>{await p.goto(`${B}/${slug}/`);await p.setInputFiles('input[type=file]','/tmp/s6.pdf');await p.waitForTimeout(2500);await p.$$eval('#tool details',d=>d.forEach(x=>x.open=true));if(prep)await prep();await p.click('#go');await p.waitForSelector('#dl',{state:'visible',timeout:30000});const [dl]=await Promise.all([p.waitForEvent('download',{timeout:30000}),p.click('#dl')]);const path=await dl.path();const buf=fs.readFileSync(path);let info=dl.suggestedFilename();if(info.endsWith('.pdf'))info+=' pages='+(await PDFDocument.load(buf)).getPageCount();console.log(slug,'->',info);};
+await go('organize-pdf',async()=>{await p.click('#orev');await p.fill('#osr','1');await p.click('#osa');await p.click('#odup');await p.click('#oblank');});
+await go('extract-pdf-pages',async()=>{await p.fill('#osr','2-3');await p.click('#osa');});
+await go('extract-pdf-pages',async()=>{await p.fill('#osr','2-3');await p.click('#osa');await p.check('#osep');});
+await go('split-pdf-by-text',async()=>{await p.fill('#stext','Chapter');await p.selectOption('#swhere','after');});
+await go('n-up-pdf',async()=>{await p.selectOption('#nper','16');await p.selectOption('#nsheet','a3');await p.selectOption('#norder','col');});
+await b.close();})();
