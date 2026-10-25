@@ -1,0 +1,1357 @@
+{
+"tools": {
+"barcode": {
+"seo": {
+"title": "Barcode Generator Free – Code 128, EAN-13, UPC, SVG",
+"desc": "Create barcodes free: Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, Codabar, MSI. Bulk ZIP, PNG or vector SVG, colours. No upload.",
+"compareTitle": "{tool}: {brand} vs TEC-IT, Free Barcode Generator and Cognex",
+"compareCols": [
+"barcode.tec-it.com",
+"Free-barcode-generator.net",
+"Cognex"
+],
+"sections": [
+[
+"Free online barcode generator",
+"Make a scannable barcode in seconds: choose the symbology, type the value and download a PNG or vector SVG. Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, Codabar, MSI and Pharmacode are supported, with adjustable bar width, height, colours, text size and print resolution, plus bulk generation from a list. No account, no watermark, and nothing is uploaded."
+],
+[
+"How to create a barcode",
+{
+"steps": [
+"Choose the barcode type – Code 128 if you are unsure.",
+"Type the value; the preview updates as you type and warns when the value is invalid for the chosen type.",
+"Adjust bar width, height, colours, text size and PNG resolution.",
+"Download the PNG, or the SVG for print – or paste a list in Bulk to get a ZIP."
+]
+}
+],
+[
+"Which barcode type should I use?",
+{
+"list": [
+"Selling a product in shops or online marketplaces: EAN-13 (worldwide) or UPC-A (USA/Canada) with a GS1 number – see [EAN-13](/ean-13-barcode-generator/) and [UPC](/upc-barcode-generator/).",
+"Shipping, warehouse and internal labels with letters and numbers: Code 128 – compact and supports every ASCII character.",
+"Asset tags and ID badges read by older scanners: [Code 39](/code-39-barcode-generator/).",
+"Outer cartons: ITF-14.",
+"Need to store a web address, Wi-Fi password or contact card? Use a [QR code](/qr-code-generator/) instead – it holds far more data."
+]
+}
+],
+[
+"Code 128 in detail",
+"Code 128 encodes all 128 ASCII characters and automatically switches between its three code sets (A, B and C) to keep the barcode short – pure digit runs are packed two per bar pattern. It includes a mandatory modulo-103 check character, so mis-reads are rare. Because it is compact and flexible it is the most common symbology on shipping labels, and the GS1-128 standard used in logistics is built on it."
+],
+[
+"Download PNG or vector SVG",
+"Every barcode can be saved as a PNG image and as an SVG vector file. PNG is right for Word, Google Docs, label software and web pages; choose 2× or 3× resolution for print so the bars stay crisp. SVG scales to any size without blurring, which is what printers, packaging designers and tools like Illustrator, Inkscape, Affinity and Canva prefer. The SVG contains real rectangles, not an embedded picture."
+],
+[
+"Bulk barcode generation",
+"Paste a list of values – one per line – into the *Bulk* box and the tool generates every barcode at once and downloads a ZIP with a numbered PNG and SVG for each value. Invalid entries (for example a wrong EAN check digit) are skipped and listed, so you can fix them. This is ideal for product catalogues, inventory labels, library cards and event tickets exported from a spreadsheet: copy the column from Excel or Google Sheets and paste."
+],
+[
+"Printing barcodes that scan first time",
+{
+"list": [
+"Keep the quiet zone – the white margin either side of the bars. The generator adds one automatically; do not crop it.",
+"Print dark bars on a light background. Black on white is safest; red bars are invisible to many laser scanners.",
+"Do not shrink retail barcodes much below their nominal size (about 37 × 26 mm for EAN-13).",
+"Use 300 dpi or more, or the SVG file, for labels and packaging.",
+"Test with a phone scanner such as our [QR & barcode scanner](/qr-code-scanner/) before printing a large run."
+]
+}
+],
+[
+"Barcode types compared",
+{
+"table": [
+[
+"Symbology",
+"Characters",
+"Length",
+"Typical use"
+],
+[
+"Code 128",
+"All 128 ASCII characters",
+"Variable",
+"Shipping labels, logistics, GS1-128"
+],
+[
+"EAN-13",
+"Digits",
+"13 (12 + check digit)",
+"Retail products worldwide"
+],
+[
+"EAN-8",
+"Digits",
+"8 (7 + check digit)",
+"Small retail packages"
+],
+[
+"UPC-A",
+"Digits",
+"12 (11 + check digit)",
+"Retail products in the US and Canada"
+],
+[
+"Code 39",
+"A–Z, 0–9, space and - . $ / + %",
+"Variable",
+"Industry, defence, ID badges, asset tags"
+],
+[
+"ITF-14",
+"Digits",
+"14",
+"Outer cartons and cases"
+],
+[
+"Codabar",
+"0–9 and - $ : / . + with A–D start/stop",
+"Variable",
+"Libraries, blood banks, couriers"
+],
+[
+"MSI",
+"Digits",
+"Variable",
+"Warehouse shelf labels"
+],
+[
+"Pharmacode",
+"Number 3–131070",
+"—",
+"Pharmaceutical packaging control"
+]
+]
+}
+],
+[
+"Free barcode vs registered GS1 number",
+"Anyone can draw a barcode, but the *number* inside a retail barcode (EAN or UPC) must be unique worldwide. For products sold through shops and marketplaces such as Amazon you normally need a company prefix licensed from GS1, the not-for-profit organisation that manages these numbers. For internal use – stock rooms, assets, libraries, tickets – you can use any numbering scheme and a symbology like Code 128 or Code 39. This tool creates the image; it does not issue or register numbers."
+],
+[
+"Privacy",
+"Barcodes are generated inside your browser with the open-source JsBarcode library (MIT licence). The numbers you type are never uploaded, stored or logged, there is no account, and the page keeps working offline once loaded – handy for unreleased product codes, inventory numbers and internal asset tags."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"PNG + vector SVG",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Bulk list to ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Colours, bar width, height, text size",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What is the best free barcode generator?",
+"a": "One that outputs vector SVG, supports the type you need and does not watermark. This one is free, works offline and adds bulk generation."
+},
+{
+"q": "Which barcode type should I choose?",
+"a": "Code 128 for general labels, EAN-13 or UPC-A for retail products, Code 39 for asset tags and older scanners, ITF-14 for cartons."
+},
+{
+"q": "Can I make a barcode in Excel?",
+"a": "Excel has no built-in barcode feature without special fonts. Generate the images here (paste the column into Bulk) and insert them."
+},
+{
+"q": "Is this barcode generator free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark, for personal and commercial use."
+},
+{
+"q": "Can I download the barcode as SVG?",
+"a": "Yes. Every barcode is available as PNG and as a vector SVG for print."
+},
+{
+"q": "Can I make many barcodes at once?",
+"a": "Yes. Paste one value per line in the Bulk box and download a ZIP of PNG and SVG files."
+},
+{
+"q": "What size should I print a barcode?",
+"a": "Print retail codes near their nominal size, keep the white margins and use 300 dpi or the SVG file."
+},
+{
+"q": "Do I need to register the barcode number?",
+"a": "For retail EAN/UPC codes on products sold in shops, yes – get a company prefix from GS1. Internal codes need no registration."
+},
+{
+"q": "Is my data uploaded?",
+"a": "No. The barcode is created in your browser and nothing is sent to a server."
+},
+{
+"q": "Why does my barcode say invalid?",
+"a": "The value does not fit the chosen type – for example letters in EAN-13 or a wrong check digit. Change the value or pick Code 128."
+}
+],
+"related": [
+"ean-13-barcode-generator",
+"upc-barcode-generator",
+"code-39-barcode-generator",
+"qr-code-scanner",
+"qr-code-generator"
+],
+"updated": "2026-10-25"
+}
+},
+"bc_ean13": {
+"seo": {
+"title": "EAN-13 Barcode Generator Free – Check Digit, SVG, Bulk",
+"desc": "Create EAN-13 barcodes free with automatic check digit. Download PNG or print-ready SVG, bulk ZIP from a list. No upload, no watermark.",
+"compareTitle": "{tool}: {brand} vs TEC-IT, Free Barcode Generator and Cognex",
+"compareCols": [
+"barcode.tec-it.com",
+"Free-barcode-generator.net",
+"Cognex"
+],
+"sections": [
+[
+"Free EAN-13 barcode generator",
+"EAN-13 is the barcode printed on almost every retail product outside North America. Type the 12-digit number and the generator adds the 13th check digit, draws the standard bar pattern with the human-readable digits underneath and lets you download a PNG or a vector SVG for packaging. Paste a list to create a whole product range at once."
+],
+[
+"How to make it",
+{
+"steps": [
+"Enter the 12 digits of your GS1 number (or all 13 – the check digit is verified).",
+"Set bar width, height, colours and resolution if needed.",
+"Download PNG or SVG, or paste many numbers into Bulk for a ZIP."
+]
+}
+],
+[
+"How the EAN-13 number is built",
+{
+"table": [
+[
+"Part",
+"Digits",
+"Meaning"
+],
+[
+"GS1 prefix",
+"2–3",
+"The GS1 member organisation that issued the number (for example 400–440 Germany, 890 India) – not the country of manufacture"
+],
+[
+"Company prefix",
+"4–7",
+"Assigned to your company by GS1"
+],
+[
+"Item reference",
+"2–5",
+"Chosen by you for each product variant"
+],
+[
+"Check digit",
+"1",
+"Calculated from the other 12 digits"
+]
+]
+}
+],
+[
+"How the check digit is calculated",
+"Starting from the left, multiply the 12 digits alternately by 1 and 3 and add the results. The check digit is the number that brings the total up to the next multiple of 10. Example: for 590123412345 the weighted sum is 5+27+0+3+2+9+4+3+2+9+4+15 = 83, so the check digit is 7 and the full code is 5901234123457. The generator does this for you and rejects a 13-digit number with a wrong check digit."
+],
+[
+"EAN-13 sizes",
+"The nominal size (100 % magnification) is about 37.29 mm wide by 25.93 mm high including the quiet zones. GS1 allows magnifications from 80 % to 200 %; going below that or truncating the height makes scanning less reliable at the till. Export the SVG and scale it in your packaging software to the exact size."
+],
+[
+"Download PNG or vector SVG",
+"Every barcode can be saved as a PNG image and as an SVG vector file. PNG is right for Word, Google Docs, label software and web pages; choose 2× or 3× resolution for print so the bars stay crisp. SVG scales to any size without blurring, which is what printers, packaging designers and tools like Illustrator, Inkscape, Affinity and Canva prefer. The SVG contains real rectangles, not an embedded picture."
+],
+[
+"Bulk barcode generation",
+"Paste a list of values – one per line – into the *Bulk* box and the tool generates every barcode at once and downloads a ZIP with a numbered PNG and SVG for each value. Invalid entries (for example a wrong EAN check digit) are skipped and listed, so you can fix them. This is ideal for product catalogues, inventory labels, library cards and event tickets exported from a spreadsheet: copy the column from Excel or Google Sheets and paste."
+],
+[
+"Printing barcodes that scan first time",
+{
+"list": [
+"Keep the quiet zone – the white margin either side of the bars. The generator adds one automatically; do not crop it.",
+"Print dark bars on a light background. Black on white is safest; red bars are invisible to many laser scanners.",
+"Do not shrink retail barcodes much below their nominal size (about 37 × 26 mm for EAN-13).",
+"Use 300 dpi or more, or the SVG file, for labels and packaging.",
+"Test with a phone scanner such as our [QR & barcode scanner](/qr-code-scanner/) before printing a large run."
+]
+}
+],
+[
+"Barcode types compared",
+{
+"table": [
+[
+"Symbology",
+"Characters",
+"Length",
+"Typical use"
+],
+[
+"Code 128",
+"All 128 ASCII characters",
+"Variable",
+"Shipping labels, logistics, GS1-128"
+],
+[
+"EAN-13",
+"Digits",
+"13 (12 + check digit)",
+"Retail products worldwide"
+],
+[
+"EAN-8",
+"Digits",
+"8 (7 + check digit)",
+"Small retail packages"
+],
+[
+"UPC-A",
+"Digits",
+"12 (11 + check digit)",
+"Retail products in the US and Canada"
+],
+[
+"Code 39",
+"A–Z, 0–9, space and - . $ / + %",
+"Variable",
+"Industry, defence, ID badges, asset tags"
+],
+[
+"ITF-14",
+"Digits",
+"14",
+"Outer cartons and cases"
+],
+[
+"Codabar",
+"0–9 and - $ : / . + with A–D start/stop",
+"Variable",
+"Libraries, blood banks, couriers"
+],
+[
+"MSI",
+"Digits",
+"Variable",
+"Warehouse shelf labels"
+],
+[
+"Pharmacode",
+"Number 3–131070",
+"—",
+"Pharmaceutical packaging control"
+]
+]
+}
+],
+[
+"Free barcode vs registered GS1 number",
+"Anyone can draw a barcode, but the *number* inside a retail barcode (EAN or UPC) must be unique worldwide. For products sold through shops and marketplaces such as Amazon you normally need a company prefix licensed from GS1, the not-for-profit organisation that manages these numbers. For internal use – stock rooms, assets, libraries, tickets – you can use any numbering scheme and a symbology like Code 128 or Code 39. This tool creates the image; it does not issue or register numbers."
+],
+[
+"Privacy",
+"Barcodes are generated inside your browser with the open-source JsBarcode library (MIT licence). The numbers you type are never uploaded, stored or logged, there is no account, and the page keeps working offline once loaded – handy for unreleased product codes, inventory numbers and internal asset tags."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"PNG + vector SVG",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Bulk list to ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Colours, bar width, height, text size",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I generate an EAN-13 barcode?",
+"a": "Type the 12 digits of your number, and the check digit is added automatically. Download PNG or SVG."
+},
+{
+"q": "Does it calculate the check digit?",
+"a": "Yes. Enter 12 digits to have it added, or 13 to have it verified."
+},
+{
+"q": "Can I use any 13 digits?",
+"a": "Technically yes, but retail codes must be unique – shops and marketplaces expect a number licensed from GS1."
+},
+{
+"q": "What is the difference between EAN-13 and UPC-A?",
+"a": "UPC-A has 12 digits and is used in the US and Canada; EAN-13 adds a leading digit. A UPC-A is an EAN-13 starting with 0."
+},
+{
+"q": "Is this barcode generator free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark, for personal and commercial use."
+},
+{
+"q": "Can I download the barcode as SVG?",
+"a": "Yes. Every barcode is available as PNG and as a vector SVG for print."
+},
+{
+"q": "Can I make many barcodes at once?",
+"a": "Yes. Paste one value per line in the Bulk box and download a ZIP of PNG and SVG files."
+},
+{
+"q": "What size should I print a barcode?",
+"a": "Print retail codes near their nominal size, keep the white margins and use 300 dpi or the SVG file."
+},
+{
+"q": "Do I need to register the barcode number?",
+"a": "For retail EAN/UPC codes on products sold in shops, yes – get a company prefix from GS1. Internal codes need no registration."
+},
+{
+"q": "Is my data uploaded?",
+"a": "No. The barcode is created in your browser and nothing is sent to a server."
+}
+],
+"related": [
+"barcode-generator",
+"upc-barcode-generator",
+"code-39-barcode-generator",
+"qr-code-scanner",
+"qr-code-generator"
+],
+"updated": "2026-10-25"
+}
+},
+"bc_upc": {
+"seo": {
+"title": "UPC Barcode Generator Free – UPC-A with Check Digit, SVG",
+"desc": "Generate UPC-A barcodes free with automatic check digit for US and Canadian retail. PNG or vector SVG, bulk ZIP. No upload, no watermark.",
+"compareTitle": "{tool}: {brand} vs TEC-IT, Free Barcode Generator and Cognex",
+"compareCols": [
+"barcode.tec-it.com",
+"Free-barcode-generator.net",
+"Cognex"
+],
+"sections": [
+[
+"Free UPC-A barcode generator",
+"UPC-A is the 12-digit barcode used on retail products in the United States and Canada. Type the first 11 digits and the generator adds the check digit, draws the standard bars with the number underneath and gives you a PNG or SVG ready for labels and packaging. Bulk mode turns a whole list into barcodes in one ZIP."
+],
+[
+"How to make it",
+{
+"steps": [
+"Enter the 11 digits of your UPC (or all 12 to verify the check digit).",
+"Adjust size, colours and print resolution.",
+"Download PNG or SVG, or paste a list into Bulk."
+]
+}
+],
+[
+"Anatomy of a UPC-A",
+{
+"table": [
+[
+"Part",
+"Digits",
+"Meaning"
+],
+[
+"Number system",
+"1",
+"0, 1, 6, 7, 8 general products; 2 random-weight items; 3 drugs; 5 coupons"
+],
+[
+"Company prefix + item",
+"10 (combined)",
+"Company prefix from GS1 US, followed by your item reference"
+],
+[
+"Check digit",
+"1",
+"Calculated from the first 11 digits"
+]
+]
+}
+],
+[
+"UPC check digit",
+"Add the digits in odd positions (1st, 3rd … 11th) and multiply by 3, then add the digits in even positions. The check digit is what brings the total to the next multiple of 10. For 03600029145: (0+6+0+2+1+5)×3 = 42, plus 3+0+0+9+4 = 16, total 58, so the check digit is 2 and the UPC is 036000291452."
+],
+[
+"UPC vs EAN for Amazon and retailers",
+"Amazon, Walmart and most retailers accept both UPC and EAN codes as long as they come from GS1. Numbers bought from cheap resellers may be rejected because they are registered to another company. If you sell internationally, the same GS1 number can be shown as UPC-A in North America or as an EAN-13 (with a leading 0) elsewhere."
+],
+[
+"Download PNG or vector SVG",
+"Every barcode can be saved as a PNG image and as an SVG vector file. PNG is right for Word, Google Docs, label software and web pages; choose 2× or 3× resolution for print so the bars stay crisp. SVG scales to any size without blurring, which is what printers, packaging designers and tools like Illustrator, Inkscape, Affinity and Canva prefer. The SVG contains real rectangles, not an embedded picture."
+],
+[
+"Bulk barcode generation",
+"Paste a list of values – one per line – into the *Bulk* box and the tool generates every barcode at once and downloads a ZIP with a numbered PNG and SVG for each value. Invalid entries (for example a wrong EAN check digit) are skipped and listed, so you can fix them. This is ideal for product catalogues, inventory labels, library cards and event tickets exported from a spreadsheet: copy the column from Excel or Google Sheets and paste."
+],
+[
+"Printing barcodes that scan first time",
+{
+"list": [
+"Keep the quiet zone – the white margin either side of the bars. The generator adds one automatically; do not crop it.",
+"Print dark bars on a light background. Black on white is safest; red bars are invisible to many laser scanners.",
+"Do not shrink retail barcodes much below their nominal size (about 37 × 26 mm for EAN-13).",
+"Use 300 dpi or more, or the SVG file, for labels and packaging.",
+"Test with a phone scanner such as our [QR & barcode scanner](/qr-code-scanner/) before printing a large run."
+]
+}
+],
+[
+"Barcode types compared",
+{
+"table": [
+[
+"Symbology",
+"Characters",
+"Length",
+"Typical use"
+],
+[
+"Code 128",
+"All 128 ASCII characters",
+"Variable",
+"Shipping labels, logistics, GS1-128"
+],
+[
+"EAN-13",
+"Digits",
+"13 (12 + check digit)",
+"Retail products worldwide"
+],
+[
+"EAN-8",
+"Digits",
+"8 (7 + check digit)",
+"Small retail packages"
+],
+[
+"UPC-A",
+"Digits",
+"12 (11 + check digit)",
+"Retail products in the US and Canada"
+],
+[
+"Code 39",
+"A–Z, 0–9, space and - . $ / + %",
+"Variable",
+"Industry, defence, ID badges, asset tags"
+],
+[
+"ITF-14",
+"Digits",
+"14",
+"Outer cartons and cases"
+],
+[
+"Codabar",
+"0–9 and - $ : / . + with A–D start/stop",
+"Variable",
+"Libraries, blood banks, couriers"
+],
+[
+"MSI",
+"Digits",
+"Variable",
+"Warehouse shelf labels"
+],
+[
+"Pharmacode",
+"Number 3–131070",
+"—",
+"Pharmaceutical packaging control"
+]
+]
+}
+],
+[
+"Free barcode vs registered GS1 number",
+"Anyone can draw a barcode, but the *number* inside a retail barcode (EAN or UPC) must be unique worldwide. For products sold through shops and marketplaces such as Amazon you normally need a company prefix licensed from GS1, the not-for-profit organisation that manages these numbers. For internal use – stock rooms, assets, libraries, tickets – you can use any numbering scheme and a symbology like Code 128 or Code 39. This tool creates the image; it does not issue or register numbers."
+],
+[
+"Privacy",
+"Barcodes are generated inside your browser with the open-source JsBarcode library (MIT licence). The numbers you type are never uploaded, stored or logged, there is no account, and the page keeps working offline once loaded – handy for unreleased product codes, inventory numbers and internal asset tags."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"PNG + vector SVG",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Bulk list to ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Colours, bar width, height, text size",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I create a UPC barcode?",
+"a": "Type the first 11 digits; the 12th check digit is added automatically. Download PNG or SVG."
+},
+{
+"q": "Where do I get a UPC number?",
+"a": "From GS1 US (or your local GS1 office). It gives your company a unique prefix."
+},
+{
+"q": "Can I use this UPC for Amazon?",
+"a": "The image works anywhere; Amazon checks that the number itself is registered to your brand with GS1."
+},
+{
+"q": "What is UPC-E?",
+"a": "A shortened 8-digit version for very small packages. This tool generates UPC-A."
+},
+{
+"q": "Is this barcode generator free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark, for personal and commercial use."
+},
+{
+"q": "Can I download the barcode as SVG?",
+"a": "Yes. Every barcode is available as PNG and as a vector SVG for print."
+},
+{
+"q": "Can I make many barcodes at once?",
+"a": "Yes. Paste one value per line in the Bulk box and download a ZIP of PNG and SVG files."
+},
+{
+"q": "What size should I print a barcode?",
+"a": "Print retail codes near their nominal size, keep the white margins and use 300 dpi or the SVG file."
+},
+{
+"q": "Do I need to register the barcode number?",
+"a": "For retail EAN/UPC codes on products sold in shops, yes – get a company prefix from GS1. Internal codes need no registration."
+},
+{
+"q": "Is my data uploaded?",
+"a": "No. The barcode is created in your browser and nothing is sent to a server."
+}
+],
+"related": [
+"barcode-generator",
+"ean-13-barcode-generator",
+"code-39-barcode-generator",
+"qr-code-scanner",
+"qr-code-generator"
+],
+"updated": "2026-10-25"
+}
+},
+"bc_code39": {
+"seo": {
+"title": "Code 39 Barcode Generator Free – Letters & Numbers, SVG",
+"desc": "Create Code 39 barcodes free for asset tags, ID badges and inventory. Letters, digits and symbols, PNG or SVG, bulk ZIP. No upload.",
+"compareTitle": "{tool}: {brand} vs TEC-IT, Free Barcode Generator and Cognex",
+"compareCols": [
+"barcode.tec-it.com",
+"Free-barcode-generator.net",
+"Cognex"
+],
+"sections": [
+[
+"Free Code 39 barcode generator",
+"Code 39 (also called Code 3 of 9) encodes upper-case letters, digits and a few symbols, and can be read by virtually every barcode scanner ever made. That makes it a favourite for asset tags, ID badges, inventory bins and industrial labels. Type the value, adjust the size and download a PNG or SVG – or paste a list to create hundreds at once."
+],
+[
+"How to make it",
+{
+"steps": [
+"Type the value using A–Z, 0–9, space and - . $ / + %.",
+"Set bar width and height – Code 39 is wider than Code 128 for the same data.",
+"Download PNG or SVG, or use Bulk for a ZIP."
+]
+}
+],
+[
+"Code 39 character set and start/stop",
+"Code 39 supports 43 characters: A–Z, 0–9, space, minus, full stop, dollar, slash, plus and percent. Each character is drawn with nine elements – five bars and four spaces – three of which are wide, hence the name *3 of 9*. Every Code 39 barcode starts and ends with an asterisk (*) that scanners use to find the code; the generator adds it automatically, so do not type it. Lower-case letters are not part of standard Code 39 – type in capitals or use Code 128."
+],
+[
+"Code 39 vs Code 128",
+{
+"table": [
+[
+"",
+"Code 39",
+"Code 128"
+],
+[
+"Characters",
+"43 (upper case, digits, 7 symbols)",
+"All 128 ASCII"
+],
+[
+"Width for the same data",
+"Wider",
+"More compact"
+],
+[
+"Check digit",
+"Optional (mod 43)",
+"Mandatory (mod 103)"
+],
+[
+"Scanner support",
+"Universal, including very old devices",
+"Universal on modern scanners"
+],
+[
+"Best for",
+"Asset tags, badges, legacy systems",
+"Shipping, logistics, new systems"
+]
+]
+}
+],
+[
+"Using Code 39 in Word or Excel",
+"Many guides suggest installing a Code 39 font and typing the value between asterisks. That works, but fonts can be substituted when a file is shared, breaking the barcode. Inserting the PNG or SVG image from this generator keeps the barcode intact on every computer; for a list, paste the column into Bulk and insert the numbered images."
+],
+[
+"Download PNG or vector SVG",
+"Every barcode can be saved as a PNG image and as an SVG vector file. PNG is right for Word, Google Docs, label software and web pages; choose 2× or 3× resolution for print so the bars stay crisp. SVG scales to any size without blurring, which is what printers, packaging designers and tools like Illustrator, Inkscape, Affinity and Canva prefer. The SVG contains real rectangles, not an embedded picture."
+],
+[
+"Bulk barcode generation",
+"Paste a list of values – one per line – into the *Bulk* box and the tool generates every barcode at once and downloads a ZIP with a numbered PNG and SVG for each value. Invalid entries (for example a wrong EAN check digit) are skipped and listed, so you can fix them. This is ideal for product catalogues, inventory labels, library cards and event tickets exported from a spreadsheet: copy the column from Excel or Google Sheets and paste."
+],
+[
+"Printing barcodes that scan first time",
+{
+"list": [
+"Keep the quiet zone – the white margin either side of the bars. The generator adds one automatically; do not crop it.",
+"Print dark bars on a light background. Black on white is safest; red bars are invisible to many laser scanners.",
+"Do not shrink retail barcodes much below their nominal size (about 37 × 26 mm for EAN-13).",
+"Use 300 dpi or more, or the SVG file, for labels and packaging.",
+"Test with a phone scanner such as our [QR & barcode scanner](/qr-code-scanner/) before printing a large run."
+]
+}
+],
+[
+"Barcode types compared",
+{
+"table": [
+[
+"Symbology",
+"Characters",
+"Length",
+"Typical use"
+],
+[
+"Code 128",
+"All 128 ASCII characters",
+"Variable",
+"Shipping labels, logistics, GS1-128"
+],
+[
+"EAN-13",
+"Digits",
+"13 (12 + check digit)",
+"Retail products worldwide"
+],
+[
+"EAN-8",
+"Digits",
+"8 (7 + check digit)",
+"Small retail packages"
+],
+[
+"UPC-A",
+"Digits",
+"12 (11 + check digit)",
+"Retail products in the US and Canada"
+],
+[
+"Code 39",
+"A–Z, 0–9, space and - . $ / + %",
+"Variable",
+"Industry, defence, ID badges, asset tags"
+],
+[
+"ITF-14",
+"Digits",
+"14",
+"Outer cartons and cases"
+],
+[
+"Codabar",
+"0–9 and - $ : / . + with A–D start/stop",
+"Variable",
+"Libraries, blood banks, couriers"
+],
+[
+"MSI",
+"Digits",
+"Variable",
+"Warehouse shelf labels"
+],
+[
+"Pharmacode",
+"Number 3–131070",
+"—",
+"Pharmaceutical packaging control"
+]
+]
+}
+],
+[
+"Free barcode vs registered GS1 number",
+"Anyone can draw a barcode, but the *number* inside a retail barcode (EAN or UPC) must be unique worldwide. For products sold through shops and marketplaces such as Amazon you normally need a company prefix licensed from GS1, the not-for-profit organisation that manages these numbers. For internal use – stock rooms, assets, libraries, tickets – you can use any numbering scheme and a symbology like Code 128 or Code 39. This tool creates the image; it does not issue or register numbers."
+],
+[
+"Privacy",
+"Barcodes are generated inside your browser with the open-source JsBarcode library (MIT licence). The numbers you type are never uploaded, stored or logged, there is no account, and the page keeps working offline once loaded – handy for unreleased product codes, inventory numbers and internal asset tags."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"PNG + vector SVG",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Bulk list to ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Colours, bar width, height, text size",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What characters can Code 39 encode?",
+"a": "A–Z, 0–9, space and - . $ / + % – 43 characters in total."
+},
+{
+"q": "Do I need to add asterisks?",
+"a": "No. The start and stop asterisks are added automatically."
+},
+{
+"q": "Can Code 39 include lower-case letters?",
+"a": "Not in standard Code 39. Use capitals or switch to Code 128."
+},
+{
+"q": "Why is my Code 39 barcode so wide?",
+"a": "Code 39 uses more space per character than Code 128. Reduce bar width or use Code 128 for long values."
+},
+{
+"q": "Is this barcode generator free?",
+"a": "Yes – free, unlimited, no sign-up and no watermark, for personal and commercial use."
+},
+{
+"q": "Can I download the barcode as SVG?",
+"a": "Yes. Every barcode is available as PNG and as a vector SVG for print."
+},
+{
+"q": "Can I make many barcodes at once?",
+"a": "Yes. Paste one value per line in the Bulk box and download a ZIP of PNG and SVG files."
+},
+{
+"q": "What size should I print a barcode?",
+"a": "Print retail codes near their nominal size, keep the white margins and use 300 dpi or the SVG file."
+},
+{
+"q": "Do I need to register the barcode number?",
+"a": "For retail EAN/UPC codes on products sold in shops, yes – get a company prefix from GS1. Internal codes need no registration."
+},
+{
+"q": "Is my data uploaded?",
+"a": "No. The barcode is created in your browser and nothing is sent to a server."
+}
+],
+"related": [
+"barcode-generator",
+"ean-13-barcode-generator",
+"upc-barcode-generator",
+"qr-code-scanner",
+"qr-code-generator"
+],
+"updated": "2026-10-25"
+}
+},
+"qrscan": {
+"seo": {
+"title": "QR Code Scanner Online – Scan from Image or Camera, Free",
+"desc": "Scan QR codes and barcodes from a photo, screenshot or your camera, free in your browser. Paste screenshots, copy results, export CSV. No upload.",
+"compareTitle": "{tool}: {brand} vs QRCodeScan.in, ScanQR and Google Lens",
+"compareCols": [
+"QRCodeScan.in",
+"ScanQR",
+"Google Lens"
+],
+"sections": [
+[
+"Scan a QR code online, free",
+"This QR code scanner reads QR codes – and, in Chromium-based browsers that support it, product barcodes such as EAN, UPC and Code 128 – from an image, a screenshot or your live camera. Results appear instantly with one-click copy; web links open only when you click them. Paste a screenshot with Ctrl+V, scan many images in one go and export everything as TXT or CSV. Nothing is uploaded: decoding happens on your device."
+],
+[
+"How to scan a QR code from an image",
+{
+"steps": [
+"Click *Choose image* and select one or more photos or screenshots – or simply paste a screenshot with Ctrl+V (⌘V on a Mac).",
+"The codes are decoded in a moment and listed with their type.",
+"Copy any result, or click a link to open it after checking the address.",
+"Press Download to save all results as TXT, or choose CSV for a spreadsheet."
+]
+}
+],
+[
+"How to scan a QR code with your camera",
+{
+"steps": [
+"Click *Use camera* and allow camera access when the browser asks.",
+"Point the camera at the code – the rear camera is used on phones.",
+"Each new code is added to the list automatically; click the button again to stop the camera."
+]
+},
+"Camera access needs a secure (https) page and your permission; the video never leaves your device."
+],
+[
+"Scan a QR code from a screenshot on your phone or PC",
+"A QR code sent to you on WhatsApp, in an e-mail or on a website cannot be pointed at with the same phone's camera. Take a screenshot, open this page and choose the screenshot from your gallery – or on a computer press PrtScn / Shift+⌘+4 and paste straight into the page. The scanner tries several resolutions and both normal and inverted (light-on-dark) colours, so small or stylised codes in screenshots are usually found."
+],
+[
+"What the scanner can read",
+{
+"table": [
+[
+"Content",
+"Example",
+"What you see"
+],
+[
+"Web link",
+"https://example.com",
+"Clickable link"
+],
+[
+"Wi-Fi",
+"WIFI:T:WPA;S:Home;P:secret;;",
+"Network name and password text"
+],
+[
+"Contact card",
+"BEGIN:VCARD …",
+"vCard text you can copy into contacts"
+],
+[
+"E-mail / phone / SMS",
+"mailto:, tel:, SMSTO:",
+"Clickable or copyable"
+],
+[
+"Location",
+"geo:48.85,2.29",
+"Coordinates"
+],
+[
+"Calendar event",
+"BEGIN:VEVENT …",
+"Event text"
+],
+[
+"Crypto payment",
+"bitcoin:bc1…",
+"Address and amount"
+],
+[
+"Plain text",
+"Any text",
+"Text"
+],
+[
+"Product barcodes",
+"EAN-13, UPC-A, Code 128",
+"Number (Chrome on Android, macOS and ChromeOS)"
+]
+]
+},
+"QR decoding uses the open-source jsQR library and works in every modern browser. One-dimensional barcodes rely on the browser's built-in Barcode Detection API, which is available in Chromium-based browsers (Chrome, Edge) on Android, macOS and ChromeOS; where it is missing, QR codes still scan."
+],
+[
+"Stay safe: QR phishing (\"quishing\")",
+"Fake QR codes stuck over parking meters, sent in e-mails or printed on flyers are a growing scam: they lead to look-alike payment or login pages. This scanner never opens a link automatically. Before you click, read the address: check the spelling of the domain, be wary of URL shorteners and unusual endings, and never enter bank or login details on a page reached from an unexpected code. Payment requests should be paid inside your banking or payment app, not on a web page opened from a sticker."
+],
+[
+"Why won't my QR code scan?",
+{
+"list": [
+"The image is too blurry or the code is too small – crop closer or take the photo again in good light.",
+"Part of the code is cut off or covered; all three corner squares must be visible.",
+"Very low contrast or coloured backgrounds – the scanner tries inverted colours, but a pale code on a busy photo may still fail.",
+"Heavy logos or damaged print exceed the code's error correction.",
+"It is not a QR code: Data Matrix, Aztec and PDF417 are read only where the browser's barcode API supports them."
+]
+}
+],
+[
+"Scan many QR codes at once",
+"Select dozens of images – for example photos of event tickets, inventory labels or a stack of screenshots – and every code found is added to one list. Duplicate results are shown once. Download the list as TXT, or as CSV with a *format* and *content* column to open in Excel or Google Sheets for check-in lists and stock counts."
+],
+[
+"Scanner vs phone camera apps",
+"Most phone cameras scan QR codes natively, which is fine when the code is in front of you. A browser scanner is better when the code is already on your screen, when you need the raw text (for example a Wi-Fi password or vCard), when you want to scan a batch of images, or on a laptop without a camera app. It also shows you exactly what is inside the code before anything opens."
+],
+[
+"How to scan a QR code on every device",
+{
+"table": [
+[
+"Device",
+"Built-in option",
+"With this page"
+],
+[
+"iPhone / iPad",
+"Camera app or Control Centre Code Scanner",
+"Safari: choose image from Photos, or use camera"
+],
+[
+"Android",
+"Camera app, Google Lens or quick-settings scanner",
+"Chrome: choose image, paste, or use camera – barcodes too"
+],
+[
+"Windows PC",
+"Camera app (Windows 11) with a webcam",
+"Paste a screenshot (Win+Shift+S then Ctrl+V)"
+],
+[
+"Mac",
+"None for on-screen codes",
+"Paste a screenshot (Shift+⌘+4 then ⌘V)"
+],
+[
+"Chromebook",
+"Camera app QR mode",
+"Paste screenshots, barcodes supported"
+]
+]
+},
+"On computers the paste shortcut is usually the fastest route: capture the area of the screen that shows the code and paste it into this page – there is no need to save a file first."
+],
+[
+"How a QR code stores data",
+"A QR (Quick Response) code is a two-dimensional matrix code invented by Denso Wave in 1994 for tracking car parts. The three large squares in the corners tell the scanner where the code is and which way up it is; the smaller alignment square and the timing patterns help it correct for perspective and curved surfaces. The remaining modules hold the data plus Reed–Solomon error-correction codes, which is why a code can still be read when part of it is dirty, damaged or covered by a logo – up to about 7 %, 15 %, 25 % or 30 % depending on the error-correction level chosen when it was made. A single QR code can store up to 4,296 alphanumeric characters or 7,089 digits, although most codes hold a short web link."
+],
+[
+"Reading Wi-Fi, contact and event codes",
+"Many QR codes contain structured text rather than a link. A Wi-Fi code looks like WIFI:T:WPA;S:NetworkName;P:password;; – the network name follows S: and the password follows P:, so you can copy the password to a laptop that cannot scan codes itself. Contact codes contain a vCard (BEGIN:VCARD … END:VCARD) or MeCard; copy the text into a .vcf file to import it into your address book. Event codes contain a VEVENT with the title, start and end times that you can paste into a calendar. Payment codes start with a scheme such as bitcoin: or upi: followed by the address and amount – always confirm the recipient inside your wallet or banking app."
+],
+[
+"Uses for businesses and events",
+{
+"list": [
+"Check in event tickets from screenshots sent by guests and export the list as CSV.",
+"Read inventory or asset labels with a laptop webcam at a stock count.",
+"Verify that printed menus, posters and packaging point to the right address before a print run.",
+"Recover the link from a QR code in a PDF or slide deck by taking a screenshot.",
+"Audit QR codes on public signage for tampering by comparing the decoded address with the official one."
+]
+}
+],
+[
+"QR codes in PDFs, slides and e-mails",
+"QR codes often arrive inside documents: boarding passes and tickets in PDFs, codes in presentation slides, or images embedded in e-mail newsletters. Open the document, zoom so the code fills a good part of the screen, take a screenshot and paste it here. For a PDF with many pages of codes – for example a batch of tickets – convert the pages to images with [PDF to JPG](/pdf-to-jpg/) and select all the images at once; every code is read and added to the list, ready to export."
+],
+[
+"Other 2D codes you may see",
+{
+"table": [
+[
+"Code",
+"Looks like",
+"Common use",
+"Read here?"
+],
+[
+"QR code",
+"Square, three corner finder squares",
+"Links, payments, Wi-Fi, tickets",
+"Yes, every browser"
+],
+[
+"Data Matrix",
+"Square or rectangle, L-shaped solid border",
+"Electronics, pharma, postage",
+"Where the browser barcode API supports it"
+],
+[
+"Aztec",
+"Square with a bull's-eye centre",
+"Airline and rail boarding passes",
+"Where the browser barcode API supports it"
+],
+[
+"PDF417",
+"Wide stacked rows",
+"Driving licences, ID cards, shipping",
+"Where the browser barcode API supports it"
+]
+]
+},
+"If a 2D code that is not a QR code fails on your computer, try the same image on an Android phone in Chrome, where support for these formats is widest."
+],
+[
+"Tips for a clean scan",
+{
+"list": [
+"Fill the frame: the code should cover at least a quarter of the image width.",
+"Avoid glare on glossy paper and screens – tilt slightly or turn off a nearby lamp.",
+"Keep the camera steady for a second; the scanner checks four frames per second.",
+"For codes printed on curved bottles or cans, photograph straight on.",
+"Clean the camera lens – a smudge is the most common cause of failed scans on phones."
+]
+}
+],
+[
+"Accessibility",
+"Results are listed as text, so screen readers announce the content of each code, and links are ordinary links that can be reached with the keyboard. People who find it hard to aim a phone at a small printed code can photograph it from a comfortable distance and crop or zoom afterwards, then read the result at any text size."
+],
+[
+"Why use a browser scanner instead of an app?",
+"Many free scanner apps in app stores show full-screen adverts, request access to your contacts or location, and send every scanned link to their own servers for \"analytics\" or redirect it through a tracking domain. A web page needs no installation and no permissions beyond the camera, which you can grant for a single visit only. Because this page decodes locally and never rewrites links, the address you see is exactly what the code contains, and your scan history exists only in the open tab until you close it."
+],
+[
+"Create your own QR code",
+"Need to make one rather than read one? Use the free [QR code generator](/qr-code-generator/) for links, or the dedicated [Wi-Fi QR code](/wifi-qr-code-generator/), [vCard QR code](/vcard-qr-code-generator/) and [barcode](/barcode-generator/) generators."
+],
+[
+"Privacy",
+"Images and camera frames are decoded inside your browser tab. Nothing is uploaded, stored or logged, there is no account, and the scanner keeps working offline once the page has loaded – important when codes contain Wi-Fi passwords, tickets, crypto addresses or personal contact details."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Scan from image, screenshot paste and camera",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch images, TXT + CSV export",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Links never open automatically",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I scan a QR code from an image?",
+"a": "Click Choose image and pick the photo or screenshot, or paste it with Ctrl+V. The content appears instantly."
+},
+{
+"q": "How can I scan a QR code on my own phone screen?",
+"a": "Take a screenshot, open this page and choose the screenshot from your gallery."
+},
+{
+"q": "Can I scan QR codes with my laptop camera?",
+"a": "Yes. Click Use camera, allow access and hold the code in front of the webcam."
+},
+{
+"q": "Does it read barcodes too?",
+"a": "Yes, in Chrome and Edge on Android, macOS and ChromeOS, which provide a barcode detection API. QR codes work in every browser."
+},
+{
+"q": "Is it safe to open the link?",
+"a": "Check the address first – the scanner never opens links automatically. Avoid entering passwords or payment details on pages from unknown codes."
+},
+{
+"q": "Can I scan multiple QR codes at once?",
+"a": "Yes. Select many images; all codes are listed and can be exported as TXT or CSV."
+},
+{
+"q": "How do I see a Wi-Fi password from a QR code?",
+"a": "Scan the code; the result shows the network name after S: and the password after P:."
+},
+{
+"q": "Why can't it read my QR code?",
+"a": "The image may be blurred, cropped or low-contrast. Crop closer, retake it in better light, or try a larger screenshot."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Decoding happens on your device and nothing is sent to a server."
+},
+{
+"q": "Is the scanner free?",
+"a": "Yes – free, unlimited, with no app or sign-up."
+}
+],
+"related": [
+"qr-code-generator",
+"barcode-generator",
+"wifi-qr-code-generator",
+"vcard-qr-code-generator",
+"url-to-qr-code"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}

@@ -3,8 +3,8 @@
 TOOLS.qrscan={goLabel:()=>T.o_sdownload,
  async setup(){this.found=[];const el=document.createElement('div');
   el.innerHTML=`<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><label class="btn">🖼️ ${esc(T.o_sfile)}<input id="sfile" type="file" accept="image/*,.heic,.heif" multiple hidden></label><button type="button" class="btn ghost" id="scam">📷 ${esc(T.o_scamera)}</button></div>
-  <video id="svid" playsinline muted style="display:none;width:100%;max-width:480px;margin:12px auto;border-radius:12px"></video><p class="hint" id="sinfo" style="text-align:center">${esc(T.o_shint)}</p><ul class="links" id="sres"></ul>`;
-  $('#sfile',el).onchange=e=>{this.pending=this.scanFiles([...e.target.files]);};$('#scam',el).onclick=()=>this.camera(el);return el;},
+  <video id="svid" playsinline muted style="display:none;width:100%;max-width:480px;margin:12px auto;border-radius:12px"></video><p class="hint" id="sinfo" style="text-align:center">${esc(T.o_shint)} You can also paste a screenshot (Ctrl+V / ⌘V).</p><ul class="links" id="sres"></ul>`;
+  $('#sfile',el).onchange=e=>{this.pending=this.scanFiles([...e.target.files]);};if(!this.pasteBound){this.pasteBound=1;document.addEventListener('paste',e=>{const fs=[...(e.clipboardData?.files||[])].filter(f=>/^image\//.test(f.type));if(fs.length&&document.getElementById('sres')){e.preventDefault();this.pending=this.scanFiles(fs);}});}$('#scam',el).onclick=()=>this.camera(el);return el;},
  add(text,fmt){if(!text||this.found.some(f=>f.text===text))return;this.found.push({text,fmt});const li=document.createElement('li');const url=/^(https?:\/\/|mailto:|tel:)/i.test(text);
   li.innerHTML=`<small>${esc(fmt)}</small> ${url?`<a href="${esc(text)}" target="_blank" rel="noopener nofollow">${esc(text)}</a>`:`<code style="white-space:pre-wrap;word-break:break-all">${esc(text)}</code>`} <button type="button" class="btn ghost" style="padding:2px 8px">${esc(T.o_scopy)}</button>`;
   li.querySelector('button').onclick=()=>navigator.clipboard?.writeText(text);$('#sres',work).appendChild(li);$('#sinfo',work).textContent=`${this.found.length} ${T.o_sfound}`;},
@@ -18,4 +18,4 @@ TOOLS.qrscan={goLabel:()=>T.o_sdownload,
   vd.srcObject=this.stream;vd.style.display='block';await vd.play();const c=document.createElement('canvas');
   const tick=async()=>{if(!this.stream)return;if(vd.videoWidth){c.width=vd.videoWidth;c.height=vd.videoHeight;c.getContext('2d').drawImage(vd,0,0);for(const [t,fm] of await this.decode(c))this.add(t,fm);}setTimeout(tick,250);};tick();},
  async run(){if(this.pending)await this.pending;if(!this.found.length)throw new Error(T.o_snone);
-  return {name:'scan-results.txt',blob:new Blob([this.found.map(f=>`[${f.fmt}] ${f.text}`).join('\n\n')+'\n'],{type:'text/plain'}),info:`${this.found.length} ${T.o_sfound}`};}};
+  return {name:'scan-results.txt',blob:new Blob([this.found.map(f=>`[${f.fmt}] ${f.text}`).join('\n\n')+'\n'],{type:'text/plain'}),extra:[{name:'scan-results.csv',label:'CSV',blob:new Blob(['\ufeffformat,content\n'+this.found.map(f=>[f.fmt,f.text].map(x=>'"'+String(x).replace(/"/g,'""')+'"').join(',')).join('\n')+'\n'],{type:'text/csv'})}],info:`${this.found.length} ${T.o_sfound}`};}};
