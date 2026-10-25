@@ -1,0 +1,11 @@
+// @needs img txt
+const ACS={std:' .:-=+*#%@',detail:" .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",blocks:' ░▒▓█',simple:' .oO@',binary:' 01'};
+TOOLS.ascii={live:true,
+ opts:()=>inp('acw','Width (characters)','range','100','min="20" max="300"')+sel('acs','Characters',[['std','Standard'],['detail','Detailed (70 levels)'],['blocks','Blocks ░▒▓█'],['simple','Simple'],['binary','Binary 0/1']])+chk('aci','Invert (for dark backgrounds)',false)+chk('acc','Colour HTML output',false)+inp('acx','Contrast','range','0','min="-50" max="80"'),
+ setup(){return box(`<p>${copyBtn('acout','Copy text')}</p><pre id="acout" style="font:6px/6px monospace;overflow:auto;max-height:520px;background:#fff;color:#111;padding:8px;border:1px solid #ddd;letter-spacing:0"></pre>`);},
+ async run(files){const f=files[0];if(!this.c||this.cf!==f){this.c=await fileToCanvas(f);this.cf=f;}const c=this.c;const cols=+v('acw')||100;const rows=Math.max(1,Math.round(cols*c.height/c.width*0.5));
+  const s=newCanvas(cols,rows),x=s.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,cols,rows);x.drawImage(c,0,0,cols,rows);const d=x.getImageData(0,0,cols,rows).data;let set=[...ACS[v('acs')]];const inv=vb('aci');const k=(100+(+v('acx')||0))/100;
+  let t='',h='';for(let y=0;y<rows;y++){for(let X=0;X<cols;X++){const i=(y*cols+X)*4;let l=(.299*d[i]+.587*d[i+1]+.114*d[i+2])/255;l=Math.min(1,Math.max(0,(l-.5)*k+.5));const dark=inv?l:1-l;const ch=set[Math.min(set.length-1,Math.floor(dark*set.length))];t+=ch;if(vb('acc'))h+=`<span style="color:rgb(${d[i]},${d[i+1]},${d[i+2]})">${ch===' '?'&nbsp;':esc(ch)}</span>`;}t+='\n';if(vb('acc'))h+='<br>';}
+  const pre=$('#acout',work);if(pre){pre.style.background=inv||vb('acc')?'#111':'#fff';pre.style.color=inv?'#eee':'#111';if(vb('acc'))pre.innerHTML=h;else pre.textContent=t;}
+  if(vb('acc')){const doc=`<!doctype html><meta charset="utf-8"><title>${esc(f.name)} ASCII art</title><body style="background:#111;margin:0;padding:12px"><pre style="font:8px/8px monospace">${h}</pre>`;return {name:base(f.name)+'-ascii.html',blob:new Blob([doc],{type:'text/html'}),extra:[{...txtOut(base(f.name)+'-ascii.txt',t),label:'Plain text (.txt)'}],info:`${cols}×${rows} characters`};}
+  return {...txtOut(base(f.name)+'-ascii.txt',t),info:`${cols}×${rows} characters`};}};

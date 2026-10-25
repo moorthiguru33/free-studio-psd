@@ -1,0 +1,17 @@
+[
+{"id":"imgkb","slug":"compress-image-to-kb","cat":"image","icon":"🎯","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"enOnly":true},
+{"id":"kb20","slug":"compress-image-to-20kb","impl":"imgkb","cat":"image","icon":"20","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"vars":{"kb":"20"},"enOnly":true},
+{"id":"kb50","slug":"compress-image-to-50kb","impl":"imgkb","cat":"image","icon":"50","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"vars":{"kb":"50"},"enOnly":true},
+{"id":"kb100","slug":"compress-image-to-100kb","impl":"imgkb","cat":"image","icon":"100","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"vars":{"kb":"100"},"enOnly":true},
+{"id":"kb200","slug":"compress-image-to-200kb","impl":"imgkb","cat":"image","icon":"200","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":true,"vars":{"kb":"200"},"enOnly":true},
+{"id":"pdf2long","slug":"pdf-to-long-image","cat":"convert","icon":"📜","accept":".pdf","multiple":false,"enOnly":true},
+{"id":"gifcompress","slug":"compress-gif","cat":"image","icon":"🗜","accept":"image/gif,.gif","multiple":true,"maxmb":100,"enOnly":true},
+{"id":"video2frames","slug":"video-to-frames","cat":"media","icon":"🎞","accept":"video/*,.mp4,.mov,.webm,.mkv,.m4v","multiple":false,"maxmb":2000,"enOnly":true},
+{"id":"audiospeed","slug":"change-audio-speed","cat":"media","icon":"⏩","accept":"audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.wma,video/*,.mp4,.mov,.webm,.mkv,.m4v","multiple":false,"maxmb":300,"enOnly":true},
+{"id":"voicerec","slug":"voice-recorder","cat":"media","icon":"🎙","nofile":true,"enOnly":true},
+{"id":"screenrec","slug":"screen-recorder","cat":"media","icon":"⏺","nofile":true,"enOnly":true},
+{"id":"webcam","slug":"webcam-photo","cat":"image","icon":"📸","nofile":true,"enOnly":true},
+{"id":"exif","slug":"exif-viewer","cat":"image","icon":"ℹ","accept":"image/*,.jpg,.jpeg,.png,.webp,.heic,.tif,.tiff","multiple":true,"enOnly":true},
+{"id":"exifrm","slug":"remove-exif-data","impl":"exif","cat":"image","icon":"🧽","accept":"image/*,.jpg,.jpeg,.png,.webp,.heic,.tif,.tiff","multiple":true,"vars":{"mode":"remove"},"enOnly":true},
+{"id":"ascii","slug":"image-to-ascii","cat":"image","icon":"▦","accept":"image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg","multiple":false,"enOnly":true}
+]

@@ -1,0 +1,10 @@
+// @needs img
+// PDF → one long image (pages stacked vertically). Keeps within browser canvas limits.
+TOOLS.pdf2long={
+ opts:()=>sel('plw','Image width',[['1080','1080 px (phones, social)'],['800','800 px'],['1400','1400 px'],['2000','2000 px (sharp)']])+inp('plpg','Pages (blank for all)','text','')+inp('plgap','Gap between pages (px)','number','16','min="0" max="200"')+'<label>Gap / background colour<input id="plbg" type="color" value="#e9ecef"></label>'+sel('plf','Format',[['jpg','JPG'],['png','PNG'],['webp','WEBP']])+chk('plsplit','Split into several images if too tall',true),
+ async run([f],status){const pj=await openPdfjs(await buf(f));const s2=String(v('plpg')||'').trim();const idx=s2?parseRanges(s2,pj.numPages).flatMap(r=>r.idx):[...Array(pj.numPages).keys()];
+  const W=+v('plw')||1080,gap=+v('plgap')||0,MAXH=16000;const pages=[];for(const [k,i] of idx.entries()){status(`Rendering page ${k+1}/${idx.length}`);progress((k+.5)/idx.length*.8);const p=await pj.getPage(i+1);const vp=p.getViewport({scale:1});p.cleanup();pages.push(await renderPage(pj,i+1,W/vp.width));}
+  const groups=[[]];let h=0;for(const c of pages){if(h+c.height>MAXH&&groups.at(-1).length){if(!vb('plsplit'))throw new Error('The result would be taller than browsers allow ('+MAXH+' px). Choose a smaller width, fewer pages or allow splitting.');groups.push([]);h=0;}groups.at(-1).push(c);h+=c.height+gap;}
+  const items=[];for(const [g,list] of groups.entries()){const H=list.reduce((a,c)=>a+c.height,0)+gap*(list.length+1);const o=newCanvas(W+gap*2,H),x=o.getContext('2d');x.fillStyle=v('plbg');x.fillRect(0,0,o.width,H);let y=gap;for(const c of list){x.drawImage(c,gap,y,W,c.height);y+=c.height+gap;}
+   items.push({name:base(f.name)+(groups.length>1?'-part'+(g+1):'')+'-long.'+v('plf'),blob:await encodeCanvas(o,v('plf'),.88)});}
+  const r=await zipOrOne(items,base(f.name)+'-long-images.zip');return {...r,info:`${idx.length} page${idx.length>1?'s':''} → ${items.length} image${items.length>1?'s':''} ${W+gap*2} px wide`};}};

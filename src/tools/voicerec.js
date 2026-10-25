@@ -1,0 +1,21 @@
+// @needs txt media
+// Voice recorder: MediaRecorder from the microphone, live level meter, timer; save as WEBM/OGG/M4A, or convert to MP3/WAV.
+const recMime=kinds=>kinds.find(t=>window.MediaRecorder&&MediaRecorder.isTypeSupported(t))||'';
+const recExt=m=>/mp4/.test(m)?'m4a':/ogg/.test(m)?'ogg':'webm';
+TOOLS.voicerec={live:true,noAdv:true,
+ opts:()=>sel('vrf','Save as',[['mp3','MP3 (plays everywhere)'],['wav','WAV (lossless)'],['orig','Original recording (WEBM / M4A, smallest)']])+chk('vrns','Noise suppression & echo cancellation',true)+chk('vrag','Automatic volume (gain control)',true),
+ setup(){const el=box(`<div class="recui" style="text-align:center"><p class="bigres" id="vrt">0:00</p><canvas id="vrlv" width="300" height="16" style="width:300px;max-width:100%;height:16px;background:#eef0f3;border-radius:8px"></canvas><p><button type="button" class="btn big" id="vrgo">● Record</button> <button type="button" class="btn ghost" id="vrpause" disabled>Pause</button> <button type="button" class="btn ghost" id="vrstop" disabled>■ Stop</button></p><audio id="vrau" controls hidden style="width:100%;max-width:420px"></audio><p class="hint" id="vrmsg">Your browser will ask for microphone permission. Audio is recorded on this device only.</p></div>`);
+  const T0=this;const $e=id=>$('#'+id,el);let rec=null,stream=null,chunks=[],t0=0,acc=0,tm=null,raf=null;
+  const tick=()=>{const s=(acc+(rec&&rec.state==='recording'?Date.now()-t0:0))/1000;$e('vrt').textContent=Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0');};
+  $e('vrgo').onclick=async()=>{try{stream=await navigator.mediaDevices.getUserMedia({audio:{noiseSuppression:vb('vrns'),echoCancellation:vb('vrns'),autoGainControl:vb('vrag')}});}catch(e){$e('vrmsg').textContent='Microphone not available: '+e.message;return;}
+   const mime=recMime(['audio/webm;codecs=opus','audio/mp4','audio/ogg;codecs=opus','audio/webm']);rec=new MediaRecorder(stream,mime?{mimeType:mime}:{});chunks=[];rec.ondataavailable=e=>e.data.size&&chunks.push(e.data);
+   rec.onstop=()=>{stream.getTracks().forEach(t=>t.stop());cancelAnimationFrame(raf);clearInterval(tm);T0.blob=new Blob(chunks,{type:rec.mimeType||mime||'audio/webm'});T0.dur=acc/1000;const a=$e('vrau');a.src=URL.createObjectURL(T0.blob);a.hidden=false;$e('vrgo').disabled=false;$e('vrgo').textContent='● New recording';$e('vrpause').disabled=$e('vrstop').disabled=true;$e('vrmsg').textContent='Recording ready – choose a format and download.';el.dispatchEvent(new Event('input',{bubbles:true}));};
+   const ac=new AudioContext();const an=ac.createAnalyser();an.fftSize=512;ac.createMediaStreamSource(stream).connect(an);const buf2=new Uint8Array(an.fftSize);const cv=$e('vrlv'),cx=cv.getContext('2d');
+   const draw=()=>{an.getByteTimeDomainData(buf2);let m=0;for(const b of buf2)m=Math.max(m,Math.abs(b-128));cx.clearRect(0,0,300,16);cx.fillStyle=m>110?'#c8201b':'#0b7a43';cx.fillRect(0,0,300*m/128,16);raf=requestAnimationFrame(draw);};draw();
+   rec.start(1000);t0=Date.now();acc=0;tm=setInterval(tick,250);$e('vrgo').disabled=true;$e('vrpause').disabled=$e('vrstop').disabled=false;$e('vrau').hidden=true;$e('vrmsg').textContent='Recording…';};
+  $e('vrpause').onclick=()=>{if(!rec)return;if(rec.state==='recording'){rec.pause();acc+=Date.now()-t0;$e('vrpause').textContent='Resume';}else{rec.resume();t0=Date.now();$e('vrpause').textContent='Pause';}tick();};
+  $e('vrstop').onclick=()=>{if(rec&&rec.state!=='inactive'){if(rec.state==='recording')acc+=Date.now()-t0;rec.stop();}};return el;},
+ async run(_,status){if(!this.blob)throw soft('Press ● Record, speak, then press ■ Stop.');const f=v('vrf');const stamp=new Date().toISOString().slice(0,19).replace(/[:T]/g,'-');
+  if(f==='orig')return {name:`recording-${stamp}.${recExt(this.blob.type)}`,blob:this.blob,info:`${fmtSize(this.blob.size)} ${recExt(this.blob.type).toUpperCase()}`};
+  const b=await decodeAudio(new File([this.blob],'rec'));const data=[];for(let c=0;c<b.numberOfChannels;c++)data.push(b.getChannelData(c));const o={data:b.numberOfChannels>1?[data[0]]:data,rate:b.sampleRate};
+  const blob=f==='wav'?wavBlob(o):await mp3Blob(o,128,status);return {name:`recording-${stamp}.${f}`,blob,info:`${fmtT(b.duration)} · ${f.toUpperCase()} · ${fmtSize(blob.size)}`};}};
