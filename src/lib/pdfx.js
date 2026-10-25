@@ -39,13 +39,14 @@ const runsWidth=(runs,size)=>runs.reduce((a,r)=>a+runW(r,size),0);
 // visual order of runs: reverse right-to-left sequences (base direction from the first strong run)
 function visualRuns(runs,forceBase){const strong=r=>r.rtl?1:/[^\s\d.,:;!?'"()\[\]\-–—\/+*%&@#]/.test(r.t)?0:-1;const base=forceBase!=null?forceBase:runs.map(strong).find(x=>x>=0)===1;
   const out=base?[...runs].reverse():[...runs];const want=base?0:1;for(let i=0;i<out.length;){if(strong(out[i])!==want){i++;continue;}let j=i;while(j+1<out.length&&strong(out[j+1])!==(1-want))j++;while(j>i&&strong(out[j])!==want)j--;out.splice(i,j-i+1,...out.slice(i,j+1).reverse());i=j+1;}return out;}
-function drawShaped(page,r,{x,y,size,color,opacity=1,rotate=0}){const P=window.PDFLib;const emb=r.font.embedder;const k=size/r.upem,a=rotate*Math.PI/180,c=Math.cos(a),s=Math.sin(a);
-  page.setFont(r.font);const key=page.fontKey;const ops=[P.pushGraphicsState()];if(opacity<1){const gs=page.maybeEmbedGraphicsState({opacity});if(gs)ops.push(P.setGraphicsState(gs));}
+function drawShaped(page,r,{x,y,size,color,opacity=1,rotate=0,noAT=false}){const P=window.PDFLib;const emb=r.font.embedder;const k=size/r.upem,a=rotate*Math.PI/180,c=Math.cos(a),s=Math.sin(a);
+  page.setFont(r.font);const key=page.fontKey;const ops=[P.pushGraphicsState()];// RTL: marked content with /ActualText in logical order so copy/paste and search are correct in every reader
+  if(r.rtl&&noAT===false)ops.push(P.PDFOperator.of('BDC',[P.PDFName.of('Span'),page.doc.context.obj({ActualText:P.PDFHexString.fromText(r.t)})]));if(opacity<1){const gs=page.maybeEmbedGraphicsState({opacity});if(gs)ops.push(P.setGraphicsState(gs));}
   ops.push(P.setFillingColor(color||P.rgb(0,0,0)),P.beginText(),P.setFontAndSize(key,size));let pen=0;
   for(const g of r.glyphs){const fg=emb.font.getGlyph(g.g,g.cps);if(!fg.codePoints.length&&g.cps.length)fg.codePoints=g.cps;const sid=emb.subset.includeGlyph(fg);emb.glyphs[sid-1]=fg;emb.glyphIdMap.set(fg.id,sid);
    const gx=(pen+g.dx)*k,gy=g.dy*k;ops.push(P.setTextMatrix(c,s,-s,c,x+gx*c-gy*s,y+gx*s+gy*c),P.showText(P.PDFHexString.of(sid.toString(16).padStart(4,'0'))));pen+=g.ax;}
-  emb.glyphCache.invalidate();ops.push(P.endText(),P.popGraphicsState());page.pushOperators(...ops);}
-function drawRuns(page,runs,{x,y,size,color,opacity=1,rotate=0}){const {degrees}=window.PDFLib;const a=rotate*Math.PI/180;for(const r of visualRuns(runs)){if(r.glyphs)drawShaped(page,r,{x,y,size,color,opacity,rotate});else page.drawText(r.t,{x,y,size,font:r.font,color,opacity,rotate:degrees(rotate)});const w=runW(r,size);x+=w*Math.cos(a);y+=w*Math.sin(a);}}
+  emb.glyphCache.invalidate();ops.push(P.endText());if(r.rtl&&noAT===false)ops.push(P.PDFOperator.of('EMC'));ops.push(P.popGraphicsState());page.pushOperators(...ops);}
+function drawRuns(page,runs,{x,y,size,color,opacity=1,rotate=0,noAT=false}){const {degrees}=window.PDFLib;const a=rotate*Math.PI/180;for(const r of visualRuns(runs)){if(r.glyphs)drawShaped(page,r,{x,y,size,color,opacity,rotate,noAT});else page.drawText(r.t,{x,y,size,font:r.font,color,opacity,rotate:degrees(rotate)});const w=runW(r,size);x+=w*Math.cos(a);y+=w*Math.sin(a);}}
 async function drawText(doc,page,text,o){const runs=await textRuns(doc,text,o.bold);drawRuns(page,runs,o);return runsWidth(runs,o.size);}
 const hex2rgb=h=>{const {rgb}=window.PDFLib;const c=(h||'#000000').match(/\w\w/g).map(x=>parseInt(x,16)/255);return rgb(...c);};
 const POS=()=>[['bc','Bottom center'],['br','Bottom right'],['bl','Bottom left'],['tc','Top center'],['tr','Top right'],['tl','Top left']];
@@ -72,3 +73,8 @@ function detectSkew(c,maxA){const s=Math.min(1,1000/Math.max(c.width,c.height));
 function diffLines(a,b){const n=a.length,m=b.length;if(n*m>25e6)throw new Error('Documents too large to compare in the browser');const dp=Array.from({length:n+1},()=>new Uint32Array(m+1));for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)dp[i][j]=a[i]===b[j]?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
  const ops=[];let i=0,j=0;while(i<n&&j<m){if(a[i]===b[j]){ops.push({t:'=',i,j});i++;j++;}else if(dp[i+1][j]>=dp[i][j+1])ops.push({t:'-',i:i++});else ops.push({t:'+',j:j++});}while(i<n)ops.push({t:'-',i:i++});while(j<m)ops.push({t:'+',j:j++});return ops;}
 function wordDiff(x,y){const a=x.split(/(\s+)/),b=y.split(/(\s+)/);const ops=diffLines(a,b);let l='',r='';for(const o of ops){if(o.t==='=')l+=esc(a[o.i]),r+=esc(b[o.j]);else if(o.t==='-')l+=`<del>${esc(a[o.i])}</del>`;else r+=`<ins>${esc(b[o.j])}</ins>`;}return [l,r];}
+
+// wrap a whole line in one /ActualText span (logical order) so multi-word RTL lines copy correctly
+function lineActualText(page,text,fn,font,size){const P=window.PDFLib;page.pushOperators(P.PDFOperator.of('BDC',[P.PDFName.of('Span'),page.doc.context.obj({ActualText:P.PDFHexString.fromText(text)})]));fn();
+  // some readers (poppler) need a current font when the span closes
+  if(font){page.setFont(font);page.pushOperators(P.setFontAndSize(page.fontKey,size));}page.pushOperators(P.PDFOperator.of('EMC'));}
