@@ -88,3 +88,8 @@ ul.files .nm{font-size:.82rem;font-weight:600;white-space:nowrap;overflow:hidden
 .cmp table{width:100%;border-collapse:collapse;font-size:.95rem}.cmp th,.cmp td{border:1px solid #ddd;padding:.5rem;text-align:left}.cmp thead th{background:#f6f6f6}
 .foot .legal{margin:1rem 0}.page{max-width:760px;margin:2rem auto;line-height:1.65}
 .foot .legal a{color:#555}
+
+.tool[data-nofile="true"]{min-height:760px}
+@media(min-width:760px){.tool[data-nofile="true"]{min-height:430px}}
+@media(min-width:1000px){.tool[data-nofile="true"]{min-height:480px}}
+@media(max-width:999px){.isnofile .custom{min-height:300px}.isnofile[data-tool=invoice] .custom,.isnofile[data-tool=colorpicker] .custom{min-height:0}}

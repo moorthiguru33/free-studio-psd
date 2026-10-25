@@ -53,10 +53,6 @@
    ],
    "faq": [
     {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
-    {
      "q": "Which videos work?",
      "a": "Any video your browser can play – MP4, MOV, WEBM and most MKV files."
     }
@@ -73,12 +69,7 @@
     "Choose MP3 or WAV and the quality.",
     "Download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "wav2mp3": {
    "name": "WAV to MP3",
@@ -91,12 +82,7 @@
     "Pick a bitrate.",
     "Download the MP3."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "mp32wav": {
    "name": "MP3 to WAV",
@@ -109,12 +95,7 @@
     "Keep WAV selected.",
     "Download the WAV."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "audiocompress": {
    "name": "Compress MP3",
@@ -128,10 +109,6 @@
     "Download the smaller file."
    ],
    "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
     {
      "q": "How much smaller?",
      "a": "64 kbps mono is typically 4–5× smaller than a 256 kbps stereo MP3 – fine for speech."
@@ -149,12 +126,7 @@
     "Click the waveform to set start and end.",
     "Download the clip."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "videotrim": {
    "name": "Trim Video",
@@ -168,10 +140,6 @@
     "Download the trimmed MP4."
    ],
    "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
     {
      "q": "Is it fast?",
      "a": "With High quality and no resizing, the video is copied without re-encoding when possible."
@@ -189,12 +157,7 @@
     "Pick an aspect ratio.",
     "Download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "videocompress": {
    "name": "Compress Video",
@@ -208,10 +171,6 @@
     "Download the smaller video."
    ],
    "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
     {
      "q": "Why does it take a while?",
      "a": "The video is re-encoded on your own device; long or 4K videos take time."
@@ -229,12 +188,7 @@
     "Choose the format.",
     "Download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "video2gif": {
    "name": "Video to GIF",
@@ -247,12 +201,7 @@
     "Choose start, length and size.",
     "Download the GIF."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "gif2mp4": {
    "name": "GIF to MP4",
@@ -265,12 +214,7 @@
     "Choose MP4 or WebM.",
     "Download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   }
  }
 }

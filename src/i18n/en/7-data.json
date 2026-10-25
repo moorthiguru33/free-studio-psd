@@ -24,12 +24,7 @@
     "Pick the output format.",
     "Download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "csv2json": {
    "name": "CSV to JSON",
@@ -43,10 +38,6 @@
     "Download the JSON."
    ],
    "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
     {
      "q": "How are headers used?",
      "a": "The first row becomes the JSON keys. A header like address.city becomes a nested object."
@@ -64,12 +55,7 @@
     "Choose a delimiter.",
     "Download the CSV."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "csv2excel": {
    "name": "CSV to Excel",
@@ -82,12 +68,7 @@
     "Keep Excel (XLSX) selected.",
     "Download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "excel2csv": {
    "name": "Excel to CSV",
@@ -100,12 +81,7 @@
     "Pick the delimiter.",
     "Download the CSV (zip if several sheets)."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "excel2json": {
    "name": "Excel to JSON",
@@ -118,12 +94,7 @@
     "Choose the options.",
     "Download the JSON."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "json2excel": {
    "name": "JSON to Excel",
@@ -136,12 +107,7 @@
     "Keep Excel selected.",
     "Download the XLSX."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "zipcreate": {
    "name": "Create ZIP",
@@ -154,12 +120,7 @@
     "Name the ZIP and pick compression.",
     "Download the ZIP."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "unzip": {
    "name": "Unzip Files",
@@ -173,10 +134,6 @@
     "Tap any file to download it."
    ],
    "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
     {
      "q": "Are password-protected ZIPs supported?",
      "a": "Not yet – encrypted ZIPs cannot be opened."

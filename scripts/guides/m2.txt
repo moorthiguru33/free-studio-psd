@@ -1,0 +1,321 @@
+rotate
+Rotating vs re-scanning
+Re-scanning a sideways document wastes time and can reduce quality. Rotating a PDF only changes the page orientation instruction stored in the file, so text, images and file size stay exactly the same. The result opens correctly in Adobe Reader, browsers, Preview, phone viewers and printers.
+Mixed orientations
+Reports often mix portrait text pages with landscape tables or charts. Rotate only the landscape pages with Organize PDF so each page reads naturally on screen, then print with “auto-rotate” enabled.
+
+unlock
+Owner vs user passwords
+PDFs can have an open password (needed to view) and permissions passwords that restrict printing, copying or editing. When you know the password, unlocking removes the protection so you can work with the file normally.
+Legal and safe use
+Only unlock documents you own or are authorised to access, such as your own bank statements, utility bills or payslips. After unlocking, store the file securely – it no longer has protection.
+
+protect
+How PDF encryption works
+AES-256 is the strongest encryption defined in the PDF standard and is supported by Adobe Reader, Chrome, Edge, Firefox, macOS Preview and modern mobile viewers. Without the password, the content cannot be read.
+Choosing a strong password
+Use at least 12–16 characters mixing words, numbers and symbols. A passphrase like “Coffee-Window-42-Orbit” is both strong and memorable. Never send the password in the same email as the file.
+
+organize
+One tool for page clean-up
+Instead of using separate tools to rotate, delete and reorder pages, Organize PDF shows the whole document as a page grid. Make all changes at once and export a single clean PDF.
+Typical clean-up workflow
+Scan a batch of documents, delete blank pages, rotate sideways ones, drag pages into order and export. Then compress the result if you need to email it.
+
+bc_upc
+UPC-A structure
+A UPC-A barcode has 12 digits: a company prefix assigned by GS1 US, an item reference you choose and a final check digit. It is printed with the digits underneath so cashiers can type them if scanning fails.
+Printing guidelines
+The nominal size is about 37.3 × 25.9 mm (1.47 × 1.02 in); it can be scaled roughly 80–200%. Print dark bars on a light background, keep the quiet zones clear and avoid red bars, which many scanners cannot read.
+
+pdf2tiff
+TIFF in professional workflows
+Many document management systems, legal e-discovery platforms, fax gateways and archives accept multi-page TIFF as a standard. Each PDF page becomes a frame in a single TIFF file.
+Resolution and size
+200 DPI is fine for text documents, 300 DPI is the archiving standard, and grayscale or colour affects size greatly. A 10-page colour document at 300 DPI can be tens of megabytes, while grayscale is much smaller.
+
+bc_ean13
+EAN-13 structure
+EAN-13 encodes a GS1 prefix (identifying the issuing country organisation, not where products are made), a company number, an item number and a check digit. ISBNs for books are EAN-13 codes starting with 978 or 979.
+Printing guidelines
+The standard size is about 37.3 × 25.9 mm and can be scaled roughly 80–200%. Use SVG for print, keep the white quiet zones, and test with a phone scanner app before ordering labels.
+
+deskew
+Why straight pages matter
+Even a 1–2° tilt makes documents look careless and can confuse OCR software, reducing recognition accuracy and causing lines of text to merge. Deskewing corrects the angle by analysing text lines on each page.
+Best workflow for scans
+Deskew first, then crop margins, then run OCR PDF, and finally compress the file. Following this order gives a clean, searchable and small document.
+
+bc_code39
+Where Code 39 is used
+Code 39 is self-checking and simple, which made it popular in automotive, defence, healthcare and asset tracking, and for ID badges. It can encode upper-case letters, so it works for serial numbers like “ASSET-0042”.
+Size considerations
+Code 39 is less compact than Code 128, so long values make wide barcodes. For small labels with long codes, choose Code 128 in the Barcode Generator.
+
+rtf2pdf
+About RTF
+Rich Text Format was created by Microsoft in the 1980s and is still produced by WordPad, TextEdit and many older applications and legal or medical systems. It stores text with simple formatting in a plain-text-like file.
+When to convert
+Convert RTF to PDF to share documents that look the same everywhere, to archive older files, or to submit documents to portals that only accept PDF.
+
+meme
+Meme anatomy
+The classic meme layout uses bold white text with a black outline at the top and bottom of an image, which stays readable on any background. Keep the setup at the top and the punchline at the bottom.
+Use images responsibly
+Use your own photos or images you have the right to use, and avoid content that harasses or misleads. For social platforms, square or 4:5 images display best in feeds.
+
+compare
+When to compare PDFs
+Use Compare PDF whenever you receive a “final” version of a contract, policy, specification or academic paper. Small changes in numbers, dates or liability clauses are easy to miss when reading.
+Reading the results
+Removed text is marked in one colour and added text in another, side by side, so you can review each change and ask about anything unexpected before signing.
+
+pdf2svg
+SVG for designers and developers
+SVG is an XML-based vector format that scales without quality loss and can be styled with CSS. Converting PDF artwork to SVG lets you edit logos, icons, charts and maps in Figma, Inkscape or Illustrator, or embed them on websites.
+What to expect
+Vector content stays vector, while photos remain embedded images. Very complex pages can produce large SVG files; convert only the pages you need.
+
+md2pdf
+Markdown features supported
+Headings, bold, italic, links, ordered and unordered lists, tables, block quotes, inline code and fenced code blocks are rendered in a clean, readable style. This covers most README files, documentation and notes.
+Tips
+Use a blank line between paragraphs and before lists. Choose A4 or Letter to match where the document will be printed.
+
+pdf2md
+Why Markdown?
+Markdown is plain text with simple symbols for structure, readable by humans and machines alike. It is used by GitHub, wikis, Obsidian, Notion imports and many AI tools, making PDF content easier to edit, version and reuse.
+Cleaning up
+After conversion, check heading levels, merge lines split across columns and tidy tables, which PDFs do not store as structured data.
+
+pdf2txt
+Plain text use cases
+Text files are tiny, open on any device and are ideal for word counts, translation, search indexing, data analysis or pasting into AI assistants. Removing formatting also helps screen readers and accessibility tools.
+Reading order
+Text is extracted in reading order and lines are joined into paragraphs, but multi-column layouts may need small corrections.
+
+resizepdf
+Common paper sizes
+A4 (210 × 297 mm) is standard in most of the world; US Letter (8.5 × 11 in) and Legal (8.5 × 14 in) are used in North America. A3 is common for drawings and A5 for booklets.
+Resize vs compress
+Resizing changes the physical page dimensions; it does not shrink file size. To reduce megabytes, use Compress PDF.
+
+barcode
+Choosing a symbology
+Code 128 is compact and encodes all ASCII characters – the best general choice. EAN-13 and UPC-A are for retail products. ITF-14 is used on shipping cartons. Code 39 suits badges and assets. Codabar is used in some libraries and blood banks.
+Printing tips
+Print at high contrast, keep quiet zones clear and test with the scanner you will actually use. SVG output stays sharp at any size.
+
+collage
+Layout ideas
+Two columns work well for before-and-after pairs, three or four for event highlights, and larger grids for product catalogues or mood boards. A thin white or dark gap gives a clean, modern look.
+Sizes for social media
+Square (1080 × 1080) and portrait 4:5 (1080 × 1350) collages display best in social feeds; landscape suits presentations and blogs.
+
+edit
+What you can edit
+Add new text anywhere – names, dates, notes, answers on forms – choose its size and colour, and cover unwanted content with white-out boxes. It is ideal for quick fixes when you do not have the original document.
+Limitations
+Existing text is not directly editable; cover it and type over it. For permanent removal of sensitive information, use Redact PDF.
+
+audiocut
+Precise cuts
+Zoom into the waveform to cut exactly between words or beats. Short fades of 0.5–1 second remove clicks at the cut points and make clips sound professional.
+
+videotrim
+Trim before sharing
+Trimming first reduces upload time, storage and the need for heavy compression. It is the quickest way to share just the moment that matters.
+
+word2pdf
+Why send PDF instead of Word
+Word documents can look different on another computer because of missing fonts or different software versions. A PDF preserves the layout, is harder to modify accidentally and is accepted by virtually every job portal and organisation.
+Compatibility
+DOCX files from Microsoft Word, Google Docs (downloaded as DOCX), LibreOffice and Pages exports are supported.
+
+pdf2html
+Accessibility and SEO
+Web pages are easier to read on phones, work better with screen readers and are indexed more fully by search engines than PDFs. Converting important content to HTML helps more people find and read it.
+Publishing workflow
+Convert, paste into your CMS, add images and links, then keep the PDF available as an optional download.
+
+sign
+Electronic signatures
+Visual e-signatures are widely accepted for everyday agreements in many countries. Some documents, such as certain legal or government filings, may require certificate-based digital signatures – check local rules when in doubt.
+Signing on a phone
+Draw your signature with a finger, place it on the right page and resize it to fit the signature line.
+
+pdf2jpg
+JPG or PNG?
+JPG gives smaller files for pages with photos. PNG keeps text and line art perfectly sharp and supports lossless quality. For screenshots of documents shared in chats, PNG at 2x is usually the best balance.
+Resolution guide
+1x is good for previews, 2x for most screens and documents, 3x for printing or zooming into details.
+
+enlarge
+Resampling explained
+Lanczos resampling calculates new pixels from surrounding ones, producing smoother edges than simple pixel doubling, and gentle sharpening restores crispness. It works quickly in your browser without sending photos anywhere.
+
+gifmaker
+Frame timing
+Frame delay controls speed: 100 ms per frame is 10 fps, good for smooth animations; 500–1000 ms suits slideshows. Loop forever for reactions and demos, or play once for presentations.
+
+imgrotate
+EXIF orientation
+Phones often store orientation as metadata rather than rotating pixels, and some websites ignore it – which is why photos appear sideways after upload. Rotating here applies the rotation to the pixels so the image looks correct everywhere.
+
+invoice
+What a good invoice includes
+Your business name and contact details, the client's details, a unique invoice number, issue and due dates, itemised lines with quantities and prices, applicable taxes such as VAT, GST or sales tax, the total and payment instructions.
+Currencies and formats
+Choose any currency symbol and decimal format to bill international clients in USD, EUR, GBP or their local currency.
+
+pagesize
+A4 vs Letter
+A4 is slightly narrower and taller than US Letter. Printing A4 on Letter paper (or the reverse) can cut off headers and footers; converting the page size first ensures everything fits with balanced margins.
+
+removemeta
+Hidden data in PDFs
+Metadata can reveal the author's name, organisation, software versions, editing times and original file paths. Journalists, lawyers and researchers remove it before publishing or submitting documents for anonymous review.
+
+img2gif
+Slideshow GIF tips
+Use images of the same size and orientation for a smooth result, keep 3–10 frames for small files and set 0.5–1 second per frame for photos.
+
+rasterize
+When rasterizing helps
+Complex PDFs with transparency, unusual fonts or layered drawings sometimes print incorrectly or render differently on phones. Converting pages into images guarantees identical output on every device and printer.
+
+webopt
+Why optimise PDFs for the web
+Large, bloated PDFs load slowly on mobile data and can hurt user experience. Removing unused objects, duplicate resources and embedded scripts creates a cleaner file that opens faster and is safer to publish.
+
+viewerprefs
+First impressions
+Viewer preferences control how a PDF opens: page layout, which panel is visible and whether the title or file name shows in the window. Setting them makes manuals, catalogues and presentations feel polished.
+
+camera2pdf
+Getting scanner-quality photos
+Place the document on a contrasting surface, use even light without shadows and fill the frame. The tool enhances contrast to give a clean, scanned look that is easier to read and smaller to send.
+
+grayscale
+Ink and toner savings
+Colour cartridges are expensive and many offices default to black-and-white printing. Converting first lets you check readability of charts and highlights before printing, avoiding wasted pages.
+
+overlay
+Letterheads made easy
+Keep your letterhead as a one-page PDF and overlay it onto any document exported from Word, Google Docs or accounting software. Every page gets the same professional branding without editing templates.
+
+searchpdf
+Research and compliance
+Lawyers, auditors and researchers often need to find every document mentioning a name, clause or invoice number. Searching many PDFs at once with page references saves hours of manual review.
+
+flatten
+Why flatten forms
+Interactive form fields can display differently between viewers and can be edited after you submit them. Flattening locks the values into the page so what you send is exactly what the recipient sees.
+
+passgen
+What makes a password strong
+Length matters most: each extra character multiplies the number of possible passwords. A random 16-character password with letters, numbers and symbols would take an attacker longer than the age of the universe to guess by brute force.
+
+qr_mecard
+MeCard format
+MeCard was created by NTT Docomo and uses a compact syntax (MECARD:N:…;TEL:…;EMAIL:…;;). Fewer characters mean fewer QR modules, so codes stay scannable at small print sizes such as badges and stickers.
+
+qr_event
+iCalendar under the hood
+Event QR codes contain a VEVENT entry with title, start and end time and location. Phones offer to add it to Google Calendar, Apple Calendar or Outlook. Include the time zone for events with international attendees.
+
+qr_sms
+Uses in marketing and support
+SMS QR codes power opt-in keywords, competition entries, feedback and appointment requests. Include clear instructions next to the code, such as “Scan to text JOIN to subscribe”.
+
+extractimages
+Original quality
+Images are saved at the resolution stored in the PDF, which is often higher than what appears on screen. This is the best way to recover photos and illustrations from brochures and reports you own.
+
+svg2png
+Choosing the PNG size
+For social media images use around 1080–1200 px; for app stores and print use 2000 px or more. Since SVG is vector, you can render at any size without losing sharpness.
+
+colorpicker
+Colour codes explained
+HEX (#1A68C4) is used in web design and CSS, RGB (26, 104, 196) in screens and software, and HSL describes hue, saturation and lightness – handy for creating lighter or darker shades of a colour.
+
+qr_phone
+International format
+Use the full international number with country code, for example +44 20 7946 0000 or +1 212 555 0100, so the code works for callers from any country.
+
+metadata
+Professional publishing
+A clear title, author and subject make PDFs look professional in browser tabs, document management systems and search results. Update metadata before publishing whitepapers, reports and ebooks.
+
+imgwatermark
+Watermark placement
+A corner watermark is subtle and good for portfolios; a centred or tiled watermark is better protection for preview images. Use 20–40% opacity so the photo remains enjoyable.
+
+qr_social
+One code for your profile
+Point the code to the platform where you are most active, or to a link-in-bio page that lists all your profiles. Print it on packaging, receipts, menus and event banners.
+
+bates
+Bates number format
+A typical Bates number combines a prefix (often a case or party code), a zero-padded sequence and optional suffix, for example SMITH-000123. Positioning in the bottom-right corner is a common convention.
+
+nup
+Paper savings
+Printing 4 pages per sheet double-sided uses one-eighth of the paper of a single-sided, one-page-per-sheet print. It is ideal for drafts, notes and reference copies.
+
+qr_text
+Offline information
+Text QR codes work without internet access, making them useful for equipment labels, museum exhibits, scavenger hunts and emergency information.
+
+txt2pdf
+Fonts and scripts
+The converter embeds Noto fonts so text in many languages and scripts displays correctly on any device, even if the reader does not have those fonts installed.
+
+crop
+Crop for e-readers
+Removing wide margins makes the text larger on small screens, which is especially useful for academic papers and scanned books read on phones, tablets and e-readers.
+
+halve
+Scanned book workflow
+Scan the book two pages at a time, split pages in half, deskew, crop margins and run OCR to create a readable, searchable digital copy for personal use.
+
+qr_bitcoin
+BIP21 payment URIs
+The code contains a bitcoin: URI with your address and optional amount and label. Most wallets read it and pre-fill the payment screen.
+
+qr_email
+How mailto works
+The code contains a mailto: link with recipient, subject and body. Most phones open the default mail app with everything ready to send.
+
+qr_location
+Geo URIs
+The code stores a geo: URI with latitude and longitude, which works without an internet connection and opens in the phone's default maps app.
+
+headerfooter
+Professional documents
+Consistent headers and footers with titles, dates and page numbers make reports, proposals and legal documents easier to navigate and reference.
+
+imgcrop
+Cropping for social media
+Common sizes: square 1080 × 1080 for feeds, 1080 × 1350 for portrait posts, 1080 × 1920 for stories and 1280 × 720 for video thumbnails.
+
+booklet
+How imposition works
+Pages are rearranged so that sheet one carries the last and first pages, sheet two the second and second-to-last, and so on. After folding, everything reads in order.
+
+png2svg
+Tracing explained
+The tool groups similar colours into regions and converts their outlines into smooth vector paths. The fewer colours and the cleaner the edges in your PNG, the better the SVG.
+
+qrscan
+Safety check
+QR codes can hide malicious links. Scanning here shows the full content before you open it, so you can check the destination first.
+
+favicon
+Favicon best practices
+Use a simple, high-contrast symbol or letter, test it on light and dark browser themes and include both ICO and PNG versions for the widest compatibility.
+
+imgresize
+Resizing for the web
+Most websites display images no wider than 1200–2000 px. Resizing large camera photos to that width can reduce file size by 70–90% before any compression.

@@ -36,10 +36,6 @@
    ],
    "faq": [
     {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
-    {
      "q": "How accurate is it?",
      "a": "Exact international definitions (e.g. 1 in = 2.54 cm, 1 lb = 0.45359237 kg), shown to 10 significant digits."
     }
@@ -56,12 +52,7 @@
     "Choose the units.",
     "Read the result."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "umass": {
    "name": "Weight Converter",
@@ -74,12 +65,7 @@
     "Choose the units.",
     "Read the result."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "utemp": {
    "name": "Temperature Converter",
@@ -92,12 +78,7 @@
     "Choose the units.",
     "Read the result."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "uarea": {
    "name": "Area Converter",
@@ -111,10 +92,6 @@
     "Read the result."
    ],
    "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    },
     {
      "q": "What is a cent or a ground?",
      "a": "1 cent = 1/100 acre = 435.6 sq ft. 1 ground (Tamil Nadu) = 2400 sq ft."
@@ -132,12 +109,7 @@
     "Choose the units.",
     "Read the result."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "cm2in": {
    "name": "CM to Inches",
@@ -150,12 +122,7 @@
     "See inches.",
     "Copy or download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "kg2lb": {
    "name": "KG to LBS",
@@ -168,12 +135,7 @@
     "See pounds.",
     "Copy or download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "c2f": {
    "name": "Celsius to Fahrenheit",
@@ -186,12 +148,7 @@
     "See °F.",
     "Copy or download."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "lakh2m": {
    "name": "Lakh to Million",
@@ -204,12 +161,7 @@
     "Choose units.",
     "Read the result."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "timezone": {
    "name": "Time Zone Converter",
@@ -222,12 +174,7 @@
     "Choose the source zone.",
     "See it in up to 3 other zones."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "ist2est": {
    "name": "IST to EST",
@@ -240,12 +187,7 @@
     "See New York time.",
     "Download if needed."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "ist2pst": {
    "name": "IST to PST",
@@ -258,12 +200,7 @@
     "See Pacific time.",
     "Download if needed."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   },
   "utc2ist": {
    "name": "UTC to IST",
@@ -276,12 +213,7 @@
     "See IST.",
     "Download if needed."
    ],
-   "faq": [
-    {
-     "q": "Are my files uploaded?",
-     "a": "No. Everything is processed in your browser; files never leave your device."
-    }
-   ]
+   "faq": []
   }
  }
 }

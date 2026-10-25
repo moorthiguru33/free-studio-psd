@@ -1,0 +1,251 @@
+kg2lb
+Kilograms vs pounds: where each is used
+The kilogram is the SI unit of mass and is used for everyday weights in almost every country. The pound (avoirdupois) is common in the United States and is still used informally in the United Kingdom, often together with stone for body weight. Since 1959 the pound has been defined exactly as 0.45359237 kg, so conversions are precise rather than approximate.
+Quick mental maths
+To estimate pounds, double the kilograms and add 10%: 70 kg × 2 = 140, plus 14 gives about 154 lb (exact: 154.32 lb). To go the other way, halve the pounds and subtract 10%: 200 lb ÷ 2 = 100, minus 10 gives about 90 kg (exact: 90.72 kg). For airline baggage, 23 kg is about 50.7 lb and 32 kg is about 70.5 lb – the two most common checked-bag limits.
+FAQ: How many pounds are in a kilogram?=1 kg equals about 2.20462 lb. || How do I convert pounds to kilograms?=Divide pounds by 2.20462, or multiply by 0.45359237.
+
+ist2pst
+Why the gap changes during the year
+India keeps UTC+05:30 all year, but the US West Coast switches between Pacific Standard Time (UTC−8) and Pacific Daylight Time (UTC−7). Daylight saving starts on the second Sunday of March and ends on the first Sunday of November, so the difference is 13 hours 30 minutes in winter and 12 hours 30 minutes in summer.
+Finding a good meeting slot
+A 9:00 AM meeting in California is 9:30 PM or 10:30 PM in India, while 8:00 AM in India is the previous evening on the West Coast. Many distributed teams use early-morning Pacific / late-evening India slots. Always include both times and the date in invitations, because the calendar day often differs.
+FAQ: Does it handle daylight saving?=Yes. The date you choose determines whether PST or PDT applies. || Is the date different?=Often yes – India is ahead, so evening in California is already the next morning in India.
+
+utc2ist
+What UTC is and why it matters
+Coordinated Universal Time (UTC) is the global reference time used by aviation, servers, satellites and international events. GMT is often used as a synonym in everyday speech. Because UTC never changes for daylight saving, it is the safest way to record timestamps in logs, databases and APIs.
+Reading timestamps correctly
+ISO 8601 timestamps ending in “Z” (for example 2026-03-01T14:00:00Z) are in UTC. Add 5 hours 30 minutes to get India Standard Time: 14:00 UTC is 19:30 IST. When a timestamp has an explicit offset like +05:30 it is already local and needs no conversion.
+FAQ: What is the offset?=IST is UTC+05:30 all year; India does not observe daylight saving. || Is GMT the same as UTC?=For everyday purposes yes; technically UTC is the precise atomic-clock standard.
+
+c2f
+Where Fahrenheit is still used
+Most of the world measures temperature in Celsius, but the United States, some Caribbean nations and a few Pacific territories still use Fahrenheit for weather, cooking and medicine. If you read US recipes, weather apps or medical advice, converting quickly avoids mistakes – especially with oven temperatures.
+Handy reference points
+0 °C = 32 °F (freezing), 20 °C = 68 °F (room temperature), 37 °C = 98.6 °F (normal body temperature), 100 °C = 212 °F (boiling at sea level), and 180 °C ≈ 356 °F, the most common oven setting. The quick estimate “double it and add 30” is accurate within a few degrees for everyday weather.
+FAQ: What is the formula?=°F = °C × 9/5 + 32. || How do I convert Fahrenheit to Celsius?=°C = (°F − 32) × 5/9.
+
+utemp
+Celsius, Fahrenheit and Kelvin explained
+Celsius is based on water freezing at 0° and boiling at 100°. Fahrenheit, used in the US, puts those points at 32° and 212°. Kelvin is the scientific absolute scale: 0 K is absolute zero, and one kelvin is the same size as one degree Celsius, so you simply add 273.15.
+Common conversions
+Oven: 200 °C ≈ 392 °F. Fever: 38 °C = 100.4 °F. Freezer: −18 °C ≈ 0 °F. Room temperature in science is often 298.15 K (25 °C). Note that −40 is the same in both Celsius and Fahrenheit.
+FAQ: What formula is used?=°F = °C × 9/5 + 32 and K = °C + 273.15. || Can Kelvin be negative?=No. 0 K is absolute zero, the lowest possible temperature.
+
+cm2in
+Where the inch is still used
+Even in metric countries, inches appear on TV and monitor sizes, phone screens, bicycle wheels, pipe fittings and denim waist sizes. Paper sizes differ too: A4 is 21 × 29.7 cm (8.27 × 11.69 in) while US Letter is 8.5 × 11 in (21.59 × 27.94 cm).
+Quick estimates
+Divide by 2.5 for a fast estimate, then adjust slightly up: 30 cm ≈ 11.8 in, 50 cm ≈ 19.7 in, 100 cm ≈ 39.4 in. For height, 170 cm is 5 ft 7 in and 180 cm is 5 ft 11 in.
+FAQ: How do I convert cm to inches?=Divide centimetres by 2.54. || How many cm are in a foot?=One foot is exactly 30.48 cm.
+
+umass
+Mass units around the world
+Most countries use grams and kilograms. The US uses ounces and pounds, the UK commonly uses stone for body weight, and precious metals use troy ounces (31.1 g) – different from the ordinary ounce (28.35 g). Some regions also have traditional units for gold and grain, which this converter includes.
+Practical examples
+A 500 g pack is 17.6 oz; a 2 kg bag of flour is 4.4 lb; 80 kg body weight is 12 st 8 lb. When shipping parcels, carriers often round up to the next whole kilogram or pound, so convert before you buy postage.
+FAQ: Is it exact?=Yes, it uses 1 lb = 0.45359237 kg exactly. || What is a stone?=One stone is 14 lb, about 6.35 kg.
+
+ist2est
+Daylight saving and the time difference
+India Standard Time is UTC+05:30 all year. US Eastern Time is UTC−5 (EST) in winter and UTC−4 (EDT) from the second Sunday in March to the first Sunday in November. That makes India 10 h 30 min ahead in winter and 9 h 30 min ahead in summer.
+Scheduling tips
+Overlap is short: 8:00–10:00 AM in New York is 6:30–8:30 PM (summer) or 5:30–7:30 PM (winter) in India. Put both local times in every invitation and let calendar apps convert automatically to avoid missed calls.
+FAQ: Does it handle daylight saving?=Yes, based on the date you choose. || What is the time difference now?=It is 9h30 during US daylight saving time and 10h30 otherwise.
+
+ulength
+Metric and imperial lengths
+The metric system scales by powers of ten, which makes conversions inside it easy: 10 mm = 1 cm, 100 cm = 1 m, 1,000 m = 1 km. Imperial units – inches, feet, yards and miles – are still used in the US, and the UK uses miles for road distances. Since 1959 the inch is defined as exactly 2.54 cm.
+Everyday references
+A marathon is 42.195 km (26.2 mi). A football pitch is roughly 100–110 m long. A standard door is about 2 m (6 ft 8 in) tall. One nautical mile, used at sea and in aviation, is 1,852 m.
+FAQ: Is it exact?=Yes, it uses exact international definitions. || How many feet are in a metre?=One metre is about 3.28084 feet.
+
+lakh2m
+How the two numbering systems group digits
+The international system groups digits in thousands: 1,000,000 is one million. The South Asian system groups the first three digits and then pairs: 10,00,000 is ten lakh – the same number. Business news, salaries and property prices in South Asia are often quoted in lakh and crore, so international readers need a quick translation.
+Key equivalents
+1 lakh = 100,000 (one hundred thousand). 10 lakh = 1 million. 1 crore = 10 million. 100 crore = 1 billion. So a figure of 250 crore equals 2.5 billion.
+FAQ: How many lakh are in a million?=1 million = 10 lakh. || How many crore are in a billion?=1 billion = 100 crore.
+
+videomute
+Why remove audio from a video?
+Background music is a frequent reason for copyright claims on YouTube, Instagram and Facebook. Wind noise, traffic or private conversations can also spoil an otherwise good clip. Muting removes the audio track entirely, so you can post safely or add a fresh soundtrack in an editor later.
+Silent video on websites
+Browsers only autoplay video on page load when it is muted, so silent clips are ideal for website hero backgrounds and product demos. Removing the audio track also makes the file a little smaller.
+FAQ: Does muting re-encode the video?=The video stream is kept and only the audio track is dropped where possible, so picture quality is unchanged. || Can I mute only part of a video?=Not yet – trim the clip first or use a video editor for partial muting.
+
+upscale
+Upscaling vs enlarging
+Both make an image bigger. Upscaling targets a specific multiple (2×, 3×, 4×) to reach a resolution required by a platform or print size. Quality depends on the source: a sharp 1000 px photo upscaled 2× looks far better than a blurry thumbnail upscaled 4×.
+Print size guide
+For printing at 300 DPI, a 10 × 15 cm (4 × 6 in) print needs about 1200 × 1800 px; an A4 or Letter print needs about 2500 × 3500 px. Upscaling helps you reach these sizes, though it cannot add true detail that was never captured.
+FAQ: Is a watermark added?=No, never. || Which format should I save as?=PNG for graphics and screenshots; high-quality JPG for photos.
+
+json2excel
+What JSON looks like in a spreadsheet
+An array of objects maps naturally to rows and columns: each object becomes a row and each key becomes a column header. Nested objects like {"address":{"city":"Paris"}} become a column named address.city, so everything stays flat and filterable in Excel.
+Handling arrays and mixed data
+If objects have different keys, every key gets a column and missing values stay empty. Arrays inside objects are written as text so no data is lost. Numbers stay numeric, so you can sum, sort and build pivot tables immediately.
+FAQ: What JSON structure works best?=An array of objects with similar keys. || Can I open the result in Google Sheets?=Yes, XLSX files open in Excel, Google Sheets, Numbers and LibreOffice.
+
+udata
+Decimal vs binary units
+Storage makers use decimal prefixes (1 GB = 1,000,000,000 bytes), while Windows and some tools show binary values (1 GiB = 1,073,741,824 bytes). That is why a “1 TB” drive shows about 931 GB in Windows – nothing is missing.
+Bits, bytes and internet speed
+Internet speeds are quoted in megabits per second (Mbit/s), file sizes in megabytes (MB). Divide by 8: a 100 Mbit/s connection downloads about 12.5 MB per second in ideal conditions, so a 1 GB file takes around 80 seconds.
+FAQ: Why does my drive show less space?=Manufacturers use decimal units while many operating systems display binary units. || Is a megabit the same as a megabyte?=No. One byte is 8 bits, so 1 MB = 8 Mbit.
+
+timezone
+How time zones and daylight saving work
+There are more than 38 local time offsets in use, including half-hour and 45-minute zones such as India (UTC+05:30) and Nepal (UTC+05:45). Daylight saving is observed in North America, most of Europe and parts of Australia and South America – on different dates – while most of Asia and Africa do not change clocks.
+Tips for international scheduling
+Choose cities rather than abbreviations, because “CST” can mean US Central, China or Cuba Standard Time. Note when Europe and the US change clocks on different weekends in March and October/November: for a week or two the usual gap between London and New York shrinks by an hour.
+FAQ: Is daylight saving handled?=Yes, automatically, based on the selected date. || Where does the time zone data come from?=Your browser's built-in IANA time zone database, updated with your browser.
+
+uarea
+Area units for property and land
+Property listings use square metres in most of the world and square feet in the US, UK (partly), Canada and parts of Asia. Agricultural land is usually measured in hectares or acres. Regional units such as the cent and ground remain common in some local land records, so they are included too.
+Useful equivalents
+1 m² = 10.7639 sq ft. 1 acre = 4,046.86 m² = 43,560 sq ft. 1 hectare = 10,000 m² = 2.471 acres. 1 km² = 100 hectares. A typical football pitch is about 0.7 hectares (1.75 acres).
+FAQ: Which units are included?=Square metres, square feet, acres, hectares and several regional land units. || How many square feet are in a square metre?=About 10.764.
+
+excel2json
+From rows to objects
+Each row below the header row becomes one JSON object, with the header text as keys. Empty cells are skipped or set to null so the output stays clean. Multi-sheet workbooks can be converted sheet by sheet, so a product catalogue and a price list stay separate.
+Good spreadsheet habits
+Use short, unique header names without line breaks; avoid merged cells; keep one record per row. Dates are exported in a readable ISO format so they can be parsed reliably by JavaScript, Python and other languages.
+FAQ: Are formulas exported?=The calculated values are exported, not the formulas. || Which files are supported?=XLSX, XLS and ODS spreadsheets.
+
+video2gif
+Getting small, smooth GIFs
+GIF is an old format limited to 256 colours per frame, so file size grows quickly. The three settings that matter most are width, frame rate and length. A 480 px wide, 12 fps, 4-second clip is usually a few megabytes – fine for chats, docs and emails.
+GIF or MP4?
+Many platforms convert uploaded GIFs to video anyway. Use GIF where autoplay without controls is essential (emails, README files, some forums) and MP4 when the platform supports video, as it is far smaller.
+FAQ: Is there a length limit?=No fixed limit, but GIFs longer than about 10 seconds become very large. || Can I pick a start time?=Yes, set the start and length while previewing the video.
+
+gif2mp4
+Why convert GIFs to video
+Animated GIFs store each frame almost independently, while MP4 (H.264) and WebM use modern compression across frames. The same animation as MP4 is often 5–10× smaller, loads faster and looks smoother, which improves page speed scores.
+Using the result on a website
+Replace a GIF with a muted, looping video tag (autoplay, loop, muted, playsinline) and visitors see the same animation with much less data. On social platforms, MP4 uploads keep better quality than GIF uploads.
+FAQ: Will transparency be kept?=No. MP4 does not support transparency; transparent areas become a solid colour. || Which format should I choose?=MP4 for maximum compatibility, WebM for websites.
+
+videocrop
+Aspect ratios for each platform
+YouTube and most TVs use 16:9. Vertical 9:16 fills a phone screen for YouTube Shorts, Instagram Reels and TikTok. Square 1:1 and portrait 4:5 take up more space in social feeds than landscape video, which can improve engagement.
+Cropping well
+Cropping removes pixels, so a 1920×1080 video cropped to 9:16 becomes about 608×1080. Start from the highest-resolution source you have, keep faces and text inside the frame, and preview the full clip before exporting in case the subject moves.
+FAQ: Does cropping reduce resolution?=Yes, the result contains only the selected area. Start with high-resolution footage for the best result. || Is a watermark added?=No.
+
+excel2csv
+CSV limitations to know
+CSV stores plain values only – no formatting, formulas, colours or multiple sheets. That is why each sheet becomes its own CSV file. Formulas are exported as their calculated results, so the data stays correct even in tools that cannot calculate.
+Separators and encoding
+Some regions use semicolons instead of commas because the comma is the decimal separator. The output is UTF-8, which keeps accented and non-Latin characters intact when imported into databases, CRMs and email tools.
+FAQ: What happens to multiple sheets?=Each sheet becomes a separate CSV file, delivered as a ZIP if there are several. || Are formulas kept?=Their calculated values are exported.
+
+mp32wav
+When you need WAV
+WAV is uncompressed PCM audio, the universal format for audio editors, DAWs, broadcasting systems, telephone on-hold systems and many hardware samplers. Editing a WAV avoids repeated MP3 encoding, which would add artefacts each time you save.
+What to expect
+A WAV file is roughly 10 MB per minute in stereo at 44.1 kHz, about ten times larger than a typical MP3. The sound will be identical to the MP3 you started with: converting cannot restore detail removed by MP3 compression.
+FAQ: Which WAV format is produced?=16-bit PCM WAV, compatible with virtually all software and hardware. || Will it sound better than the MP3?=No, it sounds the same; the benefit is compatibility and lossless editing.
+
+zipcreate
+How ZIP compression helps
+ZIP uses lossless compression, so text files, spreadsheets, code and uncompressed images often shrink by 50–80%. Photos, videos and existing PDFs are already compressed and shrink little – but bundling them into one file still makes sharing much easier.
+Sharing large archives
+Email attachments are often limited to 20–25 MB. For larger archives, upload the ZIP to a cloud drive and share a link instead. ZIP files open natively on Windows, macOS, Linux, iOS and Android.
+FAQ: Is there a file size limit?=Only your device's memory. Very large archives work best on a computer. || Can I add a password?=Not yet. Use Protect PDF for documents or a desktop archiver for encrypted ZIPs.
+
+csv2excel
+Why open CSV via XLSX
+When Excel opens a CSV directly, it guesses formats: leading zeros in postcodes or phone numbers can disappear, long ID numbers turn into scientific notation and accented characters may be garbled. Converting to XLSX first stores proper text and numbers so the data looks right.
+Next steps
+Once in XLSX you can add filters, formulas, charts and pivot tables, or share the file with colleagues who expect a spreadsheet rather than raw text.
+FAQ: Are leading zeros kept?=Yes, values that look like codes are kept as text. || Which delimiter is used?=Commas, semicolons and tabs are detected automatically.
+
+json2csv
+Flattening nested data
+APIs often return nested JSON. Spreadsheets need flat columns, so nested fields become dot-notation headers such as user.name or address.country. Arrays are written as text in one cell so nothing is lost.
+Opening in Excel correctly
+The file includes a UTF-8 byte order mark so Excel shows accents and non-Latin characters correctly. In Google Sheets, use File → Import to load the CSV.
+FAQ: What input is supported?=A JSON array of objects, or an object containing such an array. || Are nested objects supported?=Yes, they become dot.key columns.
+
+unzip
+Opening ZIPs on any device
+Phones and locked-down work computers often lack extraction apps or block installs. This tool lists the contents of a ZIP in your browser and lets you download just the files you need – handy for email attachments and course materials.
+Safety tips
+ZIP files from unknown senders can contain malware. Check the file list before downloading, and be wary of executable files (.exe, .js, .bat, .scr) or files with double extensions such as invoice.pdf.exe.
+FAQ: Can it open password-protected ZIPs?=Not yet – encrypted ZIPs cannot be opened. || Are RAR or 7z files supported?=No, only ZIP archives.
+
+dataconv
+Choosing the right format
+CSV is the simplest and most widely accepted for imports. TSV avoids problems when data contains commas. JSON suits APIs and apps, especially with nested data. XLSX and ODS keep multiple sheets and proper data types for people working in spreadsheets.
+Encoding and special characters
+All conversions use UTF-8, so names like José, Müller or 東京 survive the round trip. When exporting CSV for Excel, a byte order mark is added so characters display correctly.
+FAQ: Is my data uploaded?=No. Spreadsheets and JSON are parsed in your browser and never sent to a server. || Can it handle large files?=Yes, files with hundreds of thousands of rows work on most computers.
+
+wav2mp3
+Choosing a bitrate
+128 kbps is fine for speech and casual listening, 192 kbps is a good all-round choice for music, and 320 kbps is the highest MP3 quality for archiving and DJ use. A 5-minute WAV of about 50 MB becomes about 7 MB at 192 kbps.
+Keep a master copy
+MP3 is lossy: each re-encode loses detail. Keep the original WAV for editing and create MP3s only for sharing and playback.
+FAQ: Can I convert several WAV files at once?=Yes, select multiple files and download them together. || Which bitrate should I use?=192 kbps for music, 128 kbps for speech.
+
+audioconv
+Common audio formats
+M4A/AAC is used by iPhones and many apps; OGG and OPUS are common in messaging apps and browsers; FLAC is lossless music; MP3 is the most compatible. WAV is uncompressed and preferred by editors. Converting to MP3 or WAV makes audio work in virtually every player, car stereo and editor.
+Extracting audio from video
+You can also drop a video file to extract its soundtrack, useful for lectures and recordings.
+FAQ: Which input formats work?=Any format your browser can decode, including M4A, AAC, OGG, OPUS, FLAC, WAV and common video files. || Is the original quality kept?=Converting to WAV preserves the decoded audio exactly; MP3 uses the bitrate you choose.
+
+audiocut
+Making a ringtone
+iPhone ringtones are limited to about 30 seconds and Android works best with short clips too. Cut the chorus or a memorable section, add a short fade-out, export MP3 (Android) or convert to the format your phone needs.
+Editing recordings
+Trim silence at the start and end of voice notes, interviews and podcasts, or extract a short clip to share on social media. The waveform makes quiet and loud sections easy to see.
+FAQ: Can I add fades?=Yes, fade-in and fade-out are available. || Which output formats are available?=MP3 and WAV.
+
+videotrim
+Lossless trimming
+When you keep the original resolution and high quality, the trimmed section can often be copied without re-encoding, which is fast and keeps the exact original quality. Cuts are aligned to the nearest keyframe in that case.
+Platform length limits
+Short-form platforms have length limits for clips, and many messaging apps limit video file size. Trimming to the essential moment keeps viewers engaged and files small.
+FAQ: Is quality lost?=With High quality and no resizing, the video is copied without re-encoding when possible. || Which formats work?=MP4, MOV and WEBM that your browser can play.
+
+videocompress
+How video compression works
+Video size depends mainly on resolution and bitrate. Reducing 4K or 1080p footage to 720p cuts the number of pixels by more than half, and lowering bitrate removes detail the eye rarely notices on a phone screen.
+Recommended settings
+720p at medium quality is ideal for email, chat apps and course uploads. 480p is fine for very small files and speech-only recordings. Keep 1080p for content that will be watched on large screens.
+FAQ: How long does it take?=The video is re-encoded on your device; long or 4K videos take time. || Does it work on phones?=Yes, in modern mobile browsers, though computers are faster for long videos.
+
+audiocompress
+Why speech compresses so well
+Human speech uses a narrow frequency range and does not need stereo, so recordings can be reduced to mono at 48–64 kbps with no loss in clarity. Music needs higher bitrates and stereo to sound good.
+Size examples
+A one-hour lecture at 256 kbps stereo is about 115 MB; at 64 kbps mono it is about 29 MB. That is small enough for most email and messaging apps.
+FAQ: How much smaller can it get?=64 kbps mono is typically 4–5× smaller than a 256 kbps stereo MP3 – fine for speech. || Will music sound worse?=At very low bitrates yes; use 128 kbps stereo or higher for music.
+
+video2mp3
+Choosing quality
+Most video soundtracks are AAC at 128–256 kbps. Exporting MP3 at 192 kbps preserves virtually all of that quality; choosing 320 kbps will not improve audio beyond the source. For lectures and voice, 96 kbps keeps files compact.
+Respecting copyright
+Only extract audio from videos you created or have permission to use. Downloading copyrighted music from streaming services usually breaks their terms of service.
+FAQ: Are videos uploaded?=No. The audio is extracted by your browser on your device. || Which videos work?=Any video your browser can play – MP4, MOV, WEBM and most MKV files.
+
+csv2json
+Type detection
+Values like 42, 3.14, true and false are converted to numbers and booleans, so the JSON is ready to use in code. Empty cells become null. Text that looks numeric but must stay text, such as postcodes with leading zeros, can be kept by turning type detection off.
+Nesting with dot keys
+Headers such as address.city and address.zip create a nested address object, which matches the structure most APIs expect.
+FAQ: How are headers used?=The first row becomes the JSON keys. A header like address.city becomes a nested object. || Which delimiters are supported?=Comma, semicolon and tab are detected automatically.
+
+units
+Why exact definitions matter
+Since 1959 the inch, foot, yard, pound and other imperial units have been defined exactly in metric terms. This converter uses those exact definitions, so results match engineering references rather than rounded rules of thumb.
+Categories included
+Length, mass, temperature, area, volume (including US and UK gallons, which differ), speed, data storage, pressure, energy and large-number units. Type in any field and every other unit updates instantly.
+FAQ: How accurate is it?=Exact international definitions (e.g. 1 in = 2.54 cm, 1 lb = 0.45359237 kg), shown to 10 significant digits. || Are US and UK gallons different?=Yes. A US gallon is 3.785 L; a UK (imperial) gallon is 4.546 L.

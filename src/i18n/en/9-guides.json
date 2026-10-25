@@ -175,7 +175,17 @@
 "Choose PNG for sharp text and diagrams, JPG for smaller photo pages.",
 "Use 2x or 3x resolution if the images will be printed or zoomed."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"JPG or PNG?",
+"JPG gives smaller files for pages with photos. PNG keeps text and line art perfectly sharp and supports lossless quality. For screenshots of documents shared in chats, PNG at 2x is usually the best balance."
+],
+[
+"Resolution guide",
+"1x is good for previews, 2x for most screens and documents, 3x for printing or zooming into details."
+]
+]
 }
 },
 "word2pdf": {
@@ -190,7 +200,17 @@
 "This beta keeps text, headings, bold, italic and lists; check documents with images or complex layout.",
 "For full-fidelity layout, Word's own Save as PDF is also an option."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"Why send PDF instead of Word",
+"Word documents can look different on another computer because of missing fonts or different software versions. A PDF preserves the layout, is harder to modify accidentally and is accepted by virtually every job portal and organisation."
+],
+[
+"Compatibility",
+"DOCX files from Microsoft Word, Google Docs (downloaded as DOCX), LibreOffice and Pages exports are supported."
+]
+]
 }
 },
 "edit": {
@@ -205,7 +225,17 @@
 "Zoom the preview to place text precisely.",
 "To hide sensitive information permanently, use Redact PDF instead of white-out."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"What you can edit",
+"Add new text anywhere – names, dates, notes, answers on forms – choose its size and colour, and cover unwanted content with white-out boxes. It is ideal for quick fixes when you do not have the original document."
+],
+[
+"Limitations",
+"Existing text is not directly editable; cover it and type over it. For permanent removal of sensitive information, use Redact PDF."
+]
+]
 }
 },
 "sign": {
@@ -220,7 +250,17 @@
 "Draw slowly on a phone for a smoother signature.",
 "After signing, use Flatten PDF so the signature cannot be moved."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"Electronic signatures",
+"Visual e-signatures are widely accepted for everyday agreements in many countries. Some documents, such as certain legal or government filings, may require certificate-based digital signatures – check local rules when in doubt."
+],
+[
+"Signing on a phone",
+"Draw your signature with a finger, place it on the right page and resize it to fit the signature line."
+]
+]
 }
 },
 "protect": {
@@ -235,7 +275,21 @@
 "Use a long password – try our Password Generator.",
 "Share the password through a different channel than the file."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"How PDF encryption works",
+"AES-256 is the strongest encryption defined in the PDF standard and is supported by Adobe Reader, Chrome, Edge, Firefox, macOS Preview and modern mobile viewers. Without the password, the content cannot be read."
+],
+[
+"Choosing a strong password",
+"Use at least 12–16 characters mixing words, numbers and symbols. A passphrase like “Coffee-Window-42-Orbit” is both strong and memorable. Never send the password in the same email as the file."
+],
+[
+"Works offline",
+"Encryption happens in your browser, so you can protect files even without an internet connection once the page has loaded."
+]
+]
 }
 },
 "unlock": {
@@ -248,7 +302,21 @@
 "tips": [
 "You must know the password; this tool does not crack passwords."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"Owner vs user passwords",
+"PDFs can have an open password (needed to view) and permissions passwords that restrict printing, copying or editing. When you know the password, unlocking removes the protection so you can work with the file normally."
+],
+[
+"Legal and safe use",
+"Only unlock documents you own or are authorised to access, such as your own bank statements, utility bills or payslips. After unlocking, store the file securely – it no longer has protection."
+],
+[
+"After unlocking",
+"Once the password is removed, you can merge the file with other documents, compress it, add page numbers or print it without being asked for the password each time."
+]
+]
 }
 },
 "rotate": {
@@ -261,7 +329,21 @@
 "tips": [
 "To rotate only some pages, use Organize PDF."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"Rotating vs re-scanning",
+"Re-scanning a sideways document wastes time and can reduce quality. Rotating a PDF only changes the page orientation instruction stored in the file, so text, images and file size stay exactly the same. The result opens correctly in Adobe Reader, browsers, Preview, phone viewers and printers."
+],
+[
+"Mixed orientations",
+"Reports often mix portrait text pages with landscape tables or charts. Rotate only the landscape pages with Organize PDF so each page reads naturally on screen, then print with “auto-rotate” enabled."
+],
+[
+"Batch rotation",
+"Select several PDFs at once and apply the same rotation to all of them – useful when a scanner fed a whole stack of pages in the wrong orientation."
+]
+]
 }
 },
 "organize": {
@@ -274,7 +356,21 @@
 "tips": [
 "On mobile use the arrow buttons on each thumbnail."
 ],
-"faq": []
+"faq": [],
+"more": [
+[
+"One tool for page clean-up",
+"Instead of using separate tools to rotate, delete and reorder pages, Organize PDF shows the whole document as a page grid. Make all changes at once and export a single clean PDF."
+],
+[
+"Typical clean-up workflow",
+"Scan a batch of documents, delete blank pages, rotate sideways ones, drag pages into order and export. Then compress the result if you need to email it."
+],
+[
+"Works on any device",
+"Thumbnails are generated in your browser, so even large PDFs can be reorganised on a laptop, tablet or phone without uploading them to a server."
+]
+]
 }
 },
 "pagenumbers": {
@@ -443,6 +539,12 @@
 "q": "Will text become blurry?",
 "a": "No. Pages are embedded as vectors, so they stay sharp at any size."
 }
+],
+"more": [
+[
+"Paper savings",
+"Printing 4 pages per sheet double-sided uses one-eighth of the paper of a single-sided, one-page-per-sheet print. It is ideal for drafts, notes and reference copies."
+]
 ]
 }
 },
@@ -491,6 +593,12 @@
 "q": "Can I use different text on the left, centre and right?",
 "a": "Yes, set each position separately in the options."
 }
+],
+"more": [
+[
+"Professional documents",
+"Consistent headers and footers with titles, dates and page numbers make reports, proposals and legal documents easier to navigate and reference."
+]
 ]
 }
 },
@@ -514,6 +622,12 @@
 "q": "Do numbers continue across files?",
 "a": "Yes. Numbers continue from one file to the next in the order shown."
 }
+],
+"more": [
+[
+"Bates number format",
+"A typical Bates number combines a prefix (often a case or party code), a zero-padded sequence and optional suffix, for example SMITH-000123. Positioning in the bottom-right corner is a common convention."
+]
 ]
 }
 },
@@ -537,6 +651,12 @@
 "q": "Is cropped content deleted?",
 "a": "No. It is hidden outside the new page box. Use Redact PDF to permanently remove sensitive content."
 }
+],
+"more": [
+[
+"Crop for e-readers",
+"Removing wide margins makes the text larger on small screens, which is especially useful for academic papers and scanned books read on phones, tablets and e-readers."
+]
 ]
 }
 },
@@ -582,6 +702,12 @@
 "q": "Does metadata affect SEO for PDFs?",
 "a": "Search engines can use the PDF title, so a clear, accurate title helps people find and recognise your document."
 }
+],
+"more": [
+[
+"Professional publishing",
+"A clear title, author and subject make PDFs look professional in browser tabs, document management systems and search results. Update metadata before publishing whitepapers, reports and ebooks."
+]
 ]
 }
 },
@@ -605,6 +731,12 @@
 "q": "Will text remain searchable?",
 "a": "Yes in Form fields only mode. Everything mode converts pages to images."
 }
+],
+"more": [
+[
+"Why flatten forms",
+"Interactive form fields can display differently between viewers and can be edited after you submit them. Flattening locks the values into the page so what you send is exactly what the recipient sees."
+]
 ]
 }
 },
@@ -650,6 +782,16 @@
 "q": "Does it compare images and layout?",
 "a": "This version compares text. Visual comparison is planned."
 }
+],
+"more": [
+[
+"When to compare PDFs",
+"Use Compare PDF whenever you receive a “final” version of a contract, policy, specification or academic paper. Small changes in numbers, dates or liability clauses are easy to miss when reading."
+],
+[
+"Reading the results",
+"Removed text is marked in one colour and added text in another, side by side, so you can review each change and ask about anything unexpected before signing."
+]
 ]
 }
 },
@@ -672,6 +814,16 @@
 "q": "Is text still selectable?",
 "a": "No, pages are converted to grayscale images, so text is not selectable afterwards. Run OCR PDF if you need searchable text."
 }
+],
+"more": [
+[
+"Ink and toner savings",
+"Colour cartridges are expensive and many offices default to black-and-white printing. Converting first lets you check readability of charts and highlights before printing, avoiding wasted pages."
+],
+[
+"Smaller files too",
+"Colour images contain three channels of information; grayscale needs only one, so converting can also reduce file size for image-heavy documents."
+]
 ]
 }
 },
@@ -694,6 +846,16 @@
 "q": "Are straight pages changed?",
 "a": "No. Pages that are already straight are kept exactly as they are."
 }
+],
+"more": [
+[
+"Why straight pages matter",
+"Even a 1–2° tilt makes documents look careless and can confuse OCR software, reducing recognition accuracy and causing lines of text to merge. Deskewing corrects the angle by analysing text lines on each page."
+],
+[
+"Best workflow for scans",
+"Deskew first, then crop margins, then run OCR PDF, and finally compress the file. Following this order gives a clean, searchable and small document."
+]
 ]
 }
 },
@@ -739,6 +901,12 @@
 "q": "Are these screenshots?",
 "a": "No. It saves the original embedded pictures, not screenshots of whole pages."
 }
+],
+"more": [
+[
+"Original quality",
+"Images are saved at the resolution stored in the PDF, which is often higher than what appears on screen. This is the best way to recover photos and illustrations from brochures and reports you own."
+]
 ]
 }
 },
@@ -762,6 +930,12 @@
 "q": "What if my page count isn't a multiple of 4?",
 "a": "Blank pages are added at the end automatically."
 }
+],
+"more": [
+[
+"How imposition works",
+"Pages are rearranged so that sheet one carries the last and first pages, sheet two the second and second-to-last, and so on. After folding, everything reads in order."
+]
 ]
 }
 },
@@ -784,6 +958,12 @@
 "q": "Does splitting reduce quality?",
 "a": "Neither half is re-rendered – each is the original vector page with a new visible area."
 }
+],
+"more": [
+[
+"Scanned book workflow",
+"Scan the book two pages at a time, split pages in half, deskew, crop margins and run OCR to create a readable, searchable digital copy for personal use."
+]
 ]
 }
 },
@@ -806,6 +986,12 @@
 "q": "Can I use one letterhead for all pages?",
 "a": "Yes – choose 'First page only on all pages'."
 }
+],
+"more": [
+[
+"Letterheads made easy",
+"Keep your letterhead as a one-page PDF and overlay it onto any document exported from Word, Google Docs or accounting software. Every page gets the same professional branding without editing templates."
+]
 ]
 }
 },
@@ -828,6 +1014,16 @@
 "q": "Does it blur my document?",
 "a": "No, pages are scaled as vectors."
 }
+],
+"more": [
+[
+"A4 vs Letter",
+"A4 is slightly narrower and taller than US Letter. Printing A4 on Letter paper (or the reverse) can cut off headers and footers; converting the page size first ensures everything fits with balanced margins."
+],
+[
+"Mixed page sizes",
+"If a PDF contains pages of different sizes, converting all of them to one standard size gives a consistent document that prints and binds neatly."
+]
 ]
 }
 },
@@ -850,6 +1046,16 @@
 "q": "Will this reduce my PDF's file size?",
 "a": "No – this changes the paper size. To reduce file size use Compress PDF."
 }
+],
+"more": [
+[
+"Common paper sizes",
+"A4 (210 × 297 mm) is standard in most of the world; US Letter (8.5 × 11 in) and Legal (8.5 × 14 in) are used in North America. A3 is common for drawings and A5 for booklets."
+],
+[
+"Resize vs compress",
+"Resizing changes the physical page dimensions; it does not shrink file size. To reduce megabytes, use Compress PDF."
+]
 ]
 }
 },
@@ -873,6 +1079,16 @@
 "q": "When should I rasterize?",
 "a": "To flatten complex files that print wrong, or to stop easy copying of text."
 }
+],
+"more": [
+[
+"When rasterizing helps",
+"Complex PDFs with transparency, unusual fonts or layered drawings sometimes print incorrectly or render differently on phones. Converting pages into images guarantees identical output on every device and printer."
+],
+[
+"Choosing DPI",
+"150 DPI gives small files for on-screen reading; 300 DPI is suitable for printing. Higher DPI means sharper text but larger files."
+]
 ]
 }
 },
@@ -895,6 +1111,12 @@
 "q": "Does it linearize (fast web view) the file?",
 "a": "Not in the browser. Modern viewers stream PDFs fine; for the strongest size reduction also try Compress PDF."
 }
+],
+"more": [
+[
+"Why optimise PDFs for the web",
+"Large, bloated PDFs load slowly on mobile data and can hurt user experience. Removing unused objects, duplicate resources and embedded scripts creates a cleaner file that opens faster and is safer to publish."
+]
 ]
 }
 },
@@ -917,6 +1139,16 @@
 "q": "What exactly is removed?",
 "a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and page piece data."
 }
+],
+"more": [
+[
+"Hidden data in PDFs",
+"Metadata can reveal the author's name, organisation, software versions, editing times and original file paths. Journalists, lawyers and researchers remove it before publishing or submitting documents for anonymous review."
+],
+[
+"What stays the same",
+"Page content, text, images, links and layout are not changed – only the hidden descriptive data is removed, so the document looks identical."
+]
 ]
 }
 },
@@ -940,6 +1172,12 @@
 "q": "Is it safe to generate passwords online?",
 "a": "Here yes – they are created with the browser's cryptographic random generator and never leave your device."
 }
+],
+"more": [
+[
+"What makes a password strong",
+"Length matters most: each extra character multiplies the number of possible passwords. A random 16-character password with letters, numbers and symbols would take an attacker longer than the age of the universe to guess by brute force."
+]
 ]
 }
 },
@@ -962,6 +1200,12 @@
 "q": "Can it search scanned PDFs?",
 "a": "Only PDFs with a text layer. Run OCR PDF first for scans."
 }
+],
+"more": [
+[
+"Research and compliance",
+"Lawyers, auditors and researchers often need to find every document mentioning a name, clause or invoice number. Searching many PDFs at once with page references saves hours of manual review."
+]
 ]
 }
 },
@@ -984,6 +1228,16 @@
 "q": "Do all viewers respect these settings?",
 "a": "Adobe Reader and most desktop viewers do; some browser viewers ignore them."
 }
+],
+"more": [
+[
+"First impressions",
+"Viewer preferences control how a PDF opens: page layout, which panel is visible and whether the title or file name shows in the window. Setting them makes manuals, catalogues and presentations feel polished."
+],
+[
+"Combine with metadata",
+"Set a document title with Edit PDF Metadata and enable “display document title” so readers see a meaningful name instead of a file name."
+]
 ]
 }
 },
@@ -1007,6 +1261,16 @@
 "q": "Is my invoice data saved anywhere?",
 "a": "No. Everything stays in your browser."
 }
+],
+"more": [
+[
+"What a good invoice includes",
+"Your business name and contact details, the client's details, a unique invoice number, issue and due dates, itemised lines with quantities and prices, applicable taxes such as VAT, GST or sales tax, the total and payment instructions."
+],
+[
+"Currencies and formats",
+"Choose any currency symbol and decimal format to bill international clients in USD, EUR, GBP or their local currency."
+]
 ]
 }
 },
@@ -1030,6 +1294,12 @@
 "q": "Are camera images uploaded?",
 "a": "No, the camera image is processed on your device only."
 }
+],
+"more": [
+[
+"Getting scanner-quality photos",
+"Place the document on a contrasting surface, use even light without shadows and fill the frame. The tool enhances contrast to give a clean, scanned look that is easier to read and smaller to send."
+]
 ]
 }
 },
@@ -1052,6 +1322,12 @@
 "q": "Which languages are supported?",
 "a": "Latin, Cyrillic, Greek, Indic, Arabic, Hebrew and Thai scripts are embedded with Noto fonts. CJK is not yet supported."
 }
+],
+"more": [
+[
+"Fonts and scripts",
+"The converter embeds Noto fonts so text in many languages and scripts displays correctly on any device, even if the reader does not have those fonts installed."
+]
 ]
 }
 },
@@ -1074,6 +1350,16 @@
 "q": "Are images included?",
 "a": "Images are shown by their alt text; remote images are not fetched for privacy."
 }
+],
+"more": [
+[
+"Markdown features supported",
+"Headings, bold, italic, links, ordered and unordered lists, tables, block quotes, inline code and fenced code blocks are rendered in a clean, readable style. This covers most README files, documentation and notes."
+],
+[
+"Tips",
+"Use a blank line between paragraphs and before lists. Choose A4 or Letter to match where the document will be printed."
+]
 ]
 }
 },
@@ -1095,6 +1381,16 @@
 "q": "What formatting is kept?",
 "a": "Paragraphs, bold and special characters. Tables and images are simplified."
 }
+],
+"more": [
+[
+"About RTF",
+"Rich Text Format was created by Microsoft in the 1980s and is still produced by WordPad, TextEdit and many older applications and legal or medical systems. It stores text with simple formatting in a plain-text-like file."
+],
+[
+"When to convert",
+"Convert RTF to PDF to share documents that look the same everywhere, to archive older files, or to submit documents to portals that only accept PDF."
+]
 ]
 }
 },
@@ -1117,6 +1413,16 @@
 "q": "What if my PDF is scanned?",
 "a": "Use OCR PDF first to recognise the text."
 }
+],
+"more": [
+[
+"Plain text use cases",
+"Text files are tiny, open on any device and are ideal for word counts, translation, search indexing, data analysis or pasting into AI assistants. Removing formatting also helps screen readers and accessibility tools."
+],
+[
+"Reading order",
+"Text is extracted in reading order and lines are joined into paragraphs, but multi-column layouts may need small corrections."
+]
 ]
 }
 },
@@ -1139,6 +1445,16 @@
 "q": "Does it copy the exact layout?",
 "a": "No – you get clean, readable HTML (headings, paragraphs), not a pixel copy."
 }
+],
+"more": [
+[
+"Accessibility and SEO",
+"Web pages are easier to read on phones, work better with screen readers and are indexed more fully by search engines than PDFs. Converting important content to HTML helps more people find and read it."
+],
+[
+"Publishing workflow",
+"Convert, paste into your CMS, add images and links, then keep the PDF available as an optional download."
+]
 ]
 }
 },
@@ -1161,6 +1477,16 @@
 "q": "How are headings detected?",
 "a": "Lines with a larger font size than the body text become # or ## headings."
 }
+],
+"more": [
+[
+"Why Markdown?",
+"Markdown is plain text with simple symbols for structure, readable by humans and machines alike. It is used by GitHub, wikis, Obsidian, Notion imports and many AI tools, making PDF content easier to edit, version and reuse."
+],
+[
+"Cleaning up",
+"After conversion, check heading levels, merge lines split across columns and tidy tables, which PDFs do not store as structured data."
+]
 ]
 }
 },
@@ -1183,6 +1509,16 @@
 "q": "Are vectors preserved?",
 "a": "Yes, paths and text are kept as vectors where possible."
 }
+],
+"more": [
+[
+"SVG for designers and developers",
+"SVG is an XML-based vector format that scales without quality loss and can be styled with CSS. Converting PDF artwork to SVG lets you edit logos, icons, charts and maps in Figma, Inkscape or Illustrator, or embed them on websites."
+],
+[
+"What to expect",
+"Vector content stays vector, while photos remain embedded images. Very complex pages can produce large SVG files; convert only the pages you need."
+]
 ]
 }
 },
@@ -1205,6 +1541,20 @@
 "q": "Is compression lossless?",
 "a": "Yes, lossless Deflate (Adobe ZIP) compression."
 }
+],
+"more": [
+[
+"TIFF in professional workflows",
+"Many document management systems, legal e-discovery platforms, fax gateways and archives accept multi-page TIFF as a standard. Each PDF page becomes a frame in a single TIFF file."
+],
+[
+"Resolution and size",
+"200 DPI is fine for text documents, 300 DPI is the archiving standard, and grayscale or colour affects size greatly. A 10-page colour document at 300 DPI can be tens of megabytes, while grayscale is much smaller."
+],
+[
+"Colour or grayscale",
+"Choose grayscale for text documents to keep files small and colour for photos, maps and charts where colour carries meaning."
+]
 ]
 }
 },
@@ -1280,6 +1630,12 @@
 "q": "Will resizing stretch my image?",
 "a": "No – with \"Keep aspect ratio\" on, the image fits inside the size you enter without distortion."
 }
+],
+"more": [
+[
+"Resizing for the web",
+"Most websites display images no wider than 1200–2000 px. Resizing large camera photos to that width can reduce file size by 70–90% before any compression."
+]
 ]
 }
 },
@@ -1303,6 +1659,12 @@
 "q": "Can I crop to a perfect square?",
 "a": "Yes. Choose the 1:1 ratio and the selection is centred automatically; drag to adjust."
 }
+],
+"more": [
+[
+"Cropping for social media",
+"Common sizes: square 1080 × 1080 for feeds, 1080 × 1350 for portrait posts, 1080 × 1920 for stories and 1280 × 720 for video thumbnails."
+]
 ]
 }
 },
@@ -1325,6 +1687,12 @@
 "q": "Does rotating reduce quality?",
 "a": "Rotations by 90° steps are pixel-perfect. Choose PNG output for lossless results."
 }
+],
+"more": [
+[
+"EXIF orientation",
+"Phones often store orientation as metadata rather than rotating pixels, and some websites ignore it – which is why photos appear sideways after upload. Rotating here applies the rotation to the pixels so the image looks correct everywhere."
+]
 ]
 }
 },
@@ -1612,6 +1980,12 @@
 "q": "How sharp is the PNG?",
 "a": "SVGs are rendered at least 1024 px on the longest side for crisp results."
 }
+],
+"more": [
+[
+"Choosing the PNG size",
+"For social media images use around 1080–1200 px; for app stores and print use 2000 px or more. Since SVG is vector, you can render at any size without losing sharpness."
+]
 ]
 }
 },
@@ -1632,6 +2006,12 @@
 "q": "Does it work for photos?",
 "a": "The image is traced into coloured vector paths (16 colours). It works best for logos, icons and flat graphics, not photos."
 }
+],
+"more": [
+[
+"Tracing explained",
+"The tool groups similar colours into regions and converts their outlines into smooth vector paths. The fewer colours and the cleaner the edges in your PNG, the better the SVG."
+]
 ]
 }
 },
@@ -1695,6 +2075,12 @@
 "q": "Can I watermark many images at once?",
 "a": "Yes – the same watermark is applied to every selected image and you get a ZIP."
 }
+],
+"more": [
+[
+"Watermark placement",
+"A corner watermark is subtle and good for portfolios; a centred or tiled watermark is better protection for preview images. Use 20–40% opacity so the photo remains enjoyable."
+]
 ]
 }
 },
@@ -1717,6 +2103,16 @@
 "q": "Is there a watermark?",
 "a": "Never. Your meme is yours."
 }
+],
+"more": [
+[
+"Meme anatomy",
+"The classic meme layout uses bold white text with a black outline at the top and bottom of an image, which stays readable on any background. Keep the setup at the top and the punchline at the bottom."
+],
+[
+"Use images responsibly",
+"Use your own photos or images you have the right to use, and avoid content that harasses or misleads. For social platforms, square or 4:5 images display best in feeds."
+]
 ]
 }
 },
@@ -1761,6 +2157,16 @@
 "q": "How many images can I use?",
 "a": "As many as your device's memory allows; 2–100 frames work well."
 }
+],
+"more": [
+[
+"Frame timing",
+"Frame delay controls speed: 100 ms per frame is 10 fps, good for smooth animations; 500–1000 ms suits slideshows. Loop forever for reactions and demos, or play once for presentations."
+],
+[
+"Keeping GIFs small",
+"GIF supports only 256 colours per frame and compresses poorly. Reduce width, use fewer frames and avoid noisy photos to keep files under a few megabytes for easy sharing."
+]
 ]
 }
 },
@@ -1781,6 +2187,16 @@
 "q": "How many frames can I add?",
 "a": "As many as your device's memory allows; 2–100 frames work well."
 }
+],
+"more": [
+[
+"Slideshow GIF tips",
+"Use images of the same size and orientation for a smooth result, keep 3–10 frames for small files and set 0.5–1 second per frame for photos."
+],
+[
+"Where GIF slideshows work",
+"GIFs play automatically in email clients, chat apps, forums and documentation pages where videos may not, making them a simple way to share a sequence of photos."
+]
 ]
 }
 },
@@ -1803,6 +2219,12 @@
 "q": "Which files do I get?",
 "a": "favicon.ico (16/32/48), 16 and 32 px PNGs, a 180 px Apple touch icon, 192 and 512 px Android icons, site.webmanifest and the HTML tags to paste."
 }
+],
+"more": [
+[
+"Favicon best practices",
+"Use a simple, high-contrast symbol or letter, test it on light and dark browser themes and include both ICO and PNG versions for the widest compatibility."
+]
 ]
 }
 },
@@ -1825,6 +2247,12 @@
 "q": "Which colour formats are shown?",
 "a": "HEX, RGB and HSL for every picked colour and for up to 8 dominant colours."
 }
+],
+"more": [
+[
+"Colour codes explained",
+"HEX (#1A68C4) is used in web design and CSS, RGB (26, 104, 196) in screens and software, and HSL describes hue, saturation and lightness – handy for creating lighter or darker shades of a colour."
+]
 ]
 }
 },
@@ -1847,6 +2275,16 @@
 "q": "Can I change the order?",
 "a": "Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom."
 }
+],
+"more": [
+[
+"Layout ideas",
+"Two columns work well for before-and-after pairs, three or four for event highlights, and larger grids for product catalogues or mood boards. A thin white or dark gap gives a clean, modern look."
+],
+[
+"Sizes for social media",
+"Square (1080 × 1080) and portrait 4:5 (1080 × 1350) collages display best in social feeds; landscape suits presentations and blogs."
+]
 ]
 }
 },
@@ -1930,6 +2368,12 @@
 "q": "MeCard or vCard?",
 "a": "MeCard gives smaller codes; vCard supports more fields."
 }
+],
+"more": [
+[
+"MeCard format",
+"MeCard was created by NTT Docomo and uses a compact syntax (MECARD:N:…;TEL:…;EMAIL:…;;). Fewer characters mean fewer QR modules, so codes stay scannable at small print sizes such as badges and stickers."
+]
 ]
 }
 },
@@ -1950,6 +2394,12 @@
 "q": "Is the email sent automatically?",
 "a": "No, the scanner sees a pre-filled draft and decides whether to send it."
 }
+],
+"more": [
+[
+"How mailto works",
+"The code contains a mailto: link with recipient, subject and body. Most phones open the default mail app with everything ready to send."
+]
 ]
 }
 },
@@ -1970,6 +2420,12 @@
 "q": "Does the message send itself?",
 "a": "No, the user always confirms before sending."
 }
+],
+"more": [
+[
+"Uses in marketing and support",
+"SMS QR codes power opt-in keywords, competition entries, feedback and appointment requests. Include clear instructions next to the code, such as “Scan to text JOIN to subscribe”."
+]
 ]
 }
 },
@@ -1989,6 +2445,12 @@
 "q": "Does it call automatically?",
 "a": "No, the phone shows the number and the user taps to call."
 }
+],
+"more": [
+[
+"International format",
+"Use the full international number with country code, for example +44 20 7946 0000 or +1 212 555 0100, so the code works for callers from any country."
+]
 ]
 }
 },
@@ -2008,6 +2470,12 @@
 "q": "Is there a text length limit?",
 "a": "QR codes can hold a few thousand characters, but shorter text scans much more reliably."
 }
+],
+"more": [
+[
+"Offline information",
+"Text QR codes work without internet access, making them useful for equipment labels, museum exhibits, scavenger hunts and emergency information."
+]
 ]
 }
 },
@@ -2048,6 +2516,12 @@
 "q": "Which map apps open it?",
 "a": "Most phones open the default maps app, such as Google Maps or Apple Maps."
 }
+],
+"more": [
+[
+"Geo URIs",
+"The code stores a geo: URI with latitude and longitude, which works without an internet connection and opens in the phone's default maps app."
+]
 ]
 }
 },
@@ -2067,6 +2541,12 @@
 "q": "Does it work with Google and Apple calendars?",
 "a": "Yes, it uses the standard iCalendar format."
 }
+],
+"more": [
+[
+"iCalendar under the hood",
+"Event QR codes contain a VEVENT entry with title, start and end time and location. Phones offer to add it to Google Calendar, Apple Calendar or Outlook. Include the time zone for events with international attendees."
+]
 ]
 }
 },
@@ -2087,6 +2567,12 @@
 "q": "Is it safe?",
 "a": "The code is generated in your browser. Always verify the address before sharing."
 }
+],
+"more": [
+[
+"BIP21 payment URIs",
+"The code contains a bitcoin: URI with your address and optional amount and label. Most wallets read it and pre-fill the payment screen."
+]
 ]
 }
 },
@@ -2106,6 +2592,12 @@
 "q": "Will it open the app?",
 "a": "Yes, most phones open the profile in the installed app."
 }
+],
+"more": [
+[
+"One code for your profile",
+"Point the code to the platform where you are most active, or to a link-in-bio page that lists all your profiles. Print it on packaging, receipts, menus and event banners."
+]
 ]
 }
 },
@@ -2128,6 +2620,12 @@
 "q": "Which codes are supported?",
 "a": "QR codes everywhere. In Chrome, Edge and Android, 1D barcodes (EAN, UPC, Code 128…) and Data Matrix are also read."
 }
+],
+"more": [
+[
+"Safety check",
+"QR codes can hide malicious links. Scanning here shows the full content before you open it, so you can check the destination first."
+]
 ]
 }
 },
@@ -2151,6 +2649,16 @@
 "q": "Can I use them on products in stores?",
 "a": "Technically yes, but retail requires officially assigned GS1 numbers – the generator only draws the barcode."
 }
+],
+"more": [
+[
+"Choosing a symbology",
+"Code 128 is compact and encodes all ASCII characters – the best general choice. EAN-13 and UPC-A are for retail products. ITF-14 is used on shipping cartons. Code 39 suits badges and assets. Codabar is used in some libraries and blood banks."
+],
+[
+"Printing tips",
+"Print at high contrast, keep quiet zones clear and test with the scanner you will actually use. SVG output stays sharp at any size."
+]
 ]
 }
 },
@@ -2171,6 +2679,16 @@
 "q": "Do I need to enter the check digit?",
 "a": "No. Leave it out and it is calculated automatically."
 }
+],
+"more": [
+[
+"EAN-13 structure",
+"EAN-13 encodes a GS1 prefix (identifying the issuing country organisation, not where products are made), a company number, an item number and a check digit. ISBNs for books are EAN-13 codes starting with 978 or 979."
+],
+[
+"Printing guidelines",
+"The standard size is about 37.3 × 25.9 mm and can be scaled roughly 80–200%. Use SVG for print, keep the white quiet zones, and test with a phone scanner app before ordering labels."
+]
 ]
 }
 },
@@ -2189,6 +2707,20 @@
 "q": "Is the check digit added?",
 "a": "Yes. Leave it out and it is calculated automatically."
 }
+],
+"more": [
+[
+"UPC-A structure",
+"A UPC-A barcode has 12 digits: a company prefix assigned by GS1 US, an item reference you choose and a final check digit. It is printed with the digits underneath so cashiers can type them if scanning fails."
+],
+[
+"Printing guidelines",
+"The nominal size is about 37.3 × 25.9 mm (1.47 × 1.02 in); it can be scaled roughly 80–200%. Print dark bars on a light background, keep the quiet zones clear and avoid red bars, which many scanners cannot read."
+],
+[
+"UPC vs EAN",
+"UPC-A is mainly used in the US and Canada; EAN-13 is used elsewhere. Modern retail scanners read both, and a UPC-A can be represented as an EAN-13 by adding a leading zero."
+]
 ]
 }
 },
@@ -2208,6 +2740,16 @@
 "q": "Which characters are allowed?",
 "a": "Upper-case letters A–Z, digits 0–9 and - . $ / + % and space."
 }
+],
+"more": [
+[
+"Where Code 39 is used",
+"Code 39 is self-checking and simple, which made it popular in automotive, defence, healthcare and asset tracking, and for ID badges. It can encode upper-case letters, so it works for serial numbers like “ASSET-0042”."
+],
+[
+"Size considerations",
+"Code 39 is less compact than Code 128, so long values make wide barcodes. For small labels with long codes, choose Code 128 in the Barcode Generator."
+]
 ]
 }
 },
@@ -2286,6 +2828,16 @@
 "q": "Is this AI upscaling?",
 "a": "It uses high-quality Lanczos-3 resampling plus sharpening – fast and private, but it cannot invent detail like heavy AI models."
 }
+],
+"more": [
+[
+"Resampling explained",
+"Lanczos resampling calculates new pixels from surrounding ones, producing smoother edges than simple pixel doubling, and gentle sharpening restores crispness. It works quickly in your browser without sending photos anywhere."
+],
+[
+"When to use it",
+"Enlarging works best on reasonably sharp images that are simply too small – logos, icons, screenshots and web photos. Blurry or heavily compressed images stay blurry, just bigger."
+]
 ]
 }
 },
@@ -2305,7 +2857,21 @@
 {
 "q": "Is a watermark added?",
 "a": "No, never."
+},
+{
+"q": "Which format should I save as?",
+"a": "PNG for graphics and screenshots; high-quality JPG for photos."
 }
+],
+"more": [
+[
+"Upscaling vs enlarging",
+"Both make an image bigger. Upscaling targets a specific multiple (2×, 3×, 4×) to reach a resolution required by a platform or print size. Quality depends on the source: a sharp 1000 px photo upscaled 2× looks far better than a blurry thumbnail upscaled 4×."
+],
+[
+"Print size guide",
+"For printing at 300 DPI, a 10 × 15 cm (4 × 6 in) print needs about 1200 × 1800 px; an A4 or Letter print needs about 2500 × 3500 px. Upscaling helps you reach these sizes, though it cannot add true detail that was never captured."
+]
 ]
 }
 },
@@ -2326,12 +2892,22 @@
 "faq": [
 {
 "q": "Are videos uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"a": "No. The audio is extracted by your browser on your device."
 },
 {
 "q": "Which videos work?",
 "a": "Any video your browser can play – MP4, MOV, WEBM and most MKV files."
 }
+],
+"more": [
+[
+"Choosing quality",
+"Most video soundtracks are AAC at 128–256 kbps. Exporting MP3 at 192 kbps preserves virtually all of that quality; choosing 320 kbps will not improve audio beyond the source. For lectures and voice, 96 kbps keeps files compact."
+],
+[
+"Respecting copyright",
+"Only extract audio from videos you created or have permission to use. Downloading copyrighted music from streaming services usually breaks their terms of service."
+]
 ]
 }
 },
@@ -2351,9 +2927,23 @@
 ],
 "faq": [
 {
-"q": "Are files uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Which input formats work?",
+"a": "Any format your browser can decode, including M4A, AAC, OGG, OPUS, FLAC, WAV and common video files."
+},
+{
+"q": "Is the original quality kept?",
+"a": "Converting to WAV preserves the decoded audio exactly; MP3 uses the bitrate you choose."
 }
+],
+"more": [
+[
+"Common audio formats",
+"M4A/AAC is used by iPhones and many apps; OGG and OPUS are common in messaging apps and browsers; FLAC is lossless music; MP3 is the most compatible. WAV is uncompressed and preferred by editors. Converting to MP3 or WAV makes audio work in virtually every player, car stereo and editor."
+],
+[
+"Extracting audio from video",
+"You can also drop a video file to extract its soundtrack, useful for lectures and recordings."
+]
 ]
 }
 },
@@ -2371,9 +2961,23 @@
 ],
 "faq": [
 {
-"q": "Are files uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Can I convert several WAV files at once?",
+"a": "Yes, select multiple files and download them together."
+},
+{
+"q": "Which bitrate should I use?",
+"a": "192 kbps for music, 128 kbps for speech."
 }
+],
+"more": [
+[
+"Choosing a bitrate",
+"128 kbps is fine for speech and casual listening, 192 kbps is a good all-round choice for music, and 320 kbps is the highest MP3 quality for archiving and DJ use. A 5-minute WAV of about 50 MB becomes about 7 MB at 192 kbps."
+],
+[
+"Keep a master copy",
+"MP3 is lossy: each re-encode loses detail. Keep the original WAV for editing and create MP3s only for sharing and playback."
+]
 ]
 }
 },
@@ -2391,9 +2995,23 @@
 ],
 "faq": [
 {
-"q": "Are files uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Which WAV format is produced?",
+"a": "16-bit PCM WAV, compatible with virtually all software and hardware."
+},
+{
+"q": "Will it sound better than the MP3?",
+"a": "No, it sounds the same; the benefit is compatibility and lossless editing."
 }
+],
+"more": [
+[
+"When you need WAV",
+"WAV is uncompressed PCM audio, the universal format for audio editors, DAWs, broadcasting systems, telephone on-hold systems and many hardware samplers. Editing a WAV avoids repeated MP3 encoding, which would add artefacts each time you save."
+],
+[
+"What to expect",
+"A WAV file is roughly 10 MB per minute in stereo at 44.1 kHz, about ten times larger than a typical MP3. The sound will be identical to the MP3 you started with: converting cannot restore detail removed by MP3 compression."
+]
 ]
 }
 },
@@ -2415,7 +3033,21 @@
 {
 "q": "How much smaller can it get?",
 "a": "64 kbps mono is typically 4–5× smaller than a 256 kbps stereo MP3 – fine for speech."
+},
+{
+"q": "Will music sound worse?",
+"a": "At very low bitrates yes; use 128 kbps stereo or higher for music."
 }
+],
+"more": [
+[
+"Why speech compresses so well",
+"Human speech uses a narrow frequency range and does not need stereo, so recordings can be reduced to mono at 48–64 kbps with no loss in clarity. Music needs higher bitrates and stereo to sound good."
+],
+[
+"Size examples",
+"A one-hour lecture at 256 kbps stereo is about 115 MB; at 64 kbps mono it is about 29 MB. That is small enough for most email and messaging apps."
+]
 ]
 }
 },
@@ -2435,9 +3067,23 @@
 ],
 "faq": [
 {
-"q": "Are files uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Can I add fades?",
+"a": "Yes, fade-in and fade-out are available."
+},
+{
+"q": "Which output formats are available?",
+"a": "MP3 and WAV."
 }
+],
+"more": [
+[
+"Precise cuts",
+"Zoom into the waveform to cut exactly between words or beats. Short fades of 0.5–1 second remove clicks at the cut points and make clips sound professional."
+],
+[
+"Formats and compatibility",
+"Load MP3, WAV, M4A, OGG and most audio your browser can play, including the soundtrack of video files. Export MP3 for the smallest files and widest compatibility, or WAV when you will edit the clip further in a DAW."
+]
 ]
 }
 },
@@ -2459,7 +3105,21 @@
 {
 "q": "Is quality lost?",
 "a": "With High quality and no resizing, the video is copied without re-encoding when possible."
+},
+{
+"q": "Which formats work?",
+"a": "MP4, MOV and WEBM that your browser can play."
 }
+],
+"more": [
+[
+"Trim before sharing",
+"Trimming first reduces upload time, storage and the need for heavy compression. It is the quickest way to share just the moment that matters."
+],
+[
+"Previewing your cut",
+"Play the video, pause at the moment you want to start and set the start point, then do the same for the end. Preview the selection before exporting so nothing important is cut off at either edge."
+]
 ]
 }
 },
@@ -2478,9 +3138,23 @@
 ],
 "faq": [
 {
-"q": "Are videos uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Does cropping reduce resolution?",
+"a": "Yes, the result contains only the selected area. Start with high-resolution footage for the best result."
+},
+{
+"q": "Is a watermark added?",
+"a": "No."
 }
+],
+"more": [
+[
+"Aspect ratios for each platform",
+"YouTube and most TVs use 16:9. Vertical 9:16 fills a phone screen for YouTube Shorts, Instagram Reels and TikTok. Square 1:1 and portrait 4:5 take up more space in social feeds than landscape video, which can improve engagement."
+],
+[
+"Cropping well",
+"Cropping removes pixels, so a 1920×1080 video cropped to 9:16 becomes about 608×1080. Start from the highest-resolution source you have, keep faces and text inside the frame, and preview the full clip before exporting in case the subject moves."
+]
 ]
 }
 },
@@ -2502,7 +3176,21 @@
 {
 "q": "How long does it take?",
 "a": "The video is re-encoded on your device; long or 4K videos take time."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, in modern mobile browsers, though computers are faster for long videos."
 }
+],
+"more": [
+[
+"How video compression works",
+"Video size depends mainly on resolution and bitrate. Reducing 4K or 1080p footage to 720p cuts the number of pixels by more than half, and lowering bitrate removes detail the eye rarely notices on a phone screen."
+],
+[
+"Recommended settings",
+"720p at medium quality is ideal for email, chat apps and course uploads. 480p is fine for very small files and speech-only recordings. Keep 1080p for content that will be watched on large screens."
+]
 ]
 }
 },
@@ -2519,9 +3207,23 @@
 ],
 "faq": [
 {
-"q": "Are videos uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Does muting re-encode the video?",
+"a": "The video stream is kept and only the audio track is dropped where possible, so picture quality is unchanged."
+},
+{
+"q": "Can I mute only part of a video?",
+"a": "Not yet – trim the clip first or use a video editor for partial muting."
 }
+],
+"more": [
+[
+"Why remove audio from a video?",
+"Background music is a frequent reason for copyright claims on YouTube, Instagram and Facebook. Wind noise, traffic or private conversations can also spoil an otherwise good clip. Muting removes the audio track entirely, so you can post safely or add a fresh soundtrack in an editor later."
+],
+[
+"Silent video on websites",
+"Browsers only autoplay video on page load when it is muted, so silent clips are ideal for website hero backgrounds and product demos. Removing the audio track also makes the file a little smaller."
+]
 ]
 }
 },
@@ -2541,9 +3243,23 @@
 ],
 "faq": [
 {
-"q": "Are videos uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Is there a length limit?",
+"a": "No fixed limit, but GIFs longer than about 10 seconds become very large."
+},
+{
+"q": "Can I pick a start time?",
+"a": "Yes, set the start and length while previewing the video."
 }
+],
+"more": [
+[
+"Getting small, smooth GIFs",
+"GIF is an old format limited to 256 colours per frame, so file size grows quickly. The three settings that matter most are width, frame rate and length. A 480 px wide, 12 fps, 4-second clip is usually a few megabytes – fine for chats, docs and emails."
+],
+[
+"GIF or MP4?",
+"Many platforms convert uploaded GIFs to video anyway. Use GIF where autoplay without controls is essential (emails, README files, some forums) and MP4 when the platform supports video, as it is far smaller."
+]
 ]
 }
 },
@@ -2560,9 +3276,23 @@
 ],
 "faq": [
 {
-"q": "Are files uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Will transparency be kept?",
+"a": "No. MP4 does not support transparency; transparent areas become a solid colour."
+},
+{
+"q": "Which format should I choose?",
+"a": "MP4 for maximum compatibility, WebM for websites."
 }
+],
+"more": [
+[
+"Why convert GIFs to video",
+"Animated GIFs store each frame almost independently, while MP4 (H.264) and WebM use modern compression across frames. The same animation as MP4 is often 5–10× smaller, loads faster and looks smoother, which improves page speed scores."
+],
+[
+"Using the result on a website",
+"Replace a GIF with a muted, looping video tag (autoplay, loop, muted, playsinline) and visitors see the same animation with much less data. On social platforms, MP4 uploads keep better quality than GIF uploads."
+]
 ]
 }
 },
@@ -2582,8 +3312,22 @@
 "faq": [
 {
 "q": "Is my data uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"a": "No. Spreadsheets and JSON are parsed in your browser and never sent to a server."
+},
+{
+"q": "Can it handle large files?",
+"a": "Yes, files with hundreds of thousands of rows work on most computers."
 }
+],
+"more": [
+[
+"Choosing the right format",
+"CSV is the simplest and most widely accepted for imports. TSV avoids problems when data contains commas. JSON suits APIs and apps, especially with nested data. XLSX and ODS keep multiple sheets and proper data types for people working in spreadsheets."
+],
+[
+"Encoding and special characters",
+"All conversions use UTF-8, so names like José, Müller or 東京 survive the round trip. When exporting CSV for Excel, a byte order mark is added so characters display correctly."
+]
 ]
 }
 },
@@ -2603,7 +3347,21 @@
 {
 "q": "How are headers used?",
 "a": "The first row becomes the JSON keys. A header like address.city becomes a nested object."
+},
+{
+"q": "Which delimiters are supported?",
+"a": "Comma, semicolon and tab are detected automatically."
 }
+],
+"more": [
+[
+"Type detection",
+"Values like 42, 3.14, true and false are converted to numbers and booleans, so the JSON is ready to use in code. Empty cells become null. Text that looks numeric but must stay text, such as postcodes with leading zeros, can be kept by turning type detection off."
+],
+[
+"Nesting with dot keys",
+"Headers such as address.city and address.zip create a nested address object, which matches the structure most APIs expect."
+]
 ]
 }
 },
@@ -2621,9 +3379,27 @@
 ],
 "faq": [
 {
-"q": "Is my data uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "What input is supported?",
+"a": "A JSON array of objects, or an object containing such an array."
+},
+{
+"q": "Are nested objects supported?",
+"a": "Yes, they become dot.key columns."
 }
+],
+"more": [
+[
+"Flattening nested data",
+"APIs often return nested JSON. Spreadsheets need flat columns, so nested fields become dot-notation headers such as user.name or address.country. Arrays are written as text in one cell so nothing is lost."
+],
+[
+"Opening in Excel correctly",
+"The file includes a UTF-8 byte order mark so Excel shows accents and non-Latin characters correctly. In Google Sheets, use File → Import to load the CSV."
+],
+[
+"Common sources",
+"Exports from APIs, NoSQL databases, analytics tools and web scrapers are often JSON. Converting to CSV lets business teams review the data in familiar spreadsheet tools."
+]
 ]
 }
 },
@@ -2640,9 +3416,23 @@
 ],
 "faq": [
 {
-"q": "Is my data uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Are leading zeros kept?",
+"a": "Yes, values that look like codes are kept as text."
+},
+{
+"q": "Which delimiter is used?",
+"a": "Commas, semicolons and tabs are detected automatically."
 }
+],
+"more": [
+[
+"Why open CSV via XLSX",
+"When Excel opens a CSV directly, it guesses formats: leading zeros in postcodes or phone numbers can disappear, long ID numbers turn into scientific notation and accented characters may be garbled. Converting to XLSX first stores proper text and numbers so the data looks right."
+],
+[
+"Next steps",
+"Once in XLSX you can add filters, formulas, charts and pivot tables, or share the file with colleagues who expect a spreadsheet rather than raw text."
+]
 ]
 }
 },
@@ -2659,9 +3449,23 @@
 ],
 "faq": [
 {
-"q": "Is my data uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "What happens to multiple sheets?",
+"a": "Each sheet becomes a separate CSV file, delivered as a ZIP if there are several."
+},
+{
+"q": "Are formulas kept?",
+"a": "Their calculated values are exported."
 }
+],
+"more": [
+[
+"CSV limitations to know",
+"CSV stores plain values only – no formatting, formulas, colours or multiple sheets. That is why each sheet becomes its own CSV file. Formulas are exported as their calculated results, so the data stays correct even in tools that cannot calculate."
+],
+[
+"Separators and encoding",
+"Some regions use semicolons instead of commas because the comma is the decimal separator. The output is UTF-8, which keeps accented and non-Latin characters intact when imported into databases, CRMs and email tools."
+]
 ]
 }
 },
@@ -2677,9 +3481,23 @@
 ],
 "faq": [
 {
-"q": "Is my data uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Are formulas exported?",
+"a": "The calculated values are exported, not the formulas."
+},
+{
+"q": "Which files are supported?",
+"a": "XLSX, XLS and ODS spreadsheets."
 }
+],
+"more": [
+[
+"From rows to objects",
+"Each row below the header row becomes one JSON object, with the header text as keys. Empty cells are skipped or set to null so the output stays clean. Multi-sheet workbooks can be converted sheet by sheet, so a product catalogue and a price list stay separate."
+],
+[
+"Good spreadsheet habits",
+"Use short, unique header names without line breaks; avoid merged cells; keep one record per row. Dates are exported in a readable ISO format so they can be parsed reliably by JavaScript, Python and other languages."
+]
 ]
 }
 },
@@ -2695,9 +3513,23 @@
 ],
 "faq": [
 {
-"q": "Is my data uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "What JSON structure works best?",
+"a": "An array of objects with similar keys."
+},
+{
+"q": "Can I open the result in Google Sheets?",
+"a": "Yes, XLSX files open in Excel, Google Sheets, Numbers and LibreOffice."
 }
+],
+"more": [
+[
+"What JSON looks like in a spreadsheet",
+"An array of objects maps naturally to rows and columns: each object becomes a row and each key becomes a column header. Nested objects like {\"address\":{\"city\":\"Paris\"}} become a column named address.city, so everything stays flat and filterable in Excel."
+],
+[
+"Handling arrays and mixed data",
+"If objects have different keys, every key gets a column and missing values stay empty. Arrays inside objects are written as text so no data is lost. Numbers stay numeric, so you can sum, sort and build pivot tables immediately."
+]
 ]
 }
 },
@@ -2716,9 +3548,23 @@
 ],
 "faq": [
 {
-"q": "Are files uploaded?",
-"a": "No. Everything is processed in your browser; files never leave your device."
+"q": "Is there a file size limit?",
+"a": "Only your device's memory. Very large archives work best on a computer."
+},
+{
+"q": "Can I add a password?",
+"a": "Not yet. Use Protect PDF for documents or a desktop archiver for encrypted ZIPs."
 }
+],
+"more": [
+[
+"How ZIP compression helps",
+"ZIP uses lossless compression, so text files, spreadsheets, code and uncompressed images often shrink by 50–80%. Photos, videos and existing PDFs are already compressed and shrink little – but bundling them into one file still makes sharing much easier."
+],
+[
+"Sharing large archives",
+"Email attachments are often limited to 20–25 MB. For larger archives, upload the ZIP to a cloud drive and share a link instead. ZIP files open natively on Windows, macOS, Linux, iOS and Android."
+]
 ]
 }
 },
@@ -2738,7 +3584,21 @@
 {
 "q": "Can it open password-protected ZIPs?",
 "a": "Not yet – encrypted ZIPs cannot be opened."
+},
+{
+"q": "Are RAR or 7z files supported?",
+"a": "No, only ZIP archives."
 }
+],
+"more": [
+[
+"Opening ZIPs on any device",
+"Phones and locked-down work computers often lack extraction apps or block installs. This tool lists the contents of a ZIP in your browser and lets you download just the files you need – handy for email attachments and course materials."
+],
+[
+"Safety tips",
+"ZIP files from unknown senders can contain malware. Check the file list before downloading, and be wary of executable files (.exe, .js, .bat, .scr) or files with double extensions such as invoice.pdf.exe."
+]
 ]
 }
 },
@@ -2759,7 +3619,21 @@
 {
 "q": "How accurate is it?",
 "a": "Exact international definitions (e.g. 1 in = 2.54 cm, 1 lb = 0.45359237 kg), shown to 10 significant digits."
+},
+{
+"q": "Are US and UK gallons different?",
+"a": "Yes. A US gallon is 3.785 L; a UK (imperial) gallon is 4.546 L."
 }
+],
+"more": [
+[
+"Why exact definitions matter",
+"Since 1959 the inch, foot, yard, pound and other imperial units have been defined exactly in metric terms. This converter uses those exact definitions, so results match engineering references rather than rounded rules of thumb."
+],
+[
+"Categories included",
+"Length, mass, temperature, area, volume (including US and UK gallons, which differ), speed, data storage, pressure, energy and large-number units. Type in any field and every other unit updates instantly."
+]
 ]
 }
 },
@@ -2778,7 +3652,25 @@
 {
 "q": "Is it exact?",
 "a": "Yes, it uses exact international definitions."
+},
+{
+"q": "How many feet are in a metre?",
+"a": "One metre is about 3.28084 feet."
 }
+],
+"more": [
+[
+"Metric and imperial lengths",
+"The metric system scales by powers of ten, which makes conversions inside it easy: 10 mm = 1 cm, 100 cm = 1 m, 1,000 m = 1 km. Imperial units – inches, feet, yards and miles – are still used in the US, and the UK uses miles for road distances. Since 1959 the inch is defined as exactly 2.54 cm."
+],
+[
+"Everyday references",
+"A marathon is 42.195 km (26.2 mi). A football pitch is roughly 100–110 m long. A standard door is about 2 m (6 ft 8 in) tall. One nautical mile, used at sea and in aviation, is 1,852 m."
+],
+[
+"Typing conversions",
+"Enter a value in any unit field and all others update instantly, so you can compare millimetres, inches, feet and miles at a glance."
+]
 ]
 }
 },
@@ -2797,7 +3689,25 @@
 {
 "q": "Is it exact?",
 "a": "Yes, it uses 1 lb = 0.45359237 kg exactly."
+},
+{
+"q": "What is a stone?",
+"a": "One stone is 14 lb, about 6.35 kg."
 }
+],
+"more": [
+[
+"Mass units around the world",
+"Most countries use grams and kilograms. The US uses ounces and pounds, the UK commonly uses stone for body weight, and precious metals use troy ounces (31.1 g) – different from the ordinary ounce (28.35 g). Some regions also have traditional units for gold and grain, which this converter includes."
+],
+[
+"Practical examples",
+"A 500 g pack is 17.6 oz; a 2 kg bag of flour is 4.4 lb; 80 kg body weight is 12 st 8 lb. When shipping parcels, carriers often round up to the next whole kilogram or pound, so convert before you buy postage."
+],
+[
+"Cooking with weights",
+"Weighing ingredients is more accurate than using cups. Many US recipes give ounces and pounds; converting to grams lets you use a kitchen scale set to metric for consistent results."
+]
 ]
 }
 },
@@ -2816,7 +3726,25 @@
 {
 "q": "What formula is used?",
 "a": "°F = °C × 9/5 + 32 and K = °C + 273.15."
+},
+{
+"q": "Can Kelvin be negative?",
+"a": "No. 0 K is absolute zero, the lowest possible temperature."
 }
+],
+"more": [
+[
+"Celsius, Fahrenheit and Kelvin explained",
+"Celsius is based on water freezing at 0° and boiling at 100°. Fahrenheit, used in the US, puts those points at 32° and 212°. Kelvin is the scientific absolute scale: 0 K is absolute zero, and one kelvin is the same size as one degree Celsius, so you simply add 273.15."
+],
+[
+"Common conversions",
+"Oven: 200 °C ≈ 392 °F. Fever: 38 °C = 100.4 °F. Freezer: −18 °C ≈ 0 °F. Room temperature in science is often 298.15 K (25 °C). Note that −40 is the same in both Celsius and Fahrenheit."
+],
+[
+"Temperature in cooking",
+"European and many international recipes give oven temperatures in Celsius, US recipes in Fahrenheit, and fan ovens usually need about 20 °C (35 °F) less than conventional ovens. Converting carefully prevents burnt or undercooked dishes."
+]
 ]
 }
 },
@@ -2835,7 +3763,21 @@
 {
 "q": "Which units are included?",
 "a": "Square metres, square feet, acres, hectares and several regional land units."
+},
+{
+"q": "How many square feet are in a square metre?",
+"a": "About 10.764."
 }
+],
+"more": [
+[
+"Area units for property and land",
+"Property listings use square metres in most of the world and square feet in the US, UK (partly), Canada and parts of Asia. Agricultural land is usually measured in hectares or acres. Regional units such as the cent and ground remain common in some local land records, so they are included too."
+],
+[
+"Useful equivalents",
+"1 m² = 10.7639 sq ft. 1 acre = 4,046.86 m² = 43,560 sq ft. 1 hectare = 10,000 m² = 2.471 acres. 1 km² = 100 hectares. A typical football pitch is about 0.7 hectares (1.75 acres)."
+]
 ]
 }
 },
@@ -2855,7 +3797,21 @@
 {
 "q": "Why does my drive show less space?",
 "a": "Manufacturers use decimal units while many operating systems display binary units."
+},
+{
+"q": "Is a megabit the same as a megabyte?",
+"a": "No. One byte is 8 bits, so 1 MB = 8 Mbit."
 }
+],
+"more": [
+[
+"Decimal vs binary units",
+"Storage makers use decimal prefixes (1 GB = 1,000,000,000 bytes), while Windows and some tools show binary values (1 GiB = 1,073,741,824 bytes). That is why a “1 TB” drive shows about 931 GB in Windows – nothing is missing."
+],
+[
+"Bits, bytes and internet speed",
+"Internet speeds are quoted in megabits per second (Mbit/s), file sizes in megabytes (MB). Divide by 8: a 100 Mbit/s connection downloads about 12.5 MB per second in ideal conditions, so a 1 GB file takes around 80 seconds."
+]
 ]
 }
 },
@@ -2874,7 +3830,25 @@
 {
 "q": "How do I convert cm to inches?",
 "a": "Divide centimetres by 2.54."
+},
+{
+"q": "How many cm are in a foot?",
+"a": "One foot is exactly 30.48 cm."
 }
+],
+"more": [
+[
+"Where the inch is still used",
+"Even in metric countries, inches appear on TV and monitor sizes, phone screens, bicycle wheels, pipe fittings and denim waist sizes. Paper sizes differ too: A4 is 21 × 29.7 cm (8.27 × 11.69 in) while US Letter is 8.5 × 11 in (21.59 × 27.94 cm)."
+],
+[
+"Quick estimates",
+"Divide by 2.5 for a fast estimate, then adjust slightly up: 30 cm ≈ 11.8 in, 50 cm ≈ 19.7 in, 100 cm ≈ 39.4 in. For height, 170 cm is 5 ft 7 in and 180 cm is 5 ft 11 in."
+],
+[
+"Clothing and shoe sizes",
+"Waist and inseam sizes for jeans are given in inches in many countries, while body measurements on size charts are often in centimetres. Measure in either unit and convert to choose the right size when shopping internationally."
+]
 ]
 }
 },
@@ -2891,9 +3865,23 @@
 ],
 "faq": [
 {
-"q": "How do I convert kg to lbs?",
-"a": "Multiply kilograms by 2.20462."
+"q": "How many pounds are in a kilogram?",
+"a": "1 kg equals about 2.20462 lb."
+},
+{
+"q": "How do I convert pounds to kilograms?",
+"a": "Divide pounds by 2.20462, or multiply by 0.45359237."
 }
+],
+"more": [
+[
+"Kilograms vs pounds: where each is used",
+"The kilogram is the SI unit of mass and is used for everyday weights in almost every country. The pound (avoirdupois) is common in the United States and is still used informally in the United Kingdom, often together with stone for body weight. Since 1959 the pound has been defined exactly as 0.45359237 kg, so conversions are precise rather than approximate."
+],
+[
+"Quick mental maths",
+"To estimate pounds, double the kilograms and add 10%: 70 kg × 2 = 140, plus 14 gives about 154 lb (exact: 154.32 lb). To go the other way, halve the pounds and subtract 10%: 200 lb ÷ 2 = 100, minus 10 gives about 90 kg (exact: 90.72 kg). For airline baggage, 23 kg is about 50.7 lb and 32 kg is about 70.5 lb – the two most common checked-bag limits."
+]
 ]
 }
 },
@@ -2912,7 +3900,25 @@
 {
 "q": "What is the formula?",
 "a": "°F = °C × 9/5 + 32."
+},
+{
+"q": "How do I convert Fahrenheit to Celsius?",
+"a": "°C = (°F − 32) × 5/9."
 }
+],
+"more": [
+[
+"Where Fahrenheit is still used",
+"Most of the world measures temperature in Celsius, but the United States, some Caribbean nations and a few Pacific territories still use Fahrenheit for weather, cooking and medicine. If you read US recipes, weather apps or medical advice, converting quickly avoids mistakes – especially with oven temperatures."
+],
+[
+"Handy reference points",
+"0 °C = 32 °F (freezing), 20 °C = 68 °F (room temperature), 37 °C = 98.6 °F (normal body temperature), 100 °C = 212 °F (boiling at sea level), and 180 °C ≈ 356 °F, the most common oven setting. The quick estimate “double it and add 30” is accurate within a few degrees for everyday weather."
+],
+[
+"Body temperature",
+"A normal body temperature is around 36.5–37.5 °C (97.7–99.5 °F). A fever is generally considered 38 °C (100.4 °F) or higher."
+]
 ]
 }
 },
@@ -2930,7 +3936,25 @@
 {
 "q": "How many lakh are in a million?",
 "a": "1 million = 10 lakh."
+},
+{
+"q": "How many crore are in a billion?",
+"a": "1 billion = 100 crore."
 }
+],
+"more": [
+[
+"How the two numbering systems group digits",
+"The international system groups digits in thousands: 1,000,000 is one million. The South Asian system groups the first three digits and then pairs: 10,00,000 is ten lakh – the same number. Business news, salaries and property prices in South Asia are often quoted in lakh and crore, so international readers need a quick translation."
+],
+[
+"Key equivalents",
+"1 lakh = 100,000 (one hundred thousand). 10 lakh = 1 million. 1 crore = 10 million. 100 crore = 1 billion. So a figure of 250 crore equals 2.5 billion."
+],
+[
+"Reading financial reports",
+"Annual reports and news from South Asia often state revenue in crore. Converting to million or billion makes figures directly comparable with international companies and currencies."
+]
 ]
 }
 },
@@ -2951,7 +3975,21 @@
 {
 "q": "Is daylight saving handled?",
 "a": "Yes, automatically, based on the selected date."
+},
+{
+"q": "Where does the time zone data come from?",
+"a": "Your browser's built-in IANA time zone database, updated with your browser."
 }
+],
+"more": [
+[
+"How time zones and daylight saving work",
+"There are more than 38 local time offsets in use, including half-hour and 45-minute zones such as India (UTC+05:30) and Nepal (UTC+05:45). Daylight saving is observed in North America, most of Europe and parts of Australia and South America – on different dates – while most of Asia and Africa do not change clocks."
+],
+[
+"Tips for international scheduling",
+"Choose cities rather than abbreviations, because “CST” can mean US Central, China or Cuba Standard Time. Note when Europe and the US change clocks on different weekends in March and October/November: for a week or two the usual gap between London and New York shrinks by an hour."
+]
 ]
 }
 },
@@ -2967,8 +4005,26 @@
 "faq": [
 {
 "q": "Does it handle daylight saving?",
-"a": "Yes, automatically."
+"a": "Yes, based on the date you choose."
+},
+{
+"q": "What is the time difference now?",
+"a": "It is 9h30 during US daylight saving time and 10h30 otherwise."
 }
+],
+"more": [
+[
+"Daylight saving and the time difference",
+"India Standard Time is UTC+05:30 all year. US Eastern Time is UTC−5 (EST) in winter and UTC−4 (EDT) from the second Sunday in March to the first Sunday in November. That makes India 10 h 30 min ahead in winter and 9 h 30 min ahead in summer."
+],
+[
+"Scheduling tips",
+"Overlap is short: 8:00–10:00 AM in New York is 6:30–8:30 PM (summer) or 5:30–7:30 PM (winter) in India. Put both local times in every invitation and let calendar apps convert automatically to avoid missed calls."
+],
+[
+"Business hours overlap",
+"With a 9h30–10h30 gap, the working days in India and the US East Coast barely overlap. Most teams meet in the US morning, which is India's evening, or use asynchronous updates."
+]
 ]
 }
 },
@@ -2984,8 +4040,22 @@
 "faq": [
 {
 "q": "Does it handle daylight saving?",
-"a": "Yes, automatically."
+"a": "Yes. The date you choose determines whether PST or PDT applies."
+},
+{
+"q": "Is the date different?",
+"a": "Often yes – India is ahead, so evening in California is already the next morning in India."
 }
+],
+"more": [
+[
+"Why the gap changes during the year",
+"India keeps UTC+05:30 all year, but the US West Coast switches between Pacific Standard Time (UTC−8) and Pacific Daylight Time (UTC−7). Daylight saving starts on the second Sunday of March and ends on the first Sunday of November, so the difference is 13 hours 30 minutes in winter and 12 hours 30 minutes in summer."
+],
+[
+"Finding a good meeting slot",
+"A 9:00 AM meeting in California is 9:30 PM or 10:30 PM in India, while 8:00 AM in India is the previous evening on the West Coast. Many distributed teams use early-morning Pacific / late-evening India slots. Always include both times and the date in invitations, because the calendar day often differs."
+]
 ]
 }
 },
@@ -3002,8 +4072,26 @@
 "faq": [
 {
 "q": "What is the offset?",
-"a": "IST is UTC+05:30 all year."
+"a": "IST is UTC+05:30 all year; India does not observe daylight saving."
+},
+{
+"q": "Is GMT the same as UTC?",
+"a": "For everyday purposes yes; technically UTC is the precise atomic-clock standard."
 }
+],
+"more": [
+[
+"What UTC is and why it matters",
+"Coordinated Universal Time (UTC) is the global reference time used by aviation, servers, satellites and international events. GMT is often used as a synonym in everyday speech. Because UTC never changes for daylight saving, it is the safest way to record timestamps in logs, databases and APIs."
+],
+[
+"Reading timestamps correctly",
+"ISO 8601 timestamps ending in “Z” (for example 2026-03-01T14:00:00Z) are in UTC. Add 5 hours 30 minutes to get India Standard Time: 14:00 UTC is 19:30 IST. When a timestamp has an explicit offset like +05:30 it is already local and needs no conversion."
+],
+[
+"Converting the other way",
+"To convert IST to UTC, subtract 5 hours 30 minutes: 09:00 IST is 03:30 UTC. Remember that the date can change around midnight."
+]
 ]
 }
 }
