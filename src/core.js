@@ -13,7 +13,7 @@ const buf=f=>f.arrayBuffer();
 const base=n=>n.replace(/\.[^.]+$/,'');
 const pdfBlob=b=>new Blob([b],{type:'application/pdf'});
 const fmtSize=n=>n<1024?n+' B':n<1048576?(n/1024).toFixed(1)+' KB':(n/1048576).toFixed(2)+' MB';
-async function openPdfjs(data,password){const pj=await L.pdfjs();return pj.getDocument({data:new Uint8Array(data.slice(0)),password}).promise;}
+async function openPdfjs(data,password,extra){const pj=await L.pdfjs();return pj.getDocument({data:new Uint8Array(data.slice(0)),password,...(extra||{})}).promise;}
 async function renderPage(doc,n,scale){const p=await doc.getPage(n);const vp=p.getViewport({scale});const c=document.createElement('canvas');c.width=Math.ceil(vp.width);c.height=Math.ceil(vp.height);const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);await p.render({canvasContext:ctx,viewport:vp}).promise;p.cleanup();return c;}
 const toBlob=(c,type,q)=>new Promise(r=>c.toBlob(r,type,q));
 function parseRanges(s,max){const out=[];for(const part of s.split(/[,;\s]+/).filter(Boolean)){const m=part.match(/^(\d+)?\s*-\s*(\d+)?$|^(\d+)$/);if(!m)throw new Error('Invalid range: '+part);let a,b;if(m[3]){a=b=+m[3];}else{a=m[1]?+m[1]:1;b=m[2]?+m[2]:max;}if(a<1||b>max||a>b)throw new Error('Range out of bounds: '+part+' (1-'+max+')');const r=[];for(let i=a;i<=b;i++)r.push(i-1);out.push({label:a===b?''+a:a+'-'+b,idx:r});}return out;}

@@ -59,3 +59,14 @@ All tested with big.pdf / scan10.pdf / 15 MB JPG + 10 MB PNG (batch of 2), phone
 | txt2pdf, md2pdf, rtf2pdf | PASS | PASS | |
 
 **Site-wide bug fixed (found here):** when several input files shared a base name (e.g. `photo.jpg` + `photo.png`), the ZIP silently kept only one output. This affected every multi-file converter in batch 2. ZIP entries are now de-duplicated (`photo.jpg`, `photo (2).jpg`).
+
+## Batch 4 (tools 76–104: PDF→text/SVG/TIFF, OCR, AI image, audio/video, data)
+| Tool | Phone | Desktop | Notes |
+|---|---|---|---|
+| pdf2txt, pdf2html, pdf2md, pdf2tiff | PASS | PASS | image-only pages give no text (OCR is a separate tool) |
+| pdf2svg | PASS | PASS | **Fixed 3 bugs**: (1) crashed on any page with JPEG images ("reading 'subarray'"). (2) Images were `blob:` URLs that broke outside the browser; they are now embedded JPEG/PNG data, and output dropped from 338 MB to 24 MB. (3) Embedded or Type3 fonts came out as tofu boxes; those pages are now a 2× raster with an invisible, selectable text layer, and pages with plain fonts stay vector |
+| ocrpdf (10-page scan, 21 s), ocr, bgremove | PASS | PASS | |
+| enlarge, upscale | PASS | PASS | **Fixed**: 12 MP photo ×2 failed with "Result too large"; factor now auto-capped to the 40 MP limit |
+| video2mp3, audioconv, wav2mp3, mp32wav, audiocompress, audiocut | PASS | PASS | 3-min MP3 |
+| videotrim, videocrop, videocompress (15.5→3.9 MB), videomute, video2gif, gif2mp4 | PASS | PASS | 1080p 20 s |
+| dataconv, csv2json, json2csv, csv2excel, excel2csv, excel2json, json2excel | PASS | PASS | 20k-row CSV |
