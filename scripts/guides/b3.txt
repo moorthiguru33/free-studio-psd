@@ -1,0 +1,311 @@
+ocr
+Image to Text (OCR) Online Free – Copy Text from Photos | {brand}
+Extract text from images, photos, screenshots and scans with OCR in 12 languages. Get plain text or a searchable PDF. Private – runs in your browser.
+Retyping text from a photo, screenshot or scanned page is slow and error-prone. OCR reads the text for you, ready to copy, edit or translate. Unlike cloud OCR services, {brand} processes images on your device.
+Copy text from a screenshot or photo of a sign, slide or whiteboard. | Digitise printed recipes, letters and receipts. | Extract quotes from book pages for research. | Translate text in an image by copying it into a translator.
+Use a sharp, well-lit photo taken straight on. | Choose the right language for best accuracy. | Crop to the text area to avoid noise.
+Which languages are supported?=English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese. || Are images uploaded?=No – OCR runs entirely on your device.
+
+bgremove
+Remove Background from Image Free – AI, Transparent PNG | {brand}
+Remove image backgrounds automatically with on-device AI. Get a transparent PNG or a white, colour or blurred background. Free, no sign-up.
+Clean cut-outs are essential for product listings, profile pictures, presentations and designs. Most background removers upload your photo to a server and limit free downloads to low resolution; {brand} runs the AI in your browser at full resolution.
+Create white-background product photos for online marketplaces. | Make professional profile pictures and ID-style photos. | Cut out objects for presentations, posters and thumbnails.
+Clear subjects with good contrast give the best results. | Choose a white background for marketplace listings. | Fine hair may be softened – zoom in to check.
+Is my photo uploaded?=No. The AI model (4.6 MB) is downloaded once and runs in your browser. || What works best?=Clear subjects – people, products, animals – with good contrast to the background.
+
+enlarge
+Image Enlarger Online Free – Enlarge Photos 2×, 3×, 4× | {brand}
+Enlarge images 1.5× to 4× with high-quality Lanczos resampling and smart sharpening. JPG, PNG, WEBP. Free and private.
+Small images look blocky when printed or shown on large screens. The enlarger scales them up with high-quality resampling and sharpening, giving smoother results than a basic resize.
+Enlarge small logos or icons for slides. | Prepare small photos for printing. | Increase resolution to meet minimum upload dimensions.
+2× gives the most natural results. | Start from the best original available. | Use PNG output for graphics and text.
+Is this AI upscaling?=It uses high-quality Lanczos-3 resampling plus sharpening – fast and private, but it cannot invent detail like heavy AI models.
+
+upscale
+-
+-
+Upscaling increases image resolution so it fits larger displays, prints or platform minimum sizes. Everything happens on your device, with no watermark.
+Meet a minimum image size for marketplace or ad uploads. | Upscale old digital photos for viewing on modern screens. | Increase screenshot resolution for documents.
+Avoid more than 4× – larger factors magnify blur. | Compress Image afterwards to keep files manageable.
+Is a watermark added?=No, never.
+
+video2mp3
+MP4 to MP3 Converter Online Free – Extract Audio from Video | {brand}
+Convert MP4, MOV, WEBM and MKV videos to MP3 in your browser. Choose 64–320 kbps. Free, no upload, no sign-up, no watermark.
+Often you only need the sound of a video: a lecture, podcast recording, interview or your own music performance. Extracting the audio to MP3 makes it small and playable on any device – and here the video never leaves your computer or phone.
+Listen to recorded lectures or meetings on the go. | Extract your own music or voice recordings from a video. | Create audio versions of webinars for podcasts.
+192 kbps is plenty for music; 64–96 kbps is fine for speech. | Only convert content you own or have permission to use.
+Are videos uploaded?=No. Everything is processed in your browser; files never leave your device. || Which videos work?=Any video your browser can play – MP4, MOV, WEBM and most MKV files.
+
+audioconv
+Audio Converter Online Free – M4A, FLAC, OGG to MP3 or WAV | {brand}
+Convert audio to MP3 or WAV in your browser. Supports M4A, AAC, OGG, OPUS, FLAC and video files. Free and private.
+Voice memos, WhatsApp audio, FLAC music and recordings from different apps come in many formats. Converting to MP3 or WAV makes them play on any device and import into any editor.
+Convert iPhone voice memos (M4A) to MP3. | Turn OGG/OPUS messages into MP3. | Convert FLAC to MP3 for phones with limited space.
+Choose WAV for editing, MP3 for sharing. | Batch convert a folder at once.
+Are files uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+wav2mp3
+-
+-
+WAV is uncompressed and large – about 10 MB per minute in CD quality. MP3 at 192 kbps is roughly 7× smaller and sounds nearly identical for most listeners.
+Shrink studio or recorder files for sharing. | Save space on your phone or music player. | Email or upload recordings faster.
+Use 256–320 kbps for music masters; 128 kbps for speech. | Keep the WAV as your master copy.
+Are files uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+mp32wav
+-
+-
+Some editors, DJ software, phone systems and samplers require WAV. Converting MP3 to 16-bit WAV makes the audio compatible without changing how it sounds.
+Import audio into editing or DJ software. | Prepare on-hold messages for phone systems. | Use clips in samplers or games.
+WAV cannot restore quality lost in the MP3. | Expect much larger files.
+Are files uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+audiocompress
+Compress MP3 Online Free – Reduce Audio File Size | {brand}
+Reduce MP3, WAV and M4A file size by lowering bitrate, converting to mono or lowering sample rate. Great for email and messaging apps.
+Long recordings – lectures, interviews, podcasts – can be too large for email or chat apps. Compressing the audio can shrink it several times while keeping speech perfectly clear.
+Send long voice recordings by email or messaging apps. | Upload podcasts and lectures faster. | Save space on audio archives.
+Mono 64 kbps is ideal for speech. | Keep stereo and 128 kbps+ for music.
+How much smaller can it get?=64 kbps mono is typically 4–5× smaller than a 256 kbps stereo MP3 – fine for speech.
+
+audiocut
+Audio Cutter Online Free – Trim MP3 & Make Ringtones | {brand}
+Cut MP3, WAV, M4A and more with a visual waveform. Add fade in/out and export MP3 or WAV. Free ringtone maker.
+Trim silence, remove mistakes or cut the best part of a song for a ringtone or alarm. The waveform shows exactly where to cut.
+Make a ringtone or notification sound. | Trim silence from the start and end of recordings. | Cut a clip from a podcast for social media.
+Add a short fade-out for a smooth ending. | Ringtones usually work best under 30 seconds.
+Are files uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+videotrim
+Trim Video Online Free – Cut MP4 Without Watermark | {brand}
+Trim MP4, MOV and WEBM videos in your browser. Set start and end while watching. No upload, no watermark.
+Remove the boring start, the shaky end or cut the highlight from a long recording – without installing an editor or uploading private videos.
+Cut highlights for social media. | Remove dead time from meeting recordings. | Shorten clips to fit platform limits.
+High quality with no resizing copies without re-encoding when possible – fast and lossless. | Trim before compressing for smaller results.
+Is quality lost?=With High quality and no resizing, the video is copied without re-encoding when possible.
+
+videocrop
+Crop Video Online Free – 9:16, 1:1, 16:9 for Social Media | {brand}
+Crop videos to 1:1, 9:16, 16:9, 4:5 or 4:3 for Instagram, YouTube Shorts and TikTok. Free, private, no watermark.
+Each platform prefers a different shape: vertical 9:16 for Shorts, Reels and TikTok, square or 4:5 for feeds, 16:9 for YouTube. Crop once and post everywhere.
+Turn landscape videos into vertical Shorts and Reels. | Make square videos for feeds. | Remove black bars or unwanted edges.
+Keep the main subject centred when going from 16:9 to 9:16.
+Are videos uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+videocompress
+Compress Video Online Free – Reduce MP4 Size, No Watermark | {brand}
+Compress MP4, MOV and WEBM videos in your browser. Choose quality and resolution (720p, 480p). No upload, no watermark.
+Phone videos are huge – a few minutes of 4K can exceed a gigabyte. Compressing to 720p or 480p makes them easy to email, share in chats or upload, without sending private footage to a server.
+Email or message videos that exceed size limits. | Free up phone storage. | Upload videos faster to course or job platforms.
+720p is a good balance for phones and laptops. | Trim unneeded parts first.
+How long does it take?=The video is re-encoded on your device; long or 4K videos take time.
+
+videomute
+-
+-
+Remove background noise, music or conversations from a video before sharing it, or prepare a silent clip for a presentation.
+Remove copyrighted background music. | Create silent clips for slides and websites. | Remove private conversations from recordings.
+Use Trim Video first if you only need part of the clip.
+Are videos uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+video2gif
+Video to GIF Converter Online Free – MP4 to GIF | {brand}
+Convert MP4, MOV and WEBM clips to animated GIFs. Choose start, length, fps and width. No watermark.
+GIFs play automatically in emails, chats, documentation and slides – ideal for reaction clips and short demos.
+Make reaction GIFs. | Show a software feature in documentation. | Add short animations to emails.
+Keep clips under 5 seconds and 480 px wide. | 10–15 fps looks smooth and keeps size low.
+Are videos uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+gif2mp4
+-
+-
+GIFs are inefficient: an MP4 of the same animation is often 5–10× smaller and plays on every platform, including those that do not animate GIFs.
+Post GIF animations on platforms that need video. | Speed up websites by replacing GIFs with video. | Share animations in smaller files.
+WebM is a good choice for websites; MP4 is the most compatible.
+Are files uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+dataconv
+Data Converter Online Free – CSV, JSON, Excel, TSV, ODS | {brand}
+Convert between CSV, TSV, JSON, Excel (XLSX/XLS) and ODS in your browser. Handles nested JSON, multi-sheet Excel and Unicode.
+Data moves between spreadsheets, databases, APIs and scripts in different formats. One converter handles them all locally, so customer lists and financial data stay private.
+Prepare spreadsheet data for an API or app. | Open JSON exports in Excel. | Convert ODS files from LibreOffice.
+UTF-8 is used throughout, so accents and non-Latin scripts are kept.
+Is my data uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+csv2json
+-
+-
+JSON is the native format for web apps and APIs. Converting CSV to JSON turns spreadsheet rows into objects developers can use immediately.
+Seed a database or app with spreadsheet data. | Prepare data for JavaScript charts. | Convert exports for an API import.
+Use headers like address.city to create nested objects. | Numbers and true/false are detected automatically.
+How are headers used?=The first row becomes the JSON keys. A header like address.city becomes a nested object.
+
+json2csv
+-
+-
+CSV opens in Excel, Google Sheets and Numbers, making it ideal for analysing API data or sharing it with non-developers.
+Analyse API responses in a spreadsheet. | Share app data with colleagues. | Import JSON into tools that accept CSV.
+Nested objects become dot.key columns. | A UTF-8 BOM keeps accents correct in Excel.
+Is my data uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+csv2excel
+-
+-
+CSV files often open in Excel with broken accents or numbers formatted as text. Converting to XLSX gives a proper spreadsheet with correct numbers and Unicode text.
+Share data as a proper Excel file. | Fix encoding problems with accents and non-Latin text. | Prepare reports for colleagues.
+Check date columns – formats vary by region.
+Is my data uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+excel2csv
+-
+-
+Many systems, from email tools to databases, import CSV. Each Excel sheet becomes its own CSV file.
+Import a spreadsheet into a CRM or mailing tool. | Load data into a database. | Share data in a universal format.
+Formulas are exported as their values.
+Is my data uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+excel2json
+-
+-
+Turn a spreadsheet into JSON for an app, a website or a script, using the first row as keys.
+Power a website table or app from a spreadsheet. | Convert product catalogues for an online store.
+Keep headers simple – they become property names.
+Is my data uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+json2excel
+-
+-
+Get JSON data into Excel for filtering, charts and pivot tables. Nested fields become dot.key columns.
+Analyse exported app data. | Create reports from API responses.
+Arrays of objects with the same keys give the cleanest tables.
+Is my data uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+zipcreate
+Create ZIP File Online Free – Compress Files to ZIP | {brand}
+Put any files into a ZIP archive in your browser. No upload and no size limits beyond your device memory.
+A ZIP bundles many files into one, making it easier to email, upload or archive them – and often smaller.
+Send many photos or documents as one attachment. | Back up a project folder. | Upload multiple files to sites that accept one.
+Photos and videos are already compressed, so ZIP will not shrink them much.
+Are files uploaded?=No. Everything is processed in your browser; files never leave your device.
+
+unzip
+Unzip Files Online Free – Open ZIP on Phone or PC | {brand}
+Open ZIP archives in your browser and download individual files. Works on phones, tablets and Chromebooks.
+Need one file from a ZIP on your phone or a computer without extraction software? Open it here and download just what you need.
+Open ZIP attachments on a phone. | Extract files on a school or work computer without installing software.
+Be careful with ZIPs from unknown senders.
+Can it open password-protected ZIPs?=Not yet – encrypted ZIPs cannot be opened.
+
+units
+Unit Converter Online Free – Length, Weight, Temperature & More | {brand}
+Instant unit converter for length, weight, temperature, area, volume, speed, data, pressure and energy, metric and imperial. Works offline.
+Recipes, travel, shopping, engineering and homework all involve switching between metric and imperial units. This converter uses exact international definitions and updates instantly as you type.
+Convert recipe measurements between cups, grams and millilitres. | Check speeds and distances while travelling. | Convert units for school, science and engineering work.
+Bookmark it – it works offline once loaded.
+How accurate is it?=Exact international definitions (e.g. 1 in = 2.54 cm, 1 lb = 0.45359237 kg), shown to 10 significant digits.
+
+ulength
+-
+-
+Convert between metric (mm, cm, m, km) and imperial (inches, feet, yards, miles) lengths instantly – for DIY, travel, sports or school.
+Convert height between feet/inches and centimetres. | Check running distances in km and miles. | Measure furniture and rooms.
+1 inch is exactly 2.54 cm; 1 mile is 1.609344 km.
+Is it exact?=Yes, it uses exact international definitions.
+
+umass
+-
+-
+Convert weights between kilograms, pounds, ounces, grams and stone – useful for cooking, fitness, shipping and travel luggage.
+Convert body weight between kg, lb and stone. | Check luggage allowances. | Convert recipe quantities.
+1 kg = 2.20462 lb; 1 stone = 14 lb.
+Is it exact?=Yes, it uses 1 lb = 0.45359237 kg exactly.
+
+utemp
+-
+-
+Switch between Celsius, Fahrenheit and Kelvin for weather, cooking, science or health.
+Understand weather forecasts abroad. | Convert oven temperatures in recipes. | Convert for science homework.
+Water freezes at 0 °C (32 °F) and boils at 100 °C (212 °F).
+What formula is used?=°F = °C × 9/5 + 32 and K = °C + 273.15.
+
+uarea
+-
+-
+Convert land and floor areas between square metres, square feet, acres, hectares and more – useful for property, farming and construction.
+Compare property sizes between countries. | Convert floor plans from sq ft to m². | Calculate land in acres or hectares.
+1 hectare = 10,000 m² ≈ 2.471 acres.
+Which units are included?=Square metres, square feet, acres, hectares and several regional land units.
+
+udata
+-
+-
+Storage sizes come in decimal (MB, GB) and binary (MiB, GiB) units, which is why a "1 TB" drive shows less space on your computer. Convert between them and network speeds.
+Understand drive capacities. | Estimate download times from Mbit/s speeds. | Check file sizes against upload limits.
+1 GB = 1,000 MB, but 1 GiB = 1,024 MiB. | 8 bits = 1 byte.
+Why does my drive show less space?=Manufacturers use decimal units while many operating systems display binary units.
+
+cm2in
+-
+-
+Convert centimetres to inches for clothing sizes, screens, paper and craft projects.
+Compare clothing or shoe measurements. | Convert screen and frame sizes. | Follow sewing or craft patterns.
+1 in = 2.54 cm exactly.
+How do I convert cm to inches?=Divide centimetres by 2.54.
+
+kg2lb
+-
+-
+Convert kilograms to pounds for fitness, travel luggage, shipping and recipes.
+Check gym weights and body weight. | Convert luggage allowances. | Calculate shipping weights.
+1 kg = 2.20462 lb.
+How do I convert kg to lbs?=Multiply kilograms by 2.20462.
+
+c2f
+-
+-
+Convert Celsius to Fahrenheit for weather, cooking and health – essential when travelling or using recipes from the US.
+Understand US weather forecasts. | Convert oven temperatures. | Check body temperature readings.
+Quick estimate: double °C and add 30.
+What is the formula?=°F = °C × 9/5 + 32.
+
+lakh2m
+-
+-
+Lakh and crore are number units used in South Asian business news and finance. This converter translates them into the international million and billion system.
+Understand figures in South Asian business news. | Convert financial reports for international readers.
+1 lakh = 100,000; 1 crore = 10 million.
+How many lakh are in a million?=1 million = 10 lakh.
+
+timezone
+Time Zone Converter – Convert Time Between Any Cities | {brand}
+Convert a date and time between any time zones worldwide, with daylight saving handled automatically.
+Scheduling calls across New York, London, Berlin, Dubai, Singapore, Tokyo and Sydney is error-prone, especially when daylight saving changes. This converter uses your browser's up-to-date time zone database.
+Schedule international meetings and webinars. | Plan calls with remote colleagues or clients. | Check flight arrival times.
+Daylight saving dates differ between the US, Europe and the southern hemisphere – always check the date.
+Is daylight saving handled?=Yes, automatically, based on the selected date.
+
+ist2est
+-
+-
+Convert India Standard Time to US Eastern Time, accounting for daylight saving in the US.
+Schedule calls between India and the US East Coast.
+The difference is 9h30 in winter (EST) and 10h30 in summer (EDT).
+Does it handle daylight saving?=Yes, automatically.
+
+ist2pst
+-
+-
+Convert India Standard Time to US Pacific Time with daylight saving handled automatically.
+Schedule calls between India and the US West Coast.
+The difference is 13h30 (PST) or 12h30 (PDT).
+Does it handle daylight saving?=Yes, automatically.
+
+utc2ist
+-
+-
+Convert UTC/GMT to India Standard Time (UTC+05:30) – useful for server logs, flights and events.
+Read server logs in local time. | Convert event times announced in UTC.
+India does not use daylight saving.
+What is the offset?=IST is UTC+05:30 all year.

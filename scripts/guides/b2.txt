@@ -1,0 +1,375 @@
+imgcompress
+Compress Image Online Free – Reduce JPG, PNG, WEBP Size | {brand}
+Reduce image file size by up to 90% while keeping photos sharp. Bulk compress JPG, PNG, WEBP and AVIF in your browser – no upload, no limits.
+Heavy images slow down websites, fill phone storage and get rejected by upload forms with size limits. {brand} compresses photos on your own device, so you can shrink hundreds of images – including private photos – without uploading them.
+Speed up a website or online store by shrinking product photos. | Fit photos under upload limits for job, school or visa applications. | Send many holiday photos by email or chat. | Free up storage on your phone or cloud drive.
+Quality 75–85 is usually indistinguishable from the original for photos. | Converting to WEBP or AVIF often gives the smallest files. | Resize very large photos (for example 4000 px wide) first – fewer pixels means much smaller files.
+How much can I reduce file size?=Typical photos shrink 50–90%. If an image is already optimised, the original is kept so it never gets larger.
+
+imgresize
+Resize Image Online Free – Change Image Size in Pixels or % | {brand}
+Resize JPG, PNG, WEBP and more to exact pixels or a percentage while keeping the aspect ratio. Batch resize in your browser, free.
+Every platform wants a different size: profile pictures, website banners, marketplace listings, passport-photo uploads. Resize Image scales your photos to exact dimensions without distortion, in bulk, on your device.
+Make product photos a uniform width for an online shop. | Prepare images for social media posts and covers. | Shrink camera photos for email and faster upload. | Meet exact pixel requirements for application forms.
+Keep "aspect ratio" on to avoid stretching. | Downscaling keeps quality; upscaling small images can look soft – try Upscale Image. | Combine with Compress Image for the smallest files.
+Will resizing stretch my image?=No – with "Keep aspect ratio" on, the image fits inside the size you enter without distortion.
+
+imgcrop
+Crop Image Online Free – Square, 16:9, 4:3 and Story Sizes | {brand}
+Crop photos visually or by exact pixels, with presets for square, 16:9, 4:3 and 9:16 stories. Free, private, no upload.
+A good crop removes distractions and fits the frame each platform expects – square for profile pictures, 16:9 for video thumbnails, 9:16 for stories. Crop visually or enter exact pixels.
+Make square profile pictures. | Crop thumbnails to 16:9 for YouTube or presentations. | Cut a photo to 9:16 for Instagram or TikTok stories. | Remove unwanted edges from screenshots.
+Use the rule of thirds: place the subject off-centre for a natural look. | Crop before compressing for the smallest file.
+Can I crop to a perfect square?=Yes. Choose the 1:1 ratio and the selection is centred automatically; drag to adjust.
+
+imgrotate
+Rotate Image Online Free – Rotate and Flip Photos | {brand}
+Rotate images 90°, 180° or any angle and flip them horizontally or vertically. Batch rotate in your browser, no upload.
+Phones sometimes save photos sideways, and scanned images can be upside down. Rotate & Flip fixes orientation permanently for every app, and can mirror selfies or straighten a slightly tilted horizon.
+Fix sideways phone photos before uploading. | Mirror selfies so text reads correctly. | Straighten a tilted horizon with a small custom angle.
+Rotations in 90° steps are lossless in quality. | Choose PNG output for perfectly lossless results.
+Does rotating reduce quality?=Rotations by 90° steps are pixel-perfect. Choose PNG output for lossless results.
+
+imgconvert
+Image Converter Online Free – JPG, PNG, WEBP, AVIF, HEIC, SVG | {brand}
+Convert images between JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC and SVG. Batch convert in your browser, no upload.
+Different formats suit different jobs: JPG for photos, PNG for graphics and transparency, WEBP and AVIF for small web images, ICO for icons. One converter handles them all, in bulk, without uploading your pictures.
+Convert iPhone HEIC photos to JPG. | Turn PNG screenshots into compact WEBP for a website. | Create ICO icons from PNG. | Convert old BMP or TIFF scans to JPG.
+Choose PNG when you need transparency. | For the web, WEBP is supported by all modern browsers. | Quality 85–92 is visually identical for most photos.
+Which formats are supported?=Input: JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG and HEIC/HEIF. Output: JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO and SVG (vector tracing).
+
+png2jpg
+-
+-
+PNG files are lossless and support transparency, which makes them large – a phone screenshot or exported photo can be several megabytes. Converting to JPG typically makes photos and screenshots far smaller, which is ideal for email, websites and forms that only accept JPG.
+Shrink large PNG photos for email or messaging. | Meet upload forms that accept only JPG. | Reduce the size of screenshots for documentation.
+Transparent areas become white (or your chosen background) because JPG has no transparency. | Keep PNG for logos, text and sharp graphics. | Quality 85–90 balances size and sharpness.
+What happens to transparent backgrounds?=JPG does not support transparency, so transparent areas are filled with a solid colour, usually white.
+
+jpg2png
+-
+-
+JPG is great for photos but uses lossy compression. Converting to PNG gives a lossless copy – useful when you will edit an image repeatedly, need a format that design tools prefer, or want to add transparency later.
+Prepare a photo for repeated editing without extra quality loss. | Use images in tools or templates that require PNG. | Start a cut-out or transparent graphic from a JPG.
+PNG files are usually larger than JPG – that is normal. | Converting cannot restore detail already lost in the JPG. | Use Remove Background to make the background transparent.
+Will converting to PNG improve quality?=No, it preserves the current quality exactly but cannot recover detail lost by earlier JPG compression.
+
+webp2jpg
+-
+-
+WEBP is a modern web format, but some older apps, editors, printers and upload forms still do not accept it. If you saved an image from a website and it will not open, converting WEBP to JPG makes it compatible everywhere.
+Open images saved from websites in older software. | Upload images to forms that accept only JPG. | Print photos at shops that do not support WEBP.
+Transparent WEBP images get a white background in JPG; choose PNG to keep transparency. | Convert many files at once and download a ZIP.
+Why can't I open WEBP files?=Some older programs and services do not support WEBP. Converting to JPG solves this.
+
+webp2png
+-
+-
+Converting WEBP to PNG keeps transparency and gives you a lossless file that every image editor understands – handy for logos, stickers and graphics downloaded from the web.
+Edit web graphics in software without WEBP support. | Keep transparent backgrounds for logos and stickers. | Use images in presentations and documents.
+PNG keeps transparency; JPG does not. | Files may become larger than the WEBP – that is expected.
+Is transparency kept?=Yes. PNG supports transparency, so transparent areas stay transparent.
+
+jpg2webp
+-
+-
+WEBP images are typically 25–35% smaller than JPGs at similar visual quality, so websites load faster and use less bandwidth. All modern browsers support WEBP.
+Speed up a website or blog. | Reduce image storage for an online shop. | Improve Core Web Vitals and page speed scores.
+Quality 75–85 is a good default for the web. | Keep the original JPGs as masters. | For even smaller files try JPG to AVIF.
+Do all browsers support WEBP?=Yes, all current versions of Chrome, Edge, Firefox and Safari support WEBP.
+
+png2webp
+-
+-
+PNG screenshots and graphics can be very large. WEBP supports both transparency and much stronger compression, often cutting file size by more than half – perfect for websites and apps.
+Make transparent website graphics lighter. | Reduce screenshot sizes in documentation sites. | Optimise app and game assets.
+Use lossless WEBP for sharp text and UI; lossy for photos. | Check the result on a dark and light background if it has transparency.
+Does WEBP keep transparency?=Yes, WEBP supports transparency in both lossy and lossless modes.
+
+avif2jpg
+-
+-
+AVIF offers excellent compression but is still not supported by many editors, office apps and websites. Converting AVIF to JPG makes the image usable everywhere.
+Open AVIF images in older software. | Upload to sites that reject AVIF. | Share photos with people on older devices.
+Use high quality (90) to preserve detail when converting. | Choose PNG if the AVIF has transparency.
+What is AVIF?=AVIF is a modern image format based on the AV1 video codec, giving very small files at high quality.
+
+jpg2avif
+-
+-
+AVIF often produces files around half the size of JPG at similar quality, making it one of the best formats for fast websites. Browser support is now broad across Chrome, Edge, Firefox and Safari.
+Get the smallest possible images for a website. | Store large photo collections efficiently. | Boost page speed for image-heavy pages.
+Encoding AVIF is slower than other formats – be patient with big batches. | Keep JPG fallbacks for very old browsers if needed.
+Is AVIF better than WEBP?=AVIF usually compresses more; WEBP encodes faster and has slightly wider legacy support. Both are excellent for the web.
+
+tiff2jpg
+-
+-
+TIFF files from scanners and cameras are large and many browsers and phones cannot display them. Converting to JPG makes scans easy to view, share and upload.
+Share scanned documents and photos by email. | View scanner output on phones. | Upload archive scans to websites.
+Multi-page TIFFs become one JPG per page. | Keep the TIFF as your archival master.
+Are multi-page TIFFs supported?=Yes, each page is converted to its own image.
+
+jpg2tiff
+-
+-
+TIFF remains a standard in printing, publishing and archives because it is lossless and widely accepted by professional software.
+Deliver images to a print shop that requests TIFF. | Archive photos in a lossless format. | Import into document management or fax systems.
+TIFF files are large – that is normal. | Converting cannot recover quality lost in the JPG.
+Why use TIFF instead of JPG?=TIFF is lossless and favoured by print and archive workflows; JPG is smaller and better for sharing.
+
+bmp2jpg
+-
+-
+BMP is an old, uncompressed Windows format, so files are huge. Converting to JPG can make them many times smaller while looking the same.
+Shrink old Windows screenshots and paintings. | Share BMP files by email. | Upload images to websites that reject BMP.
+Choose PNG for screenshots with text to keep them crisp. | Batch convert a whole folder at once.
+Why is BMP so large?=BMP usually stores every pixel uncompressed, so even simple images take a lot of space.
+
+png2ico
+-
+-
+ICO is the icon format used by Windows and by website favicons. Convert a PNG into a multi-size ICO for desktop shortcuts, apps or a website tab icon.
+Create a favicon.ico for a website. | Make custom Windows folder or shortcut icons. | Package icons for a desktop app.
+Start from a square PNG of at least 256×256 px. | For a full favicon set, use the Favicon Generator.
+What size should my PNG be?=A square image of at least 256×256 pixels gives the best results at all icon sizes.
+
+svg2png
+-
+-
+SVG is perfect for scalable graphics, but many apps, social networks and documents do not accept it. Converting to PNG gives a sharp raster image that works everywhere.
+Use a logo in Word, slides or social media. | Upload icons to platforms that reject SVG. | Create app-store or marketplace images.
+Choose a large output size for printing. | Transparency is preserved in PNG.
+How sharp is the PNG?=SVGs are rendered at least 1024 px on the longest side for crisp results.
+
+png2svg
+-
+-
+Tracing converts a pixel image into vector shapes that scale without blurring – ideal for logos and simple graphics you need to print large or edit in design software.
+Turn a low-resolution logo into a scalable vector. | Prepare graphics for cutting machines (Cricut, vinyl, laser). | Create icons for the web.
+Works best with flat colours and clear edges. | Clean up the SVG in Inkscape or Illustrator afterwards.
+Does it work for photos?=The image is traced into coloured vector paths (16 colours). It works best for logos, icons and flat graphics, not photos.
+
+gif2png
+-
+-
+Converting a GIF to PNG gives you a lossless still image – useful for extracting the first frame of an animation or editing a GIF graphic in any app.
+Get a still image from an animated GIF. | Edit GIF graphics in tools that prefer PNG. | Use a GIF graphic in documents.
+Only the first frame is converted; use GIF tools for frame-by-frame work.
+Are animations kept?=No, PNG is a still format; the first frame is saved.
+
+heic2jpg
+HEIC to JPG Converter Online Free – iPhone Photos to JPG | {brand}
+Convert iPhone and iPad HEIC/HEIF photos to JPG, PNG or WEBP. Batch convert privately in your browser – photos are never uploaded.
+iPhones save photos as HEIC to save space, but Windows PCs, many websites and older Android apps cannot open them. Converting to JPG makes your photos viewable everywhere – and because {brand} works locally, personal photos stay on your device.
+Open iPhone photos on Windows or Android. | Upload photos to websites that do not accept HEIC. | Share pictures with friends and family on any device.
+Convert a whole album at once and download a ZIP. | Quality 90 keeps photos looking like the original.
+Why are my iPhone photos HEIC?=HEIC is Apple's high-efficiency format. Many apps and websites don't support it, so converting to JPG makes photos viewable everywhere.
+
+imgwatermark
+Watermark Image Online Free – Add Text or Logo to Photos | {brand}
+Protect photos with a text or logo watermark. Choose position, size, opacity and angle, or tile it. Batch watermark in your browser.
+Watermarks deter people from reusing your photos without credit and promote your brand when images are shared. Add a name, website or logo to a whole batch at once, privately on your device.
+Brand product photos for an online shop. | Protect photography portfolios. | Mark property or rental photos with your agency name.
+Tiled, semi-transparent marks are hardest to remove. | Keep watermarks subtle so the photo is still enjoyable.
+Can I watermark many images at once?=Yes – the same watermark is applied to every selected image and you get a ZIP.
+
+meme
+Meme Generator Online Free – No Watermark | {brand}
+Create memes with classic bold top and bottom text on your own images. Live preview, no watermark, no sign-up.
+Make a meme in seconds with the classic impact-style caption on any picture. Everything happens in your browser, so your images are not uploaded.
+Create memes for group chats and social media. | Make funny captions for team presentations. | Design reaction images.
+Short captions are funnier and easier to read. | Use your own photos or images you have the right to use.
+Is there a watermark?=Never. Your meme is yours.
+
+blurface
+Blur Face in Photos Online Free – Automatic & Private | {brand}
+Automatically detect and blur faces, or mark licence plates and details to blur, pixelate or black out. Runs on your device for privacy.
+Before posting photos of crowds, children or street scenes, it is good practice – and sometimes a legal requirement under privacy laws such as GDPR – to hide faces and licence plates. This tool finds faces with on-device AI so the photos never leave your device.
+Protect children's privacy in school or event photos. | Anonymise bystanders in street photography. | Hide licence plates before selling a car online.
+Check the result – small or turned faces can be missed; add boxes by hand. | Pixelate or black out for stronger anonymisation than blur.
+How does face detection work?=A small AI model runs in your browser to find faces. It can miss tiny or turned faces, so check the result and add boxes by hand if needed.
+
+gifmaker
+GIF Maker Online Free – Create Animated GIFs from Images | {brand}
+Make animated GIFs from JPG, PNG or WEBP images. Set frame speed, size and looping. Free, no watermark, works in your browser.
+Animated GIFs are a simple way to show steps, before-and-after comparisons or a short story in a chat, email or README – they play everywhere without a video player.
+Create a before-and-after animation. | Show product angles in an online listing. | Make tutorial steps for documentation.
+Keep width under 600 px for small files. | 2–10 frames per second looks smooth for slideshows.
+How many images can I use?=As many as your device's memory allows; 2–100 frames work well.
+
+img2gif
+-
+-
+Turn a set of photos into a looping GIF slideshow – perfect for sharing a series of shots in one file that plays automatically in emails and chats.
+Share a trip or event as a photo slideshow. | Make simple animated banners. | Show a timelapse from several photos.
+Order the images before creating the GIF. | Lower the size for faster sharing.
+How many frames can I add?=As many as your device's memory allows; 2–100 frames work well.
+
+favicon
+Favicon Generator Online Free – ICO, PNG, Apple Touch Icon | {brand}
+Generate favicon.ico, PNG favicons, Apple touch icon, Android icons and a web manifest from one image, plus the HTML code to paste.
+The favicon is the small icon in browser tabs, bookmarks and phone home screens. A full set makes a website look professional on every device; this generator creates all sizes from one image.
+Create icons for a new website or blog. | Update a site's branding. | Make icons for a progressive web app.
+Use a simple, square design – details disappear at 16 px. | Paste the generated HTML into your page's head.
+Which files do I get?=favicon.ico (16/32/48), 16 and 32 px PNGs, a 180 px Apple touch icon, 192 and 512 px Android icons, site.webmanifest and the HTML tags to paste.
+
+colorpicker
+Image Color Picker Online Free – Get HEX, RGB from Image | {brand}
+Click anywhere on an image to get its HEX, RGB and HSL colour codes and see its dominant palette. Free online colour picker.
+Designers, developers and marketers often need the exact colour from a logo, photo or screenshot. Pick any pixel or get the dominant palette instantly.
+Match brand colours from a logo. | Build a website colour scheme from a photo. | Find paint or fabric colours from a picture.
+Zoom in to pick small details precisely. | Copy HEX for CSS and design tools.
+Which colour formats are shown?=HEX, RGB and HSL for every picked colour and for up to 8 dominant colours.
+
+collage
+Collage Maker Online Free – Photo Grid, No Watermark | {brand}
+Create a photo collage from multiple images with adjustable columns, spacing and background. Free, private, no watermark.
+A collage shows many photos in one image – perfect for social posts, event recaps, mood boards and family memories.
+Share holiday highlights in one post. | Create a mood board for a project. | Make a product grid for an online store.
+Use photos with similar aspect ratios for a neat grid. | Add spacing and a background colour that suits your photos.
+Can I change the order?=Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom.
+
+qr
+Free QR Code Generator – Logo, Colours, SVG & PDF, No Expiry | {brand}
+Create free static QR codes for URLs, Wi-Fi, vCard, email, SMS, location and events. Add a logo and colours, download PNG, SVG or PDF. Never expires.
+Many "free" QR generators create dynamic codes that redirect through their servers and stop working when a trial ends. {brand} creates static codes: the content is inside the code itself, so it works forever, with no account and no tracking.
+Link menus, flyers and posters to your website. | Share Wi-Fi with guests. | Put contact details on business cards. | Add QR codes to product packaging and event tickets.
+Test the code with several phones before printing. | Keep strong contrast – dark code on a light background. | Download SVG or PDF for print to stay sharp at any size.
+Do these QR codes expire?=No. They are static codes that never expire and need no account. Nothing is tracked.
+
+qr_wifi
+-
+-
+A Wi-Fi QR code lets guests join your network by pointing their camera at it – no spelling out long passwords. It is ideal for homes, cafés, offices and holiday rentals.
+Share guest Wi-Fi at home or in a holiday rental. | Display Wi-Fi access in cafés, hotels and co-working spaces. | Speed up device setup in offices.
+Use a separate guest network for visitors. | Print it in a frame near the entrance. | Update the code if you change the password.
+Do I need to type the password each time?=No. Scanning connects the phone directly on iPhone and Android.
+
+qr_vcard
+-
+-
+A vCard QR code saves your name, phone, email, company and website straight into the scanner's contacts – a modern addition to business cards, email signatures and name badges.
+Add a QR code to business cards. | Put contact details on trade-show badges and banners. | Share contact info on a website or email signature.
+Include only the fields you want to share publicly. | Print at least 2 cm (0.8 in) wide for easy scanning.
+Does it work on iPhone and Android?=Yes, both open the contact card directly from the camera app.
+
+qr_mecard
+-
+-
+MeCard is a compact contact format that produces smaller, simpler QR codes than vCard – easier to scan when printed small.
+Fit a contact QR code on a small label or badge. | Share basic contact info quickly.
+Use vCard if you need many fields such as address and job title.
+MeCard or vCard?=MeCard gives smaller codes; vCard supports more fields.
+
+qr_email
+-
+-
+An email QR code opens a new message with the address, subject and text already filled in – handy for feedback, support requests and sign-ups.
+Collect feedback at events or in stores. | Let customers contact support from a printed manual. | Simplify RSVP or sign-up requests.
+Keep the subject short and clear. | Test with your own phone's mail app.
+Is the email sent automatically?=No, the scanner sees a pre-filled draft and decides whether to send it.
+
+qr_sms
+-
+-
+An SMS QR code opens a text message with the number and message pre-filled – great for opt-ins, voting and quick feedback.
+Run SMS opt-in campaigns from posters. | Collect quick feedback by text. | Let customers request a call back.
+Mention any messaging costs where relevant. | Keep the pre-filled message short.
+Does the message send itself?=No, the user always confirms before sending.
+
+qr_phone
+-
+-
+A phone QR code dials your number when scanned – useful on posters, vehicles, delivery menus and shop windows.
+Add a "call us" code to flyers and signs. | Put an emergency contact on equipment. | Help customers reach you from printed ads.
+Use international format (+country code) for worldwide callers.
+Does it call automatically?=No, the phone shows the number and the user taps to call.
+
+qr_text
+-
+-
+Text QR codes store a message directly in the code – no internet needed to read it. They work for any language.
+Add instructions to equipment or packaging. | Hide a message for a game or treasure hunt. | Label stored items with details.
+Shorter text creates simpler, easier-to-scan codes.
+Is there a text length limit?=QR codes can hold a few thousand characters, but shorter text scans much more reliably.
+
+qr_url
+-
+-
+A URL QR code sends people straight to a website, menu, video or form. Because it is static, the link is inside the code and it never expires.
+Link restaurant menus and price lists. | Point posters and packaging to a landing page. | Share a video, review page or app download link.
+Use a short URL for a simpler code. | Make sure the page is mobile-friendly.
+Can I change the link later?=Static codes cannot be edited; generate a new code or point the URL to a page you control.
+
+qr_location
+-
+-
+A location QR code opens the exact spot in the phone's maps app – easier than typing an address, especially for venues, trailheads or entrances.
+Guide guests to a wedding or event venue. | Mark parking or a hidden entrance. | Share meeting points for tours.
+Use precise coordinates from your map app. | Test with both Google Maps and Apple Maps.
+Which map apps open it?=Most phones open the default maps app, such as Google Maps or Apple Maps.
+
+qr_event
+-
+-
+An event QR code adds your event – title, time and place – to the scanner's calendar in one tap, reducing no-shows.
+Put on invitations and event posters. | Add to webinar and conference flyers. | Share meeting details in print.
+Include the time zone for international events.
+Does it work with Google and Apple calendars?=Yes, it uses the standard iCalendar format.
+
+qr_bitcoin
+-
+-
+A Bitcoin QR code (BIP21) contains your address, and optionally an amount and label, so payers can scan instead of copying a long address.
+Accept donations on a website or stream. | Request payments at a market stall. | Share a payment request in an invoice.
+Double-check the address – payments cannot be reversed. | Generated offline, so your address is not sent anywhere.
+Is it safe?=The code is generated in your browser. Always verify the address before sharing.
+
+qr_social
+-
+-
+A social media QR code takes people straight to your Instagram, X, Facebook, LinkedIn, YouTube, TikTok, WhatsApp, Telegram or GitHub profile.
+Grow followers from shop counters and packaging. | Add profiles to business cards. | Promote a channel at events.
+Add your platform's logo in the centre so people know where it goes.
+Will it open the app?=Yes, most phones open the profile in the installed app.
+
+qrscan
+QR Code Scanner Online – Scan from Image or Camera, Free | {brand}
+Scan QR codes and barcodes from a photo, screenshot or your camera, right in the browser. Nothing is uploaded.
+Received a QR code in a screenshot or PDF and cannot point a camera at it? Upload the image and read it instantly. You can also use your laptop or phone camera.
+Read QR codes in screenshots or emails. | Check where a QR code leads before opening it. | Scan barcodes on products.
+Crop around the code if the image has several. | Be careful with unknown codes – check the link before visiting.
+Which codes are supported?=QR codes everywhere. In Chrome, Edge and Android, 1D barcodes (EAN, UPC, Code 128…) and Data Matrix are also read.
+
+barcode
+Barcode Generator Online Free – Code 128, EAN-13, UPC, Code 39 | {brand}
+Generate barcodes: Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, Codabar and MSI. Download PNG or vector SVG. Free.
+Barcodes are used for inventory, shipping, libraries, retail and events. Pick the symbology your scanner or partner needs and download a print-ready image.
+Label inventory and assets. | Create shipping and carton labels (ITF-14). | Make library or membership cards.
+Code 128 is the most versatile for general use. | Print SVG for crisp bars. | Leave white space (quiet zone) around the barcode.
+Can I use them on products in stores?=Technically yes, but retail requires officially assigned GS1 numbers – the generator only draws the barcode.
+
+bc_ean13
+-
+-
+EAN-13 is the standard retail barcode used worldwide outside North America. It encodes 13 digits including a check digit.
+Print barcodes for retail products using your GS1 number. | Create labels for books (ISBN as EAN-13). | Mock up packaging designs.
+Get official numbers from GS1 for retail. | Print at 100% size for reliable scanning.
+Do I need to enter the check digit?=No. Leave it out and it is calculated automatically.
+
+bc_upc
+-
+-
+UPC-A is the 12-digit retail barcode used mainly in the United States and Canada.
+Label products sold in North American stores. | Create shelf and inventory labels.
+Get your company prefix from GS1 US for retail use.
+Is the check digit added?=Yes. Leave it out and it is calculated automatically.
+
+bc_code39
+-
+-
+Code 39 encodes letters, numbers and a few symbols and is widely used for ID badges, inventory and industry labels.
+Create employee or student ID badges. | Label equipment and assets. | Track parts in a workshop.
+Code 39 is wide – use Code 128 when space is tight.
+Which characters are allowed?=Upper-case letters A–Z, digits 0–9 and - . $ / + % and space.

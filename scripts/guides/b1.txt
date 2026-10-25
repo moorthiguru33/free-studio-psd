@@ -1,0 +1,335 @@
+pagenumbers
+Add Page Numbers to PDF Online Free – Custom Position & Start | {brand}
+Number the pages of any PDF: choose position, font size and starting number. Free, no watermark, no sign-up – numbering happens in your browser.
+Page numbers make long documents easier to navigate, cite and print – reviewers can say "see page 14" instead of scrolling. {brand} stamps numbers directly onto each page on your own device, so manuscripts, legal bundles and reports stay private.
+Number a thesis, dissertation or manuscript before submission. | Prepare court bundles or contract exhibits that must be referenced by page. | Add numbers to a merged report so readers can follow the table of contents. | Number printed handouts so loose pages can be put back in order.
+Start at a different number (for example 3) if your cover and contents pages should not be counted. | Bottom-centre is the most readable choice for printed documents; bottom-right suits double-sided binding less well, so test a page. | Merge all parts first, then number once so the sequence is continuous. | Need "Page 3 of 20" or dates? Use Header & Footer instead.
+Can I skip numbering on the cover page?=Set the starting number so the count matches your layout, or split off the cover, number the rest and merge again. || Will the numbers be editable later?=They are drawn into the page content, so they print reliably everywhere; to change them, number the original file again.
+
+deletepages
+Delete Pages from PDF Online Free – Remove PDF Pages | {brand}
+Remove unwanted pages from a PDF by tapping thumbnails. Free, no upload, no watermark – a clean new PDF is created on your device.
+Blank scans, duplicate pages, outdated appendices or pages with personal details often need to go before you share a document. {brand} shows every page as a thumbnail so you can see exactly what you are removing, and builds the new file locally.
+Remove blank pages left by a double-sided scanner. | Drop advert or cover pages from a downloaded report. | Remove pages with personal information before sending a document to a third party. | Trim a long manual down to the sections you actually need.
+Zoom in on thumbnails when pages look similar. | Your original file is never modified – keep it until you have checked the result. | To keep a few pages rather than delete many, Extract PDF Pages is quicker.
+Does deleting pages reduce file size?=Usually yes, because the content of removed pages is not copied into the new file. Run Compress PDF afterwards for further savings.
+
+extractpages
+Extract Pages from PDF Online Free – Save Selected Pages | {brand}
+Pick the pages you need and save them as a new PDF. Visual page selection, free, unlimited and private – nothing is uploaded.
+Often you only need part of a document: one signed page, a single chapter or the pages that mention a project. Extract Pages lets you select those pages visually and save them as a new, smaller PDF without touching the original.
+Send only the signature page of a contract back to a client. | Share one chapter of a book or course pack with a study group. | Pull a single statement or invoice out of a combined monthly file. | Collect key slides from a long presentation exported as PDF.
+Select pages in any order, then reorder them before clicking Start. | For fixed ranges like 1-5, Split PDF with a page range is faster. | Extracted pages keep their original quality and selectable text.
+Can I extract non-consecutive pages?=Yes. Tap any combination of pages, for example 2, 7 and 15, and they are saved together in one PDF.
+
+splitbm
+Split PDF by Bookmarks – Split into Chapters Online Free | {brand}
+Split a PDF into separate files at each bookmark, such as chapters or sections. Files are named after the bookmarks. Free and private.
+Well-structured PDFs – e-books, manuals, standards and annual reports – contain bookmarks (an outline) that mark where each chapter begins. Splitting by bookmarks turns one huge file into tidy chapter files automatically, without you having to look up page numbers.
+Break an e-book or textbook into one file per chapter. | Split a technical manual so each team receives only its section. | Separate a combined board pack into individual agenda items.
+Open the PDF's bookmark panel first to check the outline exists and is accurate. | Choose top-level bookmarks for chapters, or deeper levels for sections. | No bookmarks? Use Split PDF by Text with a heading like "Chapter".
+What if my PDF has no bookmarks?=Use Split PDF by text (for repeated headings) or Split PDF with page ranges instead.
+
+splitsize
+Split PDF by File Size – Make PDFs Under an MB Limit | {brand}
+Split a large PDF into parts that each fit an email or upload size limit (for example 5 MB or 10 MB). Free, no upload, processed locally.
+Email providers commonly cap attachments around 20–25 MB, and many upload portals accept far less. Split by Size cuts a big PDF into consecutive parts that each stay under the limit you choose, so you can send it in several messages or uploads.
+Send a large scanned contract across several emails. | Upload a long application file to a portal with a per-file size limit. | Share big reports in chat apps that limit file sizes.
+Compress the PDF first – you may not need to split at all. | Set the limit slightly below the real cap to allow for email encoding overhead. | A single page larger than the limit is saved on its own; compress that part separately.
+Why is one part larger than my limit?=A single page can be bigger than the limit (for example a high-resolution scan). It is saved as its own file; Compress PDF usually fixes it.
+
+splittext
+Split PDF by Text – Split at Every Page Containing a Word | {brand}
+Split a PDF wherever a word or phrase appears – such as "Invoice", "Statement" or "Chapter". Free, private, done in your browser.
+Batch-printed documents often combine many records into one PDF: hundreds of invoices, payslips or letters. Split by Text starts a new file at every page containing the text you enter, turning one batch into individual documents in seconds.
+Split a batch of invoices into one PDF per invoice. | Separate payslips or letters generated in a single mail-merge file. | Break a report at each "Chapter" or "Section" heading.
+Use a word that appears only on the first page of each record, such as "Invoice No." | Matching is case-insensitive, so "INVOICE" and "invoice" both work. | The PDF needs a text layer; for scans, run OCR PDF first.
+Does it work with scanned PDFs?=Only if they contain a text layer. Run OCR PDF first, then split by text.
+
+nup
+N-up PDF – Print Multiple Pages per Sheet Online Free | {brand}
+Place 2, 4, 6 or 9 PDF pages on each sheet to save paper and make handouts. Vector quality, A4 or Letter output, free and private.
+N-up printing puts several pages on one sheet of paper – perfect for slide handouts, proofreading copies and study notes. {brand} embeds the original pages as vectors, so text stays crisp even when pages are scaled down.
+Print lecture slides 4 or 6 to a page as study handouts. | Create compact proof copies of a long document. | Save paper and toner when printing reference material.
+2-up on landscape paper is the most readable for text documents. | 6 or 9 per sheet works best for slides with large text. | Choose A4 or Letter to match your printer's paper.
+Will text become blurry?=No. Pages are embedded as vectors, so they stay sharp at any size.
+
+watermark
+Add Watermark to PDF Online Free – Text Watermark Any Language | {brand}
+Stamp a text watermark such as CONFIDENTIAL, DRAFT or your company name on PDF pages. Set size, opacity, angle and colour. Free, no upload.
+A watermark tells readers a document's status or owner at a glance and discourages unauthorised copying. {brand} adds watermarks in your browser, supports many scripts – Latin, Cyrillic, Greek, Arabic, Hebrew, Devanagari, Thai and more – and never uploads your file.
+Mark drafts as DRAFT before circulating them for review. | Label sensitive documents as CONFIDENTIAL. | Brand quotes, portfolios or reports with your company name. | Mark copies of ID documents with "Copy – for rental application only".
+Low opacity (15–30%) keeps the document readable. | A 45° diagonal watermark is hardest to crop out. | Combine with Flatten PDF or Rasterize PDF if you want the watermark harder to remove.
+Can someone remove the watermark?=A text watermark can be removed by determined users with editing software. Rasterizing the PDF afterwards makes removal much harder.
+
+headerfooter
+Add Header and Footer to PDF Online Free – Page X of Y, Date | {brand}
+Add headers and footers with page numbers, totals, dates and file names to every PDF page. Free, private, no watermark.
+Headers and footers give documents a professional finish and context on every page: the document title, "Page 3 of 12", a date or a confidentiality line. {brand} supports placeholders, so one setting produces the right text for each page.
+Add "Page {page} of {total}" to reports and proposals. | Put the company name and "Confidential" on every page. | Stamp the print date on records and audit documents. | Label pages of an exhibit with the file name.
+Placeholders: {page}, {total}, {date} and {file}. | Keep headers short so they do not overlap page content. | For legal numbering across many files, use Bates Numbering.
+Can I use different text on the left, centre and right?=Yes, set each position separately in the options.
+
+bates
+Bates Numbering PDF Online Free – Legal Document Numbering | {brand}
+Apply sequential Bates numbers (prefix, digits, suffix) across multiple PDFs for legal discovery and records. Free, private, no upload.
+Bates numbering gives every page in a set of documents a unique, sequential identifier, such as ABC000001 – a standard in litigation, discovery and compliance work. Because {brand} runs locally, privileged and confidential documents are never sent to a third-party server.
+Number documents for legal discovery or disclosure. | Label pages of evidence bundles and exhibits. | Track pages in audit, insurance or compliance submissions.
+Choose enough digits for the whole production (6 digits covers up to 999,999 pages). | Order files correctly before starting; numbering continues from one file to the next. | Use a matter-specific prefix to avoid confusion between cases.
+Do numbers continue across files?=Yes. Numbers continue from one file to the next in the order shown.
+
+crop
+Crop PDF Online Free – Trim PDF Margins | {brand}
+Crop PDF pages by exact millimetres to remove white margins or focus on content. All pages or selected pages. Free and private.
+Scanned pages and exported slides often have wide margins or unwanted borders. Cropping trims the visible page area, making documents easier to read on phones and e-readers and tidier when printed.
+Remove wide white margins for easier reading on a phone or tablet. | Cut off scanner borders and shadows. | Focus on a chart or figure for a presentation.
+Measure on one page and apply to all if pages share the same layout. | Cropping hides content but does not delete it – use Redact PDF for sensitive content. | After cropping, Change Page Size can fit content back to A4 or Letter.
+Is cropped content deleted?=No. It is hidden outside the new page box. Use Redact PDF to permanently remove sensitive content.
+
+findreplace
+Find and Replace Text in PDF Online Free | {brand}
+Find a word or phrase in a PDF and replace it with new text, directly in your browser. Free, no upload, no sign-up.
+Spotted a misspelled name, an outdated date or an old price in a PDF? Find & Replace locates every occurrence and writes your new text in its place – useful when you no longer have the original Word or design file.
+Fix a typo in a name or address. | Update a date, price or version number across a document. | Replace an old company name after a rebrand.
+Works on PDFs with a text layer; scans need OCR first. | Keep replacement text a similar length so it fits the space. | If the old text must be removed for confidentiality, use Redact PDF.
+Is the old text really gone?=This beta covers the old text visually and writes the new text on top. Use Redact PDF if it must be removed permanently.
+
+metadata
+Edit PDF Metadata Online Free – Title, Author, Keywords | {brand}
+View and edit PDF title, author, subject and keywords, or remove them. Free, private, done in your browser.
+PDF metadata is the hidden information stored in a file: title, author, subject, keywords, the creating software and dates. A proper title shows in browser tabs and search results, while stale author names can leak information you did not mean to share.
+Set a descriptive title before publishing a PDF on your website. | Correct the author name on documents created from a template. | Add keywords to help document management systems find files.
+The Title field is what browsers show in the tab – make it meaningful. | To remove everything quickly, use Remove PDF Metadata.
+Does metadata affect SEO for PDFs?=Search engines can use the PDF title, so a clear, accurate title helps people find and recognise your document.
+
+flatten
+Flatten PDF Online Free – Make Form Fields Non-Editable | {brand}
+Flatten fillable PDF forms and annotations so values can no longer be changed, or flatten every page into an image. Free and private.
+When you send a completed form, the recipient can usually still edit its fields. Flattening merges field values and annotations into the page so the form looks the same everywhere and cannot be casually changed.
+Lock a completed application or tax form before submitting it. | Make sure comments and stamps display in every viewer. | Fix forms whose fields show blank on phones or in some printers.
+Use "Form fields only" to keep text selectable. | "Everything" mode turns pages into images – stronger, but text cannot be selected. | Keep an unflattened copy in case you need to edit later.
+Will text remain searchable?=Yes in Form fields only mode. Everything mode converts pages to images.
+
+redact
+Redact PDF Online Free – Permanently Black Out Text | {brand}
+Permanently redact words and areas in a PDF. Redacted pages are rebuilt so hidden text cannot be copied or recovered. Free, private.
+Drawing a black box over text in many editors leaves the text underneath – anyone can copy it out. True redaction removes it. {brand} rebuilds every redacted page so the hidden content is gone, and because it runs locally, the sensitive document never leaves your device.
+Hide account numbers, ID numbers and signatures before sharing. | Remove personal data from documents released under privacy or freedom-of-information requests. | Black out client names in case studies or court filings.
+Search for a word to redact every occurrence at once, then add boxes for images or signatures. | Check the result by trying to select and copy text in the redacted areas. | Also run Remove PDF Metadata – author names and titles can reveal information.
+Can redacted text be recovered?=No. Every page with a redaction is rebuilt as an image with the areas blacked out, so the underlying text is gone. Other pages are kept unchanged.
+
+compare
+Compare PDF Online Free – Find Differences Between Two PDFs | {brand}
+Compare two PDF versions and highlight added, removed and changed text side by side. Free, private, no upload.
+Contract revisions, policy updates and new document versions often arrive without tracked changes. Compare PDF shows exactly which words were added, deleted or changed between two versions, so nothing slips through.
+Check what changed between two versions of a contract. | Review edits to terms and conditions or policies. | Verify that a final print file matches the approved proof.
+Put the older version first so additions and removals read naturally. | Scanned PDFs need OCR before their text can be compared.
+Does it compare images and layout?=This version compares text. Visual comparison is planned.
+
+grayscale
+Grayscale PDF Online Free – Convert Color PDF to Black and White | {brand}
+Convert a colour PDF to grayscale to save ink and toner or meet black-and-white submission rules. Free, private, done in your browser.
+Printing colour documents on a black-and-white printer can make text look faint, and colour ink is expensive. Converting to grayscale shows exactly how the document will print and can cut costs.
+Save colour ink when printing long documents at home or the office. | Meet submission rules that require black-and-white documents. | Preview how charts and photos will look on a monochrome printer.
+Check charts after conversion – colours that differ only in hue may look identical in grey. | Compress PDF afterwards for an even smaller file.
+Is text still selectable?=No, pages are converted to grayscale images, so text is not selectable afterwards. Run OCR PDF if you need searchable text.
+
+deskew
+Deskew PDF Online Free – Straighten Scanned Pages | {brand}
+Automatically detect and straighten tilted pages in scanned PDFs. Free, private, processed in your browser.
+Pages fed into a scanner or photographed by phone are often slightly crooked, which looks unprofessional and lowers OCR accuracy. Deskew measures the tilt of each page and rotates it straight.
+Straighten pages from a sheet-fed scanner. | Clean up scanned books and archives. | Improve OCR results by straightening pages first.
+Deskew before running OCR for better recognition. | For pages that are sideways or upside down, use Rotate PDF.
+Are straight pages changed?=No. Pages that are already straight are kept exactly as they are.
+
+pdfa
+PDF to PDF/A Converter Online Free – Archive-Ready PDF/A-2b | {brand}
+Convert PDF to PDF/A-2b for long-term archiving, with an embedded sRGB colour profile and XMP metadata. Free and private.
+PDF/A is the ISO standard for long-term archiving: the file must contain everything needed to display it in the future, such as fonts and colour profiles. Courts, public archives, universities and many companies require PDF/A for submissions and records.
+Submit documents to court e-filing or public archive systems that require PDF/A. | Archive invoices and contracts for long retention periods. | Deposit a thesis in a university repository.
+Image-based mode gives the most reliable compliance. | Keep-text mode preserves searchable text but may fail validation if fonts are not embedded. | Validate critical files with a free tool such as veraPDF.
+Is the output guaranteed to be PDF/A compliant?=Image-based mode is designed to meet PDF/A-2b. Keep-text mode is best effort; check with a validator such as veraPDF if compliance is critical.
+
+extractimages
+Extract Images from PDF Online Free – Save All Pictures | {brand}
+Extract every embedded image from a PDF as PNG or JPG files in a ZIP. Original quality, free, unlimited and private.
+Photos, logos and illustrations inside a PDF are stored as separate images. Extracting them gives you the original pictures at full resolution – much better than taking screenshots.
+Reuse product photos from a catalogue or brochure. | Recover images from a report when the original files are lost. | Collect figures from a paper for a presentation (respecting copyright).
+Small icons and decorations are extracted too – sort by size to find the main images. | To save whole pages as pictures, use PDF to JPG instead.
+Are these screenshots?=No. It saves the original embedded pictures, not screenshots of whole pages.
+
+booklet
+Create Booklet PDF Online Free – Print, Fold and Staple | {brand}
+Turn any PDF into a printable booklet: pages are reordered 2-up for double-sided printing, folding and stapling. Free, private.
+Booklet printing (saddle-stitch imposition) arranges pages so that, once printed double-sided and folded, they read in the right order. It is ideal for event programmes, zines, menus and small manuals – without professional layout software.
+Print an event or wedding programme. | Make a zine, newsletter or small catalogue. | Create a pocket-size manual or study guide.
+Print double-sided, flipping on the short edge, then fold in half. | Page count is padded to a multiple of 4 with blank pages. | A4 sheets give A5 booklets; Letter sheets give half-letter booklets.
+What if my page count isn't a multiple of 4?=Blank pages are added at the end automatically.
+
+halve
+Split PDF Pages in Half Online Free – Scanned Books & Spreads | {brand}
+Split each PDF page down the middle into two pages – ideal for scanned book spreads and A3 pages. Vertical or horizontal, right-to-left supported.
+When you scan an open book, each image contains two pages. Splitting them in half gives a normal single-page PDF that is easier to read on phones, e-readers and in OCR software.
+Convert scanned two-page book spreads into single pages. | Split A3 sheets into two A4 pages (or tabloid into two Letter pages). | Prepare right-to-left books (Arabic, Hebrew, manga) in the correct order.
+Choose right-to-left order for Arabic, Hebrew or Japanese books. | Crop uneven margins afterwards with Crop PDF.
+Does splitting reduce quality?=Neither half is re-rendered – each is the original vector page with a new visible area.
+
+overlay
+Overlay PDF Online Free – Add Letterhead or Stamp to PDF | {brand}
+Merge two PDFs page-on-page: put a letterhead, form background or stamp on top of or under your document. Free and private.
+Overlay places one PDF on top of another – for example your company letterhead behind a letter exported without it, or an "APPROVED" stamp over every page. It keeps everything as vectors for sharp printing.
+Add a company letterhead to letters and invoices. | Place a pre-printed form background under filled-in data. | Stamp "Approved" or "Copy" on documents.
+Use "underneath" for letterheads and "on top" for stamps. | Make sure both PDFs use the same page size (A4 or Letter).
+Can I use one letterhead for all pages?=Yes – choose 'First page only on all pages'.
+
+pagesize
+Change PDF Page Size Online Free – A4, Letter, Legal, A3 | {brand}
+Convert PDF pages to A4, US Letter, Legal, A3, A5 and more. Content is scaled to fit and centred as sharp vectors. Free.
+Documents travel between regions that use different paper: A4 in most of the world, Letter and Legal in North America. Changing the page size avoids cut-off margins and printer warnings when printing on local paper.
+Convert US Letter documents to A4 for printing in Europe, Asia or Latin America – or the reverse. | Make mixed-size scans uniform. | Prepare A5 pages for a booklet or flyer.
+Keep "scale to fit" on to avoid cutting content. | The file size is not reduced – use Compress PDF for that.
+Does it blur my document?=No, pages are scaled as vectors.
+
+resizepdf
+Resize PDF Pages Online Free – Uniform Paper Size | {brand}
+Resize all PDF pages to one standard paper size (A4, Letter and more). Mixed page sizes become uniform. Free, no upload.
+PDFs assembled from different sources often have pages of different sizes, which looks messy and prints badly. Resizing makes every page the same paper size while keeping content sharp.
+Make a merged PDF consistent before printing or binding. | Fit phone scans and receipts onto standard pages. | Normalise pages before creating a booklet.
+This changes paper size, not file size. | Check landscape pages – they are fitted into the new size.
+Will this reduce my PDF's file size?=No – this changes the paper size. To reduce file size use Compress PDF.
+
+rasterize
+Rasterize PDF Online Free – Convert PDF Pages to Images | {brand}
+Flatten every PDF page into an image to fix printing problems, hide selectable text and merge layers. Choose DPI, JPG or lossless PNG.
+Rasterizing converts each page into a picture inside a PDF. It fixes files that print incorrectly due to complex transparency or fonts, and stops easy copy-paste of text.
+Fix PDFs that print with missing elements or wrong fonts. | Make text harder to copy from a shared preview. | Merge layers and annotations into one visible page.
+150 DPI suits screen use; 300 DPI suits print. | PNG is lossless but larger; JPG is smaller. | Keep the original – rasterized text cannot be edited.
+When should I rasterize?=To flatten complex files that print wrong, or to stop easy copying of text.
+
+webopt
+Optimize PDF for Web Online Free – Faster Loading PDFs | {brand}
+Rebuild a PDF for the web: compact object streams, remove unused objects, thumbnails and scripts. Private, done in your browser.
+PDFs published on websites should be lean so they open quickly on mobile connections. Web optimization rewrites the file structure, removes leftovers from editing and strips embedded scripts that some readers block.
+Prepare brochures and menus for your website. | Clean up PDFs exported from design software. | Remove embedded JavaScript before publishing.
+Combine with Compress PDF for image-heavy files. | Set a clear title with Edit PDF Metadata – it shows in browser tabs.
+Does it linearize (fast web view) the file?=Not in the browser. Modern viewers stream PDFs fine; for the strongest size reduction also try Compress PDF.
+
+removemeta
+Remove PDF Metadata Online Free – Clean Hidden Data | {brand}
+Strip author, software, dates, XMP and other hidden metadata from PDFs before sharing. Optionally remove attachments and scripts. Free.
+PDFs can reveal more than you think: the author's name, the software used, creation dates and sometimes attachments. Removing metadata is a simple privacy step before sending documents to clients, publishing them or submitting anonymous work.
+Anonymise documents for blind peer review. | Remove your name from files created on a work computer. | Clean leaked internal details before publishing a PDF.
+Also check visible content – metadata removal does not change page text. | Use Redact PDF for sensitive text on the page.
+What exactly is removed?=The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and page piece data.
+
+passgen
+Password Generator – Strong Random Passwords Free | {brand}
+Generate strong random passwords with your chosen length and character types. Uses your device's secure random generator; nothing is sent anywhere.
+Weak and reused passwords are the most common cause of hacked accounts. This generator uses the browser's cryptographic random number generator, so passwords are unpredictable and never leave your device.
+Create a unique password for every new account. | Generate a strong password for an encrypted PDF or ZIP. | Create Wi-Fi passwords that are hard to guess.
+16 or more characters with mixed types is a good default. | Store passwords in a password manager rather than a document. | Never reuse a password across sites.
+Is it safe to generate passwords online?=Here yes – they are created with the browser's cryptographic random generator and never leave your device.
+
+searchpdf
+Search in Multiple PDFs Online Free – Find Text Across Files | {brand}
+Search a word or phrase across many PDF files at once. See each match with file, page and context, and export results to CSV.
+Finding one clause in dozens of contracts or a reference across a folder of papers can take hours. Search in PDFs scans every file at once in your browser and lists each hit with its page and surrounding text.
+Find which contracts contain a specific clause. | Locate a name or invoice number across many statements. | Research a term across a folder of papers.
+Export to CSV to share or sort the results in a spreadsheet. | Scans need OCR PDF first.
+Can it search scanned PDFs?=Only PDFs with a text layer. Run OCR PDF first for scans.
+
+viewerprefs
+PDF Viewer Preferences – Set How a PDF Opens | {brand}
+Control how your PDF opens: single page or two-page layout, bookmarks panel, full screen, fit window and title display. Free.
+First impressions matter: a brochure can open as a two-page spread, a manual can open with bookmarks visible, and a presentation can open full screen. Viewer preferences store these settings inside the PDF.
+Open a magazine or brochure as two-page spreads. | Show the bookmarks panel for long manuals. | Open a PDF presentation in full-screen mode.
+"Display document title" shows your title instead of the file name. | Test in Adobe Acrobat Reader – browser viewers may ignore some settings.
+Do all viewers respect these settings?=Adobe Reader and most desktop viewers do; some browser viewers ignore them.
+
+invoice
+Free Invoice Generator – Create Invoice PDF Online, Any Currency | {brand}
+Create a professional invoice PDF in a minute: your details, client, line items, tax, discount and any currency. No account, nothing stored.
+Freelancers and small businesses need clean invoices without paying for accounting software. Fill in your details, items, tax rate and currency – USD, EUR, GBP or any other – and download a ready-to-send PDF.
+Bill clients as a freelancer, consultant or contractor. | Create quick invoices for a small shop or side business. | Send a one-off invoice for a sale or service.
+Use a consistent invoice number sequence for your records. | Check local tax rules (VAT, GST, sales tax) for required fields. | Save the PDF – nothing is stored on our side.
+Is my invoice data saved anywhere?=No. Everything stays in your browser.
+
+camera2pdf
+Camera to PDF – Scan Documents with Your Phone Free | {brand}
+Use your phone or webcam to snap documents and turn them into a clean, scanned-look PDF. Or choose existing photos. Free and private.
+You do not need a scanner or a scanning app. Point your phone or laptop camera at a document, capture each page and {brand} turns them into a neat PDF – processed locally, so IDs and contracts stay on your device.
+Scan receipts for expense reports. | Capture signed forms and send them back immediately. | Digitise handwritten notes and whiteboards.
+Use daylight and a dark, plain background. | Hold the phone parallel to the page to avoid skew. | Compress PDF afterwards if the file is large.
+Are camera images uploaded?=No, the camera image is processed on your device only.
+
+txt2pdf
+Text to PDF Converter Online Free – TXT to PDF Any Language | {brand}
+Convert plain text (.txt) files to neatly formatted PDF with your choice of page size, font size and margins. Many scripts supported.
+Plain text files open everywhere but look unpolished and print inconsistently. Converting to PDF fixes the layout, page size (A4 or Letter) and font for sharing or printing.
+Turn notes, logs or code snippets into a printable PDF. | Share lyrics, scripts or poems in a fixed format. | Archive text records in a standard document format.
+Choose a monospaced look for code or logs. | Pick A4 or Letter to match your printer.
+Which languages are supported?=Latin, Cyrillic, Greek, Indic, Arabic, Hebrew and Thai scripts are embedded with Noto fonts. CJK is not yet supported.
+
+md2pdf
+Markdown to PDF Converter Online Free | {brand}
+Convert Markdown (GitHub-flavoured: headings, lists, tables, code, quotes) into a clean PDF in your browser. Free, no upload.
+Markdown is popular for README files, documentation and notes, but clients and colleagues often want a PDF. This converter renders headings, tables, code blocks and quotes into a tidy document.
+Share a README or technical doc with non-developers. | Turn meeting notes into a PDF handout. | Export documentation for offline reading.
+Use tables and fenced code blocks – both are supported. | Remote images are not fetched, for privacy.
+Are images included?=Images are shown by their alt text; remote images are not fetched for privacy.
+
+rtf2pdf
+RTF to PDF Converter Online Free | {brand}
+Convert Rich Text Format (.rtf) files to PDF in your browser. Paragraphs, bold text and Unicode are kept. Free, no upload.
+RTF files from older word processors, TextEdit or WordPad are not always easy to open on phones. Converting to PDF makes them readable and printable everywhere.
+Convert old RTF letters and documents for archiving. | Share TextEdit or WordPad documents in a universal format.
+For complex layouts, open the RTF in a word processor and export to PDF. | Check tables after conversion.
+What formatting is kept?=Paragraphs, bold and special characters. Tables and images are simplified.
+
+pdf2txt
+PDF to Text Converter Online Free – Extract Text from PDF | {brand}
+Extract all text from a PDF into a .txt file, in reading order with paragraphs joined. Free, no upload, no sign-up.
+Plain text is the easiest format to search, analyse, translate or paste into another app. PDF to Text pulls out every word in reading order without the formatting.
+Paste document text into a translator or AI assistant. | Analyse text in a spreadsheet or script. | Make a document accessible to screen readers or plain-text tools.
+For headings and lists, PDF to Markdown keeps more structure. | Scanned PDFs need OCR.
+What if my PDF is scanned?=Use OCR PDF first to recognise the text.
+
+pdf2html
+PDF to HTML Converter Online Free – Clean Responsive HTML | {brand}
+Turn PDF text into clean, responsive HTML with headings and paragraphs, ready to publish on the web. Free and private.
+PDFs are hard to read on phones and are less accessible than web pages. Converting to clean HTML lets you publish the content as a normal page that adapts to any screen.
+Publish a report or article on your website. | Make documents more accessible and mobile-friendly. | Paste content into a CMS such as WordPress.
+Review headings after conversion and adjust them in your editor. | Add images separately – use Extract Images from PDF.
+Does it copy the exact layout?=No – you get clean, readable HTML (headings, paragraphs), not a pixel copy.
+
+pdf2md
+PDF to Markdown Converter Online Free | {brand}
+Convert PDF documents into Markdown with headings and lists detected – great for notes, docs, wikis and AI prompts.
+Markdown is the format of choice for note apps, wikis, documentation and AI tools. Converting a PDF to Markdown keeps the document structure while making the text easy to edit.
+Import papers or reports into Obsidian, Notion or a wiki. | Feed documents to AI assistants with structure intact. | Convert documentation to a Git-friendly format.
+Check heading levels – detection is based on font size. | Tables may need manual tidying.
+How are headings detected?=Lines with a larger font size than the body text become # or ## headings.
+
+pdf2svg
+PDF to SVG Converter Online Free – Vector Graphics | {brand}
+Convert PDF pages into scalable SVG vector graphics for Illustrator, Inkscape, Figma or the web. Choose page ranges.
+SVG keeps drawings, logos and diagrams sharp at any size and is editable in design tools. Converting PDF pages to SVG is a fast way to reuse vector artwork.
+Edit a logo or diagram from a PDF in Inkscape or Illustrator. | Put sharp charts on a website. | Reuse floor plans or technical drawings.
+Pick only the pages you need to keep files small. | Scanned pages stay as images inside the SVG.
+Are vectors preserved?=Yes, paths and text are kept as vectors where possible.
+
+pdf2tiff
+PDF to TIFF Converter Online Free – Multi-page TIFF | {brand}
+Convert PDF to a single multi-page TIFF with lossless compression at 100–300 DPI, colour or grayscale. Free and private.
+TIFF is still the preferred format for many document management, fax and archiving systems. This converter produces one multi-page TIFF, ready to import.
+Import documents into archive or document management systems. | Send documents to fax services that require TIFF. | Create lossless page images for printing.
+300 DPI is standard for archiving; 200 DPI keeps files smaller. | Grayscale greatly reduces size for text documents.
+Is compression lossless?=Yes, lossless Deflate (Adobe ZIP) compression.
+
+ocrpdf
+OCR PDF Online Free – Make Scanned PDF Searchable | {brand}
+Recognise text in scanned PDFs and add an invisible text layer so you can search, select and copy. Many languages, runs on your device.
+A scanned PDF is just pictures of pages – you cannot search it or copy text. OCR (optical character recognition) reads the text and adds an invisible layer, so the PDF looks the same but becomes searchable. Unlike most OCR services, {brand} does this on your device.
+Make scanned contracts and archives searchable. | Copy text from scanned books or articles. | Prepare scans for PDF to Word or Split by Text.
+Choose the correct document language for best accuracy. | Straighten tilted pages with Deskew PDF first. | Clean, 300 DPI scans give the best results.
+Does OCR change how my pages look?=No – the original page stays, an invisible text layer is added on top. || How long does it take?=About 2–6 seconds per page on a modern device. The first run downloads the language model (1–4 MB).

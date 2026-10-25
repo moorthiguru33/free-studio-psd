@@ -27,7 +27,10 @@
 "termsLink": "Terms",
 "contactLink": "Contact",
 "popular": "Popular tools",
-"allToolsLink": "See all tools"
+"allToolsLink": "See all tools",
+"cmpRow6": "What you type is sent to a server",
+"cmpRow6us": "No – stays in your browser",
+"cmpRow6them": "Often"
 },
 "tools": {
 "merge": {
@@ -272,6 +275,2736 @@
 "On mobile use the arrow buttons on each thumbnail."
 ],
 "faq": []
+}
+},
+"pagenumbers": {
+"title": "Add Page Numbers to PDF Online Free – Custom Position & Start | {brand}",
+"desc": "Number the pages of any PDF: choose position, font size and starting number. Free, no watermark, no sign-up – numbering happens in your browser.",
+"guide": {
+"intro": "Page numbers make long documents easier to navigate, cite and print – reviewers can say \"see page 14\" instead of scrolling. {brand} stamps numbers directly onto each page on your own device, so manuscripts, legal bundles and reports stay private.",
+"uses": [
+"Number a thesis, dissertation or manuscript before submission.",
+"Prepare court bundles or contract exhibits that must be referenced by page.",
+"Add numbers to a merged report so readers can follow the table of contents.",
+"Number printed handouts so loose pages can be put back in order."
+],
+"tips": [
+"Start at a different number (for example 3) if your cover and contents pages should not be counted.",
+"Bottom-centre is the most readable choice for printed documents; bottom-right suits double-sided binding less well, so test a page.",
+"Merge all parts first, then number once so the sequence is continuous.",
+"Need \"Page 3 of 20\" or dates? Use Header & Footer instead."
+],
+"faq": [
+{
+"q": "Can I skip numbering on the cover page?",
+"a": "Set the starting number so the count matches your layout, or split off the cover, number the rest and merge again."
+},
+{
+"q": "Will the numbers be editable later?",
+"a": "They are drawn into the page content, so they print reliably everywhere; to change them, number the original file again."
+}
+]
+}
+},
+"deletepages": {
+"title": "Delete Pages from PDF Online Free – Remove PDF Pages | {brand}",
+"desc": "Remove unwanted pages from a PDF by tapping thumbnails. Free, no upload, no watermark – a clean new PDF is created on your device.",
+"guide": {
+"intro": "Blank scans, duplicate pages, outdated appendices or pages with personal details often need to go before you share a document. {brand} shows every page as a thumbnail so you can see exactly what you are removing, and builds the new file locally.",
+"uses": [
+"Remove blank pages left by a double-sided scanner.",
+"Drop advert or cover pages from a downloaded report.",
+"Remove pages with personal information before sending a document to a third party.",
+"Trim a long manual down to the sections you actually need."
+],
+"tips": [
+"Zoom in on thumbnails when pages look similar.",
+"Your original file is never modified – keep it until you have checked the result.",
+"To keep a few pages rather than delete many, Extract PDF Pages is quicker."
+],
+"faq": [
+{
+"q": "Does deleting pages reduce file size?",
+"a": "Usually yes, because the content of removed pages is not copied into the new file. Run Compress PDF afterwards for further savings."
+}
+]
+}
+},
+"extractpages": {
+"title": "Extract Pages from PDF Online Free – Save Selected Pages | {brand}",
+"desc": "Pick the pages you need and save them as a new PDF. Visual page selection, free, unlimited and private – nothing is uploaded.",
+"guide": {
+"intro": "Often you only need part of a document: one signed page, a single chapter or the pages that mention a project. Extract Pages lets you select those pages visually and save them as a new, smaller PDF without touching the original.",
+"uses": [
+"Send only the signature page of a contract back to a client.",
+"Share one chapter of a book or course pack with a study group.",
+"Pull a single statement or invoice out of a combined monthly file.",
+"Collect key slides from a long presentation exported as PDF."
+],
+"tips": [
+"Select pages in any order, then reorder them before clicking Start.",
+"For fixed ranges like 1-5, Split PDF with a page range is faster.",
+"Extracted pages keep their original quality and selectable text."
+],
+"faq": [
+{
+"q": "Can I extract non-consecutive pages?",
+"a": "Yes. Tap any combination of pages, for example 2, 7 and 15, and they are saved together in one PDF."
+}
+]
+}
+},
+"splitbm": {
+"title": "Split PDF by Bookmarks – Split into Chapters Online Free | {brand}",
+"desc": "Split a PDF into separate files at each bookmark, such as chapters or sections. Files are named after the bookmarks. Free and private.",
+"guide": {
+"intro": "Well-structured PDFs – e-books, manuals, standards and annual reports – contain bookmarks (an outline) that mark where each chapter begins. Splitting by bookmarks turns one huge file into tidy chapter files automatically, without you having to look up page numbers.",
+"uses": [
+"Break an e-book or textbook into one file per chapter.",
+"Split a technical manual so each team receives only its section.",
+"Separate a combined board pack into individual agenda items."
+],
+"tips": [
+"Open the PDF's bookmark panel first to check the outline exists and is accurate.",
+"Choose top-level bookmarks for chapters, or deeper levels for sections.",
+"No bookmarks? Use Split PDF by Text with a heading like \"Chapter\"."
+],
+"faq": [
+{
+"q": "What if my PDF has no bookmarks?",
+"a": "Use Split PDF by text (for repeated headings) or Split PDF with page ranges instead."
+}
+]
+}
+},
+"splitsize": {
+"title": "Split PDF by File Size – Make PDFs Under an MB Limit | {brand}",
+"desc": "Split a large PDF into parts that each fit an email or upload size limit (for example 5 MB or 10 MB). Free, no upload, processed locally.",
+"guide": {
+"intro": "Email providers commonly cap attachments around 20–25 MB, and many upload portals accept far less. Split by Size cuts a big PDF into consecutive parts that each stay under the limit you choose, so you can send it in several messages or uploads.",
+"uses": [
+"Send a large scanned contract across several emails.",
+"Upload a long application file to a portal with a per-file size limit.",
+"Share big reports in chat apps that limit file sizes."
+],
+"tips": [
+"Compress the PDF first – you may not need to split at all.",
+"Set the limit slightly below the real cap to allow for email encoding overhead.",
+"A single page larger than the limit is saved on its own; compress that part separately."
+],
+"faq": [
+{
+"q": "Why is one part larger than my limit?",
+"a": "A single page can be bigger than the limit (for example a high-resolution scan). It is saved as its own file; Compress PDF usually fixes it."
+}
+]
+}
+},
+"splittext": {
+"title": "Split PDF by Text – Split at Every Page Containing a Word | {brand}",
+"desc": "Split a PDF wherever a word or phrase appears – such as \"Invoice\", \"Statement\" or \"Chapter\". Free, private, done in your browser.",
+"guide": {
+"intro": "Batch-printed documents often combine many records into one PDF: hundreds of invoices, payslips or letters. Split by Text starts a new file at every page containing the text you enter, turning one batch into individual documents in seconds.",
+"uses": [
+"Split a batch of invoices into one PDF per invoice.",
+"Separate payslips or letters generated in a single mail-merge file.",
+"Break a report at each \"Chapter\" or \"Section\" heading."
+],
+"tips": [
+"Use a word that appears only on the first page of each record, such as \"Invoice No.\"",
+"Matching is case-insensitive, so \"INVOICE\" and \"invoice\" both work.",
+"The PDF needs a text layer; for scans, run OCR PDF first."
+],
+"faq": [
+{
+"q": "Does it work with scanned PDFs?",
+"a": "Only if they contain a text layer. Run OCR PDF first, then split by text."
+}
+]
+}
+},
+"nup": {
+"title": "N-up PDF – Print Multiple Pages per Sheet Online Free | {brand}",
+"desc": "Place 2, 4, 6 or 9 PDF pages on each sheet to save paper and make handouts. Vector quality, A4 or Letter output, free and private.",
+"guide": {
+"intro": "N-up printing puts several pages on one sheet of paper – perfect for slide handouts, proofreading copies and study notes. {brand} embeds the original pages as vectors, so text stays crisp even when pages are scaled down.",
+"uses": [
+"Print lecture slides 4 or 6 to a page as study handouts.",
+"Create compact proof copies of a long document.",
+"Save paper and toner when printing reference material."
+],
+"tips": [
+"2-up on landscape paper is the most readable for text documents.",
+"6 or 9 per sheet works best for slides with large text.",
+"Choose A4 or Letter to match your printer's paper."
+],
+"faq": [
+{
+"q": "Will text become blurry?",
+"a": "No. Pages are embedded as vectors, so they stay sharp at any size."
+}
+]
+}
+},
+"watermark": {
+"title": "Add Watermark to PDF Online Free – Text Watermark Any Language | {brand}",
+"desc": "Stamp a text watermark such as CONFIDENTIAL, DRAFT or your company name on PDF pages. Set size, opacity, angle and colour. Free, no upload.",
+"guide": {
+"intro": "A watermark tells readers a document's status or owner at a glance and discourages unauthorised copying. {brand} adds watermarks in your browser, supports many scripts – Latin, Cyrillic, Greek, Arabic, Hebrew, Devanagari, Thai and more – and never uploads your file.",
+"uses": [
+"Mark drafts as DRAFT before circulating them for review.",
+"Label sensitive documents as CONFIDENTIAL.",
+"Brand quotes, portfolios or reports with your company name.",
+"Mark copies of ID documents with \"Copy – for rental application only\"."
+],
+"tips": [
+"Low opacity (15–30%) keeps the document readable.",
+"A 45° diagonal watermark is hardest to crop out.",
+"Combine with Flatten PDF or Rasterize PDF if you want the watermark harder to remove."
+],
+"faq": [
+{
+"q": "Can someone remove the watermark?",
+"a": "A text watermark can be removed by determined users with editing software. Rasterizing the PDF afterwards makes removal much harder."
+}
+]
+}
+},
+"headerfooter": {
+"title": "Add Header and Footer to PDF Online Free – Page X of Y, Date | {brand}",
+"desc": "Add headers and footers with page numbers, totals, dates and file names to every PDF page. Free, private, no watermark.",
+"guide": {
+"intro": "Headers and footers give documents a professional finish and context on every page: the document title, \"Page 3 of 12\", a date or a confidentiality line. {brand} supports placeholders, so one setting produces the right text for each page.",
+"uses": [
+"Add \"Page {page} of {total}\" to reports and proposals.",
+"Put the company name and \"Confidential\" on every page.",
+"Stamp the print date on records and audit documents.",
+"Label pages of an exhibit with the file name."
+],
+"tips": [
+"Placeholders: {page}, {total}, {date} and {file}.",
+"Keep headers short so they do not overlap page content.",
+"For legal numbering across many files, use Bates Numbering."
+],
+"faq": [
+{
+"q": "Can I use different text on the left, centre and right?",
+"a": "Yes, set each position separately in the options."
+}
+]
+}
+},
+"bates": {
+"title": "Bates Numbering PDF Online Free – Legal Document Numbering | {brand}",
+"desc": "Apply sequential Bates numbers (prefix, digits, suffix) across multiple PDFs for legal discovery and records. Free, private, no upload.",
+"guide": {
+"intro": "Bates numbering gives every page in a set of documents a unique, sequential identifier, such as ABC000001 – a standard in litigation, discovery and compliance work. Because {brand} runs locally, privileged and confidential documents are never sent to a third-party server.",
+"uses": [
+"Number documents for legal discovery or disclosure.",
+"Label pages of evidence bundles and exhibits.",
+"Track pages in audit, insurance or compliance submissions."
+],
+"tips": [
+"Choose enough digits for the whole production (6 digits covers up to 999,999 pages).",
+"Order files correctly before starting; numbering continues from one file to the next.",
+"Use a matter-specific prefix to avoid confusion between cases."
+],
+"faq": [
+{
+"q": "Do numbers continue across files?",
+"a": "Yes. Numbers continue from one file to the next in the order shown."
+}
+]
+}
+},
+"crop": {
+"title": "Crop PDF Online Free – Trim PDF Margins | {brand}",
+"desc": "Crop PDF pages by exact millimetres to remove white margins or focus on content. All pages or selected pages. Free and private.",
+"guide": {
+"intro": "Scanned pages and exported slides often have wide margins or unwanted borders. Cropping trims the visible page area, making documents easier to read on phones and e-readers and tidier when printed.",
+"uses": [
+"Remove wide white margins for easier reading on a phone or tablet.",
+"Cut off scanner borders and shadows.",
+"Focus on a chart or figure for a presentation."
+],
+"tips": [
+"Measure on one page and apply to all if pages share the same layout.",
+"Cropping hides content but does not delete it – use Redact PDF for sensitive content.",
+"After cropping, Change Page Size can fit content back to A4 or Letter."
+],
+"faq": [
+{
+"q": "Is cropped content deleted?",
+"a": "No. It is hidden outside the new page box. Use Redact PDF to permanently remove sensitive content."
+}
+]
+}
+},
+"findreplace": {
+"title": "Find and Replace Text in PDF Online Free | {brand}",
+"desc": "Find a word or phrase in a PDF and replace it with new text, directly in your browser. Free, no upload, no sign-up.",
+"guide": {
+"intro": "Spotted a misspelled name, an outdated date or an old price in a PDF? Find & Replace locates every occurrence and writes your new text in its place – useful when you no longer have the original Word or design file.",
+"uses": [
+"Fix a typo in a name or address.",
+"Update a date, price or version number across a document.",
+"Replace an old company name after a rebrand."
+],
+"tips": [
+"Works on PDFs with a text layer; scans need OCR first.",
+"Keep replacement text a similar length so it fits the space.",
+"If the old text must be removed for confidentiality, use Redact PDF."
+],
+"faq": [
+{
+"q": "Is the old text really gone?",
+"a": "This beta covers the old text visually and writes the new text on top. Use Redact PDF if it must be removed permanently."
+}
+]
+}
+},
+"metadata": {
+"title": "Edit PDF Metadata Online Free – Title, Author, Keywords | {brand}",
+"desc": "View and edit PDF title, author, subject and keywords, or remove them. Free, private, done in your browser.",
+"guide": {
+"intro": "PDF metadata is the hidden information stored in a file: title, author, subject, keywords, the creating software and dates. A proper title shows in browser tabs and search results, while stale author names can leak information you did not mean to share.",
+"uses": [
+"Set a descriptive title before publishing a PDF on your website.",
+"Correct the author name on documents created from a template.",
+"Add keywords to help document management systems find files."
+],
+"tips": [
+"The Title field is what browsers show in the tab – make it meaningful.",
+"To remove everything quickly, use Remove PDF Metadata."
+],
+"faq": [
+{
+"q": "Does metadata affect SEO for PDFs?",
+"a": "Search engines can use the PDF title, so a clear, accurate title helps people find and recognise your document."
+}
+]
+}
+},
+"flatten": {
+"title": "Flatten PDF Online Free – Make Form Fields Non-Editable | {brand}",
+"desc": "Flatten fillable PDF forms and annotations so values can no longer be changed, or flatten every page into an image. Free and private.",
+"guide": {
+"intro": "When you send a completed form, the recipient can usually still edit its fields. Flattening merges field values and annotations into the page so the form looks the same everywhere and cannot be casually changed.",
+"uses": [
+"Lock a completed application or tax form before submitting it.",
+"Make sure comments and stamps display in every viewer.",
+"Fix forms whose fields show blank on phones or in some printers."
+],
+"tips": [
+"Use \"Form fields only\" to keep text selectable.",
+"\"Everything\" mode turns pages into images – stronger, but text cannot be selected.",
+"Keep an unflattened copy in case you need to edit later."
+],
+"faq": [
+{
+"q": "Will text remain searchable?",
+"a": "Yes in Form fields only mode. Everything mode converts pages to images."
+}
+]
+}
+},
+"redact": {
+"title": "Redact PDF Online Free – Permanently Black Out Text | {brand}",
+"desc": "Permanently redact words and areas in a PDF. Redacted pages are rebuilt so hidden text cannot be copied or recovered. Free, private.",
+"guide": {
+"intro": "Drawing a black box over text in many editors leaves the text underneath – anyone can copy it out. True redaction removes it. {brand} rebuilds every redacted page so the hidden content is gone, and because it runs locally, the sensitive document never leaves your device.",
+"uses": [
+"Hide account numbers, ID numbers and signatures before sharing.",
+"Remove personal data from documents released under privacy or freedom-of-information requests.",
+"Black out client names in case studies or court filings."
+],
+"tips": [
+"Search for a word to redact every occurrence at once, then add boxes for images or signatures.",
+"Check the result by trying to select and copy text in the redacted areas.",
+"Also run Remove PDF Metadata – author names and titles can reveal information."
+],
+"faq": [
+{
+"q": "Can redacted text be recovered?",
+"a": "No. Every page with a redaction is rebuilt as an image with the areas blacked out, so the underlying text is gone. Other pages are kept unchanged."
+}
+]
+}
+},
+"compare": {
+"title": "Compare PDF Online Free – Find Differences Between Two PDFs | {brand}",
+"desc": "Compare two PDF versions and highlight added, removed and changed text side by side. Free, private, no upload.",
+"guide": {
+"intro": "Contract revisions, policy updates and new document versions often arrive without tracked changes. Compare PDF shows exactly which words were added, deleted or changed between two versions, so nothing slips through.",
+"uses": [
+"Check what changed between two versions of a contract.",
+"Review edits to terms and conditions or policies.",
+"Verify that a final print file matches the approved proof."
+],
+"tips": [
+"Put the older version first so additions and removals read naturally.",
+"Scanned PDFs need OCR before their text can be compared."
+],
+"faq": [
+{
+"q": "Does it compare images and layout?",
+"a": "This version compares text. Visual comparison is planned."
+}
+]
+}
+},
+"grayscale": {
+"title": "Grayscale PDF Online Free – Convert Color PDF to Black and White | {brand}",
+"desc": "Convert a colour PDF to grayscale to save ink and toner or meet black-and-white submission rules. Free, private, done in your browser.",
+"guide": {
+"intro": "Printing colour documents on a black-and-white printer can make text look faint, and colour ink is expensive. Converting to grayscale shows exactly how the document will print and can cut costs.",
+"uses": [
+"Save colour ink when printing long documents at home or the office.",
+"Meet submission rules that require black-and-white documents.",
+"Preview how charts and photos will look on a monochrome printer."
+],
+"tips": [
+"Check charts after conversion – colours that differ only in hue may look identical in grey.",
+"Compress PDF afterwards for an even smaller file."
+],
+"faq": [
+{
+"q": "Is text still selectable?",
+"a": "No, pages are converted to grayscale images, so text is not selectable afterwards. Run OCR PDF if you need searchable text."
+}
+]
+}
+},
+"deskew": {
+"title": "Deskew PDF Online Free – Straighten Scanned Pages | {brand}",
+"desc": "Automatically detect and straighten tilted pages in scanned PDFs. Free, private, processed in your browser.",
+"guide": {
+"intro": "Pages fed into a scanner or photographed by phone are often slightly crooked, which looks unprofessional and lowers OCR accuracy. Deskew measures the tilt of each page and rotates it straight.",
+"uses": [
+"Straighten pages from a sheet-fed scanner.",
+"Clean up scanned books and archives.",
+"Improve OCR results by straightening pages first."
+],
+"tips": [
+"Deskew before running OCR for better recognition.",
+"For pages that are sideways or upside down, use Rotate PDF."
+],
+"faq": [
+{
+"q": "Are straight pages changed?",
+"a": "No. Pages that are already straight are kept exactly as they are."
+}
+]
+}
+},
+"pdfa": {
+"title": "PDF to PDF/A Converter Online Free – Archive-Ready PDF/A-2b | {brand}",
+"desc": "Convert PDF to PDF/A-2b for long-term archiving, with an embedded sRGB colour profile and XMP metadata. Free and private.",
+"guide": {
+"intro": "PDF/A is the ISO standard for long-term archiving: the file must contain everything needed to display it in the future, such as fonts and colour profiles. Courts, public archives, universities and many companies require PDF/A for submissions and records.",
+"uses": [
+"Submit documents to court e-filing or public archive systems that require PDF/A.",
+"Archive invoices and contracts for long retention periods.",
+"Deposit a thesis in a university repository."
+],
+"tips": [
+"Image-based mode gives the most reliable compliance.",
+"Keep-text mode preserves searchable text but may fail validation if fonts are not embedded.",
+"Validate critical files with a free tool such as veraPDF."
+],
+"faq": [
+{
+"q": "Is the output guaranteed to be PDF/A compliant?",
+"a": "Image-based mode is designed to meet PDF/A-2b. Keep-text mode is best effort; check with a validator such as veraPDF if compliance is critical."
+}
+]
+}
+},
+"extractimages": {
+"title": "Extract Images from PDF Online Free – Save All Pictures | {brand}",
+"desc": "Extract every embedded image from a PDF as PNG or JPG files in a ZIP. Original quality, free, unlimited and private.",
+"guide": {
+"intro": "Photos, logos and illustrations inside a PDF are stored as separate images. Extracting them gives you the original pictures at full resolution – much better than taking screenshots.",
+"uses": [
+"Reuse product photos from a catalogue or brochure.",
+"Recover images from a report when the original files are lost.",
+"Collect figures from a paper for a presentation (respecting copyright)."
+],
+"tips": [
+"Small icons and decorations are extracted too – sort by size to find the main images.",
+"To save whole pages as pictures, use PDF to JPG instead."
+],
+"faq": [
+{
+"q": "Are these screenshots?",
+"a": "No. It saves the original embedded pictures, not screenshots of whole pages."
+}
+]
+}
+},
+"booklet": {
+"title": "Create Booklet PDF Online Free – Print, Fold and Staple | {brand}",
+"desc": "Turn any PDF into a printable booklet: pages are reordered 2-up for double-sided printing, folding and stapling. Free, private.",
+"guide": {
+"intro": "Booklet printing (saddle-stitch imposition) arranges pages so that, once printed double-sided and folded, they read in the right order. It is ideal for event programmes, zines, menus and small manuals – without professional layout software.",
+"uses": [
+"Print an event or wedding programme.",
+"Make a zine, newsletter or small catalogue.",
+"Create a pocket-size manual or study guide."
+],
+"tips": [
+"Print double-sided, flipping on the short edge, then fold in half.",
+"Page count is padded to a multiple of 4 with blank pages.",
+"A4 sheets give A5 booklets; Letter sheets give half-letter booklets."
+],
+"faq": [
+{
+"q": "What if my page count isn't a multiple of 4?",
+"a": "Blank pages are added at the end automatically."
+}
+]
+}
+},
+"halve": {
+"title": "Split PDF Pages in Half Online Free – Scanned Books & Spreads | {brand}",
+"desc": "Split each PDF page down the middle into two pages – ideal for scanned book spreads and A3 pages. Vertical or horizontal, right-to-left supported.",
+"guide": {
+"intro": "When you scan an open book, each image contains two pages. Splitting them in half gives a normal single-page PDF that is easier to read on phones, e-readers and in OCR software.",
+"uses": [
+"Convert scanned two-page book spreads into single pages.",
+"Split A3 sheets into two A4 pages (or tabloid into two Letter pages).",
+"Prepare right-to-left books (Arabic, Hebrew, manga) in the correct order."
+],
+"tips": [
+"Choose right-to-left order for Arabic, Hebrew or Japanese books.",
+"Crop uneven margins afterwards with Crop PDF."
+],
+"faq": [
+{
+"q": "Does splitting reduce quality?",
+"a": "Neither half is re-rendered – each is the original vector page with a new visible area."
+}
+]
+}
+},
+"overlay": {
+"title": "Overlay PDF Online Free – Add Letterhead or Stamp to PDF | {brand}",
+"desc": "Merge two PDFs page-on-page: put a letterhead, form background or stamp on top of or under your document. Free and private.",
+"guide": {
+"intro": "Overlay places one PDF on top of another – for example your company letterhead behind a letter exported without it, or an \"APPROVED\" stamp over every page. It keeps everything as vectors for sharp printing.",
+"uses": [
+"Add a company letterhead to letters and invoices.",
+"Place a pre-printed form background under filled-in data.",
+"Stamp \"Approved\" or \"Copy\" on documents."
+],
+"tips": [
+"Use \"underneath\" for letterheads and \"on top\" for stamps.",
+"Make sure both PDFs use the same page size (A4 or Letter)."
+],
+"faq": [
+{
+"q": "Can I use one letterhead for all pages?",
+"a": "Yes – choose 'First page only on all pages'."
+}
+]
+}
+},
+"pagesize": {
+"title": "Change PDF Page Size Online Free – A4, Letter, Legal, A3 | {brand}",
+"desc": "Convert PDF pages to A4, US Letter, Legal, A3, A5 and more. Content is scaled to fit and centred as sharp vectors. Free.",
+"guide": {
+"intro": "Documents travel between regions that use different paper: A4 in most of the world, Letter and Legal in North America. Changing the page size avoids cut-off margins and printer warnings when printing on local paper.",
+"uses": [
+"Convert US Letter documents to A4 for printing in Europe, Asia or Latin America – or the reverse.",
+"Make mixed-size scans uniform.",
+"Prepare A5 pages for a booklet or flyer."
+],
+"tips": [
+"Keep \"scale to fit\" on to avoid cutting content.",
+"The file size is not reduced – use Compress PDF for that."
+],
+"faq": [
+{
+"q": "Does it blur my document?",
+"a": "No, pages are scaled as vectors."
+}
+]
+}
+},
+"resizepdf": {
+"title": "Resize PDF Pages Online Free – Uniform Paper Size | {brand}",
+"desc": "Resize all PDF pages to one standard paper size (A4, Letter and more). Mixed page sizes become uniform. Free, no upload.",
+"guide": {
+"intro": "PDFs assembled from different sources often have pages of different sizes, which looks messy and prints badly. Resizing makes every page the same paper size while keeping content sharp.",
+"uses": [
+"Make a merged PDF consistent before printing or binding.",
+"Fit phone scans and receipts onto standard pages.",
+"Normalise pages before creating a booklet."
+],
+"tips": [
+"This changes paper size, not file size.",
+"Check landscape pages – they are fitted into the new size."
+],
+"faq": [
+{
+"q": "Will this reduce my PDF's file size?",
+"a": "No – this changes the paper size. To reduce file size use Compress PDF."
+}
+]
+}
+},
+"rasterize": {
+"title": "Rasterize PDF Online Free – Convert PDF Pages to Images | {brand}",
+"desc": "Flatten every PDF page into an image to fix printing problems, hide selectable text and merge layers. Choose DPI, JPG or lossless PNG.",
+"guide": {
+"intro": "Rasterizing converts each page into a picture inside a PDF. It fixes files that print incorrectly due to complex transparency or fonts, and stops easy copy-paste of text.",
+"uses": [
+"Fix PDFs that print with missing elements or wrong fonts.",
+"Make text harder to copy from a shared preview.",
+"Merge layers and annotations into one visible page."
+],
+"tips": [
+"150 DPI suits screen use; 300 DPI suits print.",
+"PNG is lossless but larger; JPG is smaller.",
+"Keep the original – rasterized text cannot be edited."
+],
+"faq": [
+{
+"q": "When should I rasterize?",
+"a": "To flatten complex files that print wrong, or to stop easy copying of text."
+}
+]
+}
+},
+"webopt": {
+"title": "Optimize PDF for Web Online Free – Faster Loading PDFs | {brand}",
+"desc": "Rebuild a PDF for the web: compact object streams, remove unused objects, thumbnails and scripts. Private, done in your browser.",
+"guide": {
+"intro": "PDFs published on websites should be lean so they open quickly on mobile connections. Web optimization rewrites the file structure, removes leftovers from editing and strips embedded scripts that some readers block.",
+"uses": [
+"Prepare brochures and menus for your website.",
+"Clean up PDFs exported from design software.",
+"Remove embedded JavaScript before publishing."
+],
+"tips": [
+"Combine with Compress PDF for image-heavy files.",
+"Set a clear title with Edit PDF Metadata – it shows in browser tabs."
+],
+"faq": [
+{
+"q": "Does it linearize (fast web view) the file?",
+"a": "Not in the browser. Modern viewers stream PDFs fine; for the strongest size reduction also try Compress PDF."
+}
+]
+}
+},
+"removemeta": {
+"title": "Remove PDF Metadata Online Free – Clean Hidden Data | {brand}",
+"desc": "Strip author, software, dates, XMP and other hidden metadata from PDFs before sharing. Optionally remove attachments and scripts. Free.",
+"guide": {
+"intro": "PDFs can reveal more than you think: the author's name, the software used, creation dates and sometimes attachments. Removing metadata is a simple privacy step before sending documents to clients, publishing them or submitting anonymous work.",
+"uses": [
+"Anonymise documents for blind peer review.",
+"Remove your name from files created on a work computer.",
+"Clean leaked internal details before publishing a PDF."
+],
+"tips": [
+"Also check visible content – metadata removal does not change page text.",
+"Use Redact PDF for sensitive text on the page."
+],
+"faq": [
+{
+"q": "What exactly is removed?",
+"a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and page piece data."
+}
+]
+}
+},
+"passgen": {
+"title": "Password Generator – Strong Random Passwords Free | {brand}",
+"desc": "Generate strong random passwords with your chosen length and character types. Uses your device's secure random generator; nothing is sent anywhere.",
+"guide": {
+"intro": "Weak and reused passwords are the most common cause of hacked accounts. This generator uses the browser's cryptographic random number generator, so passwords are unpredictable and never leave your device.",
+"uses": [
+"Create a unique password for every new account.",
+"Generate a strong password for an encrypted PDF or ZIP.",
+"Create Wi-Fi passwords that are hard to guess."
+],
+"tips": [
+"16 or more characters with mixed types is a good default.",
+"Store passwords in a password manager rather than a document.",
+"Never reuse a password across sites."
+],
+"faq": [
+{
+"q": "Is it safe to generate passwords online?",
+"a": "Here yes – they are created with the browser's cryptographic random generator and never leave your device."
+}
+]
+}
+},
+"searchpdf": {
+"title": "Search in Multiple PDFs Online Free – Find Text Across Files | {brand}",
+"desc": "Search a word or phrase across many PDF files at once. See each match with file, page and context, and export results to CSV.",
+"guide": {
+"intro": "Finding one clause in dozens of contracts or a reference across a folder of papers can take hours. Search in PDFs scans every file at once in your browser and lists each hit with its page and surrounding text.",
+"uses": [
+"Find which contracts contain a specific clause.",
+"Locate a name or invoice number across many statements.",
+"Research a term across a folder of papers."
+],
+"tips": [
+"Export to CSV to share or sort the results in a spreadsheet.",
+"Scans need OCR PDF first."
+],
+"faq": [
+{
+"q": "Can it search scanned PDFs?",
+"a": "Only PDFs with a text layer. Run OCR PDF first for scans."
+}
+]
+}
+},
+"viewerprefs": {
+"title": "PDF Viewer Preferences – Set How a PDF Opens | {brand}",
+"desc": "Control how your PDF opens: single page or two-page layout, bookmarks panel, full screen, fit window and title display. Free.",
+"guide": {
+"intro": "First impressions matter: a brochure can open as a two-page spread, a manual can open with bookmarks visible, and a presentation can open full screen. Viewer preferences store these settings inside the PDF.",
+"uses": [
+"Open a magazine or brochure as two-page spreads.",
+"Show the bookmarks panel for long manuals.",
+"Open a PDF presentation in full-screen mode."
+],
+"tips": [
+"\"Display document title\" shows your title instead of the file name.",
+"Test in Adobe Acrobat Reader – browser viewers may ignore some settings."
+],
+"faq": [
+{
+"q": "Do all viewers respect these settings?",
+"a": "Adobe Reader and most desktop viewers do; some browser viewers ignore them."
+}
+]
+}
+},
+"invoice": {
+"title": "Free Invoice Generator – Create Invoice PDF Online, Any Currency | {brand}",
+"desc": "Create a professional invoice PDF in a minute: your details, client, line items, tax, discount and any currency. No account, nothing stored.",
+"guide": {
+"intro": "Freelancers and small businesses need clean invoices without paying for accounting software. Fill in your details, items, tax rate and currency – USD, EUR, GBP or any other – and download a ready-to-send PDF.",
+"uses": [
+"Bill clients as a freelancer, consultant or contractor.",
+"Create quick invoices for a small shop or side business.",
+"Send a one-off invoice for a sale or service."
+],
+"tips": [
+"Use a consistent invoice number sequence for your records.",
+"Check local tax rules (VAT, GST, sales tax) for required fields.",
+"Save the PDF – nothing is stored on our side."
+],
+"faq": [
+{
+"q": "Is my invoice data saved anywhere?",
+"a": "No. Everything stays in your browser."
+}
+]
+}
+},
+"camera2pdf": {
+"title": "Camera to PDF – Scan Documents with Your Phone Free | {brand}",
+"desc": "Use your phone or webcam to snap documents and turn them into a clean, scanned-look PDF. Or choose existing photos. Free and private.",
+"guide": {
+"intro": "You do not need a scanner or a scanning app. Point your phone or laptop camera at a document, capture each page and {brand} turns them into a neat PDF – processed locally, so IDs and contracts stay on your device.",
+"uses": [
+"Scan receipts for expense reports.",
+"Capture signed forms and send them back immediately.",
+"Digitise handwritten notes and whiteboards."
+],
+"tips": [
+"Use daylight and a dark, plain background.",
+"Hold the phone parallel to the page to avoid skew.",
+"Compress PDF afterwards if the file is large."
+],
+"faq": [
+{
+"q": "Are camera images uploaded?",
+"a": "No, the camera image is processed on your device only."
+}
+]
+}
+},
+"txt2pdf": {
+"title": "Text to PDF Converter Online Free – TXT to PDF Any Language | {brand}",
+"desc": "Convert plain text (.txt) files to neatly formatted PDF with your choice of page size, font size and margins. Many scripts supported.",
+"guide": {
+"intro": "Plain text files open everywhere but look unpolished and print inconsistently. Converting to PDF fixes the layout, page size (A4 or Letter) and font for sharing or printing.",
+"uses": [
+"Turn notes, logs or code snippets into a printable PDF.",
+"Share lyrics, scripts or poems in a fixed format.",
+"Archive text records in a standard document format."
+],
+"tips": [
+"Choose a monospaced look for code or logs.",
+"Pick A4 or Letter to match your printer."
+],
+"faq": [
+{
+"q": "Which languages are supported?",
+"a": "Latin, Cyrillic, Greek, Indic, Arabic, Hebrew and Thai scripts are embedded with Noto fonts. CJK is not yet supported."
+}
+]
+}
+},
+"md2pdf": {
+"title": "Markdown to PDF Converter Online Free | {brand}",
+"desc": "Convert Markdown (GitHub-flavoured: headings, lists, tables, code, quotes) into a clean PDF in your browser. Free, no upload.",
+"guide": {
+"intro": "Markdown is popular for README files, documentation and notes, but clients and colleagues often want a PDF. This converter renders headings, tables, code blocks and quotes into a tidy document.",
+"uses": [
+"Share a README or technical doc with non-developers.",
+"Turn meeting notes into a PDF handout.",
+"Export documentation for offline reading."
+],
+"tips": [
+"Use tables and fenced code blocks – both are supported.",
+"Remote images are not fetched, for privacy."
+],
+"faq": [
+{
+"q": "Are images included?",
+"a": "Images are shown by their alt text; remote images are not fetched for privacy."
+}
+]
+}
+},
+"rtf2pdf": {
+"title": "RTF to PDF Converter Online Free | {brand}",
+"desc": "Convert Rich Text Format (.rtf) files to PDF in your browser. Paragraphs, bold text and Unicode are kept. Free, no upload.",
+"guide": {
+"intro": "RTF files from older word processors, TextEdit or WordPad are not always easy to open on phones. Converting to PDF makes them readable and printable everywhere.",
+"uses": [
+"Convert old RTF letters and documents for archiving.",
+"Share TextEdit or WordPad documents in a universal format."
+],
+"tips": [
+"For complex layouts, open the RTF in a word processor and export to PDF.",
+"Check tables after conversion."
+],
+"faq": [
+{
+"q": "What formatting is kept?",
+"a": "Paragraphs, bold and special characters. Tables and images are simplified."
+}
+]
+}
+},
+"pdf2txt": {
+"title": "PDF to Text Converter Online Free – Extract Text from PDF | {brand}",
+"desc": "Extract all text from a PDF into a .txt file, in reading order with paragraphs joined. Free, no upload, no sign-up.",
+"guide": {
+"intro": "Plain text is the easiest format to search, analyse, translate or paste into another app. PDF to Text pulls out every word in reading order without the formatting.",
+"uses": [
+"Paste document text into a translator or AI assistant.",
+"Analyse text in a spreadsheet or script.",
+"Make a document accessible to screen readers or plain-text tools."
+],
+"tips": [
+"For headings and lists, PDF to Markdown keeps more structure.",
+"Scanned PDFs need OCR."
+],
+"faq": [
+{
+"q": "What if my PDF is scanned?",
+"a": "Use OCR PDF first to recognise the text."
+}
+]
+}
+},
+"pdf2html": {
+"title": "PDF to HTML Converter Online Free – Clean Responsive HTML | {brand}",
+"desc": "Turn PDF text into clean, responsive HTML with headings and paragraphs, ready to publish on the web. Free and private.",
+"guide": {
+"intro": "PDFs are hard to read on phones and are less accessible than web pages. Converting to clean HTML lets you publish the content as a normal page that adapts to any screen.",
+"uses": [
+"Publish a report or article on your website.",
+"Make documents more accessible and mobile-friendly.",
+"Paste content into a CMS such as WordPress."
+],
+"tips": [
+"Review headings after conversion and adjust them in your editor.",
+"Add images separately – use Extract Images from PDF."
+],
+"faq": [
+{
+"q": "Does it copy the exact layout?",
+"a": "No – you get clean, readable HTML (headings, paragraphs), not a pixel copy."
+}
+]
+}
+},
+"pdf2md": {
+"title": "PDF to Markdown Converter Online Free | {brand}",
+"desc": "Convert PDF documents into Markdown with headings and lists detected – great for notes, docs, wikis and AI prompts.",
+"guide": {
+"intro": "Markdown is the format of choice for note apps, wikis, documentation and AI tools. Converting a PDF to Markdown keeps the document structure while making the text easy to edit.",
+"uses": [
+"Import papers or reports into Obsidian, Notion or a wiki.",
+"Feed documents to AI assistants with structure intact.",
+"Convert documentation to a Git-friendly format."
+],
+"tips": [
+"Check heading levels – detection is based on font size.",
+"Tables may need manual tidying."
+],
+"faq": [
+{
+"q": "How are headings detected?",
+"a": "Lines with a larger font size than the body text become # or ## headings."
+}
+]
+}
+},
+"pdf2svg": {
+"title": "PDF to SVG Converter Online Free – Vector Graphics | {brand}",
+"desc": "Convert PDF pages into scalable SVG vector graphics for Illustrator, Inkscape, Figma or the web. Choose page ranges.",
+"guide": {
+"intro": "SVG keeps drawings, logos and diagrams sharp at any size and is editable in design tools. Converting PDF pages to SVG is a fast way to reuse vector artwork.",
+"uses": [
+"Edit a logo or diagram from a PDF in Inkscape or Illustrator.",
+"Put sharp charts on a website.",
+"Reuse floor plans or technical drawings."
+],
+"tips": [
+"Pick only the pages you need to keep files small.",
+"Scanned pages stay as images inside the SVG."
+],
+"faq": [
+{
+"q": "Are vectors preserved?",
+"a": "Yes, paths and text are kept as vectors where possible."
+}
+]
+}
+},
+"pdf2tiff": {
+"title": "PDF to TIFF Converter Online Free – Multi-page TIFF | {brand}",
+"desc": "Convert PDF to a single multi-page TIFF with lossless compression at 100–300 DPI, colour or grayscale. Free and private.",
+"guide": {
+"intro": "TIFF is still the preferred format for many document management, fax and archiving systems. This converter produces one multi-page TIFF, ready to import.",
+"uses": [
+"Import documents into archive or document management systems.",
+"Send documents to fax services that require TIFF.",
+"Create lossless page images for printing."
+],
+"tips": [
+"300 DPI is standard for archiving; 200 DPI keeps files smaller.",
+"Grayscale greatly reduces size for text documents."
+],
+"faq": [
+{
+"q": "Is compression lossless?",
+"a": "Yes, lossless Deflate (Adobe ZIP) compression."
+}
+]
+}
+},
+"ocrpdf": {
+"title": "OCR PDF Online Free – Make Scanned PDF Searchable | {brand}",
+"desc": "Recognise text in scanned PDFs and add an invisible text layer so you can search, select and copy. Many languages, runs on your device.",
+"guide": {
+"intro": "A scanned PDF is just pictures of pages – you cannot search it or copy text. OCR (optical character recognition) reads the text and adds an invisible layer, so the PDF looks the same but becomes searchable. Unlike most OCR services, {brand} does this on your device.",
+"uses": [
+"Make scanned contracts and archives searchable.",
+"Copy text from scanned books or articles.",
+"Prepare scans for PDF to Word or Split by Text."
+],
+"tips": [
+"Choose the correct document language for best accuracy.",
+"Straighten tilted pages with Deskew PDF first.",
+"Clean, 300 DPI scans give the best results."
+],
+"faq": [
+{
+"q": "Does OCR change how my pages look?",
+"a": "No – the original page stays, an invisible text layer is added on top."
+},
+{
+"q": "How long does it take?",
+"a": "About 2–6 seconds per page on a modern device. The first run downloads the language model (1–4 MB)."
+}
+]
+}
+},
+"imgcompress": {
+"title": "Compress Image Online Free – Reduce JPG, PNG, WEBP Size | {brand}",
+"desc": "Reduce image file size by up to 90% while keeping photos sharp. Bulk compress JPG, PNG, WEBP and AVIF in your browser – no upload, no limits.",
+"guide": {
+"intro": "Heavy images slow down websites, fill phone storage and get rejected by upload forms with size limits. {brand} compresses photos on your own device, so you can shrink hundreds of images – including private photos – without uploading them.",
+"uses": [
+"Speed up a website or online store by shrinking product photos.",
+"Fit photos under upload limits for job, school or visa applications.",
+"Send many holiday photos by email or chat.",
+"Free up storage on your phone or cloud drive."
+],
+"tips": [
+"Quality 75–85 is usually indistinguishable from the original for photos.",
+"Converting to WEBP or AVIF often gives the smallest files.",
+"Resize very large photos (for example 4000 px wide) first – fewer pixels means much smaller files."
+],
+"faq": [
+{
+"q": "How much can I reduce file size?",
+"a": "Typical photos shrink 50–90%. If an image is already optimised, the original is kept so it never gets larger."
+}
+]
+}
+},
+"imgresize": {
+"title": "Resize Image Online Free – Change Image Size in Pixels or % | {brand}",
+"desc": "Resize JPG, PNG, WEBP and more to exact pixels or a percentage while keeping the aspect ratio. Batch resize in your browser, free.",
+"guide": {
+"intro": "Every platform wants a different size: profile pictures, website banners, marketplace listings, passport-photo uploads. Resize Image scales your photos to exact dimensions without distortion, in bulk, on your device.",
+"uses": [
+"Make product photos a uniform width for an online shop.",
+"Prepare images for social media posts and covers.",
+"Shrink camera photos for email and faster upload.",
+"Meet exact pixel requirements for application forms."
+],
+"tips": [
+"Keep \"aspect ratio\" on to avoid stretching.",
+"Downscaling keeps quality; upscaling small images can look soft – try Upscale Image.",
+"Combine with Compress Image for the smallest files."
+],
+"faq": [
+{
+"q": "Will resizing stretch my image?",
+"a": "No – with \"Keep aspect ratio\" on, the image fits inside the size you enter without distortion."
+}
+]
+}
+},
+"imgcrop": {
+"title": "Crop Image Online Free – Square, 16:9, 4:3 and Story Sizes | {brand}",
+"desc": "Crop photos visually or by exact pixels, with presets for square, 16:9, 4:3 and 9:16 stories. Free, private, no upload.",
+"guide": {
+"intro": "A good crop removes distractions and fits the frame each platform expects – square for profile pictures, 16:9 for video thumbnails, 9:16 for stories. Crop visually or enter exact pixels.",
+"uses": [
+"Make square profile pictures.",
+"Crop thumbnails to 16:9 for YouTube or presentations.",
+"Cut a photo to 9:16 for Instagram or TikTok stories.",
+"Remove unwanted edges from screenshots."
+],
+"tips": [
+"Use the rule of thirds: place the subject off-centre for a natural look.",
+"Crop before compressing for the smallest file."
+],
+"faq": [
+{
+"q": "Can I crop to a perfect square?",
+"a": "Yes. Choose the 1:1 ratio and the selection is centred automatically; drag to adjust."
+}
+]
+}
+},
+"imgrotate": {
+"title": "Rotate Image Online Free – Rotate and Flip Photos | {brand}",
+"desc": "Rotate images 90°, 180° or any angle and flip them horizontally or vertically. Batch rotate in your browser, no upload.",
+"guide": {
+"intro": "Phones sometimes save photos sideways, and scanned images can be upside down. Rotate & Flip fixes orientation permanently for every app, and can mirror selfies or straighten a slightly tilted horizon.",
+"uses": [
+"Fix sideways phone photos before uploading.",
+"Mirror selfies so text reads correctly.",
+"Straighten a tilted horizon with a small custom angle."
+],
+"tips": [
+"Rotations in 90° steps are lossless in quality.",
+"Choose PNG output for perfectly lossless results."
+],
+"faq": [
+{
+"q": "Does rotating reduce quality?",
+"a": "Rotations by 90° steps are pixel-perfect. Choose PNG output for lossless results."
+}
+]
+}
+},
+"imgconvert": {
+"title": "Image Converter Online Free – JPG, PNG, WEBP, AVIF, HEIC, SVG | {brand}",
+"desc": "Convert images between JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC and SVG. Batch convert in your browser, no upload.",
+"guide": {
+"intro": "Different formats suit different jobs: JPG for photos, PNG for graphics and transparency, WEBP and AVIF for small web images, ICO for icons. One converter handles them all, in bulk, without uploading your pictures.",
+"uses": [
+"Convert iPhone HEIC photos to JPG.",
+"Turn PNG screenshots into compact WEBP for a website.",
+"Create ICO icons from PNG.",
+"Convert old BMP or TIFF scans to JPG."
+],
+"tips": [
+"Choose PNG when you need transparency.",
+"For the web, WEBP is supported by all modern browsers.",
+"Quality 85–92 is visually identical for most photos."
+],
+"faq": [
+{
+"q": "Which formats are supported?",
+"a": "Input: JPG, PNG, WEBP, AVIF, GIF, BMP, ICO, TIFF, SVG and HEIC/HEIF. Output: JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF, ICO and SVG (vector tracing)."
+}
+]
+}
+},
+"png2jpg": {
+"guide": {
+"intro": "PNG files are lossless and support transparency, which makes them large – a phone screenshot or exported photo can be several megabytes. Converting to JPG typically makes photos and screenshots far smaller, which is ideal for email, websites and forms that only accept JPG.",
+"uses": [
+"Shrink large PNG photos for email or messaging.",
+"Meet upload forms that accept only JPG.",
+"Reduce the size of screenshots for documentation."
+],
+"tips": [
+"Transparent areas become white (or your chosen background) because JPG has no transparency.",
+"Keep PNG for logos, text and sharp graphics.",
+"Quality 85–90 balances size and sharpness."
+],
+"faq": [
+{
+"q": "What happens to transparent backgrounds?",
+"a": "JPG does not support transparency, so transparent areas are filled with a solid colour, usually white."
+}
+]
+}
+},
+"jpg2png": {
+"guide": {
+"intro": "JPG is great for photos but uses lossy compression. Converting to PNG gives a lossless copy – useful when you will edit an image repeatedly, need a format that design tools prefer, or want to add transparency later.",
+"uses": [
+"Prepare a photo for repeated editing without extra quality loss.",
+"Use images in tools or templates that require PNG.",
+"Start a cut-out or transparent graphic from a JPG."
+],
+"tips": [
+"PNG files are usually larger than JPG – that is normal.",
+"Converting cannot restore detail already lost in the JPG.",
+"Use Remove Background to make the background transparent."
+],
+"faq": [
+{
+"q": "Will converting to PNG improve quality?",
+"a": "No, it preserves the current quality exactly but cannot recover detail lost by earlier JPG compression."
+}
+]
+}
+},
+"webp2jpg": {
+"guide": {
+"intro": "WEBP is a modern web format, but some older apps, editors, printers and upload forms still do not accept it. If you saved an image from a website and it will not open, converting WEBP to JPG makes it compatible everywhere.",
+"uses": [
+"Open images saved from websites in older software.",
+"Upload images to forms that accept only JPG.",
+"Print photos at shops that do not support WEBP."
+],
+"tips": [
+"Transparent WEBP images get a white background in JPG; choose PNG to keep transparency.",
+"Convert many files at once and download a ZIP."
+],
+"faq": [
+{
+"q": "Why can't I open WEBP files?",
+"a": "Some older programs and services do not support WEBP. Converting to JPG solves this."
+}
+]
+}
+},
+"webp2png": {
+"guide": {
+"intro": "Converting WEBP to PNG keeps transparency and gives you a lossless file that every image editor understands – handy for logos, stickers and graphics downloaded from the web.",
+"uses": [
+"Edit web graphics in software without WEBP support.",
+"Keep transparent backgrounds for logos and stickers.",
+"Use images in presentations and documents."
+],
+"tips": [
+"PNG keeps transparency; JPG does not.",
+"Files may become larger than the WEBP – that is expected."
+],
+"faq": [
+{
+"q": "Is transparency kept?",
+"a": "Yes. PNG supports transparency, so transparent areas stay transparent."
+}
+]
+}
+},
+"jpg2webp": {
+"guide": {
+"intro": "WEBP images are typically 25–35% smaller than JPGs at similar visual quality, so websites load faster and use less bandwidth. All modern browsers support WEBP.",
+"uses": [
+"Speed up a website or blog.",
+"Reduce image storage for an online shop.",
+"Improve Core Web Vitals and page speed scores."
+],
+"tips": [
+"Quality 75–85 is a good default for the web.",
+"Keep the original JPGs as masters.",
+"For even smaller files try JPG to AVIF."
+],
+"faq": [
+{
+"q": "Do all browsers support WEBP?",
+"a": "Yes, all current versions of Chrome, Edge, Firefox and Safari support WEBP."
+}
+]
+}
+},
+"png2webp": {
+"guide": {
+"intro": "PNG screenshots and graphics can be very large. WEBP supports both transparency and much stronger compression, often cutting file size by more than half – perfect for websites and apps.",
+"uses": [
+"Make transparent website graphics lighter.",
+"Reduce screenshot sizes in documentation sites.",
+"Optimise app and game assets."
+],
+"tips": [
+"Use lossless WEBP for sharp text and UI; lossy for photos.",
+"Check the result on a dark and light background if it has transparency."
+],
+"faq": [
+{
+"q": "Does WEBP keep transparency?",
+"a": "Yes, WEBP supports transparency in both lossy and lossless modes."
+}
+]
+}
+},
+"avif2jpg": {
+"guide": {
+"intro": "AVIF offers excellent compression but is still not supported by many editors, office apps and websites. Converting AVIF to JPG makes the image usable everywhere.",
+"uses": [
+"Open AVIF images in older software.",
+"Upload to sites that reject AVIF.",
+"Share photos with people on older devices."
+],
+"tips": [
+"Use high quality (90) to preserve detail when converting.",
+"Choose PNG if the AVIF has transparency."
+],
+"faq": [
+{
+"q": "What is AVIF?",
+"a": "AVIF is a modern image format based on the AV1 video codec, giving very small files at high quality."
+}
+]
+}
+},
+"jpg2avif": {
+"guide": {
+"intro": "AVIF often produces files around half the size of JPG at similar quality, making it one of the best formats for fast websites. Browser support is now broad across Chrome, Edge, Firefox and Safari.",
+"uses": [
+"Get the smallest possible images for a website.",
+"Store large photo collections efficiently.",
+"Boost page speed for image-heavy pages."
+],
+"tips": [
+"Encoding AVIF is slower than other formats – be patient with big batches.",
+"Keep JPG fallbacks for very old browsers if needed."
+],
+"faq": [
+{
+"q": "Is AVIF better than WEBP?",
+"a": "AVIF usually compresses more; WEBP encodes faster and has slightly wider legacy support. Both are excellent for the web."
+}
+]
+}
+},
+"tiff2jpg": {
+"guide": {
+"intro": "TIFF files from scanners and cameras are large and many browsers and phones cannot display them. Converting to JPG makes scans easy to view, share and upload.",
+"uses": [
+"Share scanned documents and photos by email.",
+"View scanner output on phones.",
+"Upload archive scans to websites."
+],
+"tips": [
+"Multi-page TIFFs become one JPG per page.",
+"Keep the TIFF as your archival master."
+],
+"faq": [
+{
+"q": "Are multi-page TIFFs supported?",
+"a": "Yes, each page is converted to its own image."
+}
+]
+}
+},
+"jpg2tiff": {
+"guide": {
+"intro": "TIFF remains a standard in printing, publishing and archives because it is lossless and widely accepted by professional software.",
+"uses": [
+"Deliver images to a print shop that requests TIFF.",
+"Archive photos in a lossless format.",
+"Import into document management or fax systems."
+],
+"tips": [
+"TIFF files are large – that is normal.",
+"Converting cannot recover quality lost in the JPG."
+],
+"faq": [
+{
+"q": "Why use TIFF instead of JPG?",
+"a": "TIFF is lossless and favoured by print and archive workflows; JPG is smaller and better for sharing."
+}
+]
+}
+},
+"bmp2jpg": {
+"guide": {
+"intro": "BMP is an old, uncompressed Windows format, so files are huge. Converting to JPG can make them many times smaller while looking the same.",
+"uses": [
+"Shrink old Windows screenshots and paintings.",
+"Share BMP files by email.",
+"Upload images to websites that reject BMP."
+],
+"tips": [
+"Choose PNG for screenshots with text to keep them crisp.",
+"Batch convert a whole folder at once."
+],
+"faq": [
+{
+"q": "Why is BMP so large?",
+"a": "BMP usually stores every pixel uncompressed, so even simple images take a lot of space."
+}
+]
+}
+},
+"png2ico": {
+"guide": {
+"intro": "ICO is the icon format used by Windows and by website favicons. Convert a PNG into a multi-size ICO for desktop shortcuts, apps or a website tab icon.",
+"uses": [
+"Create a favicon.ico for a website.",
+"Make custom Windows folder or shortcut icons.",
+"Package icons for a desktop app."
+],
+"tips": [
+"Start from a square PNG of at least 256×256 px.",
+"For a full favicon set, use the Favicon Generator."
+],
+"faq": [
+{
+"q": "What size should my PNG be?",
+"a": "A square image of at least 256×256 pixels gives the best results at all icon sizes."
+}
+]
+}
+},
+"svg2png": {
+"guide": {
+"intro": "SVG is perfect for scalable graphics, but many apps, social networks and documents do not accept it. Converting to PNG gives a sharp raster image that works everywhere.",
+"uses": [
+"Use a logo in Word, slides or social media.",
+"Upload icons to platforms that reject SVG.",
+"Create app-store or marketplace images."
+],
+"tips": [
+"Choose a large output size for printing.",
+"Transparency is preserved in PNG."
+],
+"faq": [
+{
+"q": "How sharp is the PNG?",
+"a": "SVGs are rendered at least 1024 px on the longest side for crisp results."
+}
+]
+}
+},
+"png2svg": {
+"guide": {
+"intro": "Tracing converts a pixel image into vector shapes that scale without blurring – ideal for logos and simple graphics you need to print large or edit in design software.",
+"uses": [
+"Turn a low-resolution logo into a scalable vector.",
+"Prepare graphics for cutting machines (Cricut, vinyl, laser).",
+"Create icons for the web."
+],
+"tips": [
+"Works best with flat colours and clear edges.",
+"Clean up the SVG in Inkscape or Illustrator afterwards."
+],
+"faq": [
+{
+"q": "Does it work for photos?",
+"a": "The image is traced into coloured vector paths (16 colours). It works best for logos, icons and flat graphics, not photos."
+}
+]
+}
+},
+"gif2png": {
+"guide": {
+"intro": "Converting a GIF to PNG gives you a lossless still image – useful for extracting the first frame of an animation or editing a GIF graphic in any app.",
+"uses": [
+"Get a still image from an animated GIF.",
+"Edit GIF graphics in tools that prefer PNG.",
+"Use a GIF graphic in documents."
+],
+"tips": [
+"Only the first frame is converted; use GIF tools for frame-by-frame work."
+],
+"faq": [
+{
+"q": "Are animations kept?",
+"a": "No, PNG is a still format; the first frame is saved."
+}
+]
+}
+},
+"heic2jpg": {
+"title": "HEIC to JPG Converter Online Free – iPhone Photos to JPG | {brand}",
+"desc": "Convert iPhone and iPad HEIC/HEIF photos to JPG, PNG or WEBP. Batch convert privately in your browser – photos are never uploaded.",
+"guide": {
+"intro": "iPhones save photos as HEIC to save space, but Windows PCs, many websites and older Android apps cannot open them. Converting to JPG makes your photos viewable everywhere – and because {brand} works locally, personal photos stay on your device.",
+"uses": [
+"Open iPhone photos on Windows or Android.",
+"Upload photos to websites that do not accept HEIC.",
+"Share pictures with friends and family on any device."
+],
+"tips": [
+"Convert a whole album at once and download a ZIP.",
+"Quality 90 keeps photos looking like the original."
+],
+"faq": [
+{
+"q": "Why are my iPhone photos HEIC?",
+"a": "HEIC is Apple's high-efficiency format. Many apps and websites don't support it, so converting to JPG makes photos viewable everywhere."
+}
+]
+}
+},
+"imgwatermark": {
+"title": "Watermark Image Online Free – Add Text or Logo to Photos | {brand}",
+"desc": "Protect photos with a text or logo watermark. Choose position, size, opacity and angle, or tile it. Batch watermark in your browser.",
+"guide": {
+"intro": "Watermarks deter people from reusing your photos without credit and promote your brand when images are shared. Add a name, website or logo to a whole batch at once, privately on your device.",
+"uses": [
+"Brand product photos for an online shop.",
+"Protect photography portfolios.",
+"Mark property or rental photos with your agency name."
+],
+"tips": [
+"Tiled, semi-transparent marks are hardest to remove.",
+"Keep watermarks subtle so the photo is still enjoyable."
+],
+"faq": [
+{
+"q": "Can I watermark many images at once?",
+"a": "Yes – the same watermark is applied to every selected image and you get a ZIP."
+}
+]
+}
+},
+"meme": {
+"title": "Meme Generator Online Free – No Watermark | {brand}",
+"desc": "Create memes with classic bold top and bottom text on your own images. Live preview, no watermark, no sign-up.",
+"guide": {
+"intro": "Make a meme in seconds with the classic impact-style caption on any picture. Everything happens in your browser, so your images are not uploaded.",
+"uses": [
+"Create memes for group chats and social media.",
+"Make funny captions for team presentations.",
+"Design reaction images."
+],
+"tips": [
+"Short captions are funnier and easier to read.",
+"Use your own photos or images you have the right to use."
+],
+"faq": [
+{
+"q": "Is there a watermark?",
+"a": "Never. Your meme is yours."
+}
+]
+}
+},
+"blurface": {
+"title": "Blur Face in Photos Online Free – Automatic & Private | {brand}",
+"desc": "Automatically detect and blur faces, or mark licence plates and details to blur, pixelate or black out. Runs on your device for privacy.",
+"guide": {
+"intro": "Before posting photos of crowds, children or street scenes, it is good practice – and sometimes a legal requirement under privacy laws such as GDPR – to hide faces and licence plates. This tool finds faces with on-device AI so the photos never leave your device.",
+"uses": [
+"Protect children's privacy in school or event photos.",
+"Anonymise bystanders in street photography.",
+"Hide licence plates before selling a car online."
+],
+"tips": [
+"Check the result – small or turned faces can be missed; add boxes by hand.",
+"Pixelate or black out for stronger anonymisation than blur."
+],
+"faq": [
+{
+"q": "How does face detection work?",
+"a": "A small AI model runs in your browser to find faces. It can miss tiny or turned faces, so check the result and add boxes by hand if needed."
+}
+]
+}
+},
+"gifmaker": {
+"title": "GIF Maker Online Free – Create Animated GIFs from Images | {brand}",
+"desc": "Make animated GIFs from JPG, PNG or WEBP images. Set frame speed, size and looping. Free, no watermark, works in your browser.",
+"guide": {
+"intro": "Animated GIFs are a simple way to show steps, before-and-after comparisons or a short story in a chat, email or README – they play everywhere without a video player.",
+"uses": [
+"Create a before-and-after animation.",
+"Show product angles in an online listing.",
+"Make tutorial steps for documentation."
+],
+"tips": [
+"Keep width under 600 px for small files.",
+"2–10 frames per second looks smooth for slideshows."
+],
+"faq": [
+{
+"q": "How many images can I use?",
+"a": "As many as your device's memory allows; 2–100 frames work well."
+}
+]
+}
+},
+"img2gif": {
+"guide": {
+"intro": "Turn a set of photos into a looping GIF slideshow – perfect for sharing a series of shots in one file that plays automatically in emails and chats.",
+"uses": [
+"Share a trip or event as a photo slideshow.",
+"Make simple animated banners.",
+"Show a timelapse from several photos."
+],
+"tips": [
+"Order the images before creating the GIF.",
+"Lower the size for faster sharing."
+],
+"faq": [
+{
+"q": "How many frames can I add?",
+"a": "As many as your device's memory allows; 2–100 frames work well."
+}
+]
+}
+},
+"favicon": {
+"title": "Favicon Generator Online Free – ICO, PNG, Apple Touch Icon | {brand}",
+"desc": "Generate favicon.ico, PNG favicons, Apple touch icon, Android icons and a web manifest from one image, plus the HTML code to paste.",
+"guide": {
+"intro": "The favicon is the small icon in browser tabs, bookmarks and phone home screens. A full set makes a website look professional on every device; this generator creates all sizes from one image.",
+"uses": [
+"Create icons for a new website or blog.",
+"Update a site's branding.",
+"Make icons for a progressive web app."
+],
+"tips": [
+"Use a simple, square design – details disappear at 16 px.",
+"Paste the generated HTML into your page's head."
+],
+"faq": [
+{
+"q": "Which files do I get?",
+"a": "favicon.ico (16/32/48), 16 and 32 px PNGs, a 180 px Apple touch icon, 192 and 512 px Android icons, site.webmanifest and the HTML tags to paste."
+}
+]
+}
+},
+"colorpicker": {
+"title": "Image Color Picker Online Free – Get HEX, RGB from Image | {brand}",
+"desc": "Click anywhere on an image to get its HEX, RGB and HSL colour codes and see its dominant palette. Free online colour picker.",
+"guide": {
+"intro": "Designers, developers and marketers often need the exact colour from a logo, photo or screenshot. Pick any pixel or get the dominant palette instantly.",
+"uses": [
+"Match brand colours from a logo.",
+"Build a website colour scheme from a photo.",
+"Find paint or fabric colours from a picture."
+],
+"tips": [
+"Zoom in to pick small details precisely.",
+"Copy HEX for CSS and design tools."
+],
+"faq": [
+{
+"q": "Which colour formats are shown?",
+"a": "HEX, RGB and HSL for every picked colour and for up to 8 dominant colours."
+}
+]
+}
+},
+"collage": {
+"title": "Collage Maker Online Free – Photo Grid, No Watermark | {brand}",
+"desc": "Create a photo collage from multiple images with adjustable columns, spacing and background. Free, private, no watermark.",
+"guide": {
+"intro": "A collage shows many photos in one image – perfect for social posts, event recaps, mood boards and family memories.",
+"uses": [
+"Share holiday highlights in one post.",
+"Create a mood board for a project.",
+"Make a product grid for an online store."
+],
+"tips": [
+"Use photos with similar aspect ratios for a neat grid.",
+"Add spacing and a background colour that suits your photos."
+],
+"faq": [
+{
+"q": "Can I change the order?",
+"a": "Yes – use the arrows next to each file; photos are placed left-to-right, top-to-bottom."
+}
+]
+}
+},
+"qr": {
+"title": "Free QR Code Generator – Logo, Colours, SVG & PDF, No Expiry | {brand}",
+"desc": "Create free static QR codes for URLs, Wi-Fi, vCard, email, SMS, location and events. Add a logo and colours, download PNG, SVG or PDF. Never expires.",
+"guide": {
+"intro": "Many \"free\" QR generators create dynamic codes that redirect through their servers and stop working when a trial ends. {brand} creates static codes: the content is inside the code itself, so it works forever, with no account and no tracking.",
+"uses": [
+"Link menus, flyers and posters to your website.",
+"Share Wi-Fi with guests.",
+"Put contact details on business cards.",
+"Add QR codes to product packaging and event tickets."
+],
+"tips": [
+"Test the code with several phones before printing.",
+"Keep strong contrast – dark code on a light background.",
+"Download SVG or PDF for print to stay sharp at any size."
+],
+"faq": [
+{
+"q": "Do these QR codes expire?",
+"a": "No. They are static codes that never expire and need no account. Nothing is tracked."
+}
+]
+}
+},
+"qr_wifi": {
+"guide": {
+"intro": "A Wi-Fi QR code lets guests join your network by pointing their camera at it – no spelling out long passwords. It is ideal for homes, cafés, offices and holiday rentals.",
+"uses": [
+"Share guest Wi-Fi at home or in a holiday rental.",
+"Display Wi-Fi access in cafés, hotels and co-working spaces.",
+"Speed up device setup in offices."
+],
+"tips": [
+"Use a separate guest network for visitors.",
+"Print it in a frame near the entrance.",
+"Update the code if you change the password."
+],
+"faq": [
+{
+"q": "Do I need to type the password each time?",
+"a": "No. Scanning connects the phone directly on iPhone and Android."
+}
+]
+}
+},
+"qr_vcard": {
+"guide": {
+"intro": "A vCard QR code saves your name, phone, email, company and website straight into the scanner's contacts – a modern addition to business cards, email signatures and name badges.",
+"uses": [
+"Add a QR code to business cards.",
+"Put contact details on trade-show badges and banners.",
+"Share contact info on a website or email signature."
+],
+"tips": [
+"Include only the fields you want to share publicly.",
+"Print at least 2 cm (0.8 in) wide for easy scanning."
+],
+"faq": [
+{
+"q": "Does it work on iPhone and Android?",
+"a": "Yes, both open the contact card directly from the camera app."
+}
+]
+}
+},
+"qr_mecard": {
+"guide": {
+"intro": "MeCard is a compact contact format that produces smaller, simpler QR codes than vCard – easier to scan when printed small.",
+"uses": [
+"Fit a contact QR code on a small label or badge.",
+"Share basic contact info quickly."
+],
+"tips": [
+"Use vCard if you need many fields such as address and job title."
+],
+"faq": [
+{
+"q": "MeCard or vCard?",
+"a": "MeCard gives smaller codes; vCard supports more fields."
+}
+]
+}
+},
+"qr_email": {
+"guide": {
+"intro": "An email QR code opens a new message with the address, subject and text already filled in – handy for feedback, support requests and sign-ups.",
+"uses": [
+"Collect feedback at events or in stores.",
+"Let customers contact support from a printed manual.",
+"Simplify RSVP or sign-up requests."
+],
+"tips": [
+"Keep the subject short and clear.",
+"Test with your own phone's mail app."
+],
+"faq": [
+{
+"q": "Is the email sent automatically?",
+"a": "No, the scanner sees a pre-filled draft and decides whether to send it."
+}
+]
+}
+},
+"qr_sms": {
+"guide": {
+"intro": "An SMS QR code opens a text message with the number and message pre-filled – great for opt-ins, voting and quick feedback.",
+"uses": [
+"Run SMS opt-in campaigns from posters.",
+"Collect quick feedback by text.",
+"Let customers request a call back."
+],
+"tips": [
+"Mention any messaging costs where relevant.",
+"Keep the pre-filled message short."
+],
+"faq": [
+{
+"q": "Does the message send itself?",
+"a": "No, the user always confirms before sending."
+}
+]
+}
+},
+"qr_phone": {
+"guide": {
+"intro": "A phone QR code dials your number when scanned – useful on posters, vehicles, delivery menus and shop windows.",
+"uses": [
+"Add a \"call us\" code to flyers and signs.",
+"Put an emergency contact on equipment.",
+"Help customers reach you from printed ads."
+],
+"tips": [
+"Use international format (+country code) for worldwide callers."
+],
+"faq": [
+{
+"q": "Does it call automatically?",
+"a": "No, the phone shows the number and the user taps to call."
+}
+]
+}
+},
+"qr_text": {
+"guide": {
+"intro": "Text QR codes store a message directly in the code – no internet needed to read it. They work for any language.",
+"uses": [
+"Add instructions to equipment or packaging.",
+"Hide a message for a game or treasure hunt.",
+"Label stored items with details."
+],
+"tips": [
+"Shorter text creates simpler, easier-to-scan codes."
+],
+"faq": [
+{
+"q": "Is there a text length limit?",
+"a": "QR codes can hold a few thousand characters, but shorter text scans much more reliably."
+}
+]
+}
+},
+"qr_url": {
+"guide": {
+"intro": "A URL QR code sends people straight to a website, menu, video or form. Because it is static, the link is inside the code and it never expires.",
+"uses": [
+"Link restaurant menus and price lists.",
+"Point posters and packaging to a landing page.",
+"Share a video, review page or app download link."
+],
+"tips": [
+"Use a short URL for a simpler code.",
+"Make sure the page is mobile-friendly."
+],
+"faq": [
+{
+"q": "Can I change the link later?",
+"a": "Static codes cannot be edited; generate a new code or point the URL to a page you control."
+}
+]
+}
+},
+"qr_location": {
+"guide": {
+"intro": "A location QR code opens the exact spot in the phone's maps app – easier than typing an address, especially for venues, trailheads or entrances.",
+"uses": [
+"Guide guests to a wedding or event venue.",
+"Mark parking or a hidden entrance.",
+"Share meeting points for tours."
+],
+"tips": [
+"Use precise coordinates from your map app.",
+"Test with both Google Maps and Apple Maps."
+],
+"faq": [
+{
+"q": "Which map apps open it?",
+"a": "Most phones open the default maps app, such as Google Maps or Apple Maps."
+}
+]
+}
+},
+"qr_event": {
+"guide": {
+"intro": "An event QR code adds your event – title, time and place – to the scanner's calendar in one tap, reducing no-shows.",
+"uses": [
+"Put on invitations and event posters.",
+"Add to webinar and conference flyers.",
+"Share meeting details in print."
+],
+"tips": [
+"Include the time zone for international events."
+],
+"faq": [
+{
+"q": "Does it work with Google and Apple calendars?",
+"a": "Yes, it uses the standard iCalendar format."
+}
+]
+}
+},
+"qr_bitcoin": {
+"guide": {
+"intro": "A Bitcoin QR code (BIP21) contains your address, and optionally an amount and label, so payers can scan instead of copying a long address.",
+"uses": [
+"Accept donations on a website or stream.",
+"Request payments at a market stall.",
+"Share a payment request in an invoice."
+],
+"tips": [
+"Double-check the address – payments cannot be reversed.",
+"Generated offline, so your address is not sent anywhere."
+],
+"faq": [
+{
+"q": "Is it safe?",
+"a": "The code is generated in your browser. Always verify the address before sharing."
+}
+]
+}
+},
+"qr_social": {
+"guide": {
+"intro": "A social media QR code takes people straight to your Instagram, X, Facebook, LinkedIn, YouTube, TikTok, WhatsApp, Telegram or GitHub profile.",
+"uses": [
+"Grow followers from shop counters and packaging.",
+"Add profiles to business cards.",
+"Promote a channel at events."
+],
+"tips": [
+"Add your platform's logo in the centre so people know where it goes."
+],
+"faq": [
+{
+"q": "Will it open the app?",
+"a": "Yes, most phones open the profile in the installed app."
+}
+]
+}
+},
+"qrscan": {
+"title": "QR Code Scanner Online – Scan from Image or Camera, Free | {brand}",
+"desc": "Scan QR codes and barcodes from a photo, screenshot or your camera, right in the browser. Nothing is uploaded.",
+"guide": {
+"intro": "Received a QR code in a screenshot or PDF and cannot point a camera at it? Upload the image and read it instantly. You can also use your laptop or phone camera.",
+"uses": [
+"Read QR codes in screenshots or emails.",
+"Check where a QR code leads before opening it.",
+"Scan barcodes on products."
+],
+"tips": [
+"Crop around the code if the image has several.",
+"Be careful with unknown codes – check the link before visiting."
+],
+"faq": [
+{
+"q": "Which codes are supported?",
+"a": "QR codes everywhere. In Chrome, Edge and Android, 1D barcodes (EAN, UPC, Code 128…) and Data Matrix are also read."
+}
+]
+}
+},
+"barcode": {
+"title": "Barcode Generator Online Free – Code 128, EAN-13, UPC, Code 39 | {brand}",
+"desc": "Generate barcodes: Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, Codabar and MSI. Download PNG or vector SVG. Free.",
+"guide": {
+"intro": "Barcodes are used for inventory, shipping, libraries, retail and events. Pick the symbology your scanner or partner needs and download a print-ready image.",
+"uses": [
+"Label inventory and assets.",
+"Create shipping and carton labels (ITF-14).",
+"Make library or membership cards."
+],
+"tips": [
+"Code 128 is the most versatile for general use.",
+"Print SVG for crisp bars.",
+"Leave white space (quiet zone) around the barcode."
+],
+"faq": [
+{
+"q": "Can I use them on products in stores?",
+"a": "Technically yes, but retail requires officially assigned GS1 numbers – the generator only draws the barcode."
+}
+]
+}
+},
+"bc_ean13": {
+"guide": {
+"intro": "EAN-13 is the standard retail barcode used worldwide outside North America. It encodes 13 digits including a check digit.",
+"uses": [
+"Print barcodes for retail products using your GS1 number.",
+"Create labels for books (ISBN as EAN-13).",
+"Mock up packaging designs."
+],
+"tips": [
+"Get official numbers from GS1 for retail.",
+"Print at 100% size for reliable scanning."
+],
+"faq": [
+{
+"q": "Do I need to enter the check digit?",
+"a": "No. Leave it out and it is calculated automatically."
+}
+]
+}
+},
+"bc_upc": {
+"guide": {
+"intro": "UPC-A is the 12-digit retail barcode used mainly in the United States and Canada.",
+"uses": [
+"Label products sold in North American stores.",
+"Create shelf and inventory labels."
+],
+"tips": [
+"Get your company prefix from GS1 US for retail use."
+],
+"faq": [
+{
+"q": "Is the check digit added?",
+"a": "Yes. Leave it out and it is calculated automatically."
+}
+]
+}
+},
+"bc_code39": {
+"guide": {
+"intro": "Code 39 encodes letters, numbers and a few symbols and is widely used for ID badges, inventory and industry labels.",
+"uses": [
+"Create employee or student ID badges.",
+"Label equipment and assets.",
+"Track parts in a workshop."
+],
+"tips": [
+"Code 39 is wide – use Code 128 when space is tight."
+],
+"faq": [
+{
+"q": "Which characters are allowed?",
+"a": "Upper-case letters A–Z, digits 0–9 and - . $ / + % and space."
+}
+]
+}
+},
+"ocr": {
+"title": "Image to Text (OCR) Online Free – Copy Text from Photos | {brand}",
+"desc": "Extract text from images, photos, screenshots and scans with OCR in 12 languages. Get plain text or a searchable PDF. Private – runs in your browser.",
+"guide": {
+"intro": "Retyping text from a photo, screenshot or scanned page is slow and error-prone. OCR reads the text for you, ready to copy, edit or translate. Unlike cloud OCR services, {brand} processes images on your device.",
+"uses": [
+"Copy text from a screenshot or photo of a sign, slide or whiteboard.",
+"Digitise printed recipes, letters and receipts.",
+"Extract quotes from book pages for research.",
+"Translate text in an image by copying it into a translator."
+],
+"tips": [
+"Use a sharp, well-lit photo taken straight on.",
+"Choose the right language for best accuracy.",
+"Crop to the text area to avoid noise."
+],
+"faq": [
+{
+"q": "Which languages are supported?",
+"a": "English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese."
+},
+{
+"q": "Are images uploaded?",
+"a": "No – OCR runs entirely on your device."
+}
+]
+}
+},
+"bgremove": {
+"title": "Remove Background from Image Free – AI, Transparent PNG | {brand}",
+"desc": "Remove image backgrounds automatically with on-device AI. Get a transparent PNG or a white, colour or blurred background. Free, no sign-up.",
+"guide": {
+"intro": "Clean cut-outs are essential for product listings, profile pictures, presentations and designs. Most background removers upload your photo to a server and limit free downloads to low resolution; {brand} runs the AI in your browser at full resolution.",
+"uses": [
+"Create white-background product photos for online marketplaces.",
+"Make professional profile pictures and ID-style photos.",
+"Cut out objects for presentations, posters and thumbnails."
+],
+"tips": [
+"Clear subjects with good contrast give the best results.",
+"Choose a white background for marketplace listings.",
+"Fine hair may be softened – zoom in to check."
+],
+"faq": [
+{
+"q": "Is my photo uploaded?",
+"a": "No. The AI model (4.6 MB) is downloaded once and runs in your browser."
+},
+{
+"q": "What works best?",
+"a": "Clear subjects – people, products, animals – with good contrast to the background."
+}
+]
+}
+},
+"enlarge": {
+"title": "Image Enlarger Online Free – Enlarge Photos 2×, 3×, 4× | {brand}",
+"desc": "Enlarge images 1.5× to 4× with high-quality Lanczos resampling and smart sharpening. JPG, PNG, WEBP. Free and private.",
+"guide": {
+"intro": "Small images look blocky when printed or shown on large screens. The enlarger scales them up with high-quality resampling and sharpening, giving smoother results than a basic resize.",
+"uses": [
+"Enlarge small logos or icons for slides.",
+"Prepare small photos for printing.",
+"Increase resolution to meet minimum upload dimensions."
+],
+"tips": [
+"2× gives the most natural results.",
+"Start from the best original available.",
+"Use PNG output for graphics and text."
+],
+"faq": [
+{
+"q": "Is this AI upscaling?",
+"a": "It uses high-quality Lanczos-3 resampling plus sharpening – fast and private, but it cannot invent detail like heavy AI models."
+}
+]
+}
+},
+"upscale": {
+"guide": {
+"intro": "Upscaling increases image resolution so it fits larger displays, prints or platform minimum sizes. Everything happens on your device, with no watermark.",
+"uses": [
+"Meet a minimum image size for marketplace or ad uploads.",
+"Upscale old digital photos for viewing on modern screens.",
+"Increase screenshot resolution for documents."
+],
+"tips": [
+"Avoid more than 4× – larger factors magnify blur.",
+"Compress Image afterwards to keep files manageable."
+],
+"faq": [
+{
+"q": "Is a watermark added?",
+"a": "No, never."
+}
+]
+}
+},
+"video2mp3": {
+"title": "MP4 to MP3 Converter Online Free – Extract Audio from Video | {brand}",
+"desc": "Convert MP4, MOV, WEBM and MKV videos to MP3 in your browser. Choose 64–320 kbps. Free, no upload, no sign-up, no watermark.",
+"guide": {
+"intro": "Often you only need the sound of a video: a lecture, podcast recording, interview or your own music performance. Extracting the audio to MP3 makes it small and playable on any device – and here the video never leaves your computer or phone.",
+"uses": [
+"Listen to recorded lectures or meetings on the go.",
+"Extract your own music or voice recordings from a video.",
+"Create audio versions of webinars for podcasts."
+],
+"tips": [
+"192 kbps is plenty for music; 64–96 kbps is fine for speech.",
+"Only convert content you own or have permission to use."
+],
+"faq": [
+{
+"q": "Are videos uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+},
+{
+"q": "Which videos work?",
+"a": "Any video your browser can play – MP4, MOV, WEBM and most MKV files."
+}
+]
+}
+},
+"audioconv": {
+"title": "Audio Converter Online Free – M4A, FLAC, OGG to MP3 or WAV | {brand}",
+"desc": "Convert audio to MP3 or WAV in your browser. Supports M4A, AAC, OGG, OPUS, FLAC and video files. Free and private.",
+"guide": {
+"intro": "Voice memos, WhatsApp audio, FLAC music and recordings from different apps come in many formats. Converting to MP3 or WAV makes them play on any device and import into any editor.",
+"uses": [
+"Convert iPhone voice memos (M4A) to MP3.",
+"Turn OGG/OPUS messages into MP3.",
+"Convert FLAC to MP3 for phones with limited space."
+],
+"tips": [
+"Choose WAV for editing, MP3 for sharing.",
+"Batch convert a folder at once."
+],
+"faq": [
+{
+"q": "Are files uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"wav2mp3": {
+"guide": {
+"intro": "WAV is uncompressed and large – about 10 MB per minute in CD quality. MP3 at 192 kbps is roughly 7× smaller and sounds nearly identical for most listeners.",
+"uses": [
+"Shrink studio or recorder files for sharing.",
+"Save space on your phone or music player.",
+"Email or upload recordings faster."
+],
+"tips": [
+"Use 256–320 kbps for music masters; 128 kbps for speech.",
+"Keep the WAV as your master copy."
+],
+"faq": [
+{
+"q": "Are files uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"mp32wav": {
+"guide": {
+"intro": "Some editors, DJ software, phone systems and samplers require WAV. Converting MP3 to 16-bit WAV makes the audio compatible without changing how it sounds.",
+"uses": [
+"Import audio into editing or DJ software.",
+"Prepare on-hold messages for phone systems.",
+"Use clips in samplers or games."
+],
+"tips": [
+"WAV cannot restore quality lost in the MP3.",
+"Expect much larger files."
+],
+"faq": [
+{
+"q": "Are files uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"audiocompress": {
+"title": "Compress MP3 Online Free – Reduce Audio File Size | {brand}",
+"desc": "Reduce MP3, WAV and M4A file size by lowering bitrate, converting to mono or lowering sample rate. Great for email and messaging apps.",
+"guide": {
+"intro": "Long recordings – lectures, interviews, podcasts – can be too large for email or chat apps. Compressing the audio can shrink it several times while keeping speech perfectly clear.",
+"uses": [
+"Send long voice recordings by email or messaging apps.",
+"Upload podcasts and lectures faster.",
+"Save space on audio archives."
+],
+"tips": [
+"Mono 64 kbps is ideal for speech.",
+"Keep stereo and 128 kbps+ for music."
+],
+"faq": [
+{
+"q": "How much smaller can it get?",
+"a": "64 kbps mono is typically 4–5× smaller than a 256 kbps stereo MP3 – fine for speech."
+}
+]
+}
+},
+"audiocut": {
+"title": "Audio Cutter Online Free – Trim MP3 & Make Ringtones | {brand}",
+"desc": "Cut MP3, WAV, M4A and more with a visual waveform. Add fade in/out and export MP3 or WAV. Free ringtone maker.",
+"guide": {
+"intro": "Trim silence, remove mistakes or cut the best part of a song for a ringtone or alarm. The waveform shows exactly where to cut.",
+"uses": [
+"Make a ringtone or notification sound.",
+"Trim silence from the start and end of recordings.",
+"Cut a clip from a podcast for social media."
+],
+"tips": [
+"Add a short fade-out for a smooth ending.",
+"Ringtones usually work best under 30 seconds."
+],
+"faq": [
+{
+"q": "Are files uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"videotrim": {
+"title": "Trim Video Online Free – Cut MP4 Without Watermark | {brand}",
+"desc": "Trim MP4, MOV and WEBM videos in your browser. Set start and end while watching. No upload, no watermark.",
+"guide": {
+"intro": "Remove the boring start, the shaky end or cut the highlight from a long recording – without installing an editor or uploading private videos.",
+"uses": [
+"Cut highlights for social media.",
+"Remove dead time from meeting recordings.",
+"Shorten clips to fit platform limits."
+],
+"tips": [
+"High quality with no resizing copies without re-encoding when possible – fast and lossless.",
+"Trim before compressing for smaller results."
+],
+"faq": [
+{
+"q": "Is quality lost?",
+"a": "With High quality and no resizing, the video is copied without re-encoding when possible."
+}
+]
+}
+},
+"videocrop": {
+"title": "Crop Video Online Free – 9:16, 1:1, 16:9 for Social Media | {brand}",
+"desc": "Crop videos to 1:1, 9:16, 16:9, 4:5 or 4:3 for Instagram, YouTube Shorts and TikTok. Free, private, no watermark.",
+"guide": {
+"intro": "Each platform prefers a different shape: vertical 9:16 for Shorts, Reels and TikTok, square or 4:5 for feeds, 16:9 for YouTube. Crop once and post everywhere.",
+"uses": [
+"Turn landscape videos into vertical Shorts and Reels.",
+"Make square videos for feeds.",
+"Remove black bars or unwanted edges."
+],
+"tips": [
+"Keep the main subject centred when going from 16:9 to 9:16."
+],
+"faq": [
+{
+"q": "Are videos uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"videocompress": {
+"title": "Compress Video Online Free – Reduce MP4 Size, No Watermark | {brand}",
+"desc": "Compress MP4, MOV and WEBM videos in your browser. Choose quality and resolution (720p, 480p). No upload, no watermark.",
+"guide": {
+"intro": "Phone videos are huge – a few minutes of 4K can exceed a gigabyte. Compressing to 720p or 480p makes them easy to email, share in chats or upload, without sending private footage to a server.",
+"uses": [
+"Email or message videos that exceed size limits.",
+"Free up phone storage.",
+"Upload videos faster to course or job platforms."
+],
+"tips": [
+"720p is a good balance for phones and laptops.",
+"Trim unneeded parts first."
+],
+"faq": [
+{
+"q": "How long does it take?",
+"a": "The video is re-encoded on your device; long or 4K videos take time."
+}
+]
+}
+},
+"videomute": {
+"guide": {
+"intro": "Remove background noise, music or conversations from a video before sharing it, or prepare a silent clip for a presentation.",
+"uses": [
+"Remove copyrighted background music.",
+"Create silent clips for slides and websites.",
+"Remove private conversations from recordings."
+],
+"tips": [
+"Use Trim Video first if you only need part of the clip."
+],
+"faq": [
+{
+"q": "Are videos uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"video2gif": {
+"title": "Video to GIF Converter Online Free – MP4 to GIF | {brand}",
+"desc": "Convert MP4, MOV and WEBM clips to animated GIFs. Choose start, length, fps and width. No watermark.",
+"guide": {
+"intro": "GIFs play automatically in emails, chats, documentation and slides – ideal for reaction clips and short demos.",
+"uses": [
+"Make reaction GIFs.",
+"Show a software feature in documentation.",
+"Add short animations to emails."
+],
+"tips": [
+"Keep clips under 5 seconds and 480 px wide.",
+"10–15 fps looks smooth and keeps size low."
+],
+"faq": [
+{
+"q": "Are videos uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"gif2mp4": {
+"guide": {
+"intro": "GIFs are inefficient: an MP4 of the same animation is often 5–10× smaller and plays on every platform, including those that do not animate GIFs.",
+"uses": [
+"Post GIF animations on platforms that need video.",
+"Speed up websites by replacing GIFs with video.",
+"Share animations in smaller files."
+],
+"tips": [
+"WebM is a good choice for websites; MP4 is the most compatible."
+],
+"faq": [
+{
+"q": "Are files uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"dataconv": {
+"title": "Data Converter Online Free – CSV, JSON, Excel, TSV, ODS | {brand}",
+"desc": "Convert between CSV, TSV, JSON, Excel (XLSX/XLS) and ODS in your browser. Handles nested JSON, multi-sheet Excel and Unicode.",
+"guide": {
+"intro": "Data moves between spreadsheets, databases, APIs and scripts in different formats. One converter handles them all locally, so customer lists and financial data stay private.",
+"uses": [
+"Prepare spreadsheet data for an API or app.",
+"Open JSON exports in Excel.",
+"Convert ODS files from LibreOffice."
+],
+"tips": [
+"UTF-8 is used throughout, so accents and non-Latin scripts are kept."
+],
+"faq": [
+{
+"q": "Is my data uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"csv2json": {
+"guide": {
+"intro": "JSON is the native format for web apps and APIs. Converting CSV to JSON turns spreadsheet rows into objects developers can use immediately.",
+"uses": [
+"Seed a database or app with spreadsheet data.",
+"Prepare data for JavaScript charts.",
+"Convert exports for an API import."
+],
+"tips": [
+"Use headers like address.city to create nested objects.",
+"Numbers and true/false are detected automatically."
+],
+"faq": [
+{
+"q": "How are headers used?",
+"a": "The first row becomes the JSON keys. A header like address.city becomes a nested object."
+}
+]
+}
+},
+"json2csv": {
+"guide": {
+"intro": "CSV opens in Excel, Google Sheets and Numbers, making it ideal for analysing API data or sharing it with non-developers.",
+"uses": [
+"Analyse API responses in a spreadsheet.",
+"Share app data with colleagues.",
+"Import JSON into tools that accept CSV."
+],
+"tips": [
+"Nested objects become dot.key columns.",
+"A UTF-8 BOM keeps accents correct in Excel."
+],
+"faq": [
+{
+"q": "Is my data uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"csv2excel": {
+"guide": {
+"intro": "CSV files often open in Excel with broken accents or numbers formatted as text. Converting to XLSX gives a proper spreadsheet with correct numbers and Unicode text.",
+"uses": [
+"Share data as a proper Excel file.",
+"Fix encoding problems with accents and non-Latin text.",
+"Prepare reports for colleagues."
+],
+"tips": [
+"Check date columns – formats vary by region."
+],
+"faq": [
+{
+"q": "Is my data uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"excel2csv": {
+"guide": {
+"intro": "Many systems, from email tools to databases, import CSV. Each Excel sheet becomes its own CSV file.",
+"uses": [
+"Import a spreadsheet into a CRM or mailing tool.",
+"Load data into a database.",
+"Share data in a universal format."
+],
+"tips": [
+"Formulas are exported as their values."
+],
+"faq": [
+{
+"q": "Is my data uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"excel2json": {
+"guide": {
+"intro": "Turn a spreadsheet into JSON for an app, a website or a script, using the first row as keys.",
+"uses": [
+"Power a website table or app from a spreadsheet.",
+"Convert product catalogues for an online store."
+],
+"tips": [
+"Keep headers simple – they become property names."
+],
+"faq": [
+{
+"q": "Is my data uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"json2excel": {
+"guide": {
+"intro": "Get JSON data into Excel for filtering, charts and pivot tables. Nested fields become dot.key columns.",
+"uses": [
+"Analyse exported app data.",
+"Create reports from API responses."
+],
+"tips": [
+"Arrays of objects with the same keys give the cleanest tables."
+],
+"faq": [
+{
+"q": "Is my data uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"zipcreate": {
+"title": "Create ZIP File Online Free – Compress Files to ZIP | {brand}",
+"desc": "Put any files into a ZIP archive in your browser. No upload and no size limits beyond your device memory.",
+"guide": {
+"intro": "A ZIP bundles many files into one, making it easier to email, upload or archive them – and often smaller.",
+"uses": [
+"Send many photos or documents as one attachment.",
+"Back up a project folder.",
+"Upload multiple files to sites that accept one."
+],
+"tips": [
+"Photos and videos are already compressed, so ZIP will not shrink them much."
+],
+"faq": [
+{
+"q": "Are files uploaded?",
+"a": "No. Everything is processed in your browser; files never leave your device."
+}
+]
+}
+},
+"unzip": {
+"title": "Unzip Files Online Free – Open ZIP on Phone or PC | {brand}",
+"desc": "Open ZIP archives in your browser and download individual files. Works on phones, tablets and Chromebooks.",
+"guide": {
+"intro": "Need one file from a ZIP on your phone or a computer without extraction software? Open it here and download just what you need.",
+"uses": [
+"Open ZIP attachments on a phone.",
+"Extract files on a school or work computer without installing software."
+],
+"tips": [
+"Be careful with ZIPs from unknown senders."
+],
+"faq": [
+{
+"q": "Can it open password-protected ZIPs?",
+"a": "Not yet – encrypted ZIPs cannot be opened."
+}
+]
+}
+},
+"units": {
+"title": "Unit Converter Online Free – Length, Weight, Temperature & More | {brand}",
+"desc": "Instant unit converter for length, weight, temperature, area, volume, speed, data, pressure and energy, metric and imperial. Works offline.",
+"guide": {
+"intro": "Recipes, travel, shopping, engineering and homework all involve switching between metric and imperial units. This converter uses exact international definitions and updates instantly as you type.",
+"uses": [
+"Convert recipe measurements between cups, grams and millilitres.",
+"Check speeds and distances while travelling.",
+"Convert units for school, science and engineering work."
+],
+"tips": [
+"Bookmark it – it works offline once loaded."
+],
+"faq": [
+{
+"q": "How accurate is it?",
+"a": "Exact international definitions (e.g. 1 in = 2.54 cm, 1 lb = 0.45359237 kg), shown to 10 significant digits."
+}
+]
+}
+},
+"ulength": {
+"guide": {
+"intro": "Convert between metric (mm, cm, m, km) and imperial (inches, feet, yards, miles) lengths instantly – for DIY, travel, sports or school.",
+"uses": [
+"Convert height between feet/inches and centimetres.",
+"Check running distances in km and miles.",
+"Measure furniture and rooms."
+],
+"tips": [
+"1 inch is exactly 2.54 cm; 1 mile is 1.609344 km."
+],
+"faq": [
+{
+"q": "Is it exact?",
+"a": "Yes, it uses exact international definitions."
+}
+]
+}
+},
+"umass": {
+"guide": {
+"intro": "Convert weights between kilograms, pounds, ounces, grams and stone – useful for cooking, fitness, shipping and travel luggage.",
+"uses": [
+"Convert body weight between kg, lb and stone.",
+"Check luggage allowances.",
+"Convert recipe quantities."
+],
+"tips": [
+"1 kg = 2.20462 lb; 1 stone = 14 lb."
+],
+"faq": [
+{
+"q": "Is it exact?",
+"a": "Yes, it uses 1 lb = 0.45359237 kg exactly."
+}
+]
+}
+},
+"utemp": {
+"guide": {
+"intro": "Switch between Celsius, Fahrenheit and Kelvin for weather, cooking, science or health.",
+"uses": [
+"Understand weather forecasts abroad.",
+"Convert oven temperatures in recipes.",
+"Convert for science homework."
+],
+"tips": [
+"Water freezes at 0 °C (32 °F) and boils at 100 °C (212 °F)."
+],
+"faq": [
+{
+"q": "What formula is used?",
+"a": "°F = °C × 9/5 + 32 and K = °C + 273.15."
+}
+]
+}
+},
+"uarea": {
+"guide": {
+"intro": "Convert land and floor areas between square metres, square feet, acres, hectares and more – useful for property, farming and construction.",
+"uses": [
+"Compare property sizes between countries.",
+"Convert floor plans from sq ft to m².",
+"Calculate land in acres or hectares."
+],
+"tips": [
+"1 hectare = 10,000 m² ≈ 2.471 acres."
+],
+"faq": [
+{
+"q": "Which units are included?",
+"a": "Square metres, square feet, acres, hectares and several regional land units."
+}
+]
+}
+},
+"udata": {
+"guide": {
+"intro": "Storage sizes come in decimal (MB, GB) and binary (MiB, GiB) units, which is why a \"1 TB\" drive shows less space on your computer. Convert between them and network speeds.",
+"uses": [
+"Understand drive capacities.",
+"Estimate download times from Mbit/s speeds.",
+"Check file sizes against upload limits."
+],
+"tips": [
+"1 GB = 1,000 MB, but 1 GiB = 1,024 MiB.",
+"8 bits = 1 byte."
+],
+"faq": [
+{
+"q": "Why does my drive show less space?",
+"a": "Manufacturers use decimal units while many operating systems display binary units."
+}
+]
+}
+},
+"cm2in": {
+"guide": {
+"intro": "Convert centimetres to inches for clothing sizes, screens, paper and craft projects.",
+"uses": [
+"Compare clothing or shoe measurements.",
+"Convert screen and frame sizes.",
+"Follow sewing or craft patterns."
+],
+"tips": [
+"1 in = 2.54 cm exactly."
+],
+"faq": [
+{
+"q": "How do I convert cm to inches?",
+"a": "Divide centimetres by 2.54."
+}
+]
+}
+},
+"kg2lb": {
+"guide": {
+"intro": "Convert kilograms to pounds for fitness, travel luggage, shipping and recipes.",
+"uses": [
+"Check gym weights and body weight.",
+"Convert luggage allowances.",
+"Calculate shipping weights."
+],
+"tips": [
+"1 kg = 2.20462 lb."
+],
+"faq": [
+{
+"q": "How do I convert kg to lbs?",
+"a": "Multiply kilograms by 2.20462."
+}
+]
+}
+},
+"c2f": {
+"guide": {
+"intro": "Convert Celsius to Fahrenheit for weather, cooking and health – essential when travelling or using recipes from the US.",
+"uses": [
+"Understand US weather forecasts.",
+"Convert oven temperatures.",
+"Check body temperature readings."
+],
+"tips": [
+"Quick estimate: double °C and add 30."
+],
+"faq": [
+{
+"q": "What is the formula?",
+"a": "°F = °C × 9/5 + 32."
+}
+]
+}
+},
+"lakh2m": {
+"guide": {
+"intro": "Lakh and crore are number units used in South Asian business news and finance. This converter translates them into the international million and billion system.",
+"uses": [
+"Understand figures in South Asian business news.",
+"Convert financial reports for international readers."
+],
+"tips": [
+"1 lakh = 100,000; 1 crore = 10 million."
+],
+"faq": [
+{
+"q": "How many lakh are in a million?",
+"a": "1 million = 10 lakh."
+}
+]
+}
+},
+"timezone": {
+"title": "Time Zone Converter – Convert Time Between Any Cities | {brand}",
+"desc": "Convert a date and time between any time zones worldwide, with daylight saving handled automatically.",
+"guide": {
+"intro": "Scheduling calls across New York, London, Berlin, Dubai, Singapore, Tokyo and Sydney is error-prone, especially when daylight saving changes. This converter uses your browser's up-to-date time zone database.",
+"uses": [
+"Schedule international meetings and webinars.",
+"Plan calls with remote colleagues or clients.",
+"Check flight arrival times."
+],
+"tips": [
+"Daylight saving dates differ between the US, Europe and the southern hemisphere – always check the date."
+],
+"faq": [
+{
+"q": "Is daylight saving handled?",
+"a": "Yes, automatically, based on the selected date."
+}
+]
+}
+},
+"ist2est": {
+"guide": {
+"intro": "Convert India Standard Time to US Eastern Time, accounting for daylight saving in the US.",
+"uses": [
+"Schedule calls between India and the US East Coast."
+],
+"tips": [
+"The difference is 9h30 in winter (EST) and 10h30 in summer (EDT)."
+],
+"faq": [
+{
+"q": "Does it handle daylight saving?",
+"a": "Yes, automatically."
+}
+]
+}
+},
+"ist2pst": {
+"guide": {
+"intro": "Convert India Standard Time to US Pacific Time with daylight saving handled automatically.",
+"uses": [
+"Schedule calls between India and the US West Coast."
+],
+"tips": [
+"The difference is 13h30 (PST) or 12h30 (PDT)."
+],
+"faq": [
+{
+"q": "Does it handle daylight saving?",
+"a": "Yes, automatically."
+}
+]
+}
+},
+"utc2ist": {
+"guide": {
+"intro": "Convert UTC/GMT to India Standard Time (UTC+05:30) – useful for server logs, flights and events.",
+"uses": [
+"Read server logs in local time.",
+"Convert event times announced in UTC."
+],
+"tips": [
+"India does not use daylight saving."
+],
+"faq": [
+{
+"q": "What is the offset?",
+"a": "IST is UTC+05:30 all year."
+}
+]
 }
 }
 }
