@@ -1367,7 +1367,7 @@
 ],
 [
 "Printing from the reader",
-"To print, open the PDF in your browser's built-in viewer or download the selected pages and print them from there; choose *Actual size* to keep the original scale, or *Fit* for documents with wide margins. Printing only the pages you need saves paper and toner, especially with long manuals and statements where only a few pages matter. For double-sided booklets use Create Booklet PDF, and for large wall charts use PDF Poster."
+"To print, open the PDF in your browser's built-in viewer or download the selected pages and print them from there; choose *Actual size* to keep the original scale, or *Fit* for documents with wide margins. Printing only the pages you need saves paper and toner, especially with long manuals and statements where only a few pages matter. For double-sided booklets use Create Booklet PDF, and for large wall charts use PDF Poster. Duplex printers can print the extract on both sides automatically; choose *flip on long edge* for portrait documents so the back pages are not upside down, and check the preview before sending a long job to a shared office printer."
 ],
 [
 "Works with almost any PDF",
