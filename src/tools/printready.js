@@ -17,5 +17,5 @@ TOOLS.printready={opts:()=>inp('bleed',T.o_bleed||'Bleed (mm)','number','3','min
    if(vb('rmarks')){for(const [cx,cy] of [[W/2,slug/2],[W/2,H-slug/2],[slug/2,H/2],[W-slug/2,H/2]]){p.drawCircle({x:cx,y:cy,size:4,borderColor:reg,borderWidth:.3});p.drawLine({start:{x:cx-7,y:cy},end:{x:cx+7,y:cy},thickness:.3,color:reg});p.drawLine({start:{x:cx,y:cy-7},end:{x:cx,y:cy+7},thickness:.3,color:reg});}
     [[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1],[0,0,0,.5],[0,0,0,.25]].forEach((c,k)=>p.drawRectangle({x:slug+b+10+k*9,y:H-slug+4,width:8,height:8,color:cmyk(...c)}));}}
 
-  o.setTitle(src.getTitle()||base(f.name));o.setProducer('FreePDF print-ready');
+  o.setTitle(src.getTitle()||base(f.name));o.setProducer('Fileopia print-ready');
   return {blob:pdfBlob(await o.save()),name:base(f.name)+'-print.pdf',info:`${n} page(s) · bleed ${v('bleed')} mm · TrimBox & BleedBox set${vb('cmarks')?' · crop marks':''}`};}};

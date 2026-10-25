@@ -55,7 +55,7 @@ TOOLS.qr={live:true,goLabel:()=>T.o_qcreate,
   let lg='';if(hole){const L=this.logo,box=hole.k*.92,sc=Math.min(box/L.width,box/L.height),w=L.width*sc,h=L.height*sc;lg=`<image x="${tot/2-w/2}" y="${tot/2-h/2}" width="${w}" height="${h}" href="${L.toDataURL('image/png')}"/>`;}
   return `<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${tot} ${tot}" width="${v('qsize')||1000}" height="${v('qsize')||1000}" shape-rendering="crispEdges"><rect width="${tot}" height="${tot}" fill="${v('qbg')}"/><g fill="${v('qfg')}">${p}</g>${lg}</svg>`;},
  async pdf(text){await load('pdf-lib.min.js');const {PDFDocument,rgb}=window.PDFLib;const hex=h=>rgb(parseInt(h.slice(1,3),16)/255,parseInt(h.slice(3,5),16)/255,parseInt(h.slice(5,7),16)/255);
-  const m=this.matrix(text);const mg=+v('qmargin')||0;const tot=m.n+2*mg;const S=288,px=S/tot;const d=await PDFDocument.create();d.setTitle('QR code');d.setProducer('FreePDF');const pg=d.addPage([S,S]);
+  const m=this.matrix(text);const mg=+v('qmargin')||0;const tot=m.n+2*mg;const S=288,px=S/tot;const d=await PDFDocument.create();d.setTitle('QR code');d.setProducer('Fileopia');const pg=d.addPage([S,S]);
   pg.drawRectangle({x:0,y:0,width:S,height:S,color:hex(v('qbg'))});const fg=hex(v('qfg'));const {out,hole}=this.shapes(m);
   for(const s of out){const X=(s.c+mg)*px,Y=S-(s.r+mg+1)*px;if(s.t==='dots')pg.drawCircle({x:X+px/2,y:Y+px/2,size:px*.5,color:fg});else pg.drawRectangle({x:X,y:Y,width:px*1.01,height:px*1.01,color:fg});}
   if(hole){const L=this.logo;const im=await d.embedPng(await (await toBlob(L,'image/png')).arrayBuffer());const box=hole.k*px*.92,sc=Math.min(box/L.width,box/L.height),w=L.width*sc,h=L.height*sc;pg.drawImage(im,{x:S/2-w/2,y:S/2-h/2,width:w,height:h});}

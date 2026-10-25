@@ -1,0 +1,6 @@
+// Rasterises src/public/favicon.svg into PNG icons (favicon-32, apple-touch-icon 180, icon-192/512, maskable-512). node scripts/icons.js
+const {chromium}=require('playwright-core');const fs=require('fs'),path=require('path');const R=p=>path.join(__dirname,'..',p);
+(async()=>{const svg=fs.readFileSync(R('src/public/favicon.svg'),'utf8');const b=await chromium.launch({executablePath:process.env.CHROME||'/usr/bin/google-chrome',args:['--no-sandbox']});const p=await b.newPage();
+for(const [n,s,pad,bg] of [['favicon-32.png',32,0],['apple-touch-icon.png',180,0],['icon-192.png',192,0],['icon-512.png',512,0],['icon-maskable-512.png',512,0.12,'#e5322d']]){await p.setViewportSize({width:s,height:s});
+ await p.setContent(`<body style="margin:0;background:${bg||'transparent'}"><div style="width:${s}px;height:${s}px;box-sizing:border-box;padding:${s*pad}px">${svg.replace('<svg ','<svg width="100%" height="100%" ')}</div></body>`);await p.screenshot({path:R('src/public/'+n),omitBackground:!bg});}
+await b.close();require('child_process').execSync('python3 -c "import struct;p=open(\'src/public/favicon-32.png\',\'rb\').read();open(\'src/public/favicon.ico\',\'wb\').write(struct.pack(\'<HHH\',0,1,1)+struct.pack(\'<BBBBHHII\',32,32,0,0,1,32,len(p),22)+p)"',{cwd:R('.')});console.log('icons written');})();

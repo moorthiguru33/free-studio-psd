@@ -40,11 +40,11 @@ function layout({t,lang,slug,title,desc,body,jsonld,cat,og,alts:A=true}){
   return `<!doctype html><html lang="${lang}" dir="${L.dir}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${abs(url(lang,slug))}">${alts}
 <meta property="og:type" content="website"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${abs(url(lang,slug))}"><meta property="og:site_name" content="${esc(site.brand)}"><meta property="og:locale" content="${OGL[lang]||lang}">${enabled.filter(l=>l.code!==lang&&A).map(l=>`<meta property="og:locale:alternate" content="${OGL[l.code]||l.code}">`).join('')}<meta property="og:image" content="${abs('/og/'+(og||'home')+'.jpg')}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${abs('/og/'+(og||'home')+'.jpg')}">
-<meta name="theme-color" content="#e5322d"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#e5322d"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" href="/assets/style.css?v=${ver}">
 ${jsonld.map(j=>`<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('')}
 ${uiCss(slug)}</head><body class="${site.adsEnabled?'ads-on':''} ${cat?'cat-'+cat:''}">
-<header class="top"><div class="wrap"><a class="logo" href="${prefix(lang)}">${esc(site.brand)}</a>
+<header class="top"><div class="wrap"><a class="logo" href="${prefix(lang)}" aria-label="${esc(site.brand)} home"><img src="/favicon.svg" width="28" height="28" alt="">${esc(site.brand)}</a>
 <details class="menu"><summary aria-label="${esc(t.ui.allTools)}">☰ <span class="mt">${esc(t.ui.allTools)}</span></summary><nav class="toolnav">${nav}</nav></details>
 ${enabled.length>1?`<details class="langs"><summary aria-label="${esc(L.name)} – ${esc(t.ui.language)}">🌐 ${esc(L.name)}</summary><nav>${langSel}</nav></details>`:''}</div></header>
 <nav class="toptools"><div class="wrap">${TOP.map(id=>tools.find(x=>x.id===id)).filter(Boolean).map(x=>`<a class="c-${x.cat}" href="${url(lang,x.slug)}">${esc(t.tools[x.id].name)}</a>`).join('')}</div></nav>
@@ -67,7 +67,7 @@ for(const L of enabled){
   const homeBody=`<section class="hero"><h1>${esc(t.home.h1)}</h1><p class="lead">${esc(t.ui.heroSub)}</p></section>
 <section id="all" aria-label="${esc(t.ui.allTools)}">${cards}</section>${ad('home-mid',t)}
 <section class="feats"><div><h2>${esc(t.ui.f1t)}</h2><p>${esc(t.ui.f1d)}</p></div><div><h2>${esc(t.ui.f2t)}</h2><p>${esc(t.ui.f2d)}</p></div><div><h2>${esc(t.ui.f3t)}</h2><p>${esc(t.ui.f3d)}</p></div></section>`;
-  write(url(lang,''),layout({t,lang,slug:'',title:fill(t.home.title,V),desc:fill(t.home.desc,V),body:homeBody,jsonld:[{"@context":"https://schema.org","@type":"WebSite",name:site.brand,url:abs(url(lang,'')),inLanguage:lang},{"@context":"https://schema.org","@type":"Organization",name:site.brand,url:site.baseUrl,logo:site.baseUrl+'/favicon.svg'}]}));
+  write(url(lang,''),layout({t,lang,slug:'',title:fill(t.home.title,V),desc:fill(t.home.desc,V),body:homeBody,jsonld:[{"@context":"https://schema.org","@type":"WebSite",name:site.brand,url:abs(url(lang,'')),inLanguage:lang},{"@context":"https://schema.org","@type":"Organization",name:site.brand,url:site.baseUrl,logo:site.baseUrl+'/icon-512.png'}]}));
   pages.push('');
   // Tools
   for(const x of tools){if(!forLang(lang).includes(x))continue;const altOK=!x.enOnly&&enabled.every(l=>forLang(l.code).includes(x));
