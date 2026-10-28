@@ -20,7 +20,7 @@ function parseRanges(s,max){const out=[];for(const part of s.split(/[,;\s]+/).fi
 async function zipOrOne(items,zipName){return items.length===1?items[0]:{blob:await zipBlobs(items),name:zipName};}
 async function zipBlobs(items){const JSZip=await L.zip();const z=new JSZip();const used=new Set();for(const it of items){let n=it.name,k=2;while(used.has(n.toLowerCase())){n=it.name.replace(/(\.[^.\/]+)?$/,m=>` (${k})`+m);k++;}used.add(n.toLowerCase());z.file(n,it.blob);}return z.generateAsync({type:'blob'});}
 // helper: select element
-const sel=(id,label,opts)=>`<label>${esc(label)}<select id="${id}">${opts.map(o=>`<option value="${o[0]}">${esc(o[1])}</option>`).join('')}</select></label>`;
+const sel=(id,label,opts,def)=>`<label>${esc(label)}<select id="${id}">${opts.map(o=>`<option value="${o[0]}"${(def!==undefined?o[0]===def:o[2])?' selected':''}>${esc(o[1])}</option>`).join('')}</select></label>`;
 const inp=(id,label,type='text',val='',extra='')=>`<label>${esc(label)}<input id="${id}" type="${type}" value="${esc(val)}" ${extra}></label>`;
 const v=id=>$('#'+id,work)?.value;
 const chk=(id,label,on)=>`<label style="flex-direction:row;align-items:center;gap:8px"><input id="${id}" type="checkbox" ${on?'checked':''}> ${esc(label)}</label>`;
@@ -49,9 +49,105 @@ function mkSafe(font){const cache={};const ok=ch=>{if(ch in cache)return cache[c
 
 // --- UI (runs after the per-tool bundle has registered itself) ---
 let files=[],tool;const nofile=root.dataset.nofile==='true';
-function addFiles(list){const arr=[...list];if(!arr.length)return;const max=+root.dataset.maxmb||0;const big=max&&arr.find(f=>f.size>max*1048576);if(big){files=[];render();showErr(new Error(`${big.name}: ${fmtSize(big.size)} > ${max} MB limit (browser memory)`));return;}files=multiple?files.concat(arr):[arr[0]];render();}
+function addFiles(list){const arr=[...list];if(!arr.length)return;const max=+root.dataset.maxmb||0;const big=max&&arr.find(f=>f.size>max*1048576);if(big){files=[];render();showErr(new Error(`${big.name}: ${fmtSize(big.size)} > ${max} MB limit (browser memory)`));return;}const allowBatch=multiple||!['sign','edit','bates','overlay','invoice','formfill','redact'].includes(toolId);files=allowBatch?files.concat(arr):[arr[0]];render();}
+
+function checkChainedFile(){
+  try{
+    const req=indexedDB.open('fp_chain_db',1);
+    req.onupgradeneeded=e=>{e.target.result.createObjectStore('store');};
+    req.onsuccess=e=>{
+      const db=e.target.result;
+      if(!db.objectStoreNames.contains('store'))return;
+      const tx=db.transaction('store','readwrite');
+      const getReq=tx.objectStore('store').get('current');
+      getReq.onsuccess=()=>{
+        const it=getReq.result;
+        if(it&&it.blob&&(Date.now()-it.time<120000)){
+          tx.objectStore('store').delete('current');
+          const f=new File([it.blob],it.name,{type:it.blob.type||'application/octet-stream'});
+          addFiles([f]);
+        }
+      };
+    };
+  }catch(e){}
+}
+
+function saveChainedFile(blob,name,url){
+  try{
+    const req=indexedDB.open('fp_chain_db',1);
+    req.onupgradeneeded=e=>{e.target.result.createObjectStore('store');};
+    req.onsuccess=e=>{
+      const db=e.target.result;
+      const tx=db.transaction('store','readwrite');
+      tx.objectStore('store').put({blob,name,time:Date.now()},'current');
+      tx.oncomplete=()=>{window.location.href=url;};
+      tx.onerror=()=>{window.location.href=url;};
+    };
+    req.onerror=()=>{window.location.href=url;};
+  }catch(e){window.location.href=url;}
+}
+
+function getChainedActions(fileName){
+  const ext=(fileName||'').match(/\.[^.]+$/)?.[0]?.toLowerCase()||'';
+  const lmatch=window.location.pathname.match(/^\/([a-z]{2}(?:-[a-z]{2})?)\//i);
+  const p=lmatch?'/'+lmatch[1]+'/':'/';
+  if(ext==='.pdf'){
+    return [
+      {u:p+'compress-pdf/',n:'🗜️ Compress PDF',d:'Reduce file size'},
+      {u:p+'protect-pdf/',n:'🔒 Protect PDF',d:'Add password'},
+      {u:p+'sign-pdf/',n:'✍️ Sign PDF',d:'Digital signature'},
+      {u:p+'pdf-to-word/',n:'📄 PDF to Word',d:'Edit in Word'},
+      {u:p+'split-pdf/',n:'✂️ Split PDF',d:'Extract pages'},
+      {u:p+'pdf-to-jpg/',n:'🖼️ PDF to JPG',d:'Convert pages'}
+    ];
+  }
+  if(['.jpg','.jpeg','.png','.webp','.gif','.avif','.bmp','.tiff'].includes(ext)){
+    return [
+      {u:p+'compress-image/',n:'🗜️ Compress Image',d:'Save disk space'},
+      {u:p+'resize-image/',n:'📐 Resize Image',d:'Change dimensions'},
+      {u:p+'jpg-to-pdf/',n:'📄 Image to PDF',d:'Convert to PDF'},
+      {u:p+'crop-image/',n:'✂️ Crop Image',d:'Trim borders'},
+      {u:p+'passport-photo-maker/',n:'🛂 Passport Photo',d:'Official size'}
+    ];
+  }
+  if(['.mp3','.wav','.m4a','.flac','.ogg','.aac','.opus'].includes(ext)){
+    return [
+      {u:p+'audio-cutter/',n:'✂️ Cut Audio',d:'Make ringtone'},
+      {u:p+'compress-mp3/',n:'🗜️ Compress MP3',d:'Reduce bitrate'},
+      {u:p+'audio-joiner/',n:'🔗 Join Audio',d:'Merge tracks'}
+    ];
+  }
+  if(['.mp4','.webm','.mov','.mkv','.avi','.wmv'].includes(ext)){
+    return [
+      {u:p+'video-to-gif/',n:'🎞️ Video to GIF',d:'Create animation'},
+      {u:p+'mp4-to-mp3/',n:'🎵 Video to MP3',d:'Extract audio'}
+    ];
+  }
+  if(['.xlsx','.xls','.csv','.tsv','.ods'].includes(ext)){
+    return [
+      {u:p+'excel-to-pdf/',n:'📊 Excel to PDF',d:'Printable PDF'},
+      {u:p+'csv-to-json/',n:'📋 CSV to JSON',d:'Web format'}
+    ];
+  }
+  return [];
+}
+
+function renderRecentShelf(){
+  const shelf=document.getElementById('recent-shelf');
+  if(!shelf)return;
+  try{
+    const list=JSON.parse(localStorage.getItem('fp_recent')||'[]');
+    if(!list.length){shelf.hidden=true;return;}
+    shelf.hidden=false;
+    shelf.querySelector('.rec-items').innerHTML=list.map(x=>`<div class="rec-item"><span class="rec-icon">📄</span><div class="rec-meta"><span class="rec-name" title="${esc(x.n)}">${esc(x.n)}</span><small>${fmtSize(x.s)} · <a href="${x.u}">${esc(x.tn)}</a></small></div></div>`).join('');
+    shelf.querySelector('#rec-clear')?.addEventListener('click',()=>{localStorage.removeItem('fp_recent');shelf.hidden=true;},{once:true});
+  }catch(e){}
+}
+
 function start(){tool=TOOLS[toolId];if(!tool){console.error('tool missing',toolId);return;}tool.preset=root.dataset.preset||'';try{tool.vars=JSON.parse(root.dataset.vars||'{}');}catch(e){tool.vars={};}
-  if(input){input.addEventListener('change',()=>{addFiles(input.files);input.value='';});
+  checkChainedFile();
+  renderRecentShelf();
+  if(input){input.multiple=true;input.addEventListener('change',()=>{addFiles(input.files);input.value='';});
    ['dragenter','dragover'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.add('over');}));
    ['dragleave','drop'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.remove('over');}));
    drop.addEventListener('drop',ev=>addFiles(ev.dataTransfer.files));document.addEventListener('paste',ev=>{const fs=[...(ev.clipboardData?.files||[])];if(fs.length&&!/INPUT|TEXTAREA/.test(document.activeElement?.tagName||'')){ev.preventDefault();addFiles(fs);}});}
@@ -63,7 +159,7 @@ async function thumb(f){if(f._thumb!==undefined)return f._thumb;f._thumb=null;tr
   if(isImg(f))f._thumb=URL.createObjectURL(f);
   else if(/pdf$/i.test(f.type)||/\.pdf$/i.test(f.name)){const doc=await openPdfjs(await buf(f));const p=await doc.getPage(1);const vp0=p.getViewport({scale:1});const c=await renderPage(doc,1,(120*dpr)/vp0.width);f._thumb=c.toDataURL('image/jpeg',.85);f._pages=doc.numPages;doc.destroy();}}catch(e){}return f._thumb;}
 const fileIcon=f=>/pdf/i.test(f.name)?'📄':isImg(f)?'🖼':/\.(mp3|wav|m4a|ogg)$/i.test(f.name)?'🎵':/\.(mp4|mov|webm)$/i.test(f.name)?'🎬':'📎';
-function cards(){const many=multiple&&files.length>1;return `<div class="fbar">${many?`<span>${files.length} ${esc(T.filesN||'files')}</span><button type="button" class="mini" data-sort="az">A→Z</button><button type="button" class="mini" data-sort="za">Z→A</button>`:''}</div><ul class="files">${files.map((f,i)=>`<li draggable="${many}" data-i="${i}"><div class="th" style="--rot:${f._rot||0}deg"><span class="fi">${fileIcon(f)}</span></div><span class="nm" title="${esc(f.name)}">${esc(f.name)}</span><small>${fmtSize(f.size)}${f._pages?' · '+f._pages+' '+esc(T.pagesN||'pages'):''}</small><div class="fa">${tool.rotatable?`<button type="button" data-a="rot" data-i="${i}" aria-label="${esc(T.rotate||'Rotate')}">⟳</button>`:''}${many?`<button type="button" data-a="up" data-i="${i}" aria-label="${esc(T.moveUp)}">←</button><button type="button" data-a="down" data-i="${i}" aria-label="${esc(T.moveDown)}">→</button>`:''}<button type="button" data-a="rm" data-i="${i}" aria-label="${esc(T.remove)}">✕</button></div></li>`).join('')}${multiple?`<li class="addtile"><button type="button" id="addmore" aria-label="${esc(T.addMore||T.select)}"><b>+</b><span>${esc(T.addMore||T.select)}</span></button></li>`:''}</ul>`;}
+function cards(){const many=files.length>1;const isBatch=!multiple&&many;return `<div class="fbar">${many?`<span>${isBatch?'<span class="batch-badge">⚡ Batch Mode</span> ':''}${files.length} ${esc(T.filesN||'files')}</span><button type="button" class="mini" data-sort="az">A→Z</button><button type="button" class="mini" data-sort="za">Z→A</button>`:''}</div><ul class="files">${files.map((f,i)=>`<li draggable="${many}" data-i="${i}"><div class="th" style="--rot:${f._rot||0}deg"><span class="fi">${fileIcon(f)}</span></div><span class="nm" title="${esc(f.name)}">${esc(f.name)}</span><small>${fmtSize(f.size)}${f._pages?' · '+f._pages+' '+esc(T.pagesN||'pages'):''}</small><div class="fa">${tool.rotatable?`<button type="button" data-a="rot" data-i="${i}" aria-label="${esc(T.rotate||'Rotate')}">⟳</button>`:''}${many?`<button type="button" data-a="up" data-i="${i}" aria-label="${esc(T.moveUp)}">←</button><button type="button" data-a="down" data-i="${i}" aria-label="${esc(T.moveDown)}">→</button>`:''}<button type="button" data-a="rm" data-i="${i}" aria-label="${esc(T.remove)}">✕</button></div></li>`).join('')}<li class="addtile"><button type="button" id="addmore" aria-label="${esc(T.addMore||T.select)}"><b>+</b><span>${esc(T.addMore||T.select)}</span></button></li></ul>`;}
 function fillThumbs(){work.querySelectorAll('.files li[data-i]').forEach(async li=>{const f=files[+li.dataset.i];const u=await thumb(f);if(u&&li.isConnected){const th=$('.th',li);th.innerHTML=`<img src="${u}" alt="">`;}const s=$('small',li);if(f._pages&&s&&!/·/.test(s.textContent))s.textContent+=` · ${f._pages} ${T.pagesN||'pages'}`;});}
 function advWrap(){const o=$('.opts',work);if(!o||tool.noAdv)return;const ls=[...o.children].filter(e=>e.tagName==='LABEL');if(ls.length<=3)return;const d=document.createElement('details');d.className='adv';d.innerHTML=`<summary>${esc(T.advanced||'Advanced (optional)')}</summary><div class="advb"></div>`;ls.slice(2).forEach(l=>$('.advb',d).appendChild(l));o.appendChild(d);}
 async function render(){
@@ -89,20 +185,107 @@ function progress(m){const pg=$('.prog',work);if(!pg)return;pg.hidden=false;let 
 let liveUrls=[];
 let goSeq=0;async function go(live){const seq=++goSeq;const btn=$('#go',work),st=$('.status',work);if(!live){btn.disabled=true;st.className='status';st.textContent=T.working;progress(0.02);}
   const inSize=files.reduce((a,f)=>a+f.size,0);
-  try{const r=await tool.run.call(tool,files,m=>{st.textContent=m;if(!live)progress(m);});if(live&&seq!==goSeq)return;window.__lastResult=r;const urls=[];const mk=b=>{const u=URL.createObjectURL(b);urls.push(u);return u;};
-   const extra=(r.extra||[]).map((x,k)=>`<a class="btn ghost dlx" id="dl${k+2}" href="${mk(x.blob)}" download="${esc(x.name)}">⬇ ${esc(x.label||x.name)}</a>`).join('');
-   if(live){liveUrls.forEach(u=>URL.revokeObjectURL(u));liveUrls=urls;$('.actions',work).innerHTML=`<button type="button" class="btn big" id="go" hidden></button>${r.blob?`<a class="btn big" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}`;st.className='status';st.textContent=r.info||'';setStep(3);return;}
-   setStep(3);const ext=(r.name||'').match(/\.[^.]+$/)?.[0]||'';const out=r.blob?r.blob.size:0;const saved=inSize&&out&&out<inSize?Math.round((1-out/inSize)*100):0;
-   const nx=NEXT.map(n=>`<a class="chip" href="${n.u}">${esc(n.n)}</a>`).join('');
-   const res=document.createElement('div');res.className='result';
-   res.innerHTML=`<div class="rtop">${saved?`<div class="ring" style="--p:${saved}"><b>${saved}%</b><small>${esc(T.saved||'saved')}</small></div>`:'<div class="ok">✓</div>'}<div class="rinfo"><h2>${esc(T.done)}</h2>${r.blob?`<label class="rn">${esc(T.rename||'File name')}<span><input id="rename" value="${esc(base(r.name))}"><em>${esc(ext)}</em></span></label><p class="sz">${inSize&&!nofile?`${fmtSize(inSize)} → `:''}<b>${fmtSize(out)}</b></p>`:''}${r.info?`<p class="ri">${esc(r.info)}</p>`:''}</div></div>
-   <div class="actions">${r.blob?`<a class="btn huge" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}</div>
-   <p class="again"><button type="button" class="btn ghost" id="again">↺ ${esc(T.startOver||T.another)}</button></p>${nx?`<div class="next"><h2 class="h3">${esc(T.tryAnother||'Continue with another tool')}</h2>${nx}</div>`:''}`;
-   const wk=$('.wk',work);wk.hidden=true;work.appendChild(res);
-   $('#rename',res)?.addEventListener('input',e=>{$('#dl',res).download=(e.target.value.trim()||base(r.name))+ext;});
-   if(r.view||r.links){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=(r.view||'')+(r.links?`<ul class="links">${r.links.map(x=>`<li><a href="${mk(x.blob)}" download="${esc(x.name.split('/').pop())}">${esc(x.name)}</a> <small>${fmtSize(x.blob.size)}</small></li>`).join('')}</ul>`:'');res.appendChild(vw);if(r.mount)r.mount(vw);}
-   $('#again',res).onclick=()=>{urls.forEach(u=>URL.revokeObjectURL(u));files=[];render();};
-   res.scrollIntoView({block:'start',behavior:'smooth'});
+  try{
+    let r;
+    const isSingleBatch = files.length > 1 && !multiple && !tool.combine && !['merge','audiojoin','imgjoin','videomerge'].includes(toolId);
+    if (isSingleBatch && !live) {
+      const items = [];
+      for (let i = 0; i < files.length; i++) {
+        const curFile = files[i];
+        st.textContent = `${T.working || 'Processing'} ${i + 1}/${files.length} · ${curFile.name}`;
+        progress((i + 0.1) / files.length);
+        const singleRes = await tool.run.call(tool, [curFile], m => {
+          st.textContent = `${i + 1}/${files.length}: ${m}`;
+        });
+        if (singleRes && singleRes.blob) {
+          items.push({ blob: singleRes.blob, name: singleRes.name || curFile.name });
+        }
+      }
+      r = await zipOrOne(items, (base(files[0].name) || 'batch') + '-batch.zip');
+      r.info = `${items.length} files processed in batch · 100% complete`;
+    } else {
+      r = await tool.run.call(tool,files,m=>{st.textContent=m;if(!live)progress(m);});
+    }
+    if(live&&seq!==goSeq)return;window.__lastResult=r;const urls=[];const mk=b=>{const u=URL.createObjectURL(b);urls.push(u);return u;};
+    const extra=(r.extra||[]).map((x,k)=>`<a class="btn ghost dlx" id="dl${k+2}" href="${mk(x.blob)}" download="${esc(x.name)}">⬇ ${esc(x.label||x.name)}</a>`).join('');
+    if(live){liveUrls.forEach(u=>URL.revokeObjectURL(u));liveUrls=urls;$('.actions',work).innerHTML=`<button type="button" class="btn big" id="go" hidden></button>${r.blob?`<a class="btn big" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}`;st.className='status';st.textContent=r.info||'';setStep(3);return;}
+    setStep(3);const ext=(r.name||'').match(/\.[^.]+$/)?.[0]||'';const out=r.blob?r.blob.size:0;const saved=inSize&&out&&out<inSize?Math.round((1-out/inSize)*100):0;
+    const nx=NEXT.map(n=>`<a class="chip" href="${n.u}">${esc(n.n)}</a>`).join('');
+
+    // Viral Share & Quality Compare
+    const pageUrl = window.location.href.split('?')[0];
+    const shareText = encodeURIComponent(saved > 0 ? `I just saved ${saved}% file size using Fileopia for free without any software! Try it here:` : `Check out this 100% free & private online tool on Fileopia:`);
+    const encUrl = encodeURIComponent(pageUrl);
+    const shareHtml = `<div class="share-box"><span class="share-label">🚀 ${saved ? `Saved ${saved}% space! ` : ''}Share with friends & colleagues:</span><div class="share-btns"><a href="https://api.whatsapp.com/send?text=${shareText}%20${encUrl}" target="_blank" rel="noopener" class="sh-btn sh-wa">💬 WhatsApp</a><a href="https://twitter.com/intent/tweet?text=${shareText}&url=${encUrl}" target="_blank" rel="noopener" class="sh-btn sh-x">𝕏 Twitter</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${encUrl}" target="_blank" rel="noopener" class="sh-btn sh-li">💼 LinkedIn</a><a href="https://www.facebook.com/sharer/sharer.php?u=${encUrl}" target="_blank" rel="noopener" class="sh-btn sh-fb">📘 Facebook</a><a href="https://reddit.com/submit?url=${encUrl}&title=${shareText}" target="_blank" rel="noopener" class="sh-btn sh-rd">🔴 Reddit</a><button type="button" class="sh-btn sh-cp" id="sh-copy">🔗 Copy Link</button></div></div>`;
+    const canCompare = saved > 0 && files[0] && r.blob && (isImg(files[0]) || /pdf$/i.test(files[0].name));
+    const compareHtml = canCompare ? `<div class="compare-box"><button type="button" class="btn ghost mini compare-toggle" id="btn-toggle-cmp">🔍 Compare Quality: Before vs After</button><div class="compare-view" id="cmp-view" hidden><div class="compare-pane"><b>Original (${fmtSize(inSize)})</b><div id="cmp-orig-pv"><span class="hint">Loading preview…</span></div></div><div class="compare-pane"><b>Processed (${fmtSize(out)} · -${saved}%)</b><div id="cmp-out-pv"><span class="hint">Loading preview…</span></div></div></div></div>` : '';
+
+    const chainList = getChainedActions(r.name);
+    const chainHtml = chainList.length && r.blob ? `<div class="chain-box"><span class="chain-title">⚡ ${esc(T.nextActions||'Next Actions – Chain directly with another tool:')}</span><div class="chain-btns">${chainList.map(c=>`<a href="${c.u}" class="chain-btn" data-chain-url="${c.u}"><b>${esc(c.n)}</b><small>${esc(c.d)}</small></a>`).join('')}</div></div>` : '';
+
+    const res=document.createElement('div');res.className='result';
+    res.innerHTML=`<div class="rtop">${saved?`<div class="ring" style="--p:${saved}"><b>${saved}%</b><small>${esc(T.saved||'saved')}</small></div>`:'<div class="ok">✓</div>'}<div class="rinfo"><h2>${esc(T.done)}</h2>${r.blob?`<label class="rn">${esc(T.rename||'File name')}<span><input id="rename" value="${esc(base(r.name))}"><em>${esc(ext)}</em></span></label><p class="sz">${inSize&&!nofile?`${fmtSize(inSize)} → `:''}<b>${fmtSize(out)}</b></p>`:''}${r.info?`<p class="ri">${esc(r.info)}</p>`:''}</div></div>
+    <div class="actions">${r.blob?`<a class="btn huge" id="dl" href="${mk(r.blob)}" download="${esc(r.name)}">⬇ ${esc(T.download)}</a>`:''}${extra}</div>
+    ${compareHtml}${shareHtml}${chainHtml}
+    <p class="again"><button type="button" class="btn ghost" id="again">↺ ${esc(T.startOver||T.another)}</button></p>${nx?`<div class="next"><h2 class="h3">${esc(T.tryAnother||'Continue with another tool')}</h2>${nx}</div>`:''}`;
+    const wk=$('.wk',work);wk.hidden=true;work.appendChild(res);
+    $('#rename',res)?.addEventListener('input',e=>{$('#dl',res).download=(e.target.value.trim()||base(r.name))+ext;});
+    res.querySelectorAll('.chain-btn').forEach(btn=>{
+      btn.addEventListener('click',e=>{
+        if(r.blob){
+          e.preventDefault();
+          saveChainedFile(r.blob,r.name,btn.getAttribute('href'));
+        }
+      });
+    });
+    if(r.blob){
+      try{
+        const list=JSON.parse(localStorage.getItem('fp_recent')||'[]');
+        const tn=document.querySelector('.hero h1')?.textContent?.trim()||'File Tool';
+        const next=[{n:r.name,s:out,t:Date.now(),u:window.location.pathname,tn},...list.filter(x=>x.n!==r.name)].slice(0,5);
+        localStorage.setItem('fp_recent',JSON.stringify(next));
+        renderRecentShelf();
+      }catch(err){}
+    }
+    $('#sh-copy', res)?.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(pageUrl);
+        const b = $('#sh-copy', res);
+        b.textContent = '✓ Copied!';
+        setTimeout(() => { b.textContent = '🔗 Copy Link'; }, 2000);
+      } catch (err) {}
+    });
+    if (canCompare) {
+      $('#btn-toggle-cmp', res)?.addEventListener('click', async () => {
+        const view = $('#cmp-view', res);
+        const isHidden = view.hidden;
+        view.hidden = !isHidden;
+        if (isHidden) {
+          const origBox = $('#cmp-orig-pv', res);
+          const outBox = $('#cmp-out-pv', res);
+          if (isImg(files[0])) {
+            origBox.innerHTML = `<img src="${URL.createObjectURL(files[0])}" alt="Original">`;
+            outBox.innerHTML = `<img src="${URL.createObjectURL(r.blob)}" alt="Processed">`;
+          } else if (/pdf$/i.test(files[0].name)) {
+            try {
+              const dpr = Math.min(2, window.devicePixelRatio || 1);
+              const origDoc = await openPdfjs(await buf(files[0]));
+              const origCanv = await renderPage(origDoc, 1, (240 * dpr) / (origDoc.numPages ? 400 : 300));
+              origBox.innerHTML = ''; origBox.appendChild(origCanv); origDoc.destroy();
+              const outDoc = await openPdfjs(await buf(r.blob));
+              const outCanv = await renderPage(outDoc, 1, (240 * dpr) / (outDoc.numPages ? 400 : 300));
+              outBox.innerHTML = ''; outBox.appendChild(outCanv); outDoc.destroy();
+            } catch (err) {
+              origBox.textContent = 'PDF Preview';
+              outBox.textContent = 'PDF Preview';
+            }
+          }
+        }
+      });
+    }
+    if(r.view||r.links){const vw=document.createElement('div');vw.className='resview';vw.innerHTML=(r.view||'')+(r.links?`<ul class="links">${r.links.map(x=>`<li><a href="${mk(x.blob)}" download="${esc(x.name.split('/').pop())}">${esc(x.name)}</a> <small>${fmtSize(x.blob.size)}</small></li>`).join('')}</ul>`:'');res.appendChild(vw);if(r.mount)r.mount(vw);}
+    $('#again',res).onclick=()=>{urls.forEach(u=>URL.revokeObjectURL(u));files=[];render();};
+    res.scrollIntoView({block:'start',behavior:'smooth'});
   }catch(e){if(live&&seq!==goSeq)return;if(btn)btn.disabled=false;if(live)work.querySelectorAll('#dl,.dlx').forEach(a=>a.remove());if(live&&e&&e.soft){st.className='status';st.textContent=e.message;return;}showErr(e,live?null:()=>go());}}
 window.FP={progress,T,$,esc,load,L,buf,base,pdfBlob,fmtSize,openPdfjs,renderPage,toBlob,parseRanges,zipBlobs,zipOrOne,sel,inp,v,setupPreview,mkSafe,chk,vb,TOOLS,work,root,toolId};
 document.readyState==='complete'?start():document.addEventListener('DOMContentLoaded',start);
@@ -116,3 +299,46 @@ const walk=n=>{if(n.nodeType===3){const p=n.parentElement;if(p&&skip(p))return;c
 const go=()=>{const root=document.getElementById('tool')||document.body;walk(root);new MutationObserver(ms=>{for(const m of ms){if(m.type==='characterData')walk(m.target);else if(m.type==='attributes')walk(m.target);else m.addedNodes.forEach(walk);}}).observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:at});};
 for(const k of ['alert','confirm','prompt']){const o=window[k];if(o)window[k]=(m,...r)=>o.call(window,tr(String(m??'')),...r);}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();
+// Embed mode and modal generator
+(()=>{
+  if (typeof window !== 'undefined' && window.location) {
+    if (new URLSearchParams(window.location.search).has('embed')) {
+      document.body.classList.add('is-embedded');
+    }
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('#btn-embed');
+      if (!btn) return;
+      e.preventDefault();
+      let m = document.getElementById('embed-modal');
+      if (!m) {
+        m = document.createElement('div');
+        m.id = 'embed-modal';
+        m.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px;';
+        const embedUrl = location.origin + location.pathname + '?embed=true';
+        const embedCode = `<iframe src="${embedUrl}" width="100%" height="520" frameborder="0" style="border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05)"></iframe>\n<p style="font-size:12px;color:#64748b;margin-top:4px">Free tools powered by <a href="https://fileopia.com/" target="_blank" rel="noopener">Fileopia</a></p>`;
+        m.innerHTML = `<div style="background:#fff;border-radius:14px;padding:24px;max-width:540px;width:100%;box-shadow:0 20px 40px rgba(0,0,0,0.25);position:relative">
+          <h3 style="margin:0 0 8px;font-size:1.25rem;color:#1e293b">Embed this tool on your website</h3>
+          <p style="font-size:0.9rem;color:#64748b;margin:0 0 14px">Copy and paste this HTML snippet into your website, blog, or CMS (WordPress, Notion, etc.). It runs 100% free with zero server load.</p>
+          <textarea readonly style="width:100%;height:110px;font:13px/1.4 monospace;padding:10px;border:1px solid #cbd5e1;border-radius:8px;resize:none;box-sizing:border-box">${embedCode.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</textarea>
+          <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:14px">
+            <button type="button" class="btn ghost mini" id="btn-close-embed">Close</button>
+            <button type="button" class="btn mini" id="btn-copy-embed">Copy Embed Code</button>
+          </div>
+        </div>`;
+        document.body.appendChild(m);
+        m.querySelector('#btn-close-embed').onclick = () => m.remove();
+        m.onclick = ev => { if (ev.target === m) m.remove(); };
+        m.querySelector('#btn-copy-embed').onclick = async () => {
+          try {
+            await navigator.clipboard.writeText(embedCode);
+            const copyBtn = m.querySelector('#btn-copy-embed');
+            copyBtn.textContent = 'Copied!';
+            setTimeout(() => { copyBtn.textContent = 'Copy Embed Code'; }, 2000);
+          } catch (err) {
+            m.querySelector('textarea').select();
+          }
+        };
+      }
+    });
+  }
+})();

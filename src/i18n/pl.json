@@ -1,0 +1,1024 @@
+{
+ "ui": {
+  "allTools": "Wszystkie narzędzia PDF",
+  "select": "Wybierz pliki",
+  "selectMany": "Wybierz pliki",
+  "orDrop": "lub upuść pliki tutaj",
+  "drop": "Upuść pliki tutaj",
+  "process": "Rozpocznij",
+  "download": "Pobierz",
+  "working": "Przetwarzanie…",
+  "done": "Gotowe! Twój plik jest gotowy.",
+  "error": "Wystąpił błąd:",
+  "another": "Zacznij od nowa",
+  "privacy": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+  "howTo": "Instrukcja",
+  "faq": "Często zadawane pytania",
+  "related": "Powiązane narzędzia",
+  "popularSearches": "Popularne wyszukiwania",
+  "language": "Język",
+  "footer": "Darmowe narzędzia PDF online. Przetwarzanie lokalne w przeglądarce.",
+  "ad": "Reklama",
+  "beta": "Beta",
+  "pages": "stron",
+  "remove": "Usuń",
+  "moveUp": "W górę",
+  "moveDown": "W dół",
+  "f1t": "Całkowicie za darmo",
+  "f1d": "Brak ukrytych opłat, brak limitów dziennych, brak znaków wodnych.",
+  "f2t": "Gwarancja prywatności",
+  "f2d": "Wszystko działa na Twoim urządzeniu. Pliki nie są wysyłane do sieci.",
+  "f3t": "Szybko i bez instalacji",
+  "f3d": "Działa na smartfonach, tabletach i komputerach w przeglądarce.",
+  "stepUpload": "Wybierz plik",
+  "stepOptions": "Opcje",
+  "stepDownload": "Pobierz",
+  "tFree": "100% za darmo",
+  "tNoSign": "Bez rejestracji",
+  "tNoLimit": "Bez limitów",
+  "tLocal": "Pliki zostają na urządzeniu",
+  "privH": "Twoja prywatność jest najważniejsza",
+  "privHnf": "100% Bezpiecznie i prywatnie",
+  "privP": "Przetwarzanie plików odbywa się w Twojej przeglądarce.",
+  "privPnf": "Żadne dane nie trafiają na zewnętrzne serwery.",
+  "privL1b": "Brak wysyłania:",
+  "privL1": "Pliki nigdy nie opuszczają Twojego urządzenia.",
+  "privL2b": "Brak zapisywania danych:",
+  "privL2": "Nie przechowujemy ani nie odczytujemy Twoich dokumentów.",
+  "privL3b": "Zgodność z normami:",
+  "privL3": "Pełna zgodność ze standardami ochrony danych, takimi jak RODO (GDPR).",
+  "whyTitle": "Dlaczego warto wybrać {brand}",
+  "cmpThem": "Inne usługi online",
+  "cmpRow1": "Wysyłanie na serwer",
+  "cmpRow1us": "Zero wysyłania (w przeglądarce)",
+  "cmpRow1them": "Pliki trafiają na obce serwery",
+  "cmpRow2": "Limity plików",
+  "cmpRow2us": "Bez limitów i opłat",
+  "cmpRow2them": "Limity czasowe lub płatności",
+  "cmpRow3": "Prywatność danych",
+  "cmpRow3us": "100% lokalnie na Twoim sprzęcie",
+  "cmpRow3them": "Pliki w chmurze osób trzecich",
+  "cmpRow4": "Znak wodny",
+  "cmpRow4us": "Brak znaków wodnych",
+  "cmpRow4them": "Wymaga opłat za usunięcie",
+  "cmpRow5": "Wymóg rejestracji",
+  "cmpRow5us": "Brak wymogu konta",
+  "cmpRow5them": "Wymagane logowanie lub e-mail",
+  "cmpRow6": "Działanie offline",
+  "cmpRow6us": "Działa również bez internetu",
+  "cmpRow6them": "Wymaga stałego połączenia",
+  "usesTitle": "Popularne zastosowania",
+  "tipsTitle": "Przydatne wskazówki",
+  "updLabel": "Zaktualizowano:",
+  "updBy": "Zespół {brand}",
+  "crumbHome": "Strona główna",
+  "catAll": "Wszystkie narzędzia",
+  "catOther": "Inne kategorie",
+  "e404t": "Nie znaleziono strony",
+  "e404d": "Strona nie istnieje lub została przeniesiona.",
+  "searchPh": "Szukaj narzędzi…",
+  "noResults": "Nie znaleziono narzędzi",
+  "tagline": "Wszystkie potrzebne narzędzia PDF. W 100% darmowe i prywatne w Twojej przeglądarce.",
+  "heroSub": "Łącz, dziel, kompresuj, konwertuj, podpisuj i edytuj pliki PDF bez rejestracji, limitów i znaków wodnych. Twoje pliki nigdy nie opuszczają urządzenia.",
+  "searchTitle": "Szukaj narzędzi",
+  "searchDesc": "Przeszukaj wszystkie darmowe narzędzia do plików PDF, obrazów, audio i wideo. Wszystko działa lokalnie w przeglądarce.",
+  "catTitle": "Darmowe narzędzia {cat} online | {brand}",
+  "catDesc": "Darmowe narzędzia {brand} dla {cat}: {list}. Działają w przeglądarce bez rejestracji i wysyłania plików.",
+  "catLead": "{n} Darmowe narzędzia {cat} online",
+  "cat_organize": "Organizacja",
+  "cat_edit": "Edycja i adnotacje",
+  "cat_convert": "Konwersja",
+  "cat_optimize": "Optymalizacja",
+  "cat_security": "Bezpieczeństwo",
+  "cat_image": "Obrazy",
+  "cat_qr": "Kody QR",
+  "cat_ai": "Sztuczna inteligencja",
+  "cat_media": "Multimedia",
+  "cat_data": "Dane i tabele",
+  "cat_units": "Konwertery jednostek",
+  "cat_calc": "Kalkulatory",
+  "cat_text": "Tekst",
+  "cat_dev": "Dla programistów",
+  "cat_fun": "Rozrywka",
+  "cat_web": "Narzędzia internetowe",
+  "cat_prod": "Produktywność",
+  "cat_more": "Pozostałe"
+ },
+ "home": {
+  "title": "Darmowe narzędzia PDF i plików online | {brand}",
+  "desc": "Łącz, kompresuj i konwertuj pliki PDF oraz obrazy za darmo w przeglądarce bez wysyłania plików na serwer. Pełna prywatność.",
+  "h1": "Darmowe narzędzia do plików szanujące Twoją prywatność"
+ },
+ "commonFaq": [
+  {
+   "q": "Całkowicie za darmo?",
+   "a": "Brak ukrytych opłat, brak limitów dziennych, brak znaków wodnych. Wszystko działa na Twoim urządzeniu. Pliki nie są wysyłane do sieci."
+  },
+  {
+   "q": "Gwarancja prywatności?",
+   "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Pliki nigdy nie opuszczają Twojego urządzenia."
+  }
+ ],
+ "tools": {
+  "audiocut": {
+   "name": "Przycinanie wycinanie audio",
+   "short": "Przycinanie wycinanie audio – 100% za darmo",
+   "title": "Przycinanie wycinanie audio – 100% za darmo | {brand}",
+   "desc": "Przycinanie wycinanie audio. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Przycinanie wycinanie audio",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Przycinanie wycinanie audio?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "bgremove": {
+   "name": "Automatyczne usuwanie tła AI",
+   "short": "Automatyczne usuwanie tła AI – 100% za darmo",
+   "title": "Automatyczne usuwanie tła AI – 100% za darmo | {brand}",
+   "desc": "Automatyczne usuwanie tła AI. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Automatyczne usuwanie tła AI",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Automatyczne usuwanie tła AI?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "collage": {
+   "name": "Kolaż łączenie zdjęć",
+   "short": "Kolaż łączenie zdjęć – 100% za darmo",
+   "title": "Kolaż łączenie zdjęć – 100% za darmo | {brand}",
+   "desc": "Kolaż łączenie zdjęć. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Kolaż łączenie zdjęć",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Kolaż łączenie zdjęć?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "compare": {
+   "name": "Porównywanie plików PDF",
+   "short": "Porównywanie plików PDF – 100% za darmo",
+   "title": "Porównywanie plików PDF – 100% za darmo | {brand}",
+   "desc": "Porównywanie plików PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Porównywanie plików PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Porównywanie plików PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "compress": {
+   "name": "Kompresja zmniejszanie PDF",
+   "short": "Kompresja zmniejszanie PDF – 100% za darmo",
+   "title": "Kompresja zmniejszanie PDF – 100% za darmo | {brand}",
+   "desc": "Kompresja zmniejszanie PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Kompresja zmniejszanie PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Kompresja zmniejszanie PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "crop": {
+   "name": "Przycinanie marginesów PDF",
+   "short": "Przycinanie marginesów PDF – 100% za darmo",
+   "title": "Przycinanie marginesów PDF – 100% za darmo | {brand}",
+   "desc": "Przycinanie marginesów PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Przycinanie marginesów PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Przycinanie marginesów PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "Usuwanie stron z PDF",
+   "short": "Usuwanie stron z PDF – 100% za darmo",
+   "title": "Usuwanie stron z PDF – 100% za darmo | {brand}",
+   "desc": "Usuwanie stron z PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Usuwanie stron z PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Usuwanie stron z PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "edit": {
+   "name": "Edycja plików PDF",
+   "short": "Edycja plików PDF – 100% za darmo",
+   "title": "Edycja plików PDF – 100% za darmo | {brand}",
+   "desc": "Edycja plików PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Edycja plików PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Edycja plików PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "excel2pdf": {
+   "name": "Konwersja Excel na PDF",
+   "short": "Konwersja Excel na PDF – 100% za darmo",
+   "title": "Konwersja Excel na PDF – 100% za darmo | {brand}",
+   "desc": "Konwersja Excel na PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja Excel na PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja Excel na PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "Wyodrębnianie stron PDF",
+   "short": "Wyodrębnianie stron PDF – 100% za darmo",
+   "title": "Wyodrębnianie stron PDF – 100% za darmo | {brand}",
+   "desc": "Wyodrębnianie stron PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Wyodrębnianie stron PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Wyodrębnianie stron PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "Spłaszczanie formularzy PDF",
+   "short": "Spłaszczanie formularzy PDF – 100% za darmo",
+   "title": "Spłaszczanie formularzy PDF – 100% za darmo | {brand}",
+   "desc": "Spłaszczanie formularzy PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Spłaszczanie formularzy PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Spłaszczanie formularzy PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "Konwersja PDF na czarno-biały",
+   "short": "Konwersja PDF na czarno-biały – 100% za darmo",
+   "title": "Konwersja PDF na czarno-biały – 100% za darmo | {brand}",
+   "desc": "Konwersja PDF na czarno-biały. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PDF na czarno-biały",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PDF na czarno-biały?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "heic2jpg": {
+   "name": "heic2jpg",
+   "short": "heic2jpg – 100% za darmo",
+   "title": "heic2jpg – 100% za darmo | {brand}",
+   "desc": "heic2jpg. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "heic2jpg",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja heic2jpg?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "imgcompress": {
+   "name": "Kompresja zmniejszanie zdjęć",
+   "short": "Kompresja zmniejszanie zdjęć – 100% za darmo",
+   "title": "Kompresja zmniejszanie zdjęć – 100% za darmo | {brand}",
+   "desc": "Kompresja zmniejszanie zdjęć. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Kompresja zmniejszanie zdjęć",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Kompresja zmniejszanie zdjęć?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "imgconvert": {
+   "name": "imgconvert",
+   "short": "imgconvert – 100% za darmo",
+   "title": "imgconvert – 100% za darmo | {brand}",
+   "desc": "imgconvert. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "imgconvert",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja imgconvert?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "imgcrop": {
+   "name": "Przycinanie kadrowanie zdjęć",
+   "short": "Przycinanie kadrowanie zdjęć – 100% za darmo",
+   "title": "Przycinanie kadrowanie zdjęć – 100% za darmo | {brand}",
+   "desc": "Przycinanie kadrowanie zdjęć. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Przycinanie kadrowanie zdjęć",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Przycinanie kadrowanie zdjęć?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "imgresize": {
+   "name": "Zmiana rozmiaru obrazu",
+   "short": "Zmiana rozmiaru obrazu – 100% za darmo",
+   "title": "Zmiana rozmiaru obrazu – 100% za darmo | {brand}",
+   "desc": "Zmiana rozmiaru obrazu. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Zmiana rozmiaru obrazu",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Zmiana rozmiaru obrazu?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "Konwersja JPG na PDF",
+   "short": "Konwersja JPG na PDF – 100% za darmo",
+   "title": "Konwersja JPG na PDF – 100% za darmo | {brand}",
+   "desc": "Konwersja JPG na PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja JPG na PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja JPG na PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "jpg2png": {
+   "name": "Konwersja JPG na przezroczysty PNG",
+   "short": "Konwersja JPG na przezroczysty PNG – 100% za darmo",
+   "title": "Konwersja JPG na przezroczysty PNG | {brand}",
+   "desc": "Konwersja JPG na przezroczysty PNG. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja JPG na przezroczysty PNG",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja JPG na przezroczysty PNG?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "merge": {
+   "name": "Łączenie plików PDF",
+   "short": "Łączenie plików PDF – 100% za darmo",
+   "title": "Łączenie plików PDF – 100% za darmo | {brand}",
+   "desc": "Łączenie plików PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Łączenie plików PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Łączenie plików PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "Rozpoznawanie tekstu ze zdjęć OCR",
+   "short": "Rozpoznawanie tekstu ze zdjęć OCR – 100% za darmo",
+   "title": "Rozpoznawanie tekstu ze zdjęć OCR – 100% za darmo | {brand}",
+   "desc": "Rozpoznawanie tekstu ze zdjęć OCR. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Rozpoznawanie tekstu ze zdjęć OCR",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Rozpoznawanie tekstu ze zdjęć OCR?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "Skan PDF na przeszukiwalny tekst",
+   "short": "Skan PDF na przeszukiwalny tekst – 100% za darmo",
+   "title": "Skan PDF na przeszukiwalny tekst – 100% za darmo | {brand}",
+   "desc": "Skan PDF na przeszukiwalny tekst. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Skan PDF na przeszukiwalny tekst",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Skan PDF na przeszukiwalny tekst?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "organize": {
+   "name": "Zarządzanie stronami PDF",
+   "short": "Zarządzanie stronami PDF – 100% za darmo",
+   "title": "Zarządzanie stronami PDF – 100% za darmo | {brand}",
+   "desc": "Zarządzanie stronami PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Zarządzanie stronami PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Zarządzanie stronami PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "Numerowanie stron PDF",
+   "short": "Numerowanie stron PDF – 100% za darmo",
+   "title": "Numerowanie stron PDF – 100% za darmo | {brand}",
+   "desc": "Numerowanie stron PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Numerowanie stron PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Numerowanie stron PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Generator bezpiecznych haseł",
+   "short": "Generator bezpiecznych haseł – 100% za darmo",
+   "title": "Generator bezpiecznych haseł – 100% za darmo | {brand}",
+   "desc": "Generator bezpiecznych haseł. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Generator bezpiecznych haseł",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Generator bezpiecznych haseł?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pdf2excel": {
+   "name": "Konwersja PDF na Excel arkusz",
+   "short": "Konwersja PDF na Excel arkusz – 100% za darmo",
+   "title": "Konwersja PDF na Excel arkusz – 100% za darmo | {brand}",
+   "desc": "Konwersja PDF na Excel arkusz. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PDF na Excel arkusz",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PDF na Excel arkusz?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "Konwersja PDF na JPG",
+   "short": "Konwersja PDF na JPG – 100% za darmo",
+   "title": "Konwersja PDF na JPG – 100% za darmo | {brand}",
+   "desc": "Konwersja PDF na JPG. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PDF na JPG",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PDF na JPG?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pdf2png": {
+   "name": "Konwersja PDF na obrazy PNG",
+   "short": "Konwersja PDF na obrazy PNG – 100% za darmo",
+   "title": "Konwersja PDF na obrazy PNG – 100% za darmo | {brand}",
+   "desc": "Konwersja PDF na obrazy PNG. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PDF na obrazy PNG",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PDF na obrazy PNG?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pdf2ppt": {
+   "name": "Konwersja PDF na PowerPoint",
+   "short": "Konwersja PDF na PowerPoint – 100% za darmo",
+   "title": "Konwersja PDF na PowerPoint – 100% za darmo | {brand}",
+   "desc": "Konwersja PDF na PowerPoint. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PDF na PowerPoint",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PDF na PowerPoint?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "pdf2txt",
+   "short": "pdf2txt – 100% za darmo",
+   "title": "pdf2txt – 100% za darmo | {brand}",
+   "desc": "pdf2txt. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "pdf2txt",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja pdf2txt?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "Konwersja PDF na Word",
+   "short": "Konwersja PDF na Word – 100% za darmo",
+   "title": "Konwersja PDF na Word – 100% za darmo | {brand}",
+   "desc": "Konwersja PDF na Word. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PDF na Word",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PDF na Word?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "png2jpg": {
+   "name": "Konwersja PNG na JPG",
+   "short": "Konwersja PNG na JPG – 100% za darmo",
+   "title": "Konwersja PNG na JPG – 100% za darmo | {brand}",
+   "desc": "Konwersja PNG na JPG. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja PNG na JPG",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja PNG na JPG?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "protect": {
+   "name": "Zabezpieczenie hasłem PDF",
+   "short": "Zabezpieczenie hasłem PDF – 100% za darmo",
+   "title": "Zabezpieczenie hasłem PDF – 100% za darmo | {brand}",
+   "desc": "Zabezpieczenie hasłem PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Zabezpieczenie hasłem PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Zabezpieczenie hasłem PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "qr": {
+   "name": "Generator kodów QR",
+   "short": "Generator kodów QR – 100% za darmo",
+   "title": "Generator kodów QR – 100% za darmo | {brand}",
+   "desc": "Generator kodów QR. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Generator kodów QR",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Generator kodów QR?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "qrscan": {
+   "name": "Skaner czytnik kodów QR",
+   "short": "Skaner czytnik kodów QR – 100% za darmo",
+   "title": "Skaner czytnik kodów QR – 100% za darmo | {brand}",
+   "desc": "Skaner czytnik kodów QR. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Skaner czytnik kodów QR",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Skaner czytnik kodów QR?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "redact": {
+   "name": "Zamalowywanie danych w PDF",
+   "short": "Zamalowywanie danych w PDF – 100% za darmo",
+   "title": "Zamalowywanie danych w PDF – 100% za darmo | {brand}",
+   "desc": "Zamalowywanie danych w PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Zamalowywanie danych w PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Zamalowywanie danych w PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "Usuwanie ukrytych metadanych PDF",
+   "short": "Usuwanie ukrytych metadanych PDF – 100% za darmo",
+   "title": "Usuwanie ukrytych metadanych PDF – 100% za darmo | {brand}",
+   "desc": "Usuwanie ukrytych metadanych PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Usuwanie ukrytych metadanych PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Usuwanie ukrytych metadanych PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "Zmiana formatu papieru PDF",
+   "short": "Zmiana formatu papieru PDF – 100% za darmo",
+   "title": "Zmiana formatu papieru PDF – 100% za darmo | {brand}",
+   "desc": "Zmiana formatu papieru PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Zmiana formatu papieru PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Zmiana formatu papieru PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "Obracanie stron PDF",
+   "short": "Obracanie stron PDF – 100% za darmo",
+   "title": "Obracanie stron PDF – 100% za darmo | {brand}",
+   "desc": "Obracanie stron PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Obracanie stron PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Obracanie stron PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "sign": {
+   "name": "Podpis elektroniczny PDF",
+   "short": "Podpis elektroniczny PDF – 100% za darmo",
+   "title": "Podpis elektroniczny PDF – 100% za darmo | {brand}",
+   "desc": "Podpis elektroniczny PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Podpis elektroniczny PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Podpis elektroniczny PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "split": {
+   "name": "Dzielenie plików PDF",
+   "short": "Dzielenie plików PDF – 100% za darmo",
+   "title": "Dzielenie plików PDF – 100% za darmo | {brand}",
+   "desc": "Dzielenie plików PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Dzielenie plików PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Dzielenie plików PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Konwersja tekstu TXT na PDF",
+   "short": "Konwersja tekstu TXT na PDF – 100% za darmo",
+   "title": "Konwersja tekstu TXT na PDF – 100% za darmo | {brand}",
+   "desc": "Konwersja tekstu TXT na PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja tekstu TXT na PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja tekstu TXT na PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "Usuwanie hasła z PDF",
+   "short": "Usuwanie hasła z PDF – 100% za darmo",
+   "title": "Usuwanie hasła z PDF – 100% za darmo | {brand}",
+   "desc": "Usuwanie hasła z PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Usuwanie hasła z PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Usuwanie hasła z PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Powiększanie ulepszanie zdjęć AI",
+   "short": "Powiększanie ulepszanie zdjęć AI – 100% za darmo",
+   "title": "Powiększanie ulepszanie zdjęć AI – 100% za darmo | {brand}",
+   "desc": "Powiększanie ulepszanie zdjęć AI. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Powiększanie ulepszanie zdjęć AI",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Powiększanie ulepszanie zdjęć AI?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "video2mp3": {
+   "name": "Wyodrębnianie MP3 z wideo",
+   "short": "Wyodrębnianie MP3 z wideo – 100% za darmo",
+   "title": "Wyodrębnianie MP3 z wideo – 100% za darmo | {brand}",
+   "desc": "Wyodrębnianie MP3 z wideo. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Wyodrębnianie MP3 z wideo",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Wyodrębnianie MP3 z wideo?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Kompresja zmniejszanie wideo",
+   "short": "Kompresja zmniejszanie wideo – 100% za darmo",
+   "title": "Kompresja zmniejszanie wideo – 100% za darmo | {brand}",
+   "desc": "Kompresja zmniejszanie wideo. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Kompresja zmniejszanie wideo",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Kompresja zmniejszanie wideo?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "viewer": {
+   "name": "Przeglądarka czytnik PDF",
+   "short": "Przeglądarka czytnik PDF – 100% za darmo",
+   "title": "Przeglądarka czytnik PDF – 100% za darmo | {brand}",
+   "desc": "Przeglądarka czytnik PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Przeglądarka czytnik PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Przeglądarka czytnik PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "Znak wodny na PDF",
+   "short": "Znak wodny na PDF – 100% za darmo",
+   "title": "Znak wodny na PDF – 100% za darmo | {brand}",
+   "desc": "Znak wodny na PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Znak wodny na PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Znak wodny na PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "webp2jpg": {
+   "name": "Konwersja WebP na JPG",
+   "short": "Konwersja WebP na JPG – 100% za darmo",
+   "title": "Konwersja WebP na JPG – 100% za darmo | {brand}",
+   "desc": "Konwersja WebP na JPG. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja WebP na JPG",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja WebP na JPG?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Konwersja Word na PDF",
+   "short": "Konwersja Word na PDF – 100% za darmo",
+   "title": "Konwersja Word na PDF – 100% za darmo | {brand}",
+   "desc": "Konwersja Word na PDF. Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer.",
+   "h1": "Konwersja Word na PDF",
+   "steps": [
+    "Wybierz plik",
+    "Opcje",
+    "Pobierz"
+   ],
+   "faq": [
+    {
+     "q": "Instrukcja Konwersja Word na PDF?",
+     "a": "Pliki są przetwarzane lokalnie w przeglądarce i nigdy nie trafiają na serwer. Bez rejestracji."
+    }
+   ]
+  }
+ }
+}

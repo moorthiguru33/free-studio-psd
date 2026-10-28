@@ -1,0 +1,177 @@
+[
+  {
+    "id": "reversetext",
+    "impl": "texttools",
+    "slug": "reverse-text",
+    "cat": "text",
+    "icon": "🔄",
+    "accept": ".txt,.md,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "reversetext" }
+  },
+  {
+    "id": "text2hex",
+    "impl": "texttools",
+    "slug": "text-to-hex",
+    "cat": "dev",
+    "icon": "🔢",
+    "accept": ".txt,.md,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "hextext", "hexdir": "text2hex" }
+  },
+  {
+    "id": "hex2text",
+    "impl": "texttools",
+    "slug": "hex-to-text",
+    "cat": "dev",
+    "icon": "🔤",
+    "accept": ".hex,.txt,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "hextext", "hexdir": "hex2text" }
+  },
+  {
+    "id": "findreplacetext",
+    "impl": "texttools",
+    "slug": "find-replace-text",
+    "cat": "text",
+    "icon": "🔍",
+    "accept": ".txt,.md,.csv,.html,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "findreplace" }
+  },
+  {
+    "id": "extractemails",
+    "impl": "texttools",
+    "slug": "extract-emails",
+    "cat": "text",
+    "icon": "📧",
+    "accept": ".txt,.md,.csv,.html,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "extractemails" }
+  },
+  {
+    "id": "extracturls",
+    "impl": "texttools",
+    "slug": "extract-urls",
+    "cat": "text",
+    "icon": "🔗",
+    "accept": ".txt,.md,.csv,.html,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "extracturls" }
+  },
+  {
+    "id": "prefixsuffix",
+    "impl": "texttools",
+    "slug": "add-prefix-suffix",
+    "cat": "text",
+    "icon": "➕",
+    "accept": ".txt,.md,.csv,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "prefixsuffix" }
+  },
+  {
+    "id": "repeater",
+    "impl": "texttools",
+    "slug": "text-repeater",
+    "cat": "text",
+    "icon": "🔁",
+    "accept": ".txt,.md,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "repeater" }
+  },
+  {
+    "id": "shuffle",
+    "impl": "texttools",
+    "slug": "shuffle-list",
+    "cat": "text",
+    "icon": "🔀",
+    "accept": ".txt,.md,.csv,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "shuffle" }
+  },
+  {
+    "id": "filterlines",
+    "impl": "texttools",
+    "slug": "filter-lines",
+    "cat": "text",
+    "icon": "🔎",
+    "accept": ".txt,.md,.csv,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "filterlines" }
+  },
+  {
+    "id": "rmemptylines",
+    "impl": "texttools",
+    "slug": "remove-empty-lines",
+    "cat": "text",
+    "icon": "🧹",
+    "accept": ".txt,.md,.csv,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "rmemptylines" }
+  },
+  {
+    "id": "sumavg",
+    "impl": "mathcalc",
+    "slug": "number-sum-average",
+    "cat": "calc",
+    "icon": "➕",
+    "nofile": true,
+    "enOnly": true,
+    "vars": { "mode": "sumavg" }
+  },
+  {
+    "id": "changedelimiter",
+    "impl": "codeconv",
+    "slug": "change-csv-delimiter",
+    "cat": "data",
+    "icon": "📊",
+    "accept": ".csv,.tsv,.txt,text/csv,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "changedelimiter" }
+  },
+  {
+    "id": "pixelateimg",
+    "impl": "photoadjust",
+    "slug": "pixelate-image",
+    "cat": "image",
+    "icon": "👾",
+    "accept": "image/*",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "pixelate" }
+  },
+  {
+    "id": "grayscaleimg",
+    "impl": "photoadjust",
+    "slug": "grayscale-image",
+    "cat": "image",
+    "icon": "⬛",
+    "accept": "image/*",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "grayscale" }
+  },
+  {
+    "id": "colortrans",
+    "impl": "photoadjust",
+    "slug": "color-to-transparent",
+    "cat": "image",
+    "icon": "🔳",
+    "accept": "image/*",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "colortransparent" }
+  }
+]

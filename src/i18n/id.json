@@ -1,0 +1,1024 @@
+{
+ "ui": {
+  "allTools": "Semua Alat PDF",
+  "select": "Pilih File",
+  "selectMany": "Pilih Beberapa File",
+  "orDrop": "atau seret file ke sini",
+  "drop": "Letakkan file di sini",
+  "process": "Mulai",
+  "download": "Unduh",
+  "working": "Memproses…",
+  "done": "Selesai! File Anda siap.",
+  "error": "Terjadi kesalahan:",
+  "another": "Mulai Ulang",
+  "privacy": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+  "howTo": "Cara Menggunakan",
+  "faq": "Pertanyaan Umum",
+  "related": "Alat Terkait",
+  "popularSearches": "Pencarian Populer",
+  "language": "Bahasa",
+  "footer": "Alat PDF online gratis. Pemrosesan lokal di browser Anda.",
+  "ad": "Iklan",
+  "beta": "Beta",
+  "pages": "halaman",
+  "remove": "Hapus",
+  "moveUp": "Ke atas",
+  "moveDown": "Ke bawah",
+  "f1t": "Sepenuhnya Gratis",
+  "f1d": "Tanpa biaya tersembunyi, tanpa batas harian, dan tanpa watermark.",
+  "f2t": "Privat & Aman",
+  "f2d": "Semuanya berjalan di perangkat Anda. File Anda tidak dikirim ke server.",
+  "f3t": "Cepat & Fleksibel",
+  "f3d": "Bekerja di ponsel, tablet, dan komputer tanpa perlu instalasi aplikasi.",
+  "stepUpload": "Pilih File",
+  "stepOptions": "Pengaturan",
+  "stepDownload": "Unduh",
+  "tFree": "100% Gratis",
+  "tNoSign": "Tanpa Daftar",
+  "tNoLimit": "Tanpa Batas",
+  "tLocal": "File tidak diunggah",
+  "privH": "Privasi Anda adalah prioritas kami",
+  "privHnf": "100% Aman & Privat",
+  "privP": "Pemrosesan file berlangsung langsung di browser web Anda.",
+  "privPnf": "Tidak ada data yang dikirim ke server pihak ketiga.",
+  "privL1b": "Tanpa Unggah:",
+  "privL1": "File Anda tidak pernah meninggalkan perangkat Anda.",
+  "privL2b": "Tanpa Penyimpanan Data:",
+  "privL2": "Kami tidak menyimpan atau membaca dokumen pribadi Anda.",
+  "privL3b": "Standar Global:",
+  "privL3": "Mematuhi regulasi perlindungan data internasional seperti GDPR.",
+  "whyTitle": "Mengapa Memilih {brand}",
+  "cmpThem": "Layanan Online Lainnya",
+  "cmpRow1": "Unggah ke Server",
+  "cmpRow1us": "Nol unggahan (di browser)",
+  "cmpRow1them": "File dikirim ke server",
+  "cmpRow2": "Batas Penggunaan",
+  "cmpRow2us": "Bebas tanpa batas",
+  "cmpRow2them": "Dibatasi kuota atau berbayar",
+  "cmpRow3": "Kerahasiaan Dokumen",
+  "cmpRow3us": "100% privat di perangkat",
+  "cmpRow3them": "Tersimpan di cloud pihak ketiga",
+  "cmpRow4": "Watermark",
+  "cmpRow4us": "Tanpa watermark",
+  "cmpRow4them": "Harus bayar untuk hapus watermark",
+  "cmpRow5": "Registrasi Akun",
+  "cmpRow5us": "Tanpa perlu akun",
+  "cmpRow5them": "Wajib daftar email atau login",
+  "cmpRow6": "Bekerja Offline",
+  "cmpRow6us": "Dapat bekerja offline",
+  "cmpRow6them": "Harus online setiap saat",
+  "usesTitle": "Skenario Penggunaan Utama",
+  "tipsTitle": "Tips Berguna",
+  "updLabel": "Diperbarui pada",
+  "updBy": "Tim {brand}",
+  "crumbHome": "Beranda",
+  "catAll": "Semua Alat",
+  "catOther": "Kategori Lain",
+  "e404t": "Halaman Tidak Ditemukan",
+  "e404d": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+  "searchPh": "Cari alat…",
+  "noResults": "Alat tidak ditemukan",
+  "tagline": "Semua alat PDF yang Anda butuhkan. 100% gratis dan privat di browser Anda.",
+  "heroSub": "Gabungkan, pisahkan, kompres, konversi, tanda tangani, dan edit PDF tanpa batas, tanpa watermark, dan tanpa akun. File tidak pernah meninggalkan perangkat Anda.",
+  "searchTitle": "Cari alat",
+  "searchDesc": "Cari semua alat gratis untuk PDF, gambar, audio, dan video. Semua berjalan aman di browser Anda.",
+  "catTitle": "Alat {cat} Online Gratis | {brand}",
+  "catDesc": "Semua alat {cat} gratis dari {brand}: {list} dan lainnya. Berjalan di browser tanpa registrasi dan tanpa upload.",
+  "catLead": "{n} Alat {cat} Online Gratis",
+  "cat_organize": "Atur & Urutkan",
+  "cat_edit": "Edit & Anotasi",
+  "cat_convert": "Konversi",
+  "cat_optimize": "Optimalkan",
+  "cat_security": "Keamanan",
+  "cat_image": "Gambar",
+  "cat_qr": "Kode QR",
+  "cat_ai": "AI",
+  "cat_media": "Audio & Video",
+  "cat_data": "Data & Tabel",
+  "cat_units": "Konverter Satuan",
+  "cat_calc": "Kalkulator",
+  "cat_text": "Teks",
+  "cat_dev": "Pengembang",
+  "cat_fun": "Hiburan",
+  "cat_web": "Alat Web",
+  "cat_prod": "Produktivitas",
+  "cat_more": "Lainnya"
+ },
+ "home": {
+  "title": "Alat PDF & File Online Gratis | {brand}",
+  "desc": "Gabung, kompres, konversi, dan edit PDF dan gambar secara gratis di browser. Tanpa unggah server dengan privasi terjamin.",
+  "h1": "Alat file online gratis yang mengutamakan privasi Anda"
+ },
+ "commonFaq": [
+  {
+   "q": "Sepenuhnya Gratis?",
+   "a": "Tanpa biaya tersembunyi, tanpa batas harian, dan tanpa watermark. Semuanya berjalan di perangkat Anda. File Anda tidak dikirim ke server."
+  },
+  {
+   "q": "Privat & Aman?",
+   "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. File Anda tidak pernah meninggalkan perangkat Anda."
+  }
+ ],
+ "tools": {
+  "audiocut": {
+   "name": "Potong Lagu Audio",
+   "short": "Potong Lagu Audio – 100% Gratis",
+   "title": "Potong Lagu Audio – 100% Gratis | {brand}",
+   "desc": "Potong Lagu Audio. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Potong Lagu Audio",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Potong Lagu Audio?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "bgremove": {
+   "name": "Hapus Background Foto AI",
+   "short": "Hapus Background Foto AI – 100% Gratis",
+   "title": "Hapus Background Foto AI – 100% Gratis | {brand}",
+   "desc": "Hapus Background Foto AI. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Hapus Background Foto AI",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Hapus Background Foto AI?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "collage": {
+   "name": "Buat Kolase Foto",
+   "short": "Buat Kolase Foto – 100% Gratis",
+   "title": "Buat Kolase Foto – 100% Gratis | {brand}",
+   "desc": "Buat Kolase Foto. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Buat Kolase Foto",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Buat Kolase Foto?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "compare": {
+   "name": "Bandingkan PDF",
+   "short": "Bandingkan PDF – 100% Gratis",
+   "title": "Bandingkan PDF – 100% Gratis | {brand}",
+   "desc": "Bandingkan PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Bandingkan PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Bandingkan PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "compress": {
+   "name": "Kompres PDF",
+   "short": "Kompres PDF – 100% Gratis",
+   "title": "Kompres PDF – 100% Gratis | {brand}",
+   "desc": "Kompres PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Kompres PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Kompres PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "crop": {
+   "name": "Pangkas Margin PDF",
+   "short": "Pangkas Margin PDF – 100% Gratis",
+   "title": "Pangkas Margin PDF – 100% Gratis | {brand}",
+   "desc": "Pangkas Margin PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Pangkas Margin PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Pangkas Margin PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "Hapus Halaman PDF",
+   "short": "Hapus Halaman PDF – 100% Gratis",
+   "title": "Hapus Halaman PDF – 100% Gratis | {brand}",
+   "desc": "Hapus Halaman PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Hapus Halaman PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Hapus Halaman PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "edit": {
+   "name": "Edit PDF",
+   "short": "Edit PDF – 100% Gratis",
+   "title": "Edit PDF – 100% Gratis | {brand}",
+   "desc": "Edit PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Edit PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Edit PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "excel2pdf": {
+   "name": "Excel ke PDF",
+   "short": "Excel ke PDF – 100% Gratis",
+   "title": "Excel ke PDF – 100% Gratis | {brand}",
+   "desc": "Excel ke PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Excel ke PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Excel ke PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "Ekstrak Halaman PDF",
+   "short": "Ekstrak Halaman PDF – 100% Gratis",
+   "title": "Ekstrak Halaman PDF – 100% Gratis | {brand}",
+   "desc": "Ekstrak Halaman PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Ekstrak Halaman PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Ekstrak Halaman PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "Ratakan Form PDF",
+   "short": "Ratakan Form PDF – 100% Gratis",
+   "title": "Ratakan Form PDF – 100% Gratis | {brand}",
+   "desc": "Ratakan Form PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Ratakan Form PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Ratakan Form PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "PDF Hitam Putih",
+   "short": "PDF Hitam Putih – 100% Gratis",
+   "title": "PDF Hitam Putih – 100% Gratis | {brand}",
+   "desc": "PDF Hitam Putih. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF Hitam Putih",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF Hitam Putih?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "heic2jpg": {
+   "name": "heic2jpg",
+   "short": "heic2jpg – 100% Gratis",
+   "title": "heic2jpg – 100% Gratis | {brand}",
+   "desc": "heic2jpg. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "heic2jpg",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan heic2jpg?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "imgcompress": {
+   "name": "Kompres Gambar",
+   "short": "Kompres Gambar – 100% Gratis",
+   "title": "Kompres Gambar – 100% Gratis | {brand}",
+   "desc": "Kompres Gambar. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Kompres Gambar",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Kompres Gambar?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "imgconvert": {
+   "name": "imgconvert",
+   "short": "imgconvert – 100% Gratis",
+   "title": "imgconvert – 100% Gratis | {brand}",
+   "desc": "imgconvert. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "imgconvert",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan imgconvert?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "imgcrop": {
+   "name": "Potong Gambar",
+   "short": "Potong Gambar – 100% Gratis",
+   "title": "Potong Gambar – 100% Gratis | {brand}",
+   "desc": "Potong Gambar. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Potong Gambar",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Potong Gambar?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "imgresize": {
+   "name": "Ubah Ukuran Gambar",
+   "short": "Ubah Ukuran Gambar – 100% Gratis",
+   "title": "Ubah Ukuran Gambar – 100% Gratis | {brand}",
+   "desc": "Ubah Ukuran Gambar. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Ubah Ukuran Gambar",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Ubah Ukuran Gambar?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "JPG ke PDF",
+   "short": "JPG ke PDF – 100% Gratis",
+   "title": "JPG ke PDF – 100% Gratis | {brand}",
+   "desc": "JPG ke PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "JPG ke PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan JPG ke PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "jpg2png": {
+   "name": "JPG ke PNG Transparan",
+   "short": "JPG ke PNG Transparan – 100% Gratis",
+   "title": "JPG ke PNG Transparan – 100% Gratis | {brand}",
+   "desc": "JPG ke PNG Transparan. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "JPG ke PNG Transparan",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan JPG ke PNG Transparan?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "merge": {
+   "name": "Gabung PDF",
+   "short": "Gabung PDF – 100% Gratis",
+   "title": "Gabung PDF – 100% Gratis | {brand}",
+   "desc": "Gabung PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Gabung PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Gabung PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "Pindai Teks Gambar OCR",
+   "short": "Pindai Teks Gambar OCR – 100% Gratis",
+   "title": "Pindai Teks Gambar OCR – 100% Gratis | {brand}",
+   "desc": "Pindai Teks Gambar OCR. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Pindai Teks Gambar OCR",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Pindai Teks Gambar OCR?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "PDF Scan Jadi Teks Searchable",
+   "short": "PDF Scan Jadi Teks Searchable – 100% Gratis",
+   "title": "PDF Scan Jadi Teks Searchable – 100% Gratis | {brand}",
+   "desc": "PDF Scan Jadi Teks Searchable. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF Scan Jadi Teks Searchable",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF Scan Jadi Teks Searchable?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "organize": {
+   "name": "Atur Halaman PDF",
+   "short": "Atur Halaman PDF – 100% Gratis",
+   "title": "Atur Halaman PDF – 100% Gratis | {brand}",
+   "desc": "Atur Halaman PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Atur Halaman PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Atur Halaman PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "Nomor Halaman PDF",
+   "short": "Nomor Halaman PDF – 100% Gratis",
+   "title": "Nomor Halaman PDF – 100% Gratis | {brand}",
+   "desc": "Nomor Halaman PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Nomor Halaman PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Nomor Halaman PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Generator Password Kuat",
+   "short": "Generator Password Kuat – 100% Gratis",
+   "title": "Generator Password Kuat – 100% Gratis | {brand}",
+   "desc": "Generator Password Kuat. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Generator Password Kuat",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Generator Password Kuat?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pdf2excel": {
+   "name": "PDF ke Excel Spreadsheet",
+   "short": "PDF ke Excel Spreadsheet – 100% Gratis",
+   "title": "PDF ke Excel Spreadsheet – 100% Gratis | {brand}",
+   "desc": "PDF ke Excel Spreadsheet. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF ke Excel Spreadsheet",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF ke Excel Spreadsheet?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "PDF ke JPG",
+   "short": "PDF ke JPG – 100% Gratis",
+   "title": "PDF ke JPG – 100% Gratis | {brand}",
+   "desc": "PDF ke JPG. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF ke JPG",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF ke JPG?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pdf2png": {
+   "name": "PDF ke Gambar PNG",
+   "short": "PDF ke Gambar PNG – 100% Gratis",
+   "title": "PDF ke Gambar PNG – 100% Gratis | {brand}",
+   "desc": "PDF ke Gambar PNG. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF ke Gambar PNG",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF ke Gambar PNG?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pdf2ppt": {
+   "name": "PDF ke PowerPoint PPT",
+   "short": "PDF ke PowerPoint PPT – 100% Gratis",
+   "title": "PDF ke PowerPoint PPT – 100% Gratis | {brand}",
+   "desc": "PDF ke PowerPoint PPT. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF ke PowerPoint PPT",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF ke PowerPoint PPT?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "pdf2txt",
+   "short": "pdf2txt – 100% Gratis",
+   "title": "pdf2txt – 100% Gratis | {brand}",
+   "desc": "pdf2txt. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "pdf2txt",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan pdf2txt?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "PDF ke Word",
+   "short": "PDF ke Word – 100% Gratis",
+   "title": "PDF ke Word – 100% Gratis | {brand}",
+   "desc": "PDF ke Word. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PDF ke Word",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PDF ke Word?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "png2jpg": {
+   "name": "PNG ke JPG",
+   "short": "PNG ke JPG – 100% Gratis",
+   "title": "PNG ke JPG – 100% Gratis | {brand}",
+   "desc": "PNG ke JPG. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "PNG ke JPG",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan PNG ke JPG?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "protect": {
+   "name": "Kunci Password PDF",
+   "short": "Kunci Password PDF – 100% Gratis",
+   "title": "Kunci Password PDF – 100% Gratis | {brand}",
+   "desc": "Kunci Password PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Kunci Password PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Kunci Password PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "qr": {
+   "name": "Generator Kode QR",
+   "short": "Generator Kode QR – 100% Gratis",
+   "title": "Generator Kode QR – 100% Gratis | {brand}",
+   "desc": "Generator Kode QR. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Generator Kode QR",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Generator Kode QR?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "qrscan": {
+   "name": "Pemindai Scanner QR Code",
+   "short": "Pemindai Scanner QR Code – 100% Gratis",
+   "title": "Pemindai Scanner QR Code – 100% Gratis | {brand}",
+   "desc": "Pemindai Scanner QR Code. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Pemindai Scanner QR Code",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Pemindai Scanner QR Code?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "redact": {
+   "name": "Sensor Hitam Teks PDF",
+   "short": "Sensor Hitam Teks PDF – 100% Gratis",
+   "title": "Sensor Hitam Teks PDF – 100% Gratis | {brand}",
+   "desc": "Sensor Hitam Teks PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Sensor Hitam Teks PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Sensor Hitam Teks PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "Hapus Metadata Rahasia PDF",
+   "short": "Hapus Metadata Rahasia PDF – 100% Gratis",
+   "title": "Hapus Metadata Rahasia PDF – 100% Gratis | {brand}",
+   "desc": "Hapus Metadata Rahasia PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Hapus Metadata Rahasia PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Hapus Metadata Rahasia PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "Ubah Ukuran Kertas PDF",
+   "short": "Ubah Ukuran Kertas PDF – 100% Gratis",
+   "title": "Ubah Ukuran Kertas PDF – 100% Gratis | {brand}",
+   "desc": "Ubah Ukuran Kertas PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Ubah Ukuran Kertas PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Ubah Ukuran Kertas PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "Putar PDF",
+   "short": "Putar PDF – 100% Gratis",
+   "title": "Putar PDF – 100% Gratis | {brand}",
+   "desc": "Putar PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Putar PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Putar PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "sign": {
+   "name": "Tanda Tangan PDF",
+   "short": "Tanda Tangan PDF – 100% Gratis",
+   "title": "Tanda Tangan PDF – 100% Gratis | {brand}",
+   "desc": "Tanda Tangan PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Tanda Tangan PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Tanda Tangan PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "split": {
+   "name": "Pisahkan PDF",
+   "short": "Pisahkan PDF – 100% Gratis",
+   "title": "Pisahkan PDF – 100% Gratis | {brand}",
+   "desc": "Pisahkan PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Pisahkan PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Pisahkan PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Teks TXT ke PDF",
+   "short": "Teks TXT ke PDF – 100% Gratis",
+   "title": "Teks TXT ke PDF – 100% Gratis | {brand}",
+   "desc": "Teks TXT ke PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Teks TXT ke PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Teks TXT ke PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "Buka Kunci PDF",
+   "short": "Buka Kunci PDF – 100% Gratis",
+   "title": "Buka Kunci PDF – 100% Gratis | {brand}",
+   "desc": "Buka Kunci PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Buka Kunci PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Buka Kunci PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Tingkatkan Resolusi Foto AI",
+   "short": "Tingkatkan Resolusi Foto AI – 100% Gratis",
+   "title": "Tingkatkan Resolusi Foto AI – 100% Gratis | {brand}",
+   "desc": "Tingkatkan Resolusi Foto AI. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Tingkatkan Resolusi Foto AI",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Tingkatkan Resolusi Foto AI?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "video2mp3": {
+   "name": "Ekstrak Audio Video ke MP3",
+   "short": "Ekstrak Audio Video ke MP3 – 100% Gratis",
+   "title": "Ekstrak Audio Video ke MP3 – 100% Gratis | {brand}",
+   "desc": "Ekstrak Audio Video ke MP3. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Ekstrak Audio Video ke MP3",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Ekstrak Audio Video ke MP3?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Kompres Video",
+   "short": "Kompres Video – 100% Gratis",
+   "title": "Kompres Video – 100% Gratis | {brand}",
+   "desc": "Kompres Video. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Kompres Video",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Kompres Video?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "viewer": {
+   "name": "Pembaca PDF Online",
+   "short": "Pembaca PDF Online – 100% Gratis",
+   "title": "Pembaca PDF Online – 100% Gratis | {brand}",
+   "desc": "Pembaca PDF Online. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Pembaca PDF Online",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Pembaca PDF Online?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "Watermark PDF",
+   "short": "Watermark PDF – 100% Gratis",
+   "title": "Watermark PDF – 100% Gratis | {brand}",
+   "desc": "Watermark PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Watermark PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Watermark PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "webp2jpg": {
+   "name": "WebP ke JPG",
+   "short": "WebP ke JPG – 100% Gratis",
+   "title": "WebP ke JPG – 100% Gratis | {brand}",
+   "desc": "WebP ke JPG. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "WebP ke JPG",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan WebP ke JPG?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Word ke PDF",
+   "short": "Word ke PDF – 100% Gratis",
+   "title": "Word ke PDF – 100% Gratis | {brand}",
+   "desc": "Word ke PDF. File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server.",
+   "h1": "Word ke PDF",
+   "steps": [
+    "Pilih File",
+    "Pengaturan",
+    "Unduh"
+   ],
+   "faq": [
+    {
+     "q": "Cara Menggunakan Word ke PDF?",
+     "a": "File diproses secara lokal di browser Anda dan tidak pernah diunggah ke server. Tanpa Daftar."
+    }
+   ]
+  }
+ }
+}

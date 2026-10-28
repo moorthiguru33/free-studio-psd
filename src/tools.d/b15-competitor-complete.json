@@ -1,0 +1,283 @@
+[
+  {
+    "id": "wma2mp3",
+    "impl": "audioconv",
+    "slug": "wma-to-mp3",
+    "cat": "media",
+    "icon": "🎵",
+    "accept": ".wma,audio/x-ms-wma",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "mp3" }
+  },
+  {
+    "id": "aiff2mp3",
+    "impl": "audioconv",
+    "slug": "aiff-to-mp3",
+    "cat": "media",
+    "icon": "🎵",
+    "accept": ".aiff,.aif,audio/aiff",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "mp3" }
+  },
+  {
+    "id": "volumeboost",
+    "impl": "audioconv",
+    "slug": "audio-volume-booster",
+    "cat": "media",
+    "icon": "🔊",
+    "accept": "audio/*,.mp3,.wav,.m4a,.flac,.ogg",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "mp3", "kbps": "192" }
+  },
+  {
+    "id": "avi2mp4",
+    "impl": "videoedit",
+    "slug": "avi-to-mp4",
+    "cat": "media",
+    "icon": "🎬",
+    "accept": ".avi,video/x-msvideo",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "convert", "to": "mp4" }
+  },
+  {
+    "id": "wmv2mp4",
+    "impl": "videoedit",
+    "slug": "wmv-to-mp4",
+    "cat": "media",
+    "icon": "🎬",
+    "accept": ".wmv,video/x-ms-wmv",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "convert", "to": "mp4" }
+  },
+  {
+    "id": "flv2mp4",
+    "impl": "videoedit",
+    "slug": "flv-to-mp4",
+    "cat": "media",
+    "icon": "🎬",
+    "accept": ".flv,video/x-flv",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "convert", "to": "mp4" }
+  },
+  {
+    "id": "v3gp2mp4",
+    "impl": "videoedit",
+    "slug": "3gp-to-mp4",
+    "cat": "media",
+    "icon": "📱",
+    "accept": ".3gp,video/3gpp",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "convert", "to": "mp4" }
+  },
+  {
+    "id": "videoreels",
+    "impl": "videoedit",
+    "slug": "resize-video-for-reels",
+    "cat": "media",
+    "icon": "📐",
+    "accept": "video/*,.mp4,.mov,.mkv,.webm",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "crop" }
+  },
+  {
+    "id": "rar2zip",
+    "impl": "archive",
+    "slug": "rar-to-zip",
+    "cat": "data",
+    "icon": "📦",
+    "accept": ".rar,application/x-rar-compressed",
+    "multiple": true,
+    "enOnly": true
+  },
+  {
+    "id": "c7z2zip",
+    "impl": "archive",
+    "slug": "7z-to-zip",
+    "cat": "data",
+    "icon": "📦",
+    "accept": ".7z,application/x-7z-compressed",
+    "multiple": true,
+    "enOnly": true
+  },
+  {
+    "id": "tar2zip",
+    "impl": "archive",
+    "slug": "tar-to-zip",
+    "cat": "data",
+    "icon": "📦",
+    "accept": ".tar,.tar.gz,.tgz,.tar.xz,.tar.bz2",
+    "multiple": true,
+    "enOnly": true
+  },
+  {
+    "id": "cbr2pdf",
+    "impl": "comic",
+    "slug": "cbr-to-pdf",
+    "cat": "convert",
+    "icon": "📚",
+    "accept": ".cbr,.rar",
+    "multiple": false,
+    "enOnly": true
+  },
+  {
+    "id": "cbz2pdf",
+    "impl": "comic",
+    "slug": "cbz-to-pdf",
+    "cat": "convert",
+    "icon": "📚",
+    "accept": ".cbz,.zip",
+    "multiple": false,
+    "enOnly": true
+  },
+  {
+    "id": "dicom2jpg",
+    "impl": "dicom",
+    "slug": "dicom-to-jpg",
+    "cat": "image",
+    "icon": "🩻",
+    "accept": ".dcm,application/dicom",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "jpg" }
+  },
+  {
+    "id": "dicom2pdf",
+    "impl": "dicom",
+    "slug": "dicom-to-pdf",
+    "cat": "convert",
+    "icon": "🩻",
+    "accept": ".dcm,application/dicom",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "pdf" }
+  },
+  {
+    "id": "ai2pdf",
+    "impl": "anypdf",
+    "slug": "ai-to-pdf",
+    "cat": "convert",
+    "icon": "📄",
+    "accept": ".ai,application/illustrator",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "only": "ai" }
+  },
+  {
+    "id": "ai2png",
+    "impl": "pdf2jpg",
+    "slug": "ai-to-png",
+    "cat": "image",
+    "icon": "🖼",
+    "accept": ".ai,application/illustrator",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "to": "png" }
+  },
+  {
+    "id": "json2yaml",
+    "impl": "codeconv",
+    "slug": "json-to-yaml",
+    "cat": "data",
+    "icon": "⚙️",
+    "accept": ".json,application/json",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "json2yaml" }
+  },
+  {
+    "id": "yaml2json",
+    "impl": "codeconv",
+    "slug": "yaml-to-json",
+    "cat": "data",
+    "icon": "⚙️",
+    "accept": ".yaml,.yml,text/yaml",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "yaml2json" }
+  },
+  {
+    "id": "xml2json",
+    "impl": "codeconv",
+    "slug": "xml-to-json",
+    "cat": "data",
+    "icon": "⚙️",
+    "accept": ".xml,text/xml,application/xml",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "xml2json" }
+  },
+  {
+    "id": "json2xml",
+    "impl": "codeconv",
+    "slug": "json-to-xml",
+    "cat": "data",
+    "icon": "⚙️",
+    "accept": ".json,application/json",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "json2xml" }
+  },
+  {
+    "id": "csv2sql",
+    "impl": "codeconv",
+    "slug": "csv-to-sql",
+    "cat": "data",
+    "icon": "🗄️",
+    "accept": ".csv,text/csv",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "csv2sql" }
+  },
+  {
+    "id": "svgopt",
+    "impl": "codeconv",
+    "slug": "optimize-svg",
+    "cat": "image",
+    "icon": "✨",
+    "accept": ".svg,image/svg+xml",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "svgopt" }
+  },
+  {
+    "id": "raf2jpg",
+    "impl": "imgconvert",
+    "slug": "raf-to-jpg",
+    "cat": "image",
+    "icon": "📷",
+    "accept": ".raf",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "jpg" }
+  },
+  {
+    "id": "orf2jpg",
+    "impl": "imgconvert",
+    "slug": "orf-to-jpg",
+    "cat": "image",
+    "icon": "📷",
+    "accept": ".orf",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "jpg" }
+  },
+  {
+    "id": "rw22jpg",
+    "impl": "imgconvert",
+    "slug": "rw2-to-jpg",
+    "cat": "image",
+    "icon": "📷",
+    "accept": ".rw2",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "to": "jpg" }
+  }
+]

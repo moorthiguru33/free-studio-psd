@@ -1,0 +1,1024 @@
+{
+ "ui": {
+  "allTools": "Alle PDF-tools",
+  "select": "Bestanden kiezen",
+  "selectMany": "Bestanden kiezen",
+  "orDrop": "of sleep bestanden hierheen",
+  "drop": "Plaats bestanden hier",
+  "process": "Starten",
+  "download": "Downloaden",
+  "working": "Verwerken…",
+  "done": "Klaar! Uw bestand staat gereed.",
+  "error": "Er is een fout opgetreden:",
+  "another": "Opnieuw beginnen",
+  "privacy": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+  "howTo": "Handleiding",
+  "faq": "Veelgestelde vragen",
+  "related": "Gerelateerde tools",
+  "popularSearches": "Populaire zoekopdrachten",
+  "language": "Taal",
+  "footer": "Gratis online PDF-tools. Veilige lokale verwerking in uw browser.",
+  "ad": "Advertentie",
+  "beta": "Bèta",
+  "pages": "pagina's",
+  "remove": "Verwijderen",
+  "moveUp": "Omhoog",
+  "moveDown": "Omlaag",
+  "f1t": "Volledig gratis",
+  "f1d": "Geen verborgen kosten, geen dagelijkse limieten, geen watermerken.",
+  "f2t": "Volledige privacy",
+  "f2d": "Alles draait op uw apparaat. Bestanden worden niet verstuurd.",
+  "f3t": "Snel en overal bruikbaar",
+  "f3d": "Werkt op smartphone, tablet en computer zonder installatie.",
+  "stepUpload": "Uploaden",
+  "stepOptions": "Opties",
+  "stepDownload": "Downloaden",
+  "tFree": "100% gratis",
+  "tNoSign": "Geen account nodig",
+  "tNoLimit": "Onbeperkt",
+  "tLocal": "Bestanden blijven lokaal",
+  "privH": "Uw privacy staat bij ons voorop",
+  "privHnf": "100% Veilig en privé",
+  "privP": "Alle bestandsverwerking vindt lokaal plaats in uw eigen webbrowser.",
+  "privPnf": "Er worden geen gegevens naar externe servers gestuurd.",
+  "privL1b": "Geen upload:",
+  "privL1": "Uw bestanden verlaten uw apparaat nooit.",
+  "privL2b": "Geen gegevensopslag:",
+  "privL2": "Wij bewaren en bekijken uw documenten niet.",
+  "privL3b": "Internationale standaarden:",
+  "privL3": "Volledig in overeenstemming met de AVG (GDPR).",
+  "whyTitle": "Waarom kiezen voor {brand}",
+  "cmpThem": "Andere online diensten",
+  "cmpRow1": "Server upload",
+  "cmpRow1us": "0 uploads (lokaal in browser)",
+  "cmpRow1them": "Bestanden gaan naar externe servers",
+  "cmpRow2": "Gebruikslimieten",
+  "cmpRow2us": "Onbeperkt en gratis",
+  "cmpRow2them": "Uurlimieten of betaalmuur",
+  "cmpRow3": "Documentprivacy",
+  "cmpRow3us": "100% op uw eigen apparaat",
+  "cmpRow3them": "Opgeslagen op cloud van derden",
+  "cmpRow4": "Watermerk",
+  "cmpRow4us": "Geen watermerken",
+  "cmpRow4them": "Watermerk tenzij u betaalt",
+  "cmpRow5": "Registratieplicht",
+  "cmpRow5us": "Geen account vereist",
+  "cmpRow5them": "E-mail of login verplicht",
+  "cmpRow6": "Offline werking",
+  "cmpRow6us": "Werkt ook zonder internet",
+  "cmpRow6them": "Vereist continue internetverbinding",
+  "usesTitle": "Veelvoorkomende toepassingen",
+  "tipsTitle": "Handige tips",
+  "updLabel": "Bijgewerkt op",
+  "updBy": "Het {brand}-team",
+  "crumbHome": "Home",
+  "catAll": "Alle functies",
+  "catOther": "Andere categorieën",
+  "e404t": "Pagina niet gevonden",
+  "e404d": "De pagina die u zoekt bestaat niet of is verplaatst.",
+  "searchPh": "Zoek tools…",
+  "noResults": "Geen tools gevonden",
+  "tagline": "Alle PDF-tools die u nodig heeft. 100% gratis en privé in uw eigen browser.",
+  "heroSub": "Voeg samen, splits, comprimeer, converteer, onderteken en bewerk PDF's zonder registratie, limieten of watermerken. Uw bestanden verlaten uw apparaat nooit.",
+  "searchTitle": "Zoek tools",
+  "searchDesc": "Doorzoek alle gratis tools voor PDF, afbeeldingen, audio en video. Alles werkt veilig lokaal in uw browser.",
+  "catTitle": "Gratis online {cat} tools | {brand}",
+  "catDesc": "Alle gratis tools van {brand} voor {cat}: {list} en meer. Werkt direct in uw browser zonder registratie of upload.",
+  "catLead": "{n} Gratis online {cat} tools",
+  "cat_organize": "Organiseren",
+  "cat_edit": "Bewerken & annoteren",
+  "cat_convert": "Converteren",
+  "cat_optimize": "Optimaliseren",
+  "cat_security": "Beveiliging",
+  "cat_image": "Afbeeldingen",
+  "cat_qr": "QR-codes",
+  "cat_ai": "AI-tools",
+  "cat_media": "Audio & Video",
+  "cat_data": "Gegevens & Tabellen",
+  "cat_units": "Eenheden omrekenen",
+  "cat_calc": "Rekenmachines",
+  "cat_text": "Teksttools",
+  "cat_dev": "Ontwikkelaars",
+  "cat_fun": "Ontspanning",
+  "cat_web": "Webtools",
+  "cat_prod": "Productiviteit",
+  "cat_more": "Overig"
+ },
+ "home": {
+  "title": "Gratis online PDF- en bestandstools | {brand}",
+  "desc": "Voeg samen, comprimeer en converteer PDF's en afbeeldingen gratis in uw browser. Zonder uploads en met volledige privacygarantie.",
+  "h1": "Gratis online bestandstools die uw privacy respecteren"
+ },
+ "commonFaq": [
+  {
+   "q": "Volledig gratis?",
+   "a": "Geen verborgen kosten, geen dagelijkse limieten, geen watermerken. Alles draait op uw apparaat. Bestanden worden niet verstuurd."
+  },
+  {
+   "q": "Volledige privacy?",
+   "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Uw bestanden verlaten uw apparaat nooit."
+  }
+ ],
+ "tools": {
+  "audiocut": {
+   "name": "Audio knippen bijsnijden",
+   "short": "Audio knippen bijsnijden – 100% gratis",
+   "title": "Audio knippen bijsnijden – 100% gratis | {brand}",
+   "desc": "Audio knippen bijsnijden. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Audio knippen bijsnijden",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Audio knippen bijsnijden?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "bgremove": {
+   "name": "Achtergrond verwijderen foto AI",
+   "short": "Achtergrond verwijderen foto AI – 100% gratis",
+   "title": "Achtergrond verwijderen foto AI – 100% gratis | {brand}",
+   "desc": "Achtergrond verwijderen foto AI. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Achtergrond verwijderen foto AI",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Achtergrond verwijderen foto AI?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "collage": {
+   "name": "Fotocollage maken",
+   "short": "Fotocollage maken – 100% gratis",
+   "title": "Fotocollage maken – 100% gratis | {brand}",
+   "desc": "Fotocollage maken. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Fotocollage maken",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Fotocollage maken?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "compare": {
+   "name": "PDF bestanden vergelijken",
+   "short": "PDF bestanden vergelijken – 100% gratis",
+   "title": "PDF bestanden vergelijken – 100% gratis | {brand}",
+   "desc": "PDF bestanden vergelijken. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF bestanden vergelijken",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF bestanden vergelijken?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "compress": {
+   "name": "PDF comprimeren verkleinen",
+   "short": "PDF comprimeren verkleinen – 100% gratis",
+   "title": "PDF comprimeren verkleinen – 100% gratis | {brand}",
+   "desc": "PDF comprimeren verkleinen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF comprimeren verkleinen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF comprimeren verkleinen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "crop": {
+   "name": "PDF pagina's bijsnijden",
+   "short": "PDF pagina's bijsnijden – 100% gratis",
+   "title": "PDF pagina's bijsnijden – 100% gratis | {brand}",
+   "desc": "PDF pagina's bijsnijden. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF pagina's bijsnijden",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF pagina's bijsnijden?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "PDF pagina's verwijderen",
+   "short": "PDF pagina's verwijderen – 100% gratis",
+   "title": "PDF pagina's verwijderen – 100% gratis | {brand}",
+   "desc": "PDF pagina's verwijderen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF pagina's verwijderen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF pagina's verwijderen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "edit": {
+   "name": "PDF bewerken online",
+   "short": "PDF bewerken online – 100% gratis",
+   "title": "PDF bewerken online – 100% gratis | {brand}",
+   "desc": "PDF bewerken online. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF bewerken online",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF bewerken online?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "excel2pdf": {
+   "name": "Excel naar PDF omzetten",
+   "short": "Excel naar PDF omzetten – 100% gratis",
+   "title": "Excel naar PDF omzetten – 100% gratis | {brand}",
+   "desc": "Excel naar PDF omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Excel naar PDF omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Excel naar PDF omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "PDF pagina's extraheren",
+   "short": "PDF pagina's extraheren – 100% gratis",
+   "title": "PDF pagina's extraheren – 100% gratis | {brand}",
+   "desc": "PDF pagina's extraheren. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF pagina's extraheren",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF pagina's extraheren?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "PDF formulieren afvlakken",
+   "short": "PDF formulieren afvlakken – 100% gratis",
+   "title": "PDF formulieren afvlakken – 100% gratis | {brand}",
+   "desc": "PDF formulieren afvlakken. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF formulieren afvlakken",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF formulieren afvlakken?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "PDF zwart-wit maken",
+   "short": "PDF zwart-wit maken – 100% gratis",
+   "title": "PDF zwart-wit maken – 100% gratis | {brand}",
+   "desc": "PDF zwart-wit maken. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF zwart-wit maken",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF zwart-wit maken?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "heic2jpg": {
+   "name": "HEIC naar JPG",
+   "short": "HEIC naar JPG – 100% gratis",
+   "title": "HEIC naar JPG – 100% gratis | {brand}",
+   "desc": "HEIC naar JPG. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "HEIC naar JPG",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding HEIC naar JPG?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "imgcompress": {
+   "name": "Foto's comprimeren verkleinen",
+   "short": "Foto's comprimeren verkleinen – 100% gratis",
+   "title": "Foto's comprimeren verkleinen – 100% gratis | {brand}",
+   "desc": "Foto's comprimeren verkleinen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Foto's comprimeren verkleinen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Foto's comprimeren verkleinen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "imgconvert": {
+   "name": "Afbeeldingen converteren",
+   "short": "Afbeeldingen converteren – 100% gratis",
+   "title": "Afbeeldingen converteren – 100% gratis | {brand}",
+   "desc": "Afbeeldingen converteren. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Afbeeldingen converteren",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Afbeeldingen converteren?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "imgcrop": {
+   "name": "Foto bijsnijden",
+   "short": "Foto bijsnijden – 100% gratis",
+   "title": "Foto bijsnijden – 100% gratis | {brand}",
+   "desc": "Foto bijsnijden. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Foto bijsnijden",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Foto bijsnijden?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "imgresize": {
+   "name": "Afbeeldingsformaat wijzigen",
+   "short": "Afbeeldingsformaat wijzigen – 100% gratis",
+   "title": "Afbeeldingsformaat wijzigen – 100% gratis | {brand}",
+   "desc": "Afbeeldingsformaat wijzigen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Afbeeldingsformaat wijzigen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Afbeeldingsformaat wijzigen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "JPG naar PDF converteren",
+   "short": "JPG naar PDF converteren – 100% gratis",
+   "title": "JPG naar PDF converteren – 100% gratis | {brand}",
+   "desc": "JPG naar PDF converteren. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "JPG naar PDF converteren",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding JPG naar PDF converteren?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "jpg2png": {
+   "name": "JPG naar transparant PNG",
+   "short": "JPG naar transparant PNG – 100% gratis",
+   "title": "JPG naar transparant PNG – 100% gratis | {brand}",
+   "desc": "JPG naar transparant PNG. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "JPG naar transparant PNG",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding JPG naar transparant PNG?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "merge": {
+   "name": "PDF samenvoegen",
+   "short": "PDF samenvoegen – 100% gratis",
+   "title": "PDF samenvoegen – 100% gratis | {brand}",
+   "desc": "PDF samenvoegen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF samenvoegen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF samenvoegen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "Tekst herkennen uit afbeelding OCR",
+   "short": "Tekst herkennen uit afbeelding OCR – 100% gratis",
+   "title": "Tekst herkennen uit afbeelding OCR – 100% gratis | {brand}",
+   "desc": "Tekst herkennen uit afbeelding OCR. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Tekst herkennen uit afbeelding OCR",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Tekst herkennen uit afbeelding OCR?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "Gescande PDF doorzoekbaar maken",
+   "short": "Gescande PDF doorzoekbaar maken – 100% gratis",
+   "title": "Gescande PDF doorzoekbaar maken – 100% gratis | {brand}",
+   "desc": "Gescande PDF doorzoekbaar maken. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Gescande PDF doorzoekbaar maken",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Gescande PDF doorzoekbaar maken?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "organize": {
+   "name": "PDF pagina's ordenen",
+   "short": "PDF pagina's ordenen – 100% gratis",
+   "title": "PDF pagina's ordenen – 100% gratis | {brand}",
+   "desc": "PDF pagina's ordenen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF pagina's ordenen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF pagina's ordenen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "Paginanummers toevoegen aan PDF",
+   "short": "Paginanummers toevoegen aan PDF – 100% gratis",
+   "title": "Paginanummers toevoegen aan PDF – 100% gratis | {brand}",
+   "desc": "Paginanummers toevoegen aan PDF. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Paginanummers toevoegen aan PDF",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Paginanummers toevoegen aan PDF?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Veilig wachtwoord genereren",
+   "short": "Veilig wachtwoord genereren – 100% gratis",
+   "title": "Veilig wachtwoord genereren – 100% gratis | {brand}",
+   "desc": "Veilig wachtwoord genereren. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Veilig wachtwoord genereren",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Veilig wachtwoord genereren?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pdf2excel": {
+   "name": "PDF naar Excel spreadsheet",
+   "short": "PDF naar Excel spreadsheet – 100% gratis",
+   "title": "PDF naar Excel spreadsheet – 100% gratis | {brand}",
+   "desc": "PDF naar Excel spreadsheet. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF naar Excel spreadsheet",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF naar Excel spreadsheet?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "PDF naar JPG omzetten",
+   "short": "PDF naar JPG omzetten – 100% gratis",
+   "title": "PDF naar JPG omzetten – 100% gratis | {brand}",
+   "desc": "PDF naar JPG omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF naar JPG omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF naar JPG omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pdf2png": {
+   "name": "PDF naar PNG afbeeldingen",
+   "short": "PDF naar PNG afbeeldingen – 100% gratis",
+   "title": "PDF naar PNG afbeeldingen – 100% gratis | {brand}",
+   "desc": "PDF naar PNG afbeeldingen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF naar PNG afbeeldingen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF naar PNG afbeeldingen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pdf2ppt": {
+   "name": "PDF naar PowerPoint presentatie",
+   "short": "PDF naar PowerPoint presentatie – 100% gratis",
+   "title": "PDF naar PowerPoint presentatie – 100% gratis | {brand}",
+   "desc": "PDF naar PowerPoint presentatie. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF naar PowerPoint presentatie",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF naar PowerPoint presentatie?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "PDF naar tekst TXT",
+   "short": "PDF naar tekst TXT – 100% gratis",
+   "title": "PDF naar tekst TXT – 100% gratis | {brand}",
+   "desc": "PDF naar tekst TXT. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF naar tekst TXT",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF naar tekst TXT?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "PDF naar Word omzetten",
+   "short": "PDF naar Word omzetten – 100% gratis",
+   "title": "PDF naar Word omzetten – 100% gratis | {brand}",
+   "desc": "PDF naar Word omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF naar Word omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF naar Word omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "png2jpg": {
+   "name": "PNG naar JPG omzetten",
+   "short": "PNG naar JPG omzetten – 100% gratis",
+   "title": "PNG naar JPG omzetten – 100% gratis | {brand}",
+   "desc": "PNG naar JPG omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PNG naar JPG omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PNG naar JPG omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "protect": {
+   "name": "PDF beveiligen met wachtwoord",
+   "short": "PDF beveiligen met wachtwoord – 100% gratis",
+   "title": "PDF beveiligen met wachtwoord – 100% gratis | {brand}",
+   "desc": "PDF beveiligen met wachtwoord. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF beveiligen met wachtwoord",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF beveiligen met wachtwoord?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "qr": {
+   "name": "QR-code generator maken",
+   "short": "QR-code generator maken – 100% gratis",
+   "title": "QR-code generator maken – 100% gratis | {brand}",
+   "desc": "QR-code generator maken. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "QR-code generator maken",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding QR-code generator maken?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "qrscan": {
+   "name": "QR-code scanner lezer",
+   "short": "QR-code scanner lezer – 100% gratis",
+   "title": "QR-code scanner lezer – 100% gratis | {brand}",
+   "desc": "QR-code scanner lezer. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "QR-code scanner lezer",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding QR-code scanner lezer?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "redact": {
+   "name": "Gevoelige tekst zwart lakken PDF",
+   "short": "Gevoelige tekst zwart lakken PDF – 100% gratis",
+   "title": "Gevoelige tekst zwart lakken PDF – 100% gratis | {brand}",
+   "desc": "Gevoelige tekst zwart lakken PDF. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Gevoelige tekst zwart lakken PDF",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Gevoelige tekst zwart lakken PDF?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "Verborgen metadata uit PDF wissen",
+   "short": "Verborgen metadata uit PDF wissen – 100% gratis",
+   "title": "Verborgen metadata uit PDF wissen – 100% gratis | {brand}",
+   "desc": "Verborgen metadata uit PDF wissen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Verborgen metadata uit PDF wissen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Verborgen metadata uit PDF wissen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "PDF papierformaat wijzigen",
+   "short": "PDF papierformaat wijzigen – 100% gratis",
+   "title": "PDF papierformaat wijzigen – 100% gratis | {brand}",
+   "desc": "PDF papierformaat wijzigen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF papierformaat wijzigen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF papierformaat wijzigen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "PDF pagina's draaien",
+   "short": "PDF pagina's draaien – 100% gratis",
+   "title": "PDF pagina's draaien – 100% gratis | {brand}",
+   "desc": "PDF pagina's draaien. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF pagina's draaien",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF pagina's draaien?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "sign": {
+   "name": "PDF digitaal ondertekenen",
+   "short": "PDF digitaal ondertekenen – 100% gratis",
+   "title": "PDF digitaal ondertekenen – 100% gratis | {brand}",
+   "desc": "PDF digitaal ondertekenen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF digitaal ondertekenen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF digitaal ondertekenen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "split": {
+   "name": "PDF splitsen",
+   "short": "PDF splitsen – 100% gratis",
+   "title": "PDF splitsen – 100% gratis | {brand}",
+   "desc": "PDF splitsen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF splitsen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF splitsen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Tekst TXT naar PDF omzetten",
+   "short": "Tekst TXT naar PDF omzetten – 100% gratis",
+   "title": "Tekst TXT naar PDF omzetten – 100% gratis | {brand}",
+   "desc": "Tekst TXT naar PDF omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Tekst TXT naar PDF omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Tekst TXT naar PDF omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "PDF wachtwoord verwijderen",
+   "short": "PDF wachtwoord verwijderen – 100% gratis",
+   "title": "PDF wachtwoord verwijderen – 100% gratis | {brand}",
+   "desc": "PDF wachtwoord verwijderen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF wachtwoord verwijderen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF wachtwoord verwijderen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Foto resolutie verhogen AI",
+   "short": "Foto resolutie verhogen AI – 100% gratis",
+   "title": "Foto resolutie verhogen AI – 100% gratis | {brand}",
+   "desc": "Foto resolutie verhogen AI. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Foto resolutie verhogen AI",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Foto resolutie verhogen AI?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "video2mp3": {
+   "name": "Audio MP3 uit video halen",
+   "short": "Audio MP3 uit video halen – 100% gratis",
+   "title": "Audio MP3 uit video halen – 100% gratis | {brand}",
+   "desc": "Audio MP3 uit video halen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Audio MP3 uit video halen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Audio MP3 uit video halen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Video comprimeren verkleinen",
+   "short": "Video comprimeren verkleinen – 100% gratis",
+   "title": "Video comprimeren verkleinen – 100% gratis | {brand}",
+   "desc": "Video comprimeren verkleinen. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Video comprimeren verkleinen",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Video comprimeren verkleinen?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "viewer": {
+   "name": "PDF lezer viewer online",
+   "short": "PDF lezer viewer online – 100% gratis",
+   "title": "PDF lezer viewer online – 100% gratis | {brand}",
+   "desc": "PDF lezer viewer online. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "PDF lezer viewer online",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding PDF lezer viewer online?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "Watermerk toevoegen aan PDF",
+   "short": "Watermerk toevoegen aan PDF – 100% gratis",
+   "title": "Watermerk toevoegen aan PDF – 100% gratis | {brand}",
+   "desc": "Watermerk toevoegen aan PDF. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Watermerk toevoegen aan PDF",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Watermerk toevoegen aan PDF?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "webp2jpg": {
+   "name": "WebP naar JPG omzetten",
+   "short": "WebP naar JPG omzetten – 100% gratis",
+   "title": "WebP naar JPG omzetten – 100% gratis | {brand}",
+   "desc": "WebP naar JPG omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "WebP naar JPG omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding WebP naar JPG omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Word naar PDF omzetten",
+   "short": "Word naar PDF omzetten – 100% gratis",
+   "title": "Word naar PDF omzetten – 100% gratis | {brand}",
+   "desc": "Word naar PDF omzetten. Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload.",
+   "h1": "Word naar PDF omzetten",
+   "steps": [
+    "Uploaden",
+    "Opties",
+    "Downloaden"
+   ],
+   "faq": [
+    {
+     "q": "Handleiding Word naar PDF omzetten?",
+     "a": "Bestanden worden lokaal in uw browser verwerkt en nooit naar een server geüpload. Geen account nodig."
+    }
+   ]
+  }
+ }
+}

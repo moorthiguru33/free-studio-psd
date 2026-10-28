@@ -1,0 +1,111 @@
+[
+  {
+    "id": "reverseaudio",
+    "impl": "audiofx",
+    "slug": "reverse-audio",
+    "cat": "media",
+    "icon": "⏪",
+    "accept": ".mp3,.wav,.ogg,.m4a,.flac,audio/*",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "reverse" }
+  },
+  {
+    "id": "karaoke",
+    "impl": "audiofx",
+    "slug": "vocal-remover-karaoke",
+    "cat": "media",
+    "icon": "🎤",
+    "accept": ".mp3,.wav,.ogg,.m4a,.flac,audio/*",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "karaoke" }
+  },
+  {
+    "id": "nightcore",
+    "impl": "audiofx",
+    "slug": "nightcore-audio-generator",
+    "cat": "media",
+    "icon": "⚡",
+    "accept": ".mp3,.wav,.ogg,.m4a,.flac,audio/*",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "nightcore" }
+  },
+  {
+    "id": "scanqr",
+    "impl": "qrread",
+    "slug": "scan-qr-code-image",
+    "cat": "qr",
+    "icon": "📷",
+    "accept": "image/*",
+    "multiple": false,
+    "enOnly": true
+  },
+  {
+    "id": "cbr2cbz",
+    "impl": "comic",
+    "slug": "cbr-to-cbz",
+    "cat": "convert",
+    "icon": "📚",
+    "accept": ".cbr",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "cbr2cbz" }
+  },
+  {
+    "id": "html2md",
+    "impl": "codeconv",
+    "slug": "html-to-markdown",
+    "cat": "convert",
+    "icon": "📝",
+    "accept": ".html,.htm,text/html",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "html2md" }
+  },
+  {
+    "id": "jsondiff",
+    "impl": "codeconv",
+    "slug": "json-diff-comparator",
+    "cat": "dev",
+    "icon": "🔍",
+    "accept": ".json,application/json",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "jsondiff" }
+  },
+  {
+    "id": "vtt2srt",
+    "impl": "creator",
+    "slug": "vtt-to-srt-converter",
+    "cat": "media",
+    "icon": "💬",
+    "accept": ".vtt,.srt,text/plain",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "subtitles", "subdir": "vtt2srt" }
+  },
+  {
+    "id": "csv2tsv",
+    "impl": "codeconv",
+    "slug": "csv-to-tsv-converter",
+    "cat": "data",
+    "icon": "📑",
+    "accept": ".csv,text/csv",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "csv2tsv" }
+  },
+  {
+    "id": "tsv2csv",
+    "impl": "codeconv",
+    "slug": "tsv-to-csv-converter",
+    "cat": "data",
+    "icon": "📄",
+    "accept": ".tsv,text/tab-separated-values",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "tsv2csv" }
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "tools": {
+    "ilovepdf-alt": {
+      "name": "Free iLovePDF Alternative",
+      "short": "100% free alternative to iLovePDF without daily limits or paywalls.",
+      "title": "Free iLovePDF Alternative Online – Unlimited & No Signup | {brand}",
+      "desc": "Looking for an iLovePDF alternative? Enjoy 100% free, unlimited PDF merging, compression, editing, and conversion without subscriptions or server uploads.",
+      "h1": "Free iLovePDF Alternative (Unlimited & Private)",
+      "steps": [
+        "Select your PDF, document, or image files.",
+        "Choose your desired output or conversion settings.",
+        "Download your processed files instantly without any daily limits."
+      ],
+      "faq": [
+        {
+          "q": "Why use Fileopia instead of iLovePDF?",
+          "a": "Unlike iLovePDF which limits free users to 2-3 files per day and locks advanced features behind a $7/month paywall, Fileopia is 100% free and unlimited. Furthermore, your files are processed entirely in your browser and are never uploaded to our servers."
+        },
+        {
+          "q": "Is there any file size limit?",
+          "a": "No server file limits! Since Fileopia runs on your device, you can process large PDFs without server timeouts."
+        }
+      ]
+    },
+    "smallpdf-alt": {
+      "name": "Free Smallpdf Alternative",
+      "short": "Unlimited free alternative to Smallpdf with no 2-task limit.",
+      "title": "Free Smallpdf Alternative Online – No Daily Limits | {brand}",
+      "desc": "The best free alternative to Smallpdf. Merge, split, compress, and edit PDFs without 2-task limits, watermarks, or credit card requirements.",
+      "h1": "Free Smallpdf Alternative",
+      "steps": [
+        "Upload or drag your files into the workspace.",
+        "Select conversion or document options.",
+        "Download instantly with zero restrictions."
+      ],
+      "faq": [
+        {
+          "q": "Does this tool stop working after 2 tasks like Smallpdf?",
+          "a": "No! You can process unlimited files all day long without any artificial timer or countdown."
+        }
+      ]
+    },
+    "adobe-acrobat-alt": {
+      "name": "Free Adobe Acrobat Alternative",
+      "short": "Free online alternative to Adobe Acrobat Pro without sign-in.",
+      "title": "Free Adobe Acrobat Alternative Online – No Login | {brand}",
+      "desc": "Free online alternative to Adobe Acrobat DC. Edit, compress, convert, and sign PDF documents directly in your browser without Adobe account or subscription.",
+      "h1": "Free Adobe Acrobat Alternative",
+      "steps": [
+        "Choose your PDF document.",
+        "Select actions: edit, compress, convert, or organize.",
+        "Save your PDF without watermarks or login prompts."
+      ],
+      "faq": [
+        {
+          "q": "Do I need an Adobe Creative Cloud subscription?",
+          "a": "No subscription and no account needed. All tools are 100% free."
+        }
+      ]
+    },
+    "sejda-alt": {
+      "name": "Free Sejda Alternative",
+      "short": "Free alternative to Sejda without 3-tasks/hour or 50MB limits.",
+      "title": "Free Sejda Alternative Online – No Hourly Limits | {brand}",
+      "desc": "Process PDFs without Sejda's 3 tasks per hour or 50MB file size limit. 100% free, client-side, and private.",
+      "h1": "Free Sejda Alternative",
+      "steps": [
+        "Drop your PDF files here.",
+        "Configure options according to your requirements.",
+        "Download your finished files immediately."
+      ],
+      "faq": [
+        {
+          "q": "Are there hourly task limits?",
+          "a": "No hourly limits, no 50MB limits, and no page count limits."
+        }
+      ]
+    },
+    "convertio-alt": {
+      "name": "Free Convertio Alternative",
+      "short": "Convert files without Convertio's 100MB free cap.",
+      "title": "Free Convertio Alternative Online – No 100MB Limit | {brand}",
+      "desc": "Unlimited file converter alternative to Convertio. Convert PDFs, images, and documents without 100MB file size restrictions or daily countdowns.",
+      "h1": "Free Convertio Alternative",
+      "steps": [
+        "Select the files you wish to convert.",
+        "Choose your target format.",
+        "Save your converted files directly to your device."
+      ],
+      "faq": [
+        {
+          "q": "Can I convert files larger than 100MB?",
+          "a": "Yes! Because conversions occur locally in your browser, you are not capped by server file size limits."
+        }
+      ]
+    },
+    "cloudconvert-alt": {
+      "name": "Free CloudConvert Alternative",
+      "short": "Free alternative to CloudConvert without 25 conversion minutes limit.",
+      "title": "Free CloudConvert Alternative Online – Unlimited | {brand}",
+      "desc": "Convert unlimited files for free without CloudConvert's 25 conversion minutes daily cap. Fast, private, and client-side.",
+      "h1": "Free CloudConvert Alternative",
+      "steps": [
+        "Select your source files.",
+        "Pick desired conversion settings.",
+        "Download your converted documents instantly."
+      ],
+      "faq": [
+        {
+          "q": "Are there daily conversion minute quotas?",
+          "a": "None whatsoever. Convert as many files as you need."
+        }
+      ]
+    },
+    "tinywow-alt": {
+      "name": "Free TinyWow Alternative",
+      "short": "Free alternative to TinyWow without captchas or 15-second delays.",
+      "title": "Free TinyWow Alternative Online – Fast & No Captchas | {brand}",
+      "desc": "Fast, clean alternative to TinyWow. Process PDFs, images, and media instantly without Cloudflare captcha loops or 15-second artificial waiting screens.",
+      "h1": "Free TinyWow Alternative",
+      "steps": [
+        "Upload your files.",
+        "Apply conversion or editing options.",
+        "Download immediately with zero delay."
+      ],
+      "faq": [
+        {
+          "q": "Why is Fileopia faster than TinyWow?",
+          "a": "TinyWow forces users through Cloudflare verification and 15-second artificial wait timers to show ads. Fileopia processes files instantly on your device with no waiting."
+        }
+      ]
+    },
+    "usvisaphoto": {
+      "name": "US Visa & Passport Photo Resizer",
+      "short": "Crop and resize photo for US Visa (DS-160) and US Passport.",
+      "title": "US Visa Photo Resizer Online 2x2 Inch 600x600 px | {brand}",
+      "desc": "Create official 2x2 inch (51x51mm) 600x600 px photo for US Visa (DS-160, DS-260) and US Passport. 100% compliant with US Department of State guidelines.",
+      "h1": "US Visa & Passport Photo Resizer (2×2 in / 600×600 px)",
+      "steps": [
+        "Upload a clear front-facing portrait photo.",
+        "Adjust head guide so face occupies 50% to 69% of the height.",
+        "Download official 2×2 inch 300 DPI image or printable sheet."
+      ],
+      "faq": [
+        {
+          "q": "Does this meet US State Department DS-160 specifications?",
+          "a": "Yes! It outputs exact 600×600 pixels (or 2×2 inches at 300 DPI) with white background alignment compliant with DS-160 and US Passport standards."
+        }
+      ]
+    },
+    "dvlotteryphoto": {
+      "name": "DV Lottery Photo Checker & Resizer",
+      "short": "Prepare official photo for US Diversity Visa Green Card Lottery.",
+      "title": "DV Lottery Photo Tool Online – 600x600 px Green Card | {brand}",
+      "desc": "Free DV Lottery photo tool to check and resize your photo to exact 600x600 px 24-bit color specs for the US Green Card Diversity Visa Lottery.",
+      "h1": "DV Lottery Photo Tool (Green Card Compliance)",
+      "steps": [
+        "Select your portrait photo.",
+        "Align head between 1 inch and 1 3/8 inches (50% to 69% total height).",
+        "Download the validated 600×600 px JPEG for electronic submission."
+      ],
+      "faq": [
+        {
+          "q": "What are the DV Lottery photo requirements?",
+          "a": "The photo must be 600×600 pixels, square aspect ratio, color (24 bits per pixel), JPEG format, under 240 KB, with neutral expression on plain white background."
+        }
+      ]
+    },
+    "schengenvisaphoto": {
+      "name": "Schengen Visa Photo Resizer",
+      "short": "Crop photo to official 35x45 mm Schengen European Visa format.",
+      "title": "Schengen Visa Photo Resizer 35x45 mm Online Free | {brand}",
+      "desc": "Resize and crop photo to official 35x45 mm specifications for European Schengen Visa. Includes 70-80% face height guideline.",
+      "h1": "Schengen Visa Photo Resizer (35×45 mm)",
+      "steps": [
+        "Upload your portrait photograph.",
+        "Align face so it covers 32 mm to 36 mm (70%–80%) of photo height.",
+        "Download 35×45 mm single JPG or printable A4 / 4×6 photo sheet."
+      ],
+      "faq": [
+        {
+          "q": "Which countries accept Schengen 35×45 mm photos?",
+          "a": "All 29 Schengen member countries including France, Germany, Italy, Spain, Switzerland, Netherlands, and Greece."
+        }
+      ]
+    },
+    "canadavisa": {
+      "name": "Canada Visa & Passport Photo Resizer",
+      "short": "Format photo to official 50x70 mm Canadian IRCC specifications.",
+      "title": "Canada Visa Photo Resizer 50x70 mm Online Free | {brand}",
+      "desc": "Resize photo to 50x70 mm for Canada Visitor Visa, Study Permit, Work Permit, and Passport. Fully compliant with IRCC requirements.",
+      "h1": "Canada Visa & Passport Photo Resizer (50×70 mm)",
+      "steps": [
+        "Select your photo.",
+        "Align face between 31 mm and 36 mm according to IRCC guides.",
+        "Download 50×70 mm compliant photo ready for submission."
+      ],
+      "faq": [
+        {
+          "q": "What is the exact size for Canadian passport and visa photos?",
+          "a": "The photo must be 50 mm wide by 70 mm high (2 inches wide by 2 3/4 inches high) with face height between 31 mm and 36 mm."
+        }
+      ]
+    },
+    "ukvisaphoto": {
+      "name": "UK Visa Photo Resizer",
+      "short": "Crop photo to official 35x45 mm UK Visas and Immigration specs.",
+      "title": "UK Visa Photo Resizer 35x45 mm Online Free | {brand}",
+      "desc": "Create compliant 35x45 mm digital photo for UK Visa and British Passport applications. Free, private, and instant.",
+      "h1": "UK Visa & Passport Photo Resizer (35×45 mm)",
+      "steps": [
+        "Upload your portrait photo.",
+        "Position head between 29 mm and 34 mm (crown to chin).",
+        "Download digital photo or 35×45 mm print sheet."
+      ],
+      "faq": [
+        {
+          "q": "Does this meet UKVI (UK Visas & Immigration) standards?",
+          "a": "Yes! It formats your image to standard 35×45 mm at 300 DPI with plain cream or light grey background support."
+        }
+      ]
+    },
+    "australiavisaphoto": {
+      "name": "Australia Visa Photo Resizer",
+      "short": "Crop photo to official 35x45 mm Australian visa requirements.",
+      "title": "Australia Visa Photo Resizer 35x45 mm Online Free | {brand}",
+      "desc": "Resize photo to 35x45 mm for Australian Visa and Passport applications. Meets Department of Home Affairs guidelines.",
+      "h1": "Australia Visa Photo Resizer (35×45 mm)",
+      "steps": [
+        "Upload your portrait image.",
+        "Verify head size between 32 mm and 36 mm.",
+        "Download 35×45 mm high-resolution photo."
+      ],
+      "faq": [
+        {
+          "q": "What are Australian visa photo dimensions?",
+          "a": "35 mm to 40 mm wide and 45 mm to 50 mm high, with chin-to-crown measurement between 32 mm and 36 mm."
+        }
+      ]
+    },
+    "pdfemail": {
+      "name": "Compress PDF for Email",
+      "short": "Compress large PDFs to under 20MB for Gmail, Outlook, and Yahoo.",
+      "title": "Compress PDF for Email Online Free – Under 20MB | {brand}",
+      "desc": "Compress PDF files to send via email attachments. Shrink large documents below Gmail (25MB) and Outlook (20MB) limits without losing text clarity.",
+      "h1": "Compress PDF for Email (Gmail, Outlook, Yahoo)",
+      "steps": [
+        "Select your oversized PDF document.",
+        "Choose automatic email compression profile.",
+        "Download email-ready PDF under 20MB."
+      ],
+      "faq": [
+        {
+          "q": "What is the maximum attachment size for Gmail and Outlook?",
+          "a": "Gmail permits up to 25MB, Outlook permits 20MB, and Yahoo permits 25MB. This tool compresses your document safely below these limits."
+        }
+      ]
+    },
+    "pdfresume": {
+      "name": "Compress Resume PDF",
+      "short": "Compress CV / resume PDF to under 2MB for job portal ATS upload.",
+      "title": "Compress Resume PDF Online Free – ATS Friendly | {brand}",
+      "desc": "Compress resume and CV PDF files to under 2MB or 500KB for job application portals. Keeps fonts, vector layouts, and text 100% sharp for ATS scans.",
+      "h1": "Compress Resume PDF (ATS Friendly)",
+      "steps": [
+        "Upload your CV or resume PDF.",
+        "Select target size (e.g. under 2MB or 500KB).",
+        "Download your compressed ATS-ready resume."
+      ],
+      "faq": [
+        {
+          "q": "Will this blur text or harm ATS resume scanners?",
+          "a": "No! It optimizes embedded images and stream structures while keeping text, hyperlinks, and vector layouts 100% crisp for ATS reading."
+        }
+      ]
+    }
+  }
+}

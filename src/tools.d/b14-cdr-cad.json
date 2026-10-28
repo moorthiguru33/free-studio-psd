@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cdrdowngrade",
+    "impl": "cdr",
+    "slug": "cdr-version-converter",
+    "cat": "convert",
+    "icon": "🎨",
+    "accept": ".cdr,application/x-coreldraw",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "convert" }
+  },
+  {
+    "id": "cdr2pdf",
+    "impl": "cdr",
+    "slug": "cdr-to-pdf",
+    "cat": "convert",
+    "icon": "📄",
+    "accept": ".cdr,application/x-coreldraw",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "topdf" }
+  },
+  {
+    "id": "cdr2png",
+    "impl": "cdr",
+    "slug": "cdr-to-png",
+    "cat": "image",
+    "icon": "🖼",
+    "accept": ".cdr,application/x-coreldraw",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "topng" }
+  },
+  {
+    "id": "cdr2jpg",
+    "impl": "cdr",
+    "slug": "cdr-to-jpg",
+    "cat": "image",
+    "icon": "🖼",
+    "accept": ".cdr,application/x-coreldraw",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "tojpg" }
+  },
+  {
+    "id": "cdrviewer",
+    "impl": "cdr",
+    "slug": "cdr-viewer",
+    "cat": "more",
+    "icon": "👁",
+    "accept": ".cdr,application/x-coreldraw",
+    "multiple": false,
+    "enOnly": true,
+    "vars": { "mode": "topng" }
+  },
+  {
+    "id": "dxf2pdf",
+    "impl": "dxf",
+    "slug": "dxf-to-pdf",
+    "cat": "convert",
+    "icon": "📐",
+    "accept": ".dxf",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "pdf" }
+  },
+  {
+    "id": "dxf2svg",
+    "impl": "dxf",
+    "slug": "dxf-to-svg",
+    "cat": "convert",
+    "icon": "📐",
+    "accept": ".dxf",
+    "multiple": true,
+    "enOnly": true,
+    "vars": { "mode": "svg" }
+  },
+  {
+    "id": "fileanalyzer",
+    "impl": "fileanalyzer",
+    "slug": "file-analyzer",
+    "cat": "more",
+    "icon": "🔍",
+    "accept": "*/*",
+    "multiple": false,
+    "enOnly": true
+  }
+]

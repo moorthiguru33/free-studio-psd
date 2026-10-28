@@ -1,0 +1,156 @@
+{
+  "tools": {
+    "cdrdowngrade": {
+      "name": "CDR Version Converter",
+      "short": "Downgrade or convert CorelDRAW (.cdr) files to older versions.",
+      "title": "CDR Version Converter – Downgrade CorelDRAW Free | {brand}",
+      "desc": "Convert and downgrade CorelDRAW CDR files to older versions like CorelDRAW X7, X8, X6, X5, X4, or 2019 online free. No upload, runs 100% in your browser.",
+      "h1": "CorelDRAW CDR Version Converter",
+      "steps": [
+        "Select or drop your CorelDRAW (.cdr) file.",
+        "Choose your target version (such as CorelDRAW X7 for printing presses).",
+        "Click Start to convert and download your downgraded CDR and companion vector file."
+      ],
+      "faq": [
+        {
+          "q": "Why do printing presses need CorelDRAW X7?",
+          "a": "Many commercial printing presses and RIP plotters run CorelDRAW X7 or X8 for compatibility with industrial machinery. Newer files from CorelDRAW 2021-2024 cannot be opened without downgrading."
+        },
+        {
+          "q": "Are my design files uploaded to any server?",
+          "a": "No! {brand} runs 100% in your browser using local processing. Your private graphic designs and vectors never leave your device."
+        },
+        {
+          "q": "What versions can I downgrade to?",
+          "a": "You can convert between CorelDRAW versions including X4, X5, X6, X7, X8, 2018, 2019, 2020, 2021, and 2024."
+        }
+      ]
+    },
+    "cdr2pdf": {
+      "name": "CDR to PDF Converter",
+      "short": "Convert CorelDRAW (.cdr) designs into print-ready PDF vector documents.",
+      "title": "CDR to PDF Converter – Convert CorelDRAW to PDF | {brand}",
+      "desc": "Convert CorelDRAW .cdr files to high-resolution print-ready PDF files online for free. No installation or registration needed.",
+      "h1": "Convert CorelDRAW CDR to PDF",
+      "steps": [
+        "Upload your .cdr design file.",
+        "Wait a moment as the embedded vector graphics are processed.",
+        "Download your crisp, print-ready PDF."
+      ],
+      "faq": [
+        {
+          "q": "Can I open the resulting PDF in other design software?",
+          "a": "Yes! The exported PDF can be opened in Adobe Illustrator, Photoshop, Affinity Designer, and any PDF viewer."
+        }
+      ]
+    },
+    "cdr2png": {
+      "name": "CDR to PNG Converter",
+      "short": "Extract high-resolution transparent PNG graphics from CorelDRAW files.",
+      "title": "CDR to PNG Converter Online Free | {brand}",
+      "desc": "Convert .cdr files to transparent PNG images online with full resolution and no quality loss.",
+      "h1": "Convert CorelDRAW CDR to PNG",
+      "steps": [
+        "Select your .cdr file.",
+        "Click Start to render high-resolution PNG.",
+        "Download your PNG image."
+      ],
+      "faq": [
+        {
+          "q": "Will the PNG retain image quality?",
+          "a": "Yes, full-resolution graphics are extracted directly from the CorelDRAW container."
+        }
+      ]
+    },
+    "cdr2jpg": {
+      "name": "CDR to JPG Converter",
+      "short": "Convert CorelDRAW files to high-quality JPG photos.",
+      "title": "CDR to JPG Converter Online Free | {brand}",
+      "desc": "Convert CorelDRAW .cdr files into standard JPEG images online. Fast, secure, and completely free.",
+      "h1": "Convert CorelDRAW CDR to JPG",
+      "steps": [
+        "Choose your .cdr file.",
+        "Press Start to convert.",
+        "Download your JPG image."
+      ],
+      "faq": [
+        {
+          "q": "Does this require CorelDRAW installed on my PC?",
+          "a": "No, it converts entirely inside your web browser without CorelDRAW."
+        }
+      ]
+    },
+    "cdrviewer": {
+      "name": "CorelDRAW CDR Viewer",
+      "short": "Open and view .cdr files online without installing CorelDRAW.",
+      "title": "Online CDR Viewer – Open CorelDRAW Files Free | {brand}",
+      "desc": "Open and inspect CorelDRAW .cdr designs online in your web browser. Completely private, free, and instant.",
+      "h1": "Online CorelDRAW CDR Viewer",
+      "steps": [
+        "Drop your .cdr file on this page.",
+        "The file is parsed instantly inside your browser tab.",
+        "Inspect the graphics, zoom in, and download as PNG or PDF."
+      ],
+      "faq": [
+        {
+          "q": "Can I view CDR files on Mac or mobile?",
+          "a": "Yes, {brand}'s CDR viewer runs on any browser including Mac, iPhone, Android, Linux, and Windows."
+        }
+      ]
+    },
+    "dxf2pdf": {
+      "name": "DXF to PDF Converter",
+      "short": "Convert AutoCAD DXF 2D/3D drawings into vector PDF documents.",
+      "title": "DXF to PDF Converter – Convert CAD to PDF Free | {brand}",
+      "desc": "Convert AutoCAD .dxf drawings into print-ready vector PDF documents online. High precision, works without AutoCAD.",
+      "h1": "Convert AutoCAD DXF to PDF",
+      "steps": [
+        "Select your .dxf CAD drawing file.",
+        "Choose page size and background color.",
+        "Download your vector PDF blueprint."
+      ],
+      "faq": [
+        {
+          "q": "Are all CAD entities preserved?",
+          "a": "Yes, lines, circles, arcs, polylines, layers, and text entities are parsed and scaled accurately."
+        }
+      ]
+    },
+    "dxf2svg": {
+      "name": "DXF to SVG Converter",
+      "short": "Convert AutoCAD DXF drawings to scalable vector graphics (SVG).",
+      "title": "DXF to SVG Converter Online Free – CAD to Vector | {brand}",
+      "desc": "Convert CAD .dxf files to standard scalable vector SVG graphics for laser cutting, web design, and illustration.",
+      "h1": "Convert AutoCAD DXF to SVG",
+      "steps": [
+        "Upload your .dxf file.",
+        "Select background style.",
+        "Download your clean SVG vector file."
+      ],
+      "faq": [
+        {
+          "q": "Is this suitable for laser cutting and CNC?",
+          "a": "Yes, the exported SVG contains precise vector stroke paths compatible with laser cutting and CNC software."
+        }
+      ]
+    },
+    "fileanalyzer": {
+      "name": "File Analyzer",
+      "short": "Analyze binary magic bytes, MIME types, and checksums of unknown files.",
+      "title": "File Analyzer Online – Inspect Binary Magic Bytes | {brand}",
+      "desc": "Inspect unknown or corrupted files, identify true file formats using binary magic bytes, view hex dumps, and compute cryptographic hashes online.",
+      "h1": "Binary File Analyzer & Inspector",
+      "steps": [
+        "Drop any file on this page.",
+        "The header bytes and binary signature are analyzed instantly.",
+        "View the identified file type, hex dump, SHA-256 hash, and recommended tools."
+      ],
+      "faq": [
+        {
+          "q": "Can this identify files with missing extensions?",
+          "a": "Yes! It inspects the binary magic bytes at the start of the file to determine its true format regardless of the filename extension."
+        }
+      ]
+    }
+  }
+}

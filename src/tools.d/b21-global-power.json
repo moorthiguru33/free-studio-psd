@@ -1,0 +1,145 @@
+[
+  {
+    "id": "ilovepdf-alt",
+    "impl": "anypdf",
+    "slug": "ilovepdf-alternative",
+    "cat": "organize",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "smallpdf-alt",
+    "impl": "anypdf",
+    "slug": "smallpdf-alternative",
+    "cat": "organize",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "adobe-acrobat-alt",
+    "impl": "anypdf",
+    "slug": "adobe-acrobat-alternative",
+    "cat": "organize",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "sejda-alt",
+    "impl": "anypdf",
+    "slug": "sejda-alternative",
+    "cat": "organize",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "convertio-alt",
+    "impl": "anypdf",
+    "slug": "convertio-alternative",
+    "cat": "convert",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "cloudconvert-alt",
+    "impl": "anypdf",
+    "slug": "cloudconvert-alternative",
+    "cat": "convert",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "tinywow-alt",
+    "impl": "anypdf",
+    "slug": "tinywow-alternative",
+    "cat": "organize",
+    "icon": "⭐",
+    "accept": "*/*,.pdf,image/*,.docx,.xlsx,.pptx",
+    "multiple": true
+  },
+  {
+    "id": "usvisaphoto",
+    "impl": "passport",
+    "slug": "us-visa-photo-resizer",
+    "cat": "image",
+    "icon": "🇺🇸",
+    "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+    "multiple": false,
+    "vars": { "country": "us" }
+  },
+  {
+    "id": "dvlotteryphoto",
+    "impl": "passport",
+    "slug": "dv-lottery-photo-tool",
+    "cat": "image",
+    "icon": "🗽",
+    "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+    "multiple": false,
+    "vars": { "country": "us" }
+  },
+  {
+    "id": "schengenvisaphoto",
+    "impl": "passport",
+    "slug": "schengen-visa-photo-resizer",
+    "cat": "image",
+    "icon": "🇪🇺",
+    "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+    "multiple": false,
+    "vars": { "country": "eu" }
+  },
+  {
+    "id": "canadavisa",
+    "impl": "passport",
+    "slug": "canadian-visa-photo-resizer",
+    "cat": "image",
+    "icon": "🇨🇦",
+    "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+    "multiple": false,
+    "vars": { "country": "ca" }
+  },
+  {
+    "id": "ukvisaphoto",
+    "impl": "passport",
+    "slug": "uk-visa-photo-resizer",
+    "cat": "image",
+    "icon": "🇬🇧",
+    "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+    "multiple": false,
+    "vars": { "country": "uk" }
+  },
+  {
+    "id": "australiavisaphoto",
+    "impl": "passport",
+    "slug": "australian-visa-photo-resizer",
+    "cat": "image",
+    "icon": "🇦🇺",
+    "accept": "image/*,.heic,.heif,.tif,.tiff,.avif,.bmp,.ico,.svg",
+    "multiple": false,
+    "vars": { "country": "au" }
+  },
+  {
+    "id": "pdfemail",
+    "impl": "pdfkb",
+    "slug": "compress-pdf-for-email",
+    "cat": "optimize",
+    "icon": "✉️",
+    "accept": ".pdf",
+    "multiple": false,
+    "vars": { "size": "20", "unit": "mb" }
+  },
+  {
+    "id": "pdfresume",
+    "impl": "pdfkb",
+    "slug": "compress-resume-pdf",
+    "cat": "optimize",
+    "icon": "📄",
+    "accept": ".pdf",
+    "multiple": false,
+    "vars": { "size": "2", "unit": "mb" }
+  }
+]

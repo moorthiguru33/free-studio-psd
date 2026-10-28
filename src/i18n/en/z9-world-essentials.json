@@ -1,0 +1,508 @@
+{
+  "tools": {
+    "yt-thumb": {
+      "name": "YouTube Thumbnail Resizer",
+      "short": "Resize images to YouTube thumbnail dimensions (1280x720).",
+      "title": "YouTube Thumbnail Resizer Free | {brand}",
+      "desc": "Resize and crop any image to the exact 1280x720 YouTube thumbnail resolution. 100% free, runs client-side with no blur or pixelation.",
+      "h1": "YouTube Thumbnail Resizer",
+      "steps": ["Upload your thumbnail artwork.", "Preview the 16:9 crop framing.", "Download your high-res 1280x720 thumbnail."],
+      "faq": [{"q": "What is the best YouTube thumbnail size?", "a": "1280x720 pixels with a minimum width of 640 pixels and 16:9 aspect ratio."}]
+    },
+    "yt-banner": {
+      "name": "YouTube Banner Resizer",
+      "short": "Resize images to YouTube channel banner dimensions (2560x1440).",
+      "title": "YouTube Banner Resizer Online | {brand}",
+      "desc": "Resize channel art to YouTube's official 2560x1440 banner specifications. Safe area preview ensures clean display on TV, desktop, and mobile.",
+      "h1": "YouTube Channel Banner Resizer",
+      "steps": ["Select your banner artwork.", "Align within the safe area guides.", "Export your 2560x1440 banner."],
+      "faq": [{"q": "What is the safe area for YouTube banners?", "a": "The center 1546x423 pixels is visible across all mobile and desktop screens."}]
+    },
+    "ig-square": {
+      "name": "Instagram Photo Resizer",
+      "short": "Resize pictures to Instagram square 1080x1080 dimensions.",
+      "title": "Instagram Photo Resizer Free | {brand}",
+      "desc": "Resize photos to 1080x1080 Instagram square format without cropping out heads or details. High-quality in-browser image scaling.",
+      "h1": "Instagram Photo Resizer",
+      "steps": ["Drop your photo.", "Adjust framing or padding.", "Download your 1080x1080 image."],
+      "faq": [{"q": "Does this tool compress or reduce image quality?", "a": "No, it uses bicubic canvas rendering to preserve full sharpness."}]
+    },
+    "ig-portrait": {
+      "name": "Instagram Portrait Resizer",
+      "short": "Resize photos to Instagram 4:5 portrait (1080x1350).",
+      "title": "Instagram Portrait Resizer Free | {brand}",
+      "desc": "Resize vertical photos to Instagram's optimal 4:5 aspect ratio (1080x1350) for maximum screen real estate in the feed.",
+      "h1": "Instagram Portrait Resizer",
+      "steps": ["Upload your portrait picture.", "Fine-tune 4:5 positioning.", "Download your 1080x1350 photo."],
+      "faq": [{"q": "Why use 4:5 portrait on Instagram?", "a": "4:5 takes up the most vertical feed screen space, driving higher engagement."}]
+    },
+    "ig-story": {
+      "name": "Instagram Story Resizer",
+      "short": "Resize photos and graphics for Instagram Stories (1080x1920).",
+      "title": "Instagram Story Resizer Free | {brand}",
+      "desc": "Resize photos to full-screen 9:16 Instagram Story and Reel dimensions (1080x1920). Instant, private, and 100% free.",
+      "h1": "Instagram Story Resizer",
+      "steps": ["Choose your photo.", "Adjust 9:16 vertical crop.", "Export ready-to-post story graphic."],
+      "faq": [{"q": "Can I use this for TikTok and YouTube Shorts?", "a": "Yes! All three platforms share the exact same 1080x1920 9:16 format."}]
+    },
+    "fb-cover": {
+      "name": "Facebook Cover Resizer",
+      "short": "Resize graphics for Facebook Page covers (820x312).",
+      "title": "Facebook Cover Photo Resizer | {brand}",
+      "desc": "Resize pictures to official Facebook cover photo specifications (820x312). Ensure header graphics look sharp on both phone and desktop.",
+      "h1": "Facebook Cover Resizer",
+      "steps": ["Select your cover picture.", "Align the banner focus area.", "Download your optimized Facebook cover."],
+      "faq": [{"q": "What resolution does Facebook recommend?", "a": "820 pixels wide by 312 pixels tall for desktop pages."}]
+    },
+    "tw-header": {
+      "name": "Twitter Header Resizer",
+      "short": "Resize photos for Twitter and X profile headers (1500x500).",
+      "title": "Twitter X Header Resizer Free | {brand}",
+      "desc": "Resize pictures to official 1500x500 Twitter / X header dimensions. Perfect 3:1 banner ratio with zero distortion or blur.",
+      "h1": "Twitter Header Resizer",
+      "steps": ["Upload your profile banner image.", "Preview 3:1 alignment.", "Download your 1500x500 header."],
+      "faq": [{"q": "What are the dimensions for an X header?", "a": "The recommended size is 1500x500 pixels with a 3:1 aspect ratio."}]
+    },
+    "li-banner": {
+      "name": "LinkedIn Banner Resizer",
+      "short": "Resize images for LinkedIn background banners (1584x396).",
+      "title": "LinkedIn Banner Resizer Online | {brand}",
+      "desc": "Resize profile headers to LinkedIn's official 1584x396 pixel banner size. Professional crisp banners for personal and company profiles.",
+      "h1": "LinkedIn Banner Resizer",
+      "steps": ["Upload your corporate or personal banner.", "Align framing.", "Download your crisp 1584x396 graphic."],
+      "faq": [{"q": "What is the recommended LinkedIn cover size?", "a": "1584 pixels wide by 396 pixels tall (4:1 ratio)."}]
+    },
+    "discord-av": {
+      "name": "Discord Avatar Resizer",
+      "short": "Resize avatars and server icons for Discord (512x512).",
+      "title": "Discord Avatar Resizer Free | {brand}",
+      "desc": "Crop and resize profile pictures and server icons to Discord's 512x512 format with circle preview for perfect profile framing.",
+      "h1": "Discord Avatar Resizer",
+      "steps": ["Select your avatar image.", "Preview inside the circular Discord mask.", "Download your 512x512 icon."],
+      "faq": [{"q": "What is the maximum avatar size on Discord?", "a": "Discord recommends 512x512 or 128x128 pixels for profile pictures."}]
+    },
+    "ig-grid": {
+      "name": "Instagram Grid Splitter",
+      "short": "Split images into 3x3 or 3x1 tiles for Instagram feed grids.",
+      "title": "Instagram Grid Splitter Free | {brand}",
+      "desc": "Split any photo into 3x3, 3x2, or 3x1 tiles to create a stunning giant square grid layout on your Instagram profile page.",
+      "h1": "Instagram Grid Splitter",
+      "steps": ["Upload your panoramic or square photo.", "Choose your grid layout (3x3 or 3x1).", "Download your numbered tiles in a ZIP."],
+      "faq": [{"q": "How do I post the grid tiles to Instagram?", "a": "Post the tiles starting from the highest number down to #1 so the grid aligns correctly."}]
+    },
+    "sub-conv": {
+      "name": "Subtitle Converter",
+      "short": "Convert subtitles between SRT and WebVTT (VTT) formats.",
+      "title": "SRT to VTT Subtitle Converter | {brand}",
+      "desc": "Convert video subtitles between SubRip (.srt) and WebVTT (.vtt) online. Clean timestamps and styling tags for modern HTML5 video players.",
+      "h1": "Subtitle Converter (SRT ⇄ VTT)",
+      "steps": ["Upload your .srt or .vtt subtitle file.", "Timestamps and tags are converted automatically.", "Download your converted subtitle file."],
+      "faq": [{"q": "Why convert SRT to VTT?", "a": "HTML5 <track> video players require the modern WebVTT format for browser captions."}]
+    },
+    "tap-bpm": {
+      "name": "Tap BPM Counter",
+      "short": "Tap along with music to calculate exact Beats Per Minute.",
+      "title": "Tap BPM Counter Online Free | {brand}",
+      "desc": "Tap any key or click to measure tempo and calculate exact BPM (Beats Per Minute) in real-time. Includes average tempo reset and precision timing.",
+      "h1": "Online Tap BPM Counter",
+      "steps": ["Tap the big button or spacebar to the beat.", "Watch real-time BPM calculations update.", "Reset anytime to measure a new song."],
+      "faq": [{"q": "How accurate is the BPM calculation?", "a": "Uses high-resolution browser performance timestamps accurate to milliseconds."}]
+    },
+    "tone-gen": {
+      "name": "Online Tone Generator",
+      "short": "Generate pure sine, square, sawtooth, or triangle audio tones.",
+      "title": "Online Tone Generator Free | {brand}",
+      "desc": "Generate pure audio frequencies from 20 Hz to 20,000 Hz using Web Audio API. Choose Sine, Square, Triangle, or Sawtooth waveforms.",
+      "h1": "Online Audio Tone Generator",
+      "steps": ["Select your waveform (Sine, Square, Triangle, Sawtooth).", "Enter or slide your target frequency (e.g. 440 Hz).", "Click Play to hear the tone."],
+      "faq": [{"q": "What is 440 Hz?", "a": "440 Hz (A4) is the international concert pitch standard used for tuning musical instruments."}]
+    },
+    "noise-gen": {
+      "name": "Noise Generator",
+      "short": "Generate soothing White, Pink, and Brown noise for focus.",
+      "title": "White Pink Brown Noise Generator | {brand}",
+      "desc": "Generate custom White noise, Pink noise, and Brown noise directly in your browser. Perfect for sleeping, deep work, tinnitus relief, and focus.",
+      "h1": "White, Pink & Brown Noise Generator",
+      "steps": ["Select noise color: White, Pink, or Brown.", "Adjust playback volume.", "Relax and focus while noise plays in your browser."],
+      "faq": [{"q": "What is the difference between Pink and Brown noise?", "a": "Brown noise has deeper bass resembling waterfalls, while Pink noise sounds like steady rainfall."}]
+    },
+    "audio-432": {
+      "name": "432Hz Audio Converter",
+      "short": "Retune music from 440Hz standard pitch to 432Hz frequency.",
+      "title": "432Hz Audio Converter Online | {brand}",
+      "desc": "Retune your music and meditation tracks from standard 440Hz concert pitch down to 432Hz natural frequency. 100% free client-side audio DSP.",
+      "h1": "432Hz Music Retuning Converter",
+      "steps": ["Upload your MP3, WAV, or M4A audio file.", "Our DSP applies pitch ratio resampling.", "Download your 432Hz retuned track."],
+      "faq": [{"q": "Why do people listen to 432Hz music?", "a": "Many listeners find 432Hz tuning warmer, more soothing, and mathematically harmonized with nature."}]
+    },
+    "tdee-calc": {
+      "name": "TDEE Calorie Calculator",
+      "short": "Calculate your Total Daily Energy Expenditure and BMR.",
+      "title": "TDEE Calorie Calculator Free | {brand}",
+      "desc": "Calculate your Total Daily Energy Expenditure (TDEE) and Basal Metabolic Rate (BMR) with the Mifflin-St Jeor formula for weight loss or muscle gain.",
+      "h1": "TDEE & Calorie Calculator",
+      "steps": ["Enter your age, gender, height, and weight.", "Select your weekly physical activity level.", "View your maintenance, cut, and bulk calorie targets."],
+      "faq": [{"q": "What is TDEE?", "a": "Total Daily Energy Expenditure is the total number of calories your body burns in a 24-hour day."}]
+    },
+    "water-calc": {
+      "name": "Daily Water Intake Calculator",
+      "short": "Calculate how much water you should drink daily.",
+      "title": "Daily Water Intake Calculator | {brand}",
+      "desc": "Calculate optimal daily water intake based on body weight, daily exercise duration, and climate. Stay hydrated and track your daily hydration goal.",
+      "h1": "Daily Water Intake Calculator",
+      "steps": ["Enter your current body weight.", "Specify your daily exercise minutes.", "Get your personalized daily water target in liters and ounces."],
+      "faq": [{"q": "Does caffeine count towards water intake?", "a": "While moderate tea and coffee contribute to fluid balance, pure water is optimal for hydration."}]
+    },
+    "bodyfat-calc": {
+      "name": "Body Fat Calculator",
+      "short": "Calculate body fat percentage using the US Navy method.",
+      "title": "Body Fat Percentage Calculator | {brand}",
+      "desc": "Estimate your body fat percentage and lean muscle mass using the official US Navy circumference method with neck, waist, and hip tape measurements.",
+      "h1": "US Navy Body Fat Calculator",
+      "steps": ["Input your gender, height, and neck measurement.", "Enter your waist (and hip for females) circumference.", "View body fat % and fitness classification."],
+      "faq": [{"q": "How accurate is the US Navy body fat method?", "a": "When tape measurements are taken consistently, accuracy is typically within 3-4% of DEXA scans."}]
+    },
+    "sleep-calc": {
+      "name": "Sleep Cycle Calculator",
+      "short": "Calculate the best bedtime and wake up times based on REM cycles.",
+      "title": "Sleep Cycle Calculator Online | {brand}",
+      "desc": "Calculate optimal bedtimes and wake times based on 90-minute REM sleep cycles. Wake up feeling refreshed without grogginess or sleep inertia.",
+      "h1": "Sleep Cycle Calculator",
+      "steps": ["Choose when you want to wake up or sleep now.", "The calculator projects 90-minute REM cycles.", "Pick a wake time to avoid interrupting deep sleep."],
+      "faq": [{"q": "How long is a natural sleep cycle?", "a": "The human brain typically completes one full cycle of light, deep, and REM sleep every 90 minutes."}]
+    },
+    "pet-age": {
+      "name": "Pet Age Calculator",
+      "short": "Convert dog and cat years into human age equivalents.",
+      "title": "Dog & Cat Pet Age Calculator | {brand}",
+      "desc": "Convert dog and cat years into human age equivalents using modern veterinary weight-class formulas. Accurate life stage milestones for pets.",
+      "h1": "Dog & Cat Pet Age Calculator",
+      "steps": ["Select pet species (Dog or Cat).", "Choose dog size breed category.", "Enter chronological years to find human age equivalent."],
+      "faq": [{"q": "Is one dog year really seven human years?", "a": "No, puppies age much faster in their first two years, and large breeds age faster as seniors."}]
+    },
+    "invert-img": {
+      "name": "Invert Image Colors",
+      "short": "Invert image colors to create negative photo effects.",
+      "title": "Invert Image Colors Free | {brand}",
+      "desc": "Invert photo colors instantly to create film negative effects or high-contrast inverted graphics. Fast in-browser canvas color processing.",
+      "h1": "Invert Image Colors Online",
+      "steps": ["Upload any JPG, PNG, or WebP photo.", "Colors invert automatically in real-time.", "Download your negative image."],
+      "faq": [{"q": "Does this work on transparent PNG files?", "a": "Yes! The alpha transparency channel is fully preserved."}]
+    },
+    "bright-img": {
+      "name": "Brightness & Contrast Adjuster",
+      "short": "Adjust brightness and contrast of photos online.",
+      "title": "Image Brightness & Contrast | {brand}",
+      "desc": "Fine-tune photo brightness and contrast with real-time sliders. Fix underexposed pictures and enhance image vibrancy in your browser.",
+      "h1": "Adjust Brightness & Contrast",
+      "steps": ["Upload your photo.", "Move the brightness and contrast sliders.", "Download your enhanced image."],
+      "faq": [{"q": "Are my photos sent over the internet?", "a": "No. All image adjustments occur locally on your graphics hardware via HTML5 Canvas."}]
+    },
+    "blur-img": {
+      "name": "Blur & Pixelate Image",
+      "short": "Blur or pixelate faces, license plates, and sensitive details.",
+      "title": "Blur & Pixelate Image Free | {brand}",
+      "desc": "Blur or pixelate photos and sensitive info online. Protect privacy by censoring faces, addresses, or private documents before sharing.",
+      "h1": "Blur & Pixelate Photo Censor",
+      "steps": ["Upload your image.", "Select blur or pixelate intensity.", "Download your privacy-censored image."],
+      "faq": [{"q": "Can pixelated or blurred data be reversed?", "a": "No, pixelation permanently averages pixel clusters, destroying underlying pixel data."}]
+    },
+    "round-img": {
+      "name": "Round Image Corners",
+      "short": "Add rounded corners and transparent borders to photos.",
+      "title": "Round Image Corners Free | {brand}",
+      "desc": "Add smooth rounded corners to photos and export with transparent PNG borders. Customize corner radius for UI mockups and cards.",
+      "h1": "Round Image Corners Online",
+      "steps": ["Upload your image.", "Adjust the corner radius slider.", "Download your PNG with transparent rounded corners."],
+      "faq": [{"q": "Which format supports transparent rounded corners?", "a": "PNG and WebP formats support transparent background corners."}]
+    },
+    "flip-img": {
+      "name": "Flip & Mirror Image",
+      "short": "Flip images horizontally or vertically in one click.",
+      "title": "Flip & Mirror Image Online Free | {brand}",
+      "desc": "Mirror photos horizontally or flip them vertically online. Fix inverted selfies and create mirrored graphic designs in your browser.",
+      "h1": "Flip & Mirror Image Online",
+      "steps": ["Select your picture.", "Click Flip Horizontal or Flip Vertical.", "Download your mirrored photo."],
+      "faq": [{"q": "Why are front-facing camera selfies mirrored?", "a": "Many smartphones mirror selfies by default; flipping restores natural perspective."}]
+    },
+    "border-img": {
+      "name": "Add Border to Image",
+      "short": "Add custom color borders and frames around pictures.",
+      "title": "Add Border to Image Online | {brand}",
+      "desc": "Add customizable color borders and picture frames to any photo. Choose border width and color for Instagram framing and photo prints.",
+      "h1": "Add Border to Image",
+      "steps": ["Upload your photo.", "Choose your border width and color.", "Download your framed photo."],
+      "faq": [{"q": "Can I add white borders for Instagram?", "a": "Yes! Setting a white border allows vertical and horizontal photos to fit square feeds cleanly."}]
+    },
+    "dpi-calc": {
+      "name": "DPI to Print Size Calculator",
+      "short": "Calculate print dimensions in inches and cm from pixel dimensions.",
+      "title": "DPI to Print Size Calculator | {brand}",
+      "desc": "Calculate exact print dimensions from pixel width and DPI resolution (300 DPI, 150 DPI, 72 DPI). Ensure crisp, non-blurry physical prints.",
+      "h1": "DPI & Print Size Calculator",
+      "steps": ["Enter image width and height in pixels.", "Select printing resolution (e.g. 300 DPI for photo quality).", "View print size in inches, centimeters, and millimeters."],
+      "faq": [{"q": "What DPI is required for high quality printing?", "a": "300 DPI is the standard industry resolution for crisp, magazine-quality prints."}]
+    },
+    "jwt-decode": {
+      "name": "JWT Decoder & Debugger",
+      "short": "Decode and inspect JSON Web Tokens safely in your browser.",
+      "title": "JWT Decoder & Debugger Online | {brand}",
+      "desc": "Decode and inspect JSON Web Tokens (JWT) headers and payloads safely in your browser. Verify claims and expiration times without leaking secrets.",
+      "h1": "JSON Web Token (JWT) Decoder",
+      "steps": ["Paste your encoded JWT string.", "Inspect the decoded header and payload JSON.", "Review token expiration status and claims."],
+      "faq": [{"q": "Is it safe to paste JWT tokens here?", "a": "Yes! Unlike other sites, {brand} processes tokens 100% locally in your browser memory."}]
+    },
+    "cron-gen": {
+      "name": "Cron Expression Generator",
+      "short": "Build and understand Cron schedule expressions visually.",
+      "title": "Cron Expression Generator Free | {brand}",
+      "desc": "Generate and decode 5-field Cron schedule expressions visually. View plain-English schedule descriptions and next trigger execution times.",
+      "h1": "Cron Expression Generator",
+      "steps": ["Select schedule frequency (minutes, hours, days, months).", "Our generator builds the standard cron syntax.", "Copy the verified cron string."],
+      "faq": [{"q": "What do the 5 cron fields represent?", "a": "Minute (0-59), Hour (0-23), Day of Month (1-31), Month (1-12), and Day of Week (0-6)."}]
+    },
+    "chmod-calc": {
+      "name": "Linux Chmod Calculator",
+      "short": "Calculate numeric and symbolic Linux file permissions.",
+      "title": "Linux Chmod Calculator Free | {brand}",
+      "desc": "Calculate Linux chmod file permissions visually. Toggle Read, Write, and Execute checkboxes to generate octal numbers (e.g. 755, 644) and flags.",
+      "h1": "Linux Chmod Permissions Calculator",
+      "steps": ["Check permissions for Owner, Group, and Public.", "Read the calculated octal value (e.g. 777, 755, 644).", "Copy the terminal command."],
+      "faq": [{"q": "What does chmod 755 mean?", "a": "Owner has full read, write, and execute permissions (7), while group and others can read and execute (5)."}]
+    },
+    "cidr-calc": {
+      "name": "IP Subnet CIDR Calculator",
+      "short": "Calculate network ranges, broadcast IP, and usable hosts.",
+      "title": "IP Subnet CIDR Calculator | {brand}",
+      "desc": "Calculate IPv4 subnet masks, CIDR network ranges, usable host IPs, and broadcast addresses. Essential tool for network admins and DevOps.",
+      "h1": "IP Subnet CIDR Calculator",
+      "steps": ["Enter an IP address and CIDR prefix (e.g. 192.168.1.0/24).", "Review calculated subnet mask and host counts.", "Inspect usable IP address ranges."],
+      "faq": [{"q": "How many usable hosts are in a /24 subnet?", "a": "A /24 subnet has 256 total IP addresses and 254 usable host addresses."}]
+    },
+    "html-ent": {
+      "name": "HTML Entities Converter",
+      "short": "Encode and decode special characters into HTML entities.",
+      "title": "HTML Entities Encoder Decoder | {brand}",
+      "desc": "Encode reserved characters into HTML entities (e.g. &amp;, &lt;, &gt;) or decode entities back into readable plain text. Fast and error-free.",
+      "h1": "HTML Entities Encoder & Decoder",
+      "steps": ["Paste your text or HTML snippet.", "Click Encode to convert special symbols or Decode to restore text.", "Copy your formatted result."],
+      "faq": [{"q": "Why encode HTML entities?", "a": "Encoding prevents XSS attacks and ensures characters like < and & display correctly without breaking markup."}]
+    },
+    "contrast-chk": {
+      "name": "Color Contrast Checker",
+      "short": "Check WCAG 2.1 AA and AAA color contrast compliance.",
+      "title": "Color Contrast Checker Free | {brand}",
+      "desc": "Check accessibility contrast ratio between text and background colors according to WCAG 2.1 AA and AAA guidelines. Ensure readable designs.",
+      "h1": "WCAG Color Contrast Checker",
+      "steps": ["Choose text color and background color.", "View the calculated contrast ratio (e.g. 4.5:1).", "Verify WCAG AA and AAA pass/fail badges."],
+      "faq": [{"q": "What is the minimum WCAG AA contrast ratio?", "a": "Normal text requires at least 4.5:1, and large text (18pt+) requires 3:1."}]
+    },
+    "boxshadow-gen": {
+      "name": "CSS Box Shadow Generator",
+      "short": "Design CSS box shadows with live visual preview and code.",
+      "title": "CSS Box Shadow Generator Free | {brand}",
+      "desc": "Design smooth modern CSS box shadows with interactive sliders for X/Y offset, blur, spread, and color. Copy clean cross-browser CSS code.",
+      "h1": "CSS Box Shadow Generator",
+      "steps": ["Adjust offset, blur, and spread sliders.", "Pick shadow color and opacity.", "Copy the generated box-shadow CSS rule."],
+      "faq": [{"q": "What is shadow spread radius?", "a": "Spread expands or shrinks the shadow shape beyond the element's actual dimensions."}]
+    },
+    "gradient-gen": {
+      "name": "CSS Gradient Generator",
+      "short": "Create linear and radial CSS gradients with live preview.",
+      "title": "CSS Gradient Generator Online | {brand}",
+      "desc": "Create beautiful linear and radial CSS gradients with color stop controls, angle dials, and instant cross-browser CSS code generation.",
+      "h1": "CSS Gradient Generator",
+      "steps": ["Choose linear or radial gradient style.", "Select colors and adjust angle.", "Copy the CSS background-image snippet."],
+      "faq": [{"q": "Are CSS gradients supported across all browsers?", "a": "Yes! Modern CSS linear-gradient and radial-gradient are universally supported."}]
+    },
+    "md2html": {
+      "name": "Markdown to HTML Converter",
+      "short": "Convert Markdown text into clean HTML code with preview.",
+      "title": "Markdown to HTML Converter Free | {brand}",
+      "desc": "Convert Markdown formatting into valid HTML code in real-time. Features live side-by-side preview with one-click HTML copy and download.",
+      "h1": "Markdown to HTML Converter",
+      "steps": ["Type or paste Markdown syntax.", "Watch the formatted HTML render in real-time.", "Copy raw HTML or download the file."],
+      "faq": [{"q": "Does this support GitHub Flavored Markdown (GFM)?", "a": "Yes! Tables, task lists, code blocks, and strikethroughs are fully supported."}]
+    },
+    "sql-fmt": {
+      "name": "SQL Query Formatter",
+      "short": "Format, beautify, and indent ugly SQL queries.",
+      "title": "SQL Query Formatter Online Free | {brand}",
+      "desc": "Format, beautify, and indent complex SQL queries online. Uppercase keywords and structure SELECT, JOIN, and WHERE clauses cleanly.",
+      "h1": "SQL Query Formatter & Beautifier",
+      "steps": ["Paste your unformatted SQL query.", "Click Format to indent clauses and uppercase keywords.", "Copy your clean, readable SQL."],
+      "faq": [{"q": "Which SQL dialects are supported?", "a": "Supports standard SQL, PostgreSQL, MySQL, SQLite, Oracle, and MS SQL Server."}]
+    },
+    "ua-parser": {
+      "name": "User-Agent Parser",
+      "short": "Inspect browser, OS, and device hardware from user agent strings.",
+      "title": "User-Agent Parser & Detector | {brand}",
+      "desc": "Parse and inspect browser User-Agent strings. Detect browser name, version, operating system, device type, and CPU architecture in real-time.",
+      "h1": "User-Agent Parser & Detector",
+      "steps": ["View your current detected browser User-Agent or paste another.", "Inspect decoded browser engine, OS version, and platform.", "Copy details."],
+      "faq": [{"q": "What is a browser User-Agent?", "a": "A string sent in HTTP request headers that identifies your browser brand, version, and OS."}]
+    },
+    "compound-int": {
+      "name": "Compound Interest Calculator",
+      "short": "Calculate compound investment returns and savings growth.",
+      "title": "Compound Interest Calculator | {brand}",
+      "desc": "Calculate compound interest returns, future investment value, and interest earned over time with monthly contributions and annual compounding.",
+      "h1": "Compound Interest Calculator",
+      "steps": ["Enter initial principal balance.", "Input annual interest rate, years, and monthly additions.", "View total future balance and interest breakdown."],
+      "faq": [{"q": "What is compound interest?", "a": "Compound interest is interest calculated on initial principal plus all previously accumulated interest."}]
+    },
+    "simple-int": {
+      "name": "Simple Interest Calculator",
+      "short": "Calculate simple loan interest and total repayments.",
+      "title": "Simple Interest Calculator Free | {brand}",
+      "desc": "Calculate simple interest on loans or personal deposits using the formula I = P × r × t. Fast, clear breakdown of interest and final balance.",
+      "h1": "Simple Interest Calculator",
+      "steps": ["Enter principal loan amount.", "Input annual interest rate % and time duration.", "View total interest payable and final repayment."],
+      "faq": [{"q": "When is simple interest used?", "a": "Simple interest is commonly used for short-term personal loans and specific auto financing agreements."}]
+    },
+    "salary-conv": {
+      "name": "Hourly to Salary Converter",
+      "short": "Convert hourly wage to annual salary and vice-versa.",
+      "title": "Hourly to Salary Converter Free | {brand}",
+      "desc": "Convert hourly wage into annual, monthly, bi-weekly, and weekly salary equivalents based on standard 40-hour work weeks and 52 weeks per year.",
+      "h1": "Hourly to Salary Wage Converter",
+      "steps": ["Enter your hourly rate or annual salary.", "Specify weekly working hours (default 40).", "View complete wage breakdown across all pay periods."],
+      "faq": [{"q": "How many working hours are in a full-time year?", "a": "A standard 40-hour work week equals 2,080 working hours per year."}]
+    },
+    "tip-calc": {
+      "name": "Tip & Bill Split Calculator",
+      "short": "Calculate tip amount and split restaurant bills evenly.",
+      "title": "Tip & Split Bill Calculator Free | {brand}",
+      "desc": "Calculate restaurant tip amounts and split total bills evenly between friends. Choose custom tip percentages and view per-person shares instantly.",
+      "h1": "Tip & Split Bill Calculator",
+      "steps": ["Enter total restaurant bill amount.", "Select tip percentage (15%, 18%, 20%, or custom).", "Enter number of people to calculate each share."],
+      "faq": [{"q": "What is standard restaurant tipping etiquette?", "a": "In the United States, 15% to 20% of the pre-tax total is standard for good service."}]
+    },
+    "tax-calc": {
+      "name": "Sales Tax & VAT Calculator",
+      "short": "Calculate sales tax and VAT (add tax or reverse tax).",
+      "title": "Sales Tax & VAT Calculator Free | {brand}",
+      "desc": "Calculate sales tax, GST, and VAT amounts. Easily add tax to net prices or reverse-calculate gross prices to find original pre-tax amounts.",
+      "h1": "Sales Tax & VAT Calculator",
+      "steps": ["Enter item price.", "Input tax percentage rate.", "Choose whether to add tax or extract tax from gross amount."],
+      "faq": [{"q": "How do you reverse calculate VAT from gross price?", "a": "Divide the gross amount by (1 + Tax Rate / 100) to find the pre-tax net amount."}]
+    },
+    "margin-calc": {
+      "name": "Profit Margin & Markup Calculator",
+      "short": "Calculate gross margin and markup percentages from costs.",
+      "title": "Profit Margin & Markup Calculator | {brand}",
+      "desc": "Calculate gross profit margin, markup percentage, and revenue from item cost and selling price. Essential calculator for retail and e-commerce.",
+      "h1": "Profit Margin & Markup Calculator",
+      "steps": ["Enter product cost and selling price.", "Review calculated gross profit dollar amount.", "Compare profit margin percentage against markup percentage."],
+      "faq": [{"q": "What is the difference between margin and markup?", "a": "Margin is profit divided by revenue, whereas markup is profit divided by cost."}]
+    },
+    "pctchange-calc": {
+      "name": "Percentage Change Calculator",
+      "short": "Calculate percentage increase, decrease, or difference.",
+      "title": "Percentage Change Calculator Free | {brand}",
+      "desc": "Calculate percentage increase, percentage decrease, and relative difference between two numbers. Clear step-by-step mathematical breakdown.",
+      "h1": "Percentage Increase & Decrease Calculator",
+      "steps": ["Enter starting original value.", "Enter ending new value.", "View exact percentage change and positive/negative trend."],
+      "faq": [{"q": "What is the formula for percentage increase?", "a": "Percentage Change = ((New Value - Old Value) / |Old Value|) × 100."}]
+    },
+    "gpa-calc": {
+      "name": "College GPA Calculator",
+      "short": "Calculate semester and cumulative Grade Point Average.",
+      "title": "College GPA Calculator Online | {brand}",
+      "desc": "Calculate semester and cumulative Grade Point Average (GPA) on a 4.0 scale. Input course credits and letter grades for instant GPA calculation.",
+      "h1": "College GPA & CGPA Calculator",
+      "steps": ["Add your courses with credit hours and letter grades.", "Watch your weighted GPA compute automatically.", "Add or remove courses as needed."],
+      "faq": [{"q": "What GPA is considered honors or cum laude?", "a": "Most universities award honors starting at 3.5 GPA and summa cum laude at 3.8+ GPA."}]
+    },
+    "fraction-calc": {
+      "name": "Fraction Calculator",
+      "short": "Add, subtract, multiply, and simplify math fractions.",
+      "title": "Fraction Calculator & Simplifier | {brand}",
+      "desc": "Add, subtract, multiply, and divide fractions online. Automatically reduces results to simplest form with mixed numbers and decimal values.",
+      "h1": "Fraction Calculator & Simplifier",
+      "steps": ["Enter numerators and denominators for both fractions.", "Choose mathematical operator (+, −, ×, ÷).", "View simplified fraction and decimal output."],
+      "faq": [{"q": "How do you multiply fractions?", "a": "Multiply numerators straight across and denominators straight across, then reduce to lowest terms."}]
+    },
+    "stats-calc": {
+      "name": "Statistics Calculator",
+      "short": "Calculate Mean, Median, Mode, Variance, and Std Deviation.",
+      "title": "Statistics Calculator Online Free | {brand}",
+      "desc": "Calculate mean, median, mode, sample variance, standard deviation, and range from any list of numbers. Instant mathematical summary.",
+      "h1": "Mean, Median & Standard Deviation Calculator",
+      "steps": ["Enter comma-separated or space-separated numbers.", "View instant statistical summary.", "Inspect mean, median, mode, and standard deviation."],
+      "faq": [{"q": "What does standard deviation measure?", "a": "Standard deviation measures the average dispersion or spread of data points around the mean."}]
+    },
+    "quadratic-calc": {
+      "name": "Quadratic Equation Solver",
+      "short": "Solve quadratic equations using the quadratic formula.",
+      "title": "Quadratic Equation Solver Online | {brand}",
+      "desc": "Solve quadratic equations (ax² + bx + c = 0) with the quadratic formula. View discriminant, real/complex roots, and step-by-step algebra.",
+      "h1": "Quadratic Equation Solver",
+      "steps": ["Enter coefficients a, b, and c.", "Review discriminant (b² - 4ac) evaluation.", "View exact real or complex roots."],
+      "faq": [{"q": "What if the discriminant is negative?", "a": "A negative discriminant indicates two complex conjugate roots involving imaginary unit i."}]
+    },
+    "sort-lines": {
+      "name": "Sort Lines Alphabetically",
+      "short": "Sort text lines alphabetically (A-Z, Z-A), by length, or dedupe.",
+      "title": "Sort Lines Alphabetically Free | {brand}",
+      "desc": "Sort text lines alphabetically A-Z, reverse Z-A, by character length, or remove duplicate lines instantly in your browser.",
+      "h1": "Sort Lines Alphabetically",
+      "steps": ["Paste your text or list into the box.", "Select sorting mode (A to Z, Z to A, Length, Deduplicate).", "Copy your sorted text list."],
+      "faq": [{"q": "Is sorting case-sensitive?", "a": "Case-insensitive natural alphabetical sorting is used so capitals and lowercases sort cleanly."}]
+    },
+    "slug-gen": {
+      "name": "URL Slug Generator",
+      "short": "Convert article titles and headlines into SEO-friendly URL slugs.",
+      "title": "URL Slug Generator Free | {brand}",
+      "desc": "Convert titles and text into clean, SEO-friendly URL slugs. Strips special characters, converts accents, and replaces spaces with clean hyphens.",
+      "h1": "SEO URL Slug Generator",
+      "steps": ["Type or paste your headline or article title.", "The slug generates instantly with hyphens and lowercase letters.", "Copy the clean URL slug."],
+      "faq": [{"q": "What makes a good URL slug?", "a": "Good slugs are lowercase, concise, use hyphens instead of spaces, and contain focus keywords."}]
+    },
+    "morse-code": {
+      "name": "Morse Code Translator",
+      "short": "Translate text to Morse code and play audible audio beeps.",
+      "title": "Morse Code Translator & Player | {brand}",
+      "desc": "Translate plain text into Morse code dots and dashes, or decode Morse back into English. Includes real-time audio playback using Web Audio beeps.",
+      "h1": "Morse Code Translator & Player",
+      "steps": ["Type text or paste Morse code dots and dashes.", "Read bidirectional translation.", "Click Play Audio to listen to acoustic Morse beeps."],
+      "faq": [{"q": "What is Morse code for SOS?", "a": "SOS in Morse code is · · · — — — · · · (3 dots, 3 dashes, 3 dots)."}]
+    },
+    "nato-phone": {
+      "name": "NATO Phonetic Alphabet",
+      "short": "Translate spelling into NATO military phonetic radio callsigns.",
+      "title": "NATO Phonetic Alphabet Translator | {brand}",
+      "desc": "Translate words and codes into NATO phonetic radio spelling (Alpha, Bravo, Charlie, Delta). Prevent spelling mistakes over telephone and radio.",
+      "h1": "NATO Phonetic Alphabet Translator",
+      "steps": ["Type words, codes, or flight reservations.", "View word-by-word phonetic callsign breakdown.", "Read aloud with 100% clarity."],
+      "faq": [{"q": "Why is the NATO alphabet used globally?", "a": "It uses distinctive international words that are easily understood over noisy radio frequencies."}]
+    },
+    "bin2text": {
+      "name": "Binary to Text Converter",
+      "short": "Convert binary code (0s and 1s) to ASCII text and back.",
+      "title": "Binary to Text Converter Free | {brand}",
+      "desc": "Convert binary code (8-bit bytes) into readable English ASCII text, or encode plain text into binary zeros and ones. Fast real-time conversion.",
+      "h1": "Binary to Text Converter",
+      "steps": ["Paste binary code or enter English text.", "Toggle direction between Binary to Text and Text to Binary.", "Copy your converted output."],
+      "faq": [{"q": "How many binary bits represent one character?", "a": "In standard ASCII and UTF-8, each English character is represented by 8 binary bits (1 byte)."}]
+    },
+    "rot13-cipher": {
+      "name": "ROT13 Cipher",
+      "short": "Encode and decode text using the ROT13 Caesar cipher.",
+      "title": "ROT13 Cipher Encoder & Decoder | {brand}",
+      "desc": "Encode and decode text using the classic ROT13 (rotate by 13 places) Caesar substitution cipher. Reveal spoilers and puzzle clues in one click.",
+      "h1": "ROT13 Cipher Encoder & Decoder",
+      "steps": ["Enter your secret message or obfuscated clue.", "ROT13 rotates each letter by 13 alphabet positions.", "Copy your encoded or decoded text."],
+      "faq": [{"q": "Why is ROT13 its own inverse?", "a": "Because the Latin alphabet has 26 letters, applying a 13-letter rotation twice returns the original text."}]
+    },
+    "line-nums": {
+      "name": "Add Line Numbers to Text",
+      "short": "Add sequential line numbers to code, lists, and scripts.",
+      "title": "Add Line Numbers to Text Online | {brand}",
+      "desc": "Add sequential line numbers to text, scripts, and code. Customize number formatting, zero-padding, and separator styles in your browser.",
+      "h1": "Add Line Numbers to Text",
+      "steps": ["Paste your text, list, or code lines.", "Line numbers are added sequentially in real-time.", "Copy your numbered text."],
+      "faq": [{"q": "Can I remove line numbers later?", "a": "Yes! You can toggle formatting or use our text tools to strip prefixes."}]
+    }
+  }
+}

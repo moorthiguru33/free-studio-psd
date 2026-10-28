@@ -1,0 +1,1024 @@
+{
+ "ui": {
+  "allTools": "Tutti gli strumenti PDF",
+  "select": "Seleziona file",
+  "selectMany": "Seleziona file",
+  "orDrop": "o trascina i file qui",
+  "drop": "Trascina i file qui",
+  "process": "Avvia",
+  "download": "Scarica",
+  "working": "Elaborazione in corso…",
+  "done": "Fatto! Il tuo file è pronto.",
+  "error": "Si è verificato un errore:",
+  "another": "Ricomincia",
+  "privacy": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+  "howTo": "Come fare",
+  "faq": "Domande frequenti",
+  "related": "Strumenti correlati",
+  "popularSearches": "Ricerche popolari",
+  "language": "Lingua",
+  "footer": "Strumenti PDF online gratuiti. Elaborazione locale nel browser.",
+  "ad": "Pubblicità",
+  "beta": "Beta",
+  "pages": "pagine",
+  "remove": "Rimuovi",
+  "moveUp": "Sposta su",
+  "moveDown": "Sposta giù",
+  "f1t": "Completamente gratuito",
+  "f1d": "Nessun costo nascosto, nessun limite giornaliero, nessuna filigrana.",
+  "f2t": "Privato per natura",
+  "f2d": "Tutto viene eseguito sul tuo dispositivo. Nessun file viene inviato ai server.",
+  "f3t": "Veloce e ovunque",
+  "f3d": "Funziona su smartphone, tablet e computer senza installazione.",
+  "stepUpload": "Carica",
+  "stepOptions": "Opzioni",
+  "stepDownload": "Scarica",
+  "tFree": "100% gratis",
+  "tNoSign": "Nessuna registrazione",
+  "tNoLimit": "Nessun limite",
+  "tLocal": "I file non lasciano il dispositivo",
+  "privH": "La tua privacy viene prima di tutto",
+  "privHnf": "100% sicuro e privato",
+  "privP": "I file vengono elaborati direttamente nel browser web.",
+  "privPnf": "Nessun dato viene inviato a server esterni.",
+  "privL1b": "Nessun caricamento:",
+  "privL1": "I tuoi file non lasciano mai il tuo browser o computer.",
+  "privL2b": "Nessun dato salvato:",
+  "privL2": "Non memorizziamo né leggiamo i tuoi documenti personali.",
+  "privL3b": "Conformità totale:",
+  "privL3": "Compatibile con GDPR, HIPAA e normative internazionali.",
+  "whyTitle": "Perché scegliere {brand}",
+  "cmpThem": "Altri strumenti online",
+  "cmpRow1": "Caricamento server",
+  "cmpRow1us": "Zero caricamenti (nel browser)",
+  "cmpRow1them": "File inviati ai server",
+  "cmpRow2": "Limite di file",
+  "cmpRow2us": "Illimitato e gratuito",
+  "cmpRow2them": "Limiti orari e a pagamento",
+  "cmpRow3": "Privacy file",
+  "cmpRow3us": "100% privato sul tuo dispositivo",
+  "cmpRow3them": "File salvati su cloud terzi",
+  "cmpRow4": "Filigrana",
+  "cmpRow4us": "Nessuna filigrana",
+  "cmpRow4them": "Spesso richiede abbonamento",
+  "cmpRow5": "Registrazione",
+  "cmpRow5us": "Nessun account richiesto",
+  "cmpRow5them": "Email o login obbligatorio",
+  "cmpRow6": "Funzionamento offline",
+  "cmpRow6us": "Funziona anche offline",
+  "cmpRow6them": "Solo con connessione attiva",
+  "usesTitle": "Casi d'uso principali",
+  "tipsTitle": "Consigli utili",
+  "updLabel": "Aggiornato il",
+  "updBy": "dal team di {brand}",
+  "crumbHome": "Home",
+  "catAll": "Tutti gli strumenti",
+  "catOther": "Altre categorie",
+  "e404t": "Pagina non trovata",
+  "e404d": "Questa pagina non esiste o è stata spostata. Prova uno dei nostri strumenti popolari.",
+  "searchPh": "Cerca strumenti…",
+  "noResults": "Nessuno strumento trovato",
+  "tagline": "Tutti gli strumenti PDF di cui hai bisogno. 100% gratis e privati nel tuo browser.",
+  "heroSub": "Unisci, dividi, comprimi, converti, firma e modifica PDF. Senza registrazione, senza limiti, senza filigrane: i tuoi file non lasciano mai il tuo dispositivo.",
+  "searchTitle": "Cerca strumenti",
+  "searchDesc": "Cerca tra tutti gli strumenti gratuiti per PDF, immagini, audio e video. Tutto funziona nel tuo browser in modo sicuro.",
+  "catTitle": "Strumenti {cat} Gratuiti Online | {brand}",
+  "catDesc": "Strumenti gratuiti {brand} per {cat}: {list}. Funzionano nel browser senza registrazione e senza caricamento.",
+  "catLead": "{n} Strumenti {cat} Gratuiti Online",
+  "cat_organize": "Organizza",
+  "cat_edit": "Modifica e annota",
+  "cat_convert": "Converti",
+  "cat_optimize": "Ottimizza",
+  "cat_security": "Sicurezza",
+  "cat_image": "Immagini",
+  "cat_qr": "Codici QR",
+  "cat_ai": "IA",
+  "cat_media": "Audio e Video",
+  "cat_data": "Dati e Fogli",
+  "cat_units": "Convertitori",
+  "cat_calc": "Calcolatori",
+  "cat_text": "Testo",
+  "cat_dev": "Sviluppo",
+  "cat_fun": "Svago",
+  "cat_web": "Strumenti Web",
+  "cat_prod": "Produttività",
+  "cat_more": "Altri strumenti"
+ },
+ "home": {
+  "title": "Strumenti File e PDF Gratuiti Online | {brand}",
+  "desc": "Unisci, comprimi, converti e modifica PDF e immagini online gratis nel tuo browser. Nessun caricamento, massima privacy garantita.",
+  "h1": "Strumenti PDF e file gratuiti che rispettano la tua privacy"
+ },
+ "commonFaq": [
+  {
+   "q": "Completamente gratuito?",
+   "a": "Nessun costo nascosto, nessun limite giornaliero, nessuna filigrana. Tutto viene eseguito sul tuo dispositivo. Nessun file viene inviato ai server."
+  },
+  {
+   "q": "Privato per natura?",
+   "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. I tuoi file non lasciano mai il tuo browser o computer."
+  }
+ ],
+ "tools": {
+  "audiocut": {
+   "name": "Taglia audio",
+   "short": "Taglia audio – 100% gratis",
+   "title": "Taglia audio – 100% gratis | {brand}",
+   "desc": "Taglia audio. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Taglia audio",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Taglia audio?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "bgremove": {
+   "name": "Rimuovi sfondo",
+   "short": "Rimuovi sfondo – 100% gratis",
+   "title": "Rimuovi sfondo – 100% gratis | {brand}",
+   "desc": "Rimuovi sfondo. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Rimuovi sfondo",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Rimuovi sfondo?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "collage": {
+   "name": "Crea collage foto",
+   "short": "Crea collage foto – 100% gratis",
+   "title": "Crea collage foto – 100% gratis | {brand}",
+   "desc": "Crea collage foto. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Crea collage foto",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Crea collage foto?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "compare": {
+   "name": "Confronta PDF",
+   "short": "Confronta PDF – 100% gratis",
+   "title": "Confronta PDF – 100% gratis | {brand}",
+   "desc": "Confronta PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Confronta PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Confronta PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "compress": {
+   "name": "Comprimi PDF",
+   "short": "Comprimi PDF – 100% gratis",
+   "title": "Comprimi PDF – 100% gratis | {brand}",
+   "desc": "Comprimi PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Comprimi PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Comprimi PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "crop": {
+   "name": "Ritaglia PDF",
+   "short": "Ritaglia PDF – 100% gratis",
+   "title": "Ritaglia PDF – 100% gratis | {brand}",
+   "desc": "Ritaglia PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Ritaglia PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Ritaglia PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "Elimina pagine PDF",
+   "short": "Elimina pagine PDF – 100% gratis",
+   "title": "Elimina pagine PDF – 100% gratis | {brand}",
+   "desc": "Elimina pagine PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Elimina pagine PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Elimina pagine PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "edit": {
+   "name": "Modifica PDF",
+   "short": "Modifica PDF – 100% gratis",
+   "title": "Modifica PDF – 100% gratis | {brand}",
+   "desc": "Modifica PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Modifica PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Modifica PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "excel2pdf": {
+   "name": "Excel in PDF",
+   "short": "Excel in PDF – 100% gratis",
+   "title": "Excel in PDF – 100% gratis | {brand}",
+   "desc": "Excel in PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Excel in PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Excel in PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "Estrai pagine PDF",
+   "short": "Estrai pagine PDF – 100% gratis",
+   "title": "Estrai pagine PDF – 100% gratis | {brand}",
+   "desc": "Estrai pagine PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Estrai pagine PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Estrai pagine PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "Appiattisci PDF",
+   "short": "Appiattisci PDF – 100% gratis",
+   "title": "Appiattisci PDF – 100% gratis | {brand}",
+   "desc": "Appiattisci PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Appiattisci PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Appiattisci PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "PDF in bianco e nero",
+   "short": "PDF in bianco e nero – 100% gratis",
+   "title": "PDF in bianco e nero – 100% gratis | {brand}",
+   "desc": "PDF in bianco e nero. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in bianco e nero",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in bianco e nero?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "heic2jpg": {
+   "name": "HEIC in JPG",
+   "short": "HEIC in JPG – 100% gratis",
+   "title": "HEIC in JPG – 100% gratis | {brand}",
+   "desc": "HEIC in JPG. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "HEIC in JPG",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare HEIC in JPG?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "imgcompress": {
+   "name": "Comprimi immagini",
+   "short": "Comprimi immagini – 100% gratis",
+   "title": "Comprimi immagini – 100% gratis | {brand}",
+   "desc": "Comprimi immagini. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Comprimi immagini",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Comprimi immagini?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "imgconvert": {
+   "name": "Convertitore immagini",
+   "short": "Convertitore immagini – 100% gratis",
+   "title": "Convertitore immagini – 100% gratis | {brand}",
+   "desc": "Convertitore immagini. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Convertitore immagini",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Convertitore immagini?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "imgcrop": {
+   "name": "Ritaglia immagine",
+   "short": "Ritaglia immagine – 100% gratis",
+   "title": "Ritaglia immagine – 100% gratis | {brand}",
+   "desc": "Ritaglia immagine. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Ritaglia immagine",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Ritaglia immagine?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "imgresize": {
+   "name": "Ridimensiona immagini",
+   "short": "Ridimensiona immagini – 100% gratis",
+   "title": "Ridimensiona immagini – 100% gratis | {brand}",
+   "desc": "Ridimensiona immagini. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Ridimensiona immagini",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Ridimensiona immagini?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "JPG in PDF",
+   "short": "JPG in PDF – 100% gratis",
+   "title": "JPG in PDF – 100% gratis | {brand}",
+   "desc": "JPG in PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "JPG in PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare JPG in PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "jpg2png": {
+   "name": "JPG in PNG",
+   "short": "JPG in PNG – 100% gratis",
+   "title": "JPG in PNG – 100% gratis | {brand}",
+   "desc": "JPG in PNG. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "JPG in PNG",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare JPG in PNG?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "merge": {
+   "name": "Unisci PDF",
+   "short": "Unisci PDF – 100% gratis",
+   "title": "Unisci PDF – 100% gratis | {brand}",
+   "desc": "Unisci PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Unisci PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Unisci PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "OCR Riconoscimento testo",
+   "short": "OCR Riconoscimento testo – 100% gratis",
+   "title": "OCR Riconoscimento testo – 100% gratis | {brand}",
+   "desc": "OCR Riconoscimento testo. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "OCR Riconoscimento testo",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare OCR Riconoscimento testo?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "OCR PDF ricercabile",
+   "short": "OCR PDF ricercabile – 100% gratis",
+   "title": "OCR PDF ricercabile – 100% gratis | {brand}",
+   "desc": "OCR PDF ricercabile. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "OCR PDF ricercabile",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare OCR PDF ricercabile?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "organize": {
+   "name": "Organizza PDF",
+   "short": "Organizza PDF – 100% gratis",
+   "title": "Organizza PDF – 100% gratis | {brand}",
+   "desc": "Organizza PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Organizza PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Organizza PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "Numeri di pagina PDF",
+   "short": "Numeri di pagina PDF – 100% gratis",
+   "title": "Numeri di pagina PDF – 100% gratis | {brand}",
+   "desc": "Numeri di pagina PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Numeri di pagina PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Numeri di pagina PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Generatore password",
+   "short": "Generatore password – 100% gratis",
+   "title": "Generatore password – 100% gratis | {brand}",
+   "desc": "Generatore password. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Generatore password",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Generatore password?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pdf2excel": {
+   "name": "PDF in Excel",
+   "short": "PDF in Excel – 100% gratis",
+   "title": "PDF in Excel – 100% gratis | {brand}",
+   "desc": "PDF in Excel. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in Excel",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in Excel?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "PDF in JPG",
+   "short": "PDF in JPG – 100% gratis",
+   "title": "PDF in JPG – 100% gratis | {brand}",
+   "desc": "PDF in JPG. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in JPG",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in JPG?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pdf2png": {
+   "name": "PDF in PNG",
+   "short": "PDF in PNG – 100% gratis",
+   "title": "PDF in PNG – 100% gratis | {brand}",
+   "desc": "PDF in PNG. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in PNG",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in PNG?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pdf2ppt": {
+   "name": "PDF in PowerPoint",
+   "short": "PDF in PowerPoint – 100% gratis",
+   "title": "PDF in PowerPoint – 100% gratis | {brand}",
+   "desc": "PDF in PowerPoint. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in PowerPoint",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in PowerPoint?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "PDF in testo TXT",
+   "short": "PDF in testo TXT – 100% gratis",
+   "title": "PDF in testo TXT – 100% gratis | {brand}",
+   "desc": "PDF in testo TXT. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in testo TXT",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in testo TXT?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "PDF in Word",
+   "short": "PDF in Word – 100% gratis",
+   "title": "PDF in Word – 100% gratis | {brand}",
+   "desc": "PDF in Word. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PDF in Word",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PDF in Word?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "png2jpg": {
+   "name": "PNG in JPG",
+   "short": "PNG in JPG – 100% gratis",
+   "title": "PNG in JPG – 100% gratis | {brand}",
+   "desc": "PNG in JPG. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "PNG in JPG",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare PNG in JPG?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "protect": {
+   "name": "Proteggi PDF",
+   "short": "Proteggi PDF – 100% gratis",
+   "title": "Proteggi PDF – 100% gratis | {brand}",
+   "desc": "Proteggi PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Proteggi PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Proteggi PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "qr": {
+   "name": "Generatore codice QR",
+   "short": "Generatore codice QR – 100% gratis",
+   "title": "Generatore codice QR – 100% gratis | {brand}",
+   "desc": "Generatore codice QR. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Generatore codice QR",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Generatore codice QR?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "qrscan": {
+   "name": "Scanner codice QR",
+   "short": "Scanner codice QR – 100% gratis",
+   "title": "Scanner codice QR – 100% gratis | {brand}",
+   "desc": "Scanner codice QR. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Scanner codice QR",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Scanner codice QR?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "redact": {
+   "name": "Oscura testo PDF",
+   "short": "Oscura testo PDF – 100% gratis",
+   "title": "Oscura testo PDF – 100% gratis | {brand}",
+   "desc": "Oscura testo PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Oscura testo PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Oscura testo PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "Rimuovi metadati PDF",
+   "short": "Rimuovi metadati PDF – 100% gratis",
+   "title": "Rimuovi metadati PDF – 100% gratis | {brand}",
+   "desc": "Rimuovi metadati PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Rimuovi metadati PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Rimuovi metadati PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "Ridimensiona pagina PDF",
+   "short": "Ridimensiona pagina PDF – 100% gratis",
+   "title": "Ridimensiona pagina PDF – 100% gratis | {brand}",
+   "desc": "Ridimensiona pagina PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Ridimensiona pagina PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Ridimensiona pagina PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "Ruota PDF",
+   "short": "Ruota PDF – 100% gratis",
+   "title": "Ruota PDF – 100% gratis | {brand}",
+   "desc": "Ruota PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Ruota PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Ruota PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "sign": {
+   "name": "Firma PDF",
+   "short": "Firma PDF – 100% gratis",
+   "title": "Firma PDF – 100% gratis | {brand}",
+   "desc": "Firma PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Firma PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Firma PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "split": {
+   "name": "Dividi PDF",
+   "short": "Dividi PDF – 100% gratis",
+   "title": "Dividi PDF – 100% gratis | {brand}",
+   "desc": "Dividi PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Dividi PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Dividi PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Testo in PDF",
+   "short": "Testo in PDF – 100% gratis",
+   "title": "Testo in PDF – 100% gratis | {brand}",
+   "desc": "Testo in PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Testo in PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Testo in PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "Sblocca PDF",
+   "short": "Sblocca PDF – 100% gratis",
+   "title": "Sblocca PDF – 100% gratis | {brand}",
+   "desc": "Sblocca PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Sblocca PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Sblocca PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Migliora risoluzione immagine",
+   "short": "Migliora risoluzione immagine – 100% gratis",
+   "title": "Migliora risoluzione immagine – 100% gratis | {brand}",
+   "desc": "Migliora risoluzione immagine. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Migliora risoluzione immagine",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Migliora risoluzione immagine?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "video2mp3": {
+   "name": "Video in MP3",
+   "short": "Video in MP3 – 100% gratis",
+   "title": "Video in MP3 – 100% gratis | {brand}",
+   "desc": "Video in MP3. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Video in MP3",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Video in MP3?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Comprimi video",
+   "short": "Comprimi video – 100% gratis",
+   "title": "Comprimi video – 100% gratis | {brand}",
+   "desc": "Comprimi video. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Comprimi video",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Comprimi video?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "viewer": {
+   "name": "Visualizzatore PDF",
+   "short": "Visualizzatore PDF – 100% gratis",
+   "title": "Visualizzatore PDF – 100% gratis | {brand}",
+   "desc": "Visualizzatore PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Visualizzatore PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Visualizzatore PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "Filigrana PDF",
+   "short": "Filigrana PDF – 100% gratis",
+   "title": "Filigrana PDF – 100% gratis | {brand}",
+   "desc": "Filigrana PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Filigrana PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Filigrana PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "webp2jpg": {
+   "name": "WebP in JPG",
+   "short": "WebP in JPG – 100% gratis",
+   "title": "WebP in JPG – 100% gratis | {brand}",
+   "desc": "WebP in JPG. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "WebP in JPG",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare WebP in JPG?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Word in PDF",
+   "short": "Word in PDF – 100% gratis",
+   "title": "Word in PDF – 100% gratis | {brand}",
+   "desc": "Word in PDF. I file vengono elaborati localmente nel tuo browser e non vengono mai caricati.",
+   "h1": "Word in PDF",
+   "steps": [
+    "Carica",
+    "Opzioni",
+    "Scarica"
+   ],
+   "faq": [
+    {
+     "q": "Come fare Word in PDF?",
+     "a": "I file vengono elaborati localmente nel tuo browser e non vengono mai caricati. Nessuna registrazione."
+    }
+   ]
+  }
+ }
+}

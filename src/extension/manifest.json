@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Fileopia – Free & Private File Tools",
+  "version": "1.0.0",
+  "description": "100% Free browser-local PDF, image, audio and video tools. No cloud uploads, no daily limits, works offline.",
+  "icons": {
+    "16": "icon-32.png",
+    "32": "icon-32.png",
+    "48": "icon-192.png",
+    "128": "icon-192.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-32.png",
+    "default_title": "Fileopia Tools"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
