@@ -176,70 +176,53 @@ function generateKeywords(tool, toolText = {}, lang = 'en') {
   // Core base phrases
   const coreActions = [
     name.toLowerCase(),
-    slug.replace(/-/g, ' '),
-    ...syns.map(s => s + ' ' + (slug.includes('pdf') ? 'pdf' : slug.includes('image') ? 'image' : slug.includes('excel') ? 'excel' : slug.includes('cdr') ? 'cdr' : 'online'))
+    slug.replace(/-/g, ' ')
   ];
+  if (syns && syns.length) coreActions.push(syns[0] + ' ' + (slug.includes('pdf') ? 'pdf' : 'online'));
 
   if (slug.includes('-to-')) {
     const [fromFmt, toFmt] = slug.split('-to-');
     coreActions.push(
       fromFmt + ' to ' + toFmt,
-      'convert ' + fromFmt + ' to ' + toFmt,
-      fromFmt + ' ' + toFmt + ' converter'
+      'convert ' + fromFmt + ' to ' + toFmt
     );
   }
 
   const set = new Set();
   const loc = LOCALIZED_TERMS[lang];
 
-  // 1. Generate English/Global Long-tail Combinations
-  for (const act of coreActions) {
-    if (!act || act.length < 3) continue;
-    const cleanAct = act.trim().toLowerCase();
-    set.add(cleanAct);
-
-    for (const q of QUALIFIERS_EN) {
-      set.add(cleanAct + ' ' + q);
-      set.add(q + ' ' + cleanAct);
-    }
-    for (const d of DEVICES_EN) {
-      set.add(cleanAct + ' ' + d);
-      for (const q of ['free', 'online', 'safe']) {
-        set.add(cleanAct + ' ' + q + ' ' + d);
-      }
-    }
-    for (const u of USE_CASES_EN) {
-      set.add(cleanAct + ' ' + u);
-      set.add(cleanAct + ' free ' + u);
-    }
-    for (const p of QUESTIONS_EN) {
-      set.add(p + ' ' + cleanAct);
-      set.add(p + ' ' + cleanAct + ' online');
-    }
-  }
-
-  // 2. Generate Native Localized Long-tail Combinations if non-English
+  // 1. Generate Native Localized Long-tail Combinations first if non-English
   if (loc) {
     const locBaseName = name.toLowerCase();
     set.add(locBaseName);
-
-    for (const q of loc.qualifiers) {
+    for (const q of (loc.qualifiers || []).slice(0, 8)) {
       set.add(locBaseName + ' ' + q);
       set.add(q + ' ' + locBaseName);
     }
-    for (const d of loc.devices) {
-      set.add(locBaseName + ' ' + d);
-      for (const q of loc.qualifiers.slice(0, 3)) {
-        set.add(locBaseName + ' ' + q + ' ' + d);
-      }
+    for (const d of (loc.devices || []).slice(0, 4)) set.add(locBaseName + ' ' + d);
+    for (const u of (loc.useCases || []).slice(0, 4)) set.add(locBaseName + ' ' + u);
+  }
+
+  // 2. Generate English/Global Long-tail Combinations
+  const qual = QUALIFIERS_EN.slice(0, 15);
+  const dev = DEVICES_EN.slice(0, 6);
+  const uc = USE_CASES_EN.slice(0, 6);
+
+  for (const act of coreActions) {
+    if (set.size >= 35) break;
+    const cleanAct = act.trim().toLowerCase();
+    set.add(cleanAct);
+    for (const q of qual) {
+      if (set.size >= 35) break;
+      set.add(cleanAct + ' ' + q);
     }
-    for (const u of loc.useCases) {
-      set.add(locBaseName + ' ' + u);
-      set.add(locBaseName + ' ' + (loc.qualifiers[0] || '') + ' ' + u);
+    for (const d of dev) {
+      if (set.size >= 35) break;
+      set.add(cleanAct + ' ' + d);
     }
-    for (const p of loc.questions) {
-      set.add(p + ' ' + locBaseName);
-      set.add(p + ' ' + locBaseName + ' ' + (loc.qualifiers[0] || ''));
+    for (const u of uc) {
+      if (set.size >= 35) break;
+      set.add(cleanAct + ' ' + u);
     }
   }
 
