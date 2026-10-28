@@ -10,15 +10,13 @@ const tools=JSON.parse(fs.readFileSync(R('src/tools.json')));
 if(fs.existsSync(R('src/tools.d')))for(const f of fs.readdirSync(R('src/tools.d')).sort())if(f.endsWith('.json'))tools.push(...JSON.parse(fs.readFileSync(R('src/tools.d/'+f))));
 const matrixTools = fs.existsSync(R('src/tools.d/b30-format-matrix.json')) ? JSON.parse(fs.readFileSync(R('src/tools.d/b30-format-matrix.json'))) : [];
 const matrixToolSet = new Set(matrixTools.map(t => t.id));
-const matrixFullLangs = new Set(['en', 'es', 'pt', 'de']);
-const frMatrixSet = new Set(matrixTools.slice(0, 300).map(t => t.id));
-const zhMatrixSet = new Set(matrixTools.slice(0, 288).map(t => t.id));
+const matrixFullLangs = new Set(['en', 'es', 'pt']);
+const deMatrixSet = new Set(matrixTools.slice(0, 1500).map(t => t.id));
 
 const isToolForLang = (toolId, lang) => {
   if (!matrixToolSet.has(toolId)) return true; // All 508 Core Tools in ALL 19 languages!
-  if (matrixFullLangs.has(lang)) return true; // All matrix tools in en, es, pt, de
-  if (lang === 'fr') return frMatrixSet.has(toolId);
-  if (lang === 'zh-cn') return zhMatrixSet.has(toolId);
+  if (matrixFullLangs.has(lang)) return true; // All matrix tools in en, es, pt
+  if (lang === 'de') return deMatrixSet.has(toolId);
   return false;
 };
 
