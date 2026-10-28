@@ -33,25 +33,25 @@
   "code": "it",
   "name": "Italiano",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "ru",
   "name": "Русский",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "ja",
   "name": "日本語",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "ko",
   "name": "한국어",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "zh-cn",
@@ -63,13 +63,13 @@
   "code": "zh-tw",
   "name": "繁體中文",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "ar",
   "name": "العربية",
   "dir": "rtl",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "hi",
@@ -81,43 +81,43 @@
   "code": "id",
   "name": "Bahasa Indonesia",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "tr",
   "name": "Türkçe",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "vi",
   "name": "Tiếng Việt",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "pl",
   "name": "Polski",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "nl",
   "name": "Nederlands",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "th",
   "name": "ไทย",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "uk",
   "name": "Українська",
   "dir": "ltr",
-  "enabled": false
+  "enabled": true
  },
  {
   "code": "fa",

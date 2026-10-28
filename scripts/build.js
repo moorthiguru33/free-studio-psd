@@ -8,8 +8,22 @@ site.baseUrl=(process.env.SITE_URL||site.baseUrl).replace(/\/+$/,'');
 const tools=JSON.parse(fs.readFileSync(R('src/tools.json')));
 // extra tool lists (src/tools.d/*.json) are appended; enOnly tools are built for English only
 if(fs.existsSync(R('src/tools.d')))for(const f of fs.readdirSync(R('src/tools.d')).sort())if(f.endsWith('.json'))tools.push(...JSON.parse(fs.readFileSync(R('src/tools.d/'+f))));
+const matrixTools = fs.existsSync(R('src/tools.d/b30-format-matrix.json')) ? JSON.parse(fs.readFileSync(R('src/tools.d/b30-format-matrix.json'))) : [];
+const matrixToolSet = new Set(matrixTools.map(t => t.id));
+const matrixFullLangs = new Set(['en', 'es', 'pt', 'de']);
+const frMatrixSet = new Set(matrixTools.slice(0, 300).map(t => t.id));
+const zhMatrixSet = new Set(matrixTools.slice(0, 288).map(t => t.id));
+
+const isToolForLang = (toolId, lang) => {
+  if (!matrixToolSet.has(toolId)) return true; // All 508 Core Tools in ALL 19 languages!
+  if (matrixFullLangs.has(lang)) return true; // All matrix tools in en, es, pt, de
+  if (lang === 'fr') return frMatrixSet.has(toolId);
+  if (lang === 'zh-cn') return zhMatrixSet.has(toolId);
+  return false;
+};
+
 const UNTR={};// lang -> Set of tool ids whose page text is not translated (English fallback) – not built in that language to avoid duplicate content
-const forLang=(lang)=>tools.filter(x=>!(UNTR[lang]&&UNTR[lang].has(x.id)));
+const forLang=(lang)=>tools.filter(x=>isToolForLang(x.id, lang)&&!(UNTR[lang]&&UNTR[lang].has(x.id)));
 // Reserved #tool heights (scripts/measure-ui.js) so JS-rendered tool UIs never shift the page (CLS 0)
 const UIH=fs.existsSync(R('src/ui-heights.json'))?JSON.parse(fs.readFileSync(R('src/ui-heights.json'))):{};
 const uiCss=slug=>{const h=UIH[slug];if(!h)return '';const q={s:'(max-width:599px)',m:'(min-width:600px) and (max-width:899px)',l:'(min-width:900px)'};return '<style>'+Object.entries(h).map(([k,v])=>`@media${q[k[0]]}{#tool${k[1]?' .custom':''}{min-height:${v}px}}`).join('')+'</style>';};
