@@ -1,0 +1,11 @@
+{"ui":{
+"privHnf":"Private by design","privH":"Your files never leave your device",
+"privPnf":"Everything you type is calculated by JavaScript in this tab. Nothing is sent to {brand} or anyone else, and there are no accounts or tracking cookies tied to what you enter.",
+"privP":"{tool} runs entirely in your browser using JavaScript and WebAssembly. Your files are read from your disk into this tab, processed in memory and saved straight back to your downloads folder – they are never uploaded to {brand} or any third party.",
+"privL1b":"Test it yourself:","privL1":"once this page has loaded, switch off Wi‑Fi or mobile data and run the tool – it keeps working.",
+"privL2b":"Check the network:","privL2":"open your browser’s developer tools (F12 → Network) while processing; you will see no file upload requests.",
+"privL3b":"Nothing to delete:","privL3":"close the tab and the data is gone – there is no server copy, no retention period and no account.",
+"updLabel":"Last updated:","updBy":"Written and tested by the {brand} team",
+"cmpTitleDef":"{tool}: {brand} vs iLovePDF, Smallpdf, Adobe and Sejda",
+"cmpNoteDef":"Competitor details from their public tool pages, checked 25 Oct 2026. Sejda’s free web plan states 3 tasks per hour and 50 MB per file. Offers change – check their sites for current terms."
+}}

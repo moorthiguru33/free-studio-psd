@@ -1,0 +1,3275 @@
+{
+"tools": {
+"audioconv": {
+"seo": {
+"title": "Audio Converter Online Free – MP3, WAV, Any Format",
+"desc": "Convert audio to MP3 or WAV free: FLAC, M4A, AAC, OGG, Opus, WMA-free formats and video soundtracks. Bitrate, trim, fade, tags. No upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Free online audio converter",
+"Convert music, voice recordings, podcasts and video soundtracks to MP3 or WAV in your browser. Choose the bitrate, mono or stereo and sample rate; trim to a section, add fades, raise the volume and write MP3 tags with cover art. Your audio never leaves your device, so private recordings and unreleased tracks stay private."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more audio or video files.",
+"Choose MP3 or WAV and the quality.",
+"Optionally trim, fade, change volume or add tags.",
+"Press Convert and download."
+]
+}
+],
+[
+"Which format should I use?",
+{
+"table": [
+[
+"Format",
+"Type",
+"Use"
+],
+[
+"MP3",
+"Lossy",
+"Universal playback: phones, cars, websites, podcasts"
+],
+[
+"WAV",
+"Uncompressed",
+"Editing in Audacity, DAWs, video editors; CDs"
+],
+[
+"FLAC",
+"Lossless compressed",
+"Archiving music without quality loss"
+],
+[
+"M4A / AAC",
+"Lossy",
+"Apple devices, YouTube audio"
+],
+[
+"OGG / Opus",
+"Lossy",
+"Games, WhatsApp voice notes, web streaming"
+]
+]
+},
+"This converter reads all of them and writes MP3 or WAV – the two formats every device and program accepts."
+],
+[
+"Extract audio from video",
+"Drop an MP4, MOV, WebM or MKV video and you get its soundtrack as MP3 – useful for lectures, interviews and music videos you made yourself. For a dedicated page see [MP4 to MP3](/mp4-to-mp3/) or [Video to Audio](/video-to-audio/)."
+],
+[
+"Batch conversion",
+"Drop a whole album or a folder of recordings; every file is converted with the same settings and downloaded together as a ZIP. Tags you enter are applied to all files, so leave the title empty for batches."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert audio to MP3?",
+"a": "Drop the file, choose MP3 and press Convert."
+},
+{
+"q": "Which input formats work?",
+"a": "MP3, WAV, FLAC, M4A, AAC, OGG, Opus and audio in MP4, MOV, WebM and MKV."
+},
+{
+"q": "Can I convert to WAV?",
+"a": "Yes."
+},
+{
+"q": "What bitrate should I use?",
+"a": "128 kbps for speech, 192–320 kbps for music."
+},
+{
+"q": "Can I convert many files?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Can I trim audio?",
+"a": "Yes, set start and end."
+},
+{
+"q": "Can I add album art?",
+"a": "Yes, in MP3 tags."
+},
+{
+"q": "Does it support WMA?",
+"a": "WMA cannot be decoded by browsers."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"audio-cutter",
+"audio-joiner",
+"compress-mp3",
+"mp4-to-mp3",
+"change-audio-speed"
+],
+"updated": "2026-10-25"
+}
+},
+"wav2mp3": {
+"seo": {
+"title": "WAV to MP3 Converter – Free, High Quality, No Upload",
+"desc": "Convert WAV to MP3 free at 64–320 kbps in your browser: batch, trim, fade, volume and ID3 tags with cover art. Up to 90 % smaller. No upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Convert WAV to MP3",
+"WAV files are uncompressed – about 10 MB per minute – which makes them perfect for recording and editing but awkward to e-mail, upload or store on a phone. Converting WAV to MP3 shrinks them by around 90 % with little audible difference at 192 kbps or more."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more WAV files.",
+"Choose the MP3 bitrate (192 kbps is a good default) and channels.",
+"Optionally trim, fade or tag the files.",
+"Press Convert and download the MP3s."
+]
+}
+],
+[
+"WAV vs MP3",
+{
+"table": [
+[
+"",
+"WAV",
+"MP3"
+],
+[
+"Compression",
+"None (PCM)",
+"Lossy"
+],
+[
+"Size per minute (stereo)",
+"≈ 10 MB",
+"≈ 1.4 MB at 192 kbps"
+],
+[
+"Quality",
+"Exact copy of the recording",
+"Near-transparent at 192–320 kbps"
+],
+[
+"Editing",
+"Ideal",
+"Fine for playback, avoid re-editing repeatedly"
+],
+[
+"Compatibility",
+"Wide",
+"Universal"
+]
+]
+}
+],
+[
+"When to keep the WAV",
+"Keep the WAV as your master if you will edit, mix or master the audio again, or if a client or distributor asks for uncompressed files (most music distributors want WAV or FLAC). Archive the WAVs – ideally in two places – on an external drive or cloud storage before deleting them from a laptop to free up space. Convert to MP3 for sharing, listening on the go, voice-message uploads and websites."
+],
+[
+"Recording sources",
+"WAV comes from voice recorders, Zoom H-series devices, DAWs such as Audacity, GarageBand, Reaper and FL Studio, and from CD rips. 24-bit and 32-bit float WAVs are read correctly and converted to MP3, which is always 16-bit-equivalent quality."
+],
+[
+"Choosing the bitrate for WAV sources",
+{
+"list": [
+"**320 kbps** – music you care about; the closest MP3 gets to the WAV.",
+"**192 kbps** – excellent all-round choice for music and mixed content.",
+"**128 kbps** – podcasts, audiobooks and lectures in stereo.",
+"**64 kbps mono** – voice notes and long interviews where size matters most."
+]
+}
+],
+[
+"Typical jobs",
+"Send a demo track to a band mate, upload a voice-over to a client portal with a 10 MB limit, put a rehearsal recording on your phone, or publish a podcast episode. Musicians also convert stems and bounces to MP3 for quick review on phones, and teachers convert recorded lessons so students can download them on slow connections. Converting on your own device is also quicker than uploading a large WAV to a cloud converter and downloading the result again."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert WAV to MP3?",
+"a": "Drop the WAV, choose a bitrate and press Convert."
+},
+{
+"q": "How much smaller will the MP3 be?",
+"a": "About 85–95 % smaller."
+},
+{
+"q": "Will I hear a difference?",
+"a": "At 192–320 kbps most people cannot."
+},
+{
+"q": "Can I batch convert WAV files?",
+"a": "Yes."
+},
+{
+"q": "Does it support 24-bit WAV?",
+"a": "Yes."
+},
+{
+"q": "Can I add tags?",
+"a": "Yes, title, artist, album, year and cover."
+},
+{
+"q": "Can I trim the WAV?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "MP3 back to WAV?",
+"a": "Use MP3 to WAV."
+}
+],
+"related": [
+"mp3-to-wav",
+"audio-converter",
+"compress-mp3",
+"audio-cutter",
+"flac-to-mp3"
+],
+"updated": "2026-10-25"
+}
+},
+"mp32wav": {
+"seo": {
+"title": "MP3 to WAV Converter – Free, 44.1/48 kHz, No Upload",
+"desc": "Convert MP3 to WAV free in your browser for editing, CDs and video software. Choose 48, 44.1 or 22 kHz, mono or stereo, trim and fade. No upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Convert MP3 to WAV",
+"Some programs and devices need WAV: video editors, DJ software, sampler apps, telephone systems, CD-burning software, game engines and speech tools. Converting MP3 to WAV decodes the audio to plain uncompressed PCM that every audio program can open, at the sample rate you choose."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more MP3 files.",
+"Keep WAV as the format and choose the sample rate and channels.",
+"Optionally trim or fade.",
+"Press Convert and download."
+]
+}
+],
+[
+"Will WAV sound better?",
+"No. MP3 discarded some detail when it was created, and converting to WAV cannot bring it back – the WAV is an exact uncompressed copy of the MP3 as it sounds, but about ten times larger. Convert to WAV for *compatibility* and *editing*, not for quality."
+],
+[
+"Sample rate guide",
+{
+"table": [
+[
+"Rate",
+"Use"
+],
+[
+"44.1 kHz",
+"Audio CDs, music"
+],
+[
+"48 kHz",
+"Video editing (Premiere, DaVinci Resolve, Final Cut), broadcast"
+],
+[
+"22 kHz",
+"Voice prompts, small embedded devices"
+],
+[
+"8 kHz mono",
+"Telephone / IVR systems (resample in your phone-system software if needed)"
+]
+]
+}
+],
+[
+"Common uses",
+{
+"list": [
+"Import into video editors that stutter with MP3.",
+"Burn an audio CD from MP3 files.",
+"Load samples into DAWs and hardware samplers.",
+"Prepare on-hold music or IVR prompts.",
+"Analyse audio with scientific or speech-recognition tools."
+]
+}
+],
+[
+"WAV file size",
+"A stereo 44.1 kHz WAV uses about 10 MB per minute, 48 kHz about 11 MB; mono halves it. A 4-minute song becomes roughly 40 MB. If you need a smaller lossless file for archiving, FLAC is about half the size of WAV, but MP3-sourced audio gains nothing from being stored losslessly."
+],
+[
+"Editing without generation loss",
+"Each time you edit an MP3 and save it as MP3 again, it is decoded and re-encoded, losing a little more quality. Convert to WAV once, do all your cutting, mixing and effects on the WAV, and export to MP3 only at the very end. This is the standard workflow in podcast and music production, and it keeps the final file as close to the source as possible."
+],
+[
+"Bit depth",
+"The WAV files are 16-bit PCM, the CD standard, which is more than enough for MP3 sources whose dynamic range is lower. Most editors convert to 32-bit float internally anyway, so there is no benefit in a higher bit depth here."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert MP3 to WAV?",
+"a": "Drop the MP3, keep WAV and press Convert."
+},
+{
+"q": "Does WAV improve quality?",
+"a": "No, it only removes compression from now on."
+},
+{
+"q": "Which sample rate should I choose?",
+"a": "44.1 kHz for music/CD, 48 kHz for video."
+},
+{
+"q": "Why is the WAV so big?",
+"a": "WAV is uncompressed, about 10 MB per minute."
+},
+{
+"q": "Can I convert to mono?",
+"a": "Yes."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes."
+},
+{
+"q": "Is it 16-bit?",
+"a": "Yes, 16-bit PCM."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari."
+}
+],
+"related": [
+"wav-to-mp3",
+"audio-converter",
+"audio-cutter",
+"m4a-to-wav",
+"flac-to-wav"
+],
+"updated": "2026-10-25"
+}
+},
+"audiocompress": {
+"seo": {
+"title": "Compress MP3 – Reduce Audio File Size Online Free",
+"desc": "Compress MP3 and audio files: lower bitrate to 64–128 kbps, mono, 22 kHz, trim silence. Shrink podcasts and voice recordings free. No upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Compress MP3 and audio files",
+"Make MP3s, voice recordings, podcasts and audiobooks smaller so they fit e-mail limits, upload forms and phone storage. The default settings – 64 kbps mono – reduce typical music files by 70–80 % and are ideal for speech. Pick a higher bitrate when you need better music quality."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the audio files.",
+"Choose a bitrate (64 kbps mono is the default for maximum compression).",
+"Optionally lower the sample rate, trim the start and end, or reduce volume peaks.",
+"Press Convert and compare the new size."
+]
+}
+],
+[
+"How much can I save?",
+{
+"table": [
+[
+"Source",
+"Setting",
+"Approx. result"
+],
+[
+"4-min song, 320 kbps (9.6 MB)",
+"128 kbps stereo",
+"3.8 MB (-60 %)"
+],
+[
+"4-min song, 320 kbps",
+"64 kbps mono",
+"1.9 MB (-80 %)"
+],
+[
+"1-hour podcast, 192 kbps (86 MB)",
+"64 kbps mono",
+"29 MB (-66 %)"
+],
+[
+"10-min voice memo WAV (100 MB)",
+"64 kbps mono",
+"4.8 MB (-95 %)"
+]
+]
+}
+],
+[
+"Best settings by content",
+{
+"list": [
+"**Speech, lectures, audiobooks**: 48–64 kbps mono, 22 or 44.1 kHz – clear and tiny.",
+"**Podcasts with music**: 96–128 kbps mono or stereo.",
+"**Music for casual listening**: 128 kbps stereo.",
+"**Music you care about**: do not go below 192 kbps."
+]
+}
+],
+[
+"Trim for even smaller files",
+"The fastest way to save space is to remove what you do not need: silence before and after a recording, an intro, or the part after a meeting ended. Use start and end, or the visual [Audio Cutter](/audio-cutter/)."
+],
+[
+"Common size limits",
+"E-mail attachments: about 20–25 MB (Gmail, Outlook). WhatsApp documents: up to 2 GB, but audio messages are recompressed. Discord free uploads: 10 MB. Many school and job portals: 5–10 MB. Calculate the bitrate you need: kbps ≈ target MB ÷ minutes × 133."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Speech-optimised defaults",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I compress an MP3?",
+"a": "Drop it, keep 64 kbps mono or choose another bitrate, and convert."
+},
+{
+"q": "Will quality drop?",
+"a": "Slightly; speech stays clear at 64 kbps."
+},
+{
+"q": "How small can I make it?",
+"a": "64 kbps mono uses about 0.5 MB per minute."
+},
+{
+"q": "Can I compress WAV files?",
+"a": "Yes, they shrink by over 90 %."
+},
+{
+"q": "Mono or stereo?",
+"a": "Mono for voice saves half."
+},
+{
+"q": "Can I compress many files?",
+"a": "Yes."
+},
+{
+"q": "Can I hit an exact size?",
+"a": "Use the formula kbps ≈ MB ÷ minutes × 133."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+}
+],
+"related": [
+"audio-cutter",
+"audio-converter",
+"wav-to-mp3",
+"compress-video",
+"voice-recorder"
+],
+"updated": "2026-10-25"
+}
+},
+"flac2mp3": {
+"seo": {
+"title": "FLAC to MP3 Converter – 320 kbps, Tags, No Upload",
+"desc": "Convert FLAC to MP3 free at up to 320 kbps: batch whole albums, keep it small for phones and cars, add tags and cover. Runs in your browser.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Convert FLAC to MP3",
+"FLAC is lossless – perfect for archiving your CD collection or hi-res downloads, but files are 25–40 MB per song and many car stereos, older phones and apps cannot play them. Convert FLAC to MP3 for everyday listening while keeping the FLAC originals as your master copies."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more FLAC files.",
+"Choose the MP3 bitrate (192 kbps is a good default) and channels.",
+"Optionally trim, fade or tag the files.",
+"Press Convert and download the MP3s."
+]
+}
+],
+[
+"FLAC vs MP3",
+{
+"table": [
+[
+"",
+"FLAC",
+"MP3 320 kbps"
+],
+[
+"Quality",
+"Lossless – identical to CD/master",
+"Near-transparent"
+],
+[
+"Size per 4-min song",
+"25–40 MB",
+"≈ 9.6 MB"
+],
+[
+"Hi-res (24-bit/96 kHz)",
+"Supported",
+"Converted to standard resolution"
+],
+[
+"Car stereos, old players",
+"Often unsupported",
+"Universal"
+]
+]
+}
+],
+[
+"Which bitrate for FLAC sources?",
+"Because FLAC is a perfect source, the MP3 is encoded only once – this is the best case for MP3 quality. 320 kbps gives the highest quality, 192–256 kbps is indistinguishable for most listeners on headphones and in cars, and saves 20–40 %."
+],
+[
+"Hi-res FLAC",
+"24-bit and 96/192 kHz FLAC files are decoded and down-sampled for MP3, which supports up to 48 kHz. Choose 44.1 kHz for music libraries; nothing audible is lost for MP3 listening."
+],
+[
+"Converting a whole album",
+"Drop all the tracks at once and download the ZIP. Track titles come from the file names, so name files like *01 Artist – Title.flac* before converting; to apply the same album and artist tag to every file, fill in only those fields under MP3 tags."
+],
+[
+"Batch tips",
+"Drop a whole folder; each file keeps its name with a .mp3 extension and everything is downloaded together as a ZIP. If a file fails, the rest still convert and the error is shown next to the file name."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert FLAC to MP3?",
+"a": "Drop the FLAC file, choose a bitrate and press Convert."
+},
+{
+"q": "What bitrate should I choose?",
+"a": "192 kbps for music, 64–96 kbps mono for speech."
+},
+{
+"q": "Can I convert several files?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Will quality drop?",
+"a": "Slightly, as MP3 is lossy; use 256–320 kbps to minimise it."
+},
+{
+"q": "Can I add tags and cover art?",
+"a": "Yes."
+},
+{
+"q": "Can I trim the audio?",
+"a": "Yes, with start and end."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari (OGG needs a recent Safari)."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no limits."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Can I convert FLAC to WAV?",
+"a": "Choose WAV as the format."
+}
+],
+"related": [
+"audio-converter",
+"wav-to-mp3",
+"compress-mp3",
+"audio-cutter",
+"mp3-to-wav"
+],
+"updated": "2026-10-25"
+}
+},
+"ogg2mp3": {
+"seo": {
+"title": "OGG to MP3 Converter – Vorbis & Opus to MP3 Free",
+"desc": "Convert OGG (Vorbis or Opus) to MP3 free – game sounds, WhatsApp voice notes, web audio – at 64–320 kbps with trim and tags. No upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Convert OGG to MP3",
+"OGG is an open container usually holding Vorbis or Opus audio. It is common in games, Linux software, Wikipedia media, Telegram and WhatsApp voice notes – but iPhones, car stereos and many editors cannot play it. Converting OGG to MP3 makes the audio play anywhere."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more OGG files.",
+"Choose the MP3 bitrate (192 kbps is a good default) and channels.",
+"Optionally trim, fade or tag the files.",
+"Press Convert and download the MP3s."
+]
+}
+],
+[
+"OGG Vorbis vs Opus",
+"Vorbis was the original OGG codec, popular for music and game audio. Opus is newer and far more efficient for speech – WhatsApp, Telegram, Discord and WebRTC calls use it, often in .ogg or .opus files. Both are decoded here; for .opus files see [Opus to MP3](/opus-to-mp3/)."
+],
+[
+"Voice notes from WhatsApp and Telegram",
+"Export the voice message (share → save to files), drop it here and choose 64 kbps mono – a perfect match for speech and the smallest MP3. The result plays in any media player, can be transcribed, or attached to an e-mail."
+],
+[
+"Browser note",
+"Chrome, Edge and Firefox decode OGG natively. Older Safari versions cannot; if a file is rejected on a Mac or iPhone, open the page in Chrome or Firefox, or update Safari."
+],
+[
+"Game and app audio",
+"Many games ship music and sound effects as OGG Vorbis because it is royalty-free. Convert them to MP3 to use as ringtones or in video projects – respecting the game's licence – or to WAV for editing with [MP3 to WAV](/mp3-to-wav/)."
+],
+[
+"Batch tips",
+"Drop a whole folder; each file keeps its name with a .mp3 extension and everything is downloaded together as a ZIP. If a file fails, the rest still convert and the error is shown next to the file name."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert OGG to MP3?",
+"a": "Drop the OGG file, choose a bitrate and press Convert."
+},
+{
+"q": "What bitrate should I choose?",
+"a": "192 kbps for music, 64–96 kbps mono for speech."
+},
+{
+"q": "Can I convert several files?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Will quality drop?",
+"a": "Slightly, as MP3 is lossy; use 256–320 kbps to minimise it."
+},
+{
+"q": "Can I add tags and cover art?",
+"a": "Yes."
+},
+{
+"q": "Can I trim the audio?",
+"a": "Yes, with start and end."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari (OGG needs a recent Safari)."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no limits."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Can I convert OGG to WAV?",
+"a": "Choose WAV as the format."
+}
+],
+"related": [
+"audio-converter",
+"wav-to-mp3",
+"compress-mp3",
+"audio-cutter",
+"mp3-to-wav"
+],
+"updated": "2026-10-25"
+}
+},
+"m4a2mp3": {
+"seo": {
+"title": "M4A to MP3 Converter – iPhone Audio & Voice Memos",
+"desc": "Convert M4A to MP3 free: iPhone Voice Memos, iTunes AAC, recordings. 64–320 kbps, batch, trim, fade, tags. Works on iPhone, Android and PC.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Convert M4A to MP3",
+"M4A is Apple's audio format, holding AAC (or Apple Lossless) audio. iPhone Voice Memos, GarageBand exports, iTunes purchases and many recorder apps save M4A – but some Windows programs, car stereos, websites and Android apps expect MP3. Convert in seconds, right in Safari on your iPhone if you like."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more M4A files.",
+"Choose the MP3 bitrate (192 kbps is a good default) and channels.",
+"Optionally trim, fade or tag the files.",
+"Press Convert and download the MP3s."
+]
+}
+],
+[
+"Voice Memos to MP3 on iPhone",
+"In Voice Memos tap the recording → ⋯ → Save to Files. Open this page in Safari, tap the drop area, pick the file from Files and press Convert. The MP3 is saved to Downloads in the Files app and can be shared to WhatsApp, Mail or Google Drive. Choose 64 kbps mono for speech to make the file tiny."
+],
+[
+"AAC vs MP3 quality",
+"AAC is more efficient than MP3: 128 kbps AAC sounds roughly like 160–192 kbps MP3. When converting, pick a slightly higher MP3 bitrate than the source – 192 kbps for typical 128–256 kbps M4A music – to keep quality."
+],
+[
+"Protected iTunes files",
+"Old iTunes Store purchases (before 2009) may be DRM-protected .m4p files, which cannot be converted by any honest tool. Music bought later is DRM-free M4A and converts normally. Apple Lossless (ALAC) M4A files are decoded too, in browsers that support ALAC."
+],
+[
+"Ringtones",
+"For an iPhone ringtone you need M4R, but for Android, and for most other phones, MP3 works. Cut the best 30 seconds with the [Ringtone Maker](/ringtone-maker/)."
+],
+[
+"Batch tips",
+"Drop a whole folder; each file keeps its name with a .mp3 extension and everything is downloaded together as a ZIP. If a file fails, the rest still convert and the error is shown next to the file name."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert M4A to MP3?",
+"a": "Drop the M4A file, choose a bitrate and press Convert."
+},
+{
+"q": "What bitrate should I choose?",
+"a": "192 kbps for music, 64–96 kbps mono for speech."
+},
+{
+"q": "Can I convert several files?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Will quality drop?",
+"a": "Slightly, as MP3 is lossy; use 256–320 kbps to minimise it."
+},
+{
+"q": "Can I add tags and cover art?",
+"a": "Yes."
+},
+{
+"q": "Can I trim the audio?",
+"a": "Yes, with start and end."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari (OGG needs a recent Safari)."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no limits."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Can I convert M4A to WAV?",
+"a": "Choose WAV as the format."
+}
+],
+"related": [
+"audio-converter",
+"wav-to-mp3",
+"compress-mp3",
+"audio-cutter",
+"mp3-to-wav"
+],
+"updated": "2026-10-25"
+}
+},
+"aac2mp3": {
+"seo": {
+"title": "AAC to MP3 Converter – Free, Batch, No Upload",
+"desc": "Convert AAC audio to MP3 free at 64–320 kbps: radio recordings, YouTube audio, phone recordings. Batch, trim, fade, ID3 tags. Runs in your browser.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, 123apps and Convertio",
+"compareCols": [
+"CloudConvert",
+"Online Audio Converter (123apps)",
+"Convertio"
+],
+"sections": [
+[
+"Convert AAC to MP3",
+"AAC (Advanced Audio Coding) is the standard audio of YouTube, Apple Music, digital radio, many phone recorders and the sound inside most MP4 videos. Raw .aac files are not recognised by some players and editors, and MP3 remains the most compatible format. Convert AAC to MP3 with the bitrate you need."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more AAC files.",
+"Choose the MP3 bitrate (192 kbps is a good default) and channels.",
+"Optionally trim, fade or tag the files.",
+"Press Convert and download the MP3s."
+]
+}
+],
+[
+"AAC, M4A and MP4 – what is the difference?",
+{
+"table": [
+[
+"Extension",
+"What it is"
+],
+[
+".aac",
+"Raw AAC stream (ADTS), common from radio and recorders"
+],
+[
+".m4a",
+"AAC inside an MP4 audio container, used by Apple"
+],
+[
+".mp4",
+".m4a plus video"
+]
+]
+},
+"All three are read by this converter. For MP4 videos, see [MP4 to MP3](/mp4-to-mp3/)."
+],
+[
+"Choosing a bitrate",
+"Because AAC is efficient, pick an MP3 bitrate a step above the source: 128 kbps AAC → 160–192 kbps MP3; 256 kbps AAC → 256–320 kbps MP3. For spoken content, 64–96 kbps mono is plenty."
+],
+[
+"HE-AAC radio streams",
+"Internet radio and DAB+ often use HE-AAC at 48–64 kbps. These sound full because of spectral band replication; converting to MP3 at 128 kbps keeps most of that sound, while 64 kbps MP3 will sound noticeably duller."
+],
+[
+"Typical uses",
+"Recordings from Android phone call recorders and dictaphones, radio captures, audio extracted from screen recordings, and lessons downloaded from learning platforms. Converting locally keeps confidential calls and interviews off third-party servers."
+],
+[
+"Batch tips",
+"Drop a whole folder; each file keeps its name with a .mp3 extension and everything is downloaded together as a ZIP. If a file fails, the rest still convert and the error is shown next to the file name."
+],
+[
+"Audio settings explained",
+{
+"table": [
+[
+"Setting",
+"What it does",
+"Recommended"
+],
+[
+"Format",
+"MP3 is lossy and plays everywhere; WAV is uncompressed PCM for editing",
+"MP3 for listening, WAV for editing"
+],
+[
+"Bitrate",
+"Amount of data per second of MP3 audio",
+"128 kbps speech/podcasts, 192 kbps music, 320 kbps best"
+],
+[
+"Channels",
+"Stereo keeps left/right; mono halves the size",
+"Mono for voice, stereo for music"
+],
+[
+"Sample rate",
+"Samples per second",
+"Keep, or 44.1 kHz for music, 22 kHz voice"
+],
+[
+"Start / end",
+"Trims the audio to a section (m:ss)",
+"Optional"
+],
+[
+"Fade in / out",
+"Smooth start and end, 1–5 s",
+"2–3 s for music clips"
+],
+[
+"Volume",
+"10–300 %",
+"100 %, raise quiet recordings"
+]
+]
+}
+],
+[
+"MP3 file size calculator",
+"MP3 size depends only on bitrate and length: **size in MB ≈ kbps × minutes × 0.0075**. A 4-minute song at 128 kbps is about 3.8 MB, at 192 kbps 5.8 MB and at 320 kbps 9.6 MB. One hour of mono speech at 64 kbps is about 29 MB. WAV at CD quality uses about 10 MB per minute (1,411 kbps), which is why converting WAV to MP3 shrinks files by roughly 90 %."
+],
+[
+"MP3 tags and cover art",
+"Open *MP3 tags* to set title, artist, album and year and add a JPG or PNG cover image. Music players, car stereos and phones show these ID3 tags instead of the file name, and podcast apps use them for episode details."
+],
+[
+"Browser support",
+"Audio is decoded by your browser's own engine and encoded with an open-source MP3 encoder in the page. Chrome, Edge and Firefox decode MP3, WAV, FLAC, OGG (Vorbis/Opus), M4A/AAC and the audio in MP4/WebM videos. Safari decodes most of these too, but older versions cannot open OGG Vorbis – use Chrome or Firefox if a file is rejected. Long files (over an hour) need a fair amount of memory because the audio is decoded fully before encoding."
+],
+[
+"Lossy to lossy",
+"Converting one lossy format (AAC, OGG, Opus) to another (MP3) always loses a little quality, because the audio is decoded and compressed again. Choose a bitrate at least as high as the source – for example 192 kbps for a 128 kbps AAC – and keep your originals. Converting a lossy file to WAV or FLAC does not restore lost quality; it only makes the file bigger."
+],
+[
+"Volume and loudness",
+"If a recording is too quiet, raise the volume to 150–200 %; values above that may clip (distort) loud passages, so listen to the result. Streaming services normalise music to roughly -14 LUFS and podcasts commonly target -16 LUFS, so very quiet files sound weak next to other content. For music that is already mastered, leave volume at 100 %. Fades of 2–3 seconds make trimmed clips and ringtones start and end smoothly instead of with a click."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your audio files are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim, fade, volume, ID3 tags",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert AAC to MP3?",
+"a": "Drop the AAC file, choose a bitrate and press Convert."
+},
+{
+"q": "What bitrate should I choose?",
+"a": "192 kbps for music, 64–96 kbps mono for speech."
+},
+{
+"q": "Can I convert several files?",
+"a": "Yes, as a ZIP."
+},
+{
+"q": "Will quality drop?",
+"a": "Slightly, as MP3 is lossy; use 256–320 kbps to minimise it."
+},
+{
+"q": "Can I add tags and cover art?",
+"a": "Yes."
+},
+{
+"q": "Can I trim the audio?",
+"a": "Yes, with start and end."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari (OGG needs a recent Safari)."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no limits."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Can I convert AAC to WAV?",
+"a": "Choose WAV as the format."
+}
+],
+"related": [
+"audio-converter",
+"wav-to-mp3",
+"compress-mp3",
+"audio-cutter",
+"mp3-to-wav"
+],
+"updated": "2026-10-25"
+}
+},
+"videotrim": {
+"seo": {
+"title": "Trim Video Online Free – Cut MP4 Clips, No Watermark",
+"desc": "Trim videos free: set start and end, preview, then save MP4 or WebM. Optional crop, size target and mute. No watermark, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs Clideo, Kapwing and FreeConvert",
+"compareCols": [
+"Clideo",
+"Kapwing",
+"FreeConvert"
+],
+"sections": [
+[
+"Trim video online, no watermark",
+"Cut the boring start and end off a video, or save just the best moment as a short clip. Play the video, press ⏮ Set start and ⏭ Set end – or type the times – and save. Optionally crop to vertical, shrink to a size limit or remove the sound in the same step."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the video (MP4, MOV, WebM, MKV…).",
+"Play it and press Set start and Set end, or type m:ss times.",
+"Optionally choose crop, target size, quality or mute.",
+"Press Start and download the trimmed clip."
+]
+}
+],
+[
+"Tips for clean cuts",
+{
+"list": [
+"Leave half a second before the action starts so the clip does not feel abrupt.",
+"Trim long recordings before compressing – shorter clips need far fewer megabytes.",
+"For several pieces, trim one, download, then reload and trim the next; join them with the [Video Merger](/video-merger/).",
+"Keep the original; trimming creates a new file."
+]
+}
+],
+[
+"Clip ideas",
+"Highlights from a match, a single question from a recorded webinar, the funny bit from a family video, a product demo for a listing, or a 15-second teaser for Reels and Shorts. For a looping animation, convert the clip with [Video to GIF](/video-to-gif/)."
+],
+[
+"Frame accuracy",
+"Because the clip is re-encoded, the cut happens at the exact time you choose rather than jumping to the nearest keyframe as fast 'copy' trimmers do."
+],
+[
+"Video settings explained",
+{
+"table": [
+[
+"Setting",
+"Effect"
+],
+[
+"Start / end",
+"Keep only part of the video; use ⏮ Set start / ⏭ Set end while previewing"
+],
+[
+"Crop to",
+"1:1, 9:16, 16:9, 4:5 or 4:3, centred"
+],
+[
+"Target file size",
+"Hit 8, 10, 16, 25 MB… or a custom size"
+],
+[
+"Quality",
+"High, recommended or strong compression"
+],
+[
+"Resolution",
+"Keep, 1080p, 720p or 480p"
+],
+[
+"Sound",
+"Keep or remove the audio track"
+],
+[
+"Format",
+"MP4 (H.264/AAC) or WebM"
+]
+]
+}
+],
+[
+"How it works",
+"Videos are decoded and re-encoded by your browser's built-in WebCodecs hardware encoder via the open-source Mediabunny library – the same video engines used for video calls. That makes conversion fast on most laptops and phones without uploading anything. Chrome and Edge give the best results; recent Safari and Firefox work for most files. If your browser cannot encode a particular format, the tool tells you instead of producing a broken file."
+],
+[
+"MP4 vs WebM",
+{
+"list": [
+"**MP4 (H.264 + AAC)** – plays on every phone, TV, browser, editor and social network. The safe default.",
+"**WebM (VP9/VP8 + Opus)** – open, royalty-free, great for websites; not accepted by some apps and Apple devices.",
+"For WhatsApp, Instagram, TikTok, YouTube, e-mail and PowerPoint choose MP4."
+]
+}
+],
+[
+"Size limits to remember",
+"WhatsApp: about 16 MB for normal video messages (larger as documents). Discord free: 10 MB. E-mail: 20–25 MB. Use *Target file size* to hit these exactly – the tool calculates the bitrate from the clip length. For a dedicated compressor see [Compress Video](/compress-video/)."
+],
+[
+"iPhone and Android videos",
+"iPhones record HEVC (H.265) by default and Android phones record H.264 or HEVC, usually in MP4 or MOV. Most browsers can decode these through the device's hardware; on older Windows PCs without HEVC support, open the file on the phone itself or use Chrome. Phone videos often have a rotation flag, which is applied, so portrait clips stay upright."
+],
+[
+"Speed and battery",
+"Encoding uses your device's video hardware, so a 1-minute 1080p clip typically takes 10–60 seconds depending on the device. Keep the tab in the foreground on phones – mobile browsers pause background tabs – and plug in for long videos. Lowering the resolution is the quickest way to speed things up and shrink the file."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your videos are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Frame-accurate cut",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I trim a video?",
+"a": "Set start and end, then press Start."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "What formats can I trim?",
+"a": "MP4, MOV, WebM, MKV and most phone videos."
+},
+{
+"q": "Is the cut frame-accurate?",
+"a": "Yes, the clip is re-encoded."
+},
+{
+"q": "Can I trim and crop together?",
+"a": "Yes."
+},
+{
+"q": "Can I cut out the middle?",
+"a": "Trim two parts and join them with Video Merger."
+},
+{
+"q": "Is there a length limit?",
+"a": "Only your device's memory and speed."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes in recent Safari."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are videos uploaded?",
+"a": "No."
+}
+],
+"related": [
+"video-merger",
+"crop-video",
+"compress-video",
+"video-to-gif",
+"mute-video"
+],
+"updated": "2026-10-25"
+}
+},
+"videocrop": {
+"seo": {
+"title": "Crop Video Online Free – 9:16, 1:1, 4:5, 16:9 No Watermark",
+"desc": "Crop videos to 9:16 for Reels, Shorts and TikTok, 1:1 square, 4:5 Instagram or 16:9. Trim, mute and target size too. Free, no watermark, no upload.",
+"compareTitle": "{tool}: {brand} vs Clideo, Kapwing and FreeConvert",
+"compareCols": [
+"Clideo",
+"Kapwing",
+"FreeConvert"
+],
+"sections": [
+[
+"Crop video to any aspect ratio",
+"Turn a landscape video into a vertical 9:16 clip for Reels, Shorts and TikTok, a 1:1 square for feeds, a 4:5 Instagram portrait, or crop vertical footage to 16:9. The crop is centred on the frame, and you can trim, mute and size-limit in the same pass."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the video.",
+"Choose the crop ratio.",
+"Optionally set start/end, target size, resolution and sound.",
+"Press Start and download."
+]
+}
+],
+[
+"Which ratio for which platform?",
+{
+"table": [
+[
+"Platform",
+"Ratio",
+"Typical size"
+],
+[
+"TikTok, Reels, Shorts, Stories",
+"9:16",
+"1080 × 1920"
+],
+[
+"Instagram feed portrait",
+"4:5",
+"1080 × 1350"
+],
+[
+"Instagram / Facebook square",
+"1:1",
+"1080 × 1080"
+],
+[
+"YouTube, LinkedIn, X landscape",
+"16:9",
+"1920 × 1080"
+],
+[
+"Presentations, older TVs",
+"4:3",
+"1440 × 1080"
+]
+]
+}
+],
+[
+"Framing tips",
+{
+"list": [
+"The crop is centred: films where the subject stands in the middle crop best.",
+"When converting 16:9 to 9:16 you keep only about a third of the width – check that faces and text stay inside.",
+"Record with vertical use in mind: keep the action in the central third.",
+"Captions burned into the original near the edges may be cut off."
+]
+}
+],
+[
+"Resolution after cropping",
+"Cropping a 1920 × 1080 video to 9:16 leaves 608 × 1080 pixels of real detail. Platforms accept this and upscale it for display; keeping the original resolution avoids extra softening. Starting from 4K footage gives a full-HD vertical crop. If you plan to crop regularly, set your camera or phone to 4K: the extra pixels give you room to reframe later while the final clip still looks sharp on every platform, and the crop can be shrunk to 1080p in the same pass."
+],
+[
+"Crop vs resize vs letterbox",
+"Cropping cuts away the sides (or top and bottom) so the video fills the new shape. Resizing changes resolution but keeps the shape. Letterboxing adds bars to fit a shape without cutting. Social networks reward full-screen vertical video, so cropping usually performs better than adding bars."
+],
+[
+"Workflow for short-form clips",
+{
+"steps": [
+"Record or download your own landscape video.",
+"Trim to the best 15–60 seconds.",
+"Crop to 9:16 and choose 1080p or Keep.",
+"Set a target size if you will send it via WhatsApp or Discord.",
+"Upload to TikTok, Reels or Shorts and add captions in the app."
+]
+}
+],
+[
+"Re-using webinars and podcasts",
+"Video podcasts and webinars are usually recorded in 16:9 with the speaker in the centre, which makes them ideal for vertical clips. Crop a few strong 30-second answers to 9:16, add captions in the social app, and you have a week of short-form posts from one recording – without uploading the full recording to a third-party editor."
+],
+[
+"Cropping for product and real-estate videos",
+"Square and 4:5 crops are ideal for marketplace listings and property tours viewed on phones: they take up more of the screen than landscape video in a feed. Film with the subject centred, crop to 4:5, trim to the best 20–30 seconds and set a 16 MB target for sending to customers on WhatsApp. Because nothing is uploaded, client and property footage stays private until you choose to publish it."
+],
+[
+"Checking the result",
+"Before posting, watch the cropped clip once on your phone. Look for heads or captions cut at the edges, and check the first and last frames, which become the default thumbnail on some platforms. If the subject drifts out of frame, trim the clip into shorter pieces where it stays centred, crop each piece, and join them with the [Video Merger](/video-merger/). Square 1:1 crops are the most forgiving, because they keep more of the original width than 9:16. When you are happy, keep both the original and the crop: different platforms want different shapes, and you can always make another version from the full-width source without losing quality."
+],
+[
+"Keeping quality",
+"Choose *High quality* when the clip will be uploaded to a platform that re-compresses it anyway; double compression at low quality causes blocky artefacts. Keep the resolution unless you need a smaller file."
+],
+[
+"Video settings explained",
+{
+"table": [
+[
+"Setting",
+"Effect"
+],
+[
+"Start / end",
+"Keep only part of the video; use ⏮ Set start / ⏭ Set end while previewing"
+],
+[
+"Crop to",
+"1:1, 9:16, 16:9, 4:5 or 4:3, centred"
+],
+[
+"Target file size",
+"Hit 8, 10, 16, 25 MB… or a custom size"
+],
+[
+"Quality",
+"High, recommended or strong compression"
+],
+[
+"Resolution",
+"Keep, 1080p, 720p or 480p"
+],
+[
+"Sound",
+"Keep or remove the audio track"
+],
+[
+"Format",
+"MP4 (H.264/AAC) or WebM"
+]
+]
+}
+],
+[
+"How it works",
+"Videos are decoded and re-encoded by your browser's built-in WebCodecs hardware encoder via the open-source Mediabunny library – the same video engines used for video calls. That makes conversion fast on most laptops and phones without uploading anything. Chrome and Edge give the best results; recent Safari and Firefox work for most files. If your browser cannot encode a particular format, the tool tells you instead of producing a broken file."
+],
+[
+"MP4 vs WebM",
+{
+"list": [
+"**MP4 (H.264 + AAC)** – plays on every phone, TV, browser, editor and social network. The safe default.",
+"**WebM (VP9/VP8 + Opus)** – open, royalty-free, great for websites; not accepted by some apps and Apple devices.",
+"For WhatsApp, Instagram, TikTok, YouTube, e-mail and PowerPoint choose MP4."
+]
+}
+],
+[
+"Size limits to remember",
+"WhatsApp: about 16 MB for normal video messages (larger as documents). Discord free: 10 MB. E-mail: 20–25 MB. Use *Target file size* to hit these exactly – the tool calculates the bitrate from the clip length. For a dedicated compressor see [Compress Video](/compress-video/)."
+],
+[
+"iPhone and Android videos",
+"iPhones record HEVC (H.265) by default and Android phones record H.264 or HEVC, usually in MP4 or MOV. Most browsers can decode these through the device's hardware; on older Windows PCs without HEVC support, open the file on the phone itself or use Chrome. Phone videos often have a rotation flag, which is applied, so portrait clips stay upright."
+],
+[
+"Speed and battery",
+"Encoding uses your device's video hardware, so a 1-minute 1080p clip typically takes 10–60 seconds depending on the device. Keep the tab in the foreground on phones – mobile browsers pause background tabs – and plug in for long videos. Lowering the resolution is the quickest way to speed things up and shrink the file."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your videos are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"9:16, 1:1, 4:5, 16:9, 4:3",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I crop a video to 9:16?",
+"a": "Choose 9:16 and press Start."
+},
+{
+"q": "Can I crop a video for Instagram?",
+"a": "Yes, 4:5 or 1:1."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Can I choose where to crop?",
+"a": "The crop is centred on the frame."
+},
+{
+"q": "Will quality drop?",
+"a": "Only the cropped-away area is lost; choose high quality."
+},
+{
+"q": "Can I crop and trim at once?",
+"a": "Yes."
+},
+{
+"q": "Which formats work?",
+"a": "MP4, MOV, WebM, MKV."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes in recent browsers."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are videos uploaded?",
+"a": "No."
+}
+],
+"related": [
+"trim-video",
+"compress-video",
+"mute-video",
+"social-media-image-resizer",
+"video-to-gif"
+],
+"updated": "2026-10-25"
+}
+},
+"videomute": {
+"seo": {
+"title": "Mute Video Online Free – Remove Audio from MP4",
+"desc": "Remove the sound from any video free: MP4, MOV, WebM, MKV. Optionally trim, crop and shrink. No watermark, no upload, works on phones.",
+"compareTitle": "{tool}: {brand} vs Clideo, Kapwing and FreeConvert",
+"compareCols": [
+"Clideo",
+"Kapwing",
+"FreeConvert"
+],
+"sections": [
+[
+"Remove audio from a video",
+"Strip the soundtrack from a video – background noise, private conversations, copyrighted music or wind – and keep just the picture. Useful before posting to social media, using footage as a website background, or adding your own music later."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the video.",
+"Sound is set to Remove automatically.",
+"Optionally trim, crop or set a target size.",
+"Press Start and download the silent video."
+]
+}
+],
+[
+"Why mute a video?",
+{
+"list": [
+"Remove copyrighted background music that would get the post blocked.",
+"Hide private conversations or names spoken in the background.",
+"Create silent background videos for websites (browsers autoplay muted video).",
+"Prepare footage before adding a voice-over or new music in an editor.",
+"Make files slightly smaller."
+]
+}
+],
+[
+"Keep the audio separately",
+"If you want to keep the sound as its own separate file, extract it first with [MP4 to MP3](/mp4-to-mp3/) or [Video to Audio](/video-to-audio/), then mute the video. You can add new music or a voice-over later in any video editor."
+],
+[
+"Is the audio really gone?",
+"Yes – the audio track is not written to the new file at all, so it cannot be turned back on. Your original stays unchanged."
+],
+[
+"Video settings explained",
+{
+"table": [
+[
+"Setting",
+"Effect"
+],
+[
+"Start / end",
+"Keep only part of the video; use ⏮ Set start / ⏭ Set end while previewing"
+],
+[
+"Crop to",
+"1:1, 9:16, 16:9, 4:5 or 4:3, centred"
+],
+[
+"Target file size",
+"Hit 8, 10, 16, 25 MB… or a custom size"
+],
+[
+"Quality",
+"High, recommended or strong compression"
+],
+[
+"Resolution",
+"Keep, 1080p, 720p or 480p"
+],
+[
+"Sound",
+"Keep or remove the audio track"
+],
+[
+"Format",
+"MP4 (H.264/AAC) or WebM"
+]
+]
+}
+],
+[
+"How it works",
+"Videos are decoded and re-encoded by your browser's built-in WebCodecs hardware encoder via the open-source Mediabunny library – the same video engines used for video calls. That makes conversion fast on most laptops and phones without uploading anything. Chrome and Edge give the best results; recent Safari and Firefox work for most files. If your browser cannot encode a particular format, the tool tells you instead of producing a broken file."
+],
+[
+"MP4 vs WebM",
+{
+"list": [
+"**MP4 (H.264 + AAC)** – plays on every phone, TV, browser, editor and social network. The safe default.",
+"**WebM (VP9/VP8 + Opus)** – open, royalty-free, great for websites; not accepted by some apps and Apple devices.",
+"For WhatsApp, Instagram, TikTok, YouTube, e-mail and PowerPoint choose MP4."
+]
+}
+],
+[
+"Size limits to remember",
+"WhatsApp: about 16 MB for normal video messages (larger as documents). Discord free: 10 MB. E-mail: 20–25 MB. Use *Target file size* to hit these exactly – the tool calculates the bitrate from the clip length. For a dedicated compressor see [Compress Video](/compress-video/)."
+],
+[
+"iPhone and Android videos",
+"iPhones record HEVC (H.265) by default and Android phones record H.264 or HEVC, usually in MP4 or MOV. Most browsers can decode these through the device's hardware; on older Windows PCs without HEVC support, open the file on the phone itself or use Chrome. Phone videos often have a rotation flag, which is applied, so portrait clips stay upright."
+],
+[
+"Speed and battery",
+"Encoding uses your device's video hardware, so a 1-minute 1080p clip typically takes 10–60 seconds depending on the device. Keep the tab in the foreground on phones – mobile browsers pause background tabs – and plug in for long videos. Lowering the resolution is the quickest way to speed things up and shrink the file."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your videos are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim + crop in same step",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I remove sound from a video?",
+"a": "Drop it and press Start; sound is removed."
+},
+{
+"q": "Can the sound be recovered?",
+"a": "No, the new file has no audio track."
+},
+{
+"q": "Does it reduce quality?",
+"a": "Choose high quality to keep the picture as it was."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Can I mute part of a video?",
+"a": "This removes all sound; trim first for a section."
+},
+{
+"q": "Which formats work?",
+"a": "MP4, MOV, WebM, MKV."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are videos uploaded?",
+"a": "No."
+},
+{
+"q": "Can I extract the audio instead?",
+"a": "Use MP4 to MP3."
+},
+{
+"q": "Works on iPhone?",
+"a": "Yes in recent Safari."
+}
+],
+"related": [
+"mp4-to-mp3",
+"trim-video",
+"crop-video",
+"compress-video",
+"video-to-audio"
+],
+"updated": "2026-10-25"
+}
+},
+"gif2mp4": {
+"seo": {
+"title": "GIF to MP4 Converter – Smaller Video, Loop 1×/3×/5×",
+"desc": "Convert animated GIFs to MP4 or WebM video – often 5–10× smaller, smoother playback. Repeat 1, 3 or 5 times. Free, no upload, no watermark.",
+"compareTitle": "{tool}: {brand} vs Clideo, Kapwing and FreeConvert",
+"compareCols": [
+"Clideo",
+"Kapwing",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert GIF to MP4",
+"Animated GIFs are big and limited to 256 colours. The same animation as an MP4 is usually 5–10 times smaller, plays smoother and is accepted by Instagram, TikTok, WhatsApp status and video editors that do not take GIFs. Choose MP4 or WebM and repeat the loop 1, 3 or 5 times so short animations last long enough to post."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the GIF.",
+"Choose MP4 or WebM.",
+"Choose how many times the loop repeats.",
+"Press Start and download the video."
+]
+}
+],
+[
+"Why convert GIF to video?",
+{
+"table": [
+[
+"",
+"GIF",
+"MP4"
+],
+[
+"Typical size (5 s, 480 px)",
+"3–8 MB",
+"0.3–1 MB"
+],
+[
+"Colours",
+"256 per frame",
+"Millions"
+],
+[
+"Sound",
+"No",
+"Optional"
+],
+[
+"Accepted by Instagram/TikTok",
+"No",
+"Yes"
+],
+[
+"Loops automatically",
+"Yes",
+"Depends on player"
+]
+]
+}
+],
+[
+"Repeat for social media",
+"Instagram and TikTok expect videos of at least a few seconds. A 1-second GIF repeated 5 times becomes a 5-second clip that still feels like a loop. WhatsApp converts sent GIFs to video automatically, but converting yourself gives better quality."
+],
+[
+"Website performance",
+"Replacing heavy GIFs with muted, autoplaying MP4 or WebM video is one of Google's recommended page-speed fixes. Use a video element with the autoplay, loop, muted and playsinline attributes – it behaves like a GIF but loads much faster."
+],
+[
+"Frame timing",
+"GIF frame delays are read exactly, so the video plays at the speed of the original animation. Transparent areas in the GIF become black or white in MP4, because standard MP4 video has no transparency."
+],
+[
+"Back to GIF",
+"To go the other way – a video clip to an animation for chat apps – use [Video to GIF](/video-to-gif/). To shrink a GIF while keeping it a GIF, use [Compress GIF](/compress-gif/)."
+],
+[
+"Video settings explained",
+{
+"table": [
+[
+"Setting",
+"Effect"
+],
+[
+"Start / end",
+"Keep only part of the video; use ⏮ Set start / ⏭ Set end while previewing"
+],
+[
+"Crop to",
+"1:1, 9:16, 16:9, 4:5 or 4:3, centred"
+],
+[
+"Target file size",
+"Hit 8, 10, 16, 25 MB… or a custom size"
+],
+[
+"Quality",
+"High, recommended or strong compression"
+],
+[
+"Resolution",
+"Keep, 1080p, 720p or 480p"
+],
+[
+"Sound",
+"Keep or remove the audio track"
+],
+[
+"Format",
+"MP4 (H.264/AAC) or WebM"
+]
+]
+}
+],
+[
+"How it works",
+"Videos are decoded and re-encoded by your browser's built-in WebCodecs hardware encoder via the open-source Mediabunny library – the same video engines used for video calls. That makes conversion fast on most laptops and phones without uploading anything. Chrome and Edge give the best results; recent Safari and Firefox work for most files. If your browser cannot encode a particular format, the tool tells you instead of producing a broken file."
+],
+[
+"MP4 vs WebM",
+{
+"list": [
+"**MP4 (H.264 + AAC)** – plays on every phone, TV, browser, editor and social network. The safe default.",
+"**WebM (VP9/VP8 + Opus)** – open, royalty-free, great for websites; not accepted by some apps and Apple devices.",
+"For WhatsApp, Instagram, TikTok, YouTube, e-mail and PowerPoint choose MP4."
+]
+}
+],
+[
+"Size limits to remember",
+"WhatsApp: about 16 MB for normal video messages (larger as documents). Discord free: 10 MB. E-mail: 20–25 MB. Use *Target file size* to hit these exactly – the tool calculates the bitrate from the clip length. For a dedicated compressor see [Compress Video](/compress-video/)."
+],
+[
+"iPhone and Android videos",
+"iPhones record HEVC (H.265) by default and Android phones record H.264 or HEVC, usually in MP4 or MOV. Most browsers can decode these through the device's hardware; on older Windows PCs without HEVC support, open the file on the phone itself or use Chrome. Phone videos often have a rotation flag, which is applied, so portrait clips stay upright."
+],
+[
+"Speed and battery",
+"Encoding uses your device's video hardware, so a 1-minute 1080p clip typically takes 10–60 seconds depending on the device. Keep the tab in the foreground on phones – mobile browsers pause background tabs – and plug in for long videos. Lowering the resolution is the quickest way to speed things up and shrink the file."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your videos are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Repeat 1×/3×/5×",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert GIF to MP4?",
+"a": "Drop the GIF, choose MP4 and press Start."
+},
+{
+"q": "How much smaller is MP4?",
+"a": "Typically 5–10×."
+},
+{
+"q": "Can I make it loop longer?",
+"a": "Yes, repeat 3× or 5×."
+},
+{
+"q": "Does it keep transparency?",
+"a": "No, MP4 has no transparency."
+},
+{
+"q": "MP4 or WebM?",
+"a": "MP4 for social media, WebM for websites."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Can I upload GIFs to Instagram this way?",
+"a": "Yes, as MP4."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+},
+{
+"q": "Does it keep the speed?",
+"a": "Yes."
+}
+],
+"related": [
+"video-to-gif",
+"compress-gif",
+"gif-maker",
+"compress-video",
+"gif-to-png"
+],
+"updated": "2026-10-25"
+}
+},
+"vmkv2mp4": {
+"seo": {
+"title": "MKV to MP4 Converter – Free, No Upload, No Watermark",
+"desc": "Convert MKV to MP4 (H.264/AAC) free in your browser for TVs, iPhones, editors and social media. Trim, resize and compress too. No upload.",
+"compareTitle": "{tool}: {brand} vs Clideo, Kapwing and FreeConvert",
+"compareCols": [
+"Clideo",
+"Kapwing",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert MKV to MP4",
+"MKV (Matroska) is a flexible container used by screen recorders such as OBS, video downloads and archives. It can hold many video, audio and subtitle tracks – but iPhones, many smart TVs, PowerPoint, Premiere and social networks prefer MP4. Converting MKV to MP4 makes the video play everywhere."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the MKV file.",
+"Keep MP4 as the format; optionally trim, change resolution or set a target size.",
+"Press Start.",
+"Download the MP4."
+]
+}
+],
+[
+"Why OBS records in MKV",
+"OBS Studio recommends MKV because if the computer crashes or the recording is interrupted, an MKV file is still playable, while an unfinished MP4 is usually lost. The standard workflow is: record in MKV, then convert to MP4 for editing and sharing – exactly what this tool does, without installing anything."
+],
+[
+"Tracks and subtitles",
+"The main video track and the first audio track are converted. Extra audio languages and subtitle tracks in the MKV are not carried over to the MP4; if you need subtitles, keep the MKV or burn them in with a desktop editor."
+],
+[
+"Codecs",
+"MKV files can contain H.264, H.265/HEVC, VP9 or AV1 video. The tool decodes whatever your browser supports and writes H.264 video with AAC audio, the most compatible combination. HEVC decoding depends on your device's hardware support."
+],
+[
+"Large files",
+"Long recordings can be several gigabytes. Conversion happens on your device, so it depends on its speed – a modern laptop typically converts faster than real time. Reduce resolution to 1080p or 720p for faster processing and smaller files."
+],
+[
+"Container vs codec",
+"A file extension names the *container* – MKV, WebM, MP4, MOV – which is like a box holding separate video, audio and subtitle streams plus timing information. The *codec* is how each stream is compressed: H.264, HEVC, VP9 or AV1 for video; AAC, Opus, Vorbis or MP3 for audio. A device can fail to play a file either because it does not understand the box or because it lacks the codec inside. MP4 with H.264 and AAC is the combination virtually every device on earth supports, which is why it is the output here. Changing only the box (remuxing) is fast but leaves incompatible codecs in place; re-encoding, as this tool does, guarantees compatibility at the cost of a little processing time."
+],
+[
+"Playing the MP4",
+"The converted MP4 opens in the Photos and Films apps on Windows, QuickTime and Photos on Mac, the iPhone and Android galleries, smart TVs from a USB stick, and every browser. It can be inserted into PowerPoint, Keynote and Google Slides, and imported into Premiere Pro, DaVinci Resolve, iMovie, CapCut and Clipchamp without any extra plug-ins or codec packs."
+],
+[
+"Choosing quality and size",
+"For archiving or further editing choose *High quality* and keep the resolution. For sharing, *Recommended* gives a good balance; set *Target file size* when a platform has a hard limit. A 10-minute 1080p screen recording is typically 150–400 MB at high quality and 50–120 MB at recommended settings."
+],
+[
+"Converting several videos",
+"Convert one video at a time for the most reliable results on phones; on a laptop you can start the next file as soon as the previous download finishes. Each MP4 keeps the original file name, so a series of lecture recordings stays in order."
+],
+[
+"Troubleshooting",
+{
+"list": [
+"**\"This browser cannot encode this video\"** – use the latest Chrome or Edge, which have the widest codec support.",
+"**No sound in the MP4** – the MKV/WebM audio codec may not be supported by your browser; try Chrome.",
+"**Very slow** – lower the resolution to 720p and close other tabs.",
+"**Stops on a phone** – very long files may exceed mobile memory; trim them into parts."
+]
+}
+],
+[
+"Video settings explained",
+{
+"table": [
+[
+"Setting",
+"Effect"
+],
+[
+"Start / end",
+"Keep only part of the video; use ⏮ Set start / ⏭ Set end while previewing"
+],
+[
+"Crop to",
+"1:1, 9:16, 16:9, 4:5 or 4:3, centred"
+],
+[
+"Target file size",
+"Hit 8, 10, 16, 25 MB… or a custom size"
+],
+[
+"Quality",
+"High, recommended or strong compression"
+],
+[
+"Resolution",
+"Keep, 1080p, 720p or 480p"
+],
+[
+"Sound",
+"Keep or remove the audio track"
+],
+[
+"Format",
+"MP4 (H.264/AAC) or WebM"
+]
+]
+}
+],
+[
+"How it works",
+"Videos are decoded and re-encoded by your browser's built-in WebCodecs hardware encoder via the open-source Mediabunny library – the same video engines used for video calls. That makes conversion fast on most laptops and phones without uploading anything. Chrome and Edge give the best results; recent Safari and Firefox work for most files. If your browser cannot encode a particular format, the tool tells you instead of producing a broken file."
+],
+[
+"MP4 vs WebM",
+{
+"list": [
+"**MP4 (H.264 + AAC)** – plays on every phone, TV, browser, editor and social network. The safe default.",
+"**WebM (VP9/VP8 + Opus)** – open, royalty-free, great for websites; not accepted by some apps and Apple devices.",
+"For WhatsApp, Instagram, TikTok, YouTube, e-mail and PowerPoint choose MP4."
+]
+}
+],
+[
+"Size limits to remember",
+"WhatsApp: about 16 MB for normal video messages (larger as documents). Discord free: 10 MB. E-mail: 20–25 MB. Use *Target file size* to hit these exactly – the tool calculates the bitrate from the clip length. For a dedicated compressor see [Compress Video](/compress-video/)."
+],
+[
+"iPhone and Android videos",
+"iPhones record HEVC (H.265) by default and Android phones record H.264 or HEVC, usually in MP4 or MOV. Most browsers can decode these through the device's hardware; on older Windows PCs without HEVC support, open the file on the phone itself or use Chrome. Phone videos often have a rotation flag, which is applied, so portrait clips stay upright."
+],
+[
+"Speed and battery",
+"Encoding uses your device's video hardware, so a 1-minute 1080p clip typically takes 10–60 seconds depending on the device. Keep the tab in the foreground on phones – mobile browsers pause background tabs – and plug in for long videos. Lowering the resolution is the quickest way to speed things up and shrink the file."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your videos are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim/resize/size target in one step",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert MKV to MP4?",
+"a": "Drop the MKV file and press Start."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Will quality drop?",
+"a": "Choose high quality and keep resolution for minimal loss."
+},
+{
+"q": "Are subtitles kept?",
+"a": "No, only the main video and audio tracks."
+},
+{
+"q": "How long does it take?",
+"a": "Usually faster than real time on a laptop."
+},
+{
+"q": "Can I compress at the same time?",
+"a": "Yes, set a target size or lower resolution."
+},
+{
+"q": "Can I trim it too?",
+"a": "Yes."
+},
+{
+"q": "Does it work on Mac?",
+"a": "Yes, Chrome recommended."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"compress-video",
+"trim-video",
+"mp4-to-mkv",
+"mov-to-mp4",
+"video-merger"
+],
+"updated": "2026-10-25"
+}
+},
+"vwebm2mp4": {
+"seo": {
+"title": "WebM to MP4 Converter – Free, Fast, No Upload",
+"desc": "Convert WebM to MP4 (H.264/AAC) free for iPhone, PowerPoint, WhatsApp and editors. Trim, crop, compress in one step. No watermark, no upload.",
+"compareTitle": "{tool}: {brand} vs Clideo, Kapwing and FreeConvert",
+"compareCols": [
+"Clideo",
+"Kapwing",
+"FreeConvert"
+],
+"sections": [
+[
+"Convert WebM to MP4",
+"WebM is the open video format used by browsers, YouTube downloads, screen recorders and web apps. It is great on the web, but iPhones, PowerPoint, many editors and messaging apps handle MP4 better. Convert WebM to MP4 in your browser and share it anywhere."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the WebM file.",
+"Keep MP4 as the format; optionally trim, change resolution or set a target size.",
+"Press Start.",
+"Download the MP4."
+]
+}
+],
+[
+"Where WebM files come from",
+{
+"list": [
+"Browser screen recorders, including our own [Screen Recorder](/screen-recorder/).",
+"Chrome extensions and web-based video tools.",
+"Downloaded videos from some sites.",
+"WebRTC call recordings and Discord clips."
+]
+}
+],
+[
+"VP8, VP9 and AV1",
+"WebM files hold VP8, VP9 or AV1 video with Opus or Vorbis audio. They are decoded and re-encoded to H.264 + AAC, which is what Apple devices, Windows apps and social networks expect. Expect the MP4 to be similar in size or slightly larger at high quality."
+],
+[
+"Screen recordings",
+"Screen recordings from browsers often have a variable frame rate and no seek index, which makes some editors misbehave. Converting to MP4 produces a regular file that seeks properly in Premiere, DaVinci Resolve, iMovie and PowerPoint."
+],
+[
+"Keep it WebM?",
+"If the video is for your own website, WebM is a good, efficient choice. Convert to MP4 for everything else."
+],
+[
+"Container vs codec",
+"A file extension names the *container* – MKV, WebM, MP4, MOV – which is like a box holding separate video, audio and subtitle streams plus timing information. The *codec* is how each stream is compressed: H.264, HEVC, VP9 or AV1 for video; AAC, Opus, Vorbis or MP3 for audio. A device can fail to play a file either because it does not understand the box or because it lacks the codec inside. MP4 with H.264 and AAC is the combination virtually every device on earth supports, which is why it is the output here. Changing only the box (remuxing) is fast but leaves incompatible codecs in place; re-encoding, as this tool does, guarantees compatibility at the cost of a little processing time."
+],
+[
+"Playing the MP4",
+"The converted MP4 opens in the Photos and Films apps on Windows, QuickTime and Photos on Mac, the iPhone and Android galleries, smart TVs from a USB stick, and every browser. It can be inserted into PowerPoint, Keynote and Google Slides, and imported into Premiere Pro, DaVinci Resolve, iMovie, CapCut and Clipchamp without any extra plug-ins or codec packs."
+],
+[
+"Choosing quality and size",
+"For archiving or further editing choose *High quality* and keep the resolution. For sharing, *Recommended* gives a good balance; set *Target file size* when a platform has a hard limit. A 10-minute 1080p screen recording is typically 150–400 MB at high quality and 50–120 MB at recommended settings."
+],
+[
+"Converting several videos",
+"Convert one video at a time for the most reliable results on phones; on a laptop you can start the next file as soon as the previous download finishes. Each MP4 keeps the original file name, so a series of lecture recordings stays in order."
+],
+[
+"Troubleshooting",
+{
+"list": [
+"**\"This browser cannot encode this video\"** – use the latest Chrome or Edge, which have the widest codec support.",
+"**No sound in the MP4** – the MKV/WebM audio codec may not be supported by your browser; try Chrome.",
+"**Very slow** – lower the resolution to 720p and close other tabs.",
+"**Stops on a phone** – very long files may exceed mobile memory; trim them into parts."
+]
+}
+],
+[
+"Video settings explained",
+{
+"table": [
+[
+"Setting",
+"Effect"
+],
+[
+"Start / end",
+"Keep only part of the video; use ⏮ Set start / ⏭ Set end while previewing"
+],
+[
+"Crop to",
+"1:1, 9:16, 16:9, 4:5 or 4:3, centred"
+],
+[
+"Target file size",
+"Hit 8, 10, 16, 25 MB… or a custom size"
+],
+[
+"Quality",
+"High, recommended or strong compression"
+],
+[
+"Resolution",
+"Keep, 1080p, 720p or 480p"
+],
+[
+"Sound",
+"Keep or remove the audio track"
+],
+[
+"Format",
+"MP4 (H.264/AAC) or WebM"
+]
+]
+}
+],
+[
+"How it works",
+"Videos are decoded and re-encoded by your browser's built-in WebCodecs hardware encoder via the open-source Mediabunny library – the same video engines used for video calls. That makes conversion fast on most laptops and phones without uploading anything. Chrome and Edge give the best results; recent Safari and Firefox work for most files. If your browser cannot encode a particular format, the tool tells you instead of producing a broken file."
+],
+[
+"MP4 vs WebM",
+{
+"list": [
+"**MP4 (H.264 + AAC)** – plays on every phone, TV, browser, editor and social network. The safe default.",
+"**WebM (VP9/VP8 + Opus)** – open, royalty-free, great for websites; not accepted by some apps and Apple devices.",
+"For WhatsApp, Instagram, TikTok, YouTube, e-mail and PowerPoint choose MP4."
+]
+}
+],
+[
+"Size limits to remember",
+"WhatsApp: about 16 MB for normal video messages (larger as documents). Discord free: 10 MB. E-mail: 20–25 MB. Use *Target file size* to hit these exactly – the tool calculates the bitrate from the clip length. For a dedicated compressor see [Compress Video](/compress-video/)."
+],
+[
+"iPhone and Android videos",
+"iPhones record HEVC (H.265) by default and Android phones record H.264 or HEVC, usually in MP4 or MOV. Most browsers can decode these through the device's hardware; on older Windows PCs without HEVC support, open the file on the phone itself or use Chrome. Phone videos often have a rotation flag, which is applied, so portrait clips stay upright."
+],
+[
+"Speed and battery",
+"Encoding uses your device's video hardware, so a 1-minute 1080p clip typically takes 10–60 seconds depending on the device. Keep the tab in the foreground on phones – mobile browsers pause background tabs – and plug in for long videos. Lowering the resolution is the quickest way to speed things up and shrink the file."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your videos are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – runs on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"No watermark",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Trim/resize/size target in one step",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert WebM to MP4?",
+"a": "Drop the WebM file and press Start."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Will quality drop?",
+"a": "Choose high quality and keep resolution for minimal loss."
+},
+{
+"q": "Are subtitles kept?",
+"a": "No, only the main video and audio tracks."
+},
+{
+"q": "How long does it take?",
+"a": "Usually faster than real time on a laptop."
+},
+{
+"q": "Can I compress at the same time?",
+"a": "Yes, set a target size or lower resolution."
+},
+{
+"q": "Can I trim it too?",
+"a": "Yes."
+},
+{
+"q": "Does it work on Mac?",
+"a": "Yes, Chrome recommended."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are files uploaded?",
+"a": "No."
+}
+],
+"related": [
+"compress-video",
+"trim-video",
+"mp4-to-mkv",
+"mov-to-mp4",
+"video-merger"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}

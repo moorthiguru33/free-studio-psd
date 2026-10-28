@@ -1,0 +1,1024 @@
+{
+ "ui": {
+  "allTools": "Tất cả công cụ PDF",
+  "select": "Chọn tệp",
+  "selectMany": "Chọn nhiều tệp",
+  "orDrop": "hoặc kéo thả tệp vào đây",
+  "drop": "Thả tệp vào đây",
+  "process": "Bắt đầu",
+  "download": "Tải xuống",
+  "working": "Đang xử lý…",
+  "done": "Hoàn tất! Tệp của bạn đã sẵn sàng.",
+  "error": "Đã xảy ra lỗi:",
+  "another": "Làm lại từ đầu",
+  "privacy": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+  "howTo": "Hướng dẫn sử dụng",
+  "faq": "Câu hỏi thường gặp",
+  "related": "Công cụ liên quan",
+  "popularSearches": "Tìm kiếm phổ biến",
+  "language": "Ngôn ngữ",
+  "footer": "Công cụ PDF trực tuyến miễn phí. Xử lý cục bộ an toàn trên trình duyệt.",
+  "ad": "Quảng cáo",
+  "beta": "Thử nghiệm",
+  "pages": "trang",
+  "remove": "Xóa",
+  "moveUp": "Di chuyển lên",
+  "moveDown": "Di chuyển xuống",
+  "f1t": "Hoàn toàn miễn phí",
+  "f1d": "Không phí ẩn, không giới hạn lượt dùng mỗi ngày, không chèn watermark.",
+  "f2t": "Bảo mật tuyệt đối",
+  "f2d": "Mọi thao tác xử lý diễn ra trên thiết bị của bạn. Tệp không tải lên mạng.",
+  "f3t": "Nhanh chóng & Mọi nơi",
+  "f3d": "Hoạt động trên điện thoại, máy tính bảng và máy tính mà không cần cài đặt.",
+  "stepUpload": "Chọn tệp",
+  "stepOptions": "Tùy chọn",
+  "stepDownload": "Tải về",
+  "tFree": "100% miễn phí",
+  "tNoSign": "Không cần đăng ký",
+  "tNoLimit": "Không giới hạn",
+  "tLocal": "Tệp không rời máy",
+  "privH": "Quyền riêng tư của bạn là ưu tiên hàng đầu",
+  "privHnf": "100% an toàn & riêng tư",
+  "privP": "Mọi thao tác xử lý tệp diễn ra trực tiếp trong trình duyệt web của bạn.",
+  "privPnf": "Không có dữ liệu nào được gửi đến máy chủ bên ngoài.",
+  "privL1b": "Không tải lên máy chủ:",
+  "privL1": "Tệp của bạn không bao giờ rời khỏi thiết bị cá nhân.",
+  "privL2b": "Không lưu trữ dữ liệu:",
+  "privL2": "Chúng tôi không lưu trữ hoặc đọc tài liệu của bạn.",
+  "privL3b": "Chuẩn bảo mật quốc tế:",
+  "privL3": "Tuân thủ các tiêu chuẩn bảo vệ dữ liệu toàn cầu như GDPR.",
+  "whyTitle": "Tại sao nên chọn {brand}",
+  "cmpThem": "Các dịch vụ trực tuyến khác",
+  "cmpRow1": "Tải lên máy chủ",
+  "cmpRow1us": "0 tệp tải lên (xử lý trên máy)",
+  "cmpRow1them": "Tệp bị gửi lên máy chủ lạ",
+  "cmpRow2": "Giới hạn sử dụng",
+  "cmpRow2us": "Không giới hạn hoàn toàn miễn phí",
+  "cmpRow2them": "Bị giới hạn giờ hoặc bắt trả phí",
+  "cmpRow3": "Bảo mật tài liệu",
+  "cmpRow3us": "100% bảo mật trên máy bạn",
+  "cmpRow3them": "Tệp bị lưu trữ tạm trên cloud",
+  "cmpRow4": "Hình mờ Watermark",
+  "cmpRow4us": "Không có hình mờ",
+  "cmpRow4them": "Bắt nâng cấp trả phí để xóa hình mờ",
+  "cmpRow5": "Đăng ký tài khoản",
+  "cmpRow5us": "Không cần tài khoản",
+  "cmpRow5them": "Bắt buộc nhập email đăng nhập",
+  "cmpRow6": "Sử dụng ngoại tuyến",
+  "cmpRow6us": "Có thể dùng khi mất mạng",
+  "cmpRow6them": "Bắt buộc phải có mạng liên tục",
+  "usesTitle": "Các trường hợp sử dụng phổ biến",
+  "tipsTitle": "Mẹo hữu ích",
+  "updLabel": "Cập nhật ngày",
+  "updBy": "Đội ngũ {brand}",
+  "crumbHome": "Trang chủ",
+  "catAll": "Tất cả công cụ",
+  "catOther": "Danh mục khác",
+  "e404t": "Không tìm thấy trang",
+  "e404d": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+  "searchPh": "Tìm kiếm công cụ…",
+  "noResults": "Không tìm thấy công cụ",
+  "tagline": "Tất cả công cụ PDF bạn cần. 100% miễn phí và bảo mật tuyệt đối trên trình duyệt.",
+  "heroSub": "Nối, tách, nén, chuyển đổi, ký tên và chỉnh sửa PDF không cần đăng ký, không giới hạn dung lượng và không có hình mờ. Tệp không bao giờ rời khỏi thiết bị của bạn.",
+  "searchTitle": "Tìm kiếm công cụ",
+  "searchDesc": "Tìm kiếm tất cả các công cụ miễn phí cho PDF, hình ảnh, âm thanh và video. Mọi thứ hoạt động an toàn ngay trên trình duyệt.",
+  "catTitle": "Công cụ {cat} Miễn phí Trực tuyến | {brand}",
+  "catDesc": "Tất cả công cụ {cat} miễn phí từ {brand}: {list} và hơn thế nữa. Chạy trên trình duyệt, không cần tài khoản.",
+  "catLead": "{n} Công cụ {cat} Miễn phí Trực tuyến",
+  "cat_organize": "Sắp xếp & Quản lý",
+  "cat_edit": "Chỉnh sửa & Ghi chú",
+  "cat_convert": "Chuyển đổi định dạng",
+  "cat_optimize": "Tối ưu hóa dung lượng",
+  "cat_security": "Bảo mật & Mã hóa",
+  "cat_image": "Xử lý hình ảnh",
+  "cat_qr": "Mã QR Code",
+  "cat_ai": "Trí tuệ nhân tạo AI",
+  "cat_media": "Âm thanh & Video",
+  "cat_data": "Dữ liệu & Bảng tính",
+  "cat_units": "Chuyển đổi đơn vị",
+  "cat_calc": "Máy tính tiện ích",
+  "cat_text": "Công cụ văn bản",
+  "cat_dev": "Công cụ lập trình",
+  "cat_fun": "Giải trí",
+  "cat_web": "Tiện ích web",
+  "cat_prod": "Năng suất văn phòng",
+  "cat_more": "Công cụ khác"
+ },
+ "home": {
+  "title": "Công cụ PDF & Tệp Trực tuyến Miễn phí | {brand}",
+  "desc": "Ghép, nén, chuyển đổi và chỉnh sửa PDF và hình ảnh trực tuyến miễn phí trên trình duyệt. Không tải lên máy chủ, bảo mật 100%.",
+  "h1": "Công cụ xử lý tệp trực tuyến miễn phí và bảo mật"
+ },
+ "commonFaq": [
+  {
+   "q": "Hoàn toàn miễn phí?",
+   "a": "Không phí ẩn, không giới hạn lượt dùng mỗi ngày, không chèn watermark. Mọi thao tác xử lý diễn ra trên thiết bị của bạn. Tệp không tải lên mạng."
+  },
+  {
+   "q": "Bảo mật tuyệt đối?",
+   "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Tệp của bạn không bao giờ rời khỏi thiết bị cá nhân."
+  }
+ ],
+ "tools": {
+  "audiocut": {
+   "name": "Cắt nhạc âm thanh",
+   "short": "Cắt nhạc âm thanh – 100% miễn phí",
+   "title": "Cắt nhạc âm thanh – 100% miễn phí | {brand}",
+   "desc": "Cắt nhạc âm thanh. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Cắt nhạc âm thanh",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Cắt nhạc âm thanh?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "bgremove": {
+   "name": "Xóa nền tách phông ảnh AI",
+   "short": "Xóa nền tách phông ảnh AI – 100% miễn phí",
+   "title": "Xóa nền tách phông ảnh AI – 100% miễn phí | {brand}",
+   "desc": "Xóa nền tách phông ảnh AI. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Xóa nền tách phông ảnh AI",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Xóa nền tách phông ảnh AI?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "collage": {
+   "name": "Ghép nhiều ảnh thành khung",
+   "short": "Ghép nhiều ảnh thành khung – 100% miễn phí",
+   "title": "Ghép nhiều ảnh thành khung – 100% miễn phí | {brand}",
+   "desc": "Ghép nhiều ảnh thành khung. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Ghép nhiều ảnh thành khung",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Ghép nhiều ảnh thành khung?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "compare": {
+   "name": "So sánh đối chiếu 2 file PDF",
+   "short": "So sánh đối chiếu 2 file PDF – 100% miễn phí",
+   "title": "So sánh đối chiếu 2 file PDF – 100% miễn phí | {brand}",
+   "desc": "So sánh đối chiếu 2 file PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "So sánh đối chiếu 2 file PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng So sánh đối chiếu 2 file PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "compress": {
+   "name": "Nén giảm dung lượng PDF",
+   "short": "Nén giảm dung lượng PDF – 100% miễn phí",
+   "title": "Nén giảm dung lượng PDF – 100% miễn phí | {brand}",
+   "desc": "Nén giảm dung lượng PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Nén giảm dung lượng PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Nén giảm dung lượng PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "crop": {
+   "name": "Cắt gọt lề trang PDF",
+   "short": "Cắt gọt lề trang PDF – 100% miễn phí",
+   "title": "Cắt gọt lề trang PDF – 100% miễn phí | {brand}",
+   "desc": "Cắt gọt lề trang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Cắt gọt lề trang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Cắt gọt lề trang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "Xóa bớt trang PDF",
+   "short": "Xóa bớt trang PDF – 100% miễn phí",
+   "title": "Xóa bớt trang PDF – 100% miễn phí | {brand}",
+   "desc": "Xóa bớt trang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Xóa bớt trang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Xóa bớt trang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "edit": {
+   "name": "Chỉnh sửa file PDF",
+   "short": "Chỉnh sửa file PDF – 100% miễn phí",
+   "title": "Chỉnh sửa file PDF – 100% miễn phí | {brand}",
+   "desc": "Chỉnh sửa file PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chỉnh sửa file PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chỉnh sửa file PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "excel2pdf": {
+   "name": "Chuyển Excel sang PDF",
+   "short": "Chuyển Excel sang PDF – 100% miễn phí",
+   "title": "Chuyển Excel sang PDF – 100% miễn phí | {brand}",
+   "desc": "Chuyển Excel sang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển Excel sang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển Excel sang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "Trích xuất trang PDF riêng",
+   "short": "Trích xuất trang PDF riêng – 100% miễn phí",
+   "title": "Trích xuất trang PDF riêng – 100% miễn phí | {brand}",
+   "desc": "Trích xuất trang PDF riêng. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Trích xuất trang PDF riêng",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Trích xuất trang PDF riêng?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "Làm phẳng biểu mẫu PDF",
+   "short": "Làm phẳng biểu mẫu PDF – 100% miễn phí",
+   "title": "Làm phẳng biểu mẫu PDF – 100% miễn phí | {brand}",
+   "desc": "Làm phẳng biểu mẫu PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Làm phẳng biểu mẫu PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Làm phẳng biểu mẫu PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "Chuyển PDF sang đen trắng",
+   "short": "Chuyển PDF sang đen trắng – 100% miễn phí",
+   "title": "Chuyển PDF sang đen trắng – 100% miễn phí | {brand}",
+   "desc": "Chuyển PDF sang đen trắng. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF sang đen trắng",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF sang đen trắng?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "heic2jpg": {
+   "name": "heic2jpg",
+   "short": "heic2jpg – 100% miễn phí",
+   "title": "heic2jpg – 100% miễn phí | {brand}",
+   "desc": "heic2jpg. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "heic2jpg",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng heic2jpg?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "imgcompress": {
+   "name": "Nén giảm dung lượng ảnh",
+   "short": "Nén giảm dung lượng ảnh – 100% miễn phí",
+   "title": "Nén giảm dung lượng ảnh – 100% miễn phí | {brand}",
+   "desc": "Nén giảm dung lượng ảnh. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Nén giảm dung lượng ảnh",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Nén giảm dung lượng ảnh?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "imgconvert": {
+   "name": "imgconvert",
+   "short": "imgconvert – 100% miễn phí",
+   "title": "imgconvert – 100% miễn phí | {brand}",
+   "desc": "imgconvert. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "imgconvert",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng imgconvert?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "imgcrop": {
+   "name": "Cắt cúp ảnh",
+   "short": "Cắt cúp ảnh – 100% miễn phí",
+   "title": "Cắt cúp ảnh – 100% miễn phí | {brand}",
+   "desc": "Cắt cúp ảnh. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Cắt cúp ảnh",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Cắt cúp ảnh?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "imgresize": {
+   "name": "Thay đổi kích thước ảnh",
+   "short": "Thay đổi kích thước ảnh – 100% miễn phí",
+   "title": "Thay đổi kích thước ảnh – 100% miễn phí | {brand}",
+   "desc": "Thay đổi kích thước ảnh. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Thay đổi kích thước ảnh",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Thay đổi kích thước ảnh?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "Chuyển ảnh JPG sang PDF",
+   "short": "Chuyển ảnh JPG sang PDF – 100% miễn phí",
+   "title": "Chuyển ảnh JPG sang PDF – 100% miễn phí | {brand}",
+   "desc": "Chuyển ảnh JPG sang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển ảnh JPG sang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển ảnh JPG sang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "jpg2png": {
+   "name": "Chuyển JPG sang PNG trong suốt",
+   "short": "Chuyển JPG sang PNG trong suốt – 100% miễn phí",
+   "title": "Chuyển JPG sang PNG trong suốt – 100% miễn phí | {brand}",
+   "desc": "Chuyển JPG sang PNG trong suốt. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển JPG sang PNG trong suốt",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển JPG sang PNG trong suốt?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "merge": {
+   "name": "Nối ghép file PDF",
+   "short": "Nối ghép file PDF – 100% miễn phí",
+   "title": "Nối ghép file PDF – 100% miễn phí | {brand}",
+   "desc": "Nối ghép file PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Nối ghép file PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Nối ghép file PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "Nhận diện chữ từ ảnh OCR",
+   "short": "Nhận diện chữ từ ảnh OCR – 100% miễn phí",
+   "title": "Nhận diện chữ từ ảnh OCR – 100% miễn phí | {brand}",
+   "desc": "Nhận diện chữ từ ảnh OCR. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Nhận diện chữ từ ảnh OCR",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Nhận diện chữ từ ảnh OCR?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "Chuyển PDF scan thành text tìm kiếm",
+   "short": "Chuyển PDF scan thành text tìm kiếm – 100% miễn phí",
+   "title": "Chuyển PDF scan thành text tìm kiếm | {brand}",
+   "desc": "Chuyển PDF scan thành text tìm kiếm. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF scan thành text tìm kiếm",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF scan thành text tìm kiếm?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "organize": {
+   "name": "Sắp xếp đổi vị trí trang PDF",
+   "short": "Sắp xếp đổi vị trí trang PDF – 100% miễn phí",
+   "title": "Sắp xếp đổi vị trí trang PDF – 100% miễn phí | {brand}",
+   "desc": "Sắp xếp đổi vị trí trang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Sắp xếp đổi vị trí trang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Sắp xếp đổi vị trí trang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "Đánh số trang PDF",
+   "short": "Đánh số trang PDF – 100% miễn phí",
+   "title": "Đánh số trang PDF – 100% miễn phí | {brand}",
+   "desc": "Đánh số trang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Đánh số trang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Đánh số trang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Tạo mật khẩu mạnh ngẫu nhiên",
+   "short": "Tạo mật khẩu mạnh ngẫu nhiên – 100% miễn phí",
+   "title": "Tạo mật khẩu mạnh ngẫu nhiên – 100% miễn phí | {brand}",
+   "desc": "Tạo mật khẩu mạnh ngẫu nhiên. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Tạo mật khẩu mạnh ngẫu nhiên",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Tạo mật khẩu mạnh ngẫu nhiên?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pdf2excel": {
+   "name": "Chuyển PDF sang bảng tính Excel",
+   "short": "Chuyển PDF sang bảng tính Excel – 100% miễn phí",
+   "title": "Chuyển PDF sang bảng tính Excel – 100% miễn phí | {brand}",
+   "desc": "Chuyển PDF sang bảng tính Excel. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF sang bảng tính Excel",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF sang bảng tính Excel?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "Chuyển PDF sang ảnh JPG",
+   "short": "Chuyển PDF sang ảnh JPG – 100% miễn phí",
+   "title": "Chuyển PDF sang ảnh JPG – 100% miễn phí | {brand}",
+   "desc": "Chuyển PDF sang ảnh JPG. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF sang ảnh JPG",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF sang ảnh JPG?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pdf2png": {
+   "name": "Chuyển PDF sang ảnh PNG",
+   "short": "Chuyển PDF sang ảnh PNG – 100% miễn phí",
+   "title": "Chuyển PDF sang ảnh PNG – 100% miễn phí | {brand}",
+   "desc": "Chuyển PDF sang ảnh PNG. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF sang ảnh PNG",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF sang ảnh PNG?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pdf2ppt": {
+   "name": "Chuyển PDF sang PowerPoint PPT",
+   "short": "Chuyển PDF sang PowerPoint PPT – 100% miễn phí",
+   "title": "Chuyển PDF sang PowerPoint PPT – 100% miễn phí | {brand}",
+   "desc": "Chuyển PDF sang PowerPoint PPT. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF sang PowerPoint PPT",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF sang PowerPoint PPT?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "pdf2txt",
+   "short": "pdf2txt – 100% miễn phí",
+   "title": "pdf2txt – 100% miễn phí | {brand}",
+   "desc": "pdf2txt. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "pdf2txt",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng pdf2txt?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "Chuyển PDF sang Word",
+   "short": "Chuyển PDF sang Word – 100% miễn phí",
+   "title": "Chuyển PDF sang Word – 100% miễn phí | {brand}",
+   "desc": "Chuyển PDF sang Word. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PDF sang Word",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PDF sang Word?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "png2jpg": {
+   "name": "Chuyển PNG sang JPG",
+   "short": "Chuyển PNG sang JPG – 100% miễn phí",
+   "title": "Chuyển PNG sang JPG – 100% miễn phí | {brand}",
+   "desc": "Chuyển PNG sang JPG. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển PNG sang JPG",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển PNG sang JPG?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "protect": {
+   "name": "Đặt mật khẩu bảo vệ PDF",
+   "short": "Đặt mật khẩu bảo vệ PDF – 100% miễn phí",
+   "title": "Đặt mật khẩu bảo vệ PDF – 100% miễn phí | {brand}",
+   "desc": "Đặt mật khẩu bảo vệ PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Đặt mật khẩu bảo vệ PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Đặt mật khẩu bảo vệ PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "qr": {
+   "name": "Tạo mã QR Code",
+   "short": "Tạo mã QR Code – 100% miễn phí",
+   "title": "Tạo mã QR Code – 100% miễn phí | {brand}",
+   "desc": "Tạo mã QR Code. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Tạo mã QR Code",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Tạo mã QR Code?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "qrscan": {
+   "name": "Quét đọc mã QR Code",
+   "short": "Quét đọc mã QR Code – 100% miễn phí",
+   "title": "Quét đọc mã QR Code – 100% miễn phí | {brand}",
+   "desc": "Quét đọc mã QR Code. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Quét đọc mã QR Code",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Quét đọc mã QR Code?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "redact": {
+   "name": "Bôi đen che thông tin mật PDF",
+   "short": "Bôi đen che thông tin mật PDF – 100% miễn phí",
+   "title": "Bôi đen che thông tin mật PDF – 100% miễn phí | {brand}",
+   "desc": "Bôi đen che thông tin mật PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Bôi đen che thông tin mật PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Bôi đen che thông tin mật PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "Xóa thông tin ẩn của file PDF",
+   "short": "Xóa thông tin ẩn của file PDF – 100% miễn phí",
+   "title": "Xóa thông tin ẩn của file PDF – 100% miễn phí | {brand}",
+   "desc": "Xóa thông tin ẩn của file PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Xóa thông tin ẩn của file PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Xóa thông tin ẩn của file PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "Thay đổi khổ giấy PDF",
+   "short": "Thay đổi khổ giấy PDF – 100% miễn phí",
+   "title": "Thay đổi khổ giấy PDF – 100% miễn phí | {brand}",
+   "desc": "Thay đổi khổ giấy PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Thay đổi khổ giấy PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Thay đổi khổ giấy PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "Xoay chiều trang PDF",
+   "short": "Xoay chiều trang PDF – 100% miễn phí",
+   "title": "Xoay chiều trang PDF – 100% miễn phí | {brand}",
+   "desc": "Xoay chiều trang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Xoay chiều trang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Xoay chiều trang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "sign": {
+   "name": "Ký tên điện tử PDF",
+   "short": "Ký tên điện tử PDF – 100% miễn phí",
+   "title": "Ký tên điện tử PDF – 100% miễn phí | {brand}",
+   "desc": "Ký tên điện tử PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Ký tên điện tử PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Ký tên điện tử PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "split": {
+   "name": "Tách chia nhỏ PDF",
+   "short": "Tách chia nhỏ PDF – 100% miễn phí",
+   "title": "Tách chia nhỏ PDF – 100% miễn phí | {brand}",
+   "desc": "Tách chia nhỏ PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Tách chia nhỏ PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Tách chia nhỏ PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Chuyển văn bản TXT sang PDF",
+   "short": "Chuyển văn bản TXT sang PDF – 100% miễn phí",
+   "title": "Chuyển văn bản TXT sang PDF – 100% miễn phí | {brand}",
+   "desc": "Chuyển văn bản TXT sang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển văn bản TXT sang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển văn bản TXT sang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "Mở khóa xóa mật khẩu PDF",
+   "short": "Mở khóa xóa mật khẩu PDF – 100% miễn phí",
+   "title": "Mở khóa xóa mật khẩu PDF – 100% miễn phí | {brand}",
+   "desc": "Mở khóa xóa mật khẩu PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Mở khóa xóa mật khẩu PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Mở khóa xóa mật khẩu PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Nâng cao độ nét ảnh AI",
+   "short": "Nâng cao độ nét ảnh AI – 100% miễn phí",
+   "title": "Nâng cao độ nét ảnh AI – 100% miễn phí | {brand}",
+   "desc": "Nâng cao độ nét ảnh AI. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Nâng cao độ nét ảnh AI",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Nâng cao độ nét ảnh AI?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "video2mp3": {
+   "name": "Tách âm thanh video sang MP3",
+   "short": "Tách âm thanh video sang MP3 – 100% miễn phí",
+   "title": "Tách âm thanh video sang MP3 – 100% miễn phí | {brand}",
+   "desc": "Tách âm thanh video sang MP3. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Tách âm thanh video sang MP3",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Tách âm thanh video sang MP3?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Nén giảm dung lượng video",
+   "short": "Nén giảm dung lượng video – 100% miễn phí",
+   "title": "Nén giảm dung lượng video – 100% miễn phí | {brand}",
+   "desc": "Nén giảm dung lượng video. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Nén giảm dung lượng video",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Nén giảm dung lượng video?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "viewer": {
+   "name": "Xem đọc file PDF online",
+   "short": "Xem đọc file PDF online – 100% miễn phí",
+   "title": "Xem đọc file PDF online – 100% miễn phí | {brand}",
+   "desc": "Xem đọc file PDF online. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Xem đọc file PDF online",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Xem đọc file PDF online?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "Chèn đóng dấu watermark PDF",
+   "short": "Chèn đóng dấu watermark PDF – 100% miễn phí",
+   "title": "Chèn đóng dấu watermark PDF – 100% miễn phí | {brand}",
+   "desc": "Chèn đóng dấu watermark PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chèn đóng dấu watermark PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chèn đóng dấu watermark PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "webp2jpg": {
+   "name": "Chuyển WebP sang JPG",
+   "short": "Chuyển WebP sang JPG – 100% miễn phí",
+   "title": "Chuyển WebP sang JPG – 100% miễn phí | {brand}",
+   "desc": "Chuyển WebP sang JPG. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển WebP sang JPG",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển WebP sang JPG?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Chuyển Word sang PDF",
+   "short": "Chuyển Word sang PDF – 100% miễn phí",
+   "title": "Chuyển Word sang PDF – 100% miễn phí | {brand}",
+   "desc": "Chuyển Word sang PDF. Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ.",
+   "h1": "Chuyển Word sang PDF",
+   "steps": [
+    "Chọn tệp",
+    "Tùy chọn",
+    "Tải về"
+   ],
+   "faq": [
+    {
+     "q": "Hướng dẫn sử dụng Chuyển Word sang PDF?",
+     "a": "Các tệp được xử lý cục bộ ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ. Không cần đăng ký."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,344 @@
+{
+  "tools": {
+    "collage": {
+      "name": "Créateur de collages",
+      "short": "Réunissez des photos dans un collage en grille.",
+      "title": "Créer un collage photo en ligne gratuit – Grille sans filigrane",
+      "desc": "Créez un collage avec plusieurs photos en réglant colonnes, espacement et fond. Gratuit, privé et sans filigrane.",
+      "h1": "Créateur de collages photo",
+      "steps": [
+        "Sélectionnez deux photos ou plus.",
+        "Choisissez colonnes, espacement, largeur et fond.",
+        "Cliquez sur Démarrer et téléchargez votre collage."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je changer l'ordre ?",
+          "a": "Oui : utilisez les flèches à côté de chaque fichier ; les photos sont placées de gauche à droite et de haut en bas."
+        }
+      ],
+      "guide": {
+        "intro": "Un collage montre de nombreuses photos dans une seule image : parfait pour les publications sur les réseaux, les résumés d'événements, les planches d'inspiration et les souvenirs de famille.",
+        "uses": [
+          "Partager le meilleur de vos vacances en une seule publication.",
+          "Créer une planche d'inspiration pour un projet.",
+          "Faire une grille de produits pour une boutique en ligne."
+        ],
+        "tips": [
+          "Utilisez des photos aux proportions proches pour une grille bien ordonnée.",
+          "Ajoutez de l'espacement et une couleur de fond assortie à vos photos."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je changer l'ordre ?",
+            "a": "Oui : utilisez les flèches à côté de chaque fichier ; les photos sont placées de gauche à droite et de haut en bas."
+          }
+        ],
+        "more": [
+          [
+            "Idées de mise en page",
+            "Deux colonnes conviennent aux paires avant/après, trois ou quatre au meilleur d'un événement, et des grilles plus grandes aux catalogues produit ou aux planches d'inspiration. Un fin espace blanc ou sombre donne un rendu net et moderne."
+          ],
+          [
+            "Formats pour les réseaux sociaux",
+            "Les collages carrés (1080 × 1080) et verticaux 4:5 (1080 × 1350) sont ceux qui rendent le mieux dans les fils ; le format paysage convient aux présentations et aux blogs."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Créateur de collages en ligne gratuit – Grille de photos",
+        "desc": "Créez collages et grilles photo gratuits : colonnes, espacement, fond et ajustement, puis téléchargez en JPG, PNG ou WebP. Sans filigrane ni envoi.",
+        "compareTitle": "{tool} : {brand} et Canva, Adobe Express, iLoveIMG",
+        "compareCols": [
+          "Canva",
+          "Adobe Express",
+          "iLoveIMG"
+        ],
+        "sections": [
+          [
+            "Créateur de collages photo gratuit",
+            "Réunissez vos photos préférées dans une seule image pour Instagram, Facebook, un album de famille, une planche d'inspiration ou une fiche produit. Déposez les photos, choisissez le nombre de colonnes, l'espacement et la couleur de fond, décidez si les photos sont recadrées pour remplir leurs cases ou affichées en entier, puis téléchargez un JPG, PNG ou WebP haute résolution. Sans filigrane, sans compte et sans envoi."
+          ],
+          [
+            "Mode d'emploi",
+            {
+              "steps": [
+                "Déposez de 2 à 50 photos.",
+                "Ajoutez-les dans l'ordre où vous voulez les placer.",
+                "Réglez les colonnes, la largeur de sortie, l'espacement et le fond.",
+                "Choisissez Remplir (recadrer aux cases) ou Ajuster (afficher les photos en entier).",
+                "Téléchargez le collage."
+              ]
+            }
+          ],
+          [
+            "Des mises en page qui marchent",
+            {
+              "table": [
+                [
+                  "Photos",
+                  "Colonnes",
+                  "Résultat"
+                ],
+                [
+                  "2",
+                  "2",
+                  "Avant/après côte à côte"
+                ],
+                [
+                  "3",
+                  "3",
+                  "Triptyque / bande panoramique"
+                ],
+                [
+                  "4",
+                  "2",
+                  "Grille classique 2 × 2"
+                ],
+                [
+                  "6",
+                  "3",
+                  "Grille 3 × 2 pour Facebook"
+                ],
+                [
+                  "9",
+                  "3",
+                  "Grille 3 × 3 façon Instagram"
+                ],
+                [
+                  "12–20",
+                  "4",
+                  "Planche d'inspiration ou planche contact"
+                ]
+              ]
+            },
+            "Pour assembler deux images bord à bord sans grille, [Assembler des images](/image-joiner/) est plus rapide."
+          ],
+          [
+            "Remplir ou ajuster ?",
+            "*Remplir* recadre chaque photo à la même forme de case et donne une grille nette, façon magazine ; les visages près des bords peuvent être coupés. *Ajuster* affiche chaque photo en entier et ajoute du fond autour : mieux pour les documents, les captures et les illustrations. Un fond blanc ou gris clair avec 10 à 20 px d'espacement est net ; le noir va bien aux photos de nuit et aux images spectaculaires."
+          ],
+          [
+            "La meilleure taille de sortie",
+            {
+              "list": [
+                "Instagram : 1080 px de large (carré ou 4:5).",
+                "Facebook : 2048 px de large pour un rendu net.",
+                "Impression A4/Letter à 300 dpi : environ 2480–2550 px de large.",
+                "Pages web : 1200–1600 px de large, puis [Compresser une image](/compress-image/)."
+              ]
+            }
+          ],
+          [
+            "Idées",
+            {
+              "list": [
+                "Bilan de l'année ou meilleurs moments des vacances.",
+                "Planches de mariage et des grandes étapes de bébé.",
+                "Annonces immobilières avec plusieurs pièces sur une image.",
+                "Variantes de produit et coloris pour les boutiques en ligne.",
+                "Photos des étapes d'une recette et avancement de travaux manuels.",
+                "Planches d'inspiration pour designers et stylistes."
+              ]
+            }
+          ],
+          [
+            "Collage ou grille découpée",
+            "Un collage réunit de nombreuses photos dans une seule image. L'inverse (découper une photo en plusieurs publications qui forment une grille sur le profil) se fait avec le [Créateur de grille Instagram](/instagram-grid-maker/)."
+          ],
+          [
+            "Imprimer votre collage",
+            "Pour un poster ou une page de livre photo, réglez la largeur selon la taille d'impression : pouces × 300 pour une impression nette (un tirage 20 × 25 cm, soit 8 × 10 in, demande 2400 px de large), ou centimètres × 118. Choisissez PNG ou JPG haute qualité, laissez au moins 20 px d'espacement pour des lignes de coupe régulières entre les photos et éloignez les visages importants du bord extérieur au cas où l'imprimeur rognerait quelques millimètres. La plupart des laboratoires photo acceptent des JPG jusqu'à 25–50 Mo."
+          ],
+          [
+            "Un collage 3 × 3 pour Instagram, étape par étape",
+            {
+              "steps": [
+                "Choisissez neuf photos sur un même thème : un voyage, une saison, une gamme de produits.",
+                "Déposez-les dans l'ordre de lecture souhaité, de gauche à droite et de haut en bas.",
+                "Réglez 3 colonnes, 1080 px de large, 8 à 12 px d'espacement et un fond blanc.",
+                "Choisissez Remplir pour que chaque case soit un carré parfait.",
+                "Téléchargez en JPG et publiez-le comme une seule image carrée ou 4:5."
+              ]
+            }
+          ],
+          [
+            "Harmonie des couleurs et mise en page",
+            "Un collage paraît voulu quand les photos ont un point commun : une couleur dominante, une luminosité proche ou le même sujet à différents moments. Alternez gros plans et plans larges pour laisser respirer l'œil, et évitez de juxtaposer deux images très chargées. Si une photo est nettement plus sombre, éclaircissez-la avec les [Filtres photo](/photo-filters/) avant de l'assembler. Un espacement régulier et un fond neutre donnent de l'unité à des photos variées."
+          ],
+          [
+            "Des collages pour les pros",
+            "Les boutiques en ligne utilisent les collages pour montrer tous les coloris d'un produit sur une image ; les agences immobilières réunissent les pièces en une seule photo d'annonce ; les organisateurs d'événements partagent les meilleurs moments dès le lendemain ; les enseignants créent des emplois du temps visuels et des affichages de classe. Comme l'outil fonctionne hors ligne dans le navigateur, le personnel peut l'utiliser sur des ordinateurs professionnels verrouillés sans installer de logiciel ni envoyer les photos des clients à un service externe."
+          ],
+          [
+            "Choisir les bonnes photos",
+            "Commencez avec plus de photos que nécessaire et triez sans pitié : un collage de six images fortes vaut mieux qu'un collage de vingt images moyennes. Mélangez les orientations avec soin : en mode Remplir, les photos verticales perdent le haut et le bas, les horizontales les côtés, alors vérifiez que les têtes et les détails clés restent dans chaque case. Les photos de groupe rendent mieux dans de grandes cases : pour une image vedette, utilisez moins de colonnes. Si vous racontez une histoire, comme un voyage ou une rénovation, classez les photos dans l'ordre chronologique pour une lecture naturelle de la première à la dernière case. Si deux photos sont presque identiques, gardez seulement la plus nette ; la répétition affaiblit une grille plus qu'une case vide, et quelques grandes photos se lisent mieux sur un petit écran de téléphone."
+          ],
+          [
+            "Espacement et fond, expliqués",
+            "L'espacement est l'espace en pixels entre les photos et autour du bord extérieur. 0 px donne une mosaïque continue où les photos se touchent ; 5 à 10 px fait moderne et net sur mobile ; 20 à 40 px donne un esprit galerie ou scrapbooking et laisse une marge pour l'impression. La couleur de fond remplit les espaces et, en mode Ajuster, l'espace autour des photos qui n'ont pas la forme de la case. Choisissez une couleur prise dans les photos elles-mêmes avec la [Pipette de couleur d'image](/image-color-picker/) pour un rendu coordonné et soigné."
+          ],
+          [
+            "Conseils de qualité",
+            "Utilisez des photos à l'éclairage et aux couleurs proches pour un résultat harmonieux, ou appliquez-leur d'abord le même style avec les [Filtres photo](/photo-filters/). Placez l'image la plus forte dans la case en haut à gauche ou au centre, là où le regard se pose en premier. Les photos HEIC de l'iPhone sont converties automatiquement."
+          ],
+          [
+            "Les formats photo en un coup d'œil",
+            {
+              "table": [
+                [
+                  "Format",
+                  "Compression",
+                  "Transparence",
+                  "Idéal pour"
+                ],
+                [
+                  "JPG",
+                  "Avec perte",
+                  "Non",
+                  "Photos, e-mail, réseaux sociaux"
+                ],
+                [
+                  "PNG",
+                  "Sans perte",
+                  "Oui",
+                  "Captures, logos, graphiques avec texte"
+                ],
+                [
+                  "WebP",
+                  "Avec ou sans perte",
+                  "Oui",
+                  "Web : plus léger que JPG et PNG"
+                ],
+                [
+                  "AVIF",
+                  "Avec ou sans perte",
+                  "Oui",
+                  "Fichiers minuscules, navigateurs récents"
+                ],
+                [
+                  "GIF",
+                  "Sans perte, 256 couleurs",
+                  "1 bit",
+                  "Animations simples"
+                ]
+              ]
+            },
+            "L'outil lit JPG, PNG, WebP, GIF, BMP, AVIF et, grâce à des décodeurs intégrés, les photos HEIC de l'iPhone : vous aurez rarement besoin de convertir d'abord."
+          ],
+          [
+            "Fonctionne sur tous les appareils",
+            "Fonctionne dans Chrome, Edge, Firefox et Safari sous Windows, macOS, Linux, ChromeOS, Android et iPhone/iPad. Sur mobile, touchez la zone de dépôt et choisissez dans votre galerie ; les résultats sont enregistrés dans Téléchargements ou dans l'app Fichiers. Les lots sont traités l'un après l'autre et téléchargés ensemble dans un ZIP : un album de vacances entier ne demande que quelques touches."
+          ],
+          [
+            "Qualité et taille de fichier",
+            "Les modifications se font à la pleine résolution de l'original. Les résultats JPG et WebP sont encodés en haute qualité (environ 90 %), visuellement identique à l'original pour la plupart des photos, avec des fichiers compacts ; choisissez PNG si vous avez besoin d'une sortie sans perte ou de transparence. Pour alléger encore les fichiers ensuite, utilisez [Compresser une image](/compress-image/), et pour changer les dimensions, [Redimensionner une image](/resize-image/)."
+          ],
+          [
+            "Problèmes courants et solutions",
+            {
+              "list": [
+                "**Le fichier ne s'ouvre pas** : vérifiez qu'il s'agit d'une vraie image et non d'un raccourci ou d'un fichier cloud non téléchargé ; téléchargez-le d'abord entièrement depuis iCloud, Google Photos ou OneDrive.",
+                "**Le résultat est flou** : partez de l'original, pas d'une miniature reçue par WhatsApp ou Messenger, qui recompressent fortement les photos.",
+                "**Les couleurs sont un peu différentes** : les photos à gamut étendu (Display P3) sont affichées en sRGB, la norme du web ; c'est normal et identique sur tous les appareils.",
+                "**Le téléchargement n'apparaît pas sur l'iPhone** : regardez dans Fichiers → Téléchargements, ou appuyez longuement sur l'aperçu et choisissez Enregistrer dans Photos.",
+                "**Un gros lot est lent** : les très grandes photos consomment beaucoup de mémoire ; fermez d'autres onglets ou traitez 20 à 30 images à la fois."
+              ]
+            }
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur. Vos images sont lues depuis votre disque vers la mémoire, traitées là et enregistrées directement sur votre appareil. Rien n'est envoyé, stocké ni enregistré, il n'y a pas de compte et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient donc aux contenus privés, confidentiels ou inédits."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Lots / plusieurs images",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Colonnes, espacement, remplir/ajuster",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment faire un collage photo gratuitement ?",
+            "a": "Déposez vos photos, choisissez colonnes et espacement, puis téléchargez, sans filigrane."
+          },
+          {
+            "q": "Combien de photos puis-je ajouter ?",
+            "a": "Jusqu'à environ 50 ; plus il y a de cases, plus chaque photo est petite."
+          },
+          {
+            "q": "Y a-t-il un filigrane ?",
+            "a": "Non."
+          },
+          {
+            "q": "Puis-je changer la couleur de fond ?",
+            "a": "Oui, n'importe quelle couleur."
+          },
+          {
+            "q": "Puis-je faire un collage pour Instagram ?",
+            "a": "Oui, réglez 1080 px de large et 2 ou 3 colonnes."
+          },
+          {
+            "q": "Peut-on afficher les photos sans les recadrer ?",
+            "a": "Choisissez le mode Ajuster."
+          },
+          {
+            "q": "Dans quel ordre les photos sont-elles placées ?",
+            "a": "De gauche à droite et de haut en bas, dans l'ordre où vous les ajoutez."
+          },
+          {
+            "q": "Dans quel format sort le collage ?",
+            "a": "JPG, PNG ou WebP."
+          },
+          {
+            "q": "Mes photos sont-elles envoyées ?",
+            "a": "Non, le collage est créé dans votre navigateur."
+          },
+          {
+            "q": "Ça marche sur iPhone ?",
+            "a": "Oui, y compris les photos HEIC."
+          }
+        ],
+        "related": [
+          "image-joiner",
+          "instagram-grid-maker",
+          "photo-filters",
+          "resize-image",
+          "compress-image"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

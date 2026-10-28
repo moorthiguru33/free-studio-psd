@@ -1,0 +1,293 @@
+{
+  "tools": {
+    "grayscale": {
+      "name": "PDF en niveaux de gris",
+      "short": "Convertissez un PDF couleur en noir et blanc.",
+      "title": "PDF en niveaux de gris en ligne gratuit – Couleur en noir et blanc | {brand}",
+      "desc": "Convertissez un PDF couleur en niveaux de gris pour économiser l'encre ou respecter une règle noir et blanc. Gratuit, privé, dans le navigateur.",
+      "h1": "Convertir un PDF en niveaux de gris",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez un niveau de qualité.",
+        "Cliquez sur Démarrer et téléchargez."
+      ],
+      "faq": [
+        {
+          "q": "Le texte reste-t-il sélectionnable ?",
+          "a": "Les pages sont converties en images en niveaux de gris : le texte n'est ensuite plus sélectionnable."
+        }
+      ],
+      "guide": {
+        "intro": "Imprimer des documents couleur sur une imprimante noir et blanc peut rendre le texte pâle, et l'encre couleur coûte cher. La conversion en niveaux de gris montre exactement comment le document sera imprimé et peut réduire les coûts.",
+        "uses": [
+          "Économiser l'encre couleur en imprimant de longs documents à la maison ou au bureau.",
+          "Respecter les règles d'envoi qui exigent des documents en noir et blanc.",
+          "Prévisualiser le rendu des graphiques et des photos sur une imprimante monochrome."
+        ],
+        "tips": [
+          "Vérifiez les graphiques après la conversion : des couleurs qui ne diffèrent que par la teinte peuvent paraître identiques en gris.",
+          "Ensuite, utilisez Compresser un PDF pour un fichier encore plus léger."
+        ],
+        "faq": [
+          {
+            "q": "Le texte reste-t-il sélectionnable ?",
+            "a": "Non, les pages sont converties en images en niveaux de gris : le texte n'est ensuite plus sélectionnable. Utilisez OCR PDF si vous avez besoin de texte cherchable."
+          }
+        ],
+        "more": [
+          [
+            "Économies d'encre et de toner",
+            "Les cartouches couleur coûtent cher et beaucoup de bureaux impriment en noir et blanc par défaut. Convertir d'abord permet de vérifier la lisibilité des graphiques et des surlignages avant d'imprimer, et d'éviter les pages gâchées."
+          ],
+          [
+            "Des fichiers plus légers aussi",
+            "Les images couleur contiennent trois canaux d'information ; les niveaux de gris n'en ont besoin que d'un : la conversion peut donc aussi alléger les documents riches en images."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "PDF en niveaux de gris ou noir et blanc gratuit",
+        "desc": "Convertissez un PDF en niveaux de gris ou en noir et blanc pur avec seuil réglable. Plusieurs qualités. Gratuit, sans envoi ni inscription.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Sejda",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Sejda"
+        ],
+        "sections": [
+          [
+            "Convertissez un PDF en niveaux de gris ou en noir et blanc",
+            "Cet outil supprime la couleur d'un PDF. **Niveaux de gris** convertit chaque couleur en la nuance de gris correspondante – l'aspect d'une bonne photocopie noir et blanc –, en gardant photos et graphiques lisibles. **Noir et blanc** va plus loin et transforme chaque pixel en noir pur ou blanc pur selon un seuil que vous réglez, ce qui donne des pages nettes et très contrastées pour les documents texte, les formulaires et les signatures, et les fichiers les plus légers pour les scans.",
+            "Raisons courantes : un imprimeur ou un système de dépôt judiciaire exige des niveaux de gris, vous voulez imprimer sans consommer d'encre couleur, un fond coloré gêne la lecture d'un scan ou vous devez alléger un document numérisé très coloré."
+          ],
+          [
+            "Niveaux de gris ou noir et blanc",
+            {
+              "table": [
+                [
+                  "",
+                  "Niveaux de gris",
+                  "Noir et blanc"
+                ],
+                [
+                  "Couleurs",
+                  "256 nuances de gris",
+                  "Noir et blanc uniquement"
+                ],
+                [
+                  "Photos",
+                  "Gardent le détail",
+                  "Dures, postérisées"
+                ],
+                [
+                  "Scans de texte",
+                  "Bons",
+                  "Les plus nets, supprime la teinte du papier"
+                ],
+                [
+                  "Taille du fichier",
+                  "Plus léger qu'en couleur",
+                  "Généralement le plus léger"
+                ],
+                [
+                  "Idéal pour",
+                  "Documents mixtes, rapports",
+                  "Contrats, formulaires, lettres, reçus"
+                ]
+              ]
+            },
+            "En cas de doute, commencez par les niveaux de gris. Utilisez le noir et blanc quand les pages sont surtout du texte et que vous voulez l'aspect d'un fax propre ou d'une impression laser."
+          ],
+          [
+            "Comment choisir le seuil noir et blanc",
+            "La luminosité de chaque pixel (0 = noir, 255 = blanc) est comparée au seuil. La valeur par défaut de 160 convient à la plupart des documents de bureau. Augmentez-la (180–200) si du texte clair ou fin disparaît ; baissez-la (120–140) si le papier grisé, les taches ou un fond coloré deviennent des points noirs. Lancez une fois, vérifiez le résultat et ajustez : cela ne prend que quelques secondes."
+          ],
+          [
+            "Niveaux de qualité",
+            {
+              "table": [
+                [
+                  "Niveau",
+                  "Échelle de rendu",
+                  "Usage"
+                ],
+                [
+                  "Haute",
+                  "2× (≈144 dpi)",
+                  "Impression, petit texte"
+                ],
+                [
+                  "Moyenne",
+                  "1,5× (≈108 dpi)",
+                  "Lecture à l'écran, e-mail"
+                ],
+                [
+                  "Fichier léger",
+                  "1× (72 dpi)",
+                  "Taille minimale ; grand texte seulement"
+                ]
+              ]
+            }
+          ],
+          [
+            "Comment convertir un PDF en niveaux de gris",
+            {
+              "steps": [
+                "Faites glisser le PDF.",
+                "Choisissez Niveaux de gris ou Noir et blanc (et le seuil).",
+                "Choisissez un niveau de qualité.",
+                "Convertissez et téléchargez."
+              ]
+            }
+          ],
+          [
+            "Ce qui arrive au texte",
+            "Pour garantir la suppression de toute la couleur – y compris celle des images, dégradés, transparences et graphiques intégrés –, chaque page est rendue et enregistrée en image. Les pages ont exactement l'aspect de l'original, mais en gris, et le texte n'est plus sélectionnable ni cherchable. Si vous avez besoin de texte cherchable, appliquez [OCR PDF](/ocr-pdf/) au résultat, qui rajoute une couche de texte invisible. Gardez l'original en couleur pour le modifier."
+          ],
+          [
+            "Imprimer en niveaux de gris sans convertir",
+            "La plupart des boîtes de dialogue d'impression ont une option *niveaux de gris* ou *noir et blanc*, suffisante pour une impression ponctuelle à la maison. Convertir le fichier est préférable quand vous l'envoyez à quelqu'un, le déposez sur un portail qui refuse la couleur, voulez un résultat homogène sur toutes les imprimantes ou avez besoin d'un fichier plus léger."
+          ],
+          [
+            "Peut-on remettre la couleur dans un PDF en niveaux de gris ?",
+            "Non : l'information de couleur est supprimée. Il n'existe aucun moyen fiable de retrouver les couleurs d'origine à partir d'une version grise : gardez toujours l'original en couleur."
+          ],
+          [
+            "Convertir un PDF en niveaux de gris en ligne ou avec un logiciel de bureau",
+            "Les suites PDF de bureau proposent la conversion des couleurs dans leurs outils de prépresse, généralement dans des éditions payantes. La plupart des convertisseurs en ligne envoient d'abord votre document. Ici, la conversion s'exécute dans votre navigateur, gratuitement, et inclut un vrai mode noir et blanc qui manque à beaucoup d'outils."
+          ],
+          [
+            "Glossaire",
+            {
+              "table": [
+                [
+                  "Terme",
+                  "Signification"
+                ],
+                [
+                  "Niveaux de gris",
+                  "Image composée uniquement de nuances de gris"
+                ],
+                [
+                  "Noir et blanc / monochrome",
+                  "Image composée uniquement de pixels noir pur et blanc pur"
+                ],
+                [
+                  "Seuil",
+                  "Niveau de luminosité qui décide entre noir et blanc"
+                ],
+                [
+                  "DPI",
+                  "Points par pouce ; plus c'est élevé, plus c'est net et plus le fichier est lourd"
+                ]
+              ]
+            }
+          ],
+          [
+            "Exemple concret",
+            "Imprimer en couleur un rapport de 30 pages coûte cher. Convertissez-le ici en qualité *Impression* pour obtenir texte et images en gris nets à 200 dpi, ou choisissez *Noir et blanc* avec le seuil par défaut pour un texte noir pur sur papier blanc, idéal pour les imprimantes laser et les fax. Comparez les tailles de fichier dans le message de résultat."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet de votre navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ],
+          [
+            "Outils associés",
+            [
+              "[OCR PDF](/ocr-pdf/)",
+              "[Compresser un PDF](/compress-pdf/)",
+              "[Redresser un PDF](/deskew-pdf/)",
+              "[Aplatir un PDF](/flatten-pdf/)",
+              "[PDF en JPG](/pdf-to-jpg/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Vrai mode noir et blanc",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Seuil réglable",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Niveaux de qualité, dont 200 dpi",
+            "4",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir un PDF en niveaux de gris ?",
+            "a": "Faites glisser le PDF, choisissez Niveaux de gris, sélectionnez une qualité et téléchargez."
+          },
+          {
+            "q": "Comment convertir un PDF en noir et blanc et non en niveaux de gris ?",
+            "a": "Choisissez Noir et blanc et réglez le seuil."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui, sans inscription ni filigrane."
+          },
+          {
+            "q": "Le texte restera-t-il sélectionnable ?",
+            "a": "Non, les pages sont rendues en images ; appliquez l'OCR pour les rendre à nouveau cherchables."
+          },
+          {
+            "q": "Les niveaux de gris réduisent-ils la taille du fichier ?",
+            "a": "Généralement oui, surtout pour les scans couleur ; le noir et blanc donne souvent le fichier le plus léger."
+          },
+          {
+            "q": "Puis-je remettre la couleur dans un PDF en niveaux de gris ?",
+            "a": "Non, l'information de couleur n'existe plus."
+          },
+          {
+            "q": "Quel seuil utiliser ?",
+            "a": "Commencez à 160 ; augmentez-le si du texte disparaît et baissez-le si les fonds deviennent noirs."
+          },
+          {
+            "q": "Mon PDF est-il envoyé ?",
+            "a": "Non, la conversion s'exécute sur votre appareil."
+          }
+        ],
+        "related": [
+          "ocr-pdf",
+          "compress-pdf",
+          "deskew-pdf",
+          "flatten-pdf",
+          "pdf-to-jpg"
+        ],
+        "updated": "2026-10-25",
+        "faqKw": [
+          {
+            "q": "Comment convertir un PDF en niveaux de gris à 200 dpi ?",
+            "a": "Choisissez Niveaux de gris et le niveau de qualité Impression (200 dpi). Chaque page est rendue à 200 dpi en nuances de gris et enregistrée dans un nouveau PDF."
+          }
+        ]
+      }
+    }
+  }
+}

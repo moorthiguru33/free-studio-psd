@@ -1,0 +1,661 @@
+{
+"tools": {
+"psd2jpg": {
+"name": "PSD to JPG Converter",
+"short": "Convert PSD files to JPG without software.",
+"title": "PSD to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert PSD to JPG online free – batch convert Photoshop PSD files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert PSD to JPG",
+"steps": [
+"Select one or more PSD files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert PSD to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the PSD in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "Only the flattened composite is converted; individual layers are not exported."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than PSD?",
+"a": "Usually much smaller – a layered 50 MB PSD often becomes a 1–3 MB image."
+}
+],
+"guide": {
+"intro": "Photoshop PSD is Adobe Photoshop’s layered document format. Every PSD saved with “Maximize compatibility” (the default) also stores a flattened composite image – exactly what you see in Photoshop – and that is what {brand} converts. You will meet it with designers’ mock-ups, social media templates, stock graphics and print artwork. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share PSD files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How PSD conversion works",
+"ag-psd, an MIT-licensed PSD reader, parses the document and returns the composite image Photoshop saved alongside the layers. Only the flattened composite is converted; individual layers are not exported."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "PSDs saved with “Maximize compatibility” turned off have no composite – re-save with it enabled."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"psd2png": {
+"name": "PSD to PNG Converter",
+"short": "Convert PSD files to PNG without software.",
+"title": "PSD to PNG Converter – Free, No Upload | {brand}",
+"desc": "Convert PSD to PNG online free – batch convert Photoshop PSD files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert PSD to PNG",
+"steps": [
+"Select one or more PSD files.",
+"Keep PNG selected and set quality or size.",
+"Click Start and download the PNG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert PSD to PNG without software?",
+"a": "Drop the files here and press Start. {brand} reads the PSD in your browser and saves PNG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "Only the flattened composite is converted; individual layers are not exported."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is PNG smaller than PSD?",
+"a": "Usually much smaller – a layered 50 MB PSD often becomes a 1–3 MB image."
+}
+],
+"guide": {
+"intro": "Photoshop PSD is Adobe Photoshop’s layered document format. The flattened composite stored in the PSD is converted with transparency preserved. You will meet it with logos, UI assets, stickers and artwork with transparent backgrounds. When you just need a normal PNG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share PSD files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept PNG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How PSD conversion works",
+"ag-psd, an MIT-licensed PSD reader, parses the document and returns the composite image Photoshop saved alongside the layers. Only the flattened composite is converted; individual layers are not exported."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "PSDs saved with “Maximize compatibility” turned off have no composite – re-save with it enabled."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"raw2jpg": {
+"name": "RAW to JPG Converter",
+"short": "Convert RAW files to JPG without software.",
+"title": "RAW to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert RAW to JPG online free – batch convert Camera RAW files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert RAW to JPG",
+"steps": [
+"Select one or more RAW files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert RAW to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the RAW in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than RAW?",
+"a": "Yes – a 20–30 MB RAW usually becomes a 3–8 MB JPG at high quality."
+}
+],
+"guide": {
+"intro": "Camera RAW is the unprocessed sensor data from DSLR and mirrorless cameras. Every RAW file also contains a JPEG preview rendered by the camera, and {brand} extracts that preview – the same image you see on the camera screen, at full resolution on most models. You will meet it with Canon, Nikon, Sony, Fujifilm, Olympus, Panasonic, Pentax and Samsung cameras, plus DNG from phones and Lightroom. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share RAW files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How RAW conversion works",
+"RAW files are TIFF-like containers holding sensor data plus one or more JPEG previews. {brand} scans the file for every embedded JPEG, picks the largest one, decodes it with your browser’s native decoder, applies the camera’s orientation tag and re-encodes it with your settings. It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Some very old or unusual cameras store only a small preview; you will see a clear message. Encrypted or corrupted files cannot be read."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"cr22jpg": {
+"name": "CR2 to JPG Converter",
+"short": "Convert CR2 files to JPG without software.",
+"title": "CR2 to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert CR2 to JPG online free – batch convert Canon CR2/CR3 RAW files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert CR2 to JPG",
+"steps": [
+"Select one or more CR2 files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert CR2 to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the CR2 in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than CR2?",
+"a": "Yes – a 20–30 MB RAW usually becomes a 3–8 MB JPG at high quality."
+}
+],
+"guide": {
+"intro": "Canon CR2/CR3 RAW is Canon’s RAW format. CR2 and CR3 files embed a full-resolution JPEG rendered with your camera’s Picture Style, which {brand} extracts. You will meet it with Canon EOS DSLRs and mirrorless cameras. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share CR2 files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How CR2 conversion works",
+"RAW files are TIFF-like containers holding sensor data plus one or more JPEG previews. {brand} scans the file for every embedded JPEG, picks the largest one, decodes it with your browser’s native decoder, applies the camera’s orientation tag and re-encodes it with your settings. It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Some very old or unusual cameras store only a small preview; you will see a clear message. Encrypted or corrupted files cannot be read."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"nef2jpg": {
+"name": "NEF to JPG Converter",
+"short": "Convert NEF files to JPG without software.",
+"title": "NEF to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert NEF to JPG online free – batch convert Nikon NEF RAW files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert NEF to JPG",
+"steps": [
+"Select one or more NEF files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert NEF to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the NEF in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than NEF?",
+"a": "Yes – a 20–30 MB RAW usually becomes a 3–8 MB JPG at high quality."
+}
+],
+"guide": {
+"intro": "Nikon NEF RAW is Nikon’s RAW format. NEF files carry a JPEG preview processed with your Picture Control, which {brand} pulls out directly. You will meet it with Nikon D-series DSLRs and Z mirrorless cameras. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share NEF files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How NEF conversion works",
+"RAW files are TIFF-like containers holding sensor data plus one or more JPEG previews. {brand} scans the file for every embedded JPEG, picks the largest one, decodes it with your browser’s native decoder, applies the camera’s orientation tag and re-encodes it with your settings. It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Some very old or unusual cameras store only a small preview; you will see a clear message. Encrypted or corrupted files cannot be read."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"arw2jpg": {
+"name": "ARW to JPG Converter",
+"short": "Convert ARW files to JPG without software.",
+"title": "ARW to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert ARW to JPG online free – batch convert Sony ARW RAW files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert ARW to JPG",
+"steps": [
+"Select one or more ARW files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert ARW to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the ARW in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than ARW?",
+"a": "Yes – a 20–30 MB RAW usually becomes a 3–8 MB JPG at high quality."
+}
+],
+"guide": {
+"intro": "Sony ARW RAW is Sony’s RAW format. ARW files include a JPEG preview (full size on most Alpha bodies, smaller on a few older ones). You will meet it with Sony Alpha A6000-series, A7/A9/A1 and RX cameras. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share ARW files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How ARW conversion works",
+"RAW files are TIFF-like containers holding sensor data plus one or more JPEG previews. {brand} scans the file for every embedded JPEG, picks the largest one, decodes it with your browser’s native decoder, applies the camera’s orientation tag and re-encodes it with your settings. It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Some very old or unusual cameras store only a small preview; you will see a clear message. Encrypted or corrupted files cannot be read."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"dng2jpg": {
+"name": "DNG to JPG Converter",
+"short": "Convert DNG files to JPG without software.",
+"title": "DNG to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert DNG to JPG online free – batch convert Adobe DNG files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert DNG to JPG",
+"steps": [
+"Select one or more DNG files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert DNG to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the DNG in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than DNG?",
+"a": "Yes – a 20–30 MB RAW usually becomes a 3–8 MB JPG at high quality."
+}
+],
+"guide": {
+"intro": "Adobe DNG is Adobe’s open RAW format used by phones, Lightroom exports and many Leica/Pentax cameras. DNG embeds a rendered JPEG preview, which {brand} extracts. You will meet it with iPhone ProRAW, Google Pixel, Lightroom and Pentax/Leica cameras. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share DNG files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How DNG conversion works",
+"RAW files are TIFF-like containers holding sensor data plus one or more JPEG previews. {brand} scans the file for every embedded JPEG, picks the largest one, decodes it with your browser’s native decoder, applies the camera’s orientation tag and re-encodes it with your settings. It extracts the embedded camera-rendered preview rather than re-developing the sensor data, so white balance and exposure are as shot. To re-edit exposure, use Lightroom, darktable or RawTherapee."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Some very old or unusual cameras store only a small preview; you will see a clear message. Encrypted or corrupted files cannot be read."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"tga2png": {
+"name": "TGA to PNG Converter",
+"short": "Convert TGA files to PNG without software.",
+"title": "TGA to PNG Converter – Free, No Upload | {brand}",
+"desc": "Convert TGA to PNG online free – batch convert Truevision TGA files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert TGA to PNG",
+"steps": [
+"Select one or more TGA files.",
+"Keep PNG selected and set quality or size.",
+"Click Start and download the PNG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert TGA to PNG without software?",
+"a": "Drop the files here and press Start. {brand} reads the TGA in your browser and saves PNG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "Uncompressed and RLE TGA files in 8, 16, 24 and 32-bit (with alpha), grayscale and colour-mapped variants are supported."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is PNG smaller than TGA?",
+"a": "PNG compresses TGA losslessly, often to half the size; JPG is smaller still but drops transparency."
+}
+],
+"guide": {
+"intro": "Truevision TGA is a simple raster format still used in game engines, 3D texture pipelines and video graphics, supporting alpha and RLE compression. You will meet it with game textures, Blender/3ds Max renders, sprite sheets and broadcast graphics. When you just need a normal PNG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share TGA files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept PNG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How TGA conversion works",
+"{brand} decodes the TGA header, palette and RLE packets in plain JavaScript, handles bottom-up and right-to-left pixel order, and draws the pixels to a canvas before encoding. Uncompressed and RLE TGA files in 8, 16, 24 and 32-bit (with alpha), grayscale and colour-mapped variants are supported."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Files with unusual bit depths may fail; open them in GIMP and re-save."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+},
+"tga2jpg": {
+"name": "TGA to JPG Converter",
+"short": "Convert TGA files to JPG without software.",
+"title": "TGA to JPG Converter – Free, No Upload | {brand}",
+"desc": "Convert TGA to JPG online free – batch convert Truevision TGA files in your browser with quality and resize options. No upload, no install.",
+"h1": "Convert TGA to JPG",
+"steps": [
+"Select one or more TGA files.",
+"Keep JPG selected and set quality or size.",
+"Click Start and download the JPG images (ZIP for batches)."
+],
+"faq": [
+{
+"q": "How do I convert TGA to JPG without software?",
+"a": "Drop the files here and press Start. {brand} reads the TGA in your browser and saves JPG – no Photoshop, Lightroom or app install."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs on your device; even large files are never sent anywhere."
+},
+{
+"q": "What exactly is converted?",
+"a": "Uncompressed and RLE TGA files in 8, 16, 24 and 32-bit (with alpha), grayscale and colour-mapped variants are supported."
+},
+{
+"q": "Can I batch convert?",
+"a": "Yes – select a whole folder and download a ZIP. No daily limits."
+},
+{
+"q": "Which devices work?",
+"a": "Any modern browser on Windows, Mac, Linux, Chromebook, Android or iPhone."
+},
+{
+"q": "Is JPG smaller than TGA?",
+"a": "PNG compresses TGA losslessly, often to half the size; JPG is smaller still but drops transparency."
+}
+],
+"guide": {
+"intro": "Truevision TGA is a simple raster format used in game engines and 3D renderers. You will meet it with game textures, renders and screenshots from older games. When you just need a normal JPG to share, upload or print, {brand} converts it right in your browser.",
+"uses": [
+"Share TGA files with people who don’t have the right software.",
+"Upload images to websites, marketplaces or social media that only accept JPG.",
+"Quickly preview and sort files without editing apps.",
+"Batch convert an entire folder in one go."
+],
+"tips": [
+"Quality 90 keeps JPGs visually identical to the source.",
+"Set a maximum width (e.g. 2048 px) for web and social media.",
+"Keep your originals – they contain more data than any export.",
+"PNG keeps transparency; JPG fills transparent areas with white."
+],
+"more": [
+[
+"How TGA conversion works",
+"{brand} decodes the TGA header, palette and RLE packets in plain JavaScript, handles bottom-up and right-to-left pixel order, and draws the pixels to a canvas before encoding. Uncompressed and RLE TGA files in 8, 16, 24 and 32-bit (with alpha), grayscale and colour-mapped variants are supported."
+],
+[
+"Compared with other converters",
+"Most online converters (CloudConvert, Convertio, Zamzar) upload your files, cap free use by size or per day and make you wait in a queue. Here there is no upload, no account and no limits, and the page works offline once loaded."
+]
+],
+"faq": [
+{
+"q": "Why does my file fail?",
+"a": "Files with unusual bit depths may fail; open them in GIMP and re-save."
+},
+{
+"q": "Is EXIF kept?",
+"a": "No – the output is stripped of metadata, which also protects your location privacy."
+}
+]
+}
+}
+}
+}

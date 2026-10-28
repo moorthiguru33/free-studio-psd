@@ -1,0 +1,2396 @@
+{
+"tools": {
+"cm2in": {
+"seo": {
+"updated": "2026-10-25",
+"title": "CM to Inches Converter – Fractions, Feet & Inches, Table",
+"desc": "Convert cm to inches instantly: decimal, nearest 1/16 inch fraction, and feet + inches. Formula, worked examples and a 1–200 cm chart. Free, works offline.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Centimetres to inches, the way you actually need it",
+"Type a length in centimetres and get the answer three ways at once: as a decimal (66.929 in), as a fraction to the nearest sixteenth of an inch (66 15/16 in) – the way tape measures and rulers are marked – and in feet and inches (5 ft 6 15/16 in), the way heights are written in the US and UK. The converter also shows the formula with your number filled in, a table of the same length in every other unit (mm, m, km, ft, yd, mi), and a swap button for inches to centimetres.",
+"One inch is defined as exactly **2.54 centimetres**. That definition has been international since 1959, so the conversion is exact – there is no rounding in the factor, only in how many decimals you choose to display."
+],
+[
+"The formula",
+"**inches = centimetres ÷ 2.54**, or equivalently **inches = centimetres × 0.3937007874**.",
+"To go the other way: **centimetres = inches × 2.54**.",
+"For feet and inches: divide the total inches by 12. The whole number is feet; the remainder is inches. Example: 170 cm ÷ 2.54 = 66.93 in; 66.93 ÷ 12 = 5 remainder 6.93 → 5 ft 6.93 in (about 5 ft 7 in)."
+],
+[
+"Worked examples",
+[
+"**30 cm** ÷ 2.54 = 11.81 in – just under a foot (a standard school ruler).",
+"**15.6 inch laptop screen** × 2.54 = 39.6 cm diagonal.",
+"**A4 paper** (21 × 29.7 cm) = 8.27 × 11.69 in.",
+"**160 cm** height = 62.99 in = 5 ft 3 in.",
+"**180 cm** height = 70.87 in = 5 ft 10 7/8 in.",
+"**55 cm** cabin bag = 21.65 in (often quoted as 22 in).",
+"**2.5 cm** = 0.98 in – roughly one inch, handy for quick estimates."
+]
+],
+[
+"Mental-math shortcut",
+"For a quick estimate, multiply centimetres by 4 and divide by 10: 50 cm × 4 = 200 → 20 in (exact: 19.69 in). This overestimates by about 1.6%. To go from inches to centimetres, multiply by 2.5 and add a little: 10 in × 2.5 = 25 → 25.4 cm. For heights, remember that 152.4 cm is exactly 5 ft, and each extra inch adds 2.54 cm."
+],
+[
+"Centimetres to inches chart",
+{
+"table": [
+[
+"cm",
+"inches (decimal)",
+"inches (nearest 1/16)",
+"feet + inches"
+],
+[
+"1",
+"0.394",
+"3/8",
+"—"
+],
+[
+"2",
+"0.787",
+"13/16",
+"—"
+],
+[
+"3",
+"1.181",
+"1 3/16",
+"—"
+],
+[
+"4",
+"1.575",
+"1 9/16",
+"—"
+],
+[
+"5",
+"1.969",
+"1 15/16",
+"—"
+],
+[
+"6",
+"2.362",
+"2 3/8",
+"—"
+],
+[
+"7",
+"2.756",
+"2 3/4",
+"—"
+],
+[
+"8",
+"3.15",
+"3 1/8",
+"—"
+],
+[
+"9",
+"3.543",
+"3 9/16",
+"—"
+],
+[
+"10",
+"3.937",
+"3 15/16",
+"—"
+],
+[
+"11",
+"4.331",
+"4 5/16",
+"—"
+],
+[
+"12",
+"4.724",
+"4 3/4",
+"—"
+],
+[
+"13",
+"5.118",
+"5 1/8",
+"—"
+],
+[
+"14",
+"5.512",
+"5 1/2",
+"—"
+],
+[
+"15",
+"5.906",
+"5 7/8",
+"—"
+],
+[
+"16",
+"6.299",
+"6 5/16",
+"—"
+],
+[
+"17",
+"6.693",
+"6 11/16",
+"—"
+],
+[
+"18",
+"7.087",
+"7 1/16",
+"—"
+],
+[
+"19",
+"7.48",
+"7 1/2",
+"—"
+],
+[
+"20",
+"7.874",
+"7 7/8",
+"—"
+],
+[
+"21",
+"8.268",
+"8 1/4",
+"—"
+],
+[
+"22",
+"8.661",
+"8 11/16",
+"—"
+],
+[
+"23",
+"9.055",
+"9 1/16",
+"—"
+],
+[
+"24",
+"9.449",
+"9 7/16",
+"—"
+],
+[
+"25",
+"9.843",
+"9 13/16",
+"—"
+],
+[
+"26",
+"10.236",
+"10 1/4",
+"—"
+],
+[
+"27",
+"10.63",
+"10 5/8",
+"—"
+],
+[
+"28",
+"11.024",
+"11",
+"—"
+],
+[
+"29",
+"11.417",
+"11 7/16",
+"—"
+],
+[
+"30",
+"11.811",
+"11 13/16",
+"—"
+],
+[
+"35",
+"13.78",
+"13 3/4",
+"1 ft 1 3/4 in"
+],
+[
+"40",
+"15.748",
+"15 3/4",
+"1 ft 3 3/4 in"
+],
+[
+"45",
+"17.717",
+"17 11/16",
+"1 ft 5 11/16 in"
+],
+[
+"50",
+"19.685",
+"19 11/16",
+"1 ft 7 11/16 in"
+],
+[
+"55",
+"21.654",
+"21 5/8",
+"1 ft 9 5/8 in"
+],
+[
+"60",
+"23.622",
+"23 5/8",
+"1 ft 11 5/8 in"
+],
+[
+"65",
+"25.591",
+"25 9/16",
+"2 ft 1 9/16 in"
+],
+[
+"70",
+"27.559",
+"27 9/16",
+"2 ft 3 9/16 in"
+],
+[
+"75",
+"29.528",
+"29 1/2",
+"2 ft 5 1/2 in"
+],
+[
+"80",
+"31.496",
+"31 1/2",
+"2 ft 7 1/2 in"
+],
+[
+"85",
+"33.465",
+"33 7/16",
+"2 ft 9 7/16 in"
+],
+[
+"90",
+"35.433",
+"35 7/16",
+"2 ft 11 7/16 in"
+],
+[
+"95",
+"37.402",
+"37 3/8",
+"3 ft 1 3/8 in"
+],
+[
+"100",
+"39.37",
+"39 3/8",
+"3 ft 3 3/8 in"
+],
+[
+"110",
+"43.307",
+"43 5/16",
+"3 ft 7 5/16 in"
+],
+[
+"120",
+"47.244",
+"47 1/4",
+"3 ft 11 1/4 in"
+],
+[
+"125",
+"49.213",
+"49 3/16",
+"4 ft 1 3/16 in"
+],
+[
+"130",
+"51.181",
+"51 3/16",
+"4 ft 3 3/16 in"
+],
+[
+"140",
+"55.118",
+"55 1/8",
+"4 ft 7 1/8 in"
+],
+[
+"150",
+"59.055",
+"59 1/16",
+"4 ft 11 1/16 in"
+],
+[
+"152",
+"59.843",
+"59 13/16",
+"4 ft 11 13/16 in"
+],
+[
+"155",
+"61.024",
+"61",
+"5 ft 1 in"
+],
+[
+"157",
+"61.811",
+"61 13/16",
+"5 ft 1 13/16 in"
+],
+[
+"160",
+"62.992",
+"63",
+"5 ft 3 in"
+],
+[
+"162",
+"63.78",
+"63 3/4",
+"5 ft 3 3/4 in"
+],
+[
+"165",
+"64.961",
+"64 15/16",
+"5 ft 4 15/16 in"
+],
+[
+"167",
+"65.748",
+"65 3/4",
+"5 ft 5 3/4 in"
+],
+[
+"170",
+"66.929",
+"66 15/16",
+"5 ft 6 15/16 in"
+],
+[
+"172",
+"67.717",
+"67 11/16",
+"5 ft 7 11/16 in"
+],
+[
+"175",
+"68.898",
+"68 7/8",
+"5 ft 8 7/8 in"
+],
+[
+"177",
+"69.685",
+"69 11/16",
+"5 ft 9 11/16 in"
+],
+[
+"180",
+"70.866",
+"70 7/8",
+"5 ft 10 7/8 in"
+],
+[
+"182",
+"71.654",
+"71 5/8",
+"5 ft 11 5/8 in"
+],
+[
+"185",
+"72.835",
+"72 13/16",
+"6 ft 13/16 in"
+],
+[
+"187",
+"73.622",
+"73 5/8",
+"6 ft 1 5/8 in"
+],
+[
+"190",
+"74.803",
+"74 13/16",
+"6 ft 2 13/16 in"
+],
+[
+"195",
+"76.772",
+"76 3/4",
+"6 ft 4 3/4 in"
+],
+[
+"200",
+"78.74",
+"78 3/4",
+"6 ft 6 3/4 in"
+]
+]
+}
+],
+[
+"Inches to centimetres chart",
+{
+"table": [
+[
+"inches",
+"cm"
+],
+[
+"1",
+"2.54"
+],
+[
+"2",
+"5.08"
+],
+[
+"3",
+"7.62"
+],
+[
+"4",
+"10.16"
+],
+[
+"5",
+"12.7"
+],
+[
+"6",
+"15.24"
+],
+[
+"7",
+"17.78"
+],
+[
+"8",
+"20.32"
+],
+[
+"9",
+"22.86"
+],
+[
+"10",
+"25.4"
+],
+[
+"11",
+"27.94"
+],
+[
+"12",
+"30.48"
+],
+[
+"13",
+"33.02"
+],
+[
+"14",
+"35.56"
+],
+[
+"15",
+"38.1"
+],
+[
+"16",
+"40.64"
+],
+[
+"17",
+"43.18"
+],
+[
+"18",
+"45.72"
+],
+[
+"19",
+"48.26"
+],
+[
+"20",
+"50.8"
+],
+[
+"21",
+"53.34"
+],
+[
+"22",
+"55.88"
+],
+[
+"23",
+"58.42"
+],
+[
+"24",
+"60.96"
+],
+[
+"30",
+"76.2"
+],
+[
+"36 (3 ft)",
+"91.44"
+],
+[
+"48 (4 ft)",
+"121.92"
+],
+[
+"60 (5 ft)",
+"152.4"
+],
+[
+"72 (6 ft)",
+"182.88"
+]
+]
+}
+],
+[
+"Reading fractions of an inch",
+"Imperial rulers and tape measures divide each inch into halves, quarters, eighths and sixteenths. The longest tick in the middle is 1/2; the next longest are 1/4 and 3/4; then the eighths (1/8, 3/8, 5/8, 7/8); and the shortest ticks are sixteenths. When the converter shows 66 15/16 in, look for the 66-inch mark and count fifteen of the smallest ticks beyond it – or, more simply, one tick before the 67-inch mark. A sixteenth of an inch is about 1.6 mm, which is the precision most woodworking, sewing and DIY projects need."
+],
+[
+"Where you meet cm and inches",
+{
+"table": [
+[
+"Situation",
+"Usually given in",
+"Tip"
+],
+[
+"Screen sizes (TVs, phones, laptops)",
+"Inches (diagonal)",
+"× 2.54 for cm"
+],
+[
+"Height",
+"cm (most countries) / ft+in (US, UK)",
+"Use the feet + inches line"
+],
+[
+"Clothing (waist, inseam)",
+"Inches in US/UK sizes",
+"32 in waist = 81.3 cm"
+],
+[
+"Paper and photos",
+"cm/mm (ISO) or inches (US Letter, 4×6 prints)",
+"A4 = 8.27 × 11.69 in"
+],
+[
+"Luggage limits",
+"cm and inches",
+"55 × 40 × 20 cm ≈ 22 × 16 × 8 in"
+],
+[
+"Tyres and wheels",
+"Inches (rim diameter)",
+"17 in = 43.2 cm"
+],
+[
+"Construction, timber (US)",
+"Inches and feet",
+"Use the 1/16 fraction"
+]
+]
+}
+],
+[
+"A short history of the inch and the centimetre",
+"The centimetre is one hundredth of a metre, the base unit of length in the International System of Units (SI). The metre was originally defined in 1793 as one ten-millionth of the distance from the North Pole to the equator, and since 1983 it has been defined by the distance light travels in a vacuum in 1/299,792,458 of a second. The inch has older roots: in many languages the word for inch also means thumb, and medieval English law defined it as the length of three barleycorns. Different countries' inches varied slightly until 1959, when the United States, United Kingdom, Canada, Australia, New Zealand and South Africa agreed on the international inch of exactly 25.4 millimetres. Today almost every country uses centimetres for everyday measurements, while the United States – and the UK for some uses such as heights and screen sizes – still commonly uses inches."
+],
+[
+"Accuracy and rounding",
+"Because 1 in = 2.54 cm exactly, the only error comes from rounding the result. For most purposes, two decimal places of an inch (0.01 in ≈ 0.25 mm) are more than enough. Engineering drawings often use three decimals (thousandths of an inch, 'thou'). For woodworking and sewing, the nearest 1/16 in is standard; for heights, the nearest whole inch. The converter shows up to eight significant decimals so you can round to whatever your project requires."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent anywhere, there is no tracking of your values, and once the page has loaded it keeps working offline – handy on a building site, in a shop or on a plane."
+],
+[
+"Related converters",
+[
+"[Length converter](/length-converter/)",
+"[Area converter](/area-converter/)",
+"[Kg to lbs](/kg-to-lbs/)",
+"[Unit converter](/unit-converter/)",
+"[Celsius to Fahrenheit](/celsius-to-fahrenheit/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Fraction of an inch (1/16)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Feet + inches result",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula with your number",
+"Yes",
+"Formula on page",
+"Formula on page",
+"See site"
+],
+[
+"Chart on page",
+"1–200 cm and 1–72 in",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many inches is 1 cm?",
+"a": "1 cm = 0.3937 inches (exactly 1 ÷ 2.54)."
+},
+{
+"q": "How many cm is 1 inch?",
+"a": "Exactly 2.54 cm."
+},
+{
+"q": "How do I convert cm to inches?",
+"a": "Divide the centimetres by 2.54. Example: 30 cm ÷ 2.54 = 11.81 in."
+},
+{
+"q": "How do I convert cm to feet and inches?",
+"a": "Divide by 2.54 to get inches, then divide by 12: the whole number is feet, the remainder inches. 170 cm = 5 ft 6.9 in."
+},
+{
+"q": "What is 5 ft 6 in in cm?",
+"a": "66 in × 2.54 = 167.64 cm."
+},
+{
+"q": "How many inches is 30 cm?",
+"a": "11.81 inches – just under one foot."
+},
+{
+"q": "How many inches is 100 cm?",
+"a": "39.37 inches (3 ft 3.37 in)."
+},
+{
+"q": "Is an inch exactly 2.54 cm?",
+"a": "Yes – by international agreement since 1959."
+},
+{
+"q": "How do I read 1/16 inch fractions?",
+"a": "Each inch on a ruler has 16 smallest ticks; the converter shows the nearest one."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes. After the page loads, conversions run on your device."
+}
+],
+"related": [
+"length-converter",
+"area-converter",
+"kg-to-lbs",
+"unit-converter",
+"celsius-to-fahrenheit"
+]
+}
+},
+"kg2lb": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Kg to Lbs Converter – Pounds & Ounces, Stone, Chart",
+"desc": "Convert kilograms to pounds instantly, with pounds + ounces and stone + pounds. Exact formula, examples for body weight and luggage, 0.1–200 kg chart.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Kilograms to pounds – plus ounces and stone",
+"Enter a weight in kilograms and see it in pounds straight away – and, because a decimal like 154.32 lb isn't how people talk about weight, also in **pounds and ounces** (154 lb 5.2 oz) and in **stone and pounds** (11 st 0.3 lb), the form used for body weight in the UK and Ireland. The result updates as you type, shows the formula with your number, and lists the weight in grams, ounces, tonnes, tola and quintal too. Swap to convert pounds to kilograms.",
+"The pound is defined as exactly **0.45359237 kg**, so 1 kg = 2.20462262 lb. The converter uses the exact definition, not a rounded factor, so results stay correct even for large values such as freight weights in tonnes."
+],
+[
+"The formula",
+"**pounds = kilograms × 2.20462262** (or kilograms ÷ 0.45359237).",
+"**kilograms = pounds × 0.45359237**.",
+"**Ounces:** take the decimal part of the pounds and multiply by 16. **Stone:** divide pounds by 14; the whole number is stone, the remainder pounds.",
+"Example: 70 kg × 2.20462 = 154.32 lb → 0.32 × 16 = 5.2 oz → 154 lb 5.2 oz. 154.32 ÷ 14 = 11 remainder 0.32 → 11 st 0.3 lb."
+],
+[
+"Quick estimate in your head",
+"Double the kilograms and add 10%: 70 kg → 140 + 14 = 154 lb (exact 154.3). Going back, halve the pounds and subtract 10%: 200 lb → 100 − 10 = 90 kg (exact 90.7). This is accurate to within about 0.5%."
+],
+[
+"Kilograms to pounds chart",
+{
+"table": [
+[
+"kg",
+"lb",
+"lb + oz",
+"stone + lb"
+],
+[
+"0.1",
+"0.22",
+"0 lb 3.5 oz",
+"—"
+],
+[
+"0.25",
+"0.55",
+"0 lb 8.8 oz",
+"—"
+],
+[
+"0.5",
+"1.1",
+"1 lb 1.6 oz",
+"—"
+],
+[
+"1",
+"2.2",
+"2 lb 3.3 oz",
+"—"
+],
+[
+"2",
+"4.41",
+"4 lb 6.5 oz",
+"—"
+],
+[
+"3",
+"6.61",
+"6 lb 9.8 oz",
+"—"
+],
+[
+"4",
+"8.82",
+"8 lb 13.1 oz",
+"—"
+],
+[
+"5",
+"11.02",
+"11 lb 0.4 oz",
+"—"
+],
+[
+"6",
+"13.23",
+"13 lb 3.6 oz",
+"0 st 13.2 lb"
+],
+[
+"7",
+"15.43",
+"15 lb 6.9 oz",
+"1 st 1.4 lb"
+],
+[
+"8",
+"17.64",
+"17 lb 10.2 oz",
+"1 st 3.6 lb"
+],
+[
+"9",
+"19.84",
+"19 lb 13.5 oz",
+"1 st 5.8 lb"
+],
+[
+"10",
+"22.05",
+"22 lb 0.7 oz",
+"1 st 8 lb"
+],
+[
+"12",
+"26.46",
+"26 lb 7.3 oz",
+"1 st 12.5 lb"
+],
+[
+"15",
+"33.07",
+"33 lb 1.1 oz",
+"2 st 5.1 lb"
+],
+[
+"18",
+"39.68",
+"39 lb 10.9 oz",
+"2 st 11.7 lb"
+],
+[
+"20",
+"44.09",
+"44 lb 1.5 oz",
+"3 st 2.1 lb"
+],
+[
+"23",
+"50.71",
+"50 lb 11.3 oz",
+"3 st 8.7 lb"
+],
+[
+"25",
+"55.12",
+"55 lb 1.8 oz",
+"3 st 13.1 lb"
+],
+[
+"30",
+"66.14",
+"66 lb 2.2 oz",
+"4 st 10.1 lb"
+],
+[
+"32",
+"70.55",
+"70 lb 8.8 oz",
+"5 st 0.5 lb"
+],
+[
+"35",
+"77.16",
+"77 lb 2.6 oz",
+"5 st 7.2 lb"
+],
+[
+"40",
+"88.18",
+"88 lb 3 oz",
+"6 st 4.2 lb"
+],
+[
+"45",
+"99.21",
+"99 lb 3.3 oz",
+"7 st 1.2 lb"
+],
+[
+"50",
+"110.23",
+"110 lb 3.7 oz",
+"7 st 12.2 lb"
+],
+[
+"55",
+"121.25",
+"121 lb 4.1 oz",
+"8 st 9.3 lb"
+],
+[
+"60",
+"132.28",
+"132 lb 4.4 oz",
+"9 st 6.3 lb"
+],
+[
+"65",
+"143.3",
+"143 lb 4.8 oz",
+"10 st 3.3 lb"
+],
+[
+"70",
+"154.32",
+"154 lb 5.2 oz",
+"11 st 0.3 lb"
+],
+[
+"75",
+"165.35",
+"165 lb 5.5 oz",
+"11 st 11.3 lb"
+],
+[
+"80",
+"176.37",
+"176 lb 5.9 oz",
+"12 st 8.4 lb"
+],
+[
+"85",
+"187.39",
+"187 lb 6.3 oz",
+"13 st 5.4 lb"
+],
+[
+"90",
+"198.42",
+"198 lb 6.7 oz",
+"14 st 2.4 lb"
+],
+[
+"95",
+"209.44",
+"209 lb 7 oz",
+"14 st 13.4 lb"
+],
+[
+"100",
+"220.46",
+"220 lb 7.4 oz",
+"15 st 10.5 lb"
+],
+[
+"110",
+"242.51",
+"242 lb 8.1 oz",
+"17 st 4.5 lb"
+],
+[
+"120",
+"264.55",
+"264 lb 8.9 oz",
+"18 st 12.6 lb"
+],
+[
+"130",
+"286.6",
+"286 lb 9.6 oz",
+"20 st 6.6 lb"
+],
+[
+"140",
+"308.65",
+"308 lb 10.4 oz",
+"22 st 0.6 lb"
+],
+[
+"150",
+"330.69",
+"330 lb 11.1 oz",
+"23 st 8.7 lb"
+],
+[
+"160",
+"352.74",
+"352 lb 11.8 oz",
+"25 st 2.7 lb"
+],
+[
+"180",
+"396.83",
+"396 lb 13.3 oz",
+"28 st 4.8 lb"
+],
+[
+"200",
+"440.92",
+"440 lb 14.8 oz",
+"31 st 6.9 lb"
+]
+]
+}
+],
+[
+"Pounds to kilograms chart",
+{
+"table": [
+[
+"lb",
+"kg"
+],
+[
+"1",
+"0.454"
+],
+[
+"2",
+"0.907"
+],
+[
+"5",
+"2.268"
+],
+[
+"10",
+"4.536"
+],
+[
+"15",
+"6.804"
+],
+[
+"20",
+"9.072"
+],
+[
+"25",
+"11.34"
+],
+[
+"30",
+"13.608"
+],
+[
+"40",
+"18.144"
+],
+[
+"50",
+"22.68"
+],
+[
+"60",
+"27.216"
+],
+[
+"70",
+"31.751"
+],
+[
+"80",
+"36.287"
+],
+[
+"90",
+"40.823"
+],
+[
+"100",
+"45.359"
+],
+[
+"110",
+"49.895"
+],
+[
+"120",
+"54.431"
+],
+[
+"130",
+"58.967"
+],
+[
+"140",
+"63.503"
+],
+[
+"150",
+"68.039"
+],
+[
+"160",
+"72.575"
+],
+[
+"170",
+"77.111"
+],
+[
+"180",
+"81.647"
+],
+[
+"190",
+"86.183"
+],
+[
+"200",
+"90.718"
+],
+[
+"220",
+"99.79"
+],
+[
+"250",
+"113.398"
+],
+[
+"300",
+"136.078"
+]
+]
+}
+],
+[
+"Body weight",
+"Doctors, gyms and fitness apps in most countries record weight in kilograms; in the US it is pounds, and in the UK and Ireland people often say stone and pounds. A body weight of 60 kg is 132.3 lb or 9 st 6.3 lb; 75 kg is 165.3 lb or 11 st 11.3 lb; 90 kg is 198.4 lb or 14 st 2.4 lb. For a BMI calculation, use kilograms and metres – our [BMI calculator](/bmi-calculator/) accepts both systems."
+],
+[
+"Luggage allowances",
+{
+"table": [
+[
+"Allowance",
+"In pounds",
+"Typical use"
+],
+[
+"7 kg",
+"15.4 lb",
+"Cabin bag on many low-cost and Asian airlines"
+],
+[
+"8 kg",
+"17.6 lb",
+"Cabin bag on several European airlines"
+],
+[
+"10 kg",
+"22 lb",
+"Larger cabin bag allowances"
+],
+[
+"15 kg",
+"33 lb",
+"Domestic checked bag (e.g. Indian domestic economy)"
+],
+[
+"20 kg",
+"44 lb",
+"Checked bag on many routes"
+],
+[
+"23 kg",
+"50.7 lb",
+"Standard checked bag on long-haul routes (often quoted as 50 lb)"
+],
+[
+"32 kg",
+"70.5 lb",
+"Heavy-bag limit / premium cabins"
+]
+]
+},
+"Airlines set their own limits and change them, so always check your ticket. Note that 23 kg is slightly more than 50 lb, which is why the two are used interchangeably."
+],
+[
+"Cooking, shipping and the gym",
+[
+"**Recipes:** 1 lb of flour or meat = 453.6 g; 500 g ≈ 1.1 lb; 250 g ≈ 8.8 oz.",
+"**Gym plates:** a 20 kg barbell = 44.1 lb; 45 lb plates = 20.4 kg.",
+"**Parcels:** postal services price by weight bands; 2 kg = 4.41 lb, 5 kg = 11.02 lb.",
+"**Babies:** a 3.5 kg newborn weighs 7 lb 11.5 oz.",
+"**Produce:** 1 kg of apples is about 2.2 lb."
+]
+],
+[
+"Kilogram, pound and stone",
+"The **kilogram** is the SI base unit of mass. Since 2019 it has been defined by fixing the Planck constant, replacing the platinum-iridium cylinder kept near Paris that served as the standard for 130 years. The **pound** (abbreviated lb, from the Latin libra) is used in the United States and, alongside kilograms, in the UK; the international avoirdupois pound was fixed at exactly 0.45359237 kg in 1959. A pound has 16 **ounces** (oz), and 14 pounds make a **stone** (st), a unit still common for body weight in Britain and Ireland. In India, the **tola** (11.66 g) is used for gold, and the **quintal** (100 kg) for crops."
+],
+[
+"Mass vs weight",
+"Strictly, kilograms and pounds measure mass – the amount of matter – while weight is the force of gravity on that mass. In everyday life the words are used interchangeably, and bathroom scales are calibrated to show mass. On the Moon your mass in kilograms would be the same, but scales calibrated for Earth would show about a sixth of it."
+],
+[
+"Converting recipes and nutrition labels",
+"Many recipes from the US list ingredients in pounds and ounces, while European and Indian recipes use grams and kilograms. 1 kg is 2 lb 3.3 oz; half a kilo (500 g) is 1 lb 1.6 oz; 100 g is 3.5 oz; and 1 oz is 28.35 g. For baking, where accuracy matters, weigh in grams if your scale allows – it avoids the rounding that comes with fractions of ounces. Nutrition labels in the US show serving sizes in both ounces and grams, while energy is shown in calories; our [unit converter](/unit-converter/) also converts kcal to kJ."
+],
+[
+"Rounding: how precise should you be?",
+"For body weight, one decimal place in kilograms or a whole pound is plenty – your weight changes by more than that during a day. For luggage, round down to be safe: 23 kg is 50.7 lb, so a bag showing 50 lb on an American scale is within the limit. For shipping, round up to the next weight band. For medicine dosages and laboratory work, use the full precision shown and follow the instructions of a professional."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent anywhere, there is no tracking of your values, and once the page has loaded it keeps working offline – handy on a building site, in a shop or on a plane."
+],
+[
+"Related converters",
+[
+"[Weight converter](/weight-converter/)",
+"[Percentage calculator](/percentage-calculator/)",
+"[BMI calculator](/bmi-calculator/)",
+"[CM to inches](/cm-to-inches/)",
+"[Unit converter](/unit-converter/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Pounds + ounces result",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Stone + pounds result",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula with your number",
+"Yes",
+"Formula on page",
+"Formula on page",
+"See site"
+],
+[
+"Chart on page",
+"0.1–200 kg and 1–300 lb",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many pounds is 1 kg?",
+"a": "1 kg = 2.20462 lb."
+},
+{
+"q": "How do I convert kg to lbs?",
+"a": "Multiply by 2.20462. Example: 70 kg × 2.20462 = 154.3 lb."
+},
+{
+"q": "How do I convert lbs to kg?",
+"a": "Multiply by 0.45359237, or divide by 2.20462."
+},
+{
+"q": "What is 70 kg in stone?",
+"a": "11 stone 0.3 pounds."
+},
+{
+"q": "How many pounds is 23 kg?",
+"a": "50.7 lb – the standard checked-bag allowance on many airlines."
+},
+{
+"q": "How many ounces are in a pound?",
+"a": "16 ounces."
+},
+{
+"q": "How many pounds are in a stone?",
+"a": "14 pounds (6.35 kg)."
+},
+{
+"q": "Is kg to lbs exact?",
+"a": "Yes: 1 lb is defined as exactly 0.45359237 kg."
+},
+{
+"q": "What is a quick way to estimate?",
+"a": "Double the kilograms and add 10%."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, once the page has loaded."
+}
+],
+"related": [
+"weight-converter",
+"percentage-calculator",
+"bmi-calculator",
+"cm-to-inches",
+"unit-converter"
+]
+}
+},
+"c2f": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Celsius to Fahrenheit – °C to °F Formula, Chart, Kelvin",
+"desc": "Convert Celsius to Fahrenheit instantly with the formula shown for your number, plus Kelvin. Shortcut, −40 to 250 °C chart, body and oven temps.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"°C to °F with the working shown",
+"Type a temperature in Celsius and get Fahrenheit immediately, with the calculation written out using your number – °F = 37 × 1.8 + 32 = 98.6 – and the same temperature in Kelvin. Swap to convert Fahrenheit to Celsius. Below the converter you'll find a reference chart from −40 °C to 250 °C and the temperatures people look up most: fever, weather, cooking and ovens."
+],
+[
+"The formula",
+"**°F = °C × 9/5 + 32** (× 1.8, then add 32).",
+"**°C = (°F − 32) × 5/9** (subtract 32, then divide by 1.8).",
+"**K = °C + 273.15**.",
+"Why 9/5 and 32? Water freezes at 0 °C = 32 °F and boils at 100 °C = 212 °F. The 100 Celsius degrees between those points span 180 Fahrenheit degrees, so one Celsius degree is 1.8 Fahrenheit degrees, and the scales are offset by 32."
+],
+[
+"Mental-math shortcut",
+"**Double it and add 30.** 20 °C → 40 + 30 = 70 °F (exact 68). It is within 2–3 °F for everyday weather between 0 and 30 °C. For the reverse, **subtract 30 and halve**: 80 °F → 50 ÷ 2 = 25 °C (exact 26.7). A handy rhyme for weather: 'Thirty is hot, twenty is nice, ten is chilly, zero is ice.'"
+],
+[
+"Celsius to Fahrenheit chart",
+{
+"table": [
+[
+"°C",
+"°F",
+"Kelvin"
+],
+[
+"-40",
+"-40",
+"233.15"
+],
+[
+"-35",
+"-31",
+"238.15"
+],
+[
+"-30",
+"-22",
+"243.15"
+],
+[
+"-25",
+"-13",
+"248.15"
+],
+[
+"-20",
+"-4",
+"253.15"
+],
+[
+"-15",
+"5",
+"258.15"
+],
+[
+"-10",
+"14",
+"263.15"
+],
+[
+"-10",
+"14",
+"263.15"
+],
+[
+"-9",
+"15.8",
+"264.15"
+],
+[
+"-8",
+"17.6",
+"265.15"
+],
+[
+"-7",
+"19.4",
+"266.15"
+],
+[
+"-6",
+"21.2",
+"267.15"
+],
+[
+"-5",
+"23",
+"268.15"
+],
+[
+"-4",
+"24.8",
+"269.15"
+],
+[
+"-3",
+"26.6",
+"270.15"
+],
+[
+"-2",
+"28.4",
+"271.15"
+],
+[
+"-1",
+"30.2",
+"272.15"
+],
+[
+"0",
+"32",
+"273.15"
+],
+[
+"1",
+"33.8",
+"274.15"
+],
+[
+"2",
+"35.6",
+"275.15"
+],
+[
+"3",
+"37.4",
+"276.15"
+],
+[
+"4",
+"39.2",
+"277.15"
+],
+[
+"5",
+"41",
+"278.15"
+],
+[
+"6",
+"42.8",
+"279.15"
+],
+[
+"7",
+"44.6",
+"280.15"
+],
+[
+"8",
+"46.4",
+"281.15"
+],
+[
+"9",
+"48.2",
+"282.15"
+],
+[
+"10",
+"50",
+"283.15"
+],
+[
+"11",
+"51.8",
+"284.15"
+],
+[
+"12",
+"53.6",
+"285.15"
+],
+[
+"13",
+"55.4",
+"286.15"
+],
+[
+"14",
+"57.2",
+"287.15"
+],
+[
+"15",
+"59",
+"288.15"
+],
+[
+"16",
+"60.8",
+"289.15"
+],
+[
+"17",
+"62.6",
+"290.15"
+],
+[
+"18",
+"64.4",
+"291.15"
+],
+[
+"19",
+"66.2",
+"292.15"
+],
+[
+"20",
+"68",
+"293.15"
+],
+[
+"21",
+"69.8",
+"294.15"
+],
+[
+"22",
+"71.6",
+"295.15"
+],
+[
+"23",
+"73.4",
+"296.15"
+],
+[
+"24",
+"75.2",
+"297.15"
+],
+[
+"25",
+"77",
+"298.15"
+],
+[
+"26",
+"78.8",
+"299.15"
+],
+[
+"27",
+"80.6",
+"300.15"
+],
+[
+"28",
+"82.4",
+"301.15"
+],
+[
+"29",
+"84.2",
+"302.15"
+],
+[
+"30",
+"86",
+"303.15"
+],
+[
+"31",
+"87.8",
+"304.15"
+],
+[
+"32",
+"89.6",
+"305.15"
+],
+[
+"33",
+"91.4",
+"306.15"
+],
+[
+"34",
+"93.2",
+"307.15"
+],
+[
+"35",
+"95",
+"308.15"
+],
+[
+"36",
+"96.8",
+"309.15"
+],
+[
+"37",
+"98.6",
+"310.15"
+],
+[
+"38",
+"100.4",
+"311.15"
+],
+[
+"39",
+"102.2",
+"312.15"
+],
+[
+"40",
+"104",
+"313.15"
+],
+[
+"45",
+"113",
+"318.15"
+],
+[
+"50",
+"122",
+"323.15"
+],
+[
+"55",
+"131",
+"328.15"
+],
+[
+"60",
+"140",
+"333.15"
+],
+[
+"65",
+"149",
+"338.15"
+],
+[
+"70",
+"158",
+"343.15"
+],
+[
+"75",
+"167",
+"348.15"
+],
+[
+"80",
+"176",
+"353.15"
+],
+[
+"85",
+"185",
+"358.15"
+],
+[
+"90",
+"194",
+"363.15"
+],
+[
+"95",
+"203",
+"368.15"
+],
+[
+"100",
+"212",
+"373.15"
+],
+[
+"120",
+"248",
+"393.15"
+],
+[
+"150",
+"302",
+"423.15"
+],
+[
+"160",
+"320",
+"433.15"
+],
+[
+"180",
+"356",
+"453.15"
+],
+[
+"200",
+"392",
+"473.15"
+],
+[
+"220",
+"428",
+"493.15"
+],
+[
+"230",
+"446",
+"503.15"
+],
+[
+"250",
+"482",
+"523.15"
+]
+]
+}
+],
+[
+"Reference temperatures",
+{
+"table": [
+[
+"What",
+"°C",
+"°F"
+],
+[
+"Absolute zero",
+"−273.15",
+"−459.67"
+],
+[
+"Celsius and Fahrenheit equal",
+"−40",
+"−40"
+],
+[
+"Water freezes",
+"0",
+"32"
+],
+[
+"Fridge",
+"4",
+"39"
+],
+[
+"Room temperature",
+"20–22",
+"68–72"
+],
+[
+"Normal body temperature",
+"37",
+"98.6"
+],
+[
+"Fever",
+"38+",
+"100.4+"
+],
+[
+"High fever",
+"39.5+",
+"103+"
+],
+[
+"Hot summer day",
+"35",
+"95"
+],
+[
+"Water boils (sea level)",
+"100",
+"212"
+],
+[
+"Low oven",
+"150",
+"302"
+],
+[
+"Moderate oven",
+"180",
+"356"
+],
+[
+"Hot oven",
+"220",
+"428"
+]
+]
+}
+],
+[
+"Body temperature",
+"A normal body temperature is around 37 °C (98.6 °F), although healthy values vary between about 36.1 and 37.2 °C (97 to 99 °F) depending on the person, the time of day and where it is measured. A temperature of 38 °C (100.4 °F) or above is generally considered a fever. Always follow medical advice for your situation; this converter only translates the numbers."
+],
+[
+"Oven temperatures and gas marks",
+{
+"table": [
+[
+"Gas mark",
+"°C",
+"°F (approx.)",
+"Description"
+],
+[
+"1",
+"140",
+"275",
+"Very low"
+],
+[
+"2",
+"150",
+"300",
+"Low"
+],
+[
+"3",
+"170",
+"325",
+"Moderately low"
+],
+[
+"4",
+"180",
+"350",
+"Moderate"
+],
+[
+"5",
+"190",
+"375",
+"Moderately hot"
+],
+[
+"6",
+"200",
+"400",
+"Hot"
+],
+[
+"7",
+"220",
+"425",
+"Hot"
+],
+[
+"8",
+"230",
+"450",
+"Very hot"
+],
+[
+"9",
+"240",
+"475",
+"Very hot"
+]
+]
+},
+"Recipes usually round oven temperatures: 180 °C is printed as 350 °F (exact 356 °F). For fan (convection) ovens, reduce the temperature by about 20 °C (25 °F)."
+],
+[
+"Who uses which scale?",
+"Almost every country uses Celsius for weather, cooking and medicine. The United States, its territories, and a few other countries such as the Bahamas, Belize, the Cayman Islands and Liberia use Fahrenheit for everyday temperatures. Scientists everywhere use Celsius and Kelvin. The Kelvin scale starts at absolute zero, the lowest possible temperature, and uses the same step size as Celsius; it has no degree symbol – you write 300 K, not 300 °K."
+],
+[
+"Weather forecasts while travelling",
+"If you travel between the US and the rest of the world, it helps to memorise a few anchor points: 10 °C = 50 °F (jacket weather), 20 °C = 68 °F (pleasant), 25 °C = 77 °F (warm), 30 °C = 86 °F (hot) and 40 °C = 104 °F (extreme heat). For cold weather, remember that −18 °C is about 0 °F and −40 is the same on both scales."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent anywhere, there is no tracking of your values, and once the page has loaded it keeps working offline – handy on a building site, in a shop or on a plane."
+],
+[
+"Related converters",
+[
+"[Temperature converter](/temperature-converter/)",
+"[Kg to lbs](/kg-to-lbs/)",
+"[CM to inches](/cm-to-inches/)",
+"[Unit converter](/unit-converter/)",
+"[IST to EST](/ist-to-est/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula with your number",
+"Yes",
+"Formula on page",
+"Formula on page",
+"See site"
+],
+[
+"Kelvin shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Chart",
+"−40 to 250 °C",
+"See site",
+"See site",
+"See site"
+],
+[
+"Oven / gas-mark table",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert Celsius to Fahrenheit?",
+"a": "Multiply by 1.8 and add 32. Example: 25 °C × 1.8 + 32 = 77 °F."
+},
+{
+"q": "What is 37 °C in Fahrenheit?",
+"a": "98.6 °F – normal body temperature."
+},
+{
+"q": "What is 0 °C in Fahrenheit?",
+"a": "32 °F, the freezing point of water."
+},
+{
+"q": "What is 100 °C in Fahrenheit?",
+"a": "212 °F, the boiling point of water at sea level."
+},
+{
+"q": "At what temperature are Celsius and Fahrenheit equal?",
+"a": "−40 °C = −40 °F."
+},
+{
+"q": "What is 180 °C in Fahrenheit for an oven?",
+"a": "356 °F, usually written as 350 °F in recipes."
+},
+{
+"q": "What is a quick way to convert?",
+"a": "Double the Celsius and add 30 for a close estimate."
+},
+{
+"q": "How do I convert to Kelvin?",
+"a": "Add 273.15 to the Celsius value."
+},
+{
+"q": "Is 38 °C a fever?",
+"a": "38 °C (100.4 °F) or higher is generally considered a fever; follow medical advice."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, once the page has loaded."
+}
+],
+"related": [
+"temperature-converter",
+"kg-to-lbs",
+"cm-to-inches",
+"unit-converter",
+"ist-to-est"
+]
+}
+},
+"ist2est": {
+"seo": {
+"updated": "2026-10-25",
+"title": "IST to EST Converter – Auto EDT/DST, Overlap Hours",
+"desc": "Convert India Standard Time to US Eastern Time with automatic EST/EDT daylight saving, a working-hours overlap grid, next clock change and shareable links.",
+"compareTitle": "{tool}: {brand} vs World Time Buddy",
+"compareCols": [
+"World Time Buddy"
+],
+"sections": [
+[
+"IST to Eastern Time, with daylight saving handled for you",
+"Pick a date and time in India Standard Time and see it instantly in New York (US Eastern Time), London (or any zone you choose), with an hour-by-hour table for the whole day that highlights everyone's 9-to-5 working hours. The converter knows that the US Eastern zone switches between **EST (UTC−5)** in winter and **EDT (UTC−4)** in summer, so the difference from India changes from 10 h 30 min to 9 h 30 min – and it tells you when the next clock change happens.",
+"Share a meeting time with one click: 'Copy link' creates a URL that opens the converter with your exact date, time and zones, so colleagues see it in their own time zones. The conversion uses your browser's built-in time-zone database (the same IANA database used by phones and operating systems)."
+],
+[
+"The time difference",
+{
+"table": [
+[
+"Period",
+"US Eastern",
+"Difference from IST"
+],
+[
+"Early November → mid-March",
+"EST, UTC−5",
+"IST is 10 h 30 min ahead"
+],
+[
+"Mid-March → early November",
+"EDT, UTC−4",
+"IST is 9 h 30 min ahead"
+]
+]
+},
+"India does not use daylight saving time, so all the change comes from the US side. US clocks go forward at 2:00 am local time on the second Sunday in March and back at 2:00 am on the first Sunday in November. In 2026 that means EDT until **1 November 2026**, then EST until **14 March 2027**."
+],
+[
+"How to convert IST to EST by hand",
+[
+"**Winter (EST):** subtract 10 hours 30 minutes from IST. 7:30 pm IST → 9:00 am EST.",
+"**Summer (EDT):** subtract 9 hours 30 minutes. 7:30 pm IST → 10:00 am EDT.",
+"If the result is negative, add 24 hours and it's the previous day in the US. 6:00 am IST Tuesday → 7:30 pm EST Monday.",
+"**EST to IST:** add 10:30 (winter) or 9:30 (summer)."
+]
+],
+[
+"IST to EST/EDT conversion table",
+{
+"table": [
+[
+"IST (India)",
+"EST (Nov–Mar, UTC−5)",
+"EDT (Mar–Nov, UTC−4)"
+],
+[
+"00:00",
+"13:30 (prev. day)",
+"14:30 (prev. day)"
+],
+[
+"00:30",
+"14:00 (prev. day)",
+"15:00 (prev. day)"
+],
+[
+"01:00",
+"14:30 (prev. day)",
+"15:30 (prev. day)"
+],
+[
+"02:00",
+"15:30 (prev. day)",
+"16:30 (prev. day)"
+],
+[
+"03:00",
+"16:30 (prev. day)",
+"17:30 (prev. day)"
+],
+[
+"03:30",
+"17:00 (prev. day)",
+"18:00 (prev. day)"
+],
+[
+"04:00",
+"17:30 (prev. day)",
+"18:30 (prev. day)"
+],
+[
+"05:00",
+"18:30 (prev. day)",
+"19:30 (prev. day)"
+],
+[
+"06:00",
+"19:30 (prev. day)",
+"20:30 (prev. day)"
+],
+[
+"06:30",
+"20:00 (prev. day)",
+"21:00 (prev. day)"
+],
+[
+"07:00",
+"20:30 (prev. day)",
+"21:30 (prev. day)"
+],
+[
+"08:00",
+"21:30 (prev. day)",
+"22:30 (prev. day)"
+],
+[
+"09:00",
+"22:30 (prev. day)",
+"23:30 (prev. day)"
+],
+[
+"09:30",
+"23:00 (prev. day)",
+"00:00"
+],
+[
+"10:00",
+"23:30 (prev. day)",
+"00:30"
+],
+[
+"11:00",
+"00:30",
+"01:30"
+],
+[
+"12:00",
+"01:30",
+"02:30"
+],
+[
+"12:30",
+"02:00",
+"03:00"
+],
+[
+"13:00",
+"02:30",
+"03:30"
+],
+[
+"14:00",
+"03:30",
+"04:30"
+],
+[
+"15:00",
+"04:30",
+"05:30"
+],
+[
+"15:30",
+"05:00",
+"06:00"
+],
+[
+"16:00",
+"05:30",
+"06:30"
+],
+[
+"17:00",
+"06:30",
+"07:30"
+],
+[
+"18:00",
+"07:30",
+"08:30"
+],
+[
+"18:30",
+"08:00",
+"09:00"
+],
+[
+"19:00",
+"08:30",
+"09:30"
+],
+[
+"20:00",
+"09:30",
+"10:30"
+],
+[
+"21:00",
+"10:30",
+"11:30"
+],
+[
+"21:30",
+"11:00",
+"12:00"
+],
+[
+"22:00",
+"11:30",
+"12:30"
+],
+[
+"23:00",
+"12:30",
+"13:30"
+]
+]
+}
+],
+[
+"Best meeting times between India and the US East Coast",
+"The 9:00–17:00 working days in India and New York do not overlap at all. The usual compromise is the Indian evening and the American morning: **7:30–9:30 pm IST = 9:00–11:00 am EST** (or 10:00 am–12:00 pm EDT). Teams that prefer Indian mornings meet at **8:00–9:00 am IST**, which is 9:30–10:30 pm EST the previous evening. The hour-by-hour grid in the converter shows these options for any date, and highlights rows where all chosen zones are within working hours."
+],
+[
+"What do IST, EST, EDT and ET mean?",
+[
+"**IST – India Standard Time:** UTC+5:30, used across all of India all year. (IST can also mean Irish or Israel Standard Time in other contexts.)",
+"**EST – Eastern Standard Time:** UTC−5, US East Coast in winter (New York, Washington, Miami, Atlanta, Boston, Toronto).",
+"**EDT – Eastern Daylight Time:** UTC−4, the same places in summer.",
+"**ET – Eastern Time:** the general name for whichever of EST/EDT applies. Many people say 'EST' all year; the converter shows the correct one for your date.",
+"**UTC:** Coordinated Universal Time, the world reference time."
+]
+],
+[
+"Other zones",
+"Choose up to three target zones from the full list of world time zones – for example Chicago (Central Time, IST −11:30/−10:30), Los Angeles (Pacific Time, IST −13:30/−12:30), London, Dubai or Singapore. Daylight-saving rules for every zone are applied automatically, including the weeks in March and October/November when the US and Europe change clocks on different dates."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent anywhere, there is no tracking of your values, and once the page has loaded it keeps working offline – handy on a building site, in a shop or on a plane."
+],
+[
+"Related tools",
+[
+"[Time zone converter](/time-zone-converter/)",
+"[Unit converter](/unit-converter/)",
+"[Celsius to Fahrenheit](/celsius-to-fahrenheit/)",
+"[Kg to lbs](/kg-to-lbs/)",
+"[CM to inches](/cm-to-inches/)"
+]
+]
+],
+"compare": [
+[
+"Automatic EST/EDT switch",
+"Yes",
+"DST countdown shown on page"
+],
+[
+"Working-hours overlap grid",
+"Yes",
+"Slider grid"
+],
+[
+"Next clock change shown",
+"Yes",
+"Yes ('days until EDT/EST')"
+],
+[
+"Shareable link with your time",
+"Yes",
+"See site"
+],
+[
+"Runs offline in your browser",
+"Yes",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What is the time difference between IST and EST?",
+"a": "IST is 10 hours 30 minutes ahead of EST (winter) and 9 hours 30 minutes ahead of EDT (summer)."
+},
+{
+"q": "How do I convert IST to EST?",
+"a": "Subtract 10:30 in winter or 9:30 in summer. The converter does this automatically for your date."
+},
+{
+"q": "What is 7:30 pm IST in EST?",
+"a": "9:00 am EST in winter, 10:00 am EDT in summer."
+},
+{
+"q": "What is 9 am EST in IST?",
+"a": "7:30 pm IST in winter (8:30 pm when 9 am EDT in summer)."
+},
+{
+"q": "Does India have daylight saving time?",
+"a": "No. IST is UTC+5:30 all year."
+},
+{
+"q": "When does the US change clocks?",
+"a": "Second Sunday in March (forward) and first Sunday in November (back), at 2:00 am local time."
+},
+{
+"q": "What is the best time for a meeting between India and New York?",
+"a": "Around 7:30–9:30 pm IST, which is the US morning."
+},
+{
+"q": "Is EST the same as ET?",
+"a": "ET means Eastern Time in general; EST is the winter part and EDT the summer part."
+},
+{
+"q": "Can I share a converted time?",
+"a": "Yes. Click 'Copy link' to share a URL with the date, time and zones."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, it uses your browser's time-zone database."
+}
+],
+"related": [
+"time-zone-converter",
+"unit-converter",
+"celsius-to-fahrenheit",
+"kg-to-lbs",
+"cm-to-inches"
+]
+}
+}
+}
+}

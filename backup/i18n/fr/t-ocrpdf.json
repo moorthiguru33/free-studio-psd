@@ -1,0 +1,276 @@
+{
+  "tools": {
+    "ocrpdf": {
+      "name": "OCR PDF",
+      "short": "Rendez les PDF scannés cherchables.",
+      "title": "OCR PDF en ligne gratuit – PDF scanné cherchable | {brand}",
+      "desc": "Reconnaissez le texte des PDF scannés et ajoutez une couche de texte invisible pour chercher, sélectionner et copier. Sur votre appareil.",
+      "h1": "OCR PDF – PDF cherchable",
+      "steps": [
+        "Sélectionnez votre PDF scanné.",
+        "Choisissez la ou les langues du document.",
+        "Téléchargez le PDF cherchable."
+      ],
+      "faq": [
+        {
+          "q": "L'aspect de la page change-t-il ?",
+          "a": "Non : la page d'origine est conservée et une couche de texte invisible est ajoutée par-dessus."
+        },
+        {
+          "q": "Combien de temps cela prend-il ?",
+          "a": "Environ 2–6 secondes par page sur un appareil récent. La première fois, le modèle de langue est téléchargé (1–4 Mo)."
+        }
+      ],
+      "guide": {
+        "intro": "Un PDF scanné n'est qu'un ensemble d'images de pages : impossible d'y rechercher ou d'en copier le texte. L'OCR (reconnaissance optique de caractères) lit le texte et ajoute une couche invisible : le PDF a le même aspect mais devient cherchable. Contrairement à la plupart des services d'OCR, {brand} le fait sur votre appareil.",
+        "uses": [
+          "Rendre cherchables des contrats et des archives scannés.",
+          "Copier le texte de livres ou d'articles scannés.",
+          "Préparer des scans pour PDF en Word ou Diviser par texte."
+        ],
+        "tips": [
+          "Choisissez la bonne langue du document pour une précision maximale.",
+          "Redressez d'abord les pages de travers avec Redresser un PDF.",
+          "Des scans propres à 300 DPI donnent les meilleurs résultats."
+        ],
+        "faq": [
+          {
+            "q": "L'OCR change-t-il l'aspect de mes pages ?",
+            "a": "Non : la page d'origine est conservée et une couche de texte invisible est ajoutée par-dessus."
+          },
+          {
+            "q": "Combien de temps cela prend-il ?",
+            "a": "Environ 2–6 secondes par page sur un appareil récent. La première fois, le modèle de langue est téléchargé (1–4 Mo)."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "OCR PDF – PDF scannés cherchables, gratuit",
+        "desc": "Rendez des PDF scannés cherchables et copiables par OCR gratuit en 12 langues, dont hindi, tamoul et arabe. Plage de pages, TXT. Sans envoi.",
+        "sections": [
+          [
+            "Rendez vos scans cherchables et copiables",
+            "Un PDF scanné est une pile d'images : impossible d'y rechercher, d'en copier une phrase ou de le faire lire à voix haute par un lecteur d'écran. L'OCR (reconnaissance optique de caractères) lit les lettres de ces images et ajoute une couche de texte invisible juste par-dessus. La page a le même aspect, mais Ctrl+F trouve désormais les mots, le texte peut être sélectionné et copié, et votre ordinateur ou un système de gestion documentaire peut indexer le document.",
+            "{brand} exécute l'OCR avec le moteur Tesseract dans votre navigateur. Les modèles de langue sont téléchargés une fois puis mis en cache ; vos scans ne sont jamais envoyés. Il convient donc aux dossiers médicaux, juridiques, factures et pièces d'identité."
+          ],
+          [
+            "Fonctions",
+            [
+              "**12 langues**, combinables deux par deux : voir le tableau ci-dessous.",
+              "**Sortie PDF cherchable** : les pages d'origine sont conservées et du texte invisible est ajouté.",
+              "**Export TXT** : obtenez le texte reconnu sous forme de fichier texte brut, ou PDF et TXT à la fois.",
+              "**Plage de pages** : passez l'OCR seulement sur les pages nécessaires.",
+              "**Ignorer les pages qui ont déjà du texte** : les documents mixtes sont traités plus vite et le texte numérique existant n'est pas dupliqué.",
+              "**Résolution réglable** : 200 DPI est une bonne valeur par défaut ; montez à 300 pour les petits caractères."
+            ]
+          ],
+          [
+            "Langues d'OCR prises en charge",
+            {
+              "table": [
+                [
+                  "Langue",
+                  "Écriture"
+                ],
+                [
+                  "Anglais, espagnol, français, allemand, portugais, italien",
+                  "Latine"
+                ],
+                [
+                  "Russe",
+                  "Cyrillique"
+                ],
+                [
+                  "Arabe",
+                  "Arabe (de droite à gauche)"
+                ],
+                [
+                  "Hindi",
+                  "Devanagari"
+                ],
+                [
+                  "Tamoul",
+                  "Tamoul"
+                ],
+                [
+                  "Chinois (simplifié)",
+                  "Han"
+                ],
+                [
+                  "Japonais",
+                  "Kanji / kana"
+                ]
+              ]
+            },
+            "Choisissez une deuxième langue pour les documents bilingues, comme anglais + hindi ou français + arabe."
+          ],
+          [
+            "Comment passer un PDF à l'OCR",
+            [
+              "Déposez votre PDF scanné.",
+              "Choisissez la langue du document (et, si vous le souhaitez, une deuxième).",
+              "Choisissez la sortie : PDF cherchable, TXT ou les deux.",
+              "Si vous le souhaitez, indiquez une plage de pages et laissez cochée l'option « Ignorer les pages qui contiennent déjà du texte ».",
+              "Cliquez sur Démarrer et patientez : chaque page prend quelques secondes selon votre appareil.",
+              "Téléchargez et testez : appuyez sur Ctrl+F dans votre lecteur PDF et recherchez un mot."
+            ]
+          ],
+          [
+            "Comment obtenir la meilleure précision",
+            [
+              "Scannez à 300 DPI en niveaux de gris ou en couleur ; 200 DPI suffit pour un texte de taille normale.",
+              "Les pages droites sont mieux reconnues : corrigez les scans de travers avec [Redresser un PDF](/deskew-pdf/) et les pages couchées avec [Faire pivoter un PDF](/rotate-pdf/).",
+              "Choisissez la bonne langue ; les accents et les lettres non latines en dépendent.",
+              "Le texte très clair, pâli ou manuscrit est difficile pour tout OCR ; l'écriture manuscrite n'est en général pas prise en charge.",
+              "Pour les photos prises au téléphone, le [Scanner PDF](/pdf-scanner/) recadre et améliore les pages avant l'OCR."
+            ]
+          ],
+          [
+            "Que faire d'un PDF passé à l'OCR ?",
+            [
+              "Rechercher dans de grandes archives de lettres et de contrats scannés.",
+              "Copier des citations et des chiffres dans des rapports.",
+              "Le convertir en formats modifiables avec [PDF en Word](/pdf-to-word/) ou en tableaux avec [PDF en Excel](/pdf-to-excel/).",
+              "Rendre les documents accessibles aux utilisateurs de lecteurs d'écran.",
+              "Modifier le texte avec [Modifier un PDF](/edit-pdf/)."
+            ]
+          ],
+          [
+            "PDF cherchable ou fichier texte",
+            "Un PDF cherchable garde l'aspect exact du scan d'origine avec du texte sélectionnable dessous : idéal pour archiver et partager. Un fichier TXT ne contient que les mots, sans mise en page : idéal pour coller dans d'autres logiciels, traduire ou analyser. Choisissez « les deux » si vous avez besoin des deux."
+          ],
+          [
+            "Confidentialité de l'OCR dans le navigateur",
+            "Beaucoup de services d'OCR en ligne envoient vos scans sur un serveur pour les traiter. Ici, le moteur OCR et les données de langue s'exécutent sur votre propre ordinateur ou téléphone. Une fois la page et le modèle de langue chargés, vous pouvez même vous déconnecter d'internet et continuer le traitement."
+          ],
+          [
+            "Vitesse et gros documents",
+            "L'OCR demande beaucoup de calcul. Un ordinateur portable récent traite généralement une page en quelques secondes ; les téléphones prennent plus de temps. Pour un scan de 200 pages, utilisez la plage de pages pour le traiter par parties, ou laissez l'onglet ouvert pendant le travail : la progression s'affiche page par page."
+          ],
+          [
+            "OCR pour les écritures de droite à gauche et indiennes",
+            "L'arabe est reconnu de droite à gauche et la couche de texte conserve le bon ordre de lecture : la recherche et la copie fonctionnent dans les lecteurs en arabe. Le hindi (devanagari) et le tamoul sont pris en charge avec leurs propres modèles entraînés, y compris les ligatures et les signes vocaliques. Pour les documents mixtes (par exemple un formulaire en anglais avec des noms en hindi), choisissez les deux langues pour que chaque mot soit comparé au bon alphabet."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Langues d'OCR, dont hindi, tamoul et arabe",
+            "12, gratuit",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "PDF cherchable + TXT",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Plage de pages / ignorer les pages avec texte",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Que fait OCR PDF ?",
+            "a": "Il reconnaît le texte des pages scannées et ajoute une couche de texte invisible : vous pouvez rechercher, sélectionner et copier du texte alors que la page garde le même aspect."
+          },
+          {
+            "q": "L'OCR est-il gratuit ici ?",
+            "a": "Oui, entièrement : toutes les langues, sans limite de pages."
+          },
+          {
+            "q": "Quelles langues sont prises en charge ?",
+            "a": "Anglais, espagnol, français, allemand, portugais, italien, russe, arabe, hindi, tamoul, chinois simplifié et japonais ; deux peuvent être combinées."
+          },
+          {
+            "q": "Mes scans sont-ils envoyés ?",
+            "a": "Non. L'OCR s'exécute dans votre navigateur."
+          },
+          {
+            "q": "Puis-je obtenir le texte sous forme de fichier ?",
+            "a": "Oui. Choisissez TXT ou « PDF cherchable + TXT »."
+          },
+          {
+            "q": "Puis-je passer seulement certaines pages à l'OCR ?",
+            "a": "Oui. Indiquez une plage de pages, p. ex. 1-5."
+          },
+          {
+            "q": "Ça marche avec l'écriture manuscrite ?",
+            "a": "L'écriture manuscrite n'est en général pas reconnue de façon fiable ; le texte imprimé fonctionne le mieux."
+          },
+          {
+            "q": "Pourquoi l'OCR est-il lent ?",
+            "a": "La reconnaissance de texte est un calcul lourd effectué sur votre appareil. Utilisez une plage de pages ou un appareil plus puissant pour les gros scans."
+          },
+          {
+            "q": "Quelle est sa précision ?",
+            "a": "Sur des scans imprimés propres à 200–300 DPI, la précision est généralement très élevée. Les scans de mauvaise qualité ou de travers la réduisent."
+          },
+          {
+            "q": "Le fichier aura-t-il un aspect différent ?",
+            "a": "Non. Les images d'origine des pages sont conservées ; seule une couche de texte invisible est ajoutée."
+          }
+        ],
+        "related": [
+          "pdf-to-word",
+          "pdf-to-excel",
+          "deskew-pdf",
+          "pdf-scanner",
+          "image-to-text"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment passer un PDF à l'OCR gratuitement ?",
+            "a": "Déposez le PDF scanné, choisissez la langue du document (ou deux langues), éventuellement une plage de pages, et lancez l'OCR. Vous obtenez un PDF cherchable avec une couche de texte invisible et pouvez aussi exporter le texte reconnu en TXT."
+          },
+          {
+            "q": "Que signifie OCR PDF ?",
+            "a": "L'OCR (reconnaissance optique de caractères) lit les lettres d'une image scannée. Un PDF passé à l'OCR a le même aspect que le scan, mais son texte peut être recherché, sélectionné et copié."
+          }
+        ]
+      }
+    }
+  }
+}

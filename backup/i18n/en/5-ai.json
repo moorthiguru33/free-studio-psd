@@ -1,0 +1,83 @@
+{
+ "ui": {
+  "o_bgOut": "Background",
+  "o_bgTrans": "Transparent (PNG)",
+  "o_bgWhite": "White",
+  "o_bgColor": "Colour…",
+  "o_bgBlur": "Blurred original",
+  "o_bgEdge": "Edges",
+  "o_bgSoft": "Soft",
+  "o_bgSharp": "Sharp",
+  "o_bgLoading": "Loading AI model…",
+  "o_bgWorking": "Removing background…",
+  "o_scale": "Enlarge by",
+  "o_sharpen": "Sharpen",
+  "o_medium": "Medium",
+  "o_off": "Off",
+  "o_strongS": "Strong",
+  "cat_ai": "AI tools",
+  "cat_media": "Audio & video",
+  "cat_data": "Data & files",
+  "cat_units": "Converters & calculators"
+ },
+ "tools": {
+  "bgremove": {
+   "name": "Remove Image Background",
+   "short": "Cut out people and products automatically.",
+   "title": "Remove Background from Image – Free AI, No Upload | {brand}",
+   "desc": "Remove image backgrounds automatically with on-device AI. Get a transparent PNG or a white, colour or blurred background. Free, no sign-up, photos never leave your device.",
+   "h1": "Remove Image Background",
+   "steps": [
+    "Select photos (JPG, PNG, WEBP, HEIC).",
+    "Choose transparent, white, colour or blurred background.",
+    "Download the cut-out image."
+   ],
+   "faq": [
+    {
+     "q": "Is my photo uploaded?",
+     "a": "No. The AI model (4.6 MB) is downloaded once and runs in your browser."
+    },
+    {
+     "q": "What works best?",
+     "a": "Clear subjects – people, products, animals – with good contrast to the background. Fine hair may be softened."
+    }
+   ]
+  },
+  "enlarge": {
+   "name": "Image Enlarger",
+   "short": "Make images bigger with high-quality resampling.",
+   "title": "Image Enlarger – Enlarge Photos 2×, 3×, 4× Free Online | {brand}",
+   "desc": "Enlarge images 1.5× to 4× with high-quality Lanczos resampling and smart sharpening. Works with JPG, PNG, WEBP. Free and private.",
+   "h1": "Enlarge Images",
+   "steps": [
+    "Select images.",
+    "Pick 2×, 3× or 4× and sharpening.",
+    "Download the larger image."
+   ],
+   "faq": [
+    {
+     "q": "Is this AI upscaling?",
+     "a": "It uses high-quality Lanczos-3 resampling plus sharpening – fast and private, but it cannot invent detail like heavy AI models."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Upscale Image",
+   "short": "Increase image resolution.",
+   "title": "Upscale Image – Increase Resolution 2×–4× Free | {brand}",
+   "desc": "Upscale images to a higher resolution (2×, 3×, 4×) in your browser with Lanczos resampling and sharpening. No upload, no watermark.",
+   "h1": "Upscale Image Resolution",
+   "steps": [
+    "Select images.",
+    "Choose the scale.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Will there be a watermark?",
+     "a": "No, never."
+    }
+   ]
+  }
+ }
+}

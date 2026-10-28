@@ -1,0 +1,3057 @@
+{
+"tools": {
+"in2cm": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Inches to CM Converter – Fractions, Heights & Chart",
+"desc": "Convert inches to cm, including fractions like 5 3/8 in and feet + inches heights. Formula, worked examples and 1–100 in chart. Free and offline.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Inches to centimetres – decimals, fractions and heights",
+"Type a length in inches and the converter shows it in centimetres immediately, together with millimetres, metres, feet and every other length unit. It also rounds your value to the nearest sixteenth of an inch and splits long lengths into feet and inches, so you can check that the number you typed matches what is on your tape measure. A swap button turns the tool round for centimetres to inches.",
+"The conversion is exact: one inch is defined as **2.54 centimetres** (25.4 mm). Any decimals you see beyond that come only from the length you entered, not from an approximation in the factor."
+],
+[
+"The formula",
+"**cm = inches × 2.54**",
+"**mm = inches × 25.4**",
+"**inches = cm ÷ 2.54**",
+"For a height written in feet and inches, first turn it into inches (feet × 12 + inches), then multiply by 2.54. Example: 5 ft 9 in = 69 in; 69 × 2.54 = 175.26 cm."
+],
+[
+"Converting fractions of an inch",
+"Tape measures, drill bits, spanners and timber in the US are labelled in fractions. Turn the fraction into a decimal first – divide the top number by the bottom number – then multiply by 2.54. 3/8 in = 0.375 in = 0.9525 cm (9.5 mm). 5 3/4 in = 5.75 in = 14.605 cm. You can type the decimal straight into the converter; the result line shows the nearest 1/16 so you can confirm the fraction you meant.",
+{
+"table": [
+[
+"Fraction",
+"Decimal inch",
+"mm"
+],
+[
+"1/16",
+"0.0625",
+"1.5875"
+],
+[
+"1/8",
+"0.125",
+"3.175"
+],
+[
+"3/16",
+"0.1875",
+"4.7625"
+],
+[
+"1/4",
+"0.25",
+"6.35"
+],
+[
+"5/16",
+"0.3125",
+"7.9375"
+],
+[
+"3/8",
+"0.375",
+"9.525"
+],
+[
+"7/16",
+"0.4375",
+"11.1125"
+],
+[
+"1/2",
+"0.5",
+"12.7"
+],
+[
+"5/8",
+"0.625",
+"15.875"
+],
+[
+"3/4",
+"0.75",
+"19.05"
+],
+[
+"7/8",
+"0.875",
+"22.225"
+]
+]
+}
+],
+[
+"Worked examples",
+[
+"**12 in (1 ft)** × 2.54 = 30.48 cm.",
+"**A 6.1 inch phone screen** × 2.54 = 15.49 cm diagonal.",
+"**A 55 inch TV** × 2.54 = 139.7 cm diagonal (about 121.8 × 68.5 cm for a 16:9 screen).",
+"**A 32 inch waist** × 2.54 = 81.28 cm.",
+"**US Letter paper** 8.5 × 11 in = 21.59 × 27.94 cm.",
+"**A 4 × 6 inch photo** = 10.16 × 15.24 cm.",
+"**A 26 inch bicycle wheel** = 66.04 cm nominal diameter."
+]
+],
+[
+"Inches to centimetres chart",
+{
+"table": [
+[
+"inches",
+"cm",
+"mm"
+],
+[
+"1/16",
+"0.159",
+"1.59"
+],
+[
+"1/8",
+"0.318",
+"3.17"
+],
+[
+"1/4",
+"0.635",
+"6.35"
+],
+[
+"3/8",
+"0.953",
+"9.52"
+],
+[
+"1/2",
+"1.27",
+"12.7"
+],
+[
+"5/8",
+"1.587",
+"15.88"
+],
+[
+"3/4",
+"1.905",
+"19.05"
+],
+[
+"7/8",
+"2.223",
+"22.22"
+],
+[
+"1",
+"2.54",
+"25.4"
+],
+[
+"2",
+"5.08",
+"50.8"
+],
+[
+"3",
+"7.62",
+"76.2"
+],
+[
+"4",
+"10.16",
+"101.6"
+],
+[
+"5",
+"12.7",
+"127"
+],
+[
+"6",
+"15.24",
+"152.4"
+],
+[
+"7",
+"17.78",
+"177.8"
+],
+[
+"8",
+"20.32",
+"203.2"
+],
+[
+"9",
+"22.86",
+"228.6"
+],
+[
+"10",
+"25.4",
+"254"
+],
+[
+"11",
+"27.94",
+"279.4"
+],
+[
+"12",
+"30.48",
+"304.8"
+],
+[
+"13",
+"33.02",
+"330.2"
+],
+[
+"14",
+"35.56",
+"355.6"
+],
+[
+"15",
+"38.1",
+"381"
+],
+[
+"16",
+"40.64",
+"406.4"
+],
+[
+"17",
+"43.18",
+"431.8"
+],
+[
+"18",
+"45.72",
+"457.2"
+],
+[
+"19",
+"48.26",
+"482.6"
+],
+[
+"20",
+"50.8",
+"508"
+],
+[
+"21",
+"53.34",
+"533.4"
+],
+[
+"22",
+"55.88",
+"558.8"
+],
+[
+"23",
+"58.42",
+"584.2"
+],
+[
+"24",
+"60.96",
+"609.6"
+],
+[
+"25",
+"63.5",
+"635"
+],
+[
+"26",
+"66.04",
+"660.4"
+],
+[
+"27",
+"68.58",
+"685.8"
+],
+[
+"28",
+"71.12",
+"711.2"
+],
+[
+"29",
+"73.66",
+"736.6"
+],
+[
+"30",
+"76.2",
+"762"
+],
+[
+"31",
+"78.74",
+"787.4"
+],
+[
+"32",
+"81.28",
+"812.8"
+],
+[
+"33",
+"83.82",
+"838.2"
+],
+[
+"34",
+"86.36",
+"863.6"
+],
+[
+"35",
+"88.9",
+"889"
+],
+[
+"36",
+"91.44",
+"914.4"
+],
+[
+"40",
+"101.6",
+"1,016"
+],
+[
+"42",
+"106.68",
+"1,066.8"
+],
+[
+"48",
+"121.92",
+"1,219.2"
+],
+[
+"50",
+"127",
+"1,270"
+],
+[
+"55",
+"139.7",
+"1,397"
+],
+[
+"60",
+"152.4",
+"1,524"
+],
+[
+"65",
+"165.1",
+"1,651"
+],
+[
+"70",
+"177.8",
+"1,778"
+],
+[
+"72",
+"182.88",
+"1,828.8"
+],
+[
+"75",
+"190.5",
+"1,905"
+],
+[
+"80",
+"203.2",
+"2,032"
+],
+[
+"84",
+"213.36",
+"2,133.6"
+],
+[
+"96",
+"243.84",
+"2,438.4"
+],
+[
+"100",
+"254",
+"2,540"
+]
+]
+}
+],
+[
+"Height chart: feet and inches to cm",
+{
+"table": [
+[
+"Height (ft + in)",
+"inches",
+"cm"
+],
+[
+"4 ft 6 in",
+"54",
+"137.2"
+],
+[
+"4 ft 7 in",
+"55",
+"139.7"
+],
+[
+"4 ft 8 in",
+"56",
+"142.2"
+],
+[
+"4 ft 9 in",
+"57",
+"144.8"
+],
+[
+"4 ft 10 in",
+"58",
+"147.3"
+],
+[
+"4 ft 11 in",
+"59",
+"149.9"
+],
+[
+"5 ft 0 in",
+"60",
+"152.4"
+],
+[
+"5 ft 1 in",
+"61",
+"154.9"
+],
+[
+"5 ft 2 in",
+"62",
+"157.5"
+],
+[
+"5 ft 3 in",
+"63",
+"160"
+],
+[
+"5 ft 4 in",
+"64",
+"162.6"
+],
+[
+"5 ft 5 in",
+"65",
+"165.1"
+],
+[
+"5 ft 6 in",
+"66",
+"167.6"
+],
+[
+"5 ft 7 in",
+"67",
+"170.2"
+],
+[
+"5 ft 8 in",
+"68",
+"172.7"
+],
+[
+"5 ft 9 in",
+"69",
+"175.3"
+],
+[
+"5 ft 10 in",
+"70",
+"177.8"
+],
+[
+"5 ft 11 in",
+"71",
+"180.3"
+],
+[
+"6 ft 0 in",
+"72",
+"182.9"
+],
+[
+"6 ft 1 in",
+"73",
+"185.4"
+],
+[
+"6 ft 2 in",
+"74",
+"188"
+],
+[
+"6 ft 3 in",
+"75",
+"190.5"
+],
+[
+"6 ft 4 in",
+"76",
+"193"
+],
+[
+"6 ft 5 in",
+"77",
+"195.6"
+],
+[
+"6 ft 6 in",
+"78",
+"198.1"
+]
+]
+}
+],
+[
+"Quick mental estimate",
+"Multiply inches by 2.5 and add a bit: 10 in × 2.5 = 25, real answer 25.4 cm. For larger numbers, multiply by 2.5 and then add 1.6% – 40 in × 2.5 = 100, plus 1.6 = 101.6 cm, which is exact. A foot is a little over 30 cm, and a yard (36 in) is a little under a metre (91.44 cm)."
+],
+[
+"Screens: why sizes are quoted in inches",
+"TV, monitor, laptop and phone screens are sold by their diagonal measurement in inches almost everywhere in the world, even in countries that use the metric system for everything else. To know whether a TV will fit a cabinet you need its width and height, which depend on the aspect ratio. For 16:9 screens, width ≈ diagonal × 0.872 and height ≈ diagonal × 0.490. So a 65 in TV (165.1 cm diagonal) is about 143.9 cm wide and 80.9 cm tall without the bezel and stand."
+],
+[
+"Inches in clothing and shoe sizes",
+"US and UK jeans are sized by waist and inseam in inches (for example 32 × 30). To compare with European sizes, convert both: 32 in = 81.3 cm waist, 30 in = 76.2 cm inseam. Bra band sizes in the US and UK are also in inches (34 = 86 cm band), whereas EU sizes use centimetres in steps of 5 (75, 80, 85). Ring sizes, hat sizes and glove sizes have their own systems, but all can be checked by converting the measured circumference."
+],
+[
+"Where the inch comes from",
+"The inch is one of the oldest units still in use. Anglo-Saxon and later English law defined it as three barleycorns laid end to end, and in many European languages the word for inch is the same as the word for thumb. Different countries used slightly different inches until 1959, when the international yard and pound agreement fixed the inch at exactly 25.4 mm. The US kept a 'survey inch' for land measurement until 2022; it differed from the international inch by only two parts per million."
+],
+[
+"Accuracy and rounding",
+"For everyday use, one decimal place in centimetres (a millimetre) is enough. Engineers working in inches often specify tolerances in thousandths of an inch (0.001 in = 0.0254 mm), so keep at least three decimals in millimetres when converting technical drawings. The converter displays up to eight significant figures so you can round as precisely as your task requires."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent to a server, your values are not tracked, and once the page has loaded it keeps working offline – useful in a workshop, a kitchen, a gym or on a plane."
+],
+[
+"Related converters",
+[
+"[CM to inches](/cm-to-inches/)",
+"[Feet to meters](/feet-to-meters/)",
+"[Length converter](/length-converter/)",
+"[Lbs to kg](/lbs-to-kg/)",
+"[Unit converter](/unit-converter/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Nearest 1/16 inch check",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Feet + inches line",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Height chart (ft + in → cm)",
+"Yes, 4 ft 6 in–6 ft 6 in",
+"See site",
+"See site",
+"See site"
+],
+[
+"Fraction-to-mm table",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many cm is 1 inch?",
+"a": "Exactly 2.54 cm."
+},
+{
+"q": "How do I convert inches to cm?",
+"a": "Multiply the inches by 2.54. Example: 10 in × 2.54 = 25.4 cm."
+},
+{
+"q": "How many cm is 12 inches?",
+"a": "30.48 cm (one foot)."
+},
+{
+"q": "How do I convert 5 ft 8 in to cm?",
+"a": "5 × 12 + 8 = 68 in; 68 × 2.54 = 172.72 cm."
+},
+{
+"q": "How do I convert a fraction like 3/8 inch?",
+"a": "Divide 3 by 8 (0.375) and multiply by 2.54: 0.9525 cm, or 9.5 mm."
+},
+{
+"q": "How many inches is a metre?",
+"a": "39.37 inches."
+},
+{
+"q": "Is 1 inch exactly 2.54 cm?",
+"a": "Yes, by the 1959 international agreement."
+},
+{
+"q": "How big is a 55 inch TV in cm?",
+"a": "139.7 cm diagonal; about 122 × 69 cm for a 16:9 screen."
+},
+{
+"q": "How many mm is an inch?",
+"a": "25.4 mm."
+},
+{
+"q": "Does the converter work offline?",
+"a": "Yes. It runs in your browser and needs no connection once loaded."
+}
+],
+"related": [
+"cm-to-inches",
+"feet-to-meters",
+"length-converter",
+"lbs-to-kg",
+"unit-converter"
+]
+}
+},
+"ft2m": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Feet to Meters Converter – ft & in to m, Chart",
+"desc": "Convert feet to metres, or feet + inches to m, with formula, worked examples, a 1–50 ft chart, altitudes and square feet. Free, private, offline.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Feet to metres in one step",
+"Enter a length in feet and see it in metres straight away, along with centimetres, millimetres, kilometres, yards, inches and miles. If you type a decimal such as 5.75 ft, the converter also shows it as feet and inches to the nearest sixteenth (5 ft 9 in) so you can check you have entered heights and room sizes correctly. Use the swap button for metres to feet.",
+"One foot is exactly **0.3048 metres**, so the result is exact apart from the decimal places you choose to keep."
+],
+[
+"The formula",
+"**metres = feet × 0.3048**",
+"**metres = feet ÷ 3.2808**",
+"**feet = metres × 3.28084**",
+"With inches: metres = (feet + inches ÷ 12) × 0.3048. Example: 5 ft 10 in = 5.8333 ft × 0.3048 = 1.778 m."
+],
+[
+"Worked examples",
+[
+"**6 ft** person = 1.8288 m (183 cm).",
+"**10 ft ceiling** = 3.048 m.",
+"**A 12 × 15 ft room** = 3.66 × 4.57 m = 16.7 m².",
+"**A 40 ft shipping container** = 12.19 m long.",
+"**Mount Everest, 29,032 ft** = 8,849 m.",
+"**Cruising altitude, 35,000 ft** = 10,668 m.",
+"**A 100 ft yacht** = 30.48 m."
+]
+],
+[
+"Feet to metres chart (1–50 ft)",
+{
+"table": [
+[
+"feet",
+"metres",
+"feet",
+"metres"
+],
+[
+"1",
+"0.305",
+"26",
+"7.925"
+],
+[
+"2",
+"0.61",
+"27",
+"8.23"
+],
+[
+"3",
+"0.914",
+"28",
+"8.534"
+],
+[
+"4",
+"1.219",
+"29",
+"8.839"
+],
+[
+"5",
+"1.524",
+"30",
+"9.144"
+],
+[
+"6",
+"1.829",
+"31",
+"9.449"
+],
+[
+"7",
+"2.134",
+"32",
+"9.754"
+],
+[
+"8",
+"2.438",
+"33",
+"10.058"
+],
+[
+"9",
+"2.743",
+"34",
+"10.363"
+],
+[
+"10",
+"3.048",
+"35",
+"10.668"
+],
+[
+"11",
+"3.353",
+"36",
+"10.973"
+],
+[
+"12",
+"3.658",
+"37",
+"11.278"
+],
+[
+"13",
+"3.962",
+"38",
+"11.582"
+],
+[
+"14",
+"4.267",
+"39",
+"11.887"
+],
+[
+"15",
+"4.572",
+"40",
+"12.192"
+],
+[
+"16",
+"4.877",
+"41",
+"12.497"
+],
+[
+"17",
+"5.182",
+"42",
+"12.802"
+],
+[
+"18",
+"5.486",
+"43",
+"13.106"
+],
+[
+"19",
+"5.791",
+"44",
+"13.411"
+],
+[
+"20",
+"6.096",
+"45",
+"13.716"
+],
+[
+"21",
+"6.401",
+"46",
+"14.021"
+],
+[
+"22",
+"6.706",
+"47",
+"14.326"
+],
+[
+"23",
+"7.01",
+"48",
+"14.63"
+],
+[
+"24",
+"7.315",
+"49",
+"14.935"
+],
+[
+"25",
+"7.62",
+"50",
+"15.24"
+]
+]
+}
+],
+[
+"Larger distances and altitudes",
+{
+"table": [
+[
+"feet",
+"metres"
+],
+[
+"60",
+"18.29"
+],
+[
+"70",
+"21.34"
+],
+[
+"75",
+"22.86"
+],
+[
+"80",
+"24.38"
+],
+[
+"90",
+"27.43"
+],
+[
+"100",
+"30.48"
+],
+[
+"150",
+"45.72"
+],
+[
+"200",
+"60.96"
+],
+[
+"250",
+"76.2"
+],
+[
+"300",
+"91.44"
+],
+[
+"400",
+"121.92"
+],
+[
+"500",
+"152.4"
+],
+[
+"1000",
+"304.8"
+],
+[
+"1500",
+"457.2"
+],
+[
+"2000",
+"609.6"
+],
+[
+"3000",
+"914.4"
+],
+[
+"5000",
+"1,524"
+],
+[
+"10000",
+"3,048"
+],
+[
+"20000",
+"6,096"
+],
+[
+"29032",
+"8,848.95"
+],
+[
+"35000",
+"10,668"
+]
+]
+}
+],
+[
+"Square feet and square metres",
+"Room and property sizes in the US, UK and India are often given in square feet. Because area is length × length, the factor is squared: **1 ft² = 0.09290304 m²**, and **1 m² = 10.7639 ft²**. A 1,000 sq ft flat is 92.9 m². Do not multiply square feet by 0.3048 – that is the most common mistake in property listings. Use the [area converter](/area-converter/) for acres, hectares, square yards and Indian land units.",
+{
+"table": [
+[
+"m²",
+"ft²"
+],
+[
+"1",
+"10.8"
+],
+[
+"5",
+"53.8"
+],
+[
+"10",
+"107.6"
+],
+[
+"20",
+"215.3"
+],
+[
+"50",
+"538.2"
+],
+[
+"100",
+"1,076.4"
+],
+[
+"150",
+"1,614.6"
+],
+[
+"200",
+"2,152.8"
+],
+[
+"500",
+"5,382"
+],
+[
+"1000",
+"10,763.9"
+]
+]
+}
+],
+[
+"Quick mental estimate",
+"Divide feet by 3.3 for metres (or multiply by 0.3). 100 ft ÷ 3.3 ≈ 30 m (exact: 30.48 m). For the reverse, metres × 3.3 ≈ feet: 2 m ≈ 6.6 ft (exact 6.56 ft). A storey of a building is roughly 10 ft or 3 m."
+],
+[
+"Where you meet feet",
+{
+"table": [
+[
+"Context",
+"Unit used",
+"Example"
+],
+[
+"Aviation altitude (worldwide)",
+"Feet",
+"FL350 = 35,000 ft = 10,668 m"
+],
+[
+"Human height (US, UK, India)",
+"Feet and inches",
+"5 ft 7 in = 1.70 m"
+],
+[
+"Property and room size (US, UK, India)",
+"Square feet",
+"1,200 sq ft = 111.5 m²"
+],
+[
+"Boat and yacht length",
+"Feet",
+"40 ft = 12.19 m"
+],
+[
+"Mountain heights (US)",
+"Feet",
+"Denali 20,310 ft = 6,190 m"
+],
+[
+"Surf and swell forecasts",
+"Feet",
+"6 ft swell = 1.8 m"
+],
+[
+"Construction (US)",
+"Feet and inches",
+"2×4 stud, 8 ft long = 2.44 m"
+]
+]
+}
+],
+[
+"History of the foot",
+"Units based on the human foot were used by the Egyptians, Greeks and Romans, and their lengths varied from about 25 to 33 cm. The English foot of 12 inches was standardised in medieval times and spread with the British Empire. In 1959 the international foot was defined as exactly 0.3048 m. The United States also used a slightly longer 'US survey foot' (1200/3937 m) for land surveying until it was officially retired at the end of 2022; the difference is about 3 mm per kilometre."
+],
+[
+"Accuracy and rounding",
+"For heights, round to the nearest centimetre. For building plans, keep millimetres. For altitudes, round to the nearest metre. The converter keeps up to eight significant figures internally, and the TXT download lists the value in every length unit so you can paste it into a spreadsheet or report."
+],
+[
+"Feet and inches to metres: height table",
+{
+"table": [
+[
+"Height",
+"metres",
+"cm"
+],
+[
+"4 ft 6 in",
+"1.372",
+"137.2"
+],
+[
+"4 ft 8 in",
+"1.422",
+"142.2"
+],
+[
+"4 ft 10 in",
+"1.473",
+"147.3"
+],
+[
+"5 ft 0 in",
+"1.524",
+"152.4"
+],
+[
+"5 ft 2 in",
+"1.575",
+"157.5"
+],
+[
+"5 ft 4 in",
+"1.626",
+"162.6"
+],
+[
+"5 ft 6 in",
+"1.676",
+"167.6"
+],
+[
+"5 ft 8 in",
+"1.727",
+"172.7"
+],
+[
+"5 ft 10 in",
+"1.778",
+"177.8"
+],
+[
+"6 ft 0 in",
+"1.829",
+"182.9"
+],
+[
+"6 ft 2 in",
+"1.88",
+"188"
+],
+[
+"6 ft 4 in",
+"1.93",
+"193"
+],
+[
+"6 ft 6 in",
+"1.981",
+"198.1"
+],
+[
+"6 ft 8 in",
+"2.032",
+"203.2"
+],
+[
+"6 ft 10 in",
+"2.083",
+"208.3"
+]
+]
+}
+],
+[
+"Using metres and feet in building and DIY",
+"In the US, timber, plasterboard and plywood are sold in feet (8 ft and 10 ft lengths, 4 × 8 ft sheets = 1.22 × 2.44 m), and architectural drawings are dimensioned in feet and inches. In the UK and most of the world, plans are drawn in millimetres. When converting a plan, convert each dimension separately rather than converting an area – then round to the nearest millimetre and check that totals still add up. A metric sheet of plywood (1220 × 2440 mm) is actually a converted imperial size, which is why metric sheet sizes look slightly odd.",
+"For stairs, a common rule in imperial plans is a rise of about 7 in (178 mm) and a going of 11 in (279 mm). For doors, 6 ft 8 in (2.03 m) is the standard US height, while 2.04 m and 1.98 m are common in Europe and the UK."
+],
+[
+"Feet in aviation and mountaineering",
+"Altitude in aviation is measured in feet almost everywhere except a few countries (such as China and Russia historically) that used metres. Flight levels are written in hundreds of feet: FL100 is 10,000 ft (3,048 m), FL350 is 35,000 ft (10,668 m). Pilots crossing into airspace that uses metres convert with tables rather than mental arithmetic because a rounding error of 100 ft equals about 30 m of vertical separation. Mountain heights are given in metres in most of the world and in feet in the US: Everest is 8,849 m (29,032 ft), Kilimanjaro 5,895 m (19,341 ft), Mont Blanc 4,806 m (15,768 ft)."
+],
+[
+"Common mistakes",
+[
+"Multiplying square feet by 0.3048 instead of 0.0929.",
+"Writing 5.10 ft for 5 ft 10 in – 5.10 ft is actually 5 ft 1.2 in. Use 5.833 ft.",
+"Confusing the foot symbol (′) with the inch symbol (″): 6′2″ is 6 ft 2 in = 1.88 m.",
+"Rounding 0.3048 to 0.3 for long distances – the error grows to 1.6%, or 16 m per kilometre."
+]
+],
+[
+"Yards, feet and metres",
+{
+"table": [
+[
+"Unit",
+"feet",
+"metres"
+],
+[
+"1 inch",
+"0.0833",
+"0.0254"
+],
+[
+"1 foot",
+"1",
+"0.3048"
+],
+[
+"1 yard",
+"3",
+"0.9144"
+],
+[
+"1 chain",
+"66",
+"20.1168"
+],
+[
+"1 furlong",
+"660",
+"201.168"
+],
+[
+"1 mile",
+"5,280",
+"1,609.344"
+],
+[
+"1 nautical mile",
+"6,076.1",
+"1,852"
+]
+]
+},
+"Sports fields mix the units: an American football field is 100 yards (91.44 m) between goal lines, a cricket pitch is 22 yards (20.12 m), and a running track is 400 m (1,312 ft)."
+],
+[
+"Feet to metres in a spreadsheet",
+"In Excel or Google Sheets use =A2*0.3048, or =CONVERT(A2,\"ft\",\"m\"). For feet in A2 and inches in B2, use =(A2+B2/12)*0.3048. Format to two or three decimals depending on whether you need centimetres or millimetres."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent to a server, your values are not tracked, and once the page has loaded it keeps working offline – useful in a workshop, a kitchen, a gym or on a plane."
+],
+[
+"Related converters",
+[
+"[Inches to cm](/inches-to-cm/)",
+"[CM to inches](/cm-to-inches/)",
+"[Area converter](/area-converter/)",
+"[Length converter](/length-converter/)",
+"[Unit converter](/unit-converter/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Feet + inches shown for decimals",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Altitude and large-distance chart",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Square-feet table on page",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many metres is 1 foot?",
+"a": "Exactly 0.3048 m."
+},
+{
+"q": "How do I convert feet to metres?",
+"a": "Multiply by 0.3048. Example: 10 ft × 0.3048 = 3.048 m."
+},
+{
+"q": "How tall is 6 feet in metres?",
+"a": "1.8288 m, about 1.83 m."
+},
+{
+"q": "How do I convert 5 ft 6 in to metres?",
+"a": "5.5 ft × 0.3048 = 1.676 m."
+},
+{
+"q": "How many feet are in a metre?",
+"a": "3.28084 feet."
+},
+{
+"q": "How do I convert square feet to square metres?",
+"a": "Multiply by 0.0929. 1,000 sq ft = 92.9 m²."
+},
+{
+"q": "What is 35,000 feet in metres?",
+"a": "10,668 m – a typical airliner cruising altitude."
+},
+{
+"q": "Is a foot exactly 30.48 cm?",
+"a": "Yes."
+},
+{
+"q": "What is the US survey foot?",
+"a": "A slightly longer foot used for land surveys, retired in 2022; the difference is 2 parts per million."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, everything runs in your browser."
+}
+],
+"related": [
+"inches-to-cm",
+"cm-to-inches",
+"area-converter",
+"length-converter",
+"unit-converter"
+]
+}
+},
+"lb2kg": {
+"seo": {
+"updated": "2026-10-25",
+"title": "LBS to KG Converter – Pounds, Ounces & Stone to kg",
+"desc": "Convert lbs to kg, or lb + oz and stone to kilograms. Formula, worked examples, 1–400 lb chart, stone table. Free, private and works offline.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Pounds to kilograms – plus ounces and stone",
+"Enter a weight in pounds and see the exact value in kilograms, grams, ounces, stone, tonnes and Indian units such as tola. The extra lines split your value into pounds and ounces and into stone and pounds, so you can check a baby's birth weight, a UK bathroom-scale reading or a recipe quantity at a glance. Use the swap button for kilograms to pounds.",
+"One pound is defined as exactly **0.45359237 kilograms**."
+],
+[
+"The formula",
+"**kg = lb × 0.45359237**",
+"**kg = lb ÷ 2.20462**",
+"**lb = kg × 2.20462**",
+"With ounces: kg = (lb + oz ÷ 16) × 0.45359. With stone: kg = (stone × 14 + lb) × 0.45359."
+],
+[
+"Worked examples",
+[
+"**150 lb** × 0.45359 = 68.04 kg.",
+"**200 lb** = 90.72 kg.",
+"**A 7 lb 8 oz baby** = 7.5 lb = 3.40 kg.",
+"**A 50 lb checked-bag limit** = 22.68 kg (airlines in kg-using countries use 23 kg).",
+"**A 45 lb barbell plate** = 20.41 kg; a 45 lb Olympic bar = 20.41 kg.",
+"**A 1 lb pack of butter** = 453.6 g.",
+"**11 st 4 lb** = 158 lb = 71.67 kg."
+]
+],
+[
+"Quick mental estimate",
+"Halve the pounds and take away 10%: 180 lb → 90 → minus 9 = 81 kg (exact: 81.65 kg). That gets you within about 1%. For a rougher figure, just halve: 100 lb ≈ 50 kg (exact 45.4 kg) – but note that halving overestimates by 10%."
+],
+[
+"Pounds to kilograms chart",
+{
+"table": [
+[
+"lb",
+"kg",
+"lb",
+"kg"
+],
+[
+"1",
+"0.45",
+"55",
+"24.95"
+],
+[
+"2",
+"0.91",
+"60",
+"27.22"
+],
+[
+"3",
+"1.36",
+"65",
+"29.48"
+],
+[
+"4",
+"1.81",
+"70",
+"31.75"
+],
+[
+"5",
+"2.27",
+"75",
+"34.02"
+],
+[
+"6",
+"2.72",
+"80",
+"36.29"
+],
+[
+"7",
+"3.18",
+"85",
+"38.56"
+],
+[
+"8",
+"3.63",
+"90",
+"40.82"
+],
+[
+"9",
+"4.08",
+"95",
+"43.09"
+],
+[
+"10",
+"4.54",
+"100",
+"45.36"
+],
+[
+"11",
+"4.99",
+"105",
+"47.63"
+],
+[
+"12",
+"5.44",
+"110",
+"49.9"
+],
+[
+"13",
+"5.9",
+"115",
+"52.16"
+],
+[
+"14",
+"6.35",
+"120",
+"54.43"
+],
+[
+"15",
+"6.8",
+"125",
+"56.7"
+],
+[
+"16",
+"7.26",
+"130",
+"58.97"
+],
+[
+"17",
+"7.71",
+"135",
+"61.23"
+],
+[
+"18",
+"8.16",
+"140",
+"63.5"
+],
+[
+"19",
+"8.62",
+"145",
+"65.77"
+],
+[
+"20",
+"9.07",
+"150",
+"68.04"
+],
+[
+"21",
+"9.53",
+"155",
+"70.31"
+],
+[
+"22",
+"9.98",
+"160",
+"72.57"
+],
+[
+"23",
+"10.43",
+"165",
+"74.84"
+],
+[
+"24",
+"10.89",
+"170",
+"77.11"
+],
+[
+"25",
+"11.34",
+"175",
+"79.38"
+],
+[
+"26",
+"11.79",
+"180",
+"81.65"
+],
+[
+"27",
+"12.25",
+"185",
+"83.91"
+],
+[
+"28",
+"12.7",
+"190",
+"86.18"
+],
+[
+"29",
+"13.15",
+"195",
+"88.45"
+],
+[
+"30",
+"13.61",
+"200",
+"90.72"
+],
+[
+"31",
+"14.06",
+"205",
+"92.99"
+],
+[
+"32",
+"14.51",
+"210",
+"95.25"
+],
+[
+"33",
+"14.97",
+"215",
+"97.52"
+],
+[
+"34",
+"15.42",
+"220",
+"99.79"
+],
+[
+"35",
+"15.88",
+"225",
+"102.06"
+],
+[
+"36",
+"16.33",
+"230",
+"104.33"
+],
+[
+"37",
+"16.78",
+"235",
+"106.59"
+],
+[
+"38",
+"17.24",
+"240",
+"108.86"
+],
+[
+"39",
+"17.69",
+"245",
+"111.13"
+],
+[
+"40",
+"18.14",
+"250",
+"113.4"
+],
+[
+"41",
+"18.6",
+"255",
+"115.67"
+],
+[
+"42",
+"19.05",
+"260",
+"117.93"
+],
+[
+"43",
+"19.5",
+"265",
+"120.2"
+],
+[
+"44",
+"19.96",
+"270",
+"122.47"
+],
+[
+"45",
+"20.41",
+"275",
+"124.74"
+],
+[
+"46",
+"20.87",
+"280",
+"127.01"
+],
+[
+"47",
+"21.32",
+"285",
+"129.27"
+],
+[
+"48",
+"21.77",
+"290",
+"131.54"
+],
+[
+"49",
+"22.23",
+"295",
+"133.81"
+],
+[
+"50",
+"22.68",
+"300",
+"136.08"
+]
+]
+}
+],
+[
+"Stone and pounds to kilograms",
+"In the UK and Ireland body weight is often given in stone and pounds. One stone is 14 lb, or 6.35 kg.",
+{
+"table": [
+[
+"Stone + lb",
+"lb",
+"kg"
+],
+[
+"7 st 0 lb",
+"98",
+"44.45"
+],
+[
+"7 st 7 lb",
+"105",
+"47.63"
+],
+[
+"8 st 0 lb",
+"112",
+"50.8"
+],
+[
+"8 st 7 lb",
+"119",
+"53.98"
+],
+[
+"9 st 0 lb",
+"126",
+"57.15"
+],
+[
+"9 st 7 lb",
+"133",
+"60.33"
+],
+[
+"10 st 0 lb",
+"140",
+"63.5"
+],
+[
+"10 st 7 lb",
+"147",
+"66.68"
+],
+[
+"11 st 0 lb",
+"154",
+"69.85"
+],
+[
+"11 st 7 lb",
+"161",
+"73.03"
+],
+[
+"12 st 0 lb",
+"168",
+"76.2"
+],
+[
+"12 st 7 lb",
+"175",
+"79.38"
+],
+[
+"13 st 0 lb",
+"182",
+"82.55"
+],
+[
+"13 st 7 lb",
+"189",
+"85.73"
+],
+[
+"14 st 0 lb",
+"196",
+"88.9"
+],
+[
+"14 st 7 lb",
+"203",
+"92.08"
+],
+[
+"15 st 0 lb",
+"210",
+"95.25"
+],
+[
+"15 st 7 lb",
+"217",
+"98.43"
+],
+[
+"16 st 0 lb",
+"224",
+"101.6"
+],
+[
+"16 st 7 lb",
+"231",
+"104.78"
+],
+[
+"17 st 0 lb",
+"238",
+"107.95"
+],
+[
+"17 st 7 lb",
+"245",
+"111.13"
+],
+[
+"18 st 0 lb",
+"252",
+"114.31"
+],
+[
+"18 st 7 lb",
+"259",
+"117.48"
+]
+]
+}
+],
+[
+"Gym weights in pounds and kilograms",
+"Gyms in the US use pound plates (2.5, 5, 10, 25, 35, 45 lb), while most of the world uses kilogram plates (1.25, 2.5, 5, 10, 15, 20, 25 kg). A 45 lb plate is 20.4 kg – very close to a 20 kg plate, but not identical, so totals drift on heavy lifts: 405 lb (a bar plus four 45 lb plates per side) is 183.7 kg, not 180. Competition powerlifting records are kept in kilograms."
+],
+[
+"Pounds in shipping and luggage",
+"Couriers bill by weight bands, typically rounded up to the next pound or half kilogram. A 2.2 lb parcel is 1 kg. When converting a limit, round down to stay safe: a 23 kg airline limit is 50.7 lb, so aim for 50 lb on a US scale. Volumetric (dimensional) weight is calculated separately from the box size."
+],
+[
+"Where the pound comes from",
+"The word pound comes from the Latin libra pondo, 'a pound by weight' – which is why it is abbreviated lb. Many slightly different pounds existed across Europe. The avoirdupois pound of 16 ounces became the English standard, and in 1959 the international pound was fixed at exactly 0.45359237 kg. The troy pound (12 troy ounces, 373.24 g) is still used for precious metals."
+],
+[
+"Accuracy and rounding",
+"Body weight: one decimal place in kilograms. Cooking: the nearest 5–10 g. Medicine dosages based on body weight: use the full precision and confirm with a professional. The converter shows up to eight significant figures, and the download lists your value in every unit."
+],
+[
+"Baby birth weights: pounds and ounces to kg",
+{
+"table": [
+[
+"lb + oz",
+"kg"
+],
+[
+"5 lb 0 oz",
+"2.268"
+],
+[
+"5 lb 4 oz",
+"2.381"
+],
+[
+"5 lb 8 oz",
+"2.495"
+],
+[
+"5 lb 12 oz",
+"2.608"
+],
+[
+"6 lb 0 oz",
+"2.722"
+],
+[
+"6 lb 4 oz",
+"2.835"
+],
+[
+"6 lb 8 oz",
+"2.948"
+],
+[
+"6 lb 12 oz",
+"3.062"
+],
+[
+"7 lb 0 oz",
+"3.175"
+],
+[
+"7 lb 4 oz",
+"3.289"
+],
+[
+"7 lb 8 oz",
+"3.402"
+],
+[
+"7 lb 12 oz",
+"3.515"
+],
+[
+"8 lb 0 oz",
+"3.629"
+],
+[
+"8 lb 4 oz",
+"3.742"
+],
+[
+"8 lb 8 oz",
+"3.856"
+],
+[
+"8 lb 12 oz",
+"3.969"
+],
+[
+"9 lb 0 oz",
+"4.082"
+],
+[
+"9 lb 4 oz",
+"4.196"
+],
+[
+"9 lb 8 oz",
+"4.309"
+],
+[
+"9 lb 12 oz",
+"4.423"
+],
+[
+"10 lb 0 oz",
+"4.536"
+],
+[
+"10 lb 4 oz",
+"4.649"
+],
+[
+"10 lb 8 oz",
+"4.763"
+],
+[
+"10 lb 12 oz",
+"4.876"
+]
+]
+}
+],
+[
+"Body weight and BMI",
+"Many health calculators, including the [BMI calculator](/bmi-calculator/), work in kilograms and metres. BMI is weight in kilograms divided by height in metres squared, so you need both conversions: a person who weighs 165 lb (74.8 kg) and is 5 ft 9 in tall (1.753 m) has a BMI of 74.8 ÷ 1.753² = 24.4. In the US the same figure is calculated as 703 × lb ÷ in², which gives the same result. BMI is a rough screening tool and does not account for muscle mass, age or body shape."
+],
+[
+"Pounds in recipes and groceries",
+"US recipes and supermarkets sell meat, cheese, flour and produce by the pound, while most other countries use kilograms. Half a pound (8 oz) is 227 g, a quarter pound is 113 g – the origin of the 'quarter pounder' burger, which weighs 113 g of raw beef. A 5 lb bag of flour is 2.27 kg; a 10 lb bag of rice is 4.54 kg. Prices per pound can be compared with prices per kilogram by multiplying the per-pound price by 2.2046: $3.99/lb equals $8.80/kg."
+],
+[
+"Weight versus mass",
+"Strictly, kilograms and pounds measure mass – the amount of matter – while weight is the force of gravity on that mass. Bathroom scales measure force and display it as mass assuming Earth's gravity. That is why you would 'weigh' less on the Moon even though your mass in kilograms is unchanged. The pound-force (lbf) and the kilogram-force (kgf) are force units used in engineering; 1 lbf = 4.448 newtons. For everyday conversions the distinction does not matter, and the converter treats lb and kg as mass units."
+],
+[
+"Common mistakes",
+[
+"Dividing by 2 instead of 2.2046 – that overestimates the kilograms by 10%.",
+"Treating 7.8 lb as 7 lb 8 oz – it is 7 lb 12.8 oz. Use the lb + oz line.",
+"Mixing up troy pounds (precious metals, 373 g) and avoirdupois pounds (454 g).",
+"Rounding 0.4536 to 0.45 for heavy loads – the error is about 0.8%, or 8 kg per tonne."
+]
+],
+[
+"Tonnes, short tons and long tons",
+"Heavy loads add another trap: the US short ton is 2,000 lb (907.2 kg), the UK long ton is 2,240 lb (1,016 kg), and the metric tonne is 1,000 kg (2,204.6 lb). Vehicle weights, freight quotes and shipping manifests may use any of the three, so always check which ton is meant before converting."
+],
+[
+"Kilograms to pounds, the reverse check",
+"To check a conversion in the other direction, multiply kilograms by 2.20462. 70 kg × 2.20462 = 154.3 lb; 90 kg = 198.4 lb; 100 kg = 220.5 lb. A useful sanity check is that the number of pounds should always be a little more than double the number of kilograms. If your result is less than double, you have probably multiplied when you should have divided. The [kg to lbs converter](/kg-to-lbs/) gives the reverse result with the same pound + ounce and stone breakdown."
+],
+[
+"Pounds around the world",
+"The United States uses pounds for almost everything, from body weight to groceries. The United Kingdom officially uses kilograms for trade but people still describe body weight in stone and pounds, and beer is sold in pints. Canada sells food in grams and kilograms but many people state their weight in pounds. India, Australia and most other countries use kilograms throughout, although older generations in some places still use local units such as the tola for gold or the seer and maund for produce. Whatever the local habit, the conversion factor is the same everywhere."
+],
+[
+"Pounds to kg in a spreadsheet",
+"In Excel or Google Sheets use =A2*0.45359237 or =CONVERT(A2,\"lbm\",\"kg\"). For pounds in A2 and ounces in B2, use =(A2+B2/16)*0.45359237. For stone in A2 and pounds in B2, use =(A2*14+B2)*0.45359237. Round with =ROUND(…,1) for body weight, or keep three decimals for shipping manifests and laboratory records where grams matter."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent to a server, your values are not tracked, and once the page has loaded it keeps working offline – useful in a workshop, a kitchen, a gym or on a plane."
+],
+[
+"Related converters",
+[
+"[Kg to lbs](/kg-to-lbs/)",
+"[Grams to ounces](/grams-to-ounces/)",
+"[Weight converter](/weight-converter/)",
+"[BMI calculator](/bmi-calculator/)",
+"[Unit converter](/unit-converter/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Pounds + ounces line",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Stone + pounds line and table",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Chart up to 400 lb",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many kg is 1 lb?",
+"a": "1 lb = 0.45359237 kg (about 454 g)."
+},
+{
+"q": "How do I convert lbs to kg?",
+"a": "Multiply by 0.45359, or divide by 2.2046. 150 lb = 68.04 kg."
+},
+{
+"q": "What is 200 lbs in kg?",
+"a": "90.72 kg."
+},
+{
+"q": "How do I convert pounds and ounces to kg?",
+"a": "Divide the ounces by 16, add them to the pounds, then multiply by 0.45359. 7 lb 8 oz = 3.40 kg."
+},
+{
+"q": "How many kg is a stone?",
+"a": "6.35 kg (14 lb)."
+},
+{
+"q": "What is 50 lbs in kg?",
+"a": "22.68 kg."
+},
+{
+"q": "Is a pound exactly 0.45359237 kg?",
+"a": "Yes, since the 1959 international agreement."
+},
+{
+"q": "Why is pound abbreviated lb?",
+"a": "From the Latin libra, a Roman unit of weight."
+},
+{
+"q": "Is a 45 lb plate the same as 20 kg?",
+"a": "No – it is 20.41 kg."
+},
+{
+"q": "Does the converter work offline?",
+"a": "Yes. Calculations run on your device."
+}
+],
+"related": [
+"kg-to-lbs",
+"grams-to-ounces",
+"weight-converter",
+"bmi-calculator",
+"unit-converter"
+]
+}
+},
+"g2oz": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Grams to Ounces Converter – g to oz, Cooking Chart",
+"desc": "Convert grams to ounces (and to lb + oz) with the formula, cooking chart, cup notes and troy ounces for gold. Free, private, works offline.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Grams to ounces for cooking, post and shopping",
+"Type a weight in grams and get it in ounces immediately, along with pounds, kilograms, milligrams and other mass units. For weights of a pound or more the converter also gives a pounds-and-ounces line, the way US recipes and baby weights are written. The swap button turns it into an ounces-to-grams converter.",
+"One avoirdupois ounce is exactly **28.349523125 grams**, so 1 g = 0.035274 oz."
+],
+[
+"The formula",
+"**ounces = grams ÷ 28.3495**",
+"**ounces = grams × 0.035274**",
+"**grams = ounces × 28.3495**",
+"For pounds and ounces: divide the ounces by 16 – the whole number is pounds and the remainder is ounces. 500 g = 17.64 oz = 1 lb 1.6 oz."
+],
+[
+"Worked examples",
+[
+"**100 g** = 3.53 oz.",
+"**250 g** pack of butter = 8.82 oz (US sticks are 4 oz / 113 g).",
+"**500 g** of pasta = 17.64 oz = 1 lb 1.6 oz.",
+"**30 g** serving of cereal = 1.06 oz.",
+"**1 kg** of flour = 35.27 oz = 2 lb 3.3 oz.",
+"**A 28 g letter** = just under 1 oz.",
+"**A 1 oz gold coin** is a troy ounce = 31.10 g (see below)."
+]
+],
+[
+"Grams to ounces chart",
+{
+"table": [
+[
+"g",
+"oz",
+"g",
+"oz"
+],
+[
+"1",
+"0.04",
+"30",
+"1.06"
+],
+[
+"2",
+"0.07",
+"40",
+"1.41"
+],
+[
+"3",
+"0.11",
+"50",
+"1.76"
+],
+[
+"4",
+"0.14",
+"60",
+"2.12"
+],
+[
+"5",
+"0.18",
+"70",
+"2.47"
+],
+[
+"6",
+"0.21",
+"75",
+"2.65"
+],
+[
+"7",
+"0.25",
+"80",
+"2.82"
+],
+[
+"8",
+"0.28",
+"90",
+"3.17"
+],
+[
+"9",
+"0.32",
+"100",
+"3.53"
+],
+[
+"10",
+"0.35",
+"110",
+"3.88"
+],
+[
+"11",
+"0.39",
+"120",
+"4.23"
+],
+[
+"12",
+"0.42",
+"125",
+"4.41"
+],
+[
+"13",
+"0.46",
+"150",
+"5.29"
+],
+[
+"14",
+"0.49",
+"175",
+"6.17"
+],
+[
+"15",
+"0.53",
+"200",
+"7.05"
+],
+[
+"16",
+"0.56",
+"225",
+"7.94"
+],
+[
+"17",
+"0.6",
+"250",
+"8.82"
+],
+[
+"18",
+"0.63",
+"300",
+"10.58"
+],
+[
+"19",
+"0.67",
+"350",
+"12.35"
+],
+[
+"20",
+"0.71",
+"400",
+"14.11"
+],
+[
+"21",
+"0.74",
+"450",
+"15.87"
+],
+[
+"22",
+"0.78",
+"500",
+"17.64"
+],
+[
+"23",
+"0.81",
+"750",
+"26.46"
+],
+[
+"24",
+"0.85",
+"1000",
+"35.27"
+],
+[
+"25",
+"0.88",
+"1500",
+"52.91"
+]
+]
+}
+],
+[
+"Ounces to grams chart",
+{
+"table": [
+[
+"oz",
+"g"
+],
+[
+"1/4 oz",
+"7.1"
+],
+[
+"1/2 oz",
+"14.2"
+],
+[
+"3/4 oz",
+"21.3"
+],
+[
+"1 oz",
+"28.3"
+],
+[
+"1 1/2 oz",
+"42.5"
+],
+[
+"2 oz",
+"56.7"
+],
+[
+"3 oz",
+"85"
+],
+[
+"4 oz",
+"113.4"
+],
+[
+"5 oz",
+"141.7"
+],
+[
+"6 oz",
+"170.1"
+],
+[
+"8 oz",
+"226.8"
+],
+[
+"10 oz",
+"283.5"
+],
+[
+"16 oz",
+"453.6"
+]
+]
+}
+],
+[
+"Ounces vs fluid ounces",
+"An ounce (oz) measures weight; a fluid ounce (fl oz) measures volume. They match only for water and similar liquids – 1 US fl oz of water weighs about 1.04 oz (29.6 g). A cup of flour weighs around 120–130 g (4.2–4.6 oz), while a cup of sugar weighs about 200 g (7 oz). For baking, weighing in grams is more accurate than using cups. If a recipe gives fluid ounces, use the [unit converter](/unit-converter/) volume category instead."
+],
+[
+"Troy ounces for gold and silver",
+"Precious metals are priced per **troy ounce**, which is 31.1034768 g – about 10% heavier than the ordinary (avoirdupois) ounce of 28.35 g. A 1 kg gold bar is 32.15 troy ounces but 35.27 ordinary ounces. In India, gold is also weighed in tola (11.66 g) and grams; the weight converter includes tola. When comparing gold prices, always check which ounce is meant."
+],
+[
+"Common kitchen amounts",
+{
+"table": [
+[
+"Ingredient",
+"Typical US measure",
+"Grams",
+"Ounces"
+],
+[
+"Butter",
+"1 stick",
+"113",
+"4"
+],
+[
+"Flour (all-purpose)",
+"1 cup",
+"125",
+"4.4"
+],
+[
+"Granulated sugar",
+"1 cup",
+"200",
+"7.1"
+],
+[
+"Brown sugar (packed)",
+"1 cup",
+"220",
+"7.8"
+],
+[
+"Rice (uncooked)",
+"1 cup",
+"185",
+"6.5"
+],
+[
+"Cheese (grated)",
+"1 cup",
+"100",
+"3.5"
+],
+[
+"Chocolate chips",
+"1 cup",
+"170",
+"6"
+],
+[
+"Honey",
+"1 tablespoon",
+"21",
+"0.74"
+]
+]
+},
+"Cup weights vary with how the ingredient is packed, so treat these as typical values."
+],
+[
+"Quick mental estimate",
+"Divide grams by 30 for a rough ounce figure: 300 g ≈ 10 oz (exact 10.58 oz). For the reverse, ounces × 30 ≈ grams, then subtract 5%: 8 oz × 30 = 240, minus 12 = 228 g (exact 226.8 g)."
+],
+[
+"Where the ounce comes from",
+"The ounce derives from the Roman uncia, one twelfth of a Roman pound – the same word that gives us 'inch'. The avoirdupois system, with 16 ounces to the pound, was adopted for general goods in England in the 14th century, while the troy system was kept for precious metals and medicines. The international avoirdupois ounce has been exactly 28.349523125 g since 1959."
+],
+[
+"Postage and parcels",
+"Postal services in the US price letters by the ounce (a standard letter stamp covers up to 1 oz, 28.35 g), while most other postal services use grams (for example 0–100 g bands). A typical sheet of A4 or Letter paper weighs about 5 g, so a letter with four sheets and an envelope is around 25–30 g – right on the 1 oz limit. Weigh before posting, and round up when the scale shows a value close to a band boundary."
+],
+[
+"Grams to ounces for coffee and tea",
+"Specialty coffee recipes often call for 15–18 g of coffee per 250 ml cup (about 0.5–0.6 oz). A standard espresso uses 18 g (0.63 oz) of ground coffee for a double shot. Loose-leaf tea is typically 2–3 g (about 0.1 oz) per cup."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent to a server, your values are not tracked, and once the page has loaded it keeps working offline – useful in a workshop, a kitchen, a gym or on a plane."
+],
+[
+"Related converters",
+[
+"[Lbs to kg](/lbs-to-kg/)",
+"[Kg to lbs](/kg-to-lbs/)",
+"[Weight converter](/weight-converter/)",
+"[Unit converter](/unit-converter/)",
+"[Percentage calculator](/percentage-calculator/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Pounds + ounces line",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Troy-ounce and tola explanation",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Kitchen ingredient table",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many ounces is 1 gram?",
+"a": "0.035274 oz."
+},
+{
+"q": "How many grams are in an ounce?",
+"a": "28.3495 g (avoirdupois); a troy ounce is 31.1035 g."
+},
+{
+"q": "How do I convert grams to ounces?",
+"a": "Divide by 28.3495. Example: 200 g ÷ 28.35 = 7.05 oz."
+},
+{
+"q": "What is 100 g in oz?",
+"a": "3.53 oz."
+},
+{
+"q": "What is 500 g in pounds and ounces?",
+"a": "1 lb 1.6 oz (17.64 oz)."
+},
+{
+"q": "Is an ounce the same as a fluid ounce?",
+"a": "No – ounces measure weight, fluid ounces measure volume."
+},
+{
+"q": "What is a troy ounce?",
+"a": "The unit for gold and silver: 31.1035 g."
+},
+{
+"q": "How many ounces in a kilogram?",
+"a": "35.274 oz."
+},
+{
+"q": "How many grams is a cup of flour?",
+"a": "About 120–130 g, depending on how it is packed."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, it runs in your browser."
+}
+],
+"related": [
+"lbs-to-kg",
+"kg-to-lbs",
+"weight-converter",
+"unit-converter",
+"percentage-calculator"
+]
+}
+},
+"f2c": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Fahrenheit to Celsius Converter – °F to °C, Chart",
+"desc": "Convert °F to °C with the formula worked on your number, Kelvin, a −40 to 500 °F chart, oven and fever tables. Free, private, works offline.",
+"compareTitle": "{tool}: {brand} vs RapidTables, Inch Calculator and Metric-Conversions",
+"compareCols": [
+"RapidTables",
+"Inch Calculator",
+"Metric-Conversions"
+],
+"sections": [
+[
+"Fahrenheit to Celsius with the working shown",
+"Type a temperature in degrees Fahrenheit and the converter shows the Celsius value, the formula with your number filled in – (98.6 − 32) ÷ 1.8 = 37 – and the same temperature in Kelvin. Negative temperatures and decimals work as well. Use the swap button for Celsius to Fahrenheit.",
+"Unlike length or weight, temperature conversion is not just a multiplication, because the two scales have different zero points. That is why a fixed 'factor' never works and why the formula below has two steps."
+],
+[
+"The formula",
+"**°C = (°F − 32) × 5/9**, or **(°F − 32) ÷ 1.8**",
+"**°F = °C × 9/5 + 32**",
+"**K = °C + 273.15**",
+"Example: 72 °F − 32 = 40; 40 ÷ 1.8 = 22.2 °C."
+],
+[
+"Worked examples",
+[
+"**32 °F** = 0 °C – water freezes.",
+"**212 °F** = 100 °C – water boils at sea level.",
+"**98.6 °F** = 37 °C – normal body temperature.",
+"**100.4 °F** = 38 °C – the usual threshold for a fever.",
+"**70 °F** = 21.1 °C – room temperature.",
+"**350 °F** = 176.7 °C – the most common baking temperature (recipes use 175 or 180 °C).",
+"**−40 °F** = −40 °C – the one point where both scales agree."
+]
+],
+[
+"Quick mental shortcut",
+"Subtract 30 and halve: 80 °F → 50 → 25 °C (exact 26.7 °C). It is within about 2 °C between 40 and 90 °F, which is fine for weather. For cooking and medicine use the exact value."
+],
+[
+"Fahrenheit to Celsius chart",
+{
+"table": [
+[
+"°F",
+"°C",
+"°F",
+"°C"
+],
+[
+"-40",
+"-40",
+"115",
+"46.1"
+],
+[
+"-35",
+"-37.2",
+"130",
+"54.4"
+],
+[
+"-30",
+"-34.4",
+"145",
+"62.8"
+],
+[
+"-25",
+"-31.7",
+"160",
+"71.1"
+],
+[
+"-20",
+"-28.9",
+"175",
+"79.4"
+],
+[
+"-15",
+"-26.1",
+"190",
+"87.8"
+],
+[
+"-10",
+"-23.3",
+"205",
+"96.1"
+],
+[
+"-5",
+"-20.6",
+"220",
+"104.4"
+],
+[
+"0",
+"-17.8",
+"235",
+"112.8"
+],
+[
+"5",
+"-15",
+"250",
+"121.1"
+],
+[
+"10",
+"-12.2",
+"265",
+"129.4"
+],
+[
+"15",
+"-9.4",
+"280",
+"137.8"
+],
+[
+"20",
+"-6.7",
+"295",
+"146.1"
+],
+[
+"25",
+"-3.9",
+"310",
+"154.4"
+],
+[
+"30",
+"-1.1",
+"325",
+"162.8"
+],
+[
+"35",
+"1.7",
+"340",
+"171.1"
+],
+[
+"40",
+"4.4",
+"355",
+"179.4"
+],
+[
+"45",
+"7.2",
+"370",
+"187.8"
+],
+[
+"50",
+"10",
+"385",
+"196.1"
+],
+[
+"55",
+"12.8",
+"400",
+"204.4"
+],
+[
+"60",
+"15.6",
+"415",
+"212.8"
+],
+[
+"65",
+"18.3",
+"430",
+"221.1"
+],
+[
+"70",
+"21.1",
+"445",
+"229.4"
+],
+[
+"75",
+"23.9",
+"460",
+"237.8"
+],
+[
+"80",
+"26.7",
+"475",
+"246.1"
+],
+[
+"85",
+"29.4",
+"490",
+"254.4"
+]
+]
+}
+],
+[
+"Oven temperatures",
+{
+"table": [
+[
+"Oven °F",
+"°C",
+"Fan °C",
+"Gas mark"
+],
+[
+"250",
+"120",
+"100",
+"½"
+],
+[
+"275",
+"135",
+"115",
+"1"
+],
+[
+"300",
+"150",
+"130",
+"2"
+],
+[
+"325",
+"165",
+"145",
+"3"
+],
+[
+"350",
+"175–180",
+"155–160",
+"4"
+],
+[
+"375",
+"190",
+"170",
+"5"
+],
+[
+"400",
+"200",
+"180",
+"6"
+],
+[
+"425",
+"220",
+"200",
+"7"
+],
+[
+"450",
+"230",
+"210",
+"8"
+],
+[
+"475",
+"245",
+"225",
+"9"
+]
+]
+},
+"Fan (convection) ovens are usually set about 20 °C lower than conventional ones."
+],
+[
+"Body temperature and fever",
+{
+"table": [
+[
+"°F",
+"°C",
+"Meaning (adults, typical)"
+],
+[
+"95.0",
+"35.0",
+"Hypothermia threshold"
+],
+[
+"97.0",
+"36.1",
+"Low normal"
+],
+[
+"98.6",
+"37.0",
+"Traditional normal"
+],
+[
+"99.5",
+"37.5",
+"Slightly raised"
+],
+[
+"100.4",
+"38.0",
+"Fever"
+],
+[
+"102.2",
+"39.0",
+"High fever"
+],
+[
+"104.0",
+"40.0",
+"Very high – seek medical advice"
+]
+]
+},
+"Normal body temperature varies between people and through the day; these values are general guidance, not medical advice."
+],
+[
+"Weather in Fahrenheit",
+"The United States and a few other countries report weather in Fahrenheit. Useful anchors: 0 °F = −17.8 °C (very cold), 32 °F = 0 °C (freezing), 50 °F = 10 °C (cool), 68 °F = 20 °C (mild), 77 °F = 25 °C (warm), 86 °F = 30 °C (hot), 100 °F = 37.8 °C (heatwave). Each 1 °F change equals 0.56 °C, and each 1 °C change equals 1.8 °F – which matters when converting temperature differences, where the 32 offset does not apply."
+],
+[
+"Who invented Fahrenheit and Celsius?",
+"Daniel Gabriel Fahrenheit, a German-Dutch instrument maker, proposed his scale in 1724, setting 0 °F at the temperature of a brine mixture and about 96 °F at human body temperature; water's freezing and boiling points ended up at 32 and 212. Anders Celsius, a Swedish astronomer, proposed a 100-degree scale in 1742 based on water's freezing and boiling points (originally inverted, with 0 for boiling). Today the Celsius scale is defined through the Kelvin, the SI unit of temperature, and almost every country uses it for weather."
+],
+[
+"Why the shortcut fails for big numbers",
+"The 'subtract 30 and halve' trick ignores the exact factor of 1.8 and uses 30 instead of 32. At 50 °F it gives 10 °C – exactly right. At 100 °F it gives 35 °C, while the real answer is 37.8 °C. At 400 °F (oven temperatures) it gives 185 °C instead of 204 °C, an error that matters for baking. For anything above about 100 °F, use the converter or the exact formula."
+],
+[
+"Cooking and food-safety temperatures",
+{
+"table": [
+[
+"Use",
+"°F",
+"°C"
+],
+[
+"Freezer",
+"0",
+"−18"
+],
+[
+"Fridge",
+"37–40",
+"3–4"
+],
+[
+"Danger zone for bacteria",
+"40–140",
+"4–60"
+],
+[
+"Poultry, safe internal",
+"165",
+"74"
+],
+[
+"Ground beef, safe internal",
+"160",
+"71"
+],
+[
+"Pork and steak, medium",
+"145",
+"63"
+],
+[
+"Soft-ball sugar stage",
+"235–240",
+"113–116"
+],
+[
+"Deep frying oil",
+"350–375",
+"175–190"
+]
+]
+},
+"Food-safety values follow common US guidance; check local guidelines for your country."
+],
+[
+"Temperature differences versus temperatures",
+"If a recipe says 'reduce the oven by 25 °F', that is a change of 25 × 5/9 = 13.9 °C – you do not subtract 32, because the offset cancels out when you take a difference. The same applies to weather reports ('5 °F warmer than yesterday' = 2.8 °C warmer) and to scientific work. The converter converts absolute temperatures; for differences, multiply °F by 0.5556 or °C by 1.8."
+],
+[
+"Fahrenheit, Celsius and Kelvin together",
+"Scientists use the Kelvin scale, which starts at absolute zero (−273.15 °C, −459.67 °F) and has the same step size as Celsius. Kelvin is written without a degree sign: 300 K = 26.85 °C = 80.33 °F. Rankine is the Fahrenheit equivalent of Kelvin, used occasionally in US engineering: 0 °R is absolute zero and 491.67 °R is the freezing point of water. The converter's temperature category includes °C, °F and K."
+],
+[
+"Converting in a spreadsheet",
+"In Excel or Google Sheets, put the Fahrenheit value in A2 and use =(A2-32)*5/9 for Celsius, or =CONVERT(A2,\"F\",\"C\"). For the reverse use =A2*9/5+32 or =CONVERT(A2,\"C\",\"F\"). Format the cells to one decimal place for weather data. The converter's TXT download lists your value in °C, °F and K, ready to paste into a sheet."
+],
+[
+"Converting a whole list",
+"Paste a column of Fahrenheit readings into a spreadsheet and apply the formula once, or convert values one at a time here and use the download button to keep a record of each result together with its Kelvin equivalent."
+],
+[
+"Privacy",
+"The converter runs entirely in your browser. Nothing you type is sent to a server, your values are not tracked, and once the page has loaded it keeps working offline – useful in a workshop, a kitchen, a gym or on a plane."
+],
+[
+"Related converters",
+[
+"[Celsius to Fahrenheit](/celsius-to-fahrenheit/)",
+"[Temperature converter](/temperature-converter/)",
+"[Unit converter](/unit-converter/)",
+"[Grams to ounces](/grams-to-ounces/)",
+"[Inches to cm](/inches-to-cm/)"
+]
+]
+],
+"compare": [
+[
+"Runs in your browser, works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Ads or sign-up to see results",
+"No",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula worked on your number",
+"Yes",
+"Formula on page",
+"Formula on page",
+"See site"
+],
+[
+"Kelvin shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Oven and fever tables",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert Fahrenheit to Celsius?",
+"a": "Subtract 32, then divide by 1.8. 68 °F → 36 ÷ 1.8 = 20 °C."
+},
+{
+"q": "What is 98.6 °F in Celsius?",
+"a": "37 °C."
+},
+{
+"q": "What is 350 °F in Celsius?",
+"a": "176.7 °C, usually written as 180 °C (160 °C fan)."
+},
+{
+"q": "What is 100 °F in Celsius?",
+"a": "37.8 °C."
+},
+{
+"q": "What is 0 °F in Celsius?",
+"a": "−17.8 °C."
+},
+{
+"q": "At what temperature are °F and °C equal?",
+"a": "−40."
+},
+{
+"q": "Is there a quick way to estimate?",
+"a": "Subtract 30 and halve; it is within about 2 °C for weather temperatures."
+},
+{
+"q": "Is 100.4 °F a fever?",
+"a": "100.4 °F (38 °C) is the usual fever threshold for adults."
+},
+{
+"q": "How do I convert a temperature difference?",
+"a": "Multiply the °F difference by 5/9 – do not subtract 32."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes, it runs in your browser."
+}
+],
+"related": [
+"celsius-to-fahrenheit",
+"temperature-converter",
+"unit-converter",
+"grams-to-ounces",
+"inches-to-cm"
+]
+}
+}
+}
+}

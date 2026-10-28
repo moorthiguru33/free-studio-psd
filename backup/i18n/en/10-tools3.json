@@ -1,0 +1,1196 @@
+{
+ "tools": {
+  "summarize": {
+   "name": "Summarize PDF",
+   "short": "Key points and a short summary of any PDF.",
+   "title": "Summarize PDF – Free AI PDF Summarizer, No Upload | {brand}",
+   "desc": "Summarize PDF, Word or text files in seconds. Get the key sentences, keywords and a short summary with page references. Free, no sign-up, runs privately in your browser.",
+   "h1": "AI PDF Summarizer",
+   "steps": [
+    "Select a PDF, Word (.docx) or text file.",
+    "Pick summary length and format (bullets or paragraph).",
+    "Read the summary on screen or download it."
+   ],
+   "faq": [
+    {
+     "q": "How does the summarizer work?",
+     "a": "It ranks every sentence with a TextRank-style algorithm (word importance plus how strongly each sentence connects to the rest of the document) and keeps the best ones in their original order. Each point links back to its page."
+    },
+    {
+     "q": "Does it make things up?",
+     "a": "No. It is extractive: every sentence in the summary is copied from your document, so there are no invented facts – a common problem with chatbot summaries."
+    }
+   ],
+   "guide": {
+    "intro": "Long reports, research papers and contracts take time to read. {brand}'s summarizer pulls out the sentences that carry the most meaning, plus the top keywords, so you can decide in a minute whether a document matters and where to look. Unlike cloud AI tools, your file is processed entirely on your own device – nothing is uploaded, logged or used to train a model.",
+    "uses": [
+     "Skim a 60-page annual report or tender document before a meeting.",
+     "Get the gist of a research paper and jump to the pages that matter.",
+     "Create quick revision notes from lecture handouts or textbooks.",
+     "Check what a long contract or policy actually says before reading it in full."
+    ],
+    "tips": [
+     "Choose 'Short' for a 5-point overview, 'Detailed' for study notes.",
+     "Scanned PDF? Tick 'OCR scanned pages' so text is read from the images first.",
+     "Page numbers next to each point help you jump to the source and read context."
+    ],
+    "faq": [
+     {
+      "q": "Which languages are supported?",
+      "a": "Any language with spaces between words works well; English gives the best keyword results. Sentence splitting uses your browser's built-in language rules."
+     },
+     {
+      "q": "Is there a page limit?",
+      "a": "No fixed limit. Very large files (500+ pages) take longer because all processing happens on your device."
+     }
+    ]
+   }
+  },
+  "chatpdf": {
+   "name": "Chat with PDF",
+   "short": "Ask questions, get answers with page citations.",
+   "title": "Chat with PDF – Ask Questions to Any PDF Free, Private | {brand}",
+   "desc": "Ask questions about any PDF and get answers quoted from the document with page numbers. Free, no sign-up, no upload – the search runs in your browser.",
+   "h1": "Chat with PDF",
+   "steps": [
+    "Select a PDF, Word or text file.",
+    "Type a question or tap a suggested one.",
+    "Read the answer with page citations; download the Q&A."
+   ],
+   "faq": [
+    {
+     "q": "Is this a chatbot like ChatGPT?",
+     "a": "It is a private answer finder: it searches your document with the BM25 ranking used by search engines and shows the best-matching passages with page numbers. It never invents an answer – if the document does not say it, you will see that."
+    },
+    {
+     "q": "Is my document uploaded?",
+     "a": "No. Text extraction and search run in your browser; there is no server and no account."
+    }
+   ],
+   "guide": {
+    "intro": "Finding one fact in a 200-page manual is slow with Ctrl+F because you need the exact words. Chat with PDF understands questions in plain language, ranks every passage of your document, and answers with the most relevant quotes and their page numbers so you can verify them instantly. Because nothing is uploaded, it is safe for contracts, medical records and internal documents.",
+    "uses": [
+     "Ask 'What is the notice period?' in an employment contract.",
+     "Find warranty, return or safety information in a product manual.",
+     "Look up definitions and results in a research paper or textbook.",
+     "Check deadlines and eligibility rules in a government circular or tender."
+    ],
+    "tips": [
+     "Ask specific questions with key terms: 'late payment penalty' works better than 'what happens?'.",
+     "Click a page number to see the source; answers are always quotes.",
+     "Download the conversation as a text file for your notes."
+    ],
+    "faq": [
+     {
+      "q": "Can it summarise the whole document?",
+      "a": "Use Summarize PDF for that – Chat with PDF is designed to find specific answers."
+     },
+     {
+      "q": "Does it work offline?",
+      "a": "Yes, once the page has loaded it works without a connection."
+     }
+    ]
+   }
+  },
+  "quizgen": {
+   "name": "PDF Question Generator",
+   "short": "Make quiz and flash-card questions from any PDF.",
+   "title": "PDF Question Generator – Make Quiz Questions from PDF Free | {brand}",
+   "desc": "Turn a PDF, Word file or notes into multiple-choice and fill-in-the-blank questions with an answer key. Free, private, no sign-up.",
+   "h1": "PDF Question Generator",
+   "steps": [
+    "Select study material (PDF, DOCX or TXT).",
+    "Choose the number and type of questions.",
+    "Download the quiz with answer key."
+   ],
+   "faq": [
+    {
+     "q": "How are questions created?",
+     "a": "The tool picks the most informative sentences, blanks out a key term (a name, number or important phrase) and builds distractor options from similar terms in the same document."
+    },
+    {
+     "q": "Can I edit the questions?",
+     "a": "Yes. Download as text and edit, or copy into Google Forms, Moodle or Quizlet."
+    }
+   ],
+   "guide": {
+    "intro": "Making practice questions by hand takes hours. {brand} reads your notes or textbook chapter and generates fill-in-the-blank and multiple-choice questions from the most important facts, with an answer key and page references. Teachers get a first draft of a test in seconds, and students get active-recall practice from their own material.",
+    "uses": [
+     "Revise a textbook chapter with 20 self-test questions.",
+     "Create a quick classroom quiz from a lesson PDF.",
+     "Build flash cards for exam preparation.",
+     "Check understanding of a training manual or policy document."
+    ],
+    "tips": [
+     "Text-heavy material with facts, names and numbers produces the best questions.",
+     "Mix multiple-choice and fill-in-the-blank for variety.",
+     "Review questions before sharing – automatic questions occasionally pick a trivial word."
+    ],
+    "faq": [
+     {
+      "q": "Is it free for teachers?",
+      "a": "Yes, completely free with no limits or accounts."
+     },
+     {
+      "q": "Does it work for scanned books?",
+      "a": "Enable OCR so the text is read from page images first."
+     }
+    ]
+   }
+  },
+  "extractfacts": {
+   "name": "Extract Data from PDF",
+   "short": "Pull dates, amounts, emails, phones and names out of PDFs.",
+   "title": "Extract Data from PDF – Dates, Amounts, Emails, Phones Free | {brand}",
+   "desc": "Automatically extract dates, money amounts, percentages, emails, phone numbers, URLs and names from PDFs into a CSV. Free, private, no upload.",
+   "h1": "Extract Data from PDF",
+   "steps": [
+    "Select one PDF, Word or text file.",
+    "Wait while every page is scanned for facts.",
+    "Review the list and download it as CSV for Excel."
+   ],
+   "faq": [
+    {
+     "q": "What does it find?",
+     "a": "Dates, money amounts in many currencies, percentages, quantities with units, email addresses, phone numbers, web links and capitalised names/organisations – each with its page number."
+    },
+    {
+     "q": "Can I open the result in Excel?",
+     "a": "Yes – the CSV opens directly in Excel, Google Sheets or LibreOffice."
+    }
+   ],
+   "guide": {
+    "intro": "Copying invoice totals, contract dates or contact details out of PDFs by hand is slow and error-prone. {brand} scans every page with pattern recognition and lists every fact it finds, grouped by type and linked to its page, ready to paste into a spreadsheet. Everything runs locally, so even financial and personal data stays private.",
+    "uses": [
+     "List all deadlines and dates in a contract or tender.",
+     "Collect amounts and totals from invoices and statements.",
+     "Build a contact list from a brochure or directory PDF.",
+     "Find every link and email in a report before publishing."
+    ],
+    "tips": [
+     "Scanned documents need OCR – tick the OCR option.",
+     "Sort the CSV by type in Excel to review dates or amounts together.",
+     "For full tables, use PDF to Excel instead."
+    ],
+    "faq": [
+     {
+      "q": "Is this AI?",
+      "a": "It uses fast rule-based extraction plus keyword ranking – predictable, private and free, with no cloud model."
+     },
+     {
+      "q": "Which date formats work?",
+      "a": "Common formats such as 12/03/2026, 2026-03-12, 12 March 2026 and March 12, 2026."
+     }
+    ]
+   }
+  },
+  "poster": {
+   "name": "PDF Poster Maker",
+   "short": "Print a big poster across several A4 or Letter sheets.",
+   "title": "Print PDF as Poster – Tile PDF Across Multiple Pages Free | {brand}",
+   "desc": "Enlarge any PDF page or image and split it across A4 or Letter sheets with overlap, cut marks and assembly labels. Print a poster on a home printer. Free, no upload.",
+   "h1": "Print PDF as Poster",
+   "steps": [
+    "Select a PDF or image.",
+    "Choose poster size (2×2, 3×3…) or scale, paper and overlap.",
+    "Download the tiled PDF and print at 100% (actual size)."
+   ],
+   "faq": [
+    {
+     "q": "How do I assemble the poster?",
+     "a": "Each sheet is labelled A1, A2, B1… (row letter, column number). Trim along the cut marks on one side and glue or tape over the dashed overlap area of the next sheet."
+    },
+    {
+     "q": "Will it lose quality?",
+     "a": "PDF pages stay vector, so text and lines remain sharp at any size. Images are enlarged as they are, so use a high-resolution image for big posters."
+    }
+   ],
+   "guide": {
+    "intro": "Large-format printing is expensive, but any home or office printer can produce a poster if the artwork is split into tiles. {brand} enlarges your page, picks the orientation that needs the fewest sheets, adds an overlap margin for gluing, prints cut marks and labels each tile so assembly is foolproof. Everything happens in your browser.",
+    "uses": [
+     "Print a classroom chart or map on 4 or 9 A4 sheets.",
+     "Make a large event or shop-window poster without a plotter.",
+     "Blow up an architectural plan or sewing pattern to real scale.",
+     "Create a giant birthday banner from a single image."
+    ],
+    "tips": [
+     "Always print at 'Actual size' / 100% – 'Fit to page' would shrink the tiles.",
+     "10 mm overlap is easy to glue; use 0 for borderless printers.",
+     "'By scale' lets you print a plan at an exact enlargement, e.g. 200%."
+    ],
+    "faq": [
+     {
+      "q": "Can I use a photo?",
+      "a": "Yes, JPG/PNG/WebP images work. Use at least 150 pixels per printed inch for good results."
+     },
+     {
+      "q": "Which page is used in a multi-page PDF?",
+      "a": "Enter the page number in options; default is page 1."
+     }
+    ]
+   }
+  },
+  "cleanpdf": {
+   "name": "PDF Cleaner",
+   "short": "Remove hidden scripts, attachments, metadata and comments.",
+   "title": "PDF Cleaner – Remove JavaScript, Metadata & Hidden Data Free | {brand}",
+   "desc": "Sanitize PDFs: remove JavaScript, auto-run actions, embedded files, metadata, comments, XFA and private data. See exactly what was removed. Free, private, no upload.",
+   "h1": "PDF Cleaner & Sanitizer",
+   "steps": [
+    "Select one or more PDFs.",
+    "Choose what to remove (safe defaults are pre-selected).",
+    "Download the cleaned PDF and read the removal report."
+   ],
+   "faq": [
+    {
+     "q": "Why clean a PDF?",
+     "a": "PDFs can carry JavaScript, actions that open web pages, hidden attachments and metadata such as author names and software versions. Cleaning removes these before you share or archive a file."
+    },
+    {
+     "q": "Will the pages look different?",
+     "a": "No. Only hidden data is removed; visible content stays the same. Comments and links are kept unless you choose to remove them."
+    }
+   ],
+   "guide": {
+    "intro": "A PDF can contain much more than its pages: scripts that run when it is opened, embedded files, form data, editing history, thumbnails and metadata that reveal who made it and with what software. {brand}'s cleaner removes these hidden parts and gives you a per-file report of everything it found – useful before publishing, sending to clients, or opening documents from unknown senders.",
+    "uses": [
+     "Strip JavaScript and auto-actions from a PDF received by email.",
+     "Remove author names and software info before publishing a report.",
+     "Delete hidden attachments from a form before sending it on.",
+     "Prepare clean files for a document archive or court submission."
+    ],
+    "tips": [
+     "Keep 'Comments' unticked if reviewers still need the notes.",
+     "Combine with Flatten PDF to lock form fields as plain content.",
+     "For visible personal data, use Redact PDF – cleaning only removes hidden data."
+    ],
+    "faq": [
+     {
+      "q": "Is this the same as Remove Metadata?",
+      "a": "It goes further: metadata plus scripts, actions, attachments, XFA forms and private application data."
+     },
+     {
+      "q": "Can it remove viruses?",
+      "a": "It removes the PDF features that malware typically abuses (JavaScript, launch actions, embedded files), but it is not an antivirus scanner."
+     }
+    ]
+   }
+  },
+  "repair": {
+   "name": "Repair PDF",
+   "short": "Fix damaged or corrupt PDFs that won't open.",
+   "title": "Repair PDF – Fix Corrupted or Damaged PDF Files Free | {brand}",
+   "desc": "Repair corrupt PDF files: rebuild the broken structure, recover readable pages and save a clean copy. Free, no sign-up, no upload – works in your browser.",
+   "h1": "Repair PDF",
+   "steps": [
+    "Select the damaged PDF(s).",
+    "Keep 'Automatic' or choose a repair method.",
+    "Download the repaired PDF and check the report."
+   ],
+   "faq": [
+    {
+     "q": "What can be fixed?",
+     "a": "Broken cross-reference tables, wrong offsets, junk before the header, truncated downloads and missing trailers – the most common causes of 'file is damaged' errors. Pages that can still be read are recovered."
+    },
+    {
+     "q": "What does 'Re-render pages' do?",
+     "a": "If the structure is too broken to rebuild, each readable page is redrawn as a high-quality image so you still get a usable PDF. Text then is no longer selectable – run OCR PDF afterwards to restore it."
+    }
+   ],
+   "guide": {
+    "intro": "PDFs get corrupted by interrupted downloads, faulty email attachments, full disks or buggy software. {brand} tries two repair engines: first a tolerant parser that rebuilds the file structure and keeps text, fonts and links; if pages are still missing it uses a second reader to recover every page it can render. You always see what was done.",
+    "uses": [
+     "Recover an email attachment that says 'file is damaged and could not be repaired'.",
+     "Fix a PDF that opens in one app but not another.",
+     "Rescue pages from a partly downloaded or truncated file.",
+     "Clean up a PDF that makes printers or upload portals fail."
+    ],
+    "tips": [
+     "Try 'Automatic' first; it keeps text when possible.",
+     "If the result is image-only, run OCR PDF to make it searchable again.",
+     "Encrypted PDFs need the password – unlock them first."
+    ],
+    "faq": [
+     {
+      "q": "Is my file uploaded for repair?",
+      "a": "No, both repair engines run inside your browser."
+     },
+     {
+      "q": "Can every PDF be repaired?",
+      "a": "If the page data itself is missing (for example most of the file was never downloaded), those pages cannot be recovered. The report tells you how many pages were saved."
+     }
+    ]
+   }
+  },
+  "pdfacheck": {
+   "name": "Validate PDF/A",
+   "short": "Check if a PDF meets PDF/A archiving rules.",
+   "title": "Validate PDF/A – Free PDF/A Checker Online, No Upload | {brand}",
+   "desc": "Check PDF/A-1b, 2b and 3b compliance: fonts, XMP metadata, ICC output intent, encryption, JavaScript, transparency and more. Clear pass/fail report. Free and private.",
+   "h1": "PDF/A Validator",
+   "steps": [
+    "Select one or more PDFs.",
+    "Choose the PDF/A level or use the one the file claims.",
+    "Read the pass/fail checklist or download the report."
+   ],
+   "faq": [
+    {
+     "q": "Is this an official certification?",
+     "a": "It is a fast preflight of the rules that cause most rejections (fonts, metadata, colour profile, encryption, scripts, transparency, attachments). For formal certification use a full validator such as veraPDF."
+    },
+    {
+     "q": "My file fails – what now?",
+     "a": "Convert it with our PDF to PDF/A tool, then validate again."
+    }
+   ],
+   "guide": {
+    "intro": "Courts, government portals and archives often demand PDF/A, and rejected uploads usually come down to a handful of problems: missing fonts, no PDF/A identification in the metadata, no colour profile, encryption or JavaScript. {brand} checks these in your browser and explains each issue in plain English so you know exactly what to fix.",
+    "uses": [
+     "Check a court e-filing or tax document before submitting.",
+     "Verify scanned archives meet PDF/A-2b requirements.",
+     "Audit a batch of exported reports for long-term storage.",
+     "Confirm a converter really produced PDF/A."
+    ],
+    "tips": [
+     "'Claimed level' reads the level the file declares in its metadata.",
+     "Most portals accept PDF/A-2b; check their exact requirement.",
+     "Font problems are fixed by re-exporting with 'embed all fonts'."
+    ],
+    "faq": [
+     {
+      "q": "Which levels are checked?",
+      "a": "PDF/A-1b, 2b and 3b (visual preservation). Level-specific rules like 'no transparency' for A-1 are applied automatically."
+     },
+     {
+      "q": "Are my documents uploaded?",
+      "a": "No, validation runs entirely on your device."
+     }
+    ]
+   }
+  },
+  "pdf2epub": {
+   "name": "PDF to EPUB",
+   "short": "Turn PDFs into reflowable e-books for Kindle and phones.",
+   "title": "PDF to EPUB – Convert PDF to eBook Free, No Upload | {brand}",
+   "desc": "Convert PDF to EPUB 3 e-books with chapters, a table of contents and reflowable text that fits any screen. Removes headers and page numbers. Free, private.",
+   "h1": "Convert PDF to EPUB",
+   "steps": [
+    "Select a PDF.",
+    "Set title, author and how chapters are split.",
+    "Download the EPUB and open it in any e-reader app."
+   ],
+   "faq": [
+    {
+     "q": "Why convert PDF to EPUB?",
+     "a": "PDF pages are fixed in size, so they are tiny on phones and e-readers. EPUB text reflows to your screen, and you can change font size, use night mode and dictionary lookup."
+    },
+    {
+     "q": "Does it work with Kindle?",
+     "a": "Yes. Send the EPUB with 'Send to Kindle' (Amazon converts EPUB automatically) or open it in Apple Books, Google Play Books, Kobo or any EPUB reader."
+    }
+   ],
+   "guide": {
+    "intro": "Reading a PDF on a phone means pinching and scrolling sideways. {brand} rebuilds your PDF as a real e-book: paragraphs joined across line breaks, hyphenated words fixed, headers, footers and page numbers removed, headings turned into chapters with a clickable table of contents. Pages that are mostly images (covers, diagrams, scans) are included as pictures.",
+    "uses": [
+     "Read a long report or novel comfortably on an e-reader.",
+     "Turn lecture notes into an EPUB for your phone.",
+     "Send a PDF manual to Kindle with readable text.",
+     "Publish a simple e-book from your own PDF."
+    ],
+    "tips": [
+     "Text-based PDFs convert best; scans need OCR PDF first.",
+     "Multi-column layouts may need 'One per page' chapters for a clean order.",
+     "Fill in title and author so your library shows them correctly."
+    ],
+    "faq": [
+     {
+      "q": "Is the EPUB valid?",
+      "a": "It is EPUB 3 with navigation document, metadata and spine, accepted by major readers and stores."
+     },
+     {
+      "q": "Are images kept?",
+      "a": "Pages with little text are added as images. Small inline figures on text pages are not extracted."
+     }
+    ]
+   }
+  },
+  "epub2pdf": {
+   "name": "EPUB to PDF",
+   "short": "Convert e-books to printable PDF.",
+   "title": "EPUB to PDF – Convert eBook to PDF Free, No Upload | {brand}",
+   "desc": "Convert EPUB e-books to PDF with chapters in reading order, images and multi-language fonts. Choose A5 book, A4 or Letter. Free, private, no sign-up.",
+   "h1": "Convert EPUB to PDF",
+   "steps": [
+    "Select one or more EPUB files.",
+    "Choose page size and font size.",
+    "Download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Does it work with DRM-protected books?",
+     "a": "No. DRM-protected e-books are encrypted; only DRM-free EPUBs (Project Gutenberg, Standard Ebooks, your own books) can be converted."
+    },
+    {
+     "q": "Are images included?",
+     "a": "Yes – JPG and PNG are embedded; GIF, WebP and SVG images are converted automatically."
+    }
+   ],
+   "guide": {
+    "intro": "EPUB is great on e-readers but awkward to print, annotate or share with people who just want a PDF. {brand} reads the book's structure (container, package and spine), keeps chapters in reading order, embeds images and lays out text with fonts that support most scripts – all in your browser.",
+    "uses": [
+     "Print a public-domain book or chapter.",
+     "Share an e-book draft with editors who use PDF tools.",
+     "Annotate a book chapter for a class.",
+     "Archive DRM-free e-books in a universal format."
+    ],
+    "tips": [
+     "A5 page size gives a book-like layout; A4 is better for printing on office paper.",
+     "Use 14 pt for large-print copies.",
+     "Merge several converted books with Merge PDF."
+    ],
+    "faq": [
+     {
+      "q": "Is the layout identical to my e-reader?",
+      "a": "E-books reflow, so the PDF uses its own clean layout: headings, paragraphs, lists, tables and images in order."
+     },
+     {
+      "q": "Is there a size limit?",
+      "a": "Files up to around 100 MB work well in most browsers."
+     }
+    ]
+   }
+  },
+  "pdfspeech": {
+   "name": "PDF to Speech",
+   "short": "Read PDFs aloud with natural voices.",
+   "title": "PDF to Speech – Read PDF Aloud Online Free (Text to Speech) | {brand}",
+   "desc": "Listen to any PDF, Word or text file read aloud with your device's natural voices. Sentence highlighting, speed control, page ranges. Free, private, no upload.",
+   "h1": "PDF to Speech – Read Aloud",
+   "steps": [
+    "Select a PDF, DOCX or text file.",
+    "Pick a voice and speed.",
+    "Press Play – click any sentence to jump there."
+   ],
+   "faq": [
+    {
+     "q": "Which voices are available?",
+     "a": "The voices built into your device and browser. Edge and Chrome offer natural-sounding voices in many languages; iPhone, Mac and Android include high-quality system voices."
+    },
+    {
+     "q": "Can I download an MP3?",
+     "a": "Browsers do not allow recording their speech engine, so audio plays live. You can download the cleaned script with timestamps."
+    }
+   ],
+   "guide": {
+    "intro": "Listening is easier than reading when you are commuting, cooking or resting your eyes. {brand} extracts the text of your document, removes page numbers and broken hyphenation, and reads it sentence by sentence while highlighting where you are. Speed and pitch are adjustable and you can start from any sentence with one click.",
+    "uses": [
+     "Listen to reports and articles while commuting.",
+     "Proof-read your own writing by ear.",
+     "Support readers with dyslexia or low vision.",
+     "Practise pronunciation with foreign-language texts."
+    ],
+    "tips": [
+     "Choose voices marked with your language code (e.g. en-GB, en-US) for natural pronunciation.",
+     "Use a page range to start at a specific chapter.",
+     "Scanned PDFs need OCR PDF first."
+    ],
+    "faq": [
+     {
+      "q": "Does it work offline?",
+      "a": "Many system voices work offline; some 'online' voices in Chrome/Edge need a connection to the browser vendor's speech service."
+     },
+     {
+      "q": "Is my document uploaded?",
+      "a": "The document is processed locally. Only if you pick an online browser voice does that browser send the spoken sentences to its speech service."
+     }
+    ]
+   }
+  },
+  "formfill": {
+   "name": "Fill PDF Form",
+   "short": "Type into PDF forms right on the page.",
+   "title": "Fill PDF Form Online Free – Type on Any PDF, No Upload | {brand}",
+   "desc": "Fill in PDF forms directly on the page: text fields, checkboxes, radio buttons and dropdowns. Non-fillable PDF? Blank lines become fields and you can click to type anywhere. Free, private.",
+   "h1": "Fill PDF Form",
+   "steps": [
+    "Select a PDF form.",
+    "Click into fields on the page and type – or click anywhere to add text.",
+    "Download the filled PDF (optionally flattened)."
+   ],
+   "faq": [
+    {
+     "q": "What if my PDF has no fillable fields?",
+     "a": "{brand} detects blank lines (_____ or ......) and turns them into input boxes automatically, and you can click any empty spot to add your own text."
+    },
+    {
+     "q": "Will the form stay editable?",
+     "a": "Yes, real form fields stay fillable. Tick 'Flatten' to lock the answers so they cannot be changed."
+    }
+   ],
+   "guide": {
+    "intro": "Printing a form just to write on it and scan it back is a waste of time. {brand} shows your PDF and places live inputs exactly over every field – text boxes, checkboxes, radio buttons, dropdowns – so you fill it like a web form. Scanned or non-fillable forms work too: blank lines are detected automatically and you can click anywhere to add text.",
+    "uses": [
+     "Complete job, visa or school application forms.",
+     "Fill tax and bank forms that only come as PDF.",
+     "Add answers to a scanned questionnaire.",
+     "Fill a rental or HR form and sign it with Sign PDF."
+    ],
+    "tips": [
+     "Press Tab to move to the next field.",
+     "To remove an added text box, empty it and press Backspace.",
+     "Need a signature? Run the filled file through Sign PDF."
+    ],
+    "faq": [
+     {
+      "q": "Is my data uploaded?",
+      "a": "No. Your answers are written into the PDF inside your browser."
+     },
+     {
+      "q": "Which characters are supported?",
+      "a": "Latin characters (including accents) work in all fields."
+     }
+    ]
+   }
+  },
+  "formcreate": {
+   "name": "Create Fillable PDF",
+   "short": "Turn any PDF into a fillable form.",
+   "title": "Create Fillable PDF Form Free – Auto-Detect Form Fields | {brand}",
+   "desc": "Make any PDF fillable: blank lines are detected and turned into real form fields automatically, and you can click to add more. Free, no sign-up, no upload.",
+   "h1": "Create Fillable PDF Form",
+   "steps": [
+    "Select a PDF (Word export or scan).",
+    "Check the detected fields; click to add more.",
+    "Download the fillable PDF."
+   ],
+   "faq": [
+    {
+     "q": "How are fields detected?",
+     "a": "Runs of underscores and dot leaders (_____ / ……) in the text layer are converted into text fields of the same size. You can add more by clicking on the page."
+    },
+    {
+     "q": "Can recipients fill it in Adobe Reader?",
+     "a": "Yes – the result contains standard AcroForm text fields that work in Acrobat, browsers, Preview and mobile apps."
+    }
+   ],
+   "guide": {
+    "intro": "Many forms are shared as flat PDFs exported from Word, so people have to print them. {brand} finds the blank lines in your document and turns them into real fillable fields in one click, with the option to add fields anywhere you like. Send the result and recipients can complete it on any device.",
+    "uses": [
+     "Make an exported Word application form fillable.",
+     "Create a fillable registration or feedback form for an event.",
+     "Digitise a paper-based HR or school form.",
+     "Add answer fields to a worksheet."
+    ],
+    "tips": [
+     "Pre-type text into a field to set a default value.",
+     "Scanned forms need OCR PDF first so blank lines can be detected.",
+     "Test the result with Fill PDF Form before sending."
+    ],
+    "faq": [
+     {
+      "q": "Can I add checkboxes?",
+      "a": "Detected and added fields are text fields; existing checkboxes in the PDF are kept."
+     },
+     {
+      "q": "Is it free?",
+      "a": "Yes, no limits and no watermark."
+     }
+    ]
+   }
+  },
+  "viewer": {
+   "name": "PDF Reader",
+   "short": "Open and read PDFs online with search and zoom.",
+   "title": "PDF Reader Online – Open & View PDF Files Free, No Upload | {brand}",
+   "desc": "Open PDF files in your browser: fast scrolling, zoom, page jump, full-text search and night mode. Save selected pages as a new PDF. Free, private, no install.",
+   "h1": "Online PDF Reader",
+   "steps": [
+    "Select a PDF.",
+    "Scroll, zoom, search or jump to a page.",
+    "Optionally save selected pages as a new PDF."
+   ],
+   "faq": [
+    {
+     "q": "Do I need to install anything?",
+     "a": "No. It works in any modern browser on phone, tablet or computer."
+    },
+    {
+     "q": "Is the file uploaded?",
+     "a": "No, it is opened locally – perfect for private documents on shared computers."
+    }
+   ],
+   "guide": {
+    "intro": "Sometimes you just need to read a PDF – on a library computer, a work laptop without Acrobat, or a phone whose viewer cannot search. {brand}'s reader renders pages on demand for fast scrolling even in long documents, searches the full text with result snippets, and offers a night mode for comfortable reading.",
+    "uses": [
+     "Read a PDF on a computer without a PDF app.",
+     "Search a long manual for every mention of a term.",
+     "Read at night with dark mode.",
+     "Pull a few pages out as a separate PDF."
+    ],
+    "tips": [
+     "Type at least two letters to search; click a result to jump to its page.",
+     "Use + / − to zoom; pages re-render sharply at each zoom level.",
+     "Enter page ranges like 1-3,7 to save just those pages."
+    ],
+    "faq": [
+     {
+      "q": "Can I annotate?",
+      "a": "Use Edit PDF for text, drawings and highlights."
+     },
+     {
+      "q": "Does it support password-protected PDFs?",
+      "a": "Yes. It asks for the password and decrypts the file only in your browser. Saved pages are written without the password."
+     }
+    ]
+   }
+  },
+  "anypdf": {
+   "name": "Convert to PDF",
+   "short": "Turn Word, Excel, images, text and ZIPs into PDF in one go.",
+   "title": "Convert to PDF – Word, Excel, Images, ZIP to PDF Free (Batch) | {brand}",
+   "desc": "Convert many files to PDF at once: DOCX, ODT, XLSX, CSV, images, TXT, Markdown, HTML and even ZIP archives. Combine into one bookmarked PDF or get separate files. Free, no upload.",
+   "h1": "Convert Anything to PDF",
+   "steps": [
+    "Select files of any supported type (or a ZIP).",
+    "Choose one combined PDF or one PDF per file.",
+    "Download the result."
+   ],
+   "faq": [
+    {
+     "q": "Which formats are supported?",
+     "a": "PDF, DOCX, ODT, XLSX, XLS, ODS, CSV, TSV, TXT, Markdown, HTML, JPG, PNG, WebP, GIF, BMP, AVIF, SVG and ZIP archives containing any of these."
+    },
+    {
+     "q": "What happens to unsupported files?",
+     "a": "They are skipped and listed in the result, so one odd file does not stop the batch."
+    }
+   ],
+   "guide": {
+    "intro": "Mixed bundles of documents – a Word letter, a spreadsheet, a few photos – usually need three different converters. {brand} converts them all in one step in your browser and can merge them into a single PDF with a bookmark for each original file, so the result is easy to navigate. ZIP archives are unpacked automatically.",
+    "uses": [
+     "Bundle application documents (CV, certificates, photos) into one PDF.",
+     "Convert a whole folder of receipts from a ZIP.",
+     "Turn spreadsheets into printable PDF tables.",
+     "Archive mixed project files as PDF."
+    ],
+    "tips": [
+     "Tick 'Sort files by name' when files are numbered (1, 2, 10 sort naturally).",
+     "Choose 'One PDF per file' for separate conversions in a ZIP.",
+     "Complex Word layouts convert best with our dedicated Word to PDF tool."
+    ],
+    "faq": [
+     {
+      "q": "Is there a limit on the number of files?",
+      "a": "No fixed limit; very large batches depend on your device memory."
+     },
+     {
+      "q": "Are my files uploaded?",
+      "a": "No, all conversion happens in your browser."
+     }
+    ]
+   }
+  },
+  "zip2pdf": {
+   "name": "ZIP to PDF",
+   "short": "Convert every file inside a ZIP into one PDF.",
+   "title": "ZIP to PDF – Convert ZIP Archive to PDF Free, No Upload | {brand}",
+   "desc": "Convert all images, documents and spreadsheets inside a ZIP file into one bookmarked PDF or separate PDFs. Free, private, no sign-up.",
+   "h1": "ZIP to PDF Converter",
+   "steps": [
+    "Select one or more ZIP files.",
+    "Choose combined or separate PDFs.",
+    "Download the PDF(s)."
+   ],
+   "faq": [
+    {
+     "q": "What inside the ZIP is converted?",
+     "a": "Images, PDFs, Word/ODT documents, spreadsheets, CSV, text, Markdown and HTML. Hidden system files (like __MACOSX) are ignored."
+    },
+    {
+     "q": "Is the order preserved?",
+     "a": "Files follow the archive order; tick 'Sort files by name' for alphabetical/numeric order."
+    }
+   ],
+   "guide": {
+    "intro": "Scanned pages, photos and receipts often arrive zipped. Instead of unpacking and converting files one by one, {brand} opens the archive in your browser and turns everything inside into a single PDF with a bookmark per file – or one PDF each.",
+    "uses": [
+     "Turn a ZIP of scanned pages into one PDF document.",
+     "Convert a photo archive into a printable album.",
+     "Combine zipped invoices into a single file for accounting.",
+     "Make a PDF from exported chat or email attachments."
+    ],
+    "tips": [
+     "Numbered filenames like page1, page2, page10 sort correctly with 'Sort by name'.",
+     "Large photo archives can be compressed afterwards with Compress PDF."
+    ],
+    "faq": [
+     {
+      "q": "Can it open RAR or 7z?",
+      "a": "Only ZIP is supported."
+     },
+     {
+      "q": "Is it free?",
+      "a": "Yes, free and unlimited."
+     }
+    ]
+   }
+  },
+  "excel2pdf": {
+   "name": "Excel to PDF",
+   "short": "Convert spreadsheets to clean PDF tables.",
+   "title": "Excel to PDF – Convert XLSX, XLS, ODS to PDF Free, No Upload | {brand}",
+   "desc": "Convert Excel spreadsheets (XLSX, XLS, ODS, CSV) to PDF with readable tables, one section per sheet and repeated headers. Free, private, no sign-up.",
+   "h1": "Convert Excel to PDF",
+   "steps": [
+    "Select spreadsheets.",
+    "Choose page size.",
+    "Download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Are all sheets included?",
+     "a": "Yes, every non-empty sheet becomes its own section with the sheet name as heading."
+    },
+    {
+     "q": "Will formulas show?",
+     "a": "The calculated values are shown, as formatted in the file."
+    }
+   ],
+   "guide": {
+    "intro": "Sharing a spreadsheet as PDF ensures everyone sees the same numbers without editing them. {brand} turns every sheet into a clean PDF table with the first row as a header, wrapping long cells and splitting big sheets across pages – without Excel installed and without uploading your financial data.",
+    "uses": [
+     "Send a price list or quotation as a PDF.",
+     "Print a timetable or attendance sheet.",
+     "Archive monthly reports as PDF.",
+     "Share data with people who do not have Excel."
+    ],
+    "tips": [
+     "Wide sheets fit better on A3 or Legal.",
+     "Delete unneeded columns before converting for a tidier table.",
+     "Need the reverse? Use PDF to Excel."
+    ],
+    "faq": [
+     {
+      "q": "Does it keep colours and charts?",
+      "a": "It focuses on data: cell values in clean tables. Charts and cell colours are not reproduced."
+     },
+     {
+      "q": "Is my data uploaded?",
+      "a": "No – conversion happens in your browser."
+     }
+    ]
+   }
+  },
+  "csv2pdf": {
+   "name": "CSV to PDF",
+   "short": "Turn CSV files into printable PDF tables.",
+   "title": "CSV to PDF – Convert CSV to PDF Table Free, No Upload | {brand}",
+   "desc": "Convert CSV and TSV files into neat, printable PDF tables with headers. Handles thousands of rows. Free, private, no sign-up.",
+   "h1": "Convert CSV to PDF",
+   "steps": [
+    "Select CSV or TSV files.",
+    "Choose page size.",
+    "Download the PDF table."
+   ],
+   "faq": [
+    {
+     "q": "Which delimiters work?",
+     "a": "Commas, semicolons, tabs and pipes are detected automatically."
+    },
+    {
+     "q": "Can it handle large files?",
+     "a": "Yes, rows are paginated automatically; tens of thousands of rows work on most devices."
+    }
+   ],
+   "guide": {
+    "intro": "CSV exports from banks, shops and apps are hard to read and print. {brand} turns them into tidy PDF tables with a bold header row, wrapped cells and page breaks – ready to print, email or archive.",
+    "uses": [
+     "Print a bank or payment export.",
+     "Share an order list or inventory as PDF.",
+     "Archive survey results.",
+     "Turn a contact export into a printable list."
+    ],
+    "tips": [
+     "Choose landscape-friendly A3 for many columns.",
+     "Remove unnecessary columns in a spreadsheet first.",
+     "Convert to Excel instead with CSV to Excel."
+    ],
+    "faq": [
+     {
+      "q": "Is the first row a header?",
+      "a": "Yes, it is shown in bold."
+     },
+     {
+      "q": "Is my file uploaded?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "odt2pdf": {
+   "name": "ODT to PDF",
+   "short": "Convert OpenDocument text (LibreOffice) to PDF.",
+   "title": "ODT to PDF – Convert OpenDocument Text to PDF Free | {brand}",
+   "desc": "Convert ODT files from LibreOffice and OpenOffice to PDF with headings, lists and tables. Free, private, no install or upload.",
+   "h1": "Convert ODT to PDF",
+   "steps": [
+    "Select ODT files.",
+    "Choose page size.",
+    "Download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "What is kept?",
+     "a": "Headings, paragraphs, lists, tables and line breaks. Complex page layouts, images and custom fonts are simplified."
+    },
+    {
+     "q": "Do I need LibreOffice?",
+     "a": "No, conversion runs in your browser."
+    }
+   ],
+   "guide": {
+    "intro": "ODT is the native format of LibreOffice and OpenOffice Writer, but many recipients cannot open it. {brand} reads the document structure and produces a clean PDF anyone can view – without installing an office suite.",
+    "uses": [
+     "Send a LibreOffice document to someone using only a phone.",
+     "Submit an ODT assignment where PDF is required.",
+     "Archive OpenDocument files as PDF.",
+     "Print ODT files on a computer without LibreOffice."
+    ],
+    "tips": [
+     "For pixel-perfect layout, export from LibreOffice with File › Export as PDF.",
+     "Spreadsheets (ODS) convert with Excel to PDF."
+    ],
+    "faq": [
+     {
+      "q": "Does it support ODS and ODP?",
+      "a": "ODS spreadsheets: yes, via Excel to PDF. ODP presentations are not supported yet."
+     },
+     {
+      "q": "Is it free?",
+      "a": "Yes."
+     }
+    ]
+   }
+  },
+  "pdf2excel": {
+   "name": "PDF to Excel",
+   "short": "Extract tables from PDF into Excel with smart detection.",
+   "title": "PDF to Excel – Convert PDF Tables to XLSX Free, No Upload | {brand}",
+   "desc": "Convert PDF tables to Excel with automatic table detection, column alignment and real numbers. XLSX, CSV or ODS; sheet per page or per table. Free, private.",
+   "h1": "Convert PDF to Excel",
+   "steps": [
+    "Select a PDF with tables.",
+    "Choose format and how sheets are organised.",
+    "Preview the table and download the spreadsheet."
+   ],
+   "faq": [
+    {
+     "q": "How does table detection work?",
+     "a": "Text is grouped into rows, split into cells at wide gaps, and columns are aligned by clustering cell positions across each table – so rows with empty cells still land in the correct columns."
+    },
+    {
+     "q": "Are numbers usable in formulas?",
+     "a": "Yes. '1,234.50', '(500)', '₹2,000' and '15%' are converted to real numbers (turn this off to keep the text exactly)."
+    }
+   ],
+   "guide": {
+    "intro": "Re-typing bank statements, price lists or reports from PDF into a spreadsheet is tedious. {brand} detects tables in the text layer, aligns columns intelligently and converts amounts to real numbers so you can sum and sort immediately. Choose one sheet per page, one per table, or everything on one sheet – and nothing is uploaded.",
+    "uses": [
+     "Analyse bank or credit-card statements in Excel.",
+     "Import supplier price lists and invoices.",
+     "Reuse tables from annual reports or research papers.",
+     "Convert timetables and schedules into editable sheets."
+    ],
+    "tips": [
+     "'Tables only' drops headings and paragraphs for a cleaner sheet.",
+     "Use the page range to skip cover and summary pages.",
+     "Scanned PDF? Run OCR PDF first, then convert."
+    ],
+    "faq": [
+     {
+      "q": "Does it work on scanned statements?",
+      "a": "Only after OCR – scans have no text layer. Our OCR PDF tool adds one."
+     },
+     {
+      "q": "Can I get CSV instead?",
+      "a": "Yes, choose CSV in options or use PDF to CSV."
+     }
+    ]
+   }
+  },
+  "pdf2csv": {
+   "name": "PDF to CSV",
+   "short": "Extract PDF tables into CSV files.",
+   "title": "PDF to CSV – Extract Tables from PDF to CSV Free | {brand}",
+   "desc": "Convert PDF tables to CSV with automatic table detection and column alignment. Opens in Excel, Google Sheets and databases. Free, private, no upload.",
+   "h1": "Convert PDF to CSV",
+   "steps": [
+    "Select a PDF.",
+    "Choose sheet layout and number conversion.",
+    "Download CSV (ZIP for multiple tables)."
+   ],
+   "faq": [
+    {
+     "q": "Is the CSV Excel-friendly?",
+     "a": "Yes, it is UTF-8 with a byte-order mark so Excel shows accents and symbols correctly."
+    },
+    {
+     "q": "Multiple tables?",
+     "a": "Choose 'One sheet per table' to get a separate CSV per table in a ZIP."
+    }
+   ],
+   "guide": {
+    "intro": "CSV is the universal format for importing data into spreadsheets, databases and accounting software. {brand} finds tables in your PDF, aligns their columns and exports clean CSV – entirely in your browser.",
+    "uses": [
+     "Import a statement into accounting software.",
+     "Load PDF report data into Google Sheets or a database.",
+     "Extract product lists for an online shop import.",
+     "Feed table data into Python or R."
+    ],
+    "tips": [
+     "Turn off number conversion to keep text exactly as printed.",
+     "Use page ranges for large reports."
+    ],
+    "faq": [
+     {
+      "q": "Does it handle merged cells?",
+      "a": "Merged-looking cells are placed in the first column they cover."
+     },
+     {
+      "q": "Is my file uploaded?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "docscan": {
+   "name": "PDF Scanner",
+   "short": "Turn phone photos of documents into clean PDF scans.",
+   "title": "PDF Scanner Online – Scan Documents to PDF Free (Auto Crop) | {brand}",
+   "desc": "Turn photos of paper documents into clean PDF scans: automatic edge detection, perspective correction, adjustable corners and B&W photocopy mode. Free, private, no app.",
+   "h1": "Scan Documents to PDF",
+   "steps": [
+    "Select photos of your pages (or take them with your phone camera).",
+    "Check the detected edges and drag corners if needed.",
+    "Choose enhancement and download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "How does auto-crop work?",
+     "a": "The page is found as the largest bright area in the photo, its four corners are located and the image is straightened with a true perspective transform, so a photo taken at an angle looks like a flat scan."
+    },
+    {
+     "q": "Which mode is best for text?",
+     "a": "'Black & white (photocopy)' gives crisp, small files for text documents; 'Colour' keeps stamps and signatures in colour with a whiter background."
+    }
+   ],
+   "guide": {
+    "intro": "A phone camera is a perfectly good scanner if the photo is cropped, straightened and cleaned up. {brand} detects the page edges, corrects the perspective, evens out shadows and turns your photos into a multi-page PDF – no app install, no account and no upload, which matters for IDs, contracts and medical papers.",
+    "uses": [
+     "Scan signed contracts, receipts or ID documents.",
+     "Digitise handwritten notes or homework.",
+     "Create a PDF of a form to email back.",
+     "Archive old letters and certificates."
+    ],
+    "tips": [
+     "Photograph the page on a dark, contrasting surface for best edge detection.",
+     "Avoid harsh shadows; use daylight when possible.",
+     "Drag the round handles to correct any corner the detector missed."
+    ],
+    "faq": [
+     {
+      "q": "Can I use my phone camera directly?",
+      "a": "Yes – on phones, the file picker offers the camera. Or use Camera to PDF for live capture."
+     },
+     {
+      "q": "Is it really free?",
+      "a": "Yes, no watermark and no limits."
+     }
+    ]
+   }
+  },
+  "printready": {
+   "name": "Print-Ready PDF",
+   "short": "Add bleed, crop marks and trim boxes for professional printing.",
+   "title": "Print-Ready PDF – Add Bleed & Crop Marks Online Free | {brand}",
+   "desc": "Make PDFs print-shop ready: add 3 mm bleed with mirrored edges, crop marks, registration marks and correct TrimBox/BleedBox. Resize to A4, A5, Letter or business card. Free, no upload.",
+   "h1": "Make PDF Print-Ready",
+   "steps": [
+    "Select your PDF artwork.",
+    "Set bleed, marks and trim size.",
+    "Download and send to your printer."
+   ],
+   "faq": [
+    {
+     "q": "What is bleed?",
+     "a": "Printers cut sheets after printing; bleed is extra artwork beyond the trim edge (usually 3 mm) so no white lines appear if the cut is slightly off. {brand} creates it by mirroring the page edges."
+    },
+    {
+     "q": "Which boxes are set?",
+     "a": "MediaBox (full sheet with marks), BleedBox (trim + bleed) and TrimBox (final size) – what print-shop preflight checks for."
+    }
+   ],
+   "guide": {
+    "intro": "Print shops often reject files without bleed or crop marks, and design software is expensive. {brand} adds proper bleed by extending your artwork's edges, draws crop and registration marks outside the bleed area and sets the PDF boxes printers check – in seconds, in your browser.",
+    "uses": [
+     "Prepare flyers and posters for an online print service.",
+     "Send business cards with bleed and crop marks.",
+     "Fix a 'missing bleed' warning from your printer.",
+     "Resize artwork to A5 or Letter with bleed."
+    ],
+    "tips": [
+     "3 mm is standard in Europe/Asia; US printers often ask for 0.125 in (3.2 mm).",
+     "Keep important text at least 3–5 mm inside the trim edge.",
+     "'White' bleed is for documents without full-bleed backgrounds."
+    ],
+    "faq": [
+     {
+      "q": "Does it convert to CMYK?",
+      "a": "Marks are drawn in registration colour; artwork colours are kept as-is. Ask your printer whether RGB files are accepted (most digital printers convert automatically)."
+     },
+     {
+      "q": "Is my artwork uploaded?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "pdf2png": {
+   "name": "PDF to PNG",
+   "short": "Convert PDF pages to high-quality PNG images.",
+   "title": "PDF to PNG – Convert PDF to PNG Images Free, High Quality | {brand}",
+   "desc": "Convert PDF pages to sharp PNG images up to 300 DPI. Choose pages, get one PNG or a ZIP. Free, no sign-up, no upload.",
+   "h1": "Convert PDF to PNG",
+   "steps": [
+    "Select a PDF.",
+    "Pick resolution and pages.",
+    "Download PNG images."
+   ],
+   "faq": [
+    {
+     "q": "PNG or JPG?",
+     "a": "PNG is lossless – best for text, diagrams and screenshots with sharp edges. JPG is smaller for photos."
+    },
+    {
+     "q": "What resolution should I use?",
+     "a": "2x (144 DPI) for screens, 300 DPI for printing."
+    }
+   ],
+   "guide": {
+    "intro": "PNG keeps text and line art perfectly crisp, which makes it the best image format for slides, documentation and social posts made from PDF pages. {brand} renders each page in your browser at up to 300 DPI and packs multiple pages into a ZIP.",
+    "uses": [
+     "Use a PDF page in a presentation or blog post.",
+     "Share a single page on social media or chat.",
+     "Create crisp images of diagrams and charts.",
+     "Make thumbnails of documents."
+    ],
+    "tips": [
+     "Use page ranges like 1,3-5 to convert only what you need.",
+     "Compress results with Compress PNG if files are large."
+    ],
+    "faq": [
+     {
+      "q": "Is transparency kept?",
+      "a": "Pages are rendered on white, like printed paper."
+     },
+     {
+      "q": "Is my file uploaded?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "compresspng": {
+   "name": "Compress PNG",
+   "short": "Shrink PNG files up to 80% with smart colour reduction.",
+   "title": "Compress PNG – Reduce PNG File Size Free, No Upload | {brand}",
+   "desc": "Compress PNG images by up to 80% with smart colour quantization, keeping transparency. Batch, free, no sign-up, no upload.",
+   "h1": "Compress PNG Images",
+   "steps": [
+    "Select PNG images.",
+    "Adjust quality (fewer colours = smaller file).",
+    "Download the compressed PNGs."
+   ],
+   "faq": [
+    {
+     "q": "How can PNG get smaller without losing quality?",
+     "a": "Most PNGs use far fewer than 16 million colours. Quantizing to an optimal 256-colour (or smaller) palette shrinks files dramatically while looking virtually identical, and transparency is preserved."
+    },
+    {
+     "q": "Will it ever make my file bigger?",
+     "a": "No – if the result would be larger, the original is kept."
+    }
+   ],
+   "guide": {
+    "intro": "PNG files from screenshots and design tools are often several megabytes. {brand} reduces them with palette quantization (like TinyPNG) right in your browser – no upload limits, no daily quota and full transparency support.",
+    "uses": [
+     "Speed up a website by shrinking PNG graphics.",
+     "Fit screenshots under email or upload size limits.",
+     "Optimise app icons and UI assets.",
+     "Reduce storage for large image collections."
+    ],
+    "tips": [
+     "Quality 70 is a good balance; go lower for flat graphics and icons.",
+     "Set a max width to also resize large screenshots.",
+     "Photos are often smaller as WebP or JPG – change format if transparency is not needed."
+    ],
+    "faq": [
+     {
+      "q": "Is there a file limit?",
+      "a": "No limits on number of files."
+     },
+     {
+      "q": "Is my image uploaded?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "compressjpg": {
+   "name": "Compress JPG",
+   "short": "Reduce JPG/JPEG file size without visible quality loss.",
+   "title": "Compress JPG – Reduce JPEG Size Online Free, No Upload | {brand}",
+   "desc": "Compress JPG/JPEG photos with adjustable quality, optional resizing and metadata removal. Batch processing, free, no sign-up, nothing uploaded.",
+   "h1": "Compress JPG Images",
+   "steps": [
+    "Select JPG images.",
+    "Choose quality and optional max width.",
+    "Download the compressed photos."
+   ],
+   "faq": [
+    {
+     "q": "What quality setting should I use?",
+     "a": "70–80 is visually identical for most photos while saving 50–80%. Use 60 for web thumbnails."
+    },
+    {
+     "q": "Does it remove location data?",
+     "a": "Yes, with 'Remove metadata' ticked, EXIF data including GPS location is stripped."
+    }
+   ],
+   "guide": {
+    "intro": "Phone photos are 3–10 MB each – too big for many upload forms and emails. {brand} re-encodes your JPGs at the quality you choose, optionally resizes them and strips hidden EXIF/GPS data, all inside your browser.",
+    "uses": [
+     "Meet a 200 KB or 1 MB limit for job or exam application photos.",
+     "Email a batch of holiday photos.",
+     "Speed up product images on an online shop.",
+     "Remove GPS location before sharing photos."
+    ],
+    "tips": [
+     "Combine a max width (e.g. 1600 px) with quality 75 for the biggest savings.",
+     "Check the '% saved' figure; if small, the photo was already optimised.",
+     "Need an exact size in KB? Lower quality step by step."
+    ],
+    "faq": [
+     {
+      "q": "Can I compress many photos at once?",
+      "a": "Yes, select as many as you like and download a ZIP."
+     },
+     {
+      "q": "Is it free?",
+      "a": "Yes, unlimited."
+     }
+    ]
+   }
+  }
+ }
+}

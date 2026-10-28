@@ -1,0 +1,384 @@
+{
+"tools": {
+"rarx": {
+"name": "RAR Extractor",
+"short": "Open and extract RAR files in your browser.",
+"title": "Extract RAR Files Online – Free RAR Opener, No Upload | {brand}",
+"desc": "Open RAR archives online and download the files inside – free, no upload, no software to install. Works on Windows, Mac, Chromebook, Android and iPhone.",
+"h1": "Extract RAR files online",
+"steps": [
+"Choose the .rar file you want to open.",
+"Wait a moment while the archive is read on your device.",
+"Click Start, then download single files or everything as a ZIP."
+],
+"faq": [
+{
+"q": "How do I open a RAR file without software?",
+"a": "Drop it on this page and press Start. {brand} unpacks the archive in your browser with a WebAssembly build of libarchive – no WinRAR, 7-Zip or app install needed."
+},
+{
+"q": "Is my archive uploaded?",
+"a": "No. The archive is read and unpacked entirely on your device, so private documents and backups never leave it."
+},
+{
+"q": "What is supported?",
+"a": "Supported: RAR 4 and RAR 5 archives, including multi-file archives with folders. Split volumes (.part1.rar, .r00) are not supported yet."
+},
+{
+"q": "Can I open password-protected archives?",
+"a": "Not yet. Encrypted RAR and 7Z archives need a desktop tool such as 7-Zip; unencrypted archives open here instantly."
+},
+{
+"q": "Does it work on iPhone and Chromebook?",
+"a": "Yes. Any modern browser works, which makes it handy on Chromebooks and iPads where archive apps are limited."
+},
+{
+"q": "Is there a size limit?",
+"a": "No artificial limit. Archives up to about 1–2 GB work on a laptop; phones are limited by memory."
+}
+],
+"guide": {
+"intro": "RAR (Roshal Archive) is the proprietary archive format created by WinRAR, still the most common way large downloads, game mods, subtitles and document bundles are shared. Windows, iPhone and Chromebook can’t always open it out of the box, and many “free” unzip sites make you upload your files to a server. {brand} opens it right inside your browser tab – the files are listed with sizes, and you can save any one of them or everything as a single ZIP.",
+"uses": [
+"Open a RAR you received by email or downloaded, on a computer where you can’t install software.",
+"Pull a single document out of a large backup without unpacking everything.",
+"Unpack archives on a Chromebook, iPad or phone.",
+"Convert the contents into a regular ZIP that every device opens."
+],
+"tips": [
+"Download everything as ZIP to repack the content in the most compatible format.",
+"Only open archives from sources you trust – extracting is safe, but running unknown programs inside them is not.",
+"For multi-part archives, join the parts on a desktop with 7-Zip first.",
+"Need to make an archive? Use Create TAR.GZ or Create ZIP."
+],
+"more": [
+[
+"What is inside a RAR",
+"An archive stores many files and folders as one, usually compressed. {brand} reads the directory, decompresses each entry in a background worker so the page stays responsive, and shows a list with full paths. Nothing runs from inside the archive – files are only offered as downloads."
+],
+[
+"Under the hood",
+"Extraction uses libarchive – the same open-source BSD-licensed library behind the tar command on macOS and FreeBSD – compiled to WebAssembly (about 1 MB, loaded only when you press Start so the page itself stays instant)."
+],
+[
+"Compared with other options",
+"Desktop tools like 7-Zip and WinRAR are excellent but need installing (and WinRAR nags for a licence). Upload sites such as ezyZip or extract.me either upload your file or show ads and limits. Here nothing is uploaded, there are no limits and no sign-up."
+]
+],
+"faq": [
+{
+"q": "Why is a file missing?",
+"a": "Empty folders are not listed and macOS metadata (__MACOSX, ._ files) is kept as-is. If an entry fails to decompress the archive may be damaged or a split volume."
+},
+{
+"q": "Can I preview files?",
+"a": "Click any file in the list to download it; images and PDFs open directly in your browser."
+}
+]
+}
+},
+"7zx": {
+"name": "7Z Extractor",
+"short": "Open and extract 7Z files in your browser.",
+"title": "Extract 7Z Files Online – Free 7Z Opener, No Upload | {brand}",
+"desc": "Open 7Z archives online and download the files inside – free, no upload, no software to install. Works on Windows, Mac, Chromebook, Android and iPhone.",
+"h1": "Extract 7Z files online",
+"steps": [
+"Choose the .7z file you want to open.",
+"Wait a moment while the archive is read on your device.",
+"Click Start, then download single files or everything as a ZIP."
+],
+"faq": [
+{
+"q": "How do I open a 7Z file without software?",
+"a": "Drop it on this page and press Start. {brand} unpacks the archive in your browser with a WebAssembly build of libarchive – no WinRAR, 7-Zip or app install needed."
+},
+{
+"q": "Is my archive uploaded?",
+"a": "No. The archive is read and unpacked entirely on your device, so private documents and backups never leave it."
+},
+{
+"q": "What is supported?",
+"a": "Supported: 7z archives with LZMA, LZMA2, BZip2 or Deflate compression, folders, Unicode names."
+},
+{
+"q": "Can I open password-protected archives?",
+"a": "Not yet. Encrypted RAR and 7Z archives need a desktop tool such as 7-Zip; unencrypted archives open here instantly."
+},
+{
+"q": "Does it work on iPhone and Chromebook?",
+"a": "Yes. Any modern browser works, which makes it handy on Chromebooks and iPads where archive apps are limited."
+},
+{
+"q": "Is there a size limit?",
+"a": "No artificial limit. Archives up to about 1–2 GB work on a laptop; phones are limited by memory."
+}
+],
+"guide": {
+"intro": "7z (7-Zip) is 7-Zip’s open archive format with LZMA2 compression, often 30–70% smaller than ZIP. Windows, iPhone and Chromebook can’t always open it out of the box, and many “free” unzip sites make you upload your files to a server. {brand} opens it right inside your browser tab – the files are listed with sizes, and you can save any one of them or everything as a single ZIP.",
+"uses": [
+"Open a 7Z you received by email or downloaded, on a computer where you can’t install software.",
+"Pull a single document out of a large backup without unpacking everything.",
+"Unpack archives on a Chromebook, iPad or phone.",
+"Convert the contents into a regular ZIP that every device opens."
+],
+"tips": [
+"Download everything as ZIP to repack the content in the most compatible format.",
+"Only open archives from sources you trust – extracting is safe, but running unknown programs inside them is not.",
+"For multi-part archives, join the parts on a desktop with 7-Zip first.",
+"Need to make an archive? Use Create TAR.GZ or Create ZIP."
+],
+"more": [
+[
+"What is inside a 7Z",
+"An archive stores many files and folders as one, usually compressed. {brand} reads the directory, decompresses each entry in a background worker so the page stays responsive, and shows a list with full paths. Nothing runs from inside the archive – files are only offered as downloads."
+],
+[
+"Under the hood",
+"Extraction uses libarchive – the same open-source BSD-licensed library behind the tar command on macOS and FreeBSD – compiled to WebAssembly (about 1 MB, loaded only when you press Start so the page itself stays instant)."
+],
+[
+"Compared with other options",
+"Desktop tools like 7-Zip and WinRAR are excellent but need installing (and WinRAR nags for a licence). Upload sites such as ezyZip or extract.me either upload your file or show ads and limits. Here nothing is uploaded, there are no limits and no sign-up."
+]
+],
+"faq": [
+{
+"q": "Why is a file missing?",
+"a": "Empty folders are not listed and macOS metadata (__MACOSX, ._ files) is kept as-is. If an entry fails to decompress the archive may be damaged or a split volume."
+},
+{
+"q": "Can I preview files?",
+"a": "Click any file in the list to download it; images and PDFs open directly in your browser."
+}
+]
+}
+},
+"tarx": {
+"name": "TAR Extractor",
+"short": "Open and extract TAR files in your browser.",
+"title": "Extract TAR Files Online – Free TAR Opener, No Upload | {brand}",
+"desc": "Open TAR archives online and download the files inside – free, no upload, no software to install. Works on Windows, Mac, Chromebook, Android and iPhone.",
+"h1": "Extract TAR files online",
+"steps": [
+"Choose the .tar file you want to open.",
+"Wait a moment while the archive is read on your device.",
+"Click Start, then download single files or everything as a ZIP."
+],
+"faq": [
+{
+"q": "How do I open a TAR file without software?",
+"a": "Drop it on this page and press Start. {brand} unpacks the archive in your browser with a WebAssembly build of libarchive – no WinRAR, 7-Zip or app install needed."
+},
+{
+"q": "Is my archive uploaded?",
+"a": "No. The archive is read and unpacked entirely on your device, so private documents and backups never leave it."
+},
+{
+"q": "What is supported?",
+"a": "Supported: plain .tar files in ustar, pax and GNU formats, with folders and long file names."
+},
+{
+"q": "Can I open password-protected archives?",
+"a": "Not yet. Encrypted RAR and 7Z archives need a desktop tool such as 7-Zip; unencrypted archives open here instantly."
+},
+{
+"q": "Does it work on iPhone and Chromebook?",
+"a": "Yes. Any modern browser works, which makes it handy on Chromebooks and iPads where archive apps are limited."
+},
+{
+"q": "Is there a size limit?",
+"a": "No artificial limit. Archives up to about 1–2 GB work on a laptop; phones are limited by memory."
+}
+],
+"guide": {
+"intro": "TAR (tape archive) is the classic Unix bundle format that groups files and folders without compressing them; it is how Linux, macOS and developer tools ship source code and backups. Windows, iPhone and Chromebook can’t always open it out of the box, and many “free” unzip sites make you upload your files to a server. {brand} opens it right inside your browser tab – the files are listed with sizes, and you can save any one of them or everything as a single ZIP.",
+"uses": [
+"Open a TAR you received by email or downloaded, on a computer where you can’t install software.",
+"Pull a single document out of a large backup without unpacking everything.",
+"Unpack archives on a Chromebook, iPad or phone.",
+"Convert the contents into a regular ZIP that every device opens."
+],
+"tips": [
+"Download everything as ZIP to repack the content in the most compatible format.",
+"Only open archives from sources you trust – extracting is safe, but running unknown programs inside them is not.",
+"For multi-part archives, join the parts on a desktop with 7-Zip first.",
+"Need to make an archive? Use Create TAR.GZ or Create ZIP."
+],
+"more": [
+[
+"What is inside a TAR",
+"An archive stores many files and folders as one, usually compressed. {brand} reads the directory, decompresses each entry in a background worker so the page stays responsive, and shows a list with full paths. Nothing runs from inside the archive – files are only offered as downloads."
+],
+[
+"Under the hood",
+"Extraction uses libarchive – the same open-source BSD-licensed library behind the tar command on macOS and FreeBSD – compiled to WebAssembly (about 1 MB, loaded only when you press Start so the page itself stays instant)."
+],
+[
+"Compared with other options",
+"Desktop tools like 7-Zip and WinRAR are excellent but need installing (and WinRAR nags for a licence). Upload sites such as ezyZip or extract.me either upload your file or show ads and limits. Here nothing is uploaded, there are no limits and no sign-up."
+]
+],
+"faq": [
+{
+"q": "Why is a file missing?",
+"a": "Empty folders are not listed and macOS metadata (__MACOSX, ._ files) is kept as-is. If an entry fails to decompress the archive may be damaged or a split volume."
+},
+{
+"q": "Can I preview files?",
+"a": "Click any file in the list to download it; images and PDFs open directly in your browser."
+}
+]
+}
+},
+"tgzx": {
+"name": "TAR.GZ Extractor",
+"short": "Open and extract TAR.GZ files in your browser.",
+"title": "Extract TAR.GZ Files Online – Free TAR.GZ Opener, No Upload | {brand}",
+"desc": "Open TAR.GZ archives online and download the files inside – free, no upload, no software to install. Works on Windows, Mac, Chromebook, Android and iPhone.",
+"h1": "Extract TAR.GZ files online",
+"steps": [
+"Choose the .tar.gz file you want to open.",
+"Wait a moment while the archive is read on your device.",
+"Click Start, then download single files or everything as a ZIP."
+],
+"faq": [
+{
+"q": "How do I open a TAR.GZ file without software?",
+"a": "Drop it on this page and press Start. {brand} unpacks the archive in your browser with a WebAssembly build of libarchive – no WinRAR, 7-Zip or app install needed."
+},
+{
+"q": "Is my archive uploaded?",
+"a": "No. The archive is read and unpacked entirely on your device, so private documents and backups never leave it."
+},
+{
+"q": "What is supported?",
+"a": "Supported: .tar.gz, .tgz, .tar.xz, .txz, .tar.bz2 and .tar.zst tarballs and single .gz files."
+},
+{
+"q": "Can I open password-protected archives?",
+"a": "Not yet. Encrypted RAR and 7Z archives need a desktop tool such as 7-Zip; unencrypted archives open here instantly."
+},
+{
+"q": "Does it work on iPhone and Chromebook?",
+"a": "Yes. Any modern browser works, which makes it handy on Chromebooks and iPads where archive apps are limited."
+},
+{
+"q": "Is there a size limit?",
+"a": "No artificial limit. Archives up to about 1–2 GB work on a laptop; phones are limited by memory."
+}
+],
+"guide": {
+"intro": "TAR.GZ / TGZ (gzip-compressed tarball) is a TAR bundle compressed with gzip – the standard format for Linux software, server backups, npm and Python packages and log exports. Windows, iPhone and Chromebook can’t always open it out of the box, and many “free” unzip sites make you upload your files to a server. {brand} opens it right inside your browser tab – the files are listed with sizes, and you can save any one of them or everything as a single ZIP.",
+"uses": [
+"Open a TAR.GZ you received by email or downloaded, on a computer where you can’t install software.",
+"Pull a single document out of a large backup without unpacking everything.",
+"Unpack archives on a Chromebook, iPad or phone.",
+"Convert the contents into a regular ZIP that every device opens."
+],
+"tips": [
+"Download everything as ZIP to repack the content in the most compatible format.",
+"Only open archives from sources you trust – extracting is safe, but running unknown programs inside them is not.",
+"For multi-part archives, join the parts on a desktop with 7-Zip first.",
+"Need to make an archive? Use Create TAR.GZ or Create ZIP."
+],
+"more": [
+[
+"What is inside a TAR.GZ",
+"An archive stores many files and folders as one, usually compressed. {brand} reads the directory, decompresses each entry in a background worker so the page stays responsive, and shows a list with full paths. Nothing runs from inside the archive – files are only offered as downloads."
+],
+[
+"Under the hood",
+"Extraction uses libarchive – the same open-source BSD-licensed library behind the tar command on macOS and FreeBSD – compiled to WebAssembly (about 1 MB, loaded only when you press Start so the page itself stays instant)."
+],
+[
+"Compared with other options",
+"Desktop tools like 7-Zip and WinRAR are excellent but need installing (and WinRAR nags for a licence). Upload sites such as ezyZip or extract.me either upload your file or show ads and limits. Here nothing is uploaded, there are no limits and no sign-up."
+]
+],
+"faq": [
+{
+"q": "Why is a file missing?",
+"a": "Empty folders are not listed and macOS metadata (__MACOSX, ._ files) is kept as-is. If an entry fails to decompress the archive may be damaged or a split volume."
+},
+{
+"q": "Can I preview files?",
+"a": "Click any file in the list to download it; images and PDFs open directly in your browser."
+}
+]
+}
+},
+"tgzc": {
+"name": "Create TAR.GZ",
+"short": "Bundle files into a .tar.gz, .tar.xz, .tar or .7z archive.",
+"title": "Create TAR.GZ, TAR or 7Z Archive Online – No Upload | {brand}",
+"desc": "Make .tar.gz, .tar.xz, .tar or .7z archives from your files in the browser. Keeps folder structure, free, no upload, no software to install.",
+"h1": "Create a TAR.GZ archive",
+"steps": [
+"Select files or a whole folder.",
+"Pick .tar.gz, .tar.xz, .tar, .tar.bz2 or .7z and name the archive.",
+"Click Start and download the archive."
+],
+"faq": [
+{
+"q": "Which format should I pick?",
+"a": ".tar.gz is the universal choice for Linux, servers and developers. .tar.xz is smaller but slower. .7z gives the best compression for Windows users with 7-Zip. Plain .tar does not compress at all."
+},
+{
+"q": "Are files uploaded?",
+"a": "No. The archive is built on your device with libarchive compiled to WebAssembly."
+},
+{
+"q": "Is folder structure kept?",
+"a": "Yes when you choose a folder – relative paths are stored in the archive."
+},
+{
+"q": "Can I password-protect it?",
+"a": "Not yet. Use Create ZIP or Protect PDF for encrypted output."
+},
+{
+"q": "Is there a size limit?",
+"a": "Only your device memory – a few GB on a laptop."
+},
+{
+"q": "Can Windows open .tar.gz?",
+"a": "Windows 10/11 can open .tar and .tar.gz with the built-in tar command and File Explorer (Windows 11 23H2+)."
+}
+],
+"guide": {
+"intro": "TAR.GZ is the archive format servers, Linux distributions and developer tools expect. {brand} builds one in your browser – handy on Windows, ChromeOS and phones where you can’t run the tar command – without uploading a byte.",
+"uses": [
+"Package website files or a project for upload to a Linux server.",
+"Send logs or a folder of files as a single attachment.",
+"Create backups in an open, long-lived format.",
+"Prepare .7z archives for maximum compression."
+],
+"tips": [
+"Already-compressed files (JPG, MP4, ZIP) barely shrink – choose plain .tar for them to save time.",
+"Use .tar.xz for text-heavy folders such as logs or source code.",
+"Name the archive with a date for easy backups."
+],
+"more": [
+[
+"TAR vs ZIP",
+"ZIP compresses each file separately and is built into every OS. TAR bundles everything first and then compresses the whole stream, which usually yields smaller archives for many small files and keeps Unix permissions and long paths."
+],
+[
+"How it works",
+"Your files are passed to libarchive (BSD licence) running as WebAssembly in a background worker. The compressed archive is written in memory and offered as a download. The 1 MB engine is loaded only when you press Start."
+]
+],
+"faq": [
+{
+"q": "Can I extract archives too?",
+"a": "Yes – use Extract TAR.GZ, Extract RAR or Extract 7Z."
+},
+{
+"q": "Why is my .tar.gz not smaller?",
+"a": "The files are already compressed; there is nothing left to squeeze."
+}
+]
+}
+}
+}
+}

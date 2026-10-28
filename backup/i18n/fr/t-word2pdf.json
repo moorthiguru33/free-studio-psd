@@ -1,0 +1,205 @@
+{
+  "tools": {
+    "word2pdf": {
+      "name": "Word en PDF",
+      "short": "Convertissez des documents DOCX en PDF.",
+      "title": "Convertir Word en PDF en ligne gratuit – DOCX en PDF | {brand}",
+      "desc": "Convertissez des documents Word DOCX en PDF dans votre navigateur. Gratuit, sans envoi et sans filigrane.",
+      "h1": "Convertir Word en PDF",
+      "steps": [
+        "Sélectionnez votre fichier DOCX.",
+        "Cliquez sur Démarrer.",
+        "Téléchargez le PDF."
+      ],
+      "faq": [
+        {
+          "q": "La mise en forme est-elle conservée ?",
+          "a": "Le texte, les titres, le gras et l'italique, les listes, les tableaux, les images et les marges sont conservés. Vérifiez les documents à mise en page très complexe."
+        }
+      ],
+      "guide": {
+        "intro": "Le PDF garde à votre document le même aspect sur tout appareil ; c'est pourquoi la plupart des formulaires et portails l'exigent. {brand} convertit les fichiers DOCX en PDF dans votre navigateur : vos CV et lettres ne quittent jamais votre appareil.",
+        "uses": [
+          "Convertir votre CV ou votre lettre de motivation en PDF avant de postuler.",
+          "Envoyer des lettres ou rapports qui ne doivent pas être modifiés.",
+          "Préparer des documents pour l'impression."
+        ],
+        "tips": [
+          "Vérifiez le résultat des documents riches en images ou à mise en page complexe.",
+          "Pour une fidélité totale de la mise en page, vous pouvez aussi utiliser l'option Enregistrer au format PDF de Word."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Pourquoi envoyer un PDF plutôt qu'un Word",
+            "Un document Word peut s'afficher différemment sur un autre ordinateur à cause de polices manquantes ou de versions différentes du logiciel. Un PDF préserve la mise en page, est plus difficile à modifier par accident et est accepté par pratiquement tous les portails d'emploi et organisations."
+          ],
+          [
+            "Compatibilité",
+            "Les fichiers DOCX de Microsoft Word, Google Docs (téléchargés en DOCX), LibreOffice et les exports de Pages sont pris en charge."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Convertir Word en PDF – Gratuit, par lots et sans envoi",
+        "desc": "Convertissez Word (DOCX, DOC) en PDF dans votre navigateur. Lots en ZIP ; polices, tableaux et images conservés. Sans envoi ni filigrane.",
+        "sections": [
+          [
+            "Pourquoi convertir Word en PDF ici",
+            "Un document Word s'affiche différemment sur chaque ordinateur : des polices sont remplacées, les sauts de page bougent et les images se décalent. Un PDF fige la mise en page pour que ce que vous envoyez soit exactement ce que voit le lecteur, sous Windows, macOS, sur un téléphone ou une imprimante. C'est pourquoi CV, factures, devoirs, contrats et formulaires administratifs sont presque toujours demandés en PDF.",
+            "{brand} convertit le fichier .docx dans votre navigateur. Le document est décompressé et mis en page sur votre propre appareil, et le PDF final est généré en local. Votre fichier ne transite jamais par un serveur : courriers RH confidentiels, propositions clients ou copies d'examen restent sur votre machine.",
+            [
+              "**Conversion par lots gratuite** : déposez plusieurs fichiers DOCX à la fois et obtenez un ZIP de PDF. Smallpdf réserve le traitement par lots aux offres payantes ; ici, c'est gratuit et illimité.",
+              "**Conserve l'essentiel** : paragraphes, titres, gras et italique, listes, tableaux, images, format de page et marges.",
+              "**Sans filigrane ni limite quotidienne** : convertissez un fichier ou cent, aujourd'hui et demain.",
+              "**Fonctionne hors ligne** : une fois la page chargée, vous pouvez couper le Wi-Fi et continuer à convertir."
+            ]
+          ],
+          [
+            "Enregistrer un document Word en PDF sans aucun site web",
+            "Si Microsoft Word est installé, vous pouvez aussi choisir **Fichier → Enregistrer sous → PDF** (Windows) ou **Fichier → Exporter → PDF** (Mac). Google Docs propose **Fichier → Télécharger → Document PDF** et LibreOffice **Fichier → Exporter au format PDF**. Ce sont de bonnes options quand le logiciel est déjà ouvert.",
+            "Cet outil est utile sur un ordinateur sans Office, sur un Chromebook ou sur mobile, quand vous devez convertir tout un dossier de fichiers d'un coup ou quand on vous a envoyé un DOCX et que vous voulez juste un PDF rapide sans rien installer."
+          ],
+          [
+            "Conseils pour un PDF parfait",
+            [
+              "**Utilisez des polices courantes** : Calibri, Arial, Times New Roman et polices similaires sont converties avec la plus grande fidélité. Les polices décoratives rares peuvent être remplacées par des polices proches.",
+              "**Acceptez d'abord les modifications suivies** : les commentaires et marques de révision ne sont pas imprimés ; finalisez donc le document dans Word avant de le convertir.",
+              "**Vérifiez le format de page** : A4 et Letter (US) sont pris en charge ; le PDF utilise le format défini dans le document.",
+              "**Grandes images** : les photos en très haute résolution produisent des PDF lourds. Passez le résultat dans [Compresser un PDF](/compress-pdf/) pour l'alléger et l'envoyer par e-mail.",
+              "**Anciens fichiers .doc** : les fichiers .doc de Word 97–2003 sont aussi pris en charge. Leur texte et leurs paragraphes sont convertis dans votre navigateur ; pour des mises en page complexes avec images, enregistrez-les d'abord en .docx pour le résultat le plus fidèle."
+            ]
+          ],
+          [
+            "Usages courants",
+            [
+              "Envoyer un CV ou une lettre de motivation qui s'affiche à l'identique chez tout recruteur.",
+              "Remettre devoirs et mémoires sur des portails qui n'acceptent que le PDF.",
+              "Convertir d'un coup en PDF un lot de lettres ou de factures générées.",
+              "Archiver des documents validés pour que personne ne puisse les modifier par accident.",
+              "Préparer un document à signer avec [Signer un PDF](/sign-pdf/) ou à combiner avec d'autres via [Fusionner des PDF](/merge-pdf/)."
+            ]
+          ],
+          [
+            "Ce qu'il advient de votre document",
+            "Tout s'exécute en JavaScript dans l'onglet du navigateur. Le DOCX est lu depuis votre disque en mémoire, converti, et le PDF vous est proposé en téléchargement. À la fermeture de l'onglet, tout est effacé. Pas de compte, pas de suivi de vos fichiers par cookies, aucune copie conservée nulle part : vous pouvez le vérifier en vous déconnectant d'internet après le chargement de la page."
+          ],
+          [
+            "Word en PDF sous Windows, Mac, Chromebook et mobile",
+            "Comme le convertisseur est une page web, il se comporte de la même façon partout. Sur un PC Windows ou un Mac, il vous évite d'ouvrir Word juste pour exporter. Sur un Chromebook, sans les apps de bureau Microsoft Office, il vous donne un PDF fidèle en quelques secondes. Sur Android ou iPhone, ouvrez le DOCX depuis vos e-mails ou l'app Fichiers, convertissez-le ici et partagez directement le PDF : très pratique quand un portail ou un recruteur exige un PDF et que vous n'êtes pas à votre bureau."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Conversion par lots",
+            "Gratuit : de nombreux fichiers dans un ZIP",
+            "Voir le site",
+            "Offres Pro",
+            "Voir le site",
+            "Dans la limite de tâches"
+          ],
+          [
+            "Filigrane sur le résultat",
+            "Jamais",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Ce convertisseur Word en PDF est-il vraiment gratuit ?",
+            "a": "Oui. Pas de période d'essai, pas de filigrane, pas de limite de fichiers ou de conversions."
+          },
+          {
+            "q": "Puis-je convertir plusieurs fichiers Word à la fois ?",
+            "a": "Oui. Sélectionnez ou déposez plusieurs fichiers DOCX et vous obtenez un ZIP avec un PDF par document."
+          },
+          {
+            "q": "Mes documents sont-ils envoyés ?",
+            "a": "Non. La conversion se fait dans votre navigateur : le fichier ne quitte jamais votre appareil. Cela fonctionne même hors ligne après le chargement de la page."
+          },
+          {
+            "q": "La mise en forme restera-t-elle identique ?",
+            "a": "Paragraphes, titres, polices, listes, tableaux, images et marges sont conservés. Les polices très rares peuvent être remplacées par des polices proches."
+          },
+          {
+            "q": "Les fichiers .doc sont-ils pris en charge ?",
+            "a": "Oui. Les fichiers .doc de Word 97–2003 sont convertis directement dans votre navigateur (texte et paragraphes). Pour les documents riches en images ou en tableaux complexes, les enregistrer d'abord en .docx donne le résultat le plus fidèle."
+          },
+          {
+            "q": "Comment enregistrer un document Word en PDF dans Word ?",
+            "a": "Dans Word, utilisez Fichier → Enregistrer sous et choisissez PDF (Windows), ou Fichier → Exporter → PDF (Mac). Cet outil est pratique quand Word n'est pas installé."
+          },
+          {
+            "q": "Puis-je convertir Word en PDF sur mobile ?",
+            "a": "Oui. L'outil fonctionne dans les navigateurs mobiles Android et iPhone sans installer d'app."
+          },
+          {
+            "q": "Puis-je reconvertir le PDF en Word plus tard ?",
+            "a": "Oui : utilisez notre convertisseur PDF en Word, qui inclut aussi un OCR gratuit pour les fichiers scannés."
+          },
+          {
+            "q": "Y a-t-il une limite de taille de fichier ?",
+            "a": "Pas de limite fixe. Les très gros documents dépendent de la mémoire de votre appareil ; la plupart des téléphones et portables récents gèrent sans peine de longs rapports."
+          }
+        ],
+        "related": [
+          "pdf-to-word",
+          "merge-pdf",
+          "compress-pdf",
+          "excel-to-pdf",
+          "sign-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir Word en PDF gratuitement ?",
+            "a": "Déposez un ou plusieurs fichiers .docx et appuyez sur Convertir. Chaque document est converti en PDF dans votre navigateur et téléchargé séparément ou dans un ZIP, sans compte ni filigrane."
+          },
+          {
+            "q": "Puis-je convertir Word en PDF sur mobile ?",
+            "a": "Oui, le convertisseur fonctionne dans les navigateurs mobiles. Choisissez le DOCX dans votre app de fichiers, convertissez-le et enregistrez le PDF. Les documents très longs ou complexes se convertissent plus vite sur un ordinateur."
+          },
+          {
+            "q": "Comment convertir Word en PDF sans perdre la mise en forme ?",
+            "a": "Polices, tableaux et images sont conservés, mais une police ni intégrée ni disponible dans votre navigateur est remplacée par une police proche. Pour un résultat exact, utilisez des polices courantes ou exportez depuis Word ; cet outil est en bêta et idéal pour les documents du quotidien."
+          }
+        ]
+      }
+    }
+  }
+}

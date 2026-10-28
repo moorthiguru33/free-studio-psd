@@ -1,0 +1,3134 @@
+{
+"tools": {
+"imgcompress": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Compress Image to 20/50/100 KB – JPG, PNG, WebP Free",
+"desc": "Compress JPG, PNG, WebP and AVIF images to an exact KB target or chosen quality. Batch, resize, strip EXIF, convert to WebP. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs TinyPNG, iLoveIMG and FreeConvert",
+"compareCols": [
+"TinyPNG",
+"iLoveIMG",
+"FreeConvert"
+],
+"sections": [
+[
+"Make images smaller without making them look worse",
+"Large images are the single most common reason a web page loads slowly, an e-mail bounces or an online form refuses your upload. A photo straight from a modern phone is often 3–8 MB and 4000 pixels wide, while most websites, forms and chat apps only need a fraction of that. {brand}'s image compressor shrinks JPG, PNG, WebP and AVIF files – usually by 50–90% – while keeping them visually identical at normal viewing size.",
+"You stay in control of the trade-off. Pick a quality level and let the compressor do the rest, or tell it the exact size you need – 20 KB, 50 KB, 100 KB, 200 KB, 500 KB, 1 MB or any custom number – and it searches for the highest quality that fits under that limit. Drop one image or a hundred; batches come back as a single ZIP with a before-and-after table so you can see exactly how much each file saved.",
+"Unlike most online compressors, nothing is uploaded. The work happens inside your browser, so it is as fast as your device, has no daily limit and is safe for passport scans, medical photos, contracts photographed on a phone and anything else you would rather not hand to a stranger's server."
+],
+[
+"What you can do here that most compressors don't offer",
+[
+"**Compress to an exact file size.** Government portals, job sites, exam registration forms and visa applications often say 'photo under 50 KB' or 'signature under 20 KB'. Choose the target and the tool finds the best quality that fits; if quality alone cannot get there, it gently reduces the pixel dimensions until it does.",
+"**Quality slider for full control.** 80–90 is visually lossless for photos, 60–75 is the sweet spot for websites, 40–55 is fine for thumbnails and previews.",
+"**Convert while you compress.** Save as WebP or AVIF for 25–50% smaller files than JPG at the same quality, or keep the original format.",
+"**Resize in the same step.** Set a maximum width (for example 1920 px for a website hero image or 1080 px for social media) and the image is scaled down before compression – the biggest saving of all for phone photos.",
+"**Strip metadata.** EXIF data such as GPS location, camera serial number and editing history is removed by default. That protects your privacy and shaves extra kilobytes.",
+"**Batch with a report.** Compress many images at once and get a table with the original size, new size and percentage saved for each file, plus one ZIP download.",
+"**Never bigger than the original.** If an image is already optimised and cannot be made smaller in the same format, you get the original back instead of a larger file.",
+"**Works offline and has no caps.** No 5 MB per-file limit, no 20-image limit, no account and no watermark."
+]
+],
+[
+"How to compress an image",
+[
+"Drop your JPG, PNG, WebP, AVIF, HEIC, GIF or BMP files onto the page, or press Ctrl+V to paste a screenshot from the clipboard.",
+"Choose a quality level, or pick a target file size such as 50 KB or 100 KB.",
+"Optionally choose an output format (keep original, JPG, WebP, PNG or AVIF) and a maximum width.",
+"Click Compress. Single images download directly; several images come back in one ZIP with a size report."
+]
+],
+[
+"How image compression works",
+"Digital photos contain far more information than the human eye can detect at normal viewing size. Compression exploits this in two ways.",
+"**Lossy compression** (JPG, WebP, AVIF) discards fine detail that you are unlikely to notice: subtle colour variation inside smooth areas like skies and skin, and high-frequency texture that is lost anyway when an image is viewed on a phone screen. JPG divides the image into 8×8 pixel blocks, converts each block into frequencies and rounds off the less important ones; the quality setting controls how aggressive that rounding is. WebP and AVIF use more modern prediction techniques borrowed from video codecs, so they reach the same visual quality with considerably fewer bytes.",
+"**Lossless compression** (PNG) keeps every pixel exactly. The file gets smaller only by describing the same pixels more efficiently. To make PNGs dramatically smaller, {brand} uses colour quantisation: it reduces the image to an optimised palette of up to 256 colours, chosen to represent the original as closely as possible, and then stores it losslessly. For logos, icons, charts, screenshots and illustrations this typically cuts the size by 60–80% with no visible change, and transparency is preserved.",
+"Resizing has the largest effect of all. Halving the width and height of an image removes three quarters of its pixels, so a 4000-pixel phone photo scaled to 1600 pixels is already around 85% smaller before any compression is applied."
+],
+[
+"Which format should you choose?",
+{
+"table": [
+[
+"Format",
+"Best for",
+"Transparency",
+"Typical size vs JPG"
+],
+[
+"JPG",
+"Photos for any device or app",
+"No",
+"Baseline"
+],
+[
+"WebP",
+"Websites, blogs, online shops",
+"Yes",
+"25–35% smaller"
+],
+[
+"AVIF",
+"Modern websites wanting the smallest files",
+"Yes",
+"40–50% smaller"
+],
+[
+"PNG",
+"Logos, screenshots, text, line art",
+"Yes",
+"Larger for photos, smaller for flat graphics"
+]
+]
+},
+"If you are not sure, keep the original format – it opens everywhere the original did. If the image is for your own website, WebP is supported by every current browser and is usually the best balance between size and compatibility. AVIF gives the smallest files but encoding is slower and a few older apps cannot open it yet.",
+"Photos saved as PNG are a common mistake: a camera photo stored as PNG can be five to ten times larger than the same photo as a high-quality JPG. Converting such files to JPG or WebP while compressing is often the single biggest saving available."
+],
+[
+"Recommended settings for common jobs",
+{
+"table": [
+[
+"Job",
+"Setting"
+],
+[
+"Website hero / banner",
+"Max width 1920 px, WebP, quality 70"
+],
+[
+"Blog or product image",
+"Max width 1200 px, WebP or JPG, quality 70–75"
+],
+[
+"E-mail attachment",
+"Max width 1600 px, JPG, quality 75"
+],
+[
+"Online form photo (under 50 KB)",
+"Target 50 KB, JPG"
+],
+[
+"Signature scan (under 20 KB)",
+"Target 20 KB, JPG"
+],
+[
+"Social media post",
+"Max width 1080 px, JPG, quality 85"
+],
+[
+"WhatsApp / chat, sharper result",
+"Max width 1600 px, JPG, quality 80"
+],
+[
+"Logo or screenshot",
+"Keep PNG, quality 80 (palette)"
+],
+[
+"Archive of holiday photos",
+"Keep JPG, quality 85, no resize"
+]
+]
+},
+"These are starting points. Look at the result at the size it will actually be shown – a web page or a phone screen – rather than zoomed in to 400%, where every compressed image shows some artefacts."
+],
+[
+"Compressing images to a specific KB size",
+"Many official forms specify a maximum file size for photos and signatures. Indian exam and recruitment portals, passport and visa systems, university applications and bank KYC forms commonly ask for something like 'photo 20–50 KB, signature 10–20 KB, JPG only'. Hitting those numbers by trial and error in a photo editor is tedious.",
+"Choose the target from the list (or 'Custom' and type the number) and the compressor runs a binary search on the quality setting: it encodes the image, checks the size, and narrows down until it finds the highest quality that is still under your limit. If even low quality is too large – a big 12-megapixel photo cannot fit into 20 KB at full size – it reduces the pixel dimensions step by step until it fits. PNG images are saved as WebP or JPG in this mode because lossless PNG cannot be squeezed to a fixed size.",
+"If the form also specifies exact pixel dimensions (for example 200×230 px), first use [Resize Image](/resize-image/) with the right preset or size, then compress the result to the KB target – or use the 'Max file size' box in the resize tool to do both at once."
+],
+[
+"Why compress images for your website?",
+"Images usually make up the largest share of a page's weight. Smaller images mean faster loading, which improves user experience, conversions and search visibility – Google uses page experience signals such as Largest Contentful Paint, and the largest element on most pages is an image. Lighter pages also cost less to serve and are kinder to visitors on slow mobile data.",
+[
+"Serve images no wider than the largest size they are displayed at – a 1200 px wide content column never needs a 4000 px image.",
+"Prefer WebP or AVIF for photos; keep PNG or SVG for logos and icons.",
+"Use quality 65–75 for most web photos; the difference from 90 is rarely visible on screen.",
+"Strip metadata – browsers do not need camera details, and GPS data can reveal where a photo was taken.",
+"Lazy-load images below the fold so they only download when the visitor scrolls."
+],
+"Compressing a gallery of product photos from 3 MB each to around 150 KB each can turn a page that takes ten seconds on a phone into one that appears almost instantly."
+],
+[
+"Will compression reduce quality?",
+"At sensible settings, not visibly. Quality 75–85 JPG or WebP is indistinguishable from the original for most people when viewed at normal size. Artefacts become noticeable at very low quality – blockiness in smooth gradients, halos around sharp edges and smeared fine texture. If you see them, raise the quality or allow a slightly larger target size.",
+"Re-compressing an already compressed JPG again and again does slowly degrade it, because each pass discards a little more detail. Always start from the best original you have, and keep that original safe. Screenshots and graphics with sharp text compress best as PNG palette images or high-quality WebP; JPG tends to blur text edges."
+],
+[
+"Metadata, orientation and colour",
+"Photos from phones store their orientation in EXIF data rather than rotating the pixels. The compressor applies that orientation before saving, so the result is the right way up even after the metadata is removed. GPS coordinates, camera model, lens details and timestamps are discarded when 'Remove metadata' is on, which is the default; untick it if you need to keep them.",
+"Images are converted to the standard sRGB colour space used by the web. Transparent areas are preserved in PNG, WebP and AVIF output; when saving to JPG, which cannot store transparency, transparent areas are filled with white."
+],
+[
+"Supported formats and limits",
+"Input: JPG/JPEG, PNG, WebP, AVIF, GIF (first frame), BMP, TIFF, ICO, SVG and HEIC/HEIF photos from iPhones. Output: JPG, PNG, WebP or AVIF. There is no fixed file-size or file-count limit; the practical limit is your device's memory. A typical laptop handles batches of hundreds of photos and individual images up to about 100 megapixels. Very large batches are processed one image at a time, so your browser stays responsive."
+],
+[
+"Privacy: your images never leave your device",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.",
+"Many popular online compressors upload your files to their servers and keep them for a period before deletion – TinyPNG, for example, states that it retains uploads for up to 48 hours. With {brand} there is simply nothing to retain."
+],
+[
+"Compressing images for online shops and marketplaces",
+"Marketplaces such as Amazon, Etsy, eBay, Flipkart and Shopify stores all recommend large, sharp product photos – often 1600–2500 pixels on the long side so customers can zoom – but they also reward fast pages. The best approach is to export each product photo once at the recommended dimensions, then compress at quality 80–85. The zoomed view stays crisp, and the file usually drops from several megabytes to 200–400 KB. For your own store, also create WebP copies at 800–1200 px for category pages and thumbnails, where nobody zooms and every kilobyte counts.",
+"Keep backgrounds clean and evenly lit: plain white or light grey backgrounds compress far better than textured tables or fabric, and they look more professional. If you need a pure white background, [Remove Background](/remove-background/) can replace it before you compress."
+],
+[
+"Screen versus print",
+"Compression settings for screens and for print are different. Screens show roughly 100–200 pixels per inch at normal viewing distance, so web images can be modest in size and use moderate quality. Printers need around 300 pixels per inch at the final print size: an A4 photo print needs roughly 2480×3508 pixels. For print, keep the full resolution, use quality 90 or higher and stay with JPG, which every print shop accepts. Never print from an image that was compressed to a small KB target for a web form – the lost detail cannot be recovered.",
+"If you only have a small image and need a larger print, [Upscale Image](/upscale-image/) can enlarge it with sharpening, which is better than letting the printer stretch it."
+],
+[
+"Compressing GIFs and animations",
+"This tool saves the first frame of an animated GIF as a still image. To keep the animation, use [Compress GIF](/compress-gif/), which reduces colours and frame size while preserving motion, or convert short clips to MP4 or WebP video for files that are often ten times smaller than the GIF."
+],
+[
+"Compressing on phones and tablets",
+"The compressor works in Safari on iPhone and iPad and in Chrome on Android. Tap the drop area to pick photos from your gallery – iPhone HEIC photos are converted automatically – and the compressed images are saved to your downloads or Files app. Because processing happens on the phone, large batches may take a little longer on older devices, but nothing uses your mobile data for uploads."
+],
+[
+"Related tools for image workflows",
+[
+"[Resize Image](/resize-image/) – change dimensions by pixels, percent, cm or inches, with social media and passport presets.",
+"[Image Converter](/image-converter/) – convert between JPG, PNG, WebP, AVIF, GIF, TIFF, ICO and SVG.",
+"[HEIC to JPG](/heic-to-jpg/) – convert iPhone photos for Windows, the web and forms.",
+"[Crop Image](/crop-image/) – cut away unwanted edges before compressing for an even smaller file.",
+"[Compress PDF](/compress-pdf/) – the same idea for PDF documents full of scanned pages."
+]
+],
+[
+"Tips for the smallest possible files",
+[
+"Crop first. Removing empty borders reduces both pixels and bytes.",
+"Resize before compressing – it is the biggest single saving.",
+"Choose WebP or AVIF if the destination accepts it.",
+"Simplify the image: a busy, noisy background compresses far worse than a clean one.",
+"For screenshots, keep PNG – text stays crisp and palette compression is very efficient.",
+"Check the before/after table and recompress outliers with a lower quality or a target size."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Compress to an exact KB target",
+"Yes – 20 KB to any size",
+"Not offered on page",
+"Not offered on page",
+"Not offered on page"
+],
+[
+"Formats",
+"JPG, PNG, WebP, AVIF in; JPG/PNG/WebP/AVIF out",
+"AVIF, WebP, PNG, JPEG",
+"JPG, PNG, SVG, GIF",
+"JPG, PNG, GIF"
+],
+[
+"Free batch limits",
+"No fixed limit",
+"Up to 20 images, max 5 MB each",
+"See site",
+"See site"
+],
+[
+"Resize and convert format while compressing",
+"Yes",
+"Convert option",
+"Not offered on page",
+"Advanced settings"
+],
+[
+"File retention",
+"Never uploaded",
+"Up to 48 hours",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I compress an image to exactly 50 KB or 20 KB?",
+"a": "Choose the target size from the 'Target file size' list (or Custom) and click Compress. The tool finds the highest quality that fits and, if needed, slightly reduces the dimensions."
+},
+{
+"q": "Is it free to compress images here?",
+"a": "Yes. There are no limits on the number of images, no file-size cap and no watermark, and you never need an account."
+},
+{
+"q": "Are my images uploaded to a server?",
+"a": "No. Compression runs entirely in your browser on your own device. Your images are never uploaded or stored."
+},
+{
+"q": "Which format gives the smallest file?",
+"a": "AVIF usually gives the smallest files, followed by WebP and then JPG. PNG is best only for logos, screenshots and graphics with flat colours."
+},
+{
+"q": "Does compressing an image reduce its quality?",
+"a": "Slightly, but at quality 70–85 the difference is normally invisible at normal viewing size. PNG palette compression keeps edges and transparency crisp."
+},
+{
+"q": "Can I compress many images at once?",
+"a": "Yes. Drop as many as you like. You get one ZIP and a table showing each file's size before and after."
+},
+{
+"q": "Can I compress PNG without losing transparency?",
+"a": "Yes. PNG output keeps transparency, and so do WebP and AVIF. Only JPG fills transparent areas with white."
+},
+{
+"q": "Does it remove EXIF and GPS data?",
+"a": "Yes, by default. Untick 'Remove metadata' if you want to keep it."
+},
+{
+"q": "Can I compress iPhone HEIC photos?",
+"a": "Yes. HEIC photos are converted and compressed to JPG, WebP or another format of your choice."
+},
+{
+"q": "Why did my image not get smaller?",
+"a": "It was probably already well optimised. In that case the original is returned rather than a larger file. Try a lower quality, WebP output or a smaller maximum width."
+}
+],
+"related": [
+"resize-image",
+"image-converter",
+"heic-to-jpg",
+"crop-image",
+"compress-pdf"
+]
+}
+},
+"imgresize": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Resize Image – Pixels, cm, Inches, Presets & KB, Free",
+"desc": "Resize images by pixels, percent, cm, mm or inches with DPI. Passport, Instagram, YouTube presets, crop-to-fill, max KB, batch. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLoveIMG, ImageResizer.com and Adobe Express",
+"compareCols": [
+"iLoveIMG",
+"ImageResizer.com",
+"Adobe Express"
+],
+"sections": [
+[
+"Resize any image to the exact size you need",
+"Every platform wants images at a different size. A passport photo must be 35×45 mm, a YouTube thumbnail 1280×720 pixels, a LinkedIn banner 1584×396, an Instagram portrait post 1080×1350, and an exam form might want 200×230 pixels under 50 KB. {brand}'s image resizer handles all of these from one screen: type the size in pixels, percent, centimetres, millimetres or inches, or pick a ready-made preset, and download a perfectly sized image in seconds.",
+"It resizes one image or hundreds at once, keeps the aspect ratio unless you tell it otherwise, and can crop or pad to an exact shape so nothing gets stretched. Everything runs in your browser, so your photos are never uploaded."
+],
+[
+"Features",
+[
+"**Units:** pixels, percent, cm, mm and inches with a DPI setting (300 DPI by default for print).",
+"**Presets:** passport 35×45 mm, Instagram square, portrait and story, YouTube thumbnail, LinkedIn banner, Facebook cover, X header, Full HD and A4 at 300 DPI.",
+"**Exact shapes without distortion:** fit inside, fill and crop to the exact size, pad with a background colour, or stretch if you really want to.",
+"**Do not enlarge:** leave images that are already smaller than the target untouched.",
+"**Maximum file size:** set a KB limit for JPG or WebP output and the resizer finds the best quality under it.",
+"**High-quality downscaling:** large reductions are done in several halving steps for sharp results without jagged edges.",
+"**Batch:** resize a whole folder in one go and download a ZIP.",
+"**Format choice:** keep the original or save as JPG, PNG, WebP or AVIF."
+]
+],
+[
+"How to resize an image",
+[
+"Drop one or more images (JPG, PNG, WebP, HEIC, GIF, BMP, TIFF, AVIF).",
+"Pick a preset, or choose a unit and type the width and/or height.",
+"If you set both width and height, choose how to handle a different shape: fit, fill & crop, pad or stretch.",
+"Optionally set an output format and a maximum file size in KB.",
+"Click Resize and download the image or the ZIP."
+]
+],
+[
+"Pixels, centimetres and DPI explained",
+"Digital images are measured in pixels. Physical sizes such as centimetres or inches only make sense together with a resolution, measured in dots (pixels) per inch. At 300 DPI – the usual standard for photo prints – one inch is 300 pixels and one centimetre is about 118 pixels. So a 35×45 mm passport photo at 300 DPI is 413×531 pixels, and a 4×6 inch print is 1200×1800 pixels.",
+{
+"table": [
+[
+"Size",
+"At 300 DPI",
+"At 150 DPI"
+],
+[
+"35×45 mm (passport)",
+"413×531 px",
+"207×266 px"
+],
+[
+"2×2 in (US passport/visa)",
+"600×600 px",
+"300×300 px"
+],
+[
+"4×6 in photo",
+"1200×1800 px",
+"600×900 px"
+],
+[
+"A4 page",
+"2480×3508 px",
+"1240×1754 px"
+],
+[
+"A5 flyer",
+"1748×2480 px",
+"874×1240 px"
+]
+]
+},
+"When you choose cm, mm or inches, enter the DPI the printer or form expects; the resizer converts the size to pixels for you."
+],
+[
+"Fit, fill, pad or stretch?",
+{
+"table": [
+[
+"Mode",
+"What happens",
+"Use it for"
+],
+[
+"Fit inside",
+"Image is scaled to fit within the box; one side may be smaller",
+"Keeping the whole picture, e.g. product photos"
+],
+[
+"Fill & crop",
+"Image fills the box exactly; overflow is trimmed from the centre",
+"Social media posts, thumbnails, passport photos"
+],
+[
+"Pad",
+"Image fits inside and the rest is filled with a colour",
+"Marketplaces that require square images with white borders"
+],
+[
+"Stretch",
+"Image is forced to the exact size and may look distorted",
+"Only when distortion does not matter"
+]
+]
+},
+"Presets use fill & crop automatically so the output is always exactly the size the platform expects."
+],
+[
+"Common image sizes in 2026",
+{
+"table": [
+[
+"Platform",
+"Recommended size"
+],
+[
+"Instagram square post",
+"1080×1080"
+],
+[
+"Instagram portrait post",
+"1080×1350"
+],
+[
+"Instagram / Facebook story, Reels, TikTok",
+"1080×1920"
+],
+[
+"YouTube thumbnail",
+"1280×720"
+],
+[
+"LinkedIn profile banner",
+"1584×396"
+],
+[
+"Facebook page cover",
+"820×312"
+],
+[
+"X (Twitter) header",
+"1500×500"
+],
+[
+"Website hero image",
+"1920×1080 or wider"
+]
+]
+},
+"Platforms change their recommendations from time to time; if an upload looks cropped, check the platform's help page and enter the size manually."
+],
+[
+"Resizing for online forms",
+"Exam, recruitment and visa portals often specify both pixel dimensions and a maximum file size, for example '200×230 pixels, 20–50 KB, JPG'. Choose 'Custom', enter 200 and 230 pixels, select Fill & crop so the face is centred without distortion, set the format to JPG and type 50 in the 'Max file size' box. One click gives you a compliant file. For signatures, use the same approach with the signature dimensions and a 20 KB limit."
+],
+[
+"Will resizing reduce quality?",
+"Making an image smaller always removes pixels, but done properly it looks sharp. The resizer reduces large images in several halving steps with high-quality smoothing, which avoids the jagged edges and moiré you get from a single big reduction. Making an image larger cannot add real detail; for enlargements of 2× or more, [Upscale Image](/upscale-image/) uses Lanczos resampling and sharpening for a better result."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working."
+],
+[
+"Related tools",
+[
+"[Compress Image](/compress-image/) – shrink file size to an exact KB target.",
+"[Crop Image](/crop-image/) – choose exactly which part of the picture to keep.",
+"[Passport Photo Maker](/passport-photo-maker/) – passport and visa photos with print sheets.",
+"[Image Converter](/image-converter/) – change format without resizing."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Adobe cloud"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"See site"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Units",
+"px, %, cm, mm, inches + DPI",
+"Pixels or percentage",
+"See site",
+"See site"
+],
+[
+"Social / passport presets",
+"Yes (10 presets)",
+"Not offered on page",
+"See site",
+"See site"
+],
+[
+"Crop-to-fill or pad to exact size",
+"Yes",
+"Not offered on page",
+"See site",
+"See site"
+],
+[
+"Maximum KB for output",
+"Yes",
+"Not offered on page",
+"Not offered on page",
+"See site"
+],
+[
+"Batch resize",
+"Yes, ZIP",
+"Yes ('multiple images at once')",
+"See site",
+"See site"
+],
+[
+"File retention",
+"Never uploaded",
+"See site",
+"Deleted within 6 hours",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I resize an image without losing quality?",
+"a": "Keep the aspect ratio and only reduce size. The tool downsamples in several steps for sharp results. Enlarging adds no detail; use Upscale Image for that."
+},
+{
+"q": "How do I resize an image to 35×45 mm for a passport?",
+"a": "Choose the 'Passport 35×45 mm @300 DPI' preset. You get a 413×531 px image cropped from the centre."
+},
+{
+"q": "Can I resize to an exact size in cm or inches?",
+"a": "Yes. Choose cm, mm or inches, enter the size and set the DPI the printer or form expects."
+},
+{
+"q": "How do I resize an image and keep it under 50 KB?",
+"a": "Set the size, choose JPG or WebP output and type 50 in the 'Max file size' box."
+},
+{
+"q": "Can I resize many images at once?",
+"a": "Yes. Drop them all; you get one ZIP with every resized image."
+},
+{
+"q": "How do I make an image square without cropping?",
+"a": "Enter equal width and height and choose 'Pad to exact size' with your background colour."
+},
+{
+"q": "Are my photos uploaded?",
+"a": "No. Resizing happens in your browser and nothing is sent to a server."
+},
+{
+"q": "Which sizes do the social media presets use?",
+"a": "Instagram 1080×1080 and 1080×1350, stories 1080×1920, YouTube 1280×720, LinkedIn 1584×396, Facebook cover 820×312 and X header 1500×500."
+},
+{
+"q": "Does it work on iPhone and Android?",
+"a": "Yes. It works in mobile Safari and Chrome, including iPhone HEIC photos."
+}
+],
+"related": [
+"compress-image",
+"crop-image",
+"passport-photo-maker",
+"image-converter",
+"upscale-image"
+]
+}
+},
+"bgremove": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Remove Background from Image – Free HD, No Upload",
+"desc": "Remove image backgrounds with on-device AI. Full-resolution transparent PNG, or swap in white, colour, blur or your own photo. Batch. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs remove.bg, Photoroom and Adobe Express",
+"compareCols": [
+"remove.bg",
+"Photoroom",
+"Adobe Express"
+],
+"sections": [
+[
+"Cut out people, products and pets in one click",
+"Removing a background used to mean twenty minutes with the pen tool in Photoshop. {brand}'s background remover does it in seconds: drop a photo and an AI model finds the main subject – a person, a product, a pet, a car – and separates it from everything behind it. Download the cut-out as a transparent PNG, or put it straight onto a clean white background, a brand colour, a blurred version of the original, or a completely different photo of your choice.",
+"The difference from the well-known services is where the work happens. The segmentation model runs inside your browser using WebAssembly, so your photo is never uploaded. That makes it suitable for ID photos, pictures of children, confidential product prototypes and anything else you would not post to a public server – and it means there are no credits, no paid 'HD download' and no account."
+],
+[
+"Features",
+[
+"**Transparent PNG** at up to 4096 pixels on the long side – no low-resolution preview limit.",
+"**Replace the background** with white (for marketplaces), any solid colour, a soft blur of the original scene, or your own background image.",
+"**Soft or sharp edges** – soft edges look natural on hair and fur; sharp edges are cleaner for products with hard outlines.",
+"**Batch processing** – drop dozens of product photos and get one ZIP.",
+"**On-device AI** – a compact U²-Net model (about 4.6 MB) is downloaded once and cached; after that it works offline.",
+"**Instant preview** on a checkerboard so you can see transparency before downloading.",
+"**No watermark, no sign-up, no credits.**"
+]
+],
+[
+"How to remove the background from an image",
+[
+"Drop one or more photos (JPG, PNG, WebP, HEIC and more) or paste one with Ctrl+V.",
+"Choose what should replace the background: transparent, white, a colour, blurred original or your own image.",
+"Choose soft or sharp edges.",
+"Click Remove background. The first run loads the AI model; later images are faster.",
+"Download the PNG (transparent) or JPG (with a new background), or the ZIP for a batch."
+]
+],
+[
+"How the AI background remover works",
+"The tool uses U²-Net, a neural network designed for 'salient object detection' – finding the thing in a photo that a person would naturally look at. The image is scaled to 320×320 pixels and passed through the network, which outputs a probability for every pixel of being foreground. That low-resolution mask is then scaled back up to the full size of your photo with smooth interpolation, so the final cut-out keeps the full detail of the original image, not the size the network saw.",
+"With soft edges, the mask is lightly feathered so semi-transparent pixels at the boundary blend smoothly into any new background – important for hair, fur and motion blur. With sharp edges, every pixel is either fully kept or fully removed, which gives crisp outlines for boxes, bottles and electronics.",
+"Because the model runs on your device, speed depends on your hardware: a modern laptop processes a photo in one to three seconds, a phone in a few seconds more."
+],
+[
+"Best uses",
+[
+"**E-commerce product photos** – white backgrounds for Amazon, Flipkart, eBay and Etsy listings, or consistent brand-colour backgrounds for your own shop.",
+"**Profile pictures** – a clean, professional look for LinkedIn, CVs and company websites.",
+"**ID and visa photos** – replace a cluttered room with a plain white or light blue background, then size it with [Passport Photo Maker](/passport-photo-maker/).",
+"**Design and marketing** – cut-outs for posters, thumbnails, presentations and social media graphics.",
+"**Stickers and memes** – transparent PNGs for chat stickers and [Meme Generator](/meme-generator/).",
+"**Real estate and cars** – isolate a car or a piece of furniture for a listing."
+]
+],
+[
+"Tips for the cleanest cut-out",
+[
+"Use a photo where the subject is clearly separated from the background – some distance and contrast helps.",
+"Good, even lighting avoids shadows being treated as part of the subject.",
+"Keep the whole subject in frame; cut-off edges are fine but the model works best when the main object is obvious.",
+"For group photos, the model keeps everything it considers the main subject; crop first if you want just one person.",
+"For fine hair against a busy background, choose soft edges and a background colour close to the original for the most natural result.",
+"If a small area is wrong, open the PNG in an editor and touch it up – the hard work is already done."
+]
+],
+[
+"Transparent PNG or JPG?",
+"A transparent PNG keeps the subject on its own with no background, ready to place in a design, presentation or website. Choose it when you will combine the image with something else later. When you pick white, colour, blur or image backgrounds, the result is flattened and saved as JPG, which is smaller and accepted by every marketplace and form. To make the PNG smaller afterwards, use [Compress Image](/compress-image/), which keeps transparency."
+],
+[
+"Replace background with your own photo",
+"Choose 'Your own image…' and pick a background picture – a studio backdrop, an office, a beach, a brand pattern. The background is scaled to cover the whole frame and centred, then your subject is placed on top with the same edge blending as the transparent version. For product photos, a subtle gradient or texture often looks more premium than pure white; for profile photos, a softly blurred office or outdoor scene looks natural."
+],
+[
+"Free full resolution",
+"Many background removal services give you a small preview for free and charge credits or a subscription for the full-resolution file. Here the output is the same resolution as your photo (up to 4096 pixels on the long side) every time, because there is no server cost to recover – your own device does the work."
+],
+[
+"Limits and what to expect",
+"No automatic tool is perfect. Very fine details such as individual strands of hair against a similar-coloured background, transparent objects like glasses of water, and subjects that blend into the background may need touching up. The model is designed for a single clear subject; it is not meant for removing small objects from a scene – use [Blur Face](/blur-face/) or an editor for that. Images larger than 4096 pixels are scaled down to that size to keep memory use reasonable on phones."
+],
+[
+"Marketplace background rules",
+"Most large marketplaces ask for product images on a pure white background. Amazon's main product image, for example, must use a pure white background (RGB 255, 255, 255) with the product filling most of the frame; Flipkart, eBay and Google Shopping have similar recommendations. Choosing 'White' here produces exactly RGB 255 white, not an off-white that some editors create. After removing the background, use [Resize Image](/resize-image/) with 'Pad to exact size' to make the image square with white borders and the product centred, which is the layout most marketplaces prefer.",
+"For your own shop, consistent backgrounds across a whole catalogue make category pages look calm and professional. Process all product photos in one batch with the same colour, so every item sits on an identical background."
+],
+[
+"Background remover for profile and ID photos",
+"Many official photos require a plain white or off-white background with no shadows or patterns. Take the photo facing a window for even light, remove the background here with 'White' or 'Colour' (for light blue, a common visa background, pick a pale blue), then use [Passport Photo Maker](/passport-photo-maker/) to crop to the right head size and print layout. Check the exact rules for your country – some authorities do not accept digitally edited backgrounds, while others explicitly allow them.",
+"For LinkedIn and company directories, try 'Blurred original': it keeps a natural sense of place but removes the distraction of a cluttered room, like a portrait shot with a fast lens."
+],
+[
+"Using cut-outs in designs",
+"Transparent PNGs drop straight into Canva, Figma, PowerPoint, Google Slides, Keynote and every major design tool. Place the subject over a gradient or shape, add a drop shadow in your design tool for depth, and the result looks like a studio shot. For YouTube thumbnails, a large cut-out of a face with a bold colour behind it is a classic, high-click design."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.",
+"The AI model file is served from our own site and cached by your browser; no third-party AI service is called and no copy of your image is created anywhere else."
+],
+[
+"Related tools",
+[
+"[Passport Photo Maker](/passport-photo-maker/) – size the cut-out for official documents.",
+"[Resize Image](/resize-image/) – square or platform-specific sizes for marketplaces.",
+"[Compress Image](/compress-image/) – smaller PNGs with transparency kept.",
+"[JPG to PNG](/jpg-to-png/) – simple white-to-transparent conversion for logos.",
+"[Collage Maker](/collage-maker/) – combine several cut-outs into one image."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Adobe cloud"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"See site"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Model runs on your device",
+"Yes",
+"No (cloud)",
+"No (cloud)",
+"See site"
+],
+[
+"Full-resolution download free",
+"Yes, up to 4096 px",
+"See site",
+"See site",
+"See site"
+],
+[
+"Replace with colour / blur / own image",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch",
+"Yes, ZIP",
+"See site",
+"See site",
+"See site"
+],
+[
+"Sign-up",
+"Never",
+"Not for basic use",
+"'No signup required' (their page)",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Is this background remover really free?",
+"a": "Yes. There are no credits, no paid HD downloads, no watermark and no account."
+},
+{
+"q": "Are my photos uploaded?",
+"a": "No. The AI model runs in your browser, so photos never leave your device."
+},
+{
+"q": "What resolution is the result?",
+"a": "The same as your photo, up to 4096 pixels on the long side."
+},
+{
+"q": "How do I make the background white?",
+"a": "Choose 'White' under Background before you click Remove background. The result is a JPG with a pure white background."
+},
+{
+"q": "Can I put a different picture behind the subject?",
+"a": "Yes. Choose 'Your own image…' and select the background photo."
+},
+{
+"q": "Does it work for products as well as people?",
+"a": "Yes. It detects the main subject, whether a person, product, animal or vehicle. Use sharp edges for hard-edged products."
+},
+{
+"q": "Can I remove backgrounds from many images at once?",
+"a": "Yes. Drop several images and download them all in one ZIP."
+},
+{
+"q": "Why is the first image slower?",
+"a": "The first run downloads the 4.6 MB AI model. It is cached, so later images are much faster and it then works offline."
+},
+{
+"q": "Why are some hair edges not perfect?",
+"a": "Fine hair against a similar background is hard for any automatic tool. Soft edges help; a quick touch-up in an editor fixes the rest."
+},
+{
+"q": "Does it work on my phone?",
+"a": "Yes, in current Safari and Chrome. Processing takes a few seconds longer on older phones."
+}
+],
+"related": [
+"passport-photo-maker",
+"resize-image",
+"compress-image",
+"jpg-to-png",
+"collage-maker"
+]
+}
+},
+"heic2jpg": {
+"seo": {
+"updated": "2026-10-25",
+"title": "HEIC to JPG Converter – iPhone Photos, Batch, Free",
+"desc": "Convert iPhone HEIC/HEIF photos to JPG, PNG, WebP or one PDF. Quality control, resize, batch ZIP, GPS stripped. Free, private – nothing uploaded.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, FreeConvert and heictojpg.com",
+"compareCols": [
+"CloudConvert",
+"FreeConvert",
+"heictojpg.com"
+],
+"sections": [
+[
+"Open your iPhone photos anywhere",
+"iPhones and many recent Android phones save photos in HEIC (High Efficiency Image Container) format. It is excellent for saving space on the phone, but much of the world still expects JPG: older Windows PCs, many websites and upload forms, printing kiosks, e-mail recipients on older software and plenty of photo editors refuse HEIC files or show them as blank icons. {brand} converts HEIC and HEIF photos to standard JPG – or PNG, WebP, or a single PDF – directly in your browser.",
+"Drop one photo or a whole camera roll export. You choose the quality and an optional maximum width, and the photos come back as individual files or one ZIP. Your pictures are never uploaded, which matters for family photos, documents you photographed and anything with location data."
+],
+[
+"Features",
+[
+"**JPG, PNG, WebP or PDF output** – PDF puts every photo on its own page in one file, handy for sending receipts or documents photographed on an iPhone.",
+"**Quality slider** – 92 by default for near-original quality; lower it for smaller files.",
+"**Resize while converting** – set a maximum width such as 1600 or 2048 pixels for e-mail and web.",
+"**Batch conversion** – hundreds of photos in one go, downloaded as a ZIP.",
+"**Correct orientation** – photos are saved the right way up.",
+"**Privacy by default** – GPS location and other metadata are not copied into the converted file.",
+"**No limits** – no 200-photo cap, no daily quota, no account, no watermark."
+]
+],
+[
+"How to convert HEIC to JPG",
+[
+"Drop your .heic or .heif files onto the page (on iPhone, tap and choose from Photos or Files).",
+"Choose the output: JPG, PNG, WebP or PDF.",
+"Adjust quality and, if you want, a maximum width.",
+"Click Convert and download the files or the ZIP."
+]
+],
+[
+"What is a HEIC file?",
+"HEIC is Apple's name for images stored in the HEIF container using HEVC (H.265) compression – the same technology used for 4K video. Apple made it the default camera format in iOS 11 in 2017 because it stores photos at roughly half the size of an equivalent JPG with the same visual quality. A HEIC file can also hold extra data: depth maps for Portrait mode, multiple images for bursts and Live Photos, HDR information and transparency.",
+"The catch is compatibility. HEVC is covered by patents and licences, so support outside Apple's ecosystem arrived slowly. Windows needs an extension from the Microsoft Store to show HEIC thumbnails, many web forms only accept JPG or PNG, and some older Android phones and photo editors cannot open them at all."
+],
+[
+"HEIC on Mac",
+"On a Mac, Preview opens HEIC files and can export them one by one via File → Export, choosing JPEG. Photos for macOS can export selected images as JPG too. Both work, but they are slow for large batches and easy to get wrong – this converter handles a whole folder in one drop and gives you a ZIP, with the same result on a Mac, a Windows PC or a Chromebook."
+],
+[
+"HEIC vs JPG",
+{
+"table": [
+[
+"",
+"HEIC",
+"JPG"
+],
+[
+"File size at similar quality",
+"About half",
+"Baseline"
+],
+[
+"Compatibility",
+"Apple devices, recent Windows/Android with codecs",
+"Everywhere"
+],
+[
+"Transparency, depth, bursts",
+"Supported",
+"No"
+],
+[
+"Colour depth",
+"Up to 16-bit",
+"8-bit"
+],
+[
+"Best for",
+"Storing photos on your phone",
+"Sharing, printing, uploading"
+]
+]
+},
+"Converting HEIC to JPG at quality 90–95 gives files that are larger than the HEIC but visually identical. If file size matters more than compatibility with very old software, WebP is a good middle ground: smaller than JPG and supported by every current browser."
+],
+[
+"How to stop your iPhone saving HEIC",
+"If you would rather your iPhone always took JPG photos, open Settings → Camera → Formats and choose 'Most Compatible'. New photos will be saved as JPG (and videos as H.264). Photos you already took stay HEIC – convert those here.",
+"Alternatively, keep HEIC for storage and let the iPhone convert automatically when sharing: Settings → Photos → Transfer to Mac or PC → Automatic. Note that this only applies to some transfer methods; AirDrop, e-mail and cloud uploads may still send HEIC files."
+],
+[
+"Colour and HDR",
+"Recent iPhones capture photos with a wide P3 colour gamut and HDR information. JPG output is converted to the standard sRGB colour space used by the web and by most printers, so colours look consistent on every screen. Extremely saturated reds and greens may look marginally less vivid than on the iPhone's own display – this is a limitation of sRGB, not of the conversion."
+],
+[
+"Opening HEIC files on Windows and Android",
+"On Windows 10 and 11, the 'HEIF Image Extensions' and 'HEVC Video Extensions' from the Microsoft Store allow the Photos app to display HEIC files; the HEVC extension may cost a small fee. Many Android phones from 2019 onwards can display HEIC in their gallery apps. If you just need a JPG for a form or a colleague, converting here is quicker than installing codecs."
+],
+[
+"Live Photos and bursts",
+"A Live Photo consists of a still HEIC image plus a short MOV video. This converter turns the still image into JPG; the motion part is a separate video file that can be converted with [MOV to MP4](/mov-to-mp4/) if needed. For HEIC files containing several images, such as bursts, the primary image is converted."
+],
+[
+"Converting photographed documents to PDF",
+"If you photographed receipts, contracts or homework pages with your iPhone, choose PDF output: all photos become pages of one PDF in the order you added them. You can reorder them in the file list first, then compress the PDF with [Compress PDF](/compress-pdf/) or make it searchable with [OCR PDF](/ocr-pdf/)."
+],
+[
+"Quality and size settings",
+{
+"table": [
+[
+"Goal",
+"Settings"
+],
+[
+"Keep the best quality",
+"JPG, quality 92–95, no resize"
+],
+[
+"E-mail or WhatsApp",
+"JPG, quality 80, max width 1600"
+],
+[
+"Website or blog",
+"WebP, quality 75, max width 1600"
+],
+[
+"Printing",
+"JPG, quality 95, no resize"
+],
+[
+"Online forms with KB limit",
+"Convert, then use Compress Image with a target KB"
+]
+]
+}
+],
+[
+"Why HEIC uploads fail",
+"If a website rejects your photo with 'unsupported file type' or shows a broken preview, it almost always means the site expects JPG or PNG and you selected a HEIC file. Some sites convert automatically when you upload from Safari on the iPhone itself, but the same photo copied to a Windows PC or uploaded from Google Drive stays HEIC. Converting to JPG first is the reliable fix. If the site also says 'maximum 2 MB' or 'under 500 KB', run the JPG through [Compress Image](/compress-image/) with a target size."
+],
+[
+"HEIC photos on Google Photos, iCloud and OneDrive",
+"Cloud services handle HEIC differently. iCloud Photos keeps the original HEIC files and converts on download only in some situations. Google Photos stores HEIC files as uploaded and shows them in the browser, but downloading gives you the HEIC again. OneDrive and Dropbox store whatever you upload. If you download a set of photos from any of these and need JPGs, drop the downloaded files here – the conversion happens locally, so you are not uploading your photos to yet another service."
+],
+[
+"Is HEIC better than JPG?",
+"For storage, yes: HEIC keeps the same visual quality at about half the size, supports 10-bit colour and HDR, and can hold depth data for Portrait mode editing. For sharing, JPG is still better because every device, program and website can open it. A sensible workflow is to keep your originals in HEIC on the phone or in iCloud and convert copies to JPG only when you need to send, print or upload them.",
+"Converting from JPG back to HEIC does not restore anything – it only re-encodes the already compressed JPG. Always keep the HEIC original if you might want the best quality later."
+],
+[
+"Printing iPhone photos",
+"Many print kiosks and online print shops only accept JPG. For prints, choose JPG at quality 95 with no maximum width, so the full 12, 24 or 48 megapixels from the iPhone camera are kept. A 12-megapixel photo (4032×3024 pixels) prints sharply up to about 34×25 cm at 300 DPI, and acceptably larger viewed from a distance."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.",
+"iPhone photos often contain GPS coordinates showing exactly where they were taken – sometimes your home. The converted files do not carry that metadata, so they are safer to share."
+],
+[
+"Related tools",
+[
+"[Compress Image](/compress-image/) – shrink the converted JPGs to an exact KB size.",
+"[Resize Image](/resize-image/) – change dimensions with presets.",
+"[JPG to PDF](/jpg-to-pdf/) – more page-layout options for photo PDFs.",
+"[Image Converter](/image-converter/) – convert between all common image formats."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"No account required (their page)"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Output formats",
+"JPG, PNG, WebP, PDF",
+"See site",
+"JPG (this page)",
+"JPG"
+],
+[
+"Batch size",
+"No fixed limit",
+"See site",
+"See site",
+"Up to 200 photos"
+],
+[
+"Resize during conversion",
+"Yes",
+"See site",
+"Yes (advanced settings)",
+"Not offered on page"
+],
+[
+"Metadata",
+"Not copied (GPS removed)",
+"See site",
+"'Strip metadata' option",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert HEIC to JPG for free?",
+"a": "Drop your HEIC photos here, keep JPG selected and click Convert. It is free with no limits."
+},
+{
+"q": "Are my iPhone photos uploaded?",
+"a": "No. Conversion runs in your browser; photos never leave your device."
+},
+{
+"q": "Will I lose quality converting HEIC to JPG?",
+"a": "At the default quality of 92 the difference is not visible. JPG files are larger than HEIC because the format is less efficient."
+},
+{
+"q": "Can I convert many HEIC files at once?",
+"a": "Yes. Drop them all and download a ZIP."
+},
+{
+"q": "Can I convert HEIC photos to one PDF?",
+"a": "Yes. Choose PDF output; every photo becomes a page in one PDF."
+},
+{
+"q": "Does it keep the GPS location?",
+"a": "No. Location and other metadata are not copied, which makes the photos safer to share."
+},
+{
+"q": "How do I make my iPhone take JPG instead of HEIC?",
+"a": "Go to Settings → Camera → Formats and choose Most Compatible."
+},
+{
+"q": "Why can't Windows open HEIC files?",
+"a": "Windows needs the HEIF and HEVC extensions from the Microsoft Store. Converting to JPG avoids the need."
+},
+{
+"q": "Does it work on iPhone itself?",
+"a": "Yes. Open the page in Safari, tap to choose photos and the JPGs are saved to Files or Downloads."
+},
+{
+"q": "What is the difference between HEIC and HEIF?",
+"a": "HEIF is the container format; HEIC is HEIF with HEVC compression, as used by iPhones. Both are supported."
+}
+],
+"related": [
+"compress-image",
+"resize-image",
+"jpg-to-pdf",
+"image-converter",
+"mov-to-mp4"
+]
+}
+},
+"png2jpg": {
+"seo": {
+"updated": "2026-10-25",
+"title": "PNG to JPG Converter – Batch, Background Colour, Free",
+"desc": "Convert PNG to JPG with a quality slider, background colour for transparency, resize and batch ZIP. Up to 90% smaller files. Free, nothing uploaded.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, FreeConvert and iLoveIMG",
+"compareCols": [
+"CloudConvert",
+"FreeConvert",
+"iLoveIMG"
+],
+"sections": [
+[
+"Turn heavy PNGs into compact JPGs",
+"PNG is a brilliant format for logos, screenshots and graphics, but it is the wrong choice for photographs. A photo saved as PNG can easily be 5–10 MB, while the same photo as a high-quality JPG is 500 KB–1 MB with no visible difference. That matters when an e-mail bounces, a form refuses files over 2 MB, or a web page loads slowly. {brand} converts PNG to JPG in your browser, lets you choose the quality, and fills transparent areas with any background colour you like instead of the black or jagged edges some converters produce.",
+"Drop one PNG or hundreds. Each file is decoded and re-encoded on your own device – no upload, no waiting in a server queue, no file-size limit – and you get the JPGs individually or in one ZIP."
+],
+[
+"Features",
+[
+"**Quality slider** – 90 by default for excellent quality; 75–80 for web, 60 for thumbnails.",
+"**Background colour for transparency** – JPG cannot store transparency, so you choose what fills those areas: white, black, your brand colour or anything else.",
+"**Resize while converting** – set a maximum width so huge screenshots or exports come out at a sensible size.",
+"**Batch conversion** with a single ZIP download.",
+"**Any input** – PNG, but also WebP, GIF, BMP, TIFF, AVIF, HEIC and SVG are accepted.",
+"**Other outputs** – switch the format menu to WebP, AVIF, GIF, BMP, TIFF or ICO if JPG is not what you need.",
+"**Private and unlimited** – runs in your browser, no account, no watermark."
+]
+],
+[
+"How to convert PNG to JPG",
+[
+"Drop your PNG files onto the page or paste a screenshot with Ctrl+V.",
+"Leave the format on JPG and set the quality (90 is a good default).",
+"If your PNGs have transparent areas, pick the background colour.",
+"Optionally set a maximum width.",
+"Click Convert and download the JPG or the ZIP."
+]
+],
+[
+"Progressive versus baseline JPG, and other technical details",
+"The JPGs created here are standard baseline JPEG files with 4:2:0 chroma subsampling at normal quality settings, which is what cameras, phones and nearly every website produce. They open in every image viewer, browser, word processor, print kiosk and upload form, including very old software. Colour is stored in the sRGB colour space. PNG files with 16 bits per channel are reduced to 8 bits, which is all JPG supports and is more than enough for viewing and printing. Images with an embedded gamma or colour profile are converted to sRGB by the browser before encoding, so colours appear the same as they do when you view the PNG in your browser."
+],
+[
+"PNG vs JPG – which should you use?",
+{
+"table": [
+[
+"",
+"PNG",
+"JPG"
+],
+[
+"Compression",
+"Lossless – every pixel kept",
+"Lossy – fine detail simplified"
+],
+[
+"Transparency",
+"Yes",
+"No"
+],
+[
+"Best for",
+"Logos, icons, screenshots, text, line art",
+"Photos and complex images"
+],
+[
+"Photo file size",
+"Very large",
+"Small (often 80–90% smaller)"
+],
+[
+"Editing again and again",
+"No quality loss",
+"Slight loss each time it is re-saved"
+],
+[
+"Support",
+"Universal",
+"Universal"
+]
+]
+},
+"A useful rule: if the image came from a camera, use JPG (or WebP). If it was drawn on a computer – a logo, a chart, a screenshot of a document – keep PNG, because JPG compression adds faint smudges around sharp edges and text. Screenshots of photos, video frames and games are in between; JPG at quality 85–90 usually works well."
+],
+[
+"Keeping file names organised",
+"Converted files keep their original names with the extension changed to .jpg, so 'invoice-scan.png' becomes 'invoice-scan.jpg'. In a batch, the ZIP contains every converted file with its own name, ready to unzip into the same folder as the originals or a new one. If two input files have the same name, they are numbered so nothing is overwritten."
+],
+[
+"What happens to transparency?",
+"PNG supports an alpha channel, so a logo can have a transparent background that shows whatever is behind it. JPG has no alpha channel. When converting, every partly or fully transparent pixel is blended onto the background colour you choose. Semi-transparent edges – the soft anti-aliased outline of a logo – are blended smoothly, so there is no jagged halo.",
+"Choose the background to match where the JPG will be used: white for documents and most websites, black for dark-mode designs, or your page's exact colour for a seamless look. If you actually need transparency in a smaller file, convert to WebP instead, which supports transparency and lossy compression."
+],
+[
+"Why PNG files are so big",
+"PNG compresses images by finding repeated patterns of pixels, which works wonderfully for flat areas of colour – a logo on white, a screenshot of a spreadsheet – but poorly for photos, where nearly every pixel is slightly different from its neighbour. A 12-megapixel photo has 36 million colour values; PNG has to store essentially all of them. JPG instead describes small blocks of the image as smooth patterns and throws away detail too fine to see, which is why it is so much smaller for photos.",
+"Screenshots on modern high-resolution screens are also very large – a Retina MacBook or 4K monitor screenshot can be 3000–4000 pixels wide. Setting a maximum width of 1600 or 1920 while converting reduces size dramatically and still looks sharp on normal screens."
+],
+[
+"Choosing the right quality",
+{
+"table": [
+[
+"Quality",
+"Use"
+],
+[
+"95–100",
+"Printing, archives, further editing"
+],
+[
+"85–90",
+"Photos to share, portfolios"
+],
+[
+"75–80",
+"Websites, blogs, e-mail"
+],
+[
+"60–70",
+"Thumbnails, previews, chat"
+],
+[
+"Below 50",
+"Only when size matters far more than looks"
+]
+]
+},
+"Quality numbers are not percentages of the original quality – they control how much detail the encoder discards. The visible difference between 90 and 100 is tiny, but the file at 100 can be twice as large."
+],
+[
+"Common reasons to convert PNG to JPG",
+[
+"Uploading a photo to a site that only accepts JPG or has a file-size limit.",
+"Sending screenshots by e-mail without hitting attachment limits.",
+"Making a website faster by replacing huge PNG photos.",
+"Reducing the size of image-heavy documents and presentations.",
+"Preparing images for printing services that require JPG.",
+"Saving space on your phone or cloud storage."
+]
+],
+[
+"Converting screenshots",
+"Phone and desktop screenshots are saved as PNG. If the screenshot is mostly text or interface – a chat, a settings page, a spreadsheet – keep it as PNG or convert to WebP; JPG may make the text slightly fuzzy. If it is mostly a photo or video frame, JPG at quality 85 is ideal. Press Ctrl+V on this page to paste a screenshot directly from the clipboard without saving it first."
+],
+[
+"Converting PNG exports from design tools",
+"Figma, Canva, Photoshop and PowerPoint often export PNG by default. For slides and social posts that contain photos, gradients or textures, converting the export to JPG at quality 85 typically cuts the file by 70–85% with no visible change, which makes decks and newsletters much lighter. For designs made mostly of flat colours and text – an infographic, a quote card, a chart – compare both: PNG may actually be smaller and sharper. Try one file first and check the before/after size in the download before converting a whole batch.",
+"If the design has a transparent background and you need it on a coloured page, set the background colour to exactly the page colour (use your brand's hex code) so the JPG blends in seamlessly."
+],
+[
+"PNG to JPG for printing",
+"Print shops and photo labs usually accept JPG and prefer it for photos because the files are manageable. Convert at quality 95 and keep the full resolution – don't set a maximum width. For artwork with large flat areas or text, ask the printer whether they accept PNG or PDF instead; some prefer lossless files for logos and line art. Check that the image has enough pixels for the print size: around 300 pixels per inch of print, so 2400×3000 pixels for an 8×10 inch print."
+],
+[
+"What about PNG files with very few colours?",
+"Icons, pixel art and simple diagrams with only a handful of colours are often tiny as PNG – sometimes just a few kilobytes – because PNG stores repeated colours extremely efficiently. Converting these to JPG can make them larger and adds blur around edges. Keep such images as PNG, or use [Compress Image](/compress-image/), which reduces PNGs with palette compression while keeping them lossless-looking. JPG shines for photos and anything with smooth gradients and millions of colours."
+],
+[
+"Batch converting a folder",
+"Select all files in a folder (Ctrl+A or Cmd+A in the file picker) and drop them in one go. Files are processed one after another to keep memory use low, and the ZIP keeps the original file names with a .jpg extension. On a typical laptop, a hundred 2-megapixel screenshots convert in well under a minute."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working."
+],
+[
+"Related tools",
+[
+"[JPG to PNG](/jpg-to-png/) – the reverse, with optional white-to-transparent.",
+"[Compress Image](/compress-image/) – hit an exact KB target.",
+"[WebP to JPG](/webp-to-jpg/) – for images saved from websites.",
+"[Image Converter](/image-converter/) – every format in one place.",
+"[Resize Image](/resize-image/) – presets and exact sizes."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Background colour for transparent areas",
+"Yes, any colour",
+"See site",
+"Yes (advanced settings)",
+"See site"
+],
+[
+"Quality control",
+"Slider 1–100",
+"See site",
+"Compress option",
+"See site"
+],
+[
+"Resize while converting",
+"Max width",
+"See site",
+"Yes",
+"Not offered on page"
+],
+[
+"Batch",
+"Yes, ZIP",
+"See site",
+"See site",
+"Yes ('many images at once')"
+]
+],
+"faq": [
+{
+"q": "How do I convert PNG to JPG?",
+"a": "Drop your PNG files here, keep JPG as the format and click Convert. Download the JPG or a ZIP."
+},
+{
+"q": "Does converting PNG to JPG reduce quality?",
+"a": "Slightly, because JPG is lossy. At quality 85–90 the difference is invisible for photos. Sharp text and line art can look softer, so keep those as PNG."
+},
+{
+"q": "What happens to the transparent background?",
+"a": "JPG cannot store transparency, so transparent areas are filled with the background colour you choose – white by default."
+},
+{
+"q": "How much smaller will the JPG be?",
+"a": "For photos, typically 70–90% smaller. For simple graphics the saving is smaller and PNG may even be smaller."
+},
+{
+"q": "Can I convert many PNGs at once?",
+"a": "Yes. Drop them all and download one ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. The conversion runs in your browser and nothing is sent to a server."
+},
+{
+"q": "Can I convert PNG to JPG on iPhone or Android?",
+"a": "Yes. The page works in mobile Safari and Chrome."
+},
+{
+"q": "Is there a file-size limit?",
+"a": "No fixed limit. Very large images are limited only by your device's memory."
+},
+{
+"q": "Should I use WebP instead of JPG?",
+"a": "For websites, WebP is usually smaller and supports transparency. Use JPG when you need maximum compatibility."
+}
+],
+"related": [
+"jpg-to-png",
+"compress-image",
+"webp-to-jpg",
+"image-converter",
+"resize-image"
+]
+}
+},
+"jpg2png": {
+"seo": {
+"updated": "2026-10-25",
+"title": "JPG to PNG Converter – Transparent Background, Free",
+"desc": "Convert JPG to lossless PNG, optionally turning a white background transparent. Resize, batch ZIP, any format in. Free, private – nothing uploaded.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, FreeConvert and Convertio",
+"compareCols": [
+"CloudConvert",
+"FreeConvert",
+"Convertio"
+],
+"sections": [
+[
+"Lossless PNGs from your JPG images",
+"There are good reasons to turn a JPG into a PNG. Design tools and presentation software handle PNG transparency; some print shops, game engines and app stores ask for PNG; and if you are going to edit an image many times, PNG stops each save from adding another layer of JPG compression artefacts. {brand} converts JPG to PNG instantly in your browser and can also make a white background transparent – ideal for logos, signatures and product shots photographed on white paper.",
+"Your images are converted on your own device. Nothing is uploaded, there is no file-size cap, and you can convert one picture or a whole folder at once."
+],
+[
+"Features",
+[
+"**Lossless PNG output** – every pixel of the JPG is kept exactly as it is.",
+"**Make white transparent** – one tick turns a white or near-white background into transparency with soft, anti-aliased edges.",
+"**Resize while converting** – set a maximum width for web or app use.",
+"**Batch conversion** to one ZIP.",
+"**Also outputs** WebP, AVIF, GIF, BMP, TIFF, ICO and SVG (traced) from the same screen.",
+"**Private, free and unlimited** – runs locally, no sign-up, no watermark."
+]
+],
+[
+"How to convert JPG to PNG",
+[
+"Drop your JPG or JPEG files (or paste one with Ctrl+V).",
+"Leave the format on PNG.",
+"Tick 'Make white background transparent' if you want a transparent PNG.",
+"Optionally set a maximum width.",
+"Click Convert and download."
+]
+],
+[
+"Choosing JPG to PNG, WebP or SVG",
+"PNG is the safe default for transparency because every program supports it. If the image is for a website and file size matters, WebP with transparency is usually several times smaller than PNG for photos and works in every current browser – pick WebP in the format menu with the same transparency option. If the image is a simple logo or icon with few colours, the 'SVG (trace)' option turns it into a vector file that scales to any size; it works best for flat, high-contrast artwork rather than photos. For app icons and favicons, PNG remains the standard. Whatever you choose, keep the original JPG so you can convert again later if your needs change."
+],
+[
+"Making a JPG background transparent",
+"JPG files cannot contain transparency, so a logo or signature saved as JPG always has a solid background – usually white. When 'Make white background transparent' is ticked, every pixel that is close to pure white becomes transparent, and slightly off-white pixels at the edges become partly transparent. This removes the white box around a logo or a scanned signature while keeping the edges smooth.",
+"It works best when the background is clean white and the subject has a different colour. Light-grey shadows, off-white paper or gradients may be left partly visible. For photos with complex backgrounds – a person in a room, a product on a table – use the AI-powered [Remove Background](/remove-background/) tool instead, which can separate any subject from any background."
+],
+[
+"Digital signatures on transparent PNG",
+"A common use is signatures. Sign your name in dark ink on clean white paper, photograph or scan it, crop tightly with [Crop Image](/crop-image/), then convert to PNG with the white background made transparent. The resulting PNG can be placed on contracts in Word, Google Docs or PDF editors without a white rectangle covering the lines of the document. [Sign PDF](/sign-pdf/) can place it directly on a PDF."
+],
+[
+"Image size and resolution",
+"The PNG has exactly the same pixel dimensions as your JPG unless you set a maximum width. Resolution metadata such as 72 or 300 DPI is not important for screens; it only tells printing software how large to print the image by default. If a print shop or form asks for a specific DPI, what really matters is the pixel count: 300 DPI at 10 cm wide needs about 1181 pixels. Use [Resize Image](/resize-image/) with centimetres or inches and a DPI value to get exactly the right size before or after converting."
+],
+[
+"Does converting to PNG improve quality?",
+"No – and this is a common misunderstanding. Converting a JPG to PNG keeps the image exactly as it is, including any JPG compression artefacts already in it. It does not add detail or sharpen anything. What PNG does is stop further loss: every time you edit and re-save a JPG, a little more detail is discarded, while a PNG can be edited and saved endlessly with no further change.",
+"If you want a larger or sharper image, use [Upscale Image](/upscale-image/). If you want a smaller file, keep the JPG or use [Compress Image](/compress-image/) – the PNG version of a photo is usually several times larger than the JPG."
+],
+[
+"Speed",
+"Conversion is almost instant for normal photos because there is no upload or download from a server – the browser decodes the JPG and writes the PNG directly. Very large images of 50 megapixels or more may take a few seconds, mostly spent writing the large lossless PNG file.",
+"Batches are processed one image at a time, so even a few hundred photos will not freeze your browser or phone."
+],
+[
+"JPG vs PNG",
+{
+"table": [
+[
+"",
+"JPG",
+"PNG"
+],
+[
+"Compression",
+"Lossy",
+"Lossless"
+],
+[
+"Transparency",
+"No",
+"Yes, with soft edges"
+],
+[
+"Typical use",
+"Photos",
+"Logos, icons, screenshots, graphics, editing"
+],
+[
+"File size for photos",
+"Small",
+"3–10× larger"
+],
+[
+"Repeated editing",
+"Degrades slightly each save",
+"No loss"
+]
+]
+},
+"For website photos, JPG or WebP is almost always the better choice. For logos and graphics with transparency, PNG or SVG is better. WebP can do both – lossy compression with transparency – and is a good option when the destination supports it."
+],
+[
+"When you need a PNG",
+[
+"Logos and icons that must sit on coloured backgrounds.",
+"Signatures and stamps to place on documents.",
+"Images you will keep editing in Photoshop, GIMP or Figma.",
+"App store and game assets that require PNG.",
+"Sticker packs for messaging apps.",
+"Images with text or diagrams that must stay perfectly crisp after further edits."
+]
+],
+[
+"Why is the PNG so much bigger?",
+"A JPG stores a simplified version of the photo, which is why it is small. PNG stores every pixel exactly, and photos have millions of slightly different pixels, so a lossless file is necessarily larger – a 400 KB JPG photo can become a 3–5 MB PNG. This is normal. If size matters, set a maximum width while converting, or choose WebP output with transparency instead of PNG."
+],
+[
+"Converting other formats to PNG",
+"The converter accepts more than JPG: WebP images saved from websites, HEIC photos from iPhones, BMP and TIFF scans, GIFs (first frame), AVIF and SVG all convert to PNG the same way. SVG files are rendered at their natural size; use a larger maximum width beforehand in an SVG editor if you need a big PNG from a small icon."
+],
+[
+"Preparing logos for websites and apps",
+"If your only copy of a logo is a JPG on a white background, convert it to PNG with the white made transparent so it can sit on coloured headers, dark-mode pages and photos. For the sharpest result, start from the largest version you have and set no maximum width; then resize copies for each use with [Resize Image](/resize-image/). Many favicons and app icons are made from such PNGs – [Favicon Generator](/favicon-generator/) can turn one into all the sizes browsers and phones need.",
+"If you have the logo as vector artwork (SVG, AI or PDF), convert that instead of a JPG – vector logos scale to any size without blur. [SVG to PNG](/svg-to-png/) renders SVGs to PNG directly."
+],
+[
+"Tips for the cleanest transparent result",
+[
+"Photograph or scan on clean, bright white paper with even light – no shadows across the page.",
+"Crop tightly around the subject before converting so less background needs to be removed.",
+"Increase contrast in a photo editor first if the paper looks grey; the transparency threshold works on near-white pixels.",
+"Check the result on a dark background – any leftover light halo shows up clearly there.",
+"For colourful logos with white inside the design (a white letter on a red circle), note that the white parts will also become transparent; use Remove Background or an editor if that is not what you want."
+]
+],
+[
+"JPG to PNG for printing and editing",
+"Printers rarely need PNG – JPG at high quality is standard for photos. PNG is useful when you are going to retouch an image many times: open the PNG in an editor, work on it, save, re-open and keep going without accumulating JPG artefacts. When you are finished, export the final version once as JPG for sharing. Graphic designers often keep a master PNG or TIFF and export JPGs only for delivery."
+],
+[
+"Can PNG files be compressed?",
+"Yes. PNG compression is lossless, so a converted photo stays large, but [Compress Image](/compress-image/) can reduce PNGs by 60–80% using colour quantisation – it picks the best 256-colour palette for the image. For logos, icons and screenshots the result is visually identical and transparency is kept. For photos, quantisation can show slight banding in smooth gradients; WebP is a better choice there."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working."
+],
+[
+"Related tools",
+[
+"[PNG to JPG](/png-to-jpg/) – the reverse direction with background colour.",
+"[Remove Background](/remove-background/) – AI cut-outs for complex photos.",
+"[Sign PDF](/sign-pdf/) – place a transparent signature on a PDF.",
+"[Image Converter](/image-converter/) – all formats.",
+"[Compress Image](/compress-image/) – smaller PNGs with palette compression."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Make a colour transparent",
+"White → transparent",
+"See site",
+"'Choose a color to make transparent'",
+"See site"
+],
+[
+"Resize while converting",
+"Max width",
+"See site",
+"Yes",
+"See site"
+],
+[
+"File-size limit",
+"None (device memory)",
+"See site",
+"See site",
+"1 GB maximum (their page)"
+],
+[
+"File retention",
+"Never uploaded",
+"See site",
+"See site",
+"Removed within 24 hours"
+]
+],
+"faq": [
+{
+"q": "How do I convert JPG to PNG?",
+"a": "Drop your JPG files, keep PNG selected and click Convert."
+},
+{
+"q": "Can I make the background transparent?",
+"a": "Yes. Tick 'Make white background transparent'. It works for white or near-white backgrounds; for complex backgrounds use Remove Background."
+},
+{
+"q": "Does converting JPG to PNG improve quality?",
+"a": "No. The image stays exactly as it is, but further edits will not lose quality."
+},
+{
+"q": "Why is my PNG bigger than the JPG?",
+"a": "PNG is lossless, so photos need many more bytes. Set a maximum width or use WebP if size matters."
+},
+{
+"q": "Can I convert several JPGs at once?",
+"a": "Yes, and you get one ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. Everything runs in your browser."
+},
+{
+"q": "How do I make a transparent signature?",
+"a": "Sign on white paper, photograph it, crop it, then convert to PNG with 'Make white background transparent' ticked."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no limits, sign-up or watermark."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, in mobile Safari and Chrome."
+}
+],
+"related": [
+"png-to-jpg",
+"remove-background",
+"sign-pdf",
+"image-converter",
+"compress-image"
+]
+}
+},
+"webp2jpg": {
+"seo": {
+"updated": "2026-10-25",
+"title": "WebP to JPG Converter – Batch, Quality, Free & Private",
+"desc": "Convert WebP images to JPG (or PNG) with quality control, background colour, resize and batch ZIP. Animated WebP saves the first frame. No upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, FreeConvert and ezgif",
+"compareCols": [
+"CloudConvert",
+"FreeConvert",
+"ezgif"
+],
+"sections": [
+[
+"Open WebP images in any app",
+"You right-click an image on a website, choose 'Save image as', and get a .webp file that your photo viewer, Word, an older version of Photoshop or an upload form refuses to accept. WebP is Google's modern web image format – smaller than JPG and PNG, and used by most large websites – but many desktop programs and online forms still expect JPG. {brand} converts WebP to JPG (or PNG) in a second, right in your browser.",
+"Convert one image or a whole folder. Choose the JPG quality, the colour used behind transparent areas and an optional maximum width, then download individual files or one ZIP. Nothing is uploaded."
+],
+[
+"Features",
+[
+"**JPG or PNG output** – choose PNG to keep transparency, JPG for the widest compatibility.",
+"**Quality slider** – 90 by default.",
+"**Background colour** for transparent WebP images converted to JPG.",
+"**Resize while converting** with a maximum width.",
+"**Animated WebP** – the first frame is saved as a still image.",
+"**Batch** – convert many files to one ZIP.",
+"**Runs locally** – no upload, no size cap, no account."
+]
+],
+[
+"How to convert WebP to JPG",
+[
+"Drop your .webp files onto the page.",
+"Keep JPG as the output (or choose PNG).",
+"Set quality and background colour if needed.",
+"Click Convert and download the JPG files or ZIP."
+]
+],
+[
+"What is WebP?",
+"WebP is an image format developed by Google and released in 2010. It supports both lossy compression (like JPG) and lossless compression (like PNG), plus transparency and animation (like GIF) – all in one format. At the same visual quality, lossy WebP files are typically 25–35% smaller than JPG, and lossless WebP files are around 25% smaller than PNG. That is why websites, online shops and content delivery networks serve images as WebP whenever the browser supports it, and every major browser has supported it since 2020.",
+"The downside is software outside the browser. Older versions of Windows Photo Viewer, Microsoft Office, Photoshop before version 23.2, many print services and plenty of upload forms do not accept WebP. Converting to JPG is the universal fix."
+],
+[
+"Should you keep WebP or convert?",
+"If a file is only going to be viewed in a browser or posted back to the web, there is no need to convert – WebP is smaller and every modern browser and most social networks accept it. Convert to JPG when the destination is software or a service that does not support WebP: older Office and photo editors, print shops, some e-mail clients, government and exam upload forms, and many marketplaces' bulk-upload tools. If you are unsure, JPG is the format that works absolutely everywhere, at the cost of a slightly larger file. Keep the original WebP too if you might need transparency or the smaller size again later; converting JPG back to WebP will not restore any detail that was lost."
+],
+[
+"WebP vs JPG vs PNG",
+{
+"table": [
+[
+"",
+"WebP",
+"JPG",
+"PNG"
+],
+[
+"Lossy compression",
+"Yes",
+"Yes",
+"No"
+],
+[
+"Lossless compression",
+"Yes",
+"No",
+"Yes"
+],
+[
+"Transparency",
+"Yes",
+"No",
+"Yes"
+],
+[
+"Animation",
+"Yes",
+"No",
+"No (APNG separate)"
+],
+[
+"Size for photos",
+"Smallest",
+"Small",
+"Large"
+],
+[
+"Compatibility",
+"All browsers; some apps",
+"Everything",
+"Everything"
+]
+]
+}
+],
+[
+"Converting WebP on phones",
+"On Android, images saved from Chrome are often WebP and some gallery or messaging apps cannot share them properly. Open this page in Chrome, tap the drop area, choose the images from Downloads and convert; the JPGs are saved back to Downloads. On iPhone and iPad, Safari saves images from websites into Photos or Files, sometimes as WebP. The converter works the same way in Safari: pick the files, convert, and save the JPGs to Files or share them to Photos. Nothing is uploaded, so it also works on slow or metered mobile data."
+],
+[
+"Why images save as WebP",
+"When you save an image from a website, you get whatever format the site sent. Most big sites detect that your browser supports WebP and send WebP to save bandwidth, even if the original upload was a JPG. Some browsers let you choose: in Chrome you can sometimes open the image in a new tab and change the file extension in the URL, but that only works on sites that serve different formats per URL. Converting the saved file is simpler and always works."
+],
+[
+"Quality of the converted JPG",
+"A lossy WebP has already discarded some detail when it was created; converting it to JPG cannot bring that back, and adds a little JPG compression of its own. At quality 90 this second step is practically invisible. If the WebP was lossless, choose PNG output for a perfect copy, or JPG at quality 95 for a much smaller file that still looks identical on screen.",
+"For a quick check, open the original and the converted file side by side at 100% zoom – at normal settings you should not be able to tell them apart."
+],
+[
+"Animated WebP files",
+"WebP can store animations, like a GIF but much smaller. JPG and PNG are still-image formats, so this converter saves the first frame of an animated WebP. To keep the animation, convert it to GIF or MP4 with a video tool – [GIF to MP4](/gif-to-mp4/) and [Video to GIF](/video-to-gif/) handle the common cases."
+],
+[
+"Transparency",
+"Many WebP images – logos, stickers, product cut-outs – have transparent backgrounds. JPG cannot store transparency, so transparent areas are filled with the background colour you choose (white by default). If you need to keep transparency, choose PNG output instead."
+],
+[
+"Opening WebP files without converting",
+"On Windows 10 and 11 the Photos app opens WebP files, and on macOS Preview has supported WebP since macOS Big Sur. Chrome, Edge, Firefox and Safari display them directly – drag the file into a browser tab. Photoshop supports WebP from version 23.2 (2022) and GIMP from 2.10. If an app or website still refuses, convert to JPG here."
+],
+[
+"Converting the other way",
+"If you run a website, you probably want the opposite: converting JPG and PNG images to WebP to make pages faster. Use [JPG to WebP](/jpg-to-webp/) or [PNG to WebP](/png-to-webp/), or [Compress Image](/compress-image/) with WebP output and a maximum width to resize and convert in one step."
+],
+[
+"Using WebP images in documents and slides",
+"Microsoft Word and PowerPoint for Microsoft 365 can insert WebP images, but older Office versions, many Google Docs import paths and some PDF tools cannot. If an image shows as a blank box or 'picture can't be displayed', convert it to JPG (or PNG for graphics with transparency) and insert it again. For presentations, a maximum width of 1920 pixels keeps the deck small while still looking sharp on a projector."
+],
+[
+"WebP to JPG for printing",
+"Print services and photo labs usually require JPG. Because WebP images on websites are often resized and compressed for fast loading, check the pixel size before printing: an image only 800 pixels wide will print sharply at only about 7 cm (under 3 inches) wide at 300 DPI. Convert at quality 95 and, if you need it larger, try [Upscale Image](/upscale-image/) for a cleaner enlargement than the printer's own scaling."
+],
+[
+"Is it legal to save and convert images from websites?",
+"Converting a file's format does not change who owns it. Images on websites are usually protected by copyright, and saving one for personal reference is very different from republishing it. Before you use a downloaded image in a blog, product listing or marketing material, check the licence or ask the owner. Free stock sites such as Unsplash or Pexels state their licences clearly. For your own images, of course, convert freely."
+],
+[
+"Lossless WebP",
+"Some WebP files – especially graphics, screenshots and logos – use lossless WebP compression. Converting those to JPG introduces lossy compression for the first time, which can soften sharp text and edges. For such images choose PNG output: the conversion is then completely lossless and every pixel is kept exactly."
+],
+[
+"Speed and limits",
+"Conversion speed depends on your device rather than a server queue: a typical laptop converts dozens of WebP images per second for normal web sizes, and large batches are processed one image at a time so the page stays responsive. There is no fixed file-size limit; images up to roughly 100 megapixels work on most computers."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working."
+],
+[
+"Related tools",
+[
+"[WebP to PNG](/webp-to-png/) – keep transparency.",
+"[JPG to WebP](/jpg-to-webp/) – make images smaller for the web.",
+"[PNG to JPG](/png-to-jpg/) – convert screenshots and graphics.",
+"[Image Converter](/image-converter/) – all formats.",
+"[Compress Image](/compress-image/) – exact KB targets."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Processing",
+"On your device only",
+"Upload",
+"Upload",
+"Upload or 'Local processing' option"
+],
+[
+"Max file size",
+"None (device memory)",
+"See site",
+"See site",
+"200 MB"
+],
+[
+"File retention",
+"Never uploaded",
+"See site",
+"See site",
+"Deleted 1 hour after upload"
+],
+[
+"Background colour for transparency",
+"Yes",
+"See site",
+"Yes",
+"Yes"
+],
+[
+"Batch",
+"Yes, ZIP",
+"See site",
+"See site",
+"Yes, ZIP"
+]
+],
+"faq": [
+{
+"q": "How do I convert WebP to JPG?",
+"a": "Drop your WebP files, keep JPG as the format and click Convert."
+},
+{
+"q": "Why do images from websites save as WebP?",
+"a": "Websites send WebP to browsers that support it because the files are smaller. Convert to JPG for apps that do not support WebP."
+},
+{
+"q": "Will converting WebP to JPG lose quality?",
+"a": "At quality 90 the difference is not visible. JPG files are usually a bit larger than the WebP."
+},
+{
+"q": "What about transparent WebP images?",
+"a": "Transparent areas are filled with your chosen background colour. Choose PNG output to keep transparency."
+},
+{
+"q": "Can it convert animated WebP?",
+"a": "It saves the first frame as a still JPG or PNG."
+},
+{
+"q": "Can I convert many WebP files at once?",
+"a": "Yes, and download them as one ZIP."
+},
+{
+"q": "Are my images uploaded?",
+"a": "No. Conversion runs in your browser."
+},
+{
+"q": "Is WebP better than JPG?",
+"a": "For websites, yes – it is smaller at the same quality. For sharing with older software, JPG is more compatible."
+},
+{
+"q": "Can I open WebP in Photoshop?",
+"a": "Photoshop 23.2 and later open WebP. For older versions, convert to JPG or PNG first."
+}
+],
+"related": [
+"webp-to-png",
+"jpg-to-webp",
+"png-to-jpg",
+"image-converter",
+"compress-image"
+]
+}
+},
+"ocr": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Image to Text – Free OCR in 12 Languages, No Upload",
+"desc": "Extract text from images, screenshots and photos with on-device OCR. 12 languages, two at once, paste with Ctrl+V, batch, TXT or searchable PDF. Free.",
+"compareTitle": "{tool}: {brand} vs imagetotext.info, OnlineOCR.net and Prepostseo",
+"compareCols": [
+"imagetotext.info",
+"OnlineOCR.net",
+"Prepostseo"
+],
+"sections": [
+[
+"Copy text out of any picture",
+"A photo of a notice board, a screenshot of a chat, a scanned letter, a slide from a lecture, a receipt, a page of a book – they all contain text you cannot select or search. {brand}'s Image to Text tool reads that text with optical character recognition (OCR) and gives it back as plain, editable text you can copy, paste, search, translate or save. It handles printed text in twelve languages, including Hindi, Tamil, Arabic, Chinese and Japanese, and can read two languages in the same image.",
+"Everything happens in your browser. The OCR engine and language models are loaded into the page and run on your device, so your images – ID cards, bank letters, medical reports, private messages – are never uploaded. There is no daily limit, no 'premium' accuracy tier and no account.",
+"Unlike many 'free' OCR websites, there are no adverts between steps, no CAPTCHA, no e-mail address required to download your text, and no limit on the number or size of images – the only limit is your device's memory."
+],
+[
+"Features",
+[
+"**12 languages:** English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese.",
+"**Two languages at once** for mixed documents, such as English with Hindi or French with Arabic.",
+"**Paste from the clipboard:** press Ctrl+V (Cmd+V on Mac) to OCR a screenshot without saving it.",
+"**Batch OCR:** drop many images and get all the text in one go.",
+"**Output as text or searchable PDF:** copy the text, download a .txt file, or create a PDF with an invisible text layer over the image.",
+"**Adjustable resolution:** raise the DPI for small print.",
+"**Automatic layout analysis** that keeps lines and paragraphs in reading order.",
+"**Works offline** after the language model has loaded once.",
+"**No watermark, no sign-up:** the text you extract is yours, with nothing added."
+]
+],
+[
+"How to extract text from an image",
+[
+"Drop one or more images (JPG, PNG, WebP, HEIC, BMP, TIFF), or paste a screenshot with Ctrl+V.",
+"Choose the language of the text, and optionally a second language.",
+"Choose output: plain text or searchable PDF.",
+"Click Extract text. The first run downloads the language model (a few MB); later runs start instantly.",
+"Copy the text or download the file."
+]
+],
+[
+"How OCR works",
+"OCR turns pixels into characters in several stages. First the image is converted to black and white with adaptive thresholding, which copes with uneven lighting and coloured backgrounds. Then the page layout is analysed: the engine finds blocks of text, separates columns, and splits blocks into lines and words. Finally each line is fed to a neural network – an LSTM model trained on hundreds of thousands of lines of text in the chosen language – which predicts the most likely sequence of characters, using its knowledge of the language to choose between look-alikes like 'rn' and 'm' or '0' and 'O'.",
+"{brand} uses Tesseract, the open-source OCR engine originally developed at HP and later maintained with Google's support, compiled to WebAssembly so it runs in the browser at near-native speed. The same engine powers many desktop and server OCR products."
+],
+[
+"Getting the most accurate results",
+[
+"**Use a sharp, well-lit image.** Blur and shadows are the main causes of errors. Photograph documents flat, in daylight, without the flash glare.",
+"**Fill the frame with the text.** Crop away tables, hands and backgrounds with [Crop Image](/crop-image/).",
+"**Choose the right language.** A French text read with the English model loses accents and misreads words.",
+"**Increase DPI for small print.** If the text is small in the image, raise the resolution setting so letters are at least 20–30 pixels tall.",
+"**Straighten the image.** Slight tilts are handled, but strongly rotated photos should be rotated first with [Rotate Image](/rotate-image/).",
+"**Higher contrast helps.** Dark text on a light background gives the best results; light text on dark backgrounds usually works too."
+]
+],
+[
+"What kinds of images work?",
+{
+"table": [
+[
+"Image",
+"Expected result"
+],
+[
+"Screenshots of text, web pages, chats",
+"Excellent – near-perfect"
+],
+[
+"Scanned printed documents",
+"Excellent"
+],
+[
+"Phone photos of printed pages",
+"Very good with good light"
+],
+[
+"Receipts and invoices",
+"Good; faded thermal paper is harder"
+],
+[
+"Signs, posters, menus",
+"Good for clear fonts"
+],
+[
+"Stylised or decorative fonts",
+"Variable"
+],
+[
+"Handwriting",
+"Limited – neat block capitals sometimes work, cursive rarely"
+],
+[
+"Text over photos or patterns",
+"Variable"
+]
+]
+},
+"Be honest with yourself about handwriting: classic OCR engines, including this one, are trained on printed text. Neat handwritten capitals may be read partly correctly, but joined-up handwriting will produce mostly errors. Dedicated handwriting recognition requires much larger AI models that currently run on servers."
+],
+[
+"Languages and scripts",
+"Each language has its own trained model, which knows the alphabet and common words. Latin-script languages (English, Spanish, French, German, Portuguese, Italian) share most letters but differ in accents and vocabulary, so choosing the right one improves accuracy noticeably. Russian uses Cyrillic. Arabic is written right to left with letters that change shape depending on their position; the Arabic model handles this and outputs text in the correct logical order. Hindi uses Devanagari with its characteristic headline and conjunct letters, and Tamil has its own script with vowel signs around consonants – both have dedicated models. Chinese (Simplified) and Japanese have thousands of characters and larger models, so their first load takes a little longer.",
+"For documents mixing two languages, choose both: every word is then matched against both models, which avoids, for example, English words being mangled in a Hindi document."
+],
+[
+"Text or searchable PDF?",
+"Plain text is the most flexible: paste it into a document, e-mail, spreadsheet or translator. A searchable PDF keeps the image exactly as it looks and places the recognised text invisibly on top, so you can search it with Ctrl+F, select and copy passages, and let document management systems index it. Choose PDF when the original layout matters – a signed letter, an ID or a form – and text when you want to reuse the words. For multi-page scanned PDFs, use [OCR PDF](/ocr-pdf/), which adds a text layer to every page and can straighten crooked scans."
+],
+[
+"Common uses",
+[
+"Copying text from screenshots of messages, slides or videos.",
+"Digitising printed letters and notes for search and archiving.",
+"Grabbing a quote, address or phone number from a photo.",
+"Extracting text from receipts for expense reports.",
+"Translating signs and menus: OCR the photo, then paste into a translator.",
+"Making notes from textbook pages or lecture slides.",
+"Accessibility – turning image-only content into text a screen reader can read aloud, or into audio with [Text to Speech](/text-to-speech/)."
+]
+],
+[
+"Tables and layout",
+"OCR output keeps the reading order of lines and paragraphs, but complex layouts such as multi-column newspapers and tables are linearised: columns are read one after another and table cells become lines of text separated by spaces. For tables in PDFs, [PDF to Excel](/pdf-to-excel/) reconstructs rows and columns, including for scanned pages."
+],
+[
+"Troubleshooting poor results",
+{
+"table": [
+[
+"Symptom",
+"Likely cause",
+"Fix"
+],
+[
+"Random symbols instead of words",
+"Wrong language chosen, or image very blurry",
+"Choose the correct language; retake the photo"
+],
+[
+"Missing accents (é, ü, ñ)",
+"English model used for a European language",
+"Select French, German, Spanish etc."
+],
+[
+"Only part of the text found",
+"Low contrast or tiny print",
+"Raise DPI; crop closer to the text"
+],
+[
+"Lines out of order",
+"Multi-column or mixed layout",
+"Crop each column separately"
+],
+[
+"'l', '1' and 'I' confused",
+"Sans-serif font with identical glyphs",
+"Proof-read numbers and codes manually"
+],
+[
+"Nothing recognised",
+"Text is handwritten or artistic",
+"OCR is designed for printed text"
+]
+]
+},
+"As with any OCR tool, always proof-read important details such as amounts, account numbers, dates and names. Even a 99% accurate result contains one wrong character in every hundred, and the engine cannot know that a misread digit in an IBAN matters more than a misread letter in a word."
+],
+[
+"Screenshots: the easiest case",
+"Screenshots are ideal for OCR because the text is perfectly sharp, straight and evenly lit. To grab text from a video, a locked PDF, an app that does not allow copying, or an image in a chat, take a screenshot (Windows: Win+Shift+S; Mac: Cmd+Shift+4; Android and iPhone: the usual button combination), then open this page and press Ctrl+V. The screenshot is read straight from the clipboard; you never need to save it as a file. On high-resolution displays, screenshots already have enough pixels per letter, so the default DPI is fine."
+],
+[
+"Extracting text from social media and memes",
+"Images shared on social networks are usually compressed and may have text over busy backgrounds or coloured gradients. OCR still works well on large captions and on screenshots of posts, tweets and comments. For meme-style white text with black outlines, the engine reads the letters as long as they are big and clear; crop away the picture underneath to reduce noise. Very small text in compressed images – such as a watermark or a username in the corner – may need a higher DPI setting or a cleaner source image. If a post is still online, taking a fresh full-resolution screenshot gives better results than re-saving an already compressed copy several times."
+],
+[
+"Photos taken with a phone",
+"Phone photos of documents vary much more than scans. For best results hold the phone parallel to the page so the text is not distorted in perspective, make sure the whole page is in focus by tapping on the text before shooting, and avoid your own shadow by standing to the side of the light source. Turn off the flash for glossy paper, which reflects light and creates white patches with no text. If you shoot in HEIC on an iPhone, you can upload the HEIC directly; it is decoded in the browser. A modern phone camera produces 12 megapixels or more, which is plenty – there is no need to raise the DPI setting for photos."
+],
+[
+"Receipts and invoices",
+"Receipts are often printed on thermal paper, which fades over time and has low contrast. Photograph them soon after purchase, on a dark background so the edges are clear, and flatten curled paper. The OCR output will give you the shop name, items and totals as text you can paste into an expense spreadsheet. Because amounts are critical, check the totals by eye before submitting a claim."
+],
+[
+"OCR versus copying text from a PDF",
+"If a PDF was created from a word processor, it already contains real text, and you can simply select and copy it or use [PDF to Text](/pdf-to-text/) – faster and 100% accurate. OCR is only needed when the PDF is a scan or a picture of text. A quick test: try to select a word in your PDF viewer. If you can highlight individual words, the text is already there; if the whole page highlights as one image, you need OCR."
+],
+[
+"Glossary",
+[
+"**OCR (optical character recognition):** converting images of text into machine-readable characters.",
+"**DPI (dots per inch):** how many pixels are used per inch of the original; higher values make small letters larger for the engine.",
+"**Text layer:** invisible text placed over an image in a PDF so it can be searched and copied.",
+"**LSTM:** the type of neural network used by modern Tesseract to recognise whole lines of text.",
+"**Binarisation:** converting the image to pure black and white before recognition."
+]
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.",
+"Many online OCR services upload your image to a server and process it there, and some keep a history of conversions in an account. Here, the only thing downloaded is the language model – from our own site – and the only thing produced is text on your screen."
+],
+[
+"Related tools",
+[
+"[OCR PDF](/ocr-pdf/) – searchable PDFs from scanned documents.",
+"[PDF to Excel](/pdf-to-excel/) – tables from PDFs, including scans.",
+"[Text to Speech](/text-to-speech/) – listen to the extracted text.",
+"[Crop Image](/crop-image/) – isolate the text before OCR.",
+"[QR Code Scanner](/qr-code-scanner/) – read QR codes from images."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Processing",
+"On your device",
+"Upload",
+"Upload",
+"Upload"
+],
+[
+"Languages",
+"12 (two at once)",
+"'Multiple languages'",
+"Many (list on page)",
+"'20+ languages'"
+],
+[
+"Max file size",
+"None (device memory)",
+"See site",
+"15 MB",
+"See site"
+],
+[
+"Searchable PDF output",
+"Yes",
+"Not offered on page",
+"'Searchable PDF' use case",
+"See site"
+],
+[
+"Paid tier for more use",
+"No",
+"$8/$10/$40 monthly plans listed",
+"Free for 'Guest' use; paid plans",
+"Premium for higher limits"
+]
+],
+"faq": [
+{
+"q": "How do I extract text from an image for free?",
+"a": "Drop the image or paste a screenshot, choose the language and click Extract text. Copy the result or download it."
+},
+{
+"q": "Is my image uploaded?",
+"a": "No. OCR runs in your browser; your image stays on your device."
+},
+{
+"q": "Which languages are supported?",
+"a": "English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese. You can combine two."
+},
+{
+"q": "Can it read handwriting?",
+"a": "Only to a limited degree. Neat block capitals may work; cursive handwriting is not reliably recognised."
+},
+{
+"q": "How accurate is it?",
+"a": "For clear screenshots and scans, typically over 98% of characters are correct. Blurry or dim photos and decorative fonts reduce accuracy."
+},
+{
+"q": "Can I OCR several images at once?",
+"a": "Yes. Drop several images and get all the text together."
+},
+{
+"q": "Can I paste a screenshot directly?",
+"a": "Yes. Press Ctrl+V (Cmd+V on Mac) on the page."
+},
+{
+"q": "Can I convert a scanned PDF to text?",
+"a": "Use OCR PDF for multi-page PDFs; it creates a searchable PDF and can also output text."
+},
+{
+"q": "Why is the first run slower?",
+"a": "The language model (a few MB) is downloaded once and cached; later runs start straight away."
+},
+{
+"q": "Does it work on my phone?",
+"a": "Yes. Take a photo or choose one from your gallery in mobile Safari or Chrome."
+}
+],
+"related": [
+"ocr-pdf",
+"pdf-to-excel",
+"text-to-speech",
+"crop-image",
+"qr-code-scanner"
+]
+}
+},
+"upscale": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Upscale Image – 2×, 4×, 8× Free, On Your Device",
+"desc": "Upscale images 1.5×, 2×, 3×, 4× or 8× with Lanczos resampling, denoise and sharpening. Before/after slider, batch, full-res download. No upload, free.",
+"compareTitle": "{tool}: {brand} vs iLoveIMG, ImgUpscaler and Upscale.media",
+"compareCols": [
+"iLoveIMG",
+"ImgUpscaler",
+"Upscale.media"
+],
+"sections": [
+[
+"Make small images bigger – without the blocky look",
+"When you stretch a small image in a basic editor, it turns blocky or blurry: each original pixel simply becomes a square of identical pixels, or edges are smeared out. {brand}'s Upscale Image tool enlarges photos, graphics and screenshots by 1.5×, 2×, 3×, 4× or 8× using high-quality Lanczos resampling, optional denoising that cleans up JPEG artefacts before enlarging, and an unsharp mask that restores crispness afterwards. The result is a larger image that looks smooth and sharp at normal viewing distance.",
+"The whole process runs inside your browser. Your images are never uploaded, so it is safe for personal photos, client work and unreleased product images. There are no credits, no watermark and no reduced-resolution 'preview' – the download is the full upscaled image.",
+"You can process as many images as you like, as often as you like – there is no daily quota."
+],
+[
+"Be clear about what this upscaler does",
+"Some online upscalers use large generative AI models on their servers that 'invent' plausible new detail – skin pores, hair strands, brick texture. {brand} does not do that. It uses a mathematically precise resampling filter (Lanczos-3, the same family of filters used in professional image editors) plus classic cleanup and sharpening. This means it never adds details that were not there, never changes faces or text, and never produces the strange artefacts AI models sometimes create – but it also cannot reconstruct detail that the small image does not contain. For most uses – printing a web image larger, preparing a logo for a slide, enlarging a product photo for a marketplace, making a screenshot readable – careful resampling is exactly what you need, and it is fast and fully private."
+],
+[
+"Features",
+[
+"**Scale factors:** 1.5×, 2×, 3×, 4× and 8×.",
+"**Lanczos-3 resampling** implemented separately for width and height for smooth, ringing-controlled edges.",
+"**Denoise / JPEG cleanup:** off, light or strong, applied before enlarging so blocks and noise are not magnified.",
+"**Sharpening:** off, medium or strong unsharp mask after enlarging.",
+"**Before/after slider** to compare the original and the result.",
+"**Batch:** upscale many images at once and download a ZIP.",
+"**Output format:** keep the original format or choose JPG, PNG or WebP.",
+"**Large outputs:** up to about 64 megapixels per image; if a factor would exceed that, it is reduced automatically.",
+"**Accepts** JPG, PNG, WebP, HEIC, BMP and TIFF."
+]
+],
+[
+"How to upscale an image",
+[
+"Drop one or more images onto the page (or paste with Ctrl+V).",
+"Choose the scale: 2× for most uses, 4× or 8× for very small sources.",
+"For JPGs from the web or messaging apps, set Denoise to Light.",
+"Leave Sharpen at Medium, or choose Strong for text and line art.",
+"Click Upscale and compare with the slider, then download."
+]
+],
+[
+"Which scale should I choose?",
+{
+"table": [
+[
+"Starting size",
+"Goal",
+"Suggested scale"
+],
+[
+"640×480 photo",
+"Full HD wallpaper",
+"3×"
+],
+[
+"800×800 product photo",
+"Marketplace zoom (2000 px)",
+"2.5–3× (use 3×)"
+],
+[
+"300 px logo",
+"Slide or banner",
+"4×"
+],
+[
+"1080 px Instagram image",
+"A4 print at 300 DPI (2480×3508)",
+"2× then crop"
+],
+[
+"Tiny icon or sprite (64 px)",
+"Large display",
+"8×"
+],
+[
+"Screenshot",
+"Readable in a document",
+"2×"
+]
+]
+},
+"Remember that the visual quality of the result is limited by the information in the original. Going from 500 to 1000 pixels usually looks excellent; going from 100 to 800 pixels gives a smooth but soft image."
+],
+[
+"How Lanczos resampling works",
+"Every pixel in the enlarged image lies between pixels of the original. The simplest method, nearest-neighbour, copies the closest original pixel – fast but blocky. Bilinear interpolation averages the four nearest pixels – smooth but blurry. Bicubic uses sixteen pixels and gives better results. Lanczos goes further: for each new pixel it looks at six original pixels in each direction and weights them by a windowed sinc function, the mathematically ideal reconstruction filter for band-limited signals. In practice this preserves edges and fine textures much better than bilinear or bicubic, while keeping halos small.",
+"Because large upscales with one big step can amplify problems, {brand} applies the filter separately horizontally and vertically, which is both faster and exact for this kind of filter. The optional unsharp mask then increases local contrast at edges, which our eyes perceive as sharpness."
+],
+[
+"Denoise before you upscale",
+"Images saved as JPG – especially those downloaded from social networks or forwarded through messaging apps – contain compression artefacts: faint 8×8 pixel blocks, ringing around text and colour smudges. Upscaling makes these four or sixteen times bigger and much more visible. The Denoise option applies a gentle blur before enlarging, which smooths the artefacts away; the sharpening step afterwards then restores edges. Use Light for normal web images and Strong for very compressed ones. For clean PNG graphics and photos straight from a camera, leave denoise off."
+],
+[
+"Use cases",
+[
+"**Printing:** web images are usually 72–150 pixels per inch at print size; upscaling 2–4× gets you closer to the 300 PPI printers like.",
+"**E-commerce:** marketplaces often require a minimum of 1000–2000 pixels on the long side for zoom.",
+"**Presentations:** enlarge logos and charts so they are not blurry on a projector.",
+"**Old photos:** upscale scans of small prints before cropping or restoring.",
+"**Games and pixel art:** 8× with sharpening off for crisp enlargements.",
+"**Wallpapers:** take a favourite photo to Full HD or 4K.",
+"**Social media:** meet the minimum resolution for cover and banner images."
+]
+],
+[
+"Upscaling for print",
+"Print quality depends on pixels per inch at the final size. A 1200×800 photo printed 10 cm wide has about 300 pixels per inch – excellent. The same photo printed 30 cm wide has only 100 – visibly soft up close. Upscaling 3× before printing does not add real detail, but it gives the printer a smooth image instead of letting it enlarge with its own, usually simpler, interpolation; edges and gradients look cleaner. For posters viewed from a distance, 150 PPI is often enough. After upscaling, use [Resize Image](/resize-image/) with centimetre or inch units to set the exact print size and DPI."
+],
+[
+"Tips for the best results",
+[
+"Start from the largest, least compressed version of the image you have.",
+"Crop first, so you only enlarge what you need – [Crop Image](/crop-image/).",
+"Use PNG output for graphics and screenshots, JPG at high quality for photos.",
+"For text and logos, choose Strong sharpening; for faces, Medium looks more natural.",
+"Avoid upscaling the same image repeatedly; one larger step is better than several small ones.",
+"If the file becomes too big, compress it afterwards with [Compress Image](/compress-image/)."
+]
+],
+[
+"Comparing enlargement methods",
+{
+"table": [
+[
+"Method",
+"How it works",
+"Look",
+"Best for"
+],
+[
+"Nearest neighbour",
+"Copies the closest pixel",
+"Blocky, hard edges",
+"Pixel art at whole factors"
+],
+[
+"Bilinear",
+"Averages 4 pixels",
+"Smooth but blurry",
+"Quick previews"
+],
+[
+"Bicubic",
+"Weighs 16 pixels with a cubic curve",
+"Good, slightly soft",
+"General editing"
+],
+[
+"Lanczos-3 (used here)",
+"Weighs 36 pixels with a windowed sinc",
+"Sharpest classical result",
+"Photos, graphics, screenshots"
+],
+[
+"Generative AI",
+"Neural network predicts new detail",
+"Very sharp, may invent detail",
+"Heavily degraded images, when accuracy is not critical"
+]
+]
+},
+"Lanczos is often chosen as the reference method in image-processing libraries because it gives the best balance between sharpness and artefacts among classical filters. Combined with light sharpening, the difference from AI upscaling is small for moderate factors such as 2×, and Lanczos has the advantage of being completely predictable."
+],
+[
+"Upscaling different kinds of images",
+"**Portraits and faces.** Use 2× or 3×, Denoise Light and Sharpen Medium. Strong sharpening on skin exaggerates pores and noise. Because nothing is invented, the person looks exactly like themselves – a common complaint about AI upscalers is that they subtly change facial features.",
+"**Text, documents and screenshots.** Use 2×, Denoise Off and Sharpen Strong, and save as PNG. Letters become smooth and readable, ideal before printing or pasting into a report. If you want to copy the text, use [Image to Text](/image-to-text/) – upscaling small screenshots first can also improve OCR accuracy.",
+"**Logos and icons.** Use 4×, Sharpen Strong, PNG output so transparency is kept. For truly scalable logos, a vector (SVG) version is always better than any upscale; ask the designer or brand owner for it.",
+"**Product photos.** Use 2–3× with Light denoise and Medium sharpening. Combine with [Remove Background](/remove-background/) for a clean white background required by many marketplaces.",
+"**Anime, cartoons and illustrations.** Flat colours and clean lines upscale very well with Lanczos. Use Strong sharpening and PNG.",
+"**Old scanned photos.** Scan at the highest resolution your scanner supports first – that captures far more real detail than any upscaler. Then use Light or Strong denoise to reduce grain before enlarging."
+],
+[
+"How upscaling affects file size",
+"Doubling width and height multiplies the number of pixels by four; 4× multiplies it by sixteen and 8× by sixty-four. A 1 MB JPG upscaled 4× can become 8–15 MB, and as a PNG it may exceed 50 MB. If you need a smaller file, choose JPG or WebP output, or run the result through [Compress Image](/compress-image/) with a target size. For web use, upscaling beyond the size at which the image is displayed only makes pages slower – resize to the display size instead."
+],
+[
+"Pixels, DPI and PPI explained",
+"An image file only has pixels – for example 2400×1600. DPI or PPI (dots or pixels per inch) is a separate number that tells printers how large to print it. Changing DPI from 72 to 300 without changing pixels does not improve quality; it only makes the print smaller. To print larger at the same quality, you need more pixels, which is what upscaling gives you. A useful rule: pixels needed = print size in inches × 300 for close viewing, × 150 for posters. An A4 page (8.3×11.7 in) at 300 PPI needs about 2480×3508 pixels."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Fix"
+],
+[
+"Result looks oversharpened, with halos",
+"Set Sharpen to Medium or Off"
+],
+[
+"Blocks or blotches are visible",
+"Set Denoise to Light or Strong"
+],
+[
+"Result is soft",
+"Use a smaller factor, start from a larger source, or set Sharpen to Strong"
+],
+[
+"Scale was reduced automatically",
+"The output would exceed ~64 megapixels; crop or choose a smaller factor"
+],
+[
+"Browser tab crashes on a phone",
+"Use a smaller factor or a computer for very large outputs"
+],
+[
+"Transparent areas turned white",
+"Choose PNG or WebP output, not JPG"
+]
+]
+}
+],
+[
+"When an AI upscaler might be better",
+"If your image is extremely small (for example a 150-pixel thumbnail) and you need to print it large, or it is badly blurred, a generative AI service may produce a more impressive-looking result by hallucinating texture. Keep in mind that such services usually require uploading the image, often limit free use with credits or watermarks, and the added detail is not real – so they are unsuitable for evidence, documents, scientific images or anything where accuracy matters. For everyday enlargement, private on-device resampling is usually the safer and faster choice."
+],
+[
+"Upscaling on phones and tablets",
+"The tool works in mobile Chrome, Safari and Firefox. Choose a photo from your gallery or take one with the camera. Phones have less memory than computers, so for large photos stay with 2× or 3×; 8× of a 12-megapixel photo would be far beyond the 64-megapixel limit anyway. On iPhone, HEIC photos are accepted directly. Downloads are saved to your Files or Downloads folder, from where you can share them or save them to your photo library."
+],
+[
+"Recommended minimum sizes for popular uses",
+{
+"table": [
+[
+"Use",
+"Minimum size (pixels)"
+],
+[
+"Instagram post",
+"1080×1080"
+],
+[
+"YouTube thumbnail",
+"1280×720"
+],
+[
+"LinkedIn / Facebook cover",
+"1584×396 / 1640×624 (see each platform)"
+],
+[
+"Full HD wallpaper",
+"1920×1080"
+],
+[
+"4K wallpaper",
+"3840×2160"
+],
+[
+"Amazon-style product zoom",
+"1000+ on the long side"
+],
+[
+"A4 print, 300 PPI",
+"2480×3508"
+],
+[
+"10×15 cm photo print",
+"1200×1800"
+]
+]
+},
+"Platforms change their recommendations from time to time, so check the current guidance before a big campaign. If your image is below the minimum, upscale it to just above the target, then use [Resize Image](/resize-image/) presets to hit the exact dimensions."
+],
+[
+"Using the before/after slider",
+"After processing, drag the divider across the preview to compare the original (enlarged with simple browser scaling) and the {brand} result at the same size. Look at edges, text and areas of fine texture such as hair or fabric. If you see halos – light or dark outlines around edges – reduce sharpening. If flat areas look grainy, increase denoise. Because processing is local and fast, you can try two or three combinations in under a minute and keep the one you like best."
+],
+[
+"Common myths about upscaling",
+[
+"**'Upscaling recovers the original detail.'** Only the original camera or file has that detail; resampling reconstructs smooth transitions, and AI guesses texture.",
+"**'Changing DPI to 300 makes it high resolution.'** DPI is only print metadata – pixels are what count.",
+"**'Bigger is always better.'** An image larger than where it will be shown wastes storage and bandwidth.",
+"**'You need a powerful server.'** Modern browsers compute even 64-megapixel results on an ordinary laptop in seconds."
+]
+],
+[
+"Batch upscaling workflow",
+"To prepare a whole product catalogue or photo album, drop all images at once. Each is enlarged with the same settings and named after the original with a suffix, so you can match them easily; the set is downloaded as one ZIP. Process images of similar type together – photos in one batch, logos and screenshots in another – because they benefit from different denoise and sharpening settings."
+],
+[
+"Upscaling and transparency",
+"PNG and WebP images with transparent backgrounds – logos, stickers, cut-out product shots – keep their transparency when upscaled, as long as you choose PNG or WebP output. The resampling filter processes the alpha channel together with colour, so edges stay smooth instead of developing a jagged or coloured fringe. Choosing JPG output fills transparent areas with white, which is useful when a marketplace requires a white background but not when you want to place the image over other content. If your cut-out comes from [Remove Background](/remove-background/), upscale it as PNG and then place it on any background you like. For best results with very fine edges like hair, upscale first and then remove the background, so the cut-out works on more pixels."
+],
+[
+"Glossary",
+[
+"**Upscaling:** increasing an image's pixel dimensions.",
+"**Resampling:** computing new pixel values from the original ones when changing size.",
+"**Lanczos filter:** a high-quality resampling filter based on the sinc function.",
+"**Unsharp mask:** a sharpening technique that boosts the difference between the image and a blurred copy.",
+"**Artefacts:** unwanted patterns such as JPEG blocks, halos or noise.",
+"**Megapixel:** one million pixels; 8000×8000 is 64 megapixels."
+]
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The image is decoded, edited and re-encoded on your own device using the browser's built-in image engine and WebAssembly, and the result is handed straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue, so private photos, ID cards, screenshots with personal data and unreleased product shots never leave your computer or phone. You can even switch off Wi‑Fi once the page has loaded and the tool keeps working.",
+"Many AI upscalers upload your image to their servers and keep it for a period – often up to 24 hours – before deleting it. Here, there is nothing to delete: the image never leaves your device."
+],
+[
+"Related tools",
+[
+"[Image Enlarger](/image-enlarger/) – the same engine with enlarging presets.",
+"[Resize Image](/resize-image/) – exact pixel, cm or inch sizes.",
+"[Compress Image](/compress-image/) – shrink the result.",
+"[Remove Background](/remove-background/) – cut out the subject.",
+"[Crop Image](/crop-image/) – crop before upscaling."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Processing",
+"On your device",
+"Upload",
+"Upload",
+"Upload"
+],
+[
+"Scale options",
+"1.5×, 2×, 3×, 4×, 8×",
+"Size multiplier (Premium options shown)",
+"2× and 4×",
+"2×, 4×, 8×"
+],
+[
+"Method",
+"Lanczos + denoise + sharpen (no AI)",
+"AI",
+"AI super-resolution",
+"AI"
+],
+[
+"File retention",
+"Never uploaded",
+"See site",
+"Deleted within 24 hours",
+"See site"
+],
+[
+"Batch",
+"Yes",
+"See site",
+"Batch upscaling",
+"Bulk (enterprise)"
+]
+],
+"faq": [
+{
+"q": "How do I upscale an image for free?",
+"a": "Drop the image, choose 2×, 4× or 8×, and click Upscale. Download the full-resolution result."
+},
+{
+"q": "Is it AI upscaling?",
+"a": "No. It uses high-quality Lanczos resampling with denoising and sharpening. It never invents details, so faces and text are not altered."
+},
+{
+"q": "Is my image uploaded?",
+"a": "No. Everything runs in your browser."
+},
+{
+"q": "What is the maximum output size?",
+"a": "About 64 megapixels per image, e.g. 8000×8000. If the chosen factor would exceed this, it is reduced automatically."
+},
+{
+"q": "Can I upscale several images at once?",
+"a": "Yes. Drop several images; they are downloaded together in a ZIP."
+},
+{
+"q": "Will upscaling make a blurry photo sharp?",
+"a": "It makes a small image larger and crisper, but it cannot restore detail lost to camera blur."
+},
+{
+"q": "Which output format should I use?",
+"a": "PNG for graphics, screenshots and pixel art; JPG or WebP for photos."
+},
+{
+"q": "Is there a watermark?",
+"a": "No. Downloads are clean and full resolution."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, though very large outputs (8× of a big photo) may exceed a phone's memory."
+},
+{
+"q": "What is the difference between upscale and resize?",
+"a": "Resizing sets any exact size, up or down. Upscaling is optimised for enlarging, with denoise and sharpening."
+}
+],
+"related": [
+"image-enlarger",
+"resize-image",
+"compress-image",
+"remove-background",
+"crop-image"
+]
+}
+},
+"qr": {
+"seo": {
+"updated": "2026-10-25",
+"title": "QR Code Generator – Free, Logo, No Sign-up, Never Expires",
+"desc": "Create free static QR codes for URLs, Wi-Fi, vCards, SMS and more. Logo, colours, gradient, eye shapes, frames with label. PNG, SVG, PDF. No sign-up.",
+"compareTitle": "{tool}: {brand} vs QR Code Generator, QRCode Monkey and Adobe Express",
+"compareCols": [
+"qr-code-generator.com",
+"QRCode Monkey",
+"Adobe Express"
+],
+"sections": [
+[
+"Free QR codes that keep working – forever",
+"{brand}'s QR Code Generator makes QR codes for websites, Wi-Fi networks, contact cards, phone numbers, text messages, e-mails, locations, calendar events, social profiles, Bitcoin payments and plain text. Customise them with your colours, a gradient, your logo, rounded or dotted modules, custom corner 'eyes' and a frame with a call to action like 'Scan me', then download as PNG, SVG or PDF – ready for screens and print.",
+"Every code is **static**: the information is stored in the pattern itself, not on a server. That means it never expires, has no scan limit, does not depend on any company staying in business, and cannot be switched off behind a paywall. There is no account, no trial and no watermark. The code is generated in your browser, so even your Wi-Fi password or contact details are never sent anywhere.",
+"Because nothing is stored on a server, you can also generate codes offline once the page has loaded – handy at events, in shops with patchy signal, or on a laptop without internet access. Make as many as you like: one per table, product or poster, all free."
+],
+[
+"Features",
+[
+"**12 content types:** URL, text, e-mail, phone, SMS, Wi-Fi, vCard, MeCard, location, event, Bitcoin and social profile.",
+"**Colours and gradient:** any foreground and background colour, or a two-colour gradient.",
+"**Logo in the centre:** upload any image; error correction is raised automatically so the code still scans.",
+"**Module styles:** square, rounded or dots.",
+"**Corner eyes:** square, rounded or circle, in their own colour.",
+"**Frames:** label below or box with label – write your own call to action.",
+"**Error correction:** L, M, Q or H (7–30% recovery).",
+"**High resolution:** up to 4000×4000 pixels PNG.",
+"**Vector SVG** for unlimited scaling in print, and **PDF** for direct printing.",
+"**Live preview** that updates as you type."
+]
+],
+[
+"How to create a QR code",
+[
+"Choose the type – for example URL or Wi-Fi.",
+"Fill in the details: the web address, network name and password, contact fields, etc.",
+"Customise: colours, gradient, logo, module style, corner style and frame.",
+"Check the preview, and test it with your phone camera.",
+"Download PNG for digital use, SVG or PDF for print."
+]
+],
+[
+"Static vs dynamic QR codes",
+"There are two kinds of QR codes on the market. A **static** code encodes your content directly – the URL, the Wi-Fi details – in the black and white pattern. A **dynamic** code encodes a short link to the provider's server, which then redirects to your real URL. Dynamic codes let you change the destination later and count scans, but they only work while you keep paying the provider: if the subscription lapses, or the provider closes, every printed code stops working. Many 'free' generators create dynamic codes by default and deactivate them after a trial period – a frequent source of frustration for restaurants and small businesses whose menus suddenly stopped scanning.",
+{
+"table": [
+[
+"",
+"Static ({brand})",
+"Dynamic (subscription services)"
+],
+[
+"Expires",
+"Never",
+"When subscription or trial ends"
+],
+[
+"Scan limit",
+"None",
+"Depends on plan"
+],
+[
+"Works offline",
+"Yes (Wi-Fi, vCard, text)",
+"Needs internet and provider server"
+],
+[
+"Edit destination later",
+"No – create a new code",
+"Yes"
+],
+[
+"Scan statistics",
+"No (use UTM tags in your URL)",
+"Yes"
+],
+[
+"Privacy",
+"Nothing tracked",
+"Provider logs every scan"
+],
+[
+"Cost",
+"Free",
+"Usually monthly fee"
+]
+]
+},
+"Tip: to get both permanence and editability, point a static code at a URL you control, such as yoursite.com/menu, and change what that page shows. To measure scans, add UTM parameters (for example ?utm_source=poster) and read them in your own analytics."
+],
+[
+"The QR code types explained",
+{
+"table": [
+[
+"Type",
+"What happens when scanned",
+"Typical use"
+],
+[
+"URL",
+"Opens the web page",
+"Websites, menus, product pages"
+],
+[
+"Text",
+"Shows the text",
+"Serial numbers, short notes"
+],
+[
+"E-mail",
+"Opens a new e-mail with address, subject and body",
+"Support requests, feedback"
+],
+[
+"Phone",
+"Offers to call the number",
+"Business cards, signs"
+],
+[
+"SMS",
+"Opens a text message with number and message",
+"Competitions, opt-ins"
+],
+[
+"Wi-Fi",
+"Joins the network without typing the password",
+"Cafés, offices, Airbnb, home guests"
+],
+[
+"vCard",
+"Saves a full contact card",
+"Business cards, name badges"
+],
+[
+"MeCard",
+"Saves a compact contact",
+"Short codes for small prints"
+],
+[
+"Location",
+"Opens the map at the coordinates",
+"Event venues, shops"
+],
+[
+"Event",
+"Adds the event to the calendar",
+"Invitations, conference posters"
+],
+[
+"Bitcoin",
+"Opens a wallet with address and amount",
+"Donations, payments"
+],
+[
+"Social",
+"Opens the profile",
+"Instagram, LinkedIn, YouTube and more"
+]
+]
+}
+],
+[
+"Designing a QR code that always scans",
+[
+"**Keep strong contrast.** Dark modules on a light background. Light-on-dark (inverted) codes are not read by some older scanners.",
+"**Don't over-style.** Dots and gradients look great; check that the darkest and lightest colours still differ clearly.",
+"**Keep the quiet zone.** The white margin around the code (at least four modules) helps cameras find it – don't crop it away.",
+"**Logos up to about 20–25% of the area.** Larger logos hide too many modules even at level H.",
+"**Shorter content = bigger modules.** A short URL produces a simpler code that scans from further away.",
+"**Always test** with two or three phones – iPhone camera, Android camera and a scanner app – before printing thousands of copies."
+]
+],
+[
+"Error correction levels",
+"QR codes contain redundant data so they still work when part of the code is damaged, dirty or covered by a logo. There are four levels: L recovers about 7% of damaged data, M about 15%, Q about 25% and H about 30%. Higher levels make the code denser. Use M for clean digital use, Q for outdoor print, and H when you add a logo – {brand} switches to H automatically when you upload one."
+],
+[
+"Print size and scanning distance",
+"A useful rule of thumb is that a QR code can be scanned from about ten times its width: a 2 cm code from 20 cm, a 10 cm code on a poster from about 1 metre, and a 1 m code on a banner from about 10 metres. For business cards, 2–2.5 cm is the practical minimum. For printing, use SVG or PDF so the edges stay perfectly sharp at any size, or PNG at 2000 pixels or more.",
+{
+"table": [
+[
+"Placement",
+"Recommended minimum size"
+],
+[
+"Business card",
+"2–2.5 cm"
+],
+[
+"Flyer / menu",
+"3–4 cm"
+],
+[
+"Table tent",
+"4–5 cm"
+],
+[
+"A4 poster",
+"8–10 cm"
+],
+[
+"Shop window",
+"15–20 cm"
+],
+[
+"Billboard",
+"Width ≈ viewing distance ÷ 10"
+]
+]
+}
+],
+[
+"Wi-Fi QR codes",
+"A Wi-Fi code lets guests join your network by pointing their camera at it – no spelling out long passwords. Enter the network name (SSID) exactly as it appears, the password, and the security type (WPA/WPA2/WPA3 for almost all modern routers, WEP for very old ones, or none for open networks). Tick 'hidden' if your network does not broadcast its name. iPhones (iOS 11 and later) and Android phones (10 and later) support Wi-Fi codes from the built-in camera. For a dedicated page with tips, see [Wi-Fi QR Code Generator](/wifi-qr-code-generator/)."
+],
+[
+"vCard QR codes for business cards",
+"A vCard code holds your name, company, job title, phones, e-mail, website and address. When scanned, the phone offers to save the contact – no typing, no misspelled e-mail addresses. Keep it compact: every extra field adds data and makes the code denser, so on a small business card include only what people really need. See [vCard QR Code Generator](/vcard-qr-code-generator/) for a dedicated form."
+],
+[
+"Privacy",
+"The QR code is generated entirely in your browser. What you type – web addresses, Wi-Fi passwords, phone numbers, contact details – is never sent to {brand} or anyone else. The resulting static code does not redirect through any server, so no one tracks who scans it, when or where.",
+"Dynamic-code providers, by contrast, sit between every person who scans your code and your website and record scan data. That can be useful for marketing, but it is worth knowing before you print."
+],
+[
+"How a QR code works",
+"QR stands for 'Quick Response'. The format was invented in 1994 by Denso Wave, a Toyota group company, to track car parts, and is now an international standard (ISO/IEC 18004). A QR code is a grid of square modules. The three large squares in the corners – the finder patterns or 'eyes' – let the camera locate the code and work out its angle. Smaller alignment patterns correct for perspective, timing lines set the grid, and format information tells the reader which error-correction level and mask are used. The rest of the grid holds your data, encoded with Reed–Solomon error correction, the same mathematics that lets scratched CDs play.",
+"Codes come in 40 versions, from 21×21 modules (version 1) to 177×177 (version 40). The more data you encode and the higher the error correction, the larger the version – which is why a long URL with a logo produces a denser code than a short link without one. A version 40 code can hold up to about 4,296 alphanumeric characters, but for reliable scanning on phones, staying well below a few hundred characters is wise."
+],
+[
+"Choosing colours",
+{
+"table": [
+[
+"Combination",
+"Scans?",
+"Note"
+],
+[
+"Black on white",
+"Excellent",
+"The classic; safest choice"
+],
+[
+"Dark brand colour on white",
+"Excellent",
+"Navy, dark green, burgundy, dark purple"
+],
+[
+"Gradient between two dark colours",
+"Very good",
+"Keep both ends dark"
+],
+[
+"Dark on light pastel",
+"Good",
+"Check contrast in print"
+],
+[
+"Mid-tone on white (e.g. orange, light blue)",
+"Risky",
+"Contrast often too low"
+],
+[
+"White on black (inverted)",
+"Varies",
+"Many modern cameras read it; some apps don't"
+],
+[
+"Light colour on light background",
+"Poor",
+"Avoid"
+]
+]
+},
+"A simple test: convert your design to greyscale in your head – if the modules and background would be clearly different shades of grey, it will scan. Printing can also shift colours, particularly on uncoated or coloured paper, so print a test copy first."
+],
+[
+"PNG, SVG or PDF?",
+"**PNG** is a pixel image, perfect for websites, slides, social posts and e-mail. Choose a size large enough for the use – 1000 pixels for screens, 2000–4000 for print. **SVG** is a vector format: the code is stored as shapes, so it can be enlarged to any size, from a sticker to a building wrap, without blur. Designers can open it in Illustrator, Inkscape, Figma or Affinity and change colours. **PDF** is ready to send to a printer or to place in a document; when you use gradients, frames or a logo, the PDF contains a high-resolution image of your styled code."
+],
+[
+"QR codes for restaurants and cafés",
+"Menu codes on tables are one of the most popular uses. Link to a menu page on your own website, or to a PDF menu hosted on your site, rather than to a third-party dynamic link that may expire. Print codes 4–5 cm wide on table tents, add a frame with the text 'Scan for menu', and laminate them against spills. Put a Wi-Fi code next to it so guests can join your network instantly. If you update the menu, update the page or replace the PDF at the same address – the printed codes keep working."
+],
+[
+"Packaging, products and labels",
+"On product packaging, QR codes link to instructions, ingredient lists, warranty registration, videos or reorder pages. Use a short URL so the code stays small and simple, keep it away from folds and curved edges, and use SVG so the printer gets perfectly sharp edges. On small labels, choose error correction M without a logo to keep modules as large as possible."
+],
+[
+"Events, flyers and posters",
+"Event codes can add the date, time and place directly to a phone's calendar. Location codes open the venue in the map app. On posters, put the code at chest height, add a clear call to action ('Scan for tickets') in the frame, and make sure there is enough light where the poster hangs. Codes behind glass work, but avoid reflective lamination that creates glare."
+],
+[
+"Safety: QR code scams",
+"Because people cannot read a QR code by eye, criminals sometimes stick fake codes over real ones on parking meters, posters or restaurant tables to send people to phishing pages – a scam sometimes called 'quishing'. If you place codes in public, check them regularly, consider tamper-evident stickers, and print your domain name under the code so people can see where it leads. When you scan a code yourself, check the URL preview your phone shows before opening it, and never enter passwords or payment details on a page reached from an unexpected code. You can check any code's contents safely with our [QR Code Scanner](/qr-code-scanner/)."
+],
+[
+"Pre-print checklist",
+[
+"Scan with at least two different phones from the intended distance.",
+"Check that the link opens the right page on mobile – and that the page loads quickly.",
+"Keep a quiet zone of at least four modules on every side.",
+"Use SVG or PDF for professional printing.",
+"Print a test copy on the final paper and test in the final lighting.",
+"Add a short call to action so people know why they should scan.",
+"Keep a copy of the content (URL, Wi-Fi password) in case you need to recreate the code."
+]
+],
+[
+"Glossary",
+[
+"**Module:** one square 'pixel' of the QR code grid.",
+"**Finder pattern / eye:** the three large squares in the corners.",
+"**Quiet zone:** the empty margin around the code.",
+"**Error correction (L/M/Q/H):** redundancy that lets damaged codes still scan.",
+"**Static code:** data stored directly in the code; never expires.",
+"**Dynamic code:** a short redirect link managed by a provider; can be edited and tracked.",
+"**Version:** the size of the grid, from 21×21 to 177×177 modules."
+]
+],
+[
+"How to scan a QR code",
+"On an **iPhone**, open the Camera app and point it at the code; a banner with the link appears – tap it. You can also add the Code Scanner to Control Centre. On **Android**, open the camera (most phones since Android 9 scan automatically) or use Google Lens from the search bar or camera app. On a **computer**, upload a screenshot or photo of the code to our [QR Code Scanner](/qr-code-scanner/). Wi-Fi, contact and event codes trigger the matching action – join network, save contact, add to calendar – instead of opening a link."
+],
+[
+"Using a logo well",
+"A logo makes a code instantly recognisable and increases trust, but it covers part of the data. Use a simple, high-contrast version of your logo – an icon or monogram rather than a full wordmark – on a square or circular image, ideally with a white or transparent background. Keep it to roughly a fifth of the code's width. Since the code relies on error correction to work around the logo, avoid combining a large logo with very long content, which makes modules small and leaves less margin for error. If you only have a logo with a busy background, cut it out first with [Remove Background](/remove-background/)."
+],
+[
+"Frames and calls to action",
+"A bare QR code tells people nothing about what they will get; a short instruction next to it gives them a reason to pick up their phone. Use the frame option to add a label such as 'Scan for menu', 'Scan to join Wi-Fi', 'Scan for 10% off' or 'Watch the video'. The 'label below' frame adds a text strip under the code; 'box with label' surrounds the code with a coloured border, which also guarantees a clean quiet zone when the code is placed on busy backgrounds or photographs. Keep the label to two to four words so it stays readable at small sizes."
+],
+[
+"Accessibility",
+"Not everyone can scan a code – some people have older phones, visual impairments or simply prefer not to. Whenever space allows, print a short, readable URL or phone number next to the code as an alternative, and use descriptive alt text when you place a QR image on a website. On screens, a QR code is mainly useful for moving from a desktop to a phone; on the phone itself, a normal link is always easier than a code."
+],
+[
+"QR codes in documents and presentations",
+"Adding a QR code to a slide lets the audience open your resources, survey or contact page while you are still speaking. Place it in a corner of the final slide, at least a fifth of the slide height, and leave it on screen long enough for people at the back to scan. In reports, CVs and printed handouts, a small code beside a link saves readers from typing long addresses. Download PNG at 1000 pixels for PowerPoint, Google Slides or Keynote, or SVG for Word and InDesign layouts where it must stay crisp. You can also put a code into an existing PDF – such as a flyer or ticket – with [Add Image to PDF](/add-image-to-pdf/). For multi-page documents, consider a different code on each section page so readers jump straight to the relevant online material instead of a general homepage."
+],
+[
+"Related tools",
+[
+"[QR Code Scanner](/qr-code-scanner/) – read a QR code from an image or camera.",
+"[Wi-Fi QR Code Generator](/wifi-qr-code-generator/) – share your network.",
+"[vCard QR Code Generator](/vcard-qr-code-generator/) – digital business card.",
+"[URL to QR Code](/url-to-qr-code/) – quick link codes.",
+"[Remove Background](/remove-background/) – prepare a transparent logo."
+]
+]
+],
+"compare": [
+[
+"Where your image is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Code type by default",
+"Static (never expires)",
+"Dynamic codes with sign-up / trial",
+"Static, 'endless lifetime with unlimited scans'",
+"See site"
+],
+[
+"Sign-up needed",
+"No",
+"Sign-up prompted",
+"No",
+"See site"
+],
+[
+"Logo",
+"Yes",
+"Yes",
+"Yes (max 2 MB)",
+"See site"
+],
+[
+"Gradient, eye styles, frames",
+"Yes",
+"Frames and colours",
+"Colours and design options",
+"See site"
+],
+[
+"Downloads",
+"PNG, SVG, PDF",
+"PNG/JPEG/SVG listed",
+"PNG and free vector formats",
+"See site"
+],
+[
+"Processing",
+"In your browser",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "Is this QR code generator really free?",
+"a": "Yes. Unlimited codes, all design options and all download formats, with no account and no watermark."
+},
+{
+"q": "Do the QR codes expire?",
+"a": "No. They are static: the content is in the code itself, so it works forever."
+},
+{
+"q": "Can I add my logo?",
+"a": "Yes. Upload an image; error correction is set to H automatically so the code still scans."
+},
+{
+"q": "Can I use the codes commercially?",
+"a": "Yes. Use them on products, packaging, menus and advertising with no attribution required."
+},
+{
+"q": "Can I change the link after printing?",
+"a": "Not for a static code. Point it at a page you control, and change that page instead."
+},
+{
+"q": "Can I track how many people scan it?",
+"a": "Static codes have no built-in tracking. Add UTM parameters to the URL and check your own analytics."
+},
+{
+"q": "Which format is best for printing?",
+"a": "SVG or PDF – they are vector formats that stay sharp at any size."
+},
+{
+"q": "Why doesn't my QR code scan?",
+"a": "Usually too little contrast, an oversized logo, a cropped quiet zone or too small a print. Try simpler styling and test again."
+},
+{
+"q": "Is my Wi-Fi password sent anywhere?",
+"a": "No. The code is generated in your browser."
+},
+{
+"q": "How big should a QR code be?",
+"a": "At least 2 cm for business cards; in general about one tenth of the scanning distance."
+}
+],
+"related": [
+"qr-code-scanner",
+"wifi-qr-code-generator",
+"vcard-qr-code-generator",
+"url-to-qr-code",
+"remove-background"
+]
+}
+}
+}
+}

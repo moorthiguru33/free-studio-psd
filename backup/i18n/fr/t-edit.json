@@ -1,0 +1,337 @@
+{
+  "tools": {
+    "edit": {
+      "name": "Modifier un PDF",
+      "short": "Ajoutez du texte et des cadres de correction à un PDF.",
+      "title": "Modifier un PDF en ligne gratuit – Ajouter du texte à un PDF | {brand}",
+      "desc": "Modifiez le texte d'un PDF, ajoutez images, formes, surlignages, liens et correcteur dans votre navigateur. Rechercher-remplacer, OCR. Sans envoi.",
+      "h1": "Modifier un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez Ajouter du texte ou Correcteur et cliquez sur l'aperçu pour placer des éléments.",
+        "Cliquez sur Démarrer et téléchargez le PDF modifié."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je modifier le texte existant ?",
+          "a": "Oui. Avec « Modifier le texte existant », cliquez sur n'importe quelle ligne et réécrivez-la ; vous pouvez aussi la couvrir d'un cadre de correction et écrire par-dessus."
+        }
+      ],
+      "guide": {
+        "intro": "Besoin de remplir un champ, de corriger une coquille ou d'ajouter une note à un PDF ? {brand} vous permet d'ajouter du texte et des cadres de correction sur n'importe quelle page sans installer de logiciel ni envoyer votre fichier.",
+        "uses": [
+          "Remplir un formulaire simple sans champs à remplir.",
+          "Masquer une erreur au correcteur et écrire le bon texte.",
+          "Ajouter une date, un nom ou une note à un document."
+        ],
+        "tips": [
+          "Agrandissez l'aperçu pour placer le texte avec précision.",
+          "Pour masquer définitivement des informations sensibles, utilisez Caviarder un PDF plutôt que le correcteur."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Ce que vous pouvez modifier",
+            "Ajoutez du texte n'importe où (noms, dates, notes, réponses de formulaire), choisissez sa taille et sa couleur, et masquez le contenu indésirable avec des cadres de correction. Idéal pour des retouches rapides quand vous n'avez pas le document d'origine."
+          ],
+          [
+            "Limites",
+            "Les longs paragraphes se modifient ligne par ligne, car les PDF stockent le texte en lignes séparées. Pour supprimer définitivement des informations sensibles, utilisez Caviarder un PDF."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Éditeur PDF gratuit – Modifier texte, images et formes",
+        "desc": "Modifiez le texte d'un PDF, ajoutez images, formes, surlignages, liens et correcteur, gratuitement. Rechercher-remplacer, OCR, annuler. Sans envoi.",
+        "sections": [
+          [
+            "Un éditeur PDF complet qui n'envoie jamais votre fichier",
+            "La plupart des éditeurs PDF gratuits en ligne sont en fait des outils d'annotation : ils vous laissent dessiner des cadres par-dessus la page, mais pas modifier les mots déjà présents. D'autres modifient bien le texte, mais envoient votre document sur un serveur et vous limitent à quelques tâches par heure ; Sejda, par exemple, permet 3 tâches par heure et 50 Mo par fichier dans son offre gratuite. {brand} est différent sur ces deux points. Vous pouvez modifier directement le texte existant et tout l'éditeur fonctionne dans l'onglet du navigateur : le document reste sur votre appareil et il n'y a aucune limite horaire.",
+            "L'éditeur ouvre votre PDF avec PDF.js, repère chaque fragment de texte avec sa police, sa taille et sa couleur, et vous laisse cliquer sur n'importe lequel pour écrire. À l'enregistrement, le texte d'origine est supprimé et votre nouveau texte est écrit dans une police équivalente, au même endroit. Les images, les graphiques vectoriels et le reste de la page ne sont pas touchés : le fichier a le même aspect qu'avant, avec vos modifications en plus."
+          ],
+          [
+            "Ce que vous pouvez faire",
+            [
+              "**Modifier le texte existant** : cliquez sur une ligne, réécrivez-la et changez police, taille, couleur, gras ou italique.",
+              "**Ajouter du texte** : cliquez n'importe où pour placer une nouvelle zone de texte ; faites-la glisser pour la déplacer.",
+              "**Rechercher et remplacer** : changez d'un coup un nom, une date, un prix ou une coquille dans tout le document.",
+              "**Correcteur** : tracez un cadre pour masquer et supprimer définitivement un contenu comme une ancienne adresse ou un numéro de téléphone.",
+              "**Ajouter des images** : insérez logos, tampons, photos ou une signature numérisée, puis déplacez-les et redimensionnez-les.",
+              "**Sélectionner / déplacer les objets existants** : repositionnez, redimensionnez ou supprimez les images déjà présentes dans le PDF.",
+              "**Surlignage et formes** : surligneur, rectangle, ellipse, ligne, flèche et crayon à main levée avec couleur et épaisseur de trait réglables.",
+              "**Liens** : tracez un cadre et liez-le à une adresse web, un e-mail (mailto:) ou une autre page du même document.",
+              "**OCR** : rendez modifiables les pages numérisées en reconnaissant d'abord leur texte.",
+              "**Annuler et rétablir** : toute modification peut être annulée (Ctrl+Z) et rétablie (Ctrl+Y ou Ctrl+Maj+Z).",
+              "**Plusieurs pages** : naviguez librement entre les pages ; toutes les modifications sont enregistrées ensemble dans un seul PDF."
+            ]
+          ],
+          [
+            "Comment modifier le texte d'un PDF, étape par étape",
+            [
+              "**Ouvrez le fichier.** Déposez votre PDF sur la page ou cliquez pour le choisir. Il s'ouvre instantanément car rien n'est envoyé.",
+              "**Vérifiez que « Modifier le texte existant » est sélectionné.** Les fragments de texte affichent un léger contour au survol.",
+              "**Cliquez sur le texte à changer.** Il devient une zone modifiable avec la police, la taille et la couleur d'origine déjà appliquées.",
+              "**Saisissez vos modifications.** Utilisez la barre d'outils pour ajuster police, taille, couleur, gras ou italique. Appuyez sur Échap ou cliquez ailleurs pour terminer.",
+              "**Recommencez sur d'autres pages** avec le sélecteur de pages. Utilisez Rechercher et remplacer pour les changements qui reviennent souvent.",
+              "**Cliquez sur le bouton d'enregistrement** et téléchargez votre PDF modifié. Le fichier d'origine sur votre disque n'est pas modifié."
+            ]
+          ],
+          [
+            "Comment ajouter une zone de texte, une image ou une signature",
+            "Choisissez **Ajouter du texte** et cliquez là où doit aller le nouveau texte. Écrivez, puis faites glisser la zone pour affiner sa position. Pour des logos ou des photos, choisissez l'option image, sélectionnez un PNG ou un JPG et faites glisser les coins pour redimensionner. Un PNG transparent est idéal pour les tampons et les signatures, car la page reste visible autour.",
+            "Pour une vraie signature avec initiales et date du jour sur plusieurs pages, notre outil dédié [Signer un PDF](/sign-pdf/) est plus rapide : dessinez, tapez ou importez une signature une fois et cliquez pour la placer autant de fois que nécessaire."
+          ],
+          [
+            "Comment surligner et dessiner des formes et des flèches",
+            "Choisissez **Surlignage et formes**, sélectionnez la forme dans la liste et faites glisser sur la page. Les surlignages sont semi-transparents : le texte dessous reste lisible. Rectangles et ellipses servent à attirer l'attention sur une figure ; flèches et lignes pointent des détails sur des plans ou des captures d'écran ; le crayon à main levée permet d'entourer, de souligner ou d'annoter à la main et, sur écran tactile, fonctionne au doigt ou au stylet. Réglez la couleur et l'épaisseur du trait avant de dessiner. Chaque forme est écrite sur la page sous forme de graphique vectoriel : elle reste nette à tous les zooms et s'imprime telle que vous la voyez."
+          ],
+          [
+            "Comment ajouter des liens cliquables",
+            "Choisissez **Lien**, tracez un rectangle sur les mots ou l'image à rendre cliquables et saisissez une adresse web comme https://example.com, un e-mail comme mailto:name@example.com ou un numéro de page pour naviguer dans le document. Le lien est enregistré comme annotation de lien PDF standard : il fonctionne dans Adobe Reader, Chrome, Edge, Firefox, Aperçu sur macOS et les lecteurs PDF mobiles. Pratique pour ajouter un lien de réservation à une lettre, un site à une brochure ou une table des matières à un long rapport."
+          ],
+          [
+            "Comment supprimer ou masquer du contenu",
+            "Utilisez le **Correcteur** pour tracer un rectangle blanc sur ce que vous voulez retirer : un ancien prix, un numéro personnel ou une zone propre pour un nouveau texte. À l'enregistrement, le contenu couvert est supprimé de la couche texte de la page : il n'est pas seulement masqué visuellement. Pour les documents sensibles à caviarder avec des cadres noirs, utilisez notre outil [Caviarder un PDF](/redact-pdf/), qui supprime aussi le texte et les images sous-jacents."
+          ],
+          [
+            "Modifier des PDF numérisés avec l'OCR",
+            "Une page numérisée est une image : il n'y a pas de texte sur lequel cliquer. Lancez d'abord l'OCR depuis l'éditeur : il reconnaît les mots de la page dans la langue choisie et les transforme en zones de texte modifiables placées sur l'original. Vous pouvez ensuite corriger, remplacer ou masquer du texte comme dans n'importe quel PDF. Pour une copie cherchable mais par ailleurs identique d'un scan, utilisez [OCR PDF](/ocr-pdf/)."
+          ],
+          [
+            "À quoi il sert au quotidien",
+            [
+              "**Corriger une coquille dans un contrat ou un CV** sans retrouver le fichier Word d'origine.",
+              "**Mettre à jour prix, dates ou numéros de téléphone** sur les cartes de restaurant, les brochures et les grilles tarifaires.",
+              "**Remplir un formulaire** sans champs à remplir : il suffit d'ajouter du texte là où il faut.",
+              "**Annoter des plans et des captures d'écran** avec des flèches, des cadres et des commentaires pour un collègue.",
+              "**Ajouter un logo et des liens de contact** à un devis ou une brochure.",
+              "**Supprimer des données personnelles** avant de partager un document publiquement.",
+              "**Corriger des erreurs d'OCR** dans une lettre numérisée."
+            ]
+          ],
+          [
+            "Les polices et leur correspondance",
+            "Quand vous modifiez du texte existant, l'éditeur essaie d'utiliser la même police intégrée au PDF. Si le PDF ne contient qu'un sous-ensemble de la police (seulement les lettres utilisées), les nouvelles lettres peuvent ne pas y figurer ; l'éditeur se rabat alors sur la police standard la plus proche (avec empattement, sans empattement ou à chasse fixe) de même graisse et de même style. Pour la plupart des documents professionnels en Arial, Helvetica, Times ou Calibri, la différence est invisible. Vous pouvez toujours choisir une autre police dans la barre d'outils."
+          ],
+          [
+            "Pourquoi un éditeur dans le navigateur est plus sûr",
+            "Les PDF qu'on modifie sont souvent personnels : baux, fiches de paie, formulaires fiscaux, comptes rendus médicaux, courriers juridiques. Les envoyer sur un site gratuit revient à confier ces données à une entreprise que vous ne connaissez pas. Avec {brand}, le code de l'éditeur est téléchargé une fois, puis travaille sur votre fichier en local. Vous pouvez vous déconnecter d'internet après le chargement de la page et continuer à modifier : la preuve que rien n'est envoyé. Pas de compte à créer ni d'historique stocké sur un serveur."
+          ],
+          [
+            "Conseils pour de meilleurs résultats",
+            [
+              "Modifiez une ligne à la fois : les PDF stockent le texte en lignes séparées, les longs paragraphes se modifient donc ligne par ligne.",
+              "Gardez des remplacements de longueur proche de l'original pour ne pas chevaucher le texte voisin.",
+              "Utilisez Rechercher et remplacer pour les noms et les dates présents sur de nombreuses pages.",
+              "Besoin de réorganiser ou de supprimer des pages entières ? Utilisez [Organiser un PDF](/organize-pdf/) après la modification.",
+              "Fichier lourd après l'ajout de photos ? Passez-le dans [Compresser un PDF](/compress-pdf/).",
+              "Besoin d'un document Word pour réécrire de grandes sections ? Convertissez-le avec [PDF en Word](/pdf-to-word/), modifiez-le et reconvertissez-le avec [Word en PDF](/word-to-pdf/)."
+            ]
+          ],
+          [
+            "Modifier un PDF sur téléphone ou tablette",
+            "L'éditeur est entièrement adapté aux écrans tactiles. Sur iPhone, iPad ou Android, touchez une ligne de texte pour la modifier avec le clavier à l'écran, pincez pour zoomer et utilisez le doigt ou un Apple Pencil avec le crayon à main levée pour annoter. Comme rien n'est envoyé, la modification fonctionne même avec une connexion mobile lente une fois la page chargée. Téléchargez le résultat dans Fichiers ou partagez-le directement par e-mail ou dans une messagerie."
+          ],
+          [
+            "Modifier, annoter ou convertir",
+            {
+              "table": [
+                [
+                  "Vous voulez…",
+                  "Meilleure option"
+                ],
+                [
+                  "Corriger quelques mots ou chiffres",
+                  "Modifier ici le texte existant"
+                ],
+                [
+                  "Commenter ou annoter pour relecture",
+                  "Surlignage, formes, flèches et crayon"
+                ],
+                [
+                  "Réécrire des sections entières ou déplacer des paragraphes",
+                  "Convertir en Word, modifier et reconvertir"
+                ],
+                [
+                  "Masquer définitivement des informations sensibles",
+                  "Caviarder un PDF"
+                ],
+                [
+                  "Remplir un formulaire avec des champs",
+                  "Remplir un formulaire PDF"
+                ],
+                [
+                  "Changer l'ordre des pages ou supprimer des pages",
+                  "Organiser un PDF"
+                ]
+              ]
+            },
+            "Choisir la bonne option fait gagner du temps : la modification directe est parfaite pour les retouches ponctuelles et garde la mise en page d'origine intacte, tandis que la conversion en Word est préférable quand le texte doit se réorganiser, par exemple pour ajouter plusieurs nouveaux paragraphes."
+          ],
+          [
+            "Raccourcis clavier",
+            [
+              "**Ctrl/Cmd + Z** : annule la dernière modification.",
+              "**Ctrl/Cmd + Y** ou **Ctrl/Cmd + Maj + Z** : rétablit.",
+              "**Suppr / Retour arrière** : supprime la zone de texte, l'image ou la forme sélectionnée.",
+              "**Échap** : termine la modification de la zone de texte en cours."
+            ]
+          ],
+          [
+            "Dépannage",
+            [
+              "**Le texte n'est pas surligné au survol** : la page est probablement un scan ; lancez d'abord l'OCR.",
+              "**Les nouvelles lettres sont un peu différentes** : la police intégrée est un sous-ensemble ; choisissez une police proche dans la barre d'outils.",
+              "**La forme a été dessinée au mauvais endroit** : appuyez sur Ctrl+Z ou passez en Sélectionner / déplacer et faites-la glisser.",
+              "**Le lien ne s'ouvre pas** : vérifiez qu'il commence par https:// ou mailto: et testez-le dans un lecteur PDF, pas dans une visionneuse d'images.",
+              "**Le fichier est protégé par mot de passe** : déverrouillez-le avec [Déverrouiller un PDF](/unlock-pdf/) si vous connaissez le mot de passe, puis modifiez-le.",
+              "**C'est très lent avec un fichier énorme** : divisez-le avec [Diviser un PDF](/split-pdf/), modifiez la partie utile et refusionnez."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Modifier le texte existant",
+            "Oui",
+            "Voir le site",
+            "Oui",
+            "Oui",
+            "Oui"
+          ],
+          [
+            "Formes, flèches, crayon à main levée",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Ajouter des liens",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Rechercher et remplacer",
+            "Oui",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "OCR pour les scans",
+            "Gratuit",
+            "Premium",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Annuler / rétablir",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Puis-je modifier gratuitement le texte existant d'un PDF ?",
+            "a": "Oui. Cliquez sur une ligne de texte, réécrivez-la et enregistrez. La police, la taille et la couleur sont reprises automatiquement."
+          },
+          {
+            "q": "Mon PDF est-il envoyé sur un serveur ?",
+            "a": "Non. L'éditeur fonctionne entièrement dans votre navigateur. Vous pouvez même vous déconnecter d'internet après le chargement de la page."
+          },
+          {
+            "q": "Y a-t-il des limites horaires ou de taille de fichier ?",
+            "a": "Non. Contrairement aux outils qui ne permettent que quelques tâches par heure, vous pouvez modifier autant de PDF que vous voulez ; la taille ne dépend que de votre appareil."
+          },
+          {
+            "q": "Puis-je ajouter des images, des formes et des surlignages ?",
+            "a": "Oui : images, surligneur, rectangles, ellipses, lignes, flèches et un crayon à main levée dans toutes les couleurs et épaisseurs de trait."
+          },
+          {
+            "q": "Puis-je ajouter des liens cliquables à un PDF ?",
+            "a": "Oui. Tracez un cadre en mode Lien et saisissez une URL, une adresse e-mail ou un numéro de page."
+          },
+          {
+            "q": "Puis-je modifier un PDF numérisé ?",
+            "a": "Oui. Lancez d'abord l'OCR pour transformer le texte numérisé en texte modifiable, puis modifiez normalement."
+          },
+          {
+            "q": "Comment modifier un PDF sans Adobe Acrobat ?",
+            "a": "Ouvrez-le ici dans n'importe quel navigateur (Chrome, Edge, Safari ou Firefox) sous Windows, Mac, Linux, Android ou iPhone. Rien à installer."
+          },
+          {
+            "q": "Puis-je annuler une erreur ?",
+            "a": "Oui. Utilisez les boutons annuler et rétablir, ou Ctrl+Z et Ctrl+Y."
+          },
+          {
+            "q": "Mon PDF modifié aura-t-il un filigrane ?",
+            "a": "Non. Le PDF enregistré est propre, sans filigrane ni logo."
+          },
+          {
+            "q": "Puis-je protéger par mot de passe le PDF modifié ?",
+            "a": "Oui. Après l'enregistrement, utilisez Protéger un PDF pour ajouter un mot de passe."
+          }
+        ],
+        "related": [
+          "sign-pdf",
+          "redact-pdf",
+          "ocr-pdf",
+          "organize-pdf",
+          "protect-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment modifier un PDF gratuitement ?",
+            "a": "Ouvrez le PDF sur cette page et cliquez pour ajouter ou changer du texte, insérer des images et des formes, surligner, appliquer le correcteur ou ajouter des liens. Appuyez sur Enregistrer pour télécharger le PDF modifié. C'est gratuit, sans filigrane ni limite horaire."
+          },
+          {
+            "q": "Puis-je modifier le texte existant d'un PDF ?",
+            "a": "Oui. Cliquez sur une ligne de texte pour la modifier ; l'original est masqué et remplacé par votre nouveau texte dans une police équivalente si possible. Sur les pages numérisées, lancez d'abord l'OCR pour rendre le texte modifiable."
+          }
+        ]
+      }
+    }
+  }
+}

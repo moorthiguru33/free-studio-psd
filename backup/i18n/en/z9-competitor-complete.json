@@ -1,0 +1,472 @@
+{
+  "tools": {
+    "wma2mp3": {
+      "name": "WMA to MP3 Converter",
+      "short": "Convert Windows Media Audio (WMA) to universal MP3.",
+      "title": "WMA to MP3 Converter Online Free | {brand}",
+      "desc": "Convert WMA audio files to high-quality MP3 online. Free, fast, and works 100% in your browser without uploading.",
+      "h1": "Convert WMA to MP3",
+      "steps": [
+        "Upload your .wma audio files.",
+        "Choose bitrate quality.",
+        "Download your converted MP3."
+      ],
+      "faq": [
+        {
+          "q": "Will this play on iPhone and Android?",
+          "a": "Yes! MP3 is supported by every mobile device, Mac, PC, and car audio system."
+        }
+      ]
+    },
+    "aiff2mp3": {
+      "name": "AIFF to MP3 Converter",
+      "short": "Convert Apple uncompressed AIFF audio files to MP3.",
+      "title": "AIFF to MP3 Converter Online Free | {brand}",
+      "desc": "Convert AIFF audio tracks to compact, high-bitrate MP3 files online. Free with no file size limits.",
+      "h1": "Convert AIFF to MP3",
+      "steps": [
+        "Select your .aiff or .aif files.",
+        "Set desired audio bitrate.",
+        "Download your converted MP3."
+      ],
+      "faq": [
+        {
+          "q": "Why convert AIFF to MP3?",
+          "a": "AIFF files are huge uncompressed files. MP3 reduces file size by up to 90% with minimal loss in audio quality."
+        }
+      ]
+    },
+    "volumeboost": {
+      "name": "Audio Volume Booster",
+      "short": "Increase audio volume and normalize quiet recordings.",
+      "title": "Audio Volume Booster Online Free – Boost Sound | {brand}",
+      "desc": "Boost and increase the volume of quiet audio recordings, voice notes, and music tracks online up to 300% free.",
+      "h1": "Audio Volume Booster & Sound Maximizer",
+      "steps": [
+        "Select your audio file (MP3, WAV, M4A, etc.).",
+        "Set volume boost level (e.g. 150% or 200%).",
+        "Download your boosted audio file."
+      ],
+      "faq": [
+        {
+          "q": "Does this distort the audio?",
+          "a": "{brand} applies clean digital gain staging so quiet audio is amplified with minimal distortion."
+        }
+      ]
+    },
+    "avi2mp4": {
+      "name": "AVI to MP4 Converter",
+      "short": "Convert AVI videos to modern H.264 MP4 format.",
+      "title": "AVI to MP4 Converter Online Free – Fast & Private | {brand}",
+      "desc": "Convert old AVI videos into modern, compatible MP4 format online. No uploads, fast processing with browser WebCodecs.",
+      "h1": "Convert AVI to MP4",
+      "steps": [
+        "Select your .avi video file.",
+        "Choose output quality and resolution.",
+        "Download your MP4 video."
+      ],
+      "faq": [
+        {
+          "q": "Why convert AVI to MP4?",
+          "a": "MP4 is compatible with all modern smartphones, tablets, smart TVs, and web browsers, whereas AVI often fails to play."
+        }
+      ]
+    },
+    "wmv2mp4": {
+      "name": "WMV to MP4 Converter",
+      "short": "Convert Windows Media Video (WMV) to MP4.",
+      "title": "WMV to MP4 Converter Online Free | {brand}",
+      "desc": "Convert WMV files to high-quality MP4 online for free. Fast, private, in-browser video converter.",
+      "h1": "Convert WMV to MP4",
+      "steps": [
+        "Select your .wmv video.",
+        "Select target quality.",
+        "Download your MP4 video."
+      ],
+      "faq": [
+        {
+          "q": "Can I play WMV on Mac and iPhone?",
+          "a": "Not natively, but converting to MP4 allows instant playback on Mac, iOS, Android, and Windows."
+        }
+      ]
+    },
+    "flv2mp4": {
+      "name": "FLV to MP4 Converter",
+      "short": "Convert Flash Video (FLV) files to modern MP4.",
+      "title": "FLV to MP4 Converter Online Free | {brand}",
+      "desc": "Convert Flash FLV videos to universal MP4 format online for free. Works without Flash player.",
+      "h1": "Convert FLV to MP4",
+      "steps": [
+        "Drop your .flv video file.",
+        "Click Start to convert.",
+        "Download your MP4 video."
+      ],
+      "faq": [
+        {
+          "q": "Can modern devices play FLV?",
+          "a": "No, Flash has been discontinued. Converting to MP4 restores playback compatibility across all devices."
+        }
+      ]
+    },
+    "v3gp2mp4": {
+      "name": "3GP to MP4 Converter",
+      "short": "Convert old mobile 3GP videos to modern MP4.",
+      "title": "3GP to MP4 Converter Online Free | {brand}",
+      "desc": "Convert old mobile phone 3GP recordings to clear MP4 videos online. Free, fast, and completely private.",
+      "h1": "Convert 3GP to MP4",
+      "steps": [
+        "Upload your .3gp video.",
+        "Press Start to convert.",
+        "Download your MP4 video."
+      ],
+      "faq": [
+        {
+          "q": "Is audio preserved during conversion?",
+          "a": "Yes, both video and audio tracks are re-encoded to standard H.264 and AAC."
+        }
+      ]
+    },
+    "videoreels": {
+      "name": "Resize Video for Reels & Shorts",
+      "short": "Crop and format horizontal video into 9:16 vertical video.",
+      "title": "Resize Video for Reels & Shorts (9:16) Free | {brand}",
+      "desc": "Resize and crop any video into 9:16 vertical aspect ratio for Instagram Reels, YouTube Shorts, and TikTok online free.",
+      "h1": "Resize Video for Instagram Reels & Shorts",
+      "steps": [
+        "Select your video file.",
+        "Crop ratio is automatically set to 9:16 vertical.",
+        "Download your ready-to-post vertical video."
+      ],
+      "faq": [
+        {
+          "q": "What aspect ratio is used for Instagram Reels?",
+          "a": "Instagram Reels, TikTok, and YouTube Shorts all use the 9:16 aspect ratio (typically 1080x1920 pixels)."
+        }
+      ]
+    },
+    "rar2zip": {
+      "name": "RAR to ZIP Converter",
+      "short": "Convert WinRAR (.rar) archives into standard ZIP files.",
+      "title": "RAR to ZIP Converter – Convert RAR to ZIP Free | {brand}",
+      "desc": "Convert RAR archives to standard ZIP files online for free. Open WinRAR files without installing software.",
+      "h1": "Convert RAR to ZIP Online",
+      "steps": [
+        "Upload your .rar file.",
+        "The archive is unpacked securely in your browser.",
+        "Download everything as a universal .zip file."
+      ],
+      "faq": [
+        {
+          "q": "Can Mac and iPhone open ZIP files natively?",
+          "a": "Yes! Unlike RAR, ZIP files open instantly on Windows, Mac, iOS, Android, and Chromebook without any app."
+        }
+      ]
+    },
+    "c7z2zip": {
+      "name": "7Z to ZIP Converter",
+      "short": "Convert 7-Zip (.7z) compressed archives into standard ZIP.",
+      "title": "7Z to ZIP Converter Online Free | {brand}",
+      "desc": "Convert 7Z files to universal ZIP archives online. Fast, secure, runs locally in your web browser.",
+      "h1": "Convert 7Z to ZIP Online",
+      "steps": [
+        "Choose your .7z archive.",
+        "Wait while the files are extracted.",
+        "Download as a standard .zip archive."
+      ],
+      "faq": [
+        {
+          "q": "Why convert 7Z to ZIP?",
+          "a": "Many phones and tablets cannot open .7z files without 3rd party tools, while ZIP is supported everywhere."
+        }
+      ]
+    },
+    "tar2zip": {
+      "name": "TAR to ZIP Converter",
+      "short": "Convert Linux TAR / TAR.GZ archives to ZIP.",
+      "title": "TAR to ZIP Converter Online Free | {brand}",
+      "desc": "Convert .tar, .tar.gz, and .tgz archives into standard Windows/Mac compatible ZIP files online for free.",
+      "h1": "Convert TAR to ZIP Online",
+      "steps": [
+        "Select your .tar or .tar.gz archive.",
+        "Click Start to process.",
+        "Download your .zip file."
+      ],
+      "faq": [
+        {
+          "q": "Are all files inside the TAR preserved?",
+          "a": "Yes, all folder structures and files are unpacked and preserved inside the new ZIP file."
+        }
+      ]
+    },
+    "cbr2pdf": {
+      "name": "CBR to PDF Converter",
+      "short": "Convert digital comic book archive (CBR) files to PDF.",
+      "title": "CBR to PDF Converter – Read Comics as PDF Free | {brand}",
+      "desc": "Convert CBR comic books to high-quality PDF files online for free. Read your graphic novels on Kindle, iPad, or any device.",
+      "h1": "Convert CBR Comic Books to PDF",
+      "steps": [
+        "Upload your .cbr comic book file.",
+        "All comic pages are arranged in sequential reading order.",
+        "Download your complete PDF comic book."
+      ],
+      "faq": [
+        {
+          "q": "Can I read the PDF on an Amazon Kindle?",
+          "a": "Yes! The exported PDF can be read on any Kindle, iPad, tablet, or phone."
+        }
+      ]
+    },
+    "cbz2pdf": {
+      "name": "CBZ to PDF Converter",
+      "short": "Convert CBZ comic book archives to universal PDF ebooks.",
+      "title": "CBZ to PDF Converter Online Free | {brand}",
+      "desc": "Convert CBZ comic files into PDF documents online. Free, fast, with full image resolution preserved.",
+      "h1": "Convert CBZ Comic Books to PDF",
+      "steps": [
+        "Select your .cbz comic book file.",
+        "Pages are extracted and ordered automatically.",
+        "Download your PDF comic book."
+      ],
+      "faq": [
+        {
+          "q": "Is image quality reduced?",
+          "a": "No, original high-resolution comic artwork is preserved on each PDF page."
+        }
+      ]
+    },
+    "dicom2jpg": {
+      "name": "DICOM to JPG Converter",
+      "short": "Convert medical DICOM (.dcm) scans to standard JPG images.",
+      "title": "DICOM to JPG Converter – Medical Scans to JPG | {brand}",
+      "desc": "Convert medical DICOM .dcm X-rays, CT scans, and MRI scans to clear JPEG photos online. 100% private in-browser tool.",
+      "h1": "Convert Medical DICOM (.dcm) to JPG",
+      "steps": [
+        "Upload your .dcm DICOM medical scan.",
+        "Diagnostic windowing and grayscale normalization are applied automatically.",
+        "Download your viewable JPG image."
+      ],
+      "faq": [
+        {
+          "q": "Are patient medical records uploaded to a server?",
+          "a": "Never! {brand} processes DICOM files entirely in your browser using JavaScript. No medical data ever leaves your device."
+        }
+      ]
+    },
+    "dicom2pdf": {
+      "name": "DICOM to PDF Converter",
+      "short": "Convert medical DICOM (.dcm) scans into PDF reports.",
+      "title": "DICOM to PDF Converter Online Free | {brand}",
+      "desc": "Convert DICOM CT, MRI, and X-ray medical files to high-resolution PDF documents online. Free, safe, and private.",
+      "h1": "Convert DICOM to PDF",
+      "steps": [
+        "Choose your .dcm file.",
+        "Click Start to render high-contrast medical PDF.",
+        "Download your PDF document."
+      ],
+      "faq": [
+        {
+          "q": "Can doctors open the resulting PDF?",
+          "a": "Yes, PDF can be printed or viewed on any hospital computer, smartphone, or tablet without DICOM software."
+        }
+      ]
+    },
+    "ai2pdf": {
+      "name": "AI to PDF Converter",
+      "short": "Convert Adobe Illustrator (.ai) vector graphics to PDF.",
+      "title": "AI to PDF Converter – Convert Illustrator to PDF | {brand}",
+      "desc": "Convert Adobe Illustrator AI drawings into standard vector PDF documents online for free. No Adobe software required.",
+      "h1": "Convert Adobe Illustrator AI to PDF",
+      "steps": [
+        "Select your .ai Illustrator file.",
+        "The encapsulated vector document is parsed.",
+        "Download your vector PDF file."
+      ],
+      "faq": [
+        {
+          "q": "Are vector paths preserved?",
+          "a": "Yes! Modern .ai files contain full vector PDF streams which are preserved with 100% precision."
+        }
+      ]
+    },
+    "ai2png": {
+      "name": "AI to PNG Converter",
+      "short": "Convert Adobe Illustrator (.ai) files to high-resolution PNG.",
+      "title": "AI to PNG Converter Online Free | {brand}",
+      "desc": "Convert Adobe Illustrator .ai designs to high-resolution transparent PNG images online for free.",
+      "h1": "Convert Adobe Illustrator AI to PNG",
+      "steps": [
+        "Upload your .ai design.",
+        "Select image scale and resolution.",
+        "Download your crisp PNG image."
+      ],
+      "faq": [
+        {
+          "q": "Can I view Illustrator files on mobile?",
+          "a": "Yes, converting AI to PNG allows you to view Illustrator artwork on any smartphone or browser."
+        }
+      ]
+    },
+    "json2yaml": {
+      "name": "JSON to YAML Converter",
+      "short": "Convert JSON structured data to clean YAML format.",
+      "title": "JSON to YAML Converter – Convert JSON to YAML | {brand}",
+      "desc": "Convert JSON files and objects into clean, indented YAML online. Ideal for Kubernetes, Docker, and DevOps configs.",
+      "h1": "Convert JSON to YAML Online",
+      "steps": [
+        "Select or drop your .json file.",
+        "Data is converted into clean YAML syntax.",
+        "Download your .yaml file."
+      ],
+      "faq": [
+        {
+          "q": "Does this work offline?",
+          "a": "Yes! All JSON and YAML parsing runs completely in your web browser with zero server latency."
+        }
+      ]
+    },
+    "yaml2json": {
+      "name": "YAML to JSON Converter",
+      "short": "Convert YAML configuration files to JSON.",
+      "title": "YAML to JSON Converter Online Free | {brand}",
+      "desc": "Convert YAML files to formatted JSON online for free. Fast, private, and works directly in your web browser.",
+      "h1": "Convert YAML to JSON Online",
+      "steps": [
+        "Select your .yaml or .yml file.",
+        "Parsed instantly into standard JSON.",
+        "Download your .json file."
+      ],
+      "faq": [
+        {
+          "q": "Are nested structures supported?",
+          "a": "Yes, nested key-value pairs, arrays, strings, booleans, and numbers are supported."
+        }
+      ]
+    },
+    "xml2json": {
+      "name": "XML to JSON Converter",
+      "short": "Convert XML documents into modern JSON format.",
+      "title": "XML to JSON Converter Online Free | {brand}",
+      "desc": "Convert XML files to structured JSON objects online for free. Fast, private, and developer-friendly.",
+      "h1": "Convert XML to JSON Online",
+      "steps": [
+        "Upload your .xml file.",
+        "XML tags and attributes are mapped to JSON.",
+        "Download your .json file."
+      ],
+      "faq": [
+        {
+          "q": "Are XML attributes preserved?",
+          "a": "Yes, XML attributes are preserved under the @attributes property in the resulting JSON."
+        }
+      ]
+    },
+    "json2xml": {
+      "name": "JSON to XML Converter",
+      "short": "Convert JSON objects into valid XML documents.",
+      "title": "JSON to XML Converter Online Free | {brand}",
+      "desc": "Convert JSON files into clean, valid XML markup online for free. Runs entirely inside your browser tab.",
+      "h1": "Convert JSON to XML Online",
+      "steps": [
+        "Select your .json file.",
+        "JSON data is transformed into structured XML.",
+        "Download your .xml file."
+      ],
+      "faq": [
+        {
+          "q": "Is the output valid XML?",
+          "a": "Yes, it includes standard UTF-8 XML declaration and properly closed tags."
+        }
+      ]
+    },
+    "csv2sql": {
+      "name": "CSV to SQL Converter",
+      "short": "Convert CSV spreadsheets into SQL CREATE and INSERT statements.",
+      "title": "CSV to SQL Converter – Generate SQL Inserts Free | {brand}",
+      "desc": "Convert CSV data into SQL CREATE TABLE and INSERT queries online for free. Fast, developer-friendly database tool.",
+      "h1": "Convert CSV to SQL Database Queries",
+      "steps": [
+        "Upload your .csv file.",
+        "Specify the target database table name.",
+        "Download your ready-to-run .sql script."
+      ],
+      "faq": [
+        {
+          "q": "Which databases are supported?",
+          "a": "The generated standard SQL works seamlessly with MySQL, PostgreSQL, SQLite, SQL Server, and Oracle."
+        }
+      ]
+    },
+    "svgopt": {
+      "name": "SVG Optimizer",
+      "short": "Compress and minify SVG files by removing redundant metadata.",
+      "title": "SVG Optimizer & Minifier Online Free | {brand}",
+      "desc": "Optimize and minify SVG vector files online. Remove editor metadata and comments to reduce SVG file sizes up to 60%.",
+      "h1": "SVG Optimizer & Minifier",
+      "steps": [
+        "Upload your .svg file.",
+        "Redundant tags and comments are stripped.",
+        "Download your lightweight, optimized SVG."
+      ],
+      "faq": [
+        {
+          "q": "Will my vector graphic look the same?",
+          "a": "Yes! Optimization only removes unnecessary metadata, whitespace, and comments without altering shapes or colors."
+        }
+      ]
+    },
+    "raf2jpg": {
+      "name": "RAF to JPG Converter",
+      "short": "Convert Fujifilm camera RAW (.raf) photos to JPG.",
+      "title": "RAF to JPG Converter Online Free – Fujifilm RAW | {brand}",
+      "desc": "Convert Fujifilm .raf camera RAW photos to high-quality JPG images online for free. Fast, private in-browser conversion.",
+      "h1": "Convert Fujifilm RAF to JPG",
+      "steps": [
+        "Upload your Fujifilm .raf photo.",
+        "Full-resolution camera image is extracted.",
+        "Download your high-quality JPG."
+      ],
+      "faq": [
+        {
+          "q": "Which Fujifilm cameras are supported?",
+          "a": "All major Fujifilm X-series and GFX camera models producing .raf RAW files are supported."
+        }
+      ]
+    },
+    "orf2jpg": {
+      "name": "ORF to JPG Converter",
+      "short": "Convert Olympus camera RAW (.orf) photos to JPG.",
+      "title": "ORF to JPG Converter Online Free – Olympus RAW | {brand}",
+      "desc": "Convert Olympus OM System .orf camera RAW photos to standard JPG images online for free. No uploads required.",
+      "h1": "Convert Olympus ORF to JPG",
+      "steps": [
+        "Choose your Olympus .orf file.",
+        "Image is processed in your browser.",
+        "Download your JPG photo."
+      ],
+      "faq": [
+        {
+          "q": "Is orientation preserved?",
+          "a": "Yes, portrait and landscape orientations are automatically corrected from the camera sensor data."
+        }
+      ]
+    },
+    "rw22jpg": {
+      "name": "RW2 to JPG Converter",
+      "short": "Convert Panasonic Lumix camera RAW (.rw2) photos to JPG.",
+      "title": "RW2 to JPG Converter Online Free – Lumix RAW | {brand}",
+      "desc": "Convert Panasonic Lumix .rw2 RAW images to viewable JPG photos online for free. Fast, private, and instant.",
+      "h1": "Convert Panasonic RW2 to JPG",
+      "steps": [
+        "Upload your Panasonic .rw2 photo.",
+        "Click Start to process.",
+        "Download your JPG image."
+      ],
+      "faq": [
+        {
+          "q": "Are my high-resolution photos safe?",
+          "a": "100%! All processing happens locally on your device. Your private photos are never uploaded to any server."
+        }
+      ]
+    }
+  }
+}

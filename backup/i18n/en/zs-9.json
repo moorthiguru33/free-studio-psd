@@ -1,0 +1,840 @@
+{
+"tools": {
+"compressjpg": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Compress JPG – Reduce JPEG Size to 20, 50 or 100 KB",
+"desc": "Shrink JPG/JPEG photos to an exact KB size or by quality, in bulk, without uploading. Resize, strip EXIF, keep orientation. Free, no sign-up.",
+"compareTitle": "{tool}: {brand} vs TinyJPG, iLoveIMG and Compress JPEG",
+"compareCols": [
+"TinyJPG",
+"iLoveIMG",
+"CompressJPEG"
+],
+"sections": [
+[
+"Smaller JPEGs, same-looking photos",
+"JPEG is the format almost every camera and phone uses for photos, and it is also the format most upload forms ask for. This page is tuned for it: drop one JPG or a hundred, choose a target size such as 50 KB or a quality level, and download smaller files individually or as a ZIP. Each result shows the size before and after so you can see exactly what you saved.",
+"Because JPEG is a lossy format, every re-save throws away some detail. The trick is to discard only detail your eyes cannot see – fine noise, subtle colour variation in flat areas and invisible metadata – while keeping edges, faces and text sharp. The compressor searches for the highest quality that still meets your target, so you never lose more than you need to."
+],
+[
+"Hitting an exact KB limit",
+"Exam portals, job sites, passport and visa forms often demand photos 'under 50 KB' or 'between 20 and 100 KB'. Pick a preset or type a custom size. The tool re-encodes the photo at progressively lower quality and, if that alone is not enough, reduces the pixel dimensions a little, until the file fits. It never makes a file larger than the original.",
+{
+"table": [
+[
+"Typical requirement",
+"Suggested setting"
+],
+[
+"Government or exam photo, ≤ 20 KB",
+"Target 20 KB, max width 400–600 px"
+],
+[
+"Signature scan, ≤ 10–30 KB",
+"Target 20 KB, max width 600 px"
+],
+[
+"Job portal photo, ≤ 50 KB",
+"Target 50 KB"
+],
+[
+"E-mail attachment",
+"Max width 1600 px, quality 75"
+],
+[
+"Website hero image",
+"Max width 1920 px, quality 70–80"
+],
+[
+"Marketplace product photo",
+"Max width 1500–2000 px, quality 80"
+]
+]
+}
+],
+[
+"JPEG quality explained",
+"The quality number (1–100) controls how strongly the encoder rounds off the fine detail in each 8 × 8 pixel block. Around 90 the result is visually identical to the original for most photos; 75–85 is the sweet spot for the web, usually cutting the file by 50–80%; below 60, blocky artefacts start to appear around edges and in skies. Quality numbers are not comparable between programs, so judge by eye and by the size shown."
+],
+[
+"What else gets removed",
+"Phone photos carry EXIF metadata: camera model, date, settings and often GPS coordinates. It can add tens of kilobytes and reveals where a photo was taken. The compressor drops it while applying the orientation flag first, so portrait photos stay upright. Colour is converted to standard sRGB, which every browser and app displays correctly."
+],
+[
+"JPG or another format?",
+"Keep JPG for photos that must be accepted everywhere. For websites, WebP or AVIF are typically 25–50% smaller at the same visual quality and are supported by all modern browsers – use the [image compressor](/compress-image/) to output them. For screenshots, logos and graphics with sharp edges and few colours, PNG is better; see [Compress PNG](/compress-png/)."
+],
+[
+"How to compress JPG files",
+[
+"Drop your JPG or JPEG files onto the page (or tap to choose them on a phone).",
+"Pick a target size or set the quality; optionally set a maximum width.",
+"Press **Compress** and check the before/after sizes.",
+"Download each file or all of them as a ZIP."
+]
+],
+[
+"Batch compression for shops and blogs",
+"Product catalogues and blog galleries often have dozens of large photos straight from a camera. Compress them all in one go with the same settings, so they load fast and look consistent. File names are kept with a short suffix, which makes it easy to replace the originals in your CMS or marketplace listing."
+],
+[
+"Privacy",
+"Compression runs inside your browser tab. The images are decoded, re-encoded and saved on your own device – they are never uploaded, stored or seen by anyone, and the tool keeps working offline once the page has loaded. That makes it safe for ID photos, scanned documents, product shots under embargo and personal pictures."
+],
+[
+"Related tools",
+[
+"[Compress image (WebP, AVIF, PNG)](/compress-image/)",
+"[Compress PNG](/compress-png/)",
+"[Resize image](/resize-image/)",
+"[PNG to JPG](/png-to-jpg/)",
+"[HEIC to JPG](/heic-to-jpg/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact KB target (e.g. 20/50/100 KB)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch + ZIP download",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Max-width resize in the same step",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I compress a JPG to 50 KB?",
+"a": "Choose the 50 KB target, drop the photo and press Compress. The tool lowers quality and, if needed, dimensions until the file is under 50 KB."
+},
+{
+"q": "Will compressing a JPG reduce quality?",
+"a": "Slightly, but at quality 75–85 the difference is usually invisible while the file is 50–80% smaller."
+},
+{
+"q": "Can I compress many JPGs at once?",
+"a": "Yes – drop as many as you like and download them as a ZIP."
+},
+{
+"q": "Are my photos uploaded?",
+"a": "No. Everything happens in your browser."
+},
+{
+"q": "Does it remove EXIF and GPS data?",
+"a": "Yes. Metadata is removed and the orientation is applied so photos stay upright."
+},
+{
+"q": "What is the difference between JPG and JPEG?",
+"a": "None – they are the same format; .jpg is just the shorter extension."
+},
+{
+"q": "Why is my file still too big?",
+"a": "Very large photos may also need resizing; set a maximum width such as 800 px."
+},
+{
+"q": "Can I compress a JPG on my phone?",
+"a": "Yes, the page works in mobile browsers on Android and iPhone."
+}
+],
+"related": [
+"compress-image",
+"compress-png",
+"resize-image",
+"png-to-jpg",
+"heic-to-jpg"
+]
+}
+},
+"compresspng": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Compress PNG – Shrink PNG Files, Keep Transparency",
+"desc": "Reduce PNG file size with colour-palette quantization that keeps transparency, or hit an exact KB target. Batch + ZIP, no upload, free.",
+"compareTitle": "{tool}: {brand} vs TinyPNG, iLoveIMG and Compressor.io",
+"compareCols": [
+"TinyPNG",
+"iLoveIMG",
+"Compressor.io"
+],
+"sections": [
+[
+"Make PNG files smaller without losing transparency",
+"PNG is the format for screenshots, logos, icons, diagrams and anything with a transparent background. It is lossless, which keeps edges crisp but often makes files large – a full-screen screenshot can easily be 1–3 MB. This tool reduces PNGs dramatically while keeping them as PNG, with the transparent areas intact, so they still work on any background."
+],
+[
+"How PNG compression works here",
+"Most of the saving comes from **colour quantization**: a typical screenshot or logo uses far fewer than the 16 million colours a 24-bit PNG can hold. The compressor builds an optimised palette of up to 256 colours (including semi-transparent ones), maps every pixel to the nearest palette colour and saves an 8-bit PNG. Files often shrink by 60–80% with no visible change. Lower quality settings use smaller palettes for even smaller files. At the highest quality the image is re-saved losslessly with better compression instead.",
+"If you need a precise size – for example a logo under 100 KB for a form – choose a KB target and the tool reduces colours and, if necessary, dimensions until it fits."
+],
+[
+"When PNG is the right choice – and when it isn't",
+{
+"table": [
+[
+"Image type",
+"Best format",
+"Why"
+],
+[
+"Screenshot with text",
+"PNG",
+"Sharp text, few colours"
+],
+[
+"Logo or icon with transparency",
+"PNG (or SVG)",
+"Lossless edges + alpha"
+],
+[
+"Diagram or chart",
+"PNG",
+"Flat colours compress well"
+],
+[
+"Photograph",
+"JPG / WebP",
+"PNG photos are 3–10× larger"
+],
+[
+"Photo with transparent background",
+"WebP or PNG",
+"WebP supports alpha and is smaller"
+]
+]
+},
+"If your PNG is actually a photo, converting it to JPG or WebP will save far more than PNG compression – use [PNG to JPG](/png-to-jpg/) or the [image compressor](/compress-image/) with WebP output."
+],
+[
+"How to compress PNG files",
+[
+"Drop one or more PNG files onto the page.",
+"Choose a quality level or a KB target; optionally set a maximum width.",
+"Press **Compress** and compare the before and after sizes.",
+"Download the files individually or as a ZIP."
+]
+],
+[
+"Tips for the smallest PNGs",
+[
+"Crop away empty borders before compressing – fewer pixels means a smaller file.",
+"Scale screenshots from high-DPI screens down to the size they will be displayed at.",
+"Avoid gradients and drop shadows in graphics if size matters; flat colours compress far better.",
+"Keep a copy of the original if you may need to edit it later – palette PNGs are less suitable for further editing."
+]
+],
+[
+"How much smaller will my PNG get?",
+{
+"table": [
+[
+"Image",
+"Typical saving"
+],
+[
+"Screenshot of a web page or app",
+"60–80%"
+],
+[
+"Logo with transparency",
+"50–75%"
+],
+[
+"Chart or diagram",
+"60–85%"
+],
+[
+"Photo saved as PNG",
+"20–50% (convert to JPG/WebP for more)"
+],
+[
+"Already-optimised PNG",
+"0–10%"
+]
+]
+},
+"Results vary with the number of colours and gradients in the image. The before and after sizes are shown for every file, and if the compressed version would be larger the original is kept."
+],
+[
+"PNG compression for e-commerce and documentation",
+"Product badges, size charts, UI screenshots in help articles and diagrams in documentation are typically PNGs. Compressing them before uploading to a CMS, help centre or marketplace keeps pages fast and storage costs low, and many platforms have upload limits per image. Smaller images also make help articles quicker to open on mobile data, and they keep e-mail newsletters under size limits that trigger clipping in some mail apps."
+],
+[
+"Websites and apps",
+"Smaller PNGs make pages and apps load faster, improve Core Web Vitals and reduce bandwidth. For UI icons, consider SVG; for photos, WebP or AVIF. For everything with sharp edges and transparency, a quantized PNG remains the most compatible option, working in every browser, e-mail client and office program."
+],
+[
+"Privacy",
+"Compression runs inside your browser tab. The images are decoded, re-encoded and saved on your own device – they are never uploaded, stored or seen by anyone, and the tool keeps working offline once the page has loaded. That makes it safe for ID photos, scanned documents, product shots under embargo and personal pictures."
+],
+[
+"Related tools",
+[
+"[Compress JPG](/compress-jpg/)",
+"[Compress image](/compress-image/)",
+"[PNG to JPG](/png-to-jpg/)",
+"[Remove background](/remove-background/)",
+"[Resize image](/resize-image/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Keeps transparency",
+"Yes",
+"Yes",
+"See site",
+"See site"
+],
+[
+"Exact KB target",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch + ZIP",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I reduce the size of a PNG?",
+"a": "Drop it here and press Compress. The tool reduces the number of colours to an optimised palette and re-saves it, usually cutting 60–80%."
+},
+{
+"q": "Does PNG compression keep transparency?",
+"a": "Yes, transparent and semi-transparent pixels are preserved."
+},
+{
+"q": "Is PNG compression lossless?",
+"a": "At the highest quality, yes. Lower settings use a reduced palette, which is lossy but usually invisible for screenshots and graphics."
+},
+{
+"q": "Why is my PNG so large?",
+"a": "PNG stores every pixel losslessly; photos and gradients produce large files. Convert photos to JPG or WebP."
+},
+{
+"q": "Can I compress PNGs in bulk?",
+"a": "Yes, as many as you like, downloaded as a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No – compression runs in your browser."
+},
+{
+"q": "Can I compress a PNG to under 100 KB?",
+"a": "Yes, choose the 100 KB target."
+},
+{
+"q": "What is an 8-bit PNG?",
+"a": "A PNG with a palette of up to 256 colours, much smaller than a 24-bit or 32-bit PNG."
+}
+],
+"related": [
+"compress-jpg",
+"compress-image",
+"png-to-jpg",
+"remove-background",
+"resize-image"
+]
+}
+},
+"pdf2csv": {
+"seo": {
+"updated": "2026-10-25",
+"title": "PDF to CSV – Extract Tables from PDF to CSV, Free",
+"desc": "Turn tables in PDF statements, invoices and reports into CSV files you can open in Excel, Sheets or code. OCR for scans, page range, no upload.",
+"compareTitle": "{tool}: {brand} vs Smallpdf, iLovePDF and Zamzar",
+"compareCols": [
+"Smallpdf",
+"iLovePDF",
+"Zamzar"
+],
+"sections": [
+[
+"Get the table data out of a PDF",
+"CSV (comma-separated values) is the simplest way to move table data between programs: every row is a line and every cell is separated by a comma. Excel, Google Sheets, LibreOffice, databases, Python, R and accounting software can all import it. This tool reads the tables in your PDF – bank statements, invoices, price lists, timetables, research data – and writes them as CSV, ready to sort, filter and analyse."
+],
+[
+"How the extraction works",
+"In a digital PDF, the text is stored as positioned fragments rather than as a table. The converter groups fragments into lines, detects column boundaries from the gaps and alignment shared by many lines, and assigns each piece of text to a row and column. Numbers stay as numbers, and multi-page tables are joined into a continuous sheet.",
+"Scanned PDFs contain only images of text. For those, the built-in OCR (optical character recognition) reads the text first – in your browser – and then the same table detection is applied. Clear 300 DPI scans give the best results."
+],
+[
+"CSV or Excel?",
+{
+"table": [
+[
+"",
+"CSV",
+"Excel (XLSX)"
+],
+[
+"Opens in",
+"Any spreadsheet, database or code",
+"Excel, Sheets, LibreOffice"
+],
+[
+"Multiple sheets",
+"No – one table per file",
+"Yes"
+],
+[
+"Formatting",
+"None",
+"Fonts, widths, number formats"
+],
+[
+"Best for",
+"Importing into software, scripts, banks",
+"Reading and editing by people"
+]
+]
+},
+"Need a formatted workbook instead? Use [PDF to Excel](/pdf-to-excel/)."
+],
+[
+"How to convert PDF to CSV",
+[
+"Drop your PDF onto the page.",
+"Optionally choose a page range and whether to OCR scanned pages.",
+"Press **Convert** and download the CSV.",
+"Open it in Excel or Google Sheets (File → Import) and check the columns."
+]
+],
+[
+"Tips for clean CSV output",
+[
+"Convert only the pages with the table to avoid headers and footers in the data.",
+"If numbers use commas as decimal separators (e.g. 1.234,56), set the import locale accordingly in your spreadsheet.",
+"Merged header cells in the PDF may become separate rows; tidy them after import.",
+"For bank statements, sort by date after import and check the running balance against the PDF."
+]
+],
+[
+"Options that make the data usable",
+[
+"**Tables only** – skip paragraphs, headings and page furniture so the CSV contains just the rows you need.",
+"**Convert numbers** – turns text such as 1,234.50 into the number 1234.5 so sums and sorting work immediately.",
+"**Layout** – one block per page, one per detected table, or everything combined in a single list.",
+"**Pages** – convert a range like 2-5 instead of the whole document.",
+"**OCR mode** – automatic (only pages without a text layer), off, or every page, with a choice of recognition language."
+]
+],
+[
+"Typical documents and what to expect",
+{
+"table": [
+[
+"Document",
+"Usual result",
+"Tip"
+],
+[
+"Bank or card statement (digital)",
+"Clean rows: date, description, amount, balance",
+"Use Tables only"
+],
+[
+"Invoice",
+"Line items as rows; totals in separate rows",
+"Convert the page with the items only"
+],
+[
+"Price list or catalogue",
+"One row per product",
+"Check wrapped product names"
+],
+[
+"Scientific table",
+"Columns kept; footnote markers may stay in cells",
+"Remove markers after import"
+],
+[
+"Scanned statement",
+"Good on clean 300 DPI scans",
+"Set OCR language correctly"
+]
+]
+}
+],
+[
+"Using the CSV in code and databases",
+"CSV is the universal import format. In Python, pandas.read_csv('file.csv') loads it into a DataFrame; in R, read.csv does the same. Databases such as PostgreSQL (COPY … FROM … CSV HEADER), MySQL (LOAD DATA INFILE) and SQLite (.import) load it directly. Accounting and budgeting apps usually accept CSV bank exports, so converting a PDF statement lets you import transactions that your bank only provides as PDF. The output uses UTF-8 encoding and standard quoting: cells containing commas, quotes or line breaks are wrapped in double quotes, so any compliant parser reads them correctly."
+],
+[
+"Limitations to be aware of",
+[
+"Tables drawn as images inside a digital PDF need OCR (set OCR to All pages).",
+"Cells that span several columns or rows are flattened into single cells.",
+"Very irregular layouts – such as forms with text boxes scattered across the page – may need manual tidying.",
+"Handwriting is not recognised reliably by OCR.",
+"Password-protected PDFs must be unlocked first with Unlock PDF."
+]
+],
+[
+"Checking the result",
+"After importing, compare the row count and a few totals with the PDF. A quick check is to sum an amount column and compare it with the statement or invoice total. If a long description wrapped onto a second line in the PDF, it may appear as a separate row; merge it into the row above. Dates are exported as they appear in the PDF; use your spreadsheet's date parsing (or Text to Columns) to convert them to real dates for sorting."
+],
+[
+"Opening CSV correctly in Excel",
+"Double-clicking a CSV in Excel uses your system's regional settings to split columns, which can put everything in one column in countries that use semicolons. Use Data → From Text/CSV instead and choose comma as the delimiter and UTF-8 as the encoding, so accented and non-Latin characters display correctly. Google Sheets detects the delimiter automatically."
+],
+[
+"Privacy",
+"Statements and invoices contain sensitive financial details. Here the PDF is read and converted entirely in your browser; nothing is uploaded, and the CSV is created on your device. The page also works offline after it has loaded."
+],
+[
+"Related tools",
+[
+"[PDF to Excel](/pdf-to-excel/)",
+"[CSV to Excel](/csv-to-excel/)",
+"[CSV to JSON](/csv-to-json/)",
+"[PDF to text](/pdf-to-text/)",
+"[OCR PDF](/ocr-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"CSV output",
+"Yes",
+"See site",
+"See site",
+"Yes"
+],
+[
+"OCR for scanned PDFs",
+"Yes, free",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page range",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a PDF to CSV?",
+"a": "Drop the PDF here, press Convert and download the CSV file."
+},
+{
+"q": "Can I convert a scanned PDF to CSV?",
+"a": "Yes, OCR runs in your browser to read scanned pages first."
+},
+{
+"q": "How do I open the CSV in Excel?",
+"a": "Use Data → From Text/CSV, choose comma as delimiter and UTF-8 encoding."
+},
+{
+"q": "Can I convert bank statements?",
+"a": "Yes. Check the result against the PDF, especially for wrapped descriptions."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No – conversion happens on your device."
+},
+{
+"q": "What's the difference from PDF to Excel?",
+"a": "CSV is plain data for any program; Excel keeps formatting and multiple sheets."
+},
+{
+"q": "Does it handle multi-page tables?",
+"a": "Yes, rows from consecutive pages are joined."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no limits or sign-up."
+}
+],
+"related": [
+"pdf-to-excel",
+"csv-to-excel",
+"csv-to-json",
+"pdf-to-text",
+"ocr-pdf"
+]
+}
+},
+"pdf2png": {
+"seo": {
+"updated": "2026-10-25",
+"title": "PDF to PNG – Convert PDF Pages to PNG Images, 300 DPI",
+"desc": "Convert every PDF page to a sharp PNG at up to 300 DPI, or just a page range. Lossless, transparent-ready, ZIP download. Runs in your browser.",
+"compareTitle": "{tool}: {brand} vs Smallpdf, iLovePDF and PDF24",
+"compareCols": [
+"Smallpdf",
+"iLovePDF",
+"PDF24"
+],
+"sections": [
+[
+"Lossless images of your PDF pages",
+"PNG is a lossless image format, which makes it the best choice when you need page images with crisp text, thin lines and flat colours – diagrams, slides, charts, forms, sheet music or UI mockups. This tool renders each page of your PDF at the resolution you choose and saves it as PNG, without the blurry halos JPEG adds around text."
+],
+[
+"Choosing a resolution",
+{
+"table": [
+[
+"DPI",
+"Size of an A4 page",
+"Use"
+],
+[
+"72",
+"595 × 842 px",
+"Quick previews, thumbnails"
+],
+[
+"144 (2×)",
+"1191 × 1684 px",
+"Screens, slides, web pages"
+],
+[
+"216 (3×)",
+"1786 × 2526 px",
+"Documentation, sharp on high-DPI screens"
+],
+[
+"300",
+"2480 × 3508 px",
+"Printing, OCR, archiving"
+]
+]
+},
+"Higher DPI means larger files. PNG files of text pages are usually small because of their flat colours; pages with photos produce large PNGs, so for those [PDF to JPG](/pdf-to-jpg/) may be a better choice."
+],
+[
+"PNG vs JPG for PDF pages",
+{
+"table": [
+[
+"",
+"PNG",
+"JPG"
+],
+[
+"Compression",
+"Lossless",
+"Lossy"
+],
+[
+"Text and line sharpness",
+"Perfect",
+"Slight artefacts"
+],
+[
+"Photos",
+"Large files",
+"Small files"
+],
+[
+"Transparency",
+"Supported",
+"Not supported"
+],
+[
+"Best for",
+"Diagrams, slides, documents",
+"Photo-heavy pages, e-mail"
+]
+]
+}
+],
+[
+"How to convert PDF to PNG",
+[
+"Drop the PDF onto the page.",
+"Choose the DPI and, if you like, a page range such as 1-3,7.",
+"Press **Convert**.",
+"Download a single PNG or all pages as a ZIP."
+]
+],
+[
+"Why rendered PNGs look sharper than screenshots",
+"Taking a screenshot of a PDF viewer captures the page at your screen's resolution, typically around 96–150 DPI, and includes any zoom blur. Rendering the PDF directly at 216 or 300 DPI draws text and vectors from the original outlines, so letters stay crisp even when the image is enlarged or printed."
+],
+[
+"Common uses",
+[
+"Insert a PDF page into a presentation, document or design tool that doesn't import PDFs.",
+"Post a page on social media or a website.",
+"Create thumbnails for a document library.",
+"Feed pages into image-based workflows such as annotation tools or machine-learning datasets."
+]
+],
+[
+"Large and protected PDFs",
+"Long documents are rendered one page at a time to keep memory use low, so even hundreds of pages convert in a normal browser – the progress is shown as each page is finished. If a PDF is password-protected, remove the password first with [Unlock PDF](/unlock-pdf/) (you need to know the password), then convert it here."
+],
+[
+"Extract the original images instead",
+"Rendering a page captures everything on it – text, vector drawings and images – as one picture. If you only want the photos embedded in a PDF at their original resolution, switch the mode to *Extract images*. The tool then saves each embedded image as its own file without re-rendering, which is faster and keeps the original quality of photos in brochures, catalogues and reports."
+],
+[
+"Transparent backgrounds",
+"PDF pages normally have a white background, and the renderer fills it white so the PNG looks exactly like the page. If you need a logo or drawing on a transparent background, extract it with *Extract images* (when it is an embedded image) or convert the page to [SVG](/pdf-to-svg/) and remove the background shape in a vector editor."
+],
+[
+"Privacy",
+"Pages are rendered by PDF.js inside your browser and saved directly to your device. The PDF is never uploaded, and the tool works offline after the page loads – suitable for contracts, drawings and confidential reports."
+],
+[
+"Related tools",
+[
+"[PDF to JPG](/pdf-to-jpg/)",
+"[PDF to SVG](/pdf-to-svg/)",
+"[PDF to TIFF](/pdf-to-tiff/)",
+"[Extract images from PDF](/extract-images-from-pdf/)",
+"[JPG to PDF](/jpg-to-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Choose DPI up to 300",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Page range",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"ZIP of all pages",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert a PDF to PNG?",
+"a": "Drop the PDF, choose a DPI and press Convert. Download each PNG or a ZIP of all pages."
+},
+{
+"q": "What DPI should I use?",
+"a": "144 DPI (2×) for screens, 300 DPI for printing or OCR."
+},
+{
+"q": "Is PDF to PNG lossless?",
+"a": "Yes, PNG keeps every rendered pixel without compression artefacts."
+},
+{
+"q": "Can I convert only some pages?",
+"a": "Yes, enter a page range such as 1-3,7."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, it is rendered in your browser."
+},
+{
+"q": "PNG or JPG – which is better?",
+"a": "PNG for text and diagrams, JPG for photo-heavy pages."
+},
+{
+"q": "Can I convert a password-protected PDF?",
+"a": "Unlock it first with Unlock PDF (you need the password), then convert."
+},
+{
+"q": "Is there a page limit?",
+"a": "No fixed limit; very long documents just take longer."
+}
+],
+"related": [
+"pdf-to-jpg",
+"pdf-to-svg",
+"pdf-to-tiff",
+"extract-images-from-pdf",
+"jpg-to-pdf"
+]
+}
+}
+}
+}

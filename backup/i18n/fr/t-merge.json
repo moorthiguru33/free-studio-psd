@@ -1,0 +1,181 @@
+{
+  "tools": {
+    "merge": {
+      "name": "Fusionner des PDF",
+      "short": "Combinez plusieurs PDF en un seul document.",
+      "title": "Fusionner des PDF – Combiner des PDF en ligne gratuit, sans envoi | {brand}",
+      "desc": "Fusionnez des PDF en un seul document en quelques secondes. Gratuit, sans inscription, sans limite de fichiers ni filigrane, dans votre navigateur.",
+      "h1": "Fusionner des fichiers PDF",
+      "steps": [
+        "Sélectionnez ou déposez les fichiers PDF à combiner.",
+        "Ordonnez-les avec les boutons Monter/Descendre.",
+        "Cliquez sur Démarrer et téléchargez votre PDF fusionné."
+      ],
+      "faq": [
+        {
+          "q": "Combien de PDF puis-je fusionner ?",
+          "a": "Autant que la mémoire de votre appareil le permet : il n'y a aucune limite artificielle."
+        }
+      ],
+      "guide": {
+        "intro": "Fusionner des PDF est le moyen le plus rapide de transformer des documents épars (scans, factures, chapitres, formulaires) en un seul fichier ordonné, facile à partager, imprimer et archiver. {brand} assemble vos fichiers dans le navigateur : ni les contrats confidentiels ni les scans de votre pièce d'identité ne passent par un serveur.",
+        "uses": [
+          "Combiner passeport scanné, pièce d'identité et formulaire en un seul PDF pour une démarche en ligne.",
+          "Regrouper les factures ou relevés bancaires de chaque mois en un seul fichier pour votre comptable.",
+          "Rassembler chapitres, page de garde et annexes en un seul rapport ou mémoire.",
+          "Réassembler plusieurs pages signées en un contrat complet."
+        ],
+        "tips": [
+          "Placez les fichiers dans le bon ordre avant d'appuyer sur Démarrer, avec les boutons Monter/Descendre.",
+          "Si le fichier final est trop lourd pour l'e-mail, passez-le ensuite dans Compresser un PDF.",
+          "Vous n'avez besoin que de quelques pages de chaque fichier ? Divisez ou extrayez d'abord les pages, puis fusionnez-les."
+        ],
+        "faq": [
+          {
+            "q": "La fusion de PDF réduit-elle la qualité ?",
+            "a": "Non. Les pages sont copiées telles quelles : le texte reste sélectionnable et les images gardent leur qualité d'origine."
+          },
+          {
+            "q": "Puis-je fusionner des PDF protégés par mot de passe ?",
+            "a": "Déverrouillez-les d'abord avec Déverrouiller un PDF (le mot de passe est nécessaire), puis fusionnez-les."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Fusionner des PDF – Combiner PDF et images, gratuit",
+        "desc": "Fusionnez des PDF et des images JPG/PNG en un seul PDF, gratuitement dans votre navigateur. Glisser pour ordonner, signets par fichier, pages blanches.",
+        "sections": [
+          [
+            "Combinez des fichiers PDF dans l'ordre de votre choix",
+            "Ajoutez deux PDF ou plus, faites glisser les cartes de fichiers dans l'ordre voulu (ou utilisez le bouton de tri pour les classer par ordre alphabétique) et appuyez sur Fusionner. {brand} copie chaque page dans un nouveau document sans rien réencoder : le texte, les liens, les polices et la qualité des images sont conservés à l'identique. La fusion se fait dans votre navigateur : un dossier de 300 pages de contrats confidentiels n'atteint jamais un serveur.",
+            [
+              "**Mélangez PDF et images** : les fichiers JPG, PNG, WebP, HEIC, AVIF, GIF et BMP sont ajoutés comme pages ; vous pouvez joindre la photo d'un reçu à une note de frais en une seule fois.",
+              "**Un signet par fichier** : le PDF fusionné contient une entrée de sommaire au nom de chaque fichier source, pour aller directement à « Facture-mars » ou « Chapitre 3 » dans n'importe quel lecteur PDF.",
+              "**Pages blanches de séparation** : insérez si vous le souhaitez une page vide entre les fichiers, très pratique pour imprimer par sections.",
+              "**Complément à un nombre pair pour le recto verso** : complète chaque fichier jusqu'à un nombre pair de pages pour que chaque document commence sur une nouvelle feuille en impression recto verso."
+            ]
+          ],
+          [
+            "Comment fusionner des PDF hors ligne",
+            "Une fois cette page chargée, vous pouvez vous déconnecter d'internet et continuer à fusionner des fichiers : le moteur pdf-lib qui fait le travail est déjà dans votre navigateur. {brand} devient ainsi un outil de fusion PDF hors ligne très pratique dans le train, sur un réseau d'entreprise restreint ou partout où la couverture est mauvaise, sans installer de logiciel."
+          ],
+          [
+            "Fusionner des PDF sur Mac, Windows, iPhone et Android",
+            "Comme c'est une page web, le même outil fonctionne dans Safari sur macOS et iOS, dans Chrome ou Edge sous Windows et dans Chrome sur Android. Sur mobile, touchez la zone d'envoi pour choisir des fichiers dans Fichiers, Photos ou Google Drive ; le PDF fusionné est enregistré dans vos téléchargements. Sur macOS, vous pouvez aussi fusionner avec Aperçu, mais {brand} est plus rapide quand les fichiers sont dans des dossiers différents ou incluent des images."
+          ],
+          [
+            "Puis-je fusionner des fichiers stockés dans Google Drive ?",
+            "Oui : téléchargez-les d'abord ou, sur Android et iOS, choisissez-les directement depuis Drive dans le sélecteur de fichiers. Les fichiers sont lus localement ; {brand} ne demande jamais l'accès à votre compte Drive."
+          ],
+          [
+            "Réduire la taille d'un PDF fusionné",
+            "En fusionnant, les tailles s'additionnent : trois scans de 4 Mo donnent un PDF de 12 Mo. Si c'est trop pour l'e-mail, passez le résultat dans [Compresser un PDF](/compress-pdf/) ou dans un outil à taille fixe comme [Compresser un PDF à 1 Mo](/compress-pdf-to-1mb/). Compresser une fois après la fusion est plus rapide que compresser chaque partie."
+          ],
+          [
+            "Fusionner des fichiers Word, Excel ou PowerPoint",
+            "Convertissez-les d'abord en PDF avec [Word en PDF](/word-to-pdf/), [Excel en PDF](/excel-to-pdf/) ou [PowerPoint en PDF](/powerpoint-to-pdf/), qui fonctionnent aussi en local, puis fusionnez les PDF ici. Besoin de réordonner ou de supprimer des pages après la fusion ? Utilisez [Organiser un PDF](/organize-pdf/)."
+          ],
+          [
+            "Conseils pour un document fusionné bien ordonné",
+            [
+              "Nommez les fichiers avant de les fusionner : les noms deviennent des signets, donc « 01 Couverture », « 02 Rapport » vaut mieux que « scan0043 ».",
+              "Utilisez le tri A–Z quand les fichiers sont numérotés, puis ajustez en les faisant glisser.",
+              "Redressez ensuite les pages tournées avec [Faire pivoter un PDF](/rotate-pdf/) et ajoutez des [numéros de page](/add-page-numbers/) une fois l'ordre définitif.",
+              "Activez le complément à un nombre pair avant d'imprimer des dossiers en recto verso."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Ajouter des images (JPG/PNG/HEIC) comme pages",
+            "Oui",
+            "Outil séparé",
+            "Oui (PDF, Office, JPG, PNG)",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Signets par fichier",
+            "Oui",
+            "Non proposé sur la page",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Puis-je fusionner des fichiers PDF et JPG ?",
+            "a": "Oui. Ajoutez des images à côté des PDF et chaque image devient une page dans l'ordre affiché. Les photos HEIC de l'iPhone fonctionnent aussi."
+          },
+          {
+            "q": "Comment fusionner des fichiers PDF sur Mac ?",
+            "a": "Ouvrez cette page dans Safari ou Chrome, ajoutez les fichiers, faites-les glisser pour les ordonner et cliquez sur Fusionner. Rien à installer, et les fichiers restent sur votre Mac."
+          },
+          {
+            "q": "Comment réduire la taille d'un PDF fusionné ?",
+            "a": "Passez le fichier fusionné dans Compresser un PDF. Le niveau Recommandé réduit souvent de plus de moitié les documents scannés tout en gardant le texte net."
+          },
+          {
+            "q": "Puis-je combiner des PDF protégés par mot de passe ?",
+            "a": "Les PDF chiffrés doivent d'abord être déverrouillés avec Déverrouiller un PDF, avec le mot de passe que vous connaissez. Ils se fusionnent ensuite normalement."
+          },
+          {
+            "q": "Quelle est la meilleure façon de combiner des PDF hors ligne ?",
+            "a": "Ouvrez cette page une fois puis déconnectez-vous : la fusion continue de fonctionner dans le navigateur sans rien installer. Vos fichiers ne quittent jamais votre appareil."
+          }
+        ],
+        "related": [
+          "split-pdf",
+          "organize-pdf",
+          "compress-pdf",
+          "jpg-to-pdf",
+          "word-to-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment combiner plusieurs PDF en un seul ?",
+            "a": "Déposez tous vos PDF (et, si vous le souhaitez, des images JPG ou PNG) sur cette page, faites glisser les cartes dans l'ordre voulu et appuyez sur Fusionner. Vous téléchargez un seul PDF avec toutes les pages et, si vous le choisissez, un signet par fichier."
+          },
+          {
+            "q": "Puis-je fusionner des PDF gratuitement et sans inscription ?",
+            "a": "Oui. L'outil de fusion PDF est gratuit, sans compte, sans filigrane et sans limite journalière, car les fichiers sont combinés sur votre propre appareil et non sur un serveur."
+          }
+        ]
+      }
+    }
+  }
+}

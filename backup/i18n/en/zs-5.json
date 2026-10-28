@@ -1,0 +1,1595 @@
+{
+"tools": {
+"video2mp3": {
+"seo": {
+"updated": "2026-10-25",
+"title": "MP4 to MP3 – Extract Audio Free, No Upload, Tags",
+"desc": "Convert MP4, MOV, WebM and MKV to MP3 on your device. 64–320 kbps, trim, fade, volume, ID3 tags and cover art, batch. No upload, no sign-up, free.",
+"compareTitle": "{tool}: {brand} vs FreeConvert, Convertio and CloudConvert",
+"compareCols": [
+"FreeConvert",
+"Convertio",
+"CloudConvert"
+],
+"sections": [
+[
+"Get the audio out of any video",
+"Want the soundtrack of a video, a recorded talk as a podcast, a lecture to listen to on the bus, or a song from a clip you filmed? {brand}'s MP4 to MP3 converter extracts the audio from MP4, MOV, WebM, MKV and M4V videos and saves it as an MP3 that plays on every phone, car stereo, smart speaker and music app – or as an uncompressed WAV for editing.",
+"Unlike most online converters, your video is never uploaded. That matters for videos: they are big, so uploading takes ages on a normal connection, and they are often private – family moments, meetings, interviews. Here the conversion starts the moment you click, runs at the speed of your own device, and there is no file size limit beyond your device's memory.",
+"There are no adverts between steps, no e-mail address required to download, and no daily limit on conversions. Convert one clip or a whole folder of recordings, as often as you like – the only limit is the memory of the device you are using, and even phones handle typical videos easily."
+],
+[
+"Features",
+[
+"**MP3 bitrates from 64 to 320 kbps**, or lossless WAV.",
+"**Trim:** set a start and end time to keep only the part you need.",
+"**Fade in and fade out** from 1 to 5 seconds.",
+"**Volume:** boost quiet recordings up to 300% or lower loud ones.",
+"**ID3 tags:** title, artist, album, year and cover art, so the file looks right in music players.",
+"**Mono or stereo**, and sample rate 48, 44.1 or 22 kHz.",
+"**Batch conversion:** drop many videos and get a ZIP of MP3s.",
+"**Preview player** to listen before downloading.",
+"**Works with** MP4, MOV (iPhone), WebM, MKV, M4V and most videos your browser can play.",
+"**Instant start:** no upload and no queue – conversion begins the moment you click, and the result is ready to play in the built-in preview."
+]
+],
+[
+"How to convert MP4 to MP3",
+[
+"Drop one or more videos onto the page.",
+"Choose MP3 and a quality: 192 kbps is great for music, 128 for speech.",
+"Optionally set start/end, fades, volume and tags.",
+"Click Convert. Listen to the preview.",
+"Download the MP3 (or a ZIP for several files)."
+]
+],
+[
+"Which bitrate should I choose?",
+{
+"table": [
+[
+"Bitrate",
+"Size per minute (stereo)",
+"Best for"
+],
+[
+"64 kbps",
+"≈0.5 MB",
+"Voice memos, audiobooks (mono)"
+],
+[
+"96 kbps",
+"≈0.7 MB",
+"Podcasts, lectures"
+],
+[
+"128 kbps",
+"≈1 MB",
+"Speech and casual music"
+],
+[
+"192 kbps",
+"≈1.4 MB",
+"Music – the sweet spot"
+],
+[
+"256 kbps",
+"≈1.9 MB",
+"High-quality music"
+],
+[
+"320 kbps",
+"≈2.4 MB",
+"Maximum MP3 quality"
+]
+]
+},
+"A higher bitrate cannot add quality the video did not have. Most phone videos and online clips carry AAC audio at 96–192 kbps; converting them at 192 kbps preserves practically everything. Going to 320 kbps mainly makes the file larger. For speech, choosing Mono halves the size with no audible difference."
+],
+[
+"MP4 and MP3 explained",
+"**MP4** (MPEG-4 Part 14) is a container – a box that holds a video stream (usually H.264 or H.265), one or more audio streams (usually AAC) and metadata. **MP3** (MPEG-1/2 Audio Layer III) is an audio-only format, introduced in the 1990s and still the most compatible audio format in the world. Converting MP4 to MP3 means taking the audio stream out of the container, decoding it to raw sound, and encoding it again as MP3. The video part is simply ignored, which is why the MP3 is a fraction of the size.",
+"MOV is Apple's QuickTime container, used by iPhones and Macs; WebM is the open format used by browsers and many screen recorders; MKV (Matroska) is popular for films and recordings. All of them work the same way here: the browser's media engine reads the audio, and {brand} encodes the MP3."
+],
+[
+"Trim, fade and volume",
+"Often you only want part of a video: a song from a concert clip, an answer from an interview, the speech from a wedding video. Type the start and end times (for example 1:05 and 4:30, or 0:12.5 for half-second precision) and only that part is saved. Fade-in and fade-out make the cut sound smooth instead of starting abruptly. The volume setting raises quiet phone recordings – 150–200% is usually right – or lowers clipping-loud ones. For very precise editing with a waveform, use [Audio Cutter](/audio-cutter/) after conversion."
+],
+[
+"ID3 tags and cover art",
+"MP3 files can carry information about themselves in ID3 tags: title, artist, album, year and an embedded cover picture. Music apps, car stereos and phones use these to display the track properly instead of showing a file name like VID_20260412_183012. Open the 'MP3 tags' panel, fill in the fields and add a JPG or PNG cover – for example a frame from the video or a podcast logo. Tags are written in the widely supported ID3v2.3 format."
+],
+[
+"Uses",
+[
+"Turning recorded lectures, webinars and talks into podcasts.",
+"Saving the music from your own concert or event videos.",
+"Extracting voice-overs and interviews for editing.",
+"Making audio versions of meetings for people who missed them.",
+"Creating background music or sound effects from your own clips.",
+"Saving a voice message received as a video.",
+"Language learning: listen to video lessons without the screen."
+]
+],
+[
+"Copyright",
+"Only convert videos you own or have the right to use – your own recordings, Creative Commons content, or material whose licence allows it. Downloading and converting music or films from streaming platforms usually breaks their terms of service and may infringe copyright. {brand} does not download videos from websites; it converts files you already have on your device."
+],
+[
+"MP3, WAV or something else?",
+{
+"table": [
+[
+"Format",
+"Type",
+"Size (per min)",
+"Use when"
+],
+[
+"MP3",
+"Lossy",
+"≈1–2.4 MB",
+"You want to listen anywhere: phones, cars, speakers"
+],
+[
+"WAV",
+"Lossless, uncompressed",
+"≈10 MB",
+"You will edit, mix or master the audio"
+],
+[
+"M4A/AAC (in the video)",
+"Lossy",
+"≈1–1.5 MB",
+"Apple ecosystem; not offered as output here"
+]
+]
+},
+"MP3 is the right answer for nine out of ten people: every device made in the last 25 years plays it. Choose WAV only when you plan to edit the audio in software such as Audacity, GarageBand, Premiere or a DAW, where an uncompressed file avoids an extra generation of compression."
+],
+[
+"Converting phone videos",
+"**iPhone:** videos are MOV files using HEVC video and AAC audio. Transfer them to your computer (AirDrop, iCloud Photos download, cable) or open this page in Safari on the iPhone itself and choose the video from your library – Safari offers 'Photo Library' in the file picker. **Android:** videos are MP4 files in DCIM/Camera. In Chrome on Android, tap the drop area and choose the video from Files or Gallery. The MP3 is saved to your Downloads folder, from where you can move it to a music app."
+],
+[
+"Converting screen recordings, webinars and meetings",
+"Zoom, Teams, Google Meet and OBS recordings are usually MP4 or MKV files with speech audio. For these, choose 96 or 128 kbps and Mono: a one-hour meeting then becomes a 40–55 MB MP3, small enough to share by e-mail or messenger, and perfect for listening on a commute. Use the trim fields to skip the minutes before everyone joined. If the speakers are quiet, raise the volume to 150%."
+],
+[
+"Batch tips",
+"When you drop several videos, the same settings – format, bitrate, trim, fades, volume and tags – are applied to each one. Trim times are usually only useful for a single file, so leave them empty for batches. Tags such as artist and album are handy for a series, for example all parts of a course or all songs from one concert; give each file a title afterwards in your music app if needed. All results are collected in one ZIP."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Solution"
+],
+[
+"'Could not read audio from this file'",
+"The video has no audio track, or uses a codec your browser can't decode. Try Chrome or Edge."
+],
+[
+"MP3 is silent",
+"The video's audio track was silent, or volume was set very low."
+],
+[
+"Conversion is slow",
+"Very long videos take a while to decode on older phones; use a computer for multi-hour files."
+],
+[
+"Cover doesn't show",
+"Some players cache artwork; re-add the file to the library."
+],
+[
+"Audio and length differ from video",
+"If you set start/end times, only that part is exported."
+]
+]
+}
+],
+[
+"Quality: does re-encoding hurt?",
+"Video audio is already compressed, usually as AAC. Converting to MP3 decodes it and compresses it again with a different method, so in theory some information is lost twice. In practice, at 192 kbps or more the result is indistinguishable from the original for nearly all listeners and material, because both AAC and MP3 at these rates are well above the threshold of audibility for typical content. If you need a mathematically identical copy of the original audio for archiving, choose WAV."
+],
+[
+"Sample rate and channels",
+"The sample rate is how many times per second the sound is measured. 44.1 kHz is the CD standard and what most MP3 players expect; 48 kHz is the standard in video, so most videos already use it. Choosing 'Keep' avoids unnecessary resampling. 22 kHz halves the data and is fine for speech-only content such as lectures, but cuts off high frequencies in music. Stereo keeps left and right channels; Mono mixes them into one, halving the bitrate needed for the same quality – ideal for single-microphone recordings where both channels are the same anyway."
+],
+[
+"Using MP3s from videos in other projects",
+"Extracted audio is useful far beyond listening. Use it as the soundtrack for a slideshow, add it to a new video in an editor, create a ringtone with [Ringtone Maker](/ringtone-maker/), transcribe a talk, or clean up a recording in an audio editor. If you plan further editing, extract as WAV to keep the highest quality, and only export to MP3 at the end of your workflow."
+],
+[
+"Why the MP3 is so much smaller than the video",
+"In a typical phone video, the picture uses 95–98% of the data and the audio only 2–5%. A 100 MB, 1-minute 1080p video usually contains only about 1–1.5 MB of audio. That is why extracting the audio produces a file around one hundredth of the size – perfect when you only need the sound, and an easy way to save space on your phone if you keep recordings of talks or concerts mainly for listening."
+],
+[
+"Glossary",
+[
+"**Bitrate (kbps):** how much data is used per second of audio; higher means better quality and larger files.",
+"**Container:** the file type that holds streams, such as MP4, MOV or MKV.",
+"**Codec:** the compression method for a stream, such as AAC, MP3 or Opus.",
+"**ID3 tag:** metadata stored inside an MP3 – title, artist, album, cover.",
+"**Sample rate:** how many audio samples are taken per second, e.g. 44,100.",
+"**Mono / stereo:** one channel, or separate left and right channels.",
+"**Lossless:** no information is discarded, as in WAV; MP3 and AAC are lossy."
+]
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The file is read from your disk, decoded and re-encoded on your own device using the browser's built-in media engine (WebCodecs and Web Audio) and WebAssembly, and the result goes straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue – so family videos, interviews, voice memos, meetings and unreleased content never leave your computer or phone. Large files are not slowed down by your upload speed either: a 1 GB video starts processing instantly instead of after a ten-minute upload."
+],
+[
+"Related tools",
+[
+"[Audio Cutter](/audio-cutter/) – trim MP3s with a waveform.",
+"[Compress Video](/compress-video/) – make videos smaller.",
+"[MOV to MP4](/mov-to-mp4/) – convert iPhone videos.",
+"[Video to GIF](/video-to-gif/) – turn clips into GIFs.",
+"[Trim Video](/trim-video/) – cut videos."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"File size limit",
+"Device memory only",
+"See site",
+"1 GB (or sign up)",
+"See site"
+],
+[
+"Trim, fade, volume",
+"Yes",
+"Yes (advanced options)",
+"See site",
+"See site"
+],
+[
+"ID3 tags and cover",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch",
+"Yes (ZIP)",
+"See site",
+"See site",
+"See site"
+],
+[
+"Cloud import",
+"Not needed – local files",
+"Google Drive, OneDrive, Dropbox",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert MP4 to MP3 for free?",
+"a": "Drop the video, choose MP3 and a bitrate, click Convert and download. No sign-up."
+},
+{
+"q": "Is my video uploaded?",
+"a": "No. The audio is extracted in your browser."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No fixed limit; very large files are limited only by your device's memory."
+},
+{
+"q": "Which bitrate is best?",
+"a": "192 kbps for music, 128 kbps for speech, 64–96 kbps mono for audiobooks."
+},
+{
+"q": "Can I convert only part of the video?",
+"a": "Yes. Enter start and end times; you can also add fades."
+},
+{
+"q": "Can I add a title, artist and cover?",
+"a": "Yes. Fill in the MP3 tags panel and choose a cover image."
+},
+{
+"q": "Does it work with iPhone MOV videos?",
+"a": "Yes. MOV, MP4, WebM, MKV and M4V are supported."
+},
+{
+"q": "Can I convert many videos at once?",
+"a": "Yes. Drop several; the MP3s are downloaded as a ZIP."
+},
+{
+"q": "Will the MP3 sound worse than the video?",
+"a": "At 192 kbps or more, the difference is inaudible for typical video audio."
+},
+{
+"q": "Can I get WAV instead?",
+"a": "Yes. Choose WAV for lossless audio for editing."
+}
+],
+"related": [
+"audio-cutter",
+"compress-video",
+"mov-to-mp4",
+"video-to-gif",
+"trim-video"
+]
+}
+},
+"videocompress": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Compress Video – Target MB, Free, No Upload, No Watermark",
+"desc": "Compress MP4, MOV and WebM to an exact size (10, 16, 25 MB or custom) or quality level. 1080p/720p/480p, mute, batch. On-device, no watermark, free.",
+"compareTitle": "{tool}: {brand} vs FreeConvert, Clideo and VEED",
+"compareCols": [
+"FreeConvert",
+"Clideo",
+"VEED"
+],
+"sections": [
+[
+"Shrink videos to fit anywhere",
+"Videos from modern phones are huge: a minute of 4K can be 300–400 MB, and even 1080p runs at 100–150 MB a minute. That is too big for e-mail, chat apps, upload forms and cloud storage quotas. {brand}'s Video Compressor makes them much smaller – typically 60–90% – while keeping them sharp enough for phones and laptops. Choose a **target file size** such as 10 MB, 16 MB or 25 MB and the compressor calculates the bitrate needed to hit it, or pick a quality level and resolution and let it do the rest.",
+"Compression runs entirely in your browser using the hardware video encoder in your computer or phone. Nothing is uploaded – a big advantage with large videos, which would otherwise take minutes to upload before compression even starts – and there is no watermark, no account and no file size limit except your device's memory.",
+"Free online compressors often restrict you to a few files a day, cap the size at a few hundred megabytes, or stamp a logo on the result unless you pay. None of that applies here: compress as many videos as you want, of any length your device can handle, and the output is exactly yours – no branding, no expiry, no account. Because the hardware encoder in your device does the heavy lifting, even long 1080p videos usually finish in less time than they would take to upload."
+],
+[
+"Features",
+[
+"**Target file size:** 8, 10, 16, 25, 50 or 100 MB, or any custom size.",
+"**Quality levels:** high, recommended, strong and extreme compression.",
+"**Resolution:** keep, 1080p, 720p or 480p.",
+"**Remove sound** for silent clips and smaller files.",
+"**Output formats:** MP4 (H.264), WebM (VP9), MOV or MKV.",
+"**Batch:** compress several videos in one go.",
+"**Before/after size** shown for every file.",
+"**Preview player** to check the result before saving.",
+"**Hardware accelerated** via WebCodecs – fast on modern devices.",
+"**No watermark and no daily limit** – compress as many videos as you need."
+]
+],
+[
+"How to compress a video",
+[
+"Drop one or more videos (MP4, MOV, WebM, MKV, M4V).",
+"Choose a target size – for example 25 MB for e-mail – or leave it off and choose a quality.",
+"Pick a resolution: 720p is a good default for sharing.",
+"Click Compress and watch the progress.",
+"Check the preview, then download."
+]
+],
+[
+"Target size: how it works",
+"A video's file size is simply its bitrate multiplied by its duration. If you ask for 25 MB and the clip is 2 minutes long, the compressor has 25 × 8 = 200 megabits to spend over 120 seconds – about 1.6 megabits per second. It reserves a small amount for audio (64–96 kbps) and container overhead, and gives the rest to the video encoder. Short clips can therefore look excellent even at small targets, while long videos need either a larger target or a lower resolution to look good.",
+{
+"table": [
+[
+"Target",
+"1-minute clip",
+"5-minute clip",
+"20-minute clip"
+],
+[
+"10 MB",
+"≈1.2 Mbps – good 720p",
+"≈0.2 Mbps – use 480p",
+"Too small"
+],
+[
+"25 MB",
+"≈3.2 Mbps – good 1080p",
+"≈0.6 Mbps – 480p/720p",
+"≈0.1 Mbps – too small"
+],
+[
+"100 MB",
+"≈13 Mbps – excellent",
+"≈2.6 Mbps – good 1080p",
+"≈0.6 Mbps – 480p"
+]
+]
+},
+"If a target is impossible for the video's length, the tool tells you instead of producing an unwatchable file."
+],
+[
+"Recommended settings by destination",
+{
+"table": [
+[
+"Destination",
+"Suggested setting"
+],
+[
+"E-mail (Gmail, Outlook)",
+"Target 25 MB, 720p"
+],
+[
+"Discord (free)",
+"Target 10 MB, 720p or 480p"
+],
+[
+"WhatsApp / messengers",
+"Target 16 MB, 720p"
+],
+[
+"Website or blog",
+"Recommended quality, 1080p or 720p"
+],
+[
+"Online forms and job portals",
+"Target as required, 720p"
+],
+[
+"Archive on your phone",
+"High quality, keep resolution"
+],
+[
+"Presentations",
+"Recommended quality, 1080p, MP4"
+]
+]
+},
+"Limits change: always check the current limit of the service you are sending to."
+],
+[
+"Quality, bitrate and resolution",
+"Three things determine how good a compressed video looks: the **bitrate** (how many bits per second the encoder may use), the **resolution** (how many pixels per frame) and the **codec** (how cleverly those bits are used). Lowering the resolution from 1080p to 720p reduces the number of pixels by more than half, so at the same bitrate each pixel gets twice as many bits – which is why a 720p video often looks better than a 1080p one at small sizes, especially on phones. Busy scenes – sports, confetti, water, leaves in wind – need more bitrate than static talking heads or screen recordings."
+],
+[
+"Codecs: H.264 vs VP9",
+"MP4 output uses **H.264 (AVC)**, the most compatible video codec: it plays on every phone, computer, TV, browser and social network. WebM output uses **VP9**, which typically produces 20–40% smaller files at the same quality but is less universally supported in older apps and devices. MOV and MKV containers are offered for workflows that require them. For sharing, MP4/H.264 is the safe choice."
+],
+[
+"Tips for smaller, better-looking videos",
+[
+"Trim away unwanted parts first with [Trim Video](/trim-video/) – the shortest video compresses best.",
+"Use 720p for anything that will be watched on a phone.",
+"Remove the sound from silent clips, screen recordings without narration or B-roll.",
+"Avoid compressing the same video repeatedly; always start from the original.",
+"Screen recordings compress extremely well; keep their resolution so text stays readable.",
+"For very long recordings, consider splitting them into parts."
+]
+],
+[
+"Why compress in the browser?",
+"Online compressors upload your file to a server, compress it there and send it back – for a 500 MB video on a typical 20 Mbps upload connection, the upload alone takes more than three minutes, and then you wait in a queue. Free tiers often add a watermark or cap file size. Here, compression begins immediately using your device's built-in hardware encoder, and the file never leaves your device. The only requirement is a browser with WebCodecs: current Chrome, Edge, Opera, Safari 17+ and recent Firefox."
+],
+[
+"Compressing iPhone and Android videos",
+"iPhones record HEVC MOV files; Android phones usually record H.264 or HEVC MP4. Both compress well. A 1-minute 4K iPhone clip of about 350 MB becomes roughly 20–30 MB at 1080p 'Recommended', or under 10 MB at 720p 'Strong'. On the phone itself, open this page in Safari or Chrome, tap the drop area and pick the video from your library; the compressed MP4 is saved to Files/Downloads. Because the phone's hardware encoder is used, compression is fast even on mid-range models – but keep the screen on, as mobile browsers pause background tabs."
+],
+[
+"Quality presets explained",
+{
+"table": [
+[
+"Preset",
+"What it does",
+"Typical size reduction"
+],
+[
+"High quality",
+"High bitrate, minimal visible loss",
+"20–50%"
+],
+[
+"Recommended",
+"Balanced bitrate; excellent on phones and laptops",
+"50–80%"
+],
+[
+"Strong compression",
+"Lower bitrate; fine for messaging",
+"70–90%"
+],
+[
+"Extreme",
+"Smallest file; visible softness",
+"85–95%"
+]
+]
+},
+"The reduction depends heavily on the original: a high-bitrate 4K camera file shrinks dramatically, while a video that was already compressed by a messaging app may barely shrink at all – the tool can't remove detail that is already gone. Combine a preset with a lower resolution for the biggest savings."
+],
+[
+"Screen recordings and tutorials",
+"Screen recordings are mostly static, with sharp text and few changing pixels, so they compress extremely well. Keep the original resolution so text stays readable and choose 'Recommended' or 'Strong'. A 10-minute 1080p tutorial can often fit in 25–50 MB. If the narration is not needed, remove the sound to save another 5–10%."
+],
+[
+"Why not just zip the video?",
+"Video files are already compressed internally, so ZIP or RAR archives make them only 1–2% smaller. Real savings come from re-encoding the video at a lower bitrate or resolution, which is what this compressor does. The output is a normal MP4 that plays directly, with no need to unzip."
+],
+[
+"Audio in compressed videos",
+"When you set a target size, audio is encoded at 64–96 kbps to leave as much of the budget as possible for the picture – plenty for speech and fine for background music. Without a target size, audio is kept as is where possible. If your browser lacks an AAC encoder (some Linux builds of Chromium), audio is saved as Opus, which plays in all modern browsers and most players; choose 'Remove sound' if you need maximum compatibility for a silent clip."
+],
+[
+"Troubleshooting",
+{
+"table": [
+[
+"Problem",
+"Solution"
+],
+[
+"'Your browser does not support video processing'",
+"Update to the latest Chrome, Edge or Safari 17+."
+],
+[
+"The result is bigger than expected",
+"Lower the resolution or use a target size."
+],
+[
+"The result looks blocky",
+"Raise the target size or choose 'Recommended' quality."
+],
+[
+"Progress stops on a phone",
+"Keep the tab in the foreground and the screen on."
+],
+[
+"Very large files fail",
+"Close other tabs; for multi-GB files use a desktop computer."
+]
+]
+}
+],
+[
+"Glossary",
+[
+"**Bitrate:** amount of data per second of video, in Mbps; the main driver of file size.",
+"**Resolution:** frame size, e.g. 1920×1080 (1080p) or 1280×720 (720p).",
+"**Codec:** the compression method, e.g. H.264, HEVC, VP9.",
+"**Container:** the file format holding the streams, e.g. MP4, MOV, WebM.",
+"**WebCodecs:** the browser technology that gives web pages access to hardware video encoders."
+]
+],
+[
+"Compressing for e-mail",
+"Most e-mail providers limit attachments to about 20–25 MB, and the encoding used for attachments adds roughly a third to the size on the way. To be safe, use the 25 MB preset for Gmail and Outlook only when your provider allows 25 MB; for maximum safety use 16 or 20 MB. For longer videos, compress to 720p or 480p, or share a cloud link instead. The compressed MP4 opens directly in the recipient's e-mail app or browser without any special software."
+],
+[
+"Compressing for Discord, WhatsApp and Telegram",
+"Messaging apps compress videos themselves when you send them, often heavily, which makes videos blurry. Compressing beforehand with sensible settings gives you control: you choose the trade-off between sharpness and size, and the app may leave the file untouched if it is already small. Use 10 MB for free Discord accounts, 16 MB as a safe general size for messengers, and 720p resolution. Sending the file as a 'document' in WhatsApp or Telegram also avoids their automatic recompression."
+],
+[
+"Compressing for websites and online courses",
+"Large videos slow down web pages and cost bandwidth. For a background or product video, 720p or 1080p at 'Recommended' quality, without sound for silent loops, gives a good balance; WebM (VP9) output is even smaller and plays in all modern browsers. For learning platforms with upload limits (often 100–500 MB), use the 100 MB preset or a custom size. Keep text-heavy content such as slides at 1080p so it stays legible."
+],
+[
+"How much space can you save?",
+{
+"table": [
+[
+"Original",
+"Settings",
+"Approx. result"
+],
+[
+"1 min 4K iPhone (≈350 MB)",
+"1080p · Recommended",
+"≈25–40 MB"
+],
+[
+"1 min 1080p Android (≈130 MB)",
+"720p · Recommended",
+"≈10–20 MB"
+],
+[
+"10 min 1080p screen recording (≈200 MB)",
+"Keep · Strong",
+"≈25–40 MB"
+],
+[
+"30 s clip (≈60 MB)",
+"Target 10 MB",
+"≤10 MB"
+]
+]
+},
+"These figures are illustrative; actual sizes depend on the content and the encoder in your device."
+],
+[
+"Resolution: when to downscale",
+"Phones show video on screens around 6 inches wide, where 720p already looks sharp; laptops benefit from 1080p, and only large TVs and monitors really need 4K. For sharing, downscaling from 4K to 1080p cuts the pixel count by three quarters, and from 1080p to 720p by more than half – the single most effective way to reduce size while keeping the picture clean. Downscaling also gives the encoder more bits per pixel, so fine detail and motion look better than in a full-resolution file squeezed to the same size. Keep the original resolution for screen recordings with small text, or for footage you will edit later; for everything else, 720p or 1080p is the practical choice."
+],
+[
+"Before and after: checking the result",
+"After compression, the size before and after and the percentage saved are shown, and a preview player lets you watch the result. Look at fast motion, fine textures such as grass or hair, and dark scenes, where compression shows first as blockiness or banding. If you notice problems, run it again with a larger target or a better quality preset – compressing again from the original, not from the already compressed output, keeps the quality highest. Because processing is local, retrying costs only a few seconds or minutes, not another upload."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The file is read from your disk, decoded and re-encoded on your own device using the browser's built-in media engine (WebCodecs and Web Audio) and WebAssembly, and the result goes straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue – so family videos, interviews, voice memos, meetings and unreleased content never leave your computer or phone. Large files are not slowed down by your upload speed either: a 1 GB video starts processing instantly instead of after a ten-minute upload."
+],
+[
+"Related tools",
+[
+"[Trim Video](/trim-video/) – cut the parts you don't need.",
+"[Mute Video](/mute-video/) – remove the audio track.",
+"[MOV to MP4](/mov-to-mp4/) – convert iPhone videos.",
+"[MP4 to MP3](/mp4-to-mp3/) – extract the audio.",
+"[Video to GIF](/video-to-gif/) – make a GIF from a clip."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free file size limit",
+"Device memory only",
+"See site",
+"500 MB",
+"1 GB"
+],
+[
+"Compress to a target size",
+"Yes (presets + custom)",
+"Yes ('desired file size')",
+"See site",
+"See site"
+],
+[
+"Watermark on free output",
+"No",
+"See site",
+"Premium removes watermark",
+"See site"
+],
+[
+"Resolution choice",
+"1080p / 720p / 480p / keep",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I compress a video for free?",
+"a": "Drop the video, choose a target size or quality, click Compress and download. No sign-up, no watermark."
+},
+{
+"q": "Is my video uploaded?",
+"a": "No. It is compressed on your device with the browser's video encoder."
+},
+{
+"q": "Can I compress to an exact size like 25 MB?",
+"a": "Yes. Choose a target size preset or enter a custom size; the result lands at or just under it."
+},
+{
+"q": "How much smaller will my video get?",
+"a": "Typically 60–90% smaller for phone videos, depending on settings and content."
+},
+{
+"q": "Will compression reduce quality?",
+"a": "Some, but at recommended settings the difference is hard to see on phones and laptops."
+},
+{
+"q": "Which format should I choose?",
+"a": "MP4 (H.264) for maximum compatibility; WebM (VP9) for smaller files on the web."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No fixed limit. Very large files depend on your device's memory."
+},
+{
+"q": "Can I compress several videos at once?",
+"a": "Yes. Drop several files; they are processed one after another."
+},
+{
+"q": "Why does it say my target is too small?",
+"a": "The video is too long for that size. Choose a larger target, a lower resolution, or trim the video."
+},
+{
+"q": "Which browsers are supported?",
+"a": "Current Chrome, Edge, Safari 17+, Opera and recent Firefox with WebCodecs support."
+}
+],
+"related": [
+"trim-video",
+"mute-video",
+"mov-to-mp4",
+"mp4-to-mp3",
+"video-to-gif"
+]
+}
+},
+"vmov2mp4": {
+"seo": {
+"updated": "2026-10-25",
+"title": "MOV to MP4 – Instant Lossless Converter, Free, No Upload",
+"desc": "Convert iPhone and QuickTime MOV to MP4 in seconds. Lossless remux when possible, H.264 re-encode when needed, resolution choice, batch. No upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, FreeConvert and Convertio",
+"compareCols": [
+"CloudConvert",
+"FreeConvert",
+"Convertio"
+],
+"sections": [
+[
+"MOV to MP4 in seconds – often without any quality loss",
+"MOV is the video format of iPhones, iPads, Macs and QuickTime. It plays fine on Apple devices but can cause trouble elsewhere: some Windows apps, Android phones, smart TVs, video editors, upload forms and websites expect MP4. {brand}'s MOV to MP4 converter changes the format in your browser.",
+"When the MOV already contains H.264 video – which is the case for many iPhone videos set to 'Most Compatible', screen recordings and camera files – the converter does not re-encode at all. It **remuxes**: it copies the existing video and audio streams from the MOV container into an MP4 container. That takes seconds even for long videos and is completely lossless. When the MOV uses a codec that MP4 players handle poorly (such as HEVC on older devices, or ProRes), it re-encodes to H.264 for maximum compatibility.",
+"Because everything runs locally, there is nothing to upload – your 2 GB holiday video is converted as fast as your computer can read it, and it never leaves your device.",
+"There is no account, no watermark and no daily limit. Convert a single clip from your phone or hundreds of videos from a camera card, and download the results straight to your device."
+],
+[
+"Features",
+[
+"**Lossless remux** for H.264 MOV files – no re-encoding, no quality loss, very fast.",
+"**Automatic re-encode** to H.264 when needed.",
+"**Resolution:** keep, or downscale to 1080p, 720p or 480p.",
+"**Quality presets** if you want a smaller MP4.",
+"**Keep or remove sound.**",
+"**Batch conversion:** many MOVs at once.",
+"**Also outputs** WebM, MKV or MOV if you need another container.",
+"**Large files:** up to about 2 GB per file, limited by your device's memory.",
+"**No upload:** conversion starts instantly, at your device's speed."
+]
+],
+[
+"How to convert MOV to MP4",
+[
+"Drop one or more MOV files onto the page.",
+"Leave Quality on 'High quality' and Resolution on 'Keep' for a lossless copy.",
+"Make sure Format is MP4.",
+"Click Convert.",
+"Download the MP4 (or a ZIP for several files)."
+]
+],
+[
+"MOV vs MP4: what's the difference?",
+"Both MOV and MP4 are **containers** – wrappers that hold video, audio, subtitles and metadata. MP4 (MPEG-4 Part 14) was actually based on Apple's QuickTime file format, so the two are close relatives with a very similar internal structure. The difference is mainly in compatibility and in which codecs are commonly used inside.",
+{
+"table": [
+[
+"",
+"MOV (QuickTime)",
+"MP4 (MPEG-4)"
+],
+[
+"Developed by",
+"Apple (1991)",
+"MPEG / ISO (2001), based on QuickTime"
+],
+[
+"Typical video codecs",
+"H.264, HEVC, ProRes",
+"H.264, HEVC, AV1"
+],
+[
+"Typical audio",
+"AAC, PCM",
+"AAC, MP3"
+],
+[
+"Plays on",
+"Apple devices, most modern players",
+"Virtually everything"
+],
+[
+"Web browsers",
+"Partial",
+"All"
+],
+[
+"Social media and upload forms",
+"Often accepted",
+"Always accepted"
+],
+[
+"Editing pro formats (ProRes)",
+"Yes",
+"Rarely"
+]
+]
+},
+"So converting MOV to MP4 does not inherently reduce quality. It only does if the video must be re-encoded – and then only slightly at the 'High quality' setting.",
+"In everyday terms: if a friend can't open the video you sent, or a website rejects your upload, converting MOV to MP4 is almost always the fix. Nothing about the picture or the sound needs to change – only the wrapper that tells software how to read it. That is why a remux is both fast and lossless, and why it is the default whenever your MOV allows it."
+],
+[
+"Why iPhone videos are MOV",
+"iPhones record in the MOV container. Since iOS 11, they use HEVC (H.265) by default ('High Efficiency' in Settings › Camera › Formats), which saves about half the space compared with H.264. HEVC is excellent but not supported everywhere – older Windows PCs, some Android phones, many smart TVs and various websites can't play it. If you choose 'Most Compatible' in the camera settings, the iPhone records H.264 instead, which can be remuxed to MP4 instantly. When you AirDrop or e-mail videos, iOS may also convert them automatically; files copied directly via cable or cloud usually stay as HEVC MOV."
+],
+[
+"Remux vs re-encode",
+"**Remuxing** moves the compressed streams into a new container without touching them. It is fast (limited by disk speed), lossless and keeps the original file size. **Re-encoding** decodes every frame and compresses it again, which takes longer, slightly reduces quality and lets you change resolution, codec and size. {brand} remuxes automatically when you keep 'High quality' and 'Keep' resolution and the video is already H.264; choosing a lower resolution or quality, or WebM output, triggers re-encoding."
+],
+[
+"Choosing settings",
+{
+"table": [
+[
+"Goal",
+"Settings"
+],
+[
+"Same quality, just MP4",
+"High quality · Keep · MP4"
+],
+[
+"Smaller file for sharing",
+"Recommended · 720p · MP4"
+],
+[
+"Upload to a website with a size limit",
+"Use [Compress Video](/compress-video/) with a target size"
+],
+[
+"Play on an old TV or PC",
+"High quality · 1080p · MP4 (H.264)"
+],
+[
+"Web page embedding",
+"Recommended · 1080p · MP4 or WebM"
+],
+[
+"No sound needed",
+"Any · Remove sound"
+]
+]
+}
+],
+[
+"Common problems after converting",
+[
+"**The MP4 is the same size as the MOV.** That is expected with a remux – the data is identical, only the container changed.",
+"**It took longer than expected.** The video needed re-encoding (for example HEVC or ProRes); speed depends on your device's hardware encoder.",
+"**Colours look slightly different.** HDR (Dolby Vision) iPhone videos are converted to standard dynamic range for compatibility.",
+"**The browser says it can't encode.** Use a current version of Chrome, Edge or Safari, which support WebCodecs."
+]
+],
+[
+"Convert MOV to MP4 on Mac, Windows, iPhone and Android",
+"**Mac:** open this page in Safari or Chrome and drop the MOV from Finder or Photos (export the video from Photos first, or drag it out). **Windows:** drop MOV files copied from your iPhone via cable, iCloud for Windows or a USB stick. **iPhone and iPad:** open the page in Safari, tap the drop area, choose Photo Library and select videos; the MP4 is saved to Files. **Android:** if someone sent you a MOV file, open the page in Chrome and select the file from Downloads. Nothing needs to be installed on any platform."
+],
+[
+"Batch converting a whole folder",
+"Select all your MOV files at once – for example everything copied from an iPhone camera roll – and drop them together. Each is converted with the same settings, and the MP4s are packed into one ZIP with the original file names. H.264 files are remuxed in seconds; HEVC files are re-encoded and take roughly as long as the video's duration on a typical laptop with hardware acceleration, often less."
+],
+[
+"Will my metadata be kept?",
+"The video and audio streams, frame rate, resolution and orientation are preserved. Some Apple-specific metadata – Live Photo links, location and certain camera details – may not be carried over to the MP4 container, because MP4 players do not use them. If you need to keep location and date metadata for archiving, store the original MOV as well."
+],
+[
+"MOV, MP4 and social media",
+"Most social networks and video platforms accept both MOV and MP4 uploads, but many web forms, learning platforms, CMSs and messaging apps accept only MP4, and some smart TVs and older media players refuse MOV files. Converting to MP4 with H.264 video and AAC audio – the most universally compatible combination – avoids 'unsupported format' errors and the black-screen-with-sound problem that HEVC files cause on unsupported devices."
+],
+[
+"When to keep MOV",
+"If you edit video in Final Cut Pro, DaVinci Resolve or Premiere with ProRes footage, keep the MOV originals: ProRes is an editing codec designed for quality and fast scrubbing, not for distribution. Convert only the finished export to MP4 for sharing. Likewise, HDR iPhone footage is best kept in its original MOV if you want to preserve Dolby Vision for viewing on Apple devices."
+],
+[
+"Other containers",
+"The same converter also changes MP4 to MOV, and outputs WebM (VP9 video, Opus audio) for the web or MKV (Matroska) for media servers like Plex and Jellyfin. MKV output keeps the original codecs where possible, so it is also a fast, lossless option. MTS and M2TS files from camcorders and TS recordings are accepted as input too."
+],
+[
+"Speed: what to expect",
+{
+"table": [
+[
+"Source",
+"Operation",
+"Typical speed"
+],
+[
+"H.264 MOV (any length)",
+"Remux",
+"Seconds – limited by disk"
+],
+[
+"HEVC MOV, 1080p",
+"Re-encode to H.264",
+"≈1–4× real time on a modern laptop"
+],
+[
+"HEVC MOV, 4K",
+"Re-encode",
+"≈0.5–2× real time"
+],
+[
+"ProRes MOV",
+"Re-encode",
+"Depends on device; can be slow"
+]
+]
+},
+"Real-time factors depend on your hardware encoder; recent Apple Silicon Macs, Intel and AMD laptops with integrated graphics, and current phones are fastest."
+],
+[
+"Understanding HEVC (H.265)",
+"HEVC, or H.265, is the successor to H.264. It achieves similar quality at roughly half the bitrate, which is why Apple adopted it as the default for iPhone videos. The downside is compatibility: HEVC decoding requires newer hardware or licensed software, so Windows PCs without the HEVC extension, many Android phones before 2018, older TVs and a number of web services cannot play it. Converting to H.264 MP4 makes the video play everywhere at the cost of a larger file – typically 1.5–2× the size of the HEVC original at equivalent quality. If size matters, combine the conversion with 1080p or 720p resolution."
+],
+[
+"Frame rate and slow motion",
+"The converter keeps the original frame rate: 24, 25, 30 or 60 fps videos stay that way, so motion looks identical. Slow-motion iPhone videos recorded at 120 or 240 fps are stored with special timing metadata that the Photos app uses to play them slowed down; after conversion, they generally play at normal speed in other players. If you want the slow-motion effect preserved, export the video from the Photos app first (which renders the slow-motion part) and convert the exported file."
+],
+[
+"Orientation, audio and subtitles",
+"Portrait and landscape orientation is preserved, so vertical phone videos remain vertical. The main audio track is copied, or re-encoded to AAC when needed for MP4 compatibility. Multiple audio tracks and subtitle tracks found in some professional MOV files are not all carried over – only the primary video and audio track are converted – so check the output if your file has several languages."
+],
+[
+"Checklist before deleting the originals",
+[
+"Play the MP4 from start to end, or at least check the beginning, middle and end.",
+"Verify the sound is in sync with the picture.",
+"Check the resolution and length in your file manager.",
+"Keep the original MOV if it contains HDR, ProRes or metadata you may need.",
+"Back up important videos before deleting anything."
+]
+],
+[
+"Why convert in the browser instead of an app?",
+"Desktop converters such as HandBrake, VLC or ffmpeg are powerful but must be downloaded, installed and configured, and their many options can be confusing when you just want an MP4. Online converters avoid the installation but upload your video to their servers – slow for large files, with size limits on free plans and your private videos stored, at least temporarily, elsewhere. {brand} combines the advantages: nothing to install, nothing to upload, and a fast lossless path for files that only need a new container. It works on locked-down work computers, Chromebooks and phones alike."
+],
+[
+"Glossary",
+[
+"**Container:** the file format that wraps video, audio and metadata – MOV, MP4, MKV, WebM.",
+"**Codec:** the compression method inside, such as H.264, HEVC or ProRes.",
+"**Remux:** moving streams into a new container without re-encoding – fast and lossless.",
+"**Re-encode / transcode:** decoding and compressing again, allowing changes to size and codec.",
+"**HDR:** high dynamic range; brighter highlights and wider colours, used by recent iPhones.",
+"**ProRes:** Apple's professional editing codec with very large files.",
+"**Bitrate:** data per second, which determines file size."
+]
+],
+[
+"MOV to MP4 for video editors and presentations",
+"Windows video editors, older versions of PowerPoint and many online editing tools handle MP4 with H.264 more reliably than MOV, especially HEVC MOV. Converting first avoids import errors, missing audio and stuttering playback. For PowerPoint, keep the resolution at 1080p and choose 'High quality'; for web-based editors with upload limits, 'Recommended' at 1080p or 720p keeps files manageable. After editing, export your finished project as MP4 for the widest compatibility when sharing or uploading."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The file is read from your disk, decoded and re-encoded on your own device using the browser's built-in media engine (WebCodecs and Web Audio) and WebAssembly, and the result goes straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue – so family videos, interviews, voice memos, meetings and unreleased content never leave your computer or phone. Large files are not slowed down by your upload speed either: a 1 GB video starts processing instantly instead of after a ten-minute upload."
+],
+[
+"Related tools",
+[
+"[Compress Video](/compress-video/) – shrink MP4 to a target size.",
+"[MP4 to MP3](/mp4-to-mp3/) – extract the audio.",
+"[Trim Video](/trim-video/) – cut the clip.",
+"[Video to GIF](/video-to-gif/) – make a GIF.",
+"[HEIC to JPG](/heic-to-jpg/) – convert iPhone photos."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Lossless remux (no re-encode)",
+"Yes, automatic",
+"See site",
+"See site",
+"See site"
+],
+[
+"Resolution options",
+"Keep, 1080p, 720p, 480p",
+"See site",
+"See site",
+"See site"
+],
+[
+"Batch",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Explainers on page",
+"MOV vs MP4, iPhone HEVC, remux",
+"See site",
+"MOV and MP4 FAQ",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert MOV to MP4 for free?",
+"a": "Drop the MOV, keep MP4 as the format and click Convert. Download the MP4."
+},
+{
+"q": "Is quality lost?",
+"a": "Not if the MOV contains H.264 – it is copied into MP4 without re-encoding. Otherwise it is re-encoded at high quality."
+},
+{
+"q": "Is my video uploaded?",
+"a": "No. Conversion happens in your browser."
+},
+{
+"q": "Why is the MP4 the same size?",
+"a": "With a lossless remux the video data is identical; only the container changes."
+},
+{
+"q": "Can I convert iPhone HEVC videos?",
+"a": "Yes. They are re-encoded to H.264 MP4 for maximum compatibility."
+},
+{
+"q": "How large can the file be?",
+"a": "Up to about 2 GB, depending on your device's memory."
+},
+{
+"q": "Can I convert several MOV files at once?",
+"a": "Yes. Drop them together; you get a ZIP."
+},
+{
+"q": "Can I make the MP4 smaller?",
+"a": "Yes. Choose a lower quality or 720p, or use Compress Video with a target size."
+},
+{
+"q": "Does it work on Mac and iPhone?",
+"a": "Yes, in Safari 17+ and Chrome."
+},
+{
+"q": "Is MP4 better than MOV?",
+"a": "Not in quality – but MP4 plays on more devices and websites."
+}
+],
+"related": [
+"compress-video",
+"mp4-to-mp3",
+"trim-video",
+"video-to-gif",
+"heic-to-jpg"
+]
+}
+},
+"audiocut": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Audio Cutter – Trim MP3 Online Free, Waveform, Fades",
+"desc": "Cut MP3, WAV, M4A and more with a waveform. Keep or remove a section, fade in/out, volume, 0.1 s precision, MP3 up to 320 kbps or WAV. No upload.",
+"compareTitle": "{tool}: {brand} vs mp3cut.net, Clideo and VEED",
+"compareCols": [
+"mp3cut.net",
+"Clideo",
+"VEED"
+],
+"sections": [
+[
+"Cut any audio file in seconds",
+"{brand}'s Audio Cutter trims songs, podcasts, voice memos, interviews and recordings right in your browser. Drop a file, click the waveform to mark the start and end, and save just that part – or remove it and keep everything else. Add smooth fade-ins and fade-outs, adjust the volume, and download as MP3 or WAV.",
+"Your audio is not uploaded: the file is decoded and cut on your own device. That keeps private recordings private, and it means even long files – an hour-long meeting or a full DJ set – are ready to cut the moment you drop them, without waiting for an upload.",
+"There is no premium tier, no sign-up and no limit on the number of files you cut. Every feature – waveform, removing sections, fades, volume and 320 kbps MP3 – is available to everyone, on any device with a modern browser."
+],
+[
+"Features",
+[
+"**Waveform view:** see the loud and quiet parts and click to set start and end.",
+"**Keep or remove:** save the selection, or cut it out of the middle and join the rest.",
+"**Precise times:** type m:ss or m:ss.s (e.g. 1:23.4) for tenth-of-a-second accuracy.",
+"**Fade in and fade out** separately, from 0.5 to 5 seconds.",
+"**Volume** from 10% to 300%.",
+"**MP3 at 128–320 kbps** or lossless **WAV**.",
+"**Built-in player** to check the start point and the result.",
+"**Accepts** MP3, WAV, M4A, AAC, OGG, Opus, FLAC and the audio of MP4, MOV, WebM and MKV videos."
+]
+],
+[
+"How to cut an audio file",
+[
+"Drop the audio file (or a video) onto the page.",
+"Click the waveform to set the start, then click again (or Shift+click) to set the end. Or type the times.",
+"Choose 'Keep the selection' or 'Remove the selection'.",
+"Optionally set fade in/out, volume, format and quality.",
+"Click Cut, listen to the result and download."
+]
+],
+[
+"Keep vs remove: two ways to cut",
+"**Keep the selection** saves only the highlighted part – ideal for ringtones, song snippets, a quote from an interview, or a clean intro for a video. **Remove the selection** deletes the highlighted part and joins what comes before and after – ideal for cutting out a cough, an advert break, a mistake in a voice-over or a long silence in the middle of a recording. Fade-in then applies to the start of the file and fade-out to the end.",
+"Both modes show the length of the result after cutting, so you can check at a glance that you removed or kept exactly what you intended, and the built-in player lets you listen before saving."
+],
+[
+"Making a ringtone",
+"Ringtones are best kept to about 20–30 seconds. Select the chorus or the most recognisable part, add a 1-second fade-in and a 2-second fade-out, and save as MP3. Android phones accept MP3 ringtones directly: copy the file to the phone and choose it in Settings › Sound. For iPhone, which needs the M4R format, use our [Ringtone Maker](/ringtone-maker/) or import the MP3 into GarageBand and export it as a ringtone."
+],
+[
+"Choosing a format and quality",
+{
+"table": [
+[
+"Use",
+"Format",
+"Quality"
+],
+[
+"Ringtone, music snippet",
+"MP3",
+"192 kbps"
+],
+[
+"Podcast or speech",
+"MP3",
+"128 kbps"
+],
+[
+"Highest-quality music",
+"MP3",
+"320 kbps"
+],
+[
+"Further editing in a DAW",
+"WAV",
+"Lossless"
+],
+[
+"Archiving a master",
+"WAV",
+"Lossless"
+]
+]
+},
+"Cutting an MP3 and saving it as MP3 again re-encodes the audio. At 192 kbps or higher this is inaudible for almost all material. If you plan to edit the file further, save as WAV to avoid stacking compression."
+],
+[
+"Tips for clean cuts",
+[
+"Cut in quiet moments – between words or beats – to avoid clicks. The waveform shows silences as flat lines.",
+"Use a short fade (0.5 s) even when you don't want an obvious fade; it removes clicks at the cut points.",
+"Listen from a few seconds before the start point to make sure you haven't clipped the first word.",
+"For music, cut on the downbeat – the first beat of a bar – for a natural-sounding loop or ringtone.",
+"If the recording is quiet, raise the volume to 150–200%; for loud ones, 80% prevents distortion."
+]
+],
+[
+"Typical uses",
+[
+"Ringtones and notification sounds.",
+"Trimming silence and false starts from voice memos and podcasts.",
+"Extracting a quote from an interview for social media.",
+"Shortening songs for workouts, dance routines, presentations or videos.",
+"Removing adverts or interruptions from recordings.",
+"Preparing audio clips for language lessons.",
+"Cutting a song's intro for a slideshow."
+]
+],
+[
+"Supported files",
+"Any format your browser can decode works: MP3, WAV, M4A/AAC (including iPhone voice memos), OGG Vorbis, Opus (WhatsApp voice messages), FLAC, and the audio tracks of MP4, MOV, WebM and MKV videos. If a file does not open, convert it first with our audio converter, or try another browser – Chrome and Edge support the widest range of formats."
+],
+[
+"Cutting voice memos and WhatsApp audio",
+"iPhone voice memos are M4A files; WhatsApp and Telegram voice messages are usually Opus files with .opus or .ogg extensions. Both open directly. Trim the silence at the start and end, cut out off-topic parts with 'Remove the selection', raise the volume if the recording is quiet, and save as MP3 at 128 kbps – small, and playable on any device. This is also a quick way to convert a voice message into a standard MP3."
+],
+[
+"Cutting podcasts and interviews",
+"For spoken audio, look for the gaps between sentences in the waveform – they appear as thin flat sections. Cutting there makes edits inaudible. To remove several parts, cut one, download, then load the result and cut the next. Keep MP3 at 128 kbps for speech; save as WAV if you will continue editing in a multitrack editor."
+],
+[
+"Using the waveform",
+"The waveform shows the loudness of the audio over time: tall peaks are loud passages, flat lines are silence. Click anywhere to place the start and jump the player there; click again to place the end. The selected area is highlighted in blue. You can always fine-tune by typing times into the Start and End boxes, which accept minutes and seconds with decimals (e.g. 2:07.35). Press play in the player to hear where you are, and use the player's current time to refine the selection."
+],
+[
+"Glossary",
+[
+"**Waveform:** a picture of the audio's loudness over time.",
+"**Fade in / fade out:** a gradual increase or decrease of volume at the start or end.",
+"**Bitrate:** data per second in kbps; higher means better quality and larger files.",
+"**Lossless:** no information removed (WAV, FLAC); lossy formats (MP3, AAC) remove inaudible detail."
+]
+],
+[
+"Cutting audio from videos",
+"You can drop a video – MP4, MOV, WebM or MKV – straight into the Audio Cutter. Its soundtrack is decoded and shown as a waveform, and the cut part is saved as an audio file. This is the quickest way to grab a song from a concert clip, a quote from a recorded talk, or a sound effect from your own footage, without converting the whole video first. For longer extractions with batch processing and tags, use [MP4 to MP3](/mp4-to-mp3/)."
+],
+[
+"Why not use a desktop audio editor?",
+"Programs like Audacity are excellent for complex editing – multitrack mixing, noise reduction, effects – but for a quick trim they mean downloading, installing and learning an application. The Audio Cutter opens instantly in any browser, on any computer or phone, including work computers where you can't install software. And because it runs locally, it is just as private as a desktop app: your file is never sent to a server."
+],
+[
+"Volume and loudness",
+"The volume control multiplies the signal: 200% doubles the amplitude (about +6 dB), 50% halves it. Raising a quiet recording too far can cause clipping – a harsh distortion when peaks exceed the maximum level. If you hear crackling at loud moments after boosting, try a smaller increase. For consistent podcast loudness across episodes, set the volume so the loudest parts of the waveform nearly, but not completely, fill the height."
+],
+[
+"Cutting music for videos, slideshows and workouts",
+"Video editors and slideshow apps often need a soundtrack of an exact length. Select from a strong starting point – the first beat of a verse or chorus – to the length you need, add a 2–3 second fade-out so the music ends naturally, and save as MP3 at 192 kbps. For a workout or dance routine, use 'Remove the selection' to take out a slow bridge or a long intro, keeping the energy high. For background music behind speech, lower the volume to 50–70% so voices stay clear. Remember to use only music you have the rights to, especially if you publish the video online."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The file is read from your disk, decoded and re-encoded on your own device using the browser's built-in media engine (WebCodecs and Web Audio) and WebAssembly, and the result goes straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue – so family videos, interviews, voice memos, meetings and unreleased content never leave your computer or phone. Large files are not slowed down by your upload speed either: a 1 GB video starts processing instantly instead of after a ten-minute upload."
+],
+[
+"Related tools",
+[
+"[Ringtone Maker](/ringtone-maker/) – iPhone and Android ringtones.",
+"[MP4 to MP3](/mp4-to-mp3/) – audio from video.",
+"[Trim Video](/trim-video/) – cut videos.",
+"[Compress Video](/compress-video/) – smaller videos.",
+"[Video to GIF](/video-to-gif/) – GIFs from clips."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Waveform selection",
+"Yes",
+"Yes",
+"See site",
+"See site"
+],
+[
+"Remove a middle section",
+"Yes",
+"See site",
+"See site",
+"'Cut, split, rearrange'"
+],
+[
+"Fade in / out",
+"Yes (separate)",
+"See site",
+"See site",
+"See site"
+],
+[
+"Premium plan",
+"None – everything free",
+"$6/month (premium, 10 GB files)",
+"See site",
+"Basic and Pro plans"
+]
+],
+"faq": [
+{
+"q": "How do I cut an MP3 for free?",
+"a": "Drop the file, click the waveform to set start and end, click Cut and download."
+},
+{
+"q": "Is my audio uploaded?",
+"a": "No. It is cut in your browser."
+},
+{
+"q": "Can I remove a section from the middle?",
+"a": "Yes. Choose 'Remove the selection'; the parts before and after are joined."
+},
+{
+"q": "How precise can I cut?",
+"a": "To a tenth of a second or better – type times like 1:23.4."
+},
+{
+"q": "Can I add fade in and fade out?",
+"a": "Yes, separately, from 0.5 to 5 seconds."
+},
+{
+"q": "Which formats can I open?",
+"a": "MP3, WAV, M4A, AAC, OGG, Opus, FLAC and audio from MP4, MOV, WebM and MKV."
+},
+{
+"q": "Which formats can I save?",
+"a": "MP3 (128–320 kbps) or WAV."
+},
+{
+"q": "Can I make an iPhone ringtone?",
+"a": "Use Ringtone Maker for M4R; Audio Cutter saves MP3/WAV."
+},
+{
+"q": "Will cutting reduce quality?",
+"a": "MP3 output is re-encoded; at 192 kbps or more it is inaudible. WAV is lossless."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes, in current mobile browsers."
+}
+],
+"related": [
+"ringtone-maker",
+"mp4-to-mp3",
+"trim-video",
+"compress-video",
+"video-to-gif"
+]
+}
+},
+"video2gif": {
+"seo": {
+"updated": "2026-10-25",
+"title": "Video to GIF – Free, Captions, Speed, Boomerang, No Upload",
+"desc": "Turn MP4, MOV or WebM clips into GIFs in your browser. Start and length, 5–25 fps, width, speed, loop or boomerang, caption text. No watermark, free.",
+"compareTitle": "{tool}: {brand} vs Ezgif, CloudConvert and Adobe Express",
+"compareCols": [
+"Ezgif",
+"CloudConvert",
+"Adobe Express"
+],
+"sections": [
+[
+"Make a GIF from any video clip",
+"Reaction GIFs, product demos, tutorial snippets, funny moments from your phone – GIFs play automatically and loop everywhere, from chat apps to documentation and e-mail. {brand}'s Video to GIF converter turns a part of any MP4, MOV, WebM or MKV video into an animated GIF. Choose where it starts and how long it lasts, set the frame rate and width, speed it up or slow it down, make it loop forever, play once or bounce back and forth like a boomerang, and add a caption in classic meme style.",
+"It all happens in your browser, so the video is not uploaded – no waiting for a 200 MB upload, no file size cap and no watermark."
+],
+[
+"Features",
+[
+"**Start time and length** (0.5–30 seconds).",
+"**Frame rate:** 5, 10, 15, 20 or 25 fps.",
+"**Width:** 240, 320, 480, 640, 800 px or original (up to 1280).",
+"**Speed:** 0.5× slow motion, 1×, 1.5×, 2× or 4×.",
+"**Loop:** forever, play once, or boomerang (forward then backward).",
+"**Caption:** white text with a black outline, top or bottom.",
+"**Optimised palette** per frame for good colours.",
+"**Size shown** after creation, with a preview."
+]
+],
+[
+"How to convert a video to GIF",
+[
+"Drop the video onto the page.",
+"Enter the start time (e.g. 0:12) and length in seconds.",
+"Choose frame rate, width, speed and loop style.",
+"Optionally type a caption.",
+"Click Create GIF, check the preview and download."
+]
+],
+[
+"Keeping GIFs small",
+"GIF is an old format: it stores every frame as an image with up to 256 colours and compresses it relatively poorly. File size grows with width × height × number of frames. A 5-second clip at 480 px and 10 fps is usually 1–4 MB; the same clip at 800 px and 25 fps can exceed 20 MB.",
+{
+"table": [
+[
+"Use",
+"Width",
+"FPS",
+"Length"
+],
+[
+"Chat reaction",
+"320–480 px",
+"10",
+"2–4 s"
+],
+[
+"Documentation / tutorial",
+"640–800 px",
+"10–15",
+"5–15 s"
+],
+[
+"Social post",
+"480 px",
+"15",
+"3–6 s"
+],
+[
+"E-mail newsletter",
+"480–600 px",
+"10",
+"3–5 s"
+],
+[
+"Smooth motion showcase",
+"480 px",
+"20–25",
+"2–3 s"
+]
+]
+},
+"If the GIF is still too large, shorten it, reduce the width, or lower the frame rate. You can also compress it afterwards with [Compress GIF](/compress-gif/)."
+],
+[
+"Speed, loops and boomerangs",
+"Speeding a clip up (2× or 4×) lets you show a longer action – a cooking step, a drawing, a software workflow – in a short GIF. Slowing it down (0.5×) makes fast moments dramatic. Boomerang mode plays the frames forward and then backward, producing the seamless back-and-forth loop popular on social media; it works best with short clips of 1–3 seconds. 'Play once' is useful in presentations and documentation where a looping animation would distract."
+],
+[
+"Captions",
+"Type up to 80 characters and choose top or bottom. The text is drawn in bold white with a black outline so it stays readable on any background, and scales with the GIF width. Keep captions short – a few words read better in a looping animation than a sentence."
+],
+[
+"GIF or video?",
+"GIFs are universally supported and autoplay everywhere, but a short MP4 is often ten times smaller at better quality. Many social networks actually convert uploaded GIFs to video. Use GIF when you need guaranteed autoplay without controls – in e-mail, chat, GitHub READMEs, wikis and documentation. Use MP4 for longer clips, or convert back with [GIF to MP4](/gif-to-mp4/)."
+],
+[
+"Privacy",
+"Every step happens inside your browser tab. The file is read from your disk, decoded and re-encoded on your own device using the browser's built-in media engine (WebCodecs and Web Audio) and WebAssembly, and the result goes straight to your downloads folder. Nothing is uploaded, nothing is stored on a server and there is no queue – so family videos, interviews, voice memos, meetings and unreleased content never leave your computer or phone. Large files are not slowed down by your upload speed either: a 1 GB video starts processing instantly instead of after a ten-minute upload."
+],
+[
+"Related tools",
+[
+"[Compress GIF](/compress-gif/) – make GIFs smaller.",
+"[GIF to MP4](/gif-to-mp4/) – convert GIF back to video.",
+"[Trim Video](/trim-video/) – cut a clip first.",
+"[Compress Video](/compress-video/) – shrink videos.",
+"[MP4 to MP3](/mp4-to-mp3/) – extract the audio."
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account or e-mail needed",
+"Never",
+"Not for basic use",
+"Not for basic use",
+"Not for basic use"
+],
+[
+"Free usage caps",
+"None – limited only by your device",
+"See site",
+"See site",
+"See site"
+],
+[
+"Max file size",
+"Device memory only",
+"200 MB",
+"See site",
+"See site"
+],
+[
+"File retention",
+"Never uploaded",
+"Deleted 1 hour after upload",
+"See site",
+"See site"
+],
+[
+"Speed, boomerang, caption",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Watermark",
+"No",
+"No ('without watermarks')",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a GIF from a video?",
+"a": "Drop the video, set start and length, choose width and fps, and click Create GIF."
+},
+{
+"q": "Is my video uploaded?",
+"a": "No. The GIF is made in your browser."
+},
+{
+"q": "How long can the GIF be?",
+"a": "Up to 30 seconds of video per GIF."
+},
+{
+"q": "Why is my GIF so large?",
+"a": "GIF compresses poorly. Reduce width, fps or length."
+},
+{
+"q": "Can I add text?",
+"a": "Yes. Type a caption and choose top or bottom."
+},
+{
+"q": "Can I make a boomerang?",
+"a": "Yes. Choose Loop › Boomerang."
+},
+{
+"q": "Can I speed it up or slow it down?",
+"a": "Yes: 0.5× to 4×."
+},
+{
+"q": "Which videos work?",
+"a": "MP4, MOV, WebM, MKV and M4V that your browser can decode."
+},
+{
+"q": "Is there a watermark?",
+"a": "No."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari 17+ and Chrome."
+}
+],
+"related": [
+"compress-gif",
+"gif-to-mp4",
+"trim-video",
+"compress-video",
+"mp4-to-mp3"
+]
+}
+}
+}
+}

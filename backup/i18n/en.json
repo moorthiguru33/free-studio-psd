@@ -1,0 +1,733 @@
+{
+ "ui": {
+  "tagline": "Free online file tools for PDFs, images and more. Private, in your browser.",
+  "heroSub": "Merge, split, compress, convert, sign and edit PDFs. No sign-up, no limits, no watermarks — your files never leave your device.",
+  "allTools": "All PDF tools",
+  "select": "Select files",
+  "drop": "or drop files here",
+  "process": "Start",
+  "download": "Download",
+  "working": "Working…",
+  "done": "Done! Your file is ready.",
+  "error": "Something went wrong:",
+  "another": "Start over",
+  "privacy": "Files are processed locally in your browser and are never uploaded.",
+  "howTo": "How to",
+  "faq": "Frequently asked questions",
+  "related": "Other tools",
+  "language": "Language",
+  "footer": "Free online PDF tools. Processed in your browser — private by design.",
+  "ad": "Advertisement",
+  "beta": "Beta",
+  "pages": "pages",
+  "remove": "Remove",
+  "moveUp": "Up",
+  "moveDown": "Down",
+  "f1t": "Completely free",
+  "f1d": "No paywalls, no daily limits, no watermarks. Ever.",
+  "f2t": "Private by design",
+  "f2d": "Everything runs on your device. Your files are never uploaded.",
+  "f3t": "Fast & works anywhere",
+  "f3d": "Works on phones, tablets and desktops — no install needed.",
+  "o_ranges": "Page ranges (e.g. 1-3,5,8-10). Leave empty to split every page.",
+  "o_angle": "Rotation",
+  "o_position": "Position",
+  "o_start": "Start number",
+  "o_original": "Original (lossless, smallest)",
+  "o_format": "Format",
+  "o_quality": "Quality",
+  "o_scale": "Resolution",
+  "o_level": "Compression",
+  "o_lossless": "Lossless (keeps text)",
+  "o_strong": "Strong (converts pages to images)",
+  "o_password": "Password",
+  "o_password2": "Repeat password",
+  "o_mismatch": "Passwords do not match",
+  "o_page": "Page",
+  "o_text": "Text",
+  "o_size": "Font size",
+  "o_clickPlace": "Click on the page preview to place it.",
+  "o_drawSig": "Draw your signature",
+  "o_clear": "Clear",
+  "o_typeSig": "…or type your name",
+  "o_pagesize": "Page size",
+  "o_fit": "Same as image",
+  "o_margin": "Margin",
+  "o_whiteout": "White-out box",
+  "o_addText": "Add text",
+  "o_saved": "Saved size",
+  "o_mode": "Mode",
+  "cat_organize": "Organize",
+  "cat_edit": "Edit & annotate",
+  "cat_convert": "Convert",
+  "cat_optimize": "Optimize",
+  "cat_security": "Security & review",
+  "o_dragHint": "Drag pages to reorder (or use ← →). ↻ rotates, ✕ deletes, ☐ selects.",
+  "o_tapDelete": "Tap the pages you want to delete.",
+  "o_tapSelect": "Tap the pages you want to extract.",
+  "o_output": "Output",
+  "o_outKept": "All remaining pages",
+  "o_outSel": "Selected pages only",
+  "o_noPages": "No pages left",
+  "o_maxSize": "Max size per file (MB)",
+  "o_splitText": "Start a new file at pages containing",
+  "o_matchCase": "Match case",
+  "o_bmLevel": "Bookmark level",
+  "o_notFound": "Not found",
+  "o_noBookmarks": "This PDF has no bookmarks",
+  "o_perSheet": "Pages per sheet",
+  "o_border": "Draw border",
+  "o_opacity": "Opacity (%)",
+  "o_layout": "Layout",
+  "o_center": "Center",
+  "o_tile": "Tiled",
+  "o_hl": "Header left",
+  "o_hc": "Header center",
+  "o_hr": "Header right",
+  "o_fl": "Footer left",
+  "o_fc": "Footer center",
+  "o_fr": "Footer right",
+  "o_prefix": "Prefix",
+  "o_suffix": "Suffix",
+  "o_digits": "Digits",
+  "o_ct": "Top",
+  "o_cr": "Right",
+  "o_cb": "Bottom",
+  "o_cl": "Left",
+  "o_pagesOpt": "Pages (empty = all)",
+  "o_mTitle": "Title",
+  "o_mAuthor": "Author",
+  "o_mSubject": "Subject",
+  "o_mKeywords": "Keywords",
+  "o_mCreator": "Creator",
+  "o_mProducer": "Producer",
+  "o_mStrip": "Remove all metadata",
+  "o_flForms": "Form fields only (keeps text)",
+  "o_flAll": "Everything (pages become images)",
+  "o_maxAngle": "Max angle to detect (°)",
+  "o_rTerms": "Words to redact (comma separated)",
+  "o_rDraw": "…and/or drag on the preview to draw redaction boxes.",
+  "o_two": "Select two PDFs to compare.",
+  "o_paRaster": "PDF/A-2b, image-based (most compatible)",
+  "o_paKeep": "PDF/A-2b metadata, keep text (best effort)",
+  "o_minPx": "Minimum size (px)",
+  "o_noImages": "No images found",
+  "o_find": "Find",
+  "o_replace": "Replace with"
+ },
+ "home": {
+  "title": "Free Online File Tools – PDF, Image & More | {brand}",
+  "desc": "Free online file tools that run in your browser: merge, compress and convert PDFs, edit images and more – no sign-up, no limits, no watermarks.",
+  "h1": "Free online file tools that respect your privacy"
+ },
+ "commonFaq": [
+  {
+   "q": "Is {tool} really free?",
+   "a": "Yes. Every tool on {brand} is 100% free with no file limits, no sign-up and no watermarks. The site is supported by unobtrusive ads."
+  },
+  {
+   "q": "Are my files uploaded to a server?",
+   "a": "No. {brand} processes your files directly in your browser using JavaScript. Your documents never leave your device, so they stay completely private."
+  },
+  {
+   "q": "Does it work on mobile?",
+   "a": "Yes. {brand} works in any modern browser on Android, iPhone, iPad, Windows, Mac and Linux."
+  }
+ ],
+ "tools": {
+  "merge": {
+   "name": "Merge PDF",
+   "short": "Combine multiple PDFs into one document.",
+   "title": "Merge PDF Online Free – Combine PDF Files | {brand}",
+   "desc": "Combine multiple PDF files into one in seconds. Free, no limits, no watermark — merging happens in your browser so files stay private.",
+   "h1": "Merge PDF files",
+   "steps": [
+    "Select or drop the PDF files you want to combine.",
+    "Reorder them with the Up/Down buttons.",
+    "Click Start and download your merged PDF."
+   ],
+   "faq": [
+    {
+     "q": "How many PDFs can I merge?",
+     "a": "As many as your device's memory can handle — there is no artificial limit."
+    }
+   ]
+  },
+  "split": {
+   "name": "Split PDF",
+   "short": "Extract pages or split a PDF into several files.",
+   "title": "Split PDF Online Free – Extract Pages | {brand}",
+   "desc": "Split a PDF into separate pages or custom page ranges. Free and private: files are split in your browser and never uploaded.",
+   "h1": "Split PDF",
+   "steps": [
+    "Select the PDF you want to split.",
+    "Enter page ranges like 1-3,5 or leave empty to split every page.",
+    "Click Start and download the resulting PDF(s) as a ZIP."
+   ],
+   "faq": [
+    {
+     "q": "Can I extract just a few pages?",
+     "a": "Yes. Enter a single range such as 2-4 to get one PDF containing only those pages."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "Rotate PDF",
+   "short": "Rotate all pages of your PDFs.",
+   "title": "Rotate PDF Online Free – Turn PDF Pages | {brand}",
+   "desc": "Rotate PDF pages 90°, 180° or 270° and save permanently. Free, fast and private — works in your browser.",
+   "h1": "Rotate PDF",
+   "steps": [
+    "Select one or more PDF files.",
+    "Choose the rotation angle.",
+    "Click Start and download the rotated PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is the rotation permanent?",
+     "a": "Yes. The rotation is saved in the PDF so it opens correctly in every viewer."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "Add Page Numbers",
+   "short": "Number the pages of your PDF.",
+   "title": "Add Page Numbers to PDF Online Free | {brand}",
+   "desc": "Insert page numbers into a PDF with your choice of position and starting number. Free, no watermark, processed in your browser.",
+   "h1": "Add page numbers to PDF",
+   "steps": [
+    "Select your PDF.",
+    "Choose the position and starting number.",
+    "Click Start and download the numbered PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can I start from a number other than 1?",
+     "a": "Yes, set any starting number in the options."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "JPG to PDF",
+   "short": "Convert JPG, PNG or WebP images to PDF.",
+   "title": "JPG to PDF Converter Online Free – Images to PDF | {brand}",
+   "desc": "Convert JPG, PNG and WebP images to a single PDF. Adjust page size and margins. Free, unlimited and private.",
+   "h1": "Convert JPG to PDF",
+   "steps": [
+    "Select or drop your images.",
+    "Arrange the order and choose page size and margin.",
+    "Click Start and download your PDF."
+   ],
+   "faq": [
+    {
+     "q": "Which image formats are supported?",
+     "a": "JPG, PNG and WebP images are supported."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "PDF to JPG",
+   "short": "Turn every PDF page into a JPG or PNG image.",
+   "title": "PDF to JPG Converter Online Free – High Quality | {brand}",
+   "desc": "Convert each page of a PDF into high-quality JPG or PNG images. Free, no limits, done in your browser.",
+   "h1": "Convert PDF to JPG",
+   "steps": [
+    "Select your PDF.",
+    "Choose the image format and resolution.",
+    "Click Start and download the images as a ZIP."
+   ],
+   "faq": [
+    {
+     "q": "What resolution are the images?",
+     "a": "You can choose from standard (1x) up to high resolution (3x, about 216 DPI)."
+    }
+   ]
+  },
+  "compress": {
+   "name": "Compress PDF",
+   "short": "Reduce the file size of your PDF.",
+   "title": "Compress PDF Online Free – Reduce PDF Size | {brand}",
+   "desc": "Reduce PDF file size for email and uploads. Choose lossless optimization or strong compression. Free and private.",
+   "h1": "Compress PDF",
+   "steps": [
+    "Select the PDF you want to shrink.",
+    "Choose lossless or strong compression.",
+    "Click Start and download the smaller PDF."
+   ],
+   "faq": [
+    {
+     "q": "What is the difference between the modes?",
+     "a": "Lossless keeps text selectable and restructures the file. Strong turns each page into a compressed image for much smaller scanned or image-heavy files, but text is no longer selectable."
+    }
+   ]
+  },
+  "protect": {
+   "name": "Protect PDF",
+   "short": "Add a password to your PDF.",
+   "title": "Protect PDF with Password Online Free – Encrypt PDF | {brand}",
+   "desc": "Encrypt a PDF with a password using AES-256. Free and secure — your file and password never leave your device.",
+   "h1": "Protect PDF with a password",
+   "steps": [
+    "Select your PDF.",
+    "Enter and confirm a password.",
+    "Click Start and download the encrypted PDF."
+   ],
+   "faq": [
+    {
+     "q": "How strong is the encryption?",
+     "a": "Files are encrypted with AES-256, the strongest standard PDF encryption."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "Unlock PDF",
+   "short": "Remove the password from a PDF you own.",
+   "title": "Unlock PDF Online Free – Remove PDF Password | {brand}",
+   "desc": "Remove password protection from a PDF when you know the password. Free and private, processed in your browser.",
+   "h1": "Unlock PDF",
+   "steps": [
+    "Select the protected PDF.",
+    "Enter its password.",
+    "Click Start and download the unlocked PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can you crack an unknown password?",
+     "a": "No. You must know the password. Only unlock files you are authorized to access."
+    }
+   ]
+  },
+  "sign": {
+   "name": "Sign PDF",
+   "short": "Draw or type your signature and place it on a PDF.",
+   "title": "Sign PDF Online Free – Add Signature to PDF | {brand}",
+   "desc": "Draw or type your signature and add it to any page of a PDF. Free, no account, and your document stays on your device.",
+   "h1": "Sign PDF",
+   "steps": [
+    "Select your PDF.",
+    "Draw or type your signature and choose a page.",
+    "Click the preview to place it, then Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Is this a legally binding signature?",
+     "a": "It adds a visual electronic signature, which is accepted in many situations. For certificate-based digital signatures, check your local requirements."
+    }
+   ]
+  },
+  "edit": {
+   "name": "Edit PDF",
+   "short": "Add text and white-out boxes to a PDF.",
+   "title": "Edit PDF Online Free – Add Text to PDF | {brand}",
+   "desc": "Add text and white-out areas to a PDF right in your browser. Free, no watermark, no upload.",
+   "h1": "Edit PDF",
+   "steps": [
+    "Select your PDF.",
+    "Choose Add text or White-out and click the preview to place items.",
+    "Click Start and download the edited PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can I edit existing text?",
+     "a": "You can cover existing text with a white-out box and type new text on top. Direct text editing is coming soon."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "PDF to Word",
+   "short": "Convert PDF text to an editable Word document.",
+   "title": "PDF to Word Converter Online Free – PDF to DOCX | {brand}",
+   "desc": "Convert PDF to an editable Word (DOCX) file. Free, no limits, processed privately in your browser.",
+   "h1": "Convert PDF to Word",
+   "steps": [
+    "Select your PDF.",
+    "Click Start.",
+    "Download your editable DOCX file."
+   ],
+   "faq": [
+    {
+     "q": "Is the layout preserved?",
+     "a": "This beta extracts text paragraphs page by page. Complex layouts, tables and images are not yet preserved. Scanned PDFs need OCR (coming soon)."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Word to PDF",
+   "short": "Convert DOCX documents to PDF.",
+   "title": "Word to PDF Converter Online Free – DOCX to PDF | {brand}",
+   "desc": "Convert Word DOCX documents to PDF in your browser. Free, no upload, no watermark.",
+   "h1": "Convert Word to PDF",
+   "steps": [
+    "Select your DOCX file.",
+    "Click Start.",
+    "Download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is formatting preserved?",
+     "a": "This beta keeps text, headings, bold/italic and lists (Latin-script text for now). Images and complex layouts are coming soon."
+    }
+   ]
+  },
+  "organize": {
+   "name": "Organize PDF",
+   "short": "Reorder, rotate, delete and extract pages visually.",
+   "title": "Organize PDF Pages Online Free – Reorder, Rotate & Delete | {brand}",
+   "desc": "Rearrange PDF pages with drag and drop, rotate or delete pages and extract selections. Free, private, no upload.",
+   "h1": "Organize PDF pages",
+   "steps": [
+    "Select your PDF to see page thumbnails.",
+    "Drag pages to reorder; rotate, delete or select pages.",
+    "Click Start and download the new PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can I reorder pages on my phone?",
+     "a": "Yes. Use the ← and → buttons on each thumbnail; drag and drop works on desktop."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "Delete PDF Pages",
+   "short": "Remove unwanted pages from a PDF.",
+   "title": "Delete Pages from PDF Online Free | {brand}",
+   "desc": "Remove pages from a PDF by tapping their thumbnails. Free, no watermark, processed in your browser.",
+   "h1": "Delete pages from PDF",
+   "steps": [
+    "Select your PDF.",
+    "Tap the pages you want to remove.",
+    "Click Start and download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is the original file changed?",
+     "a": "No. A new PDF is created on your device; the original stays untouched."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "Extract PDF Pages",
+   "short": "Pick pages and save them as a new PDF.",
+   "title": "Extract Pages from PDF Online Free | {brand}",
+   "desc": "Select pages visually and save them as a new PDF. Free, unlimited and private.",
+   "h1": "Extract pages from PDF",
+   "steps": [
+    "Select your PDF.",
+    "Tap the pages you want to keep.",
+    "Click Start and download the new PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can I change the order of extracted pages?",
+     "a": "Yes. Drag them (or use ← →) before clicking Start."
+    }
+   ]
+  },
+  "splitbm": {
+   "name": "Split PDF by Bookmarks",
+   "short": "Create one PDF per chapter using bookmarks.",
+   "title": "Split PDF by Bookmarks Online Free – By Chapter | {brand}",
+   "desc": "Split a PDF into chapters using its bookmarks (outline). Free and private, done in your browser.",
+   "h1": "Split PDF by bookmarks",
+   "steps": [
+    "Select a PDF that has bookmarks.",
+    "Choose the bookmark level.",
+    "Click Start and download the ZIP of chapters."
+   ],
+   "faq": [
+    {
+     "q": "What if my PDF has no bookmarks?",
+     "a": "Use Split PDF by text or by page ranges instead."
+    }
+   ]
+  },
+  "splitsize": {
+   "name": "Split PDF by Size",
+   "short": "Split a large PDF into files under a size limit.",
+   "title": "Split PDF by File Size Online Free | {brand}",
+   "desc": "Split a large PDF into smaller files that fit email or upload limits. Free, no upload.",
+   "h1": "Split PDF by file size",
+   "steps": [
+    "Select your PDF.",
+    "Enter the maximum size per file in MB.",
+    "Click Start and download the parts."
+   ],
+   "faq": [
+    {
+     "q": "What if a single page is bigger than the limit?",
+     "a": "That page is saved on its own; try Compress PDF first."
+    }
+   ]
+  },
+  "splittext": {
+   "name": "Split PDF by Text",
+   "short": "Start a new file wherever a word appears.",
+   "title": "Split PDF by Text Online Free | {brand}",
+   "desc": "Split a PDF at every page containing a word or phrase, such as Invoice or Chapter. Free and private.",
+   "h1": "Split PDF by text",
+   "steps": [
+    "Select your PDF.",
+    "Enter the text that marks the start of each part.",
+    "Click Start and download the parts."
+   ],
+   "faq": [
+    {
+     "q": "Does it work on scanned PDFs?",
+     "a": "Only if the PDF contains a text layer. OCR is coming soon."
+    }
+   ]
+  },
+  "nup": {
+   "name": "N-up PDF",
+   "short": "Print 2, 4, 6 or 9 pages per sheet.",
+   "title": "N-up PDF Online Free – Multiple Pages per Sheet | {brand}",
+   "desc": "Combine 2, 4, 6 or 9 PDF pages onto each sheet to save paper. Free, vector quality, private.",
+   "h1": "N-up: multiple pages per sheet",
+   "steps": [
+    "Select your PDF.",
+    "Choose pages per sheet and paper size.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Does it lose quality?",
+     "a": "No. Pages are embedded as vectors, so text stays sharp."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "Add Watermark",
+   "short": "Stamp text over your PDF pages.",
+   "title": "Add Watermark to PDF Online Free | {brand}",
+   "desc": "Add a text watermark in any language to PDF pages with custom size, opacity, angle and color. Free, no upload.",
+   "h1": "Add a watermark to PDF",
+   "steps": [
+    "Select your PDF files.",
+    "Type the watermark and set style and layout.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Can I use non-English text?",
+     "a": "Yes. Arabic, Hebrew, Hindi, Tamil, Thai, Cyrillic, Greek and more are supported via Noto fonts."
+    }
+   ]
+  },
+  "headerfooter": {
+   "name": "Header & Footer",
+   "short": "Add headers, footers, dates and page numbers.",
+   "title": "Add Header and Footer to PDF Online Free | {brand}",
+   "desc": "Add custom headers and footers with page numbers, dates and file names to a PDF. Free and private.",
+   "h1": "Add header and footer to PDF",
+   "steps": [
+    "Select your PDF files.",
+    "Type text in any of the six positions; use {page}, {total}, {date}, {file}.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Which placeholders are available?",
+     "a": "{page}, {total}, {date} and {file}."
+    }
+   ]
+  },
+  "bates": {
+   "name": "Bates Numbering",
+   "short": "Add legal Bates numbers across documents.",
+   "title": "Bates Numbering PDF Online Free | {brand}",
+   "desc": "Apply sequential Bates numbers with prefix, suffix and digits across multiple PDFs. Free, private, no upload.",
+   "h1": "Bates numbering for PDF",
+   "steps": [
+    "Select one or more PDFs in order.",
+    "Set prefix, start number, digits and position.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Does numbering continue across files?",
+     "a": "Yes. Numbers continue from one file to the next in the order shown."
+    }
+   ]
+  },
+  "crop": {
+   "name": "Crop PDF",
+   "short": "Trim margins from PDF pages.",
+   "title": "Crop PDF Online Free – Trim PDF Margins | {brand}",
+   "desc": "Crop PDF page margins by exact millimetres on all or selected pages. Free and private.",
+   "h1": "Crop PDF",
+   "steps": [
+    "Select your PDF.",
+    "Enter how much to trim from each side.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Is cropped content deleted?",
+     "a": "Cropping hides content outside the new page box. Use Redact PDF to remove sensitive content permanently."
+    }
+   ]
+  },
+  "findreplace": {
+   "name": "Find & Replace in PDF",
+   "short": "Replace words in a PDF (best effort).",
+   "title": "Find and Replace Text in PDF Online Free | {brand}",
+   "desc": "Find a word in a PDF and replace it with new text, right in your browser. Free, no upload.",
+   "h1": "Find and replace text in PDF",
+   "steps": [
+    "Select your PDF.",
+    "Enter the text to find and its replacement.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Is the old text removed completely?",
+     "a": "This beta covers the old text visually and writes the new text on top. Use Redact PDF if the old text must be removed permanently."
+    }
+   ]
+  },
+  "metadata": {
+   "name": "Edit PDF Metadata",
+   "short": "Change title, author, subject and keywords.",
+   "title": "Edit PDF Metadata Online Free – Title, Author | {brand}",
+   "desc": "View and edit PDF metadata such as title, author, subject and keywords, or remove it entirely. Free and private.",
+   "h1": "Edit PDF metadata",
+   "steps": [
+    "Select your PDF.",
+    "Edit the fields or choose to remove all metadata.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Why edit metadata?",
+     "a": "Correct titles improve search and sharing; removing metadata protects privacy."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "Flatten PDF",
+   "short": "Make form fields and annotations permanent.",
+   "title": "Flatten PDF Online Free – Flatten Forms | {brand}",
+   "desc": "Flatten fillable PDF forms so values can no longer be edited, or flatten everything into images. Free, private.",
+   "h1": "Flatten PDF",
+   "steps": [
+    "Select your PDF.",
+    "Choose forms only or everything.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Will text remain searchable?",
+     "a": "Yes with Form fields only. Everything mode turns pages into images."
+    }
+   ]
+  },
+  "redact": {
+   "name": "Redact PDF",
+   "short": "Permanently remove sensitive text and areas.",
+   "title": "Redact PDF Online Free – Permanently Remove Text | {brand}",
+   "desc": "Permanently redact words and areas in a PDF. Redacted pages are rebuilt so hidden text cannot be recovered. Free, private.",
+   "h1": "Redact PDF",
+   "steps": [
+    "Select your PDF.",
+    "Enter words to redact and/or draw boxes on the preview.",
+    "Click Start and download the redacted PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is the redaction permanent?",
+     "a": "Yes. Every page with a redaction is rebuilt as an image with the areas blacked out, so the underlying text is gone. Other pages are kept unchanged."
+    }
+   ]
+  },
+  "compare": {
+   "name": "Compare PDF",
+   "short": "See text differences between two PDFs side by side.",
+   "title": "Compare PDF Files Online Free – Side-by-Side Diff | {brand}",
+   "desc": "Compare two PDF documents and highlight added, removed and changed text side by side. Free, private, no upload.",
+   "h1": "Compare two PDFs",
+   "steps": [
+    "Select the two PDF versions.",
+    "Click Start.",
+    "Review the highlighted differences or download the report."
+   ],
+   "faq": [
+    {
+     "q": "Does it compare images?",
+     "a": "This version compares text. Visual comparison is planned."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "Grayscale PDF",
+   "short": "Convert a color PDF to black and white.",
+   "title": "Convert PDF to Grayscale Online Free | {brand}",
+   "desc": "Turn a color PDF into grayscale to save ink when printing. Free and private, done in your browser.",
+   "h1": "Convert PDF to grayscale",
+   "steps": [
+    "Select your PDF.",
+    "Choose a quality level.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Is text still selectable?",
+     "a": "Pages are converted to grayscale images, so text is not selectable afterwards."
+    }
+   ]
+  },
+  "deskew": {
+   "name": "Deskew PDF",
+   "short": "Straighten crooked scanned pages automatically.",
+   "title": "Deskew PDF Online Free – Straighten Scans | {brand}",
+   "desc": "Automatically detect and fix tilted scanned pages in a PDF. Free, private, processed in your browser.",
+   "h1": "Deskew scanned PDF",
+   "steps": [
+    "Select your scanned PDF.",
+    "Optionally set the maximum angle.",
+    "Click Start and download the straightened PDF."
+   ],
+   "faq": [
+    {
+     "q": "Are straight pages changed?",
+     "a": "No. Pages that are already straight are kept exactly as they are."
+    }
+   ]
+  },
+  "pdfa": {
+   "name": "PDF to PDF/A",
+   "short": "Convert PDF to PDF/A-2b for archiving.",
+   "title": "Convert PDF to PDF/A Online Free | {brand}",
+   "desc": "Convert PDF to PDF/A-2b for long-term archiving with an embedded sRGB color profile and XMP metadata. Free, private.",
+   "h1": "Convert PDF to PDF/A",
+   "steps": [
+    "Select your PDF.",
+    "Choose image-based (most compatible) or keep text.",
+    "Click Start and download."
+   ],
+   "faq": [
+    {
+     "q": "Is the result validated?",
+     "a": "Image-based mode is designed to meet PDF/A-2b. Keep-text mode is best effort: fonts that are not embedded can fail validation. Check with a validator such as veraPDF if compliance is critical."
+    }
+   ]
+  },
+  "extractimages": {
+   "name": "Extract Images from PDF",
+   "short": "Save every embedded image as PNG or JPG.",
+   "title": "Extract Images from PDF Online Free | {brand}",
+   "desc": "Extract all embedded images from a PDF as PNG or JPG files. Free, unlimited, private.",
+   "h1": "Extract images from PDF",
+   "steps": [
+    "Select your PDF.",
+    "Choose the format and minimum size.",
+    "Click Start and download the ZIP."
+   ],
+   "faq": [
+    {
+     "q": "Is this different from PDF to JPG?",
+     "a": "Yes. It saves the original embedded pictures, not screenshots of whole pages."
+    }
+   ]
+  }
+ }
+}

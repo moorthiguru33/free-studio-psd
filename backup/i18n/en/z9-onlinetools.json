@@ -1,0 +1,148 @@
+{
+  "tools": {
+    "reversetext": {
+      "name": "Reverse Text",
+      "short": "Reverse text characters, words, or lines online.",
+      "title": "Reverse Text Online Free | {brand}",
+      "desc": "Reverse text characters, words, or lines online free in your browser. Flip backwards text instantly with one click and zero server uploads.",
+      "h1": "Reverse Text Online",
+      "steps": ["Upload or paste your text content.", "Select reverse mode (characters, words, or lines).", "Copy or download your reversed text instantly."],
+      "faq": [{"q": "Can I reverse text line-by-line?", "a": "Yes! You can choose to reverse character order, word order, or flip lines upside down."}]
+    },
+    "text2hex": {
+      "name": "Text to Hex",
+      "short": "Convert plain text strings to hexadecimal notation.",
+      "title": "Text to Hex Converter Online | {brand}",
+      "desc": "Convert plain text ASCII strings to hexadecimal notation online free. Customizable byte spacing, prefix (0x), and colon delimiters.",
+      "h1": "Convert Text to Hexadecimal",
+      "steps": ["Enter or paste your text string.", "Select delimiter format (spaces, colons, or 0x prefixes).", "Copy your hexadecimal byte string."],
+      "faq": [{"q": "Does this support UTF-8 characters?", "a": "Yes! Text is encoded into standard UTF-8 byte sequences in hex representation."}]
+    },
+    "hex2text": {
+      "name": "Hex to Text",
+      "short": "Decode hexadecimal byte strings to readable text.",
+      "title": "Hex to Text Converter Online | {brand}",
+      "desc": "Convert hexadecimal bytes into readable plain text online free. Decode hex strings with or without spaces, 0x prefixes, and colons instantly.",
+      "h1": "Convert Hexadecimal to Text",
+      "steps": ["Paste your hexadecimal string.", "Our decoder strips prefixes and validates byte sequences.", "Read and download your decoded plain text."],
+      "faq": [{"q": "Can it decode hex with 0x prefixes and spaces?", "a": "Yes! The parser automatically cleans prefixes, spaces, and colons before decoding."}]
+    },
+    "findreplacetext": {
+      "name": "Find and Replace Text",
+      "short": "Find and replace words, phrases, and regex patterns.",
+      "title": "Find and Replace Text Online | {brand}",
+      "desc": "Find and replace words, phrases, and patterns in text online free. Supports case-sensitive matching and regular expressions (RegEx) instantly.",
+      "h1": "Find and Replace Text Online",
+      "steps": ["Paste or upload your text document.", "Enter the search term and replacement string.", "Click process to replace all occurrences instantly."],
+      "faq": [{"q": "Can I use regular expressions (RegEx)?", "a": "Yes! Check the 'Use Regular Expression' box to use regex patterns like \\d+ or \\w+."}]
+    },
+    "extractemails": {
+      "name": "Extract Emails from Text",
+      "short": "Extract all email addresses from text and documents.",
+      "title": "Extract Emails from Text Free | {brand}",
+      "desc": "Extract all email addresses from text, code, or documents online free. Automatically deduplicates and sorts email lists with instant copy.",
+      "h1": "Extract Emails from Text Online",
+      "steps": ["Paste any block of text, code, or document content.", "Our regex parser identifies all RFC-compliant email addresses.", "Copy or download your cleaned email list."],
+      "faq": [{"q": "Does it remove duplicate email addresses?", "a": "Yes! Duplicate emails are automatically deduplicated and can be sorted alphabetically."}]
+    },
+    "extracturls": {
+      "name": "Extract URLs and Links",
+      "short": "Extract all web links and URLs from text or HTML.",
+      "title": "Extract URLs and Links Online | {brand}",
+      "desc": "Extract all web URLs, HTTP/HTTPS links, and domains from text or HTML documents online free. Clean, deduplicate, and export link lists.",
+      "h1": "Extract URLs from Text Online",
+      "steps": ["Paste your text, HTML, or raw web page content.", "All HTTP and HTTPS web addresses are extracted.", "Copy or download your extracted URL list."],
+      "faq": [{"q": "Does it strip trailing punctuation from links?", "a": "Yes! Commas, periods, and trailing brackets are stripped to ensure clean URLs."}]
+    },
+    "prefixsuffix": {
+      "name": "Add Prefix and Suffix",
+      "short": "Add custom prefixes and suffixes to each line.",
+      "title": "Add Prefix and Suffix to Lines | {brand}",
+      "desc": "Add custom prefixes and suffixes to each line of text or list online free. Fast batch text formatting with options to skip blank lines.",
+      "h1": "Add Prefix and Suffix to Lines",
+      "steps": ["Paste your list or multi-line text.", "Type the desired prefix and suffix characters.", "Download your formatted multi-line text."],
+      "faq": [{"q": "Can I skip empty lines?", "a": "Yes! Check the 'Skip empty lines' option to leave blank rows untouched."}]
+    },
+    "repeater": {
+      "name": "Text Repeater",
+      "short": "Repeat any word, text, or sentence multiple times.",
+      "title": "Text Repeater Online Free | {brand}",
+      "desc": "Repeat any word, text, or sentence up to 10,000 times online free. Choose line breaks, spaces, or commas as delimiters for instant repetition.",
+      "h1": "Text Repeater Online",
+      "steps": ["Type the text you want to duplicate.", "Set repeat count and separator (newline, space, comma).", "Copy or download your multiplied text."],
+      "faq": [{"q": "What is the maximum repeat count?", "a": "You can repeat strings up to 10,000 times in your browser in milliseconds."}]
+    },
+    "shuffle": {
+      "name": "Shuffle List",
+      "short": "Randomize and shuffle lines of text or list items.",
+      "title": "Shuffle List Online Free | {brand}",
+      "desc": "Randomize and shuffle lines of text, names, and list items online free. Unbiased Fisher-Yates algorithm runs 100% locally in your browser.",
+      "h1": "Shuffle List Online",
+      "steps": ["Paste your list of names, items, or text lines.", "Our engine randomizes line positions using Fisher-Yates.", "Copy or download your randomized list."],
+      "faq": [{"q": "Is the random shuffle truly unbiased?", "a": "Yes! It uses the mathematically proven Fisher-Yates shuffle algorithm."}]
+    },
+    "filterlines": {
+      "name": "Filter Lines by Keyword",
+      "short": "Filter lines containing or excluding specific terms.",
+      "title": "Filter Lines by Keyword Online | {brand}",
+      "desc": "Filter lines of text containing or excluding specific keywords online free. Fast text filtering with case-sensitive options and instant export.",
+      "h1": "Filter Lines by Keyword Online",
+      "steps": ["Upload or paste your multi-line document or log file.", "Enter your filter term and choose keep or remove.", "Download your filtered text file."],
+      "faq": [{"q": "Can I remove lines matching a word?", "a": "Yes! Switch the filter action to 'Remove lines containing term' to strip matching rows."}]
+    },
+    "rmemptylines": {
+      "name": "Remove Empty Lines",
+      "short": "Remove empty lines and blank spaces from text online.",
+      "title": "Remove Empty Lines Online Free | {brand}",
+      "desc": "Remove empty lines, blank rows, and whitespace lines from text documents online free. Clean up lists, code, and logs instantly in your browser.",
+      "h1": "Remove Empty Lines Online",
+      "steps": ["Upload or paste your text or list document.", "Choose whether to trim whitespace on non-empty lines.", "Download your cleaned text without empty lines."],
+      "faq": [{"q": "Does this remove lines with only spaces?", "a": "Yes! Lines containing spaces, tabs, and line breaks are fully stripped."}]
+    },
+    "sumavg": {
+      "name": "Sum & Average Calculator",
+      "short": "Calculate sum, mean, median, and metrics for numbers.",
+      "title": "Sum & Average Calculator Online | {brand}",
+      "desc": "Calculate the sum, average (mean), median, min, max, and count of a list of numbers online free. Instant mathematical calculation in your browser.",
+      "h1": "Sum & Average Calculator Online",
+      "steps": ["Enter or paste numbers separated by commas, spaces, or lines.", "Our calculator computes sum, mean, median, and range.", "Review metrics or download calculation summary."],
+      "faq": [{"q": "Does this work with decimal numbers and negative numbers?", "a": "Yes! Negative numbers, decimals, and scientific notation are fully supported."}]
+    },
+    "changedelimiter": {
+      "name": "Change CSV Delimiter",
+      "short": "Convert CSV delimiters between commas, tabs, and semicolons.",
+      "title": "Change CSV Delimiter Online | {brand}",
+      "desc": "Convert CSV delimiters between commas, semicolons, tabs, and pipes online free. Preserves RFC 4180 quotes, multiline cells, and escapes.",
+      "h1": "Change CSV Delimiter Online",
+      "steps": ["Upload your CSV or delimited text file.", "Select your source delimiter and target delimiter.", "Download your re-delimited spreadsheet file."],
+      "faq": [{"q": "Are fields containing the new delimiter quoted?", "a": "Yes! Smart quoting ensures fields containing delimiters or quotes are safely escaped."}]
+    },
+    "pixelateimg": {
+      "name": "Pixelate Image",
+      "short": "Pixelate photos and create mosaic censor effects.",
+      "title": "Pixelate Image Online Free | {brand}",
+      "desc": "Pixelate photos and create mosaic censor effects online free in your browser. Adjustable block size for face blur and privacy redaction.",
+      "h1": "Pixelate Image Online Free",
+      "steps": ["Upload any photo (JPG, PNG, WEBP).", "Adjust pixel block size slider.", "Download your pixelated image."],
+      "faq": [{"q": "Can I adjust the pixelation intensity?", "a": "Yes! Adjust the block size from subtle 4px blocks up to heavy 50px mosaic blocks."}]
+    },
+    "grayscaleimg": {
+      "name": "Grayscale Image",
+      "short": "Convert color photos to black & white grayscale.",
+      "title": "Grayscale Image Converter Free | {brand}",
+      "desc": "Convert color photos into high-contrast grayscale and black & white images online free. Studio-quality luminance processing in your browser.",
+      "h1": "Convert Image to Grayscale Online",
+      "steps": ["Upload your color image.", "Our canvas engine applies ITU-R luminance desaturation.", "Download your high-contrast black & white image."],
+      "faq": [{"q": "Is image resolution preserved?", "a": "Yes! Grayscale conversion preserves 100% of the original image width and height."}]
+    },
+    "colortrans": {
+      "name": "Color to Transparent",
+      "short": "Make a specific background color transparent.",
+      "title": "Make Image Color Transparent | {brand}",
+      "desc": "Make any solid background color transparent online free. Pick a color to erase with adjustable tolerance and download transparent PNGs instantly.",
+      "h1": "Make Image Color Transparent",
+      "steps": ["Upload an image with a solid color background.", "Pick the target color and set match tolerance.", "Download your transparent PNG image."],
+      "faq": [{"q": "What image format is produced?", "a": "Transparent results are exported as PNG files to support full alpha transparency."}]
+    }
+  }
+}

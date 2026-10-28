@@ -1,0 +1,284 @@
+{
+ "ui": {
+  "o_ucat": "Category",
+  "o_value": "Value",
+  "o_from": "From",
+  "o_to": "To",
+  "o_swap": "Swap",
+  "o_enterValue": "Enter a value",
+  "u_length": "Length",
+  "u_mass": "Weight / mass",
+  "u_temp": "Temperature",
+  "u_area": "Area",
+  "u_volume": "Volume",
+  "u_speed": "Speed",
+  "u_time": "Time",
+  "u_data": "Data storage",
+  "u_pressure": "Pressure",
+  "u_energy": "Energy",
+  "u_number": "Numbers (lakh, crore, million)",
+  "o_tzWhen": "Date & time",
+  "o_tzFrom": "In time zone",
+  "o_tzTo": "Convert to",
+  "o_tzNow": "Now"
+ },
+ "tools": {
+  "units": {
+   "name": "Unit Converter",
+   "short": "Length, weight, temperature, area and more.",
+   "title": "Unit Converter – Length, Weight, Temperature, Area & More | {brand}",
+   "desc": "Free instant unit converter: length, weight, temperature, area (acre, cent, hectare), volume, speed, data, pressure, energy and lakh/crore. Works offline.",
+   "h1": "Unit Converter",
+   "steps": [
+    "Pick a category.",
+    "Type a value and choose units.",
+    "See every conversion instantly."
+   ],
+   "faq": [
+    {
+     "q": "How accurate is it?",
+     "a": "Exact international definitions (e.g. 1 in = 2.54 cm, 1 lb = 0.45359237 kg), shown to 10 significant digits."
+    }
+   ]
+  },
+  "ulength": {
+   "name": "Length Converter",
+   "short": "m, km, cm, ft, in, miles.",
+   "title": "Length Converter – Meters, Feet, Inches, Km, Miles | {brand}",
+   "desc": "Convert meters, kilometres, centimetres, feet, inches, yards and miles instantly.",
+   "h1": "Length Converter",
+   "steps": [
+    "Type a length.",
+    "Choose the units.",
+    "Read the result."
+   ],
+   "faq": []
+  },
+  "umass": {
+   "name": "Weight Converter",
+   "short": "kg, g, lb, oz, tola.",
+   "title": "Weight Converter – Kg, Pounds, Grams, Ounces, Tola | {brand}",
+   "desc": "Convert kg to lbs, grams, ounces, stone, tola and quintal instantly.",
+   "h1": "Weight Converter",
+   "steps": [
+    "Type a weight.",
+    "Choose the units.",
+    "Read the result."
+   ],
+   "faq": []
+  },
+  "utemp": {
+   "name": "Temperature Converter",
+   "short": "Celsius, Fahrenheit, Kelvin.",
+   "title": "Temperature Converter – Celsius, Fahrenheit, Kelvin | {brand}",
+   "desc": "Convert °C, °F and K instantly with exact formulas.",
+   "h1": "Temperature Converter",
+   "steps": [
+    "Type a temperature.",
+    "Choose the units.",
+    "Read the result."
+   ],
+   "faq": []
+  },
+  "uarea": {
+   "name": "Area Converter",
+   "short": "Acre, cent, hectare, sq ft, ground.",
+   "title": "Area Converter – Acre, Cent, Hectare, Sq Ft, Ground | {brand}",
+   "desc": "Convert land area between acres, cents, hectares, square feet, square metres and ground.",
+   "h1": "Area Converter",
+   "steps": [
+    "Type an area.",
+    "Choose the units.",
+    "Read the result."
+   ],
+   "faq": [
+    {
+     "q": "What is a cent or a ground?",
+     "a": "1 cent = 1/100 acre = 435.6 sq ft. 1 ground (Tamil Nadu) = 2400 sq ft."
+    }
+   ]
+  },
+  "udata": {
+   "name": "Data Storage Converter",
+   "short": "KB, MB, GB, TB, GiB.",
+   "title": "Data Storage Converter – KB, MB, GB, TB, MiB, GiB | {brand}",
+   "desc": "Convert bytes, KB, MB, GB, TB and binary MiB/GiB, plus Mbit/Gbit.",
+   "h1": "Data Storage Converter",
+   "steps": [
+    "Type a size.",
+    "Choose the units.",
+    "Read the result."
+   ],
+   "faq": []
+  },
+  "cm2in": {
+   "name": "CM to Inches",
+   "short": "Convert centimetres to inches.",
+   "title": "CM to Inches Converter – Centimeters to Inches | {brand}",
+   "desc": "Convert cm to inches instantly (1 in = 2.54 cm), with a full table of other lengths.",
+   "h1": "Convert CM to Inches",
+   "steps": [
+    "Type centimetres.",
+    "See inches.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "kg2lb": {
+   "name": "KG to LBS",
+   "short": "Convert kilograms to pounds.",
+   "title": "KG to LBS Converter – Kilograms to Pounds | {brand}",
+   "desc": "Convert kg to lbs instantly (1 kg = 2.20462 lb).",
+   "h1": "Convert KG to LBS",
+   "steps": [
+    "Type kilograms.",
+    "See pounds.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "c2f": {
+   "name": "Celsius to Fahrenheit",
+   "short": "Convert °C to °F.",
+   "title": "Celsius to Fahrenheit Converter – °C to °F | {brand}",
+   "desc": "Convert Celsius to Fahrenheit instantly: °F = °C × 9/5 + 32.",
+   "h1": "Convert Celsius to Fahrenheit",
+   "steps": [
+    "Type °C.",
+    "See °F.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "lakh2m": {
+   "name": "Lakh to Million",
+   "short": "Lakh, crore ↔ million, billion.",
+   "title": "Lakh to Million Converter – Crore to Billion | {brand}",
+   "desc": "Convert lakh and crore to million and billion (1 million = 10 lakh, 1 crore = 10 million).",
+   "h1": "Convert Lakh to Million",
+   "steps": [
+    "Type a number.",
+    "Choose units.",
+    "Read the result."
+   ],
+   "faq": []
+  },
+  "timezone": {
+   "name": "Time Zone Converter",
+   "short": "Compare times across the world.",
+   "title": "Time Zone Converter – IST, EST, PST, GMT, UTC | {brand}",
+   "desc": "Convert a date and time between any time zones, with daylight saving handled automatically.",
+   "h1": "Time Zone Converter",
+   "steps": [
+    "Pick a date and time.",
+    "Choose the source zone.",
+    "See it in up to 3 other zones."
+   ],
+   "faq": []
+  },
+  "ist2est": {
+   "name": "IST to EST",
+   "short": "India time to US Eastern.",
+   "title": "IST to EST Converter – India to New York Time | {brand}",
+   "desc": "Convert India Standard Time to US Eastern Time (EST/EDT) with daylight saving.",
+   "h1": "Convert IST to EST",
+   "steps": [
+    "Pick a date and time in IST.",
+    "See New York time.",
+    "Download if needed."
+   ],
+   "faq": []
+  },
+  "ist2pst": {
+   "name": "IST to PST",
+   "short": "India time to US Pacific.",
+   "title": "IST to PST Converter – India to California Time | {brand}",
+   "desc": "Convert India Standard Time to US Pacific Time (PST/PDT).",
+   "h1": "Convert IST to PST",
+   "steps": [
+    "Pick a date and time in IST.",
+    "See Pacific time.",
+    "Download if needed."
+   ],
+   "faq": []
+  },
+  "utc2ist": {
+   "name": "UTC to IST",
+   "short": "UTC/GMT to India time.",
+   "title": "UTC to IST Converter – GMT to India Time | {brand}",
+   "desc": "Convert UTC/GMT to India Standard Time (UTC+05:30).",
+   "h1": "Convert UTC to IST",
+   "steps": [
+    "Pick a UTC date and time.",
+    "See IST.",
+    "Download if needed."
+   ],
+   "faq": []
+  },
+  "in2cm": {
+   "name": "Inches to CM",
+   "short": "Convert inches to centimetres.",
+   "title": "Inches to CM Converter – Inches to Centimeters | {brand}",
+   "desc": "Convert inches to centimetres instantly.",
+   "h1": "Convert Inches to CM",
+   "steps": [
+    "Type the value in in.",
+    "See it in cm.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "ft2m": {
+   "name": "Feet to Meters",
+   "short": "Convert feet to metres.",
+   "title": "Feet to Meters Converter – ft to m | {brand}",
+   "desc": "Convert feet to metres instantly.",
+   "h1": "Convert Feet to Meters",
+   "steps": [
+    "Type the value in ft.",
+    "See it in m.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "lb2kg": {
+   "name": "LBS to KG",
+   "short": "Convert pounds to kilograms.",
+   "title": "LBS to KG Converter – Pounds to Kilograms | {brand}",
+   "desc": "Convert pounds to kilograms instantly.",
+   "h1": "Convert LBS to KG",
+   "steps": [
+    "Type the value in lb.",
+    "See it in kg.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "g2oz": {
+   "name": "Grams to Ounces",
+   "short": "Convert grams to ounces.",
+   "title": "Grams to Ounces Converter – g to oz | {brand}",
+   "desc": "Convert grams to ounces instantly.",
+   "h1": "Convert Grams to Ounces",
+   "steps": [
+    "Type the value in g.",
+    "See it in oz.",
+    "Copy or download."
+   ],
+   "faq": []
+  },
+  "f2c": {
+   "name": "Fahrenheit to Celsius",
+   "short": "Convert Fahrenheit to Celsius.",
+   "title": "Fahrenheit to Celsius Converter – °F to °C | {brand}",
+   "desc": "Convert Fahrenheit to Celsius instantly.",
+   "h1": "Convert Fahrenheit to Celsius",
+   "steps": [
+    "Type the value in °F.",
+    "See it in °C.",
+    "Copy or download."
+   ],
+   "faq": []
+  }
+ }
+}

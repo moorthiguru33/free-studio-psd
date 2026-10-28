@@ -1,0 +1,243 @@
+{
+  "tools": {
+    "pdf2excel": {
+      "name": "PDF en Excel",
+      "short": "Extrayez les tableaux de PDF vers Excel avec détection intelligente.",
+      "title": "PDF en Excel – Convertir les tableaux PDF en XLSX gratuit, sans envoi | {brand}",
+      "desc": "Convertissez des tableaux PDF en Excel : détection auto, colonnes alignées, vrais nombres. XLSX, CSV ou ODS ; feuille par page ou par tableau.",
+      "h1": "Convertir PDF en Excel",
+      "steps": [
+        "Sélectionnez un PDF contenant des tableaux.",
+        "Choisissez le format et l'organisation des feuilles.",
+        "Vérifiez le tableau et téléchargez la feuille de calcul."
+      ],
+      "faq": [
+        {
+          "q": "Comment fonctionne la détection des tableaux ?",
+          "a": "Le texte est regroupé en lignes, découpé en cellules là où il y a de grands espaces, et les colonnes sont alignées en regroupant les positions des cellules sur tout le tableau : les lignes avec des cellules vides tombent aussi dans la bonne colonne."
+        },
+        {
+          "q": "Les nombres sont-ils utilisables dans des formules ?",
+          "a": "Oui. « 1,234.50 », « (500) », « €2,000 » et « 15% » deviennent de vrais nombres (désactivez l'option pour garder le texte exact). Les décimales à virgule, comme « 1.234,50 », restent du texte."
+        }
+      ],
+      "guide": {
+        "intro": "Retaper des relevés bancaires, des listes de prix ou des rapports d'un PDF dans un tableur est fastidieux. {brand} détecte les tableaux dans la couche de texte, aligne intelligemment les colonnes et convertit les montants en vrais nombres pour que vous puissiez additionner et trier immédiatement. Choisissez une feuille par page, une par tableau ou tout dans une seule feuille, et rien n'est envoyé.",
+        "uses": [
+          "Analyser des relevés bancaires ou de carte de crédit dans Excel.",
+          "Importer des listes de prix et des factures de fournisseurs.",
+          "Réutiliser les tableaux de rapports annuels ou d'articles de recherche.",
+          "Transformer des horaires et des plannings en feuilles modifiables."
+        ],
+        "tips": [
+          "« Tableaux seulement » retire titres et paragraphes pour une feuille plus propre.",
+          "Utilisez la plage de pages pour ignorer la couverture et les pages de synthèse.",
+          "Un PDF scanné ? Lancez d'abord OCR PDF puis convertissez."
+        ],
+        "faq": [
+          {
+            "q": "Ça marche avec des relevés scannés ?",
+            "a": "Seulement après l'OCR : les scans n'ont pas de couche de texte. Notre outil OCR PDF l'ajoute."
+          },
+          {
+            "q": "Puis-je obtenir du CSV à la place ?",
+            "a": "Oui, choisissez CSV dans les options ou utilisez PDF en CSV."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Convertir PDF en Excel – OCR gratuit pour tableaux scannés",
+        "desc": "Convertissez des tableaux PDF en Excel (XLSX) ou CSV. OCR gratuit des PDF scannés en 12 langues. Feuille par page ou par tableau. Sans envoi.",
+        "sections": [
+          [
+            "Transformez les tableaux PDF en vraies feuilles de calcul",
+            "Les relevés bancaires, listes de prix, factures, horaires et rapports financiers arrivent souvent en PDF, mais vous avez besoin des chiffres dans Excel pour les trier, les filtrer et les additionner. Copier-coller depuis un PDF produit généralement une longue colonne de texte en vrac. {brand} détecte les lignes et les colonnes de chaque page et les écrit dans de vraies cellules, avec les nombres enregistrés comme nombres.",
+            [
+              "**OCR gratuit pour les PDF scannés** : iLovePDF propose l'OCR comme fonction Premium. Ici, les pages scannées et photographiées sont lues sur votre appareil avec Tesseract en 12 langues, sans frais.",
+              "**Mode automatique** : les pages qui contiennent déjà du texte sont converties directement ; seules les pages-images passent par l'OCR, ce qui garde la conversion rapide.",
+              "**Choisissez l'organisation des feuilles** : une feuille par page, une par tableau ou tout dans une seule feuille.",
+              "**XLSX ou CSV** : classeurs Excel pour Excel, Google Sheets et LibreOffice, ou CSV pour les bases de données et les scripts.",
+              "**Privé** : les données financières ne quittent jamais votre navigateur."
+            ]
+          ],
+          [
+            "Comment fonctionne la détection des tableaux",
+            "Dans les PDF numériques, le convertisseur lit chaque fragment de texte avec sa position exacte. Les fragments sur la même ligne de base forment une ligne ; les espaces réguliers entre fragments marquent les limites des colonnes. Les traits du tableau, s'il y en a, aident à confirmer la grille. Les nombres avec séparateurs de milliers, symboles monétaires, pourcentages et négatifs entre parenthèses sont reconnus et enregistrés comme cellules numériques pour que les formules fonctionnent immédiatement.",
+            "Pour les pages scannées, la page est rendue à 300 DPI, l'OCR renvoie chaque mot avec son cadre et la même logique de lignes et de colonnes s'applique. L'écran de résultat indique combien de pages ont été lues par OCR pour que vous sachiez lesquelles vérifier."
+          ],
+          [
+            "Comment obtenir le résultat le plus propre",
+            [
+              "**Choisissez la bonne langue d'OCR** pour les scans : les accents et les écritures non latines en dépendent.",
+              "**Les scans droits et nets** fonctionnent le mieux. Si un scan est de travers ou sombre, essayez d'abord le [Scanner PDF](/pdf-scanner/) pour le nettoyer.",
+              "**Une feuille par tableau** est idéal pour les rapports avec plusieurs tableaux par page ; **une seule feuille** est idéal pour les longs relevés de nombreuses pages.",
+              "**Vérifiez les en-têtes fusionnés** : les titres de colonnes sur plusieurs lignes peuvent tomber sur deux lignes ; fusionnez-les dans Excel en quelques secondes.",
+              "Vous n'avez besoin que du texte ? [PDF en texte](/pdf-to-text/) est plus rapide. Besoin d'un document modifiable ? Utilisez [PDF en Word](/pdf-to-word/)."
+            ]
+          ],
+          [
+            "XLS, XLSX ou CSV",
+            {
+              "table": [
+                [
+                  "Format",
+                  "Idéal pour"
+                ],
+                [
+                  "XLSX",
+                  "Excel moderne, Google Sheets, LibreOffice : garde plusieurs feuilles et les types numériques"
+                ],
+                [
+                  "CSV",
+                  "Import dans des bases de données, logiciels comptables ou scripts Python/R : un seul tableau, texte brut"
+                ],
+                [
+                  "XLS",
+                  "Seulement les très anciennes versions d'Excel ; ouvrez le XLSX et enregistrez-le en XLS si vous en avez vraiment besoin"
+                ]
+              ]
+            }
+          ],
+          [
+            "Usages courants",
+            [
+              "Rapprocher des relevés bancaires et de carte de crédit.",
+              "Importer des listes de prix de fournisseurs dans des systèmes de stock.",
+              "Analyser des états financiers et des rapports annuels.",
+              "Numériser d'anciens tableaux imprimés par OCR.",
+              "Transformer des horaires et des plannings en feuilles modifiables."
+            ]
+          ],
+          [
+            "Pas à pas : PDF en Excel",
+            [
+              "**Déposez votre PDF** sur la page, numérique ou scanné.",
+              "**Choisissez le format** : XLSX pour Excel et Google Sheets, ou CSV.",
+              "**Choisissez l'organisation des feuilles** : par page, par tableau ou une seule feuille.",
+              "**Laissez l'OCR sur Automatique** pour que les pages scannées soient reconnues seules, et choisissez la langue du document.",
+              "**Convertissez et téléchargez**, puis ouvrez le fichier dans Excel, Google Sheets, Numbers ou LibreOffice Calc. Vérifiez quelques totaux par rapport au PDF avant de vous fier aux chiffres."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "OCR pour les PDF scannés",
+            "Gratuit, 12 langues",
+            "Premium",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Sortie CSV",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Feuille par page / par tableau / unique",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Peut-il convertir des PDF scannés en Excel ?",
+            "a": "Oui. L'OCR gratuit lit les pages scannées ou photographiées en 12 langues et reconstruit les lignes et colonnes du tableau."
+          },
+          {
+            "q": "PDF en Excel est-il gratuit ?",
+            "a": "Oui, entièrement, y compris l'OCR, que certains services font payer."
+          },
+          {
+            "q": "Mes relevés bancaires sont-ils envoyés ?",
+            "a": "Non. Tout est traité dans votre navigateur ; rien n'est envoyé à aucun serveur."
+          },
+          {
+            "q": "Les nombres seront-ils de vrais nombres dans Excel ?",
+            "a": "Oui. Les valeurs avec séparateurs, symboles monétaires, pourcentages et négatifs entre parenthèses sont enregistrées comme cellules numériques."
+          },
+          {
+            "q": "Quelle différence entre XLS et XLSX ?",
+            "a": "XLSX est le format Excel moderne, utilisé depuis 2007. XLS est l'ancien format ; si besoin, vous pouvez enregistrer le XLSX en XLS dans Excel."
+          },
+          {
+            "q": "Puis-je mettre toutes les pages dans une seule feuille ?",
+            "a": "Oui. Choisissez « Tout dans une seule feuille », idéal pour les longs relevés."
+          },
+          {
+            "q": "Ça marche avec Google Sheets ?",
+            "a": "Oui. Envoyez le XLSX sur Google Drive ou utilisez Fichier → Importer dans Sheets."
+          },
+          {
+            "q": "Pourquoi certaines colonnes sont-elles fusionnées ou divisées ?",
+            "a": "Les tableaux sans espacement ni traits nets peuvent être ambigus. Essayez l'organisation « une feuille par tableau » ou corrigez les quelques cellules concernées dans Excel."
+          },
+          {
+            "q": "Puis-je convertir en CSV à la place ?",
+            "a": "Oui. Choisissez CSV comme format pour obtenir un tableau en texte brut."
+          }
+        ],
+        "related": [
+          "excel-to-pdf",
+          "pdf-to-word",
+          "ocr-pdf",
+          "pdf-to-text",
+          "pdf-to-csv"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir un PDF en Excel ?",
+            "a": "Déposez le PDF, choisissez XLSX ou CSV et une feuille par page ou par tableau, puis convertissez. Les tableaux sont détectés d'après la position du texte ; les PDF scannés sont d'abord lus par l'OCR gratuit."
+          },
+          {
+            "q": "Comment convertir un PDF en feuille Excel sans perdre la mise en forme ?",
+            "a": "Les tableaux aux colonnes nettes sont convertis le plus précisément. Les valeurs des cellules sont enregistrées comme nombres chaque fois que possible, pour que vous puissiez les additionner et les trier ; le style visuel, comme les couleurs et les cellules fusionnées, n'est pas reproduit. Vérifiez les totaux après la conversion d'un relevé complexe."
+          },
+          {
+            "q": "Ce convertisseur PDF en Excel est-il gratuit ?",
+            "a": "Oui, y compris l'OCR pour les tableaux scannés, que d'autres convertisseurs réservent à leurs offres payantes. Pas d'inscription ni de limite de fichiers."
+          }
+        ]
+      }
+    }
+  }
+}

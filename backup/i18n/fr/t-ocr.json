@@ -1,0 +1,379 @@
+{
+  "tools": {
+    "ocr": {
+      "name": "Image en texte (OCR)",
+      "short": "Extrayez le texte de photos et de captures d'écran.",
+      "title": "Image en texte (OCR) en ligne gratuit – Copier le texte d'une photo | {brand}",
+      "desc": "Extrayez le texte d'images, photos, captures et scans par OCR en 12 langues. Texte brut ou PDF cherchable. Privé : dans votre navigateur.",
+      "h1": "Image en texte (OCR)",
+      "steps": [
+        "Sélectionnez des images (JPG, PNG, HEIC…).",
+        "Choisissez la langue et la sortie.",
+        "Copiez ou téléchargez le texte."
+      ],
+      "faq": [
+        {
+          "q": "Quelles langues sont prises en charge ?",
+          "a": "Anglais, espagnol, français, allemand, portugais, italien, russe, arabe, hindi, tamoul, chinois (simplifié) et japonais."
+        },
+        {
+          "q": "Mon image est-elle envoyée ?",
+          "a": "Non : l'OCR s'exécute entièrement sur votre appareil."
+        }
+      ],
+      "guide": {
+        "intro": "Retaper le texte d'une photo, d'une capture ou d'une page scannée est lent et source d'erreurs. L'OCR lit le texte pour vous, prêt à copier, modifier ou traduire. Contrairement aux services d'OCR dans le cloud, {brand} traite les images sur votre appareil.",
+        "uses": [
+          "Copier le texte d'une capture ou de la photo d'un panneau, d'une diapositive ou d'un tableau.",
+          "Numériser des recettes, des lettres et des reçus imprimés.",
+          "Extraire des citations de pages de livres pour des recherches.",
+          "Traduire le texte d'une image en le copiant dans un traducteur."
+        ],
+        "tips": [
+          "Utilisez une photo nette, bien éclairée et prise de face.",
+          "Choisissez la bonne langue pour une précision maximale.",
+          "Recadrez la zone de texte pour éviter le bruit."
+        ],
+        "faq": [
+          {
+            "q": "Quelles langues sont prises en charge ?",
+            "a": "Anglais, espagnol, français, allemand, portugais, italien, russe, arabe, hindi, tamoul, chinois (simplifié) et japonais."
+          },
+          {
+            "q": "Les images sont-elles envoyées ?",
+            "a": "Non : l'OCR s'exécute entièrement sur votre appareil."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Image en texte – OCR gratuit en 12 langues, sans envoi",
+        "desc": "Extrayez le texte d'images, captures et photos par OCR sur votre appareil. 12 langues, deux à la fois, Ctrl+V, lots, TXT ou PDF cherchable.",
+        "compareTitle": "{tool} : {brand} et imagetotext.info, OnlineOCR.net, Prepostseo",
+        "compareCols": [
+          "imagetotext.info",
+          "OnlineOCR.net",
+          "Prepostseo"
+        ],
+        "sections": [
+          [
+            "Copiez le texte de n'importe quelle image",
+            "La photo d'un panneau d'affichage, la capture d'une conversation, une lettre scannée, une diapositive de cours, un reçu, une page de livre : tous contiennent du texte que vous ne pouvez ni sélectionner ni rechercher. L'outil Image en texte de {brand} lit ce texte par reconnaissance optique de caractères (OCR) et vous le rend en texte brut modifiable que vous pouvez copier, coller, rechercher, traduire ou enregistrer. Il reconnaît le texte imprimé dans douze langues, dont le hindi, le tamoul, l'arabe, le chinois et le japonais, et peut lire deux langues dans la même image.",
+            "Tout se passe dans votre navigateur. Le moteur OCR et les modèles de langue sont chargés dans la page et s'exécutent sur votre appareil : vos images (pièces d'identité, courriers bancaires, comptes rendus médicaux, messages privés) ne sont jamais envoyées. Il n'y a pas de limite journalière, pas de niveau de précision « premium » et pas de compte.",
+            "Contrairement à beaucoup de sites d'OCR « gratuits », il n'y a pas de publicité entre les étapes, pas de CAPTCHA, pas besoin d'e-mail pour télécharger votre texte, et pas de limite de nombre ou de taille d'images : la seule limite est la mémoire de votre appareil."
+          ],
+          [
+            "Fonctions",
+            [
+              "**12 langues :** anglais, espagnol, français, allemand, portugais, italien, russe, arabe, hindi, tamoul, chinois (simplifié) et japonais.",
+              "**Deux langues à la fois** pour les documents mixtes, comme l'anglais avec le hindi ou le français avec l'arabe.",
+              "**Coller depuis le presse-papiers :** appuyez sur Ctrl+V (Cmd+V sur Mac) pour passer une capture à l'OCR sans l'enregistrer.",
+              "**OCR par lots :** déposez de nombreuses images et obtenez tout le texte en une fois.",
+              "**Sortie texte ou PDF cherchable :** copiez le texte, téléchargez un fichier .txt ou créez un PDF avec une couche de texte invisible sur l'image.",
+              "**Résolution réglable :** augmentez le DPI pour les petits caractères.",
+              "**Analyse automatique de la mise en page** qui garde les lignes et les paragraphes dans l'ordre de lecture.",
+              "**Fonctionne hors ligne** une fois le modèle de langue chargé.",
+              "**Sans filigrane ni inscription :** le texte extrait est à vous, sans rien d'ajouté."
+            ]
+          ],
+          [
+            "Comment extraire le texte d'une image",
+            [
+              "Déposez une ou plusieurs images (JPG, PNG, WebP, HEIC, BMP, TIFF) ou collez une capture avec Ctrl+V.",
+              "Choisissez la langue du texte et, si vous le souhaitez, une deuxième langue.",
+              "Choisissez la sortie : texte brut ou PDF cherchable.",
+              "Cliquez sur Extraire le texte. La première fois, le modèle de langue est téléchargé (quelques Mo) ; ensuite, le démarrage est instantané.",
+              "Copiez le texte ou téléchargez le fichier."
+            ]
+          ],
+          [
+            "Comment fonctionne l'OCR",
+            "L'OCR transforme des pixels en caractères en plusieurs étapes. D'abord, l'image est passée en noir et blanc par seuillage adaptatif, qui compense l'éclairage inégal et les fonds colorés. Ensuite, la mise en page est analysée : le moteur trouve les blocs de texte, sépare les colonnes et découpe les blocs en lignes et en mots. Enfin, chaque ligne passe dans un réseau neuronal (un modèle LSTM entraîné sur des centaines de milliers de lignes de texte dans la langue choisie) qui prédit la suite de caractères la plus probable, en s'appuyant sur sa connaissance de la langue pour départager des formes proches comme « rn » et « m » ou « 0 » et « O ».",
+            "{brand} utilise Tesseract, le moteur OCR open source développé à l'origine chez HP puis maintenu avec le soutien de Google, compilé en WebAssembly pour s'exécuter dans le navigateur à une vitesse proche du natif. Le même moteur équipe de nombreux produits OCR de bureau et de serveur."
+          ],
+          [
+            "Comment obtenir les résultats les plus précis",
+            [
+              "**Utilisez une image nette et bien éclairée.** Le flou et les ombres sont les principales causes d'erreurs. Photographiez les documents à plat, à la lumière naturelle et sans reflet de flash.",
+              "**Remplissez le cadre avec le texte.** Recadrez tables, mains et arrière-plans avec [Recadrer une image](/crop-image/).",
+              "**Choisissez la bonne langue.** Un texte français lu avec le modèle anglais perd ses accents et lit mal les mots.",
+              "**Augmentez le DPI pour les petits caractères.** Si le texte est petit dans l'image, augmentez la résolution pour que les lettres mesurent au moins 20–30 pixels de haut.",
+              "**Redressez l'image.** Les légères inclinaisons sont corrigées, mais il vaut mieux faire pivoter d'abord les photos très tournées avec [Faire pivoter une image](/rotate-image/).",
+              "**Plus de contraste aide.** Le texte foncé sur fond clair donne les meilleurs résultats ; le texte clair sur fond foncé fonctionne aussi généralement."
+            ]
+          ],
+          [
+            "Quels types d'images fonctionnent ?",
+            {
+              "table": [
+                [
+                  "Image",
+                  "Résultat attendu"
+                ],
+                [
+                  "Captures de texte, pages web, conversations",
+                  "Excellent, presque parfait"
+                ],
+                [
+                  "Documents imprimés scannés",
+                  "Excellent"
+                ],
+                [
+                  "Photos de pages imprimées prises au téléphone",
+                  "Très bon avec un bon éclairage"
+                ],
+                [
+                  "Reçus et factures",
+                  "Bon ; le papier thermique pâli est plus difficile"
+                ],
+                [
+                  "Panneaux, affiches, menus",
+                  "Bon avec des polices lisibles"
+                ],
+                [
+                  "Polices stylisées ou décoratives",
+                  "Variable"
+                ],
+                [
+                  "Écriture manuscrite",
+                  "Limité : les majuscules nettes fonctionnent parfois, l'écriture cursive rarement"
+                ],
+                [
+                  "Texte sur photos ou dessins",
+                  "Variable"
+                ]
+              ]
+            },
+            "Soyez réaliste avec l'écriture manuscrite : les moteurs OCR classiques, dont celui-ci, sont entraînés sur du texte imprimé. Des majuscules manuscrites nettes peuvent être en partie bien lues, mais l'écriture attachée produira surtout des erreurs. La reconnaissance d'écriture manuscrite dédiée demande des modèles d'IA bien plus gros, qui tournent aujourd'hui sur des serveurs."
+          ],
+          [
+            "Langues et systèmes d'écriture",
+            "Chaque langue a son propre modèle entraîné, qui connaît l'alphabet et les mots courants. Les langues à écriture latine (anglais, espagnol, français, allemand, portugais, italien) partagent la plupart des lettres mais diffèrent par les accents et le vocabulaire : choisir la bonne améliore nettement la précision. Le russe utilise le cyrillique. L'arabe s'écrit de droite à gauche avec des lettres qui changent de forme selon leur position ; le modèle arabe le gère et renvoie le texte dans le bon ordre logique. Le hindi utilise le devanagari, avec sa ligne supérieure caractéristique et ses ligatures, et le tamoul a sa propre écriture avec des signes vocaliques autour des consonnes ; les deux ont des modèles dédiés. Le chinois (simplifié) et le japonais ont des milliers de caractères et des modèles plus gros : leur premier chargement prend un peu plus de temps.",
+            "Pour les documents qui mélangent deux langues, choisissez les deux : chaque mot est alors comparé aux deux modèles, ce qui évite par exemple que les mots anglais soient déformés dans un document en hindi."
+          ],
+          [
+            "Texte ou PDF cherchable ?",
+            "Le texte brut est le plus souple : collez-le dans un document, un e-mail, un tableur ou un traducteur. Un PDF cherchable garde l'image exactement telle qu'elle apparaît et place le texte reconnu par-dessus de façon invisible : vous pouvez le rechercher avec Ctrl+F, sélectionner et copier des passages, et laisser les systèmes de gestion documentaire l'indexer. Choisissez PDF quand la mise en page d'origine compte (une lettre signée, une pièce d'identité ou un formulaire) et texte quand vous voulez réutiliser les mots. Pour les PDF scannés de plusieurs pages, utilisez [OCR PDF](/ocr-pdf/), qui ajoute une couche de texte à chaque page et peut redresser les scans de travers."
+          ],
+          [
+            "Usages courants",
+            [
+              "Copier le texte de captures de messages, de diapositives ou de vidéos.",
+              "Numériser des lettres et des notes imprimées pour les rechercher et les archiver.",
+              "Récupérer une citation, une adresse ou un numéro de téléphone sur une photo.",
+              "Extraire le texte de reçus pour les notes de frais.",
+              "Traduire des panneaux et des menus : passez la photo à l'OCR et collez le texte dans un traducteur.",
+              "Prendre des notes à partir de pages de manuels ou de diapositives de cours.",
+              "Accessibilité : transformer un contenu qui n'est qu'une image en texte qu'un lecteur d'écran peut lire à voix haute, ou en audio avec [Synthèse vocale](/text-to-speech/)."
+            ]
+          ],
+          [
+            "Tableaux et mise en page",
+            "La sortie OCR conserve l'ordre de lecture des lignes et des paragraphes, mais les mises en page complexes, comme les journaux à plusieurs colonnes et les tableaux, sont linéarisées : les colonnes sont lues l'une après l'autre et les cellules des tableaux deviennent des lignes de texte séparées par des espaces. Pour les tableaux dans les PDF, [PDF en Excel](/pdf-to-excel/) reconstruit lignes et colonnes, y compris sur des pages scannées."
+          ],
+          [
+            "Résoudre les mauvais résultats",
+            {
+              "table": [
+                [
+                  "Symptôme",
+                  "Cause probable",
+                  "Solution"
+                ],
+                [
+                  "Symboles aléatoires au lieu de mots",
+                  "Mauvaise langue ou image très floue",
+                  "Choisissez la bonne langue ; reprenez la photo"
+                ],
+                [
+                  "Accents manquants (é, ü, ñ)",
+                  "Le modèle anglais a été utilisé pour une langue européenne",
+                  "Sélectionnez français, allemand, espagnol, etc."
+                ],
+                [
+                  "Seule une partie du texte est trouvée",
+                  "Faible contraste ou caractères minuscules",
+                  "Augmentez le DPI ; recadrez plus près du texte"
+                ],
+                [
+                  "Lignes dans le désordre",
+                  "Mise en page multicolonne ou mixte",
+                  "Recadrez chaque colonne séparément"
+                ],
+                [
+                  "« l », « 1 » et « I » sont confondus",
+                  "Police sans empattement aux glyphes identiques",
+                  "Vérifiez à la main les chiffres et les codes"
+                ],
+                [
+                  "Rien n'est reconnu",
+                  "Le texte est manuscrit ou artistique",
+                  "L'OCR est conçu pour le texte imprimé"
+                ]
+              ]
+            },
+            "Comme avec tout outil d'OCR, vérifiez toujours les données importantes, comme les montants, numéros de compte, dates et noms. Même un résultat précis à 99 % contient un caractère erroné sur cent, et le moteur ne peut pas savoir qu'un chiffre mal lu dans un IBAN compte plus qu'une lettre mal lue dans un mot."
+          ],
+          [
+            "Captures d'écran : le cas le plus simple",
+            "Les captures sont idéales pour l'OCR car le texte est parfaitement net, droit et uniformément éclairé. Pour récupérer le texte d'une vidéo, d'un PDF verrouillé, d'une application qui interdit la copie ou d'une image de conversation, faites une capture (Windows : Win+Maj+S ; Mac : Cmd+Maj+4 ; Android et iPhone : la combinaison de boutons habituelle), ouvrez cette page et appuyez sur Ctrl+V. La capture est lue directement depuis le presse-papiers ; vous n'avez jamais besoin de l'enregistrer en fichier. Sur les écrans haute résolution, les captures ont déjà assez de pixels par lettre : le DPI par défaut suffit."
+          ],
+          [
+            "Extraire le texte des réseaux sociaux et des mèmes",
+            "Les images partagées sur les réseaux sociaux sont souvent compressées et peuvent avoir du texte sur des fonds chargés ou des dégradés de couleur. L'OCR fonctionne quand même bien avec les gros titres et les captures de publications, de tweets et de commentaires. Avec le texte blanc à contour noir typique des mèmes, le moteur lit les lettres tant qu'elles sont grandes et nettes ; recadrez l'image en dessous pour réduire le bruit. Le très petit texte dans des images compressées (comme un filigrane ou un nom d'utilisateur dans un coin) peut demander plus de DPI ou une image source plus propre. Si la publication est encore en ligne, une nouvelle capture en pleine résolution donne de meilleurs résultats qu'une copie déjà compressée et réenregistrée plusieurs fois."
+          ],
+          [
+            "Photos prises au téléphone",
+            "Les photos de documents prises au téléphone varient bien plus que les scans. Pour de meilleurs résultats, tenez le téléphone parallèle à la page pour que le texte ne soit pas déformé en perspective, assurez-vous que toute la page est nette en touchant le texte avant de prendre la photo, et évitez votre propre ombre en vous plaçant sur le côté de la source de lumière. Coupez le flash avec le papier brillant, qui reflète la lumière et crée des taches blanches sans texte. Si vous photographiez en HEIC avec un iPhone, vous pouvez envoyer le HEIC directement ; il est décodé dans le navigateur. Un appareil photo de téléphone récent produit 12 mégapixels ou plus, ce qui est largement suffisant : inutile d'augmenter le DPI pour les photos."
+          ],
+          [
+            "Reçus et factures",
+            "Les reçus sont souvent imprimés sur du papier thermique, qui pâlit avec le temps et a peu de contraste. Photographiez-les peu après l'achat, sur un fond sombre pour que les bords soient bien visibles, et aplatissez le papier enroulé. Le résultat de l'OCR vous donnera le nom du magasin, les articles et les totaux sous forme de texte à coller dans un tableau de frais. Comme les montants sont critiques, vérifiez les totaux à l'œil avant de soumettre une note de frais."
+          ],
+          [
+            "OCR ou copie du texte d'un PDF",
+            "Si un PDF a été créé depuis un traitement de texte, il contient déjà du vrai texte : il suffit de le sélectionner et de le copier ou d'utiliser [PDF en texte](/pdf-to-text/), plus rapide et précis à 100 %. L'OCR n'est nécessaire que lorsque le PDF est un scan ou une image de texte. Test rapide : essayez de sélectionner un mot dans votre lecteur PDF. Si vous pouvez surligner des mots isolés, le texte est déjà là ; si toute la page se surligne comme une image, il vous faut l'OCR."
+          ],
+          [
+            "Glossaire",
+            [
+              "**OCR (reconnaissance optique de caractères) :** transformer des images de texte en caractères lisibles par une machine.",
+              "**DPI (points par pouce) :** le nombre de pixels utilisés par pouce de l'original ; des valeurs plus élevées agrandissent les petits caractères pour le moteur.",
+              "**Couche de texte :** texte invisible placé sur une image dans un PDF pour pouvoir le rechercher et le copier.",
+              "**LSTM :** le type de réseau neuronal qu'utilise le Tesseract moderne pour reconnaître des lignes de texte entières.",
+              "**Binarisation :** passer l'image en noir et blanc purs avant la reconnaissance."
+            ]
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. L'image est décodée, modifiée et réencodée sur votre propre appareil avec le moteur d'images intégré du navigateur et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : photos privées, pièces d'identité, captures contenant des données personnelles et photos de produits pas encore lancés ne quittent jamais votre ordinateur ou votre téléphone. Vous pouvez même couper le Wi-Fi une fois la page chargée, l'outil continue de fonctionner.",
+            "Beaucoup de services d'OCR en ligne envoient votre image sur un serveur et la traitent là-bas, et certains gardent un historique des conversions dans un compte. Ici, la seule chose téléchargée est le modèle de langue, depuis notre propre site, et la seule chose produite est du texte sur votre écran."
+          ],
+          [
+            "Outils associés",
+            [
+              "[OCR PDF](/ocr-pdf/) : des PDF cherchables à partir de documents scannés.",
+              "[PDF en Excel](/pdf-to-excel/) : les tableaux des PDF, même scannés.",
+              "[Synthèse vocale](/text-to-speech/) : écoutez le texte extrait.",
+              "[Recadrer une image](/crop-image/) : isolez le texte avant l'OCR.",
+              "[Lecteur de QR code](/qr-code-scanner/) : lisez les QR codes dans les images."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre image est traitée",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Traitement",
+            "Sur votre appareil",
+            "Envoi",
+            "Envoi",
+            "Envoi"
+          ],
+          [
+            "Langues",
+            "12 (deux à la fois)",
+            "« Plusieurs langues »",
+            "Beaucoup (liste sur leur page)",
+            "« Plus de 20 langues »"
+          ],
+          [
+            "Taille de fichier maximale",
+            "Aucune (mémoire de l'appareil)",
+            "Voir le site",
+            "15 Mo",
+            "Voir le site"
+          ],
+          [
+            "Sortie PDF cherchable",
+            "Oui",
+            "Non proposé sur la page",
+            "Cas d'usage « PDF cherchable »",
+            "Voir le site"
+          ],
+          [
+            "Offre payante pour plus d'usage",
+            "Non",
+            "Offres mensuelles à 8/10/40 $ indiquées",
+            "Gratuit en mode « invité » ; offres payantes",
+            "Premium pour des limites plus élevées"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment extraire le texte d'une image gratuitement ?",
+            "a": "Déposez l'image ou collez une capture, choisissez la langue et cliquez sur Extraire le texte. Copiez le résultat ou téléchargez-le."
+          },
+          {
+            "q": "Mon image est-elle envoyée ?",
+            "a": "Non. L'OCR s'exécute dans votre navigateur ; votre image reste sur votre appareil."
+          },
+          {
+            "q": "Quelles langues sont prises en charge ?",
+            "a": "Anglais, espagnol, français, allemand, portugais, italien, russe, arabe, hindi, tamoul, chinois (simplifié) et japonais. Vous pouvez en combiner deux."
+          },
+          {
+            "q": "Peut-il lire l'écriture manuscrite ?",
+            "a": "De façon limitée seulement. Les majuscules nettes peuvent fonctionner ; l'écriture cursive n'est pas reconnue de façon fiable."
+          },
+          {
+            "q": "Quelle est sa précision ?",
+            "a": "Sur des captures et des scans nets, généralement plus de 98 % des caractères sont corrects. Les photos floues ou sombres et les polices décoratives réduisent la précision."
+          },
+          {
+            "q": "Puis-je passer plusieurs images à l'OCR à la fois ?",
+            "a": "Oui. Déposez plusieurs images et obtenez tout le texte ensemble."
+          },
+          {
+            "q": "Puis-je coller directement une capture ?",
+            "a": "Oui. Appuyez sur Ctrl+V (Cmd+V sur Mac) sur la page."
+          },
+          {
+            "q": "Puis-je convertir un PDF scanné en texte ?",
+            "a": "Utilisez OCR PDF pour les PDF de plusieurs pages ; il crée un PDF cherchable et peut aussi produire du texte."
+          },
+          {
+            "q": "Pourquoi la première fois est-elle plus lente ?",
+            "a": "Le modèle de langue (quelques Mo) est téléchargé une fois puis mis en cache ; les fois suivantes, le démarrage est immédiat."
+          },
+          {
+            "q": "Ça marche sur mon téléphone ?",
+            "a": "Oui. Prenez une photo ou choisissez-en une dans votre galerie dans Safari ou Chrome sur mobile."
+          }
+        ],
+        "related": [
+          "ocr-pdf",
+          "pdf-to-excel",
+          "text-to-speech",
+          "crop-image",
+          "qr-code-scanner"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir une image en texte ?",
+            "a": "Déposez ou collez (Ctrl+V) une capture ou une photo, choisissez la langue et le texte est reconnu sur votre appareil. Copiez-le ou enregistrez-le en TXT ou en PDF cherchable."
+          }
+        ]
+      }
+    }
+  }
+}

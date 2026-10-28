@@ -1,0 +1,2488 @@
+{
+ "tools": {
+  "numwords": {
+   "name": "Number to Words",
+   "short": "Spell out any number in English words, cheque style.",
+   "title": "Number to Words Converter – Spell Numbers for Cheques | {brand}",
+   "desc": "Convert numbers to words instantly: 1,250.75 becomes “one thousand two hundred fifty and 75/100”. International and lakh/crore systems, cheque and invoice wording, ordinals. Free and private.",
+   "h1": "Number to Words Converter",
+   "steps": [
+    "Type or paste a number – commas and decimals are fine.",
+    "Choose the number system, letter case and the currency for cheque wording.",
+    "Copy the words or download them as a text file."
+   ],
+   "faq": [
+    {
+     "q": "How large a number can it spell?",
+     "a": "Up to 10^36 (decillions) in the international system and many crores in the Indian system. It uses exact big-integer maths, so even 30-digit numbers are spelled without rounding."
+    },
+    {
+     "q": "Does it work offline?",
+     "a": "Yes. Once the page has loaded, the conversion runs entirely in your browser and nothing you type is sent anywhere."
+    }
+   ],
+   "guide": {
+    "intro": "Writing a number in words sounds trivial until you have to do it on a cheque, a contract or an invoice where a single slip can cause a payment to bounce. {brand}’s number to words converter spells any amount correctly in plain English, shows the cheque-style wording for the most common currencies, and handles the Indian lakh/crore system as well as the international million/billion scale. Everything is calculated on your own device, so financial figures never leave your screen.",
+    "uses": [
+     "Write the amount in words on a bank cheque or demand draft.",
+     "Fill in the “amount in words” line on invoices, receipts and purchase orders.",
+     "Spell numbers in legal contracts, wills and loan agreements, where words prevail over figures.",
+     "Check homework: children learning place value can verify their own spelling of large numbers.",
+     "Prepare scripts and subtitles where numbers should be read out rather than shown as digits."
+    ],
+    "tips": [
+     "Paste numbers straight from a spreadsheet – thousands separators, spaces and underscores are ignored.",
+     "For cheques, finish with “only” (added automatically) so nobody can append extra words.",
+     "Use Title Case or UPPER CASE if your bank or accounting software expects it.",
+     "Switch to the Indian system to get “twelve lakh thirty-four thousand” instead of “one million two hundred thirty-four thousand”.",
+     "Decimals are read digit by digit (“point seven five”) in the plain line and as cents/pence in the cheque line."
+    ],
+    "more": [
+     [
+      "How English number words are built",
+      "English groups digits in threes. Each group is spelled as a number from one to nine hundred ninety-nine and followed by its scale word: thousand, million, billion, trillion and so on. Numbers from twenty-one to ninety-nine take a hyphen (forty-two), and the word “and” before the tens is optional – British English usually says “one hundred and five”, American English often drops it. The converter uses the hyphenated, “and”-free form, which is accepted everywhere and is the style most banks print."
+     ],
+     [
+      "International versus Indian numbering",
+      "In South Asia large amounts are grouped differently: after the first thousand the digits are grouped in twos, giving lakh (100,000) and crore (10,000,000). So 12,500,000 is “twelve million five hundred thousand” in the international system but “one crore twenty-five lakh” in the Indian system, written 1,25,00,000. Choose the system your reader expects; the digits line below the result is regrouped to match, which makes it easy to cross-check."
+     ],
+     [
+      "Writing amounts on cheques safely",
+      "Write the words as far left as possible, end with “only”, and draw a line through any remaining space so nothing can be added. If the words and the figures differ, most banks treat the words as the legal amount, so it pays to copy them exactly. For cents or pence, either spell them (“and forty-five cents”) or use the fraction style “and 45/100”, which is common on US cheques. Both versions are shown so you can pick the one your bank prefers."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is “one hundred and five” or “one hundred five” correct?",
+      "a": "Both are correct. British and Commonwealth English normally include “and”; American usage often omits it. Banks accept either."
+     },
+     {
+      "q": "Can it write ordinal numbers like “twenty-first”?",
+      "a": "Yes – for whole positive numbers an ordinal line is shown, e.g. 21 → twenty-first, 100 → one hundredth."
+     },
+     {
+      "q": "Which currencies are supported for cheque wording?",
+      "a": "US, Australian and Canadian dollars, euros, British pounds and Indian rupees, or no currency at all for neutral wording."
+     }
+    ]
+   }
+  },
+  "roman": {
+   "name": "Roman Numeral Converter",
+   "short": "Convert numbers to Roman numerals and back.",
+   "title": "Roman Numeral Converter – Numbers ⇄ Roman Numerals | {brand}",
+   "desc": "Convert any number from 1 to 3,999,999 into Roman numerals and decode numerals like MCMXCIV. Validates the standard form, shows the breakdown and supports overlined thousands. Free, instant, private.",
+   "h1": "Roman Numeral Converter",
+   "steps": [
+    "Type a number such as 2026 or a numeral such as MMXXVI.",
+    "Read the result and the step-by-step breakdown.",
+    "Copy it or download the conversion as a text file."
+   ],
+   "faq": [
+    {
+     "q": "What is the largest Roman numeral?",
+     "a": "With the basic letters the largest is MMMCMXCIX (3,999). Larger numbers use a bar (vinculum) over a letter to multiply it by 1,000; the converter supports this up to 3,999,999."
+    },
+    {
+     "q": "Is there a Roman numeral for zero?",
+     "a": "No. The Romans had no numeral for zero; medieval scholars sometimes wrote “nulla” or N, but it is not part of the standard system."
+    }
+   ],
+   "guide": {
+    "intro": "Roman numerals still turn up everywhere: on clock faces, book chapters, film copyright dates, Super Bowls, monarchs’ names and tattoos. {brand}’s converter works in both directions, checks that a numeral follows the standard rules, and explains how the value is built, so you can trust the result before you engrave, print or ink it. It runs entirely in your browser – type and read, nothing to install.",
+    "uses": [
+     "Turn a birth year, wedding date or anniversary into numerals for a tattoo, ring or invitation.",
+     "Number book chapters, appendices or preface pages (i, ii, iii…).",
+     "Decode the copyright year at the end of a film or TV credits.",
+     "Write outline or legal section numbers (Article IV, Section XII).",
+     "Check your child’s maths homework on Roman numerals."
+    ],
+    "tips": [
+     "Lower case is traditional for front-matter page numbers – tick “Show lower case”.",
+     "For dates, convert day, month and year separately: 14 July 2026 → XIV · VII · MMXXVI.",
+     "The tool rejects non-standard forms such as IIII or VX, so a wrong numeral is caught before it is printed.",
+     "Double-check anything permanent (a tattoo!) by converting the numeral back to a number.",
+     "Spaces are ignored, so you can paste numerals copied from a document."
+    ],
+    "more": [
+     [
+      "How Roman numerals work",
+      "Seven letters carry the values I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 and M = 1,000. Letters are normally written from largest to smallest and added up: MDCLXVI = 1,666. To avoid four identical letters in a row, a smaller letter placed before a larger one is subtracted. Only six such pairs are standard: IV (4), IX (9), XL (40), XC (90), CD (400) and CM (900). That is why 1994 is MCMXCIV – M + CM + XC + IV – rather than MDCCCCLXXXXIIII."
+     ],
+     [
+      "Standard and non-standard forms",
+      "You will sometimes see IIII on clock faces or XIIX on old documents. Historically the Romans were flexible, but modern usage follows the strict subtractive rules above, and that is what exams, publishers and style guides expect. When you enter a numeral, the converter checks it against those rules; if it is not standard it tells you why instead of guessing a value. A numeral that converts back to the same number is guaranteed to be in canonical form."
+     ],
+     [
+      "Numbers above 3,999",
+      "Because no letter is repeated more than three times, plain numerals stop at 3,999. For bigger values a horizontal bar over a numeral multiplies it by one thousand, so V̅ is 5,000 and M̅ is a million. The converter writes these with a combining overline character, which displays correctly in most modern fonts. For everyday use – years, chapters, events – you will rarely need them, but they are handy for puzzles and history lessons."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How do I write 2026 in Roman numerals?",
+      "a": "MMXXVI – two thousands (MM), twenty (XX) and six (VI)."
+     },
+     {
+      "q": "Why is 4 written IV and not IIII?",
+      "a": "Standard Roman numerals avoid repeating a letter four times, so 4 is written as one before five. IIII survives on many clock faces for visual balance."
+     },
+     {
+      "q": "Can I convert lower-case numerals?",
+      "a": "Yes. Input is not case-sensitive, and you can choose lower-case output for page numbering."
+     }
+    ]
+   }
+  },
+  "numbase": {
+   "name": "Binary, Hex & Decimal Converter",
+   "short": "Convert between binary, octal, decimal, hex and any base.",
+   "title": "Binary to Decimal to Hex Converter – Any Base 2–36 | {brand}",
+   "desc": "Convert numbers between binary, octal, decimal, hexadecimal and any base from 2 to 36. Arbitrary size with BigInt, negative numbers, two’s complement and Unicode character view. Free, offline, instant.",
+   "h1": "Binary / Hex / Decimal Converter",
+   "steps": [
+    "Enter a number and choose its base (decimal, binary, hex, octal or another).",
+    "See every other base instantly, grouped for easy reading.",
+    "Optionally pick a bit width to see the two’s-complement form, then copy or download."
+   ],
+   "faq": [
+    {
+     "q": "Is there a size limit?",
+     "a": "No practical limit. The converter uses JavaScript BigInt, so 256-bit hashes or 100-digit numbers convert exactly with no rounding."
+    },
+    {
+     "q": "Does it accept prefixes like 0x or 0b?",
+     "a": "Yes. 0x for hex, 0b for binary and 0o for octal are stripped automatically, as are spaces, underscores and commas."
+    }
+   ],
+   "guide": {
+    "intro": "Programmers, students and electronics hobbyists constantly move numbers between bases: a colour in hex, a register in binary, a permission mask in octal, a value in decimal. {brand}’s converter shows all of them side by side the moment you type, handles numbers of any size without precision loss, and adds the views that are usually missing from simple converters – two’s-complement for signed integers, byte counts and the Unicode character a code point represents. All maths happens locally in your browser.",
+    "uses": [
+     "Translate hex values from a debugger or memory dump into decimal.",
+     "Check binary bit masks and flags while writing embedded or networking code.",
+     "Work through computer-science homework on number systems and signed integers.",
+     "Convert Unix permissions such as 755 between octal and binary.",
+     "Find the Unicode code point of a character, or the character for a code point."
+    ],
+    "tips": [
+     "Binary output is grouped in fours (nibbles) and hex in pairs (bytes) to make long values readable.",
+     "Choose 8, 16, 32 or 64-bit width to see how a negative number is stored in two’s complement.",
+     "Type a negative number (e.g. -42) with any base – the sign is kept separately from the digits.",
+     "Base 36 uses 0–9 and a–z, handy for short IDs and URL shorteners.",
+     "Download the result as text to paste into notes or documentation."
+    ],
+    "more": [
+     [
+      "Why computers use binary and hex",
+      "Digital circuits have two stable states, so computers store everything as binary digits (bits). Long strings of ones and zeros are hard for humans, so we group them: three bits make one octal digit, four bits make one hexadecimal digit. That is why a byte (8 bits) is always exactly two hex digits, from 00 to FF, and why colours, MAC addresses and memory addresses are written in hex. Decimal remains the base people think in, which is why converting quickly between them matters."
+     ],
+     [
+      "Signed numbers and two’s complement",
+      "Computers store negative integers using two’s complement: invert all bits of the positive value and add one. In 8 bits, −1 becomes 11111111 (0xFF) and −128 becomes 10000000. The same bit pattern can therefore mean 255 or −1 depending on whether the type is unsigned or signed. When you choose a bit width the converter shows the stored pattern, its hex form, and how it reads as signed and unsigned, and warns you when a value does not fit in that width."
+     ],
+     [
+      "Converting by hand",
+      "To convert decimal to another base, divide repeatedly by the base and read the remainders from bottom to top: 13 ÷ 2 gives remainders 1, 0, 1, 1, so 13 = 1101 in binary. To go back, multiply each digit by the base raised to its position and add: 1×8 + 1×4 + 0×2 + 1×1 = 13. Hex works the same way with base 16, using A–F for 10–15. The tool does this instantly, but knowing the method helps you sanity-check results in exams and interviews."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How do I convert binary to decimal?",
+      "a": "Select “Binary (base 2)” as the input base and type the bits – the decimal value appears at the top of the table."
+     },
+     {
+      "q": "What is FF in decimal?",
+      "a": "255. Each hex digit is four bits, and FF is 1111 1111 in binary."
+     },
+     {
+      "q": "Can it convert text to binary?",
+      "a": "It converts numbers. For a single character, the Unicode row shows the code point, and you can convert that code point to binary or hex."
+     }
+    ]
+   }
+  },
+  "unixtime": {
+   "name": "Unix Timestamp Converter",
+   "short": "Convert epoch time to a date and back, in any time zone.",
+   "title": "Unix Timestamp Converter – Epoch to Date & Date to Epoch | {brand}",
+   "desc": "Convert Unix timestamps (seconds, milliseconds, micro- or nanoseconds) to human dates in any time zone, and dates back to epoch time. ISO 8601, RFC 2822, relative time and a live clock. Free and private.",
+   "h1": "Unix Timestamp Converter",
+   "steps": [
+    "Paste a timestamp such as 1767225600 – or type a date like 2026-03-15 14:30.",
+    "Pick the time zone you want to read it in (yours is selected).",
+    "Copy the ISO, UTC or local value, or download all formats."
+   ],
+   "faq": [
+    {
+     "q": "Does it detect milliseconds automatically?",
+     "a": "Yes. 10-digit values are read as seconds, 13 digits as milliseconds, 16 as microseconds and 19 as nanoseconds. You can override the unit if needed."
+    },
+    {
+     "q": "Which time zones are available?",
+     "a": "Every IANA time zone your browser knows – usually more than 400 – with daylight-saving rules applied automatically."
+    }
+   ],
+   "guide": {
+    "intro": "Log files, databases, APIs and JWT tokens store time as a Unix timestamp – the number of seconds since 1 January 1970 UTC. It is perfect for computers and unreadable for people. {brand}’s converter turns any epoch value into a clear date in your own time zone or any other, and turns dates back into timestamps, showing ISO 8601, RFC 2822, relative time and ISO week at once. A live clock shows the current epoch second, and nothing is sent to a server.",
+    "uses": [
+     "Read “created_at” and “exp” values in API responses and JWTs.",
+     "Turn server log timestamps into local time while debugging an incident.",
+     "Generate an epoch value for a database query, cron job or test fixture.",
+     "Check when a cache entry, cookie or token expires.",
+     "Compare an event time across offices in different time zones."
+    ],
+    "tips": [
+     "Press “Use now” to insert the current timestamp.",
+     "If a date looks 50,000 years in the future, the value was probably in milliseconds – switch the unit.",
+     "Dates without a time zone are read in your local zone; add Z or +05:30 to be explicit.",
+     "ISO 8601 (2026-03-15T09:00:00.000Z) is the safest format to store or exchange.",
+     "Negative timestamps are valid and represent dates before 1970."
+    ],
+    "more": [
+     [
+      "What a Unix timestamp is",
+      "Unix time counts the seconds that have passed since the “epoch”, 00:00:00 UTC on 1 January 1970, ignoring leap seconds. Because it is a single number in UTC, it sorts correctly, is easy to compare and does not depend on anyone’s time zone or daylight saving. JavaScript and many modern APIs use milliseconds instead of seconds, so the same moment may appear as 1767225600 or 1767225600000. The converter recognises the scale by the number of digits."
+     ],
+     [
+      "Time zones and daylight saving",
+      "A timestamp is always UTC; the time zone only changes how it is displayed. Converting 1767225600 shows midnight on 1 January 2026 in London, 7 pm on 31 December in New York and 5:30 am in Mumbai. The tool uses your browser’s built-in time-zone database, so historical and future daylight-saving changes are applied correctly. When you type a date to convert into a timestamp, include an offset or “Z” if the source is not in your local zone."
+     ],
+     [
+      "The year 2038 problem",
+      "Older systems store Unix time as a signed 32-bit integer, which overflows at 03:14:07 UTC on 19 January 2038 (timestamp 2,147,483,647). After that, such systems wrap around to 1901. Modern operating systems, databases and languages use 64-bit time, which lasts for billions of years, but embedded devices and legacy file formats may still be affected. The binary and hex converter on this site can show you exactly where the 32-bit limit sits."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "What is the current Unix timestamp?",
+      "a": "It is shown live at the top of the tool and updates every second."
+     },
+     {
+      "q": "How do I convert a date to a timestamp?",
+      "a": "Type the date, e.g. 2026-12-31 23:59 or 2026-12-31T23:59:00Z, and read the “Unix seconds” and “Unix milliseconds” rows."
+     },
+     {
+      "q": "Are leap seconds counted?",
+      "a": "No. Unix time ignores leap seconds, as do almost all computer systems, so every day is exactly 86,400 seconds."
+     }
+    ]
+   }
+  },
+  "currency": {
+   "name": "Currency Converter",
+   "short": "Live exchange rates for 30+ currencies (ECB reference rates).",
+   "title": "Currency Converter – Free Exchange Rates, USD EUR GBP INR | {brand}",
+   "desc": "Convert between US dollars, euros, pounds, rupees, yen and 30+ other currencies using the European Central Bank’s daily reference rates. No sign-up, no ads in the numbers, rate date shown.",
+   "h1": "Currency Converter",
+   "steps": [
+    "Enter an amount and pick the currency you have.",
+    "Pick the currency you want – the result and a quick table appear instantly.",
+    "Download all rates for your base currency as a CSV if you need them."
+   ],
+   "faq": [
+    {
+     "q": "Where do the exchange rates come from?",
+     "a": "From the European Central Bank’s euro foreign exchange reference rates, published every working day around 16:00 CET, delivered through the free, open-source Frankfurter API. The rate date is always shown."
+    },
+    {
+     "q": "Is my amount sent anywhere?",
+     "a": "No. Your browser downloads the public rate table and does the multiplication itself; the amount you type never leaves the page."
+    }
+   ],
+   "guide": {
+    "intro": "Whether you are pricing a product for overseas customers, budgeting a trip or checking an invoice in a foreign currency, you need a quick, honest conversion. {brand}’s currency converter uses the official daily reference rates of the European Central Bank for more than 30 major currencies, shows the date of the rate, and tells you plainly that banks and card providers add their own margin. There is no account, no tracking of what you convert, and the calculation runs in your browser.",
+    "uses": [
+     "Estimate what a hotel, flight or tour priced in euros or dollars will cost you.",
+     "Convert a freelance invoice or salary offer into your home currency.",
+     "Compare product prices across online stores in different countries.",
+     "Prepare a multi-currency price list for an online shop.",
+     "Check the rate your bank or exchange bureau offers against the reference rate."
+    ],
+    "tips": [
+     "Use ⇄ Swap to reverse the direction instantly.",
+     "Rates are cached for an hour, so repeated conversions are instant and work briefly offline.",
+     "Download the CSV to get every rate for your chosen base currency in one spreadsheet.",
+     "Remember that weekends and holidays show the last working day’s rate.",
+     "For large transfers, compare specialist transfer services – their margin is often far smaller than a bank’s."
+    ],
+    "more": [
+     [
+      "Reference rates versus the rate you pay",
+      "The ECB reference rate is a mid-market rate: halfway between buying and selling prices on the interbank market, fixed once a day. It is ideal for estimates, accounting and comparison. When you actually exchange money, the provider adds a spread or fee – typically 0.5–1% for transfer specialists, 2–4% for many banks and cards, and more at airport kiosks. Comparing their quote with the reference rate shows you exactly how much the conversion is costing you."
+     ],
+     [
+      "Which currencies are covered",
+      "The ECB publishes rates for around 30 currencies including the US dollar, British pound, Japanese yen, Swiss franc, Chinese yuan, Indian rupee, Australian, Canadian, New Zealand, Hong Kong and Singapore dollars, Scandinavian and Central European currencies, the South African rand, Brazilian real, Mexican peso, Korean won and several Asian currencies. Currencies the ECB does not publish – such as many African, Middle-Eastern or Latin-American currencies and all cryptocurrencies – are deliberately not shown rather than estimated."
+     ],
+     [
+      "Cross rates explained",
+      "Because the ECB quotes everything against the euro, a rate such as GBP to INR is calculated as a cross rate: pounds to euros, then euros to rupees. Frankfurter performs this rebasing for you, so the figure you see is mathematically consistent with the official euro rates. Small differences from other websites usually come from timing – many sites show live, minute-by-minute market prices, while reference rates are fixed once per business day."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How often are rates updated?",
+      "a": "Once per working day, shortly after the ECB publishes around 16:00 Central European Time. There are no updates on weekends or TARGET holidays."
+     },
+     {
+      "q": "Can I use these rates for my accounts?",
+      "a": "ECB reference rates are widely used for accounting and statistics, but check what your tax authority or auditor requires."
+     },
+     {
+      "q": "Why is my bank’s rate different?",
+      "a": "Banks add a margin to the mid-market rate. The difference between their rate and the reference rate is what you pay for the exchange."
+     }
+    ]
+   }
+  },
+  "pwcheck": {
+   "name": "Password Strength Checker",
+   "short": "See how long a password would take to crack – privately.",
+   "title": "Password Strength Checker – How Secure Is My Password? | {brand}",
+   "desc": "Test how strong your password really is. Detects common passwords, dictionary words, keyboard patterns, dates and leetspeak, estimates crack time for online and offline attacks, and suggests fixes. Runs 100% in your browser.",
+   "h1": "Password Strength Checker",
+   "steps": [
+    "Type or paste a password – it stays hidden unless you tick “Show”.",
+    "Read the rating, estimated entropy and crack times for three attack types.",
+    "Follow the suggestions, or download a report that does not contain the password."
+   ],
+   "faq": [
+    {
+     "q": "Is it safe to type my real password here?",
+     "a": "The check runs entirely in your browser; the password is never sent, stored or logged, and you can disconnect from the internet before testing. Still, the safest habit is to test a password with the same structure rather than your exact one."
+    },
+    {
+     "q": "Why does “P@ssw0rd!” score badly?",
+     "a": "Cracking tools try common words with predictable substitutions first. Swapping letters for symbols adds almost no strength."
+    }
+   ],
+   "guide": {
+    "intro": "Most password meters only count character types, so “Password1!” looks “strong” even though it is cracked in seconds. {brand}’s checker looks for the patterns real attackers try first – the most common passwords, dictionary words, names, years, keyboard runs like qwerty, sequences, repeated characters and leetspeak swaps – and lowers the score accordingly. It then shows realistic crack-time estimates for an online attack, a slow-hashed leak and a fast-hashed leak, with plain-language tips to fix the weak points.",
+    "uses": [
+     "Check whether an old password is worth keeping or should be changed.",
+     "Teach family members or staff why length beats clever symbols.",
+     "Test the format of a new passphrase before using it for your password manager.",
+     "Audit the strength rules you plan to enforce in an app you are building.",
+     "Compare a random password from a generator with one you invented."
+    ],
+    "tips": [
+     "Aim for 16+ characters or a passphrase of four or more random words.",
+     "Avoid personal details: names, birthdays, pets, teams and postcodes are guessed early.",
+     "Never reuse a password – one breached site then unlocks all the others.",
+     "Turn on two-factor authentication for email, banking and social accounts.",
+     "Let a password manager generate and remember unique passwords for you."
+    ],
+    "more": [
+     [
+      "How the estimate works",
+      "The checker starts with the raw search space – the size of the character pool raised to the password’s length – and converts it to bits of entropy. It then subtracts strength for every predictable pattern it finds, because an attacker who tries common words and patterns first will reach your password much sooner than brute force would. The result is a cautious estimate rather than a guarantee: if anything, it errs on the side of calling a password weak."
+     ],
+     [
+      "Three attack scenarios",
+      "“Online” assumes someone guessing on a login page that limits attempts to about ten per second. “Slow hash” assumes a stolen database protected with bcrypt or a similar deliberately slow algorithm, at around ten thousand guesses per second. “Fast hash” assumes a leak stored with an outdated algorithm such as MD5 or unsalted SHA-1, attacked with graphics cards at a hundred billion guesses per second. A good password should survive the third scenario for centuries, because you can never be sure how a site stores it."
+     ],
+     [
+      "Passphrases: strong and memorable",
+      "Four or five random, unrelated words – like “velvet-orbit-cactus-lantern” – give 50–65 bits of entropy when chosen truly at random, and are far easier to type and remember than “Xk#9!q”. The key word is random: song lyrics, quotes and famous phrases are in attackers’ word lists. Use the password generator on this site with passphrase mode, or roll dice with a word list, and add a separator or digit if a site insists."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "What is a good entropy score?",
+      "a": "Below 40 bits is weak, 60 bits is reasonable for most accounts, and 80+ bits is strong enough for email, banking and password-manager master passwords."
+     },
+     {
+      "q": "Does it check data breaches?",
+      "a": "No – to stay completely offline it does not query breach databases. Use a dedicated breach-check service if you need that."
+     },
+     {
+      "q": "Are symbols required?",
+      "a": "Symbols help a little; length helps much more. A 20-character lower-case passphrase beats an 8-character mix of symbols."
+     }
+    ]
+   }
+  },
+  "picker": {
+   "name": "Random Name Picker",
+   "short": "Pick random names, winners or numbers – fair and instant.",
+   "title": "Random Name Picker – Pick a Winner from a List | {brand}",
+   "desc": "Pick one or more random names from a list, draw giveaway winners, split people into teams or generate random numbers in a range. Uses your browser’s cryptographic random generator. Free, no sign-up.",
+   "h1": "Random Name Picker",
+   "steps": [
+    "Paste names, one per line (or switch to “Numbers” and set a range).",
+    "Choose how many to pick and whether repeats are allowed.",
+    "Press pick – copy or download the result with a timestamp."
+   ],
+   "faq": [
+    {
+     "q": "Is the draw really random?",
+     "a": "Yes. It uses crypto.getRandomValues, the browser’s cryptographically secure generator, with rejection sampling so every entry has exactly the same chance."
+    },
+    {
+     "q": "How many names can I enter?",
+     "a": "Thousands. Lists are processed locally, so even a 10,000-entry giveaway draws instantly."
+    }
+   ],
+   "guide": {
+    "intro": "Drawing a winner from a hat is fun until there are 500 entries or someone asks whether it was fair. {brand}’s random name picker draws one or many winners from any list, can remove duplicates, and can also act as a random number generator. It uses the same cryptographically secure randomness that browsers use for encryption, so no entry is favoured, and the result is saved with a timestamp you can share. Nothing is uploaded – your list stays on your device.",
+    "uses": [
+     "Choose giveaway or raffle winners from comments or entries.",
+     "Pick a student to answer, present or go first in class.",
+     "Decide who buys coffee, does the dishes or picks the film.",
+     "Draw secret-santa or lottery-style numbers.",
+     "Select a random sample of customers or records for a survey or audit."
+    ],
+    "tips": [
+     "Tick “Unique” so nobody can win twice in a multi-winner draw.",
+     "Remove duplicate entries first if people entered more than once and that is not allowed.",
+     "For transparency, screen-record the draw or download the result with its timestamp.",
+     "Use number mode to pick a raffle ticket from 1 to the number sold.",
+     "Shuffle the whole list by picking as many entries as there are names."
+    ],
+    "more": [
+     [
+      "Why crypto randomness matters",
+      "Many simple pickers use Math.random, which is fast but not designed to be unpredictable, and naive code such as “random × length” can slightly favour some positions. This picker draws from crypto.getRandomValues and discards values that would create bias, so every entry has precisely equal odds. For a family game the difference is academic; for a public giveaway with prizes it lets you state honestly that the draw was uniformly random."
+     ],
+     [
+      "Running a fair giveaway",
+      "Publish the rules in advance: the closing time, who can enter, how many entries are allowed and how winners will be drawn. Collect entries into a list, remove disallowed or duplicate ones, then draw while recording your screen or live-streaming. Download the result, which includes the time of the draw and the number of entries, and keep it with your records. Many platforms and local laws have specific rules for promotions, so check those before you start."
+     ],
+     [
+      "Random numbers on demand",
+      "Switch to “Numbers” mode to generate integers in any range – one dice roll (1–6), six lottery numbers from 1–49 without repeats, or a random sample of row numbers from a spreadsheet. Results can be sorted for readability. Because each number is drawn independently with secure randomness, sequences are unpredictable, though this tool is not a certified generator for regulated gambling or lotteries."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Can I pick several winners at once?",
+      "a": "Yes – set “How many” and tick “Unique” to avoid repeats."
+     },
+     {
+      "q": "Can the same name win twice?",
+      "a": "Only if “Unique” is unticked. If a name appears twice in the list, it has two chances unless you remove duplicates."
+     },
+     {
+      "q": "Can I prove the result later?",
+      "a": "The downloaded result includes the date, time and number of entries. For public draws, recording the screen is the best evidence."
+     }
+    ]
+   }
+  },
+  "numpicker": {
+   "name": "Random Number Generator",
+   "short": "Generate random numbers in any range, with or without repeats.",
+   "title": "Random Number Generator – Pick Numbers 1–100 or Any Range | {brand}",
+   "desc": "Generate one or many random numbers between any minimum and maximum, with or without repeats, sorted or unsorted. Cryptographically secure, instant and free – great for raffles, games and sampling.",
+   "h1": "Random Number Generator",
+   "steps": [
+    "Set the minimum and maximum, e.g. 1 and 100.",
+    "Choose how many numbers and whether they must be unique.",
+    "Press pick, then copy or download the numbers."
+   ],
+   "faq": [
+    {
+     "q": "Are the numbers truly random?",
+     "a": "They come from the browser’s cryptographically secure generator (crypto.getRandomValues) with unbiased sampling, so every value in the range is equally likely."
+    },
+    {
+     "q": "Can I generate negative numbers?",
+     "a": "Yes. Any integer range works, e.g. −50 to 50."
+    }
+   ],
+   "guide": {
+    "intro": "Sometimes you just need a number: a raffle ticket, a dice roll, a lottery line or a random row to audit. {brand}’s random number generator gives you as many integers as you need in any range, with an option to forbid repeats, using secure randomness so the results cannot be predicted or skewed. It works offline once loaded and keeps a timestamped copy of each draw you download.",
+    "uses": [
+     "Draw the winning raffle ticket from those sold.",
+     "Roll virtual dice for board games and role-playing games.",
+     "Generate lottery-style lines of unique numbers.",
+     "Pick random sample rows from a spreadsheet or database for quality checks.",
+     "Create random seat, group or question numbers for a classroom."
+    ],
+    "tips": [
+     "For dice, use 1–6 (or 1–20 for a d20) and allow repeats.",
+     "For lottery lines, tick “Unique” and sort the result.",
+     "When sampling data, set the maximum to your row count and pick without repeats.",
+     "You can ask for up to the full range when “Unique” is on – that is a complete shuffle.",
+     "Download the result to keep a record of what was drawn and when."
+    ],
+    "more": [
+     [
+      "Uniform randomness explained",
+      "A fair generator gives every number in the range the same probability. That sounds simple, but turning random bits into a range such as 1–37 can introduce a small bias if done carelessly, because 37 does not divide evenly into a power of two. The generator uses rejection sampling: it discards the few raw values that would cause bias and draws again. The result is mathematically uniform, which matters when prizes or fairness are at stake."
+     ],
+     [
+      "With or without repeats",
+      "Drawing “with repeats” is like rolling a die: each roll is independent and the same value can come up again. Drawing “without repeats” is like pulling balls from a bag: once a number is chosen, it cannot be chosen again, so you can never draw more numbers than the range contains. Lotteries, raffles and random sampling usually need unique numbers; dice and simulations usually allow repeats."
+     ],
+     [
+      "Random sampling for audits and research",
+      "Quality teams and researchers often check a random subset instead of every record. Number your rows, set the range to match, pick the sample size without repeats and sort the result to make lookup easy. Because the numbers are unpredictable, nobody can steer which records are checked. For formal statistical work, note the date and method in your report – the downloaded file contains both."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How do I pick a number between 1 and 10?",
+      "a": "Set minimum 1, maximum 10, count 1, and press pick."
+     },
+     {
+      "q": "Can I generate 1,000 numbers?",
+      "a": "Yes, as long as the range is big enough when “Unique” is ticked."
+     },
+     {
+      "q": "Is this suitable for official lotteries?",
+      "a": "It is fair and secure for everyday use, but regulated lotteries and gambling require certified, audited equipment."
+     }
+    ]
+   }
+  },
+  "wheel": {
+   "name": "Spin the Wheel",
+   "short": "A colourful random wheel spinner for names and choices.",
+   "title": "Spin the Wheel – Random Name Wheel Spinner | {brand}",
+   "desc": "Type your choices and spin a colourful wheel to pick a random winner. Optional removal of winners, adjustable spin time, a full-screen-friendly canvas and secure randomness. Free, works offline, no ads on the wheel.",
+   "h1": "Spin the Wheel",
+   "steps": [
+    "Enter names or options, one per line.",
+    "Press Spin and watch the wheel slow down to a winner.",
+    "Optionally remove the winner automatically and spin again."
+   ],
+   "faq": [
+    {
+     "q": "Is the wheel fair?",
+     "a": "The winning slice is chosen with secure randomness before the animation starts, and every slice is the same size, so each entry has equal odds."
+    },
+    {
+     "q": "Can I save my list?",
+     "a": "Download is not needed – just keep your list in a note and paste it in. The online notepad on this site can store it in your browser."
+    }
+   ],
+   "guide": {
+    "intro": "A spinning wheel turns a dull random choice into a moment of suspense – perfect for classrooms, live streams, team meetings and parties. {brand}’s wheel spinner draws a colourful wheel from your list, spins with a satisfying slowdown and announces the winner. The winning slice is chosen with cryptographically secure randomness, every slice is equal, and you can remove each winner so the next spin picks someone new. It all runs in your browser with no sign-up.",
+    "uses": [
+     "Pick which student answers next or presents first.",
+     "Choose a giveaway winner live on stream or in a video call.",
+     "Decide what to eat, which game to play or where to go.",
+     "Assign chores, tasks or prizes in a fun, visible way.",
+     "Run icebreakers and quiz games at team meetings."
+    ],
+    "tips": [
+     "Tick “Remove winner” to work through a whole class without repeats.",
+     "Shorter spin times keep things moving; longer ones build suspense for prizes.",
+     "Up to about 100 entries remain readable; for more, use the random name picker.",
+     "Share your screen in a meeting so everyone sees the spin.",
+     "Duplicate an entry to give it a deliberately higher chance (e.g. bonus entries)."
+    ],
+    "more": [
+     [
+      "How the spinner chooses",
+      "When you press Spin, the tool first picks the winner using crypto.getRandomValues, then calculates an animation that lands precisely on that slice after several full turns, easing out like a real wheel. The visual spin is therefore just a presentation of a draw that is already fair. Equal slices mean equal odds, so if you want weighting, list a name more than once – each copy is a separate slice."
+     ],
+     [
+      "Using the wheel in a classroom",
+      "Teachers use wheels to pick students, topics, vocabulary words or review questions. It feels fair to pupils because they can see it happening, and removing winners guarantees that everyone gets a turn before anyone is picked twice. Keep your class list in a note and paste it in at the start of each lesson. Projected on a board, the large canvas is clear from the back of the room."
+     ],
+     [
+      "Live streams and online events",
+      "For giveaways on a stream or webinar, paste the eligible names, explain the rules and spin on screen. Viewers see the result at the same moment you do, which builds trust. If you need a written record, also use the random name picker’s download option, which saves a timestamped result. Remember to follow the platform’s rules for contests and promotions in your country."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How many names can the wheel hold?",
+      "a": "Hundreds technically, but labels become hard to read above about 100. The random name picker is better for very long lists."
+     },
+     {
+      "q": "Can I change the colours?",
+      "a": "Colours are assigned automatically from a bright, high-contrast palette so adjacent slices are always distinguishable."
+     },
+     {
+      "q": "Does it work on phones?",
+      "a": "Yes – the wheel scales to the screen and the Spin button is easy to tap."
+     }
+    ]
+   }
+  },
+  "username": {
+   "name": "Username Generator",
+   "short": "Creative usernames for games, social media and brands.",
+   "title": "Username Generator – Cool, Unique Usernames & Gamertags | {brand}",
+   "desc": "Generate creative usernames, gamertags and handles from your name or keywords. Cool, gamer, professional, cute, fantasy and minimal styles, length limits and separators. Free, instant, no sign-up.",
+   "h1": "Username Generator",
+   "steps": [
+    "Optionally type your name or a few keywords.",
+    "Pick a style, separator and maximum length.",
+    "Generate, then copy your favourites or download the list."
+   ],
+   "faq": [
+    {
+     "q": "Will the usernames be available?",
+     "a": "The tool cannot check every platform, so try your favourites on the site you are signing up for. Generating 20–50 options makes it easy to find one that is free."
+    },
+    {
+     "q": "Can I make usernames without my real name?",
+     "a": "Yes. Leave the keyword box empty and the generator combines random words in the chosen style."
+    }
+   ],
+   "guide": {
+    "intro": "“That username is taken” is the most frustrating message on the internet. {brand}’s username generator gives you dozens of fresh ideas at once, built from your own keywords or from curated word lists in six styles – cool, gamer, professional, cute, fantasy and minimal. You control the length and separator so results fit the rules of Instagram, TikTok, Xbox, PlayStation, Discord, Reddit or a domain name. It all happens in your browser; your keywords are not stored.",
+    "uses": [
+     "Find a gamertag for Xbox, PlayStation, Steam or Discord.",
+     "Create a social media handle that matches your niche or brand.",
+     "Pick an anonymous name for forums, Reddit or online communities.",
+     "Brainstorm a short brand name before checking domains.",
+     "Generate a set of distinct test account names for software testing."
+    ],
+    "tips": [
+     "Keep it short – 8 to 15 characters is easy to remember and type.",
+     "Avoid your birth year or full name if you want privacy.",
+     "Use the same handle everywhere to make your brand easier to find.",
+     "Underscores and dots are allowed on most platforms; hyphens often are not.",
+     "Say the name out loud – if it is hard to spell when heard, people will mistype it."
+    ],
+    "more": [
+     [
+      "Choosing the right style",
+      "A gamer tag can be bold and playful (ShadowViper, NovaRaid), while a professional handle should be clear and brandable (AlexDesigns, StudioMaya). Cute styles suit lifestyle and art accounts; fantasy names work for role-playing and gaming communities; minimal names are short and abstract, which makes them more likely to be available as a domain. Switching style regenerates the list with new vocabulary, so experiment until something clicks."
+     ],
+     [
+      "Platform rules to keep in mind",
+      "Instagram allows letters, numbers, periods and underscores up to 30 characters. TikTok permits 24 characters with letters, numbers, underscores and periods. X (Twitter) handles are limited to 15 characters with letters, numbers and underscores only. Xbox gamertags allow up to 12 visible characters plus a suffix. Set the maximum length and separator accordingly, and the generator will only show names that fit."
+     ],
+     [
+      "Privacy and safety",
+      "A username is public, so it should not reveal your full name, age, school, address or birthday unless you intend it to. Avoid patterns that combine first name and year of birth – that alone can help someone guess security answers. For children and teens, a neutral fantasy or cute name is a sensible default. Keep your gaming, professional and personal identities separate if you prefer not to link them."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How many usernames can I generate?",
+      "a": "Up to 100 per click, and you can click again as often as you like for new ideas."
+     },
+     {
+      "q": "Are numbers added?",
+      "a": "Only if “Add numbers sometimes” is ticked; untick it for cleaner names."
+     },
+     {
+      "q": "Can I use the names commercially?",
+      "a": "Yes – the names are random word combinations. For a brand, also check trademarks and domain availability."
+     }
+    ]
+   }
+  },
+  "hashtag": {
+   "name": "Hashtag Generator",
+   "short": "Relevant hashtags for Instagram, TikTok, X, LinkedIn and YouTube.",
+   "title": "Hashtag Generator – Instagram, TikTok & LinkedIn Hashtags | {brand}",
+   "desc": "Turn a caption or topic into relevant hashtags for Instagram, TikTok, X, LinkedIn and YouTube. Curated niche sets, platform-appropriate counts and readable CamelCase. Free, no login, nothing uploaded.",
+   "h1": "Hashtag Generator",
+   "steps": [
+    "Describe your post or paste the caption.",
+    "Pick a niche (or let it detect one) and the platform.",
+    "Copy the hashtags or download them as text."
+   ],
+   "faq": [
+    {
+     "q": "How many hashtags should I use?",
+     "a": "Instagram allows 30 but 8–15 relevant tags usually work best; TikTok 3–6; X 1–2; LinkedIn 3–5. The generator follows these counts automatically."
+    },
+    {
+     "q": "Does it use live trending data?",
+     "a": "No. It combines your own keywords with curated, evergreen niche sets. Check the platform’s search for current trends before posting."
+    }
+   ],
+   "guide": {
+    "intro": "Hashtags help the right people find your posts, but stuffing thirty generic tags into a caption looks spammy and rarely works. {brand}’s hashtag generator picks tags from the words you actually use, adds a curated set from your niche – travel, food, fitness, fashion, photography, business, pets and more – and limits the number to what each platform recommends. CamelCase output makes multi-word tags readable and accessible to screen readers.",
+    "uses": [
+     "Plan hashtags for an Instagram post or Reel in seconds.",
+     "Add a short, focused set to a TikTok caption.",
+     "Choose a couple of professional tags for a LinkedIn update.",
+     "Tag a YouTube video or Short for search.",
+     "Build a reusable hashtag bank for a small business or creator account."
+    ],
+    "tips": [
+     "Mix broad tags with specific ones – #travel plus #dolomiteshiking.",
+     "Always include one or two tags unique to your brand or event.",
+     "Avoid banned or spammy tags; check them in the app’s search first.",
+     "Use CamelCase (#SunsetHike) so tags are readable and accessible.",
+     "Rotate sets between posts rather than pasting the identical block every time."
+    ],
+    "more": [
+     [
+      "How the generator chooses tags",
+      "It first extracts meaningful words and two-word phrases from your description, ignoring common filler words, and turns them into tags. If you selected a niche – or it detects one from your words – it blends in proven tags from that category. Finally it trims the list to the recommended size for your platform, putting your own specific tags first, because the most relevant tags generally matter more than the most popular ones."
+     ],
+     [
+      "Hashtags on each platform",
+      "On Instagram, hashtags still aid discovery, especially niche ones with thousands rather than millions of posts. TikTok relies more on content and watch time, so a few precise tags are enough. On X, more than two tags tends to reduce engagement. LinkedIn suggests three to five professional tags. YouTube shows the first three hashtags above the title and ignores all tags if you use more than about fifteen, so less really is more."
+     ],
+     [
+      "Accessibility and readability",
+      "Screen readers read #sunsethikewithdog as one long word, but #SunsetHikeWithDog is read naturally. Capitalising each word also prevents unfortunate misreadings of joined words. The CamelCase option does this for you without changing how the tag works – hashtags are not case-sensitive, so #SunsetHike and #sunsethike lead to the same feed."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Are hashtags case-sensitive?",
+      "a": "No. #TravelTips and #traveltips are the same tag; capitals only improve readability."
+     },
+     {
+      "q": "Where should I put hashtags?",
+      "a": "In the caption or the first comment on Instagram; at the end of the caption on TikTok and LinkedIn; in the description on YouTube."
+     },
+     {
+      "q": "Can I generate hashtags in other languages?",
+      "a": "Your own words in any language become tags; the curated niche sets are in English."
+     }
+    ]
+   }
+  },
+  "fakeaddr": {
+   "name": "Fake Address Generator (Test Data)",
+   "short": "Realistic but fictional test addresses for software testing.",
+   "title": "Fake Address Generator – Test Data for US, UK, India & More | {brand}",
+   "desc": "Generate clearly fictional test addresses, names, phone numbers and emails in US, UK, Canadian, Australian, German, Indian and French formats. CSV or JSON for QA, demos and form testing. Not for fraud.",
+   "h1": "Fake Address Generator (Test Data)",
+   "steps": [
+    "Choose a country format and how many records you need.",
+    "Decide whether to include names and emails.",
+    "Download as CSV or JSON for your tests or demo data."
+   ],
+   "faq": [
+    {
+     "q": "Are these real addresses?",
+     "a": "No. Street names, house numbers and names are randomly combined. Phone numbers use ranges reserved for fiction (such as 555-01xx in North America and Ofcom’s drama numbers in the UK) and emails use the reserved example.com domain."
+    },
+    {
+     "q": "Can I use them to sign up for services?",
+     "a": "No. This is test data for developers and testers. Using fake details to deceive a business or avoid identification can be illegal."
+    }
+   ],
+   "guide": {
+    "intro": "Developers, testers and designers often need realistic-looking addresses to test forms, databases, shipping calculators or demo screens – but using real people’s data is a privacy risk. {brand}’s generator produces clearly fictional records in seven country formats, with the right postcode shapes, phone formats and address order, using reserved fictional phone ranges and example.com email addresses so nothing can reach a real person. Every file is labelled as test data.",
+    "uses": [
+     "Fill sign-up and checkout forms during manual or automated testing.",
+     "Seed a development or staging database with realistic records.",
+     "Create screenshots and demos that do not expose customer data.",
+     "Test address validation and international postcode formats.",
+     "Prepare sample CSVs for training sessions and spreadsheet tutorials."
+    ],
+    "tips": [
+     "Generate the country formats your product actually supports.",
+     "Use JSON for test fixtures and CSV for imports into spreadsheets or CRMs.",
+     "Keep test and production data clearly separated – the “TEST DATA” label helps.",
+     "Real address validators may reject these addresses – that is expected and useful for testing failure paths.",
+     "Need more variety? Generate several batches; each is random."
+    ],
+    "more": [
+     [
+      "Why not use real data?",
+      "Copying real customer records into test environments is one of the most common causes of data leaks, and in many places it conflicts with data-protection laws such as GDPR. Synthetic data avoids this: it looks plausible, exercises the same code paths and contains no personal information. Fictional records also let you share screenshots, bug reports and demos freely without redacting anything."
+     ],
+     [
+      "How the fictional details are made",
+      "Each record combines common first and last names with random house numbers, common street names, real-looking cities and postcodes in the correct format for the country. Phone numbers are taken from ranges officially set aside for fiction or never assigned – for example 555-0100 to 555-0199 in the US and Canada, 07700 900xxx in the UK, and the 0491 570 range in Australia. Email addresses always end in @example.com, a domain reserved by the internet standards body for documentation."
+     ],
+     [
+      "Responsible use",
+      "The generator is built for software quality and education. It must not be used to deceive businesses, avoid fraud checks, register accounts under a false identity or evade law enforcement. If a service needs your real address for delivery, billing or legal reasons, give it your real one, or use a privacy feature the service provides. Some combinations may coincidentally resemble a real place; never send anything to them."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Which countries are supported?",
+      "a": "United States, United Kingdom, Canada, Australia, Germany, India and France, each with its own address order and postcode style."
+     },
+     {
+      "q": "How many records can I generate?",
+      "a": "Up to 500 per download."
+     },
+     {
+      "q": "Do the postcodes exist?",
+      "a": "They follow the correct format and may resemble real ones, but they are randomly generated and should not be relied on for delivery."
+     }
+    ]
+   }
+  },
+  "metatags": {
+   "name": "Meta Tag Generator",
+   "short": "SEO, Open Graph and Twitter Card tags with a live Google preview.",
+   "title": "Meta Tag Generator – SEO, Open Graph & Twitter Card Tags | {brand}",
+   "desc": "Generate title, meta description, canonical, robots, Open Graph and X/Twitter Card tags with a live Google snippet preview and length checks. Copy the HTML or download it. Free, no sign-up.",
+   "h1": "Meta Tag Generator",
+   "steps": [
+    "Fill in the page title, description, URL and share image.",
+    "Watch the length counters and the Google-style preview.",
+    "Copy the generated <head> tags or download them as an HTML file."
+   ],
+   "faq": [
+    {
+     "q": "How long should a title and description be?",
+     "a": "Aim for about 50–60 characters for titles and 120–160 for descriptions. Google truncates by pixel width, so the preview shows roughly where text is cut."
+    },
+    {
+     "q": "Do meta keywords still matter?",
+     "a": "No. Google has ignored the keywords meta tag for over a decade, so the generator leaves it out."
+    }
+   ],
+   "guide": {
+    "intro": "The tags in a page’s <head> decide how it looks in Google results and when it is shared on Facebook, LinkedIn, WhatsApp or X. Getting them right takes a dozen lines of fiddly HTML. {brand}’s meta tag generator writes them for you – title, description, canonical, robots, language, theme colour, Open Graph and Twitter Card – while counting characters and showing a live search-result preview, so you can tune the wording before publishing.",
+    "uses": [
+     "Write the head tags for a new landing page, blog post or product page.",
+     "Fix pages that show the wrong title or no image when shared.",
+     "Add a canonical URL to stop duplicate-content issues.",
+     "Mark a staging or thank-you page as noindex.",
+     "Teach clients or students what each meta tag does."
+    ],
+    "tips": [
+     "Put the main keyword near the start of the title, then your brand.",
+     "Write the description as an advert: what the page offers and why to click.",
+     "Use a 1200×630 px share image with text large enough to read on phones.",
+     "Every page should have a unique title and description.",
+     "After publishing, test the URL with the Open Graph preview tool on this site."
+    ],
+    "more": [
+     [
+      "The tags that matter for search",
+      "The title tag is the strongest on-page signal and the blue headline in results. The meta description does not affect ranking directly, but a compelling one raises click-through. The canonical link tells search engines which URL is the main version when the same content is reachable at several addresses. The robots tag controls indexing – use noindex for pages that should never appear in results, such as internal search pages or order confirmations."
+     ],
+     [
+      "Open Graph and Twitter Cards",
+      "Open Graph tags (og:title, og:description, og:image, og:url, og:type, og:site_name) were introduced by Facebook and are now read by LinkedIn, WhatsApp, Slack, Discord, iMessage and many others. X uses its own twitter:card tags but falls back to Open Graph. The generator outputs both sets, using summary_large_image when you supply an image, so your link appears as a big, clickable card rather than a bare URL."
+     ],
+     [
+      "Where to paste the tags",
+      "Paste the output inside the <head> element of your HTML, replacing any existing title and description so there are no duplicates. In WordPress, Shopify, Wix or Squarespace, most of these fields live in the page’s SEO settings, so use the generator to draft the text and then copy each value into the matching field. Static site generators usually accept them in a layout template or front-matter."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Does the generator check my live page?",
+      "a": "No – it creates tags from what you enter. To inspect an existing page, paste its HTML into the Open Graph preview tool."
+     },
+     {
+      "q": "What image size is best for sharing?",
+      "a": "1200×630 pixels (1.91:1), under about 5 MB, in JPG or PNG."
+     },
+     {
+      "q": "Should I include the brand name in the title?",
+      "a": "Usually yes, at the end: “Handmade Ceramic Mugs | Clay & Co.”"
+     }
+    ]
+   }
+  },
+  "robots": {
+   "name": "Robots.txt Generator",
+   "short": "Build a robots.txt with AI-crawler blocking and a URL tester.",
+   "title": "Robots.txt Generator – Block AI Crawlers, Add Sitemap | {brand}",
+   "desc": "Create a valid robots.txt file: allow or block all crawlers, disallow folders, block AI training bots like GPTBot and CCBot, add your sitemap and crawl-delay, and test any URL against the rules. Free.",
+   "h1": "Robots.txt Generator",
+   "steps": [
+    "Choose the default rule and list folders to disallow or allow.",
+    "Optionally block AI crawlers and add your sitemap URL.",
+    "Test a path against the rules, then download robots.txt and upload it to your site root."
+   ],
+   "faq": [
+    {
+     "q": "Where does robots.txt go?",
+     "a": "At the root of your domain, e.g. https://www.example.com/robots.txt. Each subdomain needs its own file."
+    },
+    {
+     "q": "Does robots.txt hide pages from Google?",
+     "a": "It stops well-behaved crawlers from fetching pages, but a blocked URL can still be indexed if other sites link to it. Use a noindex tag to keep a page out of results."
+    }
+   ],
+   "guide": {
+    "intro": "Every search engine and most bots check /robots.txt before crawling a site. One misplaced slash can hide a whole website from Google, while a missing rule can let crawlers waste time on endless filter pages. {brand}’s robots.txt generator builds a correct file from simple options, can opt your site out of the main AI-training crawlers, adds your sitemap, and includes a tester that tells you whether a specific URL would be allowed – before you upload anything.",
+    "uses": [
+     "Create a first robots.txt for a new website.",
+     "Block admin, cart, search and staging folders from crawlers.",
+     "Opt out of AI model training crawlers such as GPTBot, CCBot and Google-Extended.",
+     "Point search engines at your XML sitemap.",
+     "Check why a page is not being crawled by testing it against your rules."
+    ],
+    "tips": [
+     "Never disallow CSS and JavaScript folders – Google needs them to render pages.",
+     "Use a trailing slash for folders (/admin/) so /administrator-guide is not blocked too.",
+     "* matches any characters and $ marks the end of a URL, e.g. Disallow: /*.pdf$",
+     "Do not use robots.txt to hide private content; protect it with a login.",
+     "After uploading, open yoursite.com/robots.txt in a browser to confirm it is live."
+    ],
+    "more": [
+     [
+      "How robots.txt rules are read",
+      "A file contains groups that start with one or more User-agent lines followed by Allow and Disallow rules. A crawler uses the most specific group that names it, or the * group otherwise. Within a group, Google and Bing apply the rule with the longest matching path, and Allow wins a tie. That is why “Disallow: /shop/” plus “Allow: /shop/products/” blocks the shop but keeps product pages crawlable. The built-in tester follows the same logic."
+     ],
+     [
+      "Blocking AI crawlers",
+      "Several companies crawl the web to train AI models and publish user-agent names you can block: GPTBot (OpenAI), Google-Extended (Google’s AI training control), CCBot (Common Crawl), ClaudeBot (Anthropic), PerplexityBot and Bytespider. Ticking the option adds a Disallow: / group for each. Reputable operators honour these rules, though robots.txt is voluntary and cannot technically stop a bot that ignores it. Blocking Google-Extended does not affect normal Google Search."
+     ],
+     [
+      "Crawl-delay and sitemaps",
+      "Crawl-delay asks bots to wait a number of seconds between requests. Bing and Yandex respect it; Google ignores it and adjusts speed automatically. Only use it if bots are overloading a small server. The Sitemap line can appear anywhere in the file and helps every search engine discover your XML sitemap. You can list several sitemaps, each with its own full https:// URL."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "What does “Disallow:” with nothing after it mean?",
+      "a": "It allows everything. “Disallow: /” blocks the entire site."
+     },
+     {
+      "q": "Is robots.txt case-sensitive?",
+      "a": "Paths are case-sensitive (/Admin/ differs from /admin/); user-agent names are not."
+     },
+     {
+      "q": "How quickly does Google notice changes?",
+      "a": "Google usually re-fetches robots.txt within a day."
+     }
+    ]
+   }
+  },
+  "sitemap": {
+   "name": "XML Sitemap Generator",
+   "short": "Turn a list of URLs into a valid sitemap.xml.",
+   "title": "XML Sitemap Generator – Create sitemap.xml from URLs | {brand}",
+   "desc": "Paste your page URLs and get a valid XML sitemap with lastmod, changefreq and priority. Removes duplicates, validates URLs, escapes special characters and handles up to 50,000 URLs. Free and private.",
+   "h1": "XML Sitemap Generator",
+   "steps": [
+    "Paste your page URLs, one per line.",
+    "Choose lastmod date, change frequency and priority options.",
+    "Download sitemap.xml, upload it to your site and submit it in Search Console."
+   ],
+   "faq": [
+    {
+     "q": "Does it crawl my website?",
+     "a": "No. A browser cannot crawl other sites, so you paste the URLs. Export them from your CMS, a spreadsheet or your analytics pages report."
+    },
+    {
+     "q": "How many URLs can a sitemap hold?",
+     "a": "Up to 50,000 URLs and 50 MB uncompressed. For bigger sites, split into several sitemaps and list them in a sitemap index."
+    }
+   ],
+   "guide": {
+    "intro": "An XML sitemap is a list of the pages you want search engines to know about. It helps new sites get discovered, makes sure deep pages are not missed and signals when content changes. {brand}’s generator turns any pasted list of URLs into a valid sitemap that follows the sitemaps.org protocol – cleaning duplicates, rejecting invalid lines, escaping special characters and adding optional lastmod, changefreq and priority values. Nothing is sent to a server.",
+    "uses": [
+     "Create a sitemap for a hand-coded or static website.",
+     "Build a sitemap for a subset of pages, such as a new product range.",
+     "Replace a broken or outdated sitemap from an old plugin.",
+     "Submit important pages to Google Search Console and Bing Webmaster Tools.",
+     "Prepare a sitemap during a site migration to speed up re-indexing."
+    ],
+    "tips": [
+     "Only include canonical, indexable pages that return status 200.",
+     "Use full absolute URLs with https:// and the same host version everywhere.",
+     "Keep lastmod honest – Google ignores it if it changes on every crawl.",
+     "Add a Sitemap: line to robots.txt so all search engines find it.",
+     "Regenerate the sitemap whenever you add or remove pages."
+    ],
+    "more": [
+     [
+      "What search engines use",
+      "Google reads the loc and lastmod fields and ignores changefreq and priority. Bing uses lastmod as a hint too. The optional fields do no harm, which is why the generator offers them, but the real value of a sitemap is a clean, complete list of URLs you want indexed with accurate modification dates. A sitemap does not guarantee indexing – it is a discovery aid – but it often speeds it up on new and large sites."
+     ],
+     [
+      "Cleaning your URL list",
+      "Duplicate URLs, mixed http and https versions, trailing-slash inconsistencies and parameters such as ?utm_source make sitemaps noisy. The generator removes exact duplicates, can normalise trailing slashes, and skips lines that are not valid URLs, listing them so you can fix them. Ampersands and other special characters are escaped as XML requires, which prevents the most common “sitemap could not be read” errors."
+     ],
+     [
+      "Submitting your sitemap",
+      "Upload sitemap.xml to your web root so it is reachable at https://yoursite.com/sitemap.xml. Then add it in Google Search Console under Sitemaps and in Bing Webmaster Tools, and add a Sitemap: line to robots.txt. Search Console reports how many URLs were discovered and indexed, which is a handy health check. Resubmit after large changes; small ones are picked up automatically."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Do I need a sitemap for a small site?",
+      "a": "Not strictly – Google can find well-linked pages – but it is quick to make and helps new pages get discovered faster."
+     },
+     {
+      "q": "What is lastmod?",
+      "a": "The date the page content last changed meaningfully, in W3C date format such as 2026-10-25."
+     },
+     {
+      "q": "Can I include images or videos?",
+      "a": "This tool creates a standard URL sitemap. Image and video sitemap extensions are not included."
+     }
+    ]
+   }
+  },
+  "kwdensity": {
+   "name": "Keyword Density Checker",
+   "short": "Find the most used words and phrases in any text or page.",
+   "title": "Keyword Density Checker – Word & Phrase Frequency for SEO | {brand}",
+   "desc": "Paste text or HTML to see keyword density for single words, 2-word and 3-word phrases, check a target keyword, filter stop words and spot over-optimisation. Free, private, no word limit.",
+   "h1": "Keyword Density Checker",
+   "steps": [
+    "Paste your article, page copy or full HTML.",
+    "Pick single words or phrases and optionally enter a target keyword.",
+    "Review the table and download it as CSV."
+   ],
+   "faq": [
+    {
+     "q": "What is a good keyword density?",
+     "a": "There is no magic number. Write naturally; if one term goes well above about 2–3% of all words, the text probably reads as repetitive."
+    },
+    {
+     "q": "Can I paste HTML?",
+     "a": "Yes. Tags, scripts and styles are stripped, so only the visible text is counted."
+    }
+   ],
+   "guide": {
+    "intro": "Keyword density is the share of a text made up by a given word or phrase. It will not rank a page on its own, but it is a quick way to see what your copy is really about, spot accidental repetition and confirm that your main topic and its related phrases actually appear. {brand}’s checker counts single words and two- or three-word phrases, filters common stop words, checks a target keyword and flags terms that look over-used – all locally, so drafts stay private.",
+    "uses": [
+     "Check a blog post before publishing to see if the topic is clear.",
+     "Find repetitive words that make writing feel clunky.",
+     "Compare your page’s vocabulary with a competitor’s by pasting both.",
+     "Verify that a target keyword appears in the copy without stuffing.",
+     "Review product descriptions or ad copy for balance."
+    ],
+    "tips": [
+     "Use 2- and 3-word phrases to see real search terms, not just single words.",
+     "Keep stop words filtered to focus on meaningful vocabulary.",
+     "Raise the minimum count to hide words that appear only once.",
+     "Use synonyms and related terms rather than repeating one phrase.",
+     "Read your text aloud – if a phrase sounds repetitive, readers will notice."
+    ],
+    "more": [
+     [
+      "How density is calculated",
+      "Density is the number of times a term appears divided by the total number of words, multiplied by 100. For phrases, the tool counts every overlapping run of two or three words that does not cross a sentence break. With stop words filtered, words such as “the”, “and” or “is” are hidden from the table, though they still count towards the total so percentages stay honest. Numbers and words in any language with spaces between words are counted."
+     ],
+     [
+      "Keyword density and modern SEO",
+      "Search engines stopped relying on simple repetition long ago. They understand synonyms, context and intent, and repeated keywords can even look spammy. Today density is best used as a diagnostic: a page about cold brew coffee should clearly mention cold brew, coffee, steeping, grounds and so on. If your main term is missing, or a single phrase dominates unnaturally, the checker makes it obvious in seconds."
+     ],
+     [
+      "Improving your copy with the results",
+      "Look at the top ten terms: do they describe the page’s purpose? If not, add sections that cover the subject more fully. If one term is far ahead of the rest, swap some instances for pronouns or related words. Check that the target keyword appears in the title, the first paragraph and at least one subheading. Then paste the revised version and compare – the CSV export makes before-and-after tracking easy."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is there a word limit?",
+      "a": "No fixed limit; very long texts of 100,000+ words still run in a second or two."
+     },
+     {
+      "q": "Does it work for other languages?",
+      "a": "Yes for languages that separate words with spaces. The stop-word list is English."
+     },
+     {
+      "q": "Can it fetch a URL?",
+      "a": "No – browsers cannot read other sites directly. Open the page, copy its text or view-source HTML and paste it in."
+     }
+    ]
+   }
+  },
+  "ogpreview": {
+   "name": "Open Graph Preview",
+   "short": "See how a link will look on Facebook, X, LinkedIn, WhatsApp and Slack.",
+   "title": "Open Graph Preview – Check Link Previews for Facebook, X & LinkedIn | {brand}",
+   "desc": "Preview how your page will appear when shared on Facebook, X, LinkedIn, WhatsApp, Slack and Discord. Paste HTML or fill in og: tags, test an image, get warnings and copy fixed tags. Free.",
+   "h1": "Open Graph Preview",
+   "steps": [
+    "Paste your page’s HTML source, or type the title, description and image.",
+    "Compare the previews for each social network and read any warnings.",
+    "Copy or download the corrected Open Graph tags."
+   ],
+   "faq": [
+    {
+     "q": "Why does my link show the wrong image?",
+     "a": "Social networks cache previews. After fixing tags, ask the network to re-scrape – for example with Facebook’s Sharing Debugger or LinkedIn’s Post Inspector."
+    },
+    {
+     "q": "Can it fetch my URL directly?",
+     "a": "Browsers block reading other websites, so paste the page source (View Source, then copy all) and the tags are extracted for you."
+    }
+   ],
+   "guide": {
+    "intro": "Links shared without proper Open Graph tags show up as plain URLs or with a random image, and get far fewer clicks. {brand}’s Open Graph preview shows mock-ups of how your page will appear on Facebook, X, LinkedIn, WhatsApp, Slack and Discord, side by side. Paste the HTML or fill in fields, try a local image to see the crop, and read clear warnings about missing tags, long titles or the wrong image shape – before anyone shares your link.",
+    "uses": [
+     "Check a blog post or product page before launching a campaign.",
+     "Debug why a link looks wrong in WhatsApp or Slack.",
+     "Test different share images and titles to see which looks best.",
+     "Review a client’s pages for missing social tags during an SEO audit.",
+     "Generate a clean Open Graph block for a page that has none."
+    ],
+    "tips": [
+     "Use a 1200×630 image; keep key text in the centre so square crops still work.",
+     "Keep og:title under about 60 characters and og:description under about 160.",
+     "Always use absolute https:// URLs for og:image and og:url.",
+     "Add twitter:card = summary_large_image for big previews on X.",
+     "After changing tags, clear the network’s cache with its debugger tool."
+    ],
+    "more": [
+     [
+      "How link previews are built",
+      "When someone pastes a link, the platform’s crawler fetches the page and reads the og: meta tags in its <head>: og:title, og:description, og:image, og:url and og:site_name. If they are missing, it guesses from the page title and the first images it finds, which often gives poor results. Each network then lays the information out differently – large image cards on Facebook and LinkedIn, compact cards in WhatsApp and Slack – which is why previewing several at once is helpful."
+     ],
+     [
+      "Image size and cropping",
+      "The safest share image is 1200×630 pixels at 1.91:1. Facebook, LinkedIn and X show it wide; WhatsApp and some messengers show a small square thumbnail cropped from the centre. Text near the edges can be cut off, so put logos and headlines in the middle. Choose a local file in the tool to see your image in every layout before uploading it. Images under 200 pixels wide may not be shown at all."
+     ],
+     [
+      "Common mistakes the checker catches",
+      "Relative image paths such as /img/share.jpg instead of a full https:// address, a missing og:image or og:url, titles long enough to be truncated, descriptions that run past about 160 characters, a missing description, and images whose shape is far from 1.91:1 and will therefore be cropped. Each warning explains the fix. Once the previews look right, copy the generated tags into your page head or SEO plugin, publish, and re-scrape the URL on each network so the new preview replaces the cached one."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Which networks are previewed?",
+      "a": "Facebook, X (Twitter), LinkedIn, WhatsApp, Slack and Discord, as approximations of their current card layouts."
+     },
+     {
+      "q": "Are the previews pixel-perfect?",
+      "a": "They closely mimic each layout, but networks change their designs often, so treat them as a guide."
+     },
+     {
+      "q": "Is my HTML uploaded?",
+      "a": "No. Parsing happens in your browser."
+     }
+    ]
+   }
+  },
+  "myip": {
+   "name": "What Is My IP Address",
+   "short": "See your public IP, browser, device and screen details.",
+   "title": "What Is My IP? – IP Address, User Agent & Browser Info | {brand}",
+   "desc": "See your public IPv4 and IPv6 address, user agent, browser, operating system, screen size, language, time zone and other details your browser shares with every website. Copy or download a report.",
+   "h1": "What Is My IP Address?",
+   "steps": [
+    "Open the page – your browser details appear immediately.",
+    "Leave “Look up my public IP” ticked to see your IPv4/IPv6 address.",
+    "Copy or download the report for IT support."
+   ],
+   "faq": [
+    {
+     "q": "How is my IP found?",
+     "a": "Your browser makes one request to the free public service api.ipify.org, which simply echoes the address it sees. Untick the box to skip it; {brand} does not log your IP."
+    },
+    {
+     "q": "Why does it show a different location or provider?",
+     "a": "Public IPs belong to your internet provider, VPN or mobile network, so location databases often point to their data centre rather than your home."
+    }
+   ],
+   "guide": {
+    "intro": "Support teams, game servers, firewalls and remote-access tools often ask for “your IP address” or browser details, and finding them in system settings is confusing. {brand}’s page shows the public IPv4 and IPv6 address the internet sees, plus your user agent string, browser, operating system, screen and window size, pixel ratio, language, time zone, cookie and Do Not Track settings – the same information any website can see. One click copies a tidy report for a help-desk ticket.",
+    "uses": [
+     "Give your IP address to IT support, a game server admin or a remote-desktop helper.",
+     "Check that a VPN or proxy is actually changing your public IP.",
+     "Copy your exact browser and OS version for a bug report.",
+     "Whitelist your office IP in a firewall, database or hosting panel.",
+     "See what information websites can read from your browser."
+    ],
+    "tips": [
+     "Compare the result with your VPN on and off to confirm it works.",
+     "If only IPv4 shows, your network does not provide IPv6 – that is normal.",
+     "Your IP can change when your router restarts; check again before whitelisting.",
+     "Never share remote-access codes with strangers who ask for your IP.",
+     "Untick the IP lookup if you only need browser details."
+    ],
+    "more": [
+     [
+      "Public and private IP addresses",
+      "Devices on your home or office network have private addresses such as 192.168.1.20, which are invisible to the internet. Your router shares one public address for all of them using network address translation. Websites, game servers and firewalls see that public address, which is what this page shows. Mobile networks often share a single public IP among many customers, so it is not a reliable way to identify one person."
+     ],
+     [
+      "IPv4 and IPv6",
+      "IPv4 addresses look like 203.0.113.42 and there are only about four billion of them, so they are scarce. IPv6 addresses look like 2001:db8::1 and are practically unlimited. Many connections now have both; the page asks for each separately and shows whichever your network provides. Some services behave differently over IPv6, so when whitelisting an address it can help to add both."
+     ],
+     [
+      "What your user agent reveals",
+      "The user agent string tells websites which browser, version and operating system you use so they can serve compatible pages. Modern browsers have reduced the detail they share for privacy, so a recent Chrome may report a simplified version number. Combined with screen size, language and time zone, these details can form a rough “fingerprint”. Privacy-focused browsers and extensions reduce this; the page lets you see how much you are sharing."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Can someone find my home address from my IP?",
+      "a": "Not directly. An IP usually reveals your provider and an approximate city at best. Only your provider can link it to your account, normally with a legal request."
+     },
+     {
+      "q": "Is my IP stored?",
+      "a": "Not by {brand}. The lookup goes straight from your browser to ipify, whose policy states it does not log addresses."
+     },
+     {
+      "q": "Why is my IPv6 missing?",
+      "a": "Your network or device does not have IPv6 connectivity."
+     }
+    ]
+   }
+  },
+  "palette": {
+   "name": "Color Palette Extractor",
+   "short": "Pull the main colours out of any image as HEX, RGB and CSS.",
+   "title": "Color Palette Extractor – Get HEX Colors from an Image | {brand}",
+   "desc": "Upload a photo, logo or screenshot and extract its dominant colours as HEX, RGB and HSL with percentages. Download a swatch PNG, CSS variables, JSON or a GIMP/Inkscape palette. Free and private.",
+   "h1": "Color Palette Extractor",
+   "steps": [
+    "Choose an image – photo, logo, artwork or screenshot.",
+    "Pick how many colours you want (3–12).",
+    "Click a swatch to copy its HEX, or download the palette in your preferred format."
+   ],
+   "faq": [
+    {
+     "q": "Is my image uploaded?",
+     "a": "No. The image is analysed in your browser using a canvas; it never leaves your device."
+    },
+    {
+     "q": "How are the colours chosen?",
+     "a": "Pixels are grouped with k-means clustering in a perceptual colour space, so the palette reflects colours as people see them, ordered by how much of the image each covers."
+    }
+   ],
+   "guide": {
+    "intro": "Great palettes are often found, not invented – in a sunset photo, a vintage poster or a competitor’s logo. {brand}’s colour palette extractor analyses any image and returns its dominant colours with HEX, RGB and HSL values and the share of the image each one covers. Download the result as a swatch image, ready-to-paste CSS custom properties, JSON or a .gpl palette for GIMP and Inkscape. The analysis runs on your own device.",
+    "uses": [
+     "Build a website or brand palette from a mood-board photo.",
+     "Match a presentation or social graphic to a client’s logo.",
+     "Find the exact colours used in a screenshot or design reference.",
+     "Create paint, interior or wedding colour schemes from inspiration pictures.",
+     "Export palettes for illustration apps and design systems."
+    ],
+    "tips": [
+     "Fewer colours (5–6) give a cleaner, more usable palette.",
+     "Crop busy images first so the palette focuses on the subject.",
+     "Sort by hue to arrange colours as a smooth gradient.",
+     "Check text and background pairs for contrast before using them in a design.",
+     "Use the CSS variables export to drop the palette straight into a stylesheet."
+    ],
+    "more": [
+     [
+      "How the extraction works",
+      "The image is scaled down to a manageable number of pixels, then every pixel is placed in a colour space designed to match human perception. A k-means clustering algorithm groups similar pixels and finds the average colour of each group. The largest groups become the dominant colours. Working in a perceptual space means two colours that look different to you are kept apart, even if their raw RGB numbers are close."
+     ],
+     [
+      "HEX, RGB and HSL explained",
+      "HEX (#2A9D8F) is the compact format used in HTML, CSS and most design apps. RGB lists the red, green and blue components from 0 to 255. HSL describes hue (the colour wheel angle), saturation (intensity) and lightness, which is the easiest format for making lighter or darker variations – keep the hue and change the lightness. Every swatch shows all three so you can paste whichever your tool needs."
+     ],
+     [
+      "Turning a palette into a design",
+      "A practical scheme usually has one or two dominant colours, a neutral for backgrounds and text, and an accent for buttons and highlights. Take the most common extracted colour as your base, find a contrasting accent among the rest, and test readability. The 60-30-10 rule – 60% main, 30% secondary, 10% accent – is a reliable starting point for slides, websites and rooms alike."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Which image formats work?",
+      "a": "JPG, PNG, WebP, GIF, BMP and most other formats your browser can display, including HEIC on Safari."
+     },
+     {
+      "q": "Can I get more than 12 colours?",
+      "a": "The maximum is 12, which covers almost every design use. For exact pixel colours, use a colour picker instead."
+     },
+     {
+      "q": "Does transparency affect the result?",
+      "a": "Fully transparent pixels are ignored, so logos on transparent backgrounds give clean palettes."
+     }
+    ]
+   }
+  },
+  "imgsplit": {
+   "name": "Image Splitter",
+   "short": "Cut an image into a grid of tiles – rows, columns or Instagram grid.",
+   "title": "Image Splitter – Split Image into Grid Tiles Online | {brand}",
+   "desc": "Split any image into equal tiles: 3×3 Instagram grid, 3×1 panorama carousel, or any custom rows and columns. Square or 4:5 tiles, correct posting order, JPG/PNG/WebP, ZIP download. Free, private.",
+   "h1": "Image Splitter",
+   "steps": [
+    "Choose an image.",
+    "Pick a grid (or custom rows and columns) and the tile shape.",
+    "Download all tiles as a ZIP, numbered in posting order."
+   ],
+   "faq": [
+    {
+     "q": "What order are the tiles numbered in?",
+     "a": "You choose: reading order (top-left first) or Instagram posting order, where file 1 is the bottom-right tile and should be posted first, so the grid assembles correctly on your profile."
+    },
+    {
+     "q": "Will the tiles lose quality?",
+     "a": "Tiles are cut from the full-resolution original and saved at high quality; PNG is lossless."
+    }
+   ],
+   "guide": {
+    "intro": "Splitting an image into tiles lets you post a seamless panorama carousel, create a giant grid on your Instagram profile, print a poster across several sheets or prepare sprites and puzzles. {brand}’s image splitter cuts any picture into an exact grid of equal tiles, crops it to the right shape first, numbers the pieces in the order you need and packs them into a single ZIP. Everything is processed in your browser – the image is never uploaded.",
+    "uses": [
+     "Create a 3×3 or 3×4 Instagram profile grid from one picture.",
+     "Turn a wide panorama into a swipeable 3-slide carousel.",
+     "Print a large poster across several A4 or Letter pages.",
+     "Make jigsaw-style puzzles or classroom activity cards.",
+     "Slice a sprite sheet or banner into separate images."
+    ],
+    "tips": [
+     "For Instagram profiles, use 4:5 portrait tiles – the grid now displays 3:4 crops of 4:5 posts.",
+     "With “Posting order” numbering, upload file 1 first – it is the bottom-right tile – so the grid lines up on your profile.",
+     "Keep important details away from the cut lines.",
+     "Use PNG for graphics with text and JPG for photos.",
+     "Custom grids go up to 20 × 20 tiles."
+    ],
+    "more": [
+     [
+      "How the cutting works",
+      "The splitter first decides the overall shape: columns × tile width by rows × tile height. If your image does not match that shape, it is centre-cropped so every tile is exactly the same size with no stretching. Each tile is then drawn from the original full-resolution pixels onto its own canvas and encoded in your chosen format. Because nothing is resized more than necessary, details stay sharp."
+     ],
+     [
+      "Panorama carousels",
+      "A 3×1 split turns a wide landscape into three posts that join seamlessly when people swipe through a carousel. Upload the tiles in left-to-right order in a single carousel post. For best results start with an image about 3:1 in shape; otherwise the splitter crops the top and bottom to fit. The same technique works for LinkedIn document posts and for wide banners on other platforms."
+     ],
+     [
+      "Printing large posters",
+      "To print a poster bigger than your printer’s paper, split the image into, say, 2 × 3 tiles and print each tile on its own page at full size. Trim the white margins and tape the sheets together from the back. Higher-resolution source images give better results; aim for at least 150 pixels per inch of finished size. The image to PDF tool on this site can combine the tiles into one printable document."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How many tiles can I make?",
+      "a": "Up to 20 × 20 (400 tiles)."
+     },
+     {
+      "q": "Can I split vertically only?",
+      "a": "Yes – set columns to 1 and choose the number of rows."
+     },
+     {
+      "q": "Does it work on phones?",
+      "a": "Yes, and the ZIP can be opened in your phone’s Files app."
+     }
+    ]
+   }
+  },
+  "instagrid": {
+   "name": "Instagram Grid Maker",
+   "short": "Split a photo into a 3×3 Instagram profile grid.",
+   "title": "Instagram Grid Maker – Split Photo into 9 Grid Posts | {brand}",
+   "desc": "Turn one photo into a 3×3 (or 3×2, 3×4) Instagram profile grid. Uses 4:5 portrait tiles that suit the current profile layout, numbers tiles in posting order and downloads a ZIP. Free, no app, no upload.",
+   "h1": "Instagram Grid Maker",
+   "steps": [
+    "Choose the photo you want to spread across your profile.",
+    "Keep 3 × 3 with 4:5 tiles, or choose another grid and shape.",
+    "Download the ZIP and post the tiles in number order, starting with 1."
+   ],
+   "faq": [
+    {
+     "q": "Why 4:5 tiles?",
+     "a": "Instagram profiles now show posts in a 3:4 portrait crop. Posting 4:5 tiles fills that space with the least cropping; square tiles leave gaps at the top and bottom."
+    },
+    {
+     "q": "In what order do I post?",
+     "a": "Post them in file-number order, starting with tile 1. New posts appear at the top-left, so tile 1 is the bottom-right piece and the last file is the top-left piece – the grid assembles itself as you publish."
+    }
+   ],
+   "guide": {
+    "intro": "A giant puzzle grid is one of the most eye-catching ways to launch a product, announce an event or refresh an Instagram profile. {brand}’s Instagram grid maker splits a single photo into 3, 6, 9 or 12 perfectly aligned posts, using portrait tiles that suit the current profile layout, and numbers them so you know exactly which to post first. The photo is processed on your device, and the tiles download as one ZIP.",
+    "uses": [
+     "Launch a product or collection with a big reveal across nine posts.",
+     "Announce an event, sale or rebrand on your profile grid.",
+     "Showcase a landscape, artwork or poster at a dramatic scale.",
+     "Create a cohesive grid for a portfolio or brand page.",
+     "Prepare grid tiles for a client’s social media campaign."
+    ],
+    "tips": [
+     "Choose a photo with a strong central subject and simple background.",
+     "Avoid placing faces or text across tile edges.",
+     "Post all tiles within a short time so followers see the full picture.",
+     "Keep captions short or tell the story across the posts.",
+     "Pin your three best grid posts if you want the image to stay on top."
+    ],
+    "more": [
+     [
+      "Planning a grid launch",
+      "Decide what the full image should communicate, then check how each tile looks alone, because followers will see individual posts in their feed. Single tiles with an interesting fragment – a texture, part of a face or a word – encourage people to visit your profile to see the whole. Schedule the posts in quick succession, starting with tile 1, and check your profile after each upload."
+     ],
+     [
+      "Current profile layout",
+      "Instagram’s profile grid changed from square thumbnails to taller 3:4 previews. Posting 4:5 portrait images (1080 × 1350 pixels) gives the closest fit; the profile trims a thin strip from the top and bottom of each tile. The maker’s default 4:5 tiles account for this, so the overall image stays continuous. If your brand still prefers squares, switch the tile shape – the grid will join, but with small gaps."
+     ],
+     [
+      "Rows of three",
+      "The grid always has three columns, so every row you add takes three posts. A 3×1 strip is a quick banner; 3×2 and 3×3 are the most popular; 3×4 is great for tall posters. Remember that each new post you publish later shifts the grid by one position, which breaks the picture unless you post in multiples of three. Many creators post three at a time to keep their grid aligned."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "What size are the tiles?",
+      "a": "1080 × 1350 pixels for 4:5 tiles or 1080 × 1080 for square, exported as high-quality JPG by default."
+     },
+     {
+      "q": "Can I make a carousel instead?",
+      "a": "Yes – choose 3 × 1 for a seamless swipeable panorama."
+     },
+     {
+      "q": "Do I need an app?",
+      "a": "No. It works in any browser, on phone or desktop."
+     }
+    ]
+   }
+  },
+  "imgjoin": {
+   "name": "Image Joiner",
+   "short": "Stitch images side by side, top to bottom or in a grid.",
+   "title": "Image Joiner – Combine Images Side by Side or Vertically | {brand}",
+   "desc": "Join two or more images into one: side by side, stacked vertically or in a grid. Match sizes, add gaps and a background colour, choose JPG, PNG or WebP. Free, works offline, no upload.",
+   "h1": "Image Joiner",
+   "steps": [
+    "Add two or more images and drag them into order.",
+    "Pick horizontal, vertical or grid, plus gap and background.",
+    "Download the combined image."
+   ],
+   "faq": [
+    {
+     "q": "How many images can I join?",
+     "a": "Up to 50. Very large results are scaled to the maximum size you select so the file stays usable."
+    },
+    {
+     "q": "What if the images are different sizes?",
+     "a": "With “Match sizes” they are scaled to the same height (side by side) or width (stacked) so edges line up; “Keep original sizes” leaves them untouched."
+    }
+   ],
+   "guide": {
+    "intro": "Combining pictures into one file is handy for before-and-after comparisons, screenshots of a conversation, product variations, collages or long infographics. {brand}’s image joiner stitches any number of images horizontally, vertically or into a grid, scales them to line up neatly, adds optional spacing and a background colour, and saves the result as JPG, PNG or WebP. Images are combined locally in your browser, so private screenshots stay private.",
+    "uses": [
+     "Make before-and-after or side-by-side comparison images.",
+     "Stitch several chat screenshots into one tall image.",
+     "Combine product photos or colour variants into one listing image.",
+     "Build a simple photo collage or contact sheet in a grid.",
+     "Join scanned pages or receipts into one picture to share."
+    ],
+    "tips": [
+     "Use vertical layout for screenshots of long conversations or articles.",
+     "A small gap (8–20 px) with a white background looks clean on social media.",
+     "Choose PNG for screenshots and text, JPG for photos.",
+     "Lower the maximum size if the result is too large to upload.",
+     "Reorder images before joining – the order you see is the order used."
+    ],
+    "more": [
+     [
+      "Layouts explained",
+      "Side by side places images in one row; with “Match sizes” every image is scaled to the same height so tops and bottoms align. Top to bottom stacks them in one column at a shared width – ideal for screenshots. Grid arranges them in rows with the number of columns you choose, scaling each to a uniform cell; any empty cells at the end are filled with the background colour. Gaps are added between images and around nothing else."
+     ],
+     [
+      "Keeping quality high",
+      "Images are drawn once onto a single canvas at the target size, so there is no repeated compression. If the combined size exceeds the maximum you selected, everything is scaled down proportionally in one step. For the sharpest result keep the maximum at 4000 pixels or above and choose PNG. Very large canvases above 16,000 pixels can exceed browser memory on phones, so use them only when necessary."
+     ],
+     [
+      "Joining versus making a PDF",
+      "A single joined image is easiest to send in chats and post on social media. If you are combining documents, receipts or many pages for printing, a PDF is usually better: pages stay separate, text stays sharp and file size is smaller. Use the image to PDF converter on this site for that – it uses the same private, in-browser approach."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Does it work with phone screenshots?",
+      "a": "Yes – PNG, JPG, WebP, GIF and HEIC (where supported) all work."
+     },
+     {
+      "q": "Can I add borders?",
+      "a": "Set a gap and background colour; the gap acts as a border between images."
+     },
+     {
+      "q": "Is there a watermark?",
+      "a": "No. The output is clean."
+     }
+    ]
+   }
+  },
+  "tts": {
+   "name": "Text to Speech",
+   "short": "Read any text aloud with your device’s natural voices.",
+   "title": "Text to Speech – Free Online Reader with Natural Voices | {brand}",
+   "desc": "Paste text and hear it read aloud with the voices built into your device and browser – dozens of languages and accents, adjustable speed and pitch, word highlighting. Free, unlimited, no sign-up.",
+   "h1": "Text to Speech",
+   "steps": [
+    "Paste or type the text you want to hear.",
+    "Choose a voice, then set the speed and pitch.",
+    "Press Play – pause, resume or stop at any time."
+   ],
+   "faq": [
+    {
+     "q": "Can I download the speech as an MP3?",
+     "a": "No. The browser’s speech engine plays audio directly and does not let web pages record it. To keep an audio copy, use your device’s screen or audio recorder while it plays."
+    },
+    {
+     "q": "Why are the voices different on each device?",
+     "a": "The voices come from your operating system and browser. Windows, macOS, iOS, Android and ChromeOS each include their own set, and some browsers add online voices."
+    }
+   ],
+   "guide": {
+    "intro": "Listening is often easier than reading – on a long article, while proofreading, when your eyes are tired, or when learning a language. {brand}’s text to speech reader uses the Web Speech API built into modern browsers, so it plays instantly with the natural voices already on your device, in dozens of languages and accents. There is no character limit, no account and no cost, and with offline voices your text never leaves your computer.",
+    "uses": [
+     "Listen to articles, essays and reports while you do something else.",
+     "Proofread your own writing by hearing it – errors stand out when spoken.",
+     "Practise pronunciation in a language you are learning.",
+     "Support readers with dyslexia, low vision or reading fatigue.",
+     "Check how a script, voice-over or presentation will sound before recording."
+    ],
+    "tips": [
+     "Try several voices – “Natural” or “Online” voices usually sound most human.",
+     "Slow down to 0.8× for learning and speed up to 1.3–1.5× for skimming.",
+     "Break very long texts into chapters for easier navigation.",
+     "Tick “Only voices for my language” to shorten the voice list.",
+     "Punctuation matters: commas and full stops create natural pauses."
+    ],
+    "more": [
+     [
+      "How browser speech works",
+      "Modern browsers expose a speech synthesis engine to web pages. The page sends the text and the chosen voice, rate and pitch; the browser or operating system turns it into sound. Offline voices are generated entirely on your device. Some browsers, such as Chrome and Edge, also offer online voices that are synthesised by the browser vendor’s cloud service and are often more natural – the voice name usually indicates this, so choose an offline voice for maximum privacy."
+     ],
+     [
+      "Getting more natural voices",
+      "On Windows, Settings → Time & language → Speech lets you add voices for other languages. On macOS and iOS, Accessibility → Spoken Content → System Voice offers downloadable enhanced and premium voices that sound very lifelike. Android voices come from the Speech Services app in settings. After installing a voice, reload this page and it appears in the list. Microsoft Edge offers a wide range of high-quality online voices by default."
+     ],
+     [
+      "Accessibility and learning",
+      "Text to speech is a recognised accommodation for dyslexia and visual impairment, and many people simply understand material better when they hear and see it at once. Language learners can compare their own pronunciation with a native-accent voice and replay tricky sentences at slower speeds. Writers use it to catch missing words, repeated phrases and awkward rhythm that the eye skips over when re-reading silently."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is there a text limit?",
+      "a": "No fixed limit. Some online voices stop after several minutes, so split very long documents into sections or use an offline voice."
+     },
+     {
+      "q": "Which languages are available?",
+      "a": "Whatever voices your device provides – typically English plus dozens of other languages on modern systems."
+     },
+     {
+      "q": "Does it work offline?",
+      "a": "Yes with offline voices, once the page is loaded."
+     }
+    ]
+   }
+  },
+  "video2audio": {
+   "name": "Video to Audio Converter",
+   "short": "Extract the soundtrack from a video as MP3 or WAV.",
+   "title": "Video to Audio Converter – Extract MP3 from MP4 Online | {brand}",
+   "desc": "Extract audio from MP4, MOV, WebM and other videos and save it as MP3 or WAV. Choose the bitrate and sample rate and download – all in your browser, with no upload and no file-size paywall.",
+   "h1": "Video to Audio Converter",
+   "steps": [
+    "Choose a video file from your phone or computer.",
+    "Pick MP3 or WAV and the quality.",
+    "Download the audio file."
+   ],
+   "faq": [
+    {
+     "q": "Is my video uploaded?",
+     "a": "No. The audio track is decoded and encoded on your own device, so even private recordings stay private."
+    },
+    {
+     "q": "Which video formats are supported?",
+     "a": "Anything your browser can decode – typically MP4, MOV, M4V, WebM and MKV with common audio codecs such as AAC, Opus and MP3."
+    }
+   ],
+   "guide": {
+    "intro": "Often the part of a video you want is the sound: a lecture, a podcast recorded on camera, a song you performed, an interview or a voice memo filmed on your phone. {brand}’s video to audio converter pulls the soundtrack out and saves it as a compact MP3 or a lossless WAV. It runs entirely inside your browser, so files are not uploaded, there is no queue and there is no artificial size limit beyond your device’s memory.",
+    "uses": [
+     "Turn a recorded lecture or webinar into audio for listening on the go.",
+     "Extract a podcast or interview recorded on video.",
+     "Save the audio of your own performance or rehearsal.",
+     "Get a voice track for transcription or subtitles.",
+     "Make a ringtone or sound clip from a video you filmed."
+    ],
+    "tips": [
+     "192 kbps MP3 is a good balance of quality and size for music; 96–128 kbps is plenty for speech.",
+     "Choose WAV if you will edit the audio further.",
+     "Large videos are fine on desktop; phones may struggle above about 1 GB.",
+     "Use the audio cutter afterwards to trim silence or pick a section.",
+     "Only extract audio from videos you own or have permission to use."
+    ],
+    "more": [
+     [
+      "How extraction works",
+      "A video file is a container holding separate video and audio streams. The converter asks your browser to decode just the audio stream into raw samples, then encodes those samples into the format you chose. The video pictures are never processed, which makes it much faster than full video conversion. Because it re-encodes, you can freely pick the bitrate and format rather than being stuck with what the camera recorded."
+     ],
+     [
+      "Choosing a format",
+      "MP3 plays on every phone, car stereo and computer, so it is the default. A higher bitrate such as 256 or 320 kbps keeps more detail for music, while 96–128 kbps is plenty for a voice recording and keeps files small without audible loss. WAV is uncompressed and ideal for editing or archiving, but files are about ten times larger. A 22 kHz sample rate halves the size of speech recordings with little audible difference."
+     ],
+     [
+      "Copyright and fair use",
+      "Extracting audio from your own recordings, lectures you are allowed to keep, or freely licensed videos is fine. Ripping music or soundtracks from commercial films, streaming services or other people’s videos may infringe copyright, depending on where you live and how you use the result. Personal use rules vary by country; when in doubt, use content you created or that is clearly licensed for reuse."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Can I convert a YouTube link?",
+      "a": "No – the tool works with files on your device. Downloading from YouTube is against its terms of service."
+     },
+     {
+      "q": "Will the audio quality drop?",
+      "a": "Re-encoding to MP3 is lossy, but at 192 kbps or higher the difference from the original is usually inaudible."
+     },
+     {
+      "q": "Can I extract only part of the video?",
+      "a": "Convert the whole track, then trim it with the audio cutter on this site."
+     }
+    ]
+   }
+  },
+  "audiojoin": {
+   "name": "Audio Joiner",
+   "short": "Merge MP3, WAV and other audio files into one track.",
+   "title": "Audio Joiner – Merge MP3 Files Online, with Crossfade | {brand}",
+   "desc": "Combine several audio files – MP3, WAV, M4A, OGG and more – into one track. Reorder, add crossfades or silence between tracks, even out loudness and save as MP3 or WAV. Free, private, in your browser.",
+   "h1": "Audio Joiner",
+   "steps": [
+    "Add two or more audio files and put them in order.",
+    "Choose a direct join, crossfade or gap, and whether to even out loudness.",
+    "Download the merged MP3 or WAV."
+   ],
+   "faq": [
+    {
+     "q": "Can I mix different formats?",
+     "a": "Yes. Each file is decoded separately, so you can join an MP3, a WAV and an M4A in one go."
+    },
+    {
+     "q": "Is there a size limit?",
+     "a": "Only your device’s memory. Several hours of audio usually works on a desktop computer."
+    }
+   ],
+   "guide": {
+    "intro": "Joining audio files sounds simple, but mismatched volumes and abrupt cuts make the result sound amateur. {brand}’s audio joiner merges any number of tracks in the order you choose, can blend them with a smooth 2- or 5-second crossfade or insert a short silence, and can even out loudness so one quiet recording does not disappear. It decodes and encodes everything inside your browser – nothing is uploaded, and there are no watermarks or length limits.",
+    "uses": [
+     "Combine parts of a podcast or interview recorded separately.",
+     "Make a continuous mix or playlist from several songs.",
+     "Join voice memos or lecture recordings into one file.",
+     "Stitch an intro, main content and outro together.",
+     "Create a workout or meditation track with gaps between sections."
+    ],
+    "tips": [
+     "Use crossfades for music and silence gaps for speech.",
+     "Turn on loudness matching when combining recordings from different devices.",
+     "Export WAV if you will keep editing; MP3 for sharing.",
+     "Trim each clip first with the audio cutter if it has long silences.",
+     "Keep the sample rate in mind: everything is resampled to one rate automatically."
+    ],
+    "more": [
+     [
+      "How the joining works",
+      "Every file is decoded into uncompressed samples, converted to a common sample rate and channel layout, and placed one after another on a single timeline. For a crossfade, the end of one track fades out while the start of the next fades in, overlapping for the chosen time. For gaps, true digital silence is inserted. The finished timeline is then encoded once, so quality is lost only a single time even when you join many files."
+     ],
+     [
+      "Evening out loudness",
+      "Recordings made on different phones or microphones often differ greatly in volume. With loudness matching on, the joiner measures each track’s average level (RMS) and adjusts it towards a common target, while preventing clipping. It is a gentle, practical normalisation rather than full broadcast mastering, but it removes the jarring jumps that make listeners reach for the volume control."
+     ],
+     [
+      "MP3 or WAV?",
+      "MP3 files are small and universally playable, so they are best for podcasts, sharing and phones. 192 kbps is a good default; 320 kbps for music you care about; 128 kbps is fine for speech. WAV is uncompressed and lossless, ideal for further editing, but files are around 10 MB per stereo minute. You can always join to WAV first and convert to MP3 later with the audio converter."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How many files can I join?",
+      "a": "There is no fixed limit; practical limits depend on total length and device memory."
+     },
+     {
+      "q": "Can I change the order?",
+      "a": "Yes – drag the files in the list before joining."
+     },
+     {
+      "q": "Does it add a watermark or jingle?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "ringtone": {
+   "name": "Ringtone Maker",
+   "short": "Cut a 30-second ringtone from any song – MP3 or iPhone M4R.",
+   "title": "Ringtone Maker – Make Ringtones for iPhone & Android Free | {brand}",
+   "desc": "Turn any song or audio file into a ringtone: pick the start point, length (up to 40 s) and fade, then save as MP3 for Android or M4R for iPhone. Works in your browser with no upload or app.",
+   "h1": "Ringtone Maker",
+   "steps": [
+    "Choose a song or audio file.",
+    "Set the start time, length and fade, using the waveform as a guide.",
+    "Download as MP3 (Android) or M4R (iPhone) and set it as your ringtone."
+   ],
+   "faq": [
+    {
+     "q": "How long can a ringtone be?",
+     "a": "iPhone ringtones must be 40 seconds or less (30 s is typical). Android accepts longer files, but 20–30 s is usually enough."
+    },
+    {
+     "q": "Why did I get an MP3 instead of M4R?",
+     "a": "M4R is AAC audio, and some browsers cannot encode AAC. In that case the tool saves an MP3 and tells you; convert it on a computer or use it on Android."
+    }
+   ],
+   "guide": {
+    "intro": "Your favourite chorus makes a much better ringtone than the default marimba. {brand}’s ringtone maker lets you pick exactly which part of a song plays, add a soft fade so it does not start abruptly, and save it in the right format for your phone: MP3 for Android and most other phones, or M4R for iPhone. The audio is cut and encoded inside your browser, so your music library is never uploaded.",
+    "uses": [
+     "Make a ringtone from the catchiest part of a song you own.",
+     "Create distinct ringtones or notification sounds for family members.",
+     "Use a voice memo or recording of your child or pet.",
+     "Make an alarm tone from a motivating track.",
+     "Create short sound alerts for apps that accept custom audio."
+    ],
+    "tips": [
+     "Look at the waveform – loud peaks usually mark the chorus.",
+     "A 1–2 second fade-in stops the ringtone from startling you.",
+     "25–30 seconds is long enough before calls go to voicemail.",
+     "Normalise very quiet recordings first so the ring is audible.",
+     "Name the file clearly so it is easy to find in your phone’s sound list."
+    ],
+    "more": [
+     [
+      "Setting a ringtone on Android",
+      "Copy the MP3 to your phone (download it directly on the phone, or transfer it by cable or cloud storage). Then open Settings → Sound & vibration → Phone ringtone, tap the plus or “Add” button and pick the file. On some phones you first need to move it to the Ringtones folder with the Files app. Many Android phones also let you assign a ringtone to an individual contact from the contact’s menu."
+     ],
+     [
+      "Setting a ringtone on iPhone",
+      "Apple only allows custom ringtones added through a computer or GarageBand. On a Mac, open Finder, connect your iPhone, select it and drag the .m4r file onto the device; on Windows use iTunes or Apple Devices. Alternatively, save the file to Files on the iPhone, import it into GarageBand, then use Share → Ringtone. Once added, it appears in Settings → Sounds & Haptics → Ringtone."
+     ],
+     [
+      "Choosing the perfect clip",
+      "Ringtones work best when they are recognisable within a second or two and not too bass-heavy, since phone speakers are small. Choose a section with a clear melody or vocal, start right on the beat, and use a short fade-out so the loop is smooth when the phone keeps ringing. Only use music you own or have the right to use; ringtones are for personal use."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Can I use a video as the source?",
+      "a": "Yes, if your browser can decode its audio – MP4 and MOV usually work."
+     },
+     {
+      "q": "Does the ringtone loop?",
+      "a": "Your phone loops it automatically while ringing; the fade-out keeps the loop smooth."
+     },
+     {
+      "q": "Is there an app to install?",
+      "a": "No. Everything works in the browser on phones and computers."
+     }
+    ]
+   }
+  },
+  "videomerge": {
+   "name": "Video Merger",
+   "short": "Join several video clips into one MP4 or WebM.",
+   "title": "Video Merger – Join Video Clips Online Free | {brand}",
+   "desc": "Combine short video clips into one MP4 or WebM in your browser. Choose the output size, frame rate and how to handle different shapes – including vertical 1080×1920 for Reels and TikTok. No upload, no watermark.",
+   "h1": "Video Merger",
+   "steps": [
+    "Add the clips and drag them into order.",
+    "Pick the output size, frame rate and fit (bars or crop).",
+    "Merge and download the finished video."
+   ],
+   "faq": [
+    {
+     "q": "How long can the clips be?",
+     "a": "The merger works best for short videos – a few minutes in total – because every frame is re-encoded on your device. Longer projects are possible on a fast computer but take time."
+    },
+    {
+     "q": "Which browsers are supported?",
+     "a": "Recent Chrome, Edge, Safari and Firefox versions with WebCodecs support. If your browser lacks it, the tool tells you."
+    }
+   ],
+   "guide": {
+    "intro": "Phones record many short clips, and sharing them one by one is tedious. {brand}’s video merger joins them into a single video in the order you choose, resizing everything to one consistent size and frame rate, with sound included. It uses your browser’s built-in video encoder (WebCodecs), so your footage never leaves your device and there is no watermark. Vertical, square and landscape clips can be fitted with bars or cropped to fill the frame.",
+    "uses": [
+     "Combine short phone clips from a trip, party or event.",
+     "Join several takes into one video for social media.",
+     "Merge screen recordings into a single tutorial.",
+     "Build a quick Reel, Short or TikTok from multiple clips.",
+     "Put together short clips for a class or work presentation."
+    ],
+    "tips": [
+     "Use “Vertical 1080×1920” for Reels, Shorts and TikTok.",
+     "“Fill and crop” avoids black bars but may cut off edges – check framing.",
+     "30 fps suits most phone footage; 60 fps only if all clips are 60 fps.",
+     "Keep the total length short for the fastest results on phones.",
+     "Plug in your laptop – encoding video is processor-intensive."
+    ],
+    "more": [
+     [
+      "How merging works in the browser",
+      "Each clip is decoded frame by frame, drawn onto a canvas at the output size and handed to the browser’s hardware-accelerated video encoder. Audio is decoded, resampled and encoded alongside. Because the clips are re-encoded, they do not need to share a resolution, frame rate or codec, which is the usual cause of failures in simpler “append” tools. The result is a standard MP4 (H.264/AAC) or WebM file."
+     ],
+     [
+      "Handling different shapes",
+      "When a vertical phone clip meets a landscape clip, something has to give. “Fit inside” shows the whole frame with black bars – nothing is lost, but the screen is not filled. “Fill and crop” enlarges the clip to cover the frame and trims the overflow – it looks more polished but may cut off people at the edges. Choose the output shape based on where the video will be watched, then pick the fit that suits most clips."
+     ],
+     [
+      "Limits and alternatives",
+      "Because everything happens on your own device, speed depends on your processor; a one-minute 1080p video typically takes about as long to merge as it does to play, or less on a modern computer. For long films, transitions, titles or multi-track editing, a desktop editor such as DaVinci Resolve or Shotcut is a better choice. For quick joins of short clips, the merger saves you an upload and an install."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is there a watermark?",
+      "a": "No."
+     },
+     {
+      "q": "Can I merge clips of different resolutions?",
+      "a": "Yes – every clip is scaled to the output size you choose."
+     },
+     {
+      "q": "Does it keep the sound?",
+      "a": "Yes. Audio from every clip is included; clips without sound get silence."
+     }
+    ]
+   }
+  },
+  "notepad": {
+   "name": "Online Notepad",
+   "short": "A private notepad that saves automatically in your browser.",
+   "title": "Online Notepad – Free, Autosaving, No Login | {brand}",
+   "desc": "A clean online notepad that autosaves to your browser’s local storage. No account, nothing uploaded, word and character count, font options and download as TXT or Markdown. Works offline.",
+   "h1": "Online Notepad",
+   "steps": [
+    "Start typing – your note saves automatically as you write.",
+    "Change the font and size to suit you.",
+    "Download the note as .txt or .md, or clear it when done."
+   ],
+   "faq": [
+    {
+     "q": "Where are my notes stored?",
+     "a": "In your browser’s local storage on this device only. They are never sent to a server, so they are not synced to other devices."
+    },
+    {
+     "q": "Can I lose my note?",
+     "a": "Clearing browsing data or using a private window removes it. Download anything important as a file."
+    }
+   ],
+   "guide": {
+    "intro": "Sometimes you just need somewhere to type – a phone number during a call, a draft message, a shopping list, or ideas you will sort out later – without opening an app or signing in. {brand}’s online notepad opens instantly, saves every keystroke to your browser’s local storage and keeps your text there until you clear it. Nothing is uploaded, there are no ads in the editor, and it works offline once loaded.",
+    "uses": [
+     "Jot down quick notes during a meeting or phone call.",
+     "Draft an email, post or message without losing it if the tab closes.",
+     "Paste text to strip its formatting before using it elsewhere.",
+     "Keep a temporary to-do or shopping list on a shared computer.",
+     "Write distraction-free with a large, clean editing area."
+    ],
+    "tips": [
+     "Bookmark the page to open your notes with one click.",
+     "Use the monospace font for code snippets or tables.",
+     "Download notes you want to keep permanently.",
+     "On shared or public computers, clear the note when you finish.",
+     "Use Markdown format if you will paste the note into a wiki or README."
+    ],
+    "more": [
+     [
+      "How autosave works",
+      "Each time you type, the note is written to localStorage, a small storage area your browser keeps for every website. When you return to the page in the same browser on the same device, the text is restored instantly. Because it never touches a server, it is fast and private, but it is also tied to that browser: notes do not appear on your phone if you wrote them on a laptop, and they are removed if you clear site data."
+     ],
+     [
+      "Privacy on shared computers",
+      "Anyone who uses the same browser profile can open the page and see your note. On a library, school or office computer, either use a private window – which discards the note when closed – or press “Clear” when you finish. For sensitive information such as passwords or medical details, a dedicated encrypted app or password manager is safer than any notepad."
+     ],
+     [
+      "Plain text versus rich text",
+      "The notepad stores plain text, which is the most portable format there is: it opens in every editor, pastes cleanly into email and chat, and never carries hidden formatting. Pasting formatted text from a web page or document strips the fonts and colours, which is a handy trick on its own. If you like headings and lists, write in Markdown syntax and download as .md for apps that render it."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is there a size limit?",
+      "a": "Browsers allow around 5 MB per site, which is roughly a million words."
+     },
+     {
+      "q": "Can I have several notes?",
+      "a": "This notepad keeps one note. Download it to start a fresh one, or use the to-do list tool for lists."
+     },
+     {
+      "q": "Does it work offline?",
+      "a": "Yes, once the page has loaded."
+     }
+    ]
+   }
+  },
+  "stopwatch": {
+   "name": "Online Stopwatch",
+   "short": "A precise stopwatch with laps, in your browser.",
+   "title": "Online Stopwatch – Free Stopwatch with Laps & Full Screen | {brand}",
+   "desc": "A free, accurate online stopwatch with lap and split times, big digits, full-screen mode and downloadable lap list. Runs on the high-resolution clock, so it stays accurate in background tabs.",
+   "h1": "Online Stopwatch",
+   "steps": [
+    "Press Start to begin timing.",
+    "Press Lap to record split times without stopping.",
+    "Pause, reset or download the lap list."
+   ],
+   "faq": [
+    {
+     "q": "How accurate is it?",
+     "a": "It reads the high-resolution clock to the millisecond and displays hundredths of a second. Accuracy matches your device’s clock."
+    },
+    {
+     "q": "Can I use the keyboard?",
+     "a": "Use the on-screen buttons; they are large and easy to hit on phones and touch screens."
+    }
+   ],
+   "guide": {
+    "intro": "A stopwatch is one of the most-used tools on any phone, but a large, clear one on a computer or projector is surprisingly handy. {brand}’s online stopwatch shows big, readable digits, records unlimited laps with split and total times, goes full screen with one click, and keeps perfect time even when the tab is in the background. It is free, works offline and needs no app.",
+    "uses": [
+     "Time laps, intervals and sprints at training.",
+     "Measure how long tasks really take for productivity tracking.",
+     "Time speeches, debate rounds and presentations.",
+     "Run science experiments and classroom races.",
+     "Time cooking steps or game turns."
+    ],
+    "tips": [
+     "Use laps to compare rounds – the split shows each lap alone.",
+     "Full screen makes the time readable from across a room.",
+     "Download laps to paste into a training log or spreadsheet.",
+     "Keep the screen awake on a phone during long sessions.",
+     "Open a second tab for a second stopwatch."
+    ],
+    "more": [
+     [
+      "Split and lap times",
+      "Each time you press Lap, the stopwatch records two numbers: the lap (split) time since the previous lap, and the total elapsed time. Splits show consistency – a runner whose 400 m laps read 1:32, 1:31, 1:40 knows exactly where they slowed down. Totals show overall progress. The list grows downwards with the latest lap highlighted and can be downloaded as plain text."
+     ],
+     [
+      "Why browser stopwatches can drift – and this one does not",
+      "Browsers reduce timer activity in background tabs to save battery. A stopwatch that simply adds 10 ms on every tick falls behind when that happens. This one stores the moment you pressed Start and computes elapsed time from the high-resolution clock whenever it redraws, so switching tabs or a slow device never affects the result."
+     ],
+     [
+      "Using a stopwatch for productivity",
+      "Time tracking reveals where your day goes. Start the stopwatch when you begin a task and stop it when you switch; record each in a lap. After a few days you will see which tasks take longer than you estimate. Combine it with the pomodoro timer on this site for focused sessions, or the to-do list to plan your next task. Everything stays on your device."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Does it keep running if I switch tabs?",
+      "a": "Yes, and the elapsed time is always correct when you come back."
+     },
+     {
+      "q": "Is there a lap limit?",
+      "a": "No practical limit."
+     },
+     {
+      "q": "Can I use it as a countdown?",
+      "a": "Switch the mode to countdown, or open the countdown timer page."
+     }
+    ]
+   }
+  },
+  "countdown": {
+   "name": "Countdown Timer",
+   "short": "Count down minutes, seconds or to a date – with alarm.",
+   "title": "Countdown Timer – Online Timer with Alarm & Full Screen | {brand}",
+   "desc": "Set a countdown for any number of minutes and seconds, or count down to a date and time. Big full-screen display, alarm sound at zero and remaining time in the tab title. Free, no app.",
+   "h1": "Countdown Timer",
+   "steps": [
+    "Enter minutes and seconds, or pick a date and time.",
+    "Press Start – the display counts down in large digits.",
+    "An alarm sounds at zero; reset to run it again."
+   ],
+   "faq": [
+    {
+     "q": "What is the longest countdown?",
+     "a": "Any length. Enter large minute values for hours, or use “count down to a date” for days, weeks or months."
+    },
+    {
+     "q": "Can I count down to New Year?",
+     "a": "Yes – choose “count down to” and set 1 January at 00:00 in your time zone."
+    }
+   ],
+   "guide": {
+    "intro": "A visible countdown keeps everyone on track: students in an exam, speakers on a panel, kids before bedtime or a team before a launch. {brand}’s countdown timer gives you big digits, a full-screen mode for projectors, an alarm when time is up and an accurate clock-based countdown that does not drift in background tabs. Set minutes and seconds, or count down to a specific date and time.",
+    "uses": [
+     "Time exams, tests and classroom activities.",
+     "Keep meeting agenda items and speakers to time.",
+     "Run kitchen timers for recipes.",
+     "Count down to a product launch, holiday, wedding or New Year.",
+     "Time breaks, workouts and screen-time limits."
+    ],
+    "tips": [
+     "Project in full screen so a whole room can see the time.",
+     "Turn on the alarm sound and check your volume before an exam.",
+     "Use date mode for anything more than a few hours away.",
+     "Watch the tab title while working elsewhere.",
+     "Tap the page once on phones to allow sound."
+    ],
+    "more": [
+     [
+      "Countdowns in classrooms and exams",
+      "A large, visible timer reduces anxiety because students can pace themselves without asking how long is left. Set the exam length, project the page full screen and press Start. The digits are designed to be readable from the back of a room. When time is up, a clear three-tone alarm sounds, so nobody misses the end even if they are concentrating."
+     ],
+     [
+      "Counting down to a date",
+      "For events days or months away, choose the date mode and enter the target date and time. The timer shows the hours, minutes and seconds remaining, calculated in your local time zone, and updates live. It is perfect for a launch-day screen, a wedding website preview or a holiday countdown for children. Leave it open on a spare monitor or TV."
+     ],
+     [
+      "Staying accurate",
+      "The countdown is calculated from the high-resolution clock rather than counted tick by tick, so it never drifts, even if the browser throttles a background tab. When you return, it shows the correct remaining time immediately. For best results keep the device awake for long countdowns, as some phones stop sounds when the screen locks."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Will it work when my screen locks?",
+      "a": "The time stays correct, but phones may silence the alarm while locked. Keep the screen on for important timers."
+     },
+     {
+      "q": "Can I pause it?",
+      "a": "Yes – pause and resume at any time."
+     },
+     {
+      "q": "Is it free?",
+      "a": "Yes, with no sign-up."
+     }
+    ]
+   }
+  },
+  "pomodoro": {
+   "name": "Pomodoro Timer",
+   "short": "Focus in 25-minute sessions with timed breaks.",
+   "title": "Pomodoro Timer – Online Focus Timer with Breaks | {brand}",
+   "desc": "A free Pomodoro timer: 25-minute focus sessions, 5-minute short breaks and longer breaks every four rounds – all adjustable. Sound and desktop alerts, auto-start, task label and a session log. No sign-up.",
+   "h1": "Pomodoro Timer",
+   "steps": [
+    "Type what you are working on (optional) and press Start.",
+    "Focus until the alarm, then take the break it gives you.",
+    "Repeat – every fourth break is a long one. Download your session log at the end."
+   ],
+   "faq": [
+    {
+     "q": "What is the Pomodoro Technique?",
+     "a": "A time-management method from the late 1980s: work in focused blocks (traditionally 25 minutes), take a short break, and take a longer break after four blocks."
+    },
+    {
+     "q": "Are my settings saved?",
+     "a": "Yes – your durations and options are remembered in this browser, and the session log stays until you clear it."
+    }
+   ],
+   "guide": {
+    "intro": "Big tasks are easier when you only have to focus for the next 25 minutes. {brand}’s Pomodoro timer runs the classic cycle of focused work and short breaks, with a longer break every four rounds, and lets you adjust every duration. A sound and optional desktop notification tell you when to switch, auto-start keeps the rhythm going, and a simple log records each completed session and the task you worked on – all stored privately in your browser.",
+    "uses": [
+     "Study for exams in focused blocks with planned rests.",
+     "Beat procrastination on writing, coding or admin tasks.",
+     "Structure a work-from-home day into manageable sessions.",
+     "Track how many focused sessions a project actually needs.",
+     "Remind yourself to stand up, stretch and rest your eyes."
+    ],
+    "tips": [
+     "Silence your phone and close chat apps during focus sessions.",
+     "If a thought interrupts you, jot it in the notepad and get back to work.",
+     "Really step away during breaks – walk, stretch or drink water.",
+     "Try 50/10 for deep work if 25/5 feels too short.",
+     "Review the log weekly to see how your focus time adds up."
+    ],
+    "more": [
+     [
+      "How the technique works",
+      "Choose a task, set the timer for a focus period and work on nothing else until it rings. Then take a short break of about five minutes. After four focus periods, take a longer break of 15 to 30 minutes. The fixed end time makes it easier to start (“just 25 minutes”) and to resist distractions, while the regular breaks prevent fatigue. Counting completed sessions also gives you a realistic sense of how long tasks take."
+     ],
+     [
+      "Customising your cycle",
+      "Twenty-five minutes is a starting point, not a rule. Many people prefer 45 or 50-minute focus blocks for deep creative work and shorter ones for tedious tasks. Set the focus, short-break and long-break lengths and how many rounds come before a long break; the timer remembers them on this device. Auto-start moves straight into the next phase, which suits some people, while others prefer to start each session deliberately."
+     ],
+     [
+      "Notifications and the session log",
+      "The timer plays a soft tone when a phase ends. Enable desktop notifications to see an alert even when the tab is hidden behind other windows – your browser will ask for permission once. Each completed focus session is added to a log with the time and task label, which you can download as CSV for a timesheet, a study diary or simply the satisfaction of seeing your progress."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Does it work in a background tab?",
+      "a": "Yes – timing is based on the clock, and notifications can alert you while you use other windows."
+     },
+     {
+      "q": "Can I skip a break?",
+      "a": "Yes, skip to the next phase at any time."
+     },
+     {
+      "q": "Is my log uploaded?",
+      "a": "No. It is stored only in this browser."
+     }
+    ]
+   }
+  },
+  "calendar": {
+   "name": "Printable Calendar Maker",
+   "short": "Create a printable monthly or yearly calendar as a PDF.",
+   "title": "Printable Calendar Maker 2026 & 2027 – Free PDF Calendar | {brand}",
+   "desc": "Make a printable calendar PDF for any year or month: A4 or US Letter, landscape or portrait, Monday or Sunday start, ISO week numbers, shaded weekends, notes area, your own events and accent colour. Free.",
+   "h1": "Printable Calendar Maker",
+   "steps": [
+    "Pick the year and a month (or the whole year).",
+    "Choose paper size, orientation, week start, colour and extras like week numbers.",
+    "Add your own dates and events, then create and download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can I add birthdays and holidays?",
+     "a": "Yes. Enter one event per line as YYYY-MM-DD followed by a description, and it is printed in that day’s box."
+    },
+    {
+     "q": "Does it include public holidays?",
+     "a": "Holidays differ by country and region, so none are added automatically. Paste the dates for your country into the events box."
+    }
+   ],
+   "guide": {
+    "intro": "A paper calendar on the wall or fridge is still the easiest way for a household, classroom or team to see the month at a glance. {brand}’s calendar maker creates a clean, printable PDF calendar for any month or year, with your choice of paper size, orientation, week start day, accent colour, week numbers and shaded weekends, plus space for notes and your own events. It is generated in your browser with no watermark.",
+    "uses": [
+     "Print a wall or fridge calendar for the family.",
+     "Make a monthly planner for a classroom, club or team.",
+     "Create a content or project calendar to fill in by hand.",
+     "Print a calendar with birthdays, holidays and school terms already added.",
+     "Make a quick gift with a custom title and colour."
+    ],
+    "tips": [
+     "Landscape suits wall calendars; portrait with a notes area suits planners.",
+     "Choose Monday start for most of Europe and Sunday start for the US and Canada.",
+     "Add birthdays and holidays as “2026-12-25 Christmas Day”, one per line.",
+     "Print at 100% scale (“actual size”) to keep margins even.",
+     "Use a lighter accent colour if you print in black and white."
+    ],
+    "more": [
+     [
+      "Choosing the layout",
+      "Each month is drawn as a grid of seven columns and up to six rows, sized to fill the page with generous boxes for writing. Landscape gives wider boxes, ideal for wall calendars; portrait gives taller boxes and room for a notes area underneath. A4 is standard in most of the world, US Letter in North America; the PDF is made at the exact paper size so printers do not need to scale it."
+     ],
+     [
+      "Week numbers and week start",
+      "Many workplaces and schools refer to “week 14” rather than dates. The ISO 8601 standard defines week 1 as the week containing the first Thursday of the year, with weeks starting on Monday; tick the option to print those numbers beside each row. Separately, you can start each week on Monday or Sunday to match local custom. Weekend shading helps the working week stand out at a glance."
+     ],
+     [
+      "Adding your own events",
+      "Type each event on its own line, starting with the date in year-month-day format, for example “2026-07-04 Independence Day” or “2026-03-15 Mum’s birthday”. Events are printed in small text inside the matching day box. Because every country has different public holidays, copy your country’s list from an official government site into the box once, and keep the text for next year."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Can I print a whole year?",
+      "a": "Yes – choose “Whole year” to get a 12-page PDF, one month per page."
+     },
+     {
+      "q": "Is the PDF editable?",
+      "a": "It is a print-ready PDF. Add events before generating, or write on the printed copy."
+     },
+     {
+      "q": "Is there a watermark?",
+      "a": "No."
+     }
+    ]
+   }
+  },
+  "todo": {
+   "name": "To-Do List",
+   "short": "A simple, private to-do list with priorities and due dates.",
+   "title": "To-Do List – Free Online Checklist, No Login | {brand}",
+   "desc": "A fast, private online to-do list: add tasks, set priorities and due dates, tick them off, filter and sort, and export as a Markdown checklist, text or CSV. Saved in your browser – no account.",
+   "h1": "To-Do List",
+   "steps": [
+    "Type a task and press Enter – add a due date and priority if you like.",
+    "Tick tasks off, edit them or move them up and down.",
+    "Filter or sort the list, and download it whenever you want."
+   ],
+   "faq": [
+    {
+     "q": "Where are my tasks saved?",
+     "a": "In this browser’s local storage on this device. They are not uploaded or synced."
+    },
+    {
+     "q": "Can I share my list?",
+     "a": "Download it as a Markdown checklist or text and send the file, or paste it into a chat or document."
+    }
+   ],
+   "guide": {
+    "intro": "Most to-do apps want an account, a subscription or your email address. Sometimes you just want a list. {brand}’s to-do list opens instantly, keeps your tasks in your browser, and has just enough features to stay useful: priorities, due dates, filters for today and overdue, sorting and export to Markdown, text or CSV. There are no ads in the list and nothing is sent to a server.",
+    "uses": [
+     "Keep a daily or weekly task list on your work computer.",
+     "Plan a move, trip, event or project step by step.",
+     "Track homework and revision tasks with due dates.",
+     "Make a shopping or packing checklist you can print or export.",
+     "Collect quick tasks during a meeting and export them afterwards."
+    ],
+    "tips": [
+     "Give each task a clear verb: “Email Sam the invoice” beats “invoice”.",
+     "Use the “Due today or overdue” filter each morning.",
+     "Keep high priority for no more than three tasks a day.",
+     "Export your list regularly if it matters – browser data can be cleared.",
+     "Move finished-task review to Friday: clear completed items for a fresh week."
+    ],
+    "more": [
+     [
+      "Simple systems work best",
+      "Productivity research consistently finds that the best system is the one you actually use. A quick, distraction-free list lowers the effort of capturing tasks, which is the key habit. Write tasks down as soon as they occur to you, pick the few that matter most each day, and tick them off. The sense of progress from completed tasks is itself motivating, which is why completed items stay visible until you clear them."
+     ],
+     [
+      "Priorities and due dates",
+      "Set a priority of high, normal or low, and an optional due date. Sorting by priority puts the most important work first; sorting by due date shows what is coming up. The “today” filter shows tasks due today plus anything overdue, which makes a good daily starting point. Overdue tasks are highlighted, a gentle reminder to either do them, reschedule them or decide they no longer matter."
+     ],
+     [
+      "Exporting your tasks",
+      "The Markdown checklist export uses “- [ ]” and “- [x]” syntax, which renders as checkboxes in GitHub, Notion, Obsidian and many note apps. Plain text is easy to paste into email or chat. CSV opens in Excel, Google Sheets and project-management tools for bulk import. Because your list lives in this browser, exporting is also your backup – keep a copy before clearing browsing data or switching computers."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Does it work offline?",
+      "a": "Yes, once the page has loaded."
+     },
+     {
+      "q": "Can I use it on my phone?",
+      "a": "Yes, but phone and computer lists are separate because each browser keeps its own."
+     },
+     {
+      "q": "Is there a task limit?",
+      "a": "No practical limit for everyday lists."
+     }
+    ]
+   }
+  },
+  "emoji": {
+   "name": "Emoji Picker",
+   "short": "Search and copy 1,300+ emoji by name or category.",
+   "title": "Emoji Picker – Search & Copy Emoji Online | {brand}",
+   "desc": "Find and copy emoji fast: search 1,300+ emoji by name, browse categories, build a string of several emoji and keep your recently used ones. Works on any computer – no keyboard shortcuts needed.",
+   "h1": "Emoji Picker",
+   "steps": [
+    "Search by name (e.g. “heart” or “party”) or browse a category.",
+    "Click an emoji to copy it, or add several to build a string.",
+    "Paste it anywhere – your recent emoji are kept for next time."
+   ],
+   "faq": [
+    {
+     "q": "Why do some emoji look different on other devices?",
+     "a": "Each platform – Apple, Google, Microsoft, Samsung – draws emoji in its own style. The code is the same, but the picture varies."
+    },
+    {
+     "q": "Why do I see a box instead of an emoji?",
+     "a": "The device or font does not support that emoji yet, usually because the operating system is older than the emoji’s Unicode version."
+    }
+   ],
+   "guide": {
+    "intro": "Desktop computers make emoji surprisingly awkward: shortcuts differ between Windows and Mac, and many apps have no picker at all. {brand}’s emoji picker lets you search more than 1,300 emoji by their official Unicode names, browse by category, copy any one with a click, or build a string of several to paste at once. Your recently used emoji are remembered in your browser, so favourites are always one click away.",
+    "uses": [
+     "Add emoji to emails, documents and presentations on a desktop computer.",
+     "Find the right emoji for a social media caption or bio.",
+     "Copy emoji for website copy, newsletters or product listings.",
+     "Build emoji strings for headings, lists or reactions.",
+     "Look up the official name of an emoji you received."
+    ],
+    "tips": [
+     "Search with simple words: “cat”, “sun”, “flag”, “thumbs”.",
+     "Use “Build a string” to copy several emoji in one go.",
+     "Recent emoji appear first, making repeats faster.",
+     "On Windows press Win + . and on Mac Ctrl + Cmd + Space for the system picker.",
+     "Use emoji sparingly in professional writing and alt text."
+    ],
+    "more": [
+     [
+      "What emoji really are",
+      "Emoji are standard text characters defined by the Unicode Consortium, just like letters. Each has a code point and an official name, such as U+1F600 “grinning face”. Because they are text, they can be copied, pasted, searched and stored anywhere text goes. Your device draws them using its emoji font, which is why the same character looks different on an iPhone, an Android phone or a Windows PC."
+     ],
+     [
+      "Skin tones, flags and combined emoji",
+      "Some emoji are sequences of several code points joined together. Skin-tone variants add a modifier to a base emoji; families and professions combine people and objects with an invisible joiner; flags combine two regional-indicator letters. If a device does not support a combination, it shows the separate parts instead. The picker focuses on the core set that displays correctly on almost every modern system."
+     ],
+     [
+      "Emoji and accessibility",
+      "Screen readers announce emoji by their names, so “🎉🎉🎉” is read as “party popper, party popper, party popper”. Use emoji to add tone rather than to replace words, avoid long strings in the middle of sentences, and place them at the end of a line where possible. In hashtags and usernames, emoji can make content harder to find and read aloud."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "How many emoji are included?",
+      "a": "About 1,360 core emoji with their official names, grouped into categories."
+     },
+     {
+      "q": "Is anything uploaded?",
+      "a": "No. The emoji list is part of the page and your recent emoji are stored only in this browser."
+     },
+     {
+      "q": "Can I use emoji commercially?",
+      "a": "The characters are free to use. Some platform emoji artwork is copyrighted, so check before printing a vendor’s emoji images."
+     }
+    ]
+   }
+  },
+  "fancytext": {
+   "name": "Fancy Text Generator",
+   "short": "Copy-and-paste fonts for bios, posts and names.",
+   "title": "Fancy Text Generator – Cool Fonts to Copy & Paste | {brand}",
+   "desc": "Turn plain text into 𝗯𝗼𝗹𝗱, 𝘪𝘵𝘢𝘭𝘪𝘤, 𝓈𝒸𝓇𝒾𝓅𝓉, 𝔣𝔯𝔞𝔨𝔱𝔲𝔯, 𝕕𝕠𝕦𝕓𝕝𝕖-𝕤𝕥𝕣𝕦𝕔𝕜, ⓒⓘⓡⓒⓛⓔⓓ, sᴍᴀʟʟ ᴄᴀᴘs, upside-down and more Unicode styles. Copy and paste into Instagram, TikTok, X or Discord.",
+   "h1": "Fancy Text Generator",
+   "steps": [
+    "Type your text.",
+    "Scroll through the styles to find one you like.",
+    "Click a style to copy it, then paste it into your bio, post or name."
+   ],
+   "faq": [
+    {
+     "q": "How do these fonts work on Instagram?",
+     "a": "They are not fonts but special Unicode characters that look like styled letters. Any app that displays Unicode shows them, so they survive copy and paste."
+    },
+    {
+     "q": "Are fancy letters bad for accessibility?",
+     "a": "Often, yes. Screen readers may read them letter by letter or skip them. Use them for a word or two, not whole posts."
+    }
+   ],
+   "guide": {
+    "intro": "Social apps rarely let you choose a font, but Unicode contains complete alphabets of bold, italic, script, gothic, double-struck, circled and other styled letters. {brand}’s fancy text generator converts your words into dozens of these styles at once so you can copy the one you like into an Instagram bio, a TikTok caption, an X post, a Discord nickname or a game name. Everything runs in your browser.",
+    "uses": [
+     "Make your Instagram or TikTok bio stand out.",
+     "Emphasise a word in a post where bold is not supported.",
+     "Create a distinctive gaming or Discord display name.",
+     "Add decorative headings to messages and community posts.",
+     "Design playful text for invitations shared online."
+    ],
+    "tips": [
+     "Use styled text sparingly – one name or heading, not whole paragraphs.",
+     "Bold and italic sans-serif styles are the most widely supported.",
+     "Check how it looks on both Android and iPhone before committing to a username.",
+     "Avoid fancy letters in text people need to search for, such as your shop name.",
+     "Some platforms block styled characters in usernames; use them in display names instead."
+    ],
+    "more": [
+     [
+      "Why it is not a real font",
+      "A font changes how ordinary letters are drawn. These styles instead swap each letter for a different character: the “𝐀” in mathematical bold is a separate code point from a normal “A”, originally added for mathematical notation. Because they are separate characters, they keep their look wherever Unicode text goes – but search engines and apps treat them as different letters, which is why styled text is not found when someone searches the plain word."
+     ],
+     [
+      "Device and app support",
+      "Most styles display on modern iPhones, Android phones, Windows and Mac computers. Some unusual characters, such as a few small capitals or upside-down letters, are missing from older fonts and appear as empty boxes. Upside-down text also reverses the order of characters so it reads correctly when flipped. If you are using text somewhere important, paste it into the app and check it on a second device before publishing."
+     ],
+     [
+      "Accessibility matters",
+      "Screen readers used by blind and partially sighted people often read styled characters as their mathematical names – “mathematical bold capital H” – or skip them entirely. A bio written wholly in script letters can be unintelligible to them. A good compromise is to keep your name and key information in plain text and use a styled word only for decoration. The generator shows this tip so you can choose responsibly."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Will it work in my username?",
+      "a": "Display names usually accept it; many platforms restrict usernames and handles to plain letters, numbers and a few symbols."
+     },
+     {
+      "q": "Does it support numbers?",
+      "a": "Many styles include numbers too, such as bold, double-struck, circled and monospace."
+     },
+     {
+      "q": "Can I use it in documents?",
+      "a": "Yes, but a real bold or italic font is better for documents because it stays searchable and accessible."
+     }
+    ]
+   }
+  },
+  "love": {
+   "name": "Love Calculator",
+   "short": "A just-for-fun love compatibility score from two names.",
+   "title": "Love Calculator – Name Compatibility Test (Just for Fun) | {brand}",
+   "desc": "Enter two names to get a playful love compatibility percentage and a FLAMES result. Same names always give the same score. Just for fun – no data stored or sent anywhere.",
+   "h1": "Love Calculator",
+   "steps": [
+    "Type your name and your crush’s, partner’s or friend’s name.",
+    "See your fun compatibility score and the FLAMES result.",
+    "Share a screenshot or download the result for laughs."
+   ],
+   "faq": [
+    {
+     "q": "Is the love calculator accurate?",
+     "a": "No – it is entertainment. The score is calculated from the letters of the names, not from anything about real compatibility."
+    },
+    {
+     "q": "Why do the same names always give the same score?",
+     "a": "The score comes from a fixed calculation on the names, so it is consistent – and the order of the names does not matter."
+    }
+   ],
+   "guide": {
+    "intro": "The love calculator is a classic playground and party game: type two names and get a compatibility percentage with a cheeky message. {brand}’s version is consistent – the same pair always gives the same result, whichever order you type them – and includes the traditional FLAMES game (Friends, Lovers, Affectionate, Marriage, Enemies, Siblings). It is just for fun, and the names never leave your browser.",
+    "uses": [
+     "Have a laugh with friends at a sleepover or party.",
+     "Break the ice on a group chat or game night.",
+     "Add a playful moment to a Valentine’s Day card or post.",
+     "Compare celebrity couples or fictional characters.",
+     "Entertain kids learning to spell names."
+    ],
+    "tips": [
+     "Try nicknames versus full names – the score changes!",
+     "Remember that the order of names does not matter.",
+     "Accents and spaces are ignored, so “José” and “Jose” score the same.",
+     "Screenshot the result to share it in a chat.",
+     "Do not base real decisions on it – it is a game."
+    ],
+    "more": [
+     [
+      "How the score is made",
+      "The calculator removes spaces, accents and punctuation, sorts the two names so their order does not matter, and runs them through a hashing function that turns any text into a number. That number is mapped to a percentage from 1 to 100 and a matching playful message. Nothing random is involved, which is why the result is repeatable – the fun is in trying different spellings and nicknames."
+     ],
+     [
+      "The FLAMES game",
+      "FLAMES is a pen-and-paper game played in schools around the world. Write both names, cross out the letters they share, and count the letters left. Then count around the word FLAMES by that number, crossing out the letter you land on each time, until one letter remains: Friends, Lovers, Affectionate, Marriage, Enemies or Siblings. The calculator plays it for you with exactly those traditional rules."
+     ],
+     [
+      "Real compatibility",
+      "Psychologists who study relationships point to things like shared values, good communication, trust, kindness and how couples handle conflict – none of which can be read from a name. Treat the score as a conversation starter, not advice. If a result makes someone feel bad, laugh it off and try their middle name; if you are thinking about a real relationship, talk to the person instead."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is my data saved?",
+      "a": "No. Names are processed only in your browser and are not stored or sent."
+     },
+     {
+      "q": "Can I use any language?",
+      "a": "Yes – names in any alphabet work, though FLAMES uses letter matching that suits alphabetic scripts best."
+     },
+     {
+      "q": "Can I get 100%?",
+      "a": "Some name pairs do! Keep trying spellings."
+     }
+    ]
+   }
+  },
+  "typing": {
+   "name": "Typing Speed Test",
+   "short": "Measure your words per minute and accuracy.",
+   "title": "Typing Speed Test – Check Your WPM & Accuracy Free | {brand}",
+   "desc": "Take a free typing test: 15, 30, 60 or 120 seconds on varied passages, common words or your own text. Live WPM and accuracy, error highlighting and your best score saved locally. No sign-up.",
+   "h1": "Typing Speed Test",
+   "steps": [
+    "Choose a test length and the text type.",
+    "Start typing – the timer begins with your first key.",
+    "See your WPM, accuracy and errors, then try to beat your best score."
+   ],
+   "faq": [
+    {
+     "q": "What is a good typing speed?",
+     "a": "The average adult types roughly 35–45 WPM. 60+ WPM is fast, and professional typists often exceed 80 WPM with high accuracy."
+    },
+    {
+     "q": "How is WPM calculated?",
+     "a": "By the standard definition: correctly typed characters divided by five (one “word”), per minute."
+    }
+   ],
+   "guide": {
+    "intro": "Typing speed matters for students, job seekers, programmers and anyone who spends the day writing. {brand}’s typing test measures your words per minute and accuracy on real sentences, common word drills or text you paste yourself, highlighting mistakes as you go. Choose a 15-second sprint or a 2-minute endurance test, and your best score is saved in your browser so you can track your improvement. There is no account and nothing is uploaded.",
+    "uses": [
+     "Check your speed before a job application that lists a WPM requirement.",
+     "Practise daily to build touch-typing speed and accuracy.",
+     "Warm up before a writing or coding session.",
+     "Run friendly typing races with classmates or colleagues.",
+     "Measure progress when learning a new keyboard layout."
+    ],
+    "tips": [
+     "Accuracy first – speed follows once errors drop.",
+     "Keep your fingers on the home row (ASDF JKL;) and avoid looking down.",
+     "Use 60-second tests for a reliable score; 15 seconds is more variable.",
+     "Paste text from your own field to practise specialist vocabulary.",
+     "Take short daily sessions – ten minutes beats an hour once a week."
+    ],
+    "more": [
+     [
+      "How the score is calculated",
+      "Typing tests use a standard “word” of five characters, including spaces and punctuation, so long and short words count fairly. Your net WPM is the number of correctly typed characters divided by five, divided by the minutes elapsed. Accuracy is the percentage of keystrokes that matched the text. Errors are shown in red as you type, and you can correct them – corrected characters count towards accuracy but not against your final speed."
+     ],
+     [
+      "Improving your speed",
+      "Touch typing – using all ten fingers without looking at the keys – is the single biggest improvement for most people. Begin slowly, focusing on correct finger placement from the home row, and accept a temporary drop in speed. After a few weeks of short daily practice, most learners overtake their old “hunt and peck” speed. Rhythm matters more than bursts: steady, even keystrokes reduce errors."
+     ],
+     [
+      "Choosing a test mode",
+      "Passages contain punctuation, capital letters and numbers, so they reflect real writing. Common-word drills use only frequent lower-case words, which is useful for building raw speed and finger memory. Custom text lets you practise exactly what you type at work – code, medical terms, another language. Compare scores only within the same mode, because punctuation-heavy text is naturally slower."
+     ]
+    ],
+    "faq": [
+     {
+      "q": "Is my score saved?",
+      "a": "Your best score is stored only in this browser. Nothing is uploaded."
+     },
+     {
+      "q": "Does it work on phones?",
+      "a": "Yes, but phone typing speeds are much lower; for a fair comparison use a physical keyboard."
+     },
+     {
+      "q": "Can I test in other languages?",
+      "a": "Paste your own text in any language into the custom text box."
+     }
+    ]
+   }
+  }
+ },
+ "ui": {
+  "cat_web": "SEO & web tools",
+  "cat_prod": "Productivity",
+  "cat_fun": "Generators & fun"
+ }
+}

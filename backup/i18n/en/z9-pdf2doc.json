@@ -1,0 +1,148 @@
+{
+"tools": {
+"pdf2rtf": {
+"name": "PDF to RTF Converter",
+"short": "Convert PDF to editable RTF.",
+"title": "PDF to RTF Converter – Free, No Upload, OCR | {brand}",
+"desc": "Convert PDF to editable RTF free in your browser: paragraphs, headings, tables and images, with free OCR for scans. No upload, no sign-up.",
+"h1": "Convert PDF to RTF",
+"steps": [
+"Select a PDF.",
+"Choose OCR settings and language for scanned pages.",
+"Click Start and download the editable RTF."
+],
+"faq": [
+{
+"q": "How do I convert a PDF to RTF?",
+"a": "Drop the PDF here and press Start. {brand} rebuilds paragraphs, headings, lists, tables and images and saves them as RTF."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No – the PDF is read and converted entirely inside your browser."
+},
+{
+"q": "Does it work with scanned PDFs?",
+"a": "Yes. Pages without a text layer are recognised with free on-device OCR in 12 languages, including Arabic, Hindi, Tamil, Chinese and Japanese."
+},
+{
+"q": "Will the layout be identical?",
+"a": "RTF is a flowing format, so text reflows into normal paragraphs. For a pixel-exact copy use PDF to Word with the Exact layout mode."
+},
+{
+"q": "Are tables kept?",
+"a": "Yes – detected tables become real editable tables with borders."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no limits, watermarks or account."
+}
+],
+"guide": {
+"intro": "RTF is Rich Text Format – the universal word-processor format that opens in Word, WordPad, TextEdit, LibreOffice, Pages and Google Docs. {brand} turns a PDF into a clean, editable RTF document directly in your browser – reading order, headings, bold/italic, lists, tables and images are reconstructed.",
+"uses": [
+"Edit a PDF in LibreOffice, WordPad or TextEdit without Microsoft Word.",
+"Submit documents to offices that require ODF or RTF.",
+"Recover the text of scanned letters with OCR.",
+"Re-use content from reports and brochures."
+],
+"tips": [
+"Choose the correct OCR language for scanned pages.",
+"Multi-column pages are converted in reading order; check headings afterwards.",
+"For a perfect visual copy, use PDF to Word (Exact layout)."
+],
+"more": [
+[
+"How it works",
+"pdf.js extracts every text run with its font, size and position; the same engine as our PDF to Word tool groups runs into lines, paragraphs, columns and tables, detects headings by size and weight, and embeds images. The document is then written as RTF – entirely on your device."
+],
+[
+"Compared with iLovePDF, Smallpdf, Adobe and Sejda",
+"Most of them don’t offer RTF output at all, or only via upload with daily limits (Sejda: 3 tasks per hour, 50 MB; Smallpdf: a couple per day). OCR is usually a paid feature – here it is free and local."
+]
+],
+"faq": [
+{
+"q": "Does it work offline?",
+"a": "Yes, once the page and the OCR language data have loaded."
+},
+{
+"q": "Is non-Latin text supported?",
+"a": "Yes – text is stored as Unicode, so any script is preserved."
+}
+]
+}
+},
+"pdf2odt": {
+"name": "PDF to ODT Converter",
+"short": "Convert PDF to editable ODT.",
+"title": "PDF to ODT Converter – Free, No Upload, OCR | {brand}",
+"desc": "Convert PDF to editable ODT free in your browser: paragraphs, headings, tables and images, with free OCR for scans. No upload, no sign-up.",
+"h1": "Convert PDF to ODT",
+"steps": [
+"Select a PDF.",
+"Choose OCR settings and language for scanned pages.",
+"Click Start and download the editable ODT."
+],
+"faq": [
+{
+"q": "How do I convert a PDF to ODT?",
+"a": "Drop the PDF here and press Start. {brand} rebuilds paragraphs, headings, lists, tables and images and saves them as ODT."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No – the PDF is read and converted entirely inside your browser."
+},
+{
+"q": "Does it work with scanned PDFs?",
+"a": "Yes. Pages without a text layer are recognised with free on-device OCR in 12 languages, including Arabic, Hindi, Tamil, Chinese and Japanese."
+},
+{
+"q": "Will the layout be identical?",
+"a": "ODT is a flowing format, so text reflows into normal paragraphs. For a pixel-exact copy use PDF to Word with the Exact layout mode."
+},
+{
+"q": "Are tables kept?",
+"a": "Yes – detected tables become real editable tables with borders."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no limits, watermarks or account."
+}
+],
+"guide": {
+"intro": "ODT is OpenDocument Text – the ISO-standard format of LibreOffice Writer, OpenOffice and many government offices. {brand} turns a PDF into a clean, editable ODT document directly in your browser – reading order, headings, bold/italic, lists, tables and images are reconstructed.",
+"uses": [
+"Edit a PDF in LibreOffice, WordPad or TextEdit without Microsoft Word.",
+"Submit documents to offices that require ODF or RTF.",
+"Recover the text of scanned letters with OCR.",
+"Re-use content from reports and brochures."
+],
+"tips": [
+"Choose the correct OCR language for scanned pages.",
+"Multi-column pages are converted in reading order; check headings afterwards.",
+"For a perfect visual copy, use PDF to Word (Exact layout)."
+],
+"more": [
+[
+"How it works",
+"pdf.js extracts every text run with its font, size and position; the same engine as our PDF to Word tool groups runs into lines, paragraphs, columns and tables, detects headings by size and weight, and embeds images. The document is then written as ODT – entirely on your device."
+],
+[
+"Compared with iLovePDF, Smallpdf, Adobe and Sejda",
+"Most of them don’t offer ODT output at all, or only via upload with daily limits (Sejda: 3 tasks per hour, 50 MB; Smallpdf: a couple per day). OCR is usually a paid feature – here it is free and local."
+]
+],
+"faq": [
+{
+"q": "Does it work offline?",
+"a": "Yes, once the page and the OCR language data have loaded."
+},
+{
+"q": "Is non-Latin text supported?",
+"a": "Yes – text is stored as Unicode, so any script is preserved."
+}
+]
+}
+}
+}
+}

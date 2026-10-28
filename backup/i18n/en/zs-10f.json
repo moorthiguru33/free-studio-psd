@@ -1,0 +1,1707 @@
+{
+"tools": {
+"summarize": {
+"seo": {
+"title": "Summarize PDF – Free AI PDF Summarizer, No Upload",
+"desc": "Summarize a PDF in seconds: key sentences, key points and topics extracted on your device. Short, medium or detailed. Download TXT or Markdown. Free.",
+"compareTitle": "{tool}: {brand} vs ChatPDF, Acrobat AI Assistant and Smallpdf",
+"compareCols": [
+"ChatPDF",
+"Adobe Acrobat AI Assistant",
+"Smallpdf AI"
+],
+"sections": [
+[
+"Summarize a PDF for free",
+"Get the gist of a long report, paper, contract or e-book in seconds. The summarizer reads the whole PDF, ranks every sentence by how central it is to the document and gives you the most important ones in their original order, plus a list of key points and the main topics. Choose a short summary of five sentences, a medium one of about 10 % of the text or a detailed one of about 20 %."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF (or tick Run OCR first for a scan).",
+"Choose the summary length.",
+"Press Summarize and read the key sentences, key points and topics.",
+"Download the summary as .txt or Markdown."
+]
+}
+],
+[
+"What you get",
+{
+"table": [
+[
+"Part",
+"What it contains"
+],
+[
+"Summary",
+"The highest-ranked sentences in reading order"
+],
+[
+"Key points",
+"Short bullet list of the most informative statements"
+],
+[
+"Key topics",
+"The most characteristic words and phrases of the document"
+],
+[
+"Download",
+"Plain text or Markdown with headings, ready for notes apps"
+]
+]
+}
+],
+[
+"Choosing a length",
+"*Short* is ideal for deciding whether a document is worth reading at all, or for an e-mail update. *Medium* (about a tenth of the text) captures the structure of most reports. *Detailed* keeps about a fifth – useful for study notes from a textbook chapter. For a very long book, summarise one chapter at a time using [Split PDF](/split-pdf/) or [Extract Pages](/extract-pdf-pages/) for better focus."
+],
+[
+"Getting better summaries",
+{
+"list": [
+"Remove cover pages, tables of contents and reference lists first – they add noise.",
+"Summaries of well-structured prose (reports, articles, essays) are best; slide decks and forms have few full sentences.",
+"Use the key topics to decide which section to read in full, then search it in [PDF Reader](/pdf-reader/)."
+]
+}
+],
+[
+"Summaries in study and work",
+"Turn the Markdown download into revision notes in Obsidian or Notion, paste key points into a meeting agenda, or build flashcards with the [PDF Question Generator](/pdf-question-generator/). For literature reviews, summarise each paper and keep the summaries alongside citations."
+],
+[
+"How the on-device AI works",
+"Fileopia's document AI does not send your PDF to a chatbot or a cloud model, and there is no large model to download. It uses proven, lightweight language-processing methods that run instantly in JavaScript: the text is split into sentences, every word is weighted by TF-IDF (how important it is in this document compared with ordinary language), and algorithms such as TextRank and BM25 – the ranking method behind many search engines – find the most central sentences or the passages that best match a question. Because everything is *extractive*, results are quoted from your document rather than generated, so the tool cannot invent facts, and every answer can be checked against the page it came from."
+],
+[
+"Strengths and honest limits",
+{
+"list": [
+"**Faithful:** output is always the document's own words, with no hallucinations.",
+"**Fast and private:** a 200-page report is processed in seconds on a laptop, offline after loading.",
+"**Language:** works best with English and other space-separated languages; OCR for scans is English.",
+"**Not a chatbot:** it will not reason across pages, write new text, translate or answer questions whose answer is not stated in the document.",
+"**Layout:** tables, footnotes and multi-column pages are read in text order, which can occasionally split a sentence."
+]
+},
+"For a generative rewrite, paste the extracted summary into the AI assistant you already trust – you share only the summary, not the whole confidential file."
+],
+[
+"Scanned PDFs",
+"If the PDF is a scan or photo, it has no text layer and the tool will say that not enough text was found. Tick *Run OCR first (English)* and the pages are recognised on your device before analysis, or run [OCR PDF](/ocr-pdf/) separately to get a searchable copy you can keep."
+],
+[
+"Who it is for",
+"Students revising textbooks and lecture notes, researchers triaging papers, lawyers and paralegals skimming contracts, analysts reading annual reports, HR teams reviewing policies and anyone handed a long PDF with little time. Because nothing is uploaded, it is suitable for documents covered by NDAs, client confidentiality or GDPR, where pasting into a public chatbot would not be allowed."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"On-device, no upload to an AI service",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Answers quote the source page",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline after loading",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I summarize a PDF?",
+"a": "Drop it, pick a length and press Summarize."
+},
+{
+"q": "Is my PDF uploaded to an AI?",
+"a": "No, it is processed on your device."
+},
+{
+"q": "Is it really AI?",
+"a": "It uses extractive NLP (TF-IDF and TextRank), not a chatbot."
+},
+{
+"q": "Can it make things up?",
+"a": "No, it only quotes sentences from your document."
+},
+{
+"q": "How long can the PDF be?",
+"a": "Hundreds of pages; long books take a little longer."
+},
+{
+"q": "Does it work on scanned PDFs?",
+"a": "Yes, tick Run OCR first."
+},
+{
+"q": "Which languages work?",
+"a": "Best with English and other space-separated languages."
+},
+{
+"q": "Can I download the summary?",
+"a": "Yes, as TXT or Markdown."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no sign-up."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+}
+],
+"related": [
+"chat-with-pdf",
+"pdf-question-generator",
+"extract-data-from-pdf",
+"ocr-pdf",
+"pdf-to-text"
+],
+"updated": "2026-10-25"
+}
+},
+"chatpdf": {
+"seo": {
+"title": "Chat with PDF – Ask Questions, Get Cited Answers Free",
+"desc": "Ask questions about any PDF and get answers quoted from the document with page numbers. Runs on your device – no upload, no account. Export Q&A.",
+"compareTitle": "{tool}: {brand} vs ChatPDF, Acrobat AI Assistant and Smallpdf",
+"compareCols": [
+"ChatPDF",
+"Adobe Acrobat AI Assistant",
+"Smallpdf AI"
+],
+"sections": [
+[
+"Chat with your PDF",
+"Ask a question in plain words – \"What is the notice period?\", \"When does the warranty end?\", \"What was revenue in 2025?\" – and get the passages from your PDF that answer it, each with its page number. Because answers are quoted rather than generated, you can trust them and click straight to the source."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF and wait for \"Ready\".",
+"Type a question and press Ask.",
+"Read the quoted passages with page numbers.",
+"Ask follow-up questions; download the Q&A transcript as TXT or Markdown."
+]
+}
+],
+[
+"How questions are matched",
+"Every sentence and passage is indexed when the PDF opens. Your question is compared with the index using BM25, a relevance formula that rewards rare, specific words that appear in both. The best matching passages are shown with their page number. If nothing matches, rephrase with words likely to appear in the document – \"termination\" rather than \"how do I get out of this contract\"."
+],
+[
+"Good questions to ask",
+{
+"list": [
+"Contracts: \"payment terms\", \"liability cap\", \"governing law\", \"renewal\".",
+"Policies and manuals: \"leave entitlement\", \"reset password\", \"warranty claim\".",
+"Reports: \"total revenue\", \"risks\", \"forecast 2027\".",
+"Papers: \"sample size\", \"limitations\", \"main result\"."
+]
+}
+],
+[
+"Chat vs search",
+"Ctrl+F only finds exact words. Chat ranks passages by meaning-bearing words, so a question with several words finds the paragraph where they occur together, even when the wording differs slightly. For an exact phrase, use the search box in [PDF Reader](/pdf-reader/)."
+],
+[
+"Exporting the conversation",
+"Download the questions and answers with page references as a text or Markdown file – handy for due-diligence notes, contract review checklists or study notes."
+],
+[
+"How the on-device AI works",
+"Fileopia's document AI does not send your PDF to a chatbot or a cloud model, and there is no large model to download. It uses proven, lightweight language-processing methods that run instantly in JavaScript: the text is split into sentences, every word is weighted by TF-IDF (how important it is in this document compared with ordinary language), and algorithms such as TextRank and BM25 – the ranking method behind many search engines – find the most central sentences or the passages that best match a question. Because everything is *extractive*, results are quoted from your document rather than generated, so the tool cannot invent facts, and every answer can be checked against the page it came from."
+],
+[
+"Strengths and honest limits",
+{
+"list": [
+"**Faithful:** output is always the document's own words, with no hallucinations.",
+"**Fast and private:** a 200-page report is processed in seconds on a laptop, offline after loading.",
+"**Language:** works best with English and other space-separated languages; OCR for scans is English.",
+"**Not a chatbot:** it will not reason across pages, write new text, translate or answer questions whose answer is not stated in the document.",
+"**Layout:** tables, footnotes and multi-column pages are read in text order, which can occasionally split a sentence."
+]
+},
+"For a generative rewrite, paste the extracted summary into the AI assistant you already trust – you share only the summary, not the whole confidential file."
+],
+[
+"Scanned PDFs",
+"If the PDF is a scan or photo, it has no text layer and the tool will say that not enough text was found. Tick *Run OCR first (English)* and the pages are recognised on your device before analysis, or run [OCR PDF](/ocr-pdf/) separately to get a searchable copy you can keep."
+],
+[
+"Who it is for",
+"Students revising textbooks and lecture notes, researchers triaging papers, lawyers and paralegals skimming contracts, analysts reading annual reports, HR teams reviewing policies and anyone handed a long PDF with little time. Because nothing is uploaded, it is suitable for documents covered by NDAs, client confidentiality or GDPR, where pasting into a public chatbot would not be allowed."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"On-device, no upload to an AI service",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Answers quote the source page",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline after loading",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I chat with a PDF?",
+"a": "Drop it, type a question and press Ask."
+},
+{
+"q": "Is my document uploaded?",
+"a": "No, it stays on your device."
+},
+{
+"q": "Are answers cited?",
+"a": "Yes, with page numbers."
+},
+{
+"q": "Can it hallucinate?",
+"a": "No, answers are quoted passages."
+},
+{
+"q": "Can it answer questions not in the document?",
+"a": "No."
+},
+{
+"q": "Does it work with scans?",
+"a": "Yes, tick Run OCR first."
+},
+{
+"q": "Can I save the chat?",
+"a": "Yes, download TXT or Markdown."
+},
+{
+"q": "Is there a page limit?",
+"a": "No fixed limit; large files take longer."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Do I need an account?",
+"a": "No."
+}
+],
+"related": [
+"summarize-pdf",
+"pdf-question-generator",
+"extract-data-from-pdf",
+"pdf-reader",
+"ocr-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"quizgen": {
+"seo": {
+"title": "PDF Question Generator – Make Quizzes from PDF Free",
+"desc": "Generate quiz questions from a PDF: multiple-choice and fill-in-the-blank, 5, 10 or 20 questions with answers. On-device, no upload, free.",
+"compareTitle": "{tool}: {brand} vs ChatPDF, Acrobat AI Assistant and Smallpdf",
+"compareCols": [
+"ChatPDF",
+"Adobe Acrobat AI Assistant",
+"Smallpdf AI"
+],
+"sections": [
+[
+"Generate questions from a PDF",
+"Turn study material into a quiz. The generator finds the most informative sentences in your PDF and turns them into fill-in-the-blank or multiple-choice questions, with the answer key and the page each question came from. Choose 5, 10 or 20 questions."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF (textbook chapter, notes, handout).",
+"Pick the number of questions and the type.",
+"Press Generate.",
+"Download the quiz with answers as TXT or Markdown."
+]
+}
+],
+[
+"Question types",
+{
+"table": [
+[
+"Type",
+"Example",
+"Good for"
+],
+[
+"Fill in the blank",
+"Photosynthesis takes place in the ____.",
+"Definitions, terms, dates"
+],
+[
+"Multiple choice",
+"Same sentence with four options drawn from other key terms in the document",
+"Self-tests, classroom quizzes"
+]
+]
+},
+"Distractors (wrong options) are chosen from other important terms in the same document, so they are plausible rather than random."
+],
+[
+"Tips for teachers and students",
+{
+"list": [
+"Use one chapter at a time for focused questions – split long books with [Split PDF](/split-pdf/).",
+"Review and edit the output before giving it to a class; automatic questions occasionally blank a less useful word.",
+"Combine with spaced repetition: import the Markdown into Anki or a flashcard app.",
+"Generate a [summary](/summarize-pdf/) first, then quiz yourself on it."
+]
+}
+],
+[
+"Why active recall works",
+"Testing yourself is one of the best-supported study techniques in learning research: retrieving information strengthens memory more than rereading. A quick 10-question quiz after each chapter is an easy way to apply it."
+],
+[
+"How the on-device AI works",
+"Fileopia's document AI does not send your PDF to a chatbot or a cloud model, and there is no large model to download. It uses proven, lightweight language-processing methods that run instantly in JavaScript: the text is split into sentences, every word is weighted by TF-IDF (how important it is in this document compared with ordinary language), and algorithms such as TextRank and BM25 – the ranking method behind many search engines – find the most central sentences or the passages that best match a question. Because everything is *extractive*, results are quoted from your document rather than generated, so the tool cannot invent facts, and every answer can be checked against the page it came from."
+],
+[
+"Strengths and honest limits",
+{
+"list": [
+"**Faithful:** output is always the document's own words, with no hallucinations.",
+"**Fast and private:** a 200-page report is processed in seconds on a laptop, offline after loading.",
+"**Language:** works best with English and other space-separated languages; OCR for scans is English.",
+"**Not a chatbot:** it will not reason across pages, write new text, translate or answer questions whose answer is not stated in the document.",
+"**Layout:** tables, footnotes and multi-column pages are read in text order, which can occasionally split a sentence."
+]
+},
+"For a generative rewrite, paste the extracted summary into the AI assistant you already trust – you share only the summary, not the whole confidential file."
+],
+[
+"Scanned PDFs",
+"If the PDF is a scan or photo, it has no text layer and the tool will say that not enough text was found. Tick *Run OCR first (English)* and the pages are recognised on your device before analysis, or run [OCR PDF](/ocr-pdf/) separately to get a searchable copy you can keep."
+],
+[
+"Who it is for",
+"Students revising textbooks and lecture notes, researchers triaging papers, lawyers and paralegals skimming contracts, analysts reading annual reports, HR teams reviewing policies and anyone handed a long PDF with little time. Because nothing is uploaded, it is suitable for documents covered by NDAs, client confidentiality or GDPR, where pasting into a public chatbot would not be allowed."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"On-device, no upload to an AI service",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Answers quote the source page",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline after loading",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a quiz from a PDF?",
+"a": "Drop it, choose the number and type of questions and press Generate."
+},
+{
+"q": "Which question types are there?",
+"a": "Fill-in-the-blank and multiple choice."
+},
+{
+"q": "How many questions?",
+"a": "5, 10 or 20."
+},
+{
+"q": "Are answers included?",
+"a": "Yes, with page numbers."
+},
+{
+"q": "Is the PDF uploaded?",
+"a": "No."
+},
+{
+"q": "Does it work with scanned notes?",
+"a": "Yes, with OCR first."
+},
+{
+"q": "Can I edit the questions?",
+"a": "Download as text and edit."
+},
+{
+"q": "Which languages?",
+"a": "Best in English."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Can teachers use it?",
+"a": "Yes, review the questions first."
+}
+],
+"related": [
+"summarize-pdf",
+"chat-with-pdf",
+"extract-data-from-pdf",
+"pdf-to-text",
+"ocr-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"extractfacts": {
+"seo": {
+"title": "Extract Data from PDF – Dates, Amounts, Emails, Names",
+"desc": "Pull key facts from a PDF: dates, money amounts, percentages, e-mails, phone numbers, URLs and frequent names, with page numbers. On-device, free.",
+"compareTitle": "{tool}: {brand} vs ChatPDF, Acrobat AI Assistant and Smallpdf",
+"compareCols": [
+"ChatPDF",
+"Adobe Acrobat AI Assistant",
+"Smallpdf AI"
+],
+"sections": [
+[
+"Extract data from a PDF",
+"Find every date, amount, percentage, e-mail address, phone number, web link and frequently mentioned name or organisation in a PDF in one go. Each item is listed with its page, ready to copy into a spreadsheet or checklist – ideal for contracts, invoices, reports, CVs and research papers."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF.",
+"Press Extract.",
+"Browse the facts grouped by type with page numbers.",
+"Download as TXT or Markdown."
+]
+}
+],
+[
+"What is detected",
+{
+"table": [
+[
+"Type",
+"Examples"
+],
+[
+"Dates",
+"25 October 2026, 2026-10-25, 10/25/2026"
+],
+[
+"Money",
+"₹1,25,000, $4.5 million, €299"
+],
+[
+"Percentages",
+"7.5 %, 12 percent"
+],
+[
+"E-mails and URLs",
+"name@company.com, https://…"
+],
+[
+"Phone numbers",
+"+91 98765 43210, (555) 123-4567"
+],
+[
+"Entities",
+"Capitalised names and organisations, ranked by frequency"
+]
+]
+}
+],
+[
+"Typical uses",
+{
+"list": [
+"Contracts: list every date and amount to check deadlines and payment terms.",
+"Invoices and statements: collect totals before entering them in accounts.",
+"CVs: grab contact details quickly.",
+"Reports: pull all percentages for a slide.",
+"Research: see which organisations and people a paper mentions most."
+]
+}
+],
+[
+"For tables, use a table tool",
+"This tool finds individual facts in running text. To get whole tables into Excel use [PDF to Excel](/pdf-to-excel/); for all of the text use [PDF to Text](/pdf-to-text/)."
+],
+[
+"How the on-device AI works",
+"Fileopia's document AI does not send your PDF to a chatbot or a cloud model, and there is no large model to download. It uses proven, lightweight language-processing methods that run instantly in JavaScript: the text is split into sentences, every word is weighted by TF-IDF (how important it is in this document compared with ordinary language), and algorithms such as TextRank and BM25 – the ranking method behind many search engines – find the most central sentences or the passages that best match a question. Because everything is *extractive*, results are quoted from your document rather than generated, so the tool cannot invent facts, and every answer can be checked against the page it came from."
+],
+[
+"Strengths and honest limits",
+{
+"list": [
+"**Faithful:** output is always the document's own words, with no hallucinations.",
+"**Fast and private:** a 200-page report is processed in seconds on a laptop, offline after loading.",
+"**Language:** works best with English and other space-separated languages; OCR for scans is English.",
+"**Not a chatbot:** it will not reason across pages, write new text, translate or answer questions whose answer is not stated in the document.",
+"**Layout:** tables, footnotes and multi-column pages are read in text order, which can occasionally split a sentence."
+]
+},
+"For a generative rewrite, paste the extracted summary into the AI assistant you already trust – you share only the summary, not the whole confidential file."
+],
+[
+"Scanned PDFs",
+"If the PDF is a scan or photo, it has no text layer and the tool will say that not enough text was found. Tick *Run OCR first (English)* and the pages are recognised on your device before analysis, or run [OCR PDF](/ocr-pdf/) separately to get a searchable copy you can keep."
+],
+[
+"Who it is for",
+"Students revising textbooks and lecture notes, researchers triaging papers, lawyers and paralegals skimming contracts, analysts reading annual reports, HR teams reviewing policies and anyone handed a long PDF with little time. Because nothing is uploaded, it is suitable for documents covered by NDAs, client confidentiality or GDPR, where pasting into a public chatbot would not be allowed."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"On-device, no upload to an AI service",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Answers quote the source page",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline after loading",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What data can it extract?",
+"a": "Dates, amounts, percentages, e-mails, phones, URLs and frequent names."
+},
+{
+"q": "Are page numbers shown?",
+"a": "Yes."
+},
+{
+"q": "Is the PDF uploaded?",
+"a": "No."
+},
+{
+"q": "Can it extract tables?",
+"a": "Use PDF to Excel for tables."
+},
+{
+"q": "Does it work on scans?",
+"a": "Yes, with OCR first."
+},
+{
+"q": "Can I export the results?",
+"a": "Yes, TXT or Markdown."
+},
+{
+"q": "Does it recognise Indian number formats?",
+"a": "Yes, lakh-style commas are read."
+},
+{
+"q": "Is it accurate?",
+"a": "Pattern-based detection is reliable; review entities."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Do I need an account?",
+"a": "No."
+}
+],
+"related": [
+"pdf-to-excel",
+"pdf-to-text",
+"summarize-pdf",
+"chat-with-pdf",
+"ocr-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"pdf2epub": {
+"seo": {
+"title": "PDF to EPUB Converter – Reflowable E-book Free",
+"desc": "Convert PDF to reflowable EPUB 3: headings, chapters, table of contents, header/footer removal and page images for scans. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs Calibre, CloudConvert and Zamzar",
+"compareCols": [
+"Calibre",
+"CloudConvert",
+"Zamzar"
+],
+"sections": [
+[
+"Convert PDF to EPUB",
+"PDFs have fixed pages, so on a phone or e-reader you zoom and scroll sideways. EPUB reflows text to fit the screen. This converter reads the PDF's text layer, rebuilds headings, paragraphs and lists, joins words hyphenated across lines, strips repeating headers, footers and page numbers, splits chapters and builds a real table of contents."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the PDF.",
+"Set the title and author (blank = from the PDF).",
+"Choose how to split chapters and whether to include page images for scans and figures.",
+"Convert and download the EPUB."
+]
+}
+],
+[
+"Options",
+{
+"table": [
+[
+"Option",
+"Effect"
+],
+[
+"Chapters: at big headings",
+"Starts a new chapter at large-font headings – best for books"
+],
+[
+"One per page",
+"Keeps each PDF page as a section – for slides or forms"
+],
+[
+"Single chapter",
+"One continuous flow – for short documents"
+],
+[
+"Remove repeating headers",
+"Drops running heads, footers and page numbers"
+],
+[
+"Include page images",
+"Adds an image of pages that have little text, such as scans and diagrams"
+]
+]
+}
+],
+[
+"What converts well",
+"Novels, reports, essays and text-heavy manuals from Word or InDesign convert best. Complex layouts – magazines, multi-column scientific papers, tables and maths – lose some structure because EPUB is a flowing format. Scanned PDFs have no text; run [OCR PDF](/ocr-pdf/) first, or include page images."
+],
+[
+"Table of contents",
+"If the PDF has bookmarks, they become the EPUB's navigation; otherwise detected headings are used, so the reader's contents menu jumps straight to chapters."
+],
+[
+"Checking the result",
+"Open the EPUB in Apple Books, Thorium Reader or Calibre's viewer and page through the first chapters. Check that headings start new chapters, that paragraphs are not broken mid-sentence and that running heads are gone. If chapters are too long, convert again with a different split setting; if a section of a scanned book is missing, include page images or OCR the PDF first."
+],
+[
+"About the EPUB format",
+"EPUB is the open e-book standard used by Apple Books, Google Play Books, Kobo, PocketBook, Tolino and most library apps; since 2022 Amazon's Send to Kindle also accepts EPUB and converts it for Kindle devices. An EPUB is a ZIP of XHTML chapters, CSS, images and a package file listing the reading order and table of contents, so text reflows to any screen size and readers can change the font and size. Files produced here are EPUB 3 with an EPUB 2 NCX table of contents for older readers. The files are validated against the structure EPUB readers expect – a mimetype entry, container.xml, a package document with metadata and spine, and a navigation document – so they open without warnings in strict apps such as Apple Books."
+],
+[
+"Reading on Kindle, phones and e-readers",
+{
+"list": [
+"**Kindle:** e-mail the EPUB to your Send-to-Kindle address or use the Send to Kindle app/website.",
+"**iPhone/iPad:** open in Books.",
+"**Android:** Google Play Books (upload) or apps such as ReadEra and Moon+ Reader.",
+"**Kobo/PocketBook:** copy to the device over USB.",
+"**Desktop:** Calibre, Thorium Reader or Apple Books."
+]
+}
+],
+[
+"DRM and copyright",
+"Books bought from the Kindle store, Apple, Kobo or Google are normally DRM-protected and cannot be converted – the tool says so instead of producing a broken file. Free and DRM-free books from Project Gutenberg, Standard Ebooks, Smashwords, author websites and your own manuscripts work. Converting a book you own for personal reading is usually fine; distributing it is not."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your books are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"EPUB 3 with table of contents",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert PDF to EPUB?",
+"a": "Drop the PDF, set options and convert."
+},
+{
+"q": "Is the EPUB reflowable?",
+"a": "Yes."
+},
+{
+"q": "Are headers and page numbers removed?",
+"a": "Yes, optionally."
+},
+{
+"q": "Does it create a table of contents?",
+"a": "Yes, from bookmarks or headings."
+},
+{
+"q": "Can I convert scanned PDFs?",
+"a": "Run OCR first or include page images."
+},
+{
+"q": "Will it work on Kindle?",
+"a": "Yes, via Send to Kindle."
+},
+{
+"q": "Are images kept?",
+"a": "Page images can be included."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Which EPUB version?",
+"a": "EPUB 3 with EPUB 2 NCX."
+}
+],
+"related": [
+"epub-to-pdf",
+"mobi-to-epub",
+"ocr-pdf",
+"pdf-to-text",
+"pdf-to-word"
+],
+"updated": "2026-10-25"
+}
+},
+"epub2pdf": {
+"seo": {
+"title": "EPUB to PDF Converter – Print or Share E-books Free",
+"desc": "Convert EPUB to PDF in reading order with images: A5 book, A4 or Letter, 10–14 pt font incl. large print. Multi-script fonts. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs Calibre, CloudConvert and Zamzar",
+"compareCols": [
+"Calibre",
+"CloudConvert",
+"Zamzar"
+],
+"sections": [
+[
+"Convert EPUB to PDF",
+"Turn a DRM-free e-book into a PDF you can print, annotate, share or read on any device. The converter follows the book's reading order, keeps images (converting GIF, WebP and SVG for compatibility), and lays the text out on A5 book pages, A4 or US Letter in your choice of font size."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the EPUB.",
+"Choose the page size and font size.",
+"Keep or drop images.",
+"Convert and download the PDF."
+]
+}
+],
+[
+"Page and font choices",
+{
+"table": [
+[
+"Setting",
+"Best for"
+],
+[
+"A5 (book), 11 pt",
+"Reading on tablets and printing as a booklet"
+],
+[
+"A4 / Letter, 11–12 pt",
+"Printing on a home printer"
+],
+[
+"14 pt (large print)",
+"Readers with low vision"
+],
+[
+"No images",
+"Smallest file, text-only study copies"
+]
+]
+},
+"To print as a folded booklet, run the PDF through [Booklet PDF](/create-booklet-pdf/)."
+],
+[
+"Languages and scripts",
+"Fonts for Latin, Cyrillic, Greek, Arabic, Devanagari, Tamil, Chinese, Japanese and Korean are loaded automatically when the book uses them, so non-English books keep their text instead of showing empty boxes."
+],
+[
+"What is not kept",
+"PDF pages are fixed, so the reader can no longer change font size. Interactive EPUB 3 features – audio, video, scripts – are not carried over. Internal links from the table of contents are kept as text order."
+],
+[
+"Why convert an e-book to PDF?",
+{
+"list": [
+"Print a chapter or the whole book on a home printer or at a print shop.",
+"Annotate with any PDF app, highlight and add notes for study.",
+"Share a DRM-free manual, report or self-published book with someone who has no e-reader app.",
+"Archive a fixed copy that looks identical everywhere, for example a thesis or company handbook published as EPUB."
+]
+},
+"A5 pages with 11 pt text give a comfortable paperback-like layout; choose A4 or Letter when printing on standard office paper so text is not scaled down. Large-print 14 pt output follows the common guidance for readers with low vision of at least 14–16 pt type."
+],
+[
+"About the EPUB format",
+"EPUB is the open e-book standard used by Apple Books, Google Play Books, Kobo, PocketBook, Tolino and most library apps; since 2022 Amazon's Send to Kindle also accepts EPUB and converts it for Kindle devices. An EPUB is a ZIP of XHTML chapters, CSS, images and a package file listing the reading order and table of contents, so text reflows to any screen size and readers can change the font and size. Files produced here are EPUB 3 with an EPUB 2 NCX table of contents for older readers. The files are validated against the structure EPUB readers expect – a mimetype entry, container.xml, a package document with metadata and spine, and a navigation document – so they open without warnings in strict apps such as Apple Books."
+],
+[
+"Reading on Kindle, phones and e-readers",
+{
+"list": [
+"**Kindle:** e-mail the EPUB to your Send-to-Kindle address or use the Send to Kindle app/website.",
+"**iPhone/iPad:** open in Books.",
+"**Android:** Google Play Books (upload) or apps such as ReadEra and Moon+ Reader.",
+"**Kobo/PocketBook:** copy to the device over USB.",
+"**Desktop:** Calibre, Thorium Reader or Apple Books."
+]
+}
+],
+[
+"DRM and copyright",
+"Books bought from the Kindle store, Apple, Kobo or Google are normally DRM-protected and cannot be converted – the tool says so instead of producing a broken file. Free and DRM-free books from Project Gutenberg, Standard Ebooks, Smashwords, author websites and your own manuscripts work. Converting a book you own for personal reading is usually fine; distributing it is not."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your books are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"EPUB 3 with table of contents",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert EPUB to PDF?",
+"a": "Drop the EPUB, pick sizes and convert."
+},
+{
+"q": "Are images kept?",
+"a": "Yes, optionally."
+},
+{
+"q": "Can I choose the page size?",
+"a": "A5, A4 or Letter."
+},
+{
+"q": "Is there a large-print option?",
+"a": "Yes, 14 pt."
+},
+{
+"q": "Does it support non-Latin scripts?",
+"a": "Yes, fonts load automatically."
+},
+{
+"q": "Can I convert Kindle books?",
+"a": "Only DRM-free ones."
+},
+{
+"q": "Can I convert MOBI or FB2 to PDF?",
+"a": "Convert to EPUB first, or use the ebook tools."
+},
+{
+"q": "Is it uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Can I print it as a booklet?",
+"a": "Yes, with Booklet PDF."
+}
+],
+"related": [
+"pdf-to-epub",
+"mobi-to-epub",
+"fb2-to-epub",
+"create-booklet-pdf",
+"compress-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"mobi2epub": {
+"seo": {
+"title": "MOBI to EPUB Converter – AZW3 & PRC to EPUB Free",
+"desc": "Convert DRM-free MOBI, AZW3 (KF8) and PRC e-books to EPUB 3 with chapters, images and metadata. Reads on Apple Books, Kobo, Play Books. Free.",
+"compareTitle": "{tool}: {brand} vs Calibre, CloudConvert and Zamzar",
+"compareCols": [
+"Calibre",
+"CloudConvert",
+"Zamzar"
+],
+"sections": [
+[
+"Convert MOBI to EPUB",
+"MOBI and AZW3 are Amazon's Kindle formats. Most other readers – Apple Books, Google Play Books, Kobo and library apps – need EPUB. This converter reads DRM-free MOBI (Mobipocket), AZW3 (KF8) and PRC files, decompresses the text, recovers chapters, images, title, author and cover, and rebuilds a clean EPUB 3 book."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the MOBI, AZW3 or PRC file.",
+"Press Convert.",
+"Download the EPUB and open it in your reader."
+]
+}
+],
+[
+"MOBI, AZW3 and EPUB",
+{
+"table": [
+[
+"Format",
+"Origin",
+"Notes"
+],
+[
+"MOBI / PRC",
+"Mobipocket, early Kindles",
+"Simple HTML, limited styling"
+],
+[
+"AZW3 (KF8)",
+"Kindle since 2011",
+"HTML5/CSS, better layout"
+],
+[
+"AZW / KFX",
+"Kindle store",
+"Usually DRM-protected"
+],
+[
+"EPUB",
+"Open standard (W3C)",
+"Supported almost everywhere"
+]
+]
+},
+"Amazon stopped accepting MOBI for Send to Kindle in 2022; EPUB is now the recommended format even for Kindle."
+],
+[
+"Which files work",
+{
+"list": [
+"DRM-free MOBI/AZW3 from Project Gutenberg, Calibre, KindleGen or authors.",
+"Files using standard PalmDOC compression (most free books).",
+"Files using Kindle's HUFF/CDIC compression or DRM – typical of store purchases – are not supported, and the tool tells you why."
+]
+}
+],
+[
+"After conversion",
+"Check the table of contents and cover in your reader. If a book from an old MOBI has odd spacing, it usually comes from the original's formatting. You can also make a printable copy with [EPUB to PDF](/epub-to-pdf/)."
+],
+[
+"Moving away from Kindle",
+"Readers switching to Kobo, PocketBook or Apple Books often have a library of DRM-free MOBI files collected over years. Converting them to EPUB keeps them readable on any future device, because EPUB is an open standard maintained by the W3C rather than one company's format."
+],
+[
+"Batch tips",
+"Convert books one at a time and name the output after the title and author so your library app sorts them correctly. Metadata such as title, author, language and cover is carried into the EPUB's package file."
+],
+[
+"About the EPUB format",
+"EPUB is the open e-book standard used by Apple Books, Google Play Books, Kobo, PocketBook, Tolino and most library apps; since 2022 Amazon's Send to Kindle also accepts EPUB and converts it for Kindle devices. An EPUB is a ZIP of XHTML chapters, CSS, images and a package file listing the reading order and table of contents, so text reflows to any screen size and readers can change the font and size. Files produced here are EPUB 3 with an EPUB 2 NCX table of contents for older readers. The files are validated against the structure EPUB readers expect – a mimetype entry, container.xml, a package document with metadata and spine, and a navigation document – so they open without warnings in strict apps such as Apple Books."
+],
+[
+"Reading on Kindle, phones and e-readers",
+{
+"list": [
+"**Kindle:** e-mail the EPUB to your Send-to-Kindle address or use the Send to Kindle app/website.",
+"**iPhone/iPad:** open in Books.",
+"**Android:** Google Play Books (upload) or apps such as ReadEra and Moon+ Reader.",
+"**Kobo/PocketBook:** copy to the device over USB.",
+"**Desktop:** Calibre, Thorium Reader or Apple Books."
+]
+}
+],
+[
+"DRM and copyright",
+"Books bought from the Kindle store, Apple, Kobo or Google are normally DRM-protected and cannot be converted – the tool says so instead of producing a broken file. Free and DRM-free books from Project Gutenberg, Standard Ebooks, Smashwords, author websites and your own manuscripts work. Converting a book you own for personal reading is usually fine; distributing it is not."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your books are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"EPUB 3 with table of contents",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert MOBI to EPUB?",
+"a": "Drop the file and press Convert."
+},
+{
+"q": "Can it convert AZW3?",
+"a": "Yes, DRM-free AZW3/KF8."
+},
+{
+"q": "Can I convert Kindle store books?",
+"a": "Not DRM-protected ones."
+},
+{
+"q": "Are images and cover kept?",
+"a": "Yes."
+},
+{
+"q": "Does it keep chapters?",
+"a": "Yes."
+},
+{
+"q": "What is PRC?",
+"a": "An older Mobipocket extension."
+},
+{
+"q": "Can I send EPUB to Kindle?",
+"a": "Yes, via Send to Kindle."
+},
+{
+"q": "Is it uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Why does it say HUFF/CDIC?",
+"a": "That compression is used by store books and is unsupported."
+}
+],
+"related": [
+"fb2-to-epub",
+"epub-to-pdf",
+"pdf-to-epub",
+"unzip-files",
+"compress-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"fb22epub": {
+"seo": {
+"title": "FB2 to EPUB Converter – FictionBook to EPUB Free",
+"desc": "Convert FB2 and FB2.ZIP (FictionBook) e-books to EPUB 3 with chapters, notes, images, cover and metadata. Cyrillic supported. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs Calibre, CloudConvert and Zamzar",
+"compareCols": [
+"Calibre",
+"CloudConvert",
+"Zamzar"
+],
+"sections": [
+[
+"Convert FB2 to EPUB",
+"FictionBook (FB2) is an XML e-book format popular in Russia, Ukraine, Belarus and other Eastern European countries, and on many free-book libraries. Most readers outside that world – Apple Books, Google Play Books, Kindle via Send to Kindle, Kobo – need EPUB. This converter reads .fb2 and zipped .fb2.zip files and rebuilds them as clean EPUB 3 books."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop the .fb2 or .fb2.zip file.",
+"Press Convert.",
+"Download the EPUB."
+]
+}
+],
+[
+"What is converted",
+{
+"table": [
+[
+"FB2 element",
+"In the EPUB"
+],
+[
+"Sections and titles",
+"Chapters and table of contents"
+],
+[
+"Poems, epigraphs, citations",
+"Styled blocks"
+],
+[
+"Footnotes (notes body)",
+"Notes linked from the text"
+],
+[
+"Binary images and cover",
+"Embedded images and EPUB cover"
+],
+[
+"Title, author, language",
+"Book metadata"
+]
+]
+}
+],
+[
+"About FictionBook",
+"FB2 stores a whole book in one XML file, with structure (sections, titles, poems, notes) rather than appearance, and images embedded as Base64. That makes it easy to convert faithfully: the converter maps the structure onto EPUB chapters and applies clean, readable styles."
+],
+[
+"Encoding and languages",
+"FB2 files are usually UTF-8 or Windows-1251. The declared encoding is respected, so Cyrillic text converts correctly, and the book's language tag is copied so readers choose correct hyphenation."
+],
+[
+"Reading the result",
+"On Kindle, send the EPUB with Send to Kindle; on Android use Play Books or ReadEra; on iOS use Books. For a printable copy, convert the EPUB with [EPUB to PDF](/epub-to-pdf/)."
+],
+[
+"Where FB2 books come from",
+"FB2 is the native format of large Russian-language libraries and of many public-domain classics shared online. Convert them once and keep the EPUB in your library app."
+],
+[
+"About the EPUB format",
+"EPUB is the open e-book standard used by Apple Books, Google Play Books, Kobo, PocketBook, Tolino and most library apps; since 2022 Amazon's Send to Kindle also accepts EPUB and converts it for Kindle devices. An EPUB is a ZIP of XHTML chapters, CSS, images and a package file listing the reading order and table of contents, so text reflows to any screen size and readers can change the font and size. Files produced here are EPUB 3 with an EPUB 2 NCX table of contents for older readers. The files are validated against the structure EPUB readers expect – a mimetype entry, container.xml, a package document with metadata and spine, and a navigation document – so they open without warnings in strict apps such as Apple Books."
+],
+[
+"Reading on Kindle, phones and e-readers",
+{
+"list": [
+"**Kindle:** e-mail the EPUB to your Send-to-Kindle address or use the Send to Kindle app/website.",
+"**iPhone/iPad:** open in Books.",
+"**Android:** Google Play Books (upload) or apps such as ReadEra and Moon+ Reader.",
+"**Kobo/PocketBook:** copy to the device over USB.",
+"**Desktop:** Calibre, Thorium Reader or Apple Books."
+]
+}
+],
+[
+"DRM and copyright",
+"Books bought from the Kindle store, Apple, Kobo or Google are normally DRM-protected and cannot be converted – the tool says so instead of producing a broken file. Free and DRM-free books from Project Gutenberg, Standard Ebooks, Smashwords, author websites and your own manuscripts work. Converting a book you own for personal reading is usually fine; distributing it is not."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your books are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"EPUB 3 with table of contents",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert FB2 to EPUB?",
+"a": "Drop the file and press Convert."
+},
+{
+"q": "Can it read FB2.ZIP?",
+"a": "Yes."
+},
+{
+"q": "Is Cyrillic supported?",
+"a": "Yes."
+},
+{
+"q": "Are footnotes kept?",
+"a": "Yes, as linked notes."
+},
+{
+"q": "Is the cover kept?",
+"a": "Yes."
+},
+{
+"q": "Can I read the result on Kindle?",
+"a": "Yes, via Send to Kindle."
+},
+{
+"q": "What is FB2?",
+"a": "FictionBook, an XML e-book format."
+},
+{
+"q": "Is it uploaded?",
+"a": "No."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Can I convert FB2 to PDF?",
+"a": "Convert to EPUB, then EPUB to PDF."
+}
+],
+"related": [
+"mobi-to-epub",
+"epub-to-pdf",
+"pdf-to-epub",
+"unzip-files",
+"text-to-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"pdfspeech": {
+"seo": {
+"title": "PDF to Speech – Read PDF Aloud Free, Text to Audio",
+"desc": "Listen to any PDF, Word or text file read aloud with your device's voices. Highlights each sentence, speed and pitch, page range. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs NaturalReader, Speechify and Adobe",
+"compareCols": [
+"NaturalReader",
+"Speechify",
+"Adobe Read Out Loud"
+],
+"sections": [
+[
+"Read a PDF aloud",
+"Listen to reports, articles, textbooks and e-mails while you commute, cook or rest your eyes. The tool extracts the text, cleans it (skipping headers and page numbers), and reads it aloud with the voices built into your phone, tablet or computer, highlighting each sentence as it goes. Click any sentence to jump there."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop a PDF, Word or text file.",
+"Optionally set the page range.",
+"Choose a voice, speed and pitch.",
+"Press Play; click sentences to jump; download the script if you like."
+]
+}
+],
+[
+"Voices on each device",
+{
+"table": [
+[
+"Device",
+"Where voices come from"
+],
+[
+"Windows / Edge",
+"Microsoft voices, including natural online voices in Edge"
+],
+[
+"Mac / iPhone / iPad",
+"Apple voices – download enhanced voices in Settings → Accessibility → Spoken Content"
+],
+[
+"Android / Chrome",
+"Google text-to-speech voices"
+]
+]
+},
+"Voice choice depends on your browser and system; more languages appear when you install them in your device settings."
+],
+[
+"Who benefits",
+{
+"list": [
+"People with dyslexia, low vision or reading fatigue.",
+"Language learners who want to hear pronunciation.",
+"Students reviewing notes on the go.",
+"Writers proofreading their own drafts by ear – mistakes are easier to hear."
+]
+}
+],
+[
+"Saving audio",
+"Browsers' speech engines play through your speakers but do not hand the audio to web pages, so the tool cannot save an MP3. You can download the cleaned script (.txt, or timed captions in .srt style) and use it with a recorder or another app. For scans, run [OCR PDF](/ocr-pdf/) first."
+],
+[
+"Speed and comprehension",
+"Normal speech is about 150 words per minute. Many listeners comfortably follow 1.25–1.5× once used to a voice; slow down to 0.8× for technical material or a new language."
+],
+[
+"Getting the clearest reading",
+{
+"list": [
+"Use a text PDF, not a scan; OCR first if needed so words are recognised correctly.",
+"Set a page range to skip covers, contents and references.",
+"Headers, footers and page numbers are skipped, so they do not interrupt sentences.",
+"Pick a voice that matches the document's language – an English voice reading French text sounds wrong.",
+"On iPhone and Mac, download an *Enhanced* or *Premium* voice for much more natural speech."
+]
+}
+],
+[
+"Accessibility and study",
+"Listening while following the highlighted sentence – sometimes called bimodal reading – helps many people with dyslexia, ADHD or visual stress stay focused and remember more. Teachers can use it to give students an audio version of handouts without recording anything, and second-language learners can slow the speed down to follow pronunciation. Because the tool runs in the browser, it also works on school Chromebooks and locked-down office PCs where installing software is not allowed."
+],
+[
+"Other files",
+"Word documents (.docx) and plain text files are read the same way. For web articles, save the page as PDF from the browser's print dialog first, or paste the text into [Text to Speech](/text-to-speech/)."
+],
+[
+"Listening on the go",
+"On a phone, keep the browser tab open and the screen on while listening; some mobile browsers pause speech when the screen locks or you switch apps. For long documents, read one chapter at a time using the page range, and note the page number where you stopped so you can resume later. Wired or Bluetooth headphones work exactly like any other audio. Battery use is low because speech is generated by the operating system rather than streamed from a server, and no mobile data is used once the page has loaded."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your documents are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Uses your device's voices, no upload",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Sentence highlighting",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I make a PDF read aloud?",
+"a": "Drop it, choose a voice and press Play."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Can I change the speed?",
+"a": "Yes, speed and pitch."
+},
+{
+"q": "Which languages are supported?",
+"a": "Those your device's voices support."
+},
+{
+"q": "Can I download an MP3?",
+"a": "No, browsers do not allow it; download the script instead."
+},
+{
+"q": "Does it highlight text?",
+"a": "Yes, sentence by sentence."
+},
+{
+"q": "Can it read Word files?",
+"a": "Yes."
+},
+{
+"q": "Does it read scanned PDFs?",
+"a": "Run OCR first."
+},
+{
+"q": "Is the file uploaded?",
+"a": "No."
+},
+{
+"q": "Does it work on iPhone?",
+"a": "Yes, in Safari."
+}
+],
+"related": [
+"text-to-speech",
+"ocr-pdf",
+"pdf-reader",
+"summarize-pdf",
+"pdf-to-text"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}

@@ -1,0 +1,784 @@
+{
+"tools": {
+"flac2mp3": {
+"name": "FLAC to MP3 Converter",
+"short": "Convert FLAC audio to MP3 in your browser.",
+"title": "FLAC to MP3 Converter – Free, No Upload | {brand}",
+"desc": "Convert FLAC to MP3 online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert FLAC to MP3",
+"steps": [
+"Select one or more FLAC files (or drop a folder’s worth).",
+"Keep MP3 selected and choose quality, channels and sample rate.",
+"Click Start and download your MP3 file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert FLAC to MP3?",
+"a": "Drop your .flac files above, keep MP3 as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will MP3 sound worse than FLAC?",
+"a": "MP3 is lossy. At 192–320 kbps most listeners cannot hear a difference from the FLAC; at 128 kbps it is fine for speech and casual listening."
+},
+{
+"q": "Which browsers work?",
+"a": "All modern browsers decode FLAC, including Chrome, Edge, Firefox and Safari on Mac and iPhone."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "FLAC (Free Lossless Audio Codec) is a lossless format that keeps every bit of the original recording while being 40–60% smaller than WAV. You usually meet it in CD rips, Bandcamp and Qobuz purchases, studio masters and hi-res downloads. A 4-minute FLAC song is typically 25–40 MB; the same song as a 192 kbps MP3 is about 6 MB. When a device, app or upload form wants MP3 instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make FLAC files playable on a car stereo, older phone or smart TV.",
+"Send FLAC recordings to people who need a universal format.",
+"Prepare FLAC audio for an editor, transcription service or podcast host that wants MP3.",
+"Batch-convert a folder of FLAC downloads in one go."
+],
+"tips": [
+"Choose 192 kbps for music, 128 kbps for podcasts and 64–96 kbps mono for speech.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"FLAC vs MP3",
+"FLAC is a lossless format that keeps every bit of the original recording while being 40–60% smaller than WAV. MP3 plays on virtually every phone, car stereo, smart speaker and editing app. Converting trades some of FLAC’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the FLAC stream into raw audio samples. {brand} then encodes those samples to MP3 in a worker on your device using the LAME-compatible lamejs encoder. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert MP3 back to FLAC?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to FLAC would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"flac2wav": {
+"name": "FLAC to WAV Converter",
+"short": "Convert FLAC audio to WAV in your browser.",
+"title": "FLAC to WAV Converter – Free, No Upload | {brand}",
+"desc": "Convert FLAC to WAV online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert FLAC to WAV",
+"steps": [
+"Select one or more FLAC files (or drop a folder’s worth).",
+"Keep WAV selected and choose quality, channels and sample rate.",
+"Click Start and download your WAV file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert FLAC to WAV?",
+"a": "Drop your .flac files above, keep WAV as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will WAV sound worse than FLAC?",
+"a": "WAV is lossless, so the WAV contains exactly what the FLAC decodes to – no further quality loss."
+},
+{
+"q": "Which browsers work?",
+"a": "All modern browsers decode FLAC, including Chrome, Edge, Firefox and Safari on Mac and iPhone."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "FLAC (Free Lossless Audio Codec) is a lossless format that keeps every bit of the original recording while being 40–60% smaller than WAV. You usually meet it in CD rips, Bandcamp and Qobuz purchases, studio masters and hi-res downloads. A 4-minute FLAC song is typically 25–40 MB; the same song as a 192 kbps MP3 is about 6 MB. When a device, app or upload form wants WAV instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make FLAC files playable on a car stereo, older phone or smart TV.",
+"Send FLAC recordings to people who need a universal format.",
+"Prepare FLAC audio for an editor, transcription service or podcast host that wants WAV.",
+"Batch-convert a folder of FLAC downloads in one go."
+],
+"tips": [
+"WAV keeps the decoded audio sample-for-sample, so it is ideal for editing; expect about 10 MB per stereo minute.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"FLAC vs WAV",
+"FLAC is a lossless format that keeps every bit of the original recording while being 40–60% smaller than WAV. WAV is uncompressed PCM, the safest input for audio editors, DAWs, transcription services and broadcast systems. Converting trades some of FLAC’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the FLAC stream into raw audio samples. {brand} then encodes those samples to WAV in a worker on your device. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert WAV back to FLAC?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to FLAC would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"ogg2mp3": {
+"name": "OGG to MP3 Converter",
+"short": "Convert OGG audio to MP3 in your browser.",
+"title": "OGG to MP3 Converter – Free, No Upload | {brand}",
+"desc": "Convert OGG to MP3 online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert OGG to MP3",
+"steps": [
+"Select one or more OGG files (or drop a folder’s worth).",
+"Keep MP3 selected and choose quality, channels and sample rate.",
+"Click Start and download your MP3 file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert OGG to MP3?",
+"a": "Drop your .ogg files above, keep MP3 as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will MP3 sound worse than OGG?",
+"a": "MP3 is lossy. At 192–320 kbps most listeners cannot hear a difference from the OGG; at 128 kbps it is fine for speech and casual listening."
+},
+{
+"q": "Which browsers work?",
+"a": "Chrome, Edge and Firefox decode OGG; Safari supports it from version 17 (macOS Sonoma / iOS 17)."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "OGG (Ogg Vorbis) is an open, royalty-free lossy format used widely in games, Linux software and Spotify’s streaming backend. You usually meet it in game sound effects and music, voice notes from some Android apps, Wikimedia Commons audio and Linux recorders. OGG Vorbis at around 160 kbps sounds similar to MP3 at 192 kbps, so files are comparable in size. When a device, app or upload form wants MP3 instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make OGG files playable on a car stereo, older phone or smart TV.",
+"Send OGG recordings to people who need a universal format.",
+"Prepare OGG audio for an editor, transcription service or podcast host that wants MP3.",
+"Batch-convert a folder of OGG downloads in one go."
+],
+"tips": [
+"Choose 192 kbps for music, 128 kbps for podcasts and 64–96 kbps mono for speech.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"OGG vs MP3",
+"OGG is an open, royalty-free lossy format used widely in games, Linux software and Spotify’s streaming backend. MP3 plays on virtually every phone, car stereo, smart speaker and editing app. Converting trades some of OGG’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the OGG stream into raw audio samples. {brand} then encodes those samples to MP3 in a worker on your device using the LAME-compatible lamejs encoder. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert MP3 back to OGG?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to OGG would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"ogg2wav": {
+"name": "OGG to WAV Converter",
+"short": "Convert OGG audio to WAV in your browser.",
+"title": "OGG to WAV Converter – Free, No Upload | {brand}",
+"desc": "Convert OGG to WAV online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert OGG to WAV",
+"steps": [
+"Select one or more OGG files (or drop a folder’s worth).",
+"Keep WAV selected and choose quality, channels and sample rate.",
+"Click Start and download your WAV file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert OGG to WAV?",
+"a": "Drop your .ogg files above, keep WAV as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will WAV sound worse than OGG?",
+"a": "WAV is lossless, so the WAV contains exactly what the OGG decodes to – no further quality loss."
+},
+{
+"q": "Which browsers work?",
+"a": "Chrome, Edge and Firefox decode OGG; Safari supports it from version 17 (macOS Sonoma / iOS 17)."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "OGG (Ogg Vorbis) is an open, royalty-free lossy format used widely in games, Linux software and Spotify’s streaming backend. You usually meet it in game sound effects and music, voice notes from some Android apps, Wikimedia Commons audio and Linux recorders. OGG Vorbis at around 160 kbps sounds similar to MP3 at 192 kbps, so files are comparable in size. When a device, app or upload form wants WAV instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make OGG files playable on a car stereo, older phone or smart TV.",
+"Send OGG recordings to people who need a universal format.",
+"Prepare OGG audio for an editor, transcription service or podcast host that wants WAV.",
+"Batch-convert a folder of OGG downloads in one go."
+],
+"tips": [
+"WAV keeps the decoded audio sample-for-sample, so it is ideal for editing; expect about 10 MB per stereo minute.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"OGG vs WAV",
+"OGG is an open, royalty-free lossy format used widely in games, Linux software and Spotify’s streaming backend. WAV is uncompressed PCM, the safest input for audio editors, DAWs, transcription services and broadcast systems. Converting trades some of OGG’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the OGG stream into raw audio samples. {brand} then encodes those samples to WAV in a worker on your device. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert WAV back to OGG?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to OGG would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"m4a2mp3": {
+"name": "M4A to MP3 Converter",
+"short": "Convert M4A audio to MP3 in your browser.",
+"title": "M4A to MP3 Converter – Free, No Upload | {brand}",
+"desc": "Convert M4A to MP3 online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert M4A to MP3",
+"steps": [
+"Select one or more M4A files (or drop a folder’s worth).",
+"Keep MP3 selected and choose quality, channels and sample rate.",
+"Click Start and download your MP3 file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert M4A to MP3?",
+"a": "Drop your .m4a files above, keep MP3 as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will MP3 sound worse than M4A?",
+"a": "MP3 is lossy. At 192–320 kbps most listeners cannot hear a difference from the M4A; at 128 kbps it is fine for speech and casual listening."
+},
+{
+"q": "Which browsers work?",
+"a": "Every major browser decodes AAC M4A. Apple Lossless (ALAC) M4A decodes in Safari and Chrome on most systems. DRM-protected purchases cannot be converted."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "M4A (MPEG-4 Audio (usually AAC or ALAC)) is the audio-only MP4 container Apple uses for iTunes purchases, Voice Memos and GarageBand exports. You usually meet it in iPhone Voice Memos, iTunes/Apple Music downloads without DRM, WhatsApp audio exports and podcasts. AAC in M4A is efficient – a 128 kbps M4A sounds about as good as a 160–192 kbps MP3. When a device, app or upload form wants MP3 instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make M4A files playable on a car stereo, older phone or smart TV.",
+"Send M4A recordings to people who need a universal format.",
+"Prepare M4A audio for an editor, transcription service or podcast host that wants MP3.",
+"Batch-convert a folder of M4A downloads in one go."
+],
+"tips": [
+"Choose 192 kbps for music, 128 kbps for podcasts and 64–96 kbps mono for speech.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"M4A vs MP3",
+"M4A is the audio-only MP4 container Apple uses for iTunes purchases, Voice Memos and GarageBand exports. MP3 plays on virtually every phone, car stereo, smart speaker and editing app. Converting trades some of M4A’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the M4A stream into raw audio samples. {brand} then encodes those samples to MP3 in a worker on your device using the LAME-compatible lamejs encoder. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert MP3 back to M4A?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to M4A would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"m4a2wav": {
+"name": "M4A to WAV Converter",
+"short": "Convert M4A audio to WAV in your browser.",
+"title": "M4A to WAV Converter – Free, No Upload | {brand}",
+"desc": "Convert M4A to WAV online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert M4A to WAV",
+"steps": [
+"Select one or more M4A files (or drop a folder’s worth).",
+"Keep WAV selected and choose quality, channels and sample rate.",
+"Click Start and download your WAV file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert M4A to WAV?",
+"a": "Drop your .m4a files above, keep WAV as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will WAV sound worse than M4A?",
+"a": "WAV is lossless, so the WAV contains exactly what the M4A decodes to – no further quality loss."
+},
+{
+"q": "Which browsers work?",
+"a": "Every major browser decodes AAC M4A. Apple Lossless (ALAC) M4A decodes in Safari and Chrome on most systems. DRM-protected purchases cannot be converted."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "M4A (MPEG-4 Audio (usually AAC or ALAC)) is the audio-only MP4 container Apple uses for iTunes purchases, Voice Memos and GarageBand exports. You usually meet it in iPhone Voice Memos, iTunes/Apple Music downloads without DRM, WhatsApp audio exports and podcasts. AAC in M4A is efficient – a 128 kbps M4A sounds about as good as a 160–192 kbps MP3. When a device, app or upload form wants WAV instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make M4A files playable on a car stereo, older phone or smart TV.",
+"Send M4A recordings to people who need a universal format.",
+"Prepare M4A audio for an editor, transcription service or podcast host that wants WAV.",
+"Batch-convert a folder of M4A downloads in one go."
+],
+"tips": [
+"WAV keeps the decoded audio sample-for-sample, so it is ideal for editing; expect about 10 MB per stereo minute.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"M4A vs WAV",
+"M4A is the audio-only MP4 container Apple uses for iTunes purchases, Voice Memos and GarageBand exports. WAV is uncompressed PCM, the safest input for audio editors, DAWs, transcription services and broadcast systems. Converting trades some of M4A’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the M4A stream into raw audio samples. {brand} then encodes those samples to WAV in a worker on your device. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert WAV back to M4A?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to M4A would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"aac2mp3": {
+"name": "AAC to MP3 Converter",
+"short": "Convert AAC audio to MP3 in your browser.",
+"title": "AAC to MP3 Converter – Free, No Upload | {brand}",
+"desc": "Convert AAC to MP3 online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert AAC to MP3",
+"steps": [
+"Select one or more AAC files (or drop a folder’s worth).",
+"Keep MP3 selected and choose quality, channels and sample rate.",
+"Click Start and download your MP3 file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert AAC to MP3?",
+"a": "Drop your .aac files above, keep MP3 as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will MP3 sound worse than AAC?",
+"a": "MP3 is lossy. At 192–320 kbps most listeners cannot hear a difference from the AAC; at 128 kbps it is fine for speech and casual listening."
+},
+{
+"q": "Which browsers work?",
+"a": "Chrome, Edge, Safari and Firefox decode ADTS AAC on desktop and mobile."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "AAC (Advanced Audio Coding (raw ADTS stream)) is the successor to MP3 used by YouTube, iTunes, Android and digital radio, here saved as a raw .aac stream. You usually meet it in screen recorders, some dashcams and call recorders, radio stream captures and Android exports. Raw AAC files have no container, which is why some players and editors refuse them even though the audio is fine. When a device, app or upload form wants MP3 instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make AAC files playable on a car stereo, older phone or smart TV.",
+"Send AAC recordings to people who need a universal format.",
+"Prepare AAC audio for an editor, transcription service or podcast host that wants MP3.",
+"Batch-convert a folder of AAC downloads in one go."
+],
+"tips": [
+"Choose 192 kbps for music, 128 kbps for podcasts and 64–96 kbps mono for speech.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"AAC vs MP3",
+"AAC is the successor to MP3 used by YouTube, iTunes, Android and digital radio, here saved as a raw .aac stream. MP3 plays on virtually every phone, car stereo, smart speaker and editing app. Converting trades some of AAC’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the AAC stream into raw audio samples. {brand} then encodes those samples to MP3 in a worker on your device using the LAME-compatible lamejs encoder. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert MP3 back to AAC?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to AAC would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"aac2wav": {
+"name": "AAC to WAV Converter",
+"short": "Convert AAC audio to WAV in your browser.",
+"title": "AAC to WAV Converter – Free, No Upload | {brand}",
+"desc": "Convert AAC to WAV online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert AAC to WAV",
+"steps": [
+"Select one or more AAC files (or drop a folder’s worth).",
+"Keep WAV selected and choose quality, channels and sample rate.",
+"Click Start and download your WAV file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert AAC to WAV?",
+"a": "Drop your .aac files above, keep WAV as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will WAV sound worse than AAC?",
+"a": "WAV is lossless, so the WAV contains exactly what the AAC decodes to – no further quality loss."
+},
+{
+"q": "Which browsers work?",
+"a": "Chrome, Edge, Safari and Firefox decode ADTS AAC on desktop and mobile."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "AAC (Advanced Audio Coding (raw ADTS stream)) is the successor to MP3 used by YouTube, iTunes, Android and digital radio, here saved as a raw .aac stream. You usually meet it in screen recorders, some dashcams and call recorders, radio stream captures and Android exports. Raw AAC files have no container, which is why some players and editors refuse them even though the audio is fine. When a device, app or upload form wants WAV instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make AAC files playable on a car stereo, older phone or smart TV.",
+"Send AAC recordings to people who need a universal format.",
+"Prepare AAC audio for an editor, transcription service or podcast host that wants WAV.",
+"Batch-convert a folder of AAC downloads in one go."
+],
+"tips": [
+"WAV keeps the decoded audio sample-for-sample, so it is ideal for editing; expect about 10 MB per stereo minute.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"AAC vs WAV",
+"AAC is the successor to MP3 used by YouTube, iTunes, Android and digital radio, here saved as a raw .aac stream. WAV is uncompressed PCM, the safest input for audio editors, DAWs, transcription services and broadcast systems. Converting trades some of AAC’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the AAC stream into raw audio samples. {brand} then encodes those samples to WAV in a worker on your device. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert WAV back to AAC?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to AAC would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"opus2mp3": {
+"name": "OPUS to MP3 Converter",
+"short": "Convert OPUS audio to MP3 in your browser.",
+"title": "OPUS to MP3 Converter – Free, No Upload | {brand}",
+"desc": "Convert OPUS to MP3 online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert OPUS to MP3",
+"steps": [
+"Select one or more OPUS files (or drop a folder’s worth).",
+"Keep MP3 selected and choose quality, channels and sample rate.",
+"Click Start and download your MP3 file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert OPUS to MP3?",
+"a": "Drop your .opus files above, keep MP3 as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will MP3 sound worse than OPUS?",
+"a": "MP3 is lossy. At 192–320 kbps most listeners cannot hear a difference from the OPUS; at 128 kbps it is fine for speech and casual listening."
+},
+{
+"q": "Which browsers work?",
+"a": "Chrome, Edge and Firefox decode Opus; Safari decodes it from version 17. On older iPhones, open the page in Chrome or update iOS."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "OPUS (Opus Interactive Audio Codec) is the modern open codec behind WhatsApp and Telegram voice messages, Discord and WebRTC calls, excellent at low bitrates. You usually meet it in WhatsApp/Telegram voice notes (often .opus or .ogg), Discord recordings and YouTube audio streams. Opus at 32–64 kbps keeps speech crystal clear, which is why voice notes are so small – but many car stereos and older players can’t play it. When a device, app or upload form wants MP3 instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make OPUS files playable on a car stereo, older phone or smart TV.",
+"Send OPUS recordings to people who need a universal format.",
+"Prepare OPUS audio for an editor, transcription service or podcast host that wants MP3.",
+"Batch-convert a folder of OPUS downloads in one go."
+],
+"tips": [
+"Choose 192 kbps for music, 128 kbps for podcasts and 64–96 kbps mono for speech.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"OPUS vs MP3",
+"OPUS is the modern open codec behind WhatsApp and Telegram voice messages, Discord and WebRTC calls, excellent at low bitrates. MP3 plays on virtually every phone, car stereo, smart speaker and editing app. Converting trades some of OPUS’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the OPUS stream into raw audio samples. {brand} then encodes those samples to MP3 in a worker on your device using the LAME-compatible lamejs encoder. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert MP3 back to OPUS?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to OPUS would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+},
+"opus2wav": {
+"name": "OPUS to WAV Converter",
+"short": "Convert OPUS audio to WAV in your browser.",
+"title": "OPUS to WAV Converter – Free, No Upload | {brand}",
+"desc": "Convert OPUS to WAV online free. Batch convert, pick bitrate, mono or sample rate – files never leave your device. No sign-up, no limits.",
+"h1": "Convert OPUS to WAV",
+"steps": [
+"Select one or more OPUS files (or drop a folder’s worth).",
+"Keep WAV selected and choose quality, channels and sample rate.",
+"Click Start and download your WAV file – or a ZIP for batches."
+],
+"faq": [
+{
+"q": "How do I convert OPUS to WAV?",
+"a": "Drop your .opus files above, keep WAV as the format and press Start. Conversion runs on your device in seconds and you can download each file or a ZIP."
+},
+{
+"q": "Are my files uploaded?",
+"a": "No. The audio is decoded by your browser and encoded on your own device. You can turn off Wi-Fi after the page loads and it still works."
+},
+{
+"q": "Will WAV sound worse than OPUS?",
+"a": "WAV is lossless, so the WAV contains exactly what the OPUS decodes to – no further quality loss."
+},
+{
+"q": "Which browsers work?",
+"a": "Chrome, Edge and Firefox decode Opus; Safari decodes it from version 17. On older iPhones, open the page in Chrome or update iOS."
+},
+{
+"q": "Can I convert many files at once?",
+"a": "Yes. Select as many as you like; they are converted one after another and bundled into a ZIP. There are no hourly task limits."
+},
+{
+"q": "Is there a file size limit?",
+"a": "No artificial limit – up to 300 MB per file works well on a laptop; phones may struggle with very long recordings."
+}
+],
+"guide": {
+"intro": "OPUS (Opus Interactive Audio Codec) is the modern open codec behind WhatsApp and Telegram voice messages, Discord and WebRTC calls, excellent at low bitrates. You usually meet it in WhatsApp/Telegram voice notes (often .opus or .ogg), Discord recordings and YouTube audio streams. Opus at 32–64 kbps keeps speech crystal clear, which is why voice notes are so small – but many car stereos and older players can’t play it. When a device, app or upload form wants WAV instead, {brand} converts it right in your browser – fast, private and with the options normally hidden behind paid plans.",
+"uses": [
+"Make OPUS files playable on a car stereo, older phone or smart TV.",
+"Send OPUS recordings to people who need a universal format.",
+"Prepare OPUS audio for an editor, transcription service or podcast host that wants WAV.",
+"Batch-convert a folder of OPUS downloads in one go."
+],
+"tips": [
+"WAV keeps the decoded audio sample-for-sample, so it is ideal for editing; expect about 10 MB per stereo minute.",
+"Mono halves the size of voice recordings with no loss in clarity.",
+"22 kHz sample rate is plenty for speech and shrinks files further.",
+"Use Audio Cutter afterwards to trim silence or make a ringtone.",
+"Rename files before converting – the output keeps the original name."
+],
+"more": [
+[
+"OPUS vs WAV",
+"OPUS is the modern open codec behind WhatsApp and Telegram voice messages, Discord and WebRTC calls, excellent at low bitrates. WAV is uncompressed PCM, the safest input for audio editors, DAWs, transcription services and broadcast systems. Converting trades some of OPUS’s strengths for compatibility; keep your original if it is an archive or a master."
+],
+[
+"How the conversion works",
+"Your browser’s built-in decoder turns the OPUS stream into raw audio samples. {brand} then encodes those samples to WAV in a worker on your device. Nothing is streamed to a server, which is why it is quick even on slow connections and safe for confidential recordings such as interviews, medical dictation or legal calls."
+],
+[
+"Compared with online converters",
+"Upload-based converters such as FreeConvert, CloudConvert or Zamzar send your audio to their servers, often cap free use by file size or daily conversions, and make you wait in a queue. Here there is no upload, no queue, no account and no watermark, and batch conversion is free."
+]
+],
+"faq": [
+{
+"q": "Can I convert WAV back to OPUS?",
+"a": "This tool outputs MP3 or WAV. Converting a lossy file back to OPUS would not restore lost quality, so keep your originals."
+},
+{
+"q": "Does it keep tags and cover art?",
+"a": "Title/artist tags and cover art are not copied yet. Add them afterwards in your music player or tag editor."
+}
+]
+}
+}
+}
+}

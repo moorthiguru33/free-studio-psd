@@ -1,0 +1,227 @@
+{
+  "tools": {
+    "pdf2word": {
+      "name": "PDF en Word",
+      "short": "Convertissez le texte d'un PDF en document Word modifiable.",
+      "title": "Convertir PDF en Word – Passer un PDF en DOCX gratuit | {brand}",
+      "desc": "Convertissez un PDF en Word (DOCX) modifiable. Sans inscription ni limites : le document est converti dans votre navigateur, jamais envoyé.",
+      "h1": "Convertir PDF en Word",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Cliquez sur Démarrer.",
+        "Téléchargez votre fichier DOCX modifiable."
+      ],
+      "faq": [
+        {
+          "q": "La mise en page est-elle conservée ?",
+          "a": "Le convertisseur reconstruit paragraphes, titres, colonnes et tableaux page par page, avec l'OCR pour les pages scannées. Les mises en page très complexes peuvent demander quelques retouches."
+        }
+      ],
+      "guide": {
+        "intro": "Convertir un PDF en Word vous permet de réutiliser et de modifier le texte dans Microsoft Word, Google Docs ou LibreOffice. {brand} extrait le texte de chaque page dans un fichier DOCX directement sur votre appareil. Cela fonctionne le mieux avec les PDF textuels, comme les lettres, articles et rapports.",
+        "uses": [
+          "Réutiliser le texte d'un ancien rapport ou d'une ancienne lettre sans le retaper.",
+          "Modifier un document quand vous n'avez plus le fichier Word d'origine.",
+          "Copier des paragraphes dans un nouveau document ou une nouvelle présentation."
+        ],
+        "tips": [
+          "Les tableaux, colonnes et images complexes peuvent demander quelques retouches manuelles.",
+          "Un PDF scanné ? L'OCR intégré (mode Automatique) lit les pages sans couche de texte.",
+          "Si vous n'avez besoin que de texte brut, PDF en texte est encore plus rapide."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je ouvrir le résultat dans Google Docs ?",
+            "a": "Oui. Les fichiers DOCX s'ouvrent dans Microsoft Word, Google Docs, LibreOffice et WPS Office."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Convertir PDF en Word – Gratuit, privé et avec OCR",
+        "desc": "Convertissez un PDF en Word (DOCX) modifiable. OCR gratuit pour les scans, mise en page fluide ou exacte, 12 langues. Sans envoi.",
+        "sections": [
+          [
+            "Pourquoi ce convertisseur PDF en Word est différent",
+            "La plupart des convertisseurs PDF en Word vous demandent d'envoyer votre document sur un serveur distant, d'attendre dans une file puis de télécharger le résultat. Pour un prospectus, ce n'est pas grave, mais pour un contrat, une fiche de paie, un compte rendu médical ou un brouillon de thèse, si. {brand} effectue toute la conversion dans l'onglet de votre navigateur. Le PDF est analysé avec PDF.js, les fragments de texte, les polices, les images et les tableaux sont reconstruits dans un vrai fichier .docx et le fichier vous est rendu directement. Rien n'est envoyé nulle part.",
+            "Travailler en local supprime aussi les limites habituelles. Pas de compteur de tâches quotidiennes, pas de message « passez à l'offre supérieure pour convertir plus de pages », pas de filigrane. La seule limite est la mémoire de l'appareil utilisé : un ordinateur portable récent gère sans problème des documents de plusieurs centaines de pages.",
+            [
+              "**OCR gratuit pour les PDF scannés** : iLovePDF présente l'OCR comme une option Premium ; ici, il est inclus et s'exécute sur votre appareil.",
+              "**Deux modes de mise en page** : *Texte fluide* reconstruit des paragraphes, colonnes et tableaux normaux que vous pouvez modifier librement ; *Mise en page exacte* reproduit chaque page précisément avec des zones de texte positionnées.",
+              "**12 langues d'OCR**, dont l'anglais, l'espagnol, le français, l'allemand, le portugais, l'italien, le russe, l'arabe, le hindi, le tamoul, le chinois simplifié et le japonais.",
+              "**Plages de pages et lots** : convertissez seulement des pages comme 2-5, ou déposez plusieurs PDF à la fois et obtenez un ZIP de fichiers Word.",
+              "**Autres formats** : besoin de RTF ou d'ODT pour LibreOffice, WordPad ou d'anciens logiciels ? Utilisez [PDF en RTF](/pdf-to-rtf/) ou [PDF en ODT](/pdf-to-odt/)."
+            ]
+          ],
+          [
+            "Texte fluide ou mise en page exacte : lequel choisir ?",
+            "Choisissez **Texte fluide** quand vous voulez modifier le document : réécrire des paragraphes, corriger un CV, mettre à jour un rapport ou copier des sections dans un autre fichier. Les lignes sont réunies en paragraphes, les titres sont détectés d'après la taille et la graisse des caractères, les pages multicolonnes sont lues dans le bon ordre et les tableaux à traits deviennent de vrais tableaux Word. Le texte se réorganise naturellement pendant la saisie.",
+            "Choisissez **Mise en page exacte** quand le document doit être identique au PDF : formulaires, brochures, certificats ou tout ce qui a une mise en page soignée. Chaque ligne est placée à sa position d'origine : la page a le même aspect dans Word, mais modifier de grands blocs de texte est moins pratique, car chaque ligne est dans sa propre zone.",
+            "En cas de doute, essayez d'abord Texte fluide ; la conversion prend quelques secondes, comparer les deux ne coûte donc rien."
+          ],
+          [
+            "Convertir des PDF scannés avec l'OCR",
+            "Un PDF scanné contient des images de pages au lieu de texte : un convertisseur ordinaire produit donc un fichier Word vide ou un document rempli d'images. Avec l'OCR sur **Automatique**, {brand} examine chaque page : celles qui ont déjà une couche de texte sont converties directement et celles qui ne sont que des images sont reconnues avec Tesseract fonctionnant en WebAssembly. Choisissez **Toutes les pages** pour forcer la reconnaissance partout, par exemple pour un PDF avec une couche de texte cachée de mauvaise qualité.",
+            "Pour de meilleurs résultats d'OCR, scannez à 300 PPP, gardez les pages droites et choisissez la langue du document avant de commencer. La reconnaissance se fait sur votre appareil : un scan de 20 pages peut prendre une minute sur un téléphone, mais votre document ne le quitte jamais."
+          ],
+          [
+            "Conseils pour un document Word plus propre",
+            [
+              "Utilisez le PDF numérique d'origine chaque fois que possible : les PDF exportés se convertissent bien plus précisément que les scans ou les photos.",
+              "Si un PDF est protégé par mot de passe, retirez-le d'abord avec [Déverrouiller un PDF](/unlock-pdf/) (vous devez le connaître).",
+              "Besoin de quelques pages seulement ? Saisissez une plage comme 3-7 dans le champ Pages au lieu de convertir tout le document.",
+              "Après modification, reconvertissez le document en PDF avec [Word en PDF](/word-to-pdf/)."
+            ]
+          ],
+          [
+            "Ce qui est converti",
+            {
+              "table": [
+                [
+                  "Élément",
+                  "Texte fluide",
+                  "Mise en page exacte"
+                ],
+                [
+                  "Paragraphes et titres",
+                  "Reconstruits en paragraphes modifiables",
+                  "Lignes positionnées"
+                ],
+                [
+                  "Gras, italique, taille de police, couleur",
+                  "Conservés",
+                  "Conservés"
+                ],
+                [
+                  "Tableaux à traits",
+                  "Vrais tableaux Word",
+                  "Texte positionné"
+                ],
+                [
+                  "Images et photos",
+                  "Intégrées",
+                  "Intégrées à leur position d'origine"
+                ],
+                [
+                  "Pages multicolonnes",
+                  "Lues dans l'ordre des colonnes",
+                  "Colonnes conservées visuellement"
+                ],
+                [
+                  "Pages scannées",
+                  "Texte par OCR",
+                  "Texte par OCR"
+                ]
+              ]
+            }
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "OCR pour les PDF scannés",
+            "Gratuit, sur votre appareil",
+            "Premium uniquement",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Formats de sortie",
+            "DOCX, RTF, ODT",
+            "DOCX",
+            "DOCX",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Plage de pages et conversion par lots",
+            "Les deux, gratuitement",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Ce convertisseur PDF en Word est-il vraiment gratuit ?",
+            "a": "Oui. Pas de limites quotidiennes, pas de filigrane, pas d'offre payante. Comme la conversion s'exécute sur votre propre appareil, convertir plus de fichiers ne nous coûte rien de plus."
+          },
+          {
+            "q": "Puis-je convertir un PDF scanné en Word ?",
+            "a": "Oui. Laissez l'OCR sur Automatique et les pages qui ne sont que des images sont reconnues automatiquement en 12 langues. Choisissez la langue du document pour plus de précision."
+          },
+          {
+            "q": "Ça marche sur Mac, iPhone et Android ?",
+            "a": "Oui. Fonctionne dans tout navigateur moderne (Chrome, Edge, Firefox ou Safari) sous Windows, macOS, Linux, iOS et Android. Rien à installer."
+          },
+          {
+            "q": "Puis-je convertir PDF en Word hors ligne ?",
+            "a": "Oui. Chargez cette page une fois et déconnectez-vous d'internet : le convertisseur continue de fonctionner car tout le code est déjà dans votre navigateur."
+          },
+          {
+            "q": "Comment convertir un très gros PDF ?",
+            "a": "Les gros fichiers fonctionnent tant que votre appareil a assez de mémoire. Sur mobile, il est plus rapide et plus fiable de diviser un PDF de 500 pages avec Diviser un PDF et de convertir les parties une par une."
+          },
+          {
+            "q": "Mes polices et la mise en forme seront-elles conservées ?",
+            "a": "Le gras, l'italique, les tailles et les couleurs sont conservés. Si une police n'est pas installée sur votre ordinateur, Word la remplace par une police proche ; la Mise en page exacte garde les positions identiques."
+          },
+          {
+            "q": "Puis-je convertir PDF en Word dans d'autres langues ?",
+            "a": "Oui. Les PDF textuels dans tout alphabet se convertissent directement, et l'OCR prend en charge 12 langues, dont l'arabe, le hindi, le tamoul, le chinois et le japonais."
+          }
+        ],
+        "related": [
+          "word-to-pdf",
+          "ocr-pdf",
+          "pdf-to-rtf",
+          "pdf-to-text",
+          "unlock-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment passer un PDF en Word gratuitement ?",
+            "a": "Déposez le PDF sur cette page, choisissez texte fluide (facile à modifier) ou mise en page exacte et appuyez sur Convertir. Vous obtenez un fichier .docx à ouvrir dans Word, Google Docs ou LibreOffice. Sans inscription, filigrane ni limite de pages, et les PDF scannés sont traités par l'OCR gratuit intégré."
+          },
+          {
+            "q": "Comment convertir PDF en Word sans perdre la mise en forme ?",
+            "a": "Choisissez le mode mise en page exacte : il place les zones de texte là où elles étaient sur la page, donc colonnes, titres et espacements restent proches de l'original. Le mode fluide reconstruit le texte en paragraphes normaux, plus faciles à modifier, mais peut changer la mise en page. Dans les deux cas, les mises en page complexes peuvent demander de petites retouches dans Word."
+          }
+        ]
+      }
+    }
+  }
+}

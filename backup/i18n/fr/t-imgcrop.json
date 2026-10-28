@@ -1,0 +1,281 @@
+{
+  "tools": {
+    "imgcrop": {
+      "name": "Recadrer une image",
+      "short": "Recadrez des images sur n'importe quelle zone ou proportion.",
+      "title": "Recadrer une image en ligne gratuit – Carré, 16:9, 4:3 et stories",
+      "desc": "Recadrez des photos visuellement ou au pixel près, avec des préréglages carré, 16:9, 4:3 et stories 9:16. Gratuit, privé et sans envoi.",
+      "h1": "Recadrer une image",
+      "steps": [
+        "Sélectionnez une image.",
+        "Faites glisser sur l'image ou saisissez des valeurs exactes en pixels ; si vous le souhaitez, choisissez une proportion.",
+        "Cliquez sur Démarrer et téléchargez l'image recadrée."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je recadrer en carré parfait pour les réseaux sociaux ?",
+          "a": "Oui. Choisissez la proportion 1:1 et la sélection se centre automatiquement ; faites-la glisser pour l'ajuster."
+        }
+      ],
+      "guide": {
+        "intro": "Un bon recadrage supprime les distractions et respecte le cadre attendu par chaque plateforme : carré pour les photos de profil, 16:9 pour les miniatures vidéo, 9:16 pour les stories. Recadrez visuellement ou saisissez des pixels exacts.",
+        "uses": [
+          "Créer des photos de profil carrées.",
+          "Recadrer des miniatures en 16:9 pour YouTube ou des présentations.",
+          "Couper une photo en 9:16 pour les stories Instagram ou TikTok.",
+          "Supprimer les bords inutiles des captures d'écran."
+        ],
+        "tips": [
+          "Utilisez la règle des tiers : placez le sujet hors du centre pour un rendu naturel.",
+          "Recadrez avant de compresser pour obtenir le fichier le plus léger."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je recadrer en carré parfait ?",
+            "a": "Oui. Choisissez la proportion 1:1 et la sélection se centre automatiquement ; faites-la glisser pour l'ajuster."
+          }
+        ],
+        "more": [
+          [
+            "Recadrer pour les réseaux sociaux",
+            "Tailles courantes : carré 1080 × 1080 pour le fil, 1080 × 1350 pour les publications verticales, 1080 × 1920 pour les stories et 1280 × 720 pour les miniatures vidéo."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Recadrer une image gratuit – Proportion exacte, par lots",
+        "desc": "Recadrez des photos dans le navigateur : tracez un cadre ou choisissez 1:1, 4:3, 3:2, 16:9, 9:16 ou 4:5. Pleine qualité, lots. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et Canva, Adobe Express, iLoveIMG",
+        "compareCols": [
+          "Canva",
+          "Adobe Express",
+          "iLoveIMG"
+        ],
+        "sections": [
+          [
+            "Recadrez des images en ligne, gratuitement",
+            "Supprimez les parties d'une photo dont vous ne voulez pas, améliorez la composition ou faites entrer une image dans une forme exacte. Faites glisser le cadre de recadrage ou fixez-le à une proportion courante (carré 1:1 pour les photos de profil, 4:5 pour Instagram, 16:9 pour YouTube et les présentations, 9:16 pour les stories) et téléchargez le résultat en pleine qualité. Sans compte, sans filigrane et sans envoi."
+          ],
+          [
+            "Mode d'emploi",
+            {
+              "steps": [
+                "Déposez une ou plusieurs images sur la page.",
+                "Choisissez une proportion ou laissez-la libre.",
+                "Faites glisser le cadre de recadrage et ses poignées sur la partie à garder.",
+                "Téléchargez l'image recadrée (un ZIP s'il y en a plusieurs)."
+              ]
+            }
+          ],
+          [
+            "Quelle proportion utiliser ?",
+            {
+              "table": [
+                [
+                  "Proportion",
+                  "Usage"
+                ],
+                [
+                  "1:1",
+                  "Photos de profil, publications Instagram carrées, miniatures de produits"
+                ],
+                [
+                  "4:5",
+                  "Publications verticales Instagram et Threads"
+                ],
+                [
+                  "4:3",
+                  "Photos classiques d'appareil et de tablette, diapositives"
+                ],
+                [
+                  "3:2",
+                  "Tirages d'appareil reflex : papier photo 10×15 cm (4×6 in)"
+                ],
+                [
+                  "16:9",
+                  "Miniatures YouTube, diapositives grand écran, fonds d'écran d'ordinateur"
+                ],
+                [
+                  "9:16",
+                  "Stories, Reels, TikTok et fonds d'écran de téléphone"
+                ]
+              ]
+            },
+            "Pour une taille exacte en pixels après le recadrage, utilisez [Redimensionner une image](/resize-image/) ; pour tous les préréglages des réseaux sociaux au même endroit, essayez le [Redimensionneur d'images pour réseaux sociaux](/social-media-image-resizer/)."
+          ],
+          [
+            "Conseils de composition",
+            {
+              "list": [
+                "Suivez la règle des tiers : placez les yeux ou l'horizon sur une ligne imaginaire à un tiers du bord.",
+                "Laissez un peu d'espace dans la direction où la personne regarde ou se déplace.",
+                "Recadrez les bords qui distraient (poubelles, câbles, personnes à moitié visibles) plutôt que le sujet.",
+                "Évitez de couper les personnes au niveau des articulations (poignets, genoux, chevilles).",
+                "Le recadrage supprime des pixels : partez du plus grand original pour que le recadrage reste net à l'impression."
+              ]
+            }
+          ],
+          [
+            "Recadrer, redimensionner ou rogner les bords",
+            "Recadrer supprime une partie de l'image et change sa forme ; redimensionner garde toute l'image et change ses dimensions en pixels ; *rogner* (trim) signifie généralement supprimer automatiquement les marges unies. Pour une photo de profil ronde, utilisez [Recadrer une image en cercle](/circle-crop-image/) ; pour diviser une image en morceaux, utilisez [Diviser une image](/image-splitter/)."
+          ],
+          [
+            "Les formats photo en un coup d'œil",
+            {
+              "table": [
+                [
+                  "Format",
+                  "Compression",
+                  "Transparence",
+                  "Idéal pour"
+                ],
+                [
+                  "JPG",
+                  "Avec perte",
+                  "Non",
+                  "Photos, e-mail, réseaux sociaux"
+                ],
+                [
+                  "PNG",
+                  "Sans perte",
+                  "Oui",
+                  "Captures, logos, graphiques avec texte"
+                ],
+                [
+                  "WebP",
+                  "Avec ou sans perte",
+                  "Oui",
+                  "Web : plus léger que JPG et PNG"
+                ],
+                [
+                  "AVIF",
+                  "Avec ou sans perte",
+                  "Oui",
+                  "Fichiers plus légers, navigateurs récents"
+                ],
+                [
+                  "GIF",
+                  "Sans perte, 256 couleurs",
+                  "1 bit",
+                  "Animations simples"
+                ]
+              ]
+            },
+            "L'outil lit JPG, PNG, WebP, GIF, BMP, AVIF et, grâce à des décodeurs intégrés, les photos HEIC d'iPhone : vous aurez rarement besoin de convertir avant."
+          ],
+          [
+            "Fonctionne sur tous les appareils",
+            "Fonctionne dans Chrome, Edge, Firefox et Safari sous Windows, macOS, Linux, ChromeOS, Android et iPhone/iPad. Sur mobile, touchez la zone de dépôt et choisissez dans votre galerie ; les résultats sont enregistrés dans Téléchargements ou dans l'app Fichiers. Les lots sont traités l'un après l'autre et téléchargés ensemble dans un ZIP : un album de vacances entier ne demande que quelques touches."
+          ],
+          [
+            "Qualité et taille de fichier",
+            "Les modifications se font à la pleine résolution de l'original. Les résultats JPG et WebP sont encodés en haute qualité (environ 90 %), visuellement identique à l'original pour la plupart des photos avec des fichiers compacts ; choisissez PNG quand vous avez besoin d'une sortie sans perte ou de transparence. Pour alléger encore les fichiers ensuite, utilisez [Compresser une image](/compress-image/), et pour changer les dimensions, [Redimensionner une image](/resize-image/)."
+          ],
+          [
+            "Problèmes courants et solutions",
+            {
+              "list": [
+                "**Le fichier ne s'ouvre pas** : vérifiez qu'il s'agit d'une vraie image et non d'un raccourci ou d'un fichier cloud fantôme ; téléchargez-le d'abord entièrement depuis iCloud, Google Photos ou OneDrive.",
+                "**Le résultat est flou** : partez de l'original, pas d'une miniature reçue par WhatsApp ou Messenger, qui recompressent fortement les photos.",
+                "**Les couleurs sont un peu différentes** : les photos à large gamut (Display P3) s'affichent en sRGB, le standard du web ; c'est normal et cohérent d'un appareil à l'autre.",
+                "**Le téléchargement n'apparaît pas sur l'iPhone** : cherchez dans Fichiers → Téléchargements, ou appuyez longuement sur l'aperçu et choisissez Enregistrer dans Photos.",
+                "**Un gros lot est lent** : les très grandes photos consomment beaucoup de mémoire ; fermez d'autres onglets ou traitez 20 à 30 images à la fois."
+              ]
+            }
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur. Vos images sont lues depuis votre disque vers la mémoire, traitées là et enregistrées directement sur votre appareil. Rien n'est envoyé, stocké ni enregistré, il n'y a pas de compte et l'outil continue de fonctionner hors ligne une fois la page chargée : il est sûr pour du contenu privé, confidentiel ou pas encore publié."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Lots / plusieurs images",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Préréglages de proportion",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment recadrer une image en ligne gratuitement ?",
+            "a": "Déposez l'image ici, faites glisser le cadre ou choisissez une proportion et téléchargez. Sans inscription ni filigrane."
+          },
+          {
+            "q": "Le rognage réduit-il la qualité ?",
+            "a": "Non : les pixels restants sont conservés à l'identique ; seule la zone recadrée est supprimée."
+          },
+          {
+            "q": "Puis-je recadrer plusieurs images à la fois ?",
+            "a": "Oui. Déposez-en plusieurs et elles sont téléchargées ensemble dans un ZIP."
+          },
+          {
+            "q": "Comment recadrer une photo en carré ?",
+            "a": "Choisissez la proportion 1:1 et déplacez le cadre sur la partie voulue."
+          },
+          {
+            "q": "Comment recadrer une image pour Instagram ?",
+            "a": "Utilisez 4:5 pour les publications verticales ou 1:1 pour les carrées, puis téléchargez."
+          },
+          {
+            "q": "Puis-je recadrer un PNG en gardant la transparence ?",
+            "a": "Oui. PNG et WebP conservent les zones transparentes."
+          },
+          {
+            "q": "Ça marche sur iPhone ?",
+            "a": "Oui, dans Safari. Les photos HEIC sont prises en charge."
+          },
+          {
+            "q": "Mes photos sont-elles envoyées ?",
+            "a": "Non, le recadrage se fait dans votre navigateur."
+          },
+          {
+            "q": "Comment recadrer à une taille exacte en pixels ?",
+            "a": "Recadrez à la bonne proportion, puis fixez la largeur exacte dans Redimensionner une image."
+          },
+          {
+            "q": "Puis-je recadrer une capture d'écran ?",
+            "a": "Oui : déposez ou collez le fichier de la capture et recadrez-le comme d'habitude."
+          }
+        ],
+        "related": [
+          "resize-image",
+          "circle-crop-image",
+          "rotate-image",
+          "image-splitter",
+          "social-media-image-resizer"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

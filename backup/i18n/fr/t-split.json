@@ -1,0 +1,243 @@
+{
+  "tools": {
+    "split": {
+      "name": "Diviser un PDF",
+      "short": "Extrayez des pages ou divisez un PDF en plusieurs fichiers.",
+      "title": "Diviser un PDF – Extraire des pages ou découper par plages | {brand}",
+      "desc": "Divisez un PDF en pages séparées ou en plages comme 1-3,5. Gratuit, illimité et privé : le PDF est divisé dans votre navigateur et n'est jamais envoyé.",
+      "h1": "Diviser un PDF",
+      "steps": [
+        "Sélectionnez le PDF à diviser.",
+        "Saisissez des plages de pages comme 1-3,5 ou laissez vide pour séparer chaque page.",
+        "Cliquez sur Démarrer et téléchargez les PDF obtenus dans un ZIP."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je extraire seulement quelques pages ?",
+          "a": "Oui. Saisissez une seule plage, comme 2-4, et vous obtenez un PDF avec seulement ces pages."
+        }
+      ],
+      "guide": {
+        "intro": "Diviser vous permet de sortir seulement les pages nécessaires (un chapitre, une facture, une page signée) au lieu d'envoyer tout le document. Avec {brand}, la division se fait en local : les PDF volumineux ou confidentiels ne quittent pas votre appareil.",
+        "uses": [
+          "Envoyer seulement les pages pertinentes d'un long contrat ou rapport.",
+          "Séparer un lot de tickets scannés en un fichier par page.",
+          "Séparer les chapitres d'un livre numérique ou de notes de cours."
+        ],
+        "tips": [
+          "Utilisez des plages comme 1-3,7,10-12 pour créer plusieurs fichiers à la fois.",
+          "Laissez le champ vide pour enregistrer chaque page dans son propre PDF.",
+          "Vous voulez un seul fichier avec les pages choisies ? Utilisez Extraire des pages."
+        ],
+        "faq": [
+          {
+            "q": "Les pages séparées gardent-elles les liens et la qualité ?",
+            "a": "Oui. Les pages sont copiées sans nouveau rendu : le texte, les images et la qualité ne changent pas."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Diviser un PDF – Extraire pages ou plages, sans envoi",
+        "desc": "Divisez un PDF en pages séparées, plages, toutes les X pages ou paires/impaires, ou coupez en un clic. Gratuit, privé, dans votre navigateur. Sans envoi.",
+        "sections": [
+          [
+            "Toutes les façons de diviser un PDF, au même endroit",
+            "Diviser semble simple, mais chacun cherche autre chose : sortir un chapitre, séparer une pile de scans en factures individuelles, envoyer seulement la page signée ou couper un fichier énorme en morceaux qui passent par e-mail. {brand} couvre tous ces cas, dans votre navigateur : le document n'est jamais envoyé.",
+            [
+              "**Chaque page** : un PDF par page, livrés dans un ZIP.",
+              "**Là où je clique sur les ciseaux** : regardez les miniatures et cliquez entre les pages pour couper le document exactement où vous voulez.",
+              "**Sélectionner des plages de pages** : saisissez des plages comme 1-3, 7, 10-12 pour extraire seulement ces pages (un fichier par plage ou tout réuni en un seul).",
+              "**Toutes les X pages** : divisez un scan de 100 pages en documents de 2 ou 5 pages d'un coup.",
+              "**Pages paires / impaires** : séparez les rectos et les versos d'un scan recto verso.",
+              "**Par taille de fichier** : utilisez [Diviser un PDF par taille](/split-pdf-by-size/) pour obtenir des parties sous une limite d'e-mail, comme 10 Mo.",
+              "**Par signets ou chapitres** : [Diviser un PDF par signets](/split-pdf-by-bookmarks/) crée automatiquement un fichier par chapitre.",
+              "**Par texte** : [Diviser un PDF par texte](/split-pdf-by-text/) commence un nouveau fichier chaque fois qu'un mot comme « Facture » apparaît.",
+              "**Pages coupées en deux** : [Couper les pages en deux](/split-pdf-pages-in-half/) découpe les scans de livres à deux pages par feuille en pages individuelles."
+            ]
+          ],
+          [
+            "Quel mode utiliser ?",
+            {
+              "table": [
+                [
+                  "Objectif",
+                  "Meilleur mode"
+                ],
+                [
+                  "Envoyer une ou deux pages",
+                  "Sélectionner des plages de pages"
+                ],
+                [
+                  "Séparer une pile de tickets scannés",
+                  "Toutes les X pages ou coupe au clic"
+                ],
+                [
+                  "Faire tenir le fichier dans un e-mail",
+                  "Diviser par taille"
+                ],
+                [
+                  "Un fichier par chapitre",
+                  "Diviser par signets"
+                ],
+                [
+                  "Scan recto verso avec rectos et versos mélangés",
+                  "Pages paires / impaires"
+                ],
+                [
+                  "Chaque page dans son propre fichier",
+                  "Chaque page"
+                ]
+              ]
+            }
+          ],
+          [
+            "Sans perte et privé",
+            "En divisant, les objets de page d'origine sont copiés dans de nouveaux PDF : rien n'est rendu ni compressé à nouveau, le texte reste donc sélectionnable, les graphiques vectoriels restent nets et les images gardent leur qualité. Les liens, champs de formulaire et polices des pages copiées sont conservés.",
+            "Comme le travail se fait en local, pas besoin d'attendre l'envoi d'un scan de 200 Mo, pas de limite horaire de tâches comme les 3 tâches par heure de Sejda, et aucune copie de votre relevé bancaire ou de votre compte rendu médical ne reste sur le serveur de quelqu'un d'autre."
+          ],
+          [
+            "Conseils",
+            [
+              "Les numéros de page des plages désignent la position physique (1 = première page), pas les numéros imprimés sur la page.",
+              "Vous voulez supprimer des pages plutôt que les extraire ? Utilisez [Supprimer des pages d'un PDF](/delete-pdf-pages/). Pour les réordonner, utilisez [Organiser un PDF](/organize-pdf/).",
+              "Vous avez déjà les morceaux et voulez en rassembler certains ? [Fusionner des PDF](/merge-pdf/) les combine dans n'importe quel ordre.",
+              "Fichier protégé par mot de passe ? Déverrouillez-le d'abord avec [Déverrouiller un PDF](/unlock-pdf/) si vous connaissez le mot de passe."
+            ]
+          ],
+          [
+            "Usages courants",
+            [
+              "Envoyer seulement les pages pertinentes d'un contrat ou d'un rapport.",
+              "Séparer un lot de factures scannées en un fichier par facture.",
+              "Extraire un seul chapitre d'un livre numérique ou d'un manuel pour réviser.",
+              "Couper un gros portfolio en morceaux plus petits acceptés par les portails d'envoi.",
+              "Partager seulement la page de signature pour que l'autre partie signe."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Diviser par plages / pages fixes",
+            "Oui",
+            "Oui",
+            "Oui",
+            "Oui",
+            "Oui"
+          ],
+          [
+            "Coupe au clic sur les miniatures",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Pages paires / impaires",
+            "Oui",
+            "Non proposé sur la page",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Diviser par taille, signets ou texte",
+            "Oui (gratuit, outils séparés)",
+            "Taille : oui",
+            "Voir le site",
+            "Voir le site",
+            "Oui"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment extraire seulement quelques pages d'un PDF ?",
+            "a": "Choisissez « Sélectionner des plages de pages », saisissez les pages, par exemple 2-4, 9, et cliquez sur Diviser. Vous pouvez obtenir chaque plage dans son propre fichier ou toutes ensemble."
+          },
+          {
+            "q": "Diviser réduit-il la qualité ?",
+            "a": "Non. Les pages sont copiées telles quelles, sans recompression : le texte et les images sont identiques à l'original."
+          },
+          {
+            "q": "Mon PDF est-il envoyé ?",
+            "a": "Non. La division se fait dans votre navigateur et le fichier ne quitte jamais votre appareil."
+          },
+          {
+            "q": "Puis-je diviser un PDF en parties égales ?",
+            "a": "Oui. Utilisez « Toutes les X pages » et indiquez le nombre de pages de chaque partie."
+          },
+          {
+            "q": "Comment diviser un PDF pour respecter la limite d'un e-mail ?",
+            "a": "Utilisez Diviser un PDF par taille et fixez un maximum, comme 10 Mo ; chaque partie restera en dessous."
+          },
+          {
+            "q": "Puis-je diviser par chapitres ?",
+            "a": "Oui. Diviser un PDF par signets crée automatiquement un fichier par signet (chapitre)."
+          },
+          {
+            "q": "Y a-t-il une limite de pages ou de fichiers ?",
+            "a": "Non. Pas de limites horaires ; les très gros fichiers dépendent seulement de la mémoire de votre appareil."
+          },
+          {
+            "q": "Les liens et champs de formulaire fonctionneront-ils encore ?",
+            "a": "Oui, les liens et champs de formulaire des pages copiées sont conservés."
+          },
+          {
+            "q": "Puis-je diviser un PDF protégé par mot de passe ?",
+            "a": "Si vous connaissez le mot de passe, déverrouillez-le d'abord avec Déverrouiller un PDF, puis divisez-le."
+          }
+        ],
+        "related": [
+          "merge-pdf",
+          "split-pdf-by-size",
+          "split-pdf-by-bookmarks",
+          "delete-pdf-pages",
+          "organize-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment séparer un PDF en plusieurs fichiers ?",
+            "a": "Déposez le PDF et choisissez comment le diviser : chaque page dans son propre fichier, plages personnalisées comme 1-3,4-9, toutes les X pages ou pages paires/impaires. Vous pouvez aussi cliquer entre les miniatures pour couper. Les parties se téléchargent dans un ZIP."
+          },
+          {
+            "q": "Puis-je diviser un PDF en deux ?",
+            "a": "Oui. Utilisez une plage comme 1-10,11-20 pour un fichier de 20 pages, ou « toutes les X pages » avec la moitié du total. Pour couper chaque feuille physique par le milieu (deux pages scannées par feuille), utilisez l'outil Couper les pages PDF en deux."
+          }
+        ]
+      }
+    }
+  }
+}

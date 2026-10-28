@@ -1,0 +1,177 @@
+{
+  "tools": {
+    "jpg2pdf": {
+      "name": "JPG en PDF",
+      "short": "Convertissez des images JPG, PNG ou WebP en PDF.",
+      "title": "JPG en PDF – Convertir des images en PDF en ligne gratuit | {brand}",
+      "desc": "Convertissez des images JPG, PNG et WebP en un seul PDF. Format de page et marges au choix. Gratuit, sans filigrane ni envoi.",
+      "h1": "Convertir JPG en PDF",
+      "steps": [
+        "Sélectionnez ou déposez vos images.",
+        "Ordonnez-les et choisissez le format de page et la marge.",
+        "Cliquez sur Démarrer et téléchargez votre PDF."
+      ],
+      "faq": [
+        {
+          "q": "Quels formats d'image sont pris en charge ?",
+          "a": "Les images JPG, PNG et WebP sont prises en charge."
+        }
+      ],
+      "guide": {
+        "intro": "Convertir des photos en PDF est le moyen le plus simple de remettre des documents, des devoirs ou des reçus en un seul fichier. {brand} crée le PDF sur votre téléphone ou votre ordinateur : vos photos personnelles et les scans de votre pièce d'identité ne sont jamais envoyés.",
+        "uses": [
+          "Transformer des photos de documents prises au téléphone en un seul PDF pour un dossier.",
+          "Rassembler des reçus dans un PDF pour une note de frais.",
+          "Envoyer des devoirs ou des notes manuscrites en un seul fichier."
+        ],
+        "tips": [
+          "Choisissez le format A4 ou Lettre pour les documents à imprimer.",
+          "Faites pivoter ou recadrez d'abord les photos avec les outils d'image pour un résultat plus propre.",
+          "Si le PDF est trop lourd, utilisez ensuite Compresser un PDF."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je convertir beaucoup d'images à la fois ?",
+            "a": "Oui. Sélectionnez autant d'images que vous voulez ; chacune devient une page d'un même PDF, dans l'ordre choisi."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "JPG en PDF – Convertir des images en PDF gratuit, sans envoi",
+        "desc": "Convertissez JPG, PNG, HEIC et WebP en un PDF ou un PDF par image. A4, Letter ou ajusté, orientation, marges et ordre. Gratuit, sans inscription.",
+        "sections": [
+          [
+            "Toutes les options utiles, sans rien envoyer",
+            "{brand} égale les options de mise en page des convertisseurs les plus connus et en ajoute quelques-unes, tout en gardant vos photos sur votre appareil. Choisissez le format de page, l'orientation et la marge, faites glisser les images pour les ordonner, faites pivoter celles qui sont de travers et téléchargez un seul PDF, ou un ZIP avec un PDF par image.",
+            [
+              "**Format de page** : Ajusté (la page correspond à l'image), A4, Lettre US, Legal US, A0–A6 ou un format personnalisé en millimètres.",
+              "**Orientation** : Automatique choisit portrait ou paysage pour chaque image, pour que les photos larges remplissent la page ; ou imposez-en une pour toutes.",
+              "**Marges** : aucune, petite (20 pt) ou grande (40 pt).",
+              "**Résultat** : regroupez toutes les images dans un PDF ou créez un PDF séparé par image, livrés dans un ZIP.",
+              "**Formats** : JPG, JPEG, PNG, WebP, HEIC/HEIF (photos d'iPhone), AVIF, GIF, BMP et TIFF."
+            ]
+          ],
+          [
+            "La qualité de l'image sera-t-elle affectée ?",
+            "Non. Les fichiers JPEG et PNG sont insérés dans le PDF octet par octet, sans recompression : le PDF est exactement aussi net que les originaux. Seules les images dans des formats que le PDF ne peut pas stocker directement (comme HEIC ou WebP), ou celles que vous faites pivoter, sont converties, avec des réglages haute qualité. Si le PDF obtenu est trop lourd pour l'e-mail, réduisez-le ensuite avec [Compresser un PDF](/compress-pdf/)."
+          ],
+          [
+            "Convertir JPG en PDF sur Mac, Windows et mobile",
+            "Sous Windows, vous pourriez utiliser « Microsoft Print to PDF » et sur Mac exporter depuis Aperçu, mais les deux rendent fastidieux l'ordonnancement de nombreuses photos et limitent le contrôle des marges. Cette page fonctionne de la même façon sur tous les systèmes : sur iPhone ou Android, touchez la zone de dépôt, choisissez des photos dans la galerie et le PDF est enregistré dans Fichiers ou Téléchargements. Les photos HEIC sorties de l'appareil photo de l'iPhone sont prises en charge sans conversion préalable."
+          ],
+          [
+            "Usages courants",
+            [
+              "Remettre des scans de pièces d'identité, de certificats ou de reçus sur un portail qui n'accepte que le PDF.",
+              "Transformer des photos de notes manuscrites ou d'un tableau en un seul document ; pour des pages redressées avec l'appareil photo, essayez [Scanner PDF](/pdf-scanner/).",
+              "Créer un album photo ou un portfolio simple avec des pages A4 et des marges uniformes.",
+              "Rassembler des captures d'écran dans un rapport de bug ou un tutoriel."
+            ]
+          ],
+          [
+            "Mes données sont-elles en sécurité ?",
+            "Vos images sont traitées en mémoire par JavaScript et ne sont jamais envoyées. Les photos de passeports, de cartes bancaires ou de documents médicaux sont précisément le genre de fichiers à ne pas envoyer au serveur d'un inconnu : avec {brand}, elles ne sont jamais transmises."
+          ],
+          [
+            "Comment choisir le format de page et les marges",
+            "**Ajusté** donne à chaque page les proportions exactes de son image, idéal pour les captures et les illustrations. **A4** ou **Lettre US** avec une petite marge convient le mieux aux documents à imprimer ou à remettre à une administration, car toutes les pages ont la même taille. Utilisez l'orientation **Automatique** pour que les photos en paysage soient placées sur des pages en paysage au lieu d'être réduites sur une page en portrait."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Entrée HEIC, AVIF, BMP et TIFF",
+            "Oui",
+            "Centré sur le JPG",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Options de format de page",
+            "Ajusté, A0–A6, Lettre, Legal, personnalisé",
+            "Ajusté, A4, Lettre",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Puis-je fusionner plusieurs JPG en un seul PDF ?",
+            "a": "Oui, c'est l'option par défaut. Ajoutez autant d'images que vous voulez, faites-les glisser pour les ordonner et elles deviendront les pages successives d'un seul PDF."
+          },
+          {
+            "q": "Puis-je créer un PDF distinct pour chaque image ?",
+            "a": "Oui. Dans Résultat, choisissez « Un PDF par image » et vous obtiendrez un ZIP avec un PDF par image."
+          },
+          {
+            "q": "Quels formats d'image puis-je convertir en PDF ?",
+            "a": "JPG, JPEG, PNG, WebP, HEIC/HEIF, AVIF, GIF, BMP et TIFF."
+          },
+          {
+            "q": "Ce convertisseur JPG en PDF est-il gratuit ?",
+            "a": "Entièrement gratuit, sans filigrane, sans limites et sans compte."
+          },
+          {
+            "q": "Comment convertir JPG en PDF sous Windows ou Mac ?",
+            "a": "Ouvrez cette page dans votre navigateur, déposez les images, choisissez le format de page et les marges et cliquez sur Convertir. Cela fonctionne de la même façon sur les deux systèmes, sans rien installer."
+          },
+          {
+            "q": "Puis-je changer l'ordre des images ?",
+            "a": "Oui. Faites glisser les cartes d'images dans l'ordre voulu avant de convertir, ou triez-les par nom. Vous pouvez aussi faire pivoter des images individuellement."
+          }
+        ],
+        "related": [
+          "pdf-to-jpg",
+          "merge-pdf",
+          "heic-to-jpg",
+          "compress-pdf",
+          "pdf-scanner"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment passer de JPG à PDF gratuitement ?",
+            "a": "Déposez une ou plusieurs images JPG, faites-les glisser pour les ordonner, choisissez un format de page (A4, Lettre ou ajusté à l'image) et les marges, puis appuyez sur Convertir. Vous pouvez créer un PDF commun ou un PDF par image, gratuitement et sans filigrane."
+          },
+          {
+            "q": "Puis-je convertir JPG en PDF sur mobile ?",
+            "a": "Oui. La page fonctionne dans les navigateurs mobiles Android et iPhone : touchez pour choisir des photos dans la galerie, convertissez et le PDF est enregistré dans vos téléchargements."
+          }
+        ]
+      }
+    }
+  }
+}

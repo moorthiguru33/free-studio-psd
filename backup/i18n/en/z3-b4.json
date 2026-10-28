@@ -1,0 +1,729 @@
+{
+"tools": {
+"imgkb": {
+"guide": {
+"more": [
+[
+"KB versus kB",
+"Strictly, 1 kB is 1,000 bytes and 1 KiB is 1,024 bytes, but most websites and operating systems call 1,024 bytes a KB. The default uses 1,024, so a 50 KB target means at most 51,200 bytes. If a form rejects the file by a whisker, switch the unit or enter a slightly lower target."
+],
+[
+"Quality first, then size",
+"Lowering JPEG quality removes fine detail that the eye barely notices, while shrinking dimensions makes everything smaller. The compressor therefore keeps your original resolution as long as quality stays at an acceptable level and only scales down when necessary, reporting the final quality and dimensions for each image."
+],
+[
+"Your files stay local",
+"Compression runs in your browser; photos of IDs and certificates are never uploaded."
+]
+],
+"intro": "Job portals, university applications, government websites and exam registrations often reject photos and scans larger than a fixed size such as 50 KB or 200 KB. Ordinary compressors make you guess the quality setting. Here you type the size you need and the compressor finds the best quality that fits automatically, for one image or a whole batch.",
+"uses": [
+"Meet photo and signature size limits on application and exam forms.",
+"Attach images to emails or chat apps with strict size caps.",
+"Upload product photos to marketplaces with file limits.",
+"Reduce scans of ID documents for online verification."
+],
+"tips": [
+"Crop away borders first – fewer pixels means better quality at the same size.",
+"Set a maximum width when the portal also limits pixel dimensions.",
+"Use KB (1024 bytes) for most forms; choose kB (1000 bytes) only if the site says so.",
+"WEBP gives better quality per KB if the site accepts it."
+],
+"faq": []
+},
+"name": "Compress Image to KB",
+"short": "Shrink a photo to an exact file size in KB.",
+"title": "Compress Image to KB – Reduce Photo to Exact Size Online | {brand}",
+"desc": "Compress JPG, PNG, HEIC or WEBP images to an exact size in KB – 20 KB, 50 KB, 100 KB, 500 KB or any target. Ideal for online forms and portals. Free, batch, no upload.",
+"h1": "Compress Image to a Target Size in KB",
+"steps": [
+"Upload one or more images.",
+"Enter the target size in KB and choose JPG or WEBP.",
+"Download images that are at or just below your target size."
+],
+"faq": [
+{
+"q": "How does it hit an exact size",
+"a": "The tool tries many JPEG or WEBP quality levels using a binary search and keeps the highest quality that fits under your limit. If even low quality is too large, it gradually reduces the resolution until the file fits."
+},
+{
+"q": "What if a form needs a minimum size too",
+"a": "Some portals ask for a photo between, for example, 20 and 50 KB. Tick the fill option and a JPG that came out far below the target is padded with a harmless comment block to about 95% of the limit, without changing the image."
+}
+]
+},
+"kb20": {
+"guide": {
+"more": [
+[
+"Hitting 20 KB with a phone photo",
+"The compressor first tries to reach 20 KB at full resolution by lowering JPEG quality. A large photo cannot reach 20 KB this way while staying readable, so it then reduces the dimensions step by step – typically down to 400–800 pixels on the long side – until the file fits. The result panel shows the final size, quality and dimensions so you can check them against the form's rules."
+],
+[
+"When the portal also needs pixel sizes",
+"Some forms specify both file size and dimensions, such as 140×60 pixels for a signature. Enter the larger dimension as the maximum width or height, and the image will be resized before compression."
+]
+],
+"intro": "A 20 KB limit is one of the most common – and most frustrating – rules on online application forms, especially for signatures and small photos. A modern phone photo is often 3–5 MB, 200 times too big. This page is preset to 20 KB, so you only need to upload the image and download a file that fits, at the best quality possible.",
+"uses": [
+"Upload signatures to recruitment, exam and scholarship portals.",
+"Submit small passport-style photos on government and university sites.",
+"Attach thumbnails where systems allow only tiny files.",
+"Prepare avatars for legacy forums and intranet profiles."
+],
+"tips": [
+"Scan or photograph signatures on plain white paper with good light.",
+"Crop the signature tightly – white space still costs bytes.",
+"Set a maximum width of 300–400 px for signatures.",
+"Convert to grayscale first for even sharper signatures at 20 KB."
+],
+"faq": []
+},
+"name": "Compress Image to 20 KB",
+"short": "Reduce a photo or signature to under 20 KB.",
+"title": "Compress Image to 20 KB – Photo & Signature Under 20KB | {brand}",
+"desc": "Compress a photo or signature to 20 KB or less for online application forms. Keeps the best possible quality, works with JPG, PNG and phone photos. Free and private.",
+"h1": "Compress Image to 20 KB",
+"steps": [
+"Upload your photo or signature scan.",
+"Keep the target at 20 KB or adjust it slightly.",
+"Download the image under 20 KB."
+],
+"faq": [
+{
+"q": "Will a 20 KB photo look blurry",
+"a": "At 20 KB a passport-style headshot of around 200×230 pixels can still look sharp. The tool keeps as many pixels as possible; for best results crop tightly around the face or signature before compressing."
+},
+{
+"q": "Why do forms ask for 20 KB",
+"a": "Many recruitment, exam and visa portals use very small limits to keep their databases light. Signatures are commonly limited to 10–20 KB and photos to 20–50 KB."
+}
+]
+},
+"kb50": {
+"guide": {
+"more": [
+[
+"What gets sacrificed first",
+"JPEG compression discards detail in areas that change quickly, such as hair or foliage, before smooth areas like skin and sky. At 50 KB most faces still look natural. If the result looks blocky, try a maximum width of 800 pixels – fewer, cleaner pixels usually look better than many heavily compressed ones."
+],
+[
+"Batch compression",
+"Select several images at once and each is compressed to 50 KB independently. They download together in a ZIP file with “-50kb” added to their names."
+]
+],
+"intro": "50 KB is a popular limit for profile photos, ID scans and application uploads. It is small enough for fast portals yet large enough for a clear face or document. Upload your images and they are compressed to just below 50 KB automatically, at the highest quality that fits.",
+"uses": [
+"Upload passport-style photos to job and visa applications.",
+"Add photos to online exam or scholarship forms.",
+"Send pictures over slow mobile connections.",
+"Shrink scanned receipts for expense systems with size limits."
+],
+"tips": [
+"Choose JPG for best compatibility with official portals.",
+"For document scans, crop margins and convert to grayscale first.",
+"Use the batch option to prepare all application photos at once.",
+"If you also need a minimum size, tick the fill option."
+],
+"faq": []
+},
+"name": "Compress Image to 50 KB",
+"short": "Reduce JPG or PNG photos to 50 KB or less.",
+"title": "Compress Image to 50 KB – Reduce Photo Size Under 50KB | {brand}",
+"desc": "Reduce JPG, PNG, HEIC and WEBP photos to 50 KB or less while keeping them sharp. Preset for application forms, ID uploads and email. Free, batch, nothing uploaded.",
+"h1": "Compress Image to 50 KB",
+"steps": [
+"Upload one or more images.",
+"The target is preset to 50 KB – change it if needed.",
+"Download images under 50 KB."
+],
+"faq": [
+{
+"q": "How big can a 50 KB photo be",
+"a": "A typical portrait photo compressed to 50 KB can usually keep around 600–900 pixels on the long side with good quality. Detailed scenes such as landscapes need more bytes, so they may be scaled down further."
+},
+{
+"q": "Does it work for iPhone HEIC photos",
+"a": "Yes. HEIC photos are decoded in the browser and saved as JPG or WEBP at your target size, which also solves the problem of portals that do not accept HEIC."
+}
+]
+},
+"kb100": {
+"guide": {
+"more": [
+[
+"Why 100 KB loads quickly",
+"On a typical 4G connection a 100 KB image downloads in a fraction of a second, while a 4 MB original can take several seconds. Search engines measure how quickly the largest image on a page appears, so keeping hero and product images near 100 KB is one of the easiest speed improvements."
+],
+[
+"Keeping full resolution",
+"At 100 KB the compressor can usually keep phone photos at 1500–2500 pixels wide. The result panel shows the quality used for each file, which helps you decide whether to set a smaller maximum width for crisper results."
+]
+],
+"intro": "A 100 KB image is the sweet spot for many uses: sharp enough for full-width web images and product photos, small enough for fast pages, email attachments and forms. This preset compresses each image to just below 100 KB while keeping the original resolution whenever possible.",
+"uses": [
+"Optimise blog and product photos for faster websites.",
+"Attach photos to emails and support tickets with small limits.",
+"Meet 100 KB rules on application and registration forms.",
+"Prepare images for online marketplaces and classifieds."
+],
+"tips": [
+"For websites, set a maximum width matching your layout, such as 1600 px.",
+"WEBP is about 25–35% smaller than JPG at similar quality.",
+"Compress screenshots as WEBP – JPG may blur text.",
+"Keep originals; compressed copies are for sharing."
+],
+"faq": []
+},
+"name": "Compress Image to 100 KB",
+"short": "Reduce photos to under 100 KB without losing much quality.",
+"title": "Compress Image to 100 KB – Reduce JPG Size to 100KB Online | {brand}",
+"desc": "Compress photos and scans to 100 KB or less with minimal visible quality loss. Perfect for websites, email, forms and marketplaces. Free and private, works offline.",
+"h1": "Compress Image to 100 KB",
+"steps": [
+"Upload your images.",
+"Leave the target at 100 KB or fine-tune it.",
+"Download optimised images under 100 KB."
+],
+"faq": [
+{
+"q": "Is 100 KB good for websites",
+"a": "Yes. Around 100 KB is a sensible budget for a large blog or product image. Pages load faster, which helps visitors on mobile data and supports good Core Web Vitals scores."
+},
+{
+"q": "JPG or WEBP",
+"a": "WEBP keeps more detail at 100 KB and is supported by all modern browsers. Choose JPG for email, documents and older systems."
+}
+]
+},
+"kb200": {
+"guide": {
+"more": [
+[
+"Photos versus scans",
+"Photos have smooth gradients that compress efficiently, while scans contain sharp text edges that need more bytes to stay legible. If a scanned page looks fuzzy at 200 KB, set a maximum width of about 1600 pixels; the text will be crisper at the lower resolution."
+],
+[
+"Safe for personal documents",
+"Everything runs inside your browser. ID documents and certificates never leave your device."
+]
+],
+"intro": "A 200 KB limit is common on document upload portals, content management systems and email newsletters. It allows high-quality photos and readable scans, but straight-from-camera files are many times larger. Upload your images and each one is compressed to just under 200 KB at the best quality that fits.",
+"uses": [
+"Upload certificates, IDs and proof-of-address scans to verification portals.",
+"Prepare photos for CMS platforms that cap uploads.",
+"Embed images in email newsletters without bloating them.",
+"Insert photos into documents and presentations that need to stay small."
+],
+"tips": [
+"Use JPG for photos and documents, WEBP for web pages.",
+"Scan documents at 150–200 DPI – higher DPI wastes bytes.",
+"Rotate scans upright before compressing.",
+"Combine several compressed scans into one PDF with JPG to PDF."
+],
+"faq": []
+},
+"name": "Compress Image to 200 KB",
+"short": "Reduce large photos to 200 KB or less.",
+"title": "Compress Image to 200 KB – Reduce Photo Size Under 200KB | {brand}",
+"desc": "Compress large photos and scans to 200 KB or less with high visual quality. For forms, CMS uploads, email and documents. Free batch compressor that runs in your browser.",
+"h1": "Compress Image to 200 KB",
+"steps": [
+"Upload your photos or scans.",
+"Keep the 200 KB target or change it.",
+"Download high-quality images under 200 KB."
+],
+"faq": [
+{
+"q": "Will I see any difference at 200 KB",
+"a": "For most phone photos, a 200 KB JPEG at full HD resolution is hard to tell apart from the original on a screen. Very detailed or noisy photos may need slightly lower resolution."
+},
+{
+"q": "Can I compress scanned documents",
+"a": "Yes. Multi-megabyte scans of certificates and IDs usually compress to 200 KB while remaining readable. Use grayscale for text documents to keep them sharper."
+}
+]
+},
+"pdf2long": {
+"guide": {
+"more": [
+[
+"How pages are stacked",
+"Each page is rendered at the chosen width, so pages of different sizes line up neatly. The gap is added above, below and between pages using the background colour you choose. Text is rasterised at the selected width, so a wider image keeps small fonts readable."
+],
+[
+"Private conversion",
+"Rendering happens in your browser with pdf.js, the same engine Firefox uses. Your PDF is never uploaded."
+]
+],
+"intro": "Sharing a PDF in a chat app usually means the recipient has to download and open it. A single long image can be scrolled straight away in WhatsApp, Telegram, Instagram, Slack or on a web page. This converter renders the pages you choose and stacks them vertically with an optional gap, producing one tall JPG, PNG or WEBP.",
+"uses": [
+"Share menus, flyers and price lists in chat apps.",
+"Post multi-page infographics and reports on social media.",
+"Embed short documents on websites as a scrollable image.",
+"Preview contracts or forms on phones without a PDF reader."
+],
+"tips": [
+"Convert only the important pages with a page range.",
+"Use a light grey gap so pages remain visually separate.",
+"Choose PNG for documents with small text and WEBP for smaller files.",
+"For individual page images use PDF to JPG instead."
+],
+"faq": []
+},
+"name": "PDF to Long Image",
+"short": "Turn all PDF pages into one tall image.",
+"title": "PDF to Long Image – Combine PDF Pages into One JPG | {brand}",
+"desc": "Convert a PDF into one long vertical image with all pages stacked – perfect for sharing on WhatsApp, Instagram, Slack or websites. Choose width, gap and format. Free, no upload.",
+"h1": "PDF to Long Image",
+"steps": [
+"Select a PDF.",
+"Choose image width, pages, gap and format.",
+"Download one tall image (or a few parts for very long documents)."
+],
+"faq": [
+{
+"q": "Is there a maximum length",
+"a": "Browsers limit how tall a single image can be. The tool keeps each image under 16,000 pixels and, if allowed, splits longer documents into several parts, downloaded together as a ZIP."
+},
+{
+"q": "Which width should I choose",
+"a": "1080 px matches most phone screens and social apps. Choose 1400 or 2000 px for small print or detailed drawings."
+}
+]
+},
+"gifcompress": {
+"guide": {
+"more": [
+[
+"Why GIFs are so big",
+"GIF stores each frame using up to 256 colours and compresses only by repeating patterns, with no motion prediction like modern video codecs. Noisy pixels or dithering that change from frame to frame break those patterns. The lossy option replaces pixels that barely changed with the previous frame's colour, creating long identical runs that compress well."
+],
+[
+"Private and offline",
+"Decoding and encoding happen in your browser, so even GIFs of private screens are never uploaded."
+]
+],
+"intro": "GIFs are the universal animation format, but they get large quickly, and chat apps, forums, email and documentation sites often reject big files. This compressor rebuilds your GIF with fewer colours, smaller dimensions, fewer frames or a lossy pass that reuses pixels between frames – four simple levers to make it fit.",
+"uses": [
+"Get GIFs under upload limits on Discord, Slack, forums and email.",
+"Speed up pages and README files that contain animations.",
+"Shrink screen-recording GIFs for bug reports and tutorials.",
+"Reduce reaction GIFs and stickers for messaging apps."
+],
+"tips": [
+"Start with 128 colours and the lossy option – most GIFs look the same.",
+"Reduce size to 75% for screen recordings with large empty areas.",
+"Drop frames only for long or high-frame-rate GIFs.",
+"For very long clips, convert to MP4 instead with GIF to MP4."
+],
+"faq": []
+},
+"name": "Compress GIF",
+"short": "Reduce animated GIF file size.",
+"title": "Compress GIF – Reduce Animated GIF Size Online Free | {brand}",
+"desc": "Make animated GIFs smaller by reducing colours, size and frames, with a lossy option that merges similar pixels between frames. Free GIF compressor that works in your browser.",
+"h1": "Compress GIF",
+"steps": [
+"Upload one or more animated GIFs.",
+"Choose colours, size, frame dropping and lossy compression.",
+"Download the smaller GIF."
+],
+"faq": [
+{
+"q": "How much smaller will my GIF be",
+"a": "Results vary. Reducing to 64 colours and 75% size often halves the file; dropping every second frame can halve it again. The result panel shows the size before and after so you can try other settings."
+},
+{
+"q": "Will the animation speed change if I drop frames",
+"a": "No. When frames are dropped, the delays of the removed frames are added to the remaining ones, so the animation keeps its original timing – it just looks a little less smooth."
+}
+]
+},
+"video2frames": {
+"guide": {
+"more": [
+[
+"How frames are decoded",
+"The video is read directly from the file on your device with the Mediabunny library and decoded with the browser's hardware-accelerated WebCodecs API. Only the requested timestamps are decoded, so extracting a few frames from a long video is quick."
+],
+[
+"Timestamps in file names",
+"Each image is named with its sequence number and time, for example clip-07-1m23.50s.jpg, so you can find the exact moment in the original video later."
+]
+],
+"intro": "Pulling still images out of a video is useful for thumbnails, storyboards, training data, documentation and finding that one perfect moment. Choose one frame every few seconds, a fixed number of frames per second, or a set number spread evenly across the clip, and download them all in a ZIP. File names include the timestamp of every frame.",
+"uses": [
+"Find the best still for a YouTube thumbnail or poster.",
+"Create storyboards and contact sheets from footage.",
+"Collect training images for machine-learning projects.",
+"Capture slides or steps from recorded presentations and tutorials."
+],
+"tips": [
+"Use “N evenly spaced frames” with 12–24 for a quick overview of a clip.",
+"Limit the time range to the moment you need for faster extraction.",
+"Choose PNG for screen recordings with text and JPG for camera footage.",
+"Extraction is capped at 500 frames per run to protect memory."
+],
+"faq": []
+},
+"name": "Video to Frames",
+"short": "Extract still images from a video as JPG or PNG.",
+"title": "Video to Frames – Extract Images from Video Online | {brand}",
+"desc": "Extract frames from MP4, MOV and WEBM videos as JPG, PNG or WEBP – one frame every few seconds, N frames per second or evenly spaced shots. Free, fast, nothing uploaded.",
+"h1": "Video to Frames",
+"steps": [
+"Select a video file.",
+"Choose how many frames to extract, the time range, size and format.",
+"Download all frames as a ZIP."
+],
+"faq": [
+{
+"q": "Which video formats work",
+"a": "MP4 (H.264, H.265), MOV, WEBM (VP8, VP9, AV1) and MKV files work in recent Chrome, Edge and Safari, which decode video with WebCodecs. Firefox support depends on the codec."
+},
+{
+"q": "Are frames full resolution",
+"a": "Yes, by default each frame is saved at the video's original resolution. You can also choose 1920, 1280 or 640 pixels wide to save space."
+}
+]
+},
+"audiospeed": {
+"guide": {
+"more": [
+[
+"Time-stretching explained",
+"Changing speed without changing pitch uses an algorithm called WSOLA (waveform-similarity overlap-add). It cuts the sound into short overlapping pieces, then lays them closer together or further apart, choosing the best alignment for each piece so the waveform stays continuous. Pitch shifting combines time-stretching with resampling."
+],
+[
+"Private processing",
+"The audio is decoded and processed in your browser. Nothing is uploaded, which also makes it quick for long recordings."
+]
+],
+"intro": "Lectures and podcasts are often easier to digest at 1.25× or 1.5×, a difficult guitar solo is easier to learn at 0.7×, and a backing track might need to be a semitone lower for your voice. This tool changes speed and pitch independently. Keep the pitch while changing tempo, shift the pitch while keeping the length, or change both together like a tape machine.",
+"uses": [
+"Speed up lectures, audiobooks and voice notes to save time.",
+"Slow down songs to learn instruments, dances or lyrics.",
+"Transpose backing tracks to suit a singer's range.",
+"Create chipmunk, slow-motion or nightcore-style effects."
+],
+"tips": [
+"1.25×–1.5× keeps speech clear for most listeners.",
+"Use WAV output if you will edit the audio further.",
+"Untick “Keep original pitch” for a classic vinyl or tape-speed effect.",
+"Large pitch shifts sound more natural on speech than on complex music."
+],
+"faq": []
+},
+"name": "Change Audio Speed & Pitch",
+"short": "Speed up, slow down or change pitch of audio.",
+"title": "Change Audio Speed & Pitch – Speed Up or Slow Down MP3 | {brand}",
+"desc": "Speed up or slow down MP3, WAV, M4A and other audio files without changing pitch, or shift the pitch by semitones. Save as MP3 or WAV. Free, private, in your browser.",
+"h1": "Change Audio Speed & Pitch",
+"steps": [
+"Upload an audio or video file.",
+"Set speed, pitch and whether to keep the original pitch.",
+"Download the processed MP3 or WAV."
+],
+"faq": [
+{
+"q": "Can I slow down music without changing the key",
+"a": "Yes. With “Keep original pitch” ticked the tool uses time-stretching, so a song at 0.75× plays slower but stays in the same key – handy for learning an instrument."
+},
+{
+"q": "Can I change pitch but keep the length",
+"a": "Set speed to 1 and choose a pitch shift in semitones. Twelve semitones equals one octave; one or two semitones is useful for transposing songs to a singer's range."
+}
+]
+},
+"voicerec": {
+"guide": {
+"more": [
+[
+"Microphone permission",
+"The first time you press Record, the browser asks to use your microphone. Allow it for this site only. If you blocked it by mistake, click the camera or lock icon in the address bar to change the permission, then reload the page."
+],
+[
+"Formats",
+"Browsers record natively as WEBM (Opus) or, in Safari, M4A (AAC). Choosing MP3 or WAV decodes the recording and converts it in the browser with the open-source LAME encoder. MP3 at 128 kbps mono is ideal for speech and plays on every device."
+]
+],
+"intro": "Need to record a voice memo, a podcast intro, a voice-over for a video or a message for a friend? This recorder works directly in your browser with any built-in or USB microphone. A live level meter shows that sound is being picked up, you can pause and resume, and the result can be saved as a widely compatible MP3 or a lossless WAV.",
+"uses": [
+"Record voice notes, ideas and reminders.",
+"Capture voice-overs for videos, presentations and e-learning.",
+"Practise speeches, interviews and language pronunciation.",
+"Record quick audio messages to send by email or chat."
+],
+"tips": [
+"Keep the level meter mostly green; red means the sound is too loud.",
+"Turn off noise suppression when recording music.",
+"Use a headset microphone for clearer voice and less room echo.",
+"Trim silence afterwards with Audio Cutter."
+],
+"faq": []
+},
+"name": "Voice Recorder",
+"short": "Record audio from your microphone and save as MP3.",
+"title": "Online Voice Recorder – Record Audio to MP3 Free | {brand}",
+"desc": "Record your voice from any microphone and save it as MP3, WAV or WEBM. Pause and resume, live level meter, noise suppression. Free online voice recorder – no upload, no sign-up.",
+"h1": "Online Voice Recorder",
+"steps": [
+"Press Record and allow microphone access.",
+"Speak, pause if needed, then press Stop.",
+"Listen back and download as MP3, WAV or the original file."
+],
+"faq": [
+{
+"q": "Is my recording uploaded",
+"a": "No. The recording is captured by your browser and kept in memory on your device until you download it. Nothing is sent to a server."
+},
+{
+"q": "Is there a time limit",
+"a": "There is no fixed limit. Long recordings use more memory, so for sessions longer than an hour choose “Original recording” for the smallest file and to avoid conversion time."
+}
+]
+},
+"screenrec": {
+"guide": {
+"more": [
+[
+"Recording audio",
+"When you share a browser tab, Chrome and Edge can include that tab's sound; when sharing the whole screen on Windows, system audio can be included. Tick microphone narration to mix your voice into the same recording. macOS does not allow system audio capture in browsers."
+],
+[
+"Privacy",
+"The video is captured by your browser with the standard Screen Capture and MediaRecorder APIs and stored only in memory on your device until you download it. Always get consent before recording other people."
+]
+],
+"intro": "Showing is faster than explaining. Record a bug report, a software walkthrough, a lesson or a presentation straight from your browser – no extension, app or account needed. Share the whole screen, a single window or one browser tab, include the tab's sound or your microphone, and download a WEBM or MP4 video when you stop.",
+"uses": [
+"Record bug reports and feature demos for colleagues.",
+"Create tutorials, onboarding videos and lessons.",
+"Capture online meetings or webinars you are allowed to record.",
+"Record gameplay or app previews."
+],
+"tips": [
+"Share a single tab for the cleanest recording with tab audio.",
+"Close notifications and private tabs before recording the whole screen.",
+"Use the small-file setting for long recordings.",
+"Convert to MP4 or GIF afterwards if needed with this site's video tools."
+],
+"faq": []
+},
+"name": "Screen Recorder",
+"short": "Record your screen, a window or a tab with audio.",
+"title": "Online Screen Recorder – Record Screen with Audio Free | {brand}",
+"desc": "Record your entire screen, an app window or a browser tab with system audio and microphone narration. No install, no watermark, no time limit, nothing uploaded.",
+"h1": "Online Screen Recorder",
+"steps": [
+"Choose audio options and quality, then press Start recording.",
+"Pick a screen, window or tab to share.",
+"Press Stop and download your video."
+],
+"faq": [
+{
+"q": "Does it work on phones",
+"a": "Screen capture in the browser is supported on desktop Chrome, Edge, Firefox and Safari. Mobile browsers do not allow websites to record the screen; use your phone's built-in recorder instead."
+},
+{
+"q": "Is there a watermark or time limit",
+"a": "No. The video is recorded by your browser with no watermark and no artificial time limit. Long recordings simply create larger files."
+}
+]
+},
+"webcam": {
+"guide": {
+"more": [
+[
+"Camera permission and privacy",
+"The browser asks for permission before the camera turns on, and the light next to your webcam shows when it is active. Images are captured from the live video into a canvas on your device; nothing is uploaded or stored, and the camera stops when you leave the page."
+],
+[
+"Resolution",
+"The tool requests the resolution you choose, and the camera delivers the closest it supports. The status line shows the actual resolution, such as 1280×720, so you know what you will get."
+]
+],
+"intro": "Need a quick profile picture, a photo for a form or a snapshot to send to someone? Use the camera you already have – laptop webcam, USB camera or phone – right in the browser. A countdown timer gives you time to pose, filters add a finishing touch, and you can take several shots and keep the best.",
+"uses": [
+"Take profile photos for work, school and social accounts.",
+"Snap a quick photo for forms or ID verification drafts.",
+"Test that your webcam works before a video call.",
+"Capture pictures of objects, notes or whiteboards."
+],
+"tips": [
+"Face a window or lamp for even light on your face.",
+"Use the 3 or 5 second timer to avoid a shaky click.",
+"Choose Full HD if your camera supports it for sharper photos.",
+"Turn off mirroring when photographing documents."
+],
+"faq": []
+},
+"name": "Webcam Photo",
+"short": "Take photos with your webcam and download them.",
+"title": "Webcam Photo – Take a Picture with Your Webcam Online | {brand}",
+"desc": "Take photos with your webcam or phone camera in the browser. Mirror, countdown timer, filters, multiple shots and JPG or PNG download. Free, no install, nothing uploaded.",
+"h1": "Webcam Photo",
+"steps": [
+"Press Start camera and allow camera access.",
+"Choose mirror, timer and filter, then press Take photo.",
+"Download your photos as JPG or PNG."
+],
+"faq": [
+{
+"q": "Why does my photo look mirrored",
+"a": "Most people expect a mirror image when they see themselves on screen, so mirroring is on by default. Untick it if you are photographing text or documents so they read correctly."
+},
+{
+"q": "Can I use an external camera",
+"a": "Yes. If more than one camera is connected, a menu appears to choose between them, such as a laptop webcam, a USB camera or a phone's front and back cameras."
+}
+]
+},
+"exif": {
+"guide": {
+"more": [
+[
+"What the viewer reads",
+"JPEG EXIF and XMP blocks, PNG text and eXIf chunks and WEBP EXIF chunks are parsed directly from the file bytes. Fields include camera make and model, lens, exposure, aperture, ISO, focal length, flash, orientation, software, artist, copyright and GPS latitude, longitude and altitude."
+],
+[
+"GPS on the map",
+"When coordinates are present they are converted to decimal degrees with a link to OpenStreetMap, so you can see the place in one click. The map opens only if you click the link."
+]
+],
+"intro": "Every photo from a phone or camera carries hidden details: which device took it, the exposure settings, when it was taken and often exactly where. Photographers use EXIF to learn from their settings, journalists and researchers use it to check where and when an image was captured, and everyone should know what they share. This viewer reads the metadata without uploading your photos.",
+"uses": [
+"Check camera settings such as shutter speed, aperture and ISO.",
+"Verify the date and location of a photo.",
+"Find out whether a photo reveals your home location before sharing.",
+"Audit image collections and export metadata to a spreadsheet."
+],
+"tips": [
+"Original files from the camera contain the most metadata.",
+"A warning appears if GPS coordinates are found.",
+"Use Remove EXIF Data before posting photos online.",
+"Export CSV to compare settings across many photos."
+],
+"faq": []
+},
+"name": "EXIF Viewer",
+"short": "See camera, date and GPS metadata in photos.",
+"title": "EXIF Viewer – Check Photo Metadata & GPS Location Online | {brand}",
+"desc": "View EXIF metadata in JPG, PNG and WEBP photos: camera, lens, settings, date taken, software and GPS location on a map. Export to CSV. Free, private, nothing uploaded.",
+"h1": "EXIF Viewer",
+"steps": [
+"Upload one or more photos.",
+"Review camera, date, settings and GPS location.",
+"Download the metadata as CSV or switch to removal mode."
+],
+"faq": [
+{
+"q": "What is EXIF data",
+"a": "EXIF (Exchangeable Image File Format) is information that cameras and phones save inside photos: camera make and model, lens, exposure settings, date and time and often the GPS location where the photo was taken."
+},
+{
+"q": "Why does my photo show no metadata",
+"a": "Many apps and social networks remove EXIF data when you upload or send a photo. Screenshots and edited images often have little metadata too."
+}
+]
+},
+"exifrm": {
+"guide": {
+"more": [
+[
+"Lossless removal",
+"JPEG files are made of segments: EXIF, XMP, IPTC and comments are stored in separate application segments, which this tool drops while copying the image segments as they are. PNG and WEBP use named chunks, and the text, EXIF and XMP chunks are removed in the same way. Other formats are re-encoded as PNG."
+],
+[
+"Private by design",
+"It would be ironic to upload private photos to remove private data. Everything happens in your browser."
+]
+],
+"intro": "Photos from phones often contain the GPS position where they were taken, the device model, serial numbers and editing history. Posting such a photo online or sending it to a stranger can reveal where you live or work. This tool removes that metadata from a whole batch of photos in seconds, without re-encoding or losing any quality.",
+"uses": [
+"Remove home location before posting photos on marketplaces or social media.",
+"Strip camera serial numbers and personal names from published images.",
+"Clean photos before sending them to journalists or public forums.",
+"Reduce file size slightly by removing large embedded thumbnails."
+],
+"tips": [
+"Keep the colour profile for professional photos so colours stay accurate.",
+"Check the result with EXIF Viewer if you want to confirm.",
+"Remember that faces, backgrounds and landmarks can still reveal locations.",
+"Rename files too if the names contain personal information."
+],
+"faq": []
+},
+"name": "Remove EXIF Data",
+"short": "Strip GPS location and metadata from photos losslessly.",
+"title": "Remove EXIF Data – Delete Photo Metadata & GPS Online | {brand}",
+"desc": "Remove EXIF, GPS location, camera details and other metadata from JPG, PNG and WEBP photos without re-compressing. Batch, lossless, free and private in your browser.",
+"h1": "Remove EXIF Data from Photos",
+"steps": [
+"Upload one or more photos.",
+"Keep or remove the colour profile and orientation.",
+"Download clean photos with metadata removed."
+],
+"faq": [
+{
+"q": "Does removing EXIF reduce quality",
+"a": "No. For JPEG, PNG and WEBP the metadata blocks are cut out of the file and the compressed image data is copied unchanged, so quality is identical to the original."
+},
+{
+"q": "Why keep orientation",
+"a": "Phones often store photos sideways and use an EXIF flag to display them upright. Keeping only that flag means your photos do not suddenly appear rotated, while everything else, including GPS, is removed."
+}
+]
+},
+"ascii": {
+"guide": {
+"more": [
+[
+"How it works",
+"The image is scaled to the chosen number of columns, and the brightness of each pixel is mapped to a character from the selected set, from light to dark. The detailed set uses about 70 characters for smooth shading, while the blocks set uses Unicode shading blocks for a pixel-art look."
+],
+[
+"Colour ASCII",
+"With colour output each character takes the colour of its pixel, creating a striking HTML file that you can open in any browser. The plain text version is included as a second download."
+]
+],
+"intro": "ASCII art recreates an image with ordinary text characters, using dense symbols like @ and # for dark areas and light ones like dots for bright areas. It is a fun way to make banners for terminals and code, retro-style graphics and creative social posts. Upload a picture, set the width and character set, and copy the result.",
+"uses": [
+"Create banners for command-line tools, logs and code comments.",
+"Decorate README files and developer documentation.",
+"Make retro text graphics for posts, profiles and newsletters.",
+"Turn logos into text art for email signatures in monospaced fonts."
+],
+"tips": [
+"High-contrast images with simple shapes convert best.",
+"Use 60–100 characters wide for code comments and chats.",
+"Increase contrast for faces and photos.",
+"Tick invert when the art will be shown on a dark background."
+],
+"faq": []
+},
+"name": "Image to ASCII Art",
+"short": "Convert pictures to ASCII text art.",
+"title": "Image to ASCII Art Converter – Photo to Text Art Online | {brand}",
+"desc": "Turn any photo or logo into ASCII art with adjustable width, character sets, contrast, invert and colour HTML output. Copy or download as text or HTML. Free and private.",
+"h1": "Image to ASCII Art",
+"steps": [
+"Upload an image.",
+"Adjust width, characters, contrast and colour.",
+"Copy the ASCII art or download it as TXT or HTML."
+],
+"faq": [
+{
+"q": "Where can I use ASCII art",
+"a": "Plain ASCII art works in code comments, README files, terminal banners, emails in monospaced fonts, forum posts in code blocks and chat apps that support code formatting."
+},
+{
+"q": "Why does it look stretched",
+"a": "Characters are about twice as tall as they are wide, so the converter uses half as many rows as columns. View the art in a monospaced font to keep the proportions."
+}
+]
+}
+},
+"ui": {}
+}

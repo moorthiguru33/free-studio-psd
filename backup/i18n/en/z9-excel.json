@@ -1,0 +1,438 @@
+{
+  "tools": {
+    "unprotect-excel": {
+      "name": "Unprotect Excel Sheet",
+      "short": "Remove worksheet protection password from Excel sheets instantly.",
+      "title": "Unprotect Excel Sheet Free | {brand}",
+      "desc": "Remove password protection from Excel sheets instantly in your browser. Unlock protected worksheets and edit cells without passwords.",
+      "h1": "Unprotect Excel Sheet",
+      "steps": [
+        "Upload your protected Excel (.xlsx or .xlsm) file.",
+        "Our engine automatically strips worksheet protection tags.",
+        "Download your completely unlocked spreadsheet with full editing rights."
+      ],
+      "faq": [
+        {
+          "q": "Do I need the original password to unlock the sheet?",
+          "a": "No. {brand} inspects the OpenXML sheet definitions and removes the protection constraints directly, unlocking it without brute-forcing."
+        },
+        {
+          "q": "Will my formulas and cell formatting be preserved?",
+          "a": "Yes! All cell values, calculations, formulas, charts, and styling remain 100% intact."
+        },
+        {
+          "q": "Is my confidential spreadsheet uploaded to your servers?",
+          "a": "Never. All processing is executed locally in your browser. Your sensitive financial and personal data never leaves your device."
+        }
+      ]
+    },
+    "unlock-excel": {
+      "name": "Unlock Excel Workbook",
+      "short": "Remove workbook structure and window protection locks.",
+      "title": "Unlock Excel Workbook Free | {brand}",
+      "desc": "Unlock password-protected Excel workbooks online. Remove structure and window locks instantly with zero software installations.",
+      "h1": "Unlock Excel Workbook",
+      "steps": [
+        "Select your password-locked Excel workbook.",
+        "Our in-browser parser eliminates workbook protection attributes.",
+        "Save your unrestricted Excel file with full sheet management capabilities."
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between sheet lock and workbook lock?",
+          "a": "Sheet locks restrict editing individual cells, while workbook locks prevent adding, deleting, hiding, or renaming entire sheets."
+        },
+        {
+          "q": "Which formats are supported?",
+          "a": "Supports modern Excel formats including XLSX, XLSM, XLTX, and XLTM."
+        }
+      ]
+    },
+    "merge-excel": {
+      "name": "Merge Excel Files",
+      "short": "Combine multiple Excel workbooks or stack rows into one file.",
+      "title": "Merge Excel Files Online Free | {brand}",
+      "desc": "Combine multiple Excel spreadsheets into one workbook or stack data rows into a single table. Fast, client-side, and private.",
+      "h1": "Merge Excel Files Online",
+      "steps": [
+        "Select 2 or more Excel or CSV files to merge.",
+        "Choose whether to keep sheets as separate tabs or stack rows together.",
+        "Click Process to generate your consolidated Excel workbook."
+      ],
+      "faq": [
+        {
+          "q": "Can I merge different file formats like CSV and XLSX together?",
+          "a": "Yes! You can mix CSV, TSV, and XLSX files in a single merge operation."
+        },
+        {
+          "q": "Is there a limit on how many files I can combine?",
+          "a": "There are no arbitrary server limits. Because processing occurs in your browser memory, you can merge dozens of spreadsheets seamlessly."
+        }
+      ]
+    },
+    "split-excel": {
+      "name": "Split Excel Workbook",
+      "short": "Split each worksheet into individual XLSX or CSV files.",
+      "title": "Split Excel Sheets to Files | {brand}",
+      "desc": "Split each sheet in your Excel workbook into individual XLSX or CSV files. Fast in-browser processing with ZIP archive download.",
+      "h1": "Split Excel Workbook Sheets",
+      "steps": [
+        "Upload a multi-sheet Excel workbook.",
+        "Select your preferred output format (XLSX or CSV).",
+        "Download a ZIP containing each worksheet as a standalone file."
+      ],
+      "faq": [
+        {
+          "q": "How are the split files named?",
+          "a": "Each file is automatically named after its respective worksheet tab."
+        },
+        {
+          "q": "Are hidden sheets included in the split?",
+          "a": "Yes, every sheet tab inside the workbook is extracted and exported."
+        }
+      ]
+    },
+    "compare-excel": {
+      "name": "Compare Excel Files",
+      "short": "Compare two Excel workbooks cell-by-cell and generate diff report.",
+      "title": "Compare Excel Files Diff Online | {brand}",
+      "desc": "Compare two Excel files cell-by-cell and highlight changes, additions, and deletions. Download a comprehensive spreadsheet diff report.",
+      "h1": "Compare Excel Files Online",
+      "steps": [
+        "Select your original Excel file and modified Excel file.",
+        "Our engine compares cells across matching sheet positions.",
+        "Review differences and download the comprehensive diff spreadsheet."
+      ],
+      "faq": [
+        {
+          "q": "How does the diff report highlight differences?",
+          "a": "The generated diff file lists row numbers, column numbers, original values, new values, and whether cells were modified, added, or deleted."
+        }
+      ]
+    },
+    "transpose-excel": {
+      "name": "Transpose Excel Data",
+      "short": "Swap rows and columns in any Excel spreadsheet.",
+      "title": "Transpose Excel Data Online | {brand}",
+      "desc": "Swap rows and columns in your Excel spreadsheet instantly. Rotate tables, invert matrices, and download updated XLSX in seconds.",
+      "h1": "Transpose Excel Spreadsheet",
+      "steps": [
+        "Upload your Excel or CSV data table.",
+        "Click Transpose to switch rows into columns and columns into rows.",
+        "Download your transposed Excel file."
+      ],
+      "faq": [
+        {
+          "q": "What happens to blank cells during transposition?",
+          "a": "Blank cells remain empty in their transposed coordinates, preserving table structure."
+        }
+      ]
+    },
+    "dedupe-excel": {
+      "name": "Deduplicate Excel Rows",
+      "short": "Find and remove duplicate rows in Excel spreadsheets.",
+      "title": "Deduplicate Excel Rows Free | {brand}",
+      "desc": "Find and remove duplicate rows in Excel spreadsheets. Clean your data tables by all columns or unique ID columns in your browser.",
+      "h1": "Deduplicate Excel Rows",
+      "steps": [
+        "Select your Excel or CSV spreadsheet.",
+        "Choose whether to match all columns or the primary identifier column.",
+        "Download your cleaned spreadsheet with duplicates removed."
+      ],
+      "faq": [
+        {
+          "q": "Which duplicate row is kept?",
+          "a": "The first occurrence of each unique record is kept, while subsequent identical records are removed."
+        }
+      ]
+    },
+    "excel-text2cols": {
+      "name": "Excel Text to Columns",
+      "short": "Split delimited text cells into separate adjacent columns.",
+      "title": "Excel Text to Columns Free | {brand}",
+      "desc": "Split delimited text in Excel columns by comma, tab, space, or custom delimiters. Clean and restructure spreadsheet columns easily.",
+      "h1": "Excel Text to Columns Converter",
+      "steps": [
+        "Upload your spreadsheet with combined column text.",
+        "Choose your target column index and separator delimiter.",
+        "Download the transformed Excel sheet with split columns."
+      ],
+      "faq": [
+        {
+          "q": "Which delimiters are supported?",
+          "a": "Supports comma, semicolon, tab, space, pipe, and custom delimiters."
+        }
+      ]
+    },
+    "flatten-excel": {
+      "name": "Unpivot Excel Crosstab",
+      "short": "Flatten 2D crosstab matrix into normalized database rows.",
+      "title": "Unpivot Excel Flatten Crosstab | {brand}",
+      "desc": "Reverse pivot wide crosstab tables into normalized relational rows. Transform matrix data into clean database columns in your browser.",
+      "h1": "Unpivot Excel / Reverse Pivot",
+      "steps": [
+        "Upload your wide matrix or crosstab spreadsheet.",
+        "Click Process to unpivot into 3 normalized columns.",
+        "Download your structured relational dataset."
+      ],
+      "faq": [
+        {
+          "q": "Why is unpivoting important for data analysis?",
+          "a": "Wide crosstab matrices are great for human viewing, but databases, SQL, and BI tools require normalized vertical tabular rows."
+        }
+      ]
+    },
+    "compress-excel": {
+      "name": "Compress Excel File",
+      "short": "Reduce XLSX file size by stripping cache and optimizing compression.",
+      "title": "Compress Excel File Online | {brand}",
+      "desc": "Reduce XLSX file size by stripping cache and optimizing XML compression. Shrink large Excel spreadsheets without losing formulas or data.",
+      "h1": "Compress Excel File Online",
+      "steps": [
+        "Select your large Excel (.xlsx) file.",
+        "Our engine clears obsolete calculation chains and recompresses XML streams.",
+        "Download your optimized, lightweight Excel file."
+      ],
+      "faq": [
+        {
+          "q": "Will compression damage my formulas or charts?",
+          "a": "No! Only redundant internal cache XML is stripped, which Excel regenerates on-the-fly upon opening."
+        }
+      ]
+    },
+    "excel2md": {
+      "name": "Excel to Markdown",
+      "short": "Convert spreadsheet data into GitHub-flavored Markdown tables.",
+      "title": "Excel to Markdown Table Free | {brand}",
+      "desc": "Convert Excel sheets and CSV spreadsheets into clean GitHub-flavored Markdown tables. Copy formatted markdown tables with one click.",
+      "h1": "Excel to Markdown Table Converter",
+      "steps": [
+        "Upload your Excel or CSV spreadsheet.",
+        "Our converter formats rows into clean Markdown pipes and alignments.",
+        "Copy the Markdown table or download the .md document."
+      ],
+      "faq": [
+        {
+          "q": "Can I paste this Markdown into GitHub, Notion, or Reddit?",
+          "a": "Yes! The output follows standard CommonMark / GFM table specifications."
+        }
+      ]
+    },
+    "excel2latex": {
+      "name": "Excel to LaTeX",
+      "short": "Convert Excel tables into LaTeX tabular code for papers.",
+      "title": "Excel to LaTeX Table Converter | {brand}",
+      "desc": "Convert Excel spreadsheets into clean LaTeX tabular code. Automatically escape special characters and format tables for academic papers.",
+      "h1": "Excel to LaTeX Table Converter",
+      "steps": [
+        "Upload your Excel spreadsheet.",
+        "Our converter escapes LaTeX reserved characters and structures tabular code.",
+        "Copy or download your complete LaTeX table block."
+      ],
+      "faq": [
+        {
+          "q": "Does it escape special characters like % and &?",
+          "a": "Yes! All LaTeX reserved symbols like $, %, &, _, and # are automatically escaped."
+        }
+      ]
+    },
+    "excel2xml": {
+      "name": "Excel to XML",
+      "short": "Convert spreadsheet rows into structured XML documents.",
+      "title": "Excel to XML Converter Online | {brand}",
+      "desc": "Convert Excel spreadsheets and rows into well-structured XML documents. Clean tags, valid attributes, and instant browser download.",
+      "h1": "Excel to XML Converter",
+      "steps": [
+        "Select your Excel or CSV file.",
+        "Rows are converted into structured XML elements with sanitized tags.",
+        "Download your validated XML file."
+      ],
+      "faq": [
+        {
+          "q": "How are column headers converted into XML tags?",
+          "a": "Header names are converted into valid XML element names by replacing spaces with underscores."
+        }
+      ]
+    },
+    "excel2yaml": {
+      "name": "Excel to YAML",
+      "short": "Convert spreadsheet rows into hierarchical YAML data.",
+      "title": "Excel to YAML Converter Free | {brand}",
+      "desc": "Convert Excel tables and rows into clean YAML structure. Perfect for developer configs, databases, and structured data serialization.",
+      "h1": "Excel to YAML Converter",
+      "steps": [
+        "Upload your Excel sheet.",
+        "Our engine serializes rows into YAML key-value pairs.",
+        "Download your clean YAML document."
+      ],
+      "faq": [
+        {
+          "q": "Is the YAML indentation valid?",
+          "a": "Yes, standard two-space indentation is used throughout."
+        }
+      ]
+    },
+    "excel2html": {
+      "name": "Excel to HTML",
+      "short": "Convert Excel tables into responsive HTML table markup.",
+      "title": "Excel to HTML Table Converter | {brand}",
+      "desc": "Convert Excel sheets into responsive HTML tables. Clean markup with table headers, rows, and styling ready for websites and emails.",
+      "h1": "Excel to HTML Table Converter",
+      "steps": [
+        "Upload your Excel file.",
+        "Preview the rendered HTML table.",
+        "Copy the HTML code or download the file."
+      ],
+      "faq": [
+        {
+          "q": "Can I use the HTML code in email newsletters?",
+          "a": "Yes! The output uses clean standard HTML tables compatible with email clients and browsers."
+        }
+      ]
+    },
+    "xls2xlsx": {
+      "name": "XLS to XLSX",
+      "short": "Convert legacy Excel 97-2003 binary XLS files to XLSX.",
+      "title": "XLS to XLSX Converter Free | {brand}",
+      "desc": "Convert legacy Excel 97-2003 binary XLS files to modern OpenXML XLSX format. Fast, private, and 100% free client-side conversion.",
+      "h1": "Convert XLS to XLSX",
+      "steps": [
+        "Upload your older .xls workbook.",
+        "Our parser reads binary records and rebuilds modern OpenXML.",
+        "Download your modern, universal .xlsx file."
+      ],
+      "faq": [
+        {
+          "q": "Why upgrade XLS to XLSX?",
+          "a": "XLS is limited to 65,536 rows and lacks modern Excel features, while XLSX supports over 1,000,000 rows and is universally supported."
+        }
+      ]
+    },
+    "xlsb2xlsx": {
+      "name": "XLSB to XLSX",
+      "short": "Convert binary Excel XLSB workbooks to standard XLSX.",
+      "title": "XLSB to XLSX Converter Free | {brand}",
+      "desc": "Convert binary XLSB workbooks to standard XLSX format. Open and edit your spreadsheets in any modern office suite or cloud app.",
+      "h1": "Convert XLSB to XLSX",
+      "steps": [
+        "Select your binary .xlsb file.",
+        "We unpack binary sheets and convert them into standard XLSX.",
+        "Download your standard XLSX workbook."
+      ],
+      "faq": [
+        {
+          "q": "Can Google Sheets open the converted XLSX?",
+          "a": "Yes, standard XLSX files open seamlessly in Google Sheets, Apple Numbers, and LibreOffice."
+        }
+      ]
+    },
+    "xlsm2xlsx": {
+      "name": "XLSM to XLSX",
+      "short": "Convert macro-enabled XLSM files to clean macro-free XLSX.",
+      "title": "XLSM to XLSX Converter Free | {brand}",
+      "desc": "Remove VBA macros from XLSM files and convert to clean, safe XLSX spreadsheets. Eliminate security warnings and macro risks.",
+      "h1": "Convert XLSM to XLSX",
+      "steps": [
+        "Upload your macro-enabled .xlsm workbook.",
+        "Our engine strips embedded VBA binaries while preserving data.",
+        "Download your safe, macro-free .xlsx file."
+      ],
+      "faq": [
+        {
+          "q": "Why convert XLSM to XLSX?",
+          "a": "Many corporate firewalls block XLSM files due to macro security risks. Converting to XLSX allows safe sharing."
+        }
+      ]
+    },
+    "excel-meta": {
+      "name": "Remove Excel Metadata",
+      "short": "Strip author names, company info, and edit history from Excel.",
+      "title": "Remove Excel Metadata Free | {brand}",
+      "desc": "Sanitize Excel files by stripping author names, company, edit duration, and revision history. Protect your spreadsheet privacy.",
+      "h1": "Remove Excel Metadata",
+      "steps": [
+        "Select your Excel workbook.",
+        "Our sanitizer clears metadata properties from core and app XML.",
+        "Download your sanitized privacy-safe spreadsheet."
+      ],
+      "faq": [
+        {
+          "q": "What metadata is removed?",
+          "a": "Author names, company names, last modified timestamps, manager names, and revision numbers."
+        }
+      ]
+    },
+    "vlookup-gen": {
+      "name": "Excel VLOOKUP Builder",
+      "short": "Interactively build VLOOKUP and XLOOKUP formulas without errors.",
+      "title": "Excel VLOOKUP & XLOOKUP Builder | {brand}",
+      "desc": "Build perfect VLOOKUP and XLOOKUP formulas interactively. Visual helper generates syntax and explains arguments with zero errors.",
+      "h1": "Excel VLOOKUP & XLOOKUP Builder",
+      "steps": [
+        "Choose between classic VLOOKUP or modern XLOOKUP.",
+        "Input your search cell, lookup table range, and return column index.",
+        "Copy your verified formula directly into Excel or Google Sheets."
+      ],
+      "faq": [
+        {
+          "q": "Why is XLOOKUP preferred over VLOOKUP?",
+          "a": "XLOOKUP defaults to exact matches, looks up to the left and right, and handles insertions without breaking formula ranges."
+        }
+      ]
+    },
+    "indexmatch-gen": {
+      "name": "Excel INDEX MATCH Builder",
+      "short": "Generate dynamic INDEX and MATCH formulas visually.",
+      "title": "Excel INDEX MATCH Builder Free | {brand}",
+      "desc": "Generate dynamic INDEX and MATCH formulas easily. Two-way lookup builder creates robust spreadsheet search formulas step by step.",
+      "h1": "Excel INDEX MATCH Builder",
+      "steps": [
+        "Enter your return column and search column.",
+        "Input the lookup cell you want to search for.",
+        "Copy the generated formula ready to paste."
+      ],
+      "faq": [
+        {
+          "q": "Why use INDEX MATCH instead of VLOOKUP?",
+          "a": "INDEX MATCH is more efficient on large datasets and never breaks when new columns are inserted."
+        }
+      ]
+    },
+    "formula-explainer": {
+      "name": "Excel Formula Explainer",
+      "short": "Understand any complex Excel formula with plain-English breakdown.",
+      "title": "Excel Formula Explainer Free | {brand}",
+      "desc": "Paste any complex Excel formula to get an instant plain-English breakdown. Understand nested IF, SUMIFS, and matrix formulas.",
+      "h1": "Excel Formula Explainer",
+      "steps": [
+        "Paste any formula into the input field.",
+        "Read the step-by-step breakdown of functions and logic.",
+        "Debug and learn how each formula component works."
+      ],
+      "faq": [
+        {
+          "q": "Which formulas does it explain?",
+          "a": "Explains VLOOKUP, XLOOKUP, INDEX, MATCH, SUMIFS, COUNTIFS, IF, ARRAYFORMULA, and more."
+        }
+      ]
+    },
+    "mock-excel": {
+      "name": "Excel Mock Data Generator",
+      "short": "Generate realistic dummy test spreadsheets in XLSX or CSV.",
+      "title": "Excel Mock Data Generator Free | {brand}",
+      "desc": "Generate realistic sample spreadsheets with names, emails, salaries, and dates for testing. Download instant mock XLSX or CSV data.",
+      "h1": "Excel Mock Data Generator",
+      "steps": [
+        "Choose the number of rows (50 to 1,000).",
+        "Select your output format (Excel or CSV).",
+        "Download your populated mock dataset instantly."
+      ],
+      "faq": [
+        {
+          "q": "What fields are included in the mock data?",
+          "a": "Includes IDs, First Names, Last Names, Business Emails, Departments, Countries, Salaries, and Hire Dates."
+        }
+      ]
+    }
+  }
+}

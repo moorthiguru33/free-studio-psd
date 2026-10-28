@@ -1,0 +1,283 @@
+{
+  "tools": {
+    "pages2pdf": {
+      "name": "Pages to PDF",
+      "short": "Convert Apple Pages (.pages) documents to PDF online free.",
+      "title": "Pages to PDF Converter Free | {brand}",
+      "desc": "Convert Apple Pages (.pages) documents to PDF online free. Extract high-fidelity vector PDF from Mac documents without needing macOS.",
+      "h1": "Convert Apple Pages to PDF",
+      "steps": ["Upload your Apple Pages (.pages) file.", "Our engine unpacks vector document structures.", "Download your universal PDF document."],
+      "faq": [{"q": "Can I open .pages files on Windows?", "a": "Yes! {brand} converts Apple Pages documents directly to standard PDF without needing a Mac or iCloud account."}]
+    },
+    "numbers2pdf": {
+      "name": "Numbers to PDF",
+      "short": "Convert Apple Numbers spreadsheets to PDF online.",
+      "title": "Numbers to PDF Converter Free | {brand}",
+      "desc": "Convert Apple Numbers spreadsheets to PDF online. Extract vector spreadsheets and tables from Mac Numbers files in your browser.",
+      "h1": "Convert Apple Numbers to PDF",
+      "steps": ["Select your Apple Numbers (.numbers) spreadsheet.", "Our in-browser parser renders tables and charts.", "Download your multi-page PDF spreadsheet."],
+      "faq": [{"q": "Will table formatting be preserved?", "a": "Yes! All fonts, borders, charts, and table alignments are preserved in the vector PDF."}]
+    },
+    "numbers2xlsx": {
+      "name": "Numbers to Excel",
+      "short": "Convert Apple Numbers spreadsheets to Microsoft Excel XLSX.",
+      "title": "Numbers to Excel Converter | {brand}",
+      "desc": "Convert Apple Numbers (.numbers) spreadsheets to Microsoft Excel (.xlsx). Open and edit Mac spreadsheets in Excel without Apple hardware.",
+      "h1": "Convert Apple Numbers to Excel",
+      "steps": ["Upload your Apple Numbers spreadsheet.", "Spreadsheet data is converted into OpenXML format.", "Download your editable Excel (.xlsx) file."],
+      "faq": [{"q": "Can Microsoft Excel open Apple Numbers files directly?", "a": "No, Excel cannot natively open .numbers files. Converting to XLSX allows full editing in Excel and Google Sheets."}]
+    },
+    "key2pdf": {
+      "name": "Keynote to PDF",
+      "short": "Convert Apple Keynote presentations to PDF slides.",
+      "title": "Keynote to PDF Converter Free | {brand}",
+      "desc": "Convert Apple Keynote (.key) presentations to PDF slides online. Fast, private in-browser conversion with zero software installation.",
+      "h1": "Convert Apple Keynote to PDF",
+      "steps": ["Select your Apple Keynote (.key) presentation.", "Slide decks are converted into high-resolution pages.", "Download your PDF slide presentation."],
+      "faq": [{"q": "Are presentation animations included?", "a": "PDFs capture static slide states with full graphic fidelity, perfect for printing and sharing."}]
+    },
+    "eps2png": {
+      "name": "EPS to PNG",
+      "short": "Convert PostScript EPS vector files to transparent PNG.",
+      "title": "EPS to PNG Converter Online | {brand}",
+      "desc": "Convert PostScript EPS vector files to high-resolution transparent PNG images online free. Fast client-side rendering with no uploads.",
+      "h1": "Convert EPS to PNG Online",
+      "steps": ["Upload your EPS artwork or logo.", "Choose resolution or scale settings.", "Download your high-resolution PNG image."],
+      "faq": [{"q": "Does this support transparent backgrounds?", "a": "Yes, EPS vectors render cleanly with full alpha transparency on PNG."}]
+    },
+    "eps2pdf": {
+      "name": "EPS to PDF",
+      "short": "Convert PostScript EPS vector illustrations to PDF.",
+      "title": "EPS to PDF Converter Online | {brand}",
+      "desc": "Convert EPS vector graphics and PostScript illustrations into universal PDF documents. Crisp lines, sharp text, and fast processing.",
+      "h1": "Convert EPS to PDF Online",
+      "steps": ["Upload your EPS vector file.", "PostScript drawing commands are compiled into PDF.", "Download your crisp vector PDF document."],
+      "faq": [{"q": "Why convert EPS to PDF?", "a": "PDF is supported on all modern mobile phones and browsers, whereas EPS requires specialized graphic design software."}]
+    },
+    "eps2svg": {
+      "name": "EPS to SVG",
+      "short": "Convert PostScript EPS files to scalable SVG vector graphics.",
+      "title": "EPS to SVG Vector Converter | {brand}",
+      "desc": "Convert PostScript EPS files to scalable SVG vector graphics. Clean vector paths ready for web design, logos, and digital cutting.",
+      "h1": "Convert EPS to SVG Vector",
+      "steps": ["Select your EPS vector graphic.", "PostScript paths are translated into SVG elements.", "Download your scalable SVG vector."],
+      "faq": [{"q": "Can SVG be edited in Illustrator or Figma?", "a": "Yes! SVG is an open vector standard supported by Figma, Illustrator, Inkscape, and web browsers."}]
+    },
+    "ai2svg": {
+      "name": "AI to SVG",
+      "short": "Convert Adobe Illustrator (.ai) vector graphics to SVG.",
+      "title": "AI to SVG Converter Free | {brand}",
+      "desc": "Convert Adobe Illustrator (.ai) vector artwork to SVG online free. Scalable, lightweight vector graphics ready for websites and apps.",
+      "h1": "Convert Adobe Illustrator AI to SVG",
+      "steps": ["Upload your Adobe Illustrator (.ai) file.", "Our parser extracts vector bezier paths and shapes.", "Download your lightweight, scalable SVG."],
+      "faq": [{"q": "Do I need Adobe Illustrator installed?", "a": "No! {brand} converts Illustrator vector files directly in your web browser."}]
+    },
+    "ico2png": {
+      "name": "ICO to PNG",
+      "short": "Extract high-resolution PNG images from Windows ICO files.",
+      "title": "ICO to PNG Converter Free | {brand}",
+      "desc": "Convert Windows ICO icons to high-resolution PNG images. Extract all embedded icon sizes from 16x16 to 256x256 in your browser.",
+      "h1": "Convert ICO to PNG Online",
+      "steps": ["Select your Windows icon (.ico) file.", "Choose the largest resolution or export all sizes to ZIP.", "Download your crisp PNG icon."],
+      "faq": [{"q": "Which resolutions are stored inside an ICO?", "a": "Standard Windows ICO files typically store 16x16, 32x32, 48x48, 64x64, 128x128, and 256x256 pixel images."}]
+    },
+    "psd2pdf": {
+      "name": "PSD to PDF",
+      "short": "Convert Photoshop PSD designs into PDF documents.",
+      "title": "PSD to PDF Converter Online | {brand}",
+      "desc": "Convert Adobe Photoshop PSD design files into multi-page or single-page PDF documents. View and share Photoshop designs easily.",
+      "h1": "Convert PSD to PDF Online",
+      "steps": ["Upload your Photoshop (.psd or .psb) file.", "Composite raster data is compiled into PDF format.", "Download your universal PDF document."],
+      "faq": [{"q": "Can people view the PDF without Photoshop?", "a": "Yes! PDFs can be opened on any phone, tablet, or computer without Adobe software."}]
+    },
+    "psd2webp": {
+      "name": "PSD to WebP",
+      "short": "Convert Photoshop (.psd) files to modern lightweight WebP.",
+      "title": "PSD to WebP Converter Free | {brand}",
+      "desc": "Convert Photoshop (.psd) files to lightweight modern WebP images. Shrink design asset sizes for fast-loading websites and apps.",
+      "h1": "Convert PSD to WebP Online",
+      "steps": ["Upload your PSD graphic.", "Adjust WebP compression quality slider.", "Download your optimized WebP photo."],
+      "faq": [{"q": "Why convert PSD to WebP?", "a": "WebP images are up to 80% smaller than PNG/JPG while retaining excellent visual quality and transparency."}]
+    },
+    "mp32m4r": {
+      "name": "MP3 to M4R",
+      "short": "Convert MP3 audio to iPhone M4R ringtones (max 40s).",
+      "title": "MP3 to M4R iPhone Ringtone | {brand}",
+      "desc": "Convert MP3 audio into iPhone M4R ringtones online. Trim up to 40 seconds, add fade-in and fade-out, and sync directly to iOS devices.",
+      "h1": "Convert MP3 to iPhone Ringtone (M4R)",
+      "steps": ["Upload any MP3 or audio song.", "Set start position and duration (up to 40 seconds).", "Download your ready-to-use .m4r ringtone."],
+      "faq": [{"q": "How do I install custom M4R ringtones on iPhone?", "a": "Connect iPhone to Mac Finder or Windows iTunes, drag the .m4r file into your device, and select it in Settings > Sounds > Ringtone."}]
+    },
+    "m4r2mp3": {
+      "name": "M4R to MP3",
+      "short": "Convert Apple iPhone M4R ringtones to universal MP3 audio.",
+      "title": "M4R to MP3 Converter Free | {brand}",
+      "desc": "Convert Apple iPhone M4R ringtones to standard MP3 audio. Play and edit ringtones on Android, PC, Mac, and any audio player.",
+      "h1": "Convert M4R to MP3 Online",
+      "steps": ["Upload your iPhone ringtone (.m4r) file.", "Our WebAudio engine decodes the audio track.", "Download your standard MP3 file."],
+      "faq": [{"q": "Can Android phones play M4R ringtones?", "a": "Most Android players cannot play M4R directly; converting to MP3 allows universal playback on all devices."}]
+    },
+    "amr2mp3": {
+      "name": "AMR to MP3",
+      "short": "Convert mobile AMR voice notes and audio to MP3.",
+      "title": "AMR to MP3 Converter Online | {brand}",
+      "desc": "Convert mobile AMR voice notes and audio recordings to universal MP3 format. High-quality client-side audio decoding and encoding.",
+      "h1": "Convert AMR to MP3 Online",
+      "steps": ["Select your voice recording (.amr) file.", "Our audio DSP decodes the voice stream to PCM.", "Download your clean, audible MP3 file."],
+      "faq": [{"q": "What is the AMR audio format?", "a": "Adaptive Multi-Rate (AMR) is a speech compression format widely used in mobile phones and MMS messaging."}]
+    },
+    "ac32mp3": {
+      "name": "AC3 to MP3",
+      "short": "Convert Dolby Digital AC3 surround sound audio to MP3.",
+      "title": "AC3 to MP3 Converter Free | {brand}",
+      "desc": "Convert Dolby Digital AC3 surround sound audio tracks into standard MP3 files. Universal playback across all media players.",
+      "h1": "Convert AC3 to MP3 Online",
+      "steps": ["Upload your AC3 audio soundtrack.", "Dolby streams are downmixed and encoded to stereo MP3.", "Download your universal MP3 audio."],
+      "faq": [{"q": "Why convert AC3 to MP3?", "a": "Many portable music players and car stereos do not support multichannel AC3 audio; MP3 works everywhere."}]
+    },
+    "caf2mp3": {
+      "name": "CAF to MP3",
+      "short": "Convert Apple Core Audio (.caf) recordings to MP3.",
+      "title": "CAF to MP3 Converter Free | {brand}",
+      "desc": "Convert Apple Core Audio (.caf) recordings and GarageBand files to MP3. Play Apple voice memos anywhere with zero quality loss.",
+      "h1": "Convert CAF to MP3 Online",
+      "steps": ["Upload your Apple .caf voice memo or soundtrack.", "Select your preferred MP3 bitrate.", "Download your universal MP3 file."],
+      "faq": [{"q": "Where does the CAF format come from?", "a": "Core Audio Format (CAF) is Apple's high-capacity container used in iOS Voice Memos, GarageBand, and Logic Pro."}]
+    },
+    "webm2mp3": {
+      "name": "WebM to MP3",
+      "short": "Extract high-quality MP3 audio from WebM videos.",
+      "title": "WebM to MP3 Converter Free | {brand}",
+      "desc": "Extract high-quality MP3 audio from WebM video and audio files online. Fast, private in-browser conversion with custom bitrates.",
+      "h1": "Convert WebM to MP3 Online",
+      "steps": ["Upload your WebM video or audio track.", "Audio is demuxed and encoded into MP3.", "Download your standalone MP3 audio track."],
+      "faq": [{"q": "Can I extract audio from browser screen recordings in WebM?", "a": "Yes! WebM screen recordings and camera clips convert to MP3 in seconds."}]
+    },
+    "vob2mp4": {
+      "name": "VOB to MP4",
+      "short": "Convert DVD Video Object (.vob) files to MP4 video.",
+      "title": "VOB to MP4 Converter Free | {brand}",
+      "desc": "Convert DVD Video Object (.vob) files to modern universal MP4 video. Fast, client-side transcoding with H.264 video compression.",
+      "h1": "Convert VOB to MP4 Online",
+      "steps": ["Upload your DVD video (.vob) file.", "Our engine transcodes MPEG-2 video into H.264 MP4.", "Download your universal MP4 video file."],
+      "faq": [{"q": "Can I play the converted MP4 on my phone or TV?", "a": "Yes! H.264 MP4 is the universal video standard supported by all smartphones, tablets, TVs, and web browsers."}]
+    },
+    "mpg2mp4": {
+      "name": "MPG to MP4",
+      "short": "Convert legacy MPEG-1 and MPEG-2 (.mpg) videos to MP4.",
+      "title": "MPG to MP4 Converter Online | {brand}",
+      "desc": "Convert legacy MPEG-1 and MPEG-2 (.mpg, .mpeg) videos to modern MP4. Universal video playback for mobile phones, tablets, and smart TVs.",
+      "h1": "Convert MPG to MP4 Online",
+      "steps": ["Select your .mpg or .mpeg video file.", "Our WebCodecs pipeline converts video to MP4.", "Download your modern MP4 video."],
+      "faq": [{"q": "Why convert MPG to MP4?", "a": "Older MPG/MPEG files are often incompatible with modern web players and mobile browsers, while MP4 plays everywhere."}]
+    },
+    "m4v2mp4": {
+      "name": "M4V to MP4",
+      "short": "Convert Apple iTunes M4V videos to universal MP4 format.",
+      "title": "M4V to MP4 Converter Free | {brand}",
+      "desc": "Convert Apple iTunes M4V video files to universal MP4 format. Play Apple videos seamlessly on Windows, Android, and web browsers.",
+      "h1": "Convert M4V to MP4 Online",
+      "steps": ["Upload your Apple .m4v video.", "The video container is re-muxed to standard MP4.", "Download your compatible MP4 video."],
+      "faq": [{"q": "What is the difference between M4V and MP4?", "a": "M4V is Apple's variation of MP4 with support for AC3 audio and chapter marks; converting to standard MP4 ensures non-Apple compatibility."}]
+    },
+    "gz2zip": {
+      "name": "GZ to ZIP",
+      "short": "Convert Gzip (.gz) compressed files to standard ZIP.",
+      "title": "GZ to ZIP Converter Free | {brand}",
+      "desc": "Convert Gzip (.gz) compressed files to standard ZIP archives. Unpack and convert Unix gzip files for easy extraction on Windows and Mac.",
+      "h1": "Convert GZ to ZIP Online",
+      "steps": ["Upload your .gz or .gzip compressed file.", "Our WebAssembly engine decompresses the file and packages it as ZIP.", "Download your standard .zip archive."],
+      "faq": [{"q": "Can Windows File Explorer open GZ files directly?", "a": "Windows cannot open GZ archives natively without third-party software; converting to ZIP allows instant extraction."}]
+    },
+    "bz22zip": {
+      "name": "BZ2 to ZIP",
+      "short": "Convert Bzip2 (.bz2) archives into standard ZIP format.",
+      "title": "BZ2 to ZIP Converter Free | {brand}",
+      "desc": "Convert Bzip2 (.bz2) archives into standard ZIP format online. Fast, client-side decompression using high-performance WebAssembly.",
+      "h1": "Convert BZ2 to ZIP Online",
+      "steps": ["Select your .bz2 compressed archive.", "Bzip2 blocks are decoded and repackaged into ZIP.", "Download your standard ZIP archive."],
+      "faq": [{"q": "Are my archive files kept private?", "a": "Yes! All decompression happens in your browser memory; no files are uploaded to any server."}]
+    },
+    "xz2zip": {
+      "name": "XZ to ZIP",
+      "short": "Convert XZ compressed archives into universal ZIP files.",
+      "title": "XZ to ZIP Converter Online | {brand}",
+      "desc": "Convert XZ compressed archives into universal ZIP files. Extract Linux tar.xz and xz packages easily without command line tools.",
+      "h1": "Convert XZ to ZIP Online",
+      "steps": ["Upload your .xz file.", "Our engine decompresses LZMA2 streams into standard ZIP.", "Download your extracted ZIP archive."],
+      "faq": [{"q": "What is XZ compression?", "a": "XZ is a high-ratio compression algorithm commonly used for Linux software packages and kernels."}]
+    },
+    "iso2zip": {
+      "name": "ISO to ZIP",
+      "short": "Extract CD and DVD disk image ISO files into a ZIP archive.",
+      "title": "ISO to ZIP Extractor Free | {brand}",
+      "desc": "Extract CD, DVD, and disk image ISO files into a convenient ZIP archive. Browse and unpack disk images directly in your web browser.",
+      "h1": "Convert ISO to ZIP Online",
+      "steps": ["Select your disk image (.iso) file.", "Our ISO9660 / UDF parser unpacks the directory tree.", "Download your files inside a ZIP archive."],
+      "faq": [{"q": "Can I unpack bootable ISO images?", "a": "Yes! You can extract all folders, software, and documents stored inside standard ISO images."}]
+    },
+    "stl2obj": {
+      "name": "STL to OBJ",
+      "short": "Convert 3D STL meshes into Wavefront OBJ 3D models.",
+      "title": "STL to OBJ Converter Free | {brand}",
+      "desc": "Convert 3D STL meshes (ASCII and Binary) into Wavefront OBJ 3D models online. Fast in-browser 3D format transcoding for 3D printing.",
+      "h1": "Convert STL to OBJ 3D Model",
+      "steps": ["Upload your 3D .stl mesh file.", "Triangles and normals are restructured into OBJ vertices and faces.", "Download your Wavefront .obj file."],
+      "faq": [{"q": "Which 3D software supports OBJ files?", "a": "OBJ is universally supported by Blender, Maya, 3ds Max, ZBrush, Unity, and Unreal Engine."}]
+    },
+    "obj2stl": {
+      "name": "OBJ to STL",
+      "short": "Convert Wavefront OBJ 3D models to binary STL for 3D printing.",
+      "title": "OBJ to STL Converter Free | {brand}",
+      "desc": "Convert Wavefront OBJ 3D models to binary STL files for 3D printing and CAD slicing. Fast, private client-side 3D conversion.",
+      "h1": "Convert OBJ to STL Online",
+      "steps": ["Select your 3D .obj model.", "Polygons are triangulated into binary STL format.", "Download your STL file ready for 3D slicers."],
+      "faq": [{"q": "Can Cura and PrusaSlicer open the converted STL?", "a": "Yes! Standard binary STL files are 100% compatible with all 3D printer slicers."}]
+    },
+    "stlviewer": {
+      "name": "3D STL Viewer",
+      "short": "Inspect 3D STL and OBJ models directly in your browser.",
+      "title": "Online 3D STL Viewer Free | {brand}",
+      "desc": "View and inspect 3D STL and OBJ models directly in your browser. Measure bounding dimensions, inspect triangles, and check 3D prints.",
+      "h1": "Online 3D STL & OBJ Viewer",
+      "steps": ["Upload your 3D model (.stl or .obj).", "Inspect triangle count and model dimensions (X, Y, Z mm).", "Verify 3D print readiness."],
+      "faq": [{"q": "Does this require WebGL or 3D graphics cards?", "a": "Our viewer runs in modern browsers with standard hardware acceleration."}]
+    },
+    "docx2txt": {
+      "name": "DOCX to TXT",
+      "short": "Extract clean plain text from Word DOCX documents.",
+      "title": "DOCX to TXT Converter Free | {brand}",
+      "desc": "Extract clean, unformatted plain text from Microsoft Word DOCX documents online. Fast, private in-browser document text extraction.",
+      "h1": "Convert DOCX to Plain Text (TXT)",
+      "steps": ["Upload your Word (.docx) document.", "Paragraphs and sentences are extracted cleanly.", "Download your plain .txt document."],
+      "faq": [{"q": "Are headings and paragraph breaks preserved?", "a": "Yes! Standard line breaks and paragraph spacing are preserved in the text output."}]
+    },
+    "epub2txt": {
+      "name": "EPUB to TXT",
+      "short": "Extract plain text from EPUB ebooks without formatting.",
+      "title": "EPUB to TXT Converter Free | {brand}",
+      "desc": "Extract plain text from EPUB ebooks online. Read book content on any device or screen reader without needing dedicated ebook software.",
+      "h1": "Convert EPUB to Plain Text (TXT)",
+      "steps": ["Select your .epub ebook.", "Chapters and XHTML text are concatenated.", "Download your plain .txt book file."],
+      "faq": [{"q": "Can I convert the text to speech or read it on notepad?", "a": "Yes! Plain text files open in any notepad, text editor, or text-to-speech engine."}]
+    },
+    "mobi2txt": {
+      "name": "MOBI to TXT",
+      "short": "Extract plain text from Kindle MOBI and AZW ebooks.",
+      "title": "MOBI to TXT Converter Free | {brand}",
+      "desc": "Extract plain text from Kindle MOBI and AZW ebooks online. Convert Kindle books to lightweight text files for easy searching and reading.",
+      "h1": "Convert MOBI to Plain Text (TXT)",
+      "steps": ["Upload your Kindle (.mobi or .azw) ebook.", "PalmDOC text streams are extracted cleanly.", "Download your plain .txt file."],
+      "faq": [{"q": "Does this work on AZW3 files?", "a": "Yes! Both MOBI and AZW ebook formats are supported."}]
+    },
+    "djvu2pdf": {
+      "name": "DjVu to PDF",
+      "short": "Convert scanned DjVu books and documents into PDF.",
+      "title": "DjVu to PDF Converter Free | {brand}",
+      "desc": "Convert scanned DjVu books and documents into standard PDF format online. Universal reading on mobile phones, tablets, and e-readers.",
+      "h1": "Convert DjVu to PDF Online",
+      "steps": ["Upload your scanned DjVu document.", "Page chunks are parsed and compiled into PDF.", "Download your universal PDF document."],
+      "faq": [{"q": "Why convert DjVu to PDF?", "a": "DjVu was popular for digitized library books, but modern phones and tablets lack native DjVu readers. PDF is universal."}]
+    }
+  }
+}

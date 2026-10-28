@@ -1,0 +1,528 @@
+{
+"tools": {
+"pdf2word": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert a PDF to a Word document for free?",
+"a": "Drop the PDF on this page, choose flowing text (easy to edit) or exact layout, and press Convert. You get a .docx file you can open in Word, Google Docs or LibreOffice. There is no sign-up, watermark or page limit, and scanned PDFs are handled by the built-in free OCR."
+},
+{
+"q": "How do I convert PDF to Word without losing formatting?",
+"a": "Choose the exact-layout mode: it positions text boxes where they were on the page, so columns, headings and spacing stay close to the original. Flowing mode rebuilds the text as normal paragraphs, which edits more easily but may change the layout. Complex designs can need small fixes in Word either way."
+}
+]
+}
+},
+"compress": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I compress a PDF file size?",
+"a": "Drop the PDF, choose a compression level – each shows an estimated result size – and download the smaller file. Images inside the PDF are re-encoded at a lower resolution while text and vector graphics stay sharp."
+},
+{
+"q": "How can I compress a PDF to a smaller size, such as under 1 MB?",
+"a": "Use the strongest level first. If the file is still too large, it is usually because of many high-resolution scanned pages; splitting the PDF or converting the scan to grayscale reduces it further. Text-only PDFs are already small and shrink less."
+}
+],
+"desc": "Compress PDF file size free in your browser. Three levels with size estimates, text stays sharp, no upload, no sign-up, no hourly limits. Works offline."
+}
+},
+"merge": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I merge PDF files into one?",
+"a": "Drop all your PDFs (and JPG or PNG images if you like) on this page, drag the cards into the order you want, and press Merge. You download a single PDF that contains every page, optionally with a bookmark for each file."
+},
+{
+"q": "Can I merge PDFs for free without signing up?",
+"a": "Yes. The PDF merger is free with no account, no watermark and no daily limit, because the files are combined on your own device rather than on a server."
+}
+],
+"desc": "Merge PDF files and JPG/PNG images into one PDF free in your browser. Drag to reorder, bookmarks per file, blank-page separators. No upload, no sign-up."
+}
+},
+"jpg2pdf": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert JPG to PDF for free?",
+"a": "Drop one or more JPG images, drag them into order, choose a page size (A4, Letter or fit to image) and margins, and press Convert. You can make one combined PDF or one PDF per image – free, with no watermark."
+},
+{
+"q": "Can I convert JPG to PDF on a phone?",
+"a": "Yes. The page works in mobile browsers on Android and iPhone: tap to pick photos from your gallery, convert, and the PDF is saved to your downloads."
+}
+]
+}
+},
+"pdf2jpg": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert PDF to JPG or PNG?",
+"a": "Drop the PDF, choose JPG, PNG or WebP and a resolution (up to 300 DPI), optionally enter a page range, then convert. Download single images or a ZIP of every page."
+}
+]
+}
+},
+"word2pdf": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert Word to PDF for free?",
+"a": "Drop one or more .docx files and press Convert. Each document is rendered to PDF in your browser and downloaded individually or as a ZIP – no account and no watermark."
+},
+{
+"q": "Can I convert Word to PDF on a phone?",
+"a": "Yes, the converter runs in mobile browsers. Pick the DOCX from your files app, convert, and save the PDF. Very long or complex documents convert faster on a computer."
+},
+{
+"q": "How do I convert Word to PDF without losing formatting?",
+"a": "Fonts, tables and images are kept, but a font that is not embedded and not available in your browser is replaced with a similar one. For exact results, use common fonts or export from Word itself; this tool is in beta and best for everyday documents."
+}
+]
+}
+},
+"split": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I split a PDF into multiple files?",
+"a": "Drop the PDF and choose how to split: every page as its own file, custom ranges such as 1-3,4-9, every X pages, or odd/even pages. You can also click between thumbnails to cut. The parts download as a ZIP."
+},
+{
+"q": "Can I split a PDF in half?",
+"a": "Yes. Use a range such as 1-10,11-20 for a 20-page file, or ‘every X pages’ with half the page count. To cut each physical page down the middle (two scanned pages per sheet), use the Split PDF pages in half tool instead."
+}
+]
+}
+},
+"pdf2excel": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert a PDF to Excel?",
+"a": "Drop the PDF, choose XLSX or CSV and whether you want one sheet per page or per table, then convert. Tables are detected from the position of the text; scanned PDFs are read with the free OCR first."
+},
+{
+"q": "How do I convert PDF to an Excel spreadsheet without losing formatting?",
+"a": "Tables with clear columns convert most accurately. Cell values are kept as numbers where possible, so you can sum and sort them; visual styling such as colours and merged cells is not reproduced. Check totals after converting a complex statement."
+},
+{
+"q": "Is this PDF to Excel converter free?",
+"a": "Yes – including OCR for scanned tables, which some other converters reserve for paid plans. There is no sign-up or file limit."
+}
+]
+}
+},
+"edit": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I edit a PDF for free?",
+"a": "Open the PDF on this page, then click to add or change text, insert images and shapes, highlight, white-out or add links. Press Save to download the edited PDF. It is free, with no watermark or hourly limits."
+},
+{
+"q": "Can I edit existing text in a PDF?",
+"a": "Yes. Click on a line of text to edit it; the original is covered and replaced with your new text in a matching font where possible. For scanned pages, run OCR first so the text becomes editable."
+}
+]
+}
+},
+"sign": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I sign a PDF on my computer?",
+"a": "Open the PDF, create a signature by drawing with the mouse or touchpad, typing your name in a handwriting font, or uploading a photo of your signature, then place it on the page and download. Nothing is installed or uploaded."
+},
+{
+"q": "Is a signature added this way legally valid?",
+"a": "A drawn or typed signature is an electronic signature, which many jurisdictions accept for everyday agreements. It is not a certificate-based digital signature. For contracts with special requirements, check what the other party or your local law needs."
+}
+]
+}
+},
+"pdf2ppt": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert a PDF to PowerPoint?",
+"a": "Drop the PDF, choose editable mode (text boxes over the original design) or exact page images, pick a page range if you need one, and convert. Open the PPTX in PowerPoint, Keynote or Google Slides."
+},
+{
+"q": "How do I convert PDF to PowerPoint without losing formatting?",
+"a": "Exact mode places each page as a high-resolution image, so it looks identical but text is not editable. Editable mode keeps the look by using the page as a background and adds real, editable text boxes on top – bold and italic are preserved."
+}
+]
+}
+},
+"unlock": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I unlock a PDF?",
+"a": "Drop the PDF. If it only has restrictions (no printing or copying), they are removed immediately. If it needs a password to open, type the password you know and download an unlocked copy."
+},
+{
+"q": "Can I unlock a PDF without the password?",
+"a": "You can remove permission restrictions without a password. A PDF that needs a password to open is encrypted, and this tool will not crack or guess unknown passwords – you need the password from the person who sent the file."
+},
+{
+"q": "How do I unlock a PDF for editing?",
+"a": "Restrictions that block editing, copying or printing are removed by unlocking. Afterwards you can open the file in the PDF editor or any other app."
+}
+]
+}
+},
+"protect": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I protect a PDF with a password?",
+"a": "Drop the PDF, type a password, choose which actions to allow (printing, copying, editing) and download. The file is encrypted with AES-256 and anyone opening it is asked for the password."
+},
+{
+"q": "How do I protect a PDF from editing and copying?",
+"a": "Set an owner password and untick editing and copying. Readers can still open the file (or need an open password if you set one), but compliant PDF apps will block changes and text copying."
+}
+]
+}
+},
+"rotate": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I rotate a PDF and save it that way?",
+"a": "Choose the angle and which pages to turn (all, odd, even, landscape-only or a range), then download. The rotation is written into the file, so it opens the right way in every viewer – unlike the temporary rotate button in many PDF readers."
+}
+]
+}
+},
+"ocrpdf": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I OCR a PDF for free?",
+"a": "Drop the scanned PDF, choose the document language (or two languages), optionally a page range, and run OCR. You get a searchable PDF with an invisible text layer, and you can also export the recognised text as TXT."
+},
+{
+"q": "What does OCR PDF mean?",
+"a": "OCR (optical character recognition) reads the letters in a scanned image. An OCR PDF looks the same as the scan but lets you search, select and copy its text."
+}
+]
+}
+},
+"excel2pdf": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert Excel to PDF on one page?",
+"a": "Turn on fit-to-width: the columns are scaled to fit the page, and wide sheets switch to landscape automatically, so nothing is cut off at the edge."
+},
+{
+"q": "How do I convert Excel to PDF without losing formatting?",
+"a": "Cell values, column widths, bold text and borders are kept. Charts and complex conditional formatting may not be reproduced – check the preview, or export from Excel when a sheet depends on them."
+},
+{
+"q": "Can I convert Excel to PDF in landscape?",
+"a": "Yes. Choose landscape, or leave orientation on automatic and wide sheets will be laid out in landscape."
+}
+]
+}
+},
+"watermark": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I add a watermark to a PDF for free?",
+"a": "Drop the PDF, type your text (for example DRAFT or CONFIDENTIAL) or upload a logo, set opacity, rotation, colour and position or tiling, and download. Free, with no sign-up and no extra branding."
+},
+{
+"q": "Can I add a DRAFT or CONFIDENTIAL watermark to a PDF?",
+"a": "Yes. Type the word, rotate it 45°, set opacity around 20–30% so the content stays readable, and apply it to all pages or a range."
+}
+],
+"desc": "Add a watermark to PDF: text or your logo, opacity, rotation, colour, tile or 9 positions, page range, batch files. Free, no upload, no sign-up."
+}
+},
+"pagenumbers": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I add page numbers to a PDF for free?",
+"a": "Drop the PDF, choose a position and format such as ‘Page 1 of N’, optionally skip a cover page or set the starting number, and download. Free, no watermark."
+},
+{
+"q": "How do I start page numbers on page 3?",
+"a": "Set ‘skip first pages’ to 2, and choose whether numbering starts at 1 or continues from 3."
+}
+]
+}
+},
+"deletepages": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I delete pages from a PDF?",
+"a": "Open the PDF, tap the thumbnails of the pages you do not want (or type ranges such as 2,5-8), and download the new file. Blank pages can be marked automatically."
+},
+{
+"q": "Can I delete pages from a PDF for free?",
+"a": "Yes, with no account, watermark or page limit; the pages are removed on your device."
+}
+],
+"title": "Delete Pages from PDF – Remove PDF Pages Free, No Upload"
+}
+},
+"imgcompress": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I compress an image without losing quality?",
+"a": "Use a quality of 75–85 or a modest KB target: JPEG and WebP drop detail you cannot see first. Resizing very large photos to the size they will be displayed often saves more than lowering quality."
+},
+{
+"q": "How do I compress an image to 50 KB or 100 KB?",
+"a": "Pick the KB preset or type your own target. The tool finds the highest quality that fits, and reduces the dimensions slightly only if needed."
+}
+]
+}
+},
+"imgresize": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I resize an image?",
+"a": "Drop the image and enter a new width or height in pixels, a percentage, or a print size in cm, mm or inches with DPI. Keep ‘lock aspect ratio’ on to avoid stretching, then download."
+}
+]
+}
+},
+"bgremove": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I remove the background from an image for free?",
+"a": "Drop the photo; an AI model running on your device separates the subject and gives you a transparent PNG. You can replace the background with white, a colour, a blur or another photo. Free, with no upload or credits."
+},
+{
+"q": "Does background removal work for products and people?",
+"a": "Yes, it is trained on both. Fine hair and transparent objects are the hardest parts – zoom in and check edges before using the result."
+}
+],
+"desc": "Remove background from image free with on-device AI. Full-resolution transparent PNG, or swap in white, colour, blur or your own photo. Batch, no upload."
+},
+"h1": "Remove Background from Image"
+},
+"heic2jpg": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert HEIC to JPG?",
+"a": "Drop iPhone HEIC or HEIF photos, choose JPG (or PNG, WebP, PDF) and quality, and download them individually or as a ZIP."
+},
+{
+"q": "Is it safe to convert HEIC to JPG online?",
+"a": "On this site the photos are decoded in your browser and never uploaded, and GPS location data is stripped from the output by default."
+}
+]
+}
+},
+"png2jpg": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert PNG to JPG without losing quality?",
+"a": "Set quality to 90–95. JPG is lossy, but at those settings the difference is invisible for photos. For screenshots and text, PNG may remain the better format."
+}
+]
+}
+},
+"jpg2png": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert JPG to PNG with a transparent background?",
+"a": "Turn on ‘make white background transparent’ and adjust the tolerance. This works for logos and graphics on plain white; for photos, use Remove Background."
+}
+]
+}
+},
+"webp2jpg": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert WebP to JPG in bulk?",
+"a": "Drop all the WebP files at once, set quality, and download a ZIP of JPGs."
+}
+]
+}
+},
+"ocr": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert an image to text?",
+"a": "Drop or paste (Ctrl+V) a screenshot or photo, choose the language, and the text is recognised on your device. Copy it, or save it as TXT or a searchable PDF."
+}
+]
+}
+},
+"upscale": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I upscale an image without losing quality?",
+"a": "Choose 2× and keep sharpening moderate. Upscaling cannot invent real detail; Lanczos resampling with denoise gives clean edges without the artefacts of simple stretching."
+},
+{
+"q": "How do I upscale an image to 4K?",
+"a": "Pick the factor that brings the width to about 3840 px – for example 2× for a 1920 px image – and download the full-resolution result."
+}
+]
+}
+},
+"qr": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I create a QR code for free?",
+"a": "Choose the type (URL, Wi-Fi, vCard, SMS and more), enter the details, customise colours, a logo or a frame, and download PNG, SVG or PDF. No sign-up."
+},
+{
+"q": "Do these QR codes expire?",
+"a": "No. They are static codes: the data is stored in the pattern itself, not behind a redirect, so they keep working forever."
+}
+],
+"desc": "Free QR code generator: static codes for URLs, Wi-Fi, vCards, SMS and more. Logo, colours, gradient, eye shapes, frames. PNG, SVG, PDF. No sign-up."
+}
+},
+"video2mp3": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert MP4 to MP3?",
+"a": "Drop the MP4, choose a bitrate (64–320 kbps), optionally trim, fade or add ID3 tags, and download the MP3. It runs on your device, so there is no upload wait."
+}
+]
+}
+},
+"videocompress": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I compress a video file size?",
+"a": "Drop the video and choose a target size such as 10 or 25 MB, or a quality level. Lowering the resolution to 720p is the most effective step for large phone videos."
+},
+{
+"q": "How do I compress a video to send by email?",
+"a": "Most email services cap attachments at 20–25 MB. Choose a 20 MB target and 720p or 480p resolution."
+}
+],
+"desc": "Compress video files to an exact size (10, 16, 25 MB or custom) or quality. MP4, MOV, WebM, 1080p/720p/480p, mute, batch. On-device, no watermark, free."
+}
+},
+"mov2mp4": {
+"seo": {
+"faqKw": [
+{
+"q": "What is the best way to convert MOV to MP4?",
+"a": "For iPhone MOV files the fastest way is a lossless remux, which copies the video into an MP4 container in seconds without re-encoding. This tool does that automatically and only re-encodes when the codec requires it."
+}
+]
+}
+},
+"cm2in": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert cm to inches?",
+"a": "Divide the number of centimetres by 2.54 (1 inch = 2.54 cm exactly). For example, 30 cm ÷ 2.54 = 11.81 inches."
+}
+]
+}
+},
+"kg2lb": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert kg to lbs?",
+"a": "Multiply kilograms by 2.20462. Quick mental shortcut: double the kilograms and add 10% – 70 kg → 140 + 14 = 154 lb (exact: 154.3)."
+}
+],
+"desc": "Convert kg to lbs instantly, with pounds + ounces and stone + pounds. Exact formula, examples for body weight and luggage, 0.1–200 kg chart."
+}
+},
+"c2f": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert Celsius to Fahrenheit without a calculator?",
+"a": "Double the Celsius number and add 30 for a quick estimate (20 °C ≈ 70 °F). The exact formula is °F = °C × 9/5 + 32, so 20 °C = 68 °F."
+}
+]
+}
+},
+"passgen": {
+"seo": {
+"faqKw": [
+{
+"q": "Can I trust a password generator?",
+"a": "Only if it creates passwords locally with a cryptographic random source. This one uses crypto.getRandomValues in your browser; nothing is sent or stored."
+},
+{
+"q": "What is the best password length?",
+"a": "At least 16 random characters, or a passphrase of 5–6 words, for important accounts."
+}
+],
+"desc": "Password generator: strong random passwords, passphrases or PINs created locally with crypto.getRandomValues. Strength meter, crack time, bulk. Free."
+}
+},
+"ist2est": {
+"seo": {
+"faqKw": [
+{
+"q": "Is it EST or EDT now?",
+"a": "US Eastern Time uses EDT (UTC−4) from the second Sunday in March to the first Sunday in November and EST (UTC−5) otherwise. The converter picks the right one for the date you choose."
+}
+],
+"desc": "IST to EST converter with automatic EST/EDT daylight saving, a working-hours overlap grid, the next clock change and shareable links. Free."
+}
+},
+"audiocut": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I cut audio online for free?",
+"a": "Drop an MP3, WAV or M4A file, drag the handles on the waveform to select a part, then keep or remove it, add fades and download MP3 or WAV."
+},
+{
+"q": "What is the best free audio cutter?",
+"a": "Look for waveform editing, fades, precise timing and no upload. This audio cutter offers all of those with 0.1-second precision, in your browser."
+}
+],
+"desc": "Audio cutter: trim MP3, WAV, M4A and more on a waveform. Keep or remove a section, fade in/out, volume, 0.1 s precision, MP3 or WAV. Free, no upload."
+},
+"h1": "Audio Cutter – Cut & Trim Audio Online"
+},
+"video2gif": {
+"seo": {
+"faqKw": [
+{
+"q": "How do I convert a video to a GIF?",
+"a": "Drop an MP4, MOV or WebM clip, set the start time and length, frame rate and width, optionally add a caption, speed or boomerang loop, and download the GIF."
+},
+{
+"q": "How do I convert video to GIF without losing quality?",
+"a": "Use 15–20 fps and a width of 480–640 px and keep the clip short. GIF is limited to 256 colours, so very colourful scenes always lose some quality."
+}
+],
+"desc": "Video to GIF converter: turn MP4, MOV or WebM clips into GIFs with captions, speed, 5–25 fps, width and boomerang. No watermark, no upload, free."
+}
+}
+}
+}

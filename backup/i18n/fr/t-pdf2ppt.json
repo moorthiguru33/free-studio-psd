@@ -1,0 +1,230 @@
+{
+  "tools": {
+    "pdf2ppt": {
+      "name": "PDF en PowerPoint",
+      "short": "Convertissez chaque page d'un PDF en diapositive PowerPoint (PPTX).",
+      "title": "PDF en PowerPoint – Convertir un PDF en PPT gratuit | {brand}",
+      "desc": "Convertissez un PDF en PowerPoint (PPTX) : chaque page devient une diapositive nette à la mise en page exacte. Sans inscription, fichier local.",
+      "h1": "Convertir PDF en PowerPoint",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Choisissez la qualité d'image et, si vous le souhaitez, les pages à inclure.",
+        "Cliquez sur Démarrer et téléchargez votre présentation .pptx."
+      ],
+      "faq": [
+        {
+          "q": "Les diapositives seront-elles identiques à mon PDF ?",
+          "a": "Oui. Chaque page est placée sur sa propre diapositive sous forme d'image haute résolution : polices, couleurs et mise en page restent identiques. La taille de la diapositive suit la forme de la page du PDF."
+        },
+        {
+          "q": "Puis-je modifier le texte dans PowerPoint ?",
+          "a": "Le contenu de la page est une image : le texte ne peut donc pas être modifié directement. Vous pouvez ajouter des zones de texte, des notes et des animations par-dessus, et réordonner ou supprimer des diapositives. Pour du texte modifiable, utilisez d'abord PDF en Word."
+        },
+        {
+          "q": "Le fichier s'ouvre-t-il dans Google Slides et Keynote ?",
+          "a": "Oui. Le fichier est un PPTX standard qui s'ouvre dans PowerPoint, Google Slides, Keynote et LibreOffice Impress."
+        }
+      ],
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "PDF en PowerPoint – Diapos modifiables, gratuit, sans envoi",
+        "desc": "Convertissez un PDF en PPTX avec zones de texte modifiables sur la mise en page d'origine ou images exactes. Plage de pages, HD. Sans envoi.",
+        "sections": [
+          [
+            "Transformez un PDF en diapositives vraiment modifiables",
+            "Beaucoup de convertisseurs PDF en PowerPoint se contentent de coller une image de chaque page sur une diapositive : le rendu est correct, mais vous ne pouvez pas changer un seul mot. {brand} propose des **zones de texte modifiables** : chaque ligne de texte du PDF devient une vraie zone de texte PowerPoint, avec sa position, sa taille et sa couleur d'origine, placée sur une image de fond propre contenant les graphismes de la page. Changez des titres, mettez à jour des chiffres ou traduisez une présentation directement dans PowerPoint, Keynote ou Google Slides.",
+            "Si vous avez seulement besoin de présenter le PDF tel quel, choisissez **Images de page seulement** pour une copie parfaite au pixel près. Dans les deux cas, la conversion a lieu dans votre navigateur et le PDF n'est jamais envoyé."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Texte modifiable** : les lignes de texte deviennent des zones de texte PowerPoint de même couleur et de même taille.",
+              "**Mise en page conservée** : fonds, images, logos et formes restent sous forme d'image haute résolution derrière le texte.",
+              "**La taille de la diapositive suit le PDF** : 16:9, 4:3, A4 ou autre.",
+              "**Qualité** : fonds à 100, 144 ou 216 PPP.",
+              "**Plage de pages** : convertissez seulement les pages nécessaires, p. ex. 1-3,5.",
+              "**S'ouvre partout** : PowerPoint, Keynote, Google Slides et LibreOffice Impress."
+            ]
+          ],
+          [
+            "Comment convertir PDF en PowerPoint",
+            [
+              "Déposez votre PDF.",
+              "Choisissez « Zones de texte modifiables » ou « Images de page seulement ».",
+              "Choisissez la qualité et, si vous le souhaitez, une plage de pages.",
+              "Cliquez sur Convertir et ouvrez le PPTX dans votre logiciel de présentation."
+            ]
+          ],
+          [
+            "Modifiable ou images : lequel choisir ?",
+            {
+              "table": [
+                [
+                  "Choisissez",
+                  "Quand"
+                ],
+                [
+                  "Zones de texte modifiables",
+                  "Vous devez changer des mots ou des chiffres, ou traduire la présentation"
+                ],
+                [
+                  "Images de page seulement",
+                  "Vous allez seulement présenter et avez besoin d'une fidélité exacte, ou le PDF utilise des polices rares"
+                ]
+              ]
+            },
+            "En mode modifiable, les polices sont remplacées par Arial, Times New Roman ou Courier New selon la famille de police du PDF : les lignes peuvent être légèrement plus larges ou plus étroites que l'original. Le gras et l'italique des polices intégrées peuvent demander une petite retouche."
+          ],
+          [
+            "PDF scannés",
+            "Si le PDF est un scan, il n'a pas de couche de texte : le convertisseur lit alors la page avec l'OCR intégré (automatique par défaut, 12 langues) et produit quand même des zones de texte modifiables. Vous pouvez aussi passer d'abord [OCR PDF](/ocr-pdf/) si vous voulez en plus un PDF au texte cherchable."
+          ],
+          [
+            "Conseils",
+            [
+              "Utilisez le réglage Haute (144 PPP) pour les écrans normaux et Très haute pour les grands projecteurs.",
+              "Groupez des zones de texte dans PowerPoint (sélectionnez-les et appuyez sur Ctrl+G) pour déplacer des blocs ensemble.",
+              "Si vous allez beaucoup modifier le texte, [PDF en Word](/pdf-to-word/) donne des paragraphes continus plus faciles à réécrire.",
+              "Envie de revenir en arrière ? Exportez depuis PowerPoint ou utilisez [PowerPoint en PDF](/powerpoint-to-pdf/)."
+            ]
+          ],
+          [
+            "Usages courants",
+            [
+              "Réutiliser les diapositives du PDF d'une conférence dans votre propre présentation.",
+              "Mettre à jour une ancienne présentation quand il ne reste que le PDF.",
+              "Traduire une présentation dans une autre langue.",
+              "Transformer des rapports en diapositives pour une réunion.",
+              "Présenter un PDF en mode présentateur de PowerPoint avec des notes."
+            ]
+          ],
+          [
+            "Confidentialité",
+            "Les présentations sont souvent confidentielles : présentations pour investisseurs, stratégie interne, produits non lancés. Tout le traitement se fait sur votre appareil : le fichier ne le quitte jamais."
+          ],
+          [
+            "Comment fonctionne la conversion modifiable",
+            "Pour chaque page, le convertisseur rend la page entière à la résolution choisie et lit chaque ligne de texte avec sa position, sa taille et sa famille de police. Il prélève la couleur de chaque ligne sur la page rendue, remplit cette zone du fond avec la couleur environnante et place une zone de texte PowerPoint avec le même texte, la même couleur et la même taille exactement au même endroit. Le résultat ressemble à la diapositive d'origine, mais chaque mot peut être sélectionné, réécrit, restylé ou supprimé, et grâce au fond propre il ne reste aucune copie fantôme de l'ancien texte derrière vos modifications."
+          ],
+          [
+            "Polices, gras et italique",
+            "Le convertisseur lit la police de chaque fragment de texte du PDF et conserve le gras, l'italique et le gras italique dans les zones de texte PowerPoint. Les polices à empattement sont remplacées par Times New Roman et les polices à chasse fixe par Courier New : les diapositives gardent le caractère de l'original même si la police exacte n'est pas installée. Sur les pages scannées lues par OCR, le texte est mis dans une police sans empattement standard."
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Zones de texte modifiables",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "OCR pour les PDF scannés",
+            "Gratuit, intégré (12 langues)",
+            "Premium",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Plage de pages",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Puis-je modifier le texte après avoir converti le PDF en PowerPoint ?",
+            "a": "Oui. En mode « Zones de texte modifiables », chaque ligne de texte devient une zone de texte PowerPoint."
+          },
+          {
+            "q": "La mise en page est-elle conservée ?",
+            "a": "Oui. Fonds, images et formes restent sous forme d'image haute résolution derrière le texte modifiable."
+          },
+          {
+            "q": "Mon PDF est-il envoyé ?",
+            "a": "Non. La conversion a lieu dans votre navigateur."
+          },
+          {
+            "q": "Ça marche avec Google Slides et Keynote ?",
+            "a": "Oui. Le PPTX s'ouvre dans PowerPoint, Google Slides, Keynote et LibreOffice Impress."
+          },
+          {
+            "q": "Puis-je convertir seulement certaines pages ?",
+            "a": "Oui. Indiquez une plage de pages comme 1-3,5."
+          },
+          {
+            "q": "Et les PDF scannés ?",
+            "a": "Les pages scannées sont lues automatiquement par l'OCR intégré en 12 langues : vous obtenez aussi des zones de texte modifiables. Choisissez la langue du document pour plus de précision."
+          },
+          {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui, sans limites ni filigrane."
+          },
+          {
+            "q": "Pourquoi les polices sont-elles un peu différentes ?",
+            "a": "Le texte est mis dans une police standard (Arial, Times ou Courier) qui correspond au style d'origine. Choisissez « Images de page seulement » pour un rendu exact."
+          },
+          {
+            "q": "Quelle taille de diapositive est utilisée ?",
+            "a": "La taille de la diapositive correspond à la forme de la page du PDF, p. ex. 16:9 pour les présentations ou A4 pour les documents."
+          }
+        ],
+        "related": [
+          "powerpoint-to-pdf",
+          "pdf-to-word",
+          "ocr-pdf",
+          "pdf-to-jpg",
+          "compress-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir un PDF en PowerPoint ?",
+            "a": "Déposez le PDF, choisissez le mode modifiable (zones de texte sur la mise en page d'origine) ou des images de page exactes, indiquez une plage si besoin et convertissez. Ouvrez le PPTX dans PowerPoint, Keynote ou Google Slides."
+          },
+          {
+            "q": "Comment passer un PDF en PowerPoint sans perdre la mise en forme ?",
+            "a": "Le mode exact place chaque page sous forme d'image haute résolution : le rendu est identique mais le texte n'est pas modifiable. Le mode modifiable garde l'aspect en utilisant la page comme fond et ajoute par-dessus de vraies zones de texte modifiables, en conservant gras et italique."
+          }
+        ]
+      }
+    }
+  }
+}

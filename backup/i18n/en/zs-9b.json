@@ -1,0 +1,1624 @@
+{
+"tools": {
+"organize": {
+"seo": {
+"title": "Organize PDF Pages – Reorder, Rotate, Delete Free",
+"desc": "Organize PDF pages free: drag thumbnails to reorder, rotate, delete, duplicate, insert blank pages or reverse order. No upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Organize PDF pages visually",
+"Organize PDF lets you rearrange the pages of a document the way you would shuffle sheets of paper on a desk. Drop a PDF and every page appears as a thumbnail. Drag a page to a new position, rotate it, delete it, duplicate it or insert a blank page after it, then save a new PDF with the pages in exactly the order you want. The original file is never changed – you always download a fresh copy.",
+"It is the quickest fix for the most common PDF annoyances: a scanner that fed pages in the wrong order, a report where the appendix landed in the middle, a sideways page in an otherwise upright contract, or a file that needs a blank page before each new section so it prints correctly double-sided."
+],
+[
+"What you can do with each page",
+{
+"list": [
+"**Move** – drag the thumbnail, or use the ← and → buttons for precise one-step moves on touch screens.",
+"**Rotate** – turn a page 90° at a time; the rotation is saved into the file permanently.",
+"**Delete** – mark a page with ✕ to leave it out of the result (tap again to restore it).",
+"**Select** – tick pages, then duplicate them or save only the selection.",
+"**Duplicate selected** – make a copy of a page right after it, useful for forms you need twice.",
+"**Insert blank page** – adds an empty page the same size as your first page after the first selected page (or at the end).",
+"**Reverse order** – flips the whole document, ideal for scans fed last-page-first.",
+"**Rotate all** – turns every page at once when a whole scan came out sideways."
+]
+}
+],
+[
+"How to organize PDF pages for free",
+{
+"steps": [
+"Drop your PDF on the page or tap to choose it. Thumbnails are rendered on your device.",
+"Drag pages into the new order. Use Reverse order or Rotate all for quick whole-document fixes.",
+"Delete, rotate, duplicate or insert blank pages as needed.",
+"Choose whether to save all kept pages or only the selected ones, then press the button and download the organized PDF."
+]
+}
+],
+[
+"Sorting a scanned document",
+"Double-sided documents scanned on a single-sided feeder are a classic problem: you get all the front pages first, then all the back pages in reverse. To sort a PDF like this, use Reverse order on a copy containing the back pages, then merge and interleave – or simply drag the pages into place here if the document is short. For long scans, the [Merge PDF](/merge-pdf/) tool combined with this organizer is the fastest route.",
+"If some pages came out upside-down, rotate them 180°. If a page is skewed rather than rotated, [Deskew PDF](/deskew-pdf/) straightens it automatically."
+],
+[
+"Organize PDF vs other page tools",
+{
+"table": [
+[
+"Task",
+"Best tool"
+],
+[
+"Change page order, rotate, delete in one go",
+"Organize PDF (this page)"
+],
+[
+"Remove many pages by number",
+"[Delete PDF pages](/delete-pdf-pages/)"
+],
+[
+"Keep only certain pages",
+"[Extract PDF pages](/extract-pdf-pages/)"
+],
+[
+"Cut one PDF into several files",
+"[Split PDF](/split-pdf/)"
+],
+[
+"Combine several PDFs",
+"[Merge PDF](/merge-pdf/)"
+],
+[
+"Rotate pages permanently by rule (odd/even/landscape)",
+"[Rotate PDF](/rotate-pdf/)"
+]
+]
+}
+],
+[
+"Blank pages for double-sided printing",
+"When you print double-sided, each chapter should usually start on a right-hand (odd) page. If a section ends on an odd page, insert a blank page after it so the next section starts on the front of a new sheet. The blank page uses the size of your first page, so it matches the document. Blank pages also help when you need room for handwritten notes or a stamp."
+],
+[
+"Quality and what is preserved",
+"Pages are copied, not re-rendered. Text stays selectable and searchable, images keep their original resolution and fonts remain embedded, so the organized PDF looks exactly like the source. Links and form fields on copied pages are kept by most viewers; document-level bookmarks that pointed to the old page order are not rebuilt, so add new ones with [Edit bookmarks](/pdf-bookmark-editor/) if you need them."
+],
+[
+"Large documents",
+"Thumbnails are drawn at low resolution to keep things fast, so a 200-page PDF is still comfortable on a laptop. On phones, very long files take longer to render; if you only need to reorder a few pages near the start, that is no problem, but for big jobs a computer is more convenient. There is no page limit and no file-size cap other than your device's memory."
+],
+[
+"Password-protected PDFs",
+"If a PDF asks for a password when you open it, unlock it first with [Unlock PDF](/unlock-pdf/) – you need to know the password – then organize the unlocked copy. Files that only restrict printing or editing usually open normally."
+],
+[
+"Worked example: fixing a jumbled 12-page report",
+"Say a colleague scanned a 12-page report and the pages came out as 1, 2, 3, 7, 8, 9, 4, 5, 6, 10, 11, 12, with page 8 upside down. Drop the file and the thumbnails make the problem obvious at a glance. Drag the block of pages 4–6 so they sit after page 3 – on a computer, drag each thumbnail onto the position you want; on a phone, tap the ← button on page 4 three times, then repeat for 5 and 6. Tap ↻ twice on page 8 to turn it 180°. Finally, if the report needs a blank back page so it prints evenly double-sided, select page 12 and press *Insert blank page*. Save, and you have a clean, correctly ordered PDF in under a minute without installing anything."
+],
+[
+"Tips for working quickly",
+{
+"list": [
+"Zoom out in your browser (Ctrl/Cmd and −) to see more thumbnails at once when reordering long files.",
+"Use Reverse order first when a scan is completely backwards, then fine-tune a few pages by dragging.",
+"Rotate all is faster than rotating each page when a whole scan is sideways; then rotate back the few pages that were already correct.",
+"Tick pages and switch the output to *Selected pages only* if you want to build a short excerpt in a new order – for example, pages 9, 2 and 5, in that sequence.",
+"Deleted pages stay visible with a ✕ until you save, so you can change your mind; tap again to restore."
+]
+}
+],
+[
+"Common questions about page order in PDFs",
+"A PDF stores pages as an ordered list, and reorganizing simply writes that list in a new order. That is why the operation is lossless and fast. Page labels (the custom numbering some viewers show, such as *i, ii, iii* for front matter) are not changed, and printed page numbers that are part of the page content stay as they were – if you move page 7 to the front, it still shows *7* in its footer. To renumber, run [Add page numbers](/add-page-numbers/) after organizing, ideally on a version without the old printed numbers."
+],
+[
+"Organizing several PDFs together",
+"This tool works on one PDF at a time. To combine pages from different files into one ordered document, first join them with [Merge PDF](/merge-pdf/) – it accepts PDFs and images – and then open the merged file here to drag individual pages into their final order. This two-step approach is the most flexible way to assemble application packs, portfolios and evidence bundles from many sources."
+],
+[
+"Who uses a PDF page organizer",
+{
+"list": [
+"**Office staff** sorting scanned contracts, delivery notes and HR forms before filing.",
+"**Students and teachers** reordering lecture notes, worksheets and exam papers.",
+"**Lawyers and paralegals** arranging exhibits in the order they are referenced.",
+"**Designers and printers** inserting blank pages so spreads and sections fall on the correct side.",
+"**Anyone** cleaning up a phone scan where a page was photographed twice or out of sequence."
+]
+}
+],
+[
+"Organize PDF pages online vs in desktop software",
+"Desktop editors such as paid PDF suites can reorder pages too, but they need installing, often a subscription, and admin rights on work computers. Online organizers are quicker for one-off jobs, but most upload your document to a server for processing. This page combines the convenience of a website with the privacy of desktop software: it loads in a browser tab, then does all the work locally. You can even disconnect from the internet after the page has loaded and it keeps working."
+],
+[
+"Mobile and touch tips",
+"Dragging thumbnails on a phone can scroll the page instead of moving the page, so each thumbnail has small ← and → buttons that move it one place. To move a page a long way, it is often faster to delete it and use *Duplicate selected* on a page next to the target position – or open the file on a tablet in landscape for more room. Rotate, delete and select buttons are large enough to tap accurately."
+],
+[
+"Checking the result",
+"After downloading, open the PDF and scroll through quickly: the page count shown in the result message tells you how many pages were kept. If something is wrong, you can drop the original again and redo it – nothing was changed in the source file. For a quick visual check of a long document, [N-up PDF](/n-up-pdf/) at 16 pages per sheet gives a one-glance overview of page order."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Reorder",
+"Change the position of pages in the document"
+],
+[
+"Rotate",
+"Turn a page by 90°, 180° or 270°; stored in the page's /Rotate setting"
+],
+[
+"Blank page",
+"An empty page inserted to separate sections or fix duplex printing"
+],
+[
+"Duplex",
+"Printing on both sides of the paper"
+],
+[
+"Thumbnail",
+"A small preview image of a page"
+]
+]
+}
+],
+[
+"Accessibility",
+"All buttons have text labels or titles, the page can be used with a keyboard, and it respects your browser's zoom level. Screen-reader users can use the range box in the delete and extract modes as an alternative to clicking thumbnails."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Delete PDF pages](/delete-pdf-pages/)",
+"[Extract PDF pages](/extract-pdf-pages/)",
+"[Merge PDF](/merge-pdf/)",
+"[Split PDF](/split-pdf/)",
+"[Rotate PDF](/rotate-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Drag-and-drop reorder",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Insert blank page",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Duplicate pages",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Reverse whole document",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I organize PDF pages?",
+"a": "Drop the PDF, drag thumbnails into the new order, rotate or delete pages, then download the new PDF."
+},
+{
+"q": "How can I organize PDF pages for free?",
+"a": "This tool is free with no sign-up, watermark or page limit because it runs in your browser."
+},
+{
+"q": "Can I sort a PDF file?",
+"a": "Yes, drag pages into any order or use Reverse order to flip the whole document."
+},
+{
+"q": "Can I add a blank page to a PDF?",
+"a": "Yes, select a page and press Insert blank page; it is added after it."
+},
+{
+"q": "Can I duplicate a page?",
+"a": "Yes, tick it and press Duplicate selected."
+},
+{
+"q": "Will the quality change?",
+"a": "No, pages are copied without re-rendering, so text and images stay identical."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, everything happens on your device."
+},
+{
+"q": "Does it work on a phone?",
+"a": "Yes; use the arrow buttons if dragging is awkward on a small screen."
+}
+],
+"related": [
+"delete-pdf-pages",
+"extract-pdf-pages",
+"merge-pdf",
+"split-pdf",
+"rotate-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"extractpages": {
+"seo": {
+"title": "Extract PDF Pages – Save Selected Pages Free",
+"desc": "Extract pages from a PDF: tick thumbnails or type ranges like 1-3,8, save one new PDF or each page as its own file. Free, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Extract PDF pages into a new file",
+"Extract PDF pages copies just the pages you need from a larger document into a new PDF. Tick thumbnails or type page ranges such as 1-3,8,12-15, then save them as one combined PDF or as separate files – one PDF per page, bundled in a ZIP. The original document stays untouched.",
+"Typical uses: pulling the signature page out of a contract, sending only the relevant chapter of a manual, saving a single invoice from a monthly statement, or separating each page of a scanned batch into its own file."
+],
+[
+"Two ways to choose pages",
+{
+"list": [
+"**Click thumbnails** – every page is shown; tap the ones you want and they are highlighted.",
+"**Type a range** – enter 2-5,9 and press Select range. Ranges and single pages can be mixed, and you can combine typing with clicking.",
+"**Clear selection** starts again without reloading the file."
+]
+}
+],
+[
+"One PDF or separate files",
+"By default the selected pages are saved together in their original order as one PDF named *yourfile-extracted.pdf*. Tick *Save each selected page as a separate PDF* to get one file per page, named with its page number (for example *report-page7.pdf*) and delivered as a ZIP. Separate files are handy when each page is a different form, receipt or certificate that needs to be filed or e-mailed on its own."
+],
+[
+"How to extract pages from a PDF for free",
+{
+"steps": [
+"Drop the PDF on this page.",
+"Tick the pages you want, or type ranges and press Select range.",
+"Optionally tick the option to save each page separately.",
+"Press Extract and download the new PDF or ZIP."
+]
+}
+],
+[
+"Extract vs split vs delete",
+{
+"table": [
+[
+"Goal",
+"Use"
+],
+[
+"Keep a few pages, discard the rest",
+"Extract PDF pages"
+],
+[
+"Remove a few pages, keep the rest",
+"[Delete PDF pages](/delete-pdf-pages/)"
+],
+[
+"Cut the whole document into parts",
+"[Split PDF](/split-pdf/)"
+],
+[
+"Split at every chapter bookmark",
+"[Split PDF by bookmarks](/split-pdf-by-bookmarks/)"
+],
+[
+"Get pages as images",
+"[PDF to JPG](/pdf-to-jpg/)"
+]
+]
+}
+],
+[
+"What is kept",
+"Extracted pages are exact copies: selectable text, fonts, vector graphics and images at full resolution. Page size and rotation are preserved. Comments and annotations that belong to a page travel with it in most cases. Bookmarks from the original document are not copied, because they would point to pages that may no longer exist."
+],
+[
+"Extract pages as images instead",
+"If you need a picture of a page rather than a PDF – for a slide, a website or a chat message – use [PDF to JPG](/pdf-to-jpg/) or [PDF to PNG](/pdf-to-png/) and enter the same page range. To pull out only the photos embedded in a PDF at their original quality, use [Extract images from PDF](/extract-images-from-pdf/)."
+],
+[
+"Large and protected files",
+"There is no page or size limit beyond your device's memory; thumbnails are rendered at low resolution so even long documents are quick to browse. If the PDF needs a password to open, unlock it with [Unlock PDF](/unlock-pdf/) first (you must know the password)."
+],
+[
+"Worked example: pulling three invoices out of a statement",
+"Imagine a 40-page supplier statement where you only need the invoices on pages 6, 14 and 15. Drop the PDF, type *6,14-15* in the range box and press *Select range* – the three thumbnails light up. To file each invoice separately, tick *Save each selected page as a separate PDF*. Press Extract, and you get a ZIP containing *statement-page6.pdf*, *statement-page14.pdf* and *statement-page15.pdf*. Without the tick, you would get one three-page PDF instead. The whole job takes a few seconds and the statement is never uploaded anywhere."
+],
+[
+"Page range syntax",
+{
+"table": [
+[
+"You type",
+"Pages selected"
+],
+[
+"5",
+"Page 5 only"
+],
+[
+"1-3",
+"Pages 1, 2 and 3"
+],
+[
+"2,4,6",
+"Pages 2, 4 and 6"
+],
+[
+"1-3,10-12",
+"Pages 1–3 and 10–12"
+],
+[
+"8-8",
+"Page 8 (same as 8)"
+]
+]
+},
+"Spaces are ignored, and pages outside the document are reported as an error so you can correct the range. Selecting by range adds to any pages you have already clicked; use *Clear selection* to start over."
+],
+[
+"Extracting pages on a phone",
+"On small screens, typing a range is usually quicker than tapping thumbnails. The page works in mobile Chrome, Safari, Firefox and Samsung Internet. When you download a single PDF it goes to your Downloads folder or Files app; ZIP files can be opened with the Files app on iPhone and most Android file managers. If you plan to share the result straight away, a single combined PDF is easiest."
+],
+[
+"Extracting pages with comments or form fields",
+"Annotations such as highlights, sticky notes and drawn markup are stored on the page they belong to and are carried over to the extracted file in most viewers. Fillable form fields are copied with their pages, but if a form uses scripts that reference fields on other pages, those scripts may stop working once the pages are separated. If you need a fixed, non-editable copy, run [Flatten PDF](/flatten-pdf/) before extracting."
+],
+[
+"Reasons to extract rather than share the whole file",
+{
+"list": [
+"**Privacy** – send only the page someone needs, not the full document with personal details on other pages.",
+"**Size** – a two-page extract is far smaller than a 300-page manual, so it fits in e-mail and chat limits.",
+"**Clarity** – reviewers see exactly the section they must sign or comment on.",
+"**Filing** – store each receipt, certificate or form under its own name in your records."
+]
+}
+],
+[
+"Select odd or even pages",
+"The *Odd* and *Even* buttons select every odd-numbered (1, 3, 5…) or even-numbered (2, 4, 6…) page in one click. That is useful for separating the fronts and backs of a double-sided scan, or for pulling out only the right-hand pages of a book scan. Combine them with typed ranges and thumbnail clicks to fine-tune the selection."
+],
+[
+"Extract pages online vs desktop software",
+"Paid desktop PDF editors offer page extraction, and many online services do too – usually by uploading your file to their servers and sometimes with hourly limits for free users. Here, the PDF is opened in your browser and the new file is created on your device, with no limits on how often you use it. That makes it fast for large files on slow connections, and safe for confidential documents."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Extract",
+"Copy selected pages into a new document"
+],
+[
+"Page range",
+"A list of pages such as 1-3,8"
+],
+[
+"ZIP",
+"A single archive file containing several files"
+],
+[
+"Flatten",
+"Merge form fields and annotations into the page content"
+]
+]
+}
+],
+[
+"Checking the result",
+"The result message shows how many pages were extracted. Open the file to confirm, and if you picked the wrong pages simply change the selection and press Extract again – the original file stays loaded until you choose another one."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Split PDF](/split-pdf/)",
+"[Delete PDF pages](/delete-pdf-pages/)",
+"[Organize PDF](/organize-pdf/)",
+"[PDF to JPG](/pdf-to-jpg/)",
+"[Merge PDF](/merge-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Select by typed range",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Each page as separate PDF",
+"Yes (ZIP)",
+"See site",
+"See site",
+"See site"
+],
+[
+"Thumbnail selection",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I extract pages from a PDF?",
+"a": "Drop the PDF, tick pages or type a range, and press Extract to download a new PDF."
+},
+{
+"q": "How do I extract PDF pages into separate files?",
+"a": "Tick 'Save each selected page as a separate PDF'; you get a ZIP with one PDF per page."
+},
+{
+"q": "Can I extract pages for free?",
+"a": "Yes, with no sign-up, watermark or page limit."
+},
+{
+"q": "Can I separate PDF pages?",
+"a": "Yes, select all pages and save each as a separate PDF, or use Split PDF."
+},
+{
+"q": "Does extracting reduce quality?",
+"a": "No, pages are copied exactly."
+},
+{
+"q": "Can I extract non-consecutive pages?",
+"a": "Yes, e.g. 1,4,7-9."
+},
+{
+"q": "Is my file uploaded?",
+"a": "No, extraction runs in your browser."
+},
+{
+"q": "Are bookmarks kept?",
+"a": "No; add new ones with the bookmarks tool if needed."
+}
+],
+"related": [
+"split-pdf",
+"delete-pdf-pages",
+"organize-pdf",
+"pdf-to-jpg",
+"merge-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"splitbm": {
+"seo": {
+"title": "Split PDF by Bookmarks – Chapters to Files Free",
+"desc": "Split a PDF by bookmarks into one file per chapter, named after each bookmark. Top-level or level-2 bookmarks. Free, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Split a PDF by bookmarks into chapters",
+"Long PDFs – textbooks, manuals, annual reports, court bundles – often come with bookmarks (the outline you see in a viewer's side panel). Split PDF by bookmarks uses that outline to cut the document into one file per chapter, automatically. Each part starts at the page a bookmark points to and ends just before the next one, and the files are named after the bookmark titles, so *Chapter 3 – Methods* becomes *book-3-Chapter 3 Methods.pdf*.",
+"This is far quicker than working out page ranges by hand, and it is accurate even when chapters have very different lengths."
+],
+[
+"Top-level or level-2 bookmarks",
+"Choose **level 1** to split at the top-level bookmarks only (for example, parts or chapters). Choose **level 2** to split at sub-bookmarks too (sections inside chapters). If two bookmarks point to the same page, only one split is made there. Any pages before the first bookmark – a cover or table of contents – become their own first file, so nothing is lost."
+],
+[
+"How to split a PDF by bookmarks",
+{
+"steps": [
+"Drop a PDF that has bookmarks.",
+"Choose bookmark level 1 or 2.",
+"Press Split.",
+"Download the ZIP of chapter files."
+]
+}
+],
+[
+"What if my PDF has no bookmarks?",
+"You will see a message saying no bookmarks were found. You have three options: add bookmarks with [Edit PDF bookmarks](/pdf-bookmark-editor/) and come back; split where a heading appears with [Split PDF by text](/split-pdf-by-text/); or enter page ranges in the regular [Split PDF](/split-pdf/) tool. For scanned books, run [OCR PDF](/ocr-pdf/) first so headings can be found as text."
+],
+[
+"Keeping bookmarks inside each part",
+"Each chapter file is a clean new PDF. Bookmarks that pointed into the original are not copied into the parts, because their page references would change. If you need an outline inside a chapter, add it afterwards with the bookmarks tool."
+],
+[
+"Good uses",
+{
+"list": [
+"Break a textbook into chapters for reading on a phone or e-reader.",
+"Send each section of a tender or court bundle to a different reviewer.",
+"Archive monthly sections of an annual report separately.",
+"Split a combined batch of documents that were bookmarked by an office scanner."
+]
+}
+],
+[
+"Split methods compared",
+{
+"table": [
+[
+"Method",
+"Splits at",
+"Best for"
+],
+[
+"By bookmarks",
+"Each bookmark’s page",
+"Books, manuals, reports with an outline"
+],
+[
+"[By text](/split-pdf-by-text/)",
+"Pages containing a word",
+"Statements, invoices, scanned batches"
+],
+[
+"[By size](/split-pdf-by-size/)",
+"A maximum MB per part",
+"Email and upload limits"
+],
+[
+"[By page range](/split-pdf/)",
+"Ranges you type",
+"Anything else"
+]
+]
+}
+],
+[
+"Quality",
+"All three split modes – by bookmarks, by size and by text – produce new PDFs whose pages are exact copies of the original, so text remains selectable and images keep their resolution. When there is more than one part, you get a ZIP; a single result downloads directly."
+],
+[
+"Worked example: a 320-page manual",
+"A product manual has top-level bookmarks *Introduction*, *Installation*, *Operation*, *Maintenance* and *Troubleshooting*, each with several sub-bookmarks. With level 1 selected you get six files: the cover and contents (pages before the first bookmark) plus one PDF per chapter, each named after its bookmark. With level 2 you also get a separate file for every sub-section, such as *Installation – Wiring* and *Installation – Mounting*, which is useful when different technicians need different procedures. The split takes a few seconds and the original manual is left untouched."
+],
+[
+"How bookmarks point to pages",
+"A bookmark is a named link to a destination – usually a page and a position on it. Some PDFs use named destinations rather than direct page numbers; the tool resolves both. Bookmarks that do not point anywhere (for example, headings used only as folders) are skipped. If a chapter's bookmark points to the middle of a page, the split still happens at the start of that page, because pages cannot be divided."
+],
+[
+"Checking your bookmarks before splitting",
+"Open the PDF in any viewer and look at the outline panel: are the chapters at the top level, or nested under a single *Contents* bookmark? If everything is nested under one parent, level 1 will give you a single file – switch to level 2. To rename, add or reorder bookmarks before splitting, use the [PDF bookmark editor](/pdf-bookmark-editor/)."
+],
+[
+"File names",
+"Each file is named *original-N-Bookmark title.pdf*, where N is the part number so files sort in reading order. Characters that are not allowed in file names (such as / : * ?) are removed, and very long titles are shortened to 40 characters. The part without a bookmark (before the first chapter) is simply numbered."
+],
+[
+"Who splits PDFs by bookmarks",
+{
+"list": [
+"**Students** turning an e-textbook into chapter files for revision.",
+"**Lawyers** separating a bookmarked court bundle into tabs.",
+"**Engineers** distributing manual sections to field teams.",
+"**Publishers** sending individual chapters to authors for proofing.",
+"**Accountants** splitting a bookmarked annual report into its statements."
+]
+}
+],
+[
+"Split PDF by bookmarks online vs desktop software",
+"Splitting by bookmarks is a feature usually found in paid desktop PDF suites or limited free online tiers. This tool does it free and locally: the bookmark outline is read in your browser with PDF.js, and each chapter is written with pdf-lib, so the book never leaves your computer. That matters for copyrighted textbooks, confidential tenders and court documents."
+],
+[
+"Common problems",
+{
+"list": [
+"**Only one file produced:** all chapters are nested under one parent bookmark – choose level 2.",
+"**Too many tiny files:** level 2 includes every subsection – choose level 1.",
+"**A chapter starts one page early or late:** the bookmark itself points to the wrong page; fix it in the bookmark editor.",
+"**Odd characters in file names:** symbols are removed for compatibility; rename files afterwards if needed."
+]
+}
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Bookmark / outline",
+"The clickable table of contents in a PDF viewer's side panel"
+],
+[
+"Level",
+"Depth in the outline: 1 = top level, 2 = nested under level 1"
+],
+[
+"Destination",
+"The page and position a bookmark links to"
+],
+[
+"Named destination",
+"A destination referenced by name rather than page number"
+]
+]
+}
+],
+[
+"Mobile use",
+"The tool works in mobile browsers, but chapter files are delivered as a ZIP. On iPhone, open the ZIP in the Files app to extract it; on Android most file managers can open ZIPs. For very large books, a computer is faster."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Split PDF](/split-pdf/)",
+"[Split PDF by text](/split-pdf-by-text/)",
+"[Split PDF by size](/split-pdf-by-size/)",
+"[Edit PDF bookmarks](/pdf-bookmark-editor/)",
+"[Merge PDF](/merge-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Split by bookmark level 1 or 2",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Files named after bookmarks",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Pages before first bookmark kept",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I split a PDF by bookmarks?",
+"a": "Drop the PDF, choose bookmark level 1 or 2 and press Split; you get one file per bookmark in a ZIP."
+},
+{
+"q": "Can I split a PDF by bookmark name?",
+"a": "Each file is named after its bookmark title automatically."
+},
+{
+"q": "Can I split by top-level bookmarks only?",
+"a": "Yes, choose level 1."
+},
+{
+"q": "How do I split PDF bookmarks into separate files?",
+"a": "That is exactly what this tool does – each bookmark section becomes its own PDF."
+},
+{
+"q": "What if my PDF has no bookmarks?",
+"a": "Add them with the bookmarks tool, or split by text or page range."
+},
+{
+"q": "Are bookmarks kept in each part?",
+"a": "No, each part is a clean PDF without the old outline."
+},
+{
+"q": "Is it free?",
+"a": "Yes, no sign-up and no limits."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, splitting runs on your device."
+}
+],
+"related": [
+"split-pdf",
+"split-pdf-by-text",
+"split-pdf-by-size",
+"pdf-bookmark-editor",
+"merge-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"splitsize": {
+"seo": {
+"title": "Split PDF by Size – Max MB per File, Free",
+"desc": "Split a large PDF into parts under a size limit such as 5, 10 or 25 MB for email or upload portals. Whole pages kept. Free, no upload, no sign-up.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Split a PDF by file size",
+"E-mail services, court e-filing systems, government portals and job sites often refuse PDFs above a certain size – 5 MB, 10 MB, 20 or 25 MB are common. Split PDF by size cuts a large file into as few parts as possible, each under the limit you set. Enter the maximum size in MB (decimals are allowed, such as 4.5) and the tool fills each part with whole pages until adding the next page would go over the limit.",
+"Pages are never cut in half and their order is kept, so *part1*, *part2* and *part3* read in sequence."
+],
+[
+"How it decides where to split",
+"The tool builds each part page by page and measures the real saved size after every addition, including the fonts and images each page needs. That makes the result accurate: parts are close to, but not over, your limit. Shared resources such as fonts are included in every part that uses them, so the total size of all parts can be slightly larger than the original."
+],
+[
+"How to split a large PDF into smaller files",
+{
+"steps": [
+"Drop the PDF.",
+"Type the maximum size per part in MB.",
+"Press Split and wait while the parts are measured.",
+"Download the ZIP of parts."
+]
+}
+],
+[
+"When a single page is bigger than the limit",
+"If one page alone is larger than the limit (for example, a very high-resolution scanned photo), it is placed in its own part, which will exceed the limit – a page cannot be split further. In that case, run [Compress PDF](/compress-pdf/) first to reduce image resolution, then split. Compression alone is often enough to get under an upload limit without splitting at all."
+],
+[
+"Common size limits",
+{
+"table": [
+[
+"Destination",
+"Typical limit",
+"Suggested setting"
+],
+[
+"Gmail / Outlook attachment",
+"25 MB / 20 MB",
+"19 MB"
+],
+[
+"Many government and exam portals",
+"2–5 MB",
+"Check the form; use 0.1 MB below it"
+],
+[
+"Court e-filing (varies)",
+"10–35 MB",
+"Check the court rules"
+],
+[
+"Messaging apps",
+"Varies",
+"See app limits"
+]
+]
+}
+],
+[
+"Split by size vs compress",
+"Compressing keeps one file but lowers image quality; splitting keeps full quality but creates several files. If the recipient needs one document, try [Compress PDF](/compress-pdf/) first. If quality matters – drawings, scans for legal records – split instead, and the recipient can recombine the parts with [Merge PDF](/merge-pdf/)."
+],
+[
+"Quality",
+"All three split modes – by bookmarks, by size and by text – produce new PDFs whose pages are exact copies of the original, so text remains selectable and images keep their resolution. When there is more than one part, you get a ZIP; a single result downloads directly."
+],
+[
+"Worked example: a 48 MB scan for a 10 MB portal",
+"A 60-page scanned application is 48 MB, but the portal accepts files up to 10 MB. Enter 9.5 as the maximum size and press Split. The tool adds pages one by one, checks the real saved size, and starts a new part whenever the next page would push it over 9.5 MB – giving five or six parts depending on how heavy each page is. If the portal accepts only one file, try [Compress PDF](/compress-pdf/) first: scanned pages often shrink 70–90%, which may avoid splitting entirely."
+],
+[
+"Why parts differ in page count",
+"Pages are not equal: a text-only page may be 20 KB while a colour photo page is 2 MB. Because the split is based on measured size, a part with many text pages can contain dozens of pages while a part with photos holds only a few. This is intentional – it keeps every part under your limit with the fewest files possible."
+],
+[
+"Choosing a safe limit",
+"Set the limit slightly below the real maximum. E-mail attachments are encoded for sending, which increases their size by about a third, so a 25 MB mail limit fits attachments of roughly 18–19 MB. Portals that state a limit in MB may mean 1,000,000 or 1,048,576 bytes; leaving a margin avoids rejections either way."
+],
+[
+"Speed",
+"Measuring each part means the tool saves the growing PDF repeatedly, so splitting a very long document takes longer than a simple page-range split – a progress counter shows the page being processed. A 200-page file typically finishes in well under a minute on a modern laptop. Everything runs locally, so there is no upload or download time for the source file."
+],
+[
+"Recombining parts",
+"The recipient can join the parts back into one document with [Merge PDF](/merge-pdf/) in seconds. Parts are named *-part1*, *-part2* and so on, so they sort in the right order automatically."
+],
+[
+"Split by size online vs desktop software",
+"Most online splitters upload the whole large file before they can split it – exactly the file that is too big to send easily. Because this tool runs in your browser, there is no upload at all, which makes it much faster for 50–500 MB documents on ordinary connections, and it keeps confidential scans on your own device."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"MB",
+"Megabyte; this tool uses 1 MB = 1,048,576 bytes"
+],
+[
+"Part",
+"One of the output PDFs"
+],
+[
+"Shared resource",
+"A font or image used by several pages, included in each part that needs it"
+],
+[
+"Compression",
+"Reducing file size by lowering image resolution or quality"
+]
+]
+}
+],
+[
+"Common problems",
+{
+"list": [
+"**More parts than expected:** some pages are very heavy; compress first.",
+"**One part over the limit:** a single page exceeds it; compress or convert that page to grayscale.",
+"**Slow on phones:** each part is measured repeatedly; use a computer for very long files."
+]
+}
+],
+[
+"Accessibility and mobile",
+"The size box accepts decimals with a keyboard or the on-screen number pad, progress is shown as text, and the ZIP can be opened in the Files app on iPhone or any Android file manager."
+],
+[
+"Before you split",
+"Check whether the recipient prefers one compressed file or several full-quality parts, and whether their system accepts ZIP files – some portals do not, in which case download the ZIP, extract it, and upload the parts one by one."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Compress PDF](/compress-pdf/)",
+"[Split PDF](/split-pdf/)",
+"[Split PDF by bookmarks](/split-pdf-by-bookmarks/)",
+"[Merge PDF](/merge-pdf/)",
+"[PDF page counter](/pdf-page-counter/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Custom MB limit (decimals)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Measures real part size",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Whole pages only",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I split a PDF by size?",
+"a": "Enter the maximum MB per part, press Split and download the parts as a ZIP."
+},
+{
+"q": "How do I split a PDF into multiple files by size?",
+"a": "Same steps – the tool makes as few parts as possible under your limit."
+},
+{
+"q": "How do I split a large PDF for email?",
+"a": "Set a limit just under your email provider's attachment cap, e.g. 19 MB for a 20 MB cap."
+},
+{
+"q": "Will pages be cut in half?",
+"a": "No, only whole pages are moved into each part."
+},
+{
+"q": "Why is one part over the limit?",
+"a": "A single page is larger than the limit; compress the PDF first."
+},
+{
+"q": "Does splitting reduce quality?",
+"a": "No, pages are copied exactly."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no sign-up."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, all processing is local."
+}
+],
+"related": [
+"compress-pdf",
+"split-pdf",
+"split-pdf-by-bookmarks",
+"merge-pdf",
+"pdf-page-counter"
+],
+"updated": "2026-10-25"
+}
+},
+"splittext": {
+"seo": {
+"title": "Split PDF by Text – Split Where a Word Appears",
+"desc": "Split a PDF wherever a word or phrase appears, such as 'Invoice' or 'Chapter'. Split before or after the match, case option. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Split a PDF document wherever a word appears",
+"Split PDF by text searches each page for a word or phrase you type and starts a new file at every page where it appears. It is the fastest way to break apart combined documents that all share a heading: a month of invoices that each start with *Invoice No.*, a payroll file with one *Payslip* per employee, a textbook where each chapter begins with *Chapter*, or a scan batch separated by cover sheets.",
+"Choose whether to split **before** the page containing the text (the match becomes the first page of each part – usual for headings) or **after** it (the match becomes the last page – useful when a document ends with *Total* or *Signature*)."
+],
+[
+"How to split a PDF by text content",
+{
+"steps": [
+"Drop the PDF.",
+"Type the text to look for, e.g. Invoice.",
+"Choose Match case if capitals matter, and split before or after the matching page.",
+"Press Split and download the ZIP of parts."
+]
+}
+],
+[
+"Choosing good search text",
+{
+"list": [
+"Pick a word that appears **once per document** – a heading, a form title or a label like *Page 1 of*.",
+"Avoid common words that also appear in the body text.",
+"Use *Match case* to distinguish *CHAPTER* headings from *chapter* in sentences.",
+"Phrases work: *Statement of Account* is more precise than *Statement*."
+]
+}
+],
+[
+"Splitting a textbook into chapters",
+"Type *Chapter* and split before. If the book has bookmarks, [Split PDF by bookmarks](/split-pdf-by-bookmarks/) is even better because it also names the files after the chapter titles. For a scanned textbook, run [OCR PDF](/ocr-pdf/) first – the search only finds real text, not pictures of text."
+],
+[
+"What if the text is not found?",
+"You will see *Not found* with your search term. Check spelling and the Match case box, then confirm the PDF has a text layer: try selecting text in a PDF viewer. If you cannot select it, the pages are images and need OCR. Some PDFs store unusual character spacing that splits words; a shorter search term usually still matches."
+],
+[
+"Text split vs other methods",
+{
+"table": [
+[
+"Your document",
+"Best method"
+],
+[
+"Many invoices or statements in one file",
+"Split by text"
+],
+[
+"Book or manual with outline",
+"[Split by bookmarks](/split-pdf-by-bookmarks/)"
+],
+[
+"Too large to email",
+"[Split by size](/split-pdf-by-size/)"
+],
+[
+"Fixed page counts (every 2 pages)",
+"[Split PDF](/split-pdf/) – every X pages"
+]
+]
+}
+],
+[
+"Quality",
+"All three split modes – by bookmarks, by size and by text – produce new PDFs whose pages are exact copies of the original, so text remains selectable and images keep their resolution. When there is more than one part, you get a ZIP; a single result downloads directly."
+],
+[
+"Worked example: a month of invoices in one PDF",
+"Accounting software exported 31 invoices into a single 74-page PDF – some invoices are one page, some three. Each invoice starts with the heading *TAX INVOICE*. Type *TAX INVOICE*, tick Match case, choose *Before the page containing the text* and press Split. You get 31 PDFs, each holding exactly one invoice, regardless of length. That is impossible with fixed page ranges and would take ages by hand."
+],
+[
+"Split after a match",
+"Some documents are easier to detect by how they end. A set of signed forms might each finish with *Signature of applicant*, or bank statements with *Closing balance*. Choose *After the page containing the text* and every part will end on the matching page, with the next part starting on the following page."
+],
+[
+"How matching works",
+"The text of every page is extracted with PDF.js and joined into one string per page. Your search term is matched anywhere in that text – it does not have to be a whole line. Without Match case, *invoice*, *Invoice* and *INVOICE* all match. If a word appears more than once on the same page, the page still produces only one split point."
+],
+[
+"Troubleshooting",
+{
+"list": [
+"**Too many parts:** the word also appears in body text – use a longer, more specific phrase or tick Match case.",
+"**Too few parts:** some headings may be images (logos) rather than text – try another word that appears in real text on those pages.",
+"**Not found at all:** the PDF is probably scanned; run [OCR PDF](/ocr-pdf/) and try again.",
+"**First part is a cover page:** pages before the first match always form their own part so nothing is lost."
+]
+}
+],
+[
+"Who uses split by text",
+{
+"list": [
+"**Finance teams** splitting batch-printed invoices, payslips and remittances.",
+"**HR** separating combined offer letters or contracts per employee.",
+"**Schools** splitting a merged file of report cards per student.",
+"**Scanning services** separating batches using cover sheets with a keyword."
+]
+}
+],
+[
+"Split by text online vs desktop software",
+"Content-based splitting is usually a premium feature in desktop PDF suites and automated document-processing software. Here it is free, runs in your browser and never uploads your files – important for invoices, payslips and statements that contain personal and financial data."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"Text layer",
+"The searchable text stored in a PDF; scanned PDFs need OCR to get one"
+],
+[
+"Match case",
+"Only match text with exactly the same capital letters"
+],
+[
+"Split before",
+"The matching page starts a new part"
+],
+[
+"Split after",
+"The matching page ends the current part"
+]
+]
+}
+],
+[
+"Combining with other tools",
+{
+"list": [
+"Run [OCR PDF](/ocr-pdf/) first for scanned batches.",
+"After splitting, use [Merge PDF](/merge-pdf/) to regroup parts, or [Compress PDF](/compress-pdf/) to shrink them for e-mail.",
+"Use [Add page numbers](/add-page-numbers/) on each part if they need their own numbering.",
+"Check text in a batch quickly with [PDF to text](/pdf-to-text/) to choose the best search phrase."
+]
+}
+],
+[
+"Naming the parts",
+"Parts are numbered in reading order (*file-1.pdf*, *file-2.pdf* …) so they sort correctly in any folder. If you need names such as invoice numbers, rename them after downloading; a batch-rename feature in your file manager makes that quick."
+],
+[
+"Accuracy check",
+"After splitting, compare the number of parts with the number of documents you expected. If they differ, open the parts around the mismatch: a heading might be missing on one page, or appear twice. Adjust the search text and split again – it only takes seconds."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[Split PDF](/split-pdf/)",
+"[Split PDF by bookmarks](/split-pdf-by-bookmarks/)",
+"[OCR PDF](/ocr-pdf/)",
+"[Find and replace in PDF](/find-and-replace-pdf/)",
+"[Merge PDF](/merge-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Split before or after match",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Match case option",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I split a PDF by text?",
+"a": "Type the word that starts each section, choose split before or after, and press Split."
+},
+{
+"q": "Is there a way to split a PDF document automatically?",
+"a": "Yes – by text, by bookmarks or by size, without typing page ranges."
+},
+{
+"q": "How do I split a PDF textbook into chapters?",
+"a": "Search for 'Chapter' and split before the match, or use split by bookmarks."
+},
+{
+"q": "Does it work on scanned PDFs?",
+"a": "Only after OCR, because the search needs real text."
+},
+{
+"q": "Can I split after a word instead?",
+"a": "Yes, choose 'After the page containing the text'."
+},
+{
+"q": "Is the search case-sensitive?",
+"a": "Only if you tick Match case."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no sign-up."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, it is processed on your device."
+}
+],
+"related": [
+"split-pdf",
+"split-pdf-by-bookmarks",
+"ocr-pdf",
+"find-and-replace-pdf",
+"merge-pdf"
+],
+"updated": "2026-10-25"
+}
+},
+"nup": {
+"seo": {
+"title": "N-up PDF – 2, 4, 6, 9 or 16 Pages per Sheet Free",
+"desc": "Put multiple PDF pages on one sheet: 2, 4, 6, 9 or 16 per page, A4, Letter or A3, reading order, borders. Saves paper. Free, no upload.",
+"compareTitle": "{tool}: {brand} vs iLovePDF, Smallpdf and Sejda",
+"compareCols": [
+"iLovePDF",
+"Smallpdf",
+"Sejda"
+],
+"sections": [
+[
+"Print multiple pages per sheet with N-up PDF",
+"N-up (pronounced *en-up*) means printing several pages of a document on a single sheet of paper. N-up PDF creates a new PDF where 2, 4, 6, 9 or 16 original pages are scaled down and arranged in a grid on each sheet. It is the standard way to make handouts, proof sheets and study notes, and it can cut paper use by up to 94%.",
+"Because the result is a real PDF, it prints the same everywhere – no need to hunt for the *pages per sheet* setting in each printer driver – and you can share it or store it as a compact overview of a long document."
+],
+[
+"Layouts",
+{
+"table": [
+[
+"Pages per sheet",
+"Grid",
+"Sheet orientation",
+"Good for"
+],
+[
+"2",
+"2 × 1",
+"Landscape",
+"Slides, reading two pages side by side"
+],
+[
+"4",
+"2 × 2",
+"Portrait",
+"Handouts, notes"
+],
+[
+"6",
+"3 × 2",
+"Landscape",
+"Presentation handouts"
+],
+[
+"9",
+"3 × 3",
+"Portrait",
+"Overviews, proof sheets"
+],
+[
+"16",
+"4 × 4",
+"Portrait",
+"Contact sheets, thumbnails of a long document"
+]
+]
+}
+],
+[
+"Options",
+{
+"list": [
+"**Sheet size** – A4, US Letter or A3. A3 gives each mini page more room, great for 9 or 16 up.",
+"**Reading order** – left to right then down (like reading a page of text), or top to bottom then across (column order, used by some printing workflows).",
+"**Border** – a thin grey frame around each page makes slide handouts easier to read and cut.",
+"Pages are scaled to fit their cell while keeping their proportions, and centred."
+]
+}
+],
+[
+"How to N-up a PDF",
+{
+"steps": [
+"Drop the PDF.",
+"Choose pages per sheet, sheet size and reading order.",
+"Press the button to create the N-up PDF.",
+"Download and print at 100% (actual size)."
+]
+}
+],
+[
+"N-up vs booklet",
+"N-up puts pages in reading order on each sheet. A booklet arranges pages so that when sheets are folded in half and stacked, they read in sequence – a different order entirely. For a folded booklet, use [PDF booklet](/create-booklet-pdf/) instead."
+],
+[
+"Readability tips",
+"Text shrinks with each step: at 4-up an A4 page becomes roughly A6, which is fine for slides but small for dense text. At 9-up and 16-up only headings remain legible, so use them for overviews. Choosing A3 sheets, or printing on a printer that supports it, makes higher counts readable."
+],
+[
+"Quality",
+"Pages are embedded as vector content, not as pictures, so text stays sharp when printed and can still be selected and searched in the new PDF. File size stays close to the original because the page content is reused rather than duplicated."
+],
+[
+"Worked example: slide handouts",
+"You have a 36-slide presentation saved as PDF and want handouts for a workshop. Choose 6 pages per sheet, A4, left-to-right order and borders on. The result is a 6-page PDF where each sheet holds six slides in a 3 × 2 grid on landscape paper. Printed double-sided, the whole deck fits on three sheets of paper instead of 36. For note-taking space, choose 4 per sheet and leave a margin, or print 2 per sheet on A4."
+],
+[
+"Paper saved",
+{
+"table": [
+[
+"Original pages",
+"2-up sheets",
+"4-up sheets",
+"9-up sheets",
+"16-up sheets"
+],
+[
+"20",
+"10",
+"5",
+"3",
+"2"
+],
+[
+"60",
+"30",
+"15",
+"7",
+"4"
+],
+[
+"120",
+"60",
+"30",
+"14",
+"8"
+],
+[
+"300",
+"150",
+"75",
+"34",
+"19"
+]
+]
+},
+"Print the N-up PDF double-sided to halve the sheet count again."
+],
+[
+"Printing the result correctly",
+"Print at *Actual size* or *100%* rather than *Fit to page*, and turn off the printer's own *pages per sheet* setting – otherwise the pages may be shrunk twice. For landscape layouts (2-up and 6-up), the PDF already contains landscape sheets, so most printers rotate automatically. For double-sided landscape printing, choose *flip on short edge*."
+],
+[
+"Reading order explained",
+"Left to right, then down places pages 1, 2, 3 across the top row and continues on the next row – the natural order for handouts. Top to bottom, then across fills the first column before moving right, which suits narrow columns of thumbnails, contact sheets that are read like a newspaper, and some cutting workflows where stacks are cut column by column."
+],
+[
+"Who uses N-up",
+{
+"list": [
+"**Teachers and trainers** making slide handouts.",
+"**Students** printing lecture notes compactly for revision.",
+"**Designers** creating proof or contact sheets of a document.",
+"**Lawyers** printing a quick overview of a long bundle.",
+"**Anyone** saving paper and ink on long reference documents."
+]
+}
+],
+[
+"N-up PDF online vs printer settings",
+"Most printer dialogs offer *pages per sheet*, but results vary by driver, the option is often hidden, and it cannot be saved or shared. An N-up PDF is a real document: it looks the same on every printer, can be e-mailed to a print shop, and can be archived as a compact overview. It is also the only way to get N-up on many phone and tablet print dialogs."
+],
+[
+"Glossary",
+{
+"table": [
+[
+"Term",
+"Meaning"
+],
+[
+"N-up",
+"Printing N pages on one sheet"
+],
+[
+"Imposition",
+"Arranging pages on sheets for printing; N-up is the simplest form"
+],
+[
+"Cell",
+"The area on the sheet that one page is scaled into"
+],
+[
+"Actual size",
+"Printing at 100% without extra scaling"
+],
+[
+"Booklet",
+"Imposition for folding sheets into a booklet"
+]
+]
+}
+],
+[
+"Common problems",
+{
+"list": [
+"**Pages look tiny:** you chose too many per sheet or printed with *fit to page* – print at actual size or choose fewer per sheet.",
+"**Mixed page sizes:** each page is scaled to fit its cell, so a landscape page among portrait ones will be smaller.",
+"**Wrong order for cutting:** switch the reading order."
+]
+}
+],
+[
+"Accessibility",
+"Options are standard drop-downs that work with keyboards and screen readers. The output keeps the original text layer, so the N-up PDF can still be searched and read by assistive technology."
+],
+[
+"Environmental impact",
+"Printing 4-up instead of 1-up uses a quarter of the paper and, depending on coverage, noticeably less toner. For documents you only need to skim or annotate lightly, that adds up quickly over a semester or a project."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab with pdf-lib and PDF.js. The PDF is read from your disk into memory, processed there and saved straight back to your device. It is never uploaded, stored or logged, and the tool keeps working offline once the page has loaded – which makes it suitable for contracts, medical records, HR files, bank statements and anything else you would not e-mail to a stranger."
+],
+[
+"Related tools",
+[
+"[PDF booklet](/create-booklet-pdf/)",
+"[Resize PDF pages](/resize-pdf/)",
+"[Split PDF pages in half](/split-pdf-pages-in-half/)",
+"[Merge PDF](/merge-pdf/)",
+"[Organize PDF](/organize-pdf/)"
+]
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"16 pages per sheet",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"A3 sheets",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Column reading order",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I put multiple PDF pages on one page?",
+"a": "Choose 2, 4, 6, 9 or 16 pages per sheet and create the N-up PDF."
+},
+{
+"q": "What does N-up mean?",
+"a": "Printing N pages on one sheet of paper."
+},
+{
+"q": "How do I print 4 slides per page?",
+"a": "Choose 4 per sheet, A4 or Letter, and print the result at actual size."
+},
+{
+"q": "Is text still sharp?",
+"a": "Yes, pages are embedded as vectors, not images."
+},
+{
+"q": "Can I choose column order?",
+"a": "Yes, pick top to bottom, then across."
+},
+{
+"q": "Is N-up the same as a booklet?",
+"a": "No, a booklet reorders pages for folding."
+},
+{
+"q": "Is it free?",
+"a": "Yes, with no sign-up."
+},
+{
+"q": "Is my PDF uploaded?",
+"a": "No, everything runs in your browser."
+}
+],
+"related": [
+"create-booklet-pdf",
+"resize-pdf",
+"split-pdf-pages-in-half",
+"merge-pdf",
+"organize-pdf"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}

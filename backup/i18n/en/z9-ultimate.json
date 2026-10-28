@@ -1,0 +1,94 @@
+{
+  "tools": {
+    "reverseaudio": {
+      "name": "Reverse Audio",
+      "short": "Play music and audio tracks backwards online.",
+      "title": "Reverse Audio Online Free | {brand}",
+      "desc": "Reverse audio and play music backwards online free in your browser. Flip MP3, WAV, M4A tracks in reverse with zero uploads and instant download.",
+      "h1": "Reverse Audio Online",
+      "steps": ["Upload your audio file (MP3, WAV, M4A, etc.).", "Our audio engine reverses audio sample frames.", "Listen in reverse and download your backward audio."],
+      "faq": [{"q": "Can I reverse any audio format?", "a": "Yes! {brand} decodes MP3, WAV, OGG, M4A, and FLAC files and reverses playback with 100% fidelity."}]
+    },
+    "karaoke": {
+      "name": "Vocal Remover & Karaoke Maker",
+      "short": "Isolate instrumental backing tracks and remove vocals.",
+      "title": "Vocal Remover & Karaoke Maker | {brand}",
+      "desc": "Remove lead vocals from songs to create instrumental karaoke tracks online free. High-fidelity stereo phase cancellation directly in your browser.",
+      "h1": "Vocal Remover & Karaoke Maker",
+      "steps": ["Select your song or stereo audio track.", "Center-channel vocals are cancelled via phase inversion.", "Preview instrumental track and download audio."],
+      "faq": [{"q": "How does vocal removal work?", "a": "Most studio recordings place lead vocals dead-center across stereo channels. By subtracting right channel from left channel, center vocals cancel out leaving backing instruments."}]
+    },
+    "nightcore": {
+      "name": "Nightcore Audio Generator",
+      "short": "Speed up tempo and pitch to create Nightcore remixes.",
+      "title": "Nightcore Audio Maker Online | {brand}",
+      "desc": "Make high-energy Nightcore remixes online free. Boost audio speed and pitch by 20% to 30% directly in your browser with instant WAV download.",
+      "h1": "Nightcore Audio Generator",
+      "steps": ["Select your favorite music track.", "Choose your speed boost (+20%, +25%, +30%).", "Preview remix and download your Nightcore track."],
+      "faq": [{"q": "What is Nightcore?", "a": "Nightcore is an upbeat music style where songs are sped up by 15% to 30%, giving vocals a distinctive pitch and boosting energy."}]
+    },
+    "scanqr": {
+      "name": "Scan QR Code from Image",
+      "short": "Decode QR codes from photos and screenshots online.",
+      "title": "Scan QR Code from Image Online | {brand}",
+      "desc": "Scan and decode QR codes from image files, photos, and screenshots online free. Extract links, text, and Wi-Fi credentials with zero server uploads.",
+      "h1": "Scan QR Code from Image Online",
+      "steps": ["Upload your image or screenshot containing a QR code.", "Our engine locates and decodes QR matrix data.", "Copy decoded URL or text, or open link directly."],
+      "faq": [{"q": "Can I scan QR codes from screenshots?", "a": "Yes! Upload any PNG, JPG, or WEBP image or screenshot and {brand} reads the QR code instantly."}]
+    },
+    "cbr2cbz": {
+      "name": "CBR to CBZ",
+      "short": "Convert RAR-based CBR comics into standard CBZ archives.",
+      "title": "CBR to CBZ Converter Free | {brand}",
+      "desc": "Convert RAR comic archives (.cbr) to standard ZIP comic books (.cbz) online free. Compatible with all e-readers, Kindle, and tablet comic apps.",
+      "h1": "Convert CBR to CBZ Online",
+      "steps": ["Upload your CBR comic book file.", "Comic pages are extracted and repacked into ZIP structure.", "Download your universal CBZ comic archive."],
+      "faq": [{"q": "Why convert CBR to CBZ?", "a": "Many modern e-readers and mobile comic apps only support ZIP-based CBZ files because RAR is a proprietary format."}]
+    },
+    "html2md": {
+      "name": "HTML to Markdown",
+      "short": "Convert HTML markup into clean Markdown syntax.",
+      "title": "HTML to Markdown Converter | {brand}",
+      "desc": "Convert HTML code, webpages, and articles into clean Markdown syntax online free. Preserves headings, bold text, links, lists, code, and tables.",
+      "h1": "Convert HTML to Markdown",
+      "steps": ["Upload an HTML file or document.", "Our parser converts tags into clean Markdown formatting.", "Download your formatted .md text file."],
+      "faq": [{"q": "Does this support tables and code snippets?", "a": "Yes! Tables, code blocks, lists, quotes, and links convert seamlessly to GitHub-flavored Markdown."}]
+    },
+    "jsondiff": {
+      "name": "JSON Diff Comparator",
+      "short": "Compare two JSON files and view differences side-by-side.",
+      "title": "JSON Diff & Compare Tool | {brand}",
+      "desc": "Compare two JSON files online free and inspect differences side-by-side. Highlights added, removed, and modified keys with instant markdown diff report.",
+      "h1": "JSON Diff Comparator Online",
+      "steps": ["Upload two JSON files (Base and Modified).", "Our comparator detects structural changes and value differences.", "Inspect differences and download markdown diff report."],
+      "faq": [{"q": "Can I compare nested objects and arrays?", "a": "Yes! The JSON Diff tool recursively inspects nested keys, arrays, and primitives."}]
+    },
+    "vtt2srt": {
+      "name": "WebVTT to SRT",
+      "short": "Convert WebVTT (.vtt) subtitles to SubRip (.srt) format.",
+      "title": "WebVTT to SRT Converter Free | {brand}",
+      "desc": "Convert WebVTT (.vtt) subtitles to SubRip (.srt) format online free. Replaces timecodes and removes VTT styling for media player compatibility.",
+      "h1": "Convert WebVTT to SRT Online",
+      "steps": ["Upload your WebVTT (.vtt) subtitle file.", "Timecodes and headers are converted to SubRip format.", "Download your compatible .srt subtitle file."],
+      "faq": [{"q": "Will my VLC or TV player support the converted SRT?", "a": "Yes! SRT is the most widely supported subtitle format across VLC, smart TVs, and media players."}]
+    },
+    "csv2tsv": {
+      "name": "CSV to TSV",
+      "short": "Convert Comma-Separated Values to Tab-Separated Values.",
+      "title": "CSV to TSV Converter Online | {brand}",
+      "desc": "Convert Comma-Separated Values (CSV) to Tab-Separated Values (TSV) online free. Clean conversion respecting quotes, linebreaks, and delimiters.",
+      "h1": "Convert CSV to TSV Online",
+      "steps": ["Upload your CSV data file.", "Comma separators are converted to clean tab stops.", "Download your TSV spreadsheet file."],
+      "faq": [{"q": "Are fields with commas handled properly?", "a": "Yes! Quoted fields containing commas are preserved and converted cleanly."}]
+    },
+    "tsv2csv": {
+      "name": "TSV to CSV",
+      "short": "Convert Tab-Separated Values to standard CSV format.",
+      "title": "TSV to CSV Converter Online | {brand}",
+      "desc": "Convert Tab-Separated Values (TSV) to standard Comma-Separated Values (CSV) online free. Fast in-browser data conversion with instant download.",
+      "h1": "Convert TSV to CSV Online",
+      "steps": ["Upload your TSV file.", "Tabs are converted to comma delimiters with smart quoting.", "Download your universal CSV file."],
+      "faq": [{"q": "Can I open the resulting CSV in Microsoft Excel?", "a": "Yes! Standard CSV files open directly in Excel, Google Sheets, Numbers, and databases."}]
+    }
+  }
+}

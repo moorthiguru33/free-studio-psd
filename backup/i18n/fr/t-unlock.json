@@ -1,0 +1,217 @@
+{
+  "tools": {
+    "unlock": {
+      "name": "Déverrouiller un PDF",
+      "short": "Retirez le mot de passe d'un PDF qui vous appartient.",
+      "title": "Déverrouiller un PDF en ligne gratuit – Retirer le mot de passe | {brand}",
+      "desc": "Retirez la protection par mot de passe d'un PDF quand vous connaissez le mot de passe. Gratuit et privé : traité dans votre navigateur.",
+      "h1": "Déverrouiller un PDF",
+      "steps": [
+        "Sélectionnez le PDF protégé.",
+        "Saisissez son mot de passe.",
+        "Cliquez sur Démarrer et téléchargez le PDF déverrouillé."
+      ],
+      "faq": [
+        {
+          "q": "Pouvez-vous cracker un mot de passe inconnu ?",
+          "a": "Non. Vous devez connaître le mot de passe. Ne déverrouillez que des fichiers auxquels vous avez le droit d'accéder."
+        }
+      ],
+      "guide": {
+        "intro": "Les relevés bancaires et les factures électroniques arrivent souvent protégés par mot de passe. Si vous le connaissez, {brand} peut le retirer pour que vous puissiez ouvrir, imprimer ou fusionner le fichier librement, le tout en local dans votre navigateur.",
+        "uses": [
+          "Retirer le mot de passe de relevés bancaires ou de carte qui vous appartiennent.",
+          "Préparer des PDF protégés pour les fusionner ou les compresser."
+        ],
+        "tips": [
+          "Vous devez connaître le mot de passe ; cet outil ne craque pas les mots de passe."
+        ],
+        "faq": [],
+        "more": [
+          [
+            "Mots de passe propriétaire et utilisateur",
+            "Les PDF peuvent avoir un mot de passe d'ouverture (nécessaire pour les afficher) et des mots de passe de permissions qui restreignent l'impression, la copie ou la modification. Quand vous connaissez le mot de passe, le déverrouillage retire la protection pour que vous puissiez utiliser le fichier normalement."
+          ],
+          [
+            "Usage légal et sûr",
+            "Ne déverrouillez que des documents qui vous appartiennent ou auxquels vous avez le droit d'accéder, comme vos propres relevés bancaires, factures d'énergie ou fiches de paie. Après le déverrouillage, conservez le fichier en lieu sûr : il n'est plus protégé."
+          ],
+          [
+            "Après le déverrouillage",
+            "Une fois le mot de passe retiré, vous pouvez fusionner le fichier avec d'autres documents, le compresser, numéroter ses pages ou l'imprimer sans que le mot de passe soit demandé à chaque fois."
+          ]
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Déverrouiller un PDF – Retirer mot de passe et restrictions",
+        "desc": "Retirez un mot de passe PDF connu ou les restrictions d'impression, de copie et de modification. Par lots, sans envoi, hors ligne. Gratuit.",
+        "sections": [
+          [
+            "Retirez le mot de passe d'un PDF en quelques secondes",
+            "Saisir un mot de passe à chaque ouverture de votre propre relevé bancaire ou fiche de paie devient vite pénible. {brand} retire le mot de passe pour que le fichier s'ouvre directement, à condition que vous le connaissiez. Le PDF est déchiffré dans votre navigateur et enregistré comme une copie normale non protégée. Ni le fichier ni le mot de passe ne sont envoyés.",
+            "Beaucoup de PDF ont aussi un **mot de passe propriétaire** qui n'empêche pas d'ouvrir le fichier mais bloque l'impression, la copie de texte ou la modification. Ces restrictions peuvent généralement être retirées sans saisir de mot de passe : laissez le champ vide."
+          ],
+          [
+            "Ce que fait ce déverrouilleur",
+            [
+              "**Retire le mot de passe d'ouverture** quand vous le saisissez correctement.",
+              "**Retire les restrictions d'impression, de copie et de modification** des fichiers qui s'ouvrent sans mot de passe.",
+              "**Conserve tout le reste** : pages, texte, images, liens, titre et auteur sont copiés dans le nouveau fichier.",
+              "**Par lots** : déverrouillez d'un coup plusieurs PDF ayant le même mot de passe et téléchargez-les dans un ZIP.",
+              "**Erreurs claires** : si un mot de passe est incorrect, l'outil indique quel fichier a échoué."
+            ]
+          ],
+          [
+            "Ne déverrouillez que les fichiers autorisés",
+            "Utilisez cet outil pour vos propres documents ou pour des fichiers dont le propriétaire vous a donné le mot de passe. Il ne craque ni ne devine les mots de passe inconnus. Retirer la protection de documents auxquels vous n'avez pas le droit d'accéder peut enfreindre la loi ou un contrat : respectez la volonté de l'auteur du document."
+          ],
+          [
+            "Comment déverrouiller un PDF",
+            [
+              "Déposez le PDF protégé (ou plusieurs).",
+              "Saisissez le mot de passe, ou laissez vide si le fichier n'a que des restrictions.",
+              "Cliquez sur Déverrouiller et téléchargez la copie non protégée.",
+              "Conservez le fichier déverrouillé en lieu sûr : toute personne qui l'a peut désormais le lire."
+            ]
+          ],
+          [
+            "Déverrouiller sur différents appareils",
+            "Comme l'outil fonctionne dans une page web, il s'utilise de la même façon sous Windows, macOS, Linux, Chromebook, Android et iPhone. Sur Mac, vous pouvez aussi ouvrir le PDF dans Aperçu, saisir le mot de passe et l'exporter sans chiffrement ; dans Chrome, vous pouvez ouvrir le PDF, saisir le mot de passe et utiliser « Imprimer → Enregistrer au format PDF », mais cela peut aplatir liens et formulaires. Cet outil garde la structure d'origine intacte."
+          ],
+          [
+            "PDF en lecture seule et restreints",
+            "Un PDF « en lecture seule » a généralement un mot de passe propriétaire avec la modification désactivée. Laissez le mot de passe vide et déverrouillez-le pour le modifier avec [Modifier un PDF](/edit-pdf/), le remplir avec [Remplir un formulaire PDF](/fill-pdf-form/) ou le réorganiser avec [Organiser un PDF](/organize-pdf/). Si un fichier est « en lecture seule » parce que c'est un scan, il n'a pas de texte à modifier : passez-le d'abord dans [OCR PDF](/ocr-pdf/)."
+          ],
+          [
+            "Usages courants",
+            [
+              "Retirer le mot de passe des relevés mensuels de banque, de carte et d'énergie.",
+              "Déverrouiller fiches de paie et formulaires fiscaux pour les archiver.",
+              "Autoriser l'impression de documents où elle était désactivée.",
+              "Préparer des fichiers à fusionner, compresser ou modifier, ces tâches nécessitant des PDF non protégés.",
+              "Le protéger de nouveau avec un nouveau mot de passe grâce à [Protéger un PDF](/protect-pdf/)."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs",
+            "Leurs serveurs",
+            "Cloud d'Adobe",
+            "Leurs serveurs"
+          ],
+          [
+            "Fonctionne Wi-Fi coupé",
+            "Oui, une fois la page chargée",
+            "Non",
+            "Non",
+            "Non",
+            "Non"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Connexion pour certaines actions",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "Offre gratuite ; Premium pour plus",
+            "3 tâches/heure, 50 Mo par fichier"
+          ],
+          [
+            "Retirer les restrictions sans mot de passe",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Déverrouillage par lots",
+            "Gratuit, en ZIP",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site",
+            "Dans la limite de tâches"
+          ],
+          [
+            "Mot de passe envoyé à un serveur",
+            "Jamais",
+            "Oui (avec le fichier)",
+            "Oui (avec le fichier)",
+            "Oui (avec le fichier)",
+            "Oui (avec le fichier)"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment retirer le mot de passe d'un PDF ?",
+            "a": "Déposez le PDF ici, saisissez le mot de passe et cliquez sur Déverrouiller. Vous obtenez une copie qui s'ouvre sans mot de passe."
+          },
+          {
+            "q": "Puis-je déverrouiller un PDF gratuitement ?",
+            "a": "Oui, sans limites, filigrane ni inscription."
+          },
+          {
+            "q": "Est-ce sûr ?",
+            "a": "Oui. Le fichier et le mot de passe restent dans votre navigateur ; rien n'est envoyé."
+          },
+          {
+            "q": "Puis-je déverrouiller un PDF sans le mot de passe ?",
+            "a": "S'il n'a que des restrictions (impression, copie, modification), oui : laissez le champ vide. S'il faut un mot de passe pour l'ouvrir, vous devez le connaître ; cet outil ne craque pas les mots de passe."
+          },
+          {
+            "q": "Puis-je déverrouiller un PDF en lecture seule ?",
+            "a": "Oui. Les PDF en lecture seule n'ont généralement que des restrictions de modification, qui peuvent être retirées sans mot de passe."
+          },
+          {
+            "q": "Puis-je retirer le mot de passe d'un PDF sur Mac, iPhone ou Android ?",
+            "a": "Oui. L'outil fonctionne dans tout navigateur moderne, sur tout appareil."
+          },
+          {
+            "q": "Puis-je déverrouiller plusieurs PDF à la fois ?",
+            "a": "Oui, s'ils ont le même mot de passe. Les résultats se téléchargent dans un ZIP."
+          },
+          {
+            "q": "Le contenu va-t-il changer ?",
+            "a": "Non. Les pages, le texte, les images et les liens sont conservés à l'identique."
+          },
+          {
+            "q": "Est-il légal de déverrouiller un PDF ?",
+            "a": "Déverrouiller vos propres fichiers ou des fichiers pour lesquels vous avez l'autorisation ne pose pas de problème. Ne retirez pas la protection de documents auxquels vous n'avez pas le droit d'accéder."
+          }
+        ],
+        "related": [
+          "protect-pdf",
+          "edit-pdf",
+          "merge-pdf",
+          "compress-pdf",
+          "ocr-pdf"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment déverrouiller un PDF ?",
+            "a": "Déposez le PDF. S'il n'a que des restrictions (pas d'impression ni de copie), elles sont retirées immédiatement. S'il faut un mot de passe pour l'ouvrir, saisissez le mot de passe que vous connaissez et téléchargez une copie déverrouillée."
+          },
+          {
+            "q": "Puis-je déverrouiller un PDF sans le mot de passe ?",
+            "a": "Vous pouvez retirer les restrictions de permissions sans mot de passe. Un PDF qui demande un mot de passe à l'ouverture est chiffré, et cet outil ne craque ni ne devine les mots de passe inconnus : il vous faut le mot de passe de la personne qui vous a envoyé le fichier."
+          },
+          {
+            "q": "Comment déverrouiller un PDF pour le modifier ?",
+            "a": "Le déverrouillage retire les restrictions qui empêchent de modifier, copier ou imprimer. Vous pouvez ensuite ouvrir le fichier dans l'éditeur PDF ou toute autre app."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1024 @@
+{
+ "ui": {
+  "allTools": "Tüm PDF Araçları",
+  "select": "Dosyaları Seç",
+  "selectMany": "Dosyaları Seç",
+  "orDrop": "veya dosyaları buraya sürükleyin",
+  "drop": "Dosyaları buraya bırakın",
+  "process": "Başlat",
+  "download": "İndir",
+  "working": "İşleniyor…",
+  "done": "Tamamlandı! Dosyanız hazır.",
+  "error": "Bir hata oluştu:",
+  "another": "Yeniden Başla",
+  "privacy": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+  "howTo": "Nasıl Yapılır",
+  "faq": "Sıkça Sorulan Sorular",
+  "related": "İlgili Araçlar",
+  "popularSearches": "Popüler Aramalar",
+  "language": "Dil",
+  "footer": "Ücretsiz çevrimiçi PDF araçları. Tarayıcınızda yerel işleme.",
+  "ad": "Reklam",
+  "beta": "Beta",
+  "pages": "sayfa",
+  "remove": "Kaldır",
+  "moveUp": "Yukarı taşı",
+  "moveDown": "Aşağı taşı",
+  "f1t": "Tamamen Ücretsiz",
+  "f1d": "Gizli ücret yok, günlük sınır yok, filigran yok.",
+  "f2t": "Tam Gizlilik",
+  "f2d": "Her şey cihazınızda çalışır. Dosyalarınız sunuculara gitmez.",
+  "f3t": "Hızlı ve Her Yerde",
+  "f3d": "Kurulum gerektirmeden telefon, tablet ve bilgisayarda çalışır.",
+  "stepUpload": "Yükle",
+  "stepOptions": "Seçenekler",
+  "stepDownload": "İndir",
+  "tFree": "%100 Ücretsiz",
+  "tNoSign": "Kayıt Yok",
+  "tNoLimit": "Sınırsız",
+  "tLocal": "Dosyalar cihazda kalır",
+  "privH": "Gizliliğiniz bizim için önceliktir",
+  "privHnf": "%100 Güvenli ve Gizli",
+  "privP": "Dosya işlemleri doğrudan web tarayıcınızın içinde gerçekleşir.",
+  "privPnf": "Üçüncü taraf sunuculara hiçbir veri gönderilmez.",
+  "privL1b": "Sunucuya Yükleme Yok:",
+  "privL1": "Dosyalarınız asla tarayıcınızdan çıkmaz.",
+  "privL2b": "Veri Kaydedilmez:",
+  "privL2": "Kişisel belgelerinizi saklamıyor ve okumuyoruz.",
+  "privL3b": "Uluslararası Uyumluluk:",
+  "privL3": "GDPR ve veri koruma standartlarıyla tam uyumludur.",
+  "whyTitle": "Neden {brand} Tercih Edilmeli",
+  "cmpThem": "Diğer Çevrimiçi Hizmetler",
+  "cmpRow1": "Sunucuya Yükleme",
+  "cmpRow1us": "0 yükleme (tarayıcı içi)",
+  "cmpRow1them": "Dosyalar sunucuya gönderilir",
+  "cmpRow2": "Kullanım Limiti",
+  "cmpRow2us": "Sınırsız ve ücretsiz",
+  "cmpRow2them": "Saatlik limitler veya ücretli",
+  "cmpRow3": "Belge Gizliliği",
+  "cmpRow3us": "%100 cihazınızda kalır",
+  "cmpRow3them": "Üçüncü taraf bulutta saklanır",
+  "cmpRow4": "Filigran Ekleme",
+  "cmpRow4us": "Filigran yok",
+  "cmpRow4them": "Ücretsiz sürümde filigran basar",
+  "cmpRow5": "Kayıt Zorunluluğu",
+  "cmpRow5us": "Hesap gerekmez",
+  "cmpRow5them": "E-posta veya giriş zorunlu",
+  "cmpRow6": "Çevrimdışı Çalışma",
+  "cmpRow6us": "İnternetsiz de çalışabilir",
+  "cmpRow6them": "Sürekli internet gerektirir",
+  "usesTitle": "Öne Çıkan Kullanım Alanları",
+  "tipsTitle": "Faydalı İpuçları",
+  "updLabel": "Güncellendi:",
+  "updBy": "{brand} Ekibi",
+  "crumbHome": "Ana Sayfa",
+  "catAll": "Tüm Araçlar",
+  "catOther": "Diğer Kategoriler",
+  "e404t": "Sayfa Bulunamadı",
+  "e404d": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+  "searchPh": "Araçları ara…",
+  "noResults": "Araç bulunamadı",
+  "tagline": "İhtiyacınız olan tüm PDF araçları. Tarayıcınızda %100 ücretsiz ve tamamen gizli.",
+  "heroSub": "Kayıt olmadan, sınır olmadan, filigran olmadan PDF dosyalarını birleştirin, bölün, sıkıştırın, dönüştürün ve düzenleyin. Dosyalarınız cihazınızdan asla ayrılmaz.",
+  "searchTitle": "Araçları Ara",
+  "searchDesc": "Tüm ücretsiz PDF, resim, ses ve video araçlarını arayın. Her şey tarayıcınızda güvenle çalışır.",
+  "catTitle": "Ücretsiz Çevrimiçi {cat} Araçları | {brand}",
+  "catDesc": "{brand} ile tüm ücretsiz {cat} araçları: {list} ve fazlası. Tarayıcıda çalışır, kayıt ve dosya yükleme gerektirmez.",
+  "catLead": "{n} Ücretsiz Çevrimiçi {cat} Araçları",
+  "cat_organize": "Düzenle & Sırala",
+  "cat_edit": "Düzenle & Not Ekle",
+  "cat_convert": "Dönüştür",
+  "cat_optimize": "Optimize Et",
+  "cat_security": "Güvenlik",
+  "cat_image": "Resimler",
+  "cat_qr": "QR Kodları",
+  "cat_ai": "Yapay Zeka",
+  "cat_media": "Medya",
+  "cat_data": "Veri & Tablo",
+  "cat_units": "Birim Dönüştürücüler",
+  "cat_calc": "Hesaplayıcılar",
+  "cat_text": "Metin",
+  "cat_dev": "Geliştirici",
+  "cat_fun": "Eğlence",
+  "cat_web": "Web Araçları",
+  "cat_prod": "Verimlilik",
+  "cat_more": "Diğerleri"
+ },
+ "home": {
+  "title": "Ücretsiz Çevrimiçi PDF ve Dosya Araçları | {brand}",
+  "desc": "Tarayıcınızda PDF ve resimleri ücretsiz birleştirin, sıkıştırın ve dönüştürün. Sunucuya dosya yüklemeden %100 gizlilik garantisi.",
+  "h1": "Gizliliğinize saygı duyan ücretsiz çevrimiçi dosya araçları"
+ },
+ "commonFaq": [
+  {
+   "q": "Tamamen Ücretsiz?",
+   "a": "Gizli ücret yok, günlük sınır yok, filigran yok. Her şey cihazınızda çalışır. Dosyalarınız sunuculara gitmez."
+  },
+  {
+   "q": "Tam Gizlilik?",
+   "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Dosyalarınız asla tarayıcınızdan çıkmaz."
+  }
+ ],
+ "tools": {
+  "audiocut": {
+   "name": "Müzik Ses Dosyası Kesme",
+   "short": "Müzik Ses Dosyası Kesme – %100 Ücretsiz",
+   "title": "Müzik Ses Dosyası Kesme – %100 Ücretsiz | {brand}",
+   "desc": "Müzik Ses Dosyası Kesme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Müzik Ses Dosyası Kesme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Müzik Ses Dosyası Kesme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "bgremove": {
+   "name": "Yapay Zeka Arka Plan Silme",
+   "short": "Yapay Zeka Arka Plan Silme – %100 Ücretsiz",
+   "title": "Yapay Zeka Arka Plan Silme – %100 Ücretsiz | {brand}",
+   "desc": "Yapay Zeka Arka Plan Silme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Yapay Zeka Arka Plan Silme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Yapay Zeka Arka Plan Silme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "collage": {
+   "name": "Fotoğraf Kolajı Yapma",
+   "short": "Fotoğraf Kolajı Yapma – %100 Ücretsiz",
+   "title": "Fotoğraf Kolajı Yapma – %100 Ücretsiz | {brand}",
+   "desc": "Fotoğraf Kolajı Yapma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Fotoğraf Kolajı Yapma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Fotoğraf Kolajı Yapma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "compare": {
+   "name": "PDF Dosyalarını Karşılaştırma",
+   "short": "PDF Dosyalarını Karşılaştırma – %100 Ücretsiz",
+   "title": "PDF Dosyalarını Karşılaştırma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Dosyalarını Karşılaştırma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Dosyalarını Karşılaştırma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Dosyalarını Karşılaştırma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "compress": {
+   "name": "PDF Boyut Küçültme Sıkıştırma",
+   "short": "PDF Boyut Küçültme Sıkıştırma – %100 Ücretsiz",
+   "title": "PDF Boyut Küçültme Sıkıştırma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Boyut Küçültme Sıkıştırma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Boyut Küçültme Sıkıştırma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Boyut Küçültme Sıkıştırma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "crop": {
+   "name": "PDF Sayfa Kırpma",
+   "short": "PDF Sayfa Kırpma – %100 Ücretsiz",
+   "title": "PDF Sayfa Kırpma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Sayfa Kırpma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Sayfa Kırpma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Sayfa Kırpma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "deletepages": {
+   "name": "PDF Sayfa Silme",
+   "short": "PDF Sayfa Silme – %100 Ücretsiz",
+   "title": "PDF Sayfa Silme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Sayfa Silme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Sayfa Silme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Sayfa Silme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "edit": {
+   "name": "PDF Düzenleme",
+   "short": "PDF Düzenleme – %100 Ücretsiz",
+   "title": "PDF Düzenleme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Düzenleme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Düzenleme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Düzenleme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "excel2pdf": {
+   "name": "Excel PDF Dönüştürme",
+   "short": "Excel PDF Dönüştürme – %100 Ücretsiz",
+   "title": "Excel PDF Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "Excel PDF Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Excel PDF Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Excel PDF Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "extractpages": {
+   "name": "PDF Sayfa Çıkarma Ayırma",
+   "short": "PDF Sayfa Çıkarma Ayırma – %100 Ücretsiz",
+   "title": "PDF Sayfa Çıkarma Ayırma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Sayfa Çıkarma Ayırma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Sayfa Çıkarma Ayırma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Sayfa Çıkarma Ayırma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "flatten": {
+   "name": "PDF Form Düzleştirme",
+   "short": "PDF Form Düzleştirme – %100 Ücretsiz",
+   "title": "PDF Form Düzleştirme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Form Düzleştirme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Form Düzleştirme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Form Düzleştirme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "grayscale": {
+   "name": "PDF Siyah Beyaz Yapma",
+   "short": "PDF Siyah Beyaz Yapma – %100 Ücretsiz",
+   "title": "PDF Siyah Beyaz Yapma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Siyah Beyaz Yapma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Siyah Beyaz Yapma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Siyah Beyaz Yapma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "heic2jpg": {
+   "name": "heic2jpg",
+   "short": "heic2jpg – %100 Ücretsiz",
+   "title": "heic2jpg – %100 Ücretsiz | {brand}",
+   "desc": "heic2jpg. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "heic2jpg",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır heic2jpg?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "imgcompress": {
+   "name": "Resim Boyutu Küçültme",
+   "short": "Resim Boyutu Küçültme – %100 Ücretsiz",
+   "title": "Resim Boyutu Küçültme – %100 Ücretsiz | {brand}",
+   "desc": "Resim Boyutu Küçültme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Resim Boyutu Küçültme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Resim Boyutu Küçültme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "imgconvert": {
+   "name": "imgconvert",
+   "short": "imgconvert – %100 Ücretsiz",
+   "title": "imgconvert – %100 Ücretsiz | {brand}",
+   "desc": "imgconvert. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "imgconvert",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır imgconvert?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "imgcrop": {
+   "name": "Fotoğraf Kırpma",
+   "short": "Fotoğraf Kırpma – %100 Ücretsiz",
+   "title": "Fotoğraf Kırpma – %100 Ücretsiz | {brand}",
+   "desc": "Fotoğraf Kırpma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Fotoğraf Kırpma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Fotoğraf Kırpma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "imgresize": {
+   "name": "Resim Yeniden Boyutlandırma",
+   "short": "Resim Yeniden Boyutlandırma – %100 Ücretsiz",
+   "title": "Resim Yeniden Boyutlandırma – %100 Ücretsiz | {brand}",
+   "desc": "Resim Yeniden Boyutlandırma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Resim Yeniden Boyutlandırma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Resim Yeniden Boyutlandırma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "jpg2pdf": {
+   "name": "JPG PDF Dönüştürme",
+   "short": "JPG PDF Dönüştürme – %100 Ücretsiz",
+   "title": "JPG PDF Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "JPG PDF Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "JPG PDF Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır JPG PDF Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "jpg2png": {
+   "name": "JPG PNG Şeffaf Dönüştürme",
+   "short": "JPG PNG Şeffaf Dönüştürme – %100 Ücretsiz",
+   "title": "JPG PNG Şeffaf Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "JPG PNG Şeffaf Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "JPG PNG Şeffaf Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır JPG PNG Şeffaf Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "merge": {
+   "name": "PDF Birleştirme",
+   "short": "PDF Birleştirme – %100 Ücretsiz",
+   "title": "PDF Birleştirme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Birleştirme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Birleştirme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Birleştirme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "Resimden Metin Tanıma OCR",
+   "short": "Resimden Metin Tanıma OCR – %100 Ücretsiz",
+   "title": "Resimden Metin Tanıma OCR – %100 Ücretsiz | {brand}",
+   "desc": "Resimden Metin Tanıma OCR. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Resimden Metin Tanıma OCR",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Resimden Metin Tanıma OCR?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "Taranmış PDF Aranabilir Metin Yapma",
+   "short": "Taranmış PDF Aranabilir Metin Yapma – %100 Ücretsiz",
+   "title": "Taranmış PDF Aranabilir Metin Yapma | {brand}",
+   "desc": "Taranmış PDF Aranabilir Metin Yapma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Taranmış PDF Aranabilir Metin Yapma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Taranmış PDF Aranabilir Metin Yapma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "organize": {
+   "name": "PDF Sayfa Sıralama",
+   "short": "PDF Sayfa Sıralama – %100 Ücretsiz",
+   "title": "PDF Sayfa Sıralama – %100 Ücretsiz | {brand}",
+   "desc": "PDF Sayfa Sıralama. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Sayfa Sıralama",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Sayfa Sıralama?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pagenumbers": {
+   "name": "PDF Sayfa Numarası Ekleme",
+   "short": "PDF Sayfa Numarası Ekleme – %100 Ücretsiz",
+   "title": "PDF Sayfa Numarası Ekleme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Sayfa Numarası Ekleme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Sayfa Numarası Ekleme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Sayfa Numarası Ekleme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Güvenli Şifre Oluşturucu",
+   "short": "Güvenli Şifre Oluşturucu – %100 Ücretsiz",
+   "title": "Güvenli Şifre Oluşturucu – %100 Ücretsiz | {brand}",
+   "desc": "Güvenli Şifre Oluşturucu. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Güvenli Şifre Oluşturucu",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Güvenli Şifre Oluşturucu?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pdf2excel": {
+   "name": "PDF Excel Tablo Dönüştürme",
+   "short": "PDF Excel Tablo Dönüştürme – %100 Ücretsiz",
+   "title": "PDF Excel Tablo Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Excel Tablo Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Excel Tablo Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Excel Tablo Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pdf2jpg": {
+   "name": "PDF JPG Dönüştürme",
+   "short": "PDF JPG Dönüştürme – %100 Ücretsiz",
+   "title": "PDF JPG Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "PDF JPG Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF JPG Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF JPG Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pdf2png": {
+   "name": "PDF PNG Dönüştürme",
+   "short": "PDF PNG Dönüştürme – %100 Ücretsiz",
+   "title": "PDF PNG Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "PDF PNG Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF PNG Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF PNG Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pdf2ppt": {
+   "name": "PDF PowerPoint Sunum Yapma",
+   "short": "PDF PowerPoint Sunum Yapma – %100 Ücretsiz",
+   "title": "PDF PowerPoint Sunum Yapma – %100 Ücretsiz | {brand}",
+   "desc": "PDF PowerPoint Sunum Yapma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF PowerPoint Sunum Yapma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF PowerPoint Sunum Yapma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "pdf2txt",
+   "short": "pdf2txt – %100 Ücretsiz",
+   "title": "pdf2txt – %100 Ücretsiz | {brand}",
+   "desc": "pdf2txt. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "pdf2txt",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır pdf2txt?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "pdf2word": {
+   "name": "PDF Word Dönüştürme",
+   "short": "PDF Word Dönüştürme – %100 Ücretsiz",
+   "title": "PDF Word Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Word Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Word Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Word Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "png2jpg": {
+   "name": "PNG JPG Dönüştürme",
+   "short": "PNG JPG Dönüştürme – %100 Ücretsiz",
+   "title": "PNG JPG Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "PNG JPG Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PNG JPG Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PNG JPG Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "protect": {
+   "name": "PDF Şifreleme Koruma",
+   "short": "PDF Şifreleme Koruma – %100 Ücretsiz",
+   "title": "PDF Şifreleme Koruma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Şifreleme Koruma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Şifreleme Koruma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Şifreleme Koruma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "qr": {
+   "name": "QR Kod Oluşturucu",
+   "short": "QR Kod Oluşturucu – %100 Ücretsiz",
+   "title": "QR Kod Oluşturucu – %100 Ücretsiz | {brand}",
+   "desc": "QR Kod Oluşturucu. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "QR Kod Oluşturucu",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır QR Kod Oluşturucu?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "qrscan": {
+   "name": "QR Kod Tarayıcı Okuyucu",
+   "short": "QR Kod Tarayıcı Okuyucu – %100 Ücretsiz",
+   "title": "QR Kod Tarayıcı Okuyucu – %100 Ücretsiz | {brand}",
+   "desc": "QR Kod Tarayıcı Okuyucu. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "QR Kod Tarayıcı Okuyucu",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır QR Kod Tarayıcı Okuyucu?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "redact": {
+   "name": "PDF Hassas Bilgi Sansürleme",
+   "short": "PDF Hassas Bilgi Sansürleme – %100 Ücretsiz",
+   "title": "PDF Hassas Bilgi Sansürleme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Hassas Bilgi Sansürleme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Hassas Bilgi Sansürleme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Hassas Bilgi Sansürleme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "PDF Gizli Verilerini Silme",
+   "short": "PDF Gizli Verilerini Silme – %100 Ücretsiz",
+   "title": "PDF Gizli Verilerini Silme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Gizli Verilerini Silme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Gizli Verilerini Silme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Gizli Verilerini Silme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "PDF Sayfa Boyutunu Değiştirme",
+   "short": "PDF Sayfa Boyutunu Değiştirme – %100 Ücretsiz",
+   "title": "PDF Sayfa Boyutunu Değiştirme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Sayfa Boyutunu Değiştirme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Sayfa Boyutunu Değiştirme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Sayfa Boyutunu Değiştirme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "rotate": {
+   "name": "PDF Döndürme",
+   "short": "PDF Döndürme – %100 Ücretsiz",
+   "title": "PDF Döndürme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Döndürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Döndürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Döndürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "sign": {
+   "name": "PDF Elektronik İmza",
+   "short": "PDF Elektronik İmza – %100 Ücretsiz",
+   "title": "PDF Elektronik İmza – %100 Ücretsiz | {brand}",
+   "desc": "PDF Elektronik İmza. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Elektronik İmza",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Elektronik İmza?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "split": {
+   "name": "PDF Bölme",
+   "short": "PDF Bölme – %100 Ücretsiz",
+   "title": "PDF Bölme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Bölme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Bölme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Bölme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Metin TXT PDF Yapma",
+   "short": "Metin TXT PDF Yapma – %100 Ücretsiz",
+   "title": "Metin TXT PDF Yapma – %100 Ücretsiz | {brand}",
+   "desc": "Metin TXT PDF Yapma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Metin TXT PDF Yapma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Metin TXT PDF Yapma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "unlock": {
+   "name": "PDF Şifre Kaldırma",
+   "short": "PDF Şifre Kaldırma – %100 Ücretsiz",
+   "title": "PDF Şifre Kaldırma – %100 Ücretsiz | {brand}",
+   "desc": "PDF Şifre Kaldırma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Şifre Kaldırma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Şifre Kaldırma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "upscale": {
+   "name": "Fotoğraf Çözünürlüğü Yükseltme",
+   "short": "Fotoğraf Çözünürlüğü Yükseltme – %100 Ücretsiz",
+   "title": "Fotoğraf Çözünürlüğü Yükseltme – %100 Ücretsiz | {brand}",
+   "desc": "Fotoğraf Çözünürlüğü Yükseltme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Fotoğraf Çözünürlüğü Yükseltme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Fotoğraf Çözünürlüğü Yükseltme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "video2mp3": {
+   "name": "Videodan MP3 Ses Çıkarma",
+   "short": "Videodan MP3 Ses Çıkarma – %100 Ücretsiz",
+   "title": "Videodan MP3 Ses Çıkarma – %100 Ücretsiz | {brand}",
+   "desc": "Videodan MP3 Ses Çıkarma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Videodan MP3 Ses Çıkarma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Videodan MP3 Ses Çıkarma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "videocompress": {
+   "name": "Video Boyutunu Sıkıştırma",
+   "short": "Video Boyutunu Sıkıştırma – %100 Ücretsiz",
+   "title": "Video Boyutunu Sıkıştırma – %100 Ücretsiz | {brand}",
+   "desc": "Video Boyutunu Sıkıştırma. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Video Boyutunu Sıkıştırma",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Video Boyutunu Sıkıştırma?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "viewer": {
+   "name": "PDF Okuyucu Görüntüleyici",
+   "short": "PDF Okuyucu Görüntüleyici – %100 Ücretsiz",
+   "title": "PDF Okuyucu Görüntüleyici – %100 Ücretsiz | {brand}",
+   "desc": "PDF Okuyucu Görüntüleyici. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Okuyucu Görüntüleyici",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Okuyucu Görüntüleyici?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "watermark": {
+   "name": "PDF Filigran Ekleme",
+   "short": "PDF Filigran Ekleme – %100 Ücretsiz",
+   "title": "PDF Filigran Ekleme – %100 Ücretsiz | {brand}",
+   "desc": "PDF Filigran Ekleme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "PDF Filigran Ekleme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır PDF Filigran Ekleme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "webp2jpg": {
+   "name": "WebP JPG Dönüştürme",
+   "short": "WebP JPG Dönüştürme – %100 Ücretsiz",
+   "title": "WebP JPG Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "WebP JPG Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "WebP JPG Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır WebP JPG Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  },
+  "word2pdf": {
+   "name": "Word PDF Dönüştürme",
+   "short": "Word PDF Dönüştürme – %100 Ücretsiz",
+   "title": "Word PDF Dönüştürme – %100 Ücretsiz | {brand}",
+   "desc": "Word PDF Dönüştürme. Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez.",
+   "h1": "Word PDF Dönüştürme",
+   "steps": [
+    "Yükle",
+    "Seçenekler",
+    "İndir"
+   ],
+   "faq": [
+    {
+     "q": "Nasıl Yapılır Word PDF Dönüştürme?",
+     "a": "Dosyalar yerel olarak tarayıcınızda işlenir ve asla sunucuya yüklenmez. Kayıt Yok."
+    }
+   ]
+  }
+ }
+}

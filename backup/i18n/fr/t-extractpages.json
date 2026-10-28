@@ -1,0 +1,328 @@
+{
+  "tools": {
+    "extractpages": {
+      "name": "Extraire des pages d'un PDF",
+      "short": "Choisissez des pages et enregistrez-les dans un nouveau PDF.",
+      "title": "Extraire des pages d'un PDF en ligne gratuit – Enregistrer des pages | {brand}",
+      "desc": "Choisissez les pages utiles et enregistrez-les dans un nouveau PDF. Sélection visuelle des pages, gratuit, illimité et privé : rien n'est envoyé.",
+      "h1": "Extraire des pages d'un PDF",
+      "steps": [
+        "Sélectionnez votre PDF.",
+        "Touchez les pages à garder.",
+        "Cliquez sur Démarrer et téléchargez le nouveau PDF."
+      ],
+      "faq": [
+        {
+          "q": "Puis-je changer l'ordre des pages extraites ?",
+          "a": "Oui. Faites-les glisser (ou utilisez ← →) avant de cliquer sur Démarrer."
+        }
+      ],
+      "guide": {
+        "intro": "Souvent, seule une partie d'un document vous sert : une page signée, un seul chapitre ou les pages consacrées à un projet. Extraire des pages vous permet de les sélectionner visuellement et de les enregistrer dans un nouveau PDF plus léger sans toucher à l'original.",
+        "uses": [
+          "Renvoyer à un client uniquement la page de signature d'un contrat.",
+          "Partager un chapitre d'un livre ou d'un recueil de cours avec un groupe d'étude.",
+          "Extraire un seul relevé ou une seule facture d'un fichier mensuel combiné.",
+          "Réunir les diapositives clés d'une longue présentation exportée en PDF."
+        ],
+        "tips": [
+          "Sélectionnez les pages dans n'importe quel ordre et réorganisez-les avant de cliquer sur Démarrer.",
+          "Pour des plages fixes comme 1-5, Diviser un PDF avec une plage de pages est plus rapide.",
+          "Les pages extraites gardent leur qualité d'origine et leur texte sélectionnable."
+        ],
+        "faq": [
+          {
+            "q": "Puis-je extraire des pages non consécutives ?",
+            "a": "Oui. Touchez n'importe quelle combinaison de pages, par exemple la 2, la 7 et la 15, et elles seront enregistrées ensemble dans un seul PDF."
+          }
+        ],
+        "more": [
+          [
+            "Un seul outil pour nettoyer les pages",
+            "Au lieu d'utiliser des outils séparés pour faire pivoter, supprimer et réorganiser les pages, Organiser un PDF affiche tout le document sous forme de grille de pages. Faites toutes les modifications d'un coup et exportez un seul PDF propre."
+          ],
+          [
+            "Flux de nettoyage typique",
+            "Numérisez un lot de documents, supprimez les pages blanches, redressez celles qui sont de travers, faites glisser les pages pour les remettre dans l'ordre et exportez. Ensuite, compressez le résultat si vous devez l'envoyer par e-mail."
+          ],
+          [
+            "Fonctionne sur tous les appareils",
+            "Les miniatures sont générées dans votre navigateur : même les gros PDF peuvent être réorganisés sur un ordinateur portable, une tablette ou un téléphone sans être envoyés sur un serveur."
+          ]
+        ]
+      },
+      "seo": {
+        "title": "Extraire des pages d'un PDF – Enregistrer les pages choisies",
+        "desc": "Extrayez des pages d'un PDF : cochez des miniatures ou saisissez des plages (1-3,8), en un PDF ou une page par fichier. Gratuit, sans envoi.",
+        "compareTitle": "{tool} : {brand} et iLovePDF, Smallpdf, Sejda",
+        "compareCols": [
+          "iLovePDF",
+          "Smallpdf",
+          "Sejda"
+        ],
+        "sections": [
+          [
+            "Extrayez des pages d'un PDF dans un nouveau fichier",
+            "Extraire des pages copie seulement les pages utiles d'un document plus grand dans un nouveau PDF. Cochez des miniatures ou saisissez des plages de pages comme 1-3,8,12-15 et enregistrez-les dans un seul PDF combiné ou dans des fichiers séparés (un PDF par page, regroupés dans un ZIP). Le document d'origine reste intact.",
+            "Usages typiques : extraire la page de signature d'un contrat, envoyer seulement le chapitre utile d'un manuel, garder une seule facture d'un relevé mensuel ou séparer chaque page d'un lot numérisé dans son propre fichier."
+          ],
+          [
+            "Deux façons de choisir les pages",
+            {
+              "list": [
+                "**Cliquez sur les miniatures** : toutes les pages sont affichées ; touchez celles que vous voulez et elles sont surlignées.",
+                "**Saisissez une plage** : entrez 2-5,9 et appuyez sur Sélectionner la plage. Vous pouvez mélanger plages et pages isolées, et combiner saisie et clics.",
+                "**Effacer la sélection** permet de recommencer sans recharger le fichier."
+              ]
+            }
+          ],
+          [
+            "Un PDF ou des fichiers séparés",
+            "Par défaut, les pages sélectionnées sont enregistrées ensemble dans leur ordre d'origine dans un PDF nommé *votrefichier-extracted.pdf*. Cochez *Enregistrer chaque page sélectionnée dans un PDF séparé* pour obtenir un fichier par page, avec son numéro de page dans le nom (par exemple *rapport-page7.pdf*), livrés dans un ZIP. Les fichiers séparés sont pratiques quand chaque page est un formulaire, un reçu ou un certificat différent à archiver ou à envoyer séparément."
+          ],
+          [
+            "Comment extraire des pages d'un PDF gratuitement",
+            {
+              "steps": [
+                "Déposez le PDF sur cette page.",
+                "Cochez les pages voulues ou saisissez des plages et appuyez sur Sélectionner la plage.",
+                "Si vous le souhaitez, cochez l'option pour enregistrer chaque page séparément.",
+                "Appuyez sur Extraire et téléchargez le nouveau PDF ou le ZIP."
+              ]
+            }
+          ],
+          [
+            "Extraire, diviser ou supprimer",
+            {
+              "table": [
+                [
+                  "Objectif",
+                  "Utilisez"
+                ],
+                [
+                  "Garder quelques pages et écarter le reste",
+                  "Extraire des pages d'un PDF"
+                ],
+                [
+                  "Retirer quelques pages et garder le reste",
+                  "[Supprimer des pages d'un PDF](/delete-pdf-pages/)"
+                ],
+                [
+                  "Couper tout le document en parties",
+                  "[Diviser un PDF](/split-pdf/)"
+                ],
+                [
+                  "Diviser à chaque signet de chapitre",
+                  "[Diviser un PDF par signets](/split-pdf-by-bookmarks/)"
+                ],
+                [
+                  "Obtenir les pages en images",
+                  "[PDF en JPG](/pdf-to-jpg/)"
+                ]
+              ]
+            }
+          ],
+          [
+            "Ce qui est conservé",
+            "Les pages extraites sont des copies exactes : texte sélectionnable, polices, graphiques vectoriels et images en pleine résolution. La taille et la rotation des pages sont conservées. Les commentaires et annotations liés à une page la suivent généralement. Les signets du document d'origine ne sont pas copiés, car ils pointeraient vers des pages qui n'existent peut-être plus."
+          ],
+          [
+            "Extraire des pages en images",
+            "Si vous avez besoin d'une image d'une page plutôt que d'un PDF (pour une diapositive, un site ou un message), utilisez [PDF en JPG](/pdf-to-jpg/) ou [PDF en PNG](/pdf-to-png/) et saisissez la même plage de pages. Pour récupérer seulement les photos intégrées à un PDF dans leur qualité d'origine, utilisez [Extraire les images d'un PDF](/extract-images-from-pdf/)."
+          ],
+          [
+            "Fichiers volumineux et protégés",
+            "Aucune limite de pages ni de taille au-delà de la mémoire de votre appareil ; les miniatures sont générées en basse résolution, donc même les longs documents se parcourent vite. Si le PDF demande un mot de passe à l'ouverture, déverrouillez-le d'abord avec [Déverrouiller un PDF](/unlock-pdf/) (vous devez connaître le mot de passe)."
+          ],
+          [
+            "Exemple concret : extraire trois factures d'un relevé",
+            "Imaginez un relevé fournisseur de 40 pages dont vous ne voulez que les factures des pages 6, 14 et 15. Déposez le PDF, saisissez *6,14-15* dans le champ de plage et appuyez sur *Sélectionner la plage* : les trois miniatures s'allument. Pour archiver chaque facture séparément, cochez *Enregistrer chaque page sélectionnée dans un PDF séparé*. Appuyez sur Extraire et vous obtenez un ZIP avec *releve-page6.pdf*, *releve-page14.pdf* et *releve-page15.pdf*. Sans cette case, vous obtiendriez un seul PDF de trois pages. Le tout prend quelques secondes et le relevé n'est jamais envoyé nulle part."
+          ],
+          [
+            "Syntaxe des plages de pages",
+            {
+              "table": [
+                [
+                  "Vous saisissez",
+                  "Pages sélectionnées"
+                ],
+                [
+                  "5",
+                  "Seulement la page 5"
+                ],
+                [
+                  "1-3",
+                  "Pages 1, 2 et 3"
+                ],
+                [
+                  "2,4,6",
+                  "Pages 2, 4 et 6"
+                ],
+                [
+                  "1-3,10-12",
+                  "Pages 1–3 et 10–12"
+                ],
+                [
+                  "8-8",
+                  "Page 8 (identique à 8)"
+                ]
+              ]
+            },
+            "Les espaces sont ignorés, et les pages qui n'existent pas dans le document sont signalées comme erreur pour que vous corrigiez la plage. La sélection par plage s'ajoute aux pages déjà cliquées ; utilisez *Effacer la sélection* pour recommencer."
+          ],
+          [
+            "Extraire des pages sur mobile",
+            "Sur les petits écrans, saisir une plage est souvent plus rapide que toucher les miniatures. La page fonctionne dans Chrome, Safari, Firefox et Samsung Internet sur mobile. Un PDF unique est téléchargé dans votre dossier Téléchargements ou dans l'app Fichiers ; les ZIP s'ouvrent avec l'app Fichiers de l'iPhone et la plupart des gestionnaires de fichiers Android. Si vous partagez le résultat tout de suite, un seul PDF combiné est le plus simple."
+          ],
+          [
+            "Extraire des pages avec commentaires ou champs de formulaire",
+            "Les annotations comme les surlignages, les notes et les marques dessinées sont stockées sur la page à laquelle elles appartiennent et, dans la plupart des lecteurs, passent dans le fichier extrait. Les champs de formulaire remplissables sont copiés avec leurs pages, mais si un formulaire utilise des scripts qui font référence à des champs d'autres pages, ces scripts peuvent cesser de fonctionner une fois les pages séparées. Si vous avez besoin d'une copie figée et non modifiable, passez [Aplatir un PDF](/flatten-pdf/) avant d'extraire."
+          ],
+          [
+            "Pourquoi extraire plutôt que partager tout le fichier",
+            {
+              "list": [
+                "**Confidentialité** : envoyez seulement la page dont quelqu'un a besoin, pas tout le document avec des données personnelles sur d'autres pages.",
+                "**Taille** : un extrait de deux pages est bien plus léger qu'un manuel de 300, il tient donc dans les limites des e-mails et des messageries.",
+                "**Clarté** : les relecteurs voient exactement la section à signer ou commenter.",
+                "**Archivage** : rangez chaque reçu, certificat ou formulaire sous son propre nom dans vos dossiers."
+              ]
+            }
+          ],
+          [
+            "Sélectionner les pages impaires ou paires",
+            "Les boutons *Impaires* et *Paires* sélectionnent d'un clic toutes les pages impaires (1, 3, 5…) ou paires (2, 4, 6…). Pratique pour séparer les rectos et versos d'un scan recto verso, ou pour ne garder que les pages de droite d'un livre numérisé. Combinez-les avec des plages saisies et des clics sur les miniatures pour affiner la sélection."
+          ],
+          [
+            "Extraire des pages en ligne ou avec un logiciel de bureau",
+            "Les éditeurs PDF de bureau payants permettent d'extraire des pages, comme de nombreux services en ligne, généralement en envoyant votre fichier sur leurs serveurs et parfois avec des limites horaires pour les utilisateurs gratuits. Ici, le PDF s'ouvre dans votre navigateur et le nouveau fichier est créé sur votre appareil, sans limite d'usage. C'est donc rapide avec les gros fichiers et les connexions lentes, et sûr pour les documents confidentiels."
+          ],
+          [
+            "Glossaire",
+            {
+              "table": [
+                [
+                  "Terme",
+                  "Signification"
+                ],
+                [
+                  "Extraire",
+                  "Copier les pages sélectionnées dans un nouveau document"
+                ],
+                [
+                  "Plage de pages",
+                  "Une liste de pages comme 1-3,8"
+                ],
+                [
+                  "ZIP",
+                  "Un fichier compressé unique qui contient plusieurs fichiers"
+                ],
+                [
+                  "Aplatir",
+                  "Intégrer les champs de formulaire et les annotations au contenu de la page"
+                ]
+              ]
+            }
+          ],
+          [
+            "Vérifier le résultat",
+            "Le message de résultat indique combien de pages ont été extraites. Ouvrez le fichier pour vérifier et, si vous avez choisi les mauvaises pages, modifiez la sélection et appuyez à nouveau sur Extraire : le fichier d'origine reste chargé jusqu'à ce que vous en choisissiez un autre."
+          ],
+          [
+            "Confidentialité",
+            "Tout se passe dans l'onglet du navigateur avec pdf-lib et PDF.js. Le PDF est lu depuis votre disque vers la mémoire, traité là et enregistré directement sur votre appareil. Il n'est jamais envoyé, stocké ni enregistré, et l'outil continue de fonctionner hors ligne une fois la page chargée : il convient aux contrats, dossiers médicaux, dossiers RH, relevés bancaires et à tout ce que vous n'enverriez pas par e-mail à un inconnu."
+          ],
+          [
+            "Outils associés",
+            [
+              "[Diviser un PDF](/split-pdf/)",
+              "[Supprimer des pages d'un PDF](/delete-pdf-pages/)",
+              "[Organiser un PDF](/organize-pdf/)",
+              "[PDF en JPG](/pdf-to-jpg/)",
+              "[Fusionner des PDF](/merge-pdf/)"
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre fichier est traité",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte requis",
+            "Jamais",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Sélection par plage saisie",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Chaque page dans un PDF séparé",
+            "Oui (ZIP)",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Sélection par miniatures",
+            "Oui",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment extraire des pages d'un PDF ?",
+            "a": "Déposez le PDF, cochez des pages ou saisissez une plage et appuyez sur Extraire pour télécharger un nouveau PDF."
+          },
+          {
+            "q": "Comment extraire des pages d'un PDF dans des fichiers séparés ?",
+            "a": "Cochez « Enregistrer chaque page sélectionnée dans un PDF séparé » ; vous obtiendrez un ZIP avec un PDF par page."
+          },
+          {
+            "q": "Puis-je extraire des pages gratuitement ?",
+            "a": "Oui, sans inscription, filigrane ni limite de pages."
+          },
+          {
+            "q": "Puis-je séparer les pages d'un PDF ?",
+            "a": "Oui : sélectionnez toutes les pages et enregistrez chacune dans un PDF séparé, ou utilisez Diviser un PDF."
+          },
+          {
+            "q": "L'extraction réduit-elle la qualité ?",
+            "a": "Non, les pages sont copiées à l'identique."
+          },
+          {
+            "q": "Puis-je extraire des pages non consécutives ?",
+            "a": "Oui, ex. 1,4,7-9."
+          },
+          {
+            "q": "Mon fichier est-il envoyé ?",
+            "a": "Non, l'extraction s'exécute dans votre navigateur."
+          },
+          {
+            "q": "Les signets sont-ils conservés ?",
+            "a": "Non ; ajoutez-en de nouveaux avec l'outil de signets si besoin."
+          }
+        ],
+        "related": [
+          "split-pdf",
+          "delete-pdf-pages",
+          "organize-pdf",
+          "pdf-to-jpg",
+          "merge-pdf"
+        ],
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}

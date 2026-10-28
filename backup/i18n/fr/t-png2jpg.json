@@ -1,0 +1,326 @@
+{
+  "tools": {
+    "png2jpg": {
+      "name": "PNG en JPG",
+      "short": "Convertissez des images PNG en JPG en quelques secondes.",
+      "title": "Convertir PNG en JPG – Gratuit, en ligne et privé | {brand}",
+      "desc": "Convertissez PNG en JPG gratuitement, plusieurs images à la fois, dans votre navigateur : sans envoi, sans inscription et sans filigrane.",
+      "h1": "Convertir PNG en JPG",
+      "steps": [
+        "Sélectionnez ou déposez vos images PNG (lots acceptés).",
+        "Choisissez la qualité et les options : JPG est déjà sélectionné.",
+        "Cliquez sur Démarrer et téléchargez vos fichiers JPG (en ZIP s'il y en a plusieurs)."
+      ],
+      "faq": [
+        {
+          "q": "Convertir PNG en JPG réduit-il la qualité ?",
+          "a": "Les formats sans perte comme le PNG conservent chaque pixel. En JPG, WEBP et AVIF, vous contrôlez le réglage de qualité ; 85–92 est visuellement identique pour la plupart des photos."
+        },
+        {
+          "q": "Puis-je convertir beaucoup de fichiers PNG à la fois ?",
+          "a": "Oui. Sélectionnez autant de fichiers que vous voulez ; ils sont convertis dans votre navigateur et téléchargés ensemble dans un ZIP."
+        }
+      ],
+      "guide": {
+        "intro": "Les fichiers PNG sont sans perte et gèrent la transparence, d'où leur poids : une capture de téléphone ou une photo exportée peut peser plusieurs mégaoctets. Convertir en JPG rend généralement les photos et les captures bien plus légères, idéal pour l'e-mail, les sites et les formulaires qui n'acceptent que le JPG.",
+        "uses": [
+          "Alléger de grandes photos PNG pour les envoyer par e-mail ou messagerie.",
+          "Respecter les formulaires qui n'acceptent que le JPG.",
+          "Réduire la taille des captures d'écran pour la documentation."
+        ],
+        "tips": [
+          "Les zones transparentes deviennent blanches (ou de la couleur de fond choisie) car le JPG n'a pas de transparence.",
+          "Gardez le PNG pour les logos, le texte et les graphiques nets.",
+          "Une qualité de 85–90 équilibre taille et netteté."
+        ],
+        "faq": [
+          {
+            "q": "Que deviennent les fonds transparents ?",
+            "a": "Le JPG ne gère pas la transparence : les zones transparentes sont remplies d'une couleur unie, généralement blanche."
+          }
+        ]
+      },
+      "seo": {
+        "updated": "2026-10-25",
+        "title": "Convertir PNG en JPG – Par lots, couleur de fond, gratuit",
+        "desc": "Convertissez PNG en JPG : qualité, couleur de fond pour la transparence, redimensionnement, ZIP par lots. Jusqu'à 90 % plus léger. Sans envoi.",
+        "compareTitle": "{tool} : {brand} et CloudConvert, FreeConvert, iLoveIMG",
+        "compareCols": [
+          "CloudConvert",
+          "FreeConvert",
+          "iLoveIMG"
+        ],
+        "sections": [
+          [
+            "Transformez de lourds PNG en JPG compacts",
+            "Le PNG est un excellent format pour les logos, captures d'écran et graphiques, mais un mauvais choix pour les photographies. Une photo enregistrée en PNG peut facilement peser 5–10 Mo, alors que la même photo en JPG haute qualité pèse 500 Ko–1 Mo sans différence visible. Cela compte quand un e-mail est rejeté, qu'un formulaire refuse les fichiers de plus de 2 Mo ou qu'un site charge lentement. {brand} convertit PNG en JPG dans votre navigateur, vous laisse choisir la qualité et remplit les zones transparentes avec la couleur de fond voulue, au lieu des bords noirs ou crénelés que produisent certains convertisseurs.",
+            "Déposez un PNG ou des centaines. Chaque fichier est décodé et réencodé sur votre propre appareil (sans envoi, sans file d'attente sur un serveur et sans limite de taille) et vous obtenez les JPG séparément ou dans un seul ZIP."
+          ],
+          [
+            "Fonctions",
+            [
+              "**Réglage de la qualité** : 90 par défaut pour une excellente qualité ; 75–80 pour le web, 60 pour les miniatures.",
+              "**Couleur de fond pour la transparence** : le JPG ne peut pas stocker la transparence, vous choisissez donc ce qui remplit ces zones : blanc, noir, la couleur de votre marque ou toute autre.",
+              "**Redimensionnez en convertissant** : fixez une largeur maximale pour que les captures ou exports énormes aient une taille raisonnable.",
+              "**Conversion par lots** avec un seul téléchargement ZIP.",
+              "**Toute entrée** : en plus du PNG, WebP, GIF, BMP, TIFF, AVIF, HEIC et SVG sont acceptés.",
+              "**Autres sorties** : passez le menu de format sur WebP, AVIF, GIF, BMP, TIFF ou ICO si le JPG ne convient pas.",
+              "**Privé et illimité** : fonctionne dans votre navigateur, sans compte et sans filigrane."
+            ]
+          ],
+          [
+            "Comment convertir PNG en JPG",
+            [
+              "Déposez vos fichiers PNG sur la page ou collez une capture avec Ctrl+V.",
+              "Laissez le format sur JPG et réglez la qualité (90 est un bon réglage par défaut).",
+              "Si vos PNG ont des zones transparentes, choisissez la couleur de fond.",
+              "Si vous le souhaitez, fixez une largeur maximale.",
+              "Cliquez sur Convertir et téléchargez le JPG ou le ZIP."
+            ]
+          ],
+          [
+            "JPG progressif ou de base et autres détails techniques",
+            "Les JPG créés ici sont des fichiers JPEG de base (baseline) standard avec sous-échantillonnage de chrominance 4:2:0 aux réglages de qualité normaux, ce que produisent les appareils photo, les téléphones et presque tous les sites. Ils s'ouvrent dans toute visionneuse d'images, tout navigateur, traitement de texte, borne d'impression et formulaire d'envoi, même dans de très vieux logiciels. La couleur est enregistrée dans l'espace sRGB. Les PNG à 16 bits par canal sont réduits à 8 bits, le maximum que gère le JPG et largement suffisant pour l'affichage et l'impression. Les images avec gamma ou profil de couleur intégré sont converties en sRGB dans le navigateur avant l'encodage : les couleurs sont identiques à celles du PNG affiché dans votre navigateur."
+          ],
+          [
+            "PNG ou JPG : lequel utiliser ?",
+            {
+              "table": [
+                [
+                  "",
+                  "PNG",
+                  "JPG"
+                ],
+                [
+                  "Compression",
+                  "Sans perte : chaque pixel est conservé",
+                  "Avec perte : le détail fin est simplifié"
+                ],
+                [
+                  "Transparence",
+                  "Oui",
+                  "Non"
+                ],
+                [
+                  "Idéal pour",
+                  "Logos, icônes, captures, texte, dessins au trait",
+                  "Photos et images complexes"
+                ],
+                [
+                  "Taille d'une photo",
+                  "Très lourde",
+                  "Légère (souvent 80–90 % de moins)"
+                ],
+                [
+                  "Retoucher encore et encore",
+                  "Sans perte de qualité",
+                  "Légère perte à chaque réenregistrement"
+                ],
+                [
+                  "Compatibilité",
+                  "Universelle",
+                  "Universelle"
+                ]
+              ]
+            },
+            "Une règle utile : si l'image vient d'un appareil photo, utilisez le JPG (ou le WebP). Si elle a été dessinée sur ordinateur (un logo, un graphique, la capture d'un document), gardez le PNG, car la compression JPG ajoute de légères taches autour des bords nets et du texte. Les captures de photos, d'images vidéo et de jeux sont entre les deux ; le JPG en qualité 85–90 fonctionne généralement bien."
+          ],
+          [
+            "Garder des noms de fichiers ordonnés",
+            "Les fichiers convertis gardent leur nom d'origine avec l'extension changée en .jpg : « facture-scannee.png » devient « facture-scannee.jpg ». Pour un lot, le ZIP contient chaque fichier converti sous son propre nom, prêt à être décompressé dans le même dossier que les originaux ou dans un nouveau. Si deux fichiers d'entrée portent le même nom, ils sont numérotés pour que rien ne soit écrasé."
+          ],
+          [
+            "Que devient la transparence ?",
+            "Le PNG gère un canal alpha : un logo peut avoir un fond transparent qui laisse voir ce qui est derrière. Le JPG n'a pas de canal alpha. À la conversion, chaque pixel partiellement ou totalement transparent est mélangé à la couleur de fond choisie. Les bords semi-transparents (le contour lissé d'un logo) sont fondus en douceur : il ne reste pas de halo crénelé.",
+            "Choisissez le fond selon l'endroit où le JPG sera utilisé : blanc pour les documents et la plupart des sites, noir pour les designs en mode sombre ou la couleur exacte de votre page pour un rendu intégré. Si vous avez vraiment besoin de transparence dans un fichier plus léger, convertissez en WebP, qui gère la transparence et la compression avec perte."
+          ],
+          [
+            "Pourquoi les PNG sont si lourds",
+            "Le PNG compresse les images en cherchant des motifs de pixels répétés, ce qui fonctionne à merveille sur les aplats (un logo sur blanc, la capture d'un tableur) mais mal sur les photos, où presque chaque pixel diffère légèrement de son voisin. Une photo de 12 mégapixels contient 36 millions de valeurs de couleur ; le PNG doit en stocker pratiquement toutes. Le JPG, lui, décrit de petits blocs de l'image comme des motifs doux et élimine le détail trop fin pour être vu : il est donc bien plus léger pour les photos.",
+            "Les captures sur les écrans modernes haute résolution sont aussi très grandes : une capture d'un MacBook Retina ou d'un écran 4K peut mesurer 3000–4000 pixels de large. Fixer une largeur maximale de 1600 ou 1920 à la conversion réduit fortement la taille tout en restant net sur des écrans normaux."
+          ],
+          [
+            "Choisir la bonne qualité",
+            {
+              "table": [
+                [
+                  "Qualité",
+                  "Usage"
+                ],
+                [
+                  "95–100",
+                  "Impression, archivage, retouche ultérieure"
+                ],
+                [
+                  "85–90",
+                  "Photos à partager, portfolios"
+                ],
+                [
+                  "75–80",
+                  "Sites, blogs, e-mail"
+                ],
+                [
+                  "60–70",
+                  "Miniatures, aperçus, messagerie"
+                ],
+                [
+                  "Moins de 50",
+                  "Seulement quand la taille compte bien plus que l'aspect"
+                ]
+              ]
+            },
+            "Les valeurs de qualité ne sont pas des pourcentages de la qualité d'origine : elles contrôlent la quantité de détail éliminée par l'encodeur. La différence visible entre 90 et 100 est minime, mais le fichier à 100 peut peser deux fois plus."
+          ],
+          [
+            "Raisons courantes de convertir PNG en JPG",
+            [
+              "Envoyer une photo sur un site qui n'accepte que le JPG ou limite la taille.",
+              "Envoyer des captures par e-mail sans dépasser la limite des pièces jointes.",
+              "Accélérer un site en remplaçant d'énormes photos PNG.",
+              "Réduire la taille de documents et présentations riches en images.",
+              "Préparer des images pour des services d'impression qui exigent le JPG.",
+              "Gagner de la place sur le téléphone ou dans le cloud."
+            ]
+          ],
+          [
+            "Convertir des captures d'écran",
+            "Les captures du téléphone et de l'ordinateur sont enregistrées en PNG. Si la capture est surtout du texte ou de l'interface (une conversation, une page de réglages, un tableur), gardez-la en PNG ou convertissez-la en WebP ; le JPG peut rendre le texte un peu flou. Si c'est surtout une photo ou une image vidéo, le JPG en qualité 85 est idéal. Appuyez sur Ctrl+V sur cette page pour coller une capture directement depuis le presse-papiers sans l'enregistrer d'abord."
+          ],
+          [
+            "Convertir des exports PNG d'outils de design",
+            "Figma, Canva, Photoshop et PowerPoint exportent souvent en PNG par défaut. Pour les diapositives et publications avec photos, dégradés ou textures, convertir l'export en JPG qualité 85 réduit généralement le fichier de 70–85 % sans changement visible, ce qui allège beaucoup présentations et newsletters. Pour les designs faits surtout d'aplats et de texte (une infographie, une carte citation, un graphique), comparez les deux : le PNG peut même être plus léger et plus net. Testez d'abord avec un fichier et vérifiez la taille avant/après au téléchargement avant de convertir tout un lot.",
+            "Si le design a un fond transparent et doit aller sur une page colorée, réglez la couleur de fond exactement comme celle de la page (utilisez le code hexadécimal de votre marque) pour que le JPG s'intègre sans raccord visible."
+          ],
+          [
+            "PNG en JPG pour l'impression",
+            "Les imprimeurs et laboratoires photo acceptent généralement le JPG et le préfèrent pour les photos car les fichiers sont maniables. Convertissez en qualité 95 et gardez la pleine résolution : ne fixez pas de largeur maximale. Pour les designs avec de grands aplats ou du texte, demandez à l'imprimeur s'il accepte le PNG ou le PDF ; certains préfèrent des fichiers sans perte pour les logos et dessins au trait. Vérifiez que l'image a assez de pixels pour la taille d'impression : environ 300 pixels par pouce, soit 2400×3000 pixels pour un tirage 20×25 cm (8×10 in)."
+          ],
+          [
+            "Et les PNG avec très peu de couleurs ?",
+            "Les icônes, le pixel art et les schémas simples avec seulement quelques couleurs sont souvent minuscules en PNG (parfois quelques kilo-octets), car le PNG stocke très efficacement les couleurs répétées. Les convertir en JPG peut les alourdir et ajoute du flou sur les bords. Gardez ces images en PNG, ou utilisez [Compresser une image](/compress-image/), qui réduit les PNG par compression de palette en gardant un aspect sans perte. Le JPG excelle sur les photos et tout ce qui a des dégradés doux et des millions de couleurs."
+          ],
+          [
+            "Convertir un dossier par lots",
+            "Sélectionnez tous les fichiers d'un dossier (Ctrl+A ou Cmd+A dans le sélecteur de fichiers) et déposez-les d'un coup. Les fichiers sont traités l'un après l'autre pour économiser la mémoire, et le ZIP garde les noms d'origine avec l'extension .jpg. Sur un ordinateur portable ordinaire, cent captures de 2 mégapixels se convertissent en bien moins d'une minute."
+          ],
+          [
+            "Confidentialité",
+            "Chaque étape se déroule dans l'onglet du navigateur. L'image est décodée, modifiée et réencodée sur votre propre appareil avec le moteur d'images intégré du navigateur et WebAssembly, et le résultat va directement dans votre dossier de téléchargements. Rien n'est envoyé, rien n'est stocké sur un serveur et il n'y a pas de file d'attente : photos privées, pièces d'identité, captures contenant des données personnelles et photos de produits pas encore lancés ne quittent jamais votre ordinateur ou votre téléphone. Vous pouvez même couper le Wi-Fi une fois la page chargée, l'outil continue de fonctionner."
+          ],
+          [
+            "Outils associés",
+            [
+              "[JPG en PNG](/jpg-to-png/) : l'inverse, avec option pour rendre le blanc transparent.",
+              "[Compresser une image](/compress-image/) : atteignez une taille exacte en Ko.",
+              "[WebP en JPG](/webp-to-jpg/) : pour les images enregistrées depuis des sites.",
+              "[Convertisseur d'images](/image-converter/) : tous les formats au même endroit.",
+              "[Redimensionner une image](/resize-image/) : préréglages et tailles exactes."
+            ]
+          ]
+        ],
+        "compare": [
+          [
+            "Où votre image est traitée",
+            "Dans votre navigateur, jamais envoyé",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)",
+            "Leurs serveurs (envoi)"
+          ],
+          [
+            "Compte ou e-mail requis",
+            "Jamais",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base",
+            "Pas pour l'usage de base"
+          ],
+          [
+            "Limites de l'usage gratuit",
+            "Aucune : seulement celles de votre appareil",
+            "Voir le site",
+            "Voir le site",
+            "Voir le site"
+          ],
+          [
+            "Couleur de fond pour les zones transparentes",
+            "Oui, toute couleur",
+            "Voir le site",
+            "Oui (réglages avancés)",
+            "Voir le site"
+          ],
+          [
+            "Réglage de la qualité",
+            "Curseur 1–100",
+            "Voir le site",
+            "Option de compression",
+            "Voir le site"
+          ],
+          [
+            "Redimensionner en convertissant",
+            "Largeur maximale",
+            "Voir le site",
+            "Oui",
+            "Non proposé sur la page"
+          ],
+          [
+            "Par lots",
+            "Oui, en ZIP",
+            "Voir le site",
+            "Voir le site",
+            "Oui (« beaucoup d'images à la fois »)"
+          ]
+        ],
+        "faq": [
+          {
+            "q": "Comment convertir PNG en JPG ?",
+            "a": "Déposez ici vos fichiers PNG, laissez JPG comme format et cliquez sur Convertir. Téléchargez le JPG ou un ZIP."
+          },
+          {
+            "q": "Convertir PNG en JPG réduit-il la qualité ?",
+            "a": "Légèrement, car le JPG est avec perte. En qualité 85–90, la différence est invisible sur les photos. Le texte net et les dessins au trait peuvent paraître plus doux : gardez-les en PNG."
+          },
+          {
+            "q": "Que devient le fond transparent ?",
+            "a": "Le JPG ne peut pas stocker la transparence : les zones transparentes sont remplies avec la couleur de fond choisie, blanc par défaut."
+          },
+          {
+            "q": "De combien le JPG sera-t-il plus léger ?",
+            "a": "Pour les photos, généralement 70 à 90 % plus léger. Pour les graphiques simples, le gain est moindre et le PNG peut même être plus léger."
+          },
+          {
+            "q": "Puis-je convertir beaucoup de PNG à la fois ?",
+            "a": "Oui. Déposez-les tous et téléchargez un seul ZIP."
+          },
+          {
+            "q": "Mes images sont-elles envoyées ?",
+            "a": "Non. La conversion s'exécute dans votre navigateur et rien n'est envoyé à aucun serveur."
+          },
+          {
+            "q": "Puis-je convertir PNG en JPG sur iPhone ou Android ?",
+            "a": "Oui. La page fonctionne dans Safari et Chrome sur mobile."
+          },
+          {
+            "q": "Y a-t-il une limite de taille de fichier ?",
+            "a": "Il n'y a pas de limite fixe. Les très grandes images ne sont limitées que par la mémoire de votre appareil."
+          },
+          {
+            "q": "Faut-il utiliser le WebP plutôt que le JPG ?",
+            "a": "Pour les sites, le WebP est souvent plus léger et gère la transparence. Utilisez le JPG quand vous avez besoin d'une compatibilité maximale."
+          }
+        ],
+        "related": [
+          "jpg-to-png",
+          "compress-image",
+          "webp-to-jpg",
+          "image-converter",
+          "resize-image"
+        ],
+        "faqKw": [
+          {
+            "q": "Comment convertir PNG en JPG sans perte de qualité ?",
+            "a": "Réglez la qualité sur 90–95. Le JPG est avec perte, mais à ces réglages la différence est invisible sur les photos. Pour les captures et le texte, le PNG peut rester le meilleur format."
+          }
+        ]
+      }
+    }
+  }
+}

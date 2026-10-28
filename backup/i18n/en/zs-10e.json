@@ -1,0 +1,2462 @@
+{
+"tools": {
+"units": {
+"seo": {
+"title": "Unit Converter – Length, Weight, Temperature, Area & More",
+"desc": "Free unit converter with exact factors: length, weight, temperature, area, volume, data, speed, time, energy, pressure, lakh/crore. Instant, offline.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Free online unit converter",
+"Convert between metric, imperial, US customary and Indian units instantly. Choose a category, type a number and pick the units – the answer and the exact formula appear as you type. Ideal for homework, cooking, travel, DIY, engineering and shopping abroad."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category.",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Most popular conversions",
+{
+"table": [
+[
+"From",
+"To",
+"Multiply by"
+],
+[
+"inch",
+"cm",
+"2.54"
+],
+[
+"foot",
+"metre",
+"0.3048"
+],
+[
+"mile",
+"km",
+"1.609344"
+],
+[
+"pound",
+"kg",
+"0.45359237"
+],
+[
+"ounce",
+"gram",
+"28.349523125"
+],
+[
+"US gallon",
+"litre",
+"3.785411784"
+],
+[
+"acre",
+"hectare",
+"0.40468564224"
+],
+[
+"km/h",
+"mph",
+"0.621371"
+]
+]
+}
+],
+[
+"Metric vs imperial",
+"The metric (SI) system is based on powers of ten, which makes conversions inside it easy: 1 km = 1,000 m = 100,000 cm. The imperial and US customary systems use historic units (12 inches to a foot, 3 feet to a yard, 16 ounces to a pound). Only the United States, Liberia and Myanmar mainly use non-metric units in daily life, while the UK uses a mix – miles on road signs, stones for body weight, litres for fuel."
+],
+[
+"US vs UK units",
+"Some units with the same name differ: a US gallon is 3.785 L but an imperial gallon is 4.546 L; a US fluid ounce is 29.57 mL, an imperial one 28.41 mL; a US (short) ton is 907 kg, a UK (long) ton 1,016 kg and a metric tonne 1,000 kg. Check which one a recipe or specification means."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert units?",
+"a": "Pick a category, type a value and choose the units."
+},
+{
+"q": "Are the conversions exact?",
+"a": "Yes, using NIST/SI definitions."
+},
+{
+"q": "Which categories are there?",
+"a": "Length, mass, temperature, area, volume, data, speed, time, energy, pressure and numbers."
+},
+{
+"q": "Can I convert lakh to million?",
+"a": "Yes, in the number category."
+},
+{
+"q": "Does it show the formula?",
+"a": "Yes."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes."
+},
+{
+"q": "US or UK gallons?",
+"a": "Both are listed separately where they differ."
+},
+{
+"q": "Can I convert acres to cents?",
+"a": "Yes, in area."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Does it work on phones?",
+"a": "Yes."
+}
+],
+"related": [
+"length-converter",
+"weight-converter",
+"temperature-converter",
+"area-converter",
+"currency-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"ulength": {
+"seo": {
+"title": "Length Converter – m, ft, in, cm, km, miles Exact",
+"desc": "Convert length free: metres, feet, inches, cm, mm, km, miles, yards, nautical miles and µm with exact factors and formulas. Instant, offline.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Length converter",
+"Convert between metres, centimetres, millimetres, micrometres, kilometres, inches, feet, yards, miles and nautical miles. Type a value and get the exact result with the formula, as you type."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category (already set to length).",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Length conversion table",
+{
+"table": [
+[
+"Unit",
+"In metres",
+"Common use"
+],
+[
+"millimetre (mm)",
+"0.001",
+"Engineering, screens, rainfall"
+],
+[
+"centimetre (cm)",
+"0.01",
+"Body height, clothing"
+],
+[
+"inch (in)",
+"0.0254",
+"Screens, tyres, US/UK sizes"
+],
+[
+"foot (ft)",
+"0.3048",
+"Height, rooms, altitude"
+],
+[
+"yard (yd)",
+"0.9144",
+"Fabric, sports fields"
+],
+[
+"metre (m)",
+"1",
+"SI base unit"
+],
+[
+"kilometre (km)",
+"1,000",
+"Road distances"
+],
+[
+"mile (mi)",
+"1,609.344",
+"US/UK road distances"
+],
+[
+"nautical mile (nmi)",
+"1,852",
+"Sea and air navigation"
+]
+]
+}
+],
+[
+"Feet and inches to cm",
+"Height is often written as feet and inches, e.g. 5 ft 8 in. Convert the feet to inches (5 × 12 = 60), add the inches (68 in), then multiply by 2.54: 172.7 cm. Going the other way, 180 cm ÷ 2.54 = 70.87 in = 5 ft 10.9 in. For quick lookups use [cm to inches](/cm-to-inches/), [inches to cm](/inches-to-cm/) or [feet to metres](/feet-to-meters/)."
+],
+[
+"Common heights",
+{
+"table": [
+[
+"cm",
+"ft / in"
+],
+[
+"150",
+"4′ 11″"
+],
+[
+"160",
+"5′ 3″"
+],
+[
+"165",
+"5′ 5″"
+],
+[
+"170",
+"5′ 7″"
+],
+[
+"175",
+"5′ 9″"
+],
+[
+"180",
+"5′ 11″"
+],
+[
+"185",
+"6′ 1″"
+],
+[
+"190",
+"6′ 3″"
+]
+]
+}
+],
+[
+"Screen and paper sizes",
+"Screen sizes are diagonal inches: a 6.1-inch phone is 15.5 cm corner to corner, a 15.6-inch laptop 39.6 cm, a 55-inch TV 139.7 cm. Paper: A4 is 210 × 297 mm (8.27 × 11.69 in); US Letter is 8.5 × 11 in (215.9 × 279.4 mm)."
+],
+[
+"Running and road distances",
+{
+"table": [
+[
+"Distance",
+"km",
+"miles"
+],
+[
+"5K",
+"5",
+"3.11"
+],
+[
+"10K",
+"10",
+"6.21"
+],
+[
+"Half marathon",
+"21.0975",
+"13.11"
+],
+[
+"Marathon",
+"42.195",
+"26.22"
+],
+[
+"100 miles",
+"160.93",
+"100"
+]
+]
+},
+"Road speed limits follow the same factor: 100 km/h is 62 mph, 70 mph is 113 km/h."
+],
+[
+"Nautical miles",
+"A nautical mile (1,852 m) is one minute of latitude, which is why ships and aircraft use it with knots (nautical miles per hour). It is about 1.15 statute miles. Aviation altitudes stay in feet almost everywhere: 35,000 ft is about 10.7 km."
+],
+[
+"Very small lengths",
+"Micrometres (µm) measure hair (about 50–100 µm thick), paper (about 100 µm), dust and cells; 1 µm is one-thousandth of a millimetre. Engineers in the US often use *thou* or mils (0.001 in = 25.4 µm). Enter 1 in and convert to µm to see that an inch is exactly 25,400 µm."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many cm in an inch?",
+"a": "Exactly 2.54."
+},
+{
+"q": "How many feet in a metre?",
+"a": "3.28084."
+},
+{
+"q": "How do I convert feet and inches to cm?",
+"a": "Total inches × 2.54."
+},
+{
+"q": "How many km is a mile?",
+"a": "1.609344 km."
+},
+{
+"q": "What is a nautical mile?",
+"a": "1,852 m, used at sea and in aviation."
+},
+{
+"q": "How many mm in an inch?",
+"a": "25.4 mm."
+},
+{
+"q": "How many inches in a foot?",
+"a": "12."
+},
+{
+"q": "Is it exact?",
+"a": "Yes, using the 1959 international yard and pound definitions."
+},
+{
+"q": "Does it work offline?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"cm-to-inches",
+"inches-to-cm",
+"feet-to-meters",
+"unit-converter",
+"area-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"umass": {
+"seo": {
+"title": "Weight Converter – kg to lbs, g, oz, stone, tola Exact",
+"desc": "Convert weight free: kg, grams, mg, tonnes, pounds, ounces, stone, tola and quintal with exact factors and formulas. Instant, works offline.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Weight (mass) converter",
+"Convert kilograms, grams, milligrams, tonnes, pounds, ounces, stone and the Indian tola and quintal. Exact factors, instant results and the formula for every conversion."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category (already set to weight).",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Weight conversion table",
+{
+"table": [
+[
+"Unit",
+"In kg",
+"Used for"
+],
+[
+"milligram (mg)",
+"0.000001",
+"Medicines, supplements"
+],
+[
+"gram (g)",
+"0.001",
+"Food, postage"
+],
+[
+"ounce (oz)",
+"0.028349523125",
+"US/UK food, parcels"
+],
+[
+"pound (lb)",
+"0.45359237",
+"Body weight (US), produce"
+],
+[
+"stone (st)",
+"6.35029318",
+"Body weight (UK, Ireland)"
+],
+[
+"tola",
+"0.01166381",
+"Gold and silver in South Asia"
+],
+[
+"quintal",
+"100",
+"Agricultural produce in India"
+],
+[
+"tonne (t)",
+"1,000",
+"Freight, vehicles"
+]
+]
+}
+],
+[
+"kg to lbs quickly",
+"Multiply kilograms by 2.2046 for pounds: 70 kg = 154.3 lb. Divide pounds by 2.2046 for kilograms: 150 lb = 68.0 kg. For UK body weight, 1 stone = 14 lb, so 70 kg = 11 st 0.3 lb. See also [kg to lbs](/kg-to-lbs/), [lbs to kg](/lbs-to-kg/) and [grams to ounces](/grams-to-ounces/)."
+],
+[
+"Gold: tola and grams",
+"One tola is 11.6638 g (the historic British-India definition of 180 grains). Jewellers in India, Pakistan, Nepal and the Gulf quote gold prices per tola or per 10 g. A troy ounce, used on world markets, is 31.1035 g – heavier than the everyday ounce (28.35 g)."
+],
+[
+"Weight vs mass",
+"Strictly, kilograms measure mass and newtons measure weight (force), but in everyday language weight means mass, and scales show kilograms or pounds."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many lbs is 1 kg?",
+"a": "2.20462 lb."
+},
+{
+"q": "How many grams in an ounce?",
+"a": "28.3495 g."
+},
+{
+"q": "What is a stone?",
+"a": "14 lb, 6.35 kg."
+},
+{
+"q": "How many grams in a tola?",
+"a": "11.6638 g."
+},
+{
+"q": "What is a quintal?",
+"a": "100 kg."
+},
+{
+"q": "Tonne vs ton?",
+"a": "A tonne is 1,000 kg; US ton 907 kg; UK ton 1,016 kg."
+},
+{
+"q": "Is a troy ounce different?",
+"a": "Yes, 31.1 g for precious metals."
+},
+{
+"q": "Is it exact?",
+"a": "Yes."
+},
+{
+"q": "Offline?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"kg-to-lbs",
+"lbs-to-kg",
+"grams-to-ounces",
+"unit-converter",
+"bmi-calculator"
+],
+"updated": "2026-10-25"
+}
+},
+"utemp": {
+"seo": {
+"title": "Temperature Converter – Celsius, Fahrenheit, Kelvin",
+"desc": "Convert temperature free between Celsius, Fahrenheit and Kelvin with exact formulas: °C to °F, °F to °C, K. Cooking, weather and fever tables.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Temperature converter",
+"Convert between Celsius, Fahrenheit and Kelvin instantly. Unlike most units, temperatures need an offset as well as a factor, so the formula is shown with every result."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category (already set to temperature).",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Formulas",
+{
+"table": [
+[
+"Conversion",
+"Formula"
+],
+[
+"°C → °F",
+"°F = °C × 9/5 + 32"
+],
+[
+"°F → °C",
+"°C = (°F − 32) × 5/9"
+],
+[
+"°C → K",
+"K = °C + 273.15"
+],
+[
+"K → °C",
+"°C = K − 273.15"
+],
+[
+"°F → K",
+"K = (°F − 32) × 5/9 + 273.15"
+]
+]
+},
+"Quick mental check: double the Celsius and add 30 for an approximate Fahrenheit (20 °C ≈ 70 °F; exact 68 °F)."
+],
+[
+"Reference temperatures",
+{
+"table": [
+[
+"°C",
+"°F",
+"What"
+],
+[
+"-40",
+"-40",
+"Where the scales meet"
+],
+[
+"0",
+"32",
+"Water freezes"
+],
+[
+"20",
+"68",
+"Room temperature"
+],
+[
+"37",
+"98.6",
+"Normal body temperature"
+],
+[
+"38",
+"100.4",
+"Fever threshold"
+],
+[
+"100",
+"212",
+"Water boils at sea level"
+],
+[
+"180",
+"356",
+"Moderate oven"
+],
+[
+"220",
+"428",
+"Hot oven"
+]
+]
+}
+],
+[
+"Oven temperatures",
+"Recipes from the US use Fahrenheit, from the UK, India and Europe Celsius (sometimes gas marks). 350 °F ≈ 175–180 °C, 400 °F ≈ 200 °C, 425 °F ≈ 220 °C. Fan (convection) ovens usually need 10–20 °C less than conventional ovens."
+],
+[
+"Kelvin",
+"Kelvin is the SI unit used in science: 0 K is absolute zero (-273.15 °C). It has no degree sign. Colour temperature of lights is also given in kelvin – 2,700 K warm white, 6,500 K daylight."
+],
+[
+"Weather and fever",
+"Weather forecasts in the US use °F: 90 °F is a hot 32 °C, 32 °F is freezing. A body temperature of 100.4 °F (38 °C) or more is usually considered a fever in adults; check medical advice for children. For single-direction pages see [Celsius to Fahrenheit](/celsius-to-fahrenheit/) and [Fahrenheit to Celsius](/fahrenheit-to-celsius/)."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert Celsius to Fahrenheit?",
+"a": "Multiply by 9/5 and add 32."
+},
+{
+"q": "How do I convert Fahrenheit to Celsius?",
+"a": "Subtract 32, multiply by 5/9."
+},
+{
+"q": "What is 37 °C in °F?",
+"a": "98.6 °F."
+},
+{
+"q": "What is 350 °F in °C?",
+"a": "About 177 °C."
+},
+{
+"q": "When are °C and °F equal?",
+"a": "At -40."
+},
+{
+"q": "What is absolute zero?",
+"a": "0 K = -273.15 °C = -459.67 °F."
+},
+{
+"q": "Is Kelvin written with a degree sign?",
+"a": "No."
+},
+{
+"q": "Is it exact?",
+"a": "Yes."
+},
+{
+"q": "Offline?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"celsius-to-fahrenheit",
+"fahrenheit-to-celsius",
+"unit-converter",
+"length-converter",
+"weight-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"uarea": {
+"seo": {
+"title": "Area Converter – Acre, Cent, Hectare, Sq Ft, Ground",
+"desc": "Convert land and floor area free: acres, cents, hectares, square feet, square metres, square yards, grounds and km². Exact factors, instant, offline.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Area converter for land and property",
+"Convert between square metres, square feet, square yards, acres, hectares, square kilometres and miles, and the South Indian land units cent and ground. Useful for property listings, land records, construction plans and agriculture."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category (already set to area).",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Area conversion table",
+{
+"table": [
+[
+"Unit",
+"Square feet",
+"Square metres"
+],
+[
+"1 square yard (gaj)",
+"9",
+"0.836"
+],
+[
+"1 cent",
+"435.6",
+"40.47"
+],
+[
+"1 ground",
+"2,400",
+"222.97"
+],
+[
+"1 acre",
+"43,560",
+"4,046.86"
+],
+[
+"1 hectare",
+"107,639",
+"10,000"
+],
+[
+"1 km²",
+"10.76 million",
+"1,000,000"
+]
+]
+},
+"100 cents = 1 acre; 1 hectare = 2.471 acres = 247.1 cents."
+],
+[
+"Indian land units",
+"*Cent* (1/100 acre) is used in Kerala, Tamil Nadu, Karnataka and Andhra Pradesh. *Ground* (2,400 sq ft) is common in Chennai and Tamil Nadu. Other units such as bigha, guntha, kanal and marla vary by state and are not standardised, so always confirm local values with the registration office – this converter sticks to the units with a fixed definition."
+],
+[
+"Carpet, built-up and super built-up area",
+"Indian property listings quote different areas: *carpet area* is the usable floor inside walls; *built-up* adds walls and balconies (roughly 10–15 % more); *super built-up* adds a share of common areas (often 25–40 % more than carpet). Under RERA, developers must state carpet area. Convert each figure separately."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many square feet in an acre?",
+"a": "43,560."
+},
+{
+"q": "How many cents in an acre?",
+"a": "100."
+},
+{
+"q": "How many square feet in a cent?",
+"a": "435.6."
+},
+{
+"q": "What is a ground?",
+"a": "2,400 sq ft (222.97 m²)."
+},
+{
+"q": "How many acres in a hectare?",
+"a": "2.471."
+},
+{
+"q": "Square metres to square feet?",
+"a": "Multiply by 10.7639."
+},
+{
+"q": "Does it include bigha?",
+"a": "No, its size varies by state."
+},
+{
+"q": "What is a gaj?",
+"a": "A square yard, 9 sq ft."
+},
+{
+"q": "Is it exact?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"unit-converter",
+"length-converter",
+"lakh-to-million",
+"loan-calculator",
+"percentage-calculator"
+],
+"updated": "2026-10-25"
+}
+},
+"udata": {
+"seo": {
+"title": "Data Storage Converter – KB, MB, GB, TB, GiB, Bits",
+"desc": "Convert data sizes free: bytes, KB, MB, GB, TB and binary KiB, MiB, GiB, TiB, plus bits, Mbit and Gbit. See why a 1 TB drive shows 931 GB.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Data storage converter",
+"Convert between bytes, kilobytes, megabytes, gigabytes and terabytes in both decimal (1 KB = 1,000 B) and binary (1 KiB = 1,024 B) units, and between bytes and bits for network speeds."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category (already set to data).",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Decimal vs binary units",
+{
+"table": [
+[
+"Decimal (SI)",
+"Bytes",
+"Binary (IEC)",
+"Bytes"
+],
+[
+"1 KB",
+"1,000",
+"1 KiB",
+"1,024"
+],
+[
+"1 MB",
+"1,000,000",
+"1 MiB",
+"1,048,576"
+],
+[
+"1 GB",
+"1,000,000,000",
+"1 GiB",
+"1,073,741,824"
+],
+[
+"1 TB",
+"10¹²",
+"1 TiB",
+"1,099,511,627,776"
+]
+]
+}
+],
+[
+"Why does my 1 TB drive show 931 GB?",
+"Drive makers use decimal units: 1 TB = 1,000,000,000,000 bytes. Windows counts in binary units but labels them GB: 10¹² ÷ 1,073,741,824 = 931.3 'GB' (really GiB). Nothing is missing. macOS has used decimal units since 2009, so it shows 1 TB."
+],
+[
+"Bits vs bytes",
+"Internet speeds are quoted in bits per second; file sizes in bytes. 1 byte = 8 bits, so a 100 Mbit/s connection downloads at most 12.5 MB per second, and a 1 GB file takes at least 80 seconds. Upload limits and phone data plans use bytes."
+],
+[
+"Typical file sizes",
+{
+"list": [
+"Text e-mail: 5–50 KB",
+"Phone photo (JPG): 2–5 MB; HEIC: 1–3 MB",
+"MP3 song: 3–10 MB",
+"1 minute of 1080p video: 100–200 MB",
+"Movie in HD: 2–8 GB"
+]
+},
+"Shrink files with [Compress PDF](/compress-pdf/), [Compress Image](/compress-image/) or [Compress Video](/compress-video/)."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many MB in a GB?",
+"a": "1,000 (decimal) or 1,024 MiB in a GiB."
+},
+{
+"q": "Why is my drive smaller than advertised?",
+"a": "Decimal vs binary units."
+},
+{
+"q": "What is a GiB?",
+"a": "1,073,741,824 bytes."
+},
+{
+"q": "How many bits in a byte?",
+"a": "8."
+},
+{
+"q": "Mbps to MB/s?",
+"a": "Divide by 8."
+},
+{
+"q": "How many KB in an MB?",
+"a": "1,000 (or 1,024 KiB in a MiB)."
+},
+{
+"q": "What is a TB?",
+"a": "10¹² bytes."
+},
+{
+"q": "Which does Windows use?",
+"a": "Binary, labelled KB/MB/GB."
+},
+{
+"q": "Offline?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"unit-converter",
+"compress-pdf",
+"compress-image",
+"compress-video",
+"binary-hex-decimal-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"lakh2m": {
+"seo": {
+"title": "Lakh to Million Converter – Crore, Billion, Lakh Free",
+"desc": "Convert lakh to million, crore to billion and back: 10 lakh = 1 million, 100 crore = 1 billion. Indian and international systems, instant.",
+"compareTitle": "{tool}: {brand} vs Google, UnitConverters.net and ConvertUnits",
+"compareCols": [
+"Google unit converter",
+"UnitConverters.net",
+"ConvertUnits.com"
+],
+"sections": [
+[
+"Lakh to million and crore to billion",
+"India, Pakistan, Bangladesh, Nepal and Sri Lanka count large numbers in thousands, lakhs and crores; most of the world uses thousands, millions and billions. Convert between the two instantly – essential for business reports, salaries, budgets, startup funding and news."
+],
+[
+"How to use it",
+{
+"steps": [
+"Pick the category (already set to numbers).",
+"Type the value.",
+"Choose the from and to units – press Swap to reverse.",
+"Read the result and the formula; copy it if needed."
+]
+}
+],
+[
+"Indian vs international numbering",
+{
+"table": [
+[
+"Indian",
+"Digits",
+"International"
+],
+[
+"1 thousand",
+"1,000",
+"1 thousand"
+],
+[
+"1 lakh",
+"1,00,000",
+"100 thousand"
+],
+[
+"10 lakh",
+"10,00,000",
+"1 million"
+],
+[
+"1 crore",
+"1,00,00,000",
+"10 million"
+],
+[
+"100 crore",
+"1,00,00,00,000",
+"1 billion"
+],
+[
+"1 arab",
+"1,00,00,00,000",
+"1 billion"
+],
+[
+"1 kharab",
+"1,00,00,00,00,000",
+"100 billion"
+],
+[
+"1 lakh crore",
+"1,00,00,00,00,00,000",
+"1 trillion"
+]
+]
+}
+],
+[
+"Comma placement",
+"The Indian system groups the first three digits from the right and then every two digits: 12,34,56,789. The international system groups in threes: 123,456,789. Both are the same number. When writing for international readers, convert to millions or billions; [Number to Words](/number-to-words/) spells amounts in both systems."
+],
+[
+"Quick rules",
+{
+"list": [
+"1 million = 10 lakh; 1 lakh = 0.1 million.",
+"1 crore = 10 million; 1 billion = 100 crore.",
+"₹50 lakh = ₹5 million; ₹2.5 crore = ₹25 million.",
+"₹1 lakh crore = ₹1 trillion – used in government budgets."
+]
+},
+"For currency values, convert the amount first with the [Currency Converter](/currency-converter/)."
+],
+[
+"Exact conversion factors",
+"Every factor is the exact legal definition published by NIST and the international SI system – for example 1 inch = 2.54 cm exactly, 1 pound = 0.45359237 kg exactly and 1 mile = 1,609.344 m – so results are as precise as the numbers you type. Temperatures use offset formulas rather than a single factor. The formula used is shown under every result so you can check it or reuse it in a spreadsheet."
+],
+[
+"Twelve categories in one tool",
+{
+"list": [
+"Length, mass/weight, temperature, area and volume.",
+"Data storage (KB/MB/GB and KiB/MiB/GiB) and data rates in bits.",
+"Speed, time, energy and pressure.",
+"Indian and international number systems: lakh, crore, arab, kharab, million, billion, trillion.",
+"Indian land units: cent and ground alongside acres, hectares and square feet."
+]
+}
+],
+[
+"How to use the result",
+"Results update as you type. Press *Swap* to reverse the direction, change the category to switch to a different kind of unit, and copy the number straight into a document, spreadsheet or recipe. Very large and very small values are shown with full precision rather than rounded to a few digits, so nothing is lost when you paste them elsewhere."
+],
+[
+"Works offline, no ads in the way",
+"The converter is a few kilobytes of JavaScript that runs entirely on your device: no network request is made when you convert, so it is instant and works on a plane or with a poor connection. Bookmark it or add it to your phone's home screen for quick access."
+],
+[
+"Precision, rounding and significant figures",
+"The converter keeps full double-precision accuracy (about 15–16 significant digits) internally and only trims trailing zeros for display. When you copy a result into a report, round it to the precision of your original measurement: a length measured to the nearest centimetre does not become more accurate by converting it to inches with eight decimal places. As a rule of thumb, keep the same number of significant figures as the input. For engineering drawings, cooking or travel, two or three significant figures are almost always enough, whereas science homework may ask for a specific number of decimal places – check the instructions before rounding."
+],
+[
+"Who uses unit conversions",
+"Students solving physics and chemistry problems, cooks following recipes from another country, travellers reading speed limits and weather forecasts, online shoppers checking clothing and furniture sizes, engineers working with suppliers abroad, property buyers comparing land listings, and analysts preparing reports for international audiences all need quick, reliable conversions. Having every category in one fast page saves switching between apps and avoids errors from half-remembered factors."
+],
+[
+"Privacy",
+"Nothing you type is sent anywhere or stored – conversions are calculated in your browser."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Exact NIST/SI factors",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Formula shown",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Indian units (lakh, crore, cent, ground)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Works offline",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How many lakhs in a million?",
+"a": "10."
+},
+{
+"q": "How many millions in a crore?",
+"a": "10."
+},
+{
+"q": "How many crores in a billion?",
+"a": "100."
+},
+{
+"q": "What is 1 lakh in numbers?",
+"a": "1,00,000 (100,000)."
+},
+{
+"q": "What is an arab?",
+"a": "100 crore, i.e. 1 billion."
+},
+{
+"q": "What is a lakh crore?",
+"a": "1 trillion."
+},
+{
+"q": "Where is lakh used?",
+"a": "India, Pakistan, Bangladesh, Nepal, Sri Lanka."
+},
+{
+"q": "How do I write 1 crore with commas?",
+"a": "1,00,00,000."
+},
+{
+"q": "Offline?",
+"a": "Yes."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"number-to-words",
+"currency-converter",
+"unit-converter",
+"percentage-calculator",
+"loan-calculator"
+],
+"updated": "2026-10-25"
+}
+},
+"timezone": {
+"seo": {
+"title": "Time Zone Converter – Convert Times & Plan Meetings",
+"desc": "Convert time between any time zones with automatic daylight saving: IST, UTC, EST, PST, GMT, CET and 400+ more. Meeting planner grid. Free.",
+"compareTitle": "{tool}: {brand} vs timeanddate, WorldTimeBuddy and Google",
+"compareCols": [
+"timeanddate.com",
+"WorldTimeBuddy",
+"Google"
+],
+"sections": [
+[
+"Time zone converter and meeting planner",
+"Find out what time it is – or will be – anywhere in the world. Enter a date and time, choose its zone and the zones you want, and get exact results that account for daylight saving on that date. The hour-by-hour grid with highlighted working hours makes planning calls between India, the US, Europe and Asia easy."
+],
+[
+"How to use it",
+{
+"steps": [
+"Set the date and time.",
+"Choose the zone it is in.",
+"Add the zones to convert to.",
+"Read the results and the working-hours table; copy the link to share."
+]
+}
+],
+[
+"Common zone abbreviations",
+{
+"table": [
+[
+"Abbreviation",
+"Zone",
+"UTC offset"
+],
+[
+"IST",
+"India Standard Time",
+"+5:30"
+],
+[
+"GMT / BST",
+"UK winter / summer",
+"+0 / +1"
+],
+[
+"CET / CEST",
+"Central Europe winter / summer",
+"+1 / +2"
+],
+[
+"EST / EDT",
+"US Eastern winter / summer",
+"−5 / −4"
+],
+[
+"PST / PDT",
+"US Pacific winter / summer",
+"−8 / −7"
+],
+[
+"GST",
+"Gulf Standard Time (Dubai)",
+"+4"
+],
+[
+"SGT",
+"Singapore",
+"+8"
+],
+[
+"JST",
+"Japan",
+"+9"
+],
+[
+"AEST / AEDT",
+"Sydney winter / summer",
+"+10 / +11"
+]
+]
+},
+"Abbreviations are ambiguous – IST also means Irish and Israel Standard Time – so the converter uses city-based IANA zones such as Asia/Kolkata."
+],
+[
+"Why use city names?",
+"Zones are named after a representative city (America/New_York, Europe/London) because rules change over time and between regions in the same country. Picking the city avoids mistakes such as treating Arizona (no daylight saving) like the rest of US Mountain Time."
+],
+[
+"How time zones and daylight saving are handled",
+"The converter uses the IANA time-zone database built into your browser – the same data used by phones, operating systems and calendar apps – so daylight-saving changes, historical rule changes and half-hour or 45-minute offsets (India, Nepal, parts of Australia) are always applied for the exact date you choose. It warns you when clocks change in the next 12 months for the zones you picked."
+],
+[
+"Plan meetings across time zones",
+"Below the result, an hour-by-hour table shows the same moment in every selected zone with 9:00–17:00 working hours highlighted, and the overlap of working hours is calculated for you. Use *Copy link* to share the exact time with colleagues – the link opens the converter with your zones and time already filled in."
+],
+[
+"Tips for international scheduling",
+{
+"list": [
+"Always write the zone with the time: 10:00 IST / 21:30 PDT.",
+"Prefer UTC in technical work, logs and server schedules.",
+"Remember that the US and Europe change clocks on different dates in March and October/November, so offsets shift for a few weeks.",
+"India, China, Japan and most of Asia and Africa do not use daylight saving.",
+"Send calendar invites – calendar apps convert times for each attendee automatically."
+]
+}
+],
+[
+"Common mistakes to avoid",
+"The most frequent scheduling error is assuming a fixed difference all year. Between the second Sunday of March and the last Sunday of March, for example, the US has already moved its clocks forward while Europe has not, so New York is four hours behind London instead of five. Another trap is the date line: when it is Monday morning in India or Australia it can still be Sunday afternoon or evening in the Americas. Finally, avoid writing ambiguous times such as 12:00 am – use 00:00 or midnight, or a 24-hour clock, and always add the zone. The converter shows dates next to each time to make day changes obvious."
+],
+[
+"Remote teams and freelancers",
+"Distributed teams often pick a few shared hours for meetings and keep the rest for focused work. Use the working-hours table to find that window, then put it in team calendars. Freelancers serving clients abroad can paste a shared link into proposals so clients see call slots in their own time."
+],
+[
+"Privacy",
+"Times are calculated in your browser; nothing is sent or stored."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Automatic daylight saving (IANA)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Working-hours overlap table",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Shareable link",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert time zones?",
+"a": "Enter a time, its zone and the target zones."
+},
+{
+"q": "Does it handle daylight saving?",
+"a": "Yes, automatically for the chosen date."
+},
+{
+"q": "What is IST in UTC?",
+"a": "UTC+5:30."
+},
+{
+"q": "Can I compare several zones?",
+"a": "Yes."
+},
+{
+"q": "Can I find overlapping working hours?",
+"a": "Yes, the grid highlights them."
+},
+{
+"q": "Can I share a time?",
+"a": "Use Copy link."
+},
+{
+"q": "Which zones are available?",
+"a": "All 400+ IANA zones your browser supports."
+},
+{
+"q": "Does India use daylight saving?",
+"a": "No."
+},
+{
+"q": "Offline?",
+"a": "Yes, after loading."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+}
+],
+"related": [
+"ist-to-pst",
+"utc-to-ist",
+"ist-to-est",
+"countdown-timer",
+"unix-timestamp-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"ist2pst": {
+"seo": {
+"title": "IST to PST Converter – India Time to California Time",
+"desc": "Convert IST to PST/PDT with automatic daylight saving. India is 13.5 hours ahead of PST and 12.5 hours ahead of PDT. Meeting planner, free.",
+"compareTitle": "{tool}: {brand} vs timeanddate, WorldTimeBuddy and Google",
+"compareCols": [
+"timeanddate.com",
+"WorldTimeBuddy",
+"Google"
+],
+"sections": [
+[
+"IST to PST / PDT",
+"Convert India Standard Time to US Pacific Time (California, Washington, Oregon, Nevada) for calls with Silicon Valley, Seattle or Los Angeles. The converter applies US daylight saving automatically and also shows UTC and New York time."
+],
+[
+"How to use it",
+{
+"steps": [
+"Set the date and time.",
+"Choose the zone it is in.",
+"Add the zones to convert to.",
+"Read the results and the working-hours table; copy the link to share."
+]
+}
+],
+[
+"The time difference",
+{
+"table": [
+[
+"Period",
+"Pacific time",
+"India ahead by"
+],
+[
+"Early Nov → mid-March",
+"PST (UTC−8)",
+"13 h 30 min"
+],
+[
+"Mid-March → early Nov",
+"PDT (UTC−7)",
+"12 h 30 min"
+]
+]
+},
+"US clocks change on the second Sunday in March and the first Sunday in November (in 2026: 8 March and 1 November). India does not change, so the difference shifts by an hour twice a year."
+],
+[
+"Quick reference (PDT, summer)",
+{
+"table": [
+[
+"IST",
+"PDT"
+],
+[
+"7:30 am",
+"7:00 pm (previous day)"
+],
+[
+"9:00 am",
+"8:30 pm (previous day)"
+],
+[
+"8:30 pm",
+"8:00 am"
+],
+[
+"10:30 pm",
+"10:00 am"
+],
+[
+"11:30 pm",
+"11:00 am"
+]
+]
+},
+"In winter (PST) subtract one more hour from the Pacific times."
+],
+[
+"Best meeting times",
+"India's late evening overlaps with California's morning. A 9:00 am PDT stand-up is 9:30 pm IST; 8:00 am PST is 9:30 pm IST in winter. Morning slots in India (8–10 am IST) reach the US West Coast the previous evening (7:30–9:30 pm PDT)."
+],
+[
+"Dates change too",
+"Because the gap is more than 12 hours, an Indian morning is the previous calendar day in California. Always state the date with the time when scheduling."
+],
+[
+"How time zones and daylight saving are handled",
+"The converter uses the IANA time-zone database built into your browser – the same data used by phones, operating systems and calendar apps – so daylight-saving changes, historical rule changes and half-hour or 45-minute offsets (India, Nepal, parts of Australia) are always applied for the exact date you choose. It warns you when clocks change in the next 12 months for the zones you picked."
+],
+[
+"Plan meetings across time zones",
+"Below the result, an hour-by-hour table shows the same moment in every selected zone with 9:00–17:00 working hours highlighted, and the overlap of working hours is calculated for you. Use *Copy link* to share the exact time with colleagues – the link opens the converter with your zones and time already filled in."
+],
+[
+"Tips for international scheduling",
+{
+"list": [
+"Always write the zone with the time: 10:00 IST / 21:30 PDT.",
+"Prefer UTC in technical work, logs and server schedules.",
+"Remember that the US and Europe change clocks on different dates in March and October/November, so offsets shift for a few weeks.",
+"India, China, Japan and most of Asia and Africa do not use daylight saving.",
+"Send calendar invites – calendar apps convert times for each attendee automatically."
+]
+}
+],
+[
+"Common mistakes to avoid",
+"The most frequent scheduling error is assuming a fixed difference all year. Between the second Sunday of March and the last Sunday of March, for example, the US has already moved its clocks forward while Europe has not, so New York is four hours behind London instead of five. Another trap is the date line: when it is Monday morning in India or Australia it can still be Sunday afternoon or evening in the Americas. Finally, avoid writing ambiguous times such as 12:00 am – use 00:00 or midnight, or a 24-hour clock, and always add the zone. The converter shows dates next to each time to make day changes obvious."
+],
+[
+"Remote teams and freelancers",
+"Distributed teams often pick a few shared hours for meetings and keep the rest for focused work. Use the working-hours table to find that window, then put it in team calendars. Freelancers serving clients abroad can paste a shared link into proposals so clients see call slots in their own time."
+],
+[
+"Privacy",
+"Times are calculated in your browser; nothing is sent or stored."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Automatic daylight saving (IANA)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Working-hours overlap table",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Shareable link",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What is the time difference between IST and PST?",
+"a": "IST is 13 h 30 min ahead of PST and 12 h 30 min ahead of PDT."
+},
+{
+"q": "Is California on PST or PDT now?",
+"a": "PDT from mid-March to early November, PST otherwise."
+},
+{
+"q": "What is 9 pm IST in PST?",
+"a": "7:30 am PST or 8:30 am PDT."
+},
+{
+"q": "Does India have daylight saving?",
+"a": "No."
+},
+{
+"q": "When do US clocks change?",
+"a": "Second Sunday in March, first Sunday in November."
+},
+{
+"q": "Best time for India–US West Coast calls?",
+"a": "8:30–11 pm IST."
+},
+{
+"q": "Is PST the same as Pacific time?",
+"a": "PST is the winter part of Pacific time."
+},
+{
+"q": "Can I see New York time too?",
+"a": "Yes, it is included."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Offline?",
+"a": "Yes."
+}
+],
+"related": [
+"time-zone-converter",
+"ist-to-est",
+"utc-to-ist",
+"countdown-timer",
+"unix-timestamp-converter"
+],
+"updated": "2026-10-25"
+}
+},
+"utc2ist": {
+"seo": {
+"title": "UTC to IST Converter – GMT to India Time (+5:30)",
+"desc": "Convert UTC or GMT to IST (India Standard Time, UTC+5:30) and back instantly. Also shows London and New York. Free, works offline.",
+"compareTitle": "{tool}: {brand} vs timeanddate, WorldTimeBuddy and Google",
+"compareCols": [
+"timeanddate.com",
+"WorldTimeBuddy",
+"Google"
+],
+"sections": [
+[
+"UTC to IST",
+"Convert Coordinated Universal Time (UTC) – used by servers, logs, aviation, APIs and international schedules – to India Standard Time. IST is always UTC + 5 hours 30 minutes; India has no daylight saving. The converter also shows London and New York time."
+],
+[
+"How to use it",
+{
+"steps": [
+"Set the date and time.",
+"Choose the zone it is in.",
+"Add the zones to convert to.",
+"Read the results and the working-hours table; copy the link to share."
+]
+}
+],
+[
+"Conversion rule",
+"**IST = UTC + 5:30.** So 00:00 UTC is 05:30 IST, 06:30 UTC is 12:00 noon IST, and 18:30 UTC is midnight IST. To go back, subtract 5:30."
+],
+[
+"Quick reference",
+{
+"table": [
+[
+"UTC",
+"IST"
+],
+[
+"00:00",
+"05:30"
+],
+[
+"03:30",
+"09:00"
+],
+[
+"06:30",
+"12:00"
+],
+[
+"09:00",
+"14:30"
+],
+[
+"12:00",
+"17:30"
+],
+[
+"15:00",
+"20:30"
+],
+[
+"18:30",
+"00:00 (next day)"
+]
+]
+}
+],
+[
+"UTC vs GMT",
+"GMT is the time zone of the UK in winter; UTC is the atomic-clock standard. For everyday use they are the same, so GMT to IST is also +5:30. In summer the UK uses BST (UTC+1), which is only 4:30 behind India."
+],
+[
+"Reading server timestamps",
+"Logs and APIs often write times like 2026-10-25T08:15:00Z – the Z means UTC. Add 5:30 to get IST: 13:45. Unix timestamps can be converted with the [Unix Timestamp Converter](/unix-timestamp-converter/)."
+],
+[
+"How time zones and daylight saving are handled",
+"The converter uses the IANA time-zone database built into your browser – the same data used by phones, operating systems and calendar apps – so daylight-saving changes, historical rule changes and half-hour or 45-minute offsets (India, Nepal, parts of Australia) are always applied for the exact date you choose. It warns you when clocks change in the next 12 months for the zones you picked."
+],
+[
+"Plan meetings across time zones",
+"Below the result, an hour-by-hour table shows the same moment in every selected zone with 9:00–17:00 working hours highlighted, and the overlap of working hours is calculated for you. Use *Copy link* to share the exact time with colleagues – the link opens the converter with your zones and time already filled in."
+],
+[
+"Tips for international scheduling",
+{
+"list": [
+"Always write the zone with the time: 10:00 IST / 21:30 PDT.",
+"Prefer UTC in technical work, logs and server schedules.",
+"Remember that the US and Europe change clocks on different dates in March and October/November, so offsets shift for a few weeks.",
+"India, China, Japan and most of Asia and Africa do not use daylight saving.",
+"Send calendar invites – calendar apps convert times for each attendee automatically."
+]
+}
+],
+[
+"Common mistakes to avoid",
+"The most frequent scheduling error is assuming a fixed difference all year. Between the second Sunday of March and the last Sunday of March, for example, the US has already moved its clocks forward while Europe has not, so New York is four hours behind London instead of five. Another trap is the date line: when it is Monday morning in India or Australia it can still be Sunday afternoon or evening in the Americas. Finally, avoid writing ambiguous times such as 12:00 am – use 00:00 or midnight, or a 24-hour clock, and always add the zone. The converter shows dates next to each time to make day changes obvious."
+],
+[
+"Remote teams and freelancers",
+"Distributed teams often pick a few shared hours for meetings and keep the rest for focused work. Use the working-hours table to find that window, then put it in team calendars. Freelancers serving clients abroad can paste a shared link into proposals so clients see call slots in their own time."
+],
+[
+"Privacy",
+"Times are calculated in your browser; nothing is sent or stored."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"Automatic daylight saving (IANA)",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Working-hours overlap table",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Shareable link",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "What is UTC to IST?",
+"a": "Add 5 hours 30 minutes."
+},
+{
+"q": "Is GMT the same as UTC?",
+"a": "Practically yes for conversions."
+},
+{
+"q": "Does IST change with daylight saving?",
+"a": "No."
+},
+{
+"q": "What is 12:00 UTC in IST?",
+"a": "17:30 IST."
+},
+{
+"q": "What does Z in a timestamp mean?",
+"a": "UTC."
+},
+{
+"q": "What is the IANA name of IST?",
+"a": "Asia/Kolkata."
+},
+{
+"q": "BST to IST?",
+"a": "Add 4:30."
+},
+{
+"q": "Can I convert IST to UTC?",
+"a": "Subtract 5:30, or swap the zones."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Offline?",
+"a": "Yes."
+}
+],
+"related": [
+"time-zone-converter",
+"ist-to-pst",
+"ist-to-est",
+"unix-timestamp-converter",
+"countdown-timer"
+],
+"updated": "2026-10-25"
+}
+},
+"ttf2woff2": {
+"seo": {
+"title": "TTF to WOFF2 Converter – Web Fonts Free, No Upload",
+"desc": "Convert TTF or OTF fonts to WOFF2 (or WOFF) for faster websites – about 30–50 % smaller, same glyphs. Batch, free, in your browser, no upload.",
+"compareTitle": "{tool}: {brand} vs CloudConvert, Transfonter and FontSquirrel",
+"compareCols": [
+"CloudConvert",
+"Transfonter",
+"FontSquirrel generator"
+],
+"sections": [
+[
+"Convert TTF to WOFF2",
+"WOFF2 is the web-font format every modern browser supports. It packs the same glyphs as your TTF or OTF file with Brotli compression, typically making fonts 30–50 % smaller so pages load faster and text appears sooner. Convert one single font or a whole family here, with Google's reference woff2 encoder running in your browser."
+],
+[
+"How to use it",
+{
+"steps": [
+"Drop one or more TTF or OTF files.",
+"Keep WOFF2 (or choose WOFF for very old browsers, or TTF/OTF to convert back).",
+"Press Convert and download."
+]
+}
+],
+[
+"Font formats compared",
+{
+"table": [
+[
+"Format",
+"Compression",
+"Use"
+],
+[
+"TTF / OTF",
+"None",
+"Desktop installation, design apps"
+],
+[
+"WOFF",
+"zlib",
+"Web, legacy browsers (IE 9–11)"
+],
+[
+"WOFF2",
+"Brotli, font-specific",
+"Web – all current browsers, smallest"
+],
+[
+"EOT, SVG fonts",
+"—",
+"Obsolete"
+]
+]
+}
+],
+[
+"Using WOFF2 on your site",
+"Upload the .woff2 file and reference it in CSS with an @font-face rule: set font-family, point src to url('/fonts/name.woff2') with format('woff2'), and add font-display: swap so text shows immediately in a fallback font. Preload the most important font with a link rel=preload tag. Every browser released since about 2016 supports WOFF2, so a WOFF fallback is rarely needed today."
+],
+[
+"Licensing",
+"Converting does not change a font's licence. Many commercial desktop licences do not permit web embedding; check the EULA or buy a web licence. Open-source fonts under the SIL Open Font License (most Google Fonts) may be converted and self-hosted freely."
+],
+[
+"Making fonts even smaller",
+"Subsetting – keeping only the characters you use, such as Latin only – can cut a font by a further 50–90 %. Use a desktop tool such as pyftsubset or glyphhanger for that, then convert here. Variable fonts in one WOFF2 can replace several static weights."
+],
+[
+"Performance impact",
+"Fonts are often among the largest files on a page. Smaller fonts improve Largest Contentful Paint and reduce layout shift when combined with font-display and size-adjusted fallbacks – both are Core Web Vitals metrics Google uses."
+],
+[
+"Privacy",
+"Everything happens inside your browser tab. Your fonts are read from your disk into memory, processed there and saved straight back to your device. Nothing is uploaded, stored or logged, there is no account, and the tool keeps working offline once the page has loaded – so it is safe for private, confidential and unreleased material."
+]
+],
+"compare": [
+[
+"Where your file is processed",
+"In your browser – never uploaded",
+"Their servers (upload)",
+"Their servers (upload)",
+"Their servers (upload)"
+],
+[
+"Account needed",
+"Never",
+"See site",
+"See site",
+"See site"
+],
+[
+"No upload – converts on your device",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Google woff2 encoder",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Both directions",
+"Yes",
+"See site",
+"See site",
+"See site"
+],
+[
+"Free without sign-up",
+"Yes",
+"See site",
+"See site",
+"See site"
+]
+],
+"faq": [
+{
+"q": "How do I convert TTF to WOFF2?",
+"a": "Drop the TTF and press Convert."
+},
+{
+"q": "How much smaller is WOFF2?",
+"a": "Typically 30–50 % smaller than TTF."
+},
+{
+"q": "Can I convert OTF to WOFF2?",
+"a": "Yes."
+},
+{
+"q": "Is quality lost?",
+"a": "No, glyphs are identical."
+},
+{
+"q": "Do all browsers support WOFF2?",
+"a": "All current browsers do."
+},
+{
+"q": "Can I convert WOFF2 back to TTF?",
+"a": "Yes, choose TTF/OTF or use WOFF2 to TTF."
+},
+{
+"q": "Can I convert several fonts?",
+"a": "Yes."
+},
+{
+"q": "Is it legal?",
+"a": "Check your font licence for web use."
+},
+{
+"q": "Is it free?",
+"a": "Yes."
+},
+{
+"q": "Are fonts uploaded?",
+"a": "No."
+}
+],
+"related": [
+"woff2-to-ttf",
+"ttf-to-woff",
+"otf-to-woff2",
+"woff-to-ttf",
+"html-css-js-minifier"
+],
+"updated": "2026-10-25"
+}
+}
+}
+}

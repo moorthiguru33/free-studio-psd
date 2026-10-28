@@ -1,0 +1,537 @@
+{
+ "ui": {
+  "o_auto": "Auto",
+  "o_bRtl": "Right-to-left (Arabic, Hebrew…)",
+  "o_camBw": "Black & white",
+  "o_camColor": "Colour",
+  "o_camCreate": "Create PDF",
+  "o_camFit": "Same as photo",
+  "o_camLook": "Look",
+  "o_camNone": "Take or pick at least one photo.",
+  "o_camPhotos": "Pick photos",
+  "o_camScan": "Scanned document",
+  "o_camSnap": "Take photo",
+  "o_dpi": "DPI (quality)",
+  "o_fitNone": "Keep size",
+  "o_fitScale": "Scale to fit",
+  "o_fontSize": "Font size",
+  "o_grayscale": "Grayscale",
+  "o_hHoriz": "Top / bottom",
+  "o_hVert": "Left / right",
+  "o_hKeepFirst": "Keep first page whole (cover)",
+  "o_hdir": "Cut direction",
+  "o_invAmount": "Amount",
+  "o_invCreate": "Create invoice PDF",
+  "o_invCurrency": "Currency",
+  "o_invDate": "Invoice date",
+  "o_invDesc": "Description",
+  "o_invDiscount": "Discount",
+  "o_invDue": "Due date",
+  "o_invFrom": "From (your details)",
+  "o_invTo": "Bill to",
+  "o_invItems": "Line items",
+  "o_invItemsHint": "One item per line: description | quantity | unit price",
+  "o_invLines": "lines",
+  "o_invNo": "Invoice number",
+  "o_invNotes": "Notes",
+  "o_invPrice": "Unit price",
+  "o_invQty": "Qty",
+  "o_invSubtotal": "Subtotal",
+  "o_invTax": "Tax",
+  "o_invTotal": "Total",
+  "o_invoice": "Invoice",
+  "o_landscape": "Landscape",
+  "o_ocrLang": "Document language",
+  "o_ocrLang2": "Second language (optional)",
+  "o_ocrLoading": "Loading OCR engine",
+  "o_ocrReading": "Reading text",
+  "o_ocrOut": "Output",
+  "o_ocrText": "Plain text (.txt)",
+  "o_ocrPdf": "Searchable PDF",
+  "o_orient": "Orientation",
+  "o_ovBg": "Underneath (background)",
+  "o_ovCycle": "Repeat in a cycle",
+  "o_ovFg": "On top (foreground)",
+  "o_ovFirst": "First page only on all pages",
+  "o_ovLast": "Last page repeats",
+  "o_ovRepeat": "Pages of the second PDF",
+  "o_ovOnce": "Overlay pages only once",
+  "o_ovNeed2": "Add two PDFs: the document first, then the overlay (letterhead, stamp…).",
+  "o_ovPaged": "Page-by-page",
+  "o_pgCount": "Number of passwords",
+  "o_pgDownload": "Download list",
+  "o_pgLength": "Length",
+  "o_pgNone": "Pick at least one character set.",
+  "o_pgOk": "Good",
+  "o_pgRegen": "Regenerate",
+  "o_pgSimilar": "Avoid look-alikes (I l 1 O 0)",
+  "o_pgStrong": "Strong",
+  "o_pgVeryStrong": "Very strong",
+  "o_pgWeak": "Weak",
+  "o_portrait": "Portrait",
+  "o_rmAttach": "Also remove attachments & scripts",
+  "o_rmNone": "No metadata found – file cleaned anyway.",
+  "o_rmRemoved": "Removed:",
+  "o_sides": "sheet sides",
+  "o_sqCase": "Match case",
+  "o_sqMatches": "matches",
+  "o_sqNone": "No matches found.",
+  "o_sqQuery": "Search for",
+  "o_sqSearch": "Search",
+  "o_sqWord": "Whole words only",
+  "o_vBookmarks": "Bookmarks panel",
+  "o_vCenter": "Centre window on screen",
+  "o_vFit": "Fit window to first page",
+  "o_vFull": "Full screen",
+  "o_vHideMenu": "Hide menu bar",
+  "o_vHideTool": "Hide toolbar",
+  "o_vLayout": "Page layout",
+  "o_vMode": "Open with panel",
+  "o_vNone": "Nothing",
+  "o_vSingle": "Single page",
+  "o_vScroll": "Continuous scroll",
+  "o_vTitle": "Show document title instead of file name",
+  "o_vTwo": "Two pages side by side",
+  "o_vTwoCover": "Two pages, cover separate",
+  "o_vTwoScroll": "Two pages, continuous",
+  "o_wRemoveJs": "Remove JavaScript & auto-actions",
+  "o_wRemoveMeta": "Remove title/author metadata",
+  "o_xChars": "characters",
+  "o_xNoText": "No text found – this looks like a scan. Use OCR PDF first.",
+  "o_xPageBreaks": "Mark page breaks",
+  "o_vThumbs": "Thumbnails panel",
+  "cat_more": "More tools"
+ },
+ "tools": {
+  "booklet": {
+   "name": "Create Booklet",
+   "short": "Impose pages for a folded booklet.",
+   "title": "Create PDF Booklet – Saddle-Stitch Imposition Online Free | {brand}",
+   "desc": "Turn a PDF into a printable booklet: pages are reordered and placed 2-up so you can print double-sided, fold and staple. Free, private, in your browser.",
+   "h1": "Create a PDF Booklet",
+   "steps": [
+    "Select your PDF.",
+    "Choose the sheet size (A4, Letter, A3).",
+    "Download, print double-sided (flip on short edge), fold in the middle."
+   ],
+   "faq": [
+    {
+     "q": "What if my page count is not a multiple of 4?",
+     "a": "Blank pages are added at the end automatically."
+    },
+    {
+     "q": "Does it keep text sharp?",
+     "a": "Yes, pages are placed as vectors, nothing is rasterized."
+    }
+   ]
+  },
+  "halve": {
+   "name": "Split Pages in Half",
+   "short": "Cut double-page scans into single pages.",
+   "title": "Split PDF Pages in Half – Cut Scanned Spreads Online | {brand}",
+   "desc": "Split every PDF page down the middle into two pages – perfect for scanned books and A3 spreads. Vertical or horizontal, right-to-left supported.",
+   "h1": "Split PDF Pages in Half",
+   "steps": [
+    "Select your PDF.",
+    "Choose left/right or top/bottom and optionally keep the cover whole.",
+    "Download the PDF with twice the pages."
+   ],
+   "faq": [
+    {
+     "q": "Is the content cropped or rasterized?",
+     "a": "Neither – each half is the original vector page with a new visible area."
+    }
+   ]
+  },
+  "overlay": {
+   "name": "Overlay PDF",
+   "short": "Put letterhead or a stamp on every page.",
+   "title": "Overlay PDF – Add Letterhead or Background to PDF Free | {brand}",
+   "desc": "Merge two PDFs page-on-page: place a letterhead, form or stamp on top of or underneath your document. Free and private.",
+   "h1": "Overlay PDF Files",
+   "steps": [
+    "Select your document and then the overlay PDF.",
+    "Choose on top or underneath and how overlay pages repeat.",
+    "Download the combined PDF."
+   ],
+   "faq": [
+    {
+     "q": "Can I use one letterhead page for all pages?",
+     "a": "Yes – choose 'First page only on all pages'."
+    }
+   ]
+  },
+  "pagesize": {
+   "name": "Change Page Size",
+   "short": "Resize PDF pages to A4, Letter and more.",
+   "title": "Change PDF Page Size – Resize PDF to A4 or Letter Online | {brand}",
+   "desc": "Convert PDF page size to A4, Letter, Legal, A3, A5 and more. Content is scaled to fit and centered, staying sharp vector.",
+   "h1": "Change PDF Page Size",
+   "steps": [
+    "Select your PDF.",
+    "Pick the new page size, orientation and margin.",
+    "Download the resized PDF."
+   ],
+   "faq": [
+    {
+     "q": "Will the text get blurry?",
+     "a": "No, pages are scaled as vectors."
+    }
+   ]
+  },
+  "resizepdf": {
+   "name": "Resize PDF",
+   "short": "Scale PDF pages to a new paper size.",
+   "title": "Resize PDF – Scale Pages to A4, Letter, A3 Free | {brand}",
+   "desc": "Resize PDF pages to any standard paper size online. Mixed page sizes become uniform. Free, no upload.",
+   "h1": "Resize PDF Pages",
+   "steps": [
+    "Select your PDF.",
+    "Pick the target size.",
+    "Download."
+   ],
+   "faq": [
+    {
+     "q": "Is this the same as compressing?",
+     "a": "No – this changes the paper size. To reduce file size use Compress PDF."
+    }
+   ]
+  },
+  "rasterize": {
+   "name": "Rasterize PDF",
+   "short": "Turn pages into images.",
+   "title": "Rasterize PDF – Convert PDF Pages to Images Inside a PDF | {brand}",
+   "desc": "Flatten every page into an image: fixes printing problems, hides selectable text and layers. Choose DPI, JPG or lossless PNG.",
+   "h1": "Rasterize PDF",
+   "steps": [
+    "Select your PDF.",
+    "Choose DPI and image format.",
+    "Download the image-only PDF."
+   ],
+   "faq": [
+    {
+     "q": "Why rasterize?",
+     "a": "To flatten complex files that print wrong, or to stop easy copying of text."
+    }
+   ]
+  },
+  "webopt": {
+   "name": "Optimize PDF for Web",
+   "short": "Lighter PDFs that load faster online.",
+   "title": "Optimize PDF for Web – Smaller, Faster PDF Online Free | {brand}",
+   "desc": "Rebuild a PDF for the web: compact object streams, remove unused objects, thumbnails and scripts. Private, in your browser.",
+   "h1": "Optimize PDF for Web",
+   "steps": [
+    "Select your PDF.",
+    "Choose what to remove.",
+    "Download the optimized PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is the PDF linearized?",
+     "a": "Not in the browser. Modern viewers stream PDFs fine; for strongest size reduction also try Compress PDF."
+    }
+   ]
+  },
+  "removemeta": {
+   "name": "Remove PDF Metadata",
+   "short": "Strip author, title and hidden data.",
+   "title": "Remove PDF Metadata – Delete Author & Hidden Info Free | {brand}",
+   "desc": "Remove author, creator, dates, XMP and other hidden metadata from PDFs before sharing. Optionally remove attachments and scripts.",
+   "h1": "Remove PDF Metadata",
+   "steps": [
+    "Select your PDF.",
+    "Choose whether to also remove attachments and scripts.",
+    "Download the clean PDF."
+   ],
+   "faq": [
+    {
+     "q": "What is removed?",
+     "a": "The document info (title, author, subject, keywords, creator, producer, dates), XMP metadata and PieceInfo – private editing data that apps such as Adobe Illustrator store in the file and on its pages."
+    }
+   ]
+  },
+  "passgen": {
+   "name": "Password Generator",
+   "short": "Strong random passwords, made on your device.",
+   "title": "Password Generator – Strong Random Passwords Free | {brand}",
+   "desc": "Generate strong random passwords with your choice of length and characters. Uses your device's secure random generator; nothing is sent anywhere.",
+   "h1": "Strong Password Generator",
+   "steps": [
+    "Choose length and character types.",
+    "Passwords appear instantly – copy one.",
+    "Optionally download the list."
+   ],
+   "faq": [
+    {
+     "q": "Are these passwords safe?",
+     "a": "They are created with the browser's cryptographic random generator and never leave your device."
+    },
+    {
+     "q": "How long should a password be?",
+     "a": "At least 16 characters with all character types (~100 bits) is very strong."
+    }
+   ]
+  },
+  "searchpdf": {
+   "name": "Search in PDFs",
+   "short": "Find text across many PDFs.",
+   "title": "Search in PDF Files – Find Text in Multiple PDFs Online | {brand}",
+   "desc": "Search for a word or phrase across many PDF files at once. See every match with page number and context, and export to CSV.",
+   "h1": "Search Text in PDFs",
+   "steps": [
+    "Select one or more PDFs.",
+    "Type what to search for.",
+    "See matches with page numbers; download CSV."
+   ],
+   "faq": [
+    {
+     "q": "Does it search scanned PDFs?",
+     "a": "Only PDFs with a text layer. Run OCR PDF first for scans."
+    }
+   ]
+  },
+  "viewerprefs": {
+   "name": "PDF Viewer Preferences",
+   "short": "Set how a PDF opens.",
+   "title": "PDF Viewer Preferences – Set Page Layout & Open View | {brand}",
+   "desc": "Control how your PDF opens: single page or two-up layout, bookmarks panel, full screen, fit window, show title. Free.",
+   "h1": "Set PDF Viewer Preferences",
+   "steps": [
+    "Select your PDF.",
+    "Choose page layout, panel and window options.",
+    "Download – the PDF opens your way."
+   ],
+   "faq": [
+    {
+     "q": "Do all viewers respect this?",
+     "a": "Adobe Reader and most desktop viewers do; some browser viewers ignore it."
+    }
+   ]
+  },
+  "invoice": {
+   "name": "Invoice Generator",
+   "short": "Make a professional invoice PDF.",
+   "title": "Free Invoice Generator – Create Invoice PDF Online, No Sign-up | {brand}",
+   "desc": "Create a clean invoice PDF in a minute: your details, client, items, tax, discount and any currency. No account, nothing stored.",
+   "h1": "Free Invoice Generator",
+   "steps": [
+    "Fill in your details and the client's.",
+    "Add one item per line: description | qty | price.",
+    "Create and download the invoice PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is my data saved?",
+     "a": "No. Everything stays in your browser."
+    }
+   ]
+  },
+  "camera2pdf": {
+   "name": "Camera to PDF",
+   "short": "Scan documents with your phone camera.",
+   "title": "Camera to PDF – Scan Documents to PDF with Your Phone | {brand}",
+   "desc": "Use your phone or webcam to snap documents and turn them into a clean, scanned-look PDF. Or pick photos. Free, private.",
+   "h1": "Scan to PDF with Your Camera",
+   "steps": [
+    "Press Use camera and snap each page (or pick photos).",
+    "Choose page size and the scan look.",
+    "Create and download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Are photos uploaded?",
+     "a": "No, the camera image is processed on your device only."
+    }
+   ]
+  },
+  "txt2pdf": {
+   "name": "Text to PDF",
+   "short": "Convert TXT files to PDF.",
+   "title": "Text to PDF Converter – TXT to PDF Online Free, Any Language | {brand}",
+   "desc": "Convert plain text files to neatly formatted PDF in any language and script, with page size, font size and margins.",
+   "h1": "Convert Text to PDF",
+   "steps": [
+    "Select one or more .txt files.",
+    "Pick page size, font size and margins.",
+    "Download the PDF (ZIP for several)."
+   ],
+   "faq": [
+    {
+     "q": "Does it support Tamil, Hindi, Arabic, Chinese text?",
+     "a": "Yes. The matching Noto font loads automatically for Latin, Greek, Cyrillic, Arabic, Hebrew, Indic scripts, Thai, Chinese, Japanese, Korean, Armenian, Georgian, Ethiopic, Khmer, Lao, Myanmar, Sinhala, Tibetan and more. Complex scripts are shaped with HarfBuzz, so conjuncts, ligatures and Arabic letter joining render correctly, and right-to-left lines are right-aligned."
+    }
+   ]
+  },
+  "md2pdf": {
+   "name": "Markdown to PDF",
+   "short": "Convert .md to a styled PDF.",
+   "title": "Markdown to PDF Converter – MD to PDF Online Free | {brand}",
+   "desc": "Convert Markdown (GitHub flavoured: headings, lists, tables, code, quotes) into a clean PDF in your browser.",
+   "h1": "Convert Markdown to PDF",
+   "steps": [
+    "Select your .md files.",
+    "Choose page size and font size.",
+    "Download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Are images supported?",
+     "a": "Images are shown by their alt text; remote images are not fetched for privacy."
+    }
+   ]
+  },
+  "rtf2pdf": {
+   "name": "RTF to PDF",
+   "short": "Convert RTF documents to PDF.",
+   "title": "RTF to PDF Converter – Free, Online, Private | {brand}",
+   "desc": "Convert Rich Text Format (.rtf) files to PDF right in your browser. Paragraphs, bold text and Unicode are kept.",
+   "h1": "Convert RTF to PDF",
+   "steps": [
+    "Select your .rtf files.",
+    "Choose page size and font size.",
+    "Download the PDF."
+   ],
+   "faq": [
+    {
+     "q": "Is formatting kept?",
+     "a": "Paragraphs, bold and special characters. Tables and images are simplified."
+    }
+   ]
+  },
+  "pdf2txt": {
+   "name": "PDF to Text",
+   "short": "Extract plain text from a PDF.",
+   "title": "PDF to Text Converter – Extract Text from PDF Free | {brand}",
+   "desc": "Extract all text from a PDF as a .txt file, in reading order with paragraphs joined. Free, no upload.",
+   "h1": "PDF to Text",
+   "steps": [
+    "Select your PDF.",
+    "Choose whether to mark page breaks.",
+    "Download the text file."
+   ],
+   "faq": [
+    {
+     "q": "My PDF is a scan – no text?",
+     "a": "Use OCR PDF first to recognize the text."
+    }
+   ]
+  },
+  "pdf2html": {
+   "name": "PDF to HTML",
+   "short": "Convert a PDF to a clean web page.",
+   "title": "PDF to HTML Converter – Clean HTML from PDF Online | {brand}",
+   "desc": "Turn PDF text into clean, responsive HTML with headings and paragraphs. Perfect for publishing on the web.",
+   "h1": "PDF to HTML",
+   "steps": [
+    "Select your PDF.",
+    "Keep HTML preselected.",
+    "Download the HTML file."
+   ],
+   "faq": [
+    {
+     "q": "Is the layout identical?",
+     "a": "No – you get clean, readable HTML (headings, paragraphs), not a pixel copy."
+    }
+   ]
+  },
+  "pdf2md": {
+   "name": "PDF to Markdown",
+   "short": "Convert PDF to Markdown text.",
+   "title": "PDF to Markdown Converter – PDF to MD Online Free | {brand}",
+   "desc": "Convert PDF documents into Markdown with headings and lists detected – great for notes, docs and AI prompts.",
+   "h1": "PDF to Markdown",
+   "steps": [
+    "Select your PDF.",
+    "Keep Markdown preselected.",
+    "Download the .md file."
+   ],
+   "faq": [
+    {
+     "q": "How are headings detected?",
+     "a": "Lines with larger font size than the body text become # or ## headings."
+    }
+   ]
+  },
+  "pdf2svg": {
+   "name": "PDF to SVG",
+   "short": "Convert PDF pages to vector SVG.",
+   "title": "PDF to SVG Converter – Vector SVG from PDF Free | {brand}",
+   "desc": "Convert PDF pages into scalable SVG vector graphics, ready for Illustrator, Inkscape or the web. Pick page ranges.",
+   "h1": "PDF to SVG",
+   "steps": [
+    "Select your PDF.",
+    "Optionally pick pages.",
+    "Download SVG files (ZIP for several)."
+   ],
+   "faq": [
+    {
+     "q": "Is the output vector?",
+     "a": "Yes, paths and text are kept as vectors where possible."
+    }
+   ]
+  },
+  "pdf2tiff": {
+   "name": "PDF to TIFF",
+   "short": "Convert a PDF to a multi-page TIFF.",
+   "title": "PDF to TIFF Converter – Multi-page TIFF Online Free | {brand}",
+   "desc": "Convert PDF to a single multi-page TIFF with lossless Deflate compression at 100–300 DPI, colour or grayscale.",
+   "h1": "PDF to TIFF",
+   "steps": [
+    "Select your PDF.",
+    "Choose DPI and colour.",
+    "Download one multi-page TIFF."
+   ],
+   "faq": [
+    {
+     "q": "Is the TIFF compressed?",
+     "a": "Yes, lossless Deflate (Adobe ZIP) compression."
+    }
+   ]
+  },
+  "ocrpdf": {
+   "name": "OCR PDF",
+   "short": "Make scanned PDFs searchable.",
+   "title": "OCR PDF – Make Scanned PDF Searchable Free, 12 Languages | {brand}",
+   "desc": "Recognize text in scanned PDFs and add an invisible text layer so you can search, select and copy. English, Spanish, Hindi, Tamil, Arabic, Chinese and more – runs on your device.",
+   "h1": "OCR PDF – Searchable PDF",
+   "steps": [
+    "Select your scanned PDF.",
+    "Choose the document language(s).",
+    "Download the searchable PDF."
+   ],
+   "faq": [
+    {
+     "q": "Does the page look change?",
+     "a": "No – the original page stays, an invisible text layer is added on top."
+    },
+    {
+     "q": "How long does it take?",
+     "a": "About 2–6 seconds per page on a modern device. The first run downloads the language model (1–4 MB)."
+    }
+   ]
+  },
+  "ocr": {
+   "name": "Image to Text (OCR)",
+   "short": "Extract text from photos and screenshots.",
+   "title": "Image to Text – Free OCR Online, 12 Languages, No Upload | {brand}",
+   "desc": "Copy text from images, photos, screenshots and scans with OCR in 12 languages. Get plain text or a searchable PDF. Private: runs in your browser.",
+   "h1": "Image to Text (OCR)",
+   "steps": [
+    "Select images (JPG, PNG, HEIC…).",
+    "Choose language and output.",
+    "Copy or download the text."
+   ],
+   "faq": [
+    {
+     "q": "Which languages are supported?",
+     "a": "English, Spanish, French, German, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Chinese (Simplified) and Japanese."
+    },
+    {
+     "q": "Is my image uploaded?",
+     "a": "No – OCR runs entirely on your device."
+    }
+   ]
+  }
+ }
+}
